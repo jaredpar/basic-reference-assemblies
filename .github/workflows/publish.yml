@@ -1,0 +1,30 @@
+on: 
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Package Version'     
+        required: true
+        default: ''
+
+#    echo "Log level: ${{ github.event.inputs.logLevel }}"
+jobs:
+  publish:
+    name: Publish NuGet 
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 5.0.x
+
+      - name: Publish Net50
+        id: publish_nuget
+        uses: rohith/publish-nuget@v2
+        with:
+          # Filepath of the project to be packaged, relative to root of repository
+          PROJECT_FILE_PATH: Basic.Reference.Assemblies.Net50/Basic.Reference.Assemblies.Net50.csproj
+          VERSION_STATIC: ${{ github.event.inputs.version }}
+          TAG_FORMAT: v*
+          INCLUDE_SYMBOLS: true
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
