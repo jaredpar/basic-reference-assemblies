@@ -1,0 +1,612 @@
+﻿  <Project>
+      <ItemGroup>
+        <Compile Include="..\Shared\ResourceLoader.cs" Link="ResourceLoader.cs" />
+      </ItemGroup>
+
+      <ItemGroup>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\Microsoft.CSharp.dll">
+          <LogicalName>netcoreapp31.Microsoft.CSharp</LogicalName>
+          <Link>Resources\netcoreapp31\Microsoft.CSharp.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\Microsoft.VisualBasic.Core.dll">
+          <LogicalName>netcoreapp31.Microsoft.VisualBasic.Core</LogicalName>
+          <Link>Resources\netcoreapp31\Microsoft.VisualBasic.Core.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\Microsoft.VisualBasic.dll">
+          <LogicalName>netcoreapp31.Microsoft.VisualBasic</LogicalName>
+          <Link>Resources\netcoreapp31\Microsoft.VisualBasic.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\Microsoft.Win32.Primitives.dll">
+          <LogicalName>netcoreapp31.Microsoft.Win32.Primitives</LogicalName>
+          <Link>Resources\netcoreapp31\Microsoft.Win32.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\mscorlib.dll">
+          <LogicalName>netcoreapp31.mscorlib</LogicalName>
+          <Link>Resources\netcoreapp31\mscorlib.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\netstandard.dll">
+          <LogicalName>netcoreapp31.netstandard</LogicalName>
+          <Link>Resources\netcoreapp31\netstandard.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.AppContext.dll">
+          <LogicalName>netcoreapp31.System.AppContext</LogicalName>
+          <Link>Resources\netcoreapp31\System.AppContext.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Buffers.dll">
+          <LogicalName>netcoreapp31.System.Buffers</LogicalName>
+          <Link>Resources\netcoreapp31\System.Buffers.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Collections.Concurrent.dll">
+          <LogicalName>netcoreapp31.System.Collections.Concurrent</LogicalName>
+          <Link>Resources\netcoreapp31\System.Collections.Concurrent.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Collections.dll">
+          <LogicalName>netcoreapp31.System.Collections</LogicalName>
+          <Link>Resources\netcoreapp31\System.Collections.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Collections.Immutable.dll">
+          <LogicalName>netcoreapp31.System.Collections.Immutable</LogicalName>
+          <Link>Resources\netcoreapp31\System.Collections.Immutable.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Collections.NonGeneric.dll">
+          <LogicalName>netcoreapp31.System.Collections.NonGeneric</LogicalName>
+          <Link>Resources\netcoreapp31\System.Collections.NonGeneric.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Collections.Specialized.dll">
+          <LogicalName>netcoreapp31.System.Collections.Specialized</LogicalName>
+          <Link>Resources\netcoreapp31\System.Collections.Specialized.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.ComponentModel.Annotations.dll">
+          <LogicalName>netcoreapp31.System.ComponentModel.Annotations</LogicalName>
+          <Link>Resources\netcoreapp31\System.ComponentModel.Annotations.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.ComponentModel.DataAnnotations.dll">
+          <LogicalName>netcoreapp31.System.ComponentModel.DataAnnotations</LogicalName>
+          <Link>Resources\netcoreapp31\System.ComponentModel.DataAnnotations.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.ComponentModel.dll">
+          <LogicalName>netcoreapp31.System.ComponentModel</LogicalName>
+          <Link>Resources\netcoreapp31\System.ComponentModel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.ComponentModel.EventBasedAsync.dll">
+          <LogicalName>netcoreapp31.System.ComponentModel.EventBasedAsync</LogicalName>
+          <Link>Resources\netcoreapp31\System.ComponentModel.EventBasedAsync.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.ComponentModel.Primitives.dll">
+          <LogicalName>netcoreapp31.System.ComponentModel.Primitives</LogicalName>
+          <Link>Resources\netcoreapp31\System.ComponentModel.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.ComponentModel.TypeConverter.dll">
+          <LogicalName>netcoreapp31.System.ComponentModel.TypeConverter</LogicalName>
+          <Link>Resources\netcoreapp31\System.ComponentModel.TypeConverter.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Configuration.dll">
+          <LogicalName>netcoreapp31.System.Configuration</LogicalName>
+          <Link>Resources\netcoreapp31\System.Configuration.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Console.dll">
+          <LogicalName>netcoreapp31.System.Console</LogicalName>
+          <Link>Resources\netcoreapp31\System.Console.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Core.dll">
+          <LogicalName>netcoreapp31.System.Core</LogicalName>
+          <Link>Resources\netcoreapp31\System.Core.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Data.Common.dll">
+          <LogicalName>netcoreapp31.System.Data.Common</LogicalName>
+          <Link>Resources\netcoreapp31\System.Data.Common.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Data.DataSetExtensions.dll">
+          <LogicalName>netcoreapp31.System.Data.DataSetExtensions</LogicalName>
+          <Link>Resources\netcoreapp31\System.Data.DataSetExtensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Data.dll">
+          <LogicalName>netcoreapp31.System.Data</LogicalName>
+          <Link>Resources\netcoreapp31\System.Data.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Diagnostics.Contracts.dll">
+          <LogicalName>netcoreapp31.System.Diagnostics.Contracts</LogicalName>
+          <Link>Resources\netcoreapp31\System.Diagnostics.Contracts.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Diagnostics.Debug.dll">
+          <LogicalName>netcoreapp31.System.Diagnostics.Debug</LogicalName>
+          <Link>Resources\netcoreapp31\System.Diagnostics.Debug.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll">
+          <LogicalName>netcoreapp31.System.Diagnostics.DiagnosticSource</LogicalName>
+          <Link>Resources\netcoreapp31\System.Diagnostics.DiagnosticSource.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Diagnostics.FileVersionInfo.dll">
+          <LogicalName>netcoreapp31.System.Diagnostics.FileVersionInfo</LogicalName>
+          <Link>Resources\netcoreapp31\System.Diagnostics.FileVersionInfo.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Diagnostics.Process.dll">
+          <LogicalName>netcoreapp31.System.Diagnostics.Process</LogicalName>
+          <Link>Resources\netcoreapp31\System.Diagnostics.Process.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Diagnostics.StackTrace.dll">
+          <LogicalName>netcoreapp31.System.Diagnostics.StackTrace</LogicalName>
+          <Link>Resources\netcoreapp31\System.Diagnostics.StackTrace.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Diagnostics.TextWriterTraceListener.dll">
+          <LogicalName>netcoreapp31.System.Diagnostics.TextWriterTraceListener</LogicalName>
+          <Link>Resources\netcoreapp31\System.Diagnostics.TextWriterTraceListener.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Diagnostics.Tools.dll">
+          <LogicalName>netcoreapp31.System.Diagnostics.Tools</LogicalName>
+          <Link>Resources\netcoreapp31\System.Diagnostics.Tools.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Diagnostics.TraceSource.dll">
+          <LogicalName>netcoreapp31.System.Diagnostics.TraceSource</LogicalName>
+          <Link>Resources\netcoreapp31\System.Diagnostics.TraceSource.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Diagnostics.Tracing.dll">
+          <LogicalName>netcoreapp31.System.Diagnostics.Tracing</LogicalName>
+          <Link>Resources\netcoreapp31\System.Diagnostics.Tracing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.dll">
+          <LogicalName>netcoreapp31.System</LogicalName>
+          <Link>Resources\netcoreapp31\System.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Drawing.dll">
+          <LogicalName>netcoreapp31.System.Drawing</LogicalName>
+          <Link>Resources\netcoreapp31\System.Drawing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Drawing.Primitives.dll">
+          <LogicalName>netcoreapp31.System.Drawing.Primitives</LogicalName>
+          <Link>Resources\netcoreapp31\System.Drawing.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Dynamic.Runtime.dll">
+          <LogicalName>netcoreapp31.System.Dynamic.Runtime</LogicalName>
+          <Link>Resources\netcoreapp31\System.Dynamic.Runtime.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Globalization.Calendars.dll">
+          <LogicalName>netcoreapp31.System.Globalization.Calendars</LogicalName>
+          <Link>Resources\netcoreapp31\System.Globalization.Calendars.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Globalization.dll">
+          <LogicalName>netcoreapp31.System.Globalization</LogicalName>
+          <Link>Resources\netcoreapp31\System.Globalization.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Globalization.Extensions.dll">
+          <LogicalName>netcoreapp31.System.Globalization.Extensions</LogicalName>
+          <Link>Resources\netcoreapp31\System.Globalization.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.IO.Compression.Brotli.dll">
+          <LogicalName>netcoreapp31.System.IO.Compression.Brotli</LogicalName>
+          <Link>Resources\netcoreapp31\System.IO.Compression.Brotli.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.IO.Compression.dll">
+          <LogicalName>netcoreapp31.System.IO.Compression</LogicalName>
+          <Link>Resources\netcoreapp31\System.IO.Compression.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.IO.Compression.FileSystem.dll">
+          <LogicalName>netcoreapp31.System.IO.Compression.FileSystem</LogicalName>
+          <Link>Resources\netcoreapp31\System.IO.Compression.FileSystem.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.IO.Compression.ZipFile.dll">
+          <LogicalName>netcoreapp31.System.IO.Compression.ZipFile</LogicalName>
+          <Link>Resources\netcoreapp31\System.IO.Compression.ZipFile.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.IO.dll">
+          <LogicalName>netcoreapp31.System.IO</LogicalName>
+          <Link>Resources\netcoreapp31\System.IO.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.IO.FileSystem.dll">
+          <LogicalName>netcoreapp31.System.IO.FileSystem</LogicalName>
+          <Link>Resources\netcoreapp31\System.IO.FileSystem.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.IO.FileSystem.DriveInfo.dll">
+          <LogicalName>netcoreapp31.System.IO.FileSystem.DriveInfo</LogicalName>
+          <Link>Resources\netcoreapp31\System.IO.FileSystem.DriveInfo.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.IO.FileSystem.Primitives.dll">
+          <LogicalName>netcoreapp31.System.IO.FileSystem.Primitives</LogicalName>
+          <Link>Resources\netcoreapp31\System.IO.FileSystem.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.IO.FileSystem.Watcher.dll">
+          <LogicalName>netcoreapp31.System.IO.FileSystem.Watcher</LogicalName>
+          <Link>Resources\netcoreapp31\System.IO.FileSystem.Watcher.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.IO.IsolatedStorage.dll">
+          <LogicalName>netcoreapp31.System.IO.IsolatedStorage</LogicalName>
+          <Link>Resources\netcoreapp31\System.IO.IsolatedStorage.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.IO.MemoryMappedFiles.dll">
+          <LogicalName>netcoreapp31.System.IO.MemoryMappedFiles</LogicalName>
+          <Link>Resources\netcoreapp31\System.IO.MemoryMappedFiles.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.IO.Pipes.dll">
+          <LogicalName>netcoreapp31.System.IO.Pipes</LogicalName>
+          <Link>Resources\netcoreapp31\System.IO.Pipes.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.IO.UnmanagedMemoryStream.dll">
+          <LogicalName>netcoreapp31.System.IO.UnmanagedMemoryStream</LogicalName>
+          <Link>Resources\netcoreapp31\System.IO.UnmanagedMemoryStream.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Linq.dll">
+          <LogicalName>netcoreapp31.System.Linq</LogicalName>
+          <Link>Resources\netcoreapp31\System.Linq.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Linq.Expressions.dll">
+          <LogicalName>netcoreapp31.System.Linq.Expressions</LogicalName>
+          <Link>Resources\netcoreapp31\System.Linq.Expressions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Linq.Parallel.dll">
+          <LogicalName>netcoreapp31.System.Linq.Parallel</LogicalName>
+          <Link>Resources\netcoreapp31\System.Linq.Parallel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Linq.Queryable.dll">
+          <LogicalName>netcoreapp31.System.Linq.Queryable</LogicalName>
+          <Link>Resources\netcoreapp31\System.Linq.Queryable.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Memory.dll">
+          <LogicalName>netcoreapp31.System.Memory</LogicalName>
+          <Link>Resources\netcoreapp31\System.Memory.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.dll">
+          <LogicalName>netcoreapp31.System.Net</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.Http.dll">
+          <LogicalName>netcoreapp31.System.Net.Http</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.Http.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.HttpListener.dll">
+          <LogicalName>netcoreapp31.System.Net.HttpListener</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.HttpListener.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.Mail.dll">
+          <LogicalName>netcoreapp31.System.Net.Mail</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.Mail.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.NameResolution.dll">
+          <LogicalName>netcoreapp31.System.Net.NameResolution</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.NameResolution.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.NetworkInformation.dll">
+          <LogicalName>netcoreapp31.System.Net.NetworkInformation</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.NetworkInformation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.Ping.dll">
+          <LogicalName>netcoreapp31.System.Net.Ping</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.Ping.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.Primitives.dll">
+          <LogicalName>netcoreapp31.System.Net.Primitives</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.Requests.dll">
+          <LogicalName>netcoreapp31.System.Net.Requests</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.Requests.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.Security.dll">
+          <LogicalName>netcoreapp31.System.Net.Security</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.Security.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.ServicePoint.dll">
+          <LogicalName>netcoreapp31.System.Net.ServicePoint</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.ServicePoint.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.Sockets.dll">
+          <LogicalName>netcoreapp31.System.Net.Sockets</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.Sockets.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.WebClient.dll">
+          <LogicalName>netcoreapp31.System.Net.WebClient</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.WebClient.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.WebHeaderCollection.dll">
+          <LogicalName>netcoreapp31.System.Net.WebHeaderCollection</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.WebHeaderCollection.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.WebProxy.dll">
+          <LogicalName>netcoreapp31.System.Net.WebProxy</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.WebProxy.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.WebSockets.Client.dll">
+          <LogicalName>netcoreapp31.System.Net.WebSockets.Client</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.WebSockets.Client.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Net.WebSockets.dll">
+          <LogicalName>netcoreapp31.System.Net.WebSockets</LogicalName>
+          <Link>Resources\netcoreapp31\System.Net.WebSockets.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Numerics.dll">
+          <LogicalName>netcoreapp31.System.Numerics</LogicalName>
+          <Link>Resources\netcoreapp31\System.Numerics.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Numerics.Vectors.dll">
+          <LogicalName>netcoreapp31.System.Numerics.Vectors</LogicalName>
+          <Link>Resources\netcoreapp31\System.Numerics.Vectors.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.ObjectModel.dll">
+          <LogicalName>netcoreapp31.System.ObjectModel</LogicalName>
+          <Link>Resources\netcoreapp31\System.ObjectModel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Reflection.DispatchProxy.dll">
+          <LogicalName>netcoreapp31.System.Reflection.DispatchProxy</LogicalName>
+          <Link>Resources\netcoreapp31\System.Reflection.DispatchProxy.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Reflection.dll">
+          <LogicalName>netcoreapp31.System.Reflection</LogicalName>
+          <Link>Resources\netcoreapp31\System.Reflection.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Reflection.Emit.dll">
+          <LogicalName>netcoreapp31.System.Reflection.Emit</LogicalName>
+          <Link>Resources\netcoreapp31\System.Reflection.Emit.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Reflection.Emit.ILGeneration.dll">
+          <LogicalName>netcoreapp31.System.Reflection.Emit.ILGeneration</LogicalName>
+          <Link>Resources\netcoreapp31\System.Reflection.Emit.ILGeneration.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Reflection.Emit.Lightweight.dll">
+          <LogicalName>netcoreapp31.System.Reflection.Emit.Lightweight</LogicalName>
+          <Link>Resources\netcoreapp31\System.Reflection.Emit.Lightweight.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Reflection.Extensions.dll">
+          <LogicalName>netcoreapp31.System.Reflection.Extensions</LogicalName>
+          <Link>Resources\netcoreapp31\System.Reflection.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Reflection.Metadata.dll">
+          <LogicalName>netcoreapp31.System.Reflection.Metadata</LogicalName>
+          <Link>Resources\netcoreapp31\System.Reflection.Metadata.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Reflection.Primitives.dll">
+          <LogicalName>netcoreapp31.System.Reflection.Primitives</LogicalName>
+          <Link>Resources\netcoreapp31\System.Reflection.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Reflection.TypeExtensions.dll">
+          <LogicalName>netcoreapp31.System.Reflection.TypeExtensions</LogicalName>
+          <Link>Resources\netcoreapp31\System.Reflection.TypeExtensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Resources.Reader.dll">
+          <LogicalName>netcoreapp31.System.Resources.Reader</LogicalName>
+          <Link>Resources\netcoreapp31\System.Resources.Reader.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Resources.ResourceManager.dll">
+          <LogicalName>netcoreapp31.System.Resources.ResourceManager</LogicalName>
+          <Link>Resources\netcoreapp31\System.Resources.ResourceManager.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Resources.Writer.dll">
+          <LogicalName>netcoreapp31.System.Resources.Writer</LogicalName>
+          <Link>Resources\netcoreapp31\System.Resources.Writer.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll">
+          <LogicalName>netcoreapp31.System.Runtime.CompilerServices.Unsafe</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.CompilerServices.Unsafe.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.CompilerServices.VisualC.dll">
+          <LogicalName>netcoreapp31.System.Runtime.CompilerServices.VisualC</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.CompilerServices.VisualC.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.dll">
+          <LogicalName>netcoreapp31.System.Runtime</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.Extensions.dll">
+          <LogicalName>netcoreapp31.System.Runtime.Extensions</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.Handles.dll">
+          <LogicalName>netcoreapp31.System.Runtime.Handles</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.Handles.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.InteropServices.dll">
+          <LogicalName>netcoreapp31.System.Runtime.InteropServices</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.InteropServices.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.InteropServices.RuntimeInformation.dll">
+          <LogicalName>netcoreapp31.System.Runtime.InteropServices.RuntimeInformation</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.InteropServices.RuntimeInformation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.InteropServices.WindowsRuntime.dll">
+          <LogicalName>netcoreapp31.System.Runtime.InteropServices.WindowsRuntime</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.InteropServices.WindowsRuntime.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.Intrinsics.dll">
+          <LogicalName>netcoreapp31.System.Runtime.Intrinsics</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.Intrinsics.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.Loader.dll">
+          <LogicalName>netcoreapp31.System.Runtime.Loader</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.Loader.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.Numerics.dll">
+          <LogicalName>netcoreapp31.System.Runtime.Numerics</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.Numerics.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.Serialization.dll">
+          <LogicalName>netcoreapp31.System.Runtime.Serialization</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.Serialization.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.Serialization.Formatters.dll">
+          <LogicalName>netcoreapp31.System.Runtime.Serialization.Formatters</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.Serialization.Formatters.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.Serialization.Json.dll">
+          <LogicalName>netcoreapp31.System.Runtime.Serialization.Json</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.Serialization.Json.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.Serialization.Primitives.dll">
+          <LogicalName>netcoreapp31.System.Runtime.Serialization.Primitives</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.Serialization.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Runtime.Serialization.Xml.dll">
+          <LogicalName>netcoreapp31.System.Runtime.Serialization.Xml</LogicalName>
+          <Link>Resources\netcoreapp31\System.Runtime.Serialization.Xml.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Security.Claims.dll">
+          <LogicalName>netcoreapp31.System.Security.Claims</LogicalName>
+          <Link>Resources\netcoreapp31\System.Security.Claims.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Security.Cryptography.Algorithms.dll">
+          <LogicalName>netcoreapp31.System.Security.Cryptography.Algorithms</LogicalName>
+          <Link>Resources\netcoreapp31\System.Security.Cryptography.Algorithms.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Security.Cryptography.Csp.dll">
+          <LogicalName>netcoreapp31.System.Security.Cryptography.Csp</LogicalName>
+          <Link>Resources\netcoreapp31\System.Security.Cryptography.Csp.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Security.Cryptography.Encoding.dll">
+          <LogicalName>netcoreapp31.System.Security.Cryptography.Encoding</LogicalName>
+          <Link>Resources\netcoreapp31\System.Security.Cryptography.Encoding.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Security.Cryptography.Primitives.dll">
+          <LogicalName>netcoreapp31.System.Security.Cryptography.Primitives</LogicalName>
+          <Link>Resources\netcoreapp31\System.Security.Cryptography.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Security.Cryptography.X509Certificates.dll">
+          <LogicalName>netcoreapp31.System.Security.Cryptography.X509Certificates</LogicalName>
+          <Link>Resources\netcoreapp31\System.Security.Cryptography.X509Certificates.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Security.dll">
+          <LogicalName>netcoreapp31.System.Security</LogicalName>
+          <Link>Resources\netcoreapp31\System.Security.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Security.Principal.dll">
+          <LogicalName>netcoreapp31.System.Security.Principal</LogicalName>
+          <Link>Resources\netcoreapp31\System.Security.Principal.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Security.SecureString.dll">
+          <LogicalName>netcoreapp31.System.Security.SecureString</LogicalName>
+          <Link>Resources\netcoreapp31\System.Security.SecureString.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.ServiceModel.Web.dll">
+          <LogicalName>netcoreapp31.System.ServiceModel.Web</LogicalName>
+          <Link>Resources\netcoreapp31\System.ServiceModel.Web.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.ServiceProcess.dll">
+          <LogicalName>netcoreapp31.System.ServiceProcess</LogicalName>
+          <Link>Resources\netcoreapp31\System.ServiceProcess.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Text.Encoding.CodePages.dll">
+          <LogicalName>netcoreapp31.System.Text.Encoding.CodePages</LogicalName>
+          <Link>Resources\netcoreapp31\System.Text.Encoding.CodePages.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Text.Encoding.dll">
+          <LogicalName>netcoreapp31.System.Text.Encoding</LogicalName>
+          <Link>Resources\netcoreapp31\System.Text.Encoding.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Text.Encoding.Extensions.dll">
+          <LogicalName>netcoreapp31.System.Text.Encoding.Extensions</LogicalName>
+          <Link>Resources\netcoreapp31\System.Text.Encoding.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Text.Encodings.Web.dll">
+          <LogicalName>netcoreapp31.System.Text.Encodings.Web</LogicalName>
+          <Link>Resources\netcoreapp31\System.Text.Encodings.Web.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Text.Json.dll">
+          <LogicalName>netcoreapp31.System.Text.Json</LogicalName>
+          <Link>Resources\netcoreapp31\System.Text.Json.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Text.RegularExpressions.dll">
+          <LogicalName>netcoreapp31.System.Text.RegularExpressions</LogicalName>
+          <Link>Resources\netcoreapp31\System.Text.RegularExpressions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Threading.Channels.dll">
+          <LogicalName>netcoreapp31.System.Threading.Channels</LogicalName>
+          <Link>Resources\netcoreapp31\System.Threading.Channels.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Threading.dll">
+          <LogicalName>netcoreapp31.System.Threading</LogicalName>
+          <Link>Resources\netcoreapp31\System.Threading.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Threading.Overlapped.dll">
+          <LogicalName>netcoreapp31.System.Threading.Overlapped</LogicalName>
+          <Link>Resources\netcoreapp31\System.Threading.Overlapped.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Threading.Tasks.Dataflow.dll">
+          <LogicalName>netcoreapp31.System.Threading.Tasks.Dataflow</LogicalName>
+          <Link>Resources\netcoreapp31\System.Threading.Tasks.Dataflow.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Threading.Tasks.dll">
+          <LogicalName>netcoreapp31.System.Threading.Tasks</LogicalName>
+          <Link>Resources\netcoreapp31\System.Threading.Tasks.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Threading.Tasks.Extensions.dll">
+          <LogicalName>netcoreapp31.System.Threading.Tasks.Extensions</LogicalName>
+          <Link>Resources\netcoreapp31\System.Threading.Tasks.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Threading.Tasks.Parallel.dll">
+          <LogicalName>netcoreapp31.System.Threading.Tasks.Parallel</LogicalName>
+          <Link>Resources\netcoreapp31\System.Threading.Tasks.Parallel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Threading.Thread.dll">
+          <LogicalName>netcoreapp31.System.Threading.Thread</LogicalName>
+          <Link>Resources\netcoreapp31\System.Threading.Thread.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Threading.ThreadPool.dll">
+          <LogicalName>netcoreapp31.System.Threading.ThreadPool</LogicalName>
+          <Link>Resources\netcoreapp31\System.Threading.ThreadPool.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Threading.Timer.dll">
+          <LogicalName>netcoreapp31.System.Threading.Timer</LogicalName>
+          <Link>Resources\netcoreapp31\System.Threading.Timer.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Transactions.dll">
+          <LogicalName>netcoreapp31.System.Transactions</LogicalName>
+          <Link>Resources\netcoreapp31\System.Transactions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Transactions.Local.dll">
+          <LogicalName>netcoreapp31.System.Transactions.Local</LogicalName>
+          <Link>Resources\netcoreapp31\System.Transactions.Local.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.ValueTuple.dll">
+          <LogicalName>netcoreapp31.System.ValueTuple</LogicalName>
+          <Link>Resources\netcoreapp31\System.ValueTuple.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Web.dll">
+          <LogicalName>netcoreapp31.System.Web</LogicalName>
+          <Link>Resources\netcoreapp31\System.Web.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Web.HttpUtility.dll">
+          <LogicalName>netcoreapp31.System.Web.HttpUtility</LogicalName>
+          <Link>Resources\netcoreapp31\System.Web.HttpUtility.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Windows.dll">
+          <LogicalName>netcoreapp31.System.Windows</LogicalName>
+          <Link>Resources\netcoreapp31\System.Windows.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.dll">
+          <LogicalName>netcoreapp31.System.Xml</LogicalName>
+          <Link>Resources\netcoreapp31\System.Xml.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.Linq.dll">
+          <LogicalName>netcoreapp31.System.Xml.Linq</LogicalName>
+          <Link>Resources\netcoreapp31\System.Xml.Linq.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.ReaderWriter.dll">
+          <LogicalName>netcoreapp31.System.Xml.ReaderWriter</LogicalName>
+          <Link>Resources\netcoreapp31\System.Xml.ReaderWriter.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.Serialization.dll">
+          <LogicalName>netcoreapp31.System.Xml.Serialization</LogicalName>
+          <Link>Resources\netcoreapp31\System.Xml.Serialization.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.XDocument.dll">
+          <LogicalName>netcoreapp31.System.Xml.XDocument</LogicalName>
+          <Link>Resources\netcoreapp31\System.Xml.XDocument.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.XmlDocument.dll">
+          <LogicalName>netcoreapp31.System.Xml.XmlDocument</LogicalName>
+          <Link>Resources\netcoreapp31\System.Xml.XmlDocument.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.XmlSerializer.dll">
+          <LogicalName>netcoreapp31.System.Xml.XmlSerializer</LogicalName>
+          <Link>Resources\netcoreapp31\System.Xml.XmlSerializer.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.XPath.dll">
+          <LogicalName>netcoreapp31.System.Xml.XPath</LogicalName>
+          <Link>Resources\netcoreapp31\System.Xml.XPath.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\System.Xml.XPath.XDocument.dll">
+          <LogicalName>netcoreapp31.System.Xml.XPath.XDocument</LogicalName>
+          <Link>Resources\netcoreapp31\System.Xml.XPath.XDocument.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1\WindowsBase.dll">
+          <LogicalName>netcoreapp31.WindowsBase</LogicalName>
+          <Link>Resources\netcoreapp31\WindowsBase.dll</Link>
+        </EmbeddedResource>
+    </ItemGroup>
+  </Project>
