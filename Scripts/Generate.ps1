@@ -120,5 +120,10 @@ $targetDir = Join-Path $PSScriptRoot "..\DotNet.Reference.Assemblies.NetCoreApp3
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
+# Net50
+$map = Get-Content "Net50" 'Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0'
+$targetDir = Join-Path $PSScriptRoot "..\DotNet.Reference.Assemblies.Net50"
+$map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
+$map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
 #dd-TargetFramework "NetStandard20" 'netstandard.library\2.0.3\build\netstandard2.0\ref'

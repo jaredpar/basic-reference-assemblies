@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>DotNet.Reference.Assemblies.NetCoreApp31</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

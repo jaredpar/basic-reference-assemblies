@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using Xunit;
 
 namespace DotNet.Reference.Assemblies.UnitTests
@@ -12,6 +13,17 @@ namespace DotNet.Reference.Assemblies.UnitTests
             {
                 Assert.NotNull(portableRef);
             }
+            Assert.True(NetCoreApp31.All.Count() > 50);
+        }
+
+        [Fact]
+        public void Net50Tests()
+        {
+            foreach (var portableRef in Net50.All)
+            {
+                Assert.NotNull(portableRef);
+            }
+            Assert.True(Net50.All.Count() > 50);
         }
     }
 }
