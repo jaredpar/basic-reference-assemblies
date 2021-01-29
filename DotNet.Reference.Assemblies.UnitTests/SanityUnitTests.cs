@@ -25,5 +25,15 @@ namespace DotNet.Reference.Assemblies.UnitTests
             }
             Assert.True(Net50.All.Count() > 50);
         }
+
+        [Fact]
+        public void NetStandard20Tests()
+        {
+            foreach (var portableRef in NetStandard20.All)
+            {
+                Assert.NotNull(portableRef);
+            }
+            Assert.True(NetStandard20.All.Count() > 50);
+        }
     }
 }

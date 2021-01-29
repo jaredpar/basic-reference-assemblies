@@ -126,4 +126,8 @@ $targetDir = Join-Path $PSScriptRoot "..\DotNet.Reference.Assemblies.Net50"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
-#dd-TargetFramework "NetStandard20" 'netstandard.library\2.0.3\build\netstandard2.0\ref'
+# NetStandard2.0
+$map = Get-Content "NetStandard20" 'netstandard.library\2.0.3\build\netstandard2.0\ref'
+$targetDir = Join-Path $PSScriptRoot "..\DotNet.Reference.Assemblies.NetStandard20"
+$map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
+$map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
