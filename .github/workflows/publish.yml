@@ -35,4 +35,4 @@ jobs:
         run: dotnet pack --no-build -p:IncludeSymbols=false -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.NetStandard20/Basic.Reference.Assemblies.NetStandard20.csproj -o .
 
       - name: Publish NuPkg Files
-        run: dotnet nuget push "*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json --no-symbols 
+        run: dotnet nuget push "*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json 
