@@ -115,13 +115,13 @@ function Get-Content($name, $packagePath)
 }
 
 # NetCoreApp31 
-$map = Get-Content "NetCoreApp31" 'Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1' 
+$map = Get-Content "NetCoreApp31" 'microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1' 
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.NetCoreApp31"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
 # Net50
-$map = Get-Content "Net50" 'Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0'
+$map = Get-Content "Net50" 'microsoft.netcore.app.ref\5.0.0\ref\net5.0'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net50"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
