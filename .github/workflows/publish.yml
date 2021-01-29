@@ -1,3 +1,4 @@
+name: Publish NuGet Packages
 on: 
   workflow_dispatch:
     inputs:
@@ -19,7 +20,7 @@ jobs:
           dotnet-version: 5.0.x
 
       - name: Publish Net50
-        id: publish_nuget
+        id: publish_nuget_net50
         uses: rohith/publish-nuget@v2
         with:
           # Filepath of the project to be packaged, relative to root of repository
@@ -29,7 +30,7 @@ jobs:
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
 
       - name: Publish NetCoreApp31
-        id: publish_nuget
+        id: publish_nuget_netcoreapp31
         uses: rohith/publish-nuget@v2
         with:
           # Filepath of the project to be packaged, relative to root of repository
@@ -39,7 +40,7 @@ jobs:
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
 
       - name: Publish NetStandard20
-        id: publish_nuget
+        id: publish_nuget_netstandard20
         uses: rohith/publish-nuget@v2
         with:
           # Filepath of the project to be packaged, relative to root of repository
