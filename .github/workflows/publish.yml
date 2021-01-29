@@ -26,13 +26,13 @@ jobs:
         run: dotnet build -c Release -p:PackageVersion="${{ github.events.inputs.version }}" 
       
       - name: Pack Net50
-        run: dotnet pack --no-build -C Release Basic.Reference.Assemblies.Net50/Basic.Reference.Assemblies.Net50.csproj .
+        run: dotnet pack --no-build -c Release Basic.Reference.Assemblies.Net50/Basic.Reference.Assemblies.Net50.csproj .
 
       - name: Pack NetCoreApp31
-        run: dotnet pack --no-build -C Release Basic.Reference.Assemblies.NetCoreApp31/Basic.Reference.Assemblies.NetCoreApp31.csproj .
+        run: dotnet pack --no-build -c Release Basic.Reference.Assemblies.NetCoreApp31/Basic.Reference.Assemblies.NetCoreApp31.csproj .
 
       - name: Pack NetStandard20
-        run: dotnet pack --no-build -C Release Basic.Reference.Assemblies.NetCoreApp31/Basic.Reference.Assemblies.NetStandard20.csproj .
+        run: dotnet pack --no-build -c Release Basic.Reference.Assemblies.NetCoreApp31/Basic.Reference.Assemblies.NetStandard20.csproj .
 
       - name: Publish NuPkg Files
         run: dotnet nuget push -k ${{ secrets.NUGET_API_KEY }} --no-symbols Basic.Reference.Assemblies.Net50.nupkg Basic.Reference.Assemblies.NetCoreApp31.nupkg Basic.Reference.Assemblies.NetStandard20.nupkg
