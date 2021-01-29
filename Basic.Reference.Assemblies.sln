@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.Reference.Assemblies.NetCoreApp31", "DotNet.Reference.Assemblies.NetCoreApp31\DotNet.Reference.Assemblies.NetCoreApp31.csproj", "{23924D94-13B5-48E4-B90D-E55ADB6E5404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.NetCoreApp31", "Basic.Reference.Assemblies.NetCoreApp31\Basic.Reference.Assemblies.NetCoreApp31.csproj", "{23924D94-13B5-48E4-B90D-E55ADB6E5404}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.Reference.Assemblies.UnitTests", "DotNet.Reference.Assemblies.UnitTests\DotNet.Reference.Assemblies.UnitTests.csproj", "{DF2FCB24-4D84-46F8-9469-CC48C9AC9CC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.UnitTests", "Basic.Reference.Assemblies.UnitTests\Basic.Reference.Assemblies.UnitTests.csproj", "{DF2FCB24-4D84-46F8-9469-CC48C9AC9CC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.Reference.Assemblies.Net50", "DotNet.Reference.Assemblies.Net50\DotNet.Reference.Assemblies.Net50.csproj", "{A14B94F6-BC0E-4412-ACDF-9C9640220B03}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net50", "Basic.Reference.Assemblies.Net50\Basic.Reference.Assemblies.Net50.csproj", "{A14B94F6-BC0E-4412-ACDF-9C9640220B03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.Reference.Assemblies.NetStandard20", "DotNet.Reference.Assemblies.NetStandard20\DotNet.Reference.Assemblies.NetStandard20.csproj", "{36D1BA52-3A5E-4680-8B47-26A308DFC889}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.NetStandard20", "Basic.Reference.Assemblies.NetStandard20\Basic.Reference.Assemblies.NetStandard20.csproj", "{36D1BA52-3A5E-4680-8B47-26A308DFC889}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

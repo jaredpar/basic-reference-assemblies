@@ -3,7 +3,7 @@
   using System.Collections.Generic;
   using Microsoft.CodeAnalysis;
 
-  namespace DotNet.Reference.Assemblies
+  namespace Basic.Reference.Assemblies
   {
     internal static class NetStandard20Resources
     {

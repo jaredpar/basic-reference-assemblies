@@ -14,9 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DotNet.Reference.Assemblies.Net50\DotNet.Reference.Assemblies.Net50.csproj" />
-    <ProjectReference Include="..\DotNet.Reference.Assemblies.NetCoreApp31\DotNet.Reference.Assemblies.NetCoreApp31.csproj" />
-    <ProjectReference Include="..\DotNet.Reference.Assemblies.NetStandard20\DotNet.Reference.Assemblies.NetStandard20.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies.Net50\Basic.Reference.Assemblies.Net50.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies.NetCoreApp31\Basic.Reference.Assemblies.NetCoreApp31.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies.NetStandard20\Basic.Reference.Assemblies.NetStandard20.csproj" />
   </ItemGroup>
 
 </Project>

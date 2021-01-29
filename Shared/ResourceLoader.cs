@@ -3,7 +3,7 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 
-namespace DotNet.Reference.Assemblies
+namespace Basic.Reference.Assemblies
 {
     internal static class ResourceLoader
     {

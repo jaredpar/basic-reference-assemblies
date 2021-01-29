@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using Xunit;
 
-namespace DotNet.Reference.Assemblies.UnitTests
+namespace Basic.Reference.Assemblies.UnitTests
 {
     public class SanityUnitTests
     {

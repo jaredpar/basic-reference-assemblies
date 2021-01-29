@@ -25,7 +25,7 @@ function Get-Content($name, $packagePath)
   using System.Collections.Generic;
   using Microsoft.CodeAnalysis;
 
-  namespace DotNet.Reference.Assemblies
+  namespace Basic.Reference.Assemblies
   {
 
 "@;
@@ -116,18 +116,18 @@ function Get-Content($name, $packagePath)
 
 # NetCoreApp31 
 $map = Get-Content "NetCoreApp31" 'Microsoft.NETCore.App.Ref\3.1.0\ref\netcoreapp3.1' 
-$targetDir = Join-Path $PSScriptRoot "..\DotNet.Reference.Assemblies.NetCoreApp31"
+$targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.NetCoreApp31"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
 # Net50
 $map = Get-Content "Net50" 'Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0'
-$targetDir = Join-Path $PSScriptRoot "..\DotNet.Reference.Assemblies.Net50"
+$targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net50"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
 # NetStandard2.0
 $map = Get-Content "NetStandard20" 'netstandard.library\2.0.3\build\netstandard2.0\ref'
-$targetDir = Join-Path $PSScriptRoot "..\DotNet.Reference.Assemblies.NetStandard20"
+$targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.NetStandard20"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
