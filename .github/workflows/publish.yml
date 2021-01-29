@@ -25,6 +25,25 @@ jobs:
           # Filepath of the project to be packaged, relative to root of repository
           PROJECT_FILE_PATH: Basic.Reference.Assemblies.Net50/Basic.Reference.Assemblies.Net50.csproj
           VERSION_STATIC: ${{ github.event.inputs.version }}
-          TAG_FORMAT: v*
-          INCLUDE_SYMBOLS: true
+          TAG_COMMIT: false
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+
+      - name: Publish NetCoreApp31
+        id: publish_nuget
+        uses: rohith/publish-nuget@v2
+        with:
+          # Filepath of the project to be packaged, relative to root of repository
+          PROJECT_FILE_PATH: Basic.Reference.Assemblies.NetCoreApp31/Basic.Reference.Assemblies.NetCoreApp31.csproj
+          VERSION_STATIC: ${{ github.event.inputs.version }}
+          TAG_COMMIT: false
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+
+      - name: Publish NetStandard20
+        id: publish_nuget
+        uses: rohith/publish-nuget@v2
+        with:
+          # Filepath of the project to be packaged, relative to root of repository
+          PROJECT_FILE_PATH: Basic.Reference.Assemblies.NetStandard20/Basic.Reference.Assemblies.NetStandard20.csproj
+          VERSION_STATIC: ${{ github.event.inputs.version }}
+          TAG_COMMIT: false
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
