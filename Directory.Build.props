@@ -3,10 +3,8 @@
   <PropertyGroup>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-
-    <!-- NuGet properties -->
-    <PackageVersion>0.1.0</PackageVersion>
-
+    <DebugType>Embedded</DebugType>
+    <EmbedAllSources>True</EmbedAllSources>
   </PropertyGroup>
 
 </Project>

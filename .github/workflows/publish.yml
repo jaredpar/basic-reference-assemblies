@@ -26,13 +26,13 @@ jobs:
         run: dotnet build -c Release 
       
       - name: Pack Net50
-        run: dotnet pack --no-build -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.Net50/Basic.Reference.Assemblies.Net50.csproj -o .
+        run: dotnet pack --no-build -p:IncludeSymbols=false -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.Net50/Basic.Reference.Assemblies.Net50.csproj -o .
 
       - name: Pack NetCoreApp31
-        run: dotnet pack --no-build -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.NetCoreApp31/Basic.Reference.Assemblies.NetCoreApp31.csproj -o .
+        run: dotnet pack --no-build -p:IncludeSymbols=false -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.NetCoreApp31/Basic.Reference.Assemblies.NetCoreApp31.csproj -o .
 
       - name: Pack NetStandard20
-        run: dotnet pack --no-build -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.NetStandard20/Basic.Reference.Assemblies.NetStandard20.csproj -o .
+        run: dotnet pack --no-build -p:IncludeSymbols=false -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.NetStandard20/Basic.Reference.Assemblies.NetStandard20.csproj -o .
 
       - name: Publish NuPkg Files
         run: dotnet nuget push -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json --no-symbols *.nupkg
