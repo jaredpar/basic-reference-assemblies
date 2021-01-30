@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.NetCoreApp31", "Basic.Reference.Assemblies.NetCoreApp31\Basic.Reference.Assemblies.NetCoreApp31.csproj", "{23924D94-13B5-48E4-B90D-E55ADB6E5404}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.UnitTests", "Basic.Reference.Assemblies.UnitTests\Basic.Reference.Assemblies.UnitTests.csproj", "{DF2FCB24-4D84-46F8-9469-CC48C9AC9CC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.UnitTests", "Basic.Reference.Assemblies.UnitTests\Basic.Reference.Assemblies.UnitTests.csproj", "{DF2FCB24-4D84-46F8-9469-CC48C9AC9CC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net50", "Basic.Reference.Assemblies.Net50\Basic.Reference.Assemblies.Net50.csproj", "{A14B94F6-BC0E-4412-ACDF-9C9640220B03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net50", "Basic.Reference.Assemblies.Net50\Basic.Reference.Assemblies.Net50.csproj", "{A14B94F6-BC0E-4412-ACDF-9C9640220B03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.NetStandard20", "Basic.Reference.Assemblies.NetStandard20\Basic.Reference.Assemblies.NetStandard20.csproj", "{36D1BA52-3A5E-4680-8B47-26A308DFC889}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.NetStandard20", "Basic.Reference.Assemblies.NetStandard20\Basic.Reference.Assemblies.NetStandard20.csproj", "{36D1BA52-3A5E-4680-8B47-26A308DFC889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies", "Basic.Reference.Assemblies\Basic.Reference.Assemblies.csproj", "{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,18 @@ Global
 		{36D1BA52-3A5E-4680-8B47-26A308DFC889}.Release|x64.Build.0 = Release|Any CPU
 		{36D1BA52-3A5E-4680-8B47-26A308DFC889}.Release|x86.ActiveCfg = Release|Any CPU
 		{36D1BA52-3A5E-4680-8B47-26A308DFC889}.Release|x86.Build.0 = Release|Any CPU
+		{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}.Debug|x64.Build.0 = Debug|Any CPU
+		{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}.Debug|x86.Build.0 = Debug|Any CPU
+		{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}.Release|x64.ActiveCfg = Release|Any CPU
+		{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}.Release|x64.Build.0 = Release|Any CPU
+		{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}.Release|x86.ActiveCfg = Release|Any CPU
+		{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

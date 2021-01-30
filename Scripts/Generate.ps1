@@ -12,10 +12,6 @@ function Get-Content($name, $packagePath)
   $targetsContent = @"
   <Project>
       <ItemGroup>
-        <Compile Include="..\Shared\ResourceLoader.cs" Link="ResourceLoader.cs" />
-      </ItemGroup>
-
-      <ItemGroup>
 
 "@;
 
@@ -114,20 +110,28 @@ function Get-Content($name, $packagePath)
   return @{ CodeContent = $codeContent; TargetsContent = $targetsContent}
 }
 
+$combinedDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies"
+
 # NetCoreApp31 
 $map = Get-Content "NetCoreApp31" 'microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1' 
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.NetCoreApp31"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
+$map.CodeContent | Out-File (Join-Path $combinedDir "Generated.NetCoreApp31.cs") -Encoding Utf8
+$map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.NetCoreApp31.targets") -Encoding Utf8
 
 # Net50
 $map = Get-Content "Net50" 'microsoft.netcore.app.ref\5.0.0\ref\net5.0'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net50"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
+$map.CodeContent | Out-File (Join-Path $combinedDir "Generated.Net50.cs") -Encoding Utf8
+$map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.Net50.targets") -Encoding Utf8
 
 # NetStandard2.0
 $map = Get-Content "NetStandard20" 'netstandard.library\2.0.3\build\netstandard2.0\ref'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.NetStandard20"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
+$map.CodeContent | Out-File (Join-Path $combinedDir "Generated.NetStandard20.cs") -Encoding Utf8
+$map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.NetStandard20.targets") -Encoding Utf8

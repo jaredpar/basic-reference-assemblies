@@ -1,6 +1,10 @@
 <Project>
 
   <ItemGroup>
+    <Compile Include="..\Shared\ResourceLoader.cs" Link="ResourceLoader.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis" Version="3.8.0" />
   </ItemGroup>
 </Project>
