@@ -1,4 +1,4 @@
-# Simplify in memory compilation for .NET Core
+# Easy in memory compilations for Roslyn
 
 [Roslyn](https://github.com/dotnet/roslyn) is a powerful API for C# and Visual 
 Basic compilations. Provide it code, a few options and a set of references and 
