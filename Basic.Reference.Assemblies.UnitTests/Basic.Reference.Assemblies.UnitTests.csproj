@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -14,9 +14,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Basic.Reference.Assemblies.Net50\Basic.Reference.Assemblies.Net50.csproj" />
-    <ProjectReference Include="..\Basic.Reference.Assemblies.NetCoreApp31\Basic.Reference.Assemblies.NetCoreApp31.csproj" />
-    <ProjectReference Include="..\Basic.Reference.Assemblies.NetStandard20\Basic.Reference.Assemblies.NetStandard20.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies.Net50\Basic.Reference.Assemblies.Net50.csproj">
+      <Aliases>RefNet50</Aliases>
+    </ProjectReference>
+    <ProjectReference Include="..\Basic.Reference.Assemblies.NetCoreApp31\Basic.Reference.Assemblies.NetCoreApp31.csproj">
+      <Aliases>RefNetCoreApp31</Aliases>
+    </ProjectReference>
+    <ProjectReference Include="..\Basic.Reference.Assemblies.NetStandard20\Basic.Reference.Assemblies.NetStandard20.csproj">
+      <Aliases>RefNetStandard20</Aliases>
+    </ProjectReference>
+    <ProjectReference Include="..\Basic.Reference.Assemblies\Basic.Reference.Assemblies.csproj" />
   </ItemGroup>
 
 </Project>

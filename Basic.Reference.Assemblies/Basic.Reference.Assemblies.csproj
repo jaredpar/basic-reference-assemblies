@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <Import Project="Generated.Net50.targets" />
+  <Import Project="Generated.NetCoreApp31.targets" />
+  <Import Project="Generated.NetStandard20.targets" />
+</Project>
