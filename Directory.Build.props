@@ -12,10 +12,10 @@
     <Authors>jaredpar</Authors>
     <Title>Basic.Reference.Assemblies: Reference assemblies for use in Roslyn</Title>
     <PackageDescription>
-    This package provides reference assemblies for use in Roslyn Compilation objects. This greatly
-    simplifies the work involved in doing in memory compilations with the Microsoft.CodeAnalysis 
-    API. Developers can now create correct Compilations with reference sets from all of the major
-    target frameworks: netcoreapp31, net50 and netstandard.
+This package provides reference assemblies for use in Roslyn Compilation objects. This greatly
+simplifies the work involved in doing in memory compilations with the Microsoft.CodeAnalysis 
+API. Developers can now create correct Compilations with reference sets from all of the major
+target frameworks: netcoreapp31, net50 and netstandard.
     </PackageDescription>
   </PropertyGroup>
 
