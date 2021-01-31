@@ -7,7 +7,7 @@
     <EmbedAllSources>True</EmbedAllSources>
 
     <!-- NuGet Properties -->
-    <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/jaredpar/basic-reference-assemblies</RepositoryUrl>
     <Authors>jaredpar</Authors>
     <Title>Basic.Reference.Assemblies: Reference assemblies for use in Roslyn</Title>
