@@ -7,7 +7,6 @@ on:
         required: true
         default: ''
 
-#    echo "Log level: ${{ github.event.inputs.logLevel }}"
 jobs:
   publish:
     name: Publish NuGet 
@@ -39,3 +38,16 @@ jobs:
 
       - name: Publish NuPkg Files
         run: dotnet nuget push "*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json 
+
+      - name: Create Tag and Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+        with:
+          tag_name: v${{ github.event.inputs.version }}
+          release_name: Release v${{ github.event.inputs.version }}
+          body: |
+            Create release ${{ github.event.inputs.version }}
+          draft: false
+          prerelease: false
