@@ -1,6 +1,7 @@
 extern alias RefNetCoreApp31;
 extern alias RefNet50;
 extern alias RefNetStandard20;
+extern alias RefNet472;
 
 using Microsoft.CodeAnalysis.CSharp;
 using System;
@@ -13,6 +14,7 @@ namespace Basic.Reference.Assemblies.UnitTests
     using Net50 = RefNet50::Basic.Reference.Assemblies.Net50;
     using NetCoreApp31 = RefNetCoreApp31::Basic.Reference.Assemblies.NetCoreApp31;
     using NetStandard20 = RefNetStandard20::Basic.Reference.Assemblies.NetStandard20;
+    using Net472 = RefNet472::Basic.Reference.Assemblies.Net472;
 
     public class SpecificSanityUnitTests
     {
@@ -97,6 +99,42 @@ class Program
             }
             Assert.True(NetStandard20.All.Count() > 50);
             Assert.Equal("Basic.Reference.Assemblies.NetStandard20", typeof(NetStandard20).Assembly.GetName().Name);
+        }
+
+        [Fact]
+        public void Net472Tests()
+        {
+            foreach (var portableRef in Net472.All)
+            {
+                Assert.NotNull(portableRef);
+            }
+            Assert.True(Net472.All.Count() > 50);
+            Assert.Equal("Basic.Reference.Assemblies.Net472", typeof(Net472).Assembly.GetName().Name);
+        }
+
+        [Fact]
+        public void Net472Compilation()
+        {
+            var source = @"
+using System;
+
+class Program
+{
+    static void Main() 
+    {
+        Console.WriteLine(""Hello World"");
+    }
+}";
+            var compilation = CSharpCompilation.Create(
+                "Example",
+                new[] { CSharpSyntaxTree.ParseText(source) },
+                references: Net472.All);
+
+            Assert.Empty(compilation.GetDiagnostics());
+            using var stream = new MemoryStream();
+            var emitResult = compilation.Emit(stream);
+            Assert.True(emitResult.Success);
+            Assert.Empty(emitResult.Diagnostics);
         }
     }
 }
