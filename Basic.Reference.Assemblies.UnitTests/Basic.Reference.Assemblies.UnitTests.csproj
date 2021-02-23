@@ -23,6 +23,9 @@
     <ProjectReference Include="..\Basic.Reference.Assemblies.NetStandard20\Basic.Reference.Assemblies.NetStandard20.csproj">
       <Aliases>RefNetStandard20</Aliases>
     </ProjectReference>
+    <ProjectReference Include="..\Basic.Reference.Assemblies.Net472\Basic.Reference.Assemblies.Net472.csproj">
+      <Aliases>RefNet472</Aliases>
+    </ProjectReference>
     <ProjectReference Include="..\Basic.Reference.Assemblies\Basic.Reference.Assemblies.csproj" />
   </ItemGroup>
 

@@ -1,4 +1,4 @@
-function Get-Content($name, $packagePath)
+function Get-Content($name, $packagePath, [string]$excludePattern)
 {
   [string]$nugetPackageRoot = $env:NUGET_PACKAGES
   if ($nugetPackageRoot -eq "")
@@ -44,6 +44,11 @@ function Get-Content($name, $packagePath)
   foreach ($dllPath in $list)
   {
     $dllName= Split-Path -Leaf $dllPath
+    if ($excludePattern -ne "" -and $dllName -match $excludePattern)
+    {
+      continue
+    }
+
     $dll = $dllName.Substring(0, $dllName.Length - 4)
     $logicalName = "$($name).$($dll)";
     $dllPath = $dllPath.Substring($nugetPackageRoot.Length)
@@ -135,3 +140,11 @@ $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 $map.CodeContent | Out-File (Join-Path $combinedDir "Generated.NetStandard20.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.NetStandard20.targets") -Encoding Utf8
+
+# Net472
+$map = Get-Content "Net472" 'microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2' 'System\.Enterprise.*'
+$targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net472"
+$map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
+$map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
+$map.CodeContent | Out-File (Join-Path $combinedDir "Generated.Net472.cs") -Encoding Utf8
+$map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.Net472.targets") -Encoding Utf8
