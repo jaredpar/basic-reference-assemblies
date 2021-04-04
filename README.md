@@ -16,6 +16,10 @@ for `netstandard2.0`, `netcoreapp3.1` and `net5.0`. These can be easily
 integrated into the existing Roslyn APIs.
 
 ```c#
+using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CSharp;
+using Basic.Reference.Assemblies;
+
 var code = @"
 using System;
 static class Program
