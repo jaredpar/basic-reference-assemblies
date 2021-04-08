@@ -39,7 +39,12 @@ function Get-Content($name, $packagePath, [string]$excludePattern)
 "@
 
   $name = $name.ToLower()
-  $list = Get-ChildItem -filter *.dll $realPackagePath | %{ $_.FullName }
+  $list = @(Get-ChildItem -filter *.dll $realPackagePath | %{ $_.FullName })
+  $facadesPath = Join-Path $realPackagePath "Facades"
+  if (Test-Path $facadesPath) {
+    $list += @(Get-ChildItem -filter *.dll $facadesPath | %{ $_.FullName })
+  }
+
   $allPropNames = @()
   foreach ($dllPath in $list)
   {
@@ -72,7 +77,7 @@ function Get-Content($name, $packagePath, [string]$excludePattern)
 "@
 
     $refContent += @"
-        public static PortableExecutableReference $propName { get; } = AssemblyMetadata.CreateFromImage($($resourceTypeName).$($propName)).GetReference(display: "$dll ($name)");
+        public static PortableExecutableReference $propName { get; } = AssemblyMetadata.CreateFromImage($($resourceTypeName).$($propName)).GetReference(filePath: "$dllName", display: "$dll ($name)");
 
 "@
 
