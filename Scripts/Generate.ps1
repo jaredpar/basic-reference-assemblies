@@ -77,7 +77,7 @@ function Get-Content($name, $packagePath, [string]$excludePattern)
 "@
 
     $refContent += @"
-        public static PortableExecutableReference $propName { get; } = AssemblyMetadata.CreateFromImage($($resourceTypeName).$($propName)).GetReference(display: "$dll ($name)");
+        public static PortableExecutableReference $propName { get; } = AssemblyMetadata.CreateFromImage($($resourceTypeName).$($propName)).GetReference(filePath: "$dllName", display: "$dll ($name)");
 
 "@
 
