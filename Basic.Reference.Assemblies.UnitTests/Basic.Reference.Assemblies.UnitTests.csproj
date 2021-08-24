@@ -17,6 +17,9 @@
     <ProjectReference Include="..\Basic.Reference.Assemblies.Net50\Basic.Reference.Assemblies.Net50.csproj">
       <Aliases>RefNet50</Aliases>
     </ProjectReference>
+    <ProjectReference Include="..\Basic.Reference.Assemblies.Net60\Basic.Reference.Assemblies.Net60.csproj">
+      <Aliases>RefNet60</Aliases>
+    </ProjectReference>
     <ProjectReference Include="..\Basic.Reference.Assemblies.NetCoreApp31\Basic.Reference.Assemblies.NetCoreApp31.csproj">
       <Aliases>RefNetCoreApp31</Aliases>
     </ProjectReference>

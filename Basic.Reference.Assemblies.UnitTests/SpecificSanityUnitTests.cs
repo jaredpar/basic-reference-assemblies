@@ -1,5 +1,6 @@
 extern alias RefNetCoreApp31;
 extern alias RefNet50;
+extern alias RefNet60;
 extern alias RefNetStandard20;
 extern alias RefNet472;
 
@@ -12,6 +13,7 @@ using Xunit;
 namespace Basic.Reference.Assemblies.UnitTests
 {
     using Net50 = RefNet50::Basic.Reference.Assemblies.Net50;
+    using Net60 = RefNet60::Basic.Reference.Assemblies.Net60;
     using NetCoreApp31 = RefNetCoreApp31::Basic.Reference.Assemblies.NetCoreApp31;
     using NetStandard20 = RefNetStandard20::Basic.Reference.Assemblies.NetStandard20;
     using Net472 = RefNet472::Basic.Reference.Assemblies.Net472;
@@ -82,6 +84,42 @@ class Program
                 "Example",
                 new[] { CSharpSyntaxTree.ParseText(source) },
                 references: Net50.All);
+
+            Assert.Empty(compilation.GetDiagnostics());
+            using var stream = new MemoryStream();
+            var emitResult = compilation.Emit(stream);
+            Assert.True(emitResult.Success);
+            Assert.Empty(emitResult.Diagnostics);
+        }
+
+        [Fact]
+        public void Net60Tests()
+        {
+            foreach (var portableRef in Net60.All)
+            {
+                Assert.NotNull(portableRef);
+            }
+            Assert.True(Net60.All.Count() > 60);
+            Assert.Equal("Basic.Reference.Assemblies.Net60", typeof(Net60).Assembly.GetName().Name);
+        }
+
+        [Fact]
+        public void Net60Compilation()
+        {
+            var source = @"
+using System;
+
+class Program
+{
+    static void Main() 
+    {
+        Console.WriteLine(""Hello World"");
+    }
+}";
+            var compilation = CSharpCompilation.Create(
+                "Example",
+                new[] { CSharpSyntaxTree.ParseText(source) },
+                references: Net60.All);
 
             Assert.Empty(compilation.GetDiagnostics());
             using var stream = new MemoryStream();

@@ -1,4 +1,4 @@
-﻿  // This is a generated file, please edit Generate.ps1 to change the contents
+  // This is a generated file, please edit Generate.ps1 to change the contents
 
   using System.Collections.Generic;
   using Microsoft.CodeAnalysis;
