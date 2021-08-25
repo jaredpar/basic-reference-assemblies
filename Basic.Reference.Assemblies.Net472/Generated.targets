@@ -1,5 +1,5 @@
-  <Project>
-      <ItemGroup>
+<Project>
+    <ItemGroup>
         <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Accessibility.dll">
           <LogicalName>net472.Accessibility</LogicalName>
           <Link>Resources\net472\Accessibility.dll</Link>

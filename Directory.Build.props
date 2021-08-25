@@ -5,6 +5,8 @@
     <LangVersion>latest</LangVersion>
     <DebugType>Embedded</DebugType>
     <EmbedAllSources>True</EmbedAllSources>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)Key.snk</AssemblyOriginatorKeyFile>
 
     <!-- NuGet Properties -->
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

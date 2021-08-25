@@ -1,5 +1,5 @@
-  <Project>
-      <ItemGroup>
+<Project>
+    <ItemGroup>
         <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\6.0.0-preview.7.21377.19\ref\net6.0\Microsoft.CSharp.dll">
           <LogicalName>net60.Microsoft.CSharp</LogicalName>
           <Link>Resources\net60\Microsoft.CSharp.dll</Link>

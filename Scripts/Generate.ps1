@@ -7,34 +7,54 @@ function Get-Content($name, $packagePath, [string]$excludePattern)
   }
 
   $realPackagePath = Join-Path $nugetPackageRoot $packagePath 
-  $resourceTypeName = $name + "Resources"
 
   $targetsContent = @"
-  <Project>
-      <ItemGroup>
+<Project>
+    <ItemGroup>
 
 "@;
 
   $codeContent = @"
-  // This is a generated file, please edit Generate.ps1 to change the contents
+// This is a generated file, please edit Generate.ps1 to change the contents
 
-  using System.Collections.Generic;
-  using Microsoft.CodeAnalysis;
+using System.Collections.Generic;
+using Microsoft.CodeAnalysis;
 
-  namespace Basic.Reference.Assemblies
-  {
+namespace Basic.Reference.Assemblies
+{
 
 "@;
 
   $codeContent += @"
-    internal static class $resourceTypeName
+    public static partial class $name
     {
+        public static class Resources
+        {
 
 "@;
 
-  $refContent = @"
-    public static class $name
+  $metadataContent = @"
+    public static partial class $name
     {
+
+"@
+
+  $refContent = @"
+    public static partial class $name
+    {
+        public readonly struct ReferenceInfo
+        {
+            public string FileName { get; }
+            public byte[] ImageBytes { get; }
+            public ReferenceInfo(string fileName, byte[] imageBytes)
+            {
+                FileName = fileName;
+                ImageBytes = imageBytes;
+            }
+        }
+
+        public static class References
+        {
 
 "@
 
@@ -71,19 +91,30 @@ function Get-Content($name, $packagePath, [string]$excludePattern)
     $allPropNames += $propName
     $fieldName = "_" + $propName
     $codeContent += @"
-        private static byte[]? $fieldName;
-        internal static byte[] $propName => ResourceLoader.GetOrCreateResource(ref $fieldName, "$logicalName");
+            private static byte[]? $fieldName;
+            public static byte[] $propName => ResourceLoader.GetOrCreateResource(ref $fieldName, "$logicalName");
 
 "@
 
     $refContent += @"
-        public static PortableExecutableReference $propName { get; } = AssemblyMetadata.CreateFromImage($($resourceTypeName).$($propName)).GetReference(filePath: "$dllName", display: "$dll ($name)");
+            public static ReferenceInfo $propName => new ReferenceInfo("$dllName", Resources.$($propName));
+
+"@
+
+    $metadataContent += @"
+        public static PortableExecutableReference $propName { get; } = AssemblyMetadata.CreateFromImage(Resources.$($propName)).GetReference(filePath: "$dllName", display: "$dll ($name)");
 
 "@
 
   }
 
   $refContent += @"
+            public static IEnumerable<ReferenceInfo> All { get; }= new []
+            {
+
+"@
+
+  $metadataContent += @"
         public static IEnumerable<PortableExecutableReference> All { get; }= new PortableExecutableReference[]
         {
 
@@ -91,22 +122,35 @@ function Get-Content($name, $packagePath, [string]$excludePattern)
     foreach ($propName in $allPropNames)
     {
       $refContent += @"
+                $propName,
+
+"@
+
+      $metadataContent += @"
             $propName,
 
 "@
     }
 
-    $refContent += @"
+    $metadataContent += @"
         };
+    }
+
+"@
+    $refContent += @"
+            };
+        }
     }
 
 "@
 
     $codeContent += @"
+        }
     }
 
 "@
     $codeContent += $refContent;
+    $codeContent += $metadataContent;
 
   $targetsContent += @"
     </ItemGroup>

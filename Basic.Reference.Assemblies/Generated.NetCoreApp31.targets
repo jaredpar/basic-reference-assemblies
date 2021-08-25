@@ -1,5 +1,5 @@
-  <Project>
-      <ItemGroup>
+<Project>
+    <ItemGroup>
         <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1\Microsoft.CSharp.dll">
           <LogicalName>netcoreapp31.Microsoft.CSharp</LogicalName>
           <Link>Resources\netcoreapp31\Microsoft.CSharp.dll</Link>
