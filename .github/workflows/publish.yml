@@ -30,6 +30,9 @@ jobs:
       - name: Pack Net50
         run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.Net50/Basic.Reference.Assemblies.Net50.csproj -o .
 
+      - name: Pack Net60
+        run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.Net50/Basic.Reference.Assemblies.Net60.csproj -o .
+
       - name: Pack NetCoreApp31
         run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.NetCoreApp31/Basic.Reference.Assemblies.NetCoreApp31.csproj -o .
 
