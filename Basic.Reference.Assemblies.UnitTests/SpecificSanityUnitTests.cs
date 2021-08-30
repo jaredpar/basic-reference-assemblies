@@ -2,6 +2,7 @@ extern alias RefNetCoreApp31;
 extern alias RefNet50;
 extern alias RefNet60;
 extern alias RefNetStandard20;
+extern alias RefNet461;
 extern alias RefNet472;
 
 using Microsoft.CodeAnalysis.CSharp;
@@ -16,6 +17,7 @@ namespace Basic.Reference.Assemblies.UnitTests
     using Net60 = RefNet60::Basic.Reference.Assemblies.Net60;
     using NetCoreApp31 = RefNetCoreApp31::Basic.Reference.Assemblies.NetCoreApp31;
     using NetStandard20 = RefNetStandard20::Basic.Reference.Assemblies.NetStandard20;
+    using Net461 = RefNet461::Basic.Reference.Assemblies.Net461;
     using Net472 = RefNet472::Basic.Reference.Assemblies.Net472;
 
     public class SpecificSanityUnitTests
@@ -137,6 +139,42 @@ class Program
             }
             Assert.True(NetStandard20.All.Count() > 50);
             Assert.Equal("Basic.Reference.Assemblies.NetStandard20", typeof(NetStandard20).Assembly.GetName().Name);
+        }
+
+        [Fact]
+        public void Net461Tests()
+        {
+            foreach (var portableRef in Net461.All)
+            {
+                Assert.NotNull(portableRef);
+            }
+            Assert.True(Net461.All.Count() > 50);
+            Assert.Equal("Basic.Reference.Assemblies.Net461", typeof(Net461).Assembly.GetName().Name);
+        }
+
+        [Fact]
+        public void Net461Compilation()
+        {
+            var source = @"
+using System;
+
+class Program
+{
+    static void Main() 
+    {
+        Console.WriteLine(""Hello World"");
+    }
+}";
+            var compilation = CSharpCompilation.Create(
+                "Example",
+                new[] { CSharpSyntaxTree.ParseText(source) },
+                references: Net461.All);
+
+            Assert.Empty(compilation.GetDiagnostics());
+            using var stream = new MemoryStream();
+            var emitResult = compilation.Emit(stream);
+            Assert.True(emitResult.Success);
+            Assert.Empty(emitResult.Diagnostics);
         }
 
         [Fact]

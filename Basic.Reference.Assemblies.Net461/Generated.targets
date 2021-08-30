@@ -1,0 +1,736 @@
+<Project>
+    <ItemGroup>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Accessibility.dll">
+          <LogicalName>net461.Accessibility</LogicalName>
+          <Link>Resources\net461\Accessibility.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\CustomMarshalers.dll">
+          <LogicalName>net461.CustomMarshalers</LogicalName>
+          <Link>Resources\net461\CustomMarshalers.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\ISymWrapper.dll">
+          <LogicalName>net461.ISymWrapper</LogicalName>
+          <Link>Resources\net461\ISymWrapper.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Microsoft.Activities.Build.dll">
+          <LogicalName>net461.Microsoft.Activities.Build</LogicalName>
+          <Link>Resources\net461\Microsoft.Activities.Build.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Microsoft.Build.Conversion.v4.0.dll">
+          <LogicalName>net461.Microsoft.Build.Conversion.v4.0</LogicalName>
+          <Link>Resources\net461\Microsoft.Build.Conversion.v4.0.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Microsoft.Build.dll">
+          <LogicalName>net461.Microsoft.Build</LogicalName>
+          <Link>Resources\net461\Microsoft.Build.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Microsoft.Build.Engine.dll">
+          <LogicalName>net461.Microsoft.Build.Engine</LogicalName>
+          <Link>Resources\net461\Microsoft.Build.Engine.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Microsoft.Build.Framework.dll">
+          <LogicalName>net461.Microsoft.Build.Framework</LogicalName>
+          <Link>Resources\net461\Microsoft.Build.Framework.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Microsoft.Build.Tasks.v4.0.dll">
+          <LogicalName>net461.Microsoft.Build.Tasks.v4.0</LogicalName>
+          <Link>Resources\net461\Microsoft.Build.Tasks.v4.0.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Microsoft.Build.Utilities.v4.0.dll">
+          <LogicalName>net461.Microsoft.Build.Utilities.v4.0</LogicalName>
+          <Link>Resources\net461\Microsoft.Build.Utilities.v4.0.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Microsoft.CSharp.dll">
+          <LogicalName>net461.Microsoft.CSharp</LogicalName>
+          <Link>Resources\net461\Microsoft.CSharp.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Microsoft.JScript.dll">
+          <LogicalName>net461.Microsoft.JScript</LogicalName>
+          <Link>Resources\net461\Microsoft.JScript.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Microsoft.VisualBasic.Compatibility.Data.dll">
+          <LogicalName>net461.Microsoft.VisualBasic.Compatibility.Data</LogicalName>
+          <Link>Resources\net461\Microsoft.VisualBasic.Compatibility.Data.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Microsoft.VisualBasic.Compatibility.dll">
+          <LogicalName>net461.Microsoft.VisualBasic.Compatibility</LogicalName>
+          <Link>Resources\net461\Microsoft.VisualBasic.Compatibility.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Microsoft.VisualBasic.dll">
+          <LogicalName>net461.Microsoft.VisualBasic</LogicalName>
+          <Link>Resources\net461\Microsoft.VisualBasic.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Microsoft.VisualC.dll">
+          <LogicalName>net461.Microsoft.VisualC</LogicalName>
+          <Link>Resources\net461\Microsoft.VisualC.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Microsoft.VisualC.STLCLR.dll">
+          <LogicalName>net461.Microsoft.VisualC.STLCLR</LogicalName>
+          <Link>Resources\net461\Microsoft.VisualC.STLCLR.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\mscorlib.dll">
+          <LogicalName>net461.mscorlib</LogicalName>
+          <Link>Resources\net461\mscorlib.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\PresentationBuildTasks.dll">
+          <LogicalName>net461.PresentationBuildTasks</LogicalName>
+          <Link>Resources\net461\PresentationBuildTasks.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\PresentationCore.dll">
+          <LogicalName>net461.PresentationCore</LogicalName>
+          <Link>Resources\net461\PresentationCore.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\PresentationFramework.Aero.dll">
+          <LogicalName>net461.PresentationFramework.Aero</LogicalName>
+          <Link>Resources\net461\PresentationFramework.Aero.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\PresentationFramework.Aero2.dll">
+          <LogicalName>net461.PresentationFramework.Aero2</LogicalName>
+          <Link>Resources\net461\PresentationFramework.Aero2.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\PresentationFramework.AeroLite.dll">
+          <LogicalName>net461.PresentationFramework.AeroLite</LogicalName>
+          <Link>Resources\net461\PresentationFramework.AeroLite.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\PresentationFramework.Classic.dll">
+          <LogicalName>net461.PresentationFramework.Classic</LogicalName>
+          <Link>Resources\net461\PresentationFramework.Classic.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\PresentationFramework.dll">
+          <LogicalName>net461.PresentationFramework</LogicalName>
+          <Link>Resources\net461\PresentationFramework.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\PresentationFramework.Luna.dll">
+          <LogicalName>net461.PresentationFramework.Luna</LogicalName>
+          <Link>Resources\net461\PresentationFramework.Luna.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\PresentationFramework.Royale.dll">
+          <LogicalName>net461.PresentationFramework.Royale</LogicalName>
+          <Link>Resources\net461\PresentationFramework.Royale.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\ReachFramework.dll">
+          <LogicalName>net461.ReachFramework</LogicalName>
+          <Link>Resources\net461\ReachFramework.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\sysglobl.dll">
+          <LogicalName>net461.sysglobl</LogicalName>
+          <Link>Resources\net461\sysglobl.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Activities.Core.Presentation.dll">
+          <LogicalName>net461.System.Activities.Core.Presentation</LogicalName>
+          <Link>Resources\net461\System.Activities.Core.Presentation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Activities.dll">
+          <LogicalName>net461.System.Activities</LogicalName>
+          <Link>Resources\net461\System.Activities.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Activities.DurableInstancing.dll">
+          <LogicalName>net461.System.Activities.DurableInstancing</LogicalName>
+          <Link>Resources\net461\System.Activities.DurableInstancing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Activities.Presentation.dll">
+          <LogicalName>net461.System.Activities.Presentation</LogicalName>
+          <Link>Resources\net461\System.Activities.Presentation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.AddIn.Contract.dll">
+          <LogicalName>net461.System.AddIn.Contract</LogicalName>
+          <Link>Resources\net461\System.AddIn.Contract.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.AddIn.dll">
+          <LogicalName>net461.System.AddIn</LogicalName>
+          <Link>Resources\net461\System.AddIn.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.ComponentModel.Composition.dll">
+          <LogicalName>net461.System.ComponentModel.Composition</LogicalName>
+          <Link>Resources\net461\System.ComponentModel.Composition.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.ComponentModel.Composition.Registration.dll">
+          <LogicalName>net461.System.ComponentModel.Composition.Registration</LogicalName>
+          <Link>Resources\net461\System.ComponentModel.Composition.Registration.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.ComponentModel.DataAnnotations.dll">
+          <LogicalName>net461.System.ComponentModel.DataAnnotations</LogicalName>
+          <Link>Resources\net461\System.ComponentModel.DataAnnotations.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Configuration.dll">
+          <LogicalName>net461.System.Configuration</LogicalName>
+          <Link>Resources\net461\System.Configuration.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Configuration.Install.dll">
+          <LogicalName>net461.System.Configuration.Install</LogicalName>
+          <Link>Resources\net461\System.Configuration.Install.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Core.dll">
+          <LogicalName>net461.System.Core</LogicalName>
+          <Link>Resources\net461\System.Core.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Data.DataSetExtensions.dll">
+          <LogicalName>net461.System.Data.DataSetExtensions</LogicalName>
+          <Link>Resources\net461\System.Data.DataSetExtensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Data.dll">
+          <LogicalName>net461.System.Data</LogicalName>
+          <Link>Resources\net461\System.Data.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Data.Entity.Design.dll">
+          <LogicalName>net461.System.Data.Entity.Design</LogicalName>
+          <Link>Resources\net461\System.Data.Entity.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Data.Entity.dll">
+          <LogicalName>net461.System.Data.Entity</LogicalName>
+          <Link>Resources\net461\System.Data.Entity.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Data.Linq.dll">
+          <LogicalName>net461.System.Data.Linq</LogicalName>
+          <Link>Resources\net461\System.Data.Linq.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Data.OracleClient.dll">
+          <LogicalName>net461.System.Data.OracleClient</LogicalName>
+          <Link>Resources\net461\System.Data.OracleClient.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Data.Services.Client.dll">
+          <LogicalName>net461.System.Data.Services.Client</LogicalName>
+          <Link>Resources\net461\System.Data.Services.Client.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Data.Services.Design.dll">
+          <LogicalName>net461.System.Data.Services.Design</LogicalName>
+          <Link>Resources\net461\System.Data.Services.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Data.Services.dll">
+          <LogicalName>net461.System.Data.Services</LogicalName>
+          <Link>Resources\net461\System.Data.Services.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Data.SqlXml.dll">
+          <LogicalName>net461.System.Data.SqlXml</LogicalName>
+          <Link>Resources\net461\System.Data.SqlXml.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Deployment.dll">
+          <LogicalName>net461.System.Deployment</LogicalName>
+          <Link>Resources\net461\System.Deployment.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Design.dll">
+          <LogicalName>net461.System.Design</LogicalName>
+          <Link>Resources\net461\System.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Device.dll">
+          <LogicalName>net461.System.Device</LogicalName>
+          <Link>Resources\net461\System.Device.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.DirectoryServices.AccountManagement.dll">
+          <LogicalName>net461.System.DirectoryServices.AccountManagement</LogicalName>
+          <Link>Resources\net461\System.DirectoryServices.AccountManagement.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.DirectoryServices.dll">
+          <LogicalName>net461.System.DirectoryServices</LogicalName>
+          <Link>Resources\net461\System.DirectoryServices.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.DirectoryServices.Protocols.dll">
+          <LogicalName>net461.System.DirectoryServices.Protocols</LogicalName>
+          <Link>Resources\net461\System.DirectoryServices.Protocols.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.dll">
+          <LogicalName>net461.System</LogicalName>
+          <Link>Resources\net461\System.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Drawing.Design.dll">
+          <LogicalName>net461.System.Drawing.Design</LogicalName>
+          <Link>Resources\net461\System.Drawing.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Drawing.dll">
+          <LogicalName>net461.System.Drawing</LogicalName>
+          <Link>Resources\net461\System.Drawing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Dynamic.dll">
+          <LogicalName>net461.System.Dynamic</LogicalName>
+          <Link>Resources\net461\System.Dynamic.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.IdentityModel.dll">
+          <LogicalName>net461.System.IdentityModel</LogicalName>
+          <Link>Resources\net461\System.IdentityModel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.IdentityModel.Selectors.dll">
+          <LogicalName>net461.System.IdentityModel.Selectors</LogicalName>
+          <Link>Resources\net461\System.IdentityModel.Selectors.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.IdentityModel.Services.dll">
+          <LogicalName>net461.System.IdentityModel.Services</LogicalName>
+          <Link>Resources\net461\System.IdentityModel.Services.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.IO.Compression.dll">
+          <LogicalName>net461.System.IO.Compression</LogicalName>
+          <Link>Resources\net461\System.IO.Compression.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.IO.Compression.FileSystem.dll">
+          <LogicalName>net461.System.IO.Compression.FileSystem</LogicalName>
+          <Link>Resources\net461\System.IO.Compression.FileSystem.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.IO.Log.dll">
+          <LogicalName>net461.System.IO.Log</LogicalName>
+          <Link>Resources\net461\System.IO.Log.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Management.dll">
+          <LogicalName>net461.System.Management</LogicalName>
+          <Link>Resources\net461\System.Management.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Management.Instrumentation.dll">
+          <LogicalName>net461.System.Management.Instrumentation</LogicalName>
+          <Link>Resources\net461\System.Management.Instrumentation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Messaging.dll">
+          <LogicalName>net461.System.Messaging</LogicalName>
+          <Link>Resources\net461\System.Messaging.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Net.dll">
+          <LogicalName>net461.System.Net</LogicalName>
+          <Link>Resources\net461\System.Net.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Net.Http.dll">
+          <LogicalName>net461.System.Net.Http</LogicalName>
+          <Link>Resources\net461\System.Net.Http.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Net.Http.WebRequest.dll">
+          <LogicalName>net461.System.Net.Http.WebRequest</LogicalName>
+          <Link>Resources\net461\System.Net.Http.WebRequest.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Numerics.dll">
+          <LogicalName>net461.System.Numerics</LogicalName>
+          <Link>Resources\net461\System.Numerics.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Numerics.Vectors.dll">
+          <LogicalName>net461.System.Numerics.Vectors</LogicalName>
+          <Link>Resources\net461\System.Numerics.Vectors.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Printing.dll">
+          <LogicalName>net461.System.Printing</LogicalName>
+          <Link>Resources\net461\System.Printing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Reflection.Context.dll">
+          <LogicalName>net461.System.Reflection.Context</LogicalName>
+          <Link>Resources\net461\System.Reflection.Context.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Runtime.Caching.dll">
+          <LogicalName>net461.System.Runtime.Caching</LogicalName>
+          <Link>Resources\net461\System.Runtime.Caching.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Runtime.DurableInstancing.dll">
+          <LogicalName>net461.System.Runtime.DurableInstancing</LogicalName>
+          <Link>Resources\net461\System.Runtime.DurableInstancing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Runtime.Remoting.dll">
+          <LogicalName>net461.System.Runtime.Remoting</LogicalName>
+          <Link>Resources\net461\System.Runtime.Remoting.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Runtime.Serialization.dll">
+          <LogicalName>net461.System.Runtime.Serialization</LogicalName>
+          <Link>Resources\net461\System.Runtime.Serialization.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Runtime.Serialization.Formatters.Soap.dll">
+          <LogicalName>net461.System.Runtime.Serialization.Formatters.Soap</LogicalName>
+          <Link>Resources\net461\System.Runtime.Serialization.Formatters.Soap.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Security.dll">
+          <LogicalName>net461.System.Security</LogicalName>
+          <Link>Resources\net461\System.Security.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.ServiceModel.Activation.dll">
+          <LogicalName>net461.System.ServiceModel.Activation</LogicalName>
+          <Link>Resources\net461\System.ServiceModel.Activation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.ServiceModel.Activities.dll">
+          <LogicalName>net461.System.ServiceModel.Activities</LogicalName>
+          <Link>Resources\net461\System.ServiceModel.Activities.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.ServiceModel.Channels.dll">
+          <LogicalName>net461.System.ServiceModel.Channels</LogicalName>
+          <Link>Resources\net461\System.ServiceModel.Channels.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.ServiceModel.Discovery.dll">
+          <LogicalName>net461.System.ServiceModel.Discovery</LogicalName>
+          <Link>Resources\net461\System.ServiceModel.Discovery.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.ServiceModel.dll">
+          <LogicalName>net461.System.ServiceModel</LogicalName>
+          <Link>Resources\net461\System.ServiceModel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.ServiceModel.Routing.dll">
+          <LogicalName>net461.System.ServiceModel.Routing</LogicalName>
+          <Link>Resources\net461\System.ServiceModel.Routing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.ServiceModel.Web.dll">
+          <LogicalName>net461.System.ServiceModel.Web</LogicalName>
+          <Link>Resources\net461\System.ServiceModel.Web.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.ServiceProcess.dll">
+          <LogicalName>net461.System.ServiceProcess</LogicalName>
+          <Link>Resources\net461\System.ServiceProcess.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Speech.dll">
+          <LogicalName>net461.System.Speech</LogicalName>
+          <Link>Resources\net461\System.Speech.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Transactions.dll">
+          <LogicalName>net461.System.Transactions</LogicalName>
+          <Link>Resources\net461\System.Transactions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.Abstractions.dll">
+          <LogicalName>net461.System.Web.Abstractions</LogicalName>
+          <Link>Resources\net461\System.Web.Abstractions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.ApplicationServices.dll">
+          <LogicalName>net461.System.Web.ApplicationServices</LogicalName>
+          <Link>Resources\net461\System.Web.ApplicationServices.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.DataVisualization.Design.dll">
+          <LogicalName>net461.System.Web.DataVisualization.Design</LogicalName>
+          <Link>Resources\net461\System.Web.DataVisualization.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.DataVisualization.dll">
+          <LogicalName>net461.System.Web.DataVisualization</LogicalName>
+          <Link>Resources\net461\System.Web.DataVisualization.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.dll">
+          <LogicalName>net461.System.Web</LogicalName>
+          <Link>Resources\net461\System.Web.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.DynamicData.Design.dll">
+          <LogicalName>net461.System.Web.DynamicData.Design</LogicalName>
+          <Link>Resources\net461\System.Web.DynamicData.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.DynamicData.dll">
+          <LogicalName>net461.System.Web.DynamicData</LogicalName>
+          <Link>Resources\net461\System.Web.DynamicData.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.Entity.Design.dll">
+          <LogicalName>net461.System.Web.Entity.Design</LogicalName>
+          <Link>Resources\net461\System.Web.Entity.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.Entity.dll">
+          <LogicalName>net461.System.Web.Entity</LogicalName>
+          <Link>Resources\net461\System.Web.Entity.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.Extensions.Design.dll">
+          <LogicalName>net461.System.Web.Extensions.Design</LogicalName>
+          <Link>Resources\net461\System.Web.Extensions.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.Extensions.dll">
+          <LogicalName>net461.System.Web.Extensions</LogicalName>
+          <Link>Resources\net461\System.Web.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.Mobile.dll">
+          <LogicalName>net461.System.Web.Mobile</LogicalName>
+          <Link>Resources\net461\System.Web.Mobile.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.RegularExpressions.dll">
+          <LogicalName>net461.System.Web.RegularExpressions</LogicalName>
+          <Link>Resources\net461\System.Web.RegularExpressions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.Routing.dll">
+          <LogicalName>net461.System.Web.Routing</LogicalName>
+          <Link>Resources\net461\System.Web.Routing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Web.Services.dll">
+          <LogicalName>net461.System.Web.Services</LogicalName>
+          <Link>Resources\net461\System.Web.Services.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Windows.Controls.Ribbon.dll">
+          <LogicalName>net461.System.Windows.Controls.Ribbon</LogicalName>
+          <Link>Resources\net461\System.Windows.Controls.Ribbon.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Windows.dll">
+          <LogicalName>net461.System.Windows</LogicalName>
+          <Link>Resources\net461\System.Windows.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Windows.Forms.DataVisualization.Design.dll">
+          <LogicalName>net461.System.Windows.Forms.DataVisualization.Design</LogicalName>
+          <Link>Resources\net461\System.Windows.Forms.DataVisualization.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Windows.Forms.DataVisualization.dll">
+          <LogicalName>net461.System.Windows.Forms.DataVisualization</LogicalName>
+          <Link>Resources\net461\System.Windows.Forms.DataVisualization.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Windows.Forms.dll">
+          <LogicalName>net461.System.Windows.Forms</LogicalName>
+          <Link>Resources\net461\System.Windows.Forms.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Windows.Input.Manipulations.dll">
+          <LogicalName>net461.System.Windows.Input.Manipulations</LogicalName>
+          <Link>Resources\net461\System.Windows.Input.Manipulations.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Windows.Presentation.dll">
+          <LogicalName>net461.System.Windows.Presentation</LogicalName>
+          <Link>Resources\net461\System.Windows.Presentation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Workflow.Activities.dll">
+          <LogicalName>net461.System.Workflow.Activities</LogicalName>
+          <Link>Resources\net461\System.Workflow.Activities.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Workflow.ComponentModel.dll">
+          <LogicalName>net461.System.Workflow.ComponentModel</LogicalName>
+          <Link>Resources\net461\System.Workflow.ComponentModel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Workflow.Runtime.dll">
+          <LogicalName>net461.System.Workflow.Runtime</LogicalName>
+          <Link>Resources\net461\System.Workflow.Runtime.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.WorkflowServices.dll">
+          <LogicalName>net461.System.WorkflowServices</LogicalName>
+          <Link>Resources\net461\System.WorkflowServices.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Xaml.dll">
+          <LogicalName>net461.System.Xaml</LogicalName>
+          <Link>Resources\net461\System.Xaml.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Xml.dll">
+          <LogicalName>net461.System.Xml</LogicalName>
+          <Link>Resources\net461\System.Xml.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Xml.Linq.dll">
+          <LogicalName>net461.System.Xml.Linq</LogicalName>
+          <Link>Resources\net461\System.Xml.Linq.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\System.Xml.Serialization.dll">
+          <LogicalName>net461.System.Xml.Serialization</LogicalName>
+          <Link>Resources\net461\System.Xml.Serialization.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\UIAutomationClient.dll">
+          <LogicalName>net461.UIAutomationClient</LogicalName>
+          <Link>Resources\net461\UIAutomationClient.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\UIAutomationClientsideProviders.dll">
+          <LogicalName>net461.UIAutomationClientsideProviders</LogicalName>
+          <Link>Resources\net461\UIAutomationClientsideProviders.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\UIAutomationProvider.dll">
+          <LogicalName>net461.UIAutomationProvider</LogicalName>
+          <Link>Resources\net461\UIAutomationProvider.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\UIAutomationTypes.dll">
+          <LogicalName>net461.UIAutomationTypes</LogicalName>
+          <Link>Resources\net461\UIAutomationTypes.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\WindowsBase.dll">
+          <LogicalName>net461.WindowsBase</LogicalName>
+          <Link>Resources\net461\WindowsBase.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\WindowsFormsIntegration.dll">
+          <LogicalName>net461.WindowsFormsIntegration</LogicalName>
+          <Link>Resources\net461\WindowsFormsIntegration.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\XamlBuildTask.dll">
+          <LogicalName>net461.XamlBuildTask</LogicalName>
+          <Link>Resources\net461\XamlBuildTask.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Collections.Concurrent.dll">
+          <LogicalName>net461.System.Collections.Concurrent</LogicalName>
+          <Link>Resources\net461\System.Collections.Concurrent.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Collections.dll">
+          <LogicalName>net461.System.Collections</LogicalName>
+          <Link>Resources\net461\System.Collections.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.ComponentModel.Annotations.dll">
+          <LogicalName>net461.System.ComponentModel.Annotations</LogicalName>
+          <Link>Resources\net461\System.ComponentModel.Annotations.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.ComponentModel.dll">
+          <LogicalName>net461.System.ComponentModel</LogicalName>
+          <Link>Resources\net461\System.ComponentModel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.ComponentModel.EventBasedAsync.dll">
+          <LogicalName>net461.System.ComponentModel.EventBasedAsync</LogicalName>
+          <Link>Resources\net461\System.ComponentModel.EventBasedAsync.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Diagnostics.Contracts.dll">
+          <LogicalName>net461.System.Diagnostics.Contracts</LogicalName>
+          <Link>Resources\net461\System.Diagnostics.Contracts.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Diagnostics.Debug.dll">
+          <LogicalName>net461.System.Diagnostics.Debug</LogicalName>
+          <Link>Resources\net461\System.Diagnostics.Debug.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Diagnostics.Tools.dll">
+          <LogicalName>net461.System.Diagnostics.Tools</LogicalName>
+          <Link>Resources\net461\System.Diagnostics.Tools.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Diagnostics.Tracing.dll">
+          <LogicalName>net461.System.Diagnostics.Tracing</LogicalName>
+          <Link>Resources\net461\System.Diagnostics.Tracing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Dynamic.Runtime.dll">
+          <LogicalName>net461.System.Dynamic.Runtime</LogicalName>
+          <Link>Resources\net461\System.Dynamic.Runtime.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Globalization.dll">
+          <LogicalName>net461.System.Globalization</LogicalName>
+          <Link>Resources\net461\System.Globalization.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.IO.dll">
+          <LogicalName>net461.System.IO</LogicalName>
+          <Link>Resources\net461\System.IO.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Linq.dll">
+          <LogicalName>net461.System.Linq</LogicalName>
+          <Link>Resources\net461\System.Linq.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Linq.Expressions.dll">
+          <LogicalName>net461.System.Linq.Expressions</LogicalName>
+          <Link>Resources\net461\System.Linq.Expressions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Linq.Parallel.dll">
+          <LogicalName>net461.System.Linq.Parallel</LogicalName>
+          <Link>Resources\net461\System.Linq.Parallel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Linq.Queryable.dll">
+          <LogicalName>net461.System.Linq.Queryable</LogicalName>
+          <Link>Resources\net461\System.Linq.Queryable.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Net.NetworkInformation.dll">
+          <LogicalName>net461.System.Net.NetworkInformation</LogicalName>
+          <Link>Resources\net461\System.Net.NetworkInformation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Net.Primitives.dll">
+          <LogicalName>net461.System.Net.Primitives</LogicalName>
+          <Link>Resources\net461\System.Net.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Net.Requests.dll">
+          <LogicalName>net461.System.Net.Requests</LogicalName>
+          <Link>Resources\net461\System.Net.Requests.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Net.WebHeaderCollection.dll">
+          <LogicalName>net461.System.Net.WebHeaderCollection</LogicalName>
+          <Link>Resources\net461\System.Net.WebHeaderCollection.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.ObjectModel.dll">
+          <LogicalName>net461.System.ObjectModel</LogicalName>
+          <Link>Resources\net461\System.ObjectModel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Reflection.dll">
+          <LogicalName>net461.System.Reflection</LogicalName>
+          <Link>Resources\net461\System.Reflection.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Reflection.Emit.dll">
+          <LogicalName>net461.System.Reflection.Emit</LogicalName>
+          <Link>Resources\net461\System.Reflection.Emit.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Reflection.Emit.ILGeneration.dll">
+          <LogicalName>net461.System.Reflection.Emit.ILGeneration</LogicalName>
+          <Link>Resources\net461\System.Reflection.Emit.ILGeneration.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Reflection.Emit.Lightweight.dll">
+          <LogicalName>net461.System.Reflection.Emit.Lightweight</LogicalName>
+          <Link>Resources\net461\System.Reflection.Emit.Lightweight.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Reflection.Extensions.dll">
+          <LogicalName>net461.System.Reflection.Extensions</LogicalName>
+          <Link>Resources\net461\System.Reflection.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Reflection.Primitives.dll">
+          <LogicalName>net461.System.Reflection.Primitives</LogicalName>
+          <Link>Resources\net461\System.Reflection.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Resources.ResourceManager.dll">
+          <LogicalName>net461.System.Resources.ResourceManager</LogicalName>
+          <Link>Resources\net461\System.Resources.ResourceManager.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Runtime.dll">
+          <LogicalName>net461.System.Runtime</LogicalName>
+          <Link>Resources\net461\System.Runtime.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Runtime.Extensions.dll">
+          <LogicalName>net461.System.Runtime.Extensions</LogicalName>
+          <Link>Resources\net461\System.Runtime.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Runtime.Handles.dll">
+          <LogicalName>net461.System.Runtime.Handles</LogicalName>
+          <Link>Resources\net461\System.Runtime.Handles.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Runtime.InteropServices.dll">
+          <LogicalName>net461.System.Runtime.InteropServices</LogicalName>
+          <Link>Resources\net461\System.Runtime.InteropServices.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Runtime.InteropServices.WindowsRuntime.dll">
+          <LogicalName>net461.System.Runtime.InteropServices.WindowsRuntime</LogicalName>
+          <Link>Resources\net461\System.Runtime.InteropServices.WindowsRuntime.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Runtime.Numerics.dll">
+          <LogicalName>net461.System.Runtime.Numerics</LogicalName>
+          <Link>Resources\net461\System.Runtime.Numerics.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Runtime.Serialization.Json.dll">
+          <LogicalName>net461.System.Runtime.Serialization.Json</LogicalName>
+          <Link>Resources\net461\System.Runtime.Serialization.Json.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Runtime.Serialization.Primitives.dll">
+          <LogicalName>net461.System.Runtime.Serialization.Primitives</LogicalName>
+          <Link>Resources\net461\System.Runtime.Serialization.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Runtime.Serialization.Xml.dll">
+          <LogicalName>net461.System.Runtime.Serialization.Xml</LogicalName>
+          <Link>Resources\net461\System.Runtime.Serialization.Xml.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Security.Principal.dll">
+          <LogicalName>net461.System.Security.Principal</LogicalName>
+          <Link>Resources\net461\System.Security.Principal.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.ServiceModel.Duplex.dll">
+          <LogicalName>net461.System.ServiceModel.Duplex</LogicalName>
+          <Link>Resources\net461\System.ServiceModel.Duplex.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.ServiceModel.Http.dll">
+          <LogicalName>net461.System.ServiceModel.Http</LogicalName>
+          <Link>Resources\net461\System.ServiceModel.Http.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.ServiceModel.NetTcp.dll">
+          <LogicalName>net461.System.ServiceModel.NetTcp</LogicalName>
+          <Link>Resources\net461\System.ServiceModel.NetTcp.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.ServiceModel.Primitives.dll">
+          <LogicalName>net461.System.ServiceModel.Primitives</LogicalName>
+          <Link>Resources\net461\System.ServiceModel.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.ServiceModel.Security.dll">
+          <LogicalName>net461.System.ServiceModel.Security</LogicalName>
+          <Link>Resources\net461\System.ServiceModel.Security.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Text.Encoding.dll">
+          <LogicalName>net461.System.Text.Encoding</LogicalName>
+          <Link>Resources\net461\System.Text.Encoding.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Text.Encoding.Extensions.dll">
+          <LogicalName>net461.System.Text.Encoding.Extensions</LogicalName>
+          <Link>Resources\net461\System.Text.Encoding.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Text.RegularExpressions.dll">
+          <LogicalName>net461.System.Text.RegularExpressions</LogicalName>
+          <Link>Resources\net461\System.Text.RegularExpressions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Threading.dll">
+          <LogicalName>net461.System.Threading</LogicalName>
+          <Link>Resources\net461\System.Threading.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Threading.Tasks.dll">
+          <LogicalName>net461.System.Threading.Tasks</LogicalName>
+          <Link>Resources\net461\System.Threading.Tasks.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Threading.Tasks.Parallel.dll">
+          <LogicalName>net461.System.Threading.Tasks.Parallel</LogicalName>
+          <Link>Resources\net461\System.Threading.Tasks.Parallel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Threading.Timer.dll">
+          <LogicalName>net461.System.Threading.Timer</LogicalName>
+          <Link>Resources\net461\System.Threading.Timer.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Xml.ReaderWriter.dll">
+          <LogicalName>net461.System.Xml.ReaderWriter</LogicalName>
+          <Link>Resources\net461\System.Xml.ReaderWriter.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Xml.XDocument.dll">
+          <LogicalName>net461.System.Xml.XDocument</LogicalName>
+          <Link>Resources\net461\System.Xml.XDocument.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1\Facades\System.Xml.XmlSerializer.dll">
+          <LogicalName>net461.System.Xml.XmlSerializer</LogicalName>
+          <Link>Resources\net461\System.Xml.XmlSerializer.dll</Link>
+        </EmbeddedResource>
+    </ItemGroup>
+  </Project>

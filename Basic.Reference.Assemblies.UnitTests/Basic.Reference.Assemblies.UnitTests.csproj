@@ -29,6 +29,9 @@
     <ProjectReference Include="..\Basic.Reference.Assemblies.Net472\Basic.Reference.Assemblies.Net472.csproj">
       <Aliases>RefNet472</Aliases>
     </ProjectReference>
+    <ProjectReference Include="..\Basic.Reference.Assemblies.Net461\Basic.Reference.Assemblies.Net461.csproj">
+      <Aliases>RefNet461</Aliases>
+    </ProjectReference>
     <ProjectReference Include="..\Basic.Reference.Assemblies\Basic.Reference.Assemblies.csproj" />
   </ItemGroup>
 
