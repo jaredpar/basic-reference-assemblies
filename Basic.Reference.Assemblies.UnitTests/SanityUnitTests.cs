@@ -32,6 +32,13 @@ public class C
                     new[] { CSharpSyntaxTree.ParseText(source) },
                     references: ReferenceAssemblies.Get(kind));
 
+                // NetStandard1.3 comes with several no warn options we need here
+                if (kind == ReferenceAssemblyKind.NetStandard13)
+                {
+                    compilation = NoWarn(compilation, "CS1702");
+                    compilation = NoWarn(compilation, "CS1701");
+                }
+
                 Assert.Empty(compilation.GetDiagnostics());
                 using var stream = new MemoryStream();
                 var emitResult = compilation.Emit(stream);
@@ -64,12 +71,27 @@ public class C
                     references: Array.Empty<MetadataReference>());
                 compilation = compilation.WithReferenceAssemblies(kind);
 
+                // NetStandard1.3 comes with several no warn options we need here
+                if (kind == ReferenceAssemblyKind.NetStandard13)
+                {
+                    compilation = NoWarn(compilation, "CS1702");
+                    compilation = NoWarn(compilation, "CS1701");
+                }
+
                 Assert.Empty(compilation.GetDiagnostics());
                 using var stream = new MemoryStream();
                 var emitResult = compilation.Emit(stream);
                 Assert.True(emitResult.Success);
                 Assert.Empty(emitResult.Diagnostics);
             }
+        }
+
+        private static CSharpCompilation NoWarn(CSharpCompilation compilation, string id)
+        {
+            var diagnosticMap = compilation.Options.SpecificDiagnosticOptions;
+            diagnosticMap = diagnosticMap.SetItem(id, ReportDiagnostic.Suppress);
+            var options = compilation.Options.WithSpecificDiagnosticOptions(diagnosticMap);
+            return compilation.WithOptions(options);
         }
     }
 }

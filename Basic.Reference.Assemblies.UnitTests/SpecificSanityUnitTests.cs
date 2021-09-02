@@ -1,11 +1,14 @@
 extern alias RefNetCoreApp31;
 extern alias RefNet50;
 extern alias RefNet60;
+extern alias RefNetStandard13;
 extern alias RefNetStandard20;
 extern alias RefNet461;
 extern alias RefNet472;
 
+using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using System;
 using System.IO;
 using System.Linq;
@@ -16,6 +19,7 @@ namespace Basic.Reference.Assemblies.UnitTests
     using Net50 = RefNet50::Basic.Reference.Assemblies.Net50;
     using Net60 = RefNet60::Basic.Reference.Assemblies.Net60;
     using NetCoreApp31 = RefNetCoreApp31::Basic.Reference.Assemblies.NetCoreApp31;
+    using NetStandard13 = RefNetStandard13::Basic.Reference.Assemblies.NetStandard13;
     using NetStandard20 = RefNetStandard20::Basic.Reference.Assemblies.NetStandard20;
     using Net461 = RefNet461::Basic.Reference.Assemblies.Net461;
     using Net472 = RefNet472::Basic.Reference.Assemblies.Net472;
@@ -139,6 +143,17 @@ class Program
             }
             Assert.True(NetStandard20.All.Count() > 50);
             Assert.Equal("Basic.Reference.Assemblies.NetStandard20", typeof(NetStandard20).Assembly.GetName().Name);
+        }
+
+        [Fact]
+        public void NetStandard13Tests()
+        {
+            foreach (var portableRef in NetStandard13.All)
+            {
+                Assert.NotNull(portableRef);
+            }
+            Assert.True(NetStandard13.All.Count() > 40);
+            Assert.Equal("Basic.Reference.Assemblies.NetStandard13", typeof(NetStandard13).Assembly.GetName().Name);
         }
 
         [Fact]

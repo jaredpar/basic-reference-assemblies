@@ -36,6 +36,9 @@ jobs:
       - name: Pack NetCoreApp31
         run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.NetCoreApp31/Basic.Reference.Assemblies.NetCoreApp31.csproj -o .
 
+      - name: Pack NetStandard13
+        run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.NetStandard13/Basic.Reference.Assemblies.NetStandard13.csproj -o .
+
       - name: Pack NetStandard20
         run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.NetStandard20/Basic.Reference.Assemblies.NetStandard20.csproj -o .
 

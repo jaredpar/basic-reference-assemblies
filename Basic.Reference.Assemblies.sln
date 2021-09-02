@@ -24,6 +24,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net461", "Basic.Reference.Assemblies.Net461\Basic.Reference.Assemblies.Net461.csproj", "{214260A9-1E3C-400C-A0D1-2BD099F60AD7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.NetStandard13", "Basic.Reference.Assemblies.NetStandard13\Basic.Reference.Assemblies.NetStandard13.csproj", "{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -130,6 +132,18 @@ Global
 		{214260A9-1E3C-400C-A0D1-2BD099F60AD7}.Release|x64.Build.0 = Release|Any CPU
 		{214260A9-1E3C-400C-A0D1-2BD099F60AD7}.Release|x86.ActiveCfg = Release|Any CPU
 		{214260A9-1E3C-400C-A0D1-2BD099F60AD7}.Release|x86.Build.0 = Release|Any CPU
+		{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}.Debug|x64.Build.0 = Debug|Any CPU
+		{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}.Debug|x86.Build.0 = Debug|Any CPU
+		{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}.Release|x64.ActiveCfg = Release|Any CPU
+		{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}.Release|x64.Build.0 = Release|Any CPU
+		{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}.Release|x86.ActiveCfg = Release|Any CPU
+		{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
