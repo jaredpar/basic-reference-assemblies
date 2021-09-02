@@ -1,13 +1,5 @@
-function Get-Content($name, $packagePath, [string]$excludePattern)
+function Get-ContentCore($name, $realPackagePath, $realPackagePrefix, $targetsPrefix, [string]$excludePattern)
 {
-  [string]$nugetPackageRoot = $env:NUGET_PACKAGES
-  if ($nugetPackageRoot -eq "")
-  {
-    $nugetPackageRoot = Join-Path $env:USERPROFILE ".nuget\packages"
-  }
-
-  $realPackagePath = Join-Path $nugetPackageRoot $packagePath 
-
   $targetsContent = @"
 <Project>
     <ItemGroup>
@@ -76,8 +68,8 @@ namespace Basic.Reference.Assemblies
 
     $dll = $dllName.Substring(0, $dllName.Length - 4)
     $logicalName = "$($name).$($dll)";
-    $dllPath = $dllPath.Substring($nugetPackageRoot.Length)
-    $dllPath = '$(NuGetPackageRoot)' + $dllPath
+    $dllPath = $dllPath.Substring($realPackagePrefix.Length)
+    $dllPath = $targetsPrefix + $dllPath
 
     $targetsContent += @"
         <EmbeddedResource Include="$dllPath">
@@ -164,6 +156,25 @@ namespace Basic.Reference.Assemblies
   return @{ CodeContent = $codeContent; TargetsContent = $targetsContent}
 }
 
+function Get-Content($name, $packagePath, [string]$excludePattern)
+{
+  [string]$nugetPackageRoot = $env:NUGET_PACKAGES
+  if ($nugetPackageRoot -eq "")
+  {
+    $nugetPackageRoot = Join-Path $env:USERPROFILE ".nuget\packages"
+  }
+
+  $realPackagePath = Join-Path $nugetPackageRoot $packagePath 
+  return Get-ContentCore $name $realPackagePath $nugetPackageRoot '$(NuGetPackageRoot)' $excludePattern
+}
+
+function Get-ResourceContent($name, $resourcePath)
+{
+  $realPackagePrefix = Split-Path -Parent $PSScriptRoot
+  $realPackagePath = Join-Path $realPackagePrefix $resourcePath
+  return Get-ContentCore $name $realPackagePath $realPackagePrefix '$(MSBuildThisFileDirectory)..\' 
+}
+
 $combinedDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies"
 
 # NetCoreApp31 
@@ -189,6 +200,14 @@ $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 $map.CodeContent | Out-File (Join-Path $combinedDir "Generated.Net60.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.Net60.targets") -Encoding Utf8
+
+# NetStandardl.3
+$map = Get-ResourceContent "NetStandard13" "Resources\netstandard1.3"
+$targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.NetStandard13"
+$map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
+$map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
+$map.CodeContent | Out-File (Join-Path $combinedDir "Generated.NetStandard13.cs") -Encoding Utf8
+$map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.NetStandard13.targets") -Encoding Utf8
 
 # NetStandard2.0
 $map = Get-Content "NetStandard20" 'netstandard.library\2.0.3\build\netstandard2.0\ref'

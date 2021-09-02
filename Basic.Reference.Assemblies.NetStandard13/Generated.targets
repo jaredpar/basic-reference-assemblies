@@ -1,0 +1,176 @@
+<Project>
+    <ItemGroup>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\Microsoft.Win32.Primitives.dll">
+          <LogicalName>netstandard13.Microsoft.Win32.Primitives</LogicalName>
+          <Link>Resources\netstandard13\Microsoft.Win32.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.AppContext.dll">
+          <LogicalName>netstandard13.System.AppContext</LogicalName>
+          <Link>Resources\netstandard13\System.AppContext.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Collections.Concurrent.dll">
+          <LogicalName>netstandard13.System.Collections.Concurrent</LogicalName>
+          <Link>Resources\netstandard13\System.Collections.Concurrent.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Collections.dll">
+          <LogicalName>netstandard13.System.Collections</LogicalName>
+          <Link>Resources\netstandard13\System.Collections.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Console.dll">
+          <LogicalName>netstandard13.System.Console</LogicalName>
+          <Link>Resources\netstandard13\System.Console.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Diagnostics.Debug.dll">
+          <LogicalName>netstandard13.System.Diagnostics.Debug</LogicalName>
+          <Link>Resources\netstandard13\System.Diagnostics.Debug.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Diagnostics.Tools.dll">
+          <LogicalName>netstandard13.System.Diagnostics.Tools</LogicalName>
+          <Link>Resources\netstandard13\System.Diagnostics.Tools.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Diagnostics.Tracing.dll">
+          <LogicalName>netstandard13.System.Diagnostics.Tracing</LogicalName>
+          <Link>Resources\netstandard13\System.Diagnostics.Tracing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Globalization.Calendars.dll">
+          <LogicalName>netstandard13.System.Globalization.Calendars</LogicalName>
+          <Link>Resources\netstandard13\System.Globalization.Calendars.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Globalization.dll">
+          <LogicalName>netstandard13.System.Globalization</LogicalName>
+          <Link>Resources\netstandard13\System.Globalization.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.IO.Compression.dll">
+          <LogicalName>netstandard13.System.IO.Compression</LogicalName>
+          <Link>Resources\netstandard13\System.IO.Compression.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.IO.Compression.ZipFile.dll">
+          <LogicalName>netstandard13.System.IO.Compression.ZipFile</LogicalName>
+          <Link>Resources\netstandard13\System.IO.Compression.ZipFile.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.IO.dll">
+          <LogicalName>netstandard13.System.IO</LogicalName>
+          <Link>Resources\netstandard13\System.IO.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.IO.FileSystem.dll">
+          <LogicalName>netstandard13.System.IO.FileSystem</LogicalName>
+          <Link>Resources\netstandard13\System.IO.FileSystem.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.IO.FileSystem.Primitives.dll">
+          <LogicalName>netstandard13.System.IO.FileSystem.Primitives</LogicalName>
+          <Link>Resources\netstandard13\System.IO.FileSystem.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Linq.dll">
+          <LogicalName>netstandard13.System.Linq</LogicalName>
+          <Link>Resources\netstandard13\System.Linq.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Linq.Expressions.dll">
+          <LogicalName>netstandard13.System.Linq.Expressions</LogicalName>
+          <Link>Resources\netstandard13\System.Linq.Expressions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Net.Http.dll">
+          <LogicalName>netstandard13.System.Net.Http</LogicalName>
+          <Link>Resources\netstandard13\System.Net.Http.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Net.Primitives.dll">
+          <LogicalName>netstandard13.System.Net.Primitives</LogicalName>
+          <Link>Resources\netstandard13\System.Net.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Net.Sockets.dll">
+          <LogicalName>netstandard13.System.Net.Sockets</LogicalName>
+          <Link>Resources\netstandard13\System.Net.Sockets.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.ObjectModel.dll">
+          <LogicalName>netstandard13.System.ObjectModel</LogicalName>
+          <Link>Resources\netstandard13\System.ObjectModel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Reflection.dll">
+          <LogicalName>netstandard13.System.Reflection</LogicalName>
+          <Link>Resources\netstandard13\System.Reflection.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Reflection.Extensions.dll">
+          <LogicalName>netstandard13.System.Reflection.Extensions</LogicalName>
+          <Link>Resources\netstandard13\System.Reflection.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Reflection.Primitives.dll">
+          <LogicalName>netstandard13.System.Reflection.Primitives</LogicalName>
+          <Link>Resources\netstandard13\System.Reflection.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Resources.ResourceManager.dll">
+          <LogicalName>netstandard13.System.Resources.ResourceManager</LogicalName>
+          <Link>Resources\netstandard13\System.Resources.ResourceManager.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Runtime.dll">
+          <LogicalName>netstandard13.System.Runtime</LogicalName>
+          <Link>Resources\netstandard13\System.Runtime.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Runtime.Extensions.dll">
+          <LogicalName>netstandard13.System.Runtime.Extensions</LogicalName>
+          <Link>Resources\netstandard13\System.Runtime.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Runtime.Handles.dll">
+          <LogicalName>netstandard13.System.Runtime.Handles</LogicalName>
+          <Link>Resources\netstandard13\System.Runtime.Handles.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Runtime.InteropServices.dll">
+          <LogicalName>netstandard13.System.Runtime.InteropServices</LogicalName>
+          <Link>Resources\netstandard13\System.Runtime.InteropServices.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Runtime.InteropServices.RuntimeInformation.dll">
+          <LogicalName>netstandard13.System.Runtime.InteropServices.RuntimeInformation</LogicalName>
+          <Link>Resources\netstandard13\System.Runtime.InteropServices.RuntimeInformation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Runtime.Numerics.dll">
+          <LogicalName>netstandard13.System.Runtime.Numerics</LogicalName>
+          <Link>Resources\netstandard13\System.Runtime.Numerics.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Security.Cryptography.Algorithms.dll">
+          <LogicalName>netstandard13.System.Security.Cryptography.Algorithms</LogicalName>
+          <Link>Resources\netstandard13\System.Security.Cryptography.Algorithms.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Security.Cryptography.Encoding.dll">
+          <LogicalName>netstandard13.System.Security.Cryptography.Encoding</LogicalName>
+          <Link>Resources\netstandard13\System.Security.Cryptography.Encoding.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Security.Cryptography.Primitives.dll">
+          <LogicalName>netstandard13.System.Security.Cryptography.Primitives</LogicalName>
+          <Link>Resources\netstandard13\System.Security.Cryptography.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Security.Cryptography.X509Certificates.dll">
+          <LogicalName>netstandard13.System.Security.Cryptography.X509Certificates</LogicalName>
+          <Link>Resources\netstandard13\System.Security.Cryptography.X509Certificates.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Text.Encoding.dll">
+          <LogicalName>netstandard13.System.Text.Encoding</LogicalName>
+          <Link>Resources\netstandard13\System.Text.Encoding.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Text.Encoding.Extensions.dll">
+          <LogicalName>netstandard13.System.Text.Encoding.Extensions</LogicalName>
+          <Link>Resources\netstandard13\System.Text.Encoding.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Text.RegularExpressions.dll">
+          <LogicalName>netstandard13.System.Text.RegularExpressions</LogicalName>
+          <Link>Resources\netstandard13\System.Text.RegularExpressions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Threading.dll">
+          <LogicalName>netstandard13.System.Threading</LogicalName>
+          <Link>Resources\netstandard13\System.Threading.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Threading.Tasks.dll">
+          <LogicalName>netstandard13.System.Threading.Tasks</LogicalName>
+          <Link>Resources\netstandard13\System.Threading.Tasks.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Threading.Timer.dll">
+          <LogicalName>netstandard13.System.Threading.Timer</LogicalName>
+          <Link>Resources\netstandard13\System.Threading.Timer.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Xml.ReaderWriter.dll">
+          <LogicalName>netstandard13.System.Xml.ReaderWriter</LogicalName>
+          <Link>Resources\netstandard13\System.Xml.ReaderWriter.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Xml.XDocument.dll">
+          <LogicalName>netstandard13.System.Xml.XDocument</LogicalName>
+          <Link>Resources\netstandard13\System.Xml.XDocument.dll</Link>
+        </EmbeddedResource>
+    </ItemGroup>
+  </Project>
