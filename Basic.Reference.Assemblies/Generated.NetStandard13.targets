@@ -24,6 +24,14 @@
           <LogicalName>netstandard13.System.Diagnostics.Debug</LogicalName>
           <Link>Resources\netstandard13\System.Diagnostics.Debug.dll</Link>
         </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Diagnostics.FileVersionInfo.dll">
+          <LogicalName>netstandard13.System.Diagnostics.FileVersionInfo</LogicalName>
+          <Link>Resources\netstandard13\System.Diagnostics.FileVersionInfo.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Diagnostics.Process.dll">
+          <LogicalName>netstandard13.System.Diagnostics.Process</LogicalName>
+          <Link>Resources\netstandard13\System.Diagnostics.Process.dll</Link>
+        </EmbeddedResource>
         <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Diagnostics.Tools.dll">
           <LogicalName>netstandard13.System.Diagnostics.Tools</LogicalName>
           <Link>Resources\netstandard13\System.Diagnostics.Tools.dll</Link>
@@ -76,6 +84,10 @@
           <LogicalName>netstandard13.System.Net.Primitives</LogicalName>
           <Link>Resources\netstandard13\System.Net.Primitives.dll</Link>
         </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Net.Security.dll">
+          <LogicalName>netstandard13.System.Net.Security</LogicalName>
+          <Link>Resources\netstandard13\System.Net.Security.dll</Link>
+        </EmbeddedResource>
         <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Net.Sockets.dll">
           <LogicalName>netstandard13.System.Net.Sockets</LogicalName>
           <Link>Resources\netstandard13\System.Net.Sockets.dll</Link>
@@ -124,9 +136,25 @@
           <LogicalName>netstandard13.System.Runtime.Numerics</LogicalName>
           <Link>Resources\netstandard13\System.Runtime.Numerics.dll</Link>
         </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Runtime.Serialization.Primitives.dll">
+          <LogicalName>netstandard13.System.Runtime.Serialization.Primitives</LogicalName>
+          <Link>Resources\netstandard13\System.Runtime.Serialization.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Security.AccessControl.dll">
+          <LogicalName>netstandard13.System.Security.AccessControl</LogicalName>
+          <Link>Resources\netstandard13\System.Security.AccessControl.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Security.Claims.dll">
+          <LogicalName>netstandard13.System.Security.Claims</LogicalName>
+          <Link>Resources\netstandard13\System.Security.Claims.dll</Link>
+        </EmbeddedResource>
         <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Security.Cryptography.Algorithms.dll">
           <LogicalName>netstandard13.System.Security.Cryptography.Algorithms</LogicalName>
           <Link>Resources\netstandard13\System.Security.Cryptography.Algorithms.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Security.Cryptography.Csp.dll">
+          <LogicalName>netstandard13.System.Security.Cryptography.Csp</LogicalName>
+          <Link>Resources\netstandard13\System.Security.Cryptography.Csp.dll</Link>
         </EmbeddedResource>
         <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Security.Cryptography.Encoding.dll">
           <LogicalName>netstandard13.System.Security.Cryptography.Encoding</LogicalName>
@@ -139,6 +167,18 @@
         <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Security.Cryptography.X509Certificates.dll">
           <LogicalName>netstandard13.System.Security.Cryptography.X509Certificates</LogicalName>
           <Link>Resources\netstandard13\System.Security.Cryptography.X509Certificates.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Security.Principal.dll">
+          <LogicalName>netstandard13.System.Security.Principal</LogicalName>
+          <Link>Resources\netstandard13\System.Security.Principal.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Security.Principal.Windows.dll">
+          <LogicalName>netstandard13.System.Security.Principal.Windows</LogicalName>
+          <Link>Resources\netstandard13\System.Security.Principal.Windows.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Text.Encoding.CodePages.dll">
+          <LogicalName>netstandard13.System.Text.Encoding.CodePages</LogicalName>
+          <Link>Resources\netstandard13\System.Text.Encoding.CodePages.dll</Link>
         </EmbeddedResource>
         <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Text.Encoding.dll">
           <LogicalName>netstandard13.System.Text.Encoding</LogicalName>
@@ -160,9 +200,17 @@
           <LogicalName>netstandard13.System.Threading.Tasks</LogicalName>
           <Link>Resources\netstandard13\System.Threading.Tasks.dll</Link>
         </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Threading.Tasks.Extensions.dll">
+          <LogicalName>netstandard13.System.Threading.Tasks.Extensions</LogicalName>
+          <Link>Resources\netstandard13\System.Threading.Tasks.Extensions.dll</Link>
+        </EmbeddedResource>
         <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Threading.Timer.dll">
           <LogicalName>netstandard13.System.Threading.Timer</LogicalName>
           <Link>Resources\netstandard13\System.Threading.Timer.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.ValueTuple.dll">
+          <LogicalName>netstandard13.System.ValueTuple</LogicalName>
+          <Link>Resources\netstandard13\System.ValueTuple.dll</Link>
         </EmbeddedResource>
         <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Xml.ReaderWriter.dll">
           <LogicalName>netstandard13.System.Xml.ReaderWriter</LogicalName>
@@ -171,6 +219,18 @@
         <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Xml.XDocument.dll">
           <LogicalName>netstandard13.System.Xml.XDocument</LogicalName>
           <Link>Resources\netstandard13\System.Xml.XDocument.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Xml.XmlDocument.dll">
+          <LogicalName>netstandard13.System.Xml.XmlDocument</LogicalName>
+          <Link>Resources\netstandard13\System.Xml.XmlDocument.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Xml.XPath.dll">
+          <LogicalName>netstandard13.System.Xml.XPath</LogicalName>
+          <Link>Resources\netstandard13\System.Xml.XPath.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\\Resources\netstandard1.3\System.Xml.XPath.XDocument.dll">
+          <LogicalName>netstandard13.System.Xml.XPath.XDocument</LogicalName>
+          <Link>Resources\netstandard13\System.Xml.XPath.XDocument.dll</Link>
         </EmbeddedResource>
     </ItemGroup>
   </Project>
