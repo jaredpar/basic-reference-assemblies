@@ -16,15 +16,16 @@ for `netstandard2.0`, `netcoreapp3.1` and `net5.0`. These can be easily
 integrated into the existing Roslyn APIs.
 
 ```c#
-using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Basic.Reference.Assemblies;
+using System.IO;
+using System.Reflection;
 
 var code = @"
 using System;
-static class Program
+public static class Example
 {
-    static void Main()
+    public static void Main()
     {
         var tuple = (Part1: ""hello"", Part2: ""world"");
         Console.WriteLine($""{tuple.Part1} {tuple.Part2}"");
@@ -38,8 +39,13 @@ var compilation = CSharpCompilation
         new[] { CSharpSyntaxTree.ParseText(code) },
         references: ReferenceAssemblies.Net50);
 
-using var fileStream = new FileStream(@"p:\temp\helloworld.exe", FileMode.Create, FileAccess.ReadWrite);
-var emitResults = compilation.Emit(fileStream);
+using var stream = new MemoryStream();
+var emitResults = compilation.Emit(stream);
+stream.Position = 0;
+var assembly = Assembly.Load(stream.ToArray());
+var method = assembly.GetType("Example").GetMethod("Main");
+method.Invoke(null, null); // Prints "Hello World"
+
 ```
 
 This package also adds extensions methods for easily retargeting `Compilation` 
