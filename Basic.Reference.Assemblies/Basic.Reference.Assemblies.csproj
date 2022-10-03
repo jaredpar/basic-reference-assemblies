@@ -7,6 +7,7 @@
 
   <Import Project="Generated.Net50.targets" />
   <Import Project="Generated.Net60.targets" />
+  <Import Project="Generated.Net70.targets" />
   <Import Project="Generated.NetCoreApp31.targets" />
   <Import Project="Generated.NetStandard13.targets" />
   <Import Project="Generated.NetStandard20.targets" />
