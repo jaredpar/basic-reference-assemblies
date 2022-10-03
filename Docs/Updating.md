@@ -24,13 +24,10 @@ Create the directory `Basic.Reference.Assemblies.Net70` and add a project file w
 </Project>
 ```
 
-Run `dotnet restore` to ensure the NuPkg is downloaded to the machine. Update the `Generate.ps1` file to have an entry for the new target framework
-
-**Note**: the version on disk can differ from what is put in the csproj file. If `Generate.ps1` fails check to see if the version on disk was slightly different and just use that.
-
+Run `dotnet restore` on `Basic.Reference.Assemblies.Net70.csproj` to ensure the NuPkg is downloaded to the machine. Update the `Generate.ps1` file to have an entry for the new target framework
 ```ps1
 # Net70
-$map = Get-Content "Net70" 'microsoft.netcore.app.ref\7.0.0-rc.2.22469.6\ref\net7.0'
+$map = Get-Content "Net70" 'microsoft.netcore.app.ref\7.0.0-rc.1.22426.10\ref\net7.0'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net70"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8

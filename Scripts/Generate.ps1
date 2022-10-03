@@ -202,7 +202,7 @@ $map.CodeContent | Out-File (Join-Path $combinedDir "Generated.Net60.cs") -Encod
 $map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.Net60.targets") -Encoding Utf8
 
 # Net70
-$map = Get-Content "Net70" 'microsoft.netcore.app.ref\7.0.0-rc.2.22469.6\ref\net7.0'
+$map = Get-Content "Net70" 'microsoft.netcore.app.ref\7.0.0-rc.1.22426.10\ref\net7.0'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net70"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
