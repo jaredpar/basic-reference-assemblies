@@ -33,6 +33,9 @@ jobs:
       - name: Pack Net60
         run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.Net60/Basic.Reference.Assemblies.Net60.csproj -o .
 
+      - name: Pack Net60Windows
+        run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.Net60/Basic.Reference.Assemblies.Net60Windows.csproj -o .
+
       - name: Pack Net70
         run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.Net70/Basic.Reference.Assemblies.Net70.csproj -o .
 
