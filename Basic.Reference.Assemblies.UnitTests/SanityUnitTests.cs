@@ -85,5 +85,18 @@ public class C
             var options = compilation.Options.WithSpecificDiagnosticOptions(diagnosticMap);
             return compilation.WithOptions(options);
         }
+
+        [Theory]
+        [MemberData(nameof(TestData.AllValues), MemberType = typeof(TestData))]
+        public void AllReferenceInfo(string targetFramework, IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> referenceValues)
+        {
+            var list = referenceValues.ToList();
+            Assert.True(list.Count > 50, $"Not enough assemblies in {targetFramework}"); // Make sure we have it all
+            foreach (var tuple in list)
+            {
+                Assert.Equal(tuple.Mvid, tuple.Reference.GetMvid());
+                Assert.NotNull(tuple.Reference);
+            }
+        }
     }
 }

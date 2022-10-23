@@ -8,9 +8,9 @@ namespace Basic.Reference.Assemblies
 {
     public static class ReferenceAssemblies
     {
-        public static IEnumerable<PortableExecutableReference> Net60 => Basic.Reference.Assemblies.Net60.All;
-        public static IEnumerable<PortableExecutableReference> NetStandard20 => Basic.Reference.Assemblies.NetStandard20.All;
-        public static IEnumerable<PortableExecutableReference> Net472 => Basic.Reference.Assemblies.Net472.All;
+        public static IEnumerable<PortableExecutableReference> Net60 => Basic.Reference.Assemblies.Net60.References.All;
+        public static IEnumerable<PortableExecutableReference> NetStandard20 => Basic.Reference.Assemblies.NetStandard20.References.All;
+        public static IEnumerable<PortableExecutableReference> Net472 => Basic.Reference.Assemblies.Net472.References.All;
 
         public static IEnumerable<PortableExecutableReference> Get(ReferenceAssemblyKind kind) => kind switch
         {

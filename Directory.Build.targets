@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <Compile Include="..\Shared\ResourceLoader.cs" Link="ResourceLoader.cs" />
+    <Compile Include="..\Shared\ReferenceInfo.cs" Link="ReferenceInfo.cs" />
   </ItemGroup>
 
   <ItemGroup>

@@ -9,7 +9,9 @@ function Get-ContentCore($name, $realPackagePath, $realPackagePrefix, $targetsPr
   $codeContent = @"
 // This is a generated file, please edit Generate.ps1 to change the contents
 
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.CodeAnalysis;
 
 namespace Basic.Reference.Assemblies
@@ -28,36 +30,15 @@ namespace Basic.Reference.Assemblies
   $metadataContent = @"
     public static partial class $name
     {
+        public static class References
+        {
 
 "@
 
-  $refContent = @"
+  $refInfoContent = @"
     public static partial class $name
     {
-        public readonly struct ReferenceInfo
-        {
-            public string FileName { get; }
-            public byte[] ImageBytes { get; }
-            public PortableExecutableReference Reference { get; }
-            public global::System.Guid Mvid { get; }
-            public ReferenceInfo(string fileName, byte[] imageBytes, PortableExecutableReference reference, global::System.Guid mvid)
-            {
-                FileName = fileName;
-                ImageBytes = imageBytes;
-                Reference = reference;
-                Mvid = mvid;
-            }
-
-            public void Deconstruct(out string fileName, out byte[] imageBytes, out PortableExecutableReference reference, out global::System.Guid mvid)
-            {
-                fileName = FileName;
-                imageBytes = ImageBytes;
-                reference = Reference;
-                mvid = Mvid;
-            }
-        }
-
-        public static class References
+        public static class ReferenceInfos
         {
 
 "@
@@ -101,49 +82,51 @@ namespace Basic.Reference.Assemblies
 
 "@
 
-    $refContent += @"
-            public static ReferenceInfo $propName => new ReferenceInfo("$dllName", Resources.$($propName), $name.$propName, global::System.Guid.Parse("$mvid"));
+    $refInfoContent += @"
+            public static ReferenceInfo $propName => new ReferenceInfo("$dllName", Resources.$($propName), $name.References.$propName, global::System.Guid.Parse("$mvid"));
 
 "@
 
     $metadataContent += @"
-        public static PortableExecutableReference $propName { get; } = AssemblyMetadata.CreateFromImage(Resources.$($propName)).GetReference(filePath: "$dllName", display: "$dll ($lowerName)");
+            public static PortableExecutableReference $propName { get; } = AssemblyMetadata.CreateFromImage(Resources.$($propName)).GetReference(filePath: "$dllName", display: "$dll ($lowerName)");
 
 "@
 
   }
 
-  $refContent += @"
+  $refInfoContent += @"
             public static IEnumerable<ReferenceInfo> All { get; }= new []
             {
 
 "@
 
   $metadataContent += @"
-        public static IEnumerable<PortableExecutableReference> All { get; }= new PortableExecutableReference[]
-        {
+            public static IEnumerable<PortableExecutableReference> All { get; }= new PortableExecutableReference[]
+            {
 
 "@;
     foreach ($propName in $allPropNames)
     {
-      $refContent += @"
+      $refInfoContent += @"
                 $propName,
 
 "@
 
       $metadataContent += @"
-            $propName,
+                $propName,
 
 "@
     }
 
     $metadataContent += @"
-        };
-    }
-
-"@
-    $refContent += @"
             };
+        }
+    }
+"@
+    $refInfoContent += @"
+            };
+
+            public static IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> AllValues => All.Select(x => x.AsTuple());
         }
     }
 
@@ -154,7 +137,7 @@ namespace Basic.Reference.Assemblies
     }
 
 "@
-    $codeContent += $refContent;
+    $codeContent += $refInfoContent;
     $codeContent += $metadataContent;
 
   $targetsContent += @"
@@ -163,6 +146,7 @@ namespace Basic.Reference.Assemblies
 "@;
 
   $codeContent += @"
+
 }
 "@
 
