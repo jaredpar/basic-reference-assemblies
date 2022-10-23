@@ -14,28 +14,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Basic.Reference.Assemblies.Net50\Basic.Reference.Assemblies.Net50.csproj">
-      <Aliases>RefNet50</Aliases>
+    <ProjectReference Include="..\Basic.Reference.Assemblies.Net50\Basic.Reference.Assemblies.Net50.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies.Net60\Basic.Reference.Assemblies.Net60.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies.NetCoreApp31\Basic.Reference.Assemblies.NetCoreApp31.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies.NetStandard13\Basic.Reference.Assemblies.NetStandard13.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies.NetStandard20\Basic.Reference.Assemblies.NetStandard20.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies.Net472\Basic.Reference.Assemblies.Net472.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies.Net461\Basic.Reference.Assemblies.Net461.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies\Basic.Reference.Assemblies.csproj">
+        <Aliases>Combined</Aliases>
     </ProjectReference>
-    <ProjectReference Include="..\Basic.Reference.Assemblies.Net60\Basic.Reference.Assemblies.Net60.csproj">
-      <Aliases>RefNet60</Aliases>
-    </ProjectReference>
-    <ProjectReference Include="..\Basic.Reference.Assemblies.NetCoreApp31\Basic.Reference.Assemblies.NetCoreApp31.csproj">
-      <Aliases>RefNetCoreApp31</Aliases>
-    </ProjectReference>
-    <ProjectReference Include="..\Basic.Reference.Assemblies.NetStandard13\Basic.Reference.Assemblies.NetStandard13.csproj">
-      <Aliases>RefNetStandard13</Aliases>
-    </ProjectReference>
-    <ProjectReference Include="..\Basic.Reference.Assemblies.NetStandard20\Basic.Reference.Assemblies.NetStandard20.csproj">
-      <Aliases>RefNetStandard20</Aliases>
-    </ProjectReference>
-    <ProjectReference Include="..\Basic.Reference.Assemblies.Net472\Basic.Reference.Assemblies.Net472.csproj">
-      <Aliases>RefNet472</Aliases>
-    </ProjectReference>
-    <ProjectReference Include="..\Basic.Reference.Assemblies.Net461\Basic.Reference.Assemblies.Net461.csproj">
-      <Aliases>RefNet461</Aliases>
-    </ProjectReference>
-    <ProjectReference Include="..\Basic.Reference.Assemblies\Basic.Reference.Assemblies.csproj" />
   </ItemGroup>
 
 </Project>
