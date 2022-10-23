@@ -15,6 +15,11 @@ namespace Basic.Reference.Assemblies.UnitTests
                 return new object[][]
                 {
                     new object[] { "net461", Net461.All },
+                    new object[] { "net472", Net472.All },
+                    new object[] { "netcoreapp3.1", NetCoreApp31.All },
+                    new object[] { "net5.0", Net50.All },
+                    new object[] { "net6.0", Net60.All },
+                    new object[] { "net7.0", Net70.All },
                 };
             }
         }
