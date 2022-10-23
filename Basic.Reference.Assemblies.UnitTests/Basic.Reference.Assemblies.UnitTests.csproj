@@ -15,7 +15,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Basic.Reference.Assemblies.Net50\Basic.Reference.Assemblies.Net50.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies.Net60Windows\Basic.Reference.Assemblies.Net60Windows.csproj" />
     <ProjectReference Include="..\Basic.Reference.Assemblies.Net60\Basic.Reference.Assemblies.Net60.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies.Net70\Basic.Reference.Assemblies.Net70.csproj" />
     <ProjectReference Include="..\Basic.Reference.Assemblies.NetCoreApp31\Basic.Reference.Assemblies.NetCoreApp31.csproj" />
     <ProjectReference Include="..\Basic.Reference.Assemblies.NetStandard13\Basic.Reference.Assemblies.NetStandard13.csproj" />
     <ProjectReference Include="..\Basic.Reference.Assemblies.NetStandard20\Basic.Reference.Assemblies.NetStandard20.csproj" />
