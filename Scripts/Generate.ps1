@@ -38,10 +38,22 @@ namespace Basic.Reference.Assemblies
         {
             public string FileName { get; }
             public byte[] ImageBytes { get; }
-            public ReferenceInfo(string fileName, byte[] imageBytes)
+            public PortableExecutableReference Reference { get; }
+            public global::System.Guid Mvid { get; }
+            public ReferenceInfo(string fileName, byte[] imageBytes, PortableExecutableReference reference, global::System.Guid mvid)
             {
                 FileName = fileName;
                 ImageBytes = imageBytes;
+                Reference = reference;
+                Mvid = mvid;
+            }
+
+            public void Deconstruct(out string fileName, out byte[] imageBytes, out PortableExecutableReference reference, out global::System.Guid mvid)
+            {
+                fileName = FileName;
+                imageBytes = ImageBytes;
+                reference = Reference;
+                mvid = Mvid;
             }
         }
 
@@ -50,7 +62,7 @@ namespace Basic.Reference.Assemblies
 
 "@
 
-  $name = $name.ToLower()
+  $lowerName = $name.ToLower()
   $list = @(Get-ChildItem -filter *.dll $realPackagePath | %{ $_.FullName })
   $facadesPath = Join-Path $realPackagePath "Facades"
   if (Test-Path $facadesPath) {
@@ -66,15 +78,16 @@ namespace Basic.Reference.Assemblies
       continue
     }
 
+    $mvid = Get-Mvid $dllPath
     $dll = $dllName.Substring(0, $dllName.Length - 4)
-    $logicalName = "$($name).$($dll)";
+    $logicalName = "$($lowerName).$($dll)";
     $dllPath = $dllPath.Substring($realPackagePrefix.Length)
     $dllPath = $targetsPrefix + $dllPath
 
     $targetsContent += @"
         <EmbeddedResource Include="$dllPath">
           <LogicalName>$logicalName</LogicalName>
-          <Link>Resources\$name\$dllName</Link>
+          <Link>Resources\$lowerName\$dllName</Link>
         </EmbeddedResource>
 
 "@
@@ -89,12 +102,12 @@ namespace Basic.Reference.Assemblies
 "@
 
     $refContent += @"
-            public static ReferenceInfo $propName => new ReferenceInfo("$dllName", Resources.$($propName));
+            public static ReferenceInfo $propName => new ReferenceInfo("$dllName", Resources.$($propName), $name.$propName, global::System.Guid.Parse("$mvid"));
 
 "@
 
     $metadataContent += @"
-        public static PortableExecutableReference $propName { get; } = AssemblyMetadata.CreateFromImage(Resources.$($propName)).GetReference(filePath: "$dllName", display: "$dll ($name)");
+        public static PortableExecutableReference $propName { get; } = AssemblyMetadata.CreateFromImage(Resources.$($propName)).GetReference(filePath: "$dllName", display: "$dll ($lowerName)");
 
 "@
 
@@ -154,6 +167,16 @@ namespace Basic.Reference.Assemblies
 "@
 
   return @{ CodeContent = $codeContent; TargetsContent = $targetsContent}
+}
+
+function Get-Mvid($dllPath)
+{
+  $stream = [IO.File]::OpenRead($dllPath)
+  $peReader = New-Object -Type System.Reflection.PortableExecutable.PEReader -ArgumentList $stream
+  $metadataReader = [Reflection.Metadata.PEReaderExtensions]::GetMetadataReader($peReader)
+  $mvidHandle = $metadataReader.GetModuleDefinition().Mvid;
+  $mvid = $metadataReader.GetGuid($mvidHandle)
+  return $mvid.ToString()
 }
 
 function Get-Content($name, $packagePath, [string]$excludePattern)

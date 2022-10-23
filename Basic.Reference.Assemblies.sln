@@ -28,7 +28,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net70", "Basic.Reference.Assemblies.Net70\Basic.Reference.Assemblies.Net70.csproj", "{24CCB309-D324-4AD6-A1D4-7E9CFD82A7FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net60Windows", "Basic.Reference.Assemblies.Net60Windows\Basic.Reference.Assemblies.Net60Windows.csproj", "{BBFE738E-E386-4F29-933C-318B9052097B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net60Windows", "Basic.Reference.Assemblies.Net60Windows\Basic.Reference.Assemblies.Net60Windows.csproj", "{BBFE738E-E386-4F29-933C-318B9052097B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

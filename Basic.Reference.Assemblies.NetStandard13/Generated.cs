@@ -133,73 +133,85 @@ namespace Basic.Reference.Assemblies
         {
             public string FileName { get; }
             public byte[] ImageBytes { get; }
-            public ReferenceInfo(string fileName, byte[] imageBytes)
+            public PortableExecutableReference Reference { get; }
+            public global::System.Guid Mvid { get; }
+            public ReferenceInfo(string fileName, byte[] imageBytes, PortableExecutableReference reference, global::System.Guid mvid)
             {
                 FileName = fileName;
                 ImageBytes = imageBytes;
+                Reference = reference;
+                Mvid = mvid;
+            }
+
+            public void Deconstruct(out string fileName, out byte[] imageBytes, out PortableExecutableReference reference, out global::System.Guid mvid)
+            {
+                fileName = FileName;
+                imageBytes = ImageBytes;
+                reference = Reference;
+                mvid = Mvid;
             }
         }
 
         public static class References
         {
-            public static ReferenceInfo MicrosoftWin32Primitives => new ReferenceInfo("Microsoft.Win32.Primitives.dll", Resources.MicrosoftWin32Primitives);
-            public static ReferenceInfo SystemAppContext => new ReferenceInfo("System.AppContext.dll", Resources.SystemAppContext);
-            public static ReferenceInfo SystemCollectionsConcurrent => new ReferenceInfo("System.Collections.Concurrent.dll", Resources.SystemCollectionsConcurrent);
-            public static ReferenceInfo SystemCollections => new ReferenceInfo("System.Collections.dll", Resources.SystemCollections);
-            public static ReferenceInfo SystemConsole => new ReferenceInfo("System.Console.dll", Resources.SystemConsole);
-            public static ReferenceInfo SystemDiagnosticsDebug => new ReferenceInfo("System.Diagnostics.Debug.dll", Resources.SystemDiagnosticsDebug);
-            public static ReferenceInfo SystemDiagnosticsFileVersionInfo => new ReferenceInfo("System.Diagnostics.FileVersionInfo.dll", Resources.SystemDiagnosticsFileVersionInfo);
-            public static ReferenceInfo SystemDiagnosticsProcess => new ReferenceInfo("System.Diagnostics.Process.dll", Resources.SystemDiagnosticsProcess);
-            public static ReferenceInfo SystemDiagnosticsTools => new ReferenceInfo("System.Diagnostics.Tools.dll", Resources.SystemDiagnosticsTools);
-            public static ReferenceInfo SystemDiagnosticsTracing => new ReferenceInfo("System.Diagnostics.Tracing.dll", Resources.SystemDiagnosticsTracing);
-            public static ReferenceInfo SystemGlobalizationCalendars => new ReferenceInfo("System.Globalization.Calendars.dll", Resources.SystemGlobalizationCalendars);
-            public static ReferenceInfo SystemGlobalization => new ReferenceInfo("System.Globalization.dll", Resources.SystemGlobalization);
-            public static ReferenceInfo SystemIOCompression => new ReferenceInfo("System.IO.Compression.dll", Resources.SystemIOCompression);
-            public static ReferenceInfo SystemIOCompressionZipFile => new ReferenceInfo("System.IO.Compression.ZipFile.dll", Resources.SystemIOCompressionZipFile);
-            public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO);
-            public static ReferenceInfo SystemIOFileSystem => new ReferenceInfo("System.IO.FileSystem.dll", Resources.SystemIOFileSystem);
-            public static ReferenceInfo SystemIOFileSystemPrimitives => new ReferenceInfo("System.IO.FileSystem.Primitives.dll", Resources.SystemIOFileSystemPrimitives);
-            public static ReferenceInfo SystemLinq => new ReferenceInfo("System.Linq.dll", Resources.SystemLinq);
-            public static ReferenceInfo SystemLinqExpressions => new ReferenceInfo("System.Linq.Expressions.dll", Resources.SystemLinqExpressions);
-            public static ReferenceInfo SystemNetHttp => new ReferenceInfo("System.Net.Http.dll", Resources.SystemNetHttp);
-            public static ReferenceInfo SystemNetPrimitives => new ReferenceInfo("System.Net.Primitives.dll", Resources.SystemNetPrimitives);
-            public static ReferenceInfo SystemNetSecurity => new ReferenceInfo("System.Net.Security.dll", Resources.SystemNetSecurity);
-            public static ReferenceInfo SystemNetSockets => new ReferenceInfo("System.Net.Sockets.dll", Resources.SystemNetSockets);
-            public static ReferenceInfo SystemObjectModel => new ReferenceInfo("System.ObjectModel.dll", Resources.SystemObjectModel);
-            public static ReferenceInfo SystemReflection => new ReferenceInfo("System.Reflection.dll", Resources.SystemReflection);
-            public static ReferenceInfo SystemReflectionExtensions => new ReferenceInfo("System.Reflection.Extensions.dll", Resources.SystemReflectionExtensions);
-            public static ReferenceInfo SystemReflectionPrimitives => new ReferenceInfo("System.Reflection.Primitives.dll", Resources.SystemReflectionPrimitives);
-            public static ReferenceInfo SystemResourcesResourceManager => new ReferenceInfo("System.Resources.ResourceManager.dll", Resources.SystemResourcesResourceManager);
-            public static ReferenceInfo SystemRuntime => new ReferenceInfo("System.Runtime.dll", Resources.SystemRuntime);
-            public static ReferenceInfo SystemRuntimeExtensions => new ReferenceInfo("System.Runtime.Extensions.dll", Resources.SystemRuntimeExtensions);
-            public static ReferenceInfo SystemRuntimeHandles => new ReferenceInfo("System.Runtime.Handles.dll", Resources.SystemRuntimeHandles);
-            public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices);
-            public static ReferenceInfo SystemRuntimeInteropServicesRuntimeInformation => new ReferenceInfo("System.Runtime.InteropServices.RuntimeInformation.dll", Resources.SystemRuntimeInteropServicesRuntimeInformation);
-            public static ReferenceInfo SystemRuntimeNumerics => new ReferenceInfo("System.Runtime.Numerics.dll", Resources.SystemRuntimeNumerics);
-            public static ReferenceInfo SystemRuntimeSerializationPrimitives => new ReferenceInfo("System.Runtime.Serialization.Primitives.dll", Resources.SystemRuntimeSerializationPrimitives);
-            public static ReferenceInfo SystemSecurityAccessControl => new ReferenceInfo("System.Security.AccessControl.dll", Resources.SystemSecurityAccessControl);
-            public static ReferenceInfo SystemSecurityClaims => new ReferenceInfo("System.Security.Claims.dll", Resources.SystemSecurityClaims);
-            public static ReferenceInfo SystemSecurityCryptographyAlgorithms => new ReferenceInfo("System.Security.Cryptography.Algorithms.dll", Resources.SystemSecurityCryptographyAlgorithms);
-            public static ReferenceInfo SystemSecurityCryptographyCsp => new ReferenceInfo("System.Security.Cryptography.Csp.dll", Resources.SystemSecurityCryptographyCsp);
-            public static ReferenceInfo SystemSecurityCryptographyEncoding => new ReferenceInfo("System.Security.Cryptography.Encoding.dll", Resources.SystemSecurityCryptographyEncoding);
-            public static ReferenceInfo SystemSecurityCryptographyPrimitives => new ReferenceInfo("System.Security.Cryptography.Primitives.dll", Resources.SystemSecurityCryptographyPrimitives);
-            public static ReferenceInfo SystemSecurityCryptographyX509Certificates => new ReferenceInfo("System.Security.Cryptography.X509Certificates.dll", Resources.SystemSecurityCryptographyX509Certificates);
-            public static ReferenceInfo SystemSecurityPrincipal => new ReferenceInfo("System.Security.Principal.dll", Resources.SystemSecurityPrincipal);
-            public static ReferenceInfo SystemSecurityPrincipalWindows => new ReferenceInfo("System.Security.Principal.Windows.dll", Resources.SystemSecurityPrincipalWindows);
-            public static ReferenceInfo SystemTextEncodingCodePages => new ReferenceInfo("System.Text.Encoding.CodePages.dll", Resources.SystemTextEncodingCodePages);
-            public static ReferenceInfo SystemTextEncoding => new ReferenceInfo("System.Text.Encoding.dll", Resources.SystemTextEncoding);
-            public static ReferenceInfo SystemTextEncodingExtensions => new ReferenceInfo("System.Text.Encoding.Extensions.dll", Resources.SystemTextEncodingExtensions);
-            public static ReferenceInfo SystemTextRegularExpressions => new ReferenceInfo("System.Text.RegularExpressions.dll", Resources.SystemTextRegularExpressions);
-            public static ReferenceInfo SystemThreading => new ReferenceInfo("System.Threading.dll", Resources.SystemThreading);
-            public static ReferenceInfo SystemThreadingTasks => new ReferenceInfo("System.Threading.Tasks.dll", Resources.SystemThreadingTasks);
-            public static ReferenceInfo SystemThreadingTasksExtensions => new ReferenceInfo("System.Threading.Tasks.Extensions.dll", Resources.SystemThreadingTasksExtensions);
-            public static ReferenceInfo SystemThreadingTimer => new ReferenceInfo("System.Threading.Timer.dll", Resources.SystemThreadingTimer);
-            public static ReferenceInfo SystemValueTuple => new ReferenceInfo("System.ValueTuple.dll", Resources.SystemValueTuple);
-            public static ReferenceInfo SystemXmlReaderWriter => new ReferenceInfo("System.Xml.ReaderWriter.dll", Resources.SystemXmlReaderWriter);
-            public static ReferenceInfo SystemXmlXDocument => new ReferenceInfo("System.Xml.XDocument.dll", Resources.SystemXmlXDocument);
-            public static ReferenceInfo SystemXmlXmlDocument => new ReferenceInfo("System.Xml.XmlDocument.dll", Resources.SystemXmlXmlDocument);
-            public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath);
-            public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument);
+            public static ReferenceInfo MicrosoftWin32Primitives => new ReferenceInfo("Microsoft.Win32.Primitives.dll", Resources.MicrosoftWin32Primitives, NetStandard13.MicrosoftWin32Primitives, global::System.Guid.Parse("91e3a81f-b201-4e0c-8268-d6f5ac7fb341"));
+            public static ReferenceInfo SystemAppContext => new ReferenceInfo("System.AppContext.dll", Resources.SystemAppContext, NetStandard13.SystemAppContext, global::System.Guid.Parse("7d0ca87f-e540-4a1f-a8bc-e516f32f5d53"));
+            public static ReferenceInfo SystemCollectionsConcurrent => new ReferenceInfo("System.Collections.Concurrent.dll", Resources.SystemCollectionsConcurrent, NetStandard13.SystemCollectionsConcurrent, global::System.Guid.Parse("286808d4-32ac-4189-8a2b-7545fa4b6086"));
+            public static ReferenceInfo SystemCollections => new ReferenceInfo("System.Collections.dll", Resources.SystemCollections, NetStandard13.SystemCollections, global::System.Guid.Parse("dc8e993a-f57c-4208-9b48-c9de723bd9ae"));
+            public static ReferenceInfo SystemConsole => new ReferenceInfo("System.Console.dll", Resources.SystemConsole, NetStandard13.SystemConsole, global::System.Guid.Parse("7c306057-d8d3-4710-acd5-48a6a7416da5"));
+            public static ReferenceInfo SystemDiagnosticsDebug => new ReferenceInfo("System.Diagnostics.Debug.dll", Resources.SystemDiagnosticsDebug, NetStandard13.SystemDiagnosticsDebug, global::System.Guid.Parse("e8da1e39-cb54-4c34-9233-b0dea7f24136"));
+            public static ReferenceInfo SystemDiagnosticsFileVersionInfo => new ReferenceInfo("System.Diagnostics.FileVersionInfo.dll", Resources.SystemDiagnosticsFileVersionInfo, NetStandard13.SystemDiagnosticsFileVersionInfo, global::System.Guid.Parse("965b58bc-1fd3-48cf-be90-27a5a9091d07"));
+            public static ReferenceInfo SystemDiagnosticsProcess => new ReferenceInfo("System.Diagnostics.Process.dll", Resources.SystemDiagnosticsProcess, NetStandard13.SystemDiagnosticsProcess, global::System.Guid.Parse("d19ddd95-cd72-4313-8ec4-6f7d58c446f5"));
+            public static ReferenceInfo SystemDiagnosticsTools => new ReferenceInfo("System.Diagnostics.Tools.dll", Resources.SystemDiagnosticsTools, NetStandard13.SystemDiagnosticsTools, global::System.Guid.Parse("d485d7f1-0044-42ba-9c46-e593d82a4cbd"));
+            public static ReferenceInfo SystemDiagnosticsTracing => new ReferenceInfo("System.Diagnostics.Tracing.dll", Resources.SystemDiagnosticsTracing, NetStandard13.SystemDiagnosticsTracing, global::System.Guid.Parse("0c51d40e-31ef-45f1-85f4-627c5df009b7"));
+            public static ReferenceInfo SystemGlobalizationCalendars => new ReferenceInfo("System.Globalization.Calendars.dll", Resources.SystemGlobalizationCalendars, NetStandard13.SystemGlobalizationCalendars, global::System.Guid.Parse("fcf5f760-0ab6-4607-bac7-3a4bac4b4c59"));
+            public static ReferenceInfo SystemGlobalization => new ReferenceInfo("System.Globalization.dll", Resources.SystemGlobalization, NetStandard13.SystemGlobalization, global::System.Guid.Parse("06c11906-82a8-4972-bae8-af7ef83ea233"));
+            public static ReferenceInfo SystemIOCompression => new ReferenceInfo("System.IO.Compression.dll", Resources.SystemIOCompression, NetStandard13.SystemIOCompression, global::System.Guid.Parse("2fb7b844-10bc-4023-b29a-2d341b010ef8"));
+            public static ReferenceInfo SystemIOCompressionZipFile => new ReferenceInfo("System.IO.Compression.ZipFile.dll", Resources.SystemIOCompressionZipFile, NetStandard13.SystemIOCompressionZipFile, global::System.Guid.Parse("695c61db-fdaa-4175-8e71-7100064387a9"));
+            public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO, NetStandard13.SystemIO, global::System.Guid.Parse("ab3c28ef-24cb-4f4e-970e-019e5553fbb0"));
+            public static ReferenceInfo SystemIOFileSystem => new ReferenceInfo("System.IO.FileSystem.dll", Resources.SystemIOFileSystem, NetStandard13.SystemIOFileSystem, global::System.Guid.Parse("26348140-43db-4e00-ae0a-51657fb5c45c"));
+            public static ReferenceInfo SystemIOFileSystemPrimitives => new ReferenceInfo("System.IO.FileSystem.Primitives.dll", Resources.SystemIOFileSystemPrimitives, NetStandard13.SystemIOFileSystemPrimitives, global::System.Guid.Parse("df0b3070-4314-4f90-ad3b-82dd59401b69"));
+            public static ReferenceInfo SystemLinq => new ReferenceInfo("System.Linq.dll", Resources.SystemLinq, NetStandard13.SystemLinq, global::System.Guid.Parse("ffb4cff3-b953-4068-bdca-0d5540a1af15"));
+            public static ReferenceInfo SystemLinqExpressions => new ReferenceInfo("System.Linq.Expressions.dll", Resources.SystemLinqExpressions, NetStandard13.SystemLinqExpressions, global::System.Guid.Parse("d4a258f5-7d30-42d4-9dd5-02d03bcd2c70"));
+            public static ReferenceInfo SystemNetHttp => new ReferenceInfo("System.Net.Http.dll", Resources.SystemNetHttp, NetStandard13.SystemNetHttp, global::System.Guid.Parse("366072f2-59a8-4d1b-b1fb-4d4357b9fdcc"));
+            public static ReferenceInfo SystemNetPrimitives => new ReferenceInfo("System.Net.Primitives.dll", Resources.SystemNetPrimitives, NetStandard13.SystemNetPrimitives, global::System.Guid.Parse("bc474da5-2dd5-44e2-ae42-214b1412c875"));
+            public static ReferenceInfo SystemNetSecurity => new ReferenceInfo("System.Net.Security.dll", Resources.SystemNetSecurity, NetStandard13.SystemNetSecurity, global::System.Guid.Parse("e8fb5b9d-2d54-468d-bd4f-6dbbe5a9ff8e"));
+            public static ReferenceInfo SystemNetSockets => new ReferenceInfo("System.Net.Sockets.dll", Resources.SystemNetSockets, NetStandard13.SystemNetSockets, global::System.Guid.Parse("d896fe9a-bb21-409d-9c3b-3b3160ca66f7"));
+            public static ReferenceInfo SystemObjectModel => new ReferenceInfo("System.ObjectModel.dll", Resources.SystemObjectModel, NetStandard13.SystemObjectModel, global::System.Guid.Parse("51121eca-cdba-447b-ad8d-e4c15c657d8b"));
+            public static ReferenceInfo SystemReflection => new ReferenceInfo("System.Reflection.dll", Resources.SystemReflection, NetStandard13.SystemReflection, global::System.Guid.Parse("b0a5aef5-d59c-41ab-88a8-070188f91a13"));
+            public static ReferenceInfo SystemReflectionExtensions => new ReferenceInfo("System.Reflection.Extensions.dll", Resources.SystemReflectionExtensions, NetStandard13.SystemReflectionExtensions, global::System.Guid.Parse("b7aae18d-6dd7-4990-a235-bf75351f1a63"));
+            public static ReferenceInfo SystemReflectionPrimitives => new ReferenceInfo("System.Reflection.Primitives.dll", Resources.SystemReflectionPrimitives, NetStandard13.SystemReflectionPrimitives, global::System.Guid.Parse("a2b25b9d-8988-406a-bd71-936b443bf573"));
+            public static ReferenceInfo SystemResourcesResourceManager => new ReferenceInfo("System.Resources.ResourceManager.dll", Resources.SystemResourcesResourceManager, NetStandard13.SystemResourcesResourceManager, global::System.Guid.Parse("a9fd769c-937a-4979-8f26-b481d0495e52"));
+            public static ReferenceInfo SystemRuntime => new ReferenceInfo("System.Runtime.dll", Resources.SystemRuntime, NetStandard13.SystemRuntime, global::System.Guid.Parse("f201d1db-e2f2-400f-9b76-4a51bfc9793e"));
+            public static ReferenceInfo SystemRuntimeExtensions => new ReferenceInfo("System.Runtime.Extensions.dll", Resources.SystemRuntimeExtensions, NetStandard13.SystemRuntimeExtensions, global::System.Guid.Parse("2250f35c-4847-4d0d-b225-47e35e39b015"));
+            public static ReferenceInfo SystemRuntimeHandles => new ReferenceInfo("System.Runtime.Handles.dll", Resources.SystemRuntimeHandles, NetStandard13.SystemRuntimeHandles, global::System.Guid.Parse("98aa6ed2-21ab-4579-9b4a-c2447c21b86b"));
+            public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices, NetStandard13.SystemRuntimeInteropServices, global::System.Guid.Parse("510cc175-e4e2-4dc0-be80-b25809b81c59"));
+            public static ReferenceInfo SystemRuntimeInteropServicesRuntimeInformation => new ReferenceInfo("System.Runtime.InteropServices.RuntimeInformation.dll", Resources.SystemRuntimeInteropServicesRuntimeInformation, NetStandard13.SystemRuntimeInteropServicesRuntimeInformation, global::System.Guid.Parse("5a827bea-b951-49b4-8379-e11f81f4539f"));
+            public static ReferenceInfo SystemRuntimeNumerics => new ReferenceInfo("System.Runtime.Numerics.dll", Resources.SystemRuntimeNumerics, NetStandard13.SystemRuntimeNumerics, global::System.Guid.Parse("9b6cc1ed-d04a-4881-b09f-526b86acec1c"));
+            public static ReferenceInfo SystemRuntimeSerializationPrimitives => new ReferenceInfo("System.Runtime.Serialization.Primitives.dll", Resources.SystemRuntimeSerializationPrimitives, NetStandard13.SystemRuntimeSerializationPrimitives, global::System.Guid.Parse("81488324-7349-452a-8e77-8ef65b7bec21"));
+            public static ReferenceInfo SystemSecurityAccessControl => new ReferenceInfo("System.Security.AccessControl.dll", Resources.SystemSecurityAccessControl, NetStandard13.SystemSecurityAccessControl, global::System.Guid.Parse("9ca72926-f8b2-47b1-baf9-c48b67684ffe"));
+            public static ReferenceInfo SystemSecurityClaims => new ReferenceInfo("System.Security.Claims.dll", Resources.SystemSecurityClaims, NetStandard13.SystemSecurityClaims, global::System.Guid.Parse("af2a2068-32c3-4e61-af21-ae4ca2688b86"));
+            public static ReferenceInfo SystemSecurityCryptographyAlgorithms => new ReferenceInfo("System.Security.Cryptography.Algorithms.dll", Resources.SystemSecurityCryptographyAlgorithms, NetStandard13.SystemSecurityCryptographyAlgorithms, global::System.Guid.Parse("6b686dbb-17b1-4833-85e4-9a2b63f00600"));
+            public static ReferenceInfo SystemSecurityCryptographyCsp => new ReferenceInfo("System.Security.Cryptography.Csp.dll", Resources.SystemSecurityCryptographyCsp, NetStandard13.SystemSecurityCryptographyCsp, global::System.Guid.Parse("9ad5797a-13a1-49b7-ad60-2e89f8d4dcd2"));
+            public static ReferenceInfo SystemSecurityCryptographyEncoding => new ReferenceInfo("System.Security.Cryptography.Encoding.dll", Resources.SystemSecurityCryptographyEncoding, NetStandard13.SystemSecurityCryptographyEncoding, global::System.Guid.Parse("8c839bdf-05b6-48d3-92f2-caa183da320a"));
+            public static ReferenceInfo SystemSecurityCryptographyPrimitives => new ReferenceInfo("System.Security.Cryptography.Primitives.dll", Resources.SystemSecurityCryptographyPrimitives, NetStandard13.SystemSecurityCryptographyPrimitives, global::System.Guid.Parse("efe1d3b2-6c05-46a1-b158-004e5343cda1"));
+            public static ReferenceInfo SystemSecurityCryptographyX509Certificates => new ReferenceInfo("System.Security.Cryptography.X509Certificates.dll", Resources.SystemSecurityCryptographyX509Certificates, NetStandard13.SystemSecurityCryptographyX509Certificates, global::System.Guid.Parse("10aa0cf3-a59a-4593-be7c-c3ddc318f1ed"));
+            public static ReferenceInfo SystemSecurityPrincipal => new ReferenceInfo("System.Security.Principal.dll", Resources.SystemSecurityPrincipal, NetStandard13.SystemSecurityPrincipal, global::System.Guid.Parse("02fad2c2-6b10-48c6-846c-7b7a9f990535"));
+            public static ReferenceInfo SystemSecurityPrincipalWindows => new ReferenceInfo("System.Security.Principal.Windows.dll", Resources.SystemSecurityPrincipalWindows, NetStandard13.SystemSecurityPrincipalWindows, global::System.Guid.Parse("8b99a2b7-c51c-4953-aff3-1cf550d7de17"));
+            public static ReferenceInfo SystemTextEncodingCodePages => new ReferenceInfo("System.Text.Encoding.CodePages.dll", Resources.SystemTextEncodingCodePages, NetStandard13.SystemTextEncodingCodePages, global::System.Guid.Parse("6960315b-683e-48ee-a2f1-233ad5bd257c"));
+            public static ReferenceInfo SystemTextEncoding => new ReferenceInfo("System.Text.Encoding.dll", Resources.SystemTextEncoding, NetStandard13.SystemTextEncoding, global::System.Guid.Parse("d61d3c6a-065f-47ae-a9b1-b08d925e5d21"));
+            public static ReferenceInfo SystemTextEncodingExtensions => new ReferenceInfo("System.Text.Encoding.Extensions.dll", Resources.SystemTextEncodingExtensions, NetStandard13.SystemTextEncodingExtensions, global::System.Guid.Parse("d81d26f6-c2ee-4509-851a-356917648f68"));
+            public static ReferenceInfo SystemTextRegularExpressions => new ReferenceInfo("System.Text.RegularExpressions.dll", Resources.SystemTextRegularExpressions, NetStandard13.SystemTextRegularExpressions, global::System.Guid.Parse("594e4a83-e0e4-4460-ba32-4176fa3fa297"));
+            public static ReferenceInfo SystemThreading => new ReferenceInfo("System.Threading.dll", Resources.SystemThreading, NetStandard13.SystemThreading, global::System.Guid.Parse("8dbb97bb-f082-4474-b8d9-12a5ccaba4a0"));
+            public static ReferenceInfo SystemThreadingTasks => new ReferenceInfo("System.Threading.Tasks.dll", Resources.SystemThreadingTasks, NetStandard13.SystemThreadingTasks, global::System.Guid.Parse("7cb17adc-0ab1-454d-9bc7-41833f50eb29"));
+            public static ReferenceInfo SystemThreadingTasksExtensions => new ReferenceInfo("System.Threading.Tasks.Extensions.dll", Resources.SystemThreadingTasksExtensions, NetStandard13.SystemThreadingTasksExtensions, global::System.Guid.Parse("a0fea094-3f98-4048-a442-056f03888c06"));
+            public static ReferenceInfo SystemThreadingTimer => new ReferenceInfo("System.Threading.Timer.dll", Resources.SystemThreadingTimer, NetStandard13.SystemThreadingTimer, global::System.Guid.Parse("12fd61ad-53a9-4e3b-a56c-311506c8cc8f"));
+            public static ReferenceInfo SystemValueTuple => new ReferenceInfo("System.ValueTuple.dll", Resources.SystemValueTuple, NetStandard13.SystemValueTuple, global::System.Guid.Parse("0e36256c-d941-414e-a037-63caa0544d38"));
+            public static ReferenceInfo SystemXmlReaderWriter => new ReferenceInfo("System.Xml.ReaderWriter.dll", Resources.SystemXmlReaderWriter, NetStandard13.SystemXmlReaderWriter, global::System.Guid.Parse("50cbb506-90fe-4b79-a1f9-191d8ca9373f"));
+            public static ReferenceInfo SystemXmlXDocument => new ReferenceInfo("System.Xml.XDocument.dll", Resources.SystemXmlXDocument, NetStandard13.SystemXmlXDocument, global::System.Guid.Parse("8af61d14-77f6-4ab5-95c0-2fca40d335fc"));
+            public static ReferenceInfo SystemXmlXmlDocument => new ReferenceInfo("System.Xml.XmlDocument.dll", Resources.SystemXmlXmlDocument, NetStandard13.SystemXmlXmlDocument, global::System.Guid.Parse("81149fa8-556a-481a-834e-aa005d7a54ce"));
+            public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, NetStandard13.SystemXmlXPath, global::System.Guid.Parse("27062bf2-498a-439b-b8af-4e1cdcdfdb7e"));
+            public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, NetStandard13.SystemXmlXPathXDocument, global::System.Guid.Parse("0b548ee4-66b2-4dc7-8b7a-578fede05d0d"));
             public static IEnumerable<ReferenceInfo> All { get; }= new []
             {
                 MicrosoftWin32Primitives,
