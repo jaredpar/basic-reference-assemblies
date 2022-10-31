@@ -158,56 +158,67 @@ namespace Basic.Reference.Assemblies
             public static ReferenceInfo UIAutomationTypes => new ReferenceInfo("UIAutomationTypes.dll", Resources.UIAutomationTypes, Net60Windows.References.UIAutomationTypes, global::System.Guid.Parse("f5f716d1-9b7e-4836-bab7-a32beced52c5"));
             public static ReferenceInfo WindowsBase => new ReferenceInfo("WindowsBase.dll", Resources.WindowsBase, Net60Windows.References.WindowsBase, global::System.Guid.Parse("cee90dc3-193d-47c0-b952-21ddfab6d351"));
             public static ReferenceInfo WindowsFormsIntegration => new ReferenceInfo("WindowsFormsIntegration.dll", Resources.WindowsFormsIntegration, Net60Windows.References.WindowsFormsIntegration, global::System.Guid.Parse("5be5603b-d992-4de1-9506-0aa668e3ed90"));
-            public static IEnumerable<ReferenceInfo> All => new []
+            private static ReferenceInfo[]? _all;
+            public static IEnumerable<ReferenceInfo> All
             {
-                Accessibility,
-                MicrosoftVisualBasic,
-                MicrosoftVisualBasicForms,
-                MicrosoftWin32RegistryAccessControl,
-                MicrosoftWin32SystemEvents,
-                PresentationCore,
-                PresentationFrameworkAero,
-                PresentationFrameworkAero2,
-                PresentationFrameworkAeroLite,
-                PresentationFrameworkClassic,
-                PresentationFramework,
-                PresentationFrameworkLuna,
-                PresentationFrameworkRoyale,
-                PresentationUI,
-                ReachFramework,
-                SystemCodeDom,
-                SystemConfigurationConfigurationManager,
-                SystemDesign,
-                SystemDiagnosticsEventLog,
-                SystemDiagnosticsPerformanceCounter,
-                SystemDirectoryServices,
-                SystemDrawingCommon,
-                SystemDrawingDesign,
-                SystemDrawing,
-                SystemIOPackaging,
-                SystemPrinting,
-                SystemResourcesExtensions,
-                SystemSecurityCryptographyPkcs,
-                SystemSecurityCryptographyProtectedData,
-                SystemSecurityCryptographyXml,
-                SystemSecurityPermissions,
-                SystemThreadingAccessControl,
-                SystemWindowsControlsRibbon,
-                SystemWindowsExtensions,
-                SystemWindowsFormsDesign,
-                SystemWindowsFormsDesignEditors,
-                SystemWindowsForms,
-                SystemWindowsFormsPrimitives,
-                SystemWindowsInputManipulations,
-                SystemWindowsPresentation,
-                SystemXaml,
-                UIAutomationClient,
-                UIAutomationClientSideProviders,
-                UIAutomationProvider,
-                UIAutomationTypes,
-                WindowsBase,
-                WindowsFormsIntegration,
-            };
+                get
+                {
+                    if (_all == null)
+                    {
+                        _all = new[]
+                        {
+                            Accessibility,
+                            MicrosoftVisualBasic,
+                            MicrosoftVisualBasicForms,
+                            MicrosoftWin32RegistryAccessControl,
+                            MicrosoftWin32SystemEvents,
+                            PresentationCore,
+                            PresentationFrameworkAero,
+                            PresentationFrameworkAero2,
+                            PresentationFrameworkAeroLite,
+                            PresentationFrameworkClassic,
+                            PresentationFramework,
+                            PresentationFrameworkLuna,
+                            PresentationFrameworkRoyale,
+                            PresentationUI,
+                            ReachFramework,
+                            SystemCodeDom,
+                            SystemConfigurationConfigurationManager,
+                            SystemDesign,
+                            SystemDiagnosticsEventLog,
+                            SystemDiagnosticsPerformanceCounter,
+                            SystemDirectoryServices,
+                            SystemDrawingCommon,
+                            SystemDrawingDesign,
+                            SystemDrawing,
+                            SystemIOPackaging,
+                            SystemPrinting,
+                            SystemResourcesExtensions,
+                            SystemSecurityCryptographyPkcs,
+                            SystemSecurityCryptographyProtectedData,
+                            SystemSecurityCryptographyXml,
+                            SystemSecurityPermissions,
+                            SystemThreadingAccessControl,
+                            SystemWindowsControlsRibbon,
+                            SystemWindowsExtensions,
+                            SystemWindowsFormsDesign,
+                            SystemWindowsFormsDesignEditors,
+                            SystemWindowsForms,
+                            SystemWindowsFormsPrimitives,
+                            SystemWindowsInputManipulations,
+                            SystemWindowsPresentation,
+                            SystemXaml,
+                            UIAutomationClient,
+                            UIAutomationClientSideProviders,
+                            UIAutomationProvider,
+                            UIAutomationTypes,
+                            WindowsBase,
+                            WindowsFormsIntegration,
+                        };
+                    }
+                    return _all;
+                }
+            }
 
             public static IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> AllValues => All.Select(x => x.AsTuple());
         }
@@ -827,56 +838,67 @@ namespace Basic.Reference.Assemblies
                 }
             }
 
-            public static IEnumerable<PortableExecutableReference> All => new PortableExecutableReference[]
+            private static PortableExecutableReference[]? _all;
+            public static IEnumerable<PortableExecutableReference> All
             {
-                Accessibility,
-                MicrosoftVisualBasic,
-                MicrosoftVisualBasicForms,
-                MicrosoftWin32RegistryAccessControl,
-                MicrosoftWin32SystemEvents,
-                PresentationCore,
-                PresentationFrameworkAero,
-                PresentationFrameworkAero2,
-                PresentationFrameworkAeroLite,
-                PresentationFrameworkClassic,
-                PresentationFramework,
-                PresentationFrameworkLuna,
-                PresentationFrameworkRoyale,
-                PresentationUI,
-                ReachFramework,
-                SystemCodeDom,
-                SystemConfigurationConfigurationManager,
-                SystemDesign,
-                SystemDiagnosticsEventLog,
-                SystemDiagnosticsPerformanceCounter,
-                SystemDirectoryServices,
-                SystemDrawingCommon,
-                SystemDrawingDesign,
-                SystemDrawing,
-                SystemIOPackaging,
-                SystemPrinting,
-                SystemResourcesExtensions,
-                SystemSecurityCryptographyPkcs,
-                SystemSecurityCryptographyProtectedData,
-                SystemSecurityCryptographyXml,
-                SystemSecurityPermissions,
-                SystemThreadingAccessControl,
-                SystemWindowsControlsRibbon,
-                SystemWindowsExtensions,
-                SystemWindowsFormsDesign,
-                SystemWindowsFormsDesignEditors,
-                SystemWindowsForms,
-                SystemWindowsFormsPrimitives,
-                SystemWindowsInputManipulations,
-                SystemWindowsPresentation,
-                SystemXaml,
-                UIAutomationClient,
-                UIAutomationClientSideProviders,
-                UIAutomationProvider,
-                UIAutomationTypes,
-                WindowsBase,
-                WindowsFormsIntegration,
-            };
+                get
+                {
+                    if (_all == null)
+                    {
+                        _all = new PortableExecutableReference[]
+                        {
+                            Accessibility,
+                            MicrosoftVisualBasic,
+                            MicrosoftVisualBasicForms,
+                            MicrosoftWin32RegistryAccessControl,
+                            MicrosoftWin32SystemEvents,
+                            PresentationCore,
+                            PresentationFrameworkAero,
+                            PresentationFrameworkAero2,
+                            PresentationFrameworkAeroLite,
+                            PresentationFrameworkClassic,
+                            PresentationFramework,
+                            PresentationFrameworkLuna,
+                            PresentationFrameworkRoyale,
+                            PresentationUI,
+                            ReachFramework,
+                            SystemCodeDom,
+                            SystemConfigurationConfigurationManager,
+                            SystemDesign,
+                            SystemDiagnosticsEventLog,
+                            SystemDiagnosticsPerformanceCounter,
+                            SystemDirectoryServices,
+                            SystemDrawingCommon,
+                            SystemDrawingDesign,
+                            SystemDrawing,
+                            SystemIOPackaging,
+                            SystemPrinting,
+                            SystemResourcesExtensions,
+                            SystemSecurityCryptographyPkcs,
+                            SystemSecurityCryptographyProtectedData,
+                            SystemSecurityCryptographyXml,
+                            SystemSecurityPermissions,
+                            SystemThreadingAccessControl,
+                            SystemWindowsControlsRibbon,
+                            SystemWindowsExtensions,
+                            SystemWindowsFormsDesign,
+                            SystemWindowsFormsDesignEditors,
+                            SystemWindowsForms,
+                            SystemWindowsFormsPrimitives,
+                            SystemWindowsInputManipulations,
+                            SystemWindowsPresentation,
+                            SystemXaml,
+                            UIAutomationClient,
+                            UIAutomationClientSideProviders,
+                            UIAutomationProvider,
+                            UIAutomationTypes,
+                            WindowsBase,
+                            WindowsFormsIntegration,
+                        };
+                    }
+                    return _all;
+                }
+            }
         }
     }
 }
