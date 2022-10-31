@@ -191,7 +191,7 @@ namespace Basic.Reference.Assemblies
             public static ReferenceInfo SystemXmlXmlDocument => new ReferenceInfo("System.Xml.XmlDocument.dll", Resources.SystemXmlXmlDocument, NetStandard13.References.SystemXmlXmlDocument, global::System.Guid.Parse("81149fa8-556a-481a-834e-aa005d7a54ce"));
             public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, NetStandard13.References.SystemXmlXPath, global::System.Guid.Parse("27062bf2-498a-439b-b8af-4e1cdcdfdb7e"));
             public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, NetStandard13.References.SystemXmlXPathXDocument, global::System.Guid.Parse("0b548ee4-66b2-4dc7-8b7a-578fede05d0d"));
-            public static IEnumerable<ReferenceInfo> All { get; }= new []
+            public static IEnumerable<ReferenceInfo> All => new []
             {
                 MicrosoftWin32Primitives,
                 SystemAppContext,
@@ -260,65 +260,761 @@ namespace Basic.Reference.Assemblies
     {
         public static class References
         {
-            public static PortableExecutableReference MicrosoftWin32Primitives { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Primitives).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (netstandard13)");
-            public static PortableExecutableReference SystemAppContext { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemAppContext).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (netstandard13)");
-            public static PortableExecutableReference SystemCollectionsConcurrent { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (netstandard13)");
-            public static PortableExecutableReference SystemCollections { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (netstandard13)");
-            public static PortableExecutableReference SystemConsole { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemConsole).GetReference(filePath: "System.Console.dll", display: "System.Console (netstandard13)");
-            public static PortableExecutableReference SystemDiagnosticsDebug { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (netstandard13)");
-            public static PortableExecutableReference SystemDiagnosticsFileVersionInfo { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsFileVersionInfo).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (netstandard13)");
-            public static PortableExecutableReference SystemDiagnosticsProcess { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsProcess).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (netstandard13)");
-            public static PortableExecutableReference SystemDiagnosticsTools { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (netstandard13)");
-            public static PortableExecutableReference SystemDiagnosticsTracing { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (netstandard13)");
-            public static PortableExecutableReference SystemGlobalizationCalendars { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationCalendars).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (netstandard13)");
-            public static PortableExecutableReference SystemGlobalization { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (netstandard13)");
-            public static PortableExecutableReference SystemIOCompression { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (netstandard13)");
-            public static PortableExecutableReference SystemIOCompressionZipFile { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionZipFile).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (netstandard13)");
-            public static PortableExecutableReference SystemIO { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (netstandard13)");
-            public static PortableExecutableReference SystemIOFileSystem { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystem).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (netstandard13)");
-            public static PortableExecutableReference SystemIOFileSystemPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemPrimitives).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (netstandard13)");
-            public static PortableExecutableReference SystemLinq { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (netstandard13)");
-            public static PortableExecutableReference SystemLinqExpressions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (netstandard13)");
-            public static PortableExecutableReference SystemNetHttp { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (netstandard13)");
-            public static PortableExecutableReference SystemNetPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (netstandard13)");
-            public static PortableExecutableReference SystemNetSecurity { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetSecurity).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (netstandard13)");
-            public static PortableExecutableReference SystemNetSockets { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetSockets).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (netstandard13)");
-            public static PortableExecutableReference SystemObjectModel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (netstandard13)");
-            public static PortableExecutableReference SystemReflection { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (netstandard13)");
-            public static PortableExecutableReference SystemReflectionExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (netstandard13)");
-            public static PortableExecutableReference SystemReflectionPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (netstandard13)");
-            public static PortableExecutableReference SystemResourcesResourceManager { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (netstandard13)");
-            public static PortableExecutableReference SystemRuntime { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (netstandard13)");
-            public static PortableExecutableReference SystemRuntimeExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (netstandard13)");
-            public static PortableExecutableReference SystemRuntimeHandles { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (netstandard13)");
-            public static PortableExecutableReference SystemRuntimeInteropServices { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (netstandard13)");
-            public static PortableExecutableReference SystemRuntimeInteropServicesRuntimeInformation { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesRuntimeInformation).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (netstandard13)");
-            public static PortableExecutableReference SystemRuntimeNumerics { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (netstandard13)");
-            public static PortableExecutableReference SystemRuntimeSerializationPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (netstandard13)");
-            public static PortableExecutableReference SystemSecurityAccessControl { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityAccessControl).GetReference(filePath: "System.Security.AccessControl.dll", display: "System.Security.AccessControl (netstandard13)");
-            public static PortableExecutableReference SystemSecurityClaims { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityClaims).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (netstandard13)");
-            public static PortableExecutableReference SystemSecurityCryptographyAlgorithms { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyAlgorithms).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (netstandard13)");
-            public static PortableExecutableReference SystemSecurityCryptographyCsp { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCsp).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (netstandard13)");
-            public static PortableExecutableReference SystemSecurityCryptographyEncoding { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyEncoding).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (netstandard13)");
-            public static PortableExecutableReference SystemSecurityCryptographyPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPrimitives).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (netstandard13)");
-            public static PortableExecutableReference SystemSecurityCryptographyX509Certificates { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyX509Certificates).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (netstandard13)");
-            public static PortableExecutableReference SystemSecurityPrincipal { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (netstandard13)");
-            public static PortableExecutableReference SystemSecurityPrincipalWindows { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipalWindows).GetReference(filePath: "System.Security.Principal.Windows.dll", display: "System.Security.Principal.Windows (netstandard13)");
-            public static PortableExecutableReference SystemTextEncodingCodePages { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingCodePages).GetReference(filePath: "System.Text.Encoding.CodePages.dll", display: "System.Text.Encoding.CodePages (netstandard13)");
-            public static PortableExecutableReference SystemTextEncoding { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (netstandard13)");
-            public static PortableExecutableReference SystemTextEncodingExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (netstandard13)");
-            public static PortableExecutableReference SystemTextRegularExpressions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (netstandard13)");
-            public static PortableExecutableReference SystemThreading { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (netstandard13)");
-            public static PortableExecutableReference SystemThreadingTasks { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (netstandard13)");
-            public static PortableExecutableReference SystemThreadingTasksExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksExtensions).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (netstandard13)");
-            public static PortableExecutableReference SystemThreadingTimer { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (netstandard13)");
-            public static PortableExecutableReference SystemValueTuple { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (netstandard13)");
-            public static PortableExecutableReference SystemXmlReaderWriter { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (netstandard13)");
-            public static PortableExecutableReference SystemXmlXDocument { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (netstandard13)");
-            public static PortableExecutableReference SystemXmlXmlDocument { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlDocument).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (netstandard13)");
-            public static PortableExecutableReference SystemXmlXPath { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPath).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (netstandard13)");
-            public static PortableExecutableReference SystemXmlXPathXDocument { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPathXDocument).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (netstandard13)");
-            public static IEnumerable<PortableExecutableReference> All { get; }= new PortableExecutableReference[]
+            private static PortableExecutableReference? _MicrosoftWin32Primitives;
+            public static PortableExecutableReference MicrosoftWin32Primitives
+            {
+                get
+                {
+                    if (_MicrosoftWin32Primitives == null)
+                    {
+                        _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Primitives).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (netstandard13)");
+                    }
+                    return _MicrosoftWin32Primitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemAppContext;
+            public static PortableExecutableReference SystemAppContext
+            {
+                get
+                {
+                    if (_SystemAppContext == null)
+                    {
+                        _SystemAppContext = AssemblyMetadata.CreateFromImage(Resources.SystemAppContext).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (netstandard13)");
+                    }
+                    return _SystemAppContext;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollectionsConcurrent;
+            public static PortableExecutableReference SystemCollectionsConcurrent
+            {
+                get
+                {
+                    if (_SystemCollectionsConcurrent == null)
+                    {
+                        _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (netstandard13)");
+                    }
+                    return _SystemCollectionsConcurrent;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollections;
+            public static PortableExecutableReference SystemCollections
+            {
+                get
+                {
+                    if (_SystemCollections == null)
+                    {
+                        _SystemCollections = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (netstandard13)");
+                    }
+                    return _SystemCollections;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemConsole;
+            public static PortableExecutableReference SystemConsole
+            {
+                get
+                {
+                    if (_SystemConsole == null)
+                    {
+                        _SystemConsole = AssemblyMetadata.CreateFromImage(Resources.SystemConsole).GetReference(filePath: "System.Console.dll", display: "System.Console (netstandard13)");
+                    }
+                    return _SystemConsole;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsDebug;
+            public static PortableExecutableReference SystemDiagnosticsDebug
+            {
+                get
+                {
+                    if (_SystemDiagnosticsDebug == null)
+                    {
+                        _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (netstandard13)");
+                    }
+                    return _SystemDiagnosticsDebug;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsFileVersionInfo;
+            public static PortableExecutableReference SystemDiagnosticsFileVersionInfo
+            {
+                get
+                {
+                    if (_SystemDiagnosticsFileVersionInfo == null)
+                    {
+                        _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsFileVersionInfo).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (netstandard13)");
+                    }
+                    return _SystemDiagnosticsFileVersionInfo;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsProcess;
+            public static PortableExecutableReference SystemDiagnosticsProcess
+            {
+                get
+                {
+                    if (_SystemDiagnosticsProcess == null)
+                    {
+                        _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsProcess).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (netstandard13)");
+                    }
+                    return _SystemDiagnosticsProcess;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsTools;
+            public static PortableExecutableReference SystemDiagnosticsTools
+            {
+                get
+                {
+                    if (_SystemDiagnosticsTools == null)
+                    {
+                        _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (netstandard13)");
+                    }
+                    return _SystemDiagnosticsTools;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsTracing;
+            public static PortableExecutableReference SystemDiagnosticsTracing
+            {
+                get
+                {
+                    if (_SystemDiagnosticsTracing == null)
+                    {
+                        _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (netstandard13)");
+                    }
+                    return _SystemDiagnosticsTracing;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemGlobalizationCalendars;
+            public static PortableExecutableReference SystemGlobalizationCalendars
+            {
+                get
+                {
+                    if (_SystemGlobalizationCalendars == null)
+                    {
+                        _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationCalendars).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (netstandard13)");
+                    }
+                    return _SystemGlobalizationCalendars;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemGlobalization;
+            public static PortableExecutableReference SystemGlobalization
+            {
+                get
+                {
+                    if (_SystemGlobalization == null)
+                    {
+                        _SystemGlobalization = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (netstandard13)");
+                    }
+                    return _SystemGlobalization;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOCompression;
+            public static PortableExecutableReference SystemIOCompression
+            {
+                get
+                {
+                    if (_SystemIOCompression == null)
+                    {
+                        _SystemIOCompression = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (netstandard13)");
+                    }
+                    return _SystemIOCompression;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOCompressionZipFile;
+            public static PortableExecutableReference SystemIOCompressionZipFile
+            {
+                get
+                {
+                    if (_SystemIOCompressionZipFile == null)
+                    {
+                        _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionZipFile).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (netstandard13)");
+                    }
+                    return _SystemIOCompressionZipFile;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIO;
+            public static PortableExecutableReference SystemIO
+            {
+                get
+                {
+                    if (_SystemIO == null)
+                    {
+                        _SystemIO = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (netstandard13)");
+                    }
+                    return _SystemIO;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOFileSystem;
+            public static PortableExecutableReference SystemIOFileSystem
+            {
+                get
+                {
+                    if (_SystemIOFileSystem == null)
+                    {
+                        _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystem).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (netstandard13)");
+                    }
+                    return _SystemIOFileSystem;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOFileSystemPrimitives;
+            public static PortableExecutableReference SystemIOFileSystemPrimitives
+            {
+                get
+                {
+                    if (_SystemIOFileSystemPrimitives == null)
+                    {
+                        _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemPrimitives).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (netstandard13)");
+                    }
+                    return _SystemIOFileSystemPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemLinq;
+            public static PortableExecutableReference SystemLinq
+            {
+                get
+                {
+                    if (_SystemLinq == null)
+                    {
+                        _SystemLinq = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (netstandard13)");
+                    }
+                    return _SystemLinq;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemLinqExpressions;
+            public static PortableExecutableReference SystemLinqExpressions
+            {
+                get
+                {
+                    if (_SystemLinqExpressions == null)
+                    {
+                        _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (netstandard13)");
+                    }
+                    return _SystemLinqExpressions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetHttp;
+            public static PortableExecutableReference SystemNetHttp
+            {
+                get
+                {
+                    if (_SystemNetHttp == null)
+                    {
+                        _SystemNetHttp = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (netstandard13)");
+                    }
+                    return _SystemNetHttp;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetPrimitives;
+            public static PortableExecutableReference SystemNetPrimitives
+            {
+                get
+                {
+                    if (_SystemNetPrimitives == null)
+                    {
+                        _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (netstandard13)");
+                    }
+                    return _SystemNetPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetSecurity;
+            public static PortableExecutableReference SystemNetSecurity
+            {
+                get
+                {
+                    if (_SystemNetSecurity == null)
+                    {
+                        _SystemNetSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemNetSecurity).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (netstandard13)");
+                    }
+                    return _SystemNetSecurity;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetSockets;
+            public static PortableExecutableReference SystemNetSockets
+            {
+                get
+                {
+                    if (_SystemNetSockets == null)
+                    {
+                        _SystemNetSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetSockets).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (netstandard13)");
+                    }
+                    return _SystemNetSockets;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemObjectModel;
+            public static PortableExecutableReference SystemObjectModel
+            {
+                get
+                {
+                    if (_SystemObjectModel == null)
+                    {
+                        _SystemObjectModel = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (netstandard13)");
+                    }
+                    return _SystemObjectModel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflection;
+            public static PortableExecutableReference SystemReflection
+            {
+                get
+                {
+                    if (_SystemReflection == null)
+                    {
+                        _SystemReflection = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (netstandard13)");
+                    }
+                    return _SystemReflection;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionExtensions;
+            public static PortableExecutableReference SystemReflectionExtensions
+            {
+                get
+                {
+                    if (_SystemReflectionExtensions == null)
+                    {
+                        _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (netstandard13)");
+                    }
+                    return _SystemReflectionExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionPrimitives;
+            public static PortableExecutableReference SystemReflectionPrimitives
+            {
+                get
+                {
+                    if (_SystemReflectionPrimitives == null)
+                    {
+                        _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (netstandard13)");
+                    }
+                    return _SystemReflectionPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemResourcesResourceManager;
+            public static PortableExecutableReference SystemResourcesResourceManager
+            {
+                get
+                {
+                    if (_SystemResourcesResourceManager == null)
+                    {
+                        _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (netstandard13)");
+                    }
+                    return _SystemResourcesResourceManager;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntime;
+            public static PortableExecutableReference SystemRuntime
+            {
+                get
+                {
+                    if (_SystemRuntime == null)
+                    {
+                        _SystemRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (netstandard13)");
+                    }
+                    return _SystemRuntime;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeExtensions;
+            public static PortableExecutableReference SystemRuntimeExtensions
+            {
+                get
+                {
+                    if (_SystemRuntimeExtensions == null)
+                    {
+                        _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (netstandard13)");
+                    }
+                    return _SystemRuntimeExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeHandles;
+            public static PortableExecutableReference SystemRuntimeHandles
+            {
+                get
+                {
+                    if (_SystemRuntimeHandles == null)
+                    {
+                        _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (netstandard13)");
+                    }
+                    return _SystemRuntimeHandles;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeInteropServices;
+            public static PortableExecutableReference SystemRuntimeInteropServices
+            {
+                get
+                {
+                    if (_SystemRuntimeInteropServices == null)
+                    {
+                        _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (netstandard13)");
+                    }
+                    return _SystemRuntimeInteropServices;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeInteropServicesRuntimeInformation;
+            public static PortableExecutableReference SystemRuntimeInteropServicesRuntimeInformation
+            {
+                get
+                {
+                    if (_SystemRuntimeInteropServicesRuntimeInformation == null)
+                    {
+                        _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesRuntimeInformation).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (netstandard13)");
+                    }
+                    return _SystemRuntimeInteropServicesRuntimeInformation;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeNumerics;
+            public static PortableExecutableReference SystemRuntimeNumerics
+            {
+                get
+                {
+                    if (_SystemRuntimeNumerics == null)
+                    {
+                        _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (netstandard13)");
+                    }
+                    return _SystemRuntimeNumerics;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerializationPrimitives;
+            public static PortableExecutableReference SystemRuntimeSerializationPrimitives
+            {
+                get
+                {
+                    if (_SystemRuntimeSerializationPrimitives == null)
+                    {
+                        _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (netstandard13)");
+                    }
+                    return _SystemRuntimeSerializationPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityAccessControl;
+            public static PortableExecutableReference SystemSecurityAccessControl
+            {
+                get
+                {
+                    if (_SystemSecurityAccessControl == null)
+                    {
+                        _SystemSecurityAccessControl = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityAccessControl).GetReference(filePath: "System.Security.AccessControl.dll", display: "System.Security.AccessControl (netstandard13)");
+                    }
+                    return _SystemSecurityAccessControl;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityClaims;
+            public static PortableExecutableReference SystemSecurityClaims
+            {
+                get
+                {
+                    if (_SystemSecurityClaims == null)
+                    {
+                        _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityClaims).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (netstandard13)");
+                    }
+                    return _SystemSecurityClaims;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyAlgorithms;
+            public static PortableExecutableReference SystemSecurityCryptographyAlgorithms
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyAlgorithms == null)
+                    {
+                        _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyAlgorithms).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (netstandard13)");
+                    }
+                    return _SystemSecurityCryptographyAlgorithms;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyCsp;
+            public static PortableExecutableReference SystemSecurityCryptographyCsp
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyCsp == null)
+                    {
+                        _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCsp).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (netstandard13)");
+                    }
+                    return _SystemSecurityCryptographyCsp;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyEncoding;
+            public static PortableExecutableReference SystemSecurityCryptographyEncoding
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyEncoding == null)
+                    {
+                        _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyEncoding).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (netstandard13)");
+                    }
+                    return _SystemSecurityCryptographyEncoding;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyPrimitives;
+            public static PortableExecutableReference SystemSecurityCryptographyPrimitives
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyPrimitives == null)
+                    {
+                        _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPrimitives).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (netstandard13)");
+                    }
+                    return _SystemSecurityCryptographyPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyX509Certificates;
+            public static PortableExecutableReference SystemSecurityCryptographyX509Certificates
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyX509Certificates == null)
+                    {
+                        _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyX509Certificates).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (netstandard13)");
+                    }
+                    return _SystemSecurityCryptographyX509Certificates;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityPrincipal;
+            public static PortableExecutableReference SystemSecurityPrincipal
+            {
+                get
+                {
+                    if (_SystemSecurityPrincipal == null)
+                    {
+                        _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (netstandard13)");
+                    }
+                    return _SystemSecurityPrincipal;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityPrincipalWindows;
+            public static PortableExecutableReference SystemSecurityPrincipalWindows
+            {
+                get
+                {
+                    if (_SystemSecurityPrincipalWindows == null)
+                    {
+                        _SystemSecurityPrincipalWindows = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipalWindows).GetReference(filePath: "System.Security.Principal.Windows.dll", display: "System.Security.Principal.Windows (netstandard13)");
+                    }
+                    return _SystemSecurityPrincipalWindows;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextEncodingCodePages;
+            public static PortableExecutableReference SystemTextEncodingCodePages
+            {
+                get
+                {
+                    if (_SystemTextEncodingCodePages == null)
+                    {
+                        _SystemTextEncodingCodePages = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingCodePages).GetReference(filePath: "System.Text.Encoding.CodePages.dll", display: "System.Text.Encoding.CodePages (netstandard13)");
+                    }
+                    return _SystemTextEncodingCodePages;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextEncoding;
+            public static PortableExecutableReference SystemTextEncoding
+            {
+                get
+                {
+                    if (_SystemTextEncoding == null)
+                    {
+                        _SystemTextEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (netstandard13)");
+                    }
+                    return _SystemTextEncoding;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextEncodingExtensions;
+            public static PortableExecutableReference SystemTextEncodingExtensions
+            {
+                get
+                {
+                    if (_SystemTextEncodingExtensions == null)
+                    {
+                        _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (netstandard13)");
+                    }
+                    return _SystemTextEncodingExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextRegularExpressions;
+            public static PortableExecutableReference SystemTextRegularExpressions
+            {
+                get
+                {
+                    if (_SystemTextRegularExpressions == null)
+                    {
+                        _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (netstandard13)");
+                    }
+                    return _SystemTextRegularExpressions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreading;
+            public static PortableExecutableReference SystemThreading
+            {
+                get
+                {
+                    if (_SystemThreading == null)
+                    {
+                        _SystemThreading = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (netstandard13)");
+                    }
+                    return _SystemThreading;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingTasks;
+            public static PortableExecutableReference SystemThreadingTasks
+            {
+                get
+                {
+                    if (_SystemThreadingTasks == null)
+                    {
+                        _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (netstandard13)");
+                    }
+                    return _SystemThreadingTasks;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingTasksExtensions;
+            public static PortableExecutableReference SystemThreadingTasksExtensions
+            {
+                get
+                {
+                    if (_SystemThreadingTasksExtensions == null)
+                    {
+                        _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksExtensions).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (netstandard13)");
+                    }
+                    return _SystemThreadingTasksExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingTimer;
+            public static PortableExecutableReference SystemThreadingTimer
+            {
+                get
+                {
+                    if (_SystemThreadingTimer == null)
+                    {
+                        _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (netstandard13)");
+                    }
+                    return _SystemThreadingTimer;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemValueTuple;
+            public static PortableExecutableReference SystemValueTuple
+            {
+                get
+                {
+                    if (_SystemValueTuple == null)
+                    {
+                        _SystemValueTuple = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (netstandard13)");
+                    }
+                    return _SystemValueTuple;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlReaderWriter;
+            public static PortableExecutableReference SystemXmlReaderWriter
+            {
+                get
+                {
+                    if (_SystemXmlReaderWriter == null)
+                    {
+                        _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (netstandard13)");
+                    }
+                    return _SystemXmlReaderWriter;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXDocument;
+            public static PortableExecutableReference SystemXmlXDocument
+            {
+                get
+                {
+                    if (_SystemXmlXDocument == null)
+                    {
+                        _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (netstandard13)");
+                    }
+                    return _SystemXmlXDocument;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXmlDocument;
+            public static PortableExecutableReference SystemXmlXmlDocument
+            {
+                get
+                {
+                    if (_SystemXmlXmlDocument == null)
+                    {
+                        _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlDocument).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (netstandard13)");
+                    }
+                    return _SystemXmlXmlDocument;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXPath;
+            public static PortableExecutableReference SystemXmlXPath
+            {
+                get
+                {
+                    if (_SystemXmlXPath == null)
+                    {
+                        _SystemXmlXPath = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPath).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (netstandard13)");
+                    }
+                    return _SystemXmlXPath;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXPathXDocument;
+            public static PortableExecutableReference SystemXmlXPathXDocument
+            {
+                get
+                {
+                    if (_SystemXmlXPathXDocument == null)
+                    {
+                        _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPathXDocument).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (netstandard13)");
+                    }
+                    return _SystemXmlXPathXDocument;
+                }
+            }
+
+            public static IEnumerable<PortableExecutableReference> All => new PortableExecutableReference[]
             {
                 MicrosoftWin32Primitives,
                 SystemAppContext,

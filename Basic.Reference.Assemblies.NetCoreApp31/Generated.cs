@@ -470,7 +470,7 @@ namespace Basic.Reference.Assemblies
             public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, NetCoreApp31.References.SystemXmlXPath, global::System.Guid.Parse("3699be6e-aecb-45ad-a5ce-7184a0f2c9b3"));
             public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, NetCoreApp31.References.SystemXmlXPathXDocument, global::System.Guid.Parse("2be71ee5-0c24-499d-bc18-70479489bfdb"));
             public static ReferenceInfo WindowsBase => new ReferenceInfo("WindowsBase.dll", Resources.WindowsBase, NetCoreApp31.References.WindowsBase, global::System.Guid.Parse("78536aaf-355e-4c4c-beb2-d5e3bb6768f6"));
-            public static IEnumerable<ReferenceInfo> All { get; }= new []
+            public static IEnumerable<ReferenceInfo> All => new []
             {
                 MicrosoftCSharp,
                 MicrosoftVisualBasicCore,
@@ -632,158 +632,1970 @@ namespace Basic.Reference.Assemblies
     {
         public static class References
         {
-            public static PortableExecutableReference MicrosoftCSharp { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftCSharp).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (netcoreapp31)");
-            public static PortableExecutableReference MicrosoftVisualBasicCore { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCore).GetReference(filePath: "Microsoft.VisualBasic.Core.dll", display: "Microsoft.VisualBasic.Core (netcoreapp31)");
-            public static PortableExecutableReference MicrosoftVisualBasic { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (netcoreapp31)");
-            public static PortableExecutableReference MicrosoftWin32Primitives { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Primitives).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (netcoreapp31)");
-            public static PortableExecutableReference mscorlib { get; } = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (netcoreapp31)");
-            public static PortableExecutableReference netstandard { get; } = AssemblyMetadata.CreateFromImage(Resources.netstandard).GetReference(filePath: "netstandard.dll", display: "netstandard (netcoreapp31)");
-            public static PortableExecutableReference SystemAppContext { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemAppContext).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (netcoreapp31)");
-            public static PortableExecutableReference SystemBuffers { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemBuffers).GetReference(filePath: "System.Buffers.dll", display: "System.Buffers (netcoreapp31)");
-            public static PortableExecutableReference SystemCollectionsConcurrent { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (netcoreapp31)");
-            public static PortableExecutableReference SystemCollections { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (netcoreapp31)");
-            public static PortableExecutableReference SystemCollectionsImmutable { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsImmutable).GetReference(filePath: "System.Collections.Immutable.dll", display: "System.Collections.Immutable (netcoreapp31)");
-            public static PortableExecutableReference SystemCollectionsNonGeneric { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsNonGeneric).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (netcoreapp31)");
-            public static PortableExecutableReference SystemCollectionsSpecialized { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsSpecialized).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (netcoreapp31)");
-            public static PortableExecutableReference SystemComponentModelAnnotations { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelAnnotations).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (netcoreapp31)");
-            public static PortableExecutableReference SystemComponentModelDataAnnotations { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelDataAnnotations).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (netcoreapp31)");
-            public static PortableExecutableReference SystemComponentModel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModel).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (netcoreapp31)");
-            public static PortableExecutableReference SystemComponentModelEventBasedAsync { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelEventBasedAsync).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (netcoreapp31)");
-            public static PortableExecutableReference SystemComponentModelPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelPrimitives).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (netcoreapp31)");
-            public static PortableExecutableReference SystemComponentModelTypeConverter { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelTypeConverter).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (netcoreapp31)");
-            public static PortableExecutableReference SystemConfiguration { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemConfiguration).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (netcoreapp31)");
-            public static PortableExecutableReference SystemConsole { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemConsole).GetReference(filePath: "System.Console.dll", display: "System.Console (netcoreapp31)");
-            public static PortableExecutableReference SystemCore { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCore).GetReference(filePath: "System.Core.dll", display: "System.Core (netcoreapp31)");
-            public static PortableExecutableReference SystemDataCommon { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDataCommon).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (netcoreapp31)");
-            public static PortableExecutableReference SystemDataDataSetExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDataDataSetExtensions).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (netcoreapp31)");
-            public static PortableExecutableReference SystemData { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (netcoreapp31)");
-            public static PortableExecutableReference SystemDiagnosticsContracts { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsContracts).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (netcoreapp31)");
-            public static PortableExecutableReference SystemDiagnosticsDebug { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (netcoreapp31)");
-            public static PortableExecutableReference SystemDiagnosticsDiagnosticSource { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDiagnosticSource).GetReference(filePath: "System.Diagnostics.DiagnosticSource.dll", display: "System.Diagnostics.DiagnosticSource (netcoreapp31)");
-            public static PortableExecutableReference SystemDiagnosticsFileVersionInfo { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsFileVersionInfo).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (netcoreapp31)");
-            public static PortableExecutableReference SystemDiagnosticsProcess { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsProcess).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (netcoreapp31)");
-            public static PortableExecutableReference SystemDiagnosticsStackTrace { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsStackTrace).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (netcoreapp31)");
-            public static PortableExecutableReference SystemDiagnosticsTextWriterTraceListener { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTextWriterTraceListener).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (netcoreapp31)");
-            public static PortableExecutableReference SystemDiagnosticsTools { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (netcoreapp31)");
-            public static PortableExecutableReference SystemDiagnosticsTraceSource { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTraceSource).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (netcoreapp31)");
-            public static PortableExecutableReference SystemDiagnosticsTracing { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (netcoreapp31)");
-            public static PortableExecutableReference System { get; } = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (netcoreapp31)");
-            public static PortableExecutableReference SystemDrawing { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (netcoreapp31)");
-            public static PortableExecutableReference SystemDrawingPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingPrimitives).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (netcoreapp31)");
-            public static PortableExecutableReference SystemDynamicRuntime { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDynamicRuntime).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (netcoreapp31)");
-            public static PortableExecutableReference SystemGlobalizationCalendars { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationCalendars).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (netcoreapp31)");
-            public static PortableExecutableReference SystemGlobalization { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (netcoreapp31)");
-            public static PortableExecutableReference SystemGlobalizationExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationExtensions).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (netcoreapp31)");
-            public static PortableExecutableReference SystemIOCompressionBrotli { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionBrotli).GetReference(filePath: "System.IO.Compression.Brotli.dll", display: "System.IO.Compression.Brotli (netcoreapp31)");
-            public static PortableExecutableReference SystemIOCompression { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (netcoreapp31)");
-            public static PortableExecutableReference SystemIOCompressionFileSystem { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionFileSystem).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (netcoreapp31)");
-            public static PortableExecutableReference SystemIOCompressionZipFile { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionZipFile).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (netcoreapp31)");
-            public static PortableExecutableReference SystemIO { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (netcoreapp31)");
-            public static PortableExecutableReference SystemIOFileSystem { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystem).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (netcoreapp31)");
-            public static PortableExecutableReference SystemIOFileSystemDriveInfo { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemDriveInfo).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (netcoreapp31)");
-            public static PortableExecutableReference SystemIOFileSystemPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemPrimitives).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (netcoreapp31)");
-            public static PortableExecutableReference SystemIOFileSystemWatcher { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemWatcher).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (netcoreapp31)");
-            public static PortableExecutableReference SystemIOIsolatedStorage { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOIsolatedStorage).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (netcoreapp31)");
-            public static PortableExecutableReference SystemIOMemoryMappedFiles { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOMemoryMappedFiles).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (netcoreapp31)");
-            public static PortableExecutableReference SystemIOPipes { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipes).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (netcoreapp31)");
-            public static PortableExecutableReference SystemIOUnmanagedMemoryStream { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOUnmanagedMemoryStream).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (netcoreapp31)");
-            public static PortableExecutableReference SystemLinq { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (netcoreapp31)");
-            public static PortableExecutableReference SystemLinqExpressions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (netcoreapp31)");
-            public static PortableExecutableReference SystemLinqParallel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemLinqParallel).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (netcoreapp31)");
-            public static PortableExecutableReference SystemLinqQueryable { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemLinqQueryable).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (netcoreapp31)");
-            public static PortableExecutableReference SystemMemory { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemMemory).GetReference(filePath: "System.Memory.dll", display: "System.Memory (netcoreapp31)");
-            public static PortableExecutableReference SystemNet { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNet).GetReference(filePath: "System.Net.dll", display: "System.Net (netcoreapp31)");
-            public static PortableExecutableReference SystemNetHttp { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (netcoreapp31)");
-            public static PortableExecutableReference SystemNetHttpListener { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpListener).GetReference(filePath: "System.Net.HttpListener.dll", display: "System.Net.HttpListener (netcoreapp31)");
-            public static PortableExecutableReference SystemNetMail { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetMail).GetReference(filePath: "System.Net.Mail.dll", display: "System.Net.Mail (netcoreapp31)");
-            public static PortableExecutableReference SystemNetNameResolution { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetNameResolution).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (netcoreapp31)");
-            public static PortableExecutableReference SystemNetNetworkInformation { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetNetworkInformation).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (netcoreapp31)");
-            public static PortableExecutableReference SystemNetPing { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetPing).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (netcoreapp31)");
-            public static PortableExecutableReference SystemNetPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (netcoreapp31)");
-            public static PortableExecutableReference SystemNetRequests { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetRequests).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (netcoreapp31)");
-            public static PortableExecutableReference SystemNetSecurity { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetSecurity).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (netcoreapp31)");
-            public static PortableExecutableReference SystemNetServicePoint { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetServicePoint).GetReference(filePath: "System.Net.ServicePoint.dll", display: "System.Net.ServicePoint (netcoreapp31)");
-            public static PortableExecutableReference SystemNetSockets { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetSockets).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (netcoreapp31)");
-            public static PortableExecutableReference SystemNetWebClient { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebClient).GetReference(filePath: "System.Net.WebClient.dll", display: "System.Net.WebClient (netcoreapp31)");
-            public static PortableExecutableReference SystemNetWebHeaderCollection { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebHeaderCollection).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (netcoreapp31)");
-            public static PortableExecutableReference SystemNetWebProxy { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebProxy).GetReference(filePath: "System.Net.WebProxy.dll", display: "System.Net.WebProxy (netcoreapp31)");
-            public static PortableExecutableReference SystemNetWebSocketsClient { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSocketsClient).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (netcoreapp31)");
-            public static PortableExecutableReference SystemNetWebSockets { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSockets).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (netcoreapp31)");
-            public static PortableExecutableReference SystemNumerics { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNumerics).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (netcoreapp31)");
-            public static PortableExecutableReference SystemNumericsVectors { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNumericsVectors).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (netcoreapp31)");
-            public static PortableExecutableReference SystemObjectModel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (netcoreapp31)");
-            public static PortableExecutableReference SystemReflectionDispatchProxy { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionDispatchProxy).GetReference(filePath: "System.Reflection.DispatchProxy.dll", display: "System.Reflection.DispatchProxy (netcoreapp31)");
-            public static PortableExecutableReference SystemReflection { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (netcoreapp31)");
-            public static PortableExecutableReference SystemReflectionEmit { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmit).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (netcoreapp31)");
-            public static PortableExecutableReference SystemReflectionEmitILGeneration { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitILGeneration).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (netcoreapp31)");
-            public static PortableExecutableReference SystemReflectionEmitLightweight { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitLightweight).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (netcoreapp31)");
-            public static PortableExecutableReference SystemReflectionExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (netcoreapp31)");
-            public static PortableExecutableReference SystemReflectionMetadata { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionMetadata).GetReference(filePath: "System.Reflection.Metadata.dll", display: "System.Reflection.Metadata (netcoreapp31)");
-            public static PortableExecutableReference SystemReflectionPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (netcoreapp31)");
-            public static PortableExecutableReference SystemReflectionTypeExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionTypeExtensions).GetReference(filePath: "System.Reflection.TypeExtensions.dll", display: "System.Reflection.TypeExtensions (netcoreapp31)");
-            public static PortableExecutableReference SystemResourcesReader { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesReader).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (netcoreapp31)");
-            public static PortableExecutableReference SystemResourcesResourceManager { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (netcoreapp31)");
-            public static PortableExecutableReference SystemResourcesWriter { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesWriter).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeCompilerServicesUnsafe { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesUnsafe).GetReference(filePath: "System.Runtime.CompilerServices.Unsafe.dll", display: "System.Runtime.CompilerServices.Unsafe (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeCompilerServicesVisualC { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesVisualC).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntime { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeHandles { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeInteropServices { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeInteropServicesRuntimeInformation { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesRuntimeInformation).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeInteropServicesWindowsRuntime { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesWindowsRuntime).GetReference(filePath: "System.Runtime.InteropServices.WindowsRuntime.dll", display: "System.Runtime.InteropServices.WindowsRuntime (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeIntrinsics { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeIntrinsics).GetReference(filePath: "System.Runtime.Intrinsics.dll", display: "System.Runtime.Intrinsics (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeLoader { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeLoader).GetReference(filePath: "System.Runtime.Loader.dll", display: "System.Runtime.Loader (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeNumerics { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeSerialization { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerialization).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeSerializationFormatters { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormatters).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeSerializationJson { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationJson).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeSerializationPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (netcoreapp31)");
-            public static PortableExecutableReference SystemRuntimeSerializationXml { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationXml).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (netcoreapp31)");
-            public static PortableExecutableReference SystemSecurityClaims { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityClaims).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (netcoreapp31)");
-            public static PortableExecutableReference SystemSecurityCryptographyAlgorithms { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyAlgorithms).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (netcoreapp31)");
-            public static PortableExecutableReference SystemSecurityCryptographyCsp { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCsp).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (netcoreapp31)");
-            public static PortableExecutableReference SystemSecurityCryptographyEncoding { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyEncoding).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (netcoreapp31)");
-            public static PortableExecutableReference SystemSecurityCryptographyPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPrimitives).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (netcoreapp31)");
-            public static PortableExecutableReference SystemSecurityCryptographyX509Certificates { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyX509Certificates).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (netcoreapp31)");
-            public static PortableExecutableReference SystemSecurity { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurity).GetReference(filePath: "System.Security.dll", display: "System.Security (netcoreapp31)");
-            public static PortableExecutableReference SystemSecurityPrincipal { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (netcoreapp31)");
-            public static PortableExecutableReference SystemSecuritySecureString { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecuritySecureString).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (netcoreapp31)");
-            public static PortableExecutableReference SystemServiceModelWeb { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelWeb).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (netcoreapp31)");
-            public static PortableExecutableReference SystemServiceProcess { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceProcess).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (netcoreapp31)");
-            public static PortableExecutableReference SystemTextEncodingCodePages { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingCodePages).GetReference(filePath: "System.Text.Encoding.CodePages.dll", display: "System.Text.Encoding.CodePages (netcoreapp31)");
-            public static PortableExecutableReference SystemTextEncoding { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (netcoreapp31)");
-            public static PortableExecutableReference SystemTextEncodingExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (netcoreapp31)");
-            public static PortableExecutableReference SystemTextEncodingsWeb { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingsWeb).GetReference(filePath: "System.Text.Encodings.Web.dll", display: "System.Text.Encodings.Web (netcoreapp31)");
-            public static PortableExecutableReference SystemTextJson { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextJson).GetReference(filePath: "System.Text.Json.dll", display: "System.Text.Json (netcoreapp31)");
-            public static PortableExecutableReference SystemTextRegularExpressions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (netcoreapp31)");
-            public static PortableExecutableReference SystemThreadingChannels { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingChannels).GetReference(filePath: "System.Threading.Channels.dll", display: "System.Threading.Channels (netcoreapp31)");
-            public static PortableExecutableReference SystemThreading { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (netcoreapp31)");
-            public static PortableExecutableReference SystemThreadingOverlapped { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingOverlapped).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (netcoreapp31)");
-            public static PortableExecutableReference SystemThreadingTasksDataflow { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksDataflow).GetReference(filePath: "System.Threading.Tasks.Dataflow.dll", display: "System.Threading.Tasks.Dataflow (netcoreapp31)");
-            public static PortableExecutableReference SystemThreadingTasks { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (netcoreapp31)");
-            public static PortableExecutableReference SystemThreadingTasksExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksExtensions).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (netcoreapp31)");
-            public static PortableExecutableReference SystemThreadingTasksParallel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksParallel).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (netcoreapp31)");
-            public static PortableExecutableReference SystemThreadingThread { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThread).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (netcoreapp31)");
-            public static PortableExecutableReference SystemThreadingThreadPool { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThreadPool).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (netcoreapp31)");
-            public static PortableExecutableReference SystemThreadingTimer { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (netcoreapp31)");
-            public static PortableExecutableReference SystemTransactions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (netcoreapp31)");
-            public static PortableExecutableReference SystemTransactionsLocal { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTransactionsLocal).GetReference(filePath: "System.Transactions.Local.dll", display: "System.Transactions.Local (netcoreapp31)");
-            public static PortableExecutableReference SystemValueTuple { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (netcoreapp31)");
-            public static PortableExecutableReference SystemWeb { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (netcoreapp31)");
-            public static PortableExecutableReference SystemWebHttpUtility { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebHttpUtility).GetReference(filePath: "System.Web.HttpUtility.dll", display: "System.Web.HttpUtility (netcoreapp31)");
-            public static PortableExecutableReference SystemWindows { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindows).GetReference(filePath: "System.Windows.dll", display: "System.Windows (netcoreapp31)");
-            public static PortableExecutableReference SystemXml { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (netcoreapp31)");
-            public static PortableExecutableReference SystemXmlLinq { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlLinq).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (netcoreapp31)");
-            public static PortableExecutableReference SystemXmlReaderWriter { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (netcoreapp31)");
-            public static PortableExecutableReference SystemXmlSerialization { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlSerialization).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (netcoreapp31)");
-            public static PortableExecutableReference SystemXmlXDocument { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (netcoreapp31)");
-            public static PortableExecutableReference SystemXmlXmlDocument { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlDocument).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (netcoreapp31)");
-            public static PortableExecutableReference SystemXmlXmlSerializer { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlSerializer).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (netcoreapp31)");
-            public static PortableExecutableReference SystemXmlXPath { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPath).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (netcoreapp31)");
-            public static PortableExecutableReference SystemXmlXPathXDocument { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPathXDocument).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (netcoreapp31)");
-            public static PortableExecutableReference WindowsBase { get; } = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (netcoreapp31)");
-            public static IEnumerable<PortableExecutableReference> All { get; }= new PortableExecutableReference[]
+            private static PortableExecutableReference? _MicrosoftCSharp;
+            public static PortableExecutableReference MicrosoftCSharp
+            {
+                get
+                {
+                    if (_MicrosoftCSharp == null)
+                    {
+                        _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(Resources.MicrosoftCSharp).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (netcoreapp31)");
+                    }
+                    return _MicrosoftCSharp;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftVisualBasicCore;
+            public static PortableExecutableReference MicrosoftVisualBasicCore
+            {
+                get
+                {
+                    if (_MicrosoftVisualBasicCore == null)
+                    {
+                        _MicrosoftVisualBasicCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCore).GetReference(filePath: "Microsoft.VisualBasic.Core.dll", display: "Microsoft.VisualBasic.Core (netcoreapp31)");
+                    }
+                    return _MicrosoftVisualBasicCore;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftVisualBasic;
+            public static PortableExecutableReference MicrosoftVisualBasic
+            {
+                get
+                {
+                    if (_MicrosoftVisualBasic == null)
+                    {
+                        _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (netcoreapp31)");
+                    }
+                    return _MicrosoftVisualBasic;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftWin32Primitives;
+            public static PortableExecutableReference MicrosoftWin32Primitives
+            {
+                get
+                {
+                    if (_MicrosoftWin32Primitives == null)
+                    {
+                        _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Primitives).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (netcoreapp31)");
+                    }
+                    return _MicrosoftWin32Primitives;
+                }
+            }
+
+            private static PortableExecutableReference? _mscorlib;
+            public static PortableExecutableReference mscorlib
+            {
+                get
+                {
+                    if (_mscorlib == null)
+                    {
+                        _mscorlib = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (netcoreapp31)");
+                    }
+                    return _mscorlib;
+                }
+            }
+
+            private static PortableExecutableReference? _netstandard;
+            public static PortableExecutableReference netstandard
+            {
+                get
+                {
+                    if (_netstandard == null)
+                    {
+                        _netstandard = AssemblyMetadata.CreateFromImage(Resources.netstandard).GetReference(filePath: "netstandard.dll", display: "netstandard (netcoreapp31)");
+                    }
+                    return _netstandard;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemAppContext;
+            public static PortableExecutableReference SystemAppContext
+            {
+                get
+                {
+                    if (_SystemAppContext == null)
+                    {
+                        _SystemAppContext = AssemblyMetadata.CreateFromImage(Resources.SystemAppContext).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (netcoreapp31)");
+                    }
+                    return _SystemAppContext;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemBuffers;
+            public static PortableExecutableReference SystemBuffers
+            {
+                get
+                {
+                    if (_SystemBuffers == null)
+                    {
+                        _SystemBuffers = AssemblyMetadata.CreateFromImage(Resources.SystemBuffers).GetReference(filePath: "System.Buffers.dll", display: "System.Buffers (netcoreapp31)");
+                    }
+                    return _SystemBuffers;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollectionsConcurrent;
+            public static PortableExecutableReference SystemCollectionsConcurrent
+            {
+                get
+                {
+                    if (_SystemCollectionsConcurrent == null)
+                    {
+                        _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (netcoreapp31)");
+                    }
+                    return _SystemCollectionsConcurrent;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollections;
+            public static PortableExecutableReference SystemCollections
+            {
+                get
+                {
+                    if (_SystemCollections == null)
+                    {
+                        _SystemCollections = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (netcoreapp31)");
+                    }
+                    return _SystemCollections;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollectionsImmutable;
+            public static PortableExecutableReference SystemCollectionsImmutable
+            {
+                get
+                {
+                    if (_SystemCollectionsImmutable == null)
+                    {
+                        _SystemCollectionsImmutable = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsImmutable).GetReference(filePath: "System.Collections.Immutable.dll", display: "System.Collections.Immutable (netcoreapp31)");
+                    }
+                    return _SystemCollectionsImmutable;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollectionsNonGeneric;
+            public static PortableExecutableReference SystemCollectionsNonGeneric
+            {
+                get
+                {
+                    if (_SystemCollectionsNonGeneric == null)
+                    {
+                        _SystemCollectionsNonGeneric = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsNonGeneric).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (netcoreapp31)");
+                    }
+                    return _SystemCollectionsNonGeneric;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollectionsSpecialized;
+            public static PortableExecutableReference SystemCollectionsSpecialized
+            {
+                get
+                {
+                    if (_SystemCollectionsSpecialized == null)
+                    {
+                        _SystemCollectionsSpecialized = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsSpecialized).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (netcoreapp31)");
+                    }
+                    return _SystemCollectionsSpecialized;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelAnnotations;
+            public static PortableExecutableReference SystemComponentModelAnnotations
+            {
+                get
+                {
+                    if (_SystemComponentModelAnnotations == null)
+                    {
+                        _SystemComponentModelAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelAnnotations).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (netcoreapp31)");
+                    }
+                    return _SystemComponentModelAnnotations;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelDataAnnotations;
+            public static PortableExecutableReference SystemComponentModelDataAnnotations
+            {
+                get
+                {
+                    if (_SystemComponentModelDataAnnotations == null)
+                    {
+                        _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelDataAnnotations).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (netcoreapp31)");
+                    }
+                    return _SystemComponentModelDataAnnotations;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModel;
+            public static PortableExecutableReference SystemComponentModel
+            {
+                get
+                {
+                    if (_SystemComponentModel == null)
+                    {
+                        _SystemComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModel).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (netcoreapp31)");
+                    }
+                    return _SystemComponentModel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelEventBasedAsync;
+            public static PortableExecutableReference SystemComponentModelEventBasedAsync
+            {
+                get
+                {
+                    if (_SystemComponentModelEventBasedAsync == null)
+                    {
+                        _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelEventBasedAsync).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (netcoreapp31)");
+                    }
+                    return _SystemComponentModelEventBasedAsync;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelPrimitives;
+            public static PortableExecutableReference SystemComponentModelPrimitives
+            {
+                get
+                {
+                    if (_SystemComponentModelPrimitives == null)
+                    {
+                        _SystemComponentModelPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelPrimitives).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (netcoreapp31)");
+                    }
+                    return _SystemComponentModelPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelTypeConverter;
+            public static PortableExecutableReference SystemComponentModelTypeConverter
+            {
+                get
+                {
+                    if (_SystemComponentModelTypeConverter == null)
+                    {
+                        _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelTypeConverter).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (netcoreapp31)");
+                    }
+                    return _SystemComponentModelTypeConverter;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemConfiguration;
+            public static PortableExecutableReference SystemConfiguration
+            {
+                get
+                {
+                    if (_SystemConfiguration == null)
+                    {
+                        _SystemConfiguration = AssemblyMetadata.CreateFromImage(Resources.SystemConfiguration).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (netcoreapp31)");
+                    }
+                    return _SystemConfiguration;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemConsole;
+            public static PortableExecutableReference SystemConsole
+            {
+                get
+                {
+                    if (_SystemConsole == null)
+                    {
+                        _SystemConsole = AssemblyMetadata.CreateFromImage(Resources.SystemConsole).GetReference(filePath: "System.Console.dll", display: "System.Console (netcoreapp31)");
+                    }
+                    return _SystemConsole;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCore;
+            public static PortableExecutableReference SystemCore
+            {
+                get
+                {
+                    if (_SystemCore == null)
+                    {
+                        _SystemCore = AssemblyMetadata.CreateFromImage(Resources.SystemCore).GetReference(filePath: "System.Core.dll", display: "System.Core (netcoreapp31)");
+                    }
+                    return _SystemCore;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDataCommon;
+            public static PortableExecutableReference SystemDataCommon
+            {
+                get
+                {
+                    if (_SystemDataCommon == null)
+                    {
+                        _SystemDataCommon = AssemblyMetadata.CreateFromImage(Resources.SystemDataCommon).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (netcoreapp31)");
+                    }
+                    return _SystemDataCommon;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDataDataSetExtensions;
+            public static PortableExecutableReference SystemDataDataSetExtensions
+            {
+                get
+                {
+                    if (_SystemDataDataSetExtensions == null)
+                    {
+                        _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemDataDataSetExtensions).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (netcoreapp31)");
+                    }
+                    return _SystemDataDataSetExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemData;
+            public static PortableExecutableReference SystemData
+            {
+                get
+                {
+                    if (_SystemData == null)
+                    {
+                        _SystemData = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (netcoreapp31)");
+                    }
+                    return _SystemData;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsContracts;
+            public static PortableExecutableReference SystemDiagnosticsContracts
+            {
+                get
+                {
+                    if (_SystemDiagnosticsContracts == null)
+                    {
+                        _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsContracts).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (netcoreapp31)");
+                    }
+                    return _SystemDiagnosticsContracts;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsDebug;
+            public static PortableExecutableReference SystemDiagnosticsDebug
+            {
+                get
+                {
+                    if (_SystemDiagnosticsDebug == null)
+                    {
+                        _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (netcoreapp31)");
+                    }
+                    return _SystemDiagnosticsDebug;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsDiagnosticSource;
+            public static PortableExecutableReference SystemDiagnosticsDiagnosticSource
+            {
+                get
+                {
+                    if (_SystemDiagnosticsDiagnosticSource == null)
+                    {
+                        _SystemDiagnosticsDiagnosticSource = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDiagnosticSource).GetReference(filePath: "System.Diagnostics.DiagnosticSource.dll", display: "System.Diagnostics.DiagnosticSource (netcoreapp31)");
+                    }
+                    return _SystemDiagnosticsDiagnosticSource;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsFileVersionInfo;
+            public static PortableExecutableReference SystemDiagnosticsFileVersionInfo
+            {
+                get
+                {
+                    if (_SystemDiagnosticsFileVersionInfo == null)
+                    {
+                        _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsFileVersionInfo).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (netcoreapp31)");
+                    }
+                    return _SystemDiagnosticsFileVersionInfo;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsProcess;
+            public static PortableExecutableReference SystemDiagnosticsProcess
+            {
+                get
+                {
+                    if (_SystemDiagnosticsProcess == null)
+                    {
+                        _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsProcess).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (netcoreapp31)");
+                    }
+                    return _SystemDiagnosticsProcess;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsStackTrace;
+            public static PortableExecutableReference SystemDiagnosticsStackTrace
+            {
+                get
+                {
+                    if (_SystemDiagnosticsStackTrace == null)
+                    {
+                        _SystemDiagnosticsStackTrace = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsStackTrace).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (netcoreapp31)");
+                    }
+                    return _SystemDiagnosticsStackTrace;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsTextWriterTraceListener;
+            public static PortableExecutableReference SystemDiagnosticsTextWriterTraceListener
+            {
+                get
+                {
+                    if (_SystemDiagnosticsTextWriterTraceListener == null)
+                    {
+                        _SystemDiagnosticsTextWriterTraceListener = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTextWriterTraceListener).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (netcoreapp31)");
+                    }
+                    return _SystemDiagnosticsTextWriterTraceListener;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsTools;
+            public static PortableExecutableReference SystemDiagnosticsTools
+            {
+                get
+                {
+                    if (_SystemDiagnosticsTools == null)
+                    {
+                        _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (netcoreapp31)");
+                    }
+                    return _SystemDiagnosticsTools;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsTraceSource;
+            public static PortableExecutableReference SystemDiagnosticsTraceSource
+            {
+                get
+                {
+                    if (_SystemDiagnosticsTraceSource == null)
+                    {
+                        _SystemDiagnosticsTraceSource = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTraceSource).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (netcoreapp31)");
+                    }
+                    return _SystemDiagnosticsTraceSource;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsTracing;
+            public static PortableExecutableReference SystemDiagnosticsTracing
+            {
+                get
+                {
+                    if (_SystemDiagnosticsTracing == null)
+                    {
+                        _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (netcoreapp31)");
+                    }
+                    return _SystemDiagnosticsTracing;
+                }
+            }
+
+            private static PortableExecutableReference? _System;
+            public static PortableExecutableReference System
+            {
+                get
+                {
+                    if (_System == null)
+                    {
+                        _System = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (netcoreapp31)");
+                    }
+                    return _System;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDrawing;
+            public static PortableExecutableReference SystemDrawing
+            {
+                get
+                {
+                    if (_SystemDrawing == null)
+                    {
+                        _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (netcoreapp31)");
+                    }
+                    return _SystemDrawing;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDrawingPrimitives;
+            public static PortableExecutableReference SystemDrawingPrimitives
+            {
+                get
+                {
+                    if (_SystemDrawingPrimitives == null)
+                    {
+                        _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingPrimitives).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (netcoreapp31)");
+                    }
+                    return _SystemDrawingPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDynamicRuntime;
+            public static PortableExecutableReference SystemDynamicRuntime
+            {
+                get
+                {
+                    if (_SystemDynamicRuntime == null)
+                    {
+                        _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemDynamicRuntime).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (netcoreapp31)");
+                    }
+                    return _SystemDynamicRuntime;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemGlobalizationCalendars;
+            public static PortableExecutableReference SystemGlobalizationCalendars
+            {
+                get
+                {
+                    if (_SystemGlobalizationCalendars == null)
+                    {
+                        _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationCalendars).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (netcoreapp31)");
+                    }
+                    return _SystemGlobalizationCalendars;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemGlobalization;
+            public static PortableExecutableReference SystemGlobalization
+            {
+                get
+                {
+                    if (_SystemGlobalization == null)
+                    {
+                        _SystemGlobalization = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (netcoreapp31)");
+                    }
+                    return _SystemGlobalization;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemGlobalizationExtensions;
+            public static PortableExecutableReference SystemGlobalizationExtensions
+            {
+                get
+                {
+                    if (_SystemGlobalizationExtensions == null)
+                    {
+                        _SystemGlobalizationExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationExtensions).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (netcoreapp31)");
+                    }
+                    return _SystemGlobalizationExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOCompressionBrotli;
+            public static PortableExecutableReference SystemIOCompressionBrotli
+            {
+                get
+                {
+                    if (_SystemIOCompressionBrotli == null)
+                    {
+                        _SystemIOCompressionBrotli = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionBrotli).GetReference(filePath: "System.IO.Compression.Brotli.dll", display: "System.IO.Compression.Brotli (netcoreapp31)");
+                    }
+                    return _SystemIOCompressionBrotli;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOCompression;
+            public static PortableExecutableReference SystemIOCompression
+            {
+                get
+                {
+                    if (_SystemIOCompression == null)
+                    {
+                        _SystemIOCompression = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (netcoreapp31)");
+                    }
+                    return _SystemIOCompression;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOCompressionFileSystem;
+            public static PortableExecutableReference SystemIOCompressionFileSystem
+            {
+                get
+                {
+                    if (_SystemIOCompressionFileSystem == null)
+                    {
+                        _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionFileSystem).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (netcoreapp31)");
+                    }
+                    return _SystemIOCompressionFileSystem;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOCompressionZipFile;
+            public static PortableExecutableReference SystemIOCompressionZipFile
+            {
+                get
+                {
+                    if (_SystemIOCompressionZipFile == null)
+                    {
+                        _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionZipFile).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (netcoreapp31)");
+                    }
+                    return _SystemIOCompressionZipFile;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIO;
+            public static PortableExecutableReference SystemIO
+            {
+                get
+                {
+                    if (_SystemIO == null)
+                    {
+                        _SystemIO = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (netcoreapp31)");
+                    }
+                    return _SystemIO;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOFileSystem;
+            public static PortableExecutableReference SystemIOFileSystem
+            {
+                get
+                {
+                    if (_SystemIOFileSystem == null)
+                    {
+                        _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystem).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (netcoreapp31)");
+                    }
+                    return _SystemIOFileSystem;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOFileSystemDriveInfo;
+            public static PortableExecutableReference SystemIOFileSystemDriveInfo
+            {
+                get
+                {
+                    if (_SystemIOFileSystemDriveInfo == null)
+                    {
+                        _SystemIOFileSystemDriveInfo = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemDriveInfo).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (netcoreapp31)");
+                    }
+                    return _SystemIOFileSystemDriveInfo;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOFileSystemPrimitives;
+            public static PortableExecutableReference SystemIOFileSystemPrimitives
+            {
+                get
+                {
+                    if (_SystemIOFileSystemPrimitives == null)
+                    {
+                        _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemPrimitives).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (netcoreapp31)");
+                    }
+                    return _SystemIOFileSystemPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOFileSystemWatcher;
+            public static PortableExecutableReference SystemIOFileSystemWatcher
+            {
+                get
+                {
+                    if (_SystemIOFileSystemWatcher == null)
+                    {
+                        _SystemIOFileSystemWatcher = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemWatcher).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (netcoreapp31)");
+                    }
+                    return _SystemIOFileSystemWatcher;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOIsolatedStorage;
+            public static PortableExecutableReference SystemIOIsolatedStorage
+            {
+                get
+                {
+                    if (_SystemIOIsolatedStorage == null)
+                    {
+                        _SystemIOIsolatedStorage = AssemblyMetadata.CreateFromImage(Resources.SystemIOIsolatedStorage).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (netcoreapp31)");
+                    }
+                    return _SystemIOIsolatedStorage;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOMemoryMappedFiles;
+            public static PortableExecutableReference SystemIOMemoryMappedFiles
+            {
+                get
+                {
+                    if (_SystemIOMemoryMappedFiles == null)
+                    {
+                        _SystemIOMemoryMappedFiles = AssemblyMetadata.CreateFromImage(Resources.SystemIOMemoryMappedFiles).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (netcoreapp31)");
+                    }
+                    return _SystemIOMemoryMappedFiles;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOPipes;
+            public static PortableExecutableReference SystemIOPipes
+            {
+                get
+                {
+                    if (_SystemIOPipes == null)
+                    {
+                        _SystemIOPipes = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipes).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (netcoreapp31)");
+                    }
+                    return _SystemIOPipes;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOUnmanagedMemoryStream;
+            public static PortableExecutableReference SystemIOUnmanagedMemoryStream
+            {
+                get
+                {
+                    if (_SystemIOUnmanagedMemoryStream == null)
+                    {
+                        _SystemIOUnmanagedMemoryStream = AssemblyMetadata.CreateFromImage(Resources.SystemIOUnmanagedMemoryStream).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (netcoreapp31)");
+                    }
+                    return _SystemIOUnmanagedMemoryStream;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemLinq;
+            public static PortableExecutableReference SystemLinq
+            {
+                get
+                {
+                    if (_SystemLinq == null)
+                    {
+                        _SystemLinq = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (netcoreapp31)");
+                    }
+                    return _SystemLinq;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemLinqExpressions;
+            public static PortableExecutableReference SystemLinqExpressions
+            {
+                get
+                {
+                    if (_SystemLinqExpressions == null)
+                    {
+                        _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (netcoreapp31)");
+                    }
+                    return _SystemLinqExpressions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemLinqParallel;
+            public static PortableExecutableReference SystemLinqParallel
+            {
+                get
+                {
+                    if (_SystemLinqParallel == null)
+                    {
+                        _SystemLinqParallel = AssemblyMetadata.CreateFromImage(Resources.SystemLinqParallel).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (netcoreapp31)");
+                    }
+                    return _SystemLinqParallel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemLinqQueryable;
+            public static PortableExecutableReference SystemLinqQueryable
+            {
+                get
+                {
+                    if (_SystemLinqQueryable == null)
+                    {
+                        _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(Resources.SystemLinqQueryable).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (netcoreapp31)");
+                    }
+                    return _SystemLinqQueryable;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemMemory;
+            public static PortableExecutableReference SystemMemory
+            {
+                get
+                {
+                    if (_SystemMemory == null)
+                    {
+                        _SystemMemory = AssemblyMetadata.CreateFromImage(Resources.SystemMemory).GetReference(filePath: "System.Memory.dll", display: "System.Memory (netcoreapp31)");
+                    }
+                    return _SystemMemory;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNet;
+            public static PortableExecutableReference SystemNet
+            {
+                get
+                {
+                    if (_SystemNet == null)
+                    {
+                        _SystemNet = AssemblyMetadata.CreateFromImage(Resources.SystemNet).GetReference(filePath: "System.Net.dll", display: "System.Net (netcoreapp31)");
+                    }
+                    return _SystemNet;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetHttp;
+            public static PortableExecutableReference SystemNetHttp
+            {
+                get
+                {
+                    if (_SystemNetHttp == null)
+                    {
+                        _SystemNetHttp = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (netcoreapp31)");
+                    }
+                    return _SystemNetHttp;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetHttpListener;
+            public static PortableExecutableReference SystemNetHttpListener
+            {
+                get
+                {
+                    if (_SystemNetHttpListener == null)
+                    {
+                        _SystemNetHttpListener = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpListener).GetReference(filePath: "System.Net.HttpListener.dll", display: "System.Net.HttpListener (netcoreapp31)");
+                    }
+                    return _SystemNetHttpListener;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetMail;
+            public static PortableExecutableReference SystemNetMail
+            {
+                get
+                {
+                    if (_SystemNetMail == null)
+                    {
+                        _SystemNetMail = AssemblyMetadata.CreateFromImage(Resources.SystemNetMail).GetReference(filePath: "System.Net.Mail.dll", display: "System.Net.Mail (netcoreapp31)");
+                    }
+                    return _SystemNetMail;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetNameResolution;
+            public static PortableExecutableReference SystemNetNameResolution
+            {
+                get
+                {
+                    if (_SystemNetNameResolution == null)
+                    {
+                        _SystemNetNameResolution = AssemblyMetadata.CreateFromImage(Resources.SystemNetNameResolution).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (netcoreapp31)");
+                    }
+                    return _SystemNetNameResolution;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetNetworkInformation;
+            public static PortableExecutableReference SystemNetNetworkInformation
+            {
+                get
+                {
+                    if (_SystemNetNetworkInformation == null)
+                    {
+                        _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(Resources.SystemNetNetworkInformation).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (netcoreapp31)");
+                    }
+                    return _SystemNetNetworkInformation;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetPing;
+            public static PortableExecutableReference SystemNetPing
+            {
+                get
+                {
+                    if (_SystemNetPing == null)
+                    {
+                        _SystemNetPing = AssemblyMetadata.CreateFromImage(Resources.SystemNetPing).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (netcoreapp31)");
+                    }
+                    return _SystemNetPing;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetPrimitives;
+            public static PortableExecutableReference SystemNetPrimitives
+            {
+                get
+                {
+                    if (_SystemNetPrimitives == null)
+                    {
+                        _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (netcoreapp31)");
+                    }
+                    return _SystemNetPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetRequests;
+            public static PortableExecutableReference SystemNetRequests
+            {
+                get
+                {
+                    if (_SystemNetRequests == null)
+                    {
+                        _SystemNetRequests = AssemblyMetadata.CreateFromImage(Resources.SystemNetRequests).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (netcoreapp31)");
+                    }
+                    return _SystemNetRequests;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetSecurity;
+            public static PortableExecutableReference SystemNetSecurity
+            {
+                get
+                {
+                    if (_SystemNetSecurity == null)
+                    {
+                        _SystemNetSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemNetSecurity).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (netcoreapp31)");
+                    }
+                    return _SystemNetSecurity;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetServicePoint;
+            public static PortableExecutableReference SystemNetServicePoint
+            {
+                get
+                {
+                    if (_SystemNetServicePoint == null)
+                    {
+                        _SystemNetServicePoint = AssemblyMetadata.CreateFromImage(Resources.SystemNetServicePoint).GetReference(filePath: "System.Net.ServicePoint.dll", display: "System.Net.ServicePoint (netcoreapp31)");
+                    }
+                    return _SystemNetServicePoint;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetSockets;
+            public static PortableExecutableReference SystemNetSockets
+            {
+                get
+                {
+                    if (_SystemNetSockets == null)
+                    {
+                        _SystemNetSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetSockets).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (netcoreapp31)");
+                    }
+                    return _SystemNetSockets;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetWebClient;
+            public static PortableExecutableReference SystemNetWebClient
+            {
+                get
+                {
+                    if (_SystemNetWebClient == null)
+                    {
+                        _SystemNetWebClient = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebClient).GetReference(filePath: "System.Net.WebClient.dll", display: "System.Net.WebClient (netcoreapp31)");
+                    }
+                    return _SystemNetWebClient;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetWebHeaderCollection;
+            public static PortableExecutableReference SystemNetWebHeaderCollection
+            {
+                get
+                {
+                    if (_SystemNetWebHeaderCollection == null)
+                    {
+                        _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebHeaderCollection).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (netcoreapp31)");
+                    }
+                    return _SystemNetWebHeaderCollection;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetWebProxy;
+            public static PortableExecutableReference SystemNetWebProxy
+            {
+                get
+                {
+                    if (_SystemNetWebProxy == null)
+                    {
+                        _SystemNetWebProxy = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebProxy).GetReference(filePath: "System.Net.WebProxy.dll", display: "System.Net.WebProxy (netcoreapp31)");
+                    }
+                    return _SystemNetWebProxy;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetWebSocketsClient;
+            public static PortableExecutableReference SystemNetWebSocketsClient
+            {
+                get
+                {
+                    if (_SystemNetWebSocketsClient == null)
+                    {
+                        _SystemNetWebSocketsClient = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSocketsClient).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (netcoreapp31)");
+                    }
+                    return _SystemNetWebSocketsClient;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetWebSockets;
+            public static PortableExecutableReference SystemNetWebSockets
+            {
+                get
+                {
+                    if (_SystemNetWebSockets == null)
+                    {
+                        _SystemNetWebSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSockets).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (netcoreapp31)");
+                    }
+                    return _SystemNetWebSockets;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNumerics;
+            public static PortableExecutableReference SystemNumerics
+            {
+                get
+                {
+                    if (_SystemNumerics == null)
+                    {
+                        _SystemNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemNumerics).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (netcoreapp31)");
+                    }
+                    return _SystemNumerics;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNumericsVectors;
+            public static PortableExecutableReference SystemNumericsVectors
+            {
+                get
+                {
+                    if (_SystemNumericsVectors == null)
+                    {
+                        _SystemNumericsVectors = AssemblyMetadata.CreateFromImage(Resources.SystemNumericsVectors).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (netcoreapp31)");
+                    }
+                    return _SystemNumericsVectors;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemObjectModel;
+            public static PortableExecutableReference SystemObjectModel
+            {
+                get
+                {
+                    if (_SystemObjectModel == null)
+                    {
+                        _SystemObjectModel = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (netcoreapp31)");
+                    }
+                    return _SystemObjectModel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionDispatchProxy;
+            public static PortableExecutableReference SystemReflectionDispatchProxy
+            {
+                get
+                {
+                    if (_SystemReflectionDispatchProxy == null)
+                    {
+                        _SystemReflectionDispatchProxy = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionDispatchProxy).GetReference(filePath: "System.Reflection.DispatchProxy.dll", display: "System.Reflection.DispatchProxy (netcoreapp31)");
+                    }
+                    return _SystemReflectionDispatchProxy;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflection;
+            public static PortableExecutableReference SystemReflection
+            {
+                get
+                {
+                    if (_SystemReflection == null)
+                    {
+                        _SystemReflection = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (netcoreapp31)");
+                    }
+                    return _SystemReflection;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionEmit;
+            public static PortableExecutableReference SystemReflectionEmit
+            {
+                get
+                {
+                    if (_SystemReflectionEmit == null)
+                    {
+                        _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmit).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (netcoreapp31)");
+                    }
+                    return _SystemReflectionEmit;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionEmitILGeneration;
+            public static PortableExecutableReference SystemReflectionEmitILGeneration
+            {
+                get
+                {
+                    if (_SystemReflectionEmitILGeneration == null)
+                    {
+                        _SystemReflectionEmitILGeneration = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitILGeneration).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (netcoreapp31)");
+                    }
+                    return _SystemReflectionEmitILGeneration;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionEmitLightweight;
+            public static PortableExecutableReference SystemReflectionEmitLightweight
+            {
+                get
+                {
+                    if (_SystemReflectionEmitLightweight == null)
+                    {
+                        _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitLightweight).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (netcoreapp31)");
+                    }
+                    return _SystemReflectionEmitLightweight;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionExtensions;
+            public static PortableExecutableReference SystemReflectionExtensions
+            {
+                get
+                {
+                    if (_SystemReflectionExtensions == null)
+                    {
+                        _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (netcoreapp31)");
+                    }
+                    return _SystemReflectionExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionMetadata;
+            public static PortableExecutableReference SystemReflectionMetadata
+            {
+                get
+                {
+                    if (_SystemReflectionMetadata == null)
+                    {
+                        _SystemReflectionMetadata = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionMetadata).GetReference(filePath: "System.Reflection.Metadata.dll", display: "System.Reflection.Metadata (netcoreapp31)");
+                    }
+                    return _SystemReflectionMetadata;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionPrimitives;
+            public static PortableExecutableReference SystemReflectionPrimitives
+            {
+                get
+                {
+                    if (_SystemReflectionPrimitives == null)
+                    {
+                        _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (netcoreapp31)");
+                    }
+                    return _SystemReflectionPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionTypeExtensions;
+            public static PortableExecutableReference SystemReflectionTypeExtensions
+            {
+                get
+                {
+                    if (_SystemReflectionTypeExtensions == null)
+                    {
+                        _SystemReflectionTypeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionTypeExtensions).GetReference(filePath: "System.Reflection.TypeExtensions.dll", display: "System.Reflection.TypeExtensions (netcoreapp31)");
+                    }
+                    return _SystemReflectionTypeExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemResourcesReader;
+            public static PortableExecutableReference SystemResourcesReader
+            {
+                get
+                {
+                    if (_SystemResourcesReader == null)
+                    {
+                        _SystemResourcesReader = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesReader).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (netcoreapp31)");
+                    }
+                    return _SystemResourcesReader;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemResourcesResourceManager;
+            public static PortableExecutableReference SystemResourcesResourceManager
+            {
+                get
+                {
+                    if (_SystemResourcesResourceManager == null)
+                    {
+                        _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (netcoreapp31)");
+                    }
+                    return _SystemResourcesResourceManager;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemResourcesWriter;
+            public static PortableExecutableReference SystemResourcesWriter
+            {
+                get
+                {
+                    if (_SystemResourcesWriter == null)
+                    {
+                        _SystemResourcesWriter = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesWriter).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (netcoreapp31)");
+                    }
+                    return _SystemResourcesWriter;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeCompilerServicesUnsafe;
+            public static PortableExecutableReference SystemRuntimeCompilerServicesUnsafe
+            {
+                get
+                {
+                    if (_SystemRuntimeCompilerServicesUnsafe == null)
+                    {
+                        _SystemRuntimeCompilerServicesUnsafe = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesUnsafe).GetReference(filePath: "System.Runtime.CompilerServices.Unsafe.dll", display: "System.Runtime.CompilerServices.Unsafe (netcoreapp31)");
+                    }
+                    return _SystemRuntimeCompilerServicesUnsafe;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeCompilerServicesVisualC;
+            public static PortableExecutableReference SystemRuntimeCompilerServicesVisualC
+            {
+                get
+                {
+                    if (_SystemRuntimeCompilerServicesVisualC == null)
+                    {
+                        _SystemRuntimeCompilerServicesVisualC = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesVisualC).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (netcoreapp31)");
+                    }
+                    return _SystemRuntimeCompilerServicesVisualC;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntime;
+            public static PortableExecutableReference SystemRuntime
+            {
+                get
+                {
+                    if (_SystemRuntime == null)
+                    {
+                        _SystemRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (netcoreapp31)");
+                    }
+                    return _SystemRuntime;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeExtensions;
+            public static PortableExecutableReference SystemRuntimeExtensions
+            {
+                get
+                {
+                    if (_SystemRuntimeExtensions == null)
+                    {
+                        _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (netcoreapp31)");
+                    }
+                    return _SystemRuntimeExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeHandles;
+            public static PortableExecutableReference SystemRuntimeHandles
+            {
+                get
+                {
+                    if (_SystemRuntimeHandles == null)
+                    {
+                        _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (netcoreapp31)");
+                    }
+                    return _SystemRuntimeHandles;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeInteropServices;
+            public static PortableExecutableReference SystemRuntimeInteropServices
+            {
+                get
+                {
+                    if (_SystemRuntimeInteropServices == null)
+                    {
+                        _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (netcoreapp31)");
+                    }
+                    return _SystemRuntimeInteropServices;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeInteropServicesRuntimeInformation;
+            public static PortableExecutableReference SystemRuntimeInteropServicesRuntimeInformation
+            {
+                get
+                {
+                    if (_SystemRuntimeInteropServicesRuntimeInformation == null)
+                    {
+                        _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesRuntimeInformation).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (netcoreapp31)");
+                    }
+                    return _SystemRuntimeInteropServicesRuntimeInformation;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeInteropServicesWindowsRuntime;
+            public static PortableExecutableReference SystemRuntimeInteropServicesWindowsRuntime
+            {
+                get
+                {
+                    if (_SystemRuntimeInteropServicesWindowsRuntime == null)
+                    {
+                        _SystemRuntimeInteropServicesWindowsRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesWindowsRuntime).GetReference(filePath: "System.Runtime.InteropServices.WindowsRuntime.dll", display: "System.Runtime.InteropServices.WindowsRuntime (netcoreapp31)");
+                    }
+                    return _SystemRuntimeInteropServicesWindowsRuntime;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeIntrinsics;
+            public static PortableExecutableReference SystemRuntimeIntrinsics
+            {
+                get
+                {
+                    if (_SystemRuntimeIntrinsics == null)
+                    {
+                        _SystemRuntimeIntrinsics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeIntrinsics).GetReference(filePath: "System.Runtime.Intrinsics.dll", display: "System.Runtime.Intrinsics (netcoreapp31)");
+                    }
+                    return _SystemRuntimeIntrinsics;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeLoader;
+            public static PortableExecutableReference SystemRuntimeLoader
+            {
+                get
+                {
+                    if (_SystemRuntimeLoader == null)
+                    {
+                        _SystemRuntimeLoader = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeLoader).GetReference(filePath: "System.Runtime.Loader.dll", display: "System.Runtime.Loader (netcoreapp31)");
+                    }
+                    return _SystemRuntimeLoader;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeNumerics;
+            public static PortableExecutableReference SystemRuntimeNumerics
+            {
+                get
+                {
+                    if (_SystemRuntimeNumerics == null)
+                    {
+                        _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (netcoreapp31)");
+                    }
+                    return _SystemRuntimeNumerics;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerialization;
+            public static PortableExecutableReference SystemRuntimeSerialization
+            {
+                get
+                {
+                    if (_SystemRuntimeSerialization == null)
+                    {
+                        _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerialization).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (netcoreapp31)");
+                    }
+                    return _SystemRuntimeSerialization;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerializationFormatters;
+            public static PortableExecutableReference SystemRuntimeSerializationFormatters
+            {
+                get
+                {
+                    if (_SystemRuntimeSerializationFormatters == null)
+                    {
+                        _SystemRuntimeSerializationFormatters = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormatters).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (netcoreapp31)");
+                    }
+                    return _SystemRuntimeSerializationFormatters;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerializationJson;
+            public static PortableExecutableReference SystemRuntimeSerializationJson
+            {
+                get
+                {
+                    if (_SystemRuntimeSerializationJson == null)
+                    {
+                        _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationJson).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (netcoreapp31)");
+                    }
+                    return _SystemRuntimeSerializationJson;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerializationPrimitives;
+            public static PortableExecutableReference SystemRuntimeSerializationPrimitives
+            {
+                get
+                {
+                    if (_SystemRuntimeSerializationPrimitives == null)
+                    {
+                        _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (netcoreapp31)");
+                    }
+                    return _SystemRuntimeSerializationPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerializationXml;
+            public static PortableExecutableReference SystemRuntimeSerializationXml
+            {
+                get
+                {
+                    if (_SystemRuntimeSerializationXml == null)
+                    {
+                        _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationXml).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (netcoreapp31)");
+                    }
+                    return _SystemRuntimeSerializationXml;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityClaims;
+            public static PortableExecutableReference SystemSecurityClaims
+            {
+                get
+                {
+                    if (_SystemSecurityClaims == null)
+                    {
+                        _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityClaims).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (netcoreapp31)");
+                    }
+                    return _SystemSecurityClaims;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyAlgorithms;
+            public static PortableExecutableReference SystemSecurityCryptographyAlgorithms
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyAlgorithms == null)
+                    {
+                        _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyAlgorithms).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (netcoreapp31)");
+                    }
+                    return _SystemSecurityCryptographyAlgorithms;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyCsp;
+            public static PortableExecutableReference SystemSecurityCryptographyCsp
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyCsp == null)
+                    {
+                        _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCsp).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (netcoreapp31)");
+                    }
+                    return _SystemSecurityCryptographyCsp;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyEncoding;
+            public static PortableExecutableReference SystemSecurityCryptographyEncoding
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyEncoding == null)
+                    {
+                        _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyEncoding).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (netcoreapp31)");
+                    }
+                    return _SystemSecurityCryptographyEncoding;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyPrimitives;
+            public static PortableExecutableReference SystemSecurityCryptographyPrimitives
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyPrimitives == null)
+                    {
+                        _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPrimitives).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (netcoreapp31)");
+                    }
+                    return _SystemSecurityCryptographyPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyX509Certificates;
+            public static PortableExecutableReference SystemSecurityCryptographyX509Certificates
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyX509Certificates == null)
+                    {
+                        _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyX509Certificates).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (netcoreapp31)");
+                    }
+                    return _SystemSecurityCryptographyX509Certificates;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurity;
+            public static PortableExecutableReference SystemSecurity
+            {
+                get
+                {
+                    if (_SystemSecurity == null)
+                    {
+                        _SystemSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemSecurity).GetReference(filePath: "System.Security.dll", display: "System.Security (netcoreapp31)");
+                    }
+                    return _SystemSecurity;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityPrincipal;
+            public static PortableExecutableReference SystemSecurityPrincipal
+            {
+                get
+                {
+                    if (_SystemSecurityPrincipal == null)
+                    {
+                        _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (netcoreapp31)");
+                    }
+                    return _SystemSecurityPrincipal;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecuritySecureString;
+            public static PortableExecutableReference SystemSecuritySecureString
+            {
+                get
+                {
+                    if (_SystemSecuritySecureString == null)
+                    {
+                        _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(Resources.SystemSecuritySecureString).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (netcoreapp31)");
+                    }
+                    return _SystemSecuritySecureString;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceModelWeb;
+            public static PortableExecutableReference SystemServiceModelWeb
+            {
+                get
+                {
+                    if (_SystemServiceModelWeb == null)
+                    {
+                        _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelWeb).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (netcoreapp31)");
+                    }
+                    return _SystemServiceModelWeb;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceProcess;
+            public static PortableExecutableReference SystemServiceProcess
+            {
+                get
+                {
+                    if (_SystemServiceProcess == null)
+                    {
+                        _SystemServiceProcess = AssemblyMetadata.CreateFromImage(Resources.SystemServiceProcess).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (netcoreapp31)");
+                    }
+                    return _SystemServiceProcess;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextEncodingCodePages;
+            public static PortableExecutableReference SystemTextEncodingCodePages
+            {
+                get
+                {
+                    if (_SystemTextEncodingCodePages == null)
+                    {
+                        _SystemTextEncodingCodePages = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingCodePages).GetReference(filePath: "System.Text.Encoding.CodePages.dll", display: "System.Text.Encoding.CodePages (netcoreapp31)");
+                    }
+                    return _SystemTextEncodingCodePages;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextEncoding;
+            public static PortableExecutableReference SystemTextEncoding
+            {
+                get
+                {
+                    if (_SystemTextEncoding == null)
+                    {
+                        _SystemTextEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (netcoreapp31)");
+                    }
+                    return _SystemTextEncoding;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextEncodingExtensions;
+            public static PortableExecutableReference SystemTextEncodingExtensions
+            {
+                get
+                {
+                    if (_SystemTextEncodingExtensions == null)
+                    {
+                        _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (netcoreapp31)");
+                    }
+                    return _SystemTextEncodingExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextEncodingsWeb;
+            public static PortableExecutableReference SystemTextEncodingsWeb
+            {
+                get
+                {
+                    if (_SystemTextEncodingsWeb == null)
+                    {
+                        _SystemTextEncodingsWeb = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingsWeb).GetReference(filePath: "System.Text.Encodings.Web.dll", display: "System.Text.Encodings.Web (netcoreapp31)");
+                    }
+                    return _SystemTextEncodingsWeb;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextJson;
+            public static PortableExecutableReference SystemTextJson
+            {
+                get
+                {
+                    if (_SystemTextJson == null)
+                    {
+                        _SystemTextJson = AssemblyMetadata.CreateFromImage(Resources.SystemTextJson).GetReference(filePath: "System.Text.Json.dll", display: "System.Text.Json (netcoreapp31)");
+                    }
+                    return _SystemTextJson;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextRegularExpressions;
+            public static PortableExecutableReference SystemTextRegularExpressions
+            {
+                get
+                {
+                    if (_SystemTextRegularExpressions == null)
+                    {
+                        _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (netcoreapp31)");
+                    }
+                    return _SystemTextRegularExpressions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingChannels;
+            public static PortableExecutableReference SystemThreadingChannels
+            {
+                get
+                {
+                    if (_SystemThreadingChannels == null)
+                    {
+                        _SystemThreadingChannels = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingChannels).GetReference(filePath: "System.Threading.Channels.dll", display: "System.Threading.Channels (netcoreapp31)");
+                    }
+                    return _SystemThreadingChannels;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreading;
+            public static PortableExecutableReference SystemThreading
+            {
+                get
+                {
+                    if (_SystemThreading == null)
+                    {
+                        _SystemThreading = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (netcoreapp31)");
+                    }
+                    return _SystemThreading;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingOverlapped;
+            public static PortableExecutableReference SystemThreadingOverlapped
+            {
+                get
+                {
+                    if (_SystemThreadingOverlapped == null)
+                    {
+                        _SystemThreadingOverlapped = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingOverlapped).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (netcoreapp31)");
+                    }
+                    return _SystemThreadingOverlapped;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingTasksDataflow;
+            public static PortableExecutableReference SystemThreadingTasksDataflow
+            {
+                get
+                {
+                    if (_SystemThreadingTasksDataflow == null)
+                    {
+                        _SystemThreadingTasksDataflow = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksDataflow).GetReference(filePath: "System.Threading.Tasks.Dataflow.dll", display: "System.Threading.Tasks.Dataflow (netcoreapp31)");
+                    }
+                    return _SystemThreadingTasksDataflow;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingTasks;
+            public static PortableExecutableReference SystemThreadingTasks
+            {
+                get
+                {
+                    if (_SystemThreadingTasks == null)
+                    {
+                        _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (netcoreapp31)");
+                    }
+                    return _SystemThreadingTasks;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingTasksExtensions;
+            public static PortableExecutableReference SystemThreadingTasksExtensions
+            {
+                get
+                {
+                    if (_SystemThreadingTasksExtensions == null)
+                    {
+                        _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksExtensions).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (netcoreapp31)");
+                    }
+                    return _SystemThreadingTasksExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingTasksParallel;
+            public static PortableExecutableReference SystemThreadingTasksParallel
+            {
+                get
+                {
+                    if (_SystemThreadingTasksParallel == null)
+                    {
+                        _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksParallel).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (netcoreapp31)");
+                    }
+                    return _SystemThreadingTasksParallel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingThread;
+            public static PortableExecutableReference SystemThreadingThread
+            {
+                get
+                {
+                    if (_SystemThreadingThread == null)
+                    {
+                        _SystemThreadingThread = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThread).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (netcoreapp31)");
+                    }
+                    return _SystemThreadingThread;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingThreadPool;
+            public static PortableExecutableReference SystemThreadingThreadPool
+            {
+                get
+                {
+                    if (_SystemThreadingThreadPool == null)
+                    {
+                        _SystemThreadingThreadPool = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThreadPool).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (netcoreapp31)");
+                    }
+                    return _SystemThreadingThreadPool;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingTimer;
+            public static PortableExecutableReference SystemThreadingTimer
+            {
+                get
+                {
+                    if (_SystemThreadingTimer == null)
+                    {
+                        _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (netcoreapp31)");
+                    }
+                    return _SystemThreadingTimer;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTransactions;
+            public static PortableExecutableReference SystemTransactions
+            {
+                get
+                {
+                    if (_SystemTransactions == null)
+                    {
+                        _SystemTransactions = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (netcoreapp31)");
+                    }
+                    return _SystemTransactions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTransactionsLocal;
+            public static PortableExecutableReference SystemTransactionsLocal
+            {
+                get
+                {
+                    if (_SystemTransactionsLocal == null)
+                    {
+                        _SystemTransactionsLocal = AssemblyMetadata.CreateFromImage(Resources.SystemTransactionsLocal).GetReference(filePath: "System.Transactions.Local.dll", display: "System.Transactions.Local (netcoreapp31)");
+                    }
+                    return _SystemTransactionsLocal;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemValueTuple;
+            public static PortableExecutableReference SystemValueTuple
+            {
+                get
+                {
+                    if (_SystemValueTuple == null)
+                    {
+                        _SystemValueTuple = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (netcoreapp31)");
+                    }
+                    return _SystemValueTuple;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWeb;
+            public static PortableExecutableReference SystemWeb
+            {
+                get
+                {
+                    if (_SystemWeb == null)
+                    {
+                        _SystemWeb = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (netcoreapp31)");
+                    }
+                    return _SystemWeb;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebHttpUtility;
+            public static PortableExecutableReference SystemWebHttpUtility
+            {
+                get
+                {
+                    if (_SystemWebHttpUtility == null)
+                    {
+                        _SystemWebHttpUtility = AssemblyMetadata.CreateFromImage(Resources.SystemWebHttpUtility).GetReference(filePath: "System.Web.HttpUtility.dll", display: "System.Web.HttpUtility (netcoreapp31)");
+                    }
+                    return _SystemWebHttpUtility;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindows;
+            public static PortableExecutableReference SystemWindows
+            {
+                get
+                {
+                    if (_SystemWindows == null)
+                    {
+                        _SystemWindows = AssemblyMetadata.CreateFromImage(Resources.SystemWindows).GetReference(filePath: "System.Windows.dll", display: "System.Windows (netcoreapp31)");
+                    }
+                    return _SystemWindows;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXml;
+            public static PortableExecutableReference SystemXml
+            {
+                get
+                {
+                    if (_SystemXml == null)
+                    {
+                        _SystemXml = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (netcoreapp31)");
+                    }
+                    return _SystemXml;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlLinq;
+            public static PortableExecutableReference SystemXmlLinq
+            {
+                get
+                {
+                    if (_SystemXmlLinq == null)
+                    {
+                        _SystemXmlLinq = AssemblyMetadata.CreateFromImage(Resources.SystemXmlLinq).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (netcoreapp31)");
+                    }
+                    return _SystemXmlLinq;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlReaderWriter;
+            public static PortableExecutableReference SystemXmlReaderWriter
+            {
+                get
+                {
+                    if (_SystemXmlReaderWriter == null)
+                    {
+                        _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (netcoreapp31)");
+                    }
+                    return _SystemXmlReaderWriter;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlSerialization;
+            public static PortableExecutableReference SystemXmlSerialization
+            {
+                get
+                {
+                    if (_SystemXmlSerialization == null)
+                    {
+                        _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemXmlSerialization).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (netcoreapp31)");
+                    }
+                    return _SystemXmlSerialization;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXDocument;
+            public static PortableExecutableReference SystemXmlXDocument
+            {
+                get
+                {
+                    if (_SystemXmlXDocument == null)
+                    {
+                        _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (netcoreapp31)");
+                    }
+                    return _SystemXmlXDocument;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXmlDocument;
+            public static PortableExecutableReference SystemXmlXmlDocument
+            {
+                get
+                {
+                    if (_SystemXmlXmlDocument == null)
+                    {
+                        _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlDocument).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (netcoreapp31)");
+                    }
+                    return _SystemXmlXmlDocument;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXmlSerializer;
+            public static PortableExecutableReference SystemXmlXmlSerializer
+            {
+                get
+                {
+                    if (_SystemXmlXmlSerializer == null)
+                    {
+                        _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlSerializer).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (netcoreapp31)");
+                    }
+                    return _SystemXmlXmlSerializer;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXPath;
+            public static PortableExecutableReference SystemXmlXPath
+            {
+                get
+                {
+                    if (_SystemXmlXPath == null)
+                    {
+                        _SystemXmlXPath = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPath).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (netcoreapp31)");
+                    }
+                    return _SystemXmlXPath;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXPathXDocument;
+            public static PortableExecutableReference SystemXmlXPathXDocument
+            {
+                get
+                {
+                    if (_SystemXmlXPathXDocument == null)
+                    {
+                        _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPathXDocument).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (netcoreapp31)");
+                    }
+                    return _SystemXmlXPathXDocument;
+                }
+            }
+
+            private static PortableExecutableReference? _WindowsBase;
+            public static PortableExecutableReference WindowsBase
+            {
+                get
+                {
+                    if (_WindowsBase == null)
+                    {
+                        _WindowsBase = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (netcoreapp31)");
+                    }
+                    return _WindowsBase;
+                }
+            }
+
+            public static IEnumerable<PortableExecutableReference> All => new PortableExecutableReference[]
             {
                 MicrosoftCSharp,
                 MicrosoftVisualBasicCore,

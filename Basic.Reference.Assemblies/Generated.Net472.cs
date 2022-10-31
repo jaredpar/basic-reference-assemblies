@@ -719,7 +719,7 @@ namespace Basic.Reference.Assemblies
             public static ReferenceInfo SystemXmlXmlSerializer => new ReferenceInfo("System.Xml.XmlSerializer.dll", Resources.SystemXmlXmlSerializer, Net472.References.SystemXmlXmlSerializer, global::System.Guid.Parse("7c00b1d9-db76-418c-917b-0c4960fc359b"));
             public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, Net472.References.SystemXmlXPath, global::System.Guid.Parse("ee6dab7f-cfcf-47b0-ab36-fd4ee811a85a"));
             public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, Net472.References.SystemXmlXPathXDocument, global::System.Guid.Parse("42dc2c5d-0d0e-4508-8306-347d85599b1f"));
-            public static IEnumerable<ReferenceInfo> All { get; }= new []
+            public static IEnumerable<ReferenceInfo> All => new []
             {
                 Accessibility,
                 CustomMarshalers,
@@ -964,241 +964,3049 @@ namespace Basic.Reference.Assemblies
     {
         public static class References
         {
-            public static PortableExecutableReference Accessibility { get; } = AssemblyMetadata.CreateFromImage(Resources.Accessibility).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net472)");
-            public static PortableExecutableReference CustomMarshalers { get; } = AssemblyMetadata.CreateFromImage(Resources.CustomMarshalers).GetReference(filePath: "CustomMarshalers.dll", display: "CustomMarshalers (net472)");
-            public static PortableExecutableReference ISymWrapper { get; } = AssemblyMetadata.CreateFromImage(Resources.ISymWrapper).GetReference(filePath: "ISymWrapper.dll", display: "ISymWrapper (net472)");
-            public static PortableExecutableReference MicrosoftActivitiesBuild { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftActivitiesBuild).GetReference(filePath: "Microsoft.Activities.Build.dll", display: "Microsoft.Activities.Build (net472)");
-            public static PortableExecutableReference MicrosoftBuildConversionv40 { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildConversionv40).GetReference(filePath: "Microsoft.Build.Conversion.v4.0.dll", display: "Microsoft.Build.Conversion.v4.0 (net472)");
-            public static PortableExecutableReference MicrosoftBuild { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuild).GetReference(filePath: "Microsoft.Build.dll", display: "Microsoft.Build (net472)");
-            public static PortableExecutableReference MicrosoftBuildEngine { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildEngine).GetReference(filePath: "Microsoft.Build.Engine.dll", display: "Microsoft.Build.Engine (net472)");
-            public static PortableExecutableReference MicrosoftBuildFramework { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildFramework).GetReference(filePath: "Microsoft.Build.Framework.dll", display: "Microsoft.Build.Framework (net472)");
-            public static PortableExecutableReference MicrosoftBuildTasksv40 { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildTasksv40).GetReference(filePath: "Microsoft.Build.Tasks.v4.0.dll", display: "Microsoft.Build.Tasks.v4.0 (net472)");
-            public static PortableExecutableReference MicrosoftBuildUtilitiesv40 { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildUtilitiesv40).GetReference(filePath: "Microsoft.Build.Utilities.v4.0.dll", display: "Microsoft.Build.Utilities.v4.0 (net472)");
-            public static PortableExecutableReference MicrosoftCSharp { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftCSharp).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (net472)");
-            public static PortableExecutableReference MicrosoftJScript { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftJScript).GetReference(filePath: "Microsoft.JScript.dll", display: "Microsoft.JScript (net472)");
-            public static PortableExecutableReference MicrosoftVisualBasicCompatibilityData { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibilityData).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.Data.dll", display: "Microsoft.VisualBasic.Compatibility.Data (net472)");
-            public static PortableExecutableReference MicrosoftVisualBasicCompatibility { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibility).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.dll", display: "Microsoft.VisualBasic.Compatibility (net472)");
-            public static PortableExecutableReference MicrosoftVisualBasic { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net472)");
-            public static PortableExecutableReference MicrosoftVisualC { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualC).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net472)");
-            public static PortableExecutableReference MicrosoftVisualCSTLCLR { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualCSTLCLR).GetReference(filePath: "Microsoft.VisualC.STLCLR.dll", display: "Microsoft.VisualC.STLCLR (net472)");
-            public static PortableExecutableReference mscorlib { get; } = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net472)");
-            public static PortableExecutableReference PresentationBuildTasks { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationBuildTasks).GetReference(filePath: "PresentationBuildTasks.dll", display: "PresentationBuildTasks (net472)");
-            public static PortableExecutableReference PresentationCore { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationCore).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net472)");
-            public static PortableExecutableReference PresentationFrameworkAero { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net472)");
-            public static PortableExecutableReference PresentationFrameworkAero2 { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero2).GetReference(filePath: "PresentationFramework.Aero2.dll", display: "PresentationFramework.Aero2 (net472)");
-            public static PortableExecutableReference PresentationFrameworkAeroLite { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAeroLite).GetReference(filePath: "PresentationFramework.AeroLite.dll", display: "PresentationFramework.AeroLite (net472)");
-            public static PortableExecutableReference PresentationFrameworkClassic { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkClassic).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net472)");
-            public static PortableExecutableReference PresentationFramework { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationFramework).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net472)");
-            public static PortableExecutableReference PresentationFrameworkLuna { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkLuna).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net472)");
-            public static PortableExecutableReference PresentationFrameworkRoyale { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkRoyale).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net472)");
-            public static PortableExecutableReference ReachFramework { get; } = AssemblyMetadata.CreateFromImage(Resources.ReachFramework).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net472)");
-            public static PortableExecutableReference sysglobl { get; } = AssemblyMetadata.CreateFromImage(Resources.sysglobl).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net472)");
-            public static PortableExecutableReference SystemActivitiesCorePresentation { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesCorePresentation).GetReference(filePath: "System.Activities.Core.Presentation.dll", display: "System.Activities.Core.Presentation (net472)");
-            public static PortableExecutableReference SystemActivities { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemActivities).GetReference(filePath: "System.Activities.dll", display: "System.Activities (net472)");
-            public static PortableExecutableReference SystemActivitiesDurableInstancing { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesDurableInstancing).GetReference(filePath: "System.Activities.DurableInstancing.dll", display: "System.Activities.DurableInstancing (net472)");
-            public static PortableExecutableReference SystemActivitiesPresentation { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesPresentation).GetReference(filePath: "System.Activities.Presentation.dll", display: "System.Activities.Presentation (net472)");
-            public static PortableExecutableReference SystemAddInContract { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemAddInContract).GetReference(filePath: "System.AddIn.Contract.dll", display: "System.AddIn.Contract (net472)");
-            public static PortableExecutableReference SystemAddIn { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemAddIn).GetReference(filePath: "System.AddIn.dll", display: "System.AddIn (net472)");
-            public static PortableExecutableReference SystemComponentModelComposition { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelComposition).GetReference(filePath: "System.ComponentModel.Composition.dll", display: "System.ComponentModel.Composition (net472)");
-            public static PortableExecutableReference SystemComponentModelCompositionRegistration { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelCompositionRegistration).GetReference(filePath: "System.ComponentModel.Composition.Registration.dll", display: "System.ComponentModel.Composition.Registration (net472)");
-            public static PortableExecutableReference SystemComponentModelDataAnnotations { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelDataAnnotations).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (net472)");
-            public static PortableExecutableReference SystemConfiguration { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemConfiguration).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net472)");
-            public static PortableExecutableReference SystemConfigurationInstall { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemConfigurationInstall).GetReference(filePath: "System.Configuration.Install.dll", display: "System.Configuration.Install (net472)");
-            public static PortableExecutableReference SystemCore { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCore).GetReference(filePath: "System.Core.dll", display: "System.Core (net472)");
-            public static PortableExecutableReference SystemDataDataSetExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDataDataSetExtensions).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net472)");
-            public static PortableExecutableReference SystemData { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (net472)");
-            public static PortableExecutableReference SystemDataEntityDesign { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDataEntityDesign).GetReference(filePath: "System.Data.Entity.Design.dll", display: "System.Data.Entity.Design (net472)");
-            public static PortableExecutableReference SystemDataEntity { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDataEntity).GetReference(filePath: "System.Data.Entity.dll", display: "System.Data.Entity (net472)");
-            public static PortableExecutableReference SystemDataLinq { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDataLinq).GetReference(filePath: "System.Data.Linq.dll", display: "System.Data.Linq (net472)");
-            public static PortableExecutableReference SystemDataOracleClient { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDataOracleClient).GetReference(filePath: "System.Data.OracleClient.dll", display: "System.Data.OracleClient (net472)");
-            public static PortableExecutableReference SystemDataServicesClient { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDataServicesClient).GetReference(filePath: "System.Data.Services.Client.dll", display: "System.Data.Services.Client (net472)");
-            public static PortableExecutableReference SystemDataServicesDesign { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDataServicesDesign).GetReference(filePath: "System.Data.Services.Design.dll", display: "System.Data.Services.Design (net472)");
-            public static PortableExecutableReference SystemDataServices { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDataServices).GetReference(filePath: "System.Data.Services.dll", display: "System.Data.Services (net472)");
-            public static PortableExecutableReference SystemDataSqlXml { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDataSqlXml).GetReference(filePath: "System.Data.SqlXml.dll", display: "System.Data.SqlXml (net472)");
-            public static PortableExecutableReference SystemDeployment { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDeployment).GetReference(filePath: "System.Deployment.dll", display: "System.Deployment (net472)");
-            public static PortableExecutableReference SystemDesign { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDesign).GetReference(filePath: "System.Design.dll", display: "System.Design (net472)");
-            public static PortableExecutableReference SystemDevice { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDevice).GetReference(filePath: "System.Device.dll", display: "System.Device (net472)");
-            public static PortableExecutableReference SystemDiagnosticsTracing { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (net472)");
-            public static PortableExecutableReference SystemDirectoryServicesAccountManagement { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesAccountManagement).GetReference(filePath: "System.DirectoryServices.AccountManagement.dll", display: "System.DirectoryServices.AccountManagement (net472)");
-            public static PortableExecutableReference SystemDirectoryServices { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServices).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net472)");
-            public static PortableExecutableReference SystemDirectoryServicesProtocols { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesProtocols).GetReference(filePath: "System.DirectoryServices.Protocols.dll", display: "System.DirectoryServices.Protocols (net472)");
-            public static PortableExecutableReference System { get; } = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (net472)");
-            public static PortableExecutableReference SystemDrawingDesign { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingDesign).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net472)");
-            public static PortableExecutableReference SystemDrawing { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net472)");
-            public static PortableExecutableReference SystemDynamic { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDynamic).GetReference(filePath: "System.Dynamic.dll", display: "System.Dynamic (net472)");
-            public static PortableExecutableReference SystemIdentityModel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModel).GetReference(filePath: "System.IdentityModel.dll", display: "System.IdentityModel (net472)");
-            public static PortableExecutableReference SystemIdentityModelSelectors { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModelSelectors).GetReference(filePath: "System.IdentityModel.Selectors.dll", display: "System.IdentityModel.Selectors (net472)");
-            public static PortableExecutableReference SystemIdentityModelServices { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModelServices).GetReference(filePath: "System.IdentityModel.Services.dll", display: "System.IdentityModel.Services (net472)");
-            public static PortableExecutableReference SystemIOCompression { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (net472)");
-            public static PortableExecutableReference SystemIOCompressionFileSystem { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionFileSystem).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (net472)");
-            public static PortableExecutableReference SystemIOLog { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOLog).GetReference(filePath: "System.IO.Log.dll", display: "System.IO.Log (net472)");
-            public static PortableExecutableReference SystemManagement { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemManagement).GetReference(filePath: "System.Management.dll", display: "System.Management (net472)");
-            public static PortableExecutableReference SystemManagementInstrumentation { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemManagementInstrumentation).GetReference(filePath: "System.Management.Instrumentation.dll", display: "System.Management.Instrumentation (net472)");
-            public static PortableExecutableReference SystemMessaging { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemMessaging).GetReference(filePath: "System.Messaging.dll", display: "System.Messaging (net472)");
-            public static PortableExecutableReference SystemNet { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNet).GetReference(filePath: "System.Net.dll", display: "System.Net (net472)");
-            public static PortableExecutableReference SystemNetHttp { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (net472)");
-            public static PortableExecutableReference SystemNetHttpWebRequest { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpWebRequest).GetReference(filePath: "System.Net.Http.WebRequest.dll", display: "System.Net.Http.WebRequest (net472)");
-            public static PortableExecutableReference SystemNumerics { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNumerics).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net472)");
-            public static PortableExecutableReference SystemPrinting { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemPrinting).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net472)");
-            public static PortableExecutableReference SystemReflectionContext { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionContext).GetReference(filePath: "System.Reflection.Context.dll", display: "System.Reflection.Context (net472)");
-            public static PortableExecutableReference SystemRuntimeCaching { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCaching).GetReference(filePath: "System.Runtime.Caching.dll", display: "System.Runtime.Caching (net472)");
-            public static PortableExecutableReference SystemRuntimeDurableInstancing { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeDurableInstancing).GetReference(filePath: "System.Runtime.DurableInstancing.dll", display: "System.Runtime.DurableInstancing (net472)");
-            public static PortableExecutableReference SystemRuntimeRemoting { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeRemoting).GetReference(filePath: "System.Runtime.Remoting.dll", display: "System.Runtime.Remoting (net472)");
-            public static PortableExecutableReference SystemRuntimeSerialization { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerialization).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net472)");
-            public static PortableExecutableReference SystemRuntimeSerializationFormattersSoap { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormattersSoap).GetReference(filePath: "System.Runtime.Serialization.Formatters.Soap.dll", display: "System.Runtime.Serialization.Formatters.Soap (net472)");
-            public static PortableExecutableReference SystemSecurity { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurity).GetReference(filePath: "System.Security.dll", display: "System.Security (net472)");
-            public static PortableExecutableReference SystemServiceModelActivation { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelActivation).GetReference(filePath: "System.ServiceModel.Activation.dll", display: "System.ServiceModel.Activation (net472)");
-            public static PortableExecutableReference SystemServiceModelActivities { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelActivities).GetReference(filePath: "System.ServiceModel.Activities.dll", display: "System.ServiceModel.Activities (net472)");
-            public static PortableExecutableReference SystemServiceModelChannels { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelChannels).GetReference(filePath: "System.ServiceModel.Channels.dll", display: "System.ServiceModel.Channels (net472)");
-            public static PortableExecutableReference SystemServiceModelDiscovery { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelDiscovery).GetReference(filePath: "System.ServiceModel.Discovery.dll", display: "System.ServiceModel.Discovery (net472)");
-            public static PortableExecutableReference SystemServiceModel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModel).GetReference(filePath: "System.ServiceModel.dll", display: "System.ServiceModel (net472)");
-            public static PortableExecutableReference SystemServiceModelRouting { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelRouting).GetReference(filePath: "System.ServiceModel.Routing.dll", display: "System.ServiceModel.Routing (net472)");
-            public static PortableExecutableReference SystemServiceModelWeb { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelWeb).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (net472)");
-            public static PortableExecutableReference SystemServiceProcess { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceProcess).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net472)");
-            public static PortableExecutableReference SystemSpeech { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSpeech).GetReference(filePath: "System.Speech.dll", display: "System.Speech (net472)");
-            public static PortableExecutableReference SystemTransactions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net472)");
-            public static PortableExecutableReference SystemWebAbstractions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebAbstractions).GetReference(filePath: "System.Web.Abstractions.dll", display: "System.Web.Abstractions (net472)");
-            public static PortableExecutableReference SystemWebApplicationServices { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebApplicationServices).GetReference(filePath: "System.Web.ApplicationServices.dll", display: "System.Web.ApplicationServices (net472)");
-            public static PortableExecutableReference SystemWebDataVisualizationDesign { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebDataVisualizationDesign).GetReference(filePath: "System.Web.DataVisualization.Design.dll", display: "System.Web.DataVisualization.Design (net472)");
-            public static PortableExecutableReference SystemWebDataVisualization { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebDataVisualization).GetReference(filePath: "System.Web.DataVisualization.dll", display: "System.Web.DataVisualization (net472)");
-            public static PortableExecutableReference SystemWeb { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (net472)");
-            public static PortableExecutableReference SystemWebDynamicDataDesign { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebDynamicDataDesign).GetReference(filePath: "System.Web.DynamicData.Design.dll", display: "System.Web.DynamicData.Design (net472)");
-            public static PortableExecutableReference SystemWebDynamicData { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebDynamicData).GetReference(filePath: "System.Web.DynamicData.dll", display: "System.Web.DynamicData (net472)");
-            public static PortableExecutableReference SystemWebEntityDesign { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebEntityDesign).GetReference(filePath: "System.Web.Entity.Design.dll", display: "System.Web.Entity.Design (net472)");
-            public static PortableExecutableReference SystemWebEntity { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebEntity).GetReference(filePath: "System.Web.Entity.dll", display: "System.Web.Entity (net472)");
-            public static PortableExecutableReference SystemWebExtensionsDesign { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebExtensionsDesign).GetReference(filePath: "System.Web.Extensions.Design.dll", display: "System.Web.Extensions.Design (net472)");
-            public static PortableExecutableReference SystemWebExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebExtensions).GetReference(filePath: "System.Web.Extensions.dll", display: "System.Web.Extensions (net472)");
-            public static PortableExecutableReference SystemWebMobile { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebMobile).GetReference(filePath: "System.Web.Mobile.dll", display: "System.Web.Mobile (net472)");
-            public static PortableExecutableReference SystemWebRegularExpressions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebRegularExpressions).GetReference(filePath: "System.Web.RegularExpressions.dll", display: "System.Web.RegularExpressions (net472)");
-            public static PortableExecutableReference SystemWebRouting { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebRouting).GetReference(filePath: "System.Web.Routing.dll", display: "System.Web.Routing (net472)");
-            public static PortableExecutableReference SystemWebServices { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWebServices).GetReference(filePath: "System.Web.Services.dll", display: "System.Web.Services (net472)");
-            public static PortableExecutableReference SystemWindowsControlsRibbon { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsControlsRibbon).GetReference(filePath: "System.Windows.Controls.Ribbon.dll", display: "System.Windows.Controls.Ribbon (net472)");
-            public static PortableExecutableReference SystemWindows { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindows).GetReference(filePath: "System.Windows.dll", display: "System.Windows (net472)");
-            public static PortableExecutableReference SystemWindowsFormsDataVisualizationDesign { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDataVisualizationDesign).GetReference(filePath: "System.Windows.Forms.DataVisualization.Design.dll", display: "System.Windows.Forms.DataVisualization.Design (net472)");
-            public static PortableExecutableReference SystemWindowsFormsDataVisualization { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDataVisualization).GetReference(filePath: "System.Windows.Forms.DataVisualization.dll", display: "System.Windows.Forms.DataVisualization (net472)");
-            public static PortableExecutableReference SystemWindowsForms { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsForms).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net472)");
-            public static PortableExecutableReference SystemWindowsInputManipulations { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsInputManipulations).GetReference(filePath: "System.Windows.Input.Manipulations.dll", display: "System.Windows.Input.Manipulations (net472)");
-            public static PortableExecutableReference SystemWindowsPresentation { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsPresentation).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net472)");
-            public static PortableExecutableReference SystemWorkflowActivities { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowActivities).GetReference(filePath: "System.Workflow.Activities.dll", display: "System.Workflow.Activities (net472)");
-            public static PortableExecutableReference SystemWorkflowComponentModel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowComponentModel).GetReference(filePath: "System.Workflow.ComponentModel.dll", display: "System.Workflow.ComponentModel (net472)");
-            public static PortableExecutableReference SystemWorkflowRuntime { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowRuntime).GetReference(filePath: "System.Workflow.Runtime.dll", display: "System.Workflow.Runtime (net472)");
-            public static PortableExecutableReference SystemWorkflowServices { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowServices).GetReference(filePath: "System.WorkflowServices.dll", display: "System.WorkflowServices (net472)");
-            public static PortableExecutableReference SystemXaml { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXaml).GetReference(filePath: "System.Xaml.dll", display: "System.Xaml (net472)");
-            public static PortableExecutableReference SystemXml { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net472)");
-            public static PortableExecutableReference SystemXmlLinq { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlLinq).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net472)");
-            public static PortableExecutableReference SystemXmlSerialization { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlSerialization).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (net472)");
-            public static PortableExecutableReference UIAutomationClient { get; } = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClient).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net472)");
-            public static PortableExecutableReference UIAutomationClientsideProviders { get; } = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClientsideProviders).GetReference(filePath: "UIAutomationClientsideProviders.dll", display: "UIAutomationClientsideProviders (net472)");
-            public static PortableExecutableReference UIAutomationProvider { get; } = AssemblyMetadata.CreateFromImage(Resources.UIAutomationProvider).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net472)");
-            public static PortableExecutableReference UIAutomationTypes { get; } = AssemblyMetadata.CreateFromImage(Resources.UIAutomationTypes).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net472)");
-            public static PortableExecutableReference WindowsBase { get; } = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net472)");
-            public static PortableExecutableReference WindowsFormsIntegration { get; } = AssemblyMetadata.CreateFromImage(Resources.WindowsFormsIntegration).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net472)");
-            public static PortableExecutableReference XamlBuildTask { get; } = AssemblyMetadata.CreateFromImage(Resources.XamlBuildTask).GetReference(filePath: "XamlBuildTask.dll", display: "XamlBuildTask (net472)");
-            public static PortableExecutableReference MicrosoftWin32Primitives { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Primitives).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (net472)");
-            public static PortableExecutableReference netstandard { get; } = AssemblyMetadata.CreateFromImage(Resources.netstandard).GetReference(filePath: "netstandard.dll", display: "netstandard (net472)");
-            public static PortableExecutableReference SystemAppContext { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemAppContext).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (net472)");
-            public static PortableExecutableReference SystemCollectionsConcurrent { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (net472)");
-            public static PortableExecutableReference SystemCollections { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (net472)");
-            public static PortableExecutableReference SystemCollectionsNonGeneric { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsNonGeneric).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (net472)");
-            public static PortableExecutableReference SystemCollectionsSpecialized { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsSpecialized).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (net472)");
-            public static PortableExecutableReference SystemComponentModelAnnotations { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelAnnotations).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (net472)");
-            public static PortableExecutableReference SystemComponentModel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModel).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (net472)");
-            public static PortableExecutableReference SystemComponentModelEventBasedAsync { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelEventBasedAsync).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (net472)");
-            public static PortableExecutableReference SystemComponentModelPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelPrimitives).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (net472)");
-            public static PortableExecutableReference SystemComponentModelTypeConverter { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelTypeConverter).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (net472)");
-            public static PortableExecutableReference SystemConsole { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemConsole).GetReference(filePath: "System.Console.dll", display: "System.Console (net472)");
-            public static PortableExecutableReference SystemDataCommon { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDataCommon).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (net472)");
-            public static PortableExecutableReference SystemDiagnosticsContracts { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsContracts).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (net472)");
-            public static PortableExecutableReference SystemDiagnosticsDebug { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (net472)");
-            public static PortableExecutableReference SystemDiagnosticsFileVersionInfo { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsFileVersionInfo).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (net472)");
-            public static PortableExecutableReference SystemDiagnosticsProcess { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsProcess).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (net472)");
-            public static PortableExecutableReference SystemDiagnosticsStackTrace { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsStackTrace).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (net472)");
-            public static PortableExecutableReference SystemDiagnosticsTextWriterTraceListener { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTextWriterTraceListener).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (net472)");
-            public static PortableExecutableReference SystemDiagnosticsTools { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (net472)");
-            public static PortableExecutableReference SystemDiagnosticsTraceSource { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTraceSource).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (net472)");
-            public static PortableExecutableReference SystemDrawingPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingPrimitives).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (net472)");
-            public static PortableExecutableReference SystemDynamicRuntime { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDynamicRuntime).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (net472)");
-            public static PortableExecutableReference SystemGlobalizationCalendars { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationCalendars).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (net472)");
-            public static PortableExecutableReference SystemGlobalization { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (net472)");
-            public static PortableExecutableReference SystemGlobalizationExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationExtensions).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (net472)");
-            public static PortableExecutableReference SystemIOCompressionZipFile { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionZipFile).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (net472)");
-            public static PortableExecutableReference SystemIO { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (net472)");
-            public static PortableExecutableReference SystemIOFileSystem { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystem).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (net472)");
-            public static PortableExecutableReference SystemIOFileSystemDriveInfo { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemDriveInfo).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (net472)");
-            public static PortableExecutableReference SystemIOFileSystemPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemPrimitives).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (net472)");
-            public static PortableExecutableReference SystemIOFileSystemWatcher { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemWatcher).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (net472)");
-            public static PortableExecutableReference SystemIOIsolatedStorage { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOIsolatedStorage).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (net472)");
-            public static PortableExecutableReference SystemIOMemoryMappedFiles { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOMemoryMappedFiles).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (net472)");
-            public static PortableExecutableReference SystemIOPipes { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipes).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (net472)");
-            public static PortableExecutableReference SystemIOUnmanagedMemoryStream { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOUnmanagedMemoryStream).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (net472)");
-            public static PortableExecutableReference SystemLinq { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (net472)");
-            public static PortableExecutableReference SystemLinqExpressions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (net472)");
-            public static PortableExecutableReference SystemLinqParallel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemLinqParallel).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (net472)");
-            public static PortableExecutableReference SystemLinqQueryable { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemLinqQueryable).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (net472)");
-            public static PortableExecutableReference SystemNetHttpRtc { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpRtc).GetReference(filePath: "System.Net.Http.Rtc.dll", display: "System.Net.Http.Rtc (net472)");
-            public static PortableExecutableReference SystemNetNameResolution { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetNameResolution).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (net472)");
-            public static PortableExecutableReference SystemNetNetworkInformation { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetNetworkInformation).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (net472)");
-            public static PortableExecutableReference SystemNetPing { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetPing).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (net472)");
-            public static PortableExecutableReference SystemNetPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (net472)");
-            public static PortableExecutableReference SystemNetRequests { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetRequests).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (net472)");
-            public static PortableExecutableReference SystemNetSecurity { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetSecurity).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (net472)");
-            public static PortableExecutableReference SystemNetSockets { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetSockets).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (net472)");
-            public static PortableExecutableReference SystemNetWebHeaderCollection { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebHeaderCollection).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (net472)");
-            public static PortableExecutableReference SystemNetWebSocketsClient { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSocketsClient).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (net472)");
-            public static PortableExecutableReference SystemNetWebSockets { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSockets).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (net472)");
-            public static PortableExecutableReference SystemObjectModel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (net472)");
-            public static PortableExecutableReference SystemReflection { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (net472)");
-            public static PortableExecutableReference SystemReflectionEmit { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmit).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (net472)");
-            public static PortableExecutableReference SystemReflectionEmitILGeneration { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitILGeneration).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (net472)");
-            public static PortableExecutableReference SystemReflectionEmitLightweight { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitLightweight).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (net472)");
-            public static PortableExecutableReference SystemReflectionExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (net472)");
-            public static PortableExecutableReference SystemReflectionPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (net472)");
-            public static PortableExecutableReference SystemResourcesReader { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesReader).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (net472)");
-            public static PortableExecutableReference SystemResourcesResourceManager { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (net472)");
-            public static PortableExecutableReference SystemResourcesWriter { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesWriter).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (net472)");
-            public static PortableExecutableReference SystemRuntimeCompilerServicesVisualC { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesVisualC).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (net472)");
-            public static PortableExecutableReference SystemRuntime { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (net472)");
-            public static PortableExecutableReference SystemRuntimeExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (net472)");
-            public static PortableExecutableReference SystemRuntimeHandles { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (net472)");
-            public static PortableExecutableReference SystemRuntimeInteropServices { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (net472)");
-            public static PortableExecutableReference SystemRuntimeInteropServicesRuntimeInformation { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesRuntimeInformation).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (net472)");
-            public static PortableExecutableReference SystemRuntimeInteropServicesWindowsRuntime { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesWindowsRuntime).GetReference(filePath: "System.Runtime.InteropServices.WindowsRuntime.dll", display: "System.Runtime.InteropServices.WindowsRuntime (net472)");
-            public static PortableExecutableReference SystemRuntimeNumerics { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (net472)");
-            public static PortableExecutableReference SystemRuntimeSerializationFormatters { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormatters).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (net472)");
-            public static PortableExecutableReference SystemRuntimeSerializationJson { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationJson).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (net472)");
-            public static PortableExecutableReference SystemRuntimeSerializationPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (net472)");
-            public static PortableExecutableReference SystemRuntimeSerializationXml { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationXml).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (net472)");
-            public static PortableExecutableReference SystemSecurityClaims { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityClaims).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (net472)");
-            public static PortableExecutableReference SystemSecurityCryptographyAlgorithms { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyAlgorithms).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (net472)");
-            public static PortableExecutableReference SystemSecurityCryptographyCsp { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCsp).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (net472)");
-            public static PortableExecutableReference SystemSecurityCryptographyEncoding { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyEncoding).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (net472)");
-            public static PortableExecutableReference SystemSecurityCryptographyPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPrimitives).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (net472)");
-            public static PortableExecutableReference SystemSecurityCryptographyX509Certificates { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyX509Certificates).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (net472)");
-            public static PortableExecutableReference SystemSecurityPrincipal { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (net472)");
-            public static PortableExecutableReference SystemSecuritySecureString { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecuritySecureString).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (net472)");
-            public static PortableExecutableReference SystemServiceModelDuplex { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelDuplex).GetReference(filePath: "System.ServiceModel.Duplex.dll", display: "System.ServiceModel.Duplex (net472)");
-            public static PortableExecutableReference SystemServiceModelHttp { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelHttp).GetReference(filePath: "System.ServiceModel.Http.dll", display: "System.ServiceModel.Http (net472)");
-            public static PortableExecutableReference SystemServiceModelNetTcp { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelNetTcp).GetReference(filePath: "System.ServiceModel.NetTcp.dll", display: "System.ServiceModel.NetTcp (net472)");
-            public static PortableExecutableReference SystemServiceModelPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelPrimitives).GetReference(filePath: "System.ServiceModel.Primitives.dll", display: "System.ServiceModel.Primitives (net472)");
-            public static PortableExecutableReference SystemServiceModelSecurity { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelSecurity).GetReference(filePath: "System.ServiceModel.Security.dll", display: "System.ServiceModel.Security (net472)");
-            public static PortableExecutableReference SystemTextEncoding { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (net472)");
-            public static PortableExecutableReference SystemTextEncodingExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (net472)");
-            public static PortableExecutableReference SystemTextRegularExpressions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (net472)");
-            public static PortableExecutableReference SystemThreading { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (net472)");
-            public static PortableExecutableReference SystemThreadingOverlapped { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingOverlapped).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (net472)");
-            public static PortableExecutableReference SystemThreadingTasks { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (net472)");
-            public static PortableExecutableReference SystemThreadingTasksParallel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksParallel).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (net472)");
-            public static PortableExecutableReference SystemThreadingThread { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThread).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (net472)");
-            public static PortableExecutableReference SystemThreadingThreadPool { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThreadPool).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (net472)");
-            public static PortableExecutableReference SystemThreadingTimer { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (net472)");
-            public static PortableExecutableReference SystemValueTuple { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (net472)");
-            public static PortableExecutableReference SystemXmlReaderWriter { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (net472)");
-            public static PortableExecutableReference SystemXmlXDocument { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (net472)");
-            public static PortableExecutableReference SystemXmlXmlDocument { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlDocument).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (net472)");
-            public static PortableExecutableReference SystemXmlXmlSerializer { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlSerializer).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (net472)");
-            public static PortableExecutableReference SystemXmlXPath { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPath).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (net472)");
-            public static PortableExecutableReference SystemXmlXPathXDocument { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPathXDocument).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (net472)");
-            public static IEnumerable<PortableExecutableReference> All { get; }= new PortableExecutableReference[]
+            private static PortableExecutableReference? _Accessibility;
+            public static PortableExecutableReference Accessibility
+            {
+                get
+                {
+                    if (_Accessibility == null)
+                    {
+                        _Accessibility = AssemblyMetadata.CreateFromImage(Resources.Accessibility).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net472)");
+                    }
+                    return _Accessibility;
+                }
+            }
+
+            private static PortableExecutableReference? _CustomMarshalers;
+            public static PortableExecutableReference CustomMarshalers
+            {
+                get
+                {
+                    if (_CustomMarshalers == null)
+                    {
+                        _CustomMarshalers = AssemblyMetadata.CreateFromImage(Resources.CustomMarshalers).GetReference(filePath: "CustomMarshalers.dll", display: "CustomMarshalers (net472)");
+                    }
+                    return _CustomMarshalers;
+                }
+            }
+
+            private static PortableExecutableReference? _ISymWrapper;
+            public static PortableExecutableReference ISymWrapper
+            {
+                get
+                {
+                    if (_ISymWrapper == null)
+                    {
+                        _ISymWrapper = AssemblyMetadata.CreateFromImage(Resources.ISymWrapper).GetReference(filePath: "ISymWrapper.dll", display: "ISymWrapper (net472)");
+                    }
+                    return _ISymWrapper;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftActivitiesBuild;
+            public static PortableExecutableReference MicrosoftActivitiesBuild
+            {
+                get
+                {
+                    if (_MicrosoftActivitiesBuild == null)
+                    {
+                        _MicrosoftActivitiesBuild = AssemblyMetadata.CreateFromImage(Resources.MicrosoftActivitiesBuild).GetReference(filePath: "Microsoft.Activities.Build.dll", display: "Microsoft.Activities.Build (net472)");
+                    }
+                    return _MicrosoftActivitiesBuild;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftBuildConversionv40;
+            public static PortableExecutableReference MicrosoftBuildConversionv40
+            {
+                get
+                {
+                    if (_MicrosoftBuildConversionv40 == null)
+                    {
+                        _MicrosoftBuildConversionv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildConversionv40).GetReference(filePath: "Microsoft.Build.Conversion.v4.0.dll", display: "Microsoft.Build.Conversion.v4.0 (net472)");
+                    }
+                    return _MicrosoftBuildConversionv40;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftBuild;
+            public static PortableExecutableReference MicrosoftBuild
+            {
+                get
+                {
+                    if (_MicrosoftBuild == null)
+                    {
+                        _MicrosoftBuild = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuild).GetReference(filePath: "Microsoft.Build.dll", display: "Microsoft.Build (net472)");
+                    }
+                    return _MicrosoftBuild;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftBuildEngine;
+            public static PortableExecutableReference MicrosoftBuildEngine
+            {
+                get
+                {
+                    if (_MicrosoftBuildEngine == null)
+                    {
+                        _MicrosoftBuildEngine = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildEngine).GetReference(filePath: "Microsoft.Build.Engine.dll", display: "Microsoft.Build.Engine (net472)");
+                    }
+                    return _MicrosoftBuildEngine;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftBuildFramework;
+            public static PortableExecutableReference MicrosoftBuildFramework
+            {
+                get
+                {
+                    if (_MicrosoftBuildFramework == null)
+                    {
+                        _MicrosoftBuildFramework = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildFramework).GetReference(filePath: "Microsoft.Build.Framework.dll", display: "Microsoft.Build.Framework (net472)");
+                    }
+                    return _MicrosoftBuildFramework;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftBuildTasksv40;
+            public static PortableExecutableReference MicrosoftBuildTasksv40
+            {
+                get
+                {
+                    if (_MicrosoftBuildTasksv40 == null)
+                    {
+                        _MicrosoftBuildTasksv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildTasksv40).GetReference(filePath: "Microsoft.Build.Tasks.v4.0.dll", display: "Microsoft.Build.Tasks.v4.0 (net472)");
+                    }
+                    return _MicrosoftBuildTasksv40;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftBuildUtilitiesv40;
+            public static PortableExecutableReference MicrosoftBuildUtilitiesv40
+            {
+                get
+                {
+                    if (_MicrosoftBuildUtilitiesv40 == null)
+                    {
+                        _MicrosoftBuildUtilitiesv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildUtilitiesv40).GetReference(filePath: "Microsoft.Build.Utilities.v4.0.dll", display: "Microsoft.Build.Utilities.v4.0 (net472)");
+                    }
+                    return _MicrosoftBuildUtilitiesv40;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftCSharp;
+            public static PortableExecutableReference MicrosoftCSharp
+            {
+                get
+                {
+                    if (_MicrosoftCSharp == null)
+                    {
+                        _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(Resources.MicrosoftCSharp).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (net472)");
+                    }
+                    return _MicrosoftCSharp;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftJScript;
+            public static PortableExecutableReference MicrosoftJScript
+            {
+                get
+                {
+                    if (_MicrosoftJScript == null)
+                    {
+                        _MicrosoftJScript = AssemblyMetadata.CreateFromImage(Resources.MicrosoftJScript).GetReference(filePath: "Microsoft.JScript.dll", display: "Microsoft.JScript (net472)");
+                    }
+                    return _MicrosoftJScript;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftVisualBasicCompatibilityData;
+            public static PortableExecutableReference MicrosoftVisualBasicCompatibilityData
+            {
+                get
+                {
+                    if (_MicrosoftVisualBasicCompatibilityData == null)
+                    {
+                        _MicrosoftVisualBasicCompatibilityData = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibilityData).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.Data.dll", display: "Microsoft.VisualBasic.Compatibility.Data (net472)");
+                    }
+                    return _MicrosoftVisualBasicCompatibilityData;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftVisualBasicCompatibility;
+            public static PortableExecutableReference MicrosoftVisualBasicCompatibility
+            {
+                get
+                {
+                    if (_MicrosoftVisualBasicCompatibility == null)
+                    {
+                        _MicrosoftVisualBasicCompatibility = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibility).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.dll", display: "Microsoft.VisualBasic.Compatibility (net472)");
+                    }
+                    return _MicrosoftVisualBasicCompatibility;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftVisualBasic;
+            public static PortableExecutableReference MicrosoftVisualBasic
+            {
+                get
+                {
+                    if (_MicrosoftVisualBasic == null)
+                    {
+                        _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net472)");
+                    }
+                    return _MicrosoftVisualBasic;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftVisualC;
+            public static PortableExecutableReference MicrosoftVisualC
+            {
+                get
+                {
+                    if (_MicrosoftVisualC == null)
+                    {
+                        _MicrosoftVisualC = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualC).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net472)");
+                    }
+                    return _MicrosoftVisualC;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftVisualCSTLCLR;
+            public static PortableExecutableReference MicrosoftVisualCSTLCLR
+            {
+                get
+                {
+                    if (_MicrosoftVisualCSTLCLR == null)
+                    {
+                        _MicrosoftVisualCSTLCLR = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualCSTLCLR).GetReference(filePath: "Microsoft.VisualC.STLCLR.dll", display: "Microsoft.VisualC.STLCLR (net472)");
+                    }
+                    return _MicrosoftVisualCSTLCLR;
+                }
+            }
+
+            private static PortableExecutableReference? _mscorlib;
+            public static PortableExecutableReference mscorlib
+            {
+                get
+                {
+                    if (_mscorlib == null)
+                    {
+                        _mscorlib = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net472)");
+                    }
+                    return _mscorlib;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationBuildTasks;
+            public static PortableExecutableReference PresentationBuildTasks
+            {
+                get
+                {
+                    if (_PresentationBuildTasks == null)
+                    {
+                        _PresentationBuildTasks = AssemblyMetadata.CreateFromImage(Resources.PresentationBuildTasks).GetReference(filePath: "PresentationBuildTasks.dll", display: "PresentationBuildTasks (net472)");
+                    }
+                    return _PresentationBuildTasks;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationCore;
+            public static PortableExecutableReference PresentationCore
+            {
+                get
+                {
+                    if (_PresentationCore == null)
+                    {
+                        _PresentationCore = AssemblyMetadata.CreateFromImage(Resources.PresentationCore).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net472)");
+                    }
+                    return _PresentationCore;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationFrameworkAero;
+            public static PortableExecutableReference PresentationFrameworkAero
+            {
+                get
+                {
+                    if (_PresentationFrameworkAero == null)
+                    {
+                        _PresentationFrameworkAero = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net472)");
+                    }
+                    return _PresentationFrameworkAero;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationFrameworkAero2;
+            public static PortableExecutableReference PresentationFrameworkAero2
+            {
+                get
+                {
+                    if (_PresentationFrameworkAero2 == null)
+                    {
+                        _PresentationFrameworkAero2 = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero2).GetReference(filePath: "PresentationFramework.Aero2.dll", display: "PresentationFramework.Aero2 (net472)");
+                    }
+                    return _PresentationFrameworkAero2;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationFrameworkAeroLite;
+            public static PortableExecutableReference PresentationFrameworkAeroLite
+            {
+                get
+                {
+                    if (_PresentationFrameworkAeroLite == null)
+                    {
+                        _PresentationFrameworkAeroLite = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAeroLite).GetReference(filePath: "PresentationFramework.AeroLite.dll", display: "PresentationFramework.AeroLite (net472)");
+                    }
+                    return _PresentationFrameworkAeroLite;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationFrameworkClassic;
+            public static PortableExecutableReference PresentationFrameworkClassic
+            {
+                get
+                {
+                    if (_PresentationFrameworkClassic == null)
+                    {
+                        _PresentationFrameworkClassic = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkClassic).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net472)");
+                    }
+                    return _PresentationFrameworkClassic;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationFramework;
+            public static PortableExecutableReference PresentationFramework
+            {
+                get
+                {
+                    if (_PresentationFramework == null)
+                    {
+                        _PresentationFramework = AssemblyMetadata.CreateFromImage(Resources.PresentationFramework).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net472)");
+                    }
+                    return _PresentationFramework;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationFrameworkLuna;
+            public static PortableExecutableReference PresentationFrameworkLuna
+            {
+                get
+                {
+                    if (_PresentationFrameworkLuna == null)
+                    {
+                        _PresentationFrameworkLuna = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkLuna).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net472)");
+                    }
+                    return _PresentationFrameworkLuna;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationFrameworkRoyale;
+            public static PortableExecutableReference PresentationFrameworkRoyale
+            {
+                get
+                {
+                    if (_PresentationFrameworkRoyale == null)
+                    {
+                        _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkRoyale).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net472)");
+                    }
+                    return _PresentationFrameworkRoyale;
+                }
+            }
+
+            private static PortableExecutableReference? _ReachFramework;
+            public static PortableExecutableReference ReachFramework
+            {
+                get
+                {
+                    if (_ReachFramework == null)
+                    {
+                        _ReachFramework = AssemblyMetadata.CreateFromImage(Resources.ReachFramework).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net472)");
+                    }
+                    return _ReachFramework;
+                }
+            }
+
+            private static PortableExecutableReference? _sysglobl;
+            public static PortableExecutableReference sysglobl
+            {
+                get
+                {
+                    if (_sysglobl == null)
+                    {
+                        _sysglobl = AssemblyMetadata.CreateFromImage(Resources.sysglobl).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net472)");
+                    }
+                    return _sysglobl;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemActivitiesCorePresentation;
+            public static PortableExecutableReference SystemActivitiesCorePresentation
+            {
+                get
+                {
+                    if (_SystemActivitiesCorePresentation == null)
+                    {
+                        _SystemActivitiesCorePresentation = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesCorePresentation).GetReference(filePath: "System.Activities.Core.Presentation.dll", display: "System.Activities.Core.Presentation (net472)");
+                    }
+                    return _SystemActivitiesCorePresentation;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemActivities;
+            public static PortableExecutableReference SystemActivities
+            {
+                get
+                {
+                    if (_SystemActivities == null)
+                    {
+                        _SystemActivities = AssemblyMetadata.CreateFromImage(Resources.SystemActivities).GetReference(filePath: "System.Activities.dll", display: "System.Activities (net472)");
+                    }
+                    return _SystemActivities;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemActivitiesDurableInstancing;
+            public static PortableExecutableReference SystemActivitiesDurableInstancing
+            {
+                get
+                {
+                    if (_SystemActivitiesDurableInstancing == null)
+                    {
+                        _SystemActivitiesDurableInstancing = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesDurableInstancing).GetReference(filePath: "System.Activities.DurableInstancing.dll", display: "System.Activities.DurableInstancing (net472)");
+                    }
+                    return _SystemActivitiesDurableInstancing;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemActivitiesPresentation;
+            public static PortableExecutableReference SystemActivitiesPresentation
+            {
+                get
+                {
+                    if (_SystemActivitiesPresentation == null)
+                    {
+                        _SystemActivitiesPresentation = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesPresentation).GetReference(filePath: "System.Activities.Presentation.dll", display: "System.Activities.Presentation (net472)");
+                    }
+                    return _SystemActivitiesPresentation;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemAddInContract;
+            public static PortableExecutableReference SystemAddInContract
+            {
+                get
+                {
+                    if (_SystemAddInContract == null)
+                    {
+                        _SystemAddInContract = AssemblyMetadata.CreateFromImage(Resources.SystemAddInContract).GetReference(filePath: "System.AddIn.Contract.dll", display: "System.AddIn.Contract (net472)");
+                    }
+                    return _SystemAddInContract;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemAddIn;
+            public static PortableExecutableReference SystemAddIn
+            {
+                get
+                {
+                    if (_SystemAddIn == null)
+                    {
+                        _SystemAddIn = AssemblyMetadata.CreateFromImage(Resources.SystemAddIn).GetReference(filePath: "System.AddIn.dll", display: "System.AddIn (net472)");
+                    }
+                    return _SystemAddIn;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelComposition;
+            public static PortableExecutableReference SystemComponentModelComposition
+            {
+                get
+                {
+                    if (_SystemComponentModelComposition == null)
+                    {
+                        _SystemComponentModelComposition = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelComposition).GetReference(filePath: "System.ComponentModel.Composition.dll", display: "System.ComponentModel.Composition (net472)");
+                    }
+                    return _SystemComponentModelComposition;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelCompositionRegistration;
+            public static PortableExecutableReference SystemComponentModelCompositionRegistration
+            {
+                get
+                {
+                    if (_SystemComponentModelCompositionRegistration == null)
+                    {
+                        _SystemComponentModelCompositionRegistration = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelCompositionRegistration).GetReference(filePath: "System.ComponentModel.Composition.Registration.dll", display: "System.ComponentModel.Composition.Registration (net472)");
+                    }
+                    return _SystemComponentModelCompositionRegistration;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelDataAnnotations;
+            public static PortableExecutableReference SystemComponentModelDataAnnotations
+            {
+                get
+                {
+                    if (_SystemComponentModelDataAnnotations == null)
+                    {
+                        _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelDataAnnotations).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (net472)");
+                    }
+                    return _SystemComponentModelDataAnnotations;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemConfiguration;
+            public static PortableExecutableReference SystemConfiguration
+            {
+                get
+                {
+                    if (_SystemConfiguration == null)
+                    {
+                        _SystemConfiguration = AssemblyMetadata.CreateFromImage(Resources.SystemConfiguration).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net472)");
+                    }
+                    return _SystemConfiguration;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemConfigurationInstall;
+            public static PortableExecutableReference SystemConfigurationInstall
+            {
+                get
+                {
+                    if (_SystemConfigurationInstall == null)
+                    {
+                        _SystemConfigurationInstall = AssemblyMetadata.CreateFromImage(Resources.SystemConfigurationInstall).GetReference(filePath: "System.Configuration.Install.dll", display: "System.Configuration.Install (net472)");
+                    }
+                    return _SystemConfigurationInstall;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCore;
+            public static PortableExecutableReference SystemCore
+            {
+                get
+                {
+                    if (_SystemCore == null)
+                    {
+                        _SystemCore = AssemblyMetadata.CreateFromImage(Resources.SystemCore).GetReference(filePath: "System.Core.dll", display: "System.Core (net472)");
+                    }
+                    return _SystemCore;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDataDataSetExtensions;
+            public static PortableExecutableReference SystemDataDataSetExtensions
+            {
+                get
+                {
+                    if (_SystemDataDataSetExtensions == null)
+                    {
+                        _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemDataDataSetExtensions).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net472)");
+                    }
+                    return _SystemDataDataSetExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemData;
+            public static PortableExecutableReference SystemData
+            {
+                get
+                {
+                    if (_SystemData == null)
+                    {
+                        _SystemData = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (net472)");
+                    }
+                    return _SystemData;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDataEntityDesign;
+            public static PortableExecutableReference SystemDataEntityDesign
+            {
+                get
+                {
+                    if (_SystemDataEntityDesign == null)
+                    {
+                        _SystemDataEntityDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDataEntityDesign).GetReference(filePath: "System.Data.Entity.Design.dll", display: "System.Data.Entity.Design (net472)");
+                    }
+                    return _SystemDataEntityDesign;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDataEntity;
+            public static PortableExecutableReference SystemDataEntity
+            {
+                get
+                {
+                    if (_SystemDataEntity == null)
+                    {
+                        _SystemDataEntity = AssemblyMetadata.CreateFromImage(Resources.SystemDataEntity).GetReference(filePath: "System.Data.Entity.dll", display: "System.Data.Entity (net472)");
+                    }
+                    return _SystemDataEntity;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDataLinq;
+            public static PortableExecutableReference SystemDataLinq
+            {
+                get
+                {
+                    if (_SystemDataLinq == null)
+                    {
+                        _SystemDataLinq = AssemblyMetadata.CreateFromImage(Resources.SystemDataLinq).GetReference(filePath: "System.Data.Linq.dll", display: "System.Data.Linq (net472)");
+                    }
+                    return _SystemDataLinq;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDataOracleClient;
+            public static PortableExecutableReference SystemDataOracleClient
+            {
+                get
+                {
+                    if (_SystemDataOracleClient == null)
+                    {
+                        _SystemDataOracleClient = AssemblyMetadata.CreateFromImage(Resources.SystemDataOracleClient).GetReference(filePath: "System.Data.OracleClient.dll", display: "System.Data.OracleClient (net472)");
+                    }
+                    return _SystemDataOracleClient;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDataServicesClient;
+            public static PortableExecutableReference SystemDataServicesClient
+            {
+                get
+                {
+                    if (_SystemDataServicesClient == null)
+                    {
+                        _SystemDataServicesClient = AssemblyMetadata.CreateFromImage(Resources.SystemDataServicesClient).GetReference(filePath: "System.Data.Services.Client.dll", display: "System.Data.Services.Client (net472)");
+                    }
+                    return _SystemDataServicesClient;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDataServicesDesign;
+            public static PortableExecutableReference SystemDataServicesDesign
+            {
+                get
+                {
+                    if (_SystemDataServicesDesign == null)
+                    {
+                        _SystemDataServicesDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDataServicesDesign).GetReference(filePath: "System.Data.Services.Design.dll", display: "System.Data.Services.Design (net472)");
+                    }
+                    return _SystemDataServicesDesign;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDataServices;
+            public static PortableExecutableReference SystemDataServices
+            {
+                get
+                {
+                    if (_SystemDataServices == null)
+                    {
+                        _SystemDataServices = AssemblyMetadata.CreateFromImage(Resources.SystemDataServices).GetReference(filePath: "System.Data.Services.dll", display: "System.Data.Services (net472)");
+                    }
+                    return _SystemDataServices;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDataSqlXml;
+            public static PortableExecutableReference SystemDataSqlXml
+            {
+                get
+                {
+                    if (_SystemDataSqlXml == null)
+                    {
+                        _SystemDataSqlXml = AssemblyMetadata.CreateFromImage(Resources.SystemDataSqlXml).GetReference(filePath: "System.Data.SqlXml.dll", display: "System.Data.SqlXml (net472)");
+                    }
+                    return _SystemDataSqlXml;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDeployment;
+            public static PortableExecutableReference SystemDeployment
+            {
+                get
+                {
+                    if (_SystemDeployment == null)
+                    {
+                        _SystemDeployment = AssemblyMetadata.CreateFromImage(Resources.SystemDeployment).GetReference(filePath: "System.Deployment.dll", display: "System.Deployment (net472)");
+                    }
+                    return _SystemDeployment;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDesign;
+            public static PortableExecutableReference SystemDesign
+            {
+                get
+                {
+                    if (_SystemDesign == null)
+                    {
+                        _SystemDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDesign).GetReference(filePath: "System.Design.dll", display: "System.Design (net472)");
+                    }
+                    return _SystemDesign;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDevice;
+            public static PortableExecutableReference SystemDevice
+            {
+                get
+                {
+                    if (_SystemDevice == null)
+                    {
+                        _SystemDevice = AssemblyMetadata.CreateFromImage(Resources.SystemDevice).GetReference(filePath: "System.Device.dll", display: "System.Device (net472)");
+                    }
+                    return _SystemDevice;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsTracing;
+            public static PortableExecutableReference SystemDiagnosticsTracing
+            {
+                get
+                {
+                    if (_SystemDiagnosticsTracing == null)
+                    {
+                        _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (net472)");
+                    }
+                    return _SystemDiagnosticsTracing;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDirectoryServicesAccountManagement;
+            public static PortableExecutableReference SystemDirectoryServicesAccountManagement
+            {
+                get
+                {
+                    if (_SystemDirectoryServicesAccountManagement == null)
+                    {
+                        _SystemDirectoryServicesAccountManagement = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesAccountManagement).GetReference(filePath: "System.DirectoryServices.AccountManagement.dll", display: "System.DirectoryServices.AccountManagement (net472)");
+                    }
+                    return _SystemDirectoryServicesAccountManagement;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDirectoryServices;
+            public static PortableExecutableReference SystemDirectoryServices
+            {
+                get
+                {
+                    if (_SystemDirectoryServices == null)
+                    {
+                        _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServices).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net472)");
+                    }
+                    return _SystemDirectoryServices;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDirectoryServicesProtocols;
+            public static PortableExecutableReference SystemDirectoryServicesProtocols
+            {
+                get
+                {
+                    if (_SystemDirectoryServicesProtocols == null)
+                    {
+                        _SystemDirectoryServicesProtocols = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesProtocols).GetReference(filePath: "System.DirectoryServices.Protocols.dll", display: "System.DirectoryServices.Protocols (net472)");
+                    }
+                    return _SystemDirectoryServicesProtocols;
+                }
+            }
+
+            private static PortableExecutableReference? _System;
+            public static PortableExecutableReference System
+            {
+                get
+                {
+                    if (_System == null)
+                    {
+                        _System = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (net472)");
+                    }
+                    return _System;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDrawingDesign;
+            public static PortableExecutableReference SystemDrawingDesign
+            {
+                get
+                {
+                    if (_SystemDrawingDesign == null)
+                    {
+                        _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingDesign).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net472)");
+                    }
+                    return _SystemDrawingDesign;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDrawing;
+            public static PortableExecutableReference SystemDrawing
+            {
+                get
+                {
+                    if (_SystemDrawing == null)
+                    {
+                        _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net472)");
+                    }
+                    return _SystemDrawing;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDynamic;
+            public static PortableExecutableReference SystemDynamic
+            {
+                get
+                {
+                    if (_SystemDynamic == null)
+                    {
+                        _SystemDynamic = AssemblyMetadata.CreateFromImage(Resources.SystemDynamic).GetReference(filePath: "System.Dynamic.dll", display: "System.Dynamic (net472)");
+                    }
+                    return _SystemDynamic;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIdentityModel;
+            public static PortableExecutableReference SystemIdentityModel
+            {
+                get
+                {
+                    if (_SystemIdentityModel == null)
+                    {
+                        _SystemIdentityModel = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModel).GetReference(filePath: "System.IdentityModel.dll", display: "System.IdentityModel (net472)");
+                    }
+                    return _SystemIdentityModel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIdentityModelSelectors;
+            public static PortableExecutableReference SystemIdentityModelSelectors
+            {
+                get
+                {
+                    if (_SystemIdentityModelSelectors == null)
+                    {
+                        _SystemIdentityModelSelectors = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModelSelectors).GetReference(filePath: "System.IdentityModel.Selectors.dll", display: "System.IdentityModel.Selectors (net472)");
+                    }
+                    return _SystemIdentityModelSelectors;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIdentityModelServices;
+            public static PortableExecutableReference SystemIdentityModelServices
+            {
+                get
+                {
+                    if (_SystemIdentityModelServices == null)
+                    {
+                        _SystemIdentityModelServices = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModelServices).GetReference(filePath: "System.IdentityModel.Services.dll", display: "System.IdentityModel.Services (net472)");
+                    }
+                    return _SystemIdentityModelServices;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOCompression;
+            public static PortableExecutableReference SystemIOCompression
+            {
+                get
+                {
+                    if (_SystemIOCompression == null)
+                    {
+                        _SystemIOCompression = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (net472)");
+                    }
+                    return _SystemIOCompression;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOCompressionFileSystem;
+            public static PortableExecutableReference SystemIOCompressionFileSystem
+            {
+                get
+                {
+                    if (_SystemIOCompressionFileSystem == null)
+                    {
+                        _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionFileSystem).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (net472)");
+                    }
+                    return _SystemIOCompressionFileSystem;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOLog;
+            public static PortableExecutableReference SystemIOLog
+            {
+                get
+                {
+                    if (_SystemIOLog == null)
+                    {
+                        _SystemIOLog = AssemblyMetadata.CreateFromImage(Resources.SystemIOLog).GetReference(filePath: "System.IO.Log.dll", display: "System.IO.Log (net472)");
+                    }
+                    return _SystemIOLog;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemManagement;
+            public static PortableExecutableReference SystemManagement
+            {
+                get
+                {
+                    if (_SystemManagement == null)
+                    {
+                        _SystemManagement = AssemblyMetadata.CreateFromImage(Resources.SystemManagement).GetReference(filePath: "System.Management.dll", display: "System.Management (net472)");
+                    }
+                    return _SystemManagement;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemManagementInstrumentation;
+            public static PortableExecutableReference SystemManagementInstrumentation
+            {
+                get
+                {
+                    if (_SystemManagementInstrumentation == null)
+                    {
+                        _SystemManagementInstrumentation = AssemblyMetadata.CreateFromImage(Resources.SystemManagementInstrumentation).GetReference(filePath: "System.Management.Instrumentation.dll", display: "System.Management.Instrumentation (net472)");
+                    }
+                    return _SystemManagementInstrumentation;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemMessaging;
+            public static PortableExecutableReference SystemMessaging
+            {
+                get
+                {
+                    if (_SystemMessaging == null)
+                    {
+                        _SystemMessaging = AssemblyMetadata.CreateFromImage(Resources.SystemMessaging).GetReference(filePath: "System.Messaging.dll", display: "System.Messaging (net472)");
+                    }
+                    return _SystemMessaging;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNet;
+            public static PortableExecutableReference SystemNet
+            {
+                get
+                {
+                    if (_SystemNet == null)
+                    {
+                        _SystemNet = AssemblyMetadata.CreateFromImage(Resources.SystemNet).GetReference(filePath: "System.Net.dll", display: "System.Net (net472)");
+                    }
+                    return _SystemNet;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetHttp;
+            public static PortableExecutableReference SystemNetHttp
+            {
+                get
+                {
+                    if (_SystemNetHttp == null)
+                    {
+                        _SystemNetHttp = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (net472)");
+                    }
+                    return _SystemNetHttp;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetHttpWebRequest;
+            public static PortableExecutableReference SystemNetHttpWebRequest
+            {
+                get
+                {
+                    if (_SystemNetHttpWebRequest == null)
+                    {
+                        _SystemNetHttpWebRequest = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpWebRequest).GetReference(filePath: "System.Net.Http.WebRequest.dll", display: "System.Net.Http.WebRequest (net472)");
+                    }
+                    return _SystemNetHttpWebRequest;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNumerics;
+            public static PortableExecutableReference SystemNumerics
+            {
+                get
+                {
+                    if (_SystemNumerics == null)
+                    {
+                        _SystemNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemNumerics).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net472)");
+                    }
+                    return _SystemNumerics;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemPrinting;
+            public static PortableExecutableReference SystemPrinting
+            {
+                get
+                {
+                    if (_SystemPrinting == null)
+                    {
+                        _SystemPrinting = AssemblyMetadata.CreateFromImage(Resources.SystemPrinting).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net472)");
+                    }
+                    return _SystemPrinting;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionContext;
+            public static PortableExecutableReference SystemReflectionContext
+            {
+                get
+                {
+                    if (_SystemReflectionContext == null)
+                    {
+                        _SystemReflectionContext = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionContext).GetReference(filePath: "System.Reflection.Context.dll", display: "System.Reflection.Context (net472)");
+                    }
+                    return _SystemReflectionContext;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeCaching;
+            public static PortableExecutableReference SystemRuntimeCaching
+            {
+                get
+                {
+                    if (_SystemRuntimeCaching == null)
+                    {
+                        _SystemRuntimeCaching = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCaching).GetReference(filePath: "System.Runtime.Caching.dll", display: "System.Runtime.Caching (net472)");
+                    }
+                    return _SystemRuntimeCaching;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeDurableInstancing;
+            public static PortableExecutableReference SystemRuntimeDurableInstancing
+            {
+                get
+                {
+                    if (_SystemRuntimeDurableInstancing == null)
+                    {
+                        _SystemRuntimeDurableInstancing = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeDurableInstancing).GetReference(filePath: "System.Runtime.DurableInstancing.dll", display: "System.Runtime.DurableInstancing (net472)");
+                    }
+                    return _SystemRuntimeDurableInstancing;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeRemoting;
+            public static PortableExecutableReference SystemRuntimeRemoting
+            {
+                get
+                {
+                    if (_SystemRuntimeRemoting == null)
+                    {
+                        _SystemRuntimeRemoting = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeRemoting).GetReference(filePath: "System.Runtime.Remoting.dll", display: "System.Runtime.Remoting (net472)");
+                    }
+                    return _SystemRuntimeRemoting;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerialization;
+            public static PortableExecutableReference SystemRuntimeSerialization
+            {
+                get
+                {
+                    if (_SystemRuntimeSerialization == null)
+                    {
+                        _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerialization).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net472)");
+                    }
+                    return _SystemRuntimeSerialization;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerializationFormattersSoap;
+            public static PortableExecutableReference SystemRuntimeSerializationFormattersSoap
+            {
+                get
+                {
+                    if (_SystemRuntimeSerializationFormattersSoap == null)
+                    {
+                        _SystemRuntimeSerializationFormattersSoap = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormattersSoap).GetReference(filePath: "System.Runtime.Serialization.Formatters.Soap.dll", display: "System.Runtime.Serialization.Formatters.Soap (net472)");
+                    }
+                    return _SystemRuntimeSerializationFormattersSoap;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurity;
+            public static PortableExecutableReference SystemSecurity
+            {
+                get
+                {
+                    if (_SystemSecurity == null)
+                    {
+                        _SystemSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemSecurity).GetReference(filePath: "System.Security.dll", display: "System.Security (net472)");
+                    }
+                    return _SystemSecurity;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceModelActivation;
+            public static PortableExecutableReference SystemServiceModelActivation
+            {
+                get
+                {
+                    if (_SystemServiceModelActivation == null)
+                    {
+                        _SystemServiceModelActivation = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelActivation).GetReference(filePath: "System.ServiceModel.Activation.dll", display: "System.ServiceModel.Activation (net472)");
+                    }
+                    return _SystemServiceModelActivation;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceModelActivities;
+            public static PortableExecutableReference SystemServiceModelActivities
+            {
+                get
+                {
+                    if (_SystemServiceModelActivities == null)
+                    {
+                        _SystemServiceModelActivities = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelActivities).GetReference(filePath: "System.ServiceModel.Activities.dll", display: "System.ServiceModel.Activities (net472)");
+                    }
+                    return _SystemServiceModelActivities;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceModelChannels;
+            public static PortableExecutableReference SystemServiceModelChannels
+            {
+                get
+                {
+                    if (_SystemServiceModelChannels == null)
+                    {
+                        _SystemServiceModelChannels = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelChannels).GetReference(filePath: "System.ServiceModel.Channels.dll", display: "System.ServiceModel.Channels (net472)");
+                    }
+                    return _SystemServiceModelChannels;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceModelDiscovery;
+            public static PortableExecutableReference SystemServiceModelDiscovery
+            {
+                get
+                {
+                    if (_SystemServiceModelDiscovery == null)
+                    {
+                        _SystemServiceModelDiscovery = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelDiscovery).GetReference(filePath: "System.ServiceModel.Discovery.dll", display: "System.ServiceModel.Discovery (net472)");
+                    }
+                    return _SystemServiceModelDiscovery;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceModel;
+            public static PortableExecutableReference SystemServiceModel
+            {
+                get
+                {
+                    if (_SystemServiceModel == null)
+                    {
+                        _SystemServiceModel = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModel).GetReference(filePath: "System.ServiceModel.dll", display: "System.ServiceModel (net472)");
+                    }
+                    return _SystemServiceModel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceModelRouting;
+            public static PortableExecutableReference SystemServiceModelRouting
+            {
+                get
+                {
+                    if (_SystemServiceModelRouting == null)
+                    {
+                        _SystemServiceModelRouting = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelRouting).GetReference(filePath: "System.ServiceModel.Routing.dll", display: "System.ServiceModel.Routing (net472)");
+                    }
+                    return _SystemServiceModelRouting;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceModelWeb;
+            public static PortableExecutableReference SystemServiceModelWeb
+            {
+                get
+                {
+                    if (_SystemServiceModelWeb == null)
+                    {
+                        _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelWeb).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (net472)");
+                    }
+                    return _SystemServiceModelWeb;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceProcess;
+            public static PortableExecutableReference SystemServiceProcess
+            {
+                get
+                {
+                    if (_SystemServiceProcess == null)
+                    {
+                        _SystemServiceProcess = AssemblyMetadata.CreateFromImage(Resources.SystemServiceProcess).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net472)");
+                    }
+                    return _SystemServiceProcess;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSpeech;
+            public static PortableExecutableReference SystemSpeech
+            {
+                get
+                {
+                    if (_SystemSpeech == null)
+                    {
+                        _SystemSpeech = AssemblyMetadata.CreateFromImage(Resources.SystemSpeech).GetReference(filePath: "System.Speech.dll", display: "System.Speech (net472)");
+                    }
+                    return _SystemSpeech;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTransactions;
+            public static PortableExecutableReference SystemTransactions
+            {
+                get
+                {
+                    if (_SystemTransactions == null)
+                    {
+                        _SystemTransactions = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net472)");
+                    }
+                    return _SystemTransactions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebAbstractions;
+            public static PortableExecutableReference SystemWebAbstractions
+            {
+                get
+                {
+                    if (_SystemWebAbstractions == null)
+                    {
+                        _SystemWebAbstractions = AssemblyMetadata.CreateFromImage(Resources.SystemWebAbstractions).GetReference(filePath: "System.Web.Abstractions.dll", display: "System.Web.Abstractions (net472)");
+                    }
+                    return _SystemWebAbstractions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebApplicationServices;
+            public static PortableExecutableReference SystemWebApplicationServices
+            {
+                get
+                {
+                    if (_SystemWebApplicationServices == null)
+                    {
+                        _SystemWebApplicationServices = AssemblyMetadata.CreateFromImage(Resources.SystemWebApplicationServices).GetReference(filePath: "System.Web.ApplicationServices.dll", display: "System.Web.ApplicationServices (net472)");
+                    }
+                    return _SystemWebApplicationServices;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebDataVisualizationDesign;
+            public static PortableExecutableReference SystemWebDataVisualizationDesign
+            {
+                get
+                {
+                    if (_SystemWebDataVisualizationDesign == null)
+                    {
+                        _SystemWebDataVisualizationDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebDataVisualizationDesign).GetReference(filePath: "System.Web.DataVisualization.Design.dll", display: "System.Web.DataVisualization.Design (net472)");
+                    }
+                    return _SystemWebDataVisualizationDesign;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebDataVisualization;
+            public static PortableExecutableReference SystemWebDataVisualization
+            {
+                get
+                {
+                    if (_SystemWebDataVisualization == null)
+                    {
+                        _SystemWebDataVisualization = AssemblyMetadata.CreateFromImage(Resources.SystemWebDataVisualization).GetReference(filePath: "System.Web.DataVisualization.dll", display: "System.Web.DataVisualization (net472)");
+                    }
+                    return _SystemWebDataVisualization;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWeb;
+            public static PortableExecutableReference SystemWeb
+            {
+                get
+                {
+                    if (_SystemWeb == null)
+                    {
+                        _SystemWeb = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (net472)");
+                    }
+                    return _SystemWeb;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebDynamicDataDesign;
+            public static PortableExecutableReference SystemWebDynamicDataDesign
+            {
+                get
+                {
+                    if (_SystemWebDynamicDataDesign == null)
+                    {
+                        _SystemWebDynamicDataDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebDynamicDataDesign).GetReference(filePath: "System.Web.DynamicData.Design.dll", display: "System.Web.DynamicData.Design (net472)");
+                    }
+                    return _SystemWebDynamicDataDesign;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebDynamicData;
+            public static PortableExecutableReference SystemWebDynamicData
+            {
+                get
+                {
+                    if (_SystemWebDynamicData == null)
+                    {
+                        _SystemWebDynamicData = AssemblyMetadata.CreateFromImage(Resources.SystemWebDynamicData).GetReference(filePath: "System.Web.DynamicData.dll", display: "System.Web.DynamicData (net472)");
+                    }
+                    return _SystemWebDynamicData;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebEntityDesign;
+            public static PortableExecutableReference SystemWebEntityDesign
+            {
+                get
+                {
+                    if (_SystemWebEntityDesign == null)
+                    {
+                        _SystemWebEntityDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebEntityDesign).GetReference(filePath: "System.Web.Entity.Design.dll", display: "System.Web.Entity.Design (net472)");
+                    }
+                    return _SystemWebEntityDesign;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebEntity;
+            public static PortableExecutableReference SystemWebEntity
+            {
+                get
+                {
+                    if (_SystemWebEntity == null)
+                    {
+                        _SystemWebEntity = AssemblyMetadata.CreateFromImage(Resources.SystemWebEntity).GetReference(filePath: "System.Web.Entity.dll", display: "System.Web.Entity (net472)");
+                    }
+                    return _SystemWebEntity;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebExtensionsDesign;
+            public static PortableExecutableReference SystemWebExtensionsDesign
+            {
+                get
+                {
+                    if (_SystemWebExtensionsDesign == null)
+                    {
+                        _SystemWebExtensionsDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebExtensionsDesign).GetReference(filePath: "System.Web.Extensions.Design.dll", display: "System.Web.Extensions.Design (net472)");
+                    }
+                    return _SystemWebExtensionsDesign;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebExtensions;
+            public static PortableExecutableReference SystemWebExtensions
+            {
+                get
+                {
+                    if (_SystemWebExtensions == null)
+                    {
+                        _SystemWebExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemWebExtensions).GetReference(filePath: "System.Web.Extensions.dll", display: "System.Web.Extensions (net472)");
+                    }
+                    return _SystemWebExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebMobile;
+            public static PortableExecutableReference SystemWebMobile
+            {
+                get
+                {
+                    if (_SystemWebMobile == null)
+                    {
+                        _SystemWebMobile = AssemblyMetadata.CreateFromImage(Resources.SystemWebMobile).GetReference(filePath: "System.Web.Mobile.dll", display: "System.Web.Mobile (net472)");
+                    }
+                    return _SystemWebMobile;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebRegularExpressions;
+            public static PortableExecutableReference SystemWebRegularExpressions
+            {
+                get
+                {
+                    if (_SystemWebRegularExpressions == null)
+                    {
+                        _SystemWebRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemWebRegularExpressions).GetReference(filePath: "System.Web.RegularExpressions.dll", display: "System.Web.RegularExpressions (net472)");
+                    }
+                    return _SystemWebRegularExpressions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebRouting;
+            public static PortableExecutableReference SystemWebRouting
+            {
+                get
+                {
+                    if (_SystemWebRouting == null)
+                    {
+                        _SystemWebRouting = AssemblyMetadata.CreateFromImage(Resources.SystemWebRouting).GetReference(filePath: "System.Web.Routing.dll", display: "System.Web.Routing (net472)");
+                    }
+                    return _SystemWebRouting;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWebServices;
+            public static PortableExecutableReference SystemWebServices
+            {
+                get
+                {
+                    if (_SystemWebServices == null)
+                    {
+                        _SystemWebServices = AssemblyMetadata.CreateFromImage(Resources.SystemWebServices).GetReference(filePath: "System.Web.Services.dll", display: "System.Web.Services (net472)");
+                    }
+                    return _SystemWebServices;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindowsControlsRibbon;
+            public static PortableExecutableReference SystemWindowsControlsRibbon
+            {
+                get
+                {
+                    if (_SystemWindowsControlsRibbon == null)
+                    {
+                        _SystemWindowsControlsRibbon = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsControlsRibbon).GetReference(filePath: "System.Windows.Controls.Ribbon.dll", display: "System.Windows.Controls.Ribbon (net472)");
+                    }
+                    return _SystemWindowsControlsRibbon;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindows;
+            public static PortableExecutableReference SystemWindows
+            {
+                get
+                {
+                    if (_SystemWindows == null)
+                    {
+                        _SystemWindows = AssemblyMetadata.CreateFromImage(Resources.SystemWindows).GetReference(filePath: "System.Windows.dll", display: "System.Windows (net472)");
+                    }
+                    return _SystemWindows;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindowsFormsDataVisualizationDesign;
+            public static PortableExecutableReference SystemWindowsFormsDataVisualizationDesign
+            {
+                get
+                {
+                    if (_SystemWindowsFormsDataVisualizationDesign == null)
+                    {
+                        _SystemWindowsFormsDataVisualizationDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDataVisualizationDesign).GetReference(filePath: "System.Windows.Forms.DataVisualization.Design.dll", display: "System.Windows.Forms.DataVisualization.Design (net472)");
+                    }
+                    return _SystemWindowsFormsDataVisualizationDesign;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindowsFormsDataVisualization;
+            public static PortableExecutableReference SystemWindowsFormsDataVisualization
+            {
+                get
+                {
+                    if (_SystemWindowsFormsDataVisualization == null)
+                    {
+                        _SystemWindowsFormsDataVisualization = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDataVisualization).GetReference(filePath: "System.Windows.Forms.DataVisualization.dll", display: "System.Windows.Forms.DataVisualization (net472)");
+                    }
+                    return _SystemWindowsFormsDataVisualization;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindowsForms;
+            public static PortableExecutableReference SystemWindowsForms
+            {
+                get
+                {
+                    if (_SystemWindowsForms == null)
+                    {
+                        _SystemWindowsForms = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsForms).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net472)");
+                    }
+                    return _SystemWindowsForms;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindowsInputManipulations;
+            public static PortableExecutableReference SystemWindowsInputManipulations
+            {
+                get
+                {
+                    if (_SystemWindowsInputManipulations == null)
+                    {
+                        _SystemWindowsInputManipulations = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsInputManipulations).GetReference(filePath: "System.Windows.Input.Manipulations.dll", display: "System.Windows.Input.Manipulations (net472)");
+                    }
+                    return _SystemWindowsInputManipulations;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindowsPresentation;
+            public static PortableExecutableReference SystemWindowsPresentation
+            {
+                get
+                {
+                    if (_SystemWindowsPresentation == null)
+                    {
+                        _SystemWindowsPresentation = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsPresentation).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net472)");
+                    }
+                    return _SystemWindowsPresentation;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWorkflowActivities;
+            public static PortableExecutableReference SystemWorkflowActivities
+            {
+                get
+                {
+                    if (_SystemWorkflowActivities == null)
+                    {
+                        _SystemWorkflowActivities = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowActivities).GetReference(filePath: "System.Workflow.Activities.dll", display: "System.Workflow.Activities (net472)");
+                    }
+                    return _SystemWorkflowActivities;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWorkflowComponentModel;
+            public static PortableExecutableReference SystemWorkflowComponentModel
+            {
+                get
+                {
+                    if (_SystemWorkflowComponentModel == null)
+                    {
+                        _SystemWorkflowComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowComponentModel).GetReference(filePath: "System.Workflow.ComponentModel.dll", display: "System.Workflow.ComponentModel (net472)");
+                    }
+                    return _SystemWorkflowComponentModel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWorkflowRuntime;
+            public static PortableExecutableReference SystemWorkflowRuntime
+            {
+                get
+                {
+                    if (_SystemWorkflowRuntime == null)
+                    {
+                        _SystemWorkflowRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowRuntime).GetReference(filePath: "System.Workflow.Runtime.dll", display: "System.Workflow.Runtime (net472)");
+                    }
+                    return _SystemWorkflowRuntime;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWorkflowServices;
+            public static PortableExecutableReference SystemWorkflowServices
+            {
+                get
+                {
+                    if (_SystemWorkflowServices == null)
+                    {
+                        _SystemWorkflowServices = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowServices).GetReference(filePath: "System.WorkflowServices.dll", display: "System.WorkflowServices (net472)");
+                    }
+                    return _SystemWorkflowServices;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXaml;
+            public static PortableExecutableReference SystemXaml
+            {
+                get
+                {
+                    if (_SystemXaml == null)
+                    {
+                        _SystemXaml = AssemblyMetadata.CreateFromImage(Resources.SystemXaml).GetReference(filePath: "System.Xaml.dll", display: "System.Xaml (net472)");
+                    }
+                    return _SystemXaml;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXml;
+            public static PortableExecutableReference SystemXml
+            {
+                get
+                {
+                    if (_SystemXml == null)
+                    {
+                        _SystemXml = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net472)");
+                    }
+                    return _SystemXml;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlLinq;
+            public static PortableExecutableReference SystemXmlLinq
+            {
+                get
+                {
+                    if (_SystemXmlLinq == null)
+                    {
+                        _SystemXmlLinq = AssemblyMetadata.CreateFromImage(Resources.SystemXmlLinq).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net472)");
+                    }
+                    return _SystemXmlLinq;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlSerialization;
+            public static PortableExecutableReference SystemXmlSerialization
+            {
+                get
+                {
+                    if (_SystemXmlSerialization == null)
+                    {
+                        _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemXmlSerialization).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (net472)");
+                    }
+                    return _SystemXmlSerialization;
+                }
+            }
+
+            private static PortableExecutableReference? _UIAutomationClient;
+            public static PortableExecutableReference UIAutomationClient
+            {
+                get
+                {
+                    if (_UIAutomationClient == null)
+                    {
+                        _UIAutomationClient = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClient).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net472)");
+                    }
+                    return _UIAutomationClient;
+                }
+            }
+
+            private static PortableExecutableReference? _UIAutomationClientsideProviders;
+            public static PortableExecutableReference UIAutomationClientsideProviders
+            {
+                get
+                {
+                    if (_UIAutomationClientsideProviders == null)
+                    {
+                        _UIAutomationClientsideProviders = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClientsideProviders).GetReference(filePath: "UIAutomationClientsideProviders.dll", display: "UIAutomationClientsideProviders (net472)");
+                    }
+                    return _UIAutomationClientsideProviders;
+                }
+            }
+
+            private static PortableExecutableReference? _UIAutomationProvider;
+            public static PortableExecutableReference UIAutomationProvider
+            {
+                get
+                {
+                    if (_UIAutomationProvider == null)
+                    {
+                        _UIAutomationProvider = AssemblyMetadata.CreateFromImage(Resources.UIAutomationProvider).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net472)");
+                    }
+                    return _UIAutomationProvider;
+                }
+            }
+
+            private static PortableExecutableReference? _UIAutomationTypes;
+            public static PortableExecutableReference UIAutomationTypes
+            {
+                get
+                {
+                    if (_UIAutomationTypes == null)
+                    {
+                        _UIAutomationTypes = AssemblyMetadata.CreateFromImage(Resources.UIAutomationTypes).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net472)");
+                    }
+                    return _UIAutomationTypes;
+                }
+            }
+
+            private static PortableExecutableReference? _WindowsBase;
+            public static PortableExecutableReference WindowsBase
+            {
+                get
+                {
+                    if (_WindowsBase == null)
+                    {
+                        _WindowsBase = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net472)");
+                    }
+                    return _WindowsBase;
+                }
+            }
+
+            private static PortableExecutableReference? _WindowsFormsIntegration;
+            public static PortableExecutableReference WindowsFormsIntegration
+            {
+                get
+                {
+                    if (_WindowsFormsIntegration == null)
+                    {
+                        _WindowsFormsIntegration = AssemblyMetadata.CreateFromImage(Resources.WindowsFormsIntegration).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net472)");
+                    }
+                    return _WindowsFormsIntegration;
+                }
+            }
+
+            private static PortableExecutableReference? _XamlBuildTask;
+            public static PortableExecutableReference XamlBuildTask
+            {
+                get
+                {
+                    if (_XamlBuildTask == null)
+                    {
+                        _XamlBuildTask = AssemblyMetadata.CreateFromImage(Resources.XamlBuildTask).GetReference(filePath: "XamlBuildTask.dll", display: "XamlBuildTask (net472)");
+                    }
+                    return _XamlBuildTask;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftWin32Primitives;
+            public static PortableExecutableReference MicrosoftWin32Primitives
+            {
+                get
+                {
+                    if (_MicrosoftWin32Primitives == null)
+                    {
+                        _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Primitives).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (net472)");
+                    }
+                    return _MicrosoftWin32Primitives;
+                }
+            }
+
+            private static PortableExecutableReference? _netstandard;
+            public static PortableExecutableReference netstandard
+            {
+                get
+                {
+                    if (_netstandard == null)
+                    {
+                        _netstandard = AssemblyMetadata.CreateFromImage(Resources.netstandard).GetReference(filePath: "netstandard.dll", display: "netstandard (net472)");
+                    }
+                    return _netstandard;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemAppContext;
+            public static PortableExecutableReference SystemAppContext
+            {
+                get
+                {
+                    if (_SystemAppContext == null)
+                    {
+                        _SystemAppContext = AssemblyMetadata.CreateFromImage(Resources.SystemAppContext).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (net472)");
+                    }
+                    return _SystemAppContext;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollectionsConcurrent;
+            public static PortableExecutableReference SystemCollectionsConcurrent
+            {
+                get
+                {
+                    if (_SystemCollectionsConcurrent == null)
+                    {
+                        _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (net472)");
+                    }
+                    return _SystemCollectionsConcurrent;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollections;
+            public static PortableExecutableReference SystemCollections
+            {
+                get
+                {
+                    if (_SystemCollections == null)
+                    {
+                        _SystemCollections = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (net472)");
+                    }
+                    return _SystemCollections;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollectionsNonGeneric;
+            public static PortableExecutableReference SystemCollectionsNonGeneric
+            {
+                get
+                {
+                    if (_SystemCollectionsNonGeneric == null)
+                    {
+                        _SystemCollectionsNonGeneric = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsNonGeneric).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (net472)");
+                    }
+                    return _SystemCollectionsNonGeneric;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollectionsSpecialized;
+            public static PortableExecutableReference SystemCollectionsSpecialized
+            {
+                get
+                {
+                    if (_SystemCollectionsSpecialized == null)
+                    {
+                        _SystemCollectionsSpecialized = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsSpecialized).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (net472)");
+                    }
+                    return _SystemCollectionsSpecialized;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelAnnotations;
+            public static PortableExecutableReference SystemComponentModelAnnotations
+            {
+                get
+                {
+                    if (_SystemComponentModelAnnotations == null)
+                    {
+                        _SystemComponentModelAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelAnnotations).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (net472)");
+                    }
+                    return _SystemComponentModelAnnotations;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModel;
+            public static PortableExecutableReference SystemComponentModel
+            {
+                get
+                {
+                    if (_SystemComponentModel == null)
+                    {
+                        _SystemComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModel).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (net472)");
+                    }
+                    return _SystemComponentModel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelEventBasedAsync;
+            public static PortableExecutableReference SystemComponentModelEventBasedAsync
+            {
+                get
+                {
+                    if (_SystemComponentModelEventBasedAsync == null)
+                    {
+                        _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelEventBasedAsync).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (net472)");
+                    }
+                    return _SystemComponentModelEventBasedAsync;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelPrimitives;
+            public static PortableExecutableReference SystemComponentModelPrimitives
+            {
+                get
+                {
+                    if (_SystemComponentModelPrimitives == null)
+                    {
+                        _SystemComponentModelPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelPrimitives).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (net472)");
+                    }
+                    return _SystemComponentModelPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelTypeConverter;
+            public static PortableExecutableReference SystemComponentModelTypeConverter
+            {
+                get
+                {
+                    if (_SystemComponentModelTypeConverter == null)
+                    {
+                        _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelTypeConverter).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (net472)");
+                    }
+                    return _SystemComponentModelTypeConverter;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemConsole;
+            public static PortableExecutableReference SystemConsole
+            {
+                get
+                {
+                    if (_SystemConsole == null)
+                    {
+                        _SystemConsole = AssemblyMetadata.CreateFromImage(Resources.SystemConsole).GetReference(filePath: "System.Console.dll", display: "System.Console (net472)");
+                    }
+                    return _SystemConsole;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDataCommon;
+            public static PortableExecutableReference SystemDataCommon
+            {
+                get
+                {
+                    if (_SystemDataCommon == null)
+                    {
+                        _SystemDataCommon = AssemblyMetadata.CreateFromImage(Resources.SystemDataCommon).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (net472)");
+                    }
+                    return _SystemDataCommon;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsContracts;
+            public static PortableExecutableReference SystemDiagnosticsContracts
+            {
+                get
+                {
+                    if (_SystemDiagnosticsContracts == null)
+                    {
+                        _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsContracts).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (net472)");
+                    }
+                    return _SystemDiagnosticsContracts;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsDebug;
+            public static PortableExecutableReference SystemDiagnosticsDebug
+            {
+                get
+                {
+                    if (_SystemDiagnosticsDebug == null)
+                    {
+                        _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (net472)");
+                    }
+                    return _SystemDiagnosticsDebug;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsFileVersionInfo;
+            public static PortableExecutableReference SystemDiagnosticsFileVersionInfo
+            {
+                get
+                {
+                    if (_SystemDiagnosticsFileVersionInfo == null)
+                    {
+                        _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsFileVersionInfo).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (net472)");
+                    }
+                    return _SystemDiagnosticsFileVersionInfo;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsProcess;
+            public static PortableExecutableReference SystemDiagnosticsProcess
+            {
+                get
+                {
+                    if (_SystemDiagnosticsProcess == null)
+                    {
+                        _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsProcess).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (net472)");
+                    }
+                    return _SystemDiagnosticsProcess;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsStackTrace;
+            public static PortableExecutableReference SystemDiagnosticsStackTrace
+            {
+                get
+                {
+                    if (_SystemDiagnosticsStackTrace == null)
+                    {
+                        _SystemDiagnosticsStackTrace = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsStackTrace).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (net472)");
+                    }
+                    return _SystemDiagnosticsStackTrace;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsTextWriterTraceListener;
+            public static PortableExecutableReference SystemDiagnosticsTextWriterTraceListener
+            {
+                get
+                {
+                    if (_SystemDiagnosticsTextWriterTraceListener == null)
+                    {
+                        _SystemDiagnosticsTextWriterTraceListener = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTextWriterTraceListener).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (net472)");
+                    }
+                    return _SystemDiagnosticsTextWriterTraceListener;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsTools;
+            public static PortableExecutableReference SystemDiagnosticsTools
+            {
+                get
+                {
+                    if (_SystemDiagnosticsTools == null)
+                    {
+                        _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (net472)");
+                    }
+                    return _SystemDiagnosticsTools;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsTraceSource;
+            public static PortableExecutableReference SystemDiagnosticsTraceSource
+            {
+                get
+                {
+                    if (_SystemDiagnosticsTraceSource == null)
+                    {
+                        _SystemDiagnosticsTraceSource = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTraceSource).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (net472)");
+                    }
+                    return _SystemDiagnosticsTraceSource;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDrawingPrimitives;
+            public static PortableExecutableReference SystemDrawingPrimitives
+            {
+                get
+                {
+                    if (_SystemDrawingPrimitives == null)
+                    {
+                        _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingPrimitives).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (net472)");
+                    }
+                    return _SystemDrawingPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDynamicRuntime;
+            public static PortableExecutableReference SystemDynamicRuntime
+            {
+                get
+                {
+                    if (_SystemDynamicRuntime == null)
+                    {
+                        _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemDynamicRuntime).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (net472)");
+                    }
+                    return _SystemDynamicRuntime;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemGlobalizationCalendars;
+            public static PortableExecutableReference SystemGlobalizationCalendars
+            {
+                get
+                {
+                    if (_SystemGlobalizationCalendars == null)
+                    {
+                        _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationCalendars).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (net472)");
+                    }
+                    return _SystemGlobalizationCalendars;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemGlobalization;
+            public static PortableExecutableReference SystemGlobalization
+            {
+                get
+                {
+                    if (_SystemGlobalization == null)
+                    {
+                        _SystemGlobalization = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (net472)");
+                    }
+                    return _SystemGlobalization;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemGlobalizationExtensions;
+            public static PortableExecutableReference SystemGlobalizationExtensions
+            {
+                get
+                {
+                    if (_SystemGlobalizationExtensions == null)
+                    {
+                        _SystemGlobalizationExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationExtensions).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (net472)");
+                    }
+                    return _SystemGlobalizationExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOCompressionZipFile;
+            public static PortableExecutableReference SystemIOCompressionZipFile
+            {
+                get
+                {
+                    if (_SystemIOCompressionZipFile == null)
+                    {
+                        _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionZipFile).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (net472)");
+                    }
+                    return _SystemIOCompressionZipFile;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIO;
+            public static PortableExecutableReference SystemIO
+            {
+                get
+                {
+                    if (_SystemIO == null)
+                    {
+                        _SystemIO = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (net472)");
+                    }
+                    return _SystemIO;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOFileSystem;
+            public static PortableExecutableReference SystemIOFileSystem
+            {
+                get
+                {
+                    if (_SystemIOFileSystem == null)
+                    {
+                        _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystem).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (net472)");
+                    }
+                    return _SystemIOFileSystem;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOFileSystemDriveInfo;
+            public static PortableExecutableReference SystemIOFileSystemDriveInfo
+            {
+                get
+                {
+                    if (_SystemIOFileSystemDriveInfo == null)
+                    {
+                        _SystemIOFileSystemDriveInfo = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemDriveInfo).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (net472)");
+                    }
+                    return _SystemIOFileSystemDriveInfo;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOFileSystemPrimitives;
+            public static PortableExecutableReference SystemIOFileSystemPrimitives
+            {
+                get
+                {
+                    if (_SystemIOFileSystemPrimitives == null)
+                    {
+                        _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemPrimitives).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (net472)");
+                    }
+                    return _SystemIOFileSystemPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOFileSystemWatcher;
+            public static PortableExecutableReference SystemIOFileSystemWatcher
+            {
+                get
+                {
+                    if (_SystemIOFileSystemWatcher == null)
+                    {
+                        _SystemIOFileSystemWatcher = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemWatcher).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (net472)");
+                    }
+                    return _SystemIOFileSystemWatcher;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOIsolatedStorage;
+            public static PortableExecutableReference SystemIOIsolatedStorage
+            {
+                get
+                {
+                    if (_SystemIOIsolatedStorage == null)
+                    {
+                        _SystemIOIsolatedStorage = AssemblyMetadata.CreateFromImage(Resources.SystemIOIsolatedStorage).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (net472)");
+                    }
+                    return _SystemIOIsolatedStorage;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOMemoryMappedFiles;
+            public static PortableExecutableReference SystemIOMemoryMappedFiles
+            {
+                get
+                {
+                    if (_SystemIOMemoryMappedFiles == null)
+                    {
+                        _SystemIOMemoryMappedFiles = AssemblyMetadata.CreateFromImage(Resources.SystemIOMemoryMappedFiles).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (net472)");
+                    }
+                    return _SystemIOMemoryMappedFiles;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOPipes;
+            public static PortableExecutableReference SystemIOPipes
+            {
+                get
+                {
+                    if (_SystemIOPipes == null)
+                    {
+                        _SystemIOPipes = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipes).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (net472)");
+                    }
+                    return _SystemIOPipes;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOUnmanagedMemoryStream;
+            public static PortableExecutableReference SystemIOUnmanagedMemoryStream
+            {
+                get
+                {
+                    if (_SystemIOUnmanagedMemoryStream == null)
+                    {
+                        _SystemIOUnmanagedMemoryStream = AssemblyMetadata.CreateFromImage(Resources.SystemIOUnmanagedMemoryStream).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (net472)");
+                    }
+                    return _SystemIOUnmanagedMemoryStream;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemLinq;
+            public static PortableExecutableReference SystemLinq
+            {
+                get
+                {
+                    if (_SystemLinq == null)
+                    {
+                        _SystemLinq = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (net472)");
+                    }
+                    return _SystemLinq;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemLinqExpressions;
+            public static PortableExecutableReference SystemLinqExpressions
+            {
+                get
+                {
+                    if (_SystemLinqExpressions == null)
+                    {
+                        _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (net472)");
+                    }
+                    return _SystemLinqExpressions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemLinqParallel;
+            public static PortableExecutableReference SystemLinqParallel
+            {
+                get
+                {
+                    if (_SystemLinqParallel == null)
+                    {
+                        _SystemLinqParallel = AssemblyMetadata.CreateFromImage(Resources.SystemLinqParallel).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (net472)");
+                    }
+                    return _SystemLinqParallel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemLinqQueryable;
+            public static PortableExecutableReference SystemLinqQueryable
+            {
+                get
+                {
+                    if (_SystemLinqQueryable == null)
+                    {
+                        _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(Resources.SystemLinqQueryable).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (net472)");
+                    }
+                    return _SystemLinqQueryable;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetHttpRtc;
+            public static PortableExecutableReference SystemNetHttpRtc
+            {
+                get
+                {
+                    if (_SystemNetHttpRtc == null)
+                    {
+                        _SystemNetHttpRtc = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpRtc).GetReference(filePath: "System.Net.Http.Rtc.dll", display: "System.Net.Http.Rtc (net472)");
+                    }
+                    return _SystemNetHttpRtc;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetNameResolution;
+            public static PortableExecutableReference SystemNetNameResolution
+            {
+                get
+                {
+                    if (_SystemNetNameResolution == null)
+                    {
+                        _SystemNetNameResolution = AssemblyMetadata.CreateFromImage(Resources.SystemNetNameResolution).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (net472)");
+                    }
+                    return _SystemNetNameResolution;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetNetworkInformation;
+            public static PortableExecutableReference SystemNetNetworkInformation
+            {
+                get
+                {
+                    if (_SystemNetNetworkInformation == null)
+                    {
+                        _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(Resources.SystemNetNetworkInformation).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (net472)");
+                    }
+                    return _SystemNetNetworkInformation;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetPing;
+            public static PortableExecutableReference SystemNetPing
+            {
+                get
+                {
+                    if (_SystemNetPing == null)
+                    {
+                        _SystemNetPing = AssemblyMetadata.CreateFromImage(Resources.SystemNetPing).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (net472)");
+                    }
+                    return _SystemNetPing;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetPrimitives;
+            public static PortableExecutableReference SystemNetPrimitives
+            {
+                get
+                {
+                    if (_SystemNetPrimitives == null)
+                    {
+                        _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (net472)");
+                    }
+                    return _SystemNetPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetRequests;
+            public static PortableExecutableReference SystemNetRequests
+            {
+                get
+                {
+                    if (_SystemNetRequests == null)
+                    {
+                        _SystemNetRequests = AssemblyMetadata.CreateFromImage(Resources.SystemNetRequests).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (net472)");
+                    }
+                    return _SystemNetRequests;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetSecurity;
+            public static PortableExecutableReference SystemNetSecurity
+            {
+                get
+                {
+                    if (_SystemNetSecurity == null)
+                    {
+                        _SystemNetSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemNetSecurity).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (net472)");
+                    }
+                    return _SystemNetSecurity;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetSockets;
+            public static PortableExecutableReference SystemNetSockets
+            {
+                get
+                {
+                    if (_SystemNetSockets == null)
+                    {
+                        _SystemNetSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetSockets).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (net472)");
+                    }
+                    return _SystemNetSockets;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetWebHeaderCollection;
+            public static PortableExecutableReference SystemNetWebHeaderCollection
+            {
+                get
+                {
+                    if (_SystemNetWebHeaderCollection == null)
+                    {
+                        _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebHeaderCollection).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (net472)");
+                    }
+                    return _SystemNetWebHeaderCollection;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetWebSocketsClient;
+            public static PortableExecutableReference SystemNetWebSocketsClient
+            {
+                get
+                {
+                    if (_SystemNetWebSocketsClient == null)
+                    {
+                        _SystemNetWebSocketsClient = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSocketsClient).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (net472)");
+                    }
+                    return _SystemNetWebSocketsClient;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetWebSockets;
+            public static PortableExecutableReference SystemNetWebSockets
+            {
+                get
+                {
+                    if (_SystemNetWebSockets == null)
+                    {
+                        _SystemNetWebSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSockets).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (net472)");
+                    }
+                    return _SystemNetWebSockets;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemObjectModel;
+            public static PortableExecutableReference SystemObjectModel
+            {
+                get
+                {
+                    if (_SystemObjectModel == null)
+                    {
+                        _SystemObjectModel = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (net472)");
+                    }
+                    return _SystemObjectModel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflection;
+            public static PortableExecutableReference SystemReflection
+            {
+                get
+                {
+                    if (_SystemReflection == null)
+                    {
+                        _SystemReflection = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (net472)");
+                    }
+                    return _SystemReflection;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionEmit;
+            public static PortableExecutableReference SystemReflectionEmit
+            {
+                get
+                {
+                    if (_SystemReflectionEmit == null)
+                    {
+                        _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmit).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (net472)");
+                    }
+                    return _SystemReflectionEmit;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionEmitILGeneration;
+            public static PortableExecutableReference SystemReflectionEmitILGeneration
+            {
+                get
+                {
+                    if (_SystemReflectionEmitILGeneration == null)
+                    {
+                        _SystemReflectionEmitILGeneration = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitILGeneration).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (net472)");
+                    }
+                    return _SystemReflectionEmitILGeneration;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionEmitLightweight;
+            public static PortableExecutableReference SystemReflectionEmitLightweight
+            {
+                get
+                {
+                    if (_SystemReflectionEmitLightweight == null)
+                    {
+                        _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitLightweight).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (net472)");
+                    }
+                    return _SystemReflectionEmitLightweight;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionExtensions;
+            public static PortableExecutableReference SystemReflectionExtensions
+            {
+                get
+                {
+                    if (_SystemReflectionExtensions == null)
+                    {
+                        _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (net472)");
+                    }
+                    return _SystemReflectionExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionPrimitives;
+            public static PortableExecutableReference SystemReflectionPrimitives
+            {
+                get
+                {
+                    if (_SystemReflectionPrimitives == null)
+                    {
+                        _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (net472)");
+                    }
+                    return _SystemReflectionPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemResourcesReader;
+            public static PortableExecutableReference SystemResourcesReader
+            {
+                get
+                {
+                    if (_SystemResourcesReader == null)
+                    {
+                        _SystemResourcesReader = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesReader).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (net472)");
+                    }
+                    return _SystemResourcesReader;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemResourcesResourceManager;
+            public static PortableExecutableReference SystemResourcesResourceManager
+            {
+                get
+                {
+                    if (_SystemResourcesResourceManager == null)
+                    {
+                        _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (net472)");
+                    }
+                    return _SystemResourcesResourceManager;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemResourcesWriter;
+            public static PortableExecutableReference SystemResourcesWriter
+            {
+                get
+                {
+                    if (_SystemResourcesWriter == null)
+                    {
+                        _SystemResourcesWriter = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesWriter).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (net472)");
+                    }
+                    return _SystemResourcesWriter;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeCompilerServicesVisualC;
+            public static PortableExecutableReference SystemRuntimeCompilerServicesVisualC
+            {
+                get
+                {
+                    if (_SystemRuntimeCompilerServicesVisualC == null)
+                    {
+                        _SystemRuntimeCompilerServicesVisualC = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesVisualC).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (net472)");
+                    }
+                    return _SystemRuntimeCompilerServicesVisualC;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntime;
+            public static PortableExecutableReference SystemRuntime
+            {
+                get
+                {
+                    if (_SystemRuntime == null)
+                    {
+                        _SystemRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (net472)");
+                    }
+                    return _SystemRuntime;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeExtensions;
+            public static PortableExecutableReference SystemRuntimeExtensions
+            {
+                get
+                {
+                    if (_SystemRuntimeExtensions == null)
+                    {
+                        _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (net472)");
+                    }
+                    return _SystemRuntimeExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeHandles;
+            public static PortableExecutableReference SystemRuntimeHandles
+            {
+                get
+                {
+                    if (_SystemRuntimeHandles == null)
+                    {
+                        _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (net472)");
+                    }
+                    return _SystemRuntimeHandles;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeInteropServices;
+            public static PortableExecutableReference SystemRuntimeInteropServices
+            {
+                get
+                {
+                    if (_SystemRuntimeInteropServices == null)
+                    {
+                        _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (net472)");
+                    }
+                    return _SystemRuntimeInteropServices;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeInteropServicesRuntimeInformation;
+            public static PortableExecutableReference SystemRuntimeInteropServicesRuntimeInformation
+            {
+                get
+                {
+                    if (_SystemRuntimeInteropServicesRuntimeInformation == null)
+                    {
+                        _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesRuntimeInformation).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (net472)");
+                    }
+                    return _SystemRuntimeInteropServicesRuntimeInformation;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeInteropServicesWindowsRuntime;
+            public static PortableExecutableReference SystemRuntimeInteropServicesWindowsRuntime
+            {
+                get
+                {
+                    if (_SystemRuntimeInteropServicesWindowsRuntime == null)
+                    {
+                        _SystemRuntimeInteropServicesWindowsRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesWindowsRuntime).GetReference(filePath: "System.Runtime.InteropServices.WindowsRuntime.dll", display: "System.Runtime.InteropServices.WindowsRuntime (net472)");
+                    }
+                    return _SystemRuntimeInteropServicesWindowsRuntime;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeNumerics;
+            public static PortableExecutableReference SystemRuntimeNumerics
+            {
+                get
+                {
+                    if (_SystemRuntimeNumerics == null)
+                    {
+                        _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (net472)");
+                    }
+                    return _SystemRuntimeNumerics;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerializationFormatters;
+            public static PortableExecutableReference SystemRuntimeSerializationFormatters
+            {
+                get
+                {
+                    if (_SystemRuntimeSerializationFormatters == null)
+                    {
+                        _SystemRuntimeSerializationFormatters = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormatters).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (net472)");
+                    }
+                    return _SystemRuntimeSerializationFormatters;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerializationJson;
+            public static PortableExecutableReference SystemRuntimeSerializationJson
+            {
+                get
+                {
+                    if (_SystemRuntimeSerializationJson == null)
+                    {
+                        _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationJson).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (net472)");
+                    }
+                    return _SystemRuntimeSerializationJson;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerializationPrimitives;
+            public static PortableExecutableReference SystemRuntimeSerializationPrimitives
+            {
+                get
+                {
+                    if (_SystemRuntimeSerializationPrimitives == null)
+                    {
+                        _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (net472)");
+                    }
+                    return _SystemRuntimeSerializationPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerializationXml;
+            public static PortableExecutableReference SystemRuntimeSerializationXml
+            {
+                get
+                {
+                    if (_SystemRuntimeSerializationXml == null)
+                    {
+                        _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationXml).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (net472)");
+                    }
+                    return _SystemRuntimeSerializationXml;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityClaims;
+            public static PortableExecutableReference SystemSecurityClaims
+            {
+                get
+                {
+                    if (_SystemSecurityClaims == null)
+                    {
+                        _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityClaims).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (net472)");
+                    }
+                    return _SystemSecurityClaims;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyAlgorithms;
+            public static PortableExecutableReference SystemSecurityCryptographyAlgorithms
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyAlgorithms == null)
+                    {
+                        _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyAlgorithms).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (net472)");
+                    }
+                    return _SystemSecurityCryptographyAlgorithms;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyCsp;
+            public static PortableExecutableReference SystemSecurityCryptographyCsp
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyCsp == null)
+                    {
+                        _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCsp).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (net472)");
+                    }
+                    return _SystemSecurityCryptographyCsp;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyEncoding;
+            public static PortableExecutableReference SystemSecurityCryptographyEncoding
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyEncoding == null)
+                    {
+                        _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyEncoding).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (net472)");
+                    }
+                    return _SystemSecurityCryptographyEncoding;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyPrimitives;
+            public static PortableExecutableReference SystemSecurityCryptographyPrimitives
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyPrimitives == null)
+                    {
+                        _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPrimitives).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (net472)");
+                    }
+                    return _SystemSecurityCryptographyPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyX509Certificates;
+            public static PortableExecutableReference SystemSecurityCryptographyX509Certificates
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyX509Certificates == null)
+                    {
+                        _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyX509Certificates).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (net472)");
+                    }
+                    return _SystemSecurityCryptographyX509Certificates;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityPrincipal;
+            public static PortableExecutableReference SystemSecurityPrincipal
+            {
+                get
+                {
+                    if (_SystemSecurityPrincipal == null)
+                    {
+                        _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (net472)");
+                    }
+                    return _SystemSecurityPrincipal;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecuritySecureString;
+            public static PortableExecutableReference SystemSecuritySecureString
+            {
+                get
+                {
+                    if (_SystemSecuritySecureString == null)
+                    {
+                        _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(Resources.SystemSecuritySecureString).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (net472)");
+                    }
+                    return _SystemSecuritySecureString;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceModelDuplex;
+            public static PortableExecutableReference SystemServiceModelDuplex
+            {
+                get
+                {
+                    if (_SystemServiceModelDuplex == null)
+                    {
+                        _SystemServiceModelDuplex = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelDuplex).GetReference(filePath: "System.ServiceModel.Duplex.dll", display: "System.ServiceModel.Duplex (net472)");
+                    }
+                    return _SystemServiceModelDuplex;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceModelHttp;
+            public static PortableExecutableReference SystemServiceModelHttp
+            {
+                get
+                {
+                    if (_SystemServiceModelHttp == null)
+                    {
+                        _SystemServiceModelHttp = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelHttp).GetReference(filePath: "System.ServiceModel.Http.dll", display: "System.ServiceModel.Http (net472)");
+                    }
+                    return _SystemServiceModelHttp;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceModelNetTcp;
+            public static PortableExecutableReference SystemServiceModelNetTcp
+            {
+                get
+                {
+                    if (_SystemServiceModelNetTcp == null)
+                    {
+                        _SystemServiceModelNetTcp = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelNetTcp).GetReference(filePath: "System.ServiceModel.NetTcp.dll", display: "System.ServiceModel.NetTcp (net472)");
+                    }
+                    return _SystemServiceModelNetTcp;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceModelPrimitives;
+            public static PortableExecutableReference SystemServiceModelPrimitives
+            {
+                get
+                {
+                    if (_SystemServiceModelPrimitives == null)
+                    {
+                        _SystemServiceModelPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelPrimitives).GetReference(filePath: "System.ServiceModel.Primitives.dll", display: "System.ServiceModel.Primitives (net472)");
+                    }
+                    return _SystemServiceModelPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceModelSecurity;
+            public static PortableExecutableReference SystemServiceModelSecurity
+            {
+                get
+                {
+                    if (_SystemServiceModelSecurity == null)
+                    {
+                        _SystemServiceModelSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelSecurity).GetReference(filePath: "System.ServiceModel.Security.dll", display: "System.ServiceModel.Security (net472)");
+                    }
+                    return _SystemServiceModelSecurity;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextEncoding;
+            public static PortableExecutableReference SystemTextEncoding
+            {
+                get
+                {
+                    if (_SystemTextEncoding == null)
+                    {
+                        _SystemTextEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (net472)");
+                    }
+                    return _SystemTextEncoding;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextEncodingExtensions;
+            public static PortableExecutableReference SystemTextEncodingExtensions
+            {
+                get
+                {
+                    if (_SystemTextEncodingExtensions == null)
+                    {
+                        _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (net472)");
+                    }
+                    return _SystemTextEncodingExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextRegularExpressions;
+            public static PortableExecutableReference SystemTextRegularExpressions
+            {
+                get
+                {
+                    if (_SystemTextRegularExpressions == null)
+                    {
+                        _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (net472)");
+                    }
+                    return _SystemTextRegularExpressions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreading;
+            public static PortableExecutableReference SystemThreading
+            {
+                get
+                {
+                    if (_SystemThreading == null)
+                    {
+                        _SystemThreading = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (net472)");
+                    }
+                    return _SystemThreading;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingOverlapped;
+            public static PortableExecutableReference SystemThreadingOverlapped
+            {
+                get
+                {
+                    if (_SystemThreadingOverlapped == null)
+                    {
+                        _SystemThreadingOverlapped = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingOverlapped).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (net472)");
+                    }
+                    return _SystemThreadingOverlapped;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingTasks;
+            public static PortableExecutableReference SystemThreadingTasks
+            {
+                get
+                {
+                    if (_SystemThreadingTasks == null)
+                    {
+                        _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (net472)");
+                    }
+                    return _SystemThreadingTasks;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingTasksParallel;
+            public static PortableExecutableReference SystemThreadingTasksParallel
+            {
+                get
+                {
+                    if (_SystemThreadingTasksParallel == null)
+                    {
+                        _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksParallel).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (net472)");
+                    }
+                    return _SystemThreadingTasksParallel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingThread;
+            public static PortableExecutableReference SystemThreadingThread
+            {
+                get
+                {
+                    if (_SystemThreadingThread == null)
+                    {
+                        _SystemThreadingThread = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThread).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (net472)");
+                    }
+                    return _SystemThreadingThread;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingThreadPool;
+            public static PortableExecutableReference SystemThreadingThreadPool
+            {
+                get
+                {
+                    if (_SystemThreadingThreadPool == null)
+                    {
+                        _SystemThreadingThreadPool = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThreadPool).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (net472)");
+                    }
+                    return _SystemThreadingThreadPool;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingTimer;
+            public static PortableExecutableReference SystemThreadingTimer
+            {
+                get
+                {
+                    if (_SystemThreadingTimer == null)
+                    {
+                        _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (net472)");
+                    }
+                    return _SystemThreadingTimer;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemValueTuple;
+            public static PortableExecutableReference SystemValueTuple
+            {
+                get
+                {
+                    if (_SystemValueTuple == null)
+                    {
+                        _SystemValueTuple = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (net472)");
+                    }
+                    return _SystemValueTuple;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlReaderWriter;
+            public static PortableExecutableReference SystemXmlReaderWriter
+            {
+                get
+                {
+                    if (_SystemXmlReaderWriter == null)
+                    {
+                        _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (net472)");
+                    }
+                    return _SystemXmlReaderWriter;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXDocument;
+            public static PortableExecutableReference SystemXmlXDocument
+            {
+                get
+                {
+                    if (_SystemXmlXDocument == null)
+                    {
+                        _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (net472)");
+                    }
+                    return _SystemXmlXDocument;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXmlDocument;
+            public static PortableExecutableReference SystemXmlXmlDocument
+            {
+                get
+                {
+                    if (_SystemXmlXmlDocument == null)
+                    {
+                        _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlDocument).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (net472)");
+                    }
+                    return _SystemXmlXmlDocument;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXmlSerializer;
+            public static PortableExecutableReference SystemXmlXmlSerializer
+            {
+                get
+                {
+                    if (_SystemXmlXmlSerializer == null)
+                    {
+                        _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlSerializer).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (net472)");
+                    }
+                    return _SystemXmlXmlSerializer;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXPath;
+            public static PortableExecutableReference SystemXmlXPath
+            {
+                get
+                {
+                    if (_SystemXmlXPath == null)
+                    {
+                        _SystemXmlXPath = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPath).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (net472)");
+                    }
+                    return _SystemXmlXPath;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXPathXDocument;
+            public static PortableExecutableReference SystemXmlXPathXDocument
+            {
+                get
+                {
+                    if (_SystemXmlXPathXDocument == null)
+                    {
+                        _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPathXDocument).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (net472)");
+                    }
+                    return _SystemXmlXPathXDocument;
+                }
+            }
+
+            public static IEnumerable<PortableExecutableReference> All => new PortableExecutableReference[]
             {
                 Accessibility,
                 CustomMarshalers,
