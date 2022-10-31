@@ -107,36 +107,58 @@ namespace Basic.Reference.Assemblies
   }
 
   $refInfoContent += @"
-            public static IEnumerable<ReferenceInfo> All => new []
+            private static ReferenceInfo[]? _all;
+            public static IEnumerable<ReferenceInfo> All
             {
+                get
+                {
+                    if (_all == null)
+                    {
+                        _all = new[]
+                        {
 
 "@
 
   $metadataContent += @"
-            public static IEnumerable<PortableExecutableReference> All => new PortableExecutableReference[]
+            private static PortableExecutableReference[]? _all;
+            public static IEnumerable<PortableExecutableReference> All
             {
+                get
+                {
+                    if (_all == null)
+                    {
+                        _all = new PortableExecutableReference[]
+                        {
 
 "@;
     foreach ($propName in $allPropNames)
     {
       $refInfoContent += @"
-                $propName,
+                            $propName,
 
 "@
 
       $metadataContent += @"
-                $propName,
+                            $propName,
 
 "@
     }
 
     $metadataContent += @"
-            };
+                        };
+                    }
+                    return _all;
+                }
+            }
         }
     }
 "@
     $refInfoContent += @"
-            };
+                        };
+                    }
+                    return _all;
+                }
+            }
 
             public static IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> AllValues => All.Select(x => x.AsTuple());
         }
