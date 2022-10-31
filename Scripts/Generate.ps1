@@ -88,20 +88,32 @@ namespace Basic.Reference.Assemblies
 "@
 
     $metadataContent += @"
-            public static PortableExecutableReference $propName { get; } = AssemblyMetadata.CreateFromImage(Resources.$($propName)).GetReference(filePath: "$dllName", display: "$dll ($lowerName)");
+            private static PortableExecutableReference? $fieldName;
+            public static PortableExecutableReference $propName
+            {
+                get
+                {
+                    if ($fieldName == null)
+                    {
+                        $fieldName = AssemblyMetadata.CreateFromImage(Resources.$($propName)).GetReference(filePath: "$dllName", display: "$dll ($lowerName)");
+                    }
+                    return $fieldName;
+                }
+            }
+
 
 "@
 
   }
 
   $refInfoContent += @"
-            public static IEnumerable<ReferenceInfo> All { get; }= new []
+            public static IEnumerable<ReferenceInfo> All => new []
             {
 
 "@
 
   $metadataContent += @"
-            public static IEnumerable<PortableExecutableReference> All { get; }= new PortableExecutableReference[]
+            public static IEnumerable<PortableExecutableReference> All => new PortableExecutableReference[]
             {
 
 "@;
@@ -171,7 +183,7 @@ function Get-Content($name, $packagePath, [string]$excludePattern)
     $nugetPackageRoot = Join-Path $env:USERPROFILE ".nuget\packages"
   }
 
-  $realPackagePath = Join-Path $nugetPackageRoot $packagePath 
+  $realPackagePath = Join-Path $nugetPackageRoot $packagePath
   return Get-ContentCore $name $realPackagePath $nugetPackageRoot '$(NuGetPackageRoot)' $excludePattern
 }
 
@@ -179,13 +191,13 @@ function Get-ResourceContent($name, $resourcePath)
 {
   $realPackagePrefix = Split-Path -Parent $PSScriptRoot
   $realPackagePath = Join-Path $realPackagePrefix $resourcePath
-  return Get-ContentCore $name $realPackagePath $realPackagePrefix '$(MSBuildThisFileDirectory)..\' 
+  return Get-ContentCore $name $realPackagePath $realPackagePrefix '$(MSBuildThisFileDirectory)..\'
 }
 
 $combinedDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies"
 
-# NetCoreApp31 
-$map = Get-Content "NetCoreApp31" 'microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1' 
+# NetCoreApp31
+$map = Get-Content "NetCoreApp31" 'microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.NetCoreApp31"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8

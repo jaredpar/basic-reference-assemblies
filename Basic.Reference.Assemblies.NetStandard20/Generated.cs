@@ -356,7 +356,7 @@ namespace Basic.Reference.Assemblies
             public static ReferenceInfo SystemXmlXmlSerializer => new ReferenceInfo("System.Xml.XmlSerializer.dll", Resources.SystemXmlXmlSerializer, NetStandard20.References.SystemXmlXmlSerializer, global::System.Guid.Parse("6b7556ae-8a81-446b-829f-c60fc8b5c834"));
             public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, NetStandard20.References.SystemXmlXPath, global::System.Guid.Parse("7efaf249-c336-4fba-afbf-ae099104a110"));
             public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, NetStandard20.References.SystemXmlXPathXDocument, global::System.Guid.Parse("4b57c086-8352-40ab-8005-061eb4e5620d"));
-            public static IEnumerable<ReferenceInfo> All { get; }= new []
+            public static IEnumerable<ReferenceInfo> All => new []
             {
                 MicrosoftWin32Primitives,
                 mscorlib,
@@ -480,120 +480,1476 @@ namespace Basic.Reference.Assemblies
     {
         public static class References
         {
-            public static PortableExecutableReference MicrosoftWin32Primitives { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Primitives).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (netstandard20)");
-            public static PortableExecutableReference mscorlib { get; } = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (netstandard20)");
-            public static PortableExecutableReference netstandard { get; } = AssemblyMetadata.CreateFromImage(Resources.netstandard).GetReference(filePath: "netstandard.dll", display: "netstandard (netstandard20)");
-            public static PortableExecutableReference SystemAppContext { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemAppContext).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (netstandard20)");
-            public static PortableExecutableReference SystemCollectionsConcurrent { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (netstandard20)");
-            public static PortableExecutableReference SystemCollections { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (netstandard20)");
-            public static PortableExecutableReference SystemCollectionsNonGeneric { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsNonGeneric).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (netstandard20)");
-            public static PortableExecutableReference SystemCollectionsSpecialized { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsSpecialized).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (netstandard20)");
-            public static PortableExecutableReference SystemComponentModelComposition { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelComposition).GetReference(filePath: "System.ComponentModel.Composition.dll", display: "System.ComponentModel.Composition (netstandard20)");
-            public static PortableExecutableReference SystemComponentModel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModel).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (netstandard20)");
-            public static PortableExecutableReference SystemComponentModelEventBasedAsync { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelEventBasedAsync).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (netstandard20)");
-            public static PortableExecutableReference SystemComponentModelPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelPrimitives).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (netstandard20)");
-            public static PortableExecutableReference SystemComponentModelTypeConverter { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelTypeConverter).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (netstandard20)");
-            public static PortableExecutableReference SystemConsole { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemConsole).GetReference(filePath: "System.Console.dll", display: "System.Console (netstandard20)");
-            public static PortableExecutableReference SystemCore { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCore).GetReference(filePath: "System.Core.dll", display: "System.Core (netstandard20)");
-            public static PortableExecutableReference SystemDataCommon { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDataCommon).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (netstandard20)");
-            public static PortableExecutableReference SystemData { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (netstandard20)");
-            public static PortableExecutableReference SystemDiagnosticsContracts { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsContracts).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (netstandard20)");
-            public static PortableExecutableReference SystemDiagnosticsDebug { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (netstandard20)");
-            public static PortableExecutableReference SystemDiagnosticsFileVersionInfo { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsFileVersionInfo).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (netstandard20)");
-            public static PortableExecutableReference SystemDiagnosticsProcess { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsProcess).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (netstandard20)");
-            public static PortableExecutableReference SystemDiagnosticsStackTrace { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsStackTrace).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (netstandard20)");
-            public static PortableExecutableReference SystemDiagnosticsTextWriterTraceListener { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTextWriterTraceListener).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (netstandard20)");
-            public static PortableExecutableReference SystemDiagnosticsTools { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (netstandard20)");
-            public static PortableExecutableReference SystemDiagnosticsTraceSource { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTraceSource).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (netstandard20)");
-            public static PortableExecutableReference SystemDiagnosticsTracing { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (netstandard20)");
-            public static PortableExecutableReference System { get; } = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (netstandard20)");
-            public static PortableExecutableReference SystemDrawing { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (netstandard20)");
-            public static PortableExecutableReference SystemDrawingPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingPrimitives).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (netstandard20)");
-            public static PortableExecutableReference SystemDynamicRuntime { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDynamicRuntime).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (netstandard20)");
-            public static PortableExecutableReference SystemGlobalizationCalendars { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationCalendars).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (netstandard20)");
-            public static PortableExecutableReference SystemGlobalization { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (netstandard20)");
-            public static PortableExecutableReference SystemGlobalizationExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationExtensions).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (netstandard20)");
-            public static PortableExecutableReference SystemIOCompression { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (netstandard20)");
-            public static PortableExecutableReference SystemIOCompressionFileSystem { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionFileSystem).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (netstandard20)");
-            public static PortableExecutableReference SystemIOCompressionZipFile { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionZipFile).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (netstandard20)");
-            public static PortableExecutableReference SystemIO { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (netstandard20)");
-            public static PortableExecutableReference SystemIOFileSystem { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystem).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (netstandard20)");
-            public static PortableExecutableReference SystemIOFileSystemDriveInfo { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemDriveInfo).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (netstandard20)");
-            public static PortableExecutableReference SystemIOFileSystemPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemPrimitives).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (netstandard20)");
-            public static PortableExecutableReference SystemIOFileSystemWatcher { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemWatcher).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (netstandard20)");
-            public static PortableExecutableReference SystemIOIsolatedStorage { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOIsolatedStorage).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (netstandard20)");
-            public static PortableExecutableReference SystemIOMemoryMappedFiles { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOMemoryMappedFiles).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (netstandard20)");
-            public static PortableExecutableReference SystemIOPipes { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipes).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (netstandard20)");
-            public static PortableExecutableReference SystemIOUnmanagedMemoryStream { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOUnmanagedMemoryStream).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (netstandard20)");
-            public static PortableExecutableReference SystemLinq { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (netstandard20)");
-            public static PortableExecutableReference SystemLinqExpressions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (netstandard20)");
-            public static PortableExecutableReference SystemLinqParallel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemLinqParallel).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (netstandard20)");
-            public static PortableExecutableReference SystemLinqQueryable { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemLinqQueryable).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (netstandard20)");
-            public static PortableExecutableReference SystemNet { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNet).GetReference(filePath: "System.Net.dll", display: "System.Net (netstandard20)");
-            public static PortableExecutableReference SystemNetHttp { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (netstandard20)");
-            public static PortableExecutableReference SystemNetNameResolution { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetNameResolution).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (netstandard20)");
-            public static PortableExecutableReference SystemNetNetworkInformation { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetNetworkInformation).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (netstandard20)");
-            public static PortableExecutableReference SystemNetPing { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetPing).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (netstandard20)");
-            public static PortableExecutableReference SystemNetPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (netstandard20)");
-            public static PortableExecutableReference SystemNetRequests { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetRequests).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (netstandard20)");
-            public static PortableExecutableReference SystemNetSecurity { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetSecurity).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (netstandard20)");
-            public static PortableExecutableReference SystemNetSockets { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetSockets).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (netstandard20)");
-            public static PortableExecutableReference SystemNetWebHeaderCollection { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebHeaderCollection).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (netstandard20)");
-            public static PortableExecutableReference SystemNetWebSocketsClient { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSocketsClient).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (netstandard20)");
-            public static PortableExecutableReference SystemNetWebSockets { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSockets).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (netstandard20)");
-            public static PortableExecutableReference SystemNumerics { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemNumerics).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (netstandard20)");
-            public static PortableExecutableReference SystemObjectModel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (netstandard20)");
-            public static PortableExecutableReference SystemReflection { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (netstandard20)");
-            public static PortableExecutableReference SystemReflectionExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (netstandard20)");
-            public static PortableExecutableReference SystemReflectionPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (netstandard20)");
-            public static PortableExecutableReference SystemResourcesReader { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesReader).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (netstandard20)");
-            public static PortableExecutableReference SystemResourcesResourceManager { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (netstandard20)");
-            public static PortableExecutableReference SystemResourcesWriter { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesWriter).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (netstandard20)");
-            public static PortableExecutableReference SystemRuntimeCompilerServicesVisualC { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesVisualC).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (netstandard20)");
-            public static PortableExecutableReference SystemRuntime { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (netstandard20)");
-            public static PortableExecutableReference SystemRuntimeExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (netstandard20)");
-            public static PortableExecutableReference SystemRuntimeHandles { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (netstandard20)");
-            public static PortableExecutableReference SystemRuntimeInteropServices { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (netstandard20)");
-            public static PortableExecutableReference SystemRuntimeInteropServicesRuntimeInformation { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesRuntimeInformation).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (netstandard20)");
-            public static PortableExecutableReference SystemRuntimeNumerics { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (netstandard20)");
-            public static PortableExecutableReference SystemRuntimeSerialization { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerialization).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (netstandard20)");
-            public static PortableExecutableReference SystemRuntimeSerializationFormatters { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormatters).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (netstandard20)");
-            public static PortableExecutableReference SystemRuntimeSerializationJson { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationJson).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (netstandard20)");
-            public static PortableExecutableReference SystemRuntimeSerializationPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (netstandard20)");
-            public static PortableExecutableReference SystemRuntimeSerializationXml { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationXml).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (netstandard20)");
-            public static PortableExecutableReference SystemSecurityClaims { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityClaims).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (netstandard20)");
-            public static PortableExecutableReference SystemSecurityCryptographyAlgorithms { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyAlgorithms).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (netstandard20)");
-            public static PortableExecutableReference SystemSecurityCryptographyCsp { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCsp).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (netstandard20)");
-            public static PortableExecutableReference SystemSecurityCryptographyEncoding { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyEncoding).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (netstandard20)");
-            public static PortableExecutableReference SystemSecurityCryptographyPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPrimitives).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (netstandard20)");
-            public static PortableExecutableReference SystemSecurityCryptographyX509Certificates { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyX509Certificates).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (netstandard20)");
-            public static PortableExecutableReference SystemSecurityPrincipal { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (netstandard20)");
-            public static PortableExecutableReference SystemSecuritySecureString { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecuritySecureString).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (netstandard20)");
-            public static PortableExecutableReference SystemServiceModelWeb { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelWeb).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (netstandard20)");
-            public static PortableExecutableReference SystemTextEncoding { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (netstandard20)");
-            public static PortableExecutableReference SystemTextEncodingExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (netstandard20)");
-            public static PortableExecutableReference SystemTextRegularExpressions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (netstandard20)");
-            public static PortableExecutableReference SystemThreading { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (netstandard20)");
-            public static PortableExecutableReference SystemThreadingOverlapped { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingOverlapped).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (netstandard20)");
-            public static PortableExecutableReference SystemThreadingTasks { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (netstandard20)");
-            public static PortableExecutableReference SystemThreadingTasksParallel { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksParallel).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (netstandard20)");
-            public static PortableExecutableReference SystemThreadingThread { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThread).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (netstandard20)");
-            public static PortableExecutableReference SystemThreadingThreadPool { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThreadPool).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (netstandard20)");
-            public static PortableExecutableReference SystemThreadingTimer { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (netstandard20)");
-            public static PortableExecutableReference SystemTransactions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (netstandard20)");
-            public static PortableExecutableReference SystemValueTuple { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (netstandard20)");
-            public static PortableExecutableReference SystemWeb { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (netstandard20)");
-            public static PortableExecutableReference SystemWindows { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindows).GetReference(filePath: "System.Windows.dll", display: "System.Windows (netstandard20)");
-            public static PortableExecutableReference SystemXml { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (netstandard20)");
-            public static PortableExecutableReference SystemXmlLinq { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlLinq).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (netstandard20)");
-            public static PortableExecutableReference SystemXmlReaderWriter { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (netstandard20)");
-            public static PortableExecutableReference SystemXmlSerialization { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlSerialization).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (netstandard20)");
-            public static PortableExecutableReference SystemXmlXDocument { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (netstandard20)");
-            public static PortableExecutableReference SystemXmlXmlDocument { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlDocument).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (netstandard20)");
-            public static PortableExecutableReference SystemXmlXmlSerializer { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlSerializer).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (netstandard20)");
-            public static PortableExecutableReference SystemXmlXPath { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPath).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (netstandard20)");
-            public static PortableExecutableReference SystemXmlXPathXDocument { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPathXDocument).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (netstandard20)");
-            public static IEnumerable<PortableExecutableReference> All { get; }= new PortableExecutableReference[]
+            private static PortableExecutableReference? _MicrosoftWin32Primitives;
+            public static PortableExecutableReference MicrosoftWin32Primitives
+            {
+                get
+                {
+                    if (_MicrosoftWin32Primitives == null)
+                    {
+                        _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Primitives).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (netstandard20)");
+                    }
+                    return _MicrosoftWin32Primitives;
+                }
+            }
+
+            private static PortableExecutableReference? _mscorlib;
+            public static PortableExecutableReference mscorlib
+            {
+                get
+                {
+                    if (_mscorlib == null)
+                    {
+                        _mscorlib = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (netstandard20)");
+                    }
+                    return _mscorlib;
+                }
+            }
+
+            private static PortableExecutableReference? _netstandard;
+            public static PortableExecutableReference netstandard
+            {
+                get
+                {
+                    if (_netstandard == null)
+                    {
+                        _netstandard = AssemblyMetadata.CreateFromImage(Resources.netstandard).GetReference(filePath: "netstandard.dll", display: "netstandard (netstandard20)");
+                    }
+                    return _netstandard;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemAppContext;
+            public static PortableExecutableReference SystemAppContext
+            {
+                get
+                {
+                    if (_SystemAppContext == null)
+                    {
+                        _SystemAppContext = AssemblyMetadata.CreateFromImage(Resources.SystemAppContext).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (netstandard20)");
+                    }
+                    return _SystemAppContext;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollectionsConcurrent;
+            public static PortableExecutableReference SystemCollectionsConcurrent
+            {
+                get
+                {
+                    if (_SystemCollectionsConcurrent == null)
+                    {
+                        _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (netstandard20)");
+                    }
+                    return _SystemCollectionsConcurrent;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollections;
+            public static PortableExecutableReference SystemCollections
+            {
+                get
+                {
+                    if (_SystemCollections == null)
+                    {
+                        _SystemCollections = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (netstandard20)");
+                    }
+                    return _SystemCollections;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollectionsNonGeneric;
+            public static PortableExecutableReference SystemCollectionsNonGeneric
+            {
+                get
+                {
+                    if (_SystemCollectionsNonGeneric == null)
+                    {
+                        _SystemCollectionsNonGeneric = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsNonGeneric).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (netstandard20)");
+                    }
+                    return _SystemCollectionsNonGeneric;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCollectionsSpecialized;
+            public static PortableExecutableReference SystemCollectionsSpecialized
+            {
+                get
+                {
+                    if (_SystemCollectionsSpecialized == null)
+                    {
+                        _SystemCollectionsSpecialized = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsSpecialized).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (netstandard20)");
+                    }
+                    return _SystemCollectionsSpecialized;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelComposition;
+            public static PortableExecutableReference SystemComponentModelComposition
+            {
+                get
+                {
+                    if (_SystemComponentModelComposition == null)
+                    {
+                        _SystemComponentModelComposition = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelComposition).GetReference(filePath: "System.ComponentModel.Composition.dll", display: "System.ComponentModel.Composition (netstandard20)");
+                    }
+                    return _SystemComponentModelComposition;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModel;
+            public static PortableExecutableReference SystemComponentModel
+            {
+                get
+                {
+                    if (_SystemComponentModel == null)
+                    {
+                        _SystemComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModel).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (netstandard20)");
+                    }
+                    return _SystemComponentModel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelEventBasedAsync;
+            public static PortableExecutableReference SystemComponentModelEventBasedAsync
+            {
+                get
+                {
+                    if (_SystemComponentModelEventBasedAsync == null)
+                    {
+                        _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelEventBasedAsync).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (netstandard20)");
+                    }
+                    return _SystemComponentModelEventBasedAsync;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelPrimitives;
+            public static PortableExecutableReference SystemComponentModelPrimitives
+            {
+                get
+                {
+                    if (_SystemComponentModelPrimitives == null)
+                    {
+                        _SystemComponentModelPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelPrimitives).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (netstandard20)");
+                    }
+                    return _SystemComponentModelPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemComponentModelTypeConverter;
+            public static PortableExecutableReference SystemComponentModelTypeConverter
+            {
+                get
+                {
+                    if (_SystemComponentModelTypeConverter == null)
+                    {
+                        _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelTypeConverter).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (netstandard20)");
+                    }
+                    return _SystemComponentModelTypeConverter;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemConsole;
+            public static PortableExecutableReference SystemConsole
+            {
+                get
+                {
+                    if (_SystemConsole == null)
+                    {
+                        _SystemConsole = AssemblyMetadata.CreateFromImage(Resources.SystemConsole).GetReference(filePath: "System.Console.dll", display: "System.Console (netstandard20)");
+                    }
+                    return _SystemConsole;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCore;
+            public static PortableExecutableReference SystemCore
+            {
+                get
+                {
+                    if (_SystemCore == null)
+                    {
+                        _SystemCore = AssemblyMetadata.CreateFromImage(Resources.SystemCore).GetReference(filePath: "System.Core.dll", display: "System.Core (netstandard20)");
+                    }
+                    return _SystemCore;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDataCommon;
+            public static PortableExecutableReference SystemDataCommon
+            {
+                get
+                {
+                    if (_SystemDataCommon == null)
+                    {
+                        _SystemDataCommon = AssemblyMetadata.CreateFromImage(Resources.SystemDataCommon).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (netstandard20)");
+                    }
+                    return _SystemDataCommon;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemData;
+            public static PortableExecutableReference SystemData
+            {
+                get
+                {
+                    if (_SystemData == null)
+                    {
+                        _SystemData = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (netstandard20)");
+                    }
+                    return _SystemData;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsContracts;
+            public static PortableExecutableReference SystemDiagnosticsContracts
+            {
+                get
+                {
+                    if (_SystemDiagnosticsContracts == null)
+                    {
+                        _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsContracts).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (netstandard20)");
+                    }
+                    return _SystemDiagnosticsContracts;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsDebug;
+            public static PortableExecutableReference SystemDiagnosticsDebug
+            {
+                get
+                {
+                    if (_SystemDiagnosticsDebug == null)
+                    {
+                        _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (netstandard20)");
+                    }
+                    return _SystemDiagnosticsDebug;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsFileVersionInfo;
+            public static PortableExecutableReference SystemDiagnosticsFileVersionInfo
+            {
+                get
+                {
+                    if (_SystemDiagnosticsFileVersionInfo == null)
+                    {
+                        _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsFileVersionInfo).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (netstandard20)");
+                    }
+                    return _SystemDiagnosticsFileVersionInfo;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsProcess;
+            public static PortableExecutableReference SystemDiagnosticsProcess
+            {
+                get
+                {
+                    if (_SystemDiagnosticsProcess == null)
+                    {
+                        _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsProcess).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (netstandard20)");
+                    }
+                    return _SystemDiagnosticsProcess;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsStackTrace;
+            public static PortableExecutableReference SystemDiagnosticsStackTrace
+            {
+                get
+                {
+                    if (_SystemDiagnosticsStackTrace == null)
+                    {
+                        _SystemDiagnosticsStackTrace = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsStackTrace).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (netstandard20)");
+                    }
+                    return _SystemDiagnosticsStackTrace;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsTextWriterTraceListener;
+            public static PortableExecutableReference SystemDiagnosticsTextWriterTraceListener
+            {
+                get
+                {
+                    if (_SystemDiagnosticsTextWriterTraceListener == null)
+                    {
+                        _SystemDiagnosticsTextWriterTraceListener = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTextWriterTraceListener).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (netstandard20)");
+                    }
+                    return _SystemDiagnosticsTextWriterTraceListener;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsTools;
+            public static PortableExecutableReference SystemDiagnosticsTools
+            {
+                get
+                {
+                    if (_SystemDiagnosticsTools == null)
+                    {
+                        _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (netstandard20)");
+                    }
+                    return _SystemDiagnosticsTools;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsTraceSource;
+            public static PortableExecutableReference SystemDiagnosticsTraceSource
+            {
+                get
+                {
+                    if (_SystemDiagnosticsTraceSource == null)
+                    {
+                        _SystemDiagnosticsTraceSource = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTraceSource).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (netstandard20)");
+                    }
+                    return _SystemDiagnosticsTraceSource;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsTracing;
+            public static PortableExecutableReference SystemDiagnosticsTracing
+            {
+                get
+                {
+                    if (_SystemDiagnosticsTracing == null)
+                    {
+                        _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (netstandard20)");
+                    }
+                    return _SystemDiagnosticsTracing;
+                }
+            }
+
+            private static PortableExecutableReference? _System;
+            public static PortableExecutableReference System
+            {
+                get
+                {
+                    if (_System == null)
+                    {
+                        _System = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (netstandard20)");
+                    }
+                    return _System;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDrawing;
+            public static PortableExecutableReference SystemDrawing
+            {
+                get
+                {
+                    if (_SystemDrawing == null)
+                    {
+                        _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (netstandard20)");
+                    }
+                    return _SystemDrawing;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDrawingPrimitives;
+            public static PortableExecutableReference SystemDrawingPrimitives
+            {
+                get
+                {
+                    if (_SystemDrawingPrimitives == null)
+                    {
+                        _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingPrimitives).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (netstandard20)");
+                    }
+                    return _SystemDrawingPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDynamicRuntime;
+            public static PortableExecutableReference SystemDynamicRuntime
+            {
+                get
+                {
+                    if (_SystemDynamicRuntime == null)
+                    {
+                        _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemDynamicRuntime).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (netstandard20)");
+                    }
+                    return _SystemDynamicRuntime;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemGlobalizationCalendars;
+            public static PortableExecutableReference SystemGlobalizationCalendars
+            {
+                get
+                {
+                    if (_SystemGlobalizationCalendars == null)
+                    {
+                        _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationCalendars).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (netstandard20)");
+                    }
+                    return _SystemGlobalizationCalendars;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemGlobalization;
+            public static PortableExecutableReference SystemGlobalization
+            {
+                get
+                {
+                    if (_SystemGlobalization == null)
+                    {
+                        _SystemGlobalization = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (netstandard20)");
+                    }
+                    return _SystemGlobalization;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemGlobalizationExtensions;
+            public static PortableExecutableReference SystemGlobalizationExtensions
+            {
+                get
+                {
+                    if (_SystemGlobalizationExtensions == null)
+                    {
+                        _SystemGlobalizationExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationExtensions).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (netstandard20)");
+                    }
+                    return _SystemGlobalizationExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOCompression;
+            public static PortableExecutableReference SystemIOCompression
+            {
+                get
+                {
+                    if (_SystemIOCompression == null)
+                    {
+                        _SystemIOCompression = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (netstandard20)");
+                    }
+                    return _SystemIOCompression;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOCompressionFileSystem;
+            public static PortableExecutableReference SystemIOCompressionFileSystem
+            {
+                get
+                {
+                    if (_SystemIOCompressionFileSystem == null)
+                    {
+                        _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionFileSystem).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (netstandard20)");
+                    }
+                    return _SystemIOCompressionFileSystem;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOCompressionZipFile;
+            public static PortableExecutableReference SystemIOCompressionZipFile
+            {
+                get
+                {
+                    if (_SystemIOCompressionZipFile == null)
+                    {
+                        _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionZipFile).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (netstandard20)");
+                    }
+                    return _SystemIOCompressionZipFile;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIO;
+            public static PortableExecutableReference SystemIO
+            {
+                get
+                {
+                    if (_SystemIO == null)
+                    {
+                        _SystemIO = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (netstandard20)");
+                    }
+                    return _SystemIO;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOFileSystem;
+            public static PortableExecutableReference SystemIOFileSystem
+            {
+                get
+                {
+                    if (_SystemIOFileSystem == null)
+                    {
+                        _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystem).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (netstandard20)");
+                    }
+                    return _SystemIOFileSystem;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOFileSystemDriveInfo;
+            public static PortableExecutableReference SystemIOFileSystemDriveInfo
+            {
+                get
+                {
+                    if (_SystemIOFileSystemDriveInfo == null)
+                    {
+                        _SystemIOFileSystemDriveInfo = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemDriveInfo).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (netstandard20)");
+                    }
+                    return _SystemIOFileSystemDriveInfo;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOFileSystemPrimitives;
+            public static PortableExecutableReference SystemIOFileSystemPrimitives
+            {
+                get
+                {
+                    if (_SystemIOFileSystemPrimitives == null)
+                    {
+                        _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemPrimitives).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (netstandard20)");
+                    }
+                    return _SystemIOFileSystemPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOFileSystemWatcher;
+            public static PortableExecutableReference SystemIOFileSystemWatcher
+            {
+                get
+                {
+                    if (_SystemIOFileSystemWatcher == null)
+                    {
+                        _SystemIOFileSystemWatcher = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemWatcher).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (netstandard20)");
+                    }
+                    return _SystemIOFileSystemWatcher;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOIsolatedStorage;
+            public static PortableExecutableReference SystemIOIsolatedStorage
+            {
+                get
+                {
+                    if (_SystemIOIsolatedStorage == null)
+                    {
+                        _SystemIOIsolatedStorage = AssemblyMetadata.CreateFromImage(Resources.SystemIOIsolatedStorage).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (netstandard20)");
+                    }
+                    return _SystemIOIsolatedStorage;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOMemoryMappedFiles;
+            public static PortableExecutableReference SystemIOMemoryMappedFiles
+            {
+                get
+                {
+                    if (_SystemIOMemoryMappedFiles == null)
+                    {
+                        _SystemIOMemoryMappedFiles = AssemblyMetadata.CreateFromImage(Resources.SystemIOMemoryMappedFiles).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (netstandard20)");
+                    }
+                    return _SystemIOMemoryMappedFiles;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOPipes;
+            public static PortableExecutableReference SystemIOPipes
+            {
+                get
+                {
+                    if (_SystemIOPipes == null)
+                    {
+                        _SystemIOPipes = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipes).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (netstandard20)");
+                    }
+                    return _SystemIOPipes;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOUnmanagedMemoryStream;
+            public static PortableExecutableReference SystemIOUnmanagedMemoryStream
+            {
+                get
+                {
+                    if (_SystemIOUnmanagedMemoryStream == null)
+                    {
+                        _SystemIOUnmanagedMemoryStream = AssemblyMetadata.CreateFromImage(Resources.SystemIOUnmanagedMemoryStream).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (netstandard20)");
+                    }
+                    return _SystemIOUnmanagedMemoryStream;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemLinq;
+            public static PortableExecutableReference SystemLinq
+            {
+                get
+                {
+                    if (_SystemLinq == null)
+                    {
+                        _SystemLinq = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (netstandard20)");
+                    }
+                    return _SystemLinq;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemLinqExpressions;
+            public static PortableExecutableReference SystemLinqExpressions
+            {
+                get
+                {
+                    if (_SystemLinqExpressions == null)
+                    {
+                        _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (netstandard20)");
+                    }
+                    return _SystemLinqExpressions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemLinqParallel;
+            public static PortableExecutableReference SystemLinqParallel
+            {
+                get
+                {
+                    if (_SystemLinqParallel == null)
+                    {
+                        _SystemLinqParallel = AssemblyMetadata.CreateFromImage(Resources.SystemLinqParallel).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (netstandard20)");
+                    }
+                    return _SystemLinqParallel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemLinqQueryable;
+            public static PortableExecutableReference SystemLinqQueryable
+            {
+                get
+                {
+                    if (_SystemLinqQueryable == null)
+                    {
+                        _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(Resources.SystemLinqQueryable).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (netstandard20)");
+                    }
+                    return _SystemLinqQueryable;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNet;
+            public static PortableExecutableReference SystemNet
+            {
+                get
+                {
+                    if (_SystemNet == null)
+                    {
+                        _SystemNet = AssemblyMetadata.CreateFromImage(Resources.SystemNet).GetReference(filePath: "System.Net.dll", display: "System.Net (netstandard20)");
+                    }
+                    return _SystemNet;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetHttp;
+            public static PortableExecutableReference SystemNetHttp
+            {
+                get
+                {
+                    if (_SystemNetHttp == null)
+                    {
+                        _SystemNetHttp = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (netstandard20)");
+                    }
+                    return _SystemNetHttp;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetNameResolution;
+            public static PortableExecutableReference SystemNetNameResolution
+            {
+                get
+                {
+                    if (_SystemNetNameResolution == null)
+                    {
+                        _SystemNetNameResolution = AssemblyMetadata.CreateFromImage(Resources.SystemNetNameResolution).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (netstandard20)");
+                    }
+                    return _SystemNetNameResolution;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetNetworkInformation;
+            public static PortableExecutableReference SystemNetNetworkInformation
+            {
+                get
+                {
+                    if (_SystemNetNetworkInformation == null)
+                    {
+                        _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(Resources.SystemNetNetworkInformation).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (netstandard20)");
+                    }
+                    return _SystemNetNetworkInformation;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetPing;
+            public static PortableExecutableReference SystemNetPing
+            {
+                get
+                {
+                    if (_SystemNetPing == null)
+                    {
+                        _SystemNetPing = AssemblyMetadata.CreateFromImage(Resources.SystemNetPing).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (netstandard20)");
+                    }
+                    return _SystemNetPing;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetPrimitives;
+            public static PortableExecutableReference SystemNetPrimitives
+            {
+                get
+                {
+                    if (_SystemNetPrimitives == null)
+                    {
+                        _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (netstandard20)");
+                    }
+                    return _SystemNetPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetRequests;
+            public static PortableExecutableReference SystemNetRequests
+            {
+                get
+                {
+                    if (_SystemNetRequests == null)
+                    {
+                        _SystemNetRequests = AssemblyMetadata.CreateFromImage(Resources.SystemNetRequests).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (netstandard20)");
+                    }
+                    return _SystemNetRequests;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetSecurity;
+            public static PortableExecutableReference SystemNetSecurity
+            {
+                get
+                {
+                    if (_SystemNetSecurity == null)
+                    {
+                        _SystemNetSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemNetSecurity).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (netstandard20)");
+                    }
+                    return _SystemNetSecurity;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetSockets;
+            public static PortableExecutableReference SystemNetSockets
+            {
+                get
+                {
+                    if (_SystemNetSockets == null)
+                    {
+                        _SystemNetSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetSockets).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (netstandard20)");
+                    }
+                    return _SystemNetSockets;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetWebHeaderCollection;
+            public static PortableExecutableReference SystemNetWebHeaderCollection
+            {
+                get
+                {
+                    if (_SystemNetWebHeaderCollection == null)
+                    {
+                        _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebHeaderCollection).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (netstandard20)");
+                    }
+                    return _SystemNetWebHeaderCollection;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetWebSocketsClient;
+            public static PortableExecutableReference SystemNetWebSocketsClient
+            {
+                get
+                {
+                    if (_SystemNetWebSocketsClient == null)
+                    {
+                        _SystemNetWebSocketsClient = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSocketsClient).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (netstandard20)");
+                    }
+                    return _SystemNetWebSocketsClient;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNetWebSockets;
+            public static PortableExecutableReference SystemNetWebSockets
+            {
+                get
+                {
+                    if (_SystemNetWebSockets == null)
+                    {
+                        _SystemNetWebSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSockets).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (netstandard20)");
+                    }
+                    return _SystemNetWebSockets;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemNumerics;
+            public static PortableExecutableReference SystemNumerics
+            {
+                get
+                {
+                    if (_SystemNumerics == null)
+                    {
+                        _SystemNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemNumerics).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (netstandard20)");
+                    }
+                    return _SystemNumerics;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemObjectModel;
+            public static PortableExecutableReference SystemObjectModel
+            {
+                get
+                {
+                    if (_SystemObjectModel == null)
+                    {
+                        _SystemObjectModel = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (netstandard20)");
+                    }
+                    return _SystemObjectModel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflection;
+            public static PortableExecutableReference SystemReflection
+            {
+                get
+                {
+                    if (_SystemReflection == null)
+                    {
+                        _SystemReflection = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (netstandard20)");
+                    }
+                    return _SystemReflection;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionExtensions;
+            public static PortableExecutableReference SystemReflectionExtensions
+            {
+                get
+                {
+                    if (_SystemReflectionExtensions == null)
+                    {
+                        _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (netstandard20)");
+                    }
+                    return _SystemReflectionExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemReflectionPrimitives;
+            public static PortableExecutableReference SystemReflectionPrimitives
+            {
+                get
+                {
+                    if (_SystemReflectionPrimitives == null)
+                    {
+                        _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (netstandard20)");
+                    }
+                    return _SystemReflectionPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemResourcesReader;
+            public static PortableExecutableReference SystemResourcesReader
+            {
+                get
+                {
+                    if (_SystemResourcesReader == null)
+                    {
+                        _SystemResourcesReader = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesReader).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (netstandard20)");
+                    }
+                    return _SystemResourcesReader;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemResourcesResourceManager;
+            public static PortableExecutableReference SystemResourcesResourceManager
+            {
+                get
+                {
+                    if (_SystemResourcesResourceManager == null)
+                    {
+                        _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (netstandard20)");
+                    }
+                    return _SystemResourcesResourceManager;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemResourcesWriter;
+            public static PortableExecutableReference SystemResourcesWriter
+            {
+                get
+                {
+                    if (_SystemResourcesWriter == null)
+                    {
+                        _SystemResourcesWriter = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesWriter).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (netstandard20)");
+                    }
+                    return _SystemResourcesWriter;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeCompilerServicesVisualC;
+            public static PortableExecutableReference SystemRuntimeCompilerServicesVisualC
+            {
+                get
+                {
+                    if (_SystemRuntimeCompilerServicesVisualC == null)
+                    {
+                        _SystemRuntimeCompilerServicesVisualC = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesVisualC).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (netstandard20)");
+                    }
+                    return _SystemRuntimeCompilerServicesVisualC;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntime;
+            public static PortableExecutableReference SystemRuntime
+            {
+                get
+                {
+                    if (_SystemRuntime == null)
+                    {
+                        _SystemRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (netstandard20)");
+                    }
+                    return _SystemRuntime;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeExtensions;
+            public static PortableExecutableReference SystemRuntimeExtensions
+            {
+                get
+                {
+                    if (_SystemRuntimeExtensions == null)
+                    {
+                        _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (netstandard20)");
+                    }
+                    return _SystemRuntimeExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeHandles;
+            public static PortableExecutableReference SystemRuntimeHandles
+            {
+                get
+                {
+                    if (_SystemRuntimeHandles == null)
+                    {
+                        _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (netstandard20)");
+                    }
+                    return _SystemRuntimeHandles;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeInteropServices;
+            public static PortableExecutableReference SystemRuntimeInteropServices
+            {
+                get
+                {
+                    if (_SystemRuntimeInteropServices == null)
+                    {
+                        _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (netstandard20)");
+                    }
+                    return _SystemRuntimeInteropServices;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeInteropServicesRuntimeInformation;
+            public static PortableExecutableReference SystemRuntimeInteropServicesRuntimeInformation
+            {
+                get
+                {
+                    if (_SystemRuntimeInteropServicesRuntimeInformation == null)
+                    {
+                        _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesRuntimeInformation).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (netstandard20)");
+                    }
+                    return _SystemRuntimeInteropServicesRuntimeInformation;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeNumerics;
+            public static PortableExecutableReference SystemRuntimeNumerics
+            {
+                get
+                {
+                    if (_SystemRuntimeNumerics == null)
+                    {
+                        _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (netstandard20)");
+                    }
+                    return _SystemRuntimeNumerics;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerialization;
+            public static PortableExecutableReference SystemRuntimeSerialization
+            {
+                get
+                {
+                    if (_SystemRuntimeSerialization == null)
+                    {
+                        _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerialization).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (netstandard20)");
+                    }
+                    return _SystemRuntimeSerialization;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerializationFormatters;
+            public static PortableExecutableReference SystemRuntimeSerializationFormatters
+            {
+                get
+                {
+                    if (_SystemRuntimeSerializationFormatters == null)
+                    {
+                        _SystemRuntimeSerializationFormatters = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormatters).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (netstandard20)");
+                    }
+                    return _SystemRuntimeSerializationFormatters;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerializationJson;
+            public static PortableExecutableReference SystemRuntimeSerializationJson
+            {
+                get
+                {
+                    if (_SystemRuntimeSerializationJson == null)
+                    {
+                        _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationJson).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (netstandard20)");
+                    }
+                    return _SystemRuntimeSerializationJson;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerializationPrimitives;
+            public static PortableExecutableReference SystemRuntimeSerializationPrimitives
+            {
+                get
+                {
+                    if (_SystemRuntimeSerializationPrimitives == null)
+                    {
+                        _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (netstandard20)");
+                    }
+                    return _SystemRuntimeSerializationPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemRuntimeSerializationXml;
+            public static PortableExecutableReference SystemRuntimeSerializationXml
+            {
+                get
+                {
+                    if (_SystemRuntimeSerializationXml == null)
+                    {
+                        _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationXml).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (netstandard20)");
+                    }
+                    return _SystemRuntimeSerializationXml;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityClaims;
+            public static PortableExecutableReference SystemSecurityClaims
+            {
+                get
+                {
+                    if (_SystemSecurityClaims == null)
+                    {
+                        _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityClaims).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (netstandard20)");
+                    }
+                    return _SystemSecurityClaims;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyAlgorithms;
+            public static PortableExecutableReference SystemSecurityCryptographyAlgorithms
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyAlgorithms == null)
+                    {
+                        _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyAlgorithms).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (netstandard20)");
+                    }
+                    return _SystemSecurityCryptographyAlgorithms;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyCsp;
+            public static PortableExecutableReference SystemSecurityCryptographyCsp
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyCsp == null)
+                    {
+                        _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCsp).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (netstandard20)");
+                    }
+                    return _SystemSecurityCryptographyCsp;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyEncoding;
+            public static PortableExecutableReference SystemSecurityCryptographyEncoding
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyEncoding == null)
+                    {
+                        _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyEncoding).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (netstandard20)");
+                    }
+                    return _SystemSecurityCryptographyEncoding;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyPrimitives;
+            public static PortableExecutableReference SystemSecurityCryptographyPrimitives
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyPrimitives == null)
+                    {
+                        _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPrimitives).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (netstandard20)");
+                    }
+                    return _SystemSecurityCryptographyPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyX509Certificates;
+            public static PortableExecutableReference SystemSecurityCryptographyX509Certificates
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyX509Certificates == null)
+                    {
+                        _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyX509Certificates).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (netstandard20)");
+                    }
+                    return _SystemSecurityCryptographyX509Certificates;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityPrincipal;
+            public static PortableExecutableReference SystemSecurityPrincipal
+            {
+                get
+                {
+                    if (_SystemSecurityPrincipal == null)
+                    {
+                        _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (netstandard20)");
+                    }
+                    return _SystemSecurityPrincipal;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecuritySecureString;
+            public static PortableExecutableReference SystemSecuritySecureString
+            {
+                get
+                {
+                    if (_SystemSecuritySecureString == null)
+                    {
+                        _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(Resources.SystemSecuritySecureString).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (netstandard20)");
+                    }
+                    return _SystemSecuritySecureString;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemServiceModelWeb;
+            public static PortableExecutableReference SystemServiceModelWeb
+            {
+                get
+                {
+                    if (_SystemServiceModelWeb == null)
+                    {
+                        _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelWeb).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (netstandard20)");
+                    }
+                    return _SystemServiceModelWeb;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextEncoding;
+            public static PortableExecutableReference SystemTextEncoding
+            {
+                get
+                {
+                    if (_SystemTextEncoding == null)
+                    {
+                        _SystemTextEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (netstandard20)");
+                    }
+                    return _SystemTextEncoding;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextEncodingExtensions;
+            public static PortableExecutableReference SystemTextEncodingExtensions
+            {
+                get
+                {
+                    if (_SystemTextEncodingExtensions == null)
+                    {
+                        _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (netstandard20)");
+                    }
+                    return _SystemTextEncodingExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTextRegularExpressions;
+            public static PortableExecutableReference SystemTextRegularExpressions
+            {
+                get
+                {
+                    if (_SystemTextRegularExpressions == null)
+                    {
+                        _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (netstandard20)");
+                    }
+                    return _SystemTextRegularExpressions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreading;
+            public static PortableExecutableReference SystemThreading
+            {
+                get
+                {
+                    if (_SystemThreading == null)
+                    {
+                        _SystemThreading = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (netstandard20)");
+                    }
+                    return _SystemThreading;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingOverlapped;
+            public static PortableExecutableReference SystemThreadingOverlapped
+            {
+                get
+                {
+                    if (_SystemThreadingOverlapped == null)
+                    {
+                        _SystemThreadingOverlapped = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingOverlapped).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (netstandard20)");
+                    }
+                    return _SystemThreadingOverlapped;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingTasks;
+            public static PortableExecutableReference SystemThreadingTasks
+            {
+                get
+                {
+                    if (_SystemThreadingTasks == null)
+                    {
+                        _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (netstandard20)");
+                    }
+                    return _SystemThreadingTasks;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingTasksParallel;
+            public static PortableExecutableReference SystemThreadingTasksParallel
+            {
+                get
+                {
+                    if (_SystemThreadingTasksParallel == null)
+                    {
+                        _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksParallel).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (netstandard20)");
+                    }
+                    return _SystemThreadingTasksParallel;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingThread;
+            public static PortableExecutableReference SystemThreadingThread
+            {
+                get
+                {
+                    if (_SystemThreadingThread == null)
+                    {
+                        _SystemThreadingThread = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThread).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (netstandard20)");
+                    }
+                    return _SystemThreadingThread;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingThreadPool;
+            public static PortableExecutableReference SystemThreadingThreadPool
+            {
+                get
+                {
+                    if (_SystemThreadingThreadPool == null)
+                    {
+                        _SystemThreadingThreadPool = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThreadPool).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (netstandard20)");
+                    }
+                    return _SystemThreadingThreadPool;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingTimer;
+            public static PortableExecutableReference SystemThreadingTimer
+            {
+                get
+                {
+                    if (_SystemThreadingTimer == null)
+                    {
+                        _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (netstandard20)");
+                    }
+                    return _SystemThreadingTimer;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemTransactions;
+            public static PortableExecutableReference SystemTransactions
+            {
+                get
+                {
+                    if (_SystemTransactions == null)
+                    {
+                        _SystemTransactions = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (netstandard20)");
+                    }
+                    return _SystemTransactions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemValueTuple;
+            public static PortableExecutableReference SystemValueTuple
+            {
+                get
+                {
+                    if (_SystemValueTuple == null)
+                    {
+                        _SystemValueTuple = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (netstandard20)");
+                    }
+                    return _SystemValueTuple;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWeb;
+            public static PortableExecutableReference SystemWeb
+            {
+                get
+                {
+                    if (_SystemWeb == null)
+                    {
+                        _SystemWeb = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (netstandard20)");
+                    }
+                    return _SystemWeb;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindows;
+            public static PortableExecutableReference SystemWindows
+            {
+                get
+                {
+                    if (_SystemWindows == null)
+                    {
+                        _SystemWindows = AssemblyMetadata.CreateFromImage(Resources.SystemWindows).GetReference(filePath: "System.Windows.dll", display: "System.Windows (netstandard20)");
+                    }
+                    return _SystemWindows;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXml;
+            public static PortableExecutableReference SystemXml
+            {
+                get
+                {
+                    if (_SystemXml == null)
+                    {
+                        _SystemXml = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (netstandard20)");
+                    }
+                    return _SystemXml;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlLinq;
+            public static PortableExecutableReference SystemXmlLinq
+            {
+                get
+                {
+                    if (_SystemXmlLinq == null)
+                    {
+                        _SystemXmlLinq = AssemblyMetadata.CreateFromImage(Resources.SystemXmlLinq).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (netstandard20)");
+                    }
+                    return _SystemXmlLinq;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlReaderWriter;
+            public static PortableExecutableReference SystemXmlReaderWriter
+            {
+                get
+                {
+                    if (_SystemXmlReaderWriter == null)
+                    {
+                        _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (netstandard20)");
+                    }
+                    return _SystemXmlReaderWriter;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlSerialization;
+            public static PortableExecutableReference SystemXmlSerialization
+            {
+                get
+                {
+                    if (_SystemXmlSerialization == null)
+                    {
+                        _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemXmlSerialization).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (netstandard20)");
+                    }
+                    return _SystemXmlSerialization;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXDocument;
+            public static PortableExecutableReference SystemXmlXDocument
+            {
+                get
+                {
+                    if (_SystemXmlXDocument == null)
+                    {
+                        _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (netstandard20)");
+                    }
+                    return _SystemXmlXDocument;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXmlDocument;
+            public static PortableExecutableReference SystemXmlXmlDocument
+            {
+                get
+                {
+                    if (_SystemXmlXmlDocument == null)
+                    {
+                        _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlDocument).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (netstandard20)");
+                    }
+                    return _SystemXmlXmlDocument;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXmlSerializer;
+            public static PortableExecutableReference SystemXmlXmlSerializer
+            {
+                get
+                {
+                    if (_SystemXmlXmlSerializer == null)
+                    {
+                        _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlSerializer).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (netstandard20)");
+                    }
+                    return _SystemXmlXmlSerializer;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXPath;
+            public static PortableExecutableReference SystemXmlXPath
+            {
+                get
+                {
+                    if (_SystemXmlXPath == null)
+                    {
+                        _SystemXmlXPath = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPath).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (netstandard20)");
+                    }
+                    return _SystemXmlXPath;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXmlXPathXDocument;
+            public static PortableExecutableReference SystemXmlXPathXDocument
+            {
+                get
+                {
+                    if (_SystemXmlXPathXDocument == null)
+                    {
+                        _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPathXDocument).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (netstandard20)");
+                    }
+                    return _SystemXmlXPathXDocument;
+                }
+            }
+
+            public static IEnumerable<PortableExecutableReference> All => new PortableExecutableReference[]
             {
                 MicrosoftWin32Primitives,
                 mscorlib,

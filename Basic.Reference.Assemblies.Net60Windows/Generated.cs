@@ -158,7 +158,7 @@ namespace Basic.Reference.Assemblies
             public static ReferenceInfo UIAutomationTypes => new ReferenceInfo("UIAutomationTypes.dll", Resources.UIAutomationTypes, Net60Windows.References.UIAutomationTypes, global::System.Guid.Parse("f5f716d1-9b7e-4836-bab7-a32beced52c5"));
             public static ReferenceInfo WindowsBase => new ReferenceInfo("WindowsBase.dll", Resources.WindowsBase, Net60Windows.References.WindowsBase, global::System.Guid.Parse("cee90dc3-193d-47c0-b952-21ddfab6d351"));
             public static ReferenceInfo WindowsFormsIntegration => new ReferenceInfo("WindowsFormsIntegration.dll", Resources.WindowsFormsIntegration, Net60Windows.References.WindowsFormsIntegration, global::System.Guid.Parse("5be5603b-d992-4de1-9506-0aa668e3ed90"));
-            public static IEnumerable<ReferenceInfo> All { get; }= new []
+            public static IEnumerable<ReferenceInfo> All => new []
             {
                 Accessibility,
                 MicrosoftVisualBasic,
@@ -216,54 +216,618 @@ namespace Basic.Reference.Assemblies
     {
         public static class References
         {
-            public static PortableExecutableReference Accessibility { get; } = AssemblyMetadata.CreateFromImage(Resources.Accessibility).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net60windows)");
-            public static PortableExecutableReference MicrosoftVisualBasic { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net60windows)");
-            public static PortableExecutableReference MicrosoftVisualBasicForms { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicForms).GetReference(filePath: "Microsoft.VisualBasic.Forms.dll", display: "Microsoft.VisualBasic.Forms (net60windows)");
-            public static PortableExecutableReference MicrosoftWin32RegistryAccessControl { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32RegistryAccessControl).GetReference(filePath: "Microsoft.Win32.Registry.AccessControl.dll", display: "Microsoft.Win32.Registry.AccessControl (net60windows)");
-            public static PortableExecutableReference MicrosoftWin32SystemEvents { get; } = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32SystemEvents).GetReference(filePath: "Microsoft.Win32.SystemEvents.dll", display: "Microsoft.Win32.SystemEvents (net60windows)");
-            public static PortableExecutableReference PresentationCore { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationCore).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net60windows)");
-            public static PortableExecutableReference PresentationFrameworkAero { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net60windows)");
-            public static PortableExecutableReference PresentationFrameworkAero2 { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero2).GetReference(filePath: "PresentationFramework.Aero2.dll", display: "PresentationFramework.Aero2 (net60windows)");
-            public static PortableExecutableReference PresentationFrameworkAeroLite { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAeroLite).GetReference(filePath: "PresentationFramework.AeroLite.dll", display: "PresentationFramework.AeroLite (net60windows)");
-            public static PortableExecutableReference PresentationFrameworkClassic { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkClassic).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net60windows)");
-            public static PortableExecutableReference PresentationFramework { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationFramework).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net60windows)");
-            public static PortableExecutableReference PresentationFrameworkLuna { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkLuna).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net60windows)");
-            public static PortableExecutableReference PresentationFrameworkRoyale { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkRoyale).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net60windows)");
-            public static PortableExecutableReference PresentationUI { get; } = AssemblyMetadata.CreateFromImage(Resources.PresentationUI).GetReference(filePath: "PresentationUI.dll", display: "PresentationUI (net60windows)");
-            public static PortableExecutableReference ReachFramework { get; } = AssemblyMetadata.CreateFromImage(Resources.ReachFramework).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net60windows)");
-            public static PortableExecutableReference SystemCodeDom { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemCodeDom).GetReference(filePath: "System.CodeDom.dll", display: "System.CodeDom (net60windows)");
-            public static PortableExecutableReference SystemConfigurationConfigurationManager { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemConfigurationConfigurationManager).GetReference(filePath: "System.Configuration.ConfigurationManager.dll", display: "System.Configuration.ConfigurationManager (net60windows)");
-            public static PortableExecutableReference SystemDesign { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDesign).GetReference(filePath: "System.Design.dll", display: "System.Design (net60windows)");
-            public static PortableExecutableReference SystemDiagnosticsEventLog { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsEventLog).GetReference(filePath: "System.Diagnostics.EventLog.dll", display: "System.Diagnostics.EventLog (net60windows)");
-            public static PortableExecutableReference SystemDiagnosticsPerformanceCounter { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsPerformanceCounter).GetReference(filePath: "System.Diagnostics.PerformanceCounter.dll", display: "System.Diagnostics.PerformanceCounter (net60windows)");
-            public static PortableExecutableReference SystemDirectoryServices { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServices).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net60windows)");
-            public static PortableExecutableReference SystemDrawingCommon { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingCommon).GetReference(filePath: "System.Drawing.Common.dll", display: "System.Drawing.Common (net60windows)");
-            public static PortableExecutableReference SystemDrawingDesign { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingDesign).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net60windows)");
-            public static PortableExecutableReference SystemDrawing { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net60windows)");
-            public static PortableExecutableReference SystemIOPackaging { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemIOPackaging).GetReference(filePath: "System.IO.Packaging.dll", display: "System.IO.Packaging (net60windows)");
-            public static PortableExecutableReference SystemPrinting { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemPrinting).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net60windows)");
-            public static PortableExecutableReference SystemResourcesExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesExtensions).GetReference(filePath: "System.Resources.Extensions.dll", display: "System.Resources.Extensions (net60windows)");
-            public static PortableExecutableReference SystemSecurityCryptographyPkcs { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPkcs).GetReference(filePath: "System.Security.Cryptography.Pkcs.dll", display: "System.Security.Cryptography.Pkcs (net60windows)");
-            public static PortableExecutableReference SystemSecurityCryptographyProtectedData { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyProtectedData).GetReference(filePath: "System.Security.Cryptography.ProtectedData.dll", display: "System.Security.Cryptography.ProtectedData (net60windows)");
-            public static PortableExecutableReference SystemSecurityCryptographyXml { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyXml).GetReference(filePath: "System.Security.Cryptography.Xml.dll", display: "System.Security.Cryptography.Xml (net60windows)");
-            public static PortableExecutableReference SystemSecurityPermissions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPermissions).GetReference(filePath: "System.Security.Permissions.dll", display: "System.Security.Permissions (net60windows)");
-            public static PortableExecutableReference SystemThreadingAccessControl { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingAccessControl).GetReference(filePath: "System.Threading.AccessControl.dll", display: "System.Threading.AccessControl (net60windows)");
-            public static PortableExecutableReference SystemWindowsControlsRibbon { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsControlsRibbon).GetReference(filePath: "System.Windows.Controls.Ribbon.dll", display: "System.Windows.Controls.Ribbon (net60windows)");
-            public static PortableExecutableReference SystemWindowsExtensions { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsExtensions).GetReference(filePath: "System.Windows.Extensions.dll", display: "System.Windows.Extensions (net60windows)");
-            public static PortableExecutableReference SystemWindowsFormsDesign { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDesign).GetReference(filePath: "System.Windows.Forms.Design.dll", display: "System.Windows.Forms.Design (net60windows)");
-            public static PortableExecutableReference SystemWindowsFormsDesignEditors { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDesignEditors).GetReference(filePath: "System.Windows.Forms.Design.Editors.dll", display: "System.Windows.Forms.Design.Editors (net60windows)");
-            public static PortableExecutableReference SystemWindowsForms { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsForms).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net60windows)");
-            public static PortableExecutableReference SystemWindowsFormsPrimitives { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsPrimitives).GetReference(filePath: "System.Windows.Forms.Primitives.dll", display: "System.Windows.Forms.Primitives (net60windows)");
-            public static PortableExecutableReference SystemWindowsInputManipulations { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsInputManipulations).GetReference(filePath: "System.Windows.Input.Manipulations.dll", display: "System.Windows.Input.Manipulations (net60windows)");
-            public static PortableExecutableReference SystemWindowsPresentation { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsPresentation).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net60windows)");
-            public static PortableExecutableReference SystemXaml { get; } = AssemblyMetadata.CreateFromImage(Resources.SystemXaml).GetReference(filePath: "System.Xaml.dll", display: "System.Xaml (net60windows)");
-            public static PortableExecutableReference UIAutomationClient { get; } = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClient).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net60windows)");
-            public static PortableExecutableReference UIAutomationClientSideProviders { get; } = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClientSideProviders).GetReference(filePath: "UIAutomationClientSideProviders.dll", display: "UIAutomationClientSideProviders (net60windows)");
-            public static PortableExecutableReference UIAutomationProvider { get; } = AssemblyMetadata.CreateFromImage(Resources.UIAutomationProvider).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net60windows)");
-            public static PortableExecutableReference UIAutomationTypes { get; } = AssemblyMetadata.CreateFromImage(Resources.UIAutomationTypes).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net60windows)");
-            public static PortableExecutableReference WindowsBase { get; } = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net60windows)");
-            public static PortableExecutableReference WindowsFormsIntegration { get; } = AssemblyMetadata.CreateFromImage(Resources.WindowsFormsIntegration).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net60windows)");
-            public static IEnumerable<PortableExecutableReference> All { get; }= new PortableExecutableReference[]
+            private static PortableExecutableReference? _Accessibility;
+            public static PortableExecutableReference Accessibility
+            {
+                get
+                {
+                    if (_Accessibility == null)
+                    {
+                        _Accessibility = AssemblyMetadata.CreateFromImage(Resources.Accessibility).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net60windows)");
+                    }
+                    return _Accessibility;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftVisualBasic;
+            public static PortableExecutableReference MicrosoftVisualBasic
+            {
+                get
+                {
+                    if (_MicrosoftVisualBasic == null)
+                    {
+                        _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net60windows)");
+                    }
+                    return _MicrosoftVisualBasic;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftVisualBasicForms;
+            public static PortableExecutableReference MicrosoftVisualBasicForms
+            {
+                get
+                {
+                    if (_MicrosoftVisualBasicForms == null)
+                    {
+                        _MicrosoftVisualBasicForms = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicForms).GetReference(filePath: "Microsoft.VisualBasic.Forms.dll", display: "Microsoft.VisualBasic.Forms (net60windows)");
+                    }
+                    return _MicrosoftVisualBasicForms;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftWin32RegistryAccessControl;
+            public static PortableExecutableReference MicrosoftWin32RegistryAccessControl
+            {
+                get
+                {
+                    if (_MicrosoftWin32RegistryAccessControl == null)
+                    {
+                        _MicrosoftWin32RegistryAccessControl = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32RegistryAccessControl).GetReference(filePath: "Microsoft.Win32.Registry.AccessControl.dll", display: "Microsoft.Win32.Registry.AccessControl (net60windows)");
+                    }
+                    return _MicrosoftWin32RegistryAccessControl;
+                }
+            }
+
+            private static PortableExecutableReference? _MicrosoftWin32SystemEvents;
+            public static PortableExecutableReference MicrosoftWin32SystemEvents
+            {
+                get
+                {
+                    if (_MicrosoftWin32SystemEvents == null)
+                    {
+                        _MicrosoftWin32SystemEvents = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32SystemEvents).GetReference(filePath: "Microsoft.Win32.SystemEvents.dll", display: "Microsoft.Win32.SystemEvents (net60windows)");
+                    }
+                    return _MicrosoftWin32SystemEvents;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationCore;
+            public static PortableExecutableReference PresentationCore
+            {
+                get
+                {
+                    if (_PresentationCore == null)
+                    {
+                        _PresentationCore = AssemblyMetadata.CreateFromImage(Resources.PresentationCore).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net60windows)");
+                    }
+                    return _PresentationCore;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationFrameworkAero;
+            public static PortableExecutableReference PresentationFrameworkAero
+            {
+                get
+                {
+                    if (_PresentationFrameworkAero == null)
+                    {
+                        _PresentationFrameworkAero = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net60windows)");
+                    }
+                    return _PresentationFrameworkAero;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationFrameworkAero2;
+            public static PortableExecutableReference PresentationFrameworkAero2
+            {
+                get
+                {
+                    if (_PresentationFrameworkAero2 == null)
+                    {
+                        _PresentationFrameworkAero2 = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero2).GetReference(filePath: "PresentationFramework.Aero2.dll", display: "PresentationFramework.Aero2 (net60windows)");
+                    }
+                    return _PresentationFrameworkAero2;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationFrameworkAeroLite;
+            public static PortableExecutableReference PresentationFrameworkAeroLite
+            {
+                get
+                {
+                    if (_PresentationFrameworkAeroLite == null)
+                    {
+                        _PresentationFrameworkAeroLite = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAeroLite).GetReference(filePath: "PresentationFramework.AeroLite.dll", display: "PresentationFramework.AeroLite (net60windows)");
+                    }
+                    return _PresentationFrameworkAeroLite;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationFrameworkClassic;
+            public static PortableExecutableReference PresentationFrameworkClassic
+            {
+                get
+                {
+                    if (_PresentationFrameworkClassic == null)
+                    {
+                        _PresentationFrameworkClassic = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkClassic).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net60windows)");
+                    }
+                    return _PresentationFrameworkClassic;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationFramework;
+            public static PortableExecutableReference PresentationFramework
+            {
+                get
+                {
+                    if (_PresentationFramework == null)
+                    {
+                        _PresentationFramework = AssemblyMetadata.CreateFromImage(Resources.PresentationFramework).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net60windows)");
+                    }
+                    return _PresentationFramework;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationFrameworkLuna;
+            public static PortableExecutableReference PresentationFrameworkLuna
+            {
+                get
+                {
+                    if (_PresentationFrameworkLuna == null)
+                    {
+                        _PresentationFrameworkLuna = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkLuna).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net60windows)");
+                    }
+                    return _PresentationFrameworkLuna;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationFrameworkRoyale;
+            public static PortableExecutableReference PresentationFrameworkRoyale
+            {
+                get
+                {
+                    if (_PresentationFrameworkRoyale == null)
+                    {
+                        _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkRoyale).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net60windows)");
+                    }
+                    return _PresentationFrameworkRoyale;
+                }
+            }
+
+            private static PortableExecutableReference? _PresentationUI;
+            public static PortableExecutableReference PresentationUI
+            {
+                get
+                {
+                    if (_PresentationUI == null)
+                    {
+                        _PresentationUI = AssemblyMetadata.CreateFromImage(Resources.PresentationUI).GetReference(filePath: "PresentationUI.dll", display: "PresentationUI (net60windows)");
+                    }
+                    return _PresentationUI;
+                }
+            }
+
+            private static PortableExecutableReference? _ReachFramework;
+            public static PortableExecutableReference ReachFramework
+            {
+                get
+                {
+                    if (_ReachFramework == null)
+                    {
+                        _ReachFramework = AssemblyMetadata.CreateFromImage(Resources.ReachFramework).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net60windows)");
+                    }
+                    return _ReachFramework;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemCodeDom;
+            public static PortableExecutableReference SystemCodeDom
+            {
+                get
+                {
+                    if (_SystemCodeDom == null)
+                    {
+                        _SystemCodeDom = AssemblyMetadata.CreateFromImage(Resources.SystemCodeDom).GetReference(filePath: "System.CodeDom.dll", display: "System.CodeDom (net60windows)");
+                    }
+                    return _SystemCodeDom;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemConfigurationConfigurationManager;
+            public static PortableExecutableReference SystemConfigurationConfigurationManager
+            {
+                get
+                {
+                    if (_SystemConfigurationConfigurationManager == null)
+                    {
+                        _SystemConfigurationConfigurationManager = AssemblyMetadata.CreateFromImage(Resources.SystemConfigurationConfigurationManager).GetReference(filePath: "System.Configuration.ConfigurationManager.dll", display: "System.Configuration.ConfigurationManager (net60windows)");
+                    }
+                    return _SystemConfigurationConfigurationManager;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDesign;
+            public static PortableExecutableReference SystemDesign
+            {
+                get
+                {
+                    if (_SystemDesign == null)
+                    {
+                        _SystemDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDesign).GetReference(filePath: "System.Design.dll", display: "System.Design (net60windows)");
+                    }
+                    return _SystemDesign;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsEventLog;
+            public static PortableExecutableReference SystemDiagnosticsEventLog
+            {
+                get
+                {
+                    if (_SystemDiagnosticsEventLog == null)
+                    {
+                        _SystemDiagnosticsEventLog = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsEventLog).GetReference(filePath: "System.Diagnostics.EventLog.dll", display: "System.Diagnostics.EventLog (net60windows)");
+                    }
+                    return _SystemDiagnosticsEventLog;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDiagnosticsPerformanceCounter;
+            public static PortableExecutableReference SystemDiagnosticsPerformanceCounter
+            {
+                get
+                {
+                    if (_SystemDiagnosticsPerformanceCounter == null)
+                    {
+                        _SystemDiagnosticsPerformanceCounter = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsPerformanceCounter).GetReference(filePath: "System.Diagnostics.PerformanceCounter.dll", display: "System.Diagnostics.PerformanceCounter (net60windows)");
+                    }
+                    return _SystemDiagnosticsPerformanceCounter;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDirectoryServices;
+            public static PortableExecutableReference SystemDirectoryServices
+            {
+                get
+                {
+                    if (_SystemDirectoryServices == null)
+                    {
+                        _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServices).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net60windows)");
+                    }
+                    return _SystemDirectoryServices;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDrawingCommon;
+            public static PortableExecutableReference SystemDrawingCommon
+            {
+                get
+                {
+                    if (_SystemDrawingCommon == null)
+                    {
+                        _SystemDrawingCommon = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingCommon).GetReference(filePath: "System.Drawing.Common.dll", display: "System.Drawing.Common (net60windows)");
+                    }
+                    return _SystemDrawingCommon;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDrawingDesign;
+            public static PortableExecutableReference SystemDrawingDesign
+            {
+                get
+                {
+                    if (_SystemDrawingDesign == null)
+                    {
+                        _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingDesign).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net60windows)");
+                    }
+                    return _SystemDrawingDesign;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemDrawing;
+            public static PortableExecutableReference SystemDrawing
+            {
+                get
+                {
+                    if (_SystemDrawing == null)
+                    {
+                        _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net60windows)");
+                    }
+                    return _SystemDrawing;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemIOPackaging;
+            public static PortableExecutableReference SystemIOPackaging
+            {
+                get
+                {
+                    if (_SystemIOPackaging == null)
+                    {
+                        _SystemIOPackaging = AssemblyMetadata.CreateFromImage(Resources.SystemIOPackaging).GetReference(filePath: "System.IO.Packaging.dll", display: "System.IO.Packaging (net60windows)");
+                    }
+                    return _SystemIOPackaging;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemPrinting;
+            public static PortableExecutableReference SystemPrinting
+            {
+                get
+                {
+                    if (_SystemPrinting == null)
+                    {
+                        _SystemPrinting = AssemblyMetadata.CreateFromImage(Resources.SystemPrinting).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net60windows)");
+                    }
+                    return _SystemPrinting;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemResourcesExtensions;
+            public static PortableExecutableReference SystemResourcesExtensions
+            {
+                get
+                {
+                    if (_SystemResourcesExtensions == null)
+                    {
+                        _SystemResourcesExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesExtensions).GetReference(filePath: "System.Resources.Extensions.dll", display: "System.Resources.Extensions (net60windows)");
+                    }
+                    return _SystemResourcesExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyPkcs;
+            public static PortableExecutableReference SystemSecurityCryptographyPkcs
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyPkcs == null)
+                    {
+                        _SystemSecurityCryptographyPkcs = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPkcs).GetReference(filePath: "System.Security.Cryptography.Pkcs.dll", display: "System.Security.Cryptography.Pkcs (net60windows)");
+                    }
+                    return _SystemSecurityCryptographyPkcs;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyProtectedData;
+            public static PortableExecutableReference SystemSecurityCryptographyProtectedData
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyProtectedData == null)
+                    {
+                        _SystemSecurityCryptographyProtectedData = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyProtectedData).GetReference(filePath: "System.Security.Cryptography.ProtectedData.dll", display: "System.Security.Cryptography.ProtectedData (net60windows)");
+                    }
+                    return _SystemSecurityCryptographyProtectedData;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityCryptographyXml;
+            public static PortableExecutableReference SystemSecurityCryptographyXml
+            {
+                get
+                {
+                    if (_SystemSecurityCryptographyXml == null)
+                    {
+                        _SystemSecurityCryptographyXml = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyXml).GetReference(filePath: "System.Security.Cryptography.Xml.dll", display: "System.Security.Cryptography.Xml (net60windows)");
+                    }
+                    return _SystemSecurityCryptographyXml;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemSecurityPermissions;
+            public static PortableExecutableReference SystemSecurityPermissions
+            {
+                get
+                {
+                    if (_SystemSecurityPermissions == null)
+                    {
+                        _SystemSecurityPermissions = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPermissions).GetReference(filePath: "System.Security.Permissions.dll", display: "System.Security.Permissions (net60windows)");
+                    }
+                    return _SystemSecurityPermissions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemThreadingAccessControl;
+            public static PortableExecutableReference SystemThreadingAccessControl
+            {
+                get
+                {
+                    if (_SystemThreadingAccessControl == null)
+                    {
+                        _SystemThreadingAccessControl = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingAccessControl).GetReference(filePath: "System.Threading.AccessControl.dll", display: "System.Threading.AccessControl (net60windows)");
+                    }
+                    return _SystemThreadingAccessControl;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindowsControlsRibbon;
+            public static PortableExecutableReference SystemWindowsControlsRibbon
+            {
+                get
+                {
+                    if (_SystemWindowsControlsRibbon == null)
+                    {
+                        _SystemWindowsControlsRibbon = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsControlsRibbon).GetReference(filePath: "System.Windows.Controls.Ribbon.dll", display: "System.Windows.Controls.Ribbon (net60windows)");
+                    }
+                    return _SystemWindowsControlsRibbon;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindowsExtensions;
+            public static PortableExecutableReference SystemWindowsExtensions
+            {
+                get
+                {
+                    if (_SystemWindowsExtensions == null)
+                    {
+                        _SystemWindowsExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsExtensions).GetReference(filePath: "System.Windows.Extensions.dll", display: "System.Windows.Extensions (net60windows)");
+                    }
+                    return _SystemWindowsExtensions;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindowsFormsDesign;
+            public static PortableExecutableReference SystemWindowsFormsDesign
+            {
+                get
+                {
+                    if (_SystemWindowsFormsDesign == null)
+                    {
+                        _SystemWindowsFormsDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDesign).GetReference(filePath: "System.Windows.Forms.Design.dll", display: "System.Windows.Forms.Design (net60windows)");
+                    }
+                    return _SystemWindowsFormsDesign;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindowsFormsDesignEditors;
+            public static PortableExecutableReference SystemWindowsFormsDesignEditors
+            {
+                get
+                {
+                    if (_SystemWindowsFormsDesignEditors == null)
+                    {
+                        _SystemWindowsFormsDesignEditors = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDesignEditors).GetReference(filePath: "System.Windows.Forms.Design.Editors.dll", display: "System.Windows.Forms.Design.Editors (net60windows)");
+                    }
+                    return _SystemWindowsFormsDesignEditors;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindowsForms;
+            public static PortableExecutableReference SystemWindowsForms
+            {
+                get
+                {
+                    if (_SystemWindowsForms == null)
+                    {
+                        _SystemWindowsForms = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsForms).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net60windows)");
+                    }
+                    return _SystemWindowsForms;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindowsFormsPrimitives;
+            public static PortableExecutableReference SystemWindowsFormsPrimitives
+            {
+                get
+                {
+                    if (_SystemWindowsFormsPrimitives == null)
+                    {
+                        _SystemWindowsFormsPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsPrimitives).GetReference(filePath: "System.Windows.Forms.Primitives.dll", display: "System.Windows.Forms.Primitives (net60windows)");
+                    }
+                    return _SystemWindowsFormsPrimitives;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindowsInputManipulations;
+            public static PortableExecutableReference SystemWindowsInputManipulations
+            {
+                get
+                {
+                    if (_SystemWindowsInputManipulations == null)
+                    {
+                        _SystemWindowsInputManipulations = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsInputManipulations).GetReference(filePath: "System.Windows.Input.Manipulations.dll", display: "System.Windows.Input.Manipulations (net60windows)");
+                    }
+                    return _SystemWindowsInputManipulations;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemWindowsPresentation;
+            public static PortableExecutableReference SystemWindowsPresentation
+            {
+                get
+                {
+                    if (_SystemWindowsPresentation == null)
+                    {
+                        _SystemWindowsPresentation = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsPresentation).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net60windows)");
+                    }
+                    return _SystemWindowsPresentation;
+                }
+            }
+
+            private static PortableExecutableReference? _SystemXaml;
+            public static PortableExecutableReference SystemXaml
+            {
+                get
+                {
+                    if (_SystemXaml == null)
+                    {
+                        _SystemXaml = AssemblyMetadata.CreateFromImage(Resources.SystemXaml).GetReference(filePath: "System.Xaml.dll", display: "System.Xaml (net60windows)");
+                    }
+                    return _SystemXaml;
+                }
+            }
+
+            private static PortableExecutableReference? _UIAutomationClient;
+            public static PortableExecutableReference UIAutomationClient
+            {
+                get
+                {
+                    if (_UIAutomationClient == null)
+                    {
+                        _UIAutomationClient = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClient).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net60windows)");
+                    }
+                    return _UIAutomationClient;
+                }
+            }
+
+            private static PortableExecutableReference? _UIAutomationClientSideProviders;
+            public static PortableExecutableReference UIAutomationClientSideProviders
+            {
+                get
+                {
+                    if (_UIAutomationClientSideProviders == null)
+                    {
+                        _UIAutomationClientSideProviders = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClientSideProviders).GetReference(filePath: "UIAutomationClientSideProviders.dll", display: "UIAutomationClientSideProviders (net60windows)");
+                    }
+                    return _UIAutomationClientSideProviders;
+                }
+            }
+
+            private static PortableExecutableReference? _UIAutomationProvider;
+            public static PortableExecutableReference UIAutomationProvider
+            {
+                get
+                {
+                    if (_UIAutomationProvider == null)
+                    {
+                        _UIAutomationProvider = AssemblyMetadata.CreateFromImage(Resources.UIAutomationProvider).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net60windows)");
+                    }
+                    return _UIAutomationProvider;
+                }
+            }
+
+            private static PortableExecutableReference? _UIAutomationTypes;
+            public static PortableExecutableReference UIAutomationTypes
+            {
+                get
+                {
+                    if (_UIAutomationTypes == null)
+                    {
+                        _UIAutomationTypes = AssemblyMetadata.CreateFromImage(Resources.UIAutomationTypes).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net60windows)");
+                    }
+                    return _UIAutomationTypes;
+                }
+            }
+
+            private static PortableExecutableReference? _WindowsBase;
+            public static PortableExecutableReference WindowsBase
+            {
+                get
+                {
+                    if (_WindowsBase == null)
+                    {
+                        _WindowsBase = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net60windows)");
+                    }
+                    return _WindowsBase;
+                }
+            }
+
+            private static PortableExecutableReference? _WindowsFormsIntegration;
+            public static PortableExecutableReference WindowsFormsIntegration
+            {
+                get
+                {
+                    if (_WindowsFormsIntegration == null)
+                    {
+                        _WindowsFormsIntegration = AssemblyMetadata.CreateFromImage(Resources.WindowsFormsIntegration).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net60windows)");
+                    }
+                    return _WindowsFormsIntegration;
+                }
+            }
+
+            public static IEnumerable<PortableExecutableReference> All => new PortableExecutableReference[]
             {
                 Accessibility,
                 MicrosoftVisualBasic,
