@@ -250,6 +250,12 @@ $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net70"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
+# Net80
+$map = Get-Content "Net80" 'microsoft.netcore.app.ref\8.0.0-preview.3.23174.8\ref\net8.0'
+$targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net80"
+$map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
+$map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
+
 # NetStandardl.3
 $map = Get-ResourceContent "NetStandard13" "Resources\netstandard1.3"
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.NetStandard13"

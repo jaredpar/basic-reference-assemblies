@@ -20,6 +20,7 @@ namespace Basic.Reference.Assemblies.UnitTests
                     new object[] { "net5.0", Net50.References.All },
                     new object[] { "net6.0", Net60.References.All },
                     new object[] { "net7.0", Net70.References.All },
+                    new object[] { "net8.0", Net70.References.All },
                 };
             }
         }
@@ -55,6 +56,7 @@ namespace Basic.Reference.Assemblies.UnitTests
                     new object[] { "net5.0", Net50.ReferenceInfos.AllValues },
                     new object[] { "net6.0", Net60.ReferenceInfos.AllValues },
                     new object[] { "net7.0", Net70.ReferenceInfos.AllValues },
+                    new object[] { "net8.0", Net80.ReferenceInfos.AllValues },
                 };
             }
         }
