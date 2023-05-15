@@ -5,7 +5,13 @@ on:
       version:
         description: 'Package Version'     
         required: true
+        type: string
         default: ''
+      publish:
+        description: 'Publish Packages'
+        required: true
+        type: boolean
+        default: true
 
 jobs:
   publish:
@@ -18,49 +24,15 @@ jobs:
         with:
           dotnet-version: 6.0.x
 
-      - name: Restore dependencies
-        run: dotnet restore
-
-      - name: Build 
-        run: dotnet build -c Release 
-
-      - name: Pack Combined
-        run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies/Basic.Reference.Assemblies.csproj -o .
-      
-      - name: Pack Net50
-        run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.Net50/Basic.Reference.Assemblies.Net50.csproj -o .
-
-      - name: Pack Net60
-        run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.Net60/Basic.Reference.Assemblies.Net60.csproj -o .
-
-      - name: Pack Net60Windows
-        run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.Net60Windows/Basic.Reference.Assemblies.Net60Windows.csproj -o .
-
-      - name: Pack Net70
-        run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.Net70/Basic.Reference.Assemblies.Net70.csproj -o .
-
-      - name: Pack Net80
-        run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.Net80/Basic.Reference.Assemblies.Net80.csproj -o .
-
-      - name: Pack NetCoreApp31
-        run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.NetCoreApp31/Basic.Reference.Assemblies.NetCoreApp31.csproj -o .
-
-      - name: Pack NetStandard13
-        run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.NetStandard13/Basic.Reference.Assemblies.NetStandard13.csproj -o .
-
-      - name: Pack NetStandard20
-        run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.NetStandard20/Basic.Reference.Assemblies.NetStandard20.csproj -o .
-
-      - name: Pack Net461
-        run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.Net461/Basic.Reference.Assemblies.Net461.csproj -o .
-
-      - name: Pack Net472
-        run: dotnet pack --no-build -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release Basic.Reference.Assemblies.Net472/Basic.Reference.Assemblies.Net472.csproj -o .
+      - name: Pack Solution
+        run: dotnet pack -p:PackageOutputPath="${GITHUB_WORKSPACE}/packages" -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release 
 
       - name: Publish NuPkg Files
-        run: dotnet nuget push "*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json 
+        if: ${{ github.events.inputs.publish }}
+        run: dotnet nuget push "$GITHUB_WORKSPACE/*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json 
 
       - name: Create Tag and Release
+        if: ${{ github.events.inputs.publish }}
         id: create_release
         uses: actions/create-release@v1
         env:
