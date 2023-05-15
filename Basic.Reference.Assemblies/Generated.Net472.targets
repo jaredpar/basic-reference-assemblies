@@ -1,938 +1,938 @@
 <Project>
     <ItemGroup>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Accessibility.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Accessibility.dll">
           <LogicalName>net472.Accessibility</LogicalName>
           <Link>Resources\net472\Accessibility.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\CustomMarshalers.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\CustomMarshalers.dll">
           <LogicalName>net472.CustomMarshalers</LogicalName>
           <Link>Resources\net472\CustomMarshalers.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\ISymWrapper.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\ISymWrapper.dll">
           <LogicalName>net472.ISymWrapper</LogicalName>
           <Link>Resources\net472\ISymWrapper.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.Activities.Build.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.Activities.Build.dll">
           <LogicalName>net472.Microsoft.Activities.Build</LogicalName>
           <Link>Resources\net472\Microsoft.Activities.Build.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.Build.Conversion.v4.0.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.Build.Conversion.v4.0.dll">
           <LogicalName>net472.Microsoft.Build.Conversion.v4.0</LogicalName>
           <Link>Resources\net472\Microsoft.Build.Conversion.v4.0.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.Build.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.Build.dll">
           <LogicalName>net472.Microsoft.Build</LogicalName>
           <Link>Resources\net472\Microsoft.Build.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.Build.Engine.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.Build.Engine.dll">
           <LogicalName>net472.Microsoft.Build.Engine</LogicalName>
           <Link>Resources\net472\Microsoft.Build.Engine.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.Build.Framework.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.Build.Framework.dll">
           <LogicalName>net472.Microsoft.Build.Framework</LogicalName>
           <Link>Resources\net472\Microsoft.Build.Framework.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.Build.Tasks.v4.0.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.Build.Tasks.v4.0.dll">
           <LogicalName>net472.Microsoft.Build.Tasks.v4.0</LogicalName>
           <Link>Resources\net472\Microsoft.Build.Tasks.v4.0.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.Build.Utilities.v4.0.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.Build.Utilities.v4.0.dll">
           <LogicalName>net472.Microsoft.Build.Utilities.v4.0</LogicalName>
           <Link>Resources\net472\Microsoft.Build.Utilities.v4.0.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.CSharp.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.CSharp.dll">
           <LogicalName>net472.Microsoft.CSharp</LogicalName>
           <Link>Resources\net472\Microsoft.CSharp.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.JScript.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.JScript.dll">
           <LogicalName>net472.Microsoft.JScript</LogicalName>
           <Link>Resources\net472\Microsoft.JScript.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.VisualBasic.Compatibility.Data.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.VisualBasic.Compatibility.Data.dll">
           <LogicalName>net472.Microsoft.VisualBasic.Compatibility.Data</LogicalName>
           <Link>Resources\net472\Microsoft.VisualBasic.Compatibility.Data.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.VisualBasic.Compatibility.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.VisualBasic.Compatibility.dll">
           <LogicalName>net472.Microsoft.VisualBasic.Compatibility</LogicalName>
           <Link>Resources\net472\Microsoft.VisualBasic.Compatibility.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.VisualBasic.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.VisualBasic.dll">
           <LogicalName>net472.Microsoft.VisualBasic</LogicalName>
           <Link>Resources\net472\Microsoft.VisualBasic.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.VisualC.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.VisualC.dll">
           <LogicalName>net472.Microsoft.VisualC</LogicalName>
           <Link>Resources\net472\Microsoft.VisualC.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.VisualC.STLCLR.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Microsoft.VisualC.STLCLR.dll">
           <LogicalName>net472.Microsoft.VisualC.STLCLR</LogicalName>
           <Link>Resources\net472\Microsoft.VisualC.STLCLR.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\mscorlib.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\mscorlib.dll">
           <LogicalName>net472.mscorlib</LogicalName>
           <Link>Resources\net472\mscorlib.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationBuildTasks.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationBuildTasks.dll">
           <LogicalName>net472.PresentationBuildTasks</LogicalName>
           <Link>Resources\net472\PresentationBuildTasks.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationCore.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationCore.dll">
           <LogicalName>net472.PresentationCore</LogicalName>
           <Link>Resources\net472\PresentationCore.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationFramework.Aero.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationFramework.Aero.dll">
           <LogicalName>net472.PresentationFramework.Aero</LogicalName>
           <Link>Resources\net472\PresentationFramework.Aero.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationFramework.Aero2.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationFramework.Aero2.dll">
           <LogicalName>net472.PresentationFramework.Aero2</LogicalName>
           <Link>Resources\net472\PresentationFramework.Aero2.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationFramework.AeroLite.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationFramework.AeroLite.dll">
           <LogicalName>net472.PresentationFramework.AeroLite</LogicalName>
           <Link>Resources\net472\PresentationFramework.AeroLite.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationFramework.Classic.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationFramework.Classic.dll">
           <LogicalName>net472.PresentationFramework.Classic</LogicalName>
           <Link>Resources\net472\PresentationFramework.Classic.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationFramework.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationFramework.dll">
           <LogicalName>net472.PresentationFramework</LogicalName>
           <Link>Resources\net472\PresentationFramework.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationFramework.Luna.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationFramework.Luna.dll">
           <LogicalName>net472.PresentationFramework.Luna</LogicalName>
           <Link>Resources\net472\PresentationFramework.Luna.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationFramework.Royale.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\PresentationFramework.Royale.dll">
           <LogicalName>net472.PresentationFramework.Royale</LogicalName>
           <Link>Resources\net472\PresentationFramework.Royale.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\ReachFramework.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\ReachFramework.dll">
           <LogicalName>net472.ReachFramework</LogicalName>
           <Link>Resources\net472\ReachFramework.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\sysglobl.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\sysglobl.dll">
           <LogicalName>net472.sysglobl</LogicalName>
           <Link>Resources\net472\sysglobl.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Activities.Core.Presentation.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Activities.Core.Presentation.dll">
           <LogicalName>net472.System.Activities.Core.Presentation</LogicalName>
           <Link>Resources\net472\System.Activities.Core.Presentation.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Activities.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Activities.dll">
           <LogicalName>net472.System.Activities</LogicalName>
           <Link>Resources\net472\System.Activities.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Activities.DurableInstancing.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Activities.DurableInstancing.dll">
           <LogicalName>net472.System.Activities.DurableInstancing</LogicalName>
           <Link>Resources\net472\System.Activities.DurableInstancing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Activities.Presentation.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Activities.Presentation.dll">
           <LogicalName>net472.System.Activities.Presentation</LogicalName>
           <Link>Resources\net472\System.Activities.Presentation.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.AddIn.Contract.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.AddIn.Contract.dll">
           <LogicalName>net472.System.AddIn.Contract</LogicalName>
           <Link>Resources\net472\System.AddIn.Contract.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.AddIn.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.AddIn.dll">
           <LogicalName>net472.System.AddIn</LogicalName>
           <Link>Resources\net472\System.AddIn.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ComponentModel.Composition.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ComponentModel.Composition.dll">
           <LogicalName>net472.System.ComponentModel.Composition</LogicalName>
           <Link>Resources\net472\System.ComponentModel.Composition.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ComponentModel.Composition.Registration.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ComponentModel.Composition.Registration.dll">
           <LogicalName>net472.System.ComponentModel.Composition.Registration</LogicalName>
           <Link>Resources\net472\System.ComponentModel.Composition.Registration.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ComponentModel.DataAnnotations.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ComponentModel.DataAnnotations.dll">
           <LogicalName>net472.System.ComponentModel.DataAnnotations</LogicalName>
           <Link>Resources\net472\System.ComponentModel.DataAnnotations.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Configuration.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Configuration.dll">
           <LogicalName>net472.System.Configuration</LogicalName>
           <Link>Resources\net472\System.Configuration.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Configuration.Install.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Configuration.Install.dll">
           <LogicalName>net472.System.Configuration.Install</LogicalName>
           <Link>Resources\net472\System.Configuration.Install.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Core.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Core.dll">
           <LogicalName>net472.System.Core</LogicalName>
           <Link>Resources\net472\System.Core.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.DataSetExtensions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.DataSetExtensions.dll">
           <LogicalName>net472.System.Data.DataSetExtensions</LogicalName>
           <Link>Resources\net472\System.Data.DataSetExtensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.dll">
           <LogicalName>net472.System.Data</LogicalName>
           <Link>Resources\net472\System.Data.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.Entity.Design.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.Entity.Design.dll">
           <LogicalName>net472.System.Data.Entity.Design</LogicalName>
           <Link>Resources\net472\System.Data.Entity.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.Entity.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.Entity.dll">
           <LogicalName>net472.System.Data.Entity</LogicalName>
           <Link>Resources\net472\System.Data.Entity.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.Linq.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.Linq.dll">
           <LogicalName>net472.System.Data.Linq</LogicalName>
           <Link>Resources\net472\System.Data.Linq.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.OracleClient.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.OracleClient.dll">
           <LogicalName>net472.System.Data.OracleClient</LogicalName>
           <Link>Resources\net472\System.Data.OracleClient.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.Services.Client.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.Services.Client.dll">
           <LogicalName>net472.System.Data.Services.Client</LogicalName>
           <Link>Resources\net472\System.Data.Services.Client.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.Services.Design.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.Services.Design.dll">
           <LogicalName>net472.System.Data.Services.Design</LogicalName>
           <Link>Resources\net472\System.Data.Services.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.Services.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.Services.dll">
           <LogicalName>net472.System.Data.Services</LogicalName>
           <Link>Resources\net472\System.Data.Services.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.SqlXml.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Data.SqlXml.dll">
           <LogicalName>net472.System.Data.SqlXml</LogicalName>
           <Link>Resources\net472\System.Data.SqlXml.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Deployment.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Deployment.dll">
           <LogicalName>net472.System.Deployment</LogicalName>
           <Link>Resources\net472\System.Deployment.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Design.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Design.dll">
           <LogicalName>net472.System.Design</LogicalName>
           <Link>Resources\net472\System.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Device.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Device.dll">
           <LogicalName>net472.System.Device</LogicalName>
           <Link>Resources\net472\System.Device.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Diagnostics.Tracing.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Diagnostics.Tracing.dll">
           <LogicalName>net472.System.Diagnostics.Tracing</LogicalName>
           <Link>Resources\net472\System.Diagnostics.Tracing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.DirectoryServices.AccountManagement.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.DirectoryServices.AccountManagement.dll">
           <LogicalName>net472.System.DirectoryServices.AccountManagement</LogicalName>
           <Link>Resources\net472\System.DirectoryServices.AccountManagement.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.DirectoryServices.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.DirectoryServices.dll">
           <LogicalName>net472.System.DirectoryServices</LogicalName>
           <Link>Resources\net472\System.DirectoryServices.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.DirectoryServices.Protocols.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.DirectoryServices.Protocols.dll">
           <LogicalName>net472.System.DirectoryServices.Protocols</LogicalName>
           <Link>Resources\net472\System.DirectoryServices.Protocols.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.dll">
           <LogicalName>net472.System</LogicalName>
           <Link>Resources\net472\System.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Drawing.Design.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Drawing.Design.dll">
           <LogicalName>net472.System.Drawing.Design</LogicalName>
           <Link>Resources\net472\System.Drawing.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Drawing.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Drawing.dll">
           <LogicalName>net472.System.Drawing</LogicalName>
           <Link>Resources\net472\System.Drawing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Dynamic.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Dynamic.dll">
           <LogicalName>net472.System.Dynamic</LogicalName>
           <Link>Resources\net472\System.Dynamic.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.IdentityModel.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.IdentityModel.dll">
           <LogicalName>net472.System.IdentityModel</LogicalName>
           <Link>Resources\net472\System.IdentityModel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.IdentityModel.Selectors.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.IdentityModel.Selectors.dll">
           <LogicalName>net472.System.IdentityModel.Selectors</LogicalName>
           <Link>Resources\net472\System.IdentityModel.Selectors.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.IdentityModel.Services.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.IdentityModel.Services.dll">
           <LogicalName>net472.System.IdentityModel.Services</LogicalName>
           <Link>Resources\net472\System.IdentityModel.Services.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.IO.Compression.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.IO.Compression.dll">
           <LogicalName>net472.System.IO.Compression</LogicalName>
           <Link>Resources\net472\System.IO.Compression.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.IO.Compression.FileSystem.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.IO.Compression.FileSystem.dll">
           <LogicalName>net472.System.IO.Compression.FileSystem</LogicalName>
           <Link>Resources\net472\System.IO.Compression.FileSystem.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.IO.Log.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.IO.Log.dll">
           <LogicalName>net472.System.IO.Log</LogicalName>
           <Link>Resources\net472\System.IO.Log.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Management.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Management.dll">
           <LogicalName>net472.System.Management</LogicalName>
           <Link>Resources\net472\System.Management.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Management.Instrumentation.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Management.Instrumentation.dll">
           <LogicalName>net472.System.Management.Instrumentation</LogicalName>
           <Link>Resources\net472\System.Management.Instrumentation.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Messaging.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Messaging.dll">
           <LogicalName>net472.System.Messaging</LogicalName>
           <Link>Resources\net472\System.Messaging.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Net.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Net.dll">
           <LogicalName>net472.System.Net</LogicalName>
           <Link>Resources\net472\System.Net.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Net.Http.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Net.Http.dll">
           <LogicalName>net472.System.Net.Http</LogicalName>
           <Link>Resources\net472\System.Net.Http.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Net.Http.WebRequest.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Net.Http.WebRequest.dll">
           <LogicalName>net472.System.Net.Http.WebRequest</LogicalName>
           <Link>Resources\net472\System.Net.Http.WebRequest.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Numerics.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Numerics.dll">
           <LogicalName>net472.System.Numerics</LogicalName>
           <Link>Resources\net472\System.Numerics.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Printing.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Printing.dll">
           <LogicalName>net472.System.Printing</LogicalName>
           <Link>Resources\net472\System.Printing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Reflection.Context.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Reflection.Context.dll">
           <LogicalName>net472.System.Reflection.Context</LogicalName>
           <Link>Resources\net472\System.Reflection.Context.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Runtime.Caching.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Runtime.Caching.dll">
           <LogicalName>net472.System.Runtime.Caching</LogicalName>
           <Link>Resources\net472\System.Runtime.Caching.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Runtime.DurableInstancing.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Runtime.DurableInstancing.dll">
           <LogicalName>net472.System.Runtime.DurableInstancing</LogicalName>
           <Link>Resources\net472\System.Runtime.DurableInstancing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Runtime.Remoting.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Runtime.Remoting.dll">
           <LogicalName>net472.System.Runtime.Remoting</LogicalName>
           <Link>Resources\net472\System.Runtime.Remoting.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Runtime.Serialization.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Runtime.Serialization.dll">
           <LogicalName>net472.System.Runtime.Serialization</LogicalName>
           <Link>Resources\net472\System.Runtime.Serialization.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Runtime.Serialization.Formatters.Soap.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Runtime.Serialization.Formatters.Soap.dll">
           <LogicalName>net472.System.Runtime.Serialization.Formatters.Soap</LogicalName>
           <Link>Resources\net472\System.Runtime.Serialization.Formatters.Soap.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Security.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Security.dll">
           <LogicalName>net472.System.Security</LogicalName>
           <Link>Resources\net472\System.Security.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceModel.Activation.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceModel.Activation.dll">
           <LogicalName>net472.System.ServiceModel.Activation</LogicalName>
           <Link>Resources\net472\System.ServiceModel.Activation.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceModel.Activities.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceModel.Activities.dll">
           <LogicalName>net472.System.ServiceModel.Activities</LogicalName>
           <Link>Resources\net472\System.ServiceModel.Activities.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceModel.Channels.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceModel.Channels.dll">
           <LogicalName>net472.System.ServiceModel.Channels</LogicalName>
           <Link>Resources\net472\System.ServiceModel.Channels.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceModel.Discovery.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceModel.Discovery.dll">
           <LogicalName>net472.System.ServiceModel.Discovery</LogicalName>
           <Link>Resources\net472\System.ServiceModel.Discovery.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceModel.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceModel.dll">
           <LogicalName>net472.System.ServiceModel</LogicalName>
           <Link>Resources\net472\System.ServiceModel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceModel.Routing.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceModel.Routing.dll">
           <LogicalName>net472.System.ServiceModel.Routing</LogicalName>
           <Link>Resources\net472\System.ServiceModel.Routing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceModel.Web.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceModel.Web.dll">
           <LogicalName>net472.System.ServiceModel.Web</LogicalName>
           <Link>Resources\net472\System.ServiceModel.Web.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceProcess.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.ServiceProcess.dll">
           <LogicalName>net472.System.ServiceProcess</LogicalName>
           <Link>Resources\net472\System.ServiceProcess.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Speech.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Speech.dll">
           <LogicalName>net472.System.Speech</LogicalName>
           <Link>Resources\net472\System.Speech.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Transactions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Transactions.dll">
           <LogicalName>net472.System.Transactions</LogicalName>
           <Link>Resources\net472\System.Transactions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Abstractions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Abstractions.dll">
           <LogicalName>net472.System.Web.Abstractions</LogicalName>
           <Link>Resources\net472\System.Web.Abstractions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.ApplicationServices.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.ApplicationServices.dll">
           <LogicalName>net472.System.Web.ApplicationServices</LogicalName>
           <Link>Resources\net472\System.Web.ApplicationServices.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.DataVisualization.Design.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.DataVisualization.Design.dll">
           <LogicalName>net472.System.Web.DataVisualization.Design</LogicalName>
           <Link>Resources\net472\System.Web.DataVisualization.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.DataVisualization.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.DataVisualization.dll">
           <LogicalName>net472.System.Web.DataVisualization</LogicalName>
           <Link>Resources\net472\System.Web.DataVisualization.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.dll">
           <LogicalName>net472.System.Web</LogicalName>
           <Link>Resources\net472\System.Web.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.DynamicData.Design.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.DynamicData.Design.dll">
           <LogicalName>net472.System.Web.DynamicData.Design</LogicalName>
           <Link>Resources\net472\System.Web.DynamicData.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.DynamicData.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.DynamicData.dll">
           <LogicalName>net472.System.Web.DynamicData</LogicalName>
           <Link>Resources\net472\System.Web.DynamicData.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Entity.Design.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Entity.Design.dll">
           <LogicalName>net472.System.Web.Entity.Design</LogicalName>
           <Link>Resources\net472\System.Web.Entity.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Entity.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Entity.dll">
           <LogicalName>net472.System.Web.Entity</LogicalName>
           <Link>Resources\net472\System.Web.Entity.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Extensions.Design.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Extensions.Design.dll">
           <LogicalName>net472.System.Web.Extensions.Design</LogicalName>
           <Link>Resources\net472\System.Web.Extensions.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Extensions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Extensions.dll">
           <LogicalName>net472.System.Web.Extensions</LogicalName>
           <Link>Resources\net472\System.Web.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Mobile.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Mobile.dll">
           <LogicalName>net472.System.Web.Mobile</LogicalName>
           <Link>Resources\net472\System.Web.Mobile.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.RegularExpressions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.RegularExpressions.dll">
           <LogicalName>net472.System.Web.RegularExpressions</LogicalName>
           <Link>Resources\net472\System.Web.RegularExpressions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Routing.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Routing.dll">
           <LogicalName>net472.System.Web.Routing</LogicalName>
           <Link>Resources\net472\System.Web.Routing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Services.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Web.Services.dll">
           <LogicalName>net472.System.Web.Services</LogicalName>
           <Link>Resources\net472\System.Web.Services.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Windows.Controls.Ribbon.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Windows.Controls.Ribbon.dll">
           <LogicalName>net472.System.Windows.Controls.Ribbon</LogicalName>
           <Link>Resources\net472\System.Windows.Controls.Ribbon.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Windows.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Windows.dll">
           <LogicalName>net472.System.Windows</LogicalName>
           <Link>Resources\net472\System.Windows.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Windows.Forms.DataVisualization.Design.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Windows.Forms.DataVisualization.Design.dll">
           <LogicalName>net472.System.Windows.Forms.DataVisualization.Design</LogicalName>
           <Link>Resources\net472\System.Windows.Forms.DataVisualization.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Windows.Forms.DataVisualization.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Windows.Forms.DataVisualization.dll">
           <LogicalName>net472.System.Windows.Forms.DataVisualization</LogicalName>
           <Link>Resources\net472\System.Windows.Forms.DataVisualization.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Windows.Forms.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Windows.Forms.dll">
           <LogicalName>net472.System.Windows.Forms</LogicalName>
           <Link>Resources\net472\System.Windows.Forms.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Windows.Input.Manipulations.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Windows.Input.Manipulations.dll">
           <LogicalName>net472.System.Windows.Input.Manipulations</LogicalName>
           <Link>Resources\net472\System.Windows.Input.Manipulations.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Windows.Presentation.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Windows.Presentation.dll">
           <LogicalName>net472.System.Windows.Presentation</LogicalName>
           <Link>Resources\net472\System.Windows.Presentation.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Workflow.Activities.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Workflow.Activities.dll">
           <LogicalName>net472.System.Workflow.Activities</LogicalName>
           <Link>Resources\net472\System.Workflow.Activities.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Workflow.ComponentModel.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Workflow.ComponentModel.dll">
           <LogicalName>net472.System.Workflow.ComponentModel</LogicalName>
           <Link>Resources\net472\System.Workflow.ComponentModel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Workflow.Runtime.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Workflow.Runtime.dll">
           <LogicalName>net472.System.Workflow.Runtime</LogicalName>
           <Link>Resources\net472\System.Workflow.Runtime.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.WorkflowServices.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.WorkflowServices.dll">
           <LogicalName>net472.System.WorkflowServices</LogicalName>
           <Link>Resources\net472\System.WorkflowServices.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Xaml.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Xaml.dll">
           <LogicalName>net472.System.Xaml</LogicalName>
           <Link>Resources\net472\System.Xaml.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Xml.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Xml.dll">
           <LogicalName>net472.System.Xml</LogicalName>
           <Link>Resources\net472\System.Xml.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Xml.Linq.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Xml.Linq.dll">
           <LogicalName>net472.System.Xml.Linq</LogicalName>
           <Link>Resources\net472\System.Xml.Linq.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Xml.Serialization.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\System.Xml.Serialization.dll">
           <LogicalName>net472.System.Xml.Serialization</LogicalName>
           <Link>Resources\net472\System.Xml.Serialization.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\UIAutomationClient.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\UIAutomationClient.dll">
           <LogicalName>net472.UIAutomationClient</LogicalName>
           <Link>Resources\net472\UIAutomationClient.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\UIAutomationClientsideProviders.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\UIAutomationClientsideProviders.dll">
           <LogicalName>net472.UIAutomationClientsideProviders</LogicalName>
           <Link>Resources\net472\UIAutomationClientsideProviders.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\UIAutomationProvider.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\UIAutomationProvider.dll">
           <LogicalName>net472.UIAutomationProvider</LogicalName>
           <Link>Resources\net472\UIAutomationProvider.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\UIAutomationTypes.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\UIAutomationTypes.dll">
           <LogicalName>net472.UIAutomationTypes</LogicalName>
           <Link>Resources\net472\UIAutomationTypes.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\WindowsBase.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\WindowsBase.dll">
           <LogicalName>net472.WindowsBase</LogicalName>
           <Link>Resources\net472\WindowsBase.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\WindowsFormsIntegration.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\WindowsFormsIntegration.dll">
           <LogicalName>net472.WindowsFormsIntegration</LogicalName>
           <Link>Resources\net472\WindowsFormsIntegration.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\XamlBuildTask.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\XamlBuildTask.dll">
           <LogicalName>net472.XamlBuildTask</LogicalName>
           <Link>Resources\net472\XamlBuildTask.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\Microsoft.Win32.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\Microsoft.Win32.Primitives.dll">
           <LogicalName>net472.Microsoft.Win32.Primitives</LogicalName>
           <Link>Resources\net472\Microsoft.Win32.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\netstandard.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\netstandard.dll">
           <LogicalName>net472.netstandard</LogicalName>
           <Link>Resources\net472\netstandard.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.AppContext.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.AppContext.dll">
           <LogicalName>net472.System.AppContext</LogicalName>
           <Link>Resources\net472\System.AppContext.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Collections.Concurrent.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Collections.Concurrent.dll">
           <LogicalName>net472.System.Collections.Concurrent</LogicalName>
           <Link>Resources\net472\System.Collections.Concurrent.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Collections.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Collections.dll">
           <LogicalName>net472.System.Collections</LogicalName>
           <Link>Resources\net472\System.Collections.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Collections.NonGeneric.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Collections.NonGeneric.dll">
           <LogicalName>net472.System.Collections.NonGeneric</LogicalName>
           <Link>Resources\net472\System.Collections.NonGeneric.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Collections.Specialized.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Collections.Specialized.dll">
           <LogicalName>net472.System.Collections.Specialized</LogicalName>
           <Link>Resources\net472\System.Collections.Specialized.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ComponentModel.Annotations.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ComponentModel.Annotations.dll">
           <LogicalName>net472.System.ComponentModel.Annotations</LogicalName>
           <Link>Resources\net472\System.ComponentModel.Annotations.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ComponentModel.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ComponentModel.dll">
           <LogicalName>net472.System.ComponentModel</LogicalName>
           <Link>Resources\net472\System.ComponentModel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ComponentModel.EventBasedAsync.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ComponentModel.EventBasedAsync.dll">
           <LogicalName>net472.System.ComponentModel.EventBasedAsync</LogicalName>
           <Link>Resources\net472\System.ComponentModel.EventBasedAsync.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ComponentModel.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ComponentModel.Primitives.dll">
           <LogicalName>net472.System.ComponentModel.Primitives</LogicalName>
           <Link>Resources\net472\System.ComponentModel.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ComponentModel.TypeConverter.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ComponentModel.TypeConverter.dll">
           <LogicalName>net472.System.ComponentModel.TypeConverter</LogicalName>
           <Link>Resources\net472\System.ComponentModel.TypeConverter.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Console.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Console.dll">
           <LogicalName>net472.System.Console</LogicalName>
           <Link>Resources\net472\System.Console.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Data.Common.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Data.Common.dll">
           <LogicalName>net472.System.Data.Common</LogicalName>
           <Link>Resources\net472\System.Data.Common.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.Contracts.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.Contracts.dll">
           <LogicalName>net472.System.Diagnostics.Contracts</LogicalName>
           <Link>Resources\net472\System.Diagnostics.Contracts.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.Debug.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.Debug.dll">
           <LogicalName>net472.System.Diagnostics.Debug</LogicalName>
           <Link>Resources\net472\System.Diagnostics.Debug.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.FileVersionInfo.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.FileVersionInfo.dll">
           <LogicalName>net472.System.Diagnostics.FileVersionInfo</LogicalName>
           <Link>Resources\net472\System.Diagnostics.FileVersionInfo.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.Process.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.Process.dll">
           <LogicalName>net472.System.Diagnostics.Process</LogicalName>
           <Link>Resources\net472\System.Diagnostics.Process.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.StackTrace.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.StackTrace.dll">
           <LogicalName>net472.System.Diagnostics.StackTrace</LogicalName>
           <Link>Resources\net472\System.Diagnostics.StackTrace.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.TextWriterTraceListener.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.TextWriterTraceListener.dll">
           <LogicalName>net472.System.Diagnostics.TextWriterTraceListener</LogicalName>
           <Link>Resources\net472\System.Diagnostics.TextWriterTraceListener.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.Tools.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.Tools.dll">
           <LogicalName>net472.System.Diagnostics.Tools</LogicalName>
           <Link>Resources\net472\System.Diagnostics.Tools.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.TraceSource.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Diagnostics.TraceSource.dll">
           <LogicalName>net472.System.Diagnostics.TraceSource</LogicalName>
           <Link>Resources\net472\System.Diagnostics.TraceSource.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Drawing.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Drawing.Primitives.dll">
           <LogicalName>net472.System.Drawing.Primitives</LogicalName>
           <Link>Resources\net472\System.Drawing.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Dynamic.Runtime.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Dynamic.Runtime.dll">
           <LogicalName>net472.System.Dynamic.Runtime</LogicalName>
           <Link>Resources\net472\System.Dynamic.Runtime.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Globalization.Calendars.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Globalization.Calendars.dll">
           <LogicalName>net472.System.Globalization.Calendars</LogicalName>
           <Link>Resources\net472\System.Globalization.Calendars.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Globalization.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Globalization.dll">
           <LogicalName>net472.System.Globalization</LogicalName>
           <Link>Resources\net472\System.Globalization.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Globalization.Extensions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Globalization.Extensions.dll">
           <LogicalName>net472.System.Globalization.Extensions</LogicalName>
           <Link>Resources\net472\System.Globalization.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.Compression.ZipFile.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.Compression.ZipFile.dll">
           <LogicalName>net472.System.IO.Compression.ZipFile</LogicalName>
           <Link>Resources\net472\System.IO.Compression.ZipFile.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.dll">
           <LogicalName>net472.System.IO</LogicalName>
           <Link>Resources\net472\System.IO.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.FileSystem.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.FileSystem.dll">
           <LogicalName>net472.System.IO.FileSystem</LogicalName>
           <Link>Resources\net472\System.IO.FileSystem.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.FileSystem.DriveInfo.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.FileSystem.DriveInfo.dll">
           <LogicalName>net472.System.IO.FileSystem.DriveInfo</LogicalName>
           <Link>Resources\net472\System.IO.FileSystem.DriveInfo.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.FileSystem.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.FileSystem.Primitives.dll">
           <LogicalName>net472.System.IO.FileSystem.Primitives</LogicalName>
           <Link>Resources\net472\System.IO.FileSystem.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.FileSystem.Watcher.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.FileSystem.Watcher.dll">
           <LogicalName>net472.System.IO.FileSystem.Watcher</LogicalName>
           <Link>Resources\net472\System.IO.FileSystem.Watcher.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.IsolatedStorage.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.IsolatedStorage.dll">
           <LogicalName>net472.System.IO.IsolatedStorage</LogicalName>
           <Link>Resources\net472\System.IO.IsolatedStorage.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.MemoryMappedFiles.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.MemoryMappedFiles.dll">
           <LogicalName>net472.System.IO.MemoryMappedFiles</LogicalName>
           <Link>Resources\net472\System.IO.MemoryMappedFiles.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.Pipes.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.Pipes.dll">
           <LogicalName>net472.System.IO.Pipes</LogicalName>
           <Link>Resources\net472\System.IO.Pipes.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.UnmanagedMemoryStream.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.IO.UnmanagedMemoryStream.dll">
           <LogicalName>net472.System.IO.UnmanagedMemoryStream</LogicalName>
           <Link>Resources\net472\System.IO.UnmanagedMemoryStream.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Linq.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Linq.dll">
           <LogicalName>net472.System.Linq</LogicalName>
           <Link>Resources\net472\System.Linq.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Linq.Expressions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Linq.Expressions.dll">
           <LogicalName>net472.System.Linq.Expressions</LogicalName>
           <Link>Resources\net472\System.Linq.Expressions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Linq.Parallel.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Linq.Parallel.dll">
           <LogicalName>net472.System.Linq.Parallel</LogicalName>
           <Link>Resources\net472\System.Linq.Parallel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Linq.Queryable.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Linq.Queryable.dll">
           <LogicalName>net472.System.Linq.Queryable</LogicalName>
           <Link>Resources\net472\System.Linq.Queryable.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.Http.Rtc.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.Http.Rtc.dll">
           <LogicalName>net472.System.Net.Http.Rtc</LogicalName>
           <Link>Resources\net472\System.Net.Http.Rtc.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.NameResolution.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.NameResolution.dll">
           <LogicalName>net472.System.Net.NameResolution</LogicalName>
           <Link>Resources\net472\System.Net.NameResolution.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.NetworkInformation.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.NetworkInformation.dll">
           <LogicalName>net472.System.Net.NetworkInformation</LogicalName>
           <Link>Resources\net472\System.Net.NetworkInformation.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.Ping.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.Ping.dll">
           <LogicalName>net472.System.Net.Ping</LogicalName>
           <Link>Resources\net472\System.Net.Ping.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.Primitives.dll">
           <LogicalName>net472.System.Net.Primitives</LogicalName>
           <Link>Resources\net472\System.Net.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.Requests.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.Requests.dll">
           <LogicalName>net472.System.Net.Requests</LogicalName>
           <Link>Resources\net472\System.Net.Requests.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.Security.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.Security.dll">
           <LogicalName>net472.System.Net.Security</LogicalName>
           <Link>Resources\net472\System.Net.Security.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.Sockets.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.Sockets.dll">
           <LogicalName>net472.System.Net.Sockets</LogicalName>
           <Link>Resources\net472\System.Net.Sockets.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.WebHeaderCollection.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.WebHeaderCollection.dll">
           <LogicalName>net472.System.Net.WebHeaderCollection</LogicalName>
           <Link>Resources\net472\System.Net.WebHeaderCollection.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.WebSockets.Client.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.WebSockets.Client.dll">
           <LogicalName>net472.System.Net.WebSockets.Client</LogicalName>
           <Link>Resources\net472\System.Net.WebSockets.Client.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.WebSockets.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Net.WebSockets.dll">
           <LogicalName>net472.System.Net.WebSockets</LogicalName>
           <Link>Resources\net472\System.Net.WebSockets.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ObjectModel.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ObjectModel.dll">
           <LogicalName>net472.System.ObjectModel</LogicalName>
           <Link>Resources\net472\System.ObjectModel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Reflection.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Reflection.dll">
           <LogicalName>net472.System.Reflection</LogicalName>
           <Link>Resources\net472\System.Reflection.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Reflection.Emit.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Reflection.Emit.dll">
           <LogicalName>net472.System.Reflection.Emit</LogicalName>
           <Link>Resources\net472\System.Reflection.Emit.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Reflection.Emit.ILGeneration.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Reflection.Emit.ILGeneration.dll">
           <LogicalName>net472.System.Reflection.Emit.ILGeneration</LogicalName>
           <Link>Resources\net472\System.Reflection.Emit.ILGeneration.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Reflection.Emit.Lightweight.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Reflection.Emit.Lightweight.dll">
           <LogicalName>net472.System.Reflection.Emit.Lightweight</LogicalName>
           <Link>Resources\net472\System.Reflection.Emit.Lightweight.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Reflection.Extensions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Reflection.Extensions.dll">
           <LogicalName>net472.System.Reflection.Extensions</LogicalName>
           <Link>Resources\net472\System.Reflection.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Reflection.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Reflection.Primitives.dll">
           <LogicalName>net472.System.Reflection.Primitives</LogicalName>
           <Link>Resources\net472\System.Reflection.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Resources.Reader.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Resources.Reader.dll">
           <LogicalName>net472.System.Resources.Reader</LogicalName>
           <Link>Resources\net472\System.Resources.Reader.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Resources.ResourceManager.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Resources.ResourceManager.dll">
           <LogicalName>net472.System.Resources.ResourceManager</LogicalName>
           <Link>Resources\net472\System.Resources.ResourceManager.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Resources.Writer.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Resources.Writer.dll">
           <LogicalName>net472.System.Resources.Writer</LogicalName>
           <Link>Resources\net472\System.Resources.Writer.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.CompilerServices.VisualC.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.CompilerServices.VisualC.dll">
           <LogicalName>net472.System.Runtime.CompilerServices.VisualC</LogicalName>
           <Link>Resources\net472\System.Runtime.CompilerServices.VisualC.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.dll">
           <LogicalName>net472.System.Runtime</LogicalName>
           <Link>Resources\net472\System.Runtime.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.Extensions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.Extensions.dll">
           <LogicalName>net472.System.Runtime.Extensions</LogicalName>
           <Link>Resources\net472\System.Runtime.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.Handles.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.Handles.dll">
           <LogicalName>net472.System.Runtime.Handles</LogicalName>
           <Link>Resources\net472\System.Runtime.Handles.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.InteropServices.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.InteropServices.dll">
           <LogicalName>net472.System.Runtime.InteropServices</LogicalName>
           <Link>Resources\net472\System.Runtime.InteropServices.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.InteropServices.RuntimeInformation.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.InteropServices.RuntimeInformation.dll">
           <LogicalName>net472.System.Runtime.InteropServices.RuntimeInformation</LogicalName>
           <Link>Resources\net472\System.Runtime.InteropServices.RuntimeInformation.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.InteropServices.WindowsRuntime.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.InteropServices.WindowsRuntime.dll">
           <LogicalName>net472.System.Runtime.InteropServices.WindowsRuntime</LogicalName>
           <Link>Resources\net472\System.Runtime.InteropServices.WindowsRuntime.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.Numerics.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.Numerics.dll">
           <LogicalName>net472.System.Runtime.Numerics</LogicalName>
           <Link>Resources\net472\System.Runtime.Numerics.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.Serialization.Formatters.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.Serialization.Formatters.dll">
           <LogicalName>net472.System.Runtime.Serialization.Formatters</LogicalName>
           <Link>Resources\net472\System.Runtime.Serialization.Formatters.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.Serialization.Json.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.Serialization.Json.dll">
           <LogicalName>net472.System.Runtime.Serialization.Json</LogicalName>
           <Link>Resources\net472\System.Runtime.Serialization.Json.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.Serialization.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.Serialization.Primitives.dll">
           <LogicalName>net472.System.Runtime.Serialization.Primitives</LogicalName>
           <Link>Resources\net472\System.Runtime.Serialization.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.Serialization.Xml.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Runtime.Serialization.Xml.dll">
           <LogicalName>net472.System.Runtime.Serialization.Xml</LogicalName>
           <Link>Resources\net472\System.Runtime.Serialization.Xml.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.Claims.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.Claims.dll">
           <LogicalName>net472.System.Security.Claims</LogicalName>
           <Link>Resources\net472\System.Security.Claims.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.Algorithms.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.Algorithms.dll">
           <LogicalName>net472.System.Security.Cryptography.Algorithms</LogicalName>
           <Link>Resources\net472\System.Security.Cryptography.Algorithms.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.Csp.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.Csp.dll">
           <LogicalName>net472.System.Security.Cryptography.Csp</LogicalName>
           <Link>Resources\net472\System.Security.Cryptography.Csp.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.Encoding.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.Encoding.dll">
           <LogicalName>net472.System.Security.Cryptography.Encoding</LogicalName>
           <Link>Resources\net472\System.Security.Cryptography.Encoding.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.Primitives.dll">
           <LogicalName>net472.System.Security.Cryptography.Primitives</LogicalName>
           <Link>Resources\net472\System.Security.Cryptography.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.X509Certificates.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.Cryptography.X509Certificates.dll">
           <LogicalName>net472.System.Security.Cryptography.X509Certificates</LogicalName>
           <Link>Resources\net472\System.Security.Cryptography.X509Certificates.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.Principal.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.Principal.dll">
           <LogicalName>net472.System.Security.Principal</LogicalName>
           <Link>Resources\net472\System.Security.Principal.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.SecureString.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Security.SecureString.dll">
           <LogicalName>net472.System.Security.SecureString</LogicalName>
           <Link>Resources\net472\System.Security.SecureString.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ServiceModel.Duplex.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ServiceModel.Duplex.dll">
           <LogicalName>net472.System.ServiceModel.Duplex</LogicalName>
           <Link>Resources\net472\System.ServiceModel.Duplex.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ServiceModel.Http.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ServiceModel.Http.dll">
           <LogicalName>net472.System.ServiceModel.Http</LogicalName>
           <Link>Resources\net472\System.ServiceModel.Http.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ServiceModel.NetTcp.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ServiceModel.NetTcp.dll">
           <LogicalName>net472.System.ServiceModel.NetTcp</LogicalName>
           <Link>Resources\net472\System.ServiceModel.NetTcp.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ServiceModel.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ServiceModel.Primitives.dll">
           <LogicalName>net472.System.ServiceModel.Primitives</LogicalName>
           <Link>Resources\net472\System.ServiceModel.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ServiceModel.Security.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ServiceModel.Security.dll">
           <LogicalName>net472.System.ServiceModel.Security</LogicalName>
           <Link>Resources\net472\System.ServiceModel.Security.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Text.Encoding.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Text.Encoding.dll">
           <LogicalName>net472.System.Text.Encoding</LogicalName>
           <Link>Resources\net472\System.Text.Encoding.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Text.Encoding.Extensions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Text.Encoding.Extensions.dll">
           <LogicalName>net472.System.Text.Encoding.Extensions</LogicalName>
           <Link>Resources\net472\System.Text.Encoding.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Text.RegularExpressions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Text.RegularExpressions.dll">
           <LogicalName>net472.System.Text.RegularExpressions</LogicalName>
           <Link>Resources\net472\System.Text.RegularExpressions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Threading.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Threading.dll">
           <LogicalName>net472.System.Threading</LogicalName>
           <Link>Resources\net472\System.Threading.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Threading.Overlapped.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Threading.Overlapped.dll">
           <LogicalName>net472.System.Threading.Overlapped</LogicalName>
           <Link>Resources\net472\System.Threading.Overlapped.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Threading.Tasks.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Threading.Tasks.dll">
           <LogicalName>net472.System.Threading.Tasks</LogicalName>
           <Link>Resources\net472\System.Threading.Tasks.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Threading.Tasks.Parallel.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Threading.Tasks.Parallel.dll">
           <LogicalName>net472.System.Threading.Tasks.Parallel</LogicalName>
           <Link>Resources\net472\System.Threading.Tasks.Parallel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Threading.Thread.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Threading.Thread.dll">
           <LogicalName>net472.System.Threading.Thread</LogicalName>
           <Link>Resources\net472\System.Threading.Thread.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Threading.ThreadPool.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Threading.ThreadPool.dll">
           <LogicalName>net472.System.Threading.ThreadPool</LogicalName>
           <Link>Resources\net472\System.Threading.ThreadPool.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Threading.Timer.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Threading.Timer.dll">
           <LogicalName>net472.System.Threading.Timer</LogicalName>
           <Link>Resources\net472\System.Threading.Timer.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ValueTuple.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.ValueTuple.dll">
           <LogicalName>net472.System.ValueTuple</LogicalName>
           <Link>Resources\net472\System.ValueTuple.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Xml.ReaderWriter.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Xml.ReaderWriter.dll">
           <LogicalName>net472.System.Xml.ReaderWriter</LogicalName>
           <Link>Resources\net472\System.Xml.ReaderWriter.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Xml.XDocument.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Xml.XDocument.dll">
           <LogicalName>net472.System.Xml.XDocument</LogicalName>
           <Link>Resources\net472\System.Xml.XDocument.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Xml.XmlDocument.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Xml.XmlDocument.dll">
           <LogicalName>net472.System.Xml.XmlDocument</LogicalName>
           <Link>Resources\net472\System.Xml.XmlDocument.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Xml.XmlSerializer.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Xml.XmlSerializer.dll">
           <LogicalName>net472.System.Xml.XmlSerializer</LogicalName>
           <Link>Resources\net472\System.Xml.XmlSerializer.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Xml.XPath.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Xml.XPath.dll">
           <LogicalName>net472.System.Xml.XPath</LogicalName>
           <Link>Resources\net472\System.Xml.XPath.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Xml.XPath.XDocument.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2\Facades\System.Xml.XPath.XDocument.dll">
           <LogicalName>net472.System.Xml.XPath.XDocument</LogicalName>
           <Link>Resources\net472\System.Xml.XPath.XDocument.dll</Link>
         </EmbeddedResource>
