@@ -1,4 +1,4 @@
-function Get-ContentCore($name, $realPackagePath, $realPackagePrefix, $targetsPrefix, [string]$excludePattern)
+function Get-GeneratedContentCore($name, $realPackagePath, $realPackagePrefix, $targetsPrefix, [string]$excludePattern)
 {
   $targetsContent = @"
 <Project>
@@ -165,14 +165,15 @@ namespace Basic.Reference.Assemblies
     }
 
 "@
-
     $codeContent += @"
+
         }
     }
 
 "@
     $codeContent += $refInfoContent;
     $codeContent += $metadataContent;
+    $codeContent += (Get-ReferenceInfo $name)
 
   $targetsContent += @"
     </ItemGroup>
@@ -187,6 +188,47 @@ namespace Basic.Reference.Assemblies
   return @{ CodeContent = $codeContent; TargetsContent = $targetsContent}
 }
 
+function Get-ReferenceInfo($containingType)
+{
+  function Get-CodeLines($containingType)
+  {
+    $lines = Get-Content (Join-Path $combinedDir "ReferenceInfo.cs")
+    $i = 0;
+    $state = 0;
+
+    Write-Output "#if !BASIC_REFERENCE_ASSEMBLIES_COMBINED"
+    while ($i -lt $lines.Length)
+    {
+      $current = $lines[$i]
+      if ($state -eq 0)
+      {
+        if ($current.StartsWith("namespace"))
+        {
+          Write-Output "    public static partial class $containingType"
+          Write-Output "    {"
+          $state = 1
+          $i += 1
+        }
+      }
+      elseif ($state -eq 1)
+      {
+        Write-Output "    $current"
+        if ($current -eq "}")
+        {
+          $state = 2
+        }
+      }
+
+      $i += 1
+    }
+
+    Write-Output "#endif"
+  }
+
+  $lines = Get-CodeLines $containingType
+  return "`r`n" + ($lines -join "`r`n")
+}
+
 function Get-Mvid($dllPath)
 {
   $stream = [IO.File]::OpenRead($dllPath)
@@ -197,7 +239,7 @@ function Get-Mvid($dllPath)
   return $mvid.ToString()
 }
 
-function Get-Content($name, $packagePath, [string]$excludePattern)
+function Get-GeneratedContent($name, $packagePath, [string]$excludePattern)
 {
   [string]$nugetPackageRoot = $env:NUGET_PACKAGES
   if ($nugetPackageRoot -eq "")
@@ -206,32 +248,32 @@ function Get-Content($name, $packagePath, [string]$excludePattern)
   }
 
   $realPackagePath = Join-Path $nugetPackageRoot $packagePath
-  return Get-ContentCore $name $realPackagePath $nugetPackageRoot '$(NuGetPackageRoot)' $excludePattern
+  return Get-GeneratedContentCore $name $realPackagePath $nugetPackageRoot '$(NuGetPackageRoot)' $excludePattern
 }
 
 function Get-ResourceContent($name, $resourcePath)
 {
   $realPackagePrefix = Split-Path -Parent $PSScriptRoot
   $realPackagePath = Join-Path $realPackagePrefix $resourcePath
-  return Get-ContentCore $name $realPackagePath $realPackagePrefix '$(MSBuildThisFileDirectory)..\'
+  return Get-GeneratedContentCore $name $realPackagePath $realPackagePrefix '$(MSBuildThisFileDirectory)..\'
 }
 
 $combinedDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies"
 
 # NetCoreApp31
-$map = Get-Content "NetCoreApp31" 'microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1'
+$map = Get-GeneratedContent "NetCoreApp31" 'microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.NetCoreApp31"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
 # Net50
-$map = Get-Content "Net50" 'microsoft.netcore.app.ref\5.0.0\ref\net5.0'
+$map = Get-GeneratedContent "Net50" 'microsoft.netcore.app.ref\5.0.0\ref\net5.0'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net50"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
 # Net60
-$map = Get-Content "Net60" 'microsoft.netcore.app.ref\6.0.9\ref\net6.0'
+$map = Get-GeneratedContent "Net60" 'microsoft.netcore.app.ref\6.0.9\ref\net6.0'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net60"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
@@ -239,19 +281,19 @@ $map.CodeContent | Out-File (Join-Path $combinedDir "Generated.Net60.cs") -Encod
 $map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.Net60.targets") -Encoding Utf8
 
 # Net60Windows
-$map = Get-Content "Net60Windows" 'microsoft.windowsdesktop.app.ref\6.0.9\ref\net6.0'
+$map = Get-GeneratedContent "Net60Windows" 'microsoft.windowsdesktop.app.ref\6.0.9\ref\net6.0'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net60Windows"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
 # Net70
-$map = Get-Content "Net70" 'microsoft.netcore.app.ref\7.0.0-rc.1.22426.10\ref\net7.0'
+$map = Get-GeneratedContent "Net70" 'microsoft.netcore.app.ref\7.0.0-rc.1.22426.10\ref\net7.0'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net70"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
 # Net80
-$map = Get-Content "Net80" 'microsoft.netcore.app.ref\8.0.0-preview.3.23174.8\ref\net8.0'
+$map = Get-GeneratedContent "Net80" 'microsoft.netcore.app.ref\8.0.0-preview.3.23174.8\ref\net8.0'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net80"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
@@ -263,7 +305,7 @@ $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
 # NetStandard2.0
-$map = Get-Content "NetStandard20" 'netstandard.library\2.0.3\build\netstandard2.0\ref'
+$map = Get-GeneratedContent "NetStandard20" 'netstandard.library\2.0.3\build\netstandard2.0\ref'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.NetStandard20"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
@@ -271,13 +313,13 @@ $map.CodeContent | Out-File (Join-Path $combinedDir "Generated.NetStandard20.cs"
 $map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.NetStandard20.targets") -Encoding Utf8
 
 # Net461
-$map = Get-Content "Net461" 'microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1' 'System\.Enterprise.*'
+$map = Get-GeneratedContent "Net461" 'microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1' 'System\.Enterprise.*'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net461"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
 # Net472
-$map = Get-Content "Net472" 'microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2' 'System\.Enterprise.*'
+$map = Get-GeneratedContent "Net472" 'microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2' 'System\.Enterprise.*'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net472"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
