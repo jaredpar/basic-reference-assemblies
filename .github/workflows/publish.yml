@@ -22,17 +22,17 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: 6.0.x
+          dotnet-version: 7.0.x
 
       - name: Pack Solution
         run: dotnet pack -p:PackageOutputPath="${GITHUB_WORKSPACE}/packages" -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release 
 
       - name: Publish NuPkg Files
-        if: ${{ github.events.inputs.publish }}
+        if: ${{ github.event.inputs.publish }}
         run: dotnet nuget push "$GITHUB_WORKSPACE/*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json 
 
       - name: Create Tag and Release
-        if: ${{ github.events.inputs.publish }}
+        if: ${{ github.event.inputs.publish }}
         id: create_release
         uses: actions/create-release@v1
         env:
