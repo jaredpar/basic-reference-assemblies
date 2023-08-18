@@ -29,7 +29,7 @@ jobs:
 
       - name: Publish NuPkg Files
         if: ${{ github.event.inputs.publish }}
-        run: dotnet nuget push "$GITHUB_WORKSPACE/*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json 
+        run: dotnet nuget push "$GITHUB_WORKSPACE/packages/*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json 
 
       - name: Create Tag and Release
         if: ${{ github.event.inputs.publish }}
