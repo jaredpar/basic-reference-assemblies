@@ -1,454 +1,454 @@
 <Project>
     <ItemGroup>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\Microsoft.Win32.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\Microsoft.Win32.Primitives.dll">
           <LogicalName>netstandard20.Microsoft.Win32.Primitives</LogicalName>
           <Link>Resources\netstandard20\Microsoft.Win32.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\mscorlib.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\mscorlib.dll">
           <LogicalName>netstandard20.mscorlib</LogicalName>
           <Link>Resources\netstandard20\mscorlib.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\netstandard.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\netstandard.dll">
           <LogicalName>netstandard20.netstandard</LogicalName>
           <Link>Resources\netstandard20\netstandard.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.AppContext.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.AppContext.dll">
           <LogicalName>netstandard20.System.AppContext</LogicalName>
           <Link>Resources\netstandard20\System.AppContext.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.Concurrent.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.Concurrent.dll">
           <LogicalName>netstandard20.System.Collections.Concurrent</LogicalName>
           <Link>Resources\netstandard20\System.Collections.Concurrent.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.dll">
           <LogicalName>netstandard20.System.Collections</LogicalName>
           <Link>Resources\netstandard20\System.Collections.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.NonGeneric.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.NonGeneric.dll">
           <LogicalName>netstandard20.System.Collections.NonGeneric</LogicalName>
           <Link>Resources\netstandard20\System.Collections.NonGeneric.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.Specialized.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Collections.Specialized.dll">
           <LogicalName>netstandard20.System.Collections.Specialized</LogicalName>
           <Link>Resources\netstandard20\System.Collections.Specialized.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.Composition.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.Composition.dll">
           <LogicalName>netstandard20.System.ComponentModel.Composition</LogicalName>
           <Link>Resources\netstandard20\System.ComponentModel.Composition.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.dll">
           <LogicalName>netstandard20.System.ComponentModel</LogicalName>
           <Link>Resources\netstandard20\System.ComponentModel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.EventBasedAsync.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.EventBasedAsync.dll">
           <LogicalName>netstandard20.System.ComponentModel.EventBasedAsync</LogicalName>
           <Link>Resources\netstandard20\System.ComponentModel.EventBasedAsync.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.Primitives.dll">
           <LogicalName>netstandard20.System.ComponentModel.Primitives</LogicalName>
           <Link>Resources\netstandard20\System.ComponentModel.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.TypeConverter.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ComponentModel.TypeConverter.dll">
           <LogicalName>netstandard20.System.ComponentModel.TypeConverter</LogicalName>
           <Link>Resources\netstandard20\System.ComponentModel.TypeConverter.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Console.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Console.dll">
           <LogicalName>netstandard20.System.Console</LogicalName>
           <Link>Resources\netstandard20\System.Console.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Core.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Core.dll">
           <LogicalName>netstandard20.System.Core</LogicalName>
           <Link>Resources\netstandard20\System.Core.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Data.Common.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Data.Common.dll">
           <LogicalName>netstandard20.System.Data.Common</LogicalName>
           <Link>Resources\netstandard20\System.Data.Common.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Data.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Data.dll">
           <LogicalName>netstandard20.System.Data</LogicalName>
           <Link>Resources\netstandard20\System.Data.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Contracts.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Contracts.dll">
           <LogicalName>netstandard20.System.Diagnostics.Contracts</LogicalName>
           <Link>Resources\netstandard20\System.Diagnostics.Contracts.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Debug.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Debug.dll">
           <LogicalName>netstandard20.System.Diagnostics.Debug</LogicalName>
           <Link>Resources\netstandard20\System.Diagnostics.Debug.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.FileVersionInfo.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.FileVersionInfo.dll">
           <LogicalName>netstandard20.System.Diagnostics.FileVersionInfo</LogicalName>
           <Link>Resources\netstandard20\System.Diagnostics.FileVersionInfo.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Process.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Process.dll">
           <LogicalName>netstandard20.System.Diagnostics.Process</LogicalName>
           <Link>Resources\netstandard20\System.Diagnostics.Process.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.StackTrace.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.StackTrace.dll">
           <LogicalName>netstandard20.System.Diagnostics.StackTrace</LogicalName>
           <Link>Resources\netstandard20\System.Diagnostics.StackTrace.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.TextWriterTraceListener.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.TextWriterTraceListener.dll">
           <LogicalName>netstandard20.System.Diagnostics.TextWriterTraceListener</LogicalName>
           <Link>Resources\netstandard20\System.Diagnostics.TextWriterTraceListener.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Tools.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Tools.dll">
           <LogicalName>netstandard20.System.Diagnostics.Tools</LogicalName>
           <Link>Resources\netstandard20\System.Diagnostics.Tools.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.TraceSource.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.TraceSource.dll">
           <LogicalName>netstandard20.System.Diagnostics.TraceSource</LogicalName>
           <Link>Resources\netstandard20\System.Diagnostics.TraceSource.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Tracing.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Diagnostics.Tracing.dll">
           <LogicalName>netstandard20.System.Diagnostics.Tracing</LogicalName>
           <Link>Resources\netstandard20\System.Diagnostics.Tracing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.dll">
           <LogicalName>netstandard20.System</LogicalName>
           <Link>Resources\netstandard20\System.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Drawing.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Drawing.dll">
           <LogicalName>netstandard20.System.Drawing</LogicalName>
           <Link>Resources\netstandard20\System.Drawing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Drawing.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Drawing.Primitives.dll">
           <LogicalName>netstandard20.System.Drawing.Primitives</LogicalName>
           <Link>Resources\netstandard20\System.Drawing.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Dynamic.Runtime.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Dynamic.Runtime.dll">
           <LogicalName>netstandard20.System.Dynamic.Runtime</LogicalName>
           <Link>Resources\netstandard20\System.Dynamic.Runtime.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.Calendars.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.Calendars.dll">
           <LogicalName>netstandard20.System.Globalization.Calendars</LogicalName>
           <Link>Resources\netstandard20\System.Globalization.Calendars.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.dll">
           <LogicalName>netstandard20.System.Globalization</LogicalName>
           <Link>Resources\netstandard20\System.Globalization.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.Extensions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Globalization.Extensions.dll">
           <LogicalName>netstandard20.System.Globalization.Extensions</LogicalName>
           <Link>Resources\netstandard20\System.Globalization.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.dll">
           <LogicalName>netstandard20.System.IO.Compression</LogicalName>
           <Link>Resources\netstandard20\System.IO.Compression.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.FileSystem.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.FileSystem.dll">
           <LogicalName>netstandard20.System.IO.Compression.FileSystem</LogicalName>
           <Link>Resources\netstandard20\System.IO.Compression.FileSystem.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.ZipFile.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Compression.ZipFile.dll">
           <LogicalName>netstandard20.System.IO.Compression.ZipFile</LogicalName>
           <Link>Resources\netstandard20\System.IO.Compression.ZipFile.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.dll">
           <LogicalName>netstandard20.System.IO</LogicalName>
           <Link>Resources\netstandard20\System.IO.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.dll">
           <LogicalName>netstandard20.System.IO.FileSystem</LogicalName>
           <Link>Resources\netstandard20\System.IO.FileSystem.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.DriveInfo.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.DriveInfo.dll">
           <LogicalName>netstandard20.System.IO.FileSystem.DriveInfo</LogicalName>
           <Link>Resources\netstandard20\System.IO.FileSystem.DriveInfo.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.Primitives.dll">
           <LogicalName>netstandard20.System.IO.FileSystem.Primitives</LogicalName>
           <Link>Resources\netstandard20\System.IO.FileSystem.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.Watcher.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.FileSystem.Watcher.dll">
           <LogicalName>netstandard20.System.IO.FileSystem.Watcher</LogicalName>
           <Link>Resources\netstandard20\System.IO.FileSystem.Watcher.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.IsolatedStorage.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.IsolatedStorage.dll">
           <LogicalName>netstandard20.System.IO.IsolatedStorage</LogicalName>
           <Link>Resources\netstandard20\System.IO.IsolatedStorage.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.MemoryMappedFiles.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.MemoryMappedFiles.dll">
           <LogicalName>netstandard20.System.IO.MemoryMappedFiles</LogicalName>
           <Link>Resources\netstandard20\System.IO.MemoryMappedFiles.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Pipes.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.Pipes.dll">
           <LogicalName>netstandard20.System.IO.Pipes</LogicalName>
           <Link>Resources\netstandard20\System.IO.Pipes.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.UnmanagedMemoryStream.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.IO.UnmanagedMemoryStream.dll">
           <LogicalName>netstandard20.System.IO.UnmanagedMemoryStream</LogicalName>
           <Link>Resources\netstandard20\System.IO.UnmanagedMemoryStream.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.dll">
           <LogicalName>netstandard20.System.Linq</LogicalName>
           <Link>Resources\netstandard20\System.Linq.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Expressions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Expressions.dll">
           <LogicalName>netstandard20.System.Linq.Expressions</LogicalName>
           <Link>Resources\netstandard20\System.Linq.Expressions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Parallel.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Parallel.dll">
           <LogicalName>netstandard20.System.Linq.Parallel</LogicalName>
           <Link>Resources\netstandard20\System.Linq.Parallel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Queryable.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Linq.Queryable.dll">
           <LogicalName>netstandard20.System.Linq.Queryable</LogicalName>
           <Link>Resources\netstandard20\System.Linq.Queryable.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.dll">
           <LogicalName>netstandard20.System.Net</LogicalName>
           <Link>Resources\netstandard20\System.Net.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Http.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Http.dll">
           <LogicalName>netstandard20.System.Net.Http</LogicalName>
           <Link>Resources\netstandard20\System.Net.Http.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.NameResolution.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.NameResolution.dll">
           <LogicalName>netstandard20.System.Net.NameResolution</LogicalName>
           <Link>Resources\netstandard20\System.Net.NameResolution.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.NetworkInformation.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.NetworkInformation.dll">
           <LogicalName>netstandard20.System.Net.NetworkInformation</LogicalName>
           <Link>Resources\netstandard20\System.Net.NetworkInformation.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Ping.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Ping.dll">
           <LogicalName>netstandard20.System.Net.Ping</LogicalName>
           <Link>Resources\netstandard20\System.Net.Ping.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Primitives.dll">
           <LogicalName>netstandard20.System.Net.Primitives</LogicalName>
           <Link>Resources\netstandard20\System.Net.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Requests.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Requests.dll">
           <LogicalName>netstandard20.System.Net.Requests</LogicalName>
           <Link>Resources\netstandard20\System.Net.Requests.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Security.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Security.dll">
           <LogicalName>netstandard20.System.Net.Security</LogicalName>
           <Link>Resources\netstandard20\System.Net.Security.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Sockets.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.Sockets.dll">
           <LogicalName>netstandard20.System.Net.Sockets</LogicalName>
           <Link>Resources\netstandard20\System.Net.Sockets.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebHeaderCollection.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebHeaderCollection.dll">
           <LogicalName>netstandard20.System.Net.WebHeaderCollection</LogicalName>
           <Link>Resources\netstandard20\System.Net.WebHeaderCollection.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebSockets.Client.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebSockets.Client.dll">
           <LogicalName>netstandard20.System.Net.WebSockets.Client</LogicalName>
           <Link>Resources\netstandard20\System.Net.WebSockets.Client.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebSockets.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Net.WebSockets.dll">
           <LogicalName>netstandard20.System.Net.WebSockets</LogicalName>
           <Link>Resources\netstandard20\System.Net.WebSockets.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Numerics.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Numerics.dll">
           <LogicalName>netstandard20.System.Numerics</LogicalName>
           <Link>Resources\netstandard20\System.Numerics.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.ObjectModel.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ObjectModel.dll">
           <LogicalName>netstandard20.System.ObjectModel</LogicalName>
           <Link>Resources\netstandard20\System.ObjectModel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.dll">
           <LogicalName>netstandard20.System.Reflection</LogicalName>
           <Link>Resources\netstandard20\System.Reflection.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.Extensions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.Extensions.dll">
           <LogicalName>netstandard20.System.Reflection.Extensions</LogicalName>
           <Link>Resources\netstandard20\System.Reflection.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Reflection.Primitives.dll">
           <LogicalName>netstandard20.System.Reflection.Primitives</LogicalName>
           <Link>Resources\netstandard20\System.Reflection.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.Reader.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.Reader.dll">
           <LogicalName>netstandard20.System.Resources.Reader</LogicalName>
           <Link>Resources\netstandard20\System.Resources.Reader.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.ResourceManager.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.ResourceManager.dll">
           <LogicalName>netstandard20.System.Resources.ResourceManager</LogicalName>
           <Link>Resources\netstandard20\System.Resources.ResourceManager.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.Writer.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Resources.Writer.dll">
           <LogicalName>netstandard20.System.Resources.Writer</LogicalName>
           <Link>Resources\netstandard20\System.Resources.Writer.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.CompilerServices.VisualC.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.CompilerServices.VisualC.dll">
           <LogicalName>netstandard20.System.Runtime.CompilerServices.VisualC</LogicalName>
           <Link>Resources\netstandard20\System.Runtime.CompilerServices.VisualC.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.dll">
           <LogicalName>netstandard20.System.Runtime</LogicalName>
           <Link>Resources\netstandard20\System.Runtime.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Extensions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Extensions.dll">
           <LogicalName>netstandard20.System.Runtime.Extensions</LogicalName>
           <Link>Resources\netstandard20\System.Runtime.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Handles.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Handles.dll">
           <LogicalName>netstandard20.System.Runtime.Handles</LogicalName>
           <Link>Resources\netstandard20\System.Runtime.Handles.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.InteropServices.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.InteropServices.dll">
           <LogicalName>netstandard20.System.Runtime.InteropServices</LogicalName>
           <Link>Resources\netstandard20\System.Runtime.InteropServices.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.InteropServices.RuntimeInformation.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.InteropServices.RuntimeInformation.dll">
           <LogicalName>netstandard20.System.Runtime.InteropServices.RuntimeInformation</LogicalName>
           <Link>Resources\netstandard20\System.Runtime.InteropServices.RuntimeInformation.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Numerics.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Numerics.dll">
           <LogicalName>netstandard20.System.Runtime.Numerics</LogicalName>
           <Link>Resources\netstandard20\System.Runtime.Numerics.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.dll">
           <LogicalName>netstandard20.System.Runtime.Serialization</LogicalName>
           <Link>Resources\netstandard20\System.Runtime.Serialization.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Formatters.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Formatters.dll">
           <LogicalName>netstandard20.System.Runtime.Serialization.Formatters</LogicalName>
           <Link>Resources\netstandard20\System.Runtime.Serialization.Formatters.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Json.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Json.dll">
           <LogicalName>netstandard20.System.Runtime.Serialization.Json</LogicalName>
           <Link>Resources\netstandard20\System.Runtime.Serialization.Json.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Primitives.dll">
           <LogicalName>netstandard20.System.Runtime.Serialization.Primitives</LogicalName>
           <Link>Resources\netstandard20\System.Runtime.Serialization.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Xml.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Runtime.Serialization.Xml.dll">
           <LogicalName>netstandard20.System.Runtime.Serialization.Xml</LogicalName>
           <Link>Resources\netstandard20\System.Runtime.Serialization.Xml.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Claims.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Claims.dll">
           <LogicalName>netstandard20.System.Security.Claims</LogicalName>
           <Link>Resources\netstandard20\System.Security.Claims.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Algorithms.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Algorithms.dll">
           <LogicalName>netstandard20.System.Security.Cryptography.Algorithms</LogicalName>
           <Link>Resources\netstandard20\System.Security.Cryptography.Algorithms.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Csp.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Csp.dll">
           <LogicalName>netstandard20.System.Security.Cryptography.Csp</LogicalName>
           <Link>Resources\netstandard20\System.Security.Cryptography.Csp.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Encoding.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Encoding.dll">
           <LogicalName>netstandard20.System.Security.Cryptography.Encoding</LogicalName>
           <Link>Resources\netstandard20\System.Security.Cryptography.Encoding.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Primitives.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.Primitives.dll">
           <LogicalName>netstandard20.System.Security.Cryptography.Primitives</LogicalName>
           <Link>Resources\netstandard20\System.Security.Cryptography.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.X509Certificates.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Cryptography.X509Certificates.dll">
           <LogicalName>netstandard20.System.Security.Cryptography.X509Certificates</LogicalName>
           <Link>Resources\netstandard20\System.Security.Cryptography.X509Certificates.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Principal.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.Principal.dll">
           <LogicalName>netstandard20.System.Security.Principal</LogicalName>
           <Link>Resources\netstandard20\System.Security.Principal.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.SecureString.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Security.SecureString.dll">
           <LogicalName>netstandard20.System.Security.SecureString</LogicalName>
           <Link>Resources\netstandard20\System.Security.SecureString.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.ServiceModel.Web.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ServiceModel.Web.dll">
           <LogicalName>netstandard20.System.ServiceModel.Web</LogicalName>
           <Link>Resources\netstandard20\System.ServiceModel.Web.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.Encoding.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.Encoding.dll">
           <LogicalName>netstandard20.System.Text.Encoding</LogicalName>
           <Link>Resources\netstandard20\System.Text.Encoding.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.Encoding.Extensions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.Encoding.Extensions.dll">
           <LogicalName>netstandard20.System.Text.Encoding.Extensions</LogicalName>
           <Link>Resources\netstandard20\System.Text.Encoding.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.RegularExpressions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Text.RegularExpressions.dll">
           <LogicalName>netstandard20.System.Text.RegularExpressions</LogicalName>
           <Link>Resources\netstandard20\System.Text.RegularExpressions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.dll">
           <LogicalName>netstandard20.System.Threading</LogicalName>
           <Link>Resources\netstandard20\System.Threading.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Overlapped.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Overlapped.dll">
           <LogicalName>netstandard20.System.Threading.Overlapped</LogicalName>
           <Link>Resources\netstandard20\System.Threading.Overlapped.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Tasks.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Tasks.dll">
           <LogicalName>netstandard20.System.Threading.Tasks</LogicalName>
           <Link>Resources\netstandard20\System.Threading.Tasks.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Tasks.Parallel.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Tasks.Parallel.dll">
           <LogicalName>netstandard20.System.Threading.Tasks.Parallel</LogicalName>
           <Link>Resources\netstandard20\System.Threading.Tasks.Parallel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Thread.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Thread.dll">
           <LogicalName>netstandard20.System.Threading.Thread</LogicalName>
           <Link>Resources\netstandard20\System.Threading.Thread.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.ThreadPool.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.ThreadPool.dll">
           <LogicalName>netstandard20.System.Threading.ThreadPool</LogicalName>
           <Link>Resources\netstandard20\System.Threading.ThreadPool.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Timer.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Threading.Timer.dll">
           <LogicalName>netstandard20.System.Threading.Timer</LogicalName>
           <Link>Resources\netstandard20\System.Threading.Timer.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Transactions.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Transactions.dll">
           <LogicalName>netstandard20.System.Transactions</LogicalName>
           <Link>Resources\netstandard20\System.Transactions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.ValueTuple.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.ValueTuple.dll">
           <LogicalName>netstandard20.System.ValueTuple</LogicalName>
           <Link>Resources\netstandard20\System.ValueTuple.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Web.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Web.dll">
           <LogicalName>netstandard20.System.Web</LogicalName>
           <Link>Resources\netstandard20\System.Web.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Windows.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Windows.dll">
           <LogicalName>netstandard20.System.Windows</LogicalName>
           <Link>Resources\netstandard20\System.Windows.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.dll">
           <LogicalName>netstandard20.System.Xml</LogicalName>
           <Link>Resources\netstandard20\System.Xml.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.Linq.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.Linq.dll">
           <LogicalName>netstandard20.System.Xml.Linq</LogicalName>
           <Link>Resources\netstandard20\System.Xml.Linq.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.ReaderWriter.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.ReaderWriter.dll">
           <LogicalName>netstandard20.System.Xml.ReaderWriter</LogicalName>
           <Link>Resources\netstandard20\System.Xml.ReaderWriter.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.Serialization.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.Serialization.dll">
           <LogicalName>netstandard20.System.Xml.Serialization</LogicalName>
           <Link>Resources\netstandard20\System.Xml.Serialization.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XDocument.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XDocument.dll">
           <LogicalName>netstandard20.System.Xml.XDocument</LogicalName>
           <Link>Resources\netstandard20\System.Xml.XDocument.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XmlDocument.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XmlDocument.dll">
           <LogicalName>netstandard20.System.Xml.XmlDocument</LogicalName>
           <Link>Resources\netstandard20\System.Xml.XmlDocument.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XmlSerializer.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XmlSerializer.dll">
           <LogicalName>netstandard20.System.Xml.XmlSerializer</LogicalName>
           <Link>Resources\netstandard20\System.Xml.XmlSerializer.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.dll">
           <LogicalName>netstandard20.System.Xml.XPath</LogicalName>
           <Link>Resources\netstandard20\System.Xml.XPath.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.XDocument.dll">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\netstandard.library\2.0.3\build\netstandard2.0\ref\System.Xml.XPath.XDocument.dll">
           <LogicalName>netstandard20.System.Xml.XPath.XDocument</LogicalName>
           <Link>Resources\netstandard20\System.Xml.XPath.XDocument.dll</Link>
         </EmbeddedResource>
