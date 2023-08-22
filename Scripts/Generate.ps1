@@ -66,7 +66,7 @@ namespace Basic.Reference.Assemblies
     $dllPath = $targetsPrefix + $dllPath
 
     $targetsContent += @"
-        <EmbeddedResource Include="$dllPath">
+        <EmbeddedResource Include="$dllPath" WithCulture="false">
           <LogicalName>$logicalName</LogicalName>
           <Link>Resources\$lowerName\$dllName</Link>
         </EmbeddedResource>
