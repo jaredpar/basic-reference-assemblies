@@ -13,13 +13,37 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: 6.0.x
+          dotnet-version: 7.0.x
+
       - name: Restore dependencies
         run: dotnet restore
+
       - name: Build
-        run: dotnet build --no-restore
+        run: dotnet build --no-restore -bl
+
+      - name: Pack Solution
+        run: dotnet pack -p:PackageOutputPath="${GITHUB_WORKSPACE}/packages" -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="0.0.0.1"
+      
       - name: Test
         run: dotnet test --no-build --verbosity normal
+
+      - name: Upload Binary Log 
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: binary-log
+          path: msbuild.binlog
+        
+      - name: Upload Packages
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: nuget-packages
+          path: packages/*
+
+
+
