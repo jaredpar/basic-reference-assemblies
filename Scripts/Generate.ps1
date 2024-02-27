@@ -277,8 +277,6 @@ $map = Get-GeneratedContent "Net60" 'microsoft.netcore.app.ref\6.0.9\ref\net6.0'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net60"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
-$map.CodeContent | Out-File (Join-Path $combinedDir "Generated.Net60.cs") -Encoding Utf8
-$map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.Net60.targets") -Encoding Utf8
 
 # Net60Windows
 $map = Get-GeneratedContent "Net60Windows" 'microsoft.windowsdesktop.app.ref\6.0.9\ref\net6.0'
@@ -293,12 +291,14 @@ $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
 # Net80
-$map = Get-GeneratedContent "Net80" 'microsoft.netcore.app.ref\8.0.0-preview.7.23375.6\ref\net8.0'
+$map = Get-GeneratedContent "Net80" 'microsoft.netcore.app.ref\8.0.2\ref\net8.0'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net80"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
+$map.CodeContent | Out-File (Join-Path $combinedDir "Generated.Net80.cs") -Encoding Utf8
+$map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.Net80.targets") -Encoding Utf8
 
-# NetStandardl.3
+# NetStandard1.3
 $map = Get-ResourceContent "NetStandard13" "Resources\netstandard1.3"
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.NetStandard13"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
