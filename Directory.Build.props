@@ -13,12 +13,13 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/jaredpar/basic-reference-assemblies</RepositoryUrl>
     <Authors>jaredpar</Authors>
-    <Title>Basic.Reference.Assemblies: Reference assemblies for use in Roslyn</Title>
+    <Title>Basic.Reference.Assemblies: Reference assemblies for use with Roslyn</Title>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageDescription>
-This package provides reference assemblies for use in Roslyn Compilation objects. This greatly
-simplifies the work involved in doing in memory compilations with the Microsoft.CodeAnalysis 
+This package provides reference assemblies for use with Roslyn Compilation objects. This greatly
+simplifies the work involved in doing in-memory compilations with the Microsoft.CodeAnalysis 
 API. Developers can now create correct Compilations with reference sets from all of the major
-target frameworks: netcoreapp31, net50 and netstandard.
+target frameworks.
     </PackageDescription>
   </PropertyGroup>
 
