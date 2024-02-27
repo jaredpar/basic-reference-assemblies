@@ -313,13 +313,13 @@ $map.CodeContent | Out-File (Join-Path $combinedDir "Generated.NetStandard20.cs"
 $map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.NetStandard20.targets") -Encoding Utf8
 
 # Net461
-$map = Get-GeneratedContent "Net461" 'microsoft.netframework.referenceassemblies.net461\1.0.2\build\.NETFramework\v4.6.1' 'System\.Enterprise.*'
+$map = Get-GeneratedContent "Net461" 'microsoft.netframework.referenceassemblies.net461\1.0.3\build\.NETFramework\v4.6.1' 'System\.Enterprise.*'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net461"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
 # Net472
-$map = Get-GeneratedContent "Net472" 'microsoft.netframework.referenceassemblies.net472\1.0.0\build\.NETFramework\v4.7.2' 'System\.Enterprise.*'
+$map = Get-GeneratedContent "Net472" 'microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2' 'System\.Enterprise.*'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net472"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
