@@ -1,10 +1,15 @@
 <Project>
 
-  <ItemGroup>
+  <ItemGroup Condition="'$(IsPackable)' == 'true'">
     <Compile Include="..\Shared\ResourceLoader.cs" Link="ResourceLoader.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="3.9.0" />
   </ItemGroup>
+
+  <ItemGroup Condition="'$(IsPackable)' == 'true'">
+    <None Include="$(MSBuildThisFileDirectory)README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
 </Project>

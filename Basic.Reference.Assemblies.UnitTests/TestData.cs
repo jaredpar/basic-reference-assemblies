@@ -1,8 +1,9 @@
-﻿using System;
+﻿extern alias Combined;
+
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+using CombinedAssembly = Combined::Basic.Reference.Assemblies;
 
 namespace Basic.Reference.Assemblies.UnitTests
 {
@@ -21,6 +22,9 @@ namespace Basic.Reference.Assemblies.UnitTests
                     new object[] { "net6.0", Net60.References.All },
                     new object[] { "net7.0", Net70.References.All },
                     new object[] { "net8.0", Net70.References.All },
+
+                    new object[] { "netstandard2.0", CombinedAssembly.NetStandard20.References.All },
+                    new object[] { "net8.0", CombinedAssembly.Net80.References.All },
                 };
             }
         }
@@ -33,6 +37,8 @@ namespace Basic.Reference.Assemblies.UnitTests
                 {
                     new object[] { "netstandard1.3", NetStandard13.References.All },
                     new object[] { "netstandard2.0", NetStandard20.References.All },
+
+                    new object[] { "netstandard2.0", CombinedAssembly.NetStandard20.References.All },
                 };
             }
         }
@@ -57,6 +63,12 @@ namespace Basic.Reference.Assemblies.UnitTests
                     new object[] { "net6.0", Net60.ReferenceInfos.AllValues },
                     new object[] { "net7.0", Net70.ReferenceInfos.AllValues },
                     new object[] { "net8.0", Net80.ReferenceInfos.AllValues },
+                    new object[] { "net8.0", Net80.ReferenceInfos.AllValues },
+                    new object[] { "net8.0", Net80.ReferenceInfos.AllValues },
+
+                    new object[] { "netstandard2.0", CombinedAssembly.NetStandard20.ReferenceInfos.AllValues },
+                    new object[] { "net472", CombinedAssembly.Net472.ReferenceInfos.AllValues },
+                    new object[] { "net8.0", CombinedAssembly.Net80.ReferenceInfos.AllValues },
                 };
             }
         }

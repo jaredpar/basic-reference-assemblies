@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net461" Version="1.0.2" IncludeAssets="none" PrivateAssets="all" GeneratePathProperty="true" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net461" Version="1.0.3" IncludeAssets="none" PrivateAssets="all" GeneratePathProperty="true" />
   </ItemGroup>
 
   <Import Project="Generated.targets" />
