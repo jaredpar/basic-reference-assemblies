@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NETCore.App.Ref" Version="8.0.2" IncludeAssets="none" PrivateAssets="all" GeneratePathProperty="true" ExcludeAssets="analyzers" />
+    <PackageReference Include="Microsoft.NETCore.App.Ref" Version="8.0.3" IncludeAssets="none" PrivateAssets="all" GeneratePathProperty="true" ExcludeAssets="analyzers" />
   </ItemGroup>
 
   <Import Project="Generated.targets" />
