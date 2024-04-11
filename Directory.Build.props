@@ -1,6 +1,7 @@
 <Project>
 
   <PropertyGroup>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
     <DebugType>Embedded</DebugType>
