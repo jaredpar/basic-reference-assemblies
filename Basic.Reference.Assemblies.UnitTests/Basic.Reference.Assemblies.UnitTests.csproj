@@ -19,6 +19,7 @@
     <ProjectReference Include="..\Basic.Reference.Assemblies.Net60\Basic.Reference.Assemblies.Net60.csproj" />
     <ProjectReference Include="..\Basic.Reference.Assemblies.Net70\Basic.Reference.Assemblies.Net70.csproj" />
     <ProjectReference Include="..\Basic.Reference.Assemblies.Net80\Basic.Reference.Assemblies.Net80.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies.AspNet80\Basic.Reference.Assemblies.AspNet80.csproj" />
     <ProjectReference Include="..\Basic.Reference.Assemblies.NetCoreApp31\Basic.Reference.Assemblies.NetCoreApp31.csproj" />
     <ProjectReference Include="..\Basic.Reference.Assemblies.NetStandard13\Basic.Reference.Assemblies.NetStandard13.csproj" />
     <ProjectReference Include="..\Basic.Reference.Assemblies.NetStandard20\Basic.Reference.Assemblies.NetStandard20.csproj" />
