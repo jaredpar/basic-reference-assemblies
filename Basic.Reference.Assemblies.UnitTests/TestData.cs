@@ -22,9 +22,9 @@ namespace Basic.Reference.Assemblies.UnitTests
                     new object[] { "net6.0", Net60.References.All },
                     new object[] { "net7.0", Net70.References.All },
                     new object[] { "net8.0", Net70.References.All },
-
                     new object[] { "netstandard2.0", CombinedAssembly.NetStandard20.References.All },
                     new object[] { "net8.0", CombinedAssembly.Net80.References.All },
+                    new object[] { "net8.0", AspNet80.References.All },
                 };
             }
         }

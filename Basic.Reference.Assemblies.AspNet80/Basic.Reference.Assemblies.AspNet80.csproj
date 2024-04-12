@@ -3,10 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <IsPackable>true</IsPackable>
+    <RunAnalyzers>false</RunAnalyzers>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NETCore.App.Ref" Version="8.0.3" IncludeAssets="none" PrivateAssets="all" GeneratePathProperty="true" ExcludeAssets="analyzers" />
+    <PackageReference Include="Microsoft.AspNetCore.App.Ref" Version="8.0.3" IncludeAssets="none" PrivateAssets="all" GeneratePathProperty="true"  />
   </ItemGroup>
 
   <Import Project="Generated.targets" />

@@ -1,4 +1,4 @@
-function Get-GeneratedContentCore($name, $realPackagePath, $realPackagePrefix, $targetsPrefix, [string]$excludePattern)
+function Get-GeneratedContentCore($name, $realPackagePaths, $realPackagePrefix, $targetsPrefix, [string]$excludePattern)
 {
   $targetsContent = @"
 <Project>
@@ -44,10 +44,13 @@ namespace Basic.Reference.Assemblies
 "@
 
   $lowerName = $name.ToLower()
-  $list = @(Get-ChildItem -filter *.dll $realPackagePath | %{ $_.FullName })
-  $facadesPath = Join-Path $realPackagePath "Facades"
-  if (Test-Path $facadesPath) {
-    $list += @(Get-ChildItem -filter *.dll $facadesPath | %{ $_.FullName })
+  $list = @()
+  foreach ($realPackagePath in $realPackagePaths) {
+    $list += @(Get-ChildItem -filter *.dll $realPackagePath | %{ $_.FullName })
+    $facadesPath = Join-Path $realPackagePath "Facades"
+    if (Test-Path $facadesPath) {
+      $list += @(Get-ChildItem -filter *.dll $facadesPath | %{ $_.FullName })
+    }
   }
 
   $allPropNames = @()
@@ -239,7 +242,7 @@ function Get-Mvid($dllPath)
   return $mvid.ToString()
 }
 
-function Get-GeneratedContent($name, $packagePath, [string]$excludePattern)
+function Get-GeneratedContent($name, $packagePaths, [string]$excludePattern)
 {
   [string]$nugetPackageRoot = $env:NUGET_PACKAGES
   if ($nugetPackageRoot -eq "")
@@ -247,8 +250,8 @@ function Get-GeneratedContent($name, $packagePath, [string]$excludePattern)
     $nugetPackageRoot = Join-Path $env:USERPROFILE ".nuget\packages"
   }
 
-  $realPackagePath = Join-Path $nugetPackageRoot $packagePath
-  return Get-GeneratedContentCore $name $realPackagePath $nugetPackageRoot '$(NuGetPackageRoot)' $excludePattern
+  $realPackagePaths = $packagePaths | %{ Join-Path $nugetPackageRoot $_ }
+  return Get-GeneratedContentCore $name $realPackagePaths $nugetPackageRoot '$(NuGetPackageRoot)' $excludePattern
 }
 
 function Get-ResourceContent($name, $resourcePath)
@@ -291,12 +294,20 @@ $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 
 # Net80
-$map = Get-GeneratedContent "Net80" 'microsoft.netcore.app.ref\8.0.2\ref\net8.0'
+$map = Get-GeneratedContent "Net80" 'microsoft.netcore.app.ref\8.0.3\ref\net8.0'
 $targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.Net80"
 $map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
 $map.CodeContent | Out-File (Join-Path $combinedDir "Generated.Net80.cs") -Encoding Utf8
 $map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.Net80.targets") -Encoding Utf8
+
+# AspNet80
+$map = Get-GeneratedContent "AspNet80" @('microsoft.netcore.app.ref\8.0.3\ref\net8.0', 'microsoft.aspnetcore.app.ref\8.0.3\ref\net8.0')
+$targetDir = Join-Path $PSScriptRoot "..\Basic.Reference.Assemblies.AspNet80"
+$map.CodeContent | Out-File (Join-Path $targetDir "Generated.cs") -Encoding Utf8
+$map.TargetsContent | Out-File (Join-Path $targetDir "Generated.targets") -Encoding Utf8
+$map.CodeContent | Out-File (Join-Path $combinedDir "Generated.AspNet80.cs") -Encoding Utf8
+$map.TargetsContent | Out-File (Join-Path $combinedDir "Generated.AspNet80.targets") -Encoding Utf8
 
 # NetStandard1.3
 $map = Get-ResourceContent "NetStandard13" "Resources\netstandard1.3"
