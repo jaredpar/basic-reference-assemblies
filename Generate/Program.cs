@@ -1,12 +1,7 @@
 ﻿
 
-// TODO:
-// - file scoped namespace
-// - collection expressions
-
 using System.Reflection.Metadata;
 using System.Reflection.PortableExecutable;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -179,10 +174,8 @@ void CombinedReferenceInfo()
         using Microsoft.CodeAnalysis;
         using System;
 
-        namespace Basic.Reference.Assemblies
-        {
-        {{GetReferenceInfoIndented("    ")}}
-        }
+        namespace Basic.Reference.Assemblies;
+        {{referenceInfo}}
         """;
 
     File.WriteAllText(Path.Combine(combinedDir, "ReferenceInfo.cs"), content, encoding);
@@ -227,12 +220,7 @@ static string GetReferenceInfoIndented(string indent)
             builder.AppendLine();
         }
 
-        if (string.IsNullOrEmpty(line))
-        {
-            // TODO: make it empty
-            builder.Append("    ");
-        }
-        else
+        if (!string.IsNullOrEmpty(line))
         {
             builder.Append($"{indent}{line}");
         }
@@ -268,28 +256,27 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         using System.Linq;
         using Microsoft.CodeAnalysis;
 
-        namespace Basic.Reference.Assemblies
+        namespace Basic.Reference.Assemblies;
+        public static partial class {{name}}
         {
-            public static partial class {{name}}
+            public static class Resources
             {
-                public static class Resources
-                {
         """);
 
     var metadataContent = new StringBuilder();
     metadataContent.AppendLine($$"""
-            public static partial class {{name}}
+        public static partial class {{name}}
+        {
+            public static class References
             {
-                public static class References
-                {
         """);
 
     var refInfoContent = new StringBuilder();
     refInfoContent.AppendLine($$"""
-            public static partial class {{name}}
+        public static partial class {{name}}
+        {
+            public static class ReferenceInfos
             {
-                public static class ReferenceInfos
-                {
         """);
 
     var lowerName = name.ToLower();
@@ -329,108 +316,105 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         allPropNames.Add(propName);
         var fieldName = $"_{propName}";
         codeContent.AppendLine($$"""
-                        /// <summary>
-                        /// The image bytes for {{dllName}}
-                        /// </summary>
-                        public static byte[] {{propName}} => ResourceLoader.GetOrCreateResource(ref {{fieldName}}, "{{logicalName}}");
-                        private static byte[]? {{fieldName}};
+                    /// <summary>
+                    /// The image bytes for {{dllName}}
+                    /// </summary>
+                    public static byte[] {{propName}} => ResourceLoader.GetOrCreateResource(ref {{fieldName}}, "{{logicalName}}");
+                    private static byte[]? {{fieldName}};
 
             """);
 
         refInfoContent.AppendLine($$"""
 
-                        /// <summary>
-                        /// The <see cref="ReferenceInfo"/> for {{dllName}}
-                        /// </summary>
-                        public static ReferenceInfo {{propName}} => new ReferenceInfo("{{dllName}}", Resources.{{propName}}, {{name}}.References.{{propName}}, global::System.Guid.Parse("{{mvid}}"));
+                    /// <summary>
+                    /// The <see cref="ReferenceInfo"/> for {{dllName}}
+                    /// </summary>
+                    public static ReferenceInfo {{propName}} => new ReferenceInfo("{{dllName}}", Resources.{{propName}}, {{name}}.References.{{propName}}, global::System.Guid.Parse("{{mvid}}"));
             """);
 
         metadataContent.AppendLine($$"""
-                        private static PortableExecutableReference? {{fieldName}};
+                    private static PortableExecutableReference? {{fieldName}};
 
-                        /// <summary>
-                        /// The <see cref="PortableExecutableReference"/> for {{dllName}}
-                        /// </summary>
-                        public static PortableExecutableReference {{propName}}
+                    /// <summary>
+                    /// The <see cref="PortableExecutableReference"/> for {{dllName}}
+                    /// </summary>
+                    public static PortableExecutableReference {{propName}}
+                    {
+                        get
                         {
-                            get
+                            if ({{fieldName}} is null)
                             {
-                                if ({{fieldName}} is null)
-                                {
-                                    {{fieldName}} = AssemblyMetadata.CreateFromImage(Resources.{{propName}}).GetReference(filePath: "{{dllName}}", display: "{{dll}} ({{lowerName}})");
-                                }
-                                return {{fieldName}};
+                                {{fieldName}} = AssemblyMetadata.CreateFromImage(Resources.{{propName}}).GetReference(filePath: "{{dllName}}", display: "{{dll}} ({{lowerName}})");
                             }
+                            return {{fieldName}};
                         }
+                    }
 
             """);
     }
 
     refInfoContent.AppendLine("""
-                    private static ImmutableArray<ReferenceInfo> _all;
-                    public static ImmutableArray<ReferenceInfo> All
+                private static ImmutableArray<ReferenceInfo> _all;
+                public static ImmutableArray<ReferenceInfo> All
+                {
+                    get
                     {
-                        get
+                        if (_all.IsDefault)
                         {
-                            if (_all.IsDefault)
-                            {
-                                _all =
-                                [
+                            _all =
+                            [
         """);
 
     metadataContent.AppendLine("""
-                    private static ImmutableArray<PortableExecutableReference> _all;
-                    public static ImmutableArray<PortableExecutableReference> All
+                private static ImmutableArray<PortableExecutableReference> _all;
+                public static ImmutableArray<PortableExecutableReference> All
+                {
+                    get
                     {
-                        get
+                        if (_all.IsDefault)
                         {
-                            if (_all.IsDefault)
-                            {
-                                _all =
-                                [
+                            _all =
+                            [
         """);
 
     foreach (var propName in allPropNames)
     {
-      refInfoContent.AppendLine($"                            {propName},");
-      metadataContent.AppendLine($"                            {propName},");
+      refInfoContent.AppendLine($"                        {propName},");
+      metadataContent.AppendLine($"                        {propName},");
     }
 
     metadataContent.AppendLine("""
-                                ];
-                            }
-                            return _all;
+                            ];
                         }
+                        return _all;
                     }
                 }
             }
+        }
         """);
 
     refInfoContent.AppendLine("""
-                                ];
-                            }
-                            return _all;
+                            ];
                         }
+                        return _all;
                     }
-
-                    public static IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> AllValues => All.Select(x => x.AsTuple());
                 }
+
+                public static IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> AllValues => All.Select(x => x.AsTuple());
             }
+        }
         """);
 
     codeContent.AppendLine("""
 
-                }
             }
+        }
         """);
 
     codeContent.AppendLine(refInfoContent.ToString());
 
     codeContent.AppendLine(metadataContent.ToString());
     codeContent.AppendLine(GetReferenceInfo(name));
-    codeContent.AppendLine("""
-        }
-        """);
 
     targetsContent.AppendLine("""
             </ItemGroup>
