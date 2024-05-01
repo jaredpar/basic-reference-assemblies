@@ -98,5 +98,17 @@ public class C
                 Assert.NotNull(tuple.Reference);
             }
         }
+
+        [Fact]
+        public void ReferencesLazyInit()
+        {
+            Assert.NotEmpty(NetCoreApp31.References.All);
+            Assert.NotEmpty(Net50.References.All);
+            Assert.NotEmpty(Net70.References.All);
+            Assert.NotEmpty(Net80.References.All);
+            Assert.NotEmpty(NetStandard13.References.All);
+            Assert.NotEmpty(Net461.References.All);
+            Assert.NotEmpty(Net472.References.All);
+        }
     }
 }
