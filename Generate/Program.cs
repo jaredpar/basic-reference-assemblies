@@ -25,6 +25,7 @@ NetStandard13();
 NetStandard20();
 Net461();
 Net472();
+CombinedReferenceInfo();
 
 void NetCoreApp31()
 {
@@ -151,6 +152,22 @@ const string referenceInfo = """
             (FileName, ImageBytes, Reference, Mvid);
     }
     """;
+
+void CombinedReferenceInfo()
+{
+    var content = $$"""
+        // This is a generated file, please edit Generate\Program.cs to change the contents
+        using Microsoft.CodeAnalysis;
+        using System;
+
+        namespace Basic.Reference.Assemblies
+        {
+        {{GetReferenceInfoIndented("    ")}}
+        }
+        """;
+
+    File.WriteAllText(Path.Combine(combinedDir, "ReferenceInfo.cs"), content, encoding);
+}
 
 string GetWorkspacePath(string[] args)
 {

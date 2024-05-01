@@ -1,3 +1,4 @@
+// This is a generated file, please edit Generate\Program.cs to change the contents
 using Microsoft.CodeAnalysis;
 using System;
 
@@ -16,7 +17,7 @@ namespace Basic.Reference.Assemblies
             Reference = reference;
             Mvid = mvid;
         }
-
+    
         public void Deconstruct(out string fileName, out byte[] imageBytes, out PortableExecutableReference reference, out Guid mvid)
         {
             fileName = FileName;
@@ -24,7 +25,7 @@ namespace Basic.Reference.Assemblies
             reference = Reference;
             mvid = Mvid;
         }
-
+    
         public (string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid) AsTuple() =>
             (FileName, ImageBytes, Reference, Mvid);
     }
