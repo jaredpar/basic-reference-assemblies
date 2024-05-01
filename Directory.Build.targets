@@ -5,7 +5,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="3.9.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.9.2" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(IsPackable)' == 'true'">

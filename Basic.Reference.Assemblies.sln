@@ -15,11 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net472", "Basic.Reference.Assemblies.Net472\Basic.Reference.Assemblies.Net472.csproj", "{6F49C153-3DB0-4286-AA66-51B1603D84AC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{880F6BAB-9DE7-45C7-BBEB-D64EE9F2CC53}"
-	ProjectSection(SolutionItems) = preProject
-		Scripts\Generate.ps1 = Scripts\Generate.ps1
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net60", "Basic.Reference.Assemblies.Net60\Basic.Reference.Assemblies.Net60.csproj", "{E2269796-09B5-40C8-85ED-476B5E71B29D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net461", "Basic.Reference.Assemblies.Net461\Basic.Reference.Assemblies.Net461.csproj", "{214260A9-1E3C-400C-A0D1-2BD099F60AD7}"
@@ -33,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net80", "Basic.Reference.Assemblies.Net80\Basic.Reference.Assemblies.Net80.csproj", "{DF1F1959-6D1E-4DF2-9013-81747C95194C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.AspNet80", "Basic.Reference.Assemblies.AspNet80\Basic.Reference.Assemblies.AspNet80.csproj", "{AD797DEA-E9DC-470B-861C-F049AD858B2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generate", "Generate\Generate.csproj", "{597AECC8-C644-4E8B-A429-B1F8CA015C90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -200,6 +197,18 @@ Global
 		{AD797DEA-E9DC-470B-861C-F049AD858B2C}.Release|x64.Build.0 = Release|Any CPU
 		{AD797DEA-E9DC-470B-861C-F049AD858B2C}.Release|x86.ActiveCfg = Release|Any CPU
 		{AD797DEA-E9DC-470B-861C-F049AD858B2C}.Release|x86.Build.0 = Release|Any CPU
+		{597AECC8-C644-4E8B-A429-B1F8CA015C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597AECC8-C644-4E8B-A429-B1F8CA015C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597AECC8-C644-4E8B-A429-B1F8CA015C90}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{597AECC8-C644-4E8B-A429-B1F8CA015C90}.Debug|x64.Build.0 = Debug|Any CPU
+		{597AECC8-C644-4E8B-A429-B1F8CA015C90}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{597AECC8-C644-4E8B-A429-B1F8CA015C90}.Debug|x86.Build.0 = Debug|Any CPU
+		{597AECC8-C644-4E8B-A429-B1F8CA015C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597AECC8-C644-4E8B-A429-B1F8CA015C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597AECC8-C644-4E8B-A429-B1F8CA015C90}.Release|x64.ActiveCfg = Release|Any CPU
+		{597AECC8-C644-4E8B-A429-B1F8CA015C90}.Release|x64.Build.0 = Release|Any CPU
+		{597AECC8-C644-4E8B-A429-B1F8CA015C90}.Release|x86.ActiveCfg = Release|Any CPU
+		{597AECC8-C644-4E8B-A429-B1F8CA015C90}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
