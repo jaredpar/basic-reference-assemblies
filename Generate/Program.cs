@@ -87,7 +87,10 @@ void AspNet80()
 
 void NetStandard13()
 {
-    var content = GetResourceContent(workspacePath, "NetStandard13", @"Resources\netstandard1.3");
+    // netstandard1.3 is a special case because it's not a single package. Instead the collection of DLLs that make
+    // up the TFM are just checked into the repo directly.
+    var realPackagePath = Path.Combine(workspacePath, "Resources", "netstandard1.3");
+    var content = GetGeneratedContentCore("NetStandard13", [realPackagePath], workspacePath, @"$(MSBuildThisFileDirectory)..", excludePattern: null);
     var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.NetStandard13");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.Targets"), content.TargetsContent, encoding);
@@ -221,7 +224,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
 
     var codeContent = new StringBuilder();
     codeContent.AppendLine($$"""
-        // This is a generated file, please edit Generate.ps1 to change the contents
+        // This is a generated file, please edit Generate\Program.cs to change the contents
 
         using System;
         using System.Collections.Generic;
@@ -280,8 +283,8 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
 
         targetsContent.AppendLine($$"""
                     <EmbeddedResource Include="{{dllResourcePath}}" WithCulture="false">
-                      <LogicalName>{{logicalName}}</LogicalName>
-                      <Link>Resources\{{lowerName}}\{{dllName}}</Link>
+                        <LogicalName>{{logicalName}}</LogicalName>
+                        <Link>Resources\{{lowerName}}\{{dllName}}</Link>
                     </EmbeddedResource>
             """);
 
@@ -354,8 +357,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
             }
         """);
 
-    // TODO: make appendline
-    refInfoContent.Append("""
+    refInfoContent.AppendLine("""
                                 };
                             }
                             return _all;
@@ -375,17 +377,15 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
 
     codeContent.AppendLine(refInfoContent.ToString());
 
-    // TODO: make appendline
-    codeContent.Append(metadataContent.ToString());
+    codeContent.AppendLine(metadataContent.ToString());
     codeContent.AppendLine(GetReferenceInfo(name));
     codeContent.AppendLine("""
         }
         """);
 
-    // TODO: fix project alignment
     targetsContent.AppendLine("""
             </ItemGroup>
-          </Project>
+        </Project>
         """);
 
     return (codeContent.ToString(), targetsContent.ToString());
@@ -401,11 +401,4 @@ static (string CodeContent, string TargetsContent) GetGeneratedContent(string na
 
     var realPackagePaths = packagePaths.Select(x => Path.Combine(nugetPackageRoot, x)).ToArray();
     return GetGeneratedContentCore(name, realPackagePaths, nugetPackageRoot, "$(NuGetPackageRoot)", excludePattern);
-}
-
-// TODO: This method name is terrible
-static (string CodeContent, string TargetsContent) GetResourceContent(string workspacePath, string name, string resourcePath)
-{
-    var realPackagePath = Path.Combine(workspacePath, resourcePath);
-    return GetGeneratedContentCore(name, [realPackagePath], workspacePath, @"$(MSBuildThisFileDirectory)..", excludePattern: null);
 }

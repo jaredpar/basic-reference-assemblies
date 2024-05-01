@@ -1,4 +1,4 @@
-// This is a generated file, please edit Generate.ps1 to change the contents
+// This is a generated file, please edit Generate\Program.cs to change the contents
 
 using System;
 using System.Collections.Generic;
@@ -268,6 +268,7 @@ namespace Basic.Reference.Assemblies
             public static IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> AllValues => All.Select(x => x.AsTuple());
         }
     }
+
     public static partial class NetStandard13
     {
         public static class References
@@ -1100,6 +1101,7 @@ namespace Basic.Reference.Assemblies
             }
         }
     }
+
 #if !BASIC_REFERENCE_ASSEMBLIES_COMBINED
     public static partial class NetStandard13
     {
