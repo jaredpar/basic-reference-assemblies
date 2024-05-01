@@ -2,7 +2,6 @@
 
 // TODO:
 // - file scoped namespace
-// - is null
 // - collection expressions
 
 using System.Reflection.Metadata;
@@ -265,6 +264,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
 
         using System;
         using System.Collections.Generic;
+        using System.Collections.Immutable;
         using System.Linq;
         using Microsoft.CodeAnalysis;
 
@@ -329,12 +329,12 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         allPropNames.Add(propName);
         var fieldName = $"_{propName}";
         codeContent.AppendLine($$"""
-                        private static byte[]? {{fieldName}};
-
                         /// <summary>
                         /// The image bytes for {{dllName}}
                         /// </summary>
                         public static byte[] {{propName}} => ResourceLoader.GetOrCreateResource(ref {{fieldName}}, "{{logicalName}}");
+                        private static byte[]? {{fieldName}};
+
             """);
 
         refInfoContent.AppendLine($$"""
@@ -355,7 +355,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
                         {
                             get
                             {
-                                if ({{fieldName}} == null)
+                                if ({{fieldName}} is null)
                                 {
                                     {{fieldName}} = AssemblyMetadata.CreateFromImage(Resources.{{propName}}).GetReference(filePath: "{{dllName}}", display: "{{dll}} ({{lowerName}})");
                                 }
@@ -367,27 +367,27 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
     }
 
     refInfoContent.AppendLine("""
-                    private static ReferenceInfo[]? _all;
-                    public static IEnumerable<ReferenceInfo> All
+                    private static ImmutableArray<ReferenceInfo> _all;
+                    public static ImmutableArray<ReferenceInfo> All
                     {
                         get
                         {
-                            if (_all == null)
+                            if (_all.IsDefault)
                             {
-                                _all = new[]
-                                {
+                                _all =
+                                [
         """);
 
     metadataContent.AppendLine("""
-                    private static PortableExecutableReference[]? _all;
-                    public static IEnumerable<PortableExecutableReference> All
+                    private static ImmutableArray<PortableExecutableReference> _all;
+                    public static ImmutableArray<PortableExecutableReference> All
                     {
                         get
                         {
-                            if (_all == null)
+                            if (_all.IsDefault)
                             {
-                                _all = new PortableExecutableReference[]
-                                {
+                                _all =
+                                [
         """);
 
     foreach (var propName in allPropNames)
@@ -397,7 +397,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
     }
 
     metadataContent.AppendLine("""
-                                };
+                                ];
                             }
                             return _all;
                         }
@@ -407,7 +407,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         """);
 
     refInfoContent.AppendLine("""
-                                };
+                                ];
                             }
                             return _all;
                         }

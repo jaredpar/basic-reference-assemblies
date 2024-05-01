@@ -2,6 +2,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using Microsoft.CodeAnalysis;
 
@@ -11,1812 +12,1812 @@ namespace Basic.Reference.Assemblies
     {
         public static class Resources
         {
-            private static byte[]? _MicrosoftCSharp;
-
             /// <summary>
             /// The image bytes for Microsoft.CSharp.dll
             /// </summary>
             public static byte[] MicrosoftCSharp => ResourceLoader.GetOrCreateResource(ref _MicrosoftCSharp, "aspnet80.Microsoft.CSharp");
-            private static byte[]? _MicrosoftVisualBasicCore;
+            private static byte[]? _MicrosoftCSharp;
 
             /// <summary>
             /// The image bytes for Microsoft.VisualBasic.Core.dll
             /// </summary>
             public static byte[] MicrosoftVisualBasicCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicCore, "aspnet80.Microsoft.VisualBasic.Core");
-            private static byte[]? _MicrosoftVisualBasic;
+            private static byte[]? _MicrosoftVisualBasicCore;
 
             /// <summary>
             /// The image bytes for Microsoft.VisualBasic.dll
             /// </summary>
             public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "aspnet80.Microsoft.VisualBasic");
-            private static byte[]? _MicrosoftWin32Primitives;
+            private static byte[]? _MicrosoftVisualBasic;
 
             /// <summary>
             /// The image bytes for Microsoft.Win32.Primitives.dll
             /// </summary>
             public static byte[] MicrosoftWin32Primitives => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32Primitives, "aspnet80.Microsoft.Win32.Primitives");
-            private static byte[]? _MicrosoftWin32Registry;
+            private static byte[]? _MicrosoftWin32Primitives;
 
             /// <summary>
             /// The image bytes for Microsoft.Win32.Registry.dll
             /// </summary>
             public static byte[] MicrosoftWin32Registry => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32Registry, "aspnet80.Microsoft.Win32.Registry");
-            private static byte[]? _mscorlib;
+            private static byte[]? _MicrosoftWin32Registry;
 
             /// <summary>
             /// The image bytes for mscorlib.dll
             /// </summary>
             public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "aspnet80.mscorlib");
-            private static byte[]? _netstandard;
+            private static byte[]? _mscorlib;
 
             /// <summary>
             /// The image bytes for netstandard.dll
             /// </summary>
             public static byte[] netstandard => ResourceLoader.GetOrCreateResource(ref _netstandard, "aspnet80.netstandard");
-            private static byte[]? _SystemAppContext;
+            private static byte[]? _netstandard;
 
             /// <summary>
             /// The image bytes for System.AppContext.dll
             /// </summary>
             public static byte[] SystemAppContext => ResourceLoader.GetOrCreateResource(ref _SystemAppContext, "aspnet80.System.AppContext");
-            private static byte[]? _SystemBuffers;
+            private static byte[]? _SystemAppContext;
 
             /// <summary>
             /// The image bytes for System.Buffers.dll
             /// </summary>
             public static byte[] SystemBuffers => ResourceLoader.GetOrCreateResource(ref _SystemBuffers, "aspnet80.System.Buffers");
-            private static byte[]? _SystemCollectionsConcurrent;
+            private static byte[]? _SystemBuffers;
 
             /// <summary>
             /// The image bytes for System.Collections.Concurrent.dll
             /// </summary>
             public static byte[] SystemCollectionsConcurrent => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsConcurrent, "aspnet80.System.Collections.Concurrent");
-            private static byte[]? _SystemCollections;
+            private static byte[]? _SystemCollectionsConcurrent;
 
             /// <summary>
             /// The image bytes for System.Collections.dll
             /// </summary>
             public static byte[] SystemCollections => ResourceLoader.GetOrCreateResource(ref _SystemCollections, "aspnet80.System.Collections");
-            private static byte[]? _SystemCollectionsImmutable;
+            private static byte[]? _SystemCollections;
 
             /// <summary>
             /// The image bytes for System.Collections.Immutable.dll
             /// </summary>
             public static byte[] SystemCollectionsImmutable => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsImmutable, "aspnet80.System.Collections.Immutable");
-            private static byte[]? _SystemCollectionsNonGeneric;
+            private static byte[]? _SystemCollectionsImmutable;
 
             /// <summary>
             /// The image bytes for System.Collections.NonGeneric.dll
             /// </summary>
             public static byte[] SystemCollectionsNonGeneric => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsNonGeneric, "aspnet80.System.Collections.NonGeneric");
-            private static byte[]? _SystemCollectionsSpecialized;
+            private static byte[]? _SystemCollectionsNonGeneric;
 
             /// <summary>
             /// The image bytes for System.Collections.Specialized.dll
             /// </summary>
             public static byte[] SystemCollectionsSpecialized => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsSpecialized, "aspnet80.System.Collections.Specialized");
-            private static byte[]? _SystemComponentModelAnnotations;
+            private static byte[]? _SystemCollectionsSpecialized;
 
             /// <summary>
             /// The image bytes for System.ComponentModel.Annotations.dll
             /// </summary>
             public static byte[] SystemComponentModelAnnotations => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelAnnotations, "aspnet80.System.ComponentModel.Annotations");
-            private static byte[]? _SystemComponentModelDataAnnotations;
+            private static byte[]? _SystemComponentModelAnnotations;
 
             /// <summary>
             /// The image bytes for System.ComponentModel.DataAnnotations.dll
             /// </summary>
             public static byte[] SystemComponentModelDataAnnotations => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelDataAnnotations, "aspnet80.System.ComponentModel.DataAnnotations");
-            private static byte[]? _SystemComponentModel;
+            private static byte[]? _SystemComponentModelDataAnnotations;
 
             /// <summary>
             /// The image bytes for System.ComponentModel.dll
             /// </summary>
             public static byte[] SystemComponentModel => ResourceLoader.GetOrCreateResource(ref _SystemComponentModel, "aspnet80.System.ComponentModel");
-            private static byte[]? _SystemComponentModelEventBasedAsync;
+            private static byte[]? _SystemComponentModel;
 
             /// <summary>
             /// The image bytes for System.ComponentModel.EventBasedAsync.dll
             /// </summary>
             public static byte[] SystemComponentModelEventBasedAsync => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelEventBasedAsync, "aspnet80.System.ComponentModel.EventBasedAsync");
-            private static byte[]? _SystemComponentModelPrimitives;
+            private static byte[]? _SystemComponentModelEventBasedAsync;
 
             /// <summary>
             /// The image bytes for System.ComponentModel.Primitives.dll
             /// </summary>
             public static byte[] SystemComponentModelPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelPrimitives, "aspnet80.System.ComponentModel.Primitives");
-            private static byte[]? _SystemComponentModelTypeConverter;
+            private static byte[]? _SystemComponentModelPrimitives;
 
             /// <summary>
             /// The image bytes for System.ComponentModel.TypeConverter.dll
             /// </summary>
             public static byte[] SystemComponentModelTypeConverter => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelTypeConverter, "aspnet80.System.ComponentModel.TypeConverter");
-            private static byte[]? _SystemConfiguration;
+            private static byte[]? _SystemComponentModelTypeConverter;
 
             /// <summary>
             /// The image bytes for System.Configuration.dll
             /// </summary>
             public static byte[] SystemConfiguration => ResourceLoader.GetOrCreateResource(ref _SystemConfiguration, "aspnet80.System.Configuration");
-            private static byte[]? _SystemConsole;
+            private static byte[]? _SystemConfiguration;
 
             /// <summary>
             /// The image bytes for System.Console.dll
             /// </summary>
             public static byte[] SystemConsole => ResourceLoader.GetOrCreateResource(ref _SystemConsole, "aspnet80.System.Console");
-            private static byte[]? _SystemCore;
+            private static byte[]? _SystemConsole;
 
             /// <summary>
             /// The image bytes for System.Core.dll
             /// </summary>
             public static byte[] SystemCore => ResourceLoader.GetOrCreateResource(ref _SystemCore, "aspnet80.System.Core");
-            private static byte[]? _SystemDataCommon;
+            private static byte[]? _SystemCore;
 
             /// <summary>
             /// The image bytes for System.Data.Common.dll
             /// </summary>
             public static byte[] SystemDataCommon => ResourceLoader.GetOrCreateResource(ref _SystemDataCommon, "aspnet80.System.Data.Common");
-            private static byte[]? _SystemDataDataSetExtensions;
+            private static byte[]? _SystemDataCommon;
 
             /// <summary>
             /// The image bytes for System.Data.DataSetExtensions.dll
             /// </summary>
             public static byte[] SystemDataDataSetExtensions => ResourceLoader.GetOrCreateResource(ref _SystemDataDataSetExtensions, "aspnet80.System.Data.DataSetExtensions");
-            private static byte[]? _SystemData;
+            private static byte[]? _SystemDataDataSetExtensions;
 
             /// <summary>
             /// The image bytes for System.Data.dll
             /// </summary>
             public static byte[] SystemData => ResourceLoader.GetOrCreateResource(ref _SystemData, "aspnet80.System.Data");
-            private static byte[]? _SystemDiagnosticsContracts;
+            private static byte[]? _SystemData;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.Contracts.dll
             /// </summary>
             public static byte[] SystemDiagnosticsContracts => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsContracts, "aspnet80.System.Diagnostics.Contracts");
-            private static byte[]? _SystemDiagnosticsDebug;
+            private static byte[]? _SystemDiagnosticsContracts;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.Debug.dll
             /// </summary>
             public static byte[] SystemDiagnosticsDebug => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsDebug, "aspnet80.System.Diagnostics.Debug");
-            private static byte[]? _SystemDiagnosticsDiagnosticSource;
+            private static byte[]? _SystemDiagnosticsDebug;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.DiagnosticSource.dll
             /// </summary>
             public static byte[] SystemDiagnosticsDiagnosticSource => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsDiagnosticSource, "aspnet80.System.Diagnostics.DiagnosticSource");
-            private static byte[]? _SystemDiagnosticsFileVersionInfo;
+            private static byte[]? _SystemDiagnosticsDiagnosticSource;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.FileVersionInfo.dll
             /// </summary>
             public static byte[] SystemDiagnosticsFileVersionInfo => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsFileVersionInfo, "aspnet80.System.Diagnostics.FileVersionInfo");
-            private static byte[]? _SystemDiagnosticsProcess;
+            private static byte[]? _SystemDiagnosticsFileVersionInfo;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.Process.dll
             /// </summary>
             public static byte[] SystemDiagnosticsProcess => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsProcess, "aspnet80.System.Diagnostics.Process");
-            private static byte[]? _SystemDiagnosticsStackTrace;
+            private static byte[]? _SystemDiagnosticsProcess;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.StackTrace.dll
             /// </summary>
             public static byte[] SystemDiagnosticsStackTrace => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsStackTrace, "aspnet80.System.Diagnostics.StackTrace");
-            private static byte[]? _SystemDiagnosticsTextWriterTraceListener;
+            private static byte[]? _SystemDiagnosticsStackTrace;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.TextWriterTraceListener.dll
             /// </summary>
             public static byte[] SystemDiagnosticsTextWriterTraceListener => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTextWriterTraceListener, "aspnet80.System.Diagnostics.TextWriterTraceListener");
-            private static byte[]? _SystemDiagnosticsTools;
+            private static byte[]? _SystemDiagnosticsTextWriterTraceListener;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.Tools.dll
             /// </summary>
             public static byte[] SystemDiagnosticsTools => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTools, "aspnet80.System.Diagnostics.Tools");
-            private static byte[]? _SystemDiagnosticsTraceSource;
+            private static byte[]? _SystemDiagnosticsTools;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.TraceSource.dll
             /// </summary>
             public static byte[] SystemDiagnosticsTraceSource => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTraceSource, "aspnet80.System.Diagnostics.TraceSource");
-            private static byte[]? _SystemDiagnosticsTracing;
+            private static byte[]? _SystemDiagnosticsTraceSource;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.Tracing.dll
             /// </summary>
             public static byte[] SystemDiagnosticsTracing => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTracing, "aspnet80.System.Diagnostics.Tracing");
-            private static byte[]? _System;
+            private static byte[]? _SystemDiagnosticsTracing;
 
             /// <summary>
             /// The image bytes for System.dll
             /// </summary>
             public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "aspnet80.System");
-            private static byte[]? _SystemDrawing;
+            private static byte[]? _System;
 
             /// <summary>
             /// The image bytes for System.Drawing.dll
             /// </summary>
             public static byte[] SystemDrawing => ResourceLoader.GetOrCreateResource(ref _SystemDrawing, "aspnet80.System.Drawing");
-            private static byte[]? _SystemDrawingPrimitives;
+            private static byte[]? _SystemDrawing;
 
             /// <summary>
             /// The image bytes for System.Drawing.Primitives.dll
             /// </summary>
             public static byte[] SystemDrawingPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemDrawingPrimitives, "aspnet80.System.Drawing.Primitives");
-            private static byte[]? _SystemDynamicRuntime;
+            private static byte[]? _SystemDrawingPrimitives;
 
             /// <summary>
             /// The image bytes for System.Dynamic.Runtime.dll
             /// </summary>
             public static byte[] SystemDynamicRuntime => ResourceLoader.GetOrCreateResource(ref _SystemDynamicRuntime, "aspnet80.System.Dynamic.Runtime");
-            private static byte[]? _SystemFormatsAsn1;
+            private static byte[]? _SystemDynamicRuntime;
 
             /// <summary>
             /// The image bytes for System.Formats.Asn1.dll
             /// </summary>
             public static byte[] SystemFormatsAsn1 => ResourceLoader.GetOrCreateResource(ref _SystemFormatsAsn1, "aspnet80.System.Formats.Asn1");
-            private static byte[]? _SystemFormatsTar;
+            private static byte[]? _SystemFormatsAsn1;
 
             /// <summary>
             /// The image bytes for System.Formats.Tar.dll
             /// </summary>
             public static byte[] SystemFormatsTar => ResourceLoader.GetOrCreateResource(ref _SystemFormatsTar, "aspnet80.System.Formats.Tar");
-            private static byte[]? _SystemGlobalizationCalendars;
+            private static byte[]? _SystemFormatsTar;
 
             /// <summary>
             /// The image bytes for System.Globalization.Calendars.dll
             /// </summary>
             public static byte[] SystemGlobalizationCalendars => ResourceLoader.GetOrCreateResource(ref _SystemGlobalizationCalendars, "aspnet80.System.Globalization.Calendars");
-            private static byte[]? _SystemGlobalization;
+            private static byte[]? _SystemGlobalizationCalendars;
 
             /// <summary>
             /// The image bytes for System.Globalization.dll
             /// </summary>
             public static byte[] SystemGlobalization => ResourceLoader.GetOrCreateResource(ref _SystemGlobalization, "aspnet80.System.Globalization");
-            private static byte[]? _SystemGlobalizationExtensions;
+            private static byte[]? _SystemGlobalization;
 
             /// <summary>
             /// The image bytes for System.Globalization.Extensions.dll
             /// </summary>
             public static byte[] SystemGlobalizationExtensions => ResourceLoader.GetOrCreateResource(ref _SystemGlobalizationExtensions, "aspnet80.System.Globalization.Extensions");
-            private static byte[]? _SystemIOCompressionBrotli;
+            private static byte[]? _SystemGlobalizationExtensions;
 
             /// <summary>
             /// The image bytes for System.IO.Compression.Brotli.dll
             /// </summary>
             public static byte[] SystemIOCompressionBrotli => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionBrotli, "aspnet80.System.IO.Compression.Brotli");
-            private static byte[]? _SystemIOCompression;
+            private static byte[]? _SystemIOCompressionBrotli;
 
             /// <summary>
             /// The image bytes for System.IO.Compression.dll
             /// </summary>
             public static byte[] SystemIOCompression => ResourceLoader.GetOrCreateResource(ref _SystemIOCompression, "aspnet80.System.IO.Compression");
-            private static byte[]? _SystemIOCompressionFileSystem;
+            private static byte[]? _SystemIOCompression;
 
             /// <summary>
             /// The image bytes for System.IO.Compression.FileSystem.dll
             /// </summary>
             public static byte[] SystemIOCompressionFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionFileSystem, "aspnet80.System.IO.Compression.FileSystem");
-            private static byte[]? _SystemIOCompressionZipFile;
+            private static byte[]? _SystemIOCompressionFileSystem;
 
             /// <summary>
             /// The image bytes for System.IO.Compression.ZipFile.dll
             /// </summary>
             public static byte[] SystemIOCompressionZipFile => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionZipFile, "aspnet80.System.IO.Compression.ZipFile");
-            private static byte[]? _SystemIO;
+            private static byte[]? _SystemIOCompressionZipFile;
 
             /// <summary>
             /// The image bytes for System.IO.dll
             /// </summary>
             public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "aspnet80.System.IO");
-            private static byte[]? _SystemIOFileSystemAccessControl;
+            private static byte[]? _SystemIO;
 
             /// <summary>
             /// The image bytes for System.IO.FileSystem.AccessControl.dll
             /// </summary>
             public static byte[] SystemIOFileSystemAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemAccessControl, "aspnet80.System.IO.FileSystem.AccessControl");
-            private static byte[]? _SystemIOFileSystem;
+            private static byte[]? _SystemIOFileSystemAccessControl;
 
             /// <summary>
             /// The image bytes for System.IO.FileSystem.dll
             /// </summary>
             public static byte[] SystemIOFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystem, "aspnet80.System.IO.FileSystem");
-            private static byte[]? _SystemIOFileSystemDriveInfo;
+            private static byte[]? _SystemIOFileSystem;
 
             /// <summary>
             /// The image bytes for System.IO.FileSystem.DriveInfo.dll
             /// </summary>
             public static byte[] SystemIOFileSystemDriveInfo => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemDriveInfo, "aspnet80.System.IO.FileSystem.DriveInfo");
-            private static byte[]? _SystemIOFileSystemPrimitives;
+            private static byte[]? _SystemIOFileSystemDriveInfo;
 
             /// <summary>
             /// The image bytes for System.IO.FileSystem.Primitives.dll
             /// </summary>
             public static byte[] SystemIOFileSystemPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemPrimitives, "aspnet80.System.IO.FileSystem.Primitives");
-            private static byte[]? _SystemIOFileSystemWatcher;
+            private static byte[]? _SystemIOFileSystemPrimitives;
 
             /// <summary>
             /// The image bytes for System.IO.FileSystem.Watcher.dll
             /// </summary>
             public static byte[] SystemIOFileSystemWatcher => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemWatcher, "aspnet80.System.IO.FileSystem.Watcher");
-            private static byte[]? _SystemIOIsolatedStorage;
+            private static byte[]? _SystemIOFileSystemWatcher;
 
             /// <summary>
             /// The image bytes for System.IO.IsolatedStorage.dll
             /// </summary>
             public static byte[] SystemIOIsolatedStorage => ResourceLoader.GetOrCreateResource(ref _SystemIOIsolatedStorage, "aspnet80.System.IO.IsolatedStorage");
-            private static byte[]? _SystemIOMemoryMappedFiles;
+            private static byte[]? _SystemIOIsolatedStorage;
 
             /// <summary>
             /// The image bytes for System.IO.MemoryMappedFiles.dll
             /// </summary>
             public static byte[] SystemIOMemoryMappedFiles => ResourceLoader.GetOrCreateResource(ref _SystemIOMemoryMappedFiles, "aspnet80.System.IO.MemoryMappedFiles");
-            private static byte[]? _SystemIOPipesAccessControl;
+            private static byte[]? _SystemIOMemoryMappedFiles;
 
             /// <summary>
             /// The image bytes for System.IO.Pipes.AccessControl.dll
             /// </summary>
             public static byte[] SystemIOPipesAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemIOPipesAccessControl, "aspnet80.System.IO.Pipes.AccessControl");
-            private static byte[]? _SystemIOPipes;
+            private static byte[]? _SystemIOPipesAccessControl;
 
             /// <summary>
             /// The image bytes for System.IO.Pipes.dll
             /// </summary>
             public static byte[] SystemIOPipes => ResourceLoader.GetOrCreateResource(ref _SystemIOPipes, "aspnet80.System.IO.Pipes");
-            private static byte[]? _SystemIOUnmanagedMemoryStream;
+            private static byte[]? _SystemIOPipes;
 
             /// <summary>
             /// The image bytes for System.IO.UnmanagedMemoryStream.dll
             /// </summary>
             public static byte[] SystemIOUnmanagedMemoryStream => ResourceLoader.GetOrCreateResource(ref _SystemIOUnmanagedMemoryStream, "aspnet80.System.IO.UnmanagedMemoryStream");
-            private static byte[]? _SystemLinq;
+            private static byte[]? _SystemIOUnmanagedMemoryStream;
 
             /// <summary>
             /// The image bytes for System.Linq.dll
             /// </summary>
             public static byte[] SystemLinq => ResourceLoader.GetOrCreateResource(ref _SystemLinq, "aspnet80.System.Linq");
-            private static byte[]? _SystemLinqExpressions;
+            private static byte[]? _SystemLinq;
 
             /// <summary>
             /// The image bytes for System.Linq.Expressions.dll
             /// </summary>
             public static byte[] SystemLinqExpressions => ResourceLoader.GetOrCreateResource(ref _SystemLinqExpressions, "aspnet80.System.Linq.Expressions");
-            private static byte[]? _SystemLinqParallel;
+            private static byte[]? _SystemLinqExpressions;
 
             /// <summary>
             /// The image bytes for System.Linq.Parallel.dll
             /// </summary>
             public static byte[] SystemLinqParallel => ResourceLoader.GetOrCreateResource(ref _SystemLinqParallel, "aspnet80.System.Linq.Parallel");
-            private static byte[]? _SystemLinqQueryable;
+            private static byte[]? _SystemLinqParallel;
 
             /// <summary>
             /// The image bytes for System.Linq.Queryable.dll
             /// </summary>
             public static byte[] SystemLinqQueryable => ResourceLoader.GetOrCreateResource(ref _SystemLinqQueryable, "aspnet80.System.Linq.Queryable");
-            private static byte[]? _SystemMemory;
+            private static byte[]? _SystemLinqQueryable;
 
             /// <summary>
             /// The image bytes for System.Memory.dll
             /// </summary>
             public static byte[] SystemMemory => ResourceLoader.GetOrCreateResource(ref _SystemMemory, "aspnet80.System.Memory");
-            private static byte[]? _SystemNet;
+            private static byte[]? _SystemMemory;
 
             /// <summary>
             /// The image bytes for System.Net.dll
             /// </summary>
             public static byte[] SystemNet => ResourceLoader.GetOrCreateResource(ref _SystemNet, "aspnet80.System.Net");
-            private static byte[]? _SystemNetHttp;
+            private static byte[]? _SystemNet;
 
             /// <summary>
             /// The image bytes for System.Net.Http.dll
             /// </summary>
             public static byte[] SystemNetHttp => ResourceLoader.GetOrCreateResource(ref _SystemNetHttp, "aspnet80.System.Net.Http");
-            private static byte[]? _SystemNetHttpJson;
+            private static byte[]? _SystemNetHttp;
 
             /// <summary>
             /// The image bytes for System.Net.Http.Json.dll
             /// </summary>
             public static byte[] SystemNetHttpJson => ResourceLoader.GetOrCreateResource(ref _SystemNetHttpJson, "aspnet80.System.Net.Http.Json");
-            private static byte[]? _SystemNetHttpListener;
+            private static byte[]? _SystemNetHttpJson;
 
             /// <summary>
             /// The image bytes for System.Net.HttpListener.dll
             /// </summary>
             public static byte[] SystemNetHttpListener => ResourceLoader.GetOrCreateResource(ref _SystemNetHttpListener, "aspnet80.System.Net.HttpListener");
-            private static byte[]? _SystemNetMail;
+            private static byte[]? _SystemNetHttpListener;
 
             /// <summary>
             /// The image bytes for System.Net.Mail.dll
             /// </summary>
             public static byte[] SystemNetMail => ResourceLoader.GetOrCreateResource(ref _SystemNetMail, "aspnet80.System.Net.Mail");
-            private static byte[]? _SystemNetNameResolution;
+            private static byte[]? _SystemNetMail;
 
             /// <summary>
             /// The image bytes for System.Net.NameResolution.dll
             /// </summary>
             public static byte[] SystemNetNameResolution => ResourceLoader.GetOrCreateResource(ref _SystemNetNameResolution, "aspnet80.System.Net.NameResolution");
-            private static byte[]? _SystemNetNetworkInformation;
+            private static byte[]? _SystemNetNameResolution;
 
             /// <summary>
             /// The image bytes for System.Net.NetworkInformation.dll
             /// </summary>
             public static byte[] SystemNetNetworkInformation => ResourceLoader.GetOrCreateResource(ref _SystemNetNetworkInformation, "aspnet80.System.Net.NetworkInformation");
-            private static byte[]? _SystemNetPing;
+            private static byte[]? _SystemNetNetworkInformation;
 
             /// <summary>
             /// The image bytes for System.Net.Ping.dll
             /// </summary>
             public static byte[] SystemNetPing => ResourceLoader.GetOrCreateResource(ref _SystemNetPing, "aspnet80.System.Net.Ping");
-            private static byte[]? _SystemNetPrimitives;
+            private static byte[]? _SystemNetPing;
 
             /// <summary>
             /// The image bytes for System.Net.Primitives.dll
             /// </summary>
             public static byte[] SystemNetPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemNetPrimitives, "aspnet80.System.Net.Primitives");
-            private static byte[]? _SystemNetQuic;
+            private static byte[]? _SystemNetPrimitives;
 
             /// <summary>
             /// The image bytes for System.Net.Quic.dll
             /// </summary>
             public static byte[] SystemNetQuic => ResourceLoader.GetOrCreateResource(ref _SystemNetQuic, "aspnet80.System.Net.Quic");
-            private static byte[]? _SystemNetRequests;
+            private static byte[]? _SystemNetQuic;
 
             /// <summary>
             /// The image bytes for System.Net.Requests.dll
             /// </summary>
             public static byte[] SystemNetRequests => ResourceLoader.GetOrCreateResource(ref _SystemNetRequests, "aspnet80.System.Net.Requests");
-            private static byte[]? _SystemNetSecurity;
+            private static byte[]? _SystemNetRequests;
 
             /// <summary>
             /// The image bytes for System.Net.Security.dll
             /// </summary>
             public static byte[] SystemNetSecurity => ResourceLoader.GetOrCreateResource(ref _SystemNetSecurity, "aspnet80.System.Net.Security");
-            private static byte[]? _SystemNetServicePoint;
+            private static byte[]? _SystemNetSecurity;
 
             /// <summary>
             /// The image bytes for System.Net.ServicePoint.dll
             /// </summary>
             public static byte[] SystemNetServicePoint => ResourceLoader.GetOrCreateResource(ref _SystemNetServicePoint, "aspnet80.System.Net.ServicePoint");
-            private static byte[]? _SystemNetSockets;
+            private static byte[]? _SystemNetServicePoint;
 
             /// <summary>
             /// The image bytes for System.Net.Sockets.dll
             /// </summary>
             public static byte[] SystemNetSockets => ResourceLoader.GetOrCreateResource(ref _SystemNetSockets, "aspnet80.System.Net.Sockets");
-            private static byte[]? _SystemNetWebClient;
+            private static byte[]? _SystemNetSockets;
 
             /// <summary>
             /// The image bytes for System.Net.WebClient.dll
             /// </summary>
             public static byte[] SystemNetWebClient => ResourceLoader.GetOrCreateResource(ref _SystemNetWebClient, "aspnet80.System.Net.WebClient");
-            private static byte[]? _SystemNetWebHeaderCollection;
+            private static byte[]? _SystemNetWebClient;
 
             /// <summary>
             /// The image bytes for System.Net.WebHeaderCollection.dll
             /// </summary>
             public static byte[] SystemNetWebHeaderCollection => ResourceLoader.GetOrCreateResource(ref _SystemNetWebHeaderCollection, "aspnet80.System.Net.WebHeaderCollection");
-            private static byte[]? _SystemNetWebProxy;
+            private static byte[]? _SystemNetWebHeaderCollection;
 
             /// <summary>
             /// The image bytes for System.Net.WebProxy.dll
             /// </summary>
             public static byte[] SystemNetWebProxy => ResourceLoader.GetOrCreateResource(ref _SystemNetWebProxy, "aspnet80.System.Net.WebProxy");
-            private static byte[]? _SystemNetWebSocketsClient;
+            private static byte[]? _SystemNetWebProxy;
 
             /// <summary>
             /// The image bytes for System.Net.WebSockets.Client.dll
             /// </summary>
             public static byte[] SystemNetWebSocketsClient => ResourceLoader.GetOrCreateResource(ref _SystemNetWebSocketsClient, "aspnet80.System.Net.WebSockets.Client");
-            private static byte[]? _SystemNetWebSockets;
+            private static byte[]? _SystemNetWebSocketsClient;
 
             /// <summary>
             /// The image bytes for System.Net.WebSockets.dll
             /// </summary>
             public static byte[] SystemNetWebSockets => ResourceLoader.GetOrCreateResource(ref _SystemNetWebSockets, "aspnet80.System.Net.WebSockets");
-            private static byte[]? _SystemNumerics;
+            private static byte[]? _SystemNetWebSockets;
 
             /// <summary>
             /// The image bytes for System.Numerics.dll
             /// </summary>
             public static byte[] SystemNumerics => ResourceLoader.GetOrCreateResource(ref _SystemNumerics, "aspnet80.System.Numerics");
-            private static byte[]? _SystemNumericsVectors;
+            private static byte[]? _SystemNumerics;
 
             /// <summary>
             /// The image bytes for System.Numerics.Vectors.dll
             /// </summary>
             public static byte[] SystemNumericsVectors => ResourceLoader.GetOrCreateResource(ref _SystemNumericsVectors, "aspnet80.System.Numerics.Vectors");
-            private static byte[]? _SystemObjectModel;
+            private static byte[]? _SystemNumericsVectors;
 
             /// <summary>
             /// The image bytes for System.ObjectModel.dll
             /// </summary>
             public static byte[] SystemObjectModel => ResourceLoader.GetOrCreateResource(ref _SystemObjectModel, "aspnet80.System.ObjectModel");
-            private static byte[]? _SystemReflectionDispatchProxy;
+            private static byte[]? _SystemObjectModel;
 
             /// <summary>
             /// The image bytes for System.Reflection.DispatchProxy.dll
             /// </summary>
             public static byte[] SystemReflectionDispatchProxy => ResourceLoader.GetOrCreateResource(ref _SystemReflectionDispatchProxy, "aspnet80.System.Reflection.DispatchProxy");
-            private static byte[]? _SystemReflection;
+            private static byte[]? _SystemReflectionDispatchProxy;
 
             /// <summary>
             /// The image bytes for System.Reflection.dll
             /// </summary>
             public static byte[] SystemReflection => ResourceLoader.GetOrCreateResource(ref _SystemReflection, "aspnet80.System.Reflection");
-            private static byte[]? _SystemReflectionEmit;
+            private static byte[]? _SystemReflection;
 
             /// <summary>
             /// The image bytes for System.Reflection.Emit.dll
             /// </summary>
             public static byte[] SystemReflectionEmit => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmit, "aspnet80.System.Reflection.Emit");
-            private static byte[]? _SystemReflectionEmitILGeneration;
+            private static byte[]? _SystemReflectionEmit;
 
             /// <summary>
             /// The image bytes for System.Reflection.Emit.ILGeneration.dll
             /// </summary>
             public static byte[] SystemReflectionEmitILGeneration => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmitILGeneration, "aspnet80.System.Reflection.Emit.ILGeneration");
-            private static byte[]? _SystemReflectionEmitLightweight;
+            private static byte[]? _SystemReflectionEmitILGeneration;
 
             /// <summary>
             /// The image bytes for System.Reflection.Emit.Lightweight.dll
             /// </summary>
             public static byte[] SystemReflectionEmitLightweight => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmitLightweight, "aspnet80.System.Reflection.Emit.Lightweight");
-            private static byte[]? _SystemReflectionExtensions;
+            private static byte[]? _SystemReflectionEmitLightweight;
 
             /// <summary>
             /// The image bytes for System.Reflection.Extensions.dll
             /// </summary>
             public static byte[] SystemReflectionExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionExtensions, "aspnet80.System.Reflection.Extensions");
-            private static byte[]? _SystemReflectionMetadata;
+            private static byte[]? _SystemReflectionExtensions;
 
             /// <summary>
             /// The image bytes for System.Reflection.Metadata.dll
             /// </summary>
             public static byte[] SystemReflectionMetadata => ResourceLoader.GetOrCreateResource(ref _SystemReflectionMetadata, "aspnet80.System.Reflection.Metadata");
-            private static byte[]? _SystemReflectionPrimitives;
+            private static byte[]? _SystemReflectionMetadata;
 
             /// <summary>
             /// The image bytes for System.Reflection.Primitives.dll
             /// </summary>
             public static byte[] SystemReflectionPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemReflectionPrimitives, "aspnet80.System.Reflection.Primitives");
-            private static byte[]? _SystemReflectionTypeExtensions;
+            private static byte[]? _SystemReflectionPrimitives;
 
             /// <summary>
             /// The image bytes for System.Reflection.TypeExtensions.dll
             /// </summary>
             public static byte[] SystemReflectionTypeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionTypeExtensions, "aspnet80.System.Reflection.TypeExtensions");
-            private static byte[]? _SystemResourcesReader;
+            private static byte[]? _SystemReflectionTypeExtensions;
 
             /// <summary>
             /// The image bytes for System.Resources.Reader.dll
             /// </summary>
             public static byte[] SystemResourcesReader => ResourceLoader.GetOrCreateResource(ref _SystemResourcesReader, "aspnet80.System.Resources.Reader");
-            private static byte[]? _SystemResourcesResourceManager;
+            private static byte[]? _SystemResourcesReader;
 
             /// <summary>
             /// The image bytes for System.Resources.ResourceManager.dll
             /// </summary>
             public static byte[] SystemResourcesResourceManager => ResourceLoader.GetOrCreateResource(ref _SystemResourcesResourceManager, "aspnet80.System.Resources.ResourceManager");
-            private static byte[]? _SystemResourcesWriter;
+            private static byte[]? _SystemResourcesResourceManager;
 
             /// <summary>
             /// The image bytes for System.Resources.Writer.dll
             /// </summary>
             public static byte[] SystemResourcesWriter => ResourceLoader.GetOrCreateResource(ref _SystemResourcesWriter, "aspnet80.System.Resources.Writer");
-            private static byte[]? _SystemRuntimeCompilerServicesUnsafe;
+            private static byte[]? _SystemResourcesWriter;
 
             /// <summary>
             /// The image bytes for System.Runtime.CompilerServices.Unsafe.dll
             /// </summary>
             public static byte[] SystemRuntimeCompilerServicesUnsafe => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeCompilerServicesUnsafe, "aspnet80.System.Runtime.CompilerServices.Unsafe");
-            private static byte[]? _SystemRuntimeCompilerServicesVisualC;
+            private static byte[]? _SystemRuntimeCompilerServicesUnsafe;
 
             /// <summary>
             /// The image bytes for System.Runtime.CompilerServices.VisualC.dll
             /// </summary>
             public static byte[] SystemRuntimeCompilerServicesVisualC => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeCompilerServicesVisualC, "aspnet80.System.Runtime.CompilerServices.VisualC");
-            private static byte[]? _SystemRuntime;
+            private static byte[]? _SystemRuntimeCompilerServicesVisualC;
 
             /// <summary>
             /// The image bytes for System.Runtime.dll
             /// </summary>
             public static byte[] SystemRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntime, "aspnet80.System.Runtime");
-            private static byte[]? _SystemRuntimeExtensions;
+            private static byte[]? _SystemRuntime;
 
             /// <summary>
             /// The image bytes for System.Runtime.Extensions.dll
             /// </summary>
             public static byte[] SystemRuntimeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeExtensions, "aspnet80.System.Runtime.Extensions");
-            private static byte[]? _SystemRuntimeHandles;
+            private static byte[]? _SystemRuntimeExtensions;
 
             /// <summary>
             /// The image bytes for System.Runtime.Handles.dll
             /// </summary>
             public static byte[] SystemRuntimeHandles => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeHandles, "aspnet80.System.Runtime.Handles");
-            private static byte[]? _SystemRuntimeInteropServices;
+            private static byte[]? _SystemRuntimeHandles;
 
             /// <summary>
             /// The image bytes for System.Runtime.InteropServices.dll
             /// </summary>
             public static byte[] SystemRuntimeInteropServices => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServices, "aspnet80.System.Runtime.InteropServices");
-            private static byte[]? _SystemRuntimeInteropServicesJavaScript;
+            private static byte[]? _SystemRuntimeInteropServices;
 
             /// <summary>
             /// The image bytes for System.Runtime.InteropServices.JavaScript.dll
             /// </summary>
             public static byte[] SystemRuntimeInteropServicesJavaScript => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesJavaScript, "aspnet80.System.Runtime.InteropServices.JavaScript");
-            private static byte[]? _SystemRuntimeInteropServicesRuntimeInformation;
+            private static byte[]? _SystemRuntimeInteropServicesJavaScript;
 
             /// <summary>
             /// The image bytes for System.Runtime.InteropServices.RuntimeInformation.dll
             /// </summary>
             public static byte[] SystemRuntimeInteropServicesRuntimeInformation => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesRuntimeInformation, "aspnet80.System.Runtime.InteropServices.RuntimeInformation");
-            private static byte[]? _SystemRuntimeIntrinsics;
+            private static byte[]? _SystemRuntimeInteropServicesRuntimeInformation;
 
             /// <summary>
             /// The image bytes for System.Runtime.Intrinsics.dll
             /// </summary>
             public static byte[] SystemRuntimeIntrinsics => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeIntrinsics, "aspnet80.System.Runtime.Intrinsics");
-            private static byte[]? _SystemRuntimeLoader;
+            private static byte[]? _SystemRuntimeIntrinsics;
 
             /// <summary>
             /// The image bytes for System.Runtime.Loader.dll
             /// </summary>
             public static byte[] SystemRuntimeLoader => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeLoader, "aspnet80.System.Runtime.Loader");
-            private static byte[]? _SystemRuntimeNumerics;
+            private static byte[]? _SystemRuntimeLoader;
 
             /// <summary>
             /// The image bytes for System.Runtime.Numerics.dll
             /// </summary>
             public static byte[] SystemRuntimeNumerics => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeNumerics, "aspnet80.System.Runtime.Numerics");
-            private static byte[]? _SystemRuntimeSerialization;
+            private static byte[]? _SystemRuntimeNumerics;
 
             /// <summary>
             /// The image bytes for System.Runtime.Serialization.dll
             /// </summary>
             public static byte[] SystemRuntimeSerialization => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerialization, "aspnet80.System.Runtime.Serialization");
-            private static byte[]? _SystemRuntimeSerializationFormatters;
+            private static byte[]? _SystemRuntimeSerialization;
 
             /// <summary>
             /// The image bytes for System.Runtime.Serialization.Formatters.dll
             /// </summary>
             public static byte[] SystemRuntimeSerializationFormatters => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationFormatters, "aspnet80.System.Runtime.Serialization.Formatters");
-            private static byte[]? _SystemRuntimeSerializationJson;
+            private static byte[]? _SystemRuntimeSerializationFormatters;
 
             /// <summary>
             /// The image bytes for System.Runtime.Serialization.Json.dll
             /// </summary>
             public static byte[] SystemRuntimeSerializationJson => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationJson, "aspnet80.System.Runtime.Serialization.Json");
-            private static byte[]? _SystemRuntimeSerializationPrimitives;
+            private static byte[]? _SystemRuntimeSerializationJson;
 
             /// <summary>
             /// The image bytes for System.Runtime.Serialization.Primitives.dll
             /// </summary>
             public static byte[] SystemRuntimeSerializationPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationPrimitives, "aspnet80.System.Runtime.Serialization.Primitives");
-            private static byte[]? _SystemRuntimeSerializationXml;
+            private static byte[]? _SystemRuntimeSerializationPrimitives;
 
             /// <summary>
             /// The image bytes for System.Runtime.Serialization.Xml.dll
             /// </summary>
             public static byte[] SystemRuntimeSerializationXml => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationXml, "aspnet80.System.Runtime.Serialization.Xml");
-            private static byte[]? _SystemSecurityAccessControl;
+            private static byte[]? _SystemRuntimeSerializationXml;
 
             /// <summary>
             /// The image bytes for System.Security.AccessControl.dll
             /// </summary>
             public static byte[] SystemSecurityAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemSecurityAccessControl, "aspnet80.System.Security.AccessControl");
-            private static byte[]? _SystemSecurityClaims;
+            private static byte[]? _SystemSecurityAccessControl;
 
             /// <summary>
             /// The image bytes for System.Security.Claims.dll
             /// </summary>
             public static byte[] SystemSecurityClaims => ResourceLoader.GetOrCreateResource(ref _SystemSecurityClaims, "aspnet80.System.Security.Claims");
-            private static byte[]? _SystemSecurityCryptographyAlgorithms;
+            private static byte[]? _SystemSecurityClaims;
 
             /// <summary>
             /// The image bytes for System.Security.Cryptography.Algorithms.dll
             /// </summary>
             public static byte[] SystemSecurityCryptographyAlgorithms => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyAlgorithms, "aspnet80.System.Security.Cryptography.Algorithms");
-            private static byte[]? _SystemSecurityCryptographyCng;
+            private static byte[]? _SystemSecurityCryptographyAlgorithms;
 
             /// <summary>
             /// The image bytes for System.Security.Cryptography.Cng.dll
             /// </summary>
             public static byte[] SystemSecurityCryptographyCng => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyCng, "aspnet80.System.Security.Cryptography.Cng");
-            private static byte[]? _SystemSecurityCryptographyCsp;
+            private static byte[]? _SystemSecurityCryptographyCng;
 
             /// <summary>
             /// The image bytes for System.Security.Cryptography.Csp.dll
             /// </summary>
             public static byte[] SystemSecurityCryptographyCsp => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyCsp, "aspnet80.System.Security.Cryptography.Csp");
-            private static byte[]? _SystemSecurityCryptography;
+            private static byte[]? _SystemSecurityCryptographyCsp;
 
             /// <summary>
             /// The image bytes for System.Security.Cryptography.dll
             /// </summary>
             public static byte[] SystemSecurityCryptography => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptography, "aspnet80.System.Security.Cryptography");
-            private static byte[]? _SystemSecurityCryptographyEncoding;
+            private static byte[]? _SystemSecurityCryptography;
 
             /// <summary>
             /// The image bytes for System.Security.Cryptography.Encoding.dll
             /// </summary>
             public static byte[] SystemSecurityCryptographyEncoding => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyEncoding, "aspnet80.System.Security.Cryptography.Encoding");
-            private static byte[]? _SystemSecurityCryptographyOpenSsl;
+            private static byte[]? _SystemSecurityCryptographyEncoding;
 
             /// <summary>
             /// The image bytes for System.Security.Cryptography.OpenSsl.dll
             /// </summary>
             public static byte[] SystemSecurityCryptographyOpenSsl => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyOpenSsl, "aspnet80.System.Security.Cryptography.OpenSsl");
-            private static byte[]? _SystemSecurityCryptographyPrimitives;
+            private static byte[]? _SystemSecurityCryptographyOpenSsl;
 
             /// <summary>
             /// The image bytes for System.Security.Cryptography.Primitives.dll
             /// </summary>
             public static byte[] SystemSecurityCryptographyPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyPrimitives, "aspnet80.System.Security.Cryptography.Primitives");
-            private static byte[]? _SystemSecurityCryptographyX509Certificates;
+            private static byte[]? _SystemSecurityCryptographyPrimitives;
 
             /// <summary>
             /// The image bytes for System.Security.Cryptography.X509Certificates.dll
             /// </summary>
             public static byte[] SystemSecurityCryptographyX509Certificates => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyX509Certificates, "aspnet80.System.Security.Cryptography.X509Certificates");
-            private static byte[]? _SystemSecurity;
+            private static byte[]? _SystemSecurityCryptographyX509Certificates;
 
             /// <summary>
             /// The image bytes for System.Security.dll
             /// </summary>
             public static byte[] SystemSecurity => ResourceLoader.GetOrCreateResource(ref _SystemSecurity, "aspnet80.System.Security");
-            private static byte[]? _SystemSecurityPrincipal;
+            private static byte[]? _SystemSecurity;
 
             /// <summary>
             /// The image bytes for System.Security.Principal.dll
             /// </summary>
             public static byte[] SystemSecurityPrincipal => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipal, "aspnet80.System.Security.Principal");
-            private static byte[]? _SystemSecurityPrincipalWindows;
+            private static byte[]? _SystemSecurityPrincipal;
 
             /// <summary>
             /// The image bytes for System.Security.Principal.Windows.dll
             /// </summary>
             public static byte[] SystemSecurityPrincipalWindows => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipalWindows, "aspnet80.System.Security.Principal.Windows");
-            private static byte[]? _SystemSecuritySecureString;
+            private static byte[]? _SystemSecurityPrincipalWindows;
 
             /// <summary>
             /// The image bytes for System.Security.SecureString.dll
             /// </summary>
             public static byte[] SystemSecuritySecureString => ResourceLoader.GetOrCreateResource(ref _SystemSecuritySecureString, "aspnet80.System.Security.SecureString");
-            private static byte[]? _SystemServiceModelWeb;
+            private static byte[]? _SystemSecuritySecureString;
 
             /// <summary>
             /// The image bytes for System.ServiceModel.Web.dll
             /// </summary>
             public static byte[] SystemServiceModelWeb => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelWeb, "aspnet80.System.ServiceModel.Web");
-            private static byte[]? _SystemServiceProcess;
+            private static byte[]? _SystemServiceModelWeb;
 
             /// <summary>
             /// The image bytes for System.ServiceProcess.dll
             /// </summary>
             public static byte[] SystemServiceProcess => ResourceLoader.GetOrCreateResource(ref _SystemServiceProcess, "aspnet80.System.ServiceProcess");
-            private static byte[]? _SystemTextEncodingCodePages;
+            private static byte[]? _SystemServiceProcess;
 
             /// <summary>
             /// The image bytes for System.Text.Encoding.CodePages.dll
             /// </summary>
             public static byte[] SystemTextEncodingCodePages => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingCodePages, "aspnet80.System.Text.Encoding.CodePages");
-            private static byte[]? _SystemTextEncoding;
+            private static byte[]? _SystemTextEncodingCodePages;
 
             /// <summary>
             /// The image bytes for System.Text.Encoding.dll
             /// </summary>
             public static byte[] SystemTextEncoding => ResourceLoader.GetOrCreateResource(ref _SystemTextEncoding, "aspnet80.System.Text.Encoding");
-            private static byte[]? _SystemTextEncodingExtensions;
+            private static byte[]? _SystemTextEncoding;
 
             /// <summary>
             /// The image bytes for System.Text.Encoding.Extensions.dll
             /// </summary>
             public static byte[] SystemTextEncodingExtensions => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingExtensions, "aspnet80.System.Text.Encoding.Extensions");
-            private static byte[]? _SystemTextEncodingsWeb;
+            private static byte[]? _SystemTextEncodingExtensions;
 
             /// <summary>
             /// The image bytes for System.Text.Encodings.Web.dll
             /// </summary>
             public static byte[] SystemTextEncodingsWeb => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingsWeb, "aspnet80.System.Text.Encodings.Web");
-            private static byte[]? _SystemTextJson;
+            private static byte[]? _SystemTextEncodingsWeb;
 
             /// <summary>
             /// The image bytes for System.Text.Json.dll
             /// </summary>
             public static byte[] SystemTextJson => ResourceLoader.GetOrCreateResource(ref _SystemTextJson, "aspnet80.System.Text.Json");
-            private static byte[]? _SystemTextRegularExpressions;
+            private static byte[]? _SystemTextJson;
 
             /// <summary>
             /// The image bytes for System.Text.RegularExpressions.dll
             /// </summary>
             public static byte[] SystemTextRegularExpressions => ResourceLoader.GetOrCreateResource(ref _SystemTextRegularExpressions, "aspnet80.System.Text.RegularExpressions");
-            private static byte[]? _SystemThreadingChannels;
+            private static byte[]? _SystemTextRegularExpressions;
 
             /// <summary>
             /// The image bytes for System.Threading.Channels.dll
             /// </summary>
             public static byte[] SystemThreadingChannels => ResourceLoader.GetOrCreateResource(ref _SystemThreadingChannels, "aspnet80.System.Threading.Channels");
-            private static byte[]? _SystemThreading;
+            private static byte[]? _SystemThreadingChannels;
 
             /// <summary>
             /// The image bytes for System.Threading.dll
             /// </summary>
             public static byte[] SystemThreading => ResourceLoader.GetOrCreateResource(ref _SystemThreading, "aspnet80.System.Threading");
-            private static byte[]? _SystemThreadingOverlapped;
+            private static byte[]? _SystemThreading;
 
             /// <summary>
             /// The image bytes for System.Threading.Overlapped.dll
             /// </summary>
             public static byte[] SystemThreadingOverlapped => ResourceLoader.GetOrCreateResource(ref _SystemThreadingOverlapped, "aspnet80.System.Threading.Overlapped");
-            private static byte[]? _SystemThreadingTasksDataflow;
+            private static byte[]? _SystemThreadingOverlapped;
 
             /// <summary>
             /// The image bytes for System.Threading.Tasks.Dataflow.dll
             /// </summary>
             public static byte[] SystemThreadingTasksDataflow => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksDataflow, "aspnet80.System.Threading.Tasks.Dataflow");
-            private static byte[]? _SystemThreadingTasks;
+            private static byte[]? _SystemThreadingTasksDataflow;
 
             /// <summary>
             /// The image bytes for System.Threading.Tasks.dll
             /// </summary>
             public static byte[] SystemThreadingTasks => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasks, "aspnet80.System.Threading.Tasks");
-            private static byte[]? _SystemThreadingTasksExtensions;
+            private static byte[]? _SystemThreadingTasks;
 
             /// <summary>
             /// The image bytes for System.Threading.Tasks.Extensions.dll
             /// </summary>
             public static byte[] SystemThreadingTasksExtensions => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksExtensions, "aspnet80.System.Threading.Tasks.Extensions");
-            private static byte[]? _SystemThreadingTasksParallel;
+            private static byte[]? _SystemThreadingTasksExtensions;
 
             /// <summary>
             /// The image bytes for System.Threading.Tasks.Parallel.dll
             /// </summary>
             public static byte[] SystemThreadingTasksParallel => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksParallel, "aspnet80.System.Threading.Tasks.Parallel");
-            private static byte[]? _SystemThreadingThread;
+            private static byte[]? _SystemThreadingTasksParallel;
 
             /// <summary>
             /// The image bytes for System.Threading.Thread.dll
             /// </summary>
             public static byte[] SystemThreadingThread => ResourceLoader.GetOrCreateResource(ref _SystemThreadingThread, "aspnet80.System.Threading.Thread");
-            private static byte[]? _SystemThreadingThreadPool;
+            private static byte[]? _SystemThreadingThread;
 
             /// <summary>
             /// The image bytes for System.Threading.ThreadPool.dll
             /// </summary>
             public static byte[] SystemThreadingThreadPool => ResourceLoader.GetOrCreateResource(ref _SystemThreadingThreadPool, "aspnet80.System.Threading.ThreadPool");
-            private static byte[]? _SystemThreadingTimer;
+            private static byte[]? _SystemThreadingThreadPool;
 
             /// <summary>
             /// The image bytes for System.Threading.Timer.dll
             /// </summary>
             public static byte[] SystemThreadingTimer => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTimer, "aspnet80.System.Threading.Timer");
-            private static byte[]? _SystemTransactions;
+            private static byte[]? _SystemThreadingTimer;
 
             /// <summary>
             /// The image bytes for System.Transactions.dll
             /// </summary>
             public static byte[] SystemTransactions => ResourceLoader.GetOrCreateResource(ref _SystemTransactions, "aspnet80.System.Transactions");
-            private static byte[]? _SystemTransactionsLocal;
+            private static byte[]? _SystemTransactions;
 
             /// <summary>
             /// The image bytes for System.Transactions.Local.dll
             /// </summary>
             public static byte[] SystemTransactionsLocal => ResourceLoader.GetOrCreateResource(ref _SystemTransactionsLocal, "aspnet80.System.Transactions.Local");
-            private static byte[]? _SystemValueTuple;
+            private static byte[]? _SystemTransactionsLocal;
 
             /// <summary>
             /// The image bytes for System.ValueTuple.dll
             /// </summary>
             public static byte[] SystemValueTuple => ResourceLoader.GetOrCreateResource(ref _SystemValueTuple, "aspnet80.System.ValueTuple");
-            private static byte[]? _SystemWeb;
+            private static byte[]? _SystemValueTuple;
 
             /// <summary>
             /// The image bytes for System.Web.dll
             /// </summary>
             public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "aspnet80.System.Web");
-            private static byte[]? _SystemWebHttpUtility;
+            private static byte[]? _SystemWeb;
 
             /// <summary>
             /// The image bytes for System.Web.HttpUtility.dll
             /// </summary>
             public static byte[] SystemWebHttpUtility => ResourceLoader.GetOrCreateResource(ref _SystemWebHttpUtility, "aspnet80.System.Web.HttpUtility");
-            private static byte[]? _SystemWindows;
+            private static byte[]? _SystemWebHttpUtility;
 
             /// <summary>
             /// The image bytes for System.Windows.dll
             /// </summary>
             public static byte[] SystemWindows => ResourceLoader.GetOrCreateResource(ref _SystemWindows, "aspnet80.System.Windows");
-            private static byte[]? _SystemXml;
+            private static byte[]? _SystemWindows;
 
             /// <summary>
             /// The image bytes for System.Xml.dll
             /// </summary>
             public static byte[] SystemXml => ResourceLoader.GetOrCreateResource(ref _SystemXml, "aspnet80.System.Xml");
-            private static byte[]? _SystemXmlLinq;
+            private static byte[]? _SystemXml;
 
             /// <summary>
             /// The image bytes for System.Xml.Linq.dll
             /// </summary>
             public static byte[] SystemXmlLinq => ResourceLoader.GetOrCreateResource(ref _SystemXmlLinq, "aspnet80.System.Xml.Linq");
-            private static byte[]? _SystemXmlReaderWriter;
+            private static byte[]? _SystemXmlLinq;
 
             /// <summary>
             /// The image bytes for System.Xml.ReaderWriter.dll
             /// </summary>
             public static byte[] SystemXmlReaderWriter => ResourceLoader.GetOrCreateResource(ref _SystemXmlReaderWriter, "aspnet80.System.Xml.ReaderWriter");
-            private static byte[]? _SystemXmlSerialization;
+            private static byte[]? _SystemXmlReaderWriter;
 
             /// <summary>
             /// The image bytes for System.Xml.Serialization.dll
             /// </summary>
             public static byte[] SystemXmlSerialization => ResourceLoader.GetOrCreateResource(ref _SystemXmlSerialization, "aspnet80.System.Xml.Serialization");
-            private static byte[]? _SystemXmlXDocument;
+            private static byte[]? _SystemXmlSerialization;
 
             /// <summary>
             /// The image bytes for System.Xml.XDocument.dll
             /// </summary>
             public static byte[] SystemXmlXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXDocument, "aspnet80.System.Xml.XDocument");
-            private static byte[]? _SystemXmlXmlDocument;
+            private static byte[]? _SystemXmlXDocument;
 
             /// <summary>
             /// The image bytes for System.Xml.XmlDocument.dll
             /// </summary>
             public static byte[] SystemXmlXmlDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlDocument, "aspnet80.System.Xml.XmlDocument");
-            private static byte[]? _SystemXmlXmlSerializer;
+            private static byte[]? _SystemXmlXmlDocument;
 
             /// <summary>
             /// The image bytes for System.Xml.XmlSerializer.dll
             /// </summary>
             public static byte[] SystemXmlXmlSerializer => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlSerializer, "aspnet80.System.Xml.XmlSerializer");
-            private static byte[]? _SystemXmlXPath;
+            private static byte[]? _SystemXmlXmlSerializer;
 
             /// <summary>
             /// The image bytes for System.Xml.XPath.dll
             /// </summary>
             public static byte[] SystemXmlXPath => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPath, "aspnet80.System.Xml.XPath");
-            private static byte[]? _SystemXmlXPathXDocument;
+            private static byte[]? _SystemXmlXPath;
 
             /// <summary>
             /// The image bytes for System.Xml.XPath.XDocument.dll
             /// </summary>
             public static byte[] SystemXmlXPathXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPathXDocument, "aspnet80.System.Xml.XPath.XDocument");
-            private static byte[]? _WindowsBase;
+            private static byte[]? _SystemXmlXPathXDocument;
 
             /// <summary>
             /// The image bytes for WindowsBase.dll
             /// </summary>
             public static byte[] WindowsBase => ResourceLoader.GetOrCreateResource(ref _WindowsBase, "aspnet80.WindowsBase");
-            private static byte[]? _MicrosoftAspNetCoreAntiforgery;
+            private static byte[]? _WindowsBase;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Antiforgery.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreAntiforgery => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAntiforgery, "aspnet80.Microsoft.AspNetCore.Antiforgery");
-            private static byte[]? _MicrosoftAspNetCoreAuthenticationAbstractions;
+            private static byte[]? _MicrosoftAspNetCoreAntiforgery;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Authentication.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreAuthenticationAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationAbstractions, "aspnet80.Microsoft.AspNetCore.Authentication.Abstractions");
-            private static byte[]? _MicrosoftAspNetCoreAuthenticationBearerToken;
+            private static byte[]? _MicrosoftAspNetCoreAuthenticationAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Authentication.BearerToken.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreAuthenticationBearerToken => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationBearerToken, "aspnet80.Microsoft.AspNetCore.Authentication.BearerToken");
-            private static byte[]? _MicrosoftAspNetCoreAuthenticationCookies;
+            private static byte[]? _MicrosoftAspNetCoreAuthenticationBearerToken;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Authentication.Cookies.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreAuthenticationCookies => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationCookies, "aspnet80.Microsoft.AspNetCore.Authentication.Cookies");
-            private static byte[]? _MicrosoftAspNetCoreAuthenticationCore;
+            private static byte[]? _MicrosoftAspNetCoreAuthenticationCookies;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Authentication.Core.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreAuthenticationCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationCore, "aspnet80.Microsoft.AspNetCore.Authentication.Core");
-            private static byte[]? _MicrosoftAspNetCoreAuthentication;
+            private static byte[]? _MicrosoftAspNetCoreAuthenticationCore;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Authentication.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreAuthentication => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthentication, "aspnet80.Microsoft.AspNetCore.Authentication");
-            private static byte[]? _MicrosoftAspNetCoreAuthenticationOAuth;
+            private static byte[]? _MicrosoftAspNetCoreAuthentication;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Authentication.OAuth.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreAuthenticationOAuth => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationOAuth, "aspnet80.Microsoft.AspNetCore.Authentication.OAuth");
-            private static byte[]? _MicrosoftAspNetCoreAuthorization;
+            private static byte[]? _MicrosoftAspNetCoreAuthenticationOAuth;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Authorization.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreAuthorization => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthorization, "aspnet80.Microsoft.AspNetCore.Authorization");
-            private static byte[]? _MicrosoftAspNetCoreAuthorizationPolicy;
+            private static byte[]? _MicrosoftAspNetCoreAuthorization;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Authorization.Policy.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreAuthorizationPolicy => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthorizationPolicy, "aspnet80.Microsoft.AspNetCore.Authorization.Policy");
-            private static byte[]? _MicrosoftAspNetCoreComponentsAuthorization;
+            private static byte[]? _MicrosoftAspNetCoreAuthorizationPolicy;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Components.Authorization.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreComponentsAuthorization => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsAuthorization, "aspnet80.Microsoft.AspNetCore.Components.Authorization");
-            private static byte[]? _MicrosoftAspNetCoreComponents;
+            private static byte[]? _MicrosoftAspNetCoreComponentsAuthorization;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Components.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreComponents => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponents, "aspnet80.Microsoft.AspNetCore.Components");
-            private static byte[]? _MicrosoftAspNetCoreComponentsEndpoints;
+            private static byte[]? _MicrosoftAspNetCoreComponents;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Components.Endpoints.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreComponentsEndpoints => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsEndpoints, "aspnet80.Microsoft.AspNetCore.Components.Endpoints");
-            private static byte[]? _MicrosoftAspNetCoreComponentsForms;
+            private static byte[]? _MicrosoftAspNetCoreComponentsEndpoints;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Components.Forms.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreComponentsForms => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsForms, "aspnet80.Microsoft.AspNetCore.Components.Forms");
-            private static byte[]? _MicrosoftAspNetCoreComponentsServer;
+            private static byte[]? _MicrosoftAspNetCoreComponentsForms;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Components.Server.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreComponentsServer => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsServer, "aspnet80.Microsoft.AspNetCore.Components.Server");
-            private static byte[]? _MicrosoftAspNetCoreComponentsWeb;
+            private static byte[]? _MicrosoftAspNetCoreComponentsServer;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Components.Web.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreComponentsWeb => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsWeb, "aspnet80.Microsoft.AspNetCore.Components.Web");
-            private static byte[]? _MicrosoftAspNetCoreConnectionsAbstractions;
+            private static byte[]? _MicrosoftAspNetCoreComponentsWeb;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Connections.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreConnectionsAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreConnectionsAbstractions, "aspnet80.Microsoft.AspNetCore.Connections.Abstractions");
-            private static byte[]? _MicrosoftAspNetCoreCookiePolicy;
+            private static byte[]? _MicrosoftAspNetCoreConnectionsAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.CookiePolicy.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreCookiePolicy => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreCookiePolicy, "aspnet80.Microsoft.AspNetCore.CookiePolicy");
-            private static byte[]? _MicrosoftAspNetCoreCors;
+            private static byte[]? _MicrosoftAspNetCoreCookiePolicy;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Cors.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreCors => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreCors, "aspnet80.Microsoft.AspNetCore.Cors");
-            private static byte[]? _MicrosoftAspNetCoreCryptographyInternal;
+            private static byte[]? _MicrosoftAspNetCoreCors;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Cryptography.Internal.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreCryptographyInternal => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreCryptographyInternal, "aspnet80.Microsoft.AspNetCore.Cryptography.Internal");
-            private static byte[]? _MicrosoftAspNetCoreCryptographyKeyDerivation;
+            private static byte[]? _MicrosoftAspNetCoreCryptographyInternal;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreCryptographyKeyDerivation => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreCryptographyKeyDerivation, "aspnet80.Microsoft.AspNetCore.Cryptography.KeyDerivation");
-            private static byte[]? _MicrosoftAspNetCoreDataProtectionAbstractions;
+            private static byte[]? _MicrosoftAspNetCoreCryptographyKeyDerivation;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.DataProtection.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreDataProtectionAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDataProtectionAbstractions, "aspnet80.Microsoft.AspNetCore.DataProtection.Abstractions");
-            private static byte[]? _MicrosoftAspNetCoreDataProtection;
+            private static byte[]? _MicrosoftAspNetCoreDataProtectionAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.DataProtection.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreDataProtection => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDataProtection, "aspnet80.Microsoft.AspNetCore.DataProtection");
-            private static byte[]? _MicrosoftAspNetCoreDataProtectionExtensions;
+            private static byte[]? _MicrosoftAspNetCoreDataProtection;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.DataProtection.Extensions.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreDataProtectionExtensions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDataProtectionExtensions, "aspnet80.Microsoft.AspNetCore.DataProtection.Extensions");
-            private static byte[]? _MicrosoftAspNetCoreDiagnosticsAbstractions;
+            private static byte[]? _MicrosoftAspNetCoreDataProtectionExtensions;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Diagnostics.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreDiagnosticsAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDiagnosticsAbstractions, "aspnet80.Microsoft.AspNetCore.Diagnostics.Abstractions");
-            private static byte[]? _MicrosoftAspNetCoreDiagnostics;
+            private static byte[]? _MicrosoftAspNetCoreDiagnosticsAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Diagnostics.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreDiagnostics => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDiagnostics, "aspnet80.Microsoft.AspNetCore.Diagnostics");
-            private static byte[]? _MicrosoftAspNetCoreDiagnosticsHealthChecks;
+            private static byte[]? _MicrosoftAspNetCoreDiagnostics;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreDiagnosticsHealthChecks => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDiagnosticsHealthChecks, "aspnet80.Microsoft.AspNetCore.Diagnostics.HealthChecks");
-            private static byte[]? _MicrosoftAspNetCore;
+            private static byte[]? _MicrosoftAspNetCoreDiagnosticsHealthChecks;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCore, "aspnet80.Microsoft.AspNetCore");
-            private static byte[]? _MicrosoftAspNetCoreHostFiltering;
+            private static byte[]? _MicrosoftAspNetCore;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.HostFiltering.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHostFiltering => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHostFiltering, "aspnet80.Microsoft.AspNetCore.HostFiltering");
-            private static byte[]? _MicrosoftAspNetCoreHostingAbstractions;
+            private static byte[]? _MicrosoftAspNetCoreHostFiltering;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Hosting.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHostingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHostingAbstractions, "aspnet80.Microsoft.AspNetCore.Hosting.Abstractions");
-            private static byte[]? _MicrosoftAspNetCoreHosting;
+            private static byte[]? _MicrosoftAspNetCoreHostingAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Hosting.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHosting => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHosting, "aspnet80.Microsoft.AspNetCore.Hosting");
-            private static byte[]? _MicrosoftAspNetCoreHostingServerAbstractions;
+            private static byte[]? _MicrosoftAspNetCoreHosting;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHostingServerAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHostingServerAbstractions, "aspnet80.Microsoft.AspNetCore.Hosting.Server.Abstractions");
-            private static byte[]? _MicrosoftAspNetCoreHtmlAbstractions;
+            private static byte[]? _MicrosoftAspNetCoreHostingServerAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Html.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHtmlAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHtmlAbstractions, "aspnet80.Microsoft.AspNetCore.Html.Abstractions");
-            private static byte[]? _MicrosoftAspNetCoreHttpAbstractions;
+            private static byte[]? _MicrosoftAspNetCoreHtmlAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Http.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHttpAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpAbstractions, "aspnet80.Microsoft.AspNetCore.Http.Abstractions");
-            private static byte[]? _MicrosoftAspNetCoreHttpConnectionsCommon;
+            private static byte[]? _MicrosoftAspNetCoreHttpAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Http.Connections.Common.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHttpConnectionsCommon => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpConnectionsCommon, "aspnet80.Microsoft.AspNetCore.Http.Connections.Common");
-            private static byte[]? _MicrosoftAspNetCoreHttpConnections;
+            private static byte[]? _MicrosoftAspNetCoreHttpConnectionsCommon;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Http.Connections.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHttpConnections => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpConnections, "aspnet80.Microsoft.AspNetCore.Http.Connections");
-            private static byte[]? _MicrosoftAspNetCoreHttp;
+            private static byte[]? _MicrosoftAspNetCoreHttpConnections;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Http.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHttp => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttp, "aspnet80.Microsoft.AspNetCore.Http");
-            private static byte[]? _MicrosoftAspNetCoreHttpExtensions;
+            private static byte[]? _MicrosoftAspNetCoreHttp;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Http.Extensions.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHttpExtensions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpExtensions, "aspnet80.Microsoft.AspNetCore.Http.Extensions");
-            private static byte[]? _MicrosoftAspNetCoreHttpFeatures;
+            private static byte[]? _MicrosoftAspNetCoreHttpExtensions;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Http.Features.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHttpFeatures => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpFeatures, "aspnet80.Microsoft.AspNetCore.Http.Features");
-            private static byte[]? _MicrosoftAspNetCoreHttpResults;
+            private static byte[]? _MicrosoftAspNetCoreHttpFeatures;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Http.Results.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHttpResults => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpResults, "aspnet80.Microsoft.AspNetCore.Http.Results");
-            private static byte[]? _MicrosoftAspNetCoreHttpLogging;
+            private static byte[]? _MicrosoftAspNetCoreHttpResults;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.HttpLogging.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHttpLogging => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpLogging, "aspnet80.Microsoft.AspNetCore.HttpLogging");
-            private static byte[]? _MicrosoftAspNetCoreHttpOverrides;
+            private static byte[]? _MicrosoftAspNetCoreHttpLogging;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.HttpOverrides.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHttpOverrides => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpOverrides, "aspnet80.Microsoft.AspNetCore.HttpOverrides");
-            private static byte[]? _MicrosoftAspNetCoreHttpsPolicy;
+            private static byte[]? _MicrosoftAspNetCoreHttpOverrides;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.HttpsPolicy.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreHttpsPolicy => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpsPolicy, "aspnet80.Microsoft.AspNetCore.HttpsPolicy");
-            private static byte[]? _MicrosoftAspNetCoreIdentity;
+            private static byte[]? _MicrosoftAspNetCoreHttpsPolicy;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Identity.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreIdentity => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreIdentity, "aspnet80.Microsoft.AspNetCore.Identity");
-            private static byte[]? _MicrosoftAspNetCoreLocalization;
+            private static byte[]? _MicrosoftAspNetCoreIdentity;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Localization.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreLocalization => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreLocalization, "aspnet80.Microsoft.AspNetCore.Localization");
-            private static byte[]? _MicrosoftAspNetCoreLocalizationRouting;
+            private static byte[]? _MicrosoftAspNetCoreLocalization;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Localization.Routing.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreLocalizationRouting => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreLocalizationRouting, "aspnet80.Microsoft.AspNetCore.Localization.Routing");
-            private static byte[]? _MicrosoftAspNetCoreMetadata;
+            private static byte[]? _MicrosoftAspNetCoreLocalizationRouting;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Metadata.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreMetadata => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMetadata, "aspnet80.Microsoft.AspNetCore.Metadata");
-            private static byte[]? _MicrosoftAspNetCoreMvcAbstractions;
+            private static byte[]? _MicrosoftAspNetCoreMetadata;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Mvc.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreMvcAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcAbstractions, "aspnet80.Microsoft.AspNetCore.Mvc.Abstractions");
-            private static byte[]? _MicrosoftAspNetCoreMvcApiExplorer;
+            private static byte[]? _MicrosoftAspNetCoreMvcAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Mvc.ApiExplorer.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreMvcApiExplorer => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcApiExplorer, "aspnet80.Microsoft.AspNetCore.Mvc.ApiExplorer");
-            private static byte[]? _MicrosoftAspNetCoreMvcCore;
+            private static byte[]? _MicrosoftAspNetCoreMvcApiExplorer;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Mvc.Core.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreMvcCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcCore, "aspnet80.Microsoft.AspNetCore.Mvc.Core");
-            private static byte[]? _MicrosoftAspNetCoreMvcCors;
+            private static byte[]? _MicrosoftAspNetCoreMvcCore;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Mvc.Cors.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreMvcCors => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcCors, "aspnet80.Microsoft.AspNetCore.Mvc.Cors");
-            private static byte[]? _MicrosoftAspNetCoreMvcDataAnnotations;
+            private static byte[]? _MicrosoftAspNetCoreMvcCors;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Mvc.DataAnnotations.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreMvcDataAnnotations => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcDataAnnotations, "aspnet80.Microsoft.AspNetCore.Mvc.DataAnnotations");
-            private static byte[]? _MicrosoftAspNetCoreMvc;
+            private static byte[]? _MicrosoftAspNetCoreMvcDataAnnotations;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Mvc.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreMvc => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvc, "aspnet80.Microsoft.AspNetCore.Mvc");
-            private static byte[]? _MicrosoftAspNetCoreMvcFormattersJson;
+            private static byte[]? _MicrosoftAspNetCoreMvc;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Mvc.Formatters.Json.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreMvcFormattersJson => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcFormattersJson, "aspnet80.Microsoft.AspNetCore.Mvc.Formatters.Json");
-            private static byte[]? _MicrosoftAspNetCoreMvcFormattersXml;
+            private static byte[]? _MicrosoftAspNetCoreMvcFormattersJson;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreMvcFormattersXml => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcFormattersXml, "aspnet80.Microsoft.AspNetCore.Mvc.Formatters.Xml");
-            private static byte[]? _MicrosoftAspNetCoreMvcLocalization;
+            private static byte[]? _MicrosoftAspNetCoreMvcFormattersXml;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Mvc.Localization.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreMvcLocalization => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcLocalization, "aspnet80.Microsoft.AspNetCore.Mvc.Localization");
-            private static byte[]? _MicrosoftAspNetCoreMvcRazor;
+            private static byte[]? _MicrosoftAspNetCoreMvcLocalization;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Mvc.Razor.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreMvcRazor => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcRazor, "aspnet80.Microsoft.AspNetCore.Mvc.Razor");
-            private static byte[]? _MicrosoftAspNetCoreMvcRazorPages;
+            private static byte[]? _MicrosoftAspNetCoreMvcRazor;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Mvc.RazorPages.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreMvcRazorPages => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcRazorPages, "aspnet80.Microsoft.AspNetCore.Mvc.RazorPages");
-            private static byte[]? _MicrosoftAspNetCoreMvcTagHelpers;
+            private static byte[]? _MicrosoftAspNetCoreMvcRazorPages;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Mvc.TagHelpers.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreMvcTagHelpers => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcTagHelpers, "aspnet80.Microsoft.AspNetCore.Mvc.TagHelpers");
-            private static byte[]? _MicrosoftAspNetCoreMvcViewFeatures;
+            private static byte[]? _MicrosoftAspNetCoreMvcTagHelpers;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Mvc.ViewFeatures.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreMvcViewFeatures => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcViewFeatures, "aspnet80.Microsoft.AspNetCore.Mvc.ViewFeatures");
-            private static byte[]? _MicrosoftAspNetCoreOutputCaching;
+            private static byte[]? _MicrosoftAspNetCoreMvcViewFeatures;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.OutputCaching.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreOutputCaching => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreOutputCaching, "aspnet80.Microsoft.AspNetCore.OutputCaching");
-            private static byte[]? _MicrosoftAspNetCoreRateLimiting;
+            private static byte[]? _MicrosoftAspNetCoreOutputCaching;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.RateLimiting.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreRateLimiting => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRateLimiting, "aspnet80.Microsoft.AspNetCore.RateLimiting");
-            private static byte[]? _MicrosoftAspNetCoreRazor;
+            private static byte[]? _MicrosoftAspNetCoreRateLimiting;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Razor.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreRazor => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRazor, "aspnet80.Microsoft.AspNetCore.Razor");
-            private static byte[]? _MicrosoftAspNetCoreRazorRuntime;
+            private static byte[]? _MicrosoftAspNetCoreRazor;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Razor.Runtime.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreRazorRuntime => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRazorRuntime, "aspnet80.Microsoft.AspNetCore.Razor.Runtime");
-            private static byte[]? _MicrosoftAspNetCoreRequestDecompression;
+            private static byte[]? _MicrosoftAspNetCoreRazorRuntime;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.RequestDecompression.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreRequestDecompression => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRequestDecompression, "aspnet80.Microsoft.AspNetCore.RequestDecompression");
-            private static byte[]? _MicrosoftAspNetCoreResponseCachingAbstractions;
+            private static byte[]? _MicrosoftAspNetCoreRequestDecompression;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreResponseCachingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreResponseCachingAbstractions, "aspnet80.Microsoft.AspNetCore.ResponseCaching.Abstractions");
-            private static byte[]? _MicrosoftAspNetCoreResponseCaching;
+            private static byte[]? _MicrosoftAspNetCoreResponseCachingAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.ResponseCaching.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreResponseCaching => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreResponseCaching, "aspnet80.Microsoft.AspNetCore.ResponseCaching");
-            private static byte[]? _MicrosoftAspNetCoreResponseCompression;
+            private static byte[]? _MicrosoftAspNetCoreResponseCaching;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.ResponseCompression.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreResponseCompression => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreResponseCompression, "aspnet80.Microsoft.AspNetCore.ResponseCompression");
-            private static byte[]? _MicrosoftAspNetCoreRewrite;
+            private static byte[]? _MicrosoftAspNetCoreResponseCompression;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Rewrite.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreRewrite => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRewrite, "aspnet80.Microsoft.AspNetCore.Rewrite");
-            private static byte[]? _MicrosoftAspNetCoreRoutingAbstractions;
+            private static byte[]? _MicrosoftAspNetCoreRewrite;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Routing.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreRoutingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRoutingAbstractions, "aspnet80.Microsoft.AspNetCore.Routing.Abstractions");
-            private static byte[]? _MicrosoftAspNetCoreRouting;
+            private static byte[]? _MicrosoftAspNetCoreRoutingAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Routing.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreRouting => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRouting, "aspnet80.Microsoft.AspNetCore.Routing");
-            private static byte[]? _MicrosoftAspNetCoreServerHttpSys;
+            private static byte[]? _MicrosoftAspNetCoreRouting;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Server.HttpSys.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreServerHttpSys => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerHttpSys, "aspnet80.Microsoft.AspNetCore.Server.HttpSys");
-            private static byte[]? _MicrosoftAspNetCoreServerIIS;
+            private static byte[]? _MicrosoftAspNetCoreServerHttpSys;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Server.IIS.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreServerIIS => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerIIS, "aspnet80.Microsoft.AspNetCore.Server.IIS");
-            private static byte[]? _MicrosoftAspNetCoreServerIISIntegration;
+            private static byte[]? _MicrosoftAspNetCoreServerIIS;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Server.IISIntegration.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreServerIISIntegration => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerIISIntegration, "aspnet80.Microsoft.AspNetCore.Server.IISIntegration");
-            private static byte[]? _MicrosoftAspNetCoreServerKestrelCore;
+            private static byte[]? _MicrosoftAspNetCoreServerIISIntegration;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Server.Kestrel.Core.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreServerKestrelCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrelCore, "aspnet80.Microsoft.AspNetCore.Server.Kestrel.Core");
-            private static byte[]? _MicrosoftAspNetCoreServerKestrel;
+            private static byte[]? _MicrosoftAspNetCoreServerKestrelCore;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Server.Kestrel.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreServerKestrel => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrel, "aspnet80.Microsoft.AspNetCore.Server.Kestrel");
-            private static byte[]? _MicrosoftAspNetCoreServerKestrelTransportNamedPipes;
+            private static byte[]? _MicrosoftAspNetCoreServerKestrel;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreServerKestrelTransportNamedPipes => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrelTransportNamedPipes, "aspnet80.Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes");
-            private static byte[]? _MicrosoftAspNetCoreServerKestrelTransportQuic;
+            private static byte[]? _MicrosoftAspNetCoreServerKestrelTransportNamedPipes;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreServerKestrelTransportQuic => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrelTransportQuic, "aspnet80.Microsoft.AspNetCore.Server.Kestrel.Transport.Quic");
-            private static byte[]? _MicrosoftAspNetCoreServerKestrelTransportSockets;
+            private static byte[]? _MicrosoftAspNetCoreServerKestrelTransportQuic;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreServerKestrelTransportSockets => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrelTransportSockets, "aspnet80.Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets");
-            private static byte[]? _MicrosoftAspNetCoreSession;
+            private static byte[]? _MicrosoftAspNetCoreServerKestrelTransportSockets;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.Session.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreSession => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSession, "aspnet80.Microsoft.AspNetCore.Session");
-            private static byte[]? _MicrosoftAspNetCoreSignalRCommon;
+            private static byte[]? _MicrosoftAspNetCoreSession;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.SignalR.Common.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreSignalRCommon => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSignalRCommon, "aspnet80.Microsoft.AspNetCore.SignalR.Common");
-            private static byte[]? _MicrosoftAspNetCoreSignalRCore;
+            private static byte[]? _MicrosoftAspNetCoreSignalRCommon;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.SignalR.Core.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreSignalRCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSignalRCore, "aspnet80.Microsoft.AspNetCore.SignalR.Core");
-            private static byte[]? _MicrosoftAspNetCoreSignalR;
+            private static byte[]? _MicrosoftAspNetCoreSignalRCore;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.SignalR.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreSignalR => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSignalR, "aspnet80.Microsoft.AspNetCore.SignalR");
-            private static byte[]? _MicrosoftAspNetCoreSignalRProtocolsJson;
+            private static byte[]? _MicrosoftAspNetCoreSignalR;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.SignalR.Protocols.Json.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreSignalRProtocolsJson => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSignalRProtocolsJson, "aspnet80.Microsoft.AspNetCore.SignalR.Protocols.Json");
-            private static byte[]? _MicrosoftAspNetCoreStaticFiles;
+            private static byte[]? _MicrosoftAspNetCoreSignalRProtocolsJson;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.StaticFiles.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreStaticFiles => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreStaticFiles, "aspnet80.Microsoft.AspNetCore.StaticFiles");
-            private static byte[]? _MicrosoftAspNetCoreWebSockets;
+            private static byte[]? _MicrosoftAspNetCoreStaticFiles;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.WebSockets.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreWebSockets => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreWebSockets, "aspnet80.Microsoft.AspNetCore.WebSockets");
-            private static byte[]? _MicrosoftAspNetCoreWebUtilities;
+            private static byte[]? _MicrosoftAspNetCoreWebSockets;
 
             /// <summary>
             /// The image bytes for Microsoft.AspNetCore.WebUtilities.dll
             /// </summary>
             public static byte[] MicrosoftAspNetCoreWebUtilities => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreWebUtilities, "aspnet80.Microsoft.AspNetCore.WebUtilities");
-            private static byte[]? _MicrosoftExtensionsCachingAbstractions;
+            private static byte[]? _MicrosoftAspNetCoreWebUtilities;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Caching.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsCachingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsCachingAbstractions, "aspnet80.Microsoft.Extensions.Caching.Abstractions");
-            private static byte[]? _MicrosoftExtensionsCachingMemory;
+            private static byte[]? _MicrosoftExtensionsCachingAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Caching.Memory.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsCachingMemory => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsCachingMemory, "aspnet80.Microsoft.Extensions.Caching.Memory");
-            private static byte[]? _MicrosoftExtensionsConfigurationAbstractions;
+            private static byte[]? _MicrosoftExtensionsCachingMemory;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Configuration.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsConfigurationAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationAbstractions, "aspnet80.Microsoft.Extensions.Configuration.Abstractions");
-            private static byte[]? _MicrosoftExtensionsConfigurationBinder;
+            private static byte[]? _MicrosoftExtensionsConfigurationAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Configuration.Binder.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsConfigurationBinder => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationBinder, "aspnet80.Microsoft.Extensions.Configuration.Binder");
-            private static byte[]? _MicrosoftExtensionsConfigurationCommandLine;
+            private static byte[]? _MicrosoftExtensionsConfigurationBinder;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Configuration.CommandLine.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsConfigurationCommandLine => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationCommandLine, "aspnet80.Microsoft.Extensions.Configuration.CommandLine");
-            private static byte[]? _MicrosoftExtensionsConfiguration;
+            private static byte[]? _MicrosoftExtensionsConfigurationCommandLine;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Configuration.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsConfiguration => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfiguration, "aspnet80.Microsoft.Extensions.Configuration");
-            private static byte[]? _MicrosoftExtensionsConfigurationEnvironmentVariables;
+            private static byte[]? _MicrosoftExtensionsConfiguration;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Configuration.EnvironmentVariables.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsConfigurationEnvironmentVariables => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationEnvironmentVariables, "aspnet80.Microsoft.Extensions.Configuration.EnvironmentVariables");
-            private static byte[]? _MicrosoftExtensionsConfigurationFileExtensions;
+            private static byte[]? _MicrosoftExtensionsConfigurationEnvironmentVariables;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Configuration.FileExtensions.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsConfigurationFileExtensions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationFileExtensions, "aspnet80.Microsoft.Extensions.Configuration.FileExtensions");
-            private static byte[]? _MicrosoftExtensionsConfigurationIni;
+            private static byte[]? _MicrosoftExtensionsConfigurationFileExtensions;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Configuration.Ini.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsConfigurationIni => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationIni, "aspnet80.Microsoft.Extensions.Configuration.Ini");
-            private static byte[]? _MicrosoftExtensionsConfigurationJson;
+            private static byte[]? _MicrosoftExtensionsConfigurationIni;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Configuration.Json.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsConfigurationJson => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationJson, "aspnet80.Microsoft.Extensions.Configuration.Json");
-            private static byte[]? _MicrosoftExtensionsConfigurationKeyPerFile;
+            private static byte[]? _MicrosoftExtensionsConfigurationJson;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Configuration.KeyPerFile.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsConfigurationKeyPerFile => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationKeyPerFile, "aspnet80.Microsoft.Extensions.Configuration.KeyPerFile");
-            private static byte[]? _MicrosoftExtensionsConfigurationUserSecrets;
+            private static byte[]? _MicrosoftExtensionsConfigurationKeyPerFile;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Configuration.UserSecrets.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsConfigurationUserSecrets => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationUserSecrets, "aspnet80.Microsoft.Extensions.Configuration.UserSecrets");
-            private static byte[]? _MicrosoftExtensionsConfigurationXml;
+            private static byte[]? _MicrosoftExtensionsConfigurationUserSecrets;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Configuration.Xml.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsConfigurationXml => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationXml, "aspnet80.Microsoft.Extensions.Configuration.Xml");
-            private static byte[]? _MicrosoftExtensionsDependencyInjectionAbstractions;
+            private static byte[]? _MicrosoftExtensionsConfigurationXml;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.DependencyInjection.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsDependencyInjectionAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDependencyInjectionAbstractions, "aspnet80.Microsoft.Extensions.DependencyInjection.Abstractions");
-            private static byte[]? _MicrosoftExtensionsDependencyInjection;
+            private static byte[]? _MicrosoftExtensionsDependencyInjectionAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.DependencyInjection.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsDependencyInjection => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDependencyInjection, "aspnet80.Microsoft.Extensions.DependencyInjection");
-            private static byte[]? _MicrosoftExtensionsDiagnosticsAbstractions;
+            private static byte[]? _MicrosoftExtensionsDependencyInjection;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Diagnostics.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsDiagnosticsAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDiagnosticsAbstractions, "aspnet80.Microsoft.Extensions.Diagnostics.Abstractions");
-            private static byte[]? _MicrosoftExtensionsDiagnostics;
+            private static byte[]? _MicrosoftExtensionsDiagnosticsAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Diagnostics.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsDiagnostics => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDiagnostics, "aspnet80.Microsoft.Extensions.Diagnostics");
-            private static byte[]? _MicrosoftExtensionsDiagnosticsHealthChecksAbstractions;
+            private static byte[]? _MicrosoftExtensionsDiagnostics;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsDiagnosticsHealthChecksAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDiagnosticsHealthChecksAbstractions, "aspnet80.Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions");
-            private static byte[]? _MicrosoftExtensionsDiagnosticsHealthChecks;
+            private static byte[]? _MicrosoftExtensionsDiagnosticsHealthChecksAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Diagnostics.HealthChecks.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsDiagnosticsHealthChecks => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDiagnosticsHealthChecks, "aspnet80.Microsoft.Extensions.Diagnostics.HealthChecks");
-            private static byte[]? _MicrosoftExtensionsFeatures;
+            private static byte[]? _MicrosoftExtensionsDiagnosticsHealthChecks;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Features.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsFeatures => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFeatures, "aspnet80.Microsoft.Extensions.Features");
-            private static byte[]? _MicrosoftExtensionsFileProvidersAbstractions;
+            private static byte[]? _MicrosoftExtensionsFeatures;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.FileProviders.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsFileProvidersAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileProvidersAbstractions, "aspnet80.Microsoft.Extensions.FileProviders.Abstractions");
-            private static byte[]? _MicrosoftExtensionsFileProvidersComposite;
+            private static byte[]? _MicrosoftExtensionsFileProvidersAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.FileProviders.Composite.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsFileProvidersComposite => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileProvidersComposite, "aspnet80.Microsoft.Extensions.FileProviders.Composite");
-            private static byte[]? _MicrosoftExtensionsFileProvidersEmbedded;
+            private static byte[]? _MicrosoftExtensionsFileProvidersComposite;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.FileProviders.Embedded.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsFileProvidersEmbedded => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileProvidersEmbedded, "aspnet80.Microsoft.Extensions.FileProviders.Embedded");
-            private static byte[]? _MicrosoftExtensionsFileProvidersPhysical;
+            private static byte[]? _MicrosoftExtensionsFileProvidersEmbedded;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.FileProviders.Physical.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsFileProvidersPhysical => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileProvidersPhysical, "aspnet80.Microsoft.Extensions.FileProviders.Physical");
-            private static byte[]? _MicrosoftExtensionsFileSystemGlobbing;
+            private static byte[]? _MicrosoftExtensionsFileProvidersPhysical;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.FileSystemGlobbing.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsFileSystemGlobbing => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileSystemGlobbing, "aspnet80.Microsoft.Extensions.FileSystemGlobbing");
-            private static byte[]? _MicrosoftExtensionsHostingAbstractions;
+            private static byte[]? _MicrosoftExtensionsFileSystemGlobbing;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Hosting.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsHostingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsHostingAbstractions, "aspnet80.Microsoft.Extensions.Hosting.Abstractions");
-            private static byte[]? _MicrosoftExtensionsHosting;
+            private static byte[]? _MicrosoftExtensionsHostingAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Hosting.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsHosting => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsHosting, "aspnet80.Microsoft.Extensions.Hosting");
-            private static byte[]? _MicrosoftExtensionsHttp;
+            private static byte[]? _MicrosoftExtensionsHosting;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Http.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsHttp => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsHttp, "aspnet80.Microsoft.Extensions.Http");
-            private static byte[]? _MicrosoftExtensionsIdentityCore;
+            private static byte[]? _MicrosoftExtensionsHttp;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Identity.Core.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsIdentityCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsIdentityCore, "aspnet80.Microsoft.Extensions.Identity.Core");
-            private static byte[]? _MicrosoftExtensionsIdentityStores;
+            private static byte[]? _MicrosoftExtensionsIdentityCore;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Identity.Stores.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsIdentityStores => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsIdentityStores, "aspnet80.Microsoft.Extensions.Identity.Stores");
-            private static byte[]? _MicrosoftExtensionsLocalizationAbstractions;
+            private static byte[]? _MicrosoftExtensionsIdentityStores;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Localization.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsLocalizationAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLocalizationAbstractions, "aspnet80.Microsoft.Extensions.Localization.Abstractions");
-            private static byte[]? _MicrosoftExtensionsLocalization;
+            private static byte[]? _MicrosoftExtensionsLocalizationAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Localization.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsLocalization => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLocalization, "aspnet80.Microsoft.Extensions.Localization");
-            private static byte[]? _MicrosoftExtensionsLoggingAbstractions;
+            private static byte[]? _MicrosoftExtensionsLocalization;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Logging.Abstractions.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsLoggingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingAbstractions, "aspnet80.Microsoft.Extensions.Logging.Abstractions");
-            private static byte[]? _MicrosoftExtensionsLoggingConfiguration;
+            private static byte[]? _MicrosoftExtensionsLoggingAbstractions;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Logging.Configuration.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsLoggingConfiguration => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingConfiguration, "aspnet80.Microsoft.Extensions.Logging.Configuration");
-            private static byte[]? _MicrosoftExtensionsLoggingConsole;
+            private static byte[]? _MicrosoftExtensionsLoggingConfiguration;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Logging.Console.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsLoggingConsole => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingConsole, "aspnet80.Microsoft.Extensions.Logging.Console");
-            private static byte[]? _MicrosoftExtensionsLoggingDebug;
+            private static byte[]? _MicrosoftExtensionsLoggingConsole;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Logging.Debug.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsLoggingDebug => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingDebug, "aspnet80.Microsoft.Extensions.Logging.Debug");
-            private static byte[]? _MicrosoftExtensionsLogging;
+            private static byte[]? _MicrosoftExtensionsLoggingDebug;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Logging.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsLogging => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLogging, "aspnet80.Microsoft.Extensions.Logging");
-            private static byte[]? _MicrosoftExtensionsLoggingEventLog;
+            private static byte[]? _MicrosoftExtensionsLogging;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Logging.EventLog.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsLoggingEventLog => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingEventLog, "aspnet80.Microsoft.Extensions.Logging.EventLog");
-            private static byte[]? _MicrosoftExtensionsLoggingEventSource;
+            private static byte[]? _MicrosoftExtensionsLoggingEventLog;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Logging.EventSource.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsLoggingEventSource => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingEventSource, "aspnet80.Microsoft.Extensions.Logging.EventSource");
-            private static byte[]? _MicrosoftExtensionsLoggingTraceSource;
+            private static byte[]? _MicrosoftExtensionsLoggingEventSource;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Logging.TraceSource.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsLoggingTraceSource => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingTraceSource, "aspnet80.Microsoft.Extensions.Logging.TraceSource");
-            private static byte[]? _MicrosoftExtensionsObjectPool;
+            private static byte[]? _MicrosoftExtensionsLoggingTraceSource;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.ObjectPool.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsObjectPool => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsObjectPool, "aspnet80.Microsoft.Extensions.ObjectPool");
-            private static byte[]? _MicrosoftExtensionsOptionsConfigurationExtensions;
+            private static byte[]? _MicrosoftExtensionsObjectPool;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Options.ConfigurationExtensions.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsOptionsConfigurationExtensions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsOptionsConfigurationExtensions, "aspnet80.Microsoft.Extensions.Options.ConfigurationExtensions");
-            private static byte[]? _MicrosoftExtensionsOptionsDataAnnotations;
+            private static byte[]? _MicrosoftExtensionsOptionsConfigurationExtensions;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Options.DataAnnotations.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsOptionsDataAnnotations => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsOptionsDataAnnotations, "aspnet80.Microsoft.Extensions.Options.DataAnnotations");
-            private static byte[]? _MicrosoftExtensionsOptions;
+            private static byte[]? _MicrosoftExtensionsOptionsDataAnnotations;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Options.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsOptions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsOptions, "aspnet80.Microsoft.Extensions.Options");
-            private static byte[]? _MicrosoftExtensionsPrimitives;
+            private static byte[]? _MicrosoftExtensionsOptions;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.Primitives.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsPrimitives => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsPrimitives, "aspnet80.Microsoft.Extensions.Primitives");
-            private static byte[]? _MicrosoftExtensionsWebEncoders;
+            private static byte[]? _MicrosoftExtensionsPrimitives;
 
             /// <summary>
             /// The image bytes for Microsoft.Extensions.WebEncoders.dll
             /// </summary>
             public static byte[] MicrosoftExtensionsWebEncoders => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsWebEncoders, "aspnet80.Microsoft.Extensions.WebEncoders");
-            private static byte[]? _MicrosoftJSInterop;
+            private static byte[]? _MicrosoftExtensionsWebEncoders;
 
             /// <summary>
             /// The image bytes for Microsoft.JSInterop.dll
             /// </summary>
             public static byte[] MicrosoftJSInterop => ResourceLoader.GetOrCreateResource(ref _MicrosoftJSInterop, "aspnet80.Microsoft.JSInterop");
-            private static byte[]? _MicrosoftNetHttpHeaders;
+            private static byte[]? _MicrosoftJSInterop;
 
             /// <summary>
             /// The image bytes for Microsoft.Net.Http.Headers.dll
             /// </summary>
             public static byte[] MicrosoftNetHttpHeaders => ResourceLoader.GetOrCreateResource(ref _MicrosoftNetHttpHeaders, "aspnet80.Microsoft.Net.Http.Headers");
-            private static byte[]? _SystemDiagnosticsEventLog;
+            private static byte[]? _MicrosoftNetHttpHeaders;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.EventLog.dll
             /// </summary>
             public static byte[] SystemDiagnosticsEventLog => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsEventLog, "aspnet80.System.Diagnostics.EventLog");
-            private static byte[]? _SystemIOPipelines;
+            private static byte[]? _SystemDiagnosticsEventLog;
 
             /// <summary>
             /// The image bytes for System.IO.Pipelines.dll
             /// </summary>
             public static byte[] SystemIOPipelines => ResourceLoader.GetOrCreateResource(ref _SystemIOPipelines, "aspnet80.System.IO.Pipelines");
-            private static byte[]? _SystemSecurityCryptographyXml;
+            private static byte[]? _SystemIOPipelines;
 
             /// <summary>
             /// The image bytes for System.Security.Cryptography.Xml.dll
             /// </summary>
             public static byte[] SystemSecurityCryptographyXml => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyXml, "aspnet80.System.Security.Cryptography.Xml");
-            private static byte[]? _SystemThreadingRateLimiting;
+            private static byte[]? _SystemSecurityCryptographyXml;
 
             /// <summary>
             /// The image bytes for System.Threading.RateLimiting.dll
             /// </summary>
             public static byte[] SystemThreadingRateLimiting => ResourceLoader.GetOrCreateResource(ref _SystemThreadingRateLimiting, "aspnet80.System.Threading.RateLimiting");
+            private static byte[]? _SystemThreadingRateLimiting;
+
 
         }
     }
@@ -3329,15 +3330,15 @@ namespace Basic.Reference.Assemblies
             /// The <see cref="ReferenceInfo"/> for System.Threading.RateLimiting.dll
             /// </summary>
             public static ReferenceInfo SystemThreadingRateLimiting => new ReferenceInfo("System.Threading.RateLimiting.dll", Resources.SystemThreadingRateLimiting, AspNet80.References.SystemThreadingRateLimiting, global::System.Guid.Parse("d1f29242-507e-473c-a556-4f6a6ccbaa4b"));
-            private static ReferenceInfo[]? _all;
-            public static IEnumerable<ReferenceInfo> All
+            private static ImmutableArray<ReferenceInfo> _all;
+            public static ImmutableArray<ReferenceInfo> All
             {
                 get
                 {
-                    if (_all == null)
+                    if (_all.IsDefault)
                     {
-                        _all = new[]
-                        {
+                        _all =
+                        [
                             MicrosoftCSharp,
                             MicrosoftVisualBasicCore,
                             MicrosoftVisualBasic,
@@ -3639,7 +3640,7 @@ namespace Basic.Reference.Assemblies
                             SystemIOPipelines,
                             SystemSecurityCryptographyXml,
                             SystemThreadingRateLimiting,
-                        };
+                        ];
                     }
                     return _all;
                 }
@@ -3662,7 +3663,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftCSharp == null)
+                    if (_MicrosoftCSharp is null)
                     {
                         _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(Resources.MicrosoftCSharp).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (aspnet80)");
                     }
@@ -3679,7 +3680,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftVisualBasicCore == null)
+                    if (_MicrosoftVisualBasicCore is null)
                     {
                         _MicrosoftVisualBasicCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCore).GetReference(filePath: "Microsoft.VisualBasic.Core.dll", display: "Microsoft.VisualBasic.Core (aspnet80)");
                     }
@@ -3696,7 +3697,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftVisualBasic == null)
+                    if (_MicrosoftVisualBasic is null)
                     {
                         _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (aspnet80)");
                     }
@@ -3713,7 +3714,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftWin32Primitives == null)
+                    if (_MicrosoftWin32Primitives is null)
                     {
                         _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Primitives).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (aspnet80)");
                     }
@@ -3730,7 +3731,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftWin32Registry == null)
+                    if (_MicrosoftWin32Registry is null)
                     {
                         _MicrosoftWin32Registry = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Registry).GetReference(filePath: "Microsoft.Win32.Registry.dll", display: "Microsoft.Win32.Registry (aspnet80)");
                     }
@@ -3747,7 +3748,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_mscorlib == null)
+                    if (_mscorlib is null)
                     {
                         _mscorlib = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (aspnet80)");
                     }
@@ -3764,7 +3765,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_netstandard == null)
+                    if (_netstandard is null)
                     {
                         _netstandard = AssemblyMetadata.CreateFromImage(Resources.netstandard).GetReference(filePath: "netstandard.dll", display: "netstandard (aspnet80)");
                     }
@@ -3781,7 +3782,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemAppContext == null)
+                    if (_SystemAppContext is null)
                     {
                         _SystemAppContext = AssemblyMetadata.CreateFromImage(Resources.SystemAppContext).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (aspnet80)");
                     }
@@ -3798,7 +3799,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemBuffers == null)
+                    if (_SystemBuffers is null)
                     {
                         _SystemBuffers = AssemblyMetadata.CreateFromImage(Resources.SystemBuffers).GetReference(filePath: "System.Buffers.dll", display: "System.Buffers (aspnet80)");
                     }
@@ -3815,7 +3816,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemCollectionsConcurrent == null)
+                    if (_SystemCollectionsConcurrent is null)
                     {
                         _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (aspnet80)");
                     }
@@ -3832,7 +3833,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemCollections == null)
+                    if (_SystemCollections is null)
                     {
                         _SystemCollections = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (aspnet80)");
                     }
@@ -3849,7 +3850,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemCollectionsImmutable == null)
+                    if (_SystemCollectionsImmutable is null)
                     {
                         _SystemCollectionsImmutable = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsImmutable).GetReference(filePath: "System.Collections.Immutable.dll", display: "System.Collections.Immutable (aspnet80)");
                     }
@@ -3866,7 +3867,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemCollectionsNonGeneric == null)
+                    if (_SystemCollectionsNonGeneric is null)
                     {
                         _SystemCollectionsNonGeneric = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsNonGeneric).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (aspnet80)");
                     }
@@ -3883,7 +3884,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemCollectionsSpecialized == null)
+                    if (_SystemCollectionsSpecialized is null)
                     {
                         _SystemCollectionsSpecialized = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsSpecialized).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (aspnet80)");
                     }
@@ -3900,7 +3901,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemComponentModelAnnotations == null)
+                    if (_SystemComponentModelAnnotations is null)
                     {
                         _SystemComponentModelAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelAnnotations).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (aspnet80)");
                     }
@@ -3917,7 +3918,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemComponentModelDataAnnotations == null)
+                    if (_SystemComponentModelDataAnnotations is null)
                     {
                         _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelDataAnnotations).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (aspnet80)");
                     }
@@ -3934,7 +3935,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemComponentModel == null)
+                    if (_SystemComponentModel is null)
                     {
                         _SystemComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModel).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (aspnet80)");
                     }
@@ -3951,7 +3952,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemComponentModelEventBasedAsync == null)
+                    if (_SystemComponentModelEventBasedAsync is null)
                     {
                         _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelEventBasedAsync).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (aspnet80)");
                     }
@@ -3968,7 +3969,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemComponentModelPrimitives == null)
+                    if (_SystemComponentModelPrimitives is null)
                     {
                         _SystemComponentModelPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelPrimitives).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (aspnet80)");
                     }
@@ -3985,7 +3986,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemComponentModelTypeConverter == null)
+                    if (_SystemComponentModelTypeConverter is null)
                     {
                         _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelTypeConverter).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (aspnet80)");
                     }
@@ -4002,7 +4003,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemConfiguration == null)
+                    if (_SystemConfiguration is null)
                     {
                         _SystemConfiguration = AssemblyMetadata.CreateFromImage(Resources.SystemConfiguration).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (aspnet80)");
                     }
@@ -4019,7 +4020,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemConsole == null)
+                    if (_SystemConsole is null)
                     {
                         _SystemConsole = AssemblyMetadata.CreateFromImage(Resources.SystemConsole).GetReference(filePath: "System.Console.dll", display: "System.Console (aspnet80)");
                     }
@@ -4036,7 +4037,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemCore == null)
+                    if (_SystemCore is null)
                     {
                         _SystemCore = AssemblyMetadata.CreateFromImage(Resources.SystemCore).GetReference(filePath: "System.Core.dll", display: "System.Core (aspnet80)");
                     }
@@ -4053,7 +4054,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDataCommon == null)
+                    if (_SystemDataCommon is null)
                     {
                         _SystemDataCommon = AssemblyMetadata.CreateFromImage(Resources.SystemDataCommon).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (aspnet80)");
                     }
@@ -4070,7 +4071,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDataDataSetExtensions == null)
+                    if (_SystemDataDataSetExtensions is null)
                     {
                         _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemDataDataSetExtensions).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (aspnet80)");
                     }
@@ -4087,7 +4088,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemData == null)
+                    if (_SystemData is null)
                     {
                         _SystemData = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (aspnet80)");
                     }
@@ -4104,7 +4105,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsContracts == null)
+                    if (_SystemDiagnosticsContracts is null)
                     {
                         _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsContracts).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (aspnet80)");
                     }
@@ -4121,7 +4122,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsDebug == null)
+                    if (_SystemDiagnosticsDebug is null)
                     {
                         _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (aspnet80)");
                     }
@@ -4138,7 +4139,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsDiagnosticSource == null)
+                    if (_SystemDiagnosticsDiagnosticSource is null)
                     {
                         _SystemDiagnosticsDiagnosticSource = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDiagnosticSource).GetReference(filePath: "System.Diagnostics.DiagnosticSource.dll", display: "System.Diagnostics.DiagnosticSource (aspnet80)");
                     }
@@ -4155,7 +4156,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsFileVersionInfo == null)
+                    if (_SystemDiagnosticsFileVersionInfo is null)
                     {
                         _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsFileVersionInfo).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (aspnet80)");
                     }
@@ -4172,7 +4173,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsProcess == null)
+                    if (_SystemDiagnosticsProcess is null)
                     {
                         _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsProcess).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (aspnet80)");
                     }
@@ -4189,7 +4190,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsStackTrace == null)
+                    if (_SystemDiagnosticsStackTrace is null)
                     {
                         _SystemDiagnosticsStackTrace = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsStackTrace).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (aspnet80)");
                     }
@@ -4206,7 +4207,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsTextWriterTraceListener == null)
+                    if (_SystemDiagnosticsTextWriterTraceListener is null)
                     {
                         _SystemDiagnosticsTextWriterTraceListener = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTextWriterTraceListener).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (aspnet80)");
                     }
@@ -4223,7 +4224,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsTools == null)
+                    if (_SystemDiagnosticsTools is null)
                     {
                         _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (aspnet80)");
                     }
@@ -4240,7 +4241,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsTraceSource == null)
+                    if (_SystemDiagnosticsTraceSource is null)
                     {
                         _SystemDiagnosticsTraceSource = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTraceSource).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (aspnet80)");
                     }
@@ -4257,7 +4258,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsTracing == null)
+                    if (_SystemDiagnosticsTracing is null)
                     {
                         _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (aspnet80)");
                     }
@@ -4274,7 +4275,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_System == null)
+                    if (_System is null)
                     {
                         _System = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (aspnet80)");
                     }
@@ -4291,7 +4292,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDrawing == null)
+                    if (_SystemDrawing is null)
                     {
                         _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (aspnet80)");
                     }
@@ -4308,7 +4309,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDrawingPrimitives == null)
+                    if (_SystemDrawingPrimitives is null)
                     {
                         _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingPrimitives).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (aspnet80)");
                     }
@@ -4325,7 +4326,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDynamicRuntime == null)
+                    if (_SystemDynamicRuntime is null)
                     {
                         _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemDynamicRuntime).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (aspnet80)");
                     }
@@ -4342,7 +4343,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemFormatsAsn1 == null)
+                    if (_SystemFormatsAsn1 is null)
                     {
                         _SystemFormatsAsn1 = AssemblyMetadata.CreateFromImage(Resources.SystemFormatsAsn1).GetReference(filePath: "System.Formats.Asn1.dll", display: "System.Formats.Asn1 (aspnet80)");
                     }
@@ -4359,7 +4360,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemFormatsTar == null)
+                    if (_SystemFormatsTar is null)
                     {
                         _SystemFormatsTar = AssemblyMetadata.CreateFromImage(Resources.SystemFormatsTar).GetReference(filePath: "System.Formats.Tar.dll", display: "System.Formats.Tar (aspnet80)");
                     }
@@ -4376,7 +4377,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemGlobalizationCalendars == null)
+                    if (_SystemGlobalizationCalendars is null)
                     {
                         _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationCalendars).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (aspnet80)");
                     }
@@ -4393,7 +4394,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemGlobalization == null)
+                    if (_SystemGlobalization is null)
                     {
                         _SystemGlobalization = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (aspnet80)");
                     }
@@ -4410,7 +4411,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemGlobalizationExtensions == null)
+                    if (_SystemGlobalizationExtensions is null)
                     {
                         _SystemGlobalizationExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationExtensions).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (aspnet80)");
                     }
@@ -4427,7 +4428,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOCompressionBrotli == null)
+                    if (_SystemIOCompressionBrotli is null)
                     {
                         _SystemIOCompressionBrotli = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionBrotli).GetReference(filePath: "System.IO.Compression.Brotli.dll", display: "System.IO.Compression.Brotli (aspnet80)");
                     }
@@ -4444,7 +4445,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOCompression == null)
+                    if (_SystemIOCompression is null)
                     {
                         _SystemIOCompression = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (aspnet80)");
                     }
@@ -4461,7 +4462,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOCompressionFileSystem == null)
+                    if (_SystemIOCompressionFileSystem is null)
                     {
                         _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionFileSystem).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (aspnet80)");
                     }
@@ -4478,7 +4479,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOCompressionZipFile == null)
+                    if (_SystemIOCompressionZipFile is null)
                     {
                         _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionZipFile).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (aspnet80)");
                     }
@@ -4495,7 +4496,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIO == null)
+                    if (_SystemIO is null)
                     {
                         _SystemIO = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (aspnet80)");
                     }
@@ -4512,7 +4513,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOFileSystemAccessControl == null)
+                    if (_SystemIOFileSystemAccessControl is null)
                     {
                         _SystemIOFileSystemAccessControl = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemAccessControl).GetReference(filePath: "System.IO.FileSystem.AccessControl.dll", display: "System.IO.FileSystem.AccessControl (aspnet80)");
                     }
@@ -4529,7 +4530,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOFileSystem == null)
+                    if (_SystemIOFileSystem is null)
                     {
                         _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystem).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (aspnet80)");
                     }
@@ -4546,7 +4547,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOFileSystemDriveInfo == null)
+                    if (_SystemIOFileSystemDriveInfo is null)
                     {
                         _SystemIOFileSystemDriveInfo = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemDriveInfo).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (aspnet80)");
                     }
@@ -4563,7 +4564,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOFileSystemPrimitives == null)
+                    if (_SystemIOFileSystemPrimitives is null)
                     {
                         _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemPrimitives).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (aspnet80)");
                     }
@@ -4580,7 +4581,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOFileSystemWatcher == null)
+                    if (_SystemIOFileSystemWatcher is null)
                     {
                         _SystemIOFileSystemWatcher = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemWatcher).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (aspnet80)");
                     }
@@ -4597,7 +4598,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOIsolatedStorage == null)
+                    if (_SystemIOIsolatedStorage is null)
                     {
                         _SystemIOIsolatedStorage = AssemblyMetadata.CreateFromImage(Resources.SystemIOIsolatedStorage).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (aspnet80)");
                     }
@@ -4614,7 +4615,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOMemoryMappedFiles == null)
+                    if (_SystemIOMemoryMappedFiles is null)
                     {
                         _SystemIOMemoryMappedFiles = AssemblyMetadata.CreateFromImage(Resources.SystemIOMemoryMappedFiles).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (aspnet80)");
                     }
@@ -4631,7 +4632,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOPipesAccessControl == null)
+                    if (_SystemIOPipesAccessControl is null)
                     {
                         _SystemIOPipesAccessControl = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipesAccessControl).GetReference(filePath: "System.IO.Pipes.AccessControl.dll", display: "System.IO.Pipes.AccessControl (aspnet80)");
                     }
@@ -4648,7 +4649,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOPipes == null)
+                    if (_SystemIOPipes is null)
                     {
                         _SystemIOPipes = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipes).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (aspnet80)");
                     }
@@ -4665,7 +4666,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOUnmanagedMemoryStream == null)
+                    if (_SystemIOUnmanagedMemoryStream is null)
                     {
                         _SystemIOUnmanagedMemoryStream = AssemblyMetadata.CreateFromImage(Resources.SystemIOUnmanagedMemoryStream).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (aspnet80)");
                     }
@@ -4682,7 +4683,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemLinq == null)
+                    if (_SystemLinq is null)
                     {
                         _SystemLinq = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (aspnet80)");
                     }
@@ -4699,7 +4700,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemLinqExpressions == null)
+                    if (_SystemLinqExpressions is null)
                     {
                         _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (aspnet80)");
                     }
@@ -4716,7 +4717,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemLinqParallel == null)
+                    if (_SystemLinqParallel is null)
                     {
                         _SystemLinqParallel = AssemblyMetadata.CreateFromImage(Resources.SystemLinqParallel).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (aspnet80)");
                     }
@@ -4733,7 +4734,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemLinqQueryable == null)
+                    if (_SystemLinqQueryable is null)
                     {
                         _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(Resources.SystemLinqQueryable).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (aspnet80)");
                     }
@@ -4750,7 +4751,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemMemory == null)
+                    if (_SystemMemory is null)
                     {
                         _SystemMemory = AssemblyMetadata.CreateFromImage(Resources.SystemMemory).GetReference(filePath: "System.Memory.dll", display: "System.Memory (aspnet80)");
                     }
@@ -4767,7 +4768,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNet == null)
+                    if (_SystemNet is null)
                     {
                         _SystemNet = AssemblyMetadata.CreateFromImage(Resources.SystemNet).GetReference(filePath: "System.Net.dll", display: "System.Net (aspnet80)");
                     }
@@ -4784,7 +4785,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetHttp == null)
+                    if (_SystemNetHttp is null)
                     {
                         _SystemNetHttp = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (aspnet80)");
                     }
@@ -4801,7 +4802,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetHttpJson == null)
+                    if (_SystemNetHttpJson is null)
                     {
                         _SystemNetHttpJson = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpJson).GetReference(filePath: "System.Net.Http.Json.dll", display: "System.Net.Http.Json (aspnet80)");
                     }
@@ -4818,7 +4819,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetHttpListener == null)
+                    if (_SystemNetHttpListener is null)
                     {
                         _SystemNetHttpListener = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpListener).GetReference(filePath: "System.Net.HttpListener.dll", display: "System.Net.HttpListener (aspnet80)");
                     }
@@ -4835,7 +4836,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetMail == null)
+                    if (_SystemNetMail is null)
                     {
                         _SystemNetMail = AssemblyMetadata.CreateFromImage(Resources.SystemNetMail).GetReference(filePath: "System.Net.Mail.dll", display: "System.Net.Mail (aspnet80)");
                     }
@@ -4852,7 +4853,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetNameResolution == null)
+                    if (_SystemNetNameResolution is null)
                     {
                         _SystemNetNameResolution = AssemblyMetadata.CreateFromImage(Resources.SystemNetNameResolution).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (aspnet80)");
                     }
@@ -4869,7 +4870,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetNetworkInformation == null)
+                    if (_SystemNetNetworkInformation is null)
                     {
                         _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(Resources.SystemNetNetworkInformation).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (aspnet80)");
                     }
@@ -4886,7 +4887,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetPing == null)
+                    if (_SystemNetPing is null)
                     {
                         _SystemNetPing = AssemblyMetadata.CreateFromImage(Resources.SystemNetPing).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (aspnet80)");
                     }
@@ -4903,7 +4904,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetPrimitives == null)
+                    if (_SystemNetPrimitives is null)
                     {
                         _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (aspnet80)");
                     }
@@ -4920,7 +4921,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetQuic == null)
+                    if (_SystemNetQuic is null)
                     {
                         _SystemNetQuic = AssemblyMetadata.CreateFromImage(Resources.SystemNetQuic).GetReference(filePath: "System.Net.Quic.dll", display: "System.Net.Quic (aspnet80)");
                     }
@@ -4937,7 +4938,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetRequests == null)
+                    if (_SystemNetRequests is null)
                     {
                         _SystemNetRequests = AssemblyMetadata.CreateFromImage(Resources.SystemNetRequests).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (aspnet80)");
                     }
@@ -4954,7 +4955,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetSecurity == null)
+                    if (_SystemNetSecurity is null)
                     {
                         _SystemNetSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemNetSecurity).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (aspnet80)");
                     }
@@ -4971,7 +4972,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetServicePoint == null)
+                    if (_SystemNetServicePoint is null)
                     {
                         _SystemNetServicePoint = AssemblyMetadata.CreateFromImage(Resources.SystemNetServicePoint).GetReference(filePath: "System.Net.ServicePoint.dll", display: "System.Net.ServicePoint (aspnet80)");
                     }
@@ -4988,7 +4989,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetSockets == null)
+                    if (_SystemNetSockets is null)
                     {
                         _SystemNetSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetSockets).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (aspnet80)");
                     }
@@ -5005,7 +5006,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetWebClient == null)
+                    if (_SystemNetWebClient is null)
                     {
                         _SystemNetWebClient = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebClient).GetReference(filePath: "System.Net.WebClient.dll", display: "System.Net.WebClient (aspnet80)");
                     }
@@ -5022,7 +5023,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetWebHeaderCollection == null)
+                    if (_SystemNetWebHeaderCollection is null)
                     {
                         _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebHeaderCollection).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (aspnet80)");
                     }
@@ -5039,7 +5040,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetWebProxy == null)
+                    if (_SystemNetWebProxy is null)
                     {
                         _SystemNetWebProxy = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebProxy).GetReference(filePath: "System.Net.WebProxy.dll", display: "System.Net.WebProxy (aspnet80)");
                     }
@@ -5056,7 +5057,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetWebSocketsClient == null)
+                    if (_SystemNetWebSocketsClient is null)
                     {
                         _SystemNetWebSocketsClient = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSocketsClient).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (aspnet80)");
                     }
@@ -5073,7 +5074,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetWebSockets == null)
+                    if (_SystemNetWebSockets is null)
                     {
                         _SystemNetWebSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSockets).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (aspnet80)");
                     }
@@ -5090,7 +5091,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNumerics == null)
+                    if (_SystemNumerics is null)
                     {
                         _SystemNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemNumerics).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (aspnet80)");
                     }
@@ -5107,7 +5108,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNumericsVectors == null)
+                    if (_SystemNumericsVectors is null)
                     {
                         _SystemNumericsVectors = AssemblyMetadata.CreateFromImage(Resources.SystemNumericsVectors).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (aspnet80)");
                     }
@@ -5124,7 +5125,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemObjectModel == null)
+                    if (_SystemObjectModel is null)
                     {
                         _SystemObjectModel = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (aspnet80)");
                     }
@@ -5141,7 +5142,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflectionDispatchProxy == null)
+                    if (_SystemReflectionDispatchProxy is null)
                     {
                         _SystemReflectionDispatchProxy = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionDispatchProxy).GetReference(filePath: "System.Reflection.DispatchProxy.dll", display: "System.Reflection.DispatchProxy (aspnet80)");
                     }
@@ -5158,7 +5159,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflection == null)
+                    if (_SystemReflection is null)
                     {
                         _SystemReflection = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (aspnet80)");
                     }
@@ -5175,7 +5176,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflectionEmit == null)
+                    if (_SystemReflectionEmit is null)
                     {
                         _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmit).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (aspnet80)");
                     }
@@ -5192,7 +5193,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflectionEmitILGeneration == null)
+                    if (_SystemReflectionEmitILGeneration is null)
                     {
                         _SystemReflectionEmitILGeneration = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitILGeneration).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (aspnet80)");
                     }
@@ -5209,7 +5210,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflectionEmitLightweight == null)
+                    if (_SystemReflectionEmitLightweight is null)
                     {
                         _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitLightweight).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (aspnet80)");
                     }
@@ -5226,7 +5227,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflectionExtensions == null)
+                    if (_SystemReflectionExtensions is null)
                     {
                         _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (aspnet80)");
                     }
@@ -5243,7 +5244,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflectionMetadata == null)
+                    if (_SystemReflectionMetadata is null)
                     {
                         _SystemReflectionMetadata = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionMetadata).GetReference(filePath: "System.Reflection.Metadata.dll", display: "System.Reflection.Metadata (aspnet80)");
                     }
@@ -5260,7 +5261,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflectionPrimitives == null)
+                    if (_SystemReflectionPrimitives is null)
                     {
                         _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (aspnet80)");
                     }
@@ -5277,7 +5278,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflectionTypeExtensions == null)
+                    if (_SystemReflectionTypeExtensions is null)
                     {
                         _SystemReflectionTypeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionTypeExtensions).GetReference(filePath: "System.Reflection.TypeExtensions.dll", display: "System.Reflection.TypeExtensions (aspnet80)");
                     }
@@ -5294,7 +5295,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemResourcesReader == null)
+                    if (_SystemResourcesReader is null)
                     {
                         _SystemResourcesReader = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesReader).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (aspnet80)");
                     }
@@ -5311,7 +5312,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemResourcesResourceManager == null)
+                    if (_SystemResourcesResourceManager is null)
                     {
                         _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (aspnet80)");
                     }
@@ -5328,7 +5329,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemResourcesWriter == null)
+                    if (_SystemResourcesWriter is null)
                     {
                         _SystemResourcesWriter = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesWriter).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (aspnet80)");
                     }
@@ -5345,7 +5346,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeCompilerServicesUnsafe == null)
+                    if (_SystemRuntimeCompilerServicesUnsafe is null)
                     {
                         _SystemRuntimeCompilerServicesUnsafe = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesUnsafe).GetReference(filePath: "System.Runtime.CompilerServices.Unsafe.dll", display: "System.Runtime.CompilerServices.Unsafe (aspnet80)");
                     }
@@ -5362,7 +5363,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeCompilerServicesVisualC == null)
+                    if (_SystemRuntimeCompilerServicesVisualC is null)
                     {
                         _SystemRuntimeCompilerServicesVisualC = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesVisualC).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (aspnet80)");
                     }
@@ -5379,7 +5380,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntime == null)
+                    if (_SystemRuntime is null)
                     {
                         _SystemRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (aspnet80)");
                     }
@@ -5396,7 +5397,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeExtensions == null)
+                    if (_SystemRuntimeExtensions is null)
                     {
                         _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (aspnet80)");
                     }
@@ -5413,7 +5414,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeHandles == null)
+                    if (_SystemRuntimeHandles is null)
                     {
                         _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (aspnet80)");
                     }
@@ -5430,7 +5431,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeInteropServices == null)
+                    if (_SystemRuntimeInteropServices is null)
                     {
                         _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (aspnet80)");
                     }
@@ -5447,7 +5448,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeInteropServicesJavaScript == null)
+                    if (_SystemRuntimeInteropServicesJavaScript is null)
                     {
                         _SystemRuntimeInteropServicesJavaScript = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesJavaScript).GetReference(filePath: "System.Runtime.InteropServices.JavaScript.dll", display: "System.Runtime.InteropServices.JavaScript (aspnet80)");
                     }
@@ -5464,7 +5465,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeInteropServicesRuntimeInformation == null)
+                    if (_SystemRuntimeInteropServicesRuntimeInformation is null)
                     {
                         _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesRuntimeInformation).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (aspnet80)");
                     }
@@ -5481,7 +5482,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeIntrinsics == null)
+                    if (_SystemRuntimeIntrinsics is null)
                     {
                         _SystemRuntimeIntrinsics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeIntrinsics).GetReference(filePath: "System.Runtime.Intrinsics.dll", display: "System.Runtime.Intrinsics (aspnet80)");
                     }
@@ -5498,7 +5499,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeLoader == null)
+                    if (_SystemRuntimeLoader is null)
                     {
                         _SystemRuntimeLoader = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeLoader).GetReference(filePath: "System.Runtime.Loader.dll", display: "System.Runtime.Loader (aspnet80)");
                     }
@@ -5515,7 +5516,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeNumerics == null)
+                    if (_SystemRuntimeNumerics is null)
                     {
                         _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (aspnet80)");
                     }
@@ -5532,7 +5533,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeSerialization == null)
+                    if (_SystemRuntimeSerialization is null)
                     {
                         _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerialization).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (aspnet80)");
                     }
@@ -5549,7 +5550,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeSerializationFormatters == null)
+                    if (_SystemRuntimeSerializationFormatters is null)
                     {
                         _SystemRuntimeSerializationFormatters = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormatters).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (aspnet80)");
                     }
@@ -5566,7 +5567,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeSerializationJson == null)
+                    if (_SystemRuntimeSerializationJson is null)
                     {
                         _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationJson).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (aspnet80)");
                     }
@@ -5583,7 +5584,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeSerializationPrimitives == null)
+                    if (_SystemRuntimeSerializationPrimitives is null)
                     {
                         _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (aspnet80)");
                     }
@@ -5600,7 +5601,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeSerializationXml == null)
+                    if (_SystemRuntimeSerializationXml is null)
                     {
                         _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationXml).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (aspnet80)");
                     }
@@ -5617,7 +5618,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityAccessControl == null)
+                    if (_SystemSecurityAccessControl is null)
                     {
                         _SystemSecurityAccessControl = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityAccessControl).GetReference(filePath: "System.Security.AccessControl.dll", display: "System.Security.AccessControl (aspnet80)");
                     }
@@ -5634,7 +5635,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityClaims == null)
+                    if (_SystemSecurityClaims is null)
                     {
                         _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityClaims).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (aspnet80)");
                     }
@@ -5651,7 +5652,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityCryptographyAlgorithms == null)
+                    if (_SystemSecurityCryptographyAlgorithms is null)
                     {
                         _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyAlgorithms).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (aspnet80)");
                     }
@@ -5668,7 +5669,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityCryptographyCng == null)
+                    if (_SystemSecurityCryptographyCng is null)
                     {
                         _SystemSecurityCryptographyCng = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCng).GetReference(filePath: "System.Security.Cryptography.Cng.dll", display: "System.Security.Cryptography.Cng (aspnet80)");
                     }
@@ -5685,7 +5686,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityCryptographyCsp == null)
+                    if (_SystemSecurityCryptographyCsp is null)
                     {
                         _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCsp).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (aspnet80)");
                     }
@@ -5702,7 +5703,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityCryptography == null)
+                    if (_SystemSecurityCryptography is null)
                     {
                         _SystemSecurityCryptography = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptography).GetReference(filePath: "System.Security.Cryptography.dll", display: "System.Security.Cryptography (aspnet80)");
                     }
@@ -5719,7 +5720,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityCryptographyEncoding == null)
+                    if (_SystemSecurityCryptographyEncoding is null)
                     {
                         _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyEncoding).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (aspnet80)");
                     }
@@ -5736,7 +5737,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityCryptographyOpenSsl == null)
+                    if (_SystemSecurityCryptographyOpenSsl is null)
                     {
                         _SystemSecurityCryptographyOpenSsl = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyOpenSsl).GetReference(filePath: "System.Security.Cryptography.OpenSsl.dll", display: "System.Security.Cryptography.OpenSsl (aspnet80)");
                     }
@@ -5753,7 +5754,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityCryptographyPrimitives == null)
+                    if (_SystemSecurityCryptographyPrimitives is null)
                     {
                         _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPrimitives).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (aspnet80)");
                     }
@@ -5770,7 +5771,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityCryptographyX509Certificates == null)
+                    if (_SystemSecurityCryptographyX509Certificates is null)
                     {
                         _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyX509Certificates).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (aspnet80)");
                     }
@@ -5787,7 +5788,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurity == null)
+                    if (_SystemSecurity is null)
                     {
                         _SystemSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemSecurity).GetReference(filePath: "System.Security.dll", display: "System.Security (aspnet80)");
                     }
@@ -5804,7 +5805,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityPrincipal == null)
+                    if (_SystemSecurityPrincipal is null)
                     {
                         _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (aspnet80)");
                     }
@@ -5821,7 +5822,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityPrincipalWindows == null)
+                    if (_SystemSecurityPrincipalWindows is null)
                     {
                         _SystemSecurityPrincipalWindows = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipalWindows).GetReference(filePath: "System.Security.Principal.Windows.dll", display: "System.Security.Principal.Windows (aspnet80)");
                     }
@@ -5838,7 +5839,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecuritySecureString == null)
+                    if (_SystemSecuritySecureString is null)
                     {
                         _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(Resources.SystemSecuritySecureString).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (aspnet80)");
                     }
@@ -5855,7 +5856,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceModelWeb == null)
+                    if (_SystemServiceModelWeb is null)
                     {
                         _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelWeb).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (aspnet80)");
                     }
@@ -5872,7 +5873,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceProcess == null)
+                    if (_SystemServiceProcess is null)
                     {
                         _SystemServiceProcess = AssemblyMetadata.CreateFromImage(Resources.SystemServiceProcess).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (aspnet80)");
                     }
@@ -5889,7 +5890,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemTextEncodingCodePages == null)
+                    if (_SystemTextEncodingCodePages is null)
                     {
                         _SystemTextEncodingCodePages = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingCodePages).GetReference(filePath: "System.Text.Encoding.CodePages.dll", display: "System.Text.Encoding.CodePages (aspnet80)");
                     }
@@ -5906,7 +5907,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemTextEncoding == null)
+                    if (_SystemTextEncoding is null)
                     {
                         _SystemTextEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (aspnet80)");
                     }
@@ -5923,7 +5924,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemTextEncodingExtensions == null)
+                    if (_SystemTextEncodingExtensions is null)
                     {
                         _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (aspnet80)");
                     }
@@ -5940,7 +5941,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemTextEncodingsWeb == null)
+                    if (_SystemTextEncodingsWeb is null)
                     {
                         _SystemTextEncodingsWeb = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingsWeb).GetReference(filePath: "System.Text.Encodings.Web.dll", display: "System.Text.Encodings.Web (aspnet80)");
                     }
@@ -5957,7 +5958,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemTextJson == null)
+                    if (_SystemTextJson is null)
                     {
                         _SystemTextJson = AssemblyMetadata.CreateFromImage(Resources.SystemTextJson).GetReference(filePath: "System.Text.Json.dll", display: "System.Text.Json (aspnet80)");
                     }
@@ -5974,7 +5975,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemTextRegularExpressions == null)
+                    if (_SystemTextRegularExpressions is null)
                     {
                         _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (aspnet80)");
                     }
@@ -5991,7 +5992,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreadingChannels == null)
+                    if (_SystemThreadingChannels is null)
                     {
                         _SystemThreadingChannels = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingChannels).GetReference(filePath: "System.Threading.Channels.dll", display: "System.Threading.Channels (aspnet80)");
                     }
@@ -6008,7 +6009,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreading == null)
+                    if (_SystemThreading is null)
                     {
                         _SystemThreading = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (aspnet80)");
                     }
@@ -6025,7 +6026,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreadingOverlapped == null)
+                    if (_SystemThreadingOverlapped is null)
                     {
                         _SystemThreadingOverlapped = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingOverlapped).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (aspnet80)");
                     }
@@ -6042,7 +6043,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreadingTasksDataflow == null)
+                    if (_SystemThreadingTasksDataflow is null)
                     {
                         _SystemThreadingTasksDataflow = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksDataflow).GetReference(filePath: "System.Threading.Tasks.Dataflow.dll", display: "System.Threading.Tasks.Dataflow (aspnet80)");
                     }
@@ -6059,7 +6060,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreadingTasks == null)
+                    if (_SystemThreadingTasks is null)
                     {
                         _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (aspnet80)");
                     }
@@ -6076,7 +6077,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreadingTasksExtensions == null)
+                    if (_SystemThreadingTasksExtensions is null)
                     {
                         _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksExtensions).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (aspnet80)");
                     }
@@ -6093,7 +6094,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreadingTasksParallel == null)
+                    if (_SystemThreadingTasksParallel is null)
                     {
                         _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksParallel).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (aspnet80)");
                     }
@@ -6110,7 +6111,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreadingThread == null)
+                    if (_SystemThreadingThread is null)
                     {
                         _SystemThreadingThread = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThread).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (aspnet80)");
                     }
@@ -6127,7 +6128,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreadingThreadPool == null)
+                    if (_SystemThreadingThreadPool is null)
                     {
                         _SystemThreadingThreadPool = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThreadPool).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (aspnet80)");
                     }
@@ -6144,7 +6145,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreadingTimer == null)
+                    if (_SystemThreadingTimer is null)
                     {
                         _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (aspnet80)");
                     }
@@ -6161,7 +6162,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemTransactions == null)
+                    if (_SystemTransactions is null)
                     {
                         _SystemTransactions = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (aspnet80)");
                     }
@@ -6178,7 +6179,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemTransactionsLocal == null)
+                    if (_SystemTransactionsLocal is null)
                     {
                         _SystemTransactionsLocal = AssemblyMetadata.CreateFromImage(Resources.SystemTransactionsLocal).GetReference(filePath: "System.Transactions.Local.dll", display: "System.Transactions.Local (aspnet80)");
                     }
@@ -6195,7 +6196,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemValueTuple == null)
+                    if (_SystemValueTuple is null)
                     {
                         _SystemValueTuple = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (aspnet80)");
                     }
@@ -6212,7 +6213,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWeb == null)
+                    if (_SystemWeb is null)
                     {
                         _SystemWeb = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (aspnet80)");
                     }
@@ -6229,7 +6230,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebHttpUtility == null)
+                    if (_SystemWebHttpUtility is null)
                     {
                         _SystemWebHttpUtility = AssemblyMetadata.CreateFromImage(Resources.SystemWebHttpUtility).GetReference(filePath: "System.Web.HttpUtility.dll", display: "System.Web.HttpUtility (aspnet80)");
                     }
@@ -6246,7 +6247,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindows == null)
+                    if (_SystemWindows is null)
                     {
                         _SystemWindows = AssemblyMetadata.CreateFromImage(Resources.SystemWindows).GetReference(filePath: "System.Windows.dll", display: "System.Windows (aspnet80)");
                     }
@@ -6263,7 +6264,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXml == null)
+                    if (_SystemXml is null)
                     {
                         _SystemXml = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (aspnet80)");
                     }
@@ -6280,7 +6281,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXmlLinq == null)
+                    if (_SystemXmlLinq is null)
                     {
                         _SystemXmlLinq = AssemblyMetadata.CreateFromImage(Resources.SystemXmlLinq).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (aspnet80)");
                     }
@@ -6297,7 +6298,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXmlReaderWriter == null)
+                    if (_SystemXmlReaderWriter is null)
                     {
                         _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (aspnet80)");
                     }
@@ -6314,7 +6315,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXmlSerialization == null)
+                    if (_SystemXmlSerialization is null)
                     {
                         _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemXmlSerialization).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (aspnet80)");
                     }
@@ -6331,7 +6332,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXmlXDocument == null)
+                    if (_SystemXmlXDocument is null)
                     {
                         _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (aspnet80)");
                     }
@@ -6348,7 +6349,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXmlXmlDocument == null)
+                    if (_SystemXmlXmlDocument is null)
                     {
                         _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlDocument).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (aspnet80)");
                     }
@@ -6365,7 +6366,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXmlXmlSerializer == null)
+                    if (_SystemXmlXmlSerializer is null)
                     {
                         _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlSerializer).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (aspnet80)");
                     }
@@ -6382,7 +6383,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXmlXPath == null)
+                    if (_SystemXmlXPath is null)
                     {
                         _SystemXmlXPath = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPath).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (aspnet80)");
                     }
@@ -6399,7 +6400,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXmlXPathXDocument == null)
+                    if (_SystemXmlXPathXDocument is null)
                     {
                         _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPathXDocument).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (aspnet80)");
                     }
@@ -6416,7 +6417,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_WindowsBase == null)
+                    if (_WindowsBase is null)
                     {
                         _WindowsBase = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (aspnet80)");
                     }
@@ -6433,7 +6434,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreAntiforgery == null)
+                    if (_MicrosoftAspNetCoreAntiforgery is null)
                     {
                         _MicrosoftAspNetCoreAntiforgery = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAntiforgery).GetReference(filePath: "Microsoft.AspNetCore.Antiforgery.dll", display: "Microsoft.AspNetCore.Antiforgery (aspnet80)");
                     }
@@ -6450,7 +6451,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreAuthenticationAbstractions == null)
+                    if (_MicrosoftAspNetCoreAuthenticationAbstractions is null)
                     {
                         _MicrosoftAspNetCoreAuthenticationAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthenticationAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Abstractions.dll", display: "Microsoft.AspNetCore.Authentication.Abstractions (aspnet80)");
                     }
@@ -6467,7 +6468,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreAuthenticationBearerToken == null)
+                    if (_MicrosoftAspNetCoreAuthenticationBearerToken is null)
                     {
                         _MicrosoftAspNetCoreAuthenticationBearerToken = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthenticationBearerToken).GetReference(filePath: "Microsoft.AspNetCore.Authentication.BearerToken.dll", display: "Microsoft.AspNetCore.Authentication.BearerToken (aspnet80)");
                     }
@@ -6484,7 +6485,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreAuthenticationCookies == null)
+                    if (_MicrosoftAspNetCoreAuthenticationCookies is null)
                     {
                         _MicrosoftAspNetCoreAuthenticationCookies = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthenticationCookies).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Cookies.dll", display: "Microsoft.AspNetCore.Authentication.Cookies (aspnet80)");
                     }
@@ -6501,7 +6502,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreAuthenticationCore == null)
+                    if (_MicrosoftAspNetCoreAuthenticationCore is null)
                     {
                         _MicrosoftAspNetCoreAuthenticationCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthenticationCore).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Core.dll", display: "Microsoft.AspNetCore.Authentication.Core (aspnet80)");
                     }
@@ -6518,7 +6519,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreAuthentication == null)
+                    if (_MicrosoftAspNetCoreAuthentication is null)
                     {
                         _MicrosoftAspNetCoreAuthentication = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthentication).GetReference(filePath: "Microsoft.AspNetCore.Authentication.dll", display: "Microsoft.AspNetCore.Authentication (aspnet80)");
                     }
@@ -6535,7 +6536,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreAuthenticationOAuth == null)
+                    if (_MicrosoftAspNetCoreAuthenticationOAuth is null)
                     {
                         _MicrosoftAspNetCoreAuthenticationOAuth = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthenticationOAuth).GetReference(filePath: "Microsoft.AspNetCore.Authentication.OAuth.dll", display: "Microsoft.AspNetCore.Authentication.OAuth (aspnet80)");
                     }
@@ -6552,7 +6553,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreAuthorization == null)
+                    if (_MicrosoftAspNetCoreAuthorization is null)
                     {
                         _MicrosoftAspNetCoreAuthorization = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthorization).GetReference(filePath: "Microsoft.AspNetCore.Authorization.dll", display: "Microsoft.AspNetCore.Authorization (aspnet80)");
                     }
@@ -6569,7 +6570,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreAuthorizationPolicy == null)
+                    if (_MicrosoftAspNetCoreAuthorizationPolicy is null)
                     {
                         _MicrosoftAspNetCoreAuthorizationPolicy = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthorizationPolicy).GetReference(filePath: "Microsoft.AspNetCore.Authorization.Policy.dll", display: "Microsoft.AspNetCore.Authorization.Policy (aspnet80)");
                     }
@@ -6586,7 +6587,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreComponentsAuthorization == null)
+                    if (_MicrosoftAspNetCoreComponentsAuthorization is null)
                     {
                         _MicrosoftAspNetCoreComponentsAuthorization = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreComponentsAuthorization).GetReference(filePath: "Microsoft.AspNetCore.Components.Authorization.dll", display: "Microsoft.AspNetCore.Components.Authorization (aspnet80)");
                     }
@@ -6603,7 +6604,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreComponents == null)
+                    if (_MicrosoftAspNetCoreComponents is null)
                     {
                         _MicrosoftAspNetCoreComponents = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreComponents).GetReference(filePath: "Microsoft.AspNetCore.Components.dll", display: "Microsoft.AspNetCore.Components (aspnet80)");
                     }
@@ -6620,7 +6621,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreComponentsEndpoints == null)
+                    if (_MicrosoftAspNetCoreComponentsEndpoints is null)
                     {
                         _MicrosoftAspNetCoreComponentsEndpoints = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreComponentsEndpoints).GetReference(filePath: "Microsoft.AspNetCore.Components.Endpoints.dll", display: "Microsoft.AspNetCore.Components.Endpoints (aspnet80)");
                     }
@@ -6637,7 +6638,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreComponentsForms == null)
+                    if (_MicrosoftAspNetCoreComponentsForms is null)
                     {
                         _MicrosoftAspNetCoreComponentsForms = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreComponentsForms).GetReference(filePath: "Microsoft.AspNetCore.Components.Forms.dll", display: "Microsoft.AspNetCore.Components.Forms (aspnet80)");
                     }
@@ -6654,7 +6655,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreComponentsServer == null)
+                    if (_MicrosoftAspNetCoreComponentsServer is null)
                     {
                         _MicrosoftAspNetCoreComponentsServer = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreComponentsServer).GetReference(filePath: "Microsoft.AspNetCore.Components.Server.dll", display: "Microsoft.AspNetCore.Components.Server (aspnet80)");
                     }
@@ -6671,7 +6672,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreComponentsWeb == null)
+                    if (_MicrosoftAspNetCoreComponentsWeb is null)
                     {
                         _MicrosoftAspNetCoreComponentsWeb = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreComponentsWeb).GetReference(filePath: "Microsoft.AspNetCore.Components.Web.dll", display: "Microsoft.AspNetCore.Components.Web (aspnet80)");
                     }
@@ -6688,7 +6689,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreConnectionsAbstractions == null)
+                    if (_MicrosoftAspNetCoreConnectionsAbstractions is null)
                     {
                         _MicrosoftAspNetCoreConnectionsAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreConnectionsAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Connections.Abstractions.dll", display: "Microsoft.AspNetCore.Connections.Abstractions (aspnet80)");
                     }
@@ -6705,7 +6706,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreCookiePolicy == null)
+                    if (_MicrosoftAspNetCoreCookiePolicy is null)
                     {
                         _MicrosoftAspNetCoreCookiePolicy = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreCookiePolicy).GetReference(filePath: "Microsoft.AspNetCore.CookiePolicy.dll", display: "Microsoft.AspNetCore.CookiePolicy (aspnet80)");
                     }
@@ -6722,7 +6723,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreCors == null)
+                    if (_MicrosoftAspNetCoreCors is null)
                     {
                         _MicrosoftAspNetCoreCors = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreCors).GetReference(filePath: "Microsoft.AspNetCore.Cors.dll", display: "Microsoft.AspNetCore.Cors (aspnet80)");
                     }
@@ -6739,7 +6740,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreCryptographyInternal == null)
+                    if (_MicrosoftAspNetCoreCryptographyInternal is null)
                     {
                         _MicrosoftAspNetCoreCryptographyInternal = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreCryptographyInternal).GetReference(filePath: "Microsoft.AspNetCore.Cryptography.Internal.dll", display: "Microsoft.AspNetCore.Cryptography.Internal (aspnet80)");
                     }
@@ -6756,7 +6757,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreCryptographyKeyDerivation == null)
+                    if (_MicrosoftAspNetCoreCryptographyKeyDerivation is null)
                     {
                         _MicrosoftAspNetCoreCryptographyKeyDerivation = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreCryptographyKeyDerivation).GetReference(filePath: "Microsoft.AspNetCore.Cryptography.KeyDerivation.dll", display: "Microsoft.AspNetCore.Cryptography.KeyDerivation (aspnet80)");
                     }
@@ -6773,7 +6774,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreDataProtectionAbstractions == null)
+                    if (_MicrosoftAspNetCoreDataProtectionAbstractions is null)
                     {
                         _MicrosoftAspNetCoreDataProtectionAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreDataProtectionAbstractions).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.Abstractions.dll", display: "Microsoft.AspNetCore.DataProtection.Abstractions (aspnet80)");
                     }
@@ -6790,7 +6791,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreDataProtection == null)
+                    if (_MicrosoftAspNetCoreDataProtection is null)
                     {
                         _MicrosoftAspNetCoreDataProtection = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreDataProtection).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.dll", display: "Microsoft.AspNetCore.DataProtection (aspnet80)");
                     }
@@ -6807,7 +6808,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreDataProtectionExtensions == null)
+                    if (_MicrosoftAspNetCoreDataProtectionExtensions is null)
                     {
                         _MicrosoftAspNetCoreDataProtectionExtensions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreDataProtectionExtensions).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.Extensions.dll", display: "Microsoft.AspNetCore.DataProtection.Extensions (aspnet80)");
                     }
@@ -6824,7 +6825,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreDiagnosticsAbstractions == null)
+                    if (_MicrosoftAspNetCoreDiagnosticsAbstractions is null)
                     {
                         _MicrosoftAspNetCoreDiagnosticsAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreDiagnosticsAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.Abstractions.dll", display: "Microsoft.AspNetCore.Diagnostics.Abstractions (aspnet80)");
                     }
@@ -6841,7 +6842,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreDiagnostics == null)
+                    if (_MicrosoftAspNetCoreDiagnostics is null)
                     {
                         _MicrosoftAspNetCoreDiagnostics = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreDiagnostics).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.dll", display: "Microsoft.AspNetCore.Diagnostics (aspnet80)");
                     }
@@ -6858,7 +6859,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreDiagnosticsHealthChecks == null)
+                    if (_MicrosoftAspNetCoreDiagnosticsHealthChecks is null)
                     {
                         _MicrosoftAspNetCoreDiagnosticsHealthChecks = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreDiagnosticsHealthChecks).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.HealthChecks.dll", display: "Microsoft.AspNetCore.Diagnostics.HealthChecks (aspnet80)");
                     }
@@ -6875,7 +6876,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCore == null)
+                    if (_MicrosoftAspNetCore is null)
                     {
                         _MicrosoftAspNetCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCore).GetReference(filePath: "Microsoft.AspNetCore.dll", display: "Microsoft.AspNetCore (aspnet80)");
                     }
@@ -6892,7 +6893,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHostFiltering == null)
+                    if (_MicrosoftAspNetCoreHostFiltering is null)
                     {
                         _MicrosoftAspNetCoreHostFiltering = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHostFiltering).GetReference(filePath: "Microsoft.AspNetCore.HostFiltering.dll", display: "Microsoft.AspNetCore.HostFiltering (aspnet80)");
                     }
@@ -6909,7 +6910,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHostingAbstractions == null)
+                    if (_MicrosoftAspNetCoreHostingAbstractions is null)
                     {
                         _MicrosoftAspNetCoreHostingAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHostingAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Hosting.Abstractions.dll", display: "Microsoft.AspNetCore.Hosting.Abstractions (aspnet80)");
                     }
@@ -6926,7 +6927,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHosting == null)
+                    if (_MicrosoftAspNetCoreHosting is null)
                     {
                         _MicrosoftAspNetCoreHosting = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHosting).GetReference(filePath: "Microsoft.AspNetCore.Hosting.dll", display: "Microsoft.AspNetCore.Hosting (aspnet80)");
                     }
@@ -6943,7 +6944,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHostingServerAbstractions == null)
+                    if (_MicrosoftAspNetCoreHostingServerAbstractions is null)
                     {
                         _MicrosoftAspNetCoreHostingServerAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHostingServerAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Hosting.Server.Abstractions.dll", display: "Microsoft.AspNetCore.Hosting.Server.Abstractions (aspnet80)");
                     }
@@ -6960,7 +6961,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHtmlAbstractions == null)
+                    if (_MicrosoftAspNetCoreHtmlAbstractions is null)
                     {
                         _MicrosoftAspNetCoreHtmlAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHtmlAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Html.Abstractions.dll", display: "Microsoft.AspNetCore.Html.Abstractions (aspnet80)");
                     }
@@ -6977,7 +6978,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHttpAbstractions == null)
+                    if (_MicrosoftAspNetCoreHttpAbstractions is null)
                     {
                         _MicrosoftAspNetCoreHttpAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Http.Abstractions.dll", display: "Microsoft.AspNetCore.Http.Abstractions (aspnet80)");
                     }
@@ -6994,7 +6995,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHttpConnectionsCommon == null)
+                    if (_MicrosoftAspNetCoreHttpConnectionsCommon is null)
                     {
                         _MicrosoftAspNetCoreHttpConnectionsCommon = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpConnectionsCommon).GetReference(filePath: "Microsoft.AspNetCore.Http.Connections.Common.dll", display: "Microsoft.AspNetCore.Http.Connections.Common (aspnet80)");
                     }
@@ -7011,7 +7012,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHttpConnections == null)
+                    if (_MicrosoftAspNetCoreHttpConnections is null)
                     {
                         _MicrosoftAspNetCoreHttpConnections = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpConnections).GetReference(filePath: "Microsoft.AspNetCore.Http.Connections.dll", display: "Microsoft.AspNetCore.Http.Connections (aspnet80)");
                     }
@@ -7028,7 +7029,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHttp == null)
+                    if (_MicrosoftAspNetCoreHttp is null)
                     {
                         _MicrosoftAspNetCoreHttp = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttp).GetReference(filePath: "Microsoft.AspNetCore.Http.dll", display: "Microsoft.AspNetCore.Http (aspnet80)");
                     }
@@ -7045,7 +7046,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHttpExtensions == null)
+                    if (_MicrosoftAspNetCoreHttpExtensions is null)
                     {
                         _MicrosoftAspNetCoreHttpExtensions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpExtensions).GetReference(filePath: "Microsoft.AspNetCore.Http.Extensions.dll", display: "Microsoft.AspNetCore.Http.Extensions (aspnet80)");
                     }
@@ -7062,7 +7063,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHttpFeatures == null)
+                    if (_MicrosoftAspNetCoreHttpFeatures is null)
                     {
                         _MicrosoftAspNetCoreHttpFeatures = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpFeatures).GetReference(filePath: "Microsoft.AspNetCore.Http.Features.dll", display: "Microsoft.AspNetCore.Http.Features (aspnet80)");
                     }
@@ -7079,7 +7080,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHttpResults == null)
+                    if (_MicrosoftAspNetCoreHttpResults is null)
                     {
                         _MicrosoftAspNetCoreHttpResults = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpResults).GetReference(filePath: "Microsoft.AspNetCore.Http.Results.dll", display: "Microsoft.AspNetCore.Http.Results (aspnet80)");
                     }
@@ -7096,7 +7097,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHttpLogging == null)
+                    if (_MicrosoftAspNetCoreHttpLogging is null)
                     {
                         _MicrosoftAspNetCoreHttpLogging = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpLogging).GetReference(filePath: "Microsoft.AspNetCore.HttpLogging.dll", display: "Microsoft.AspNetCore.HttpLogging (aspnet80)");
                     }
@@ -7113,7 +7114,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHttpOverrides == null)
+                    if (_MicrosoftAspNetCoreHttpOverrides is null)
                     {
                         _MicrosoftAspNetCoreHttpOverrides = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpOverrides).GetReference(filePath: "Microsoft.AspNetCore.HttpOverrides.dll", display: "Microsoft.AspNetCore.HttpOverrides (aspnet80)");
                     }
@@ -7130,7 +7131,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreHttpsPolicy == null)
+                    if (_MicrosoftAspNetCoreHttpsPolicy is null)
                     {
                         _MicrosoftAspNetCoreHttpsPolicy = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpsPolicy).GetReference(filePath: "Microsoft.AspNetCore.HttpsPolicy.dll", display: "Microsoft.AspNetCore.HttpsPolicy (aspnet80)");
                     }
@@ -7147,7 +7148,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreIdentity == null)
+                    if (_MicrosoftAspNetCoreIdentity is null)
                     {
                         _MicrosoftAspNetCoreIdentity = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreIdentity).GetReference(filePath: "Microsoft.AspNetCore.Identity.dll", display: "Microsoft.AspNetCore.Identity (aspnet80)");
                     }
@@ -7164,7 +7165,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreLocalization == null)
+                    if (_MicrosoftAspNetCoreLocalization is null)
                     {
                         _MicrosoftAspNetCoreLocalization = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreLocalization).GetReference(filePath: "Microsoft.AspNetCore.Localization.dll", display: "Microsoft.AspNetCore.Localization (aspnet80)");
                     }
@@ -7181,7 +7182,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreLocalizationRouting == null)
+                    if (_MicrosoftAspNetCoreLocalizationRouting is null)
                     {
                         _MicrosoftAspNetCoreLocalizationRouting = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreLocalizationRouting).GetReference(filePath: "Microsoft.AspNetCore.Localization.Routing.dll", display: "Microsoft.AspNetCore.Localization.Routing (aspnet80)");
                     }
@@ -7198,7 +7199,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreMetadata == null)
+                    if (_MicrosoftAspNetCoreMetadata is null)
                     {
                         _MicrosoftAspNetCoreMetadata = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMetadata).GetReference(filePath: "Microsoft.AspNetCore.Metadata.dll", display: "Microsoft.AspNetCore.Metadata (aspnet80)");
                     }
@@ -7215,7 +7216,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreMvcAbstractions == null)
+                    if (_MicrosoftAspNetCoreMvcAbstractions is null)
                     {
                         _MicrosoftAspNetCoreMvcAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Abstractions.dll", display: "Microsoft.AspNetCore.Mvc.Abstractions (aspnet80)");
                     }
@@ -7232,7 +7233,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreMvcApiExplorer == null)
+                    if (_MicrosoftAspNetCoreMvcApiExplorer is null)
                     {
                         _MicrosoftAspNetCoreMvcApiExplorer = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcApiExplorer).GetReference(filePath: "Microsoft.AspNetCore.Mvc.ApiExplorer.dll", display: "Microsoft.AspNetCore.Mvc.ApiExplorer (aspnet80)");
                     }
@@ -7249,7 +7250,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreMvcCore == null)
+                    if (_MicrosoftAspNetCoreMvcCore is null)
                     {
                         _MicrosoftAspNetCoreMvcCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcCore).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Core.dll", display: "Microsoft.AspNetCore.Mvc.Core (aspnet80)");
                     }
@@ -7266,7 +7267,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreMvcCors == null)
+                    if (_MicrosoftAspNetCoreMvcCors is null)
                     {
                         _MicrosoftAspNetCoreMvcCors = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcCors).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Cors.dll", display: "Microsoft.AspNetCore.Mvc.Cors (aspnet80)");
                     }
@@ -7283,7 +7284,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreMvcDataAnnotations == null)
+                    if (_MicrosoftAspNetCoreMvcDataAnnotations is null)
                     {
                         _MicrosoftAspNetCoreMvcDataAnnotations = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcDataAnnotations).GetReference(filePath: "Microsoft.AspNetCore.Mvc.DataAnnotations.dll", display: "Microsoft.AspNetCore.Mvc.DataAnnotations (aspnet80)");
                     }
@@ -7300,7 +7301,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreMvc == null)
+                    if (_MicrosoftAspNetCoreMvc is null)
                     {
                         _MicrosoftAspNetCoreMvc = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvc).GetReference(filePath: "Microsoft.AspNetCore.Mvc.dll", display: "Microsoft.AspNetCore.Mvc (aspnet80)");
                     }
@@ -7317,7 +7318,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreMvcFormattersJson == null)
+                    if (_MicrosoftAspNetCoreMvcFormattersJson is null)
                     {
                         _MicrosoftAspNetCoreMvcFormattersJson = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcFormattersJson).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Formatters.Json.dll", display: "Microsoft.AspNetCore.Mvc.Formatters.Json (aspnet80)");
                     }
@@ -7334,7 +7335,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreMvcFormattersXml == null)
+                    if (_MicrosoftAspNetCoreMvcFormattersXml is null)
                     {
                         _MicrosoftAspNetCoreMvcFormattersXml = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcFormattersXml).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Formatters.Xml.dll", display: "Microsoft.AspNetCore.Mvc.Formatters.Xml (aspnet80)");
                     }
@@ -7351,7 +7352,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreMvcLocalization == null)
+                    if (_MicrosoftAspNetCoreMvcLocalization is null)
                     {
                         _MicrosoftAspNetCoreMvcLocalization = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcLocalization).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Localization.dll", display: "Microsoft.AspNetCore.Mvc.Localization (aspnet80)");
                     }
@@ -7368,7 +7369,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreMvcRazor == null)
+                    if (_MicrosoftAspNetCoreMvcRazor is null)
                     {
                         _MicrosoftAspNetCoreMvcRazor = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcRazor).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Razor.dll", display: "Microsoft.AspNetCore.Mvc.Razor (aspnet80)");
                     }
@@ -7385,7 +7386,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreMvcRazorPages == null)
+                    if (_MicrosoftAspNetCoreMvcRazorPages is null)
                     {
                         _MicrosoftAspNetCoreMvcRazorPages = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcRazorPages).GetReference(filePath: "Microsoft.AspNetCore.Mvc.RazorPages.dll", display: "Microsoft.AspNetCore.Mvc.RazorPages (aspnet80)");
                     }
@@ -7402,7 +7403,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreMvcTagHelpers == null)
+                    if (_MicrosoftAspNetCoreMvcTagHelpers is null)
                     {
                         _MicrosoftAspNetCoreMvcTagHelpers = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcTagHelpers).GetReference(filePath: "Microsoft.AspNetCore.Mvc.TagHelpers.dll", display: "Microsoft.AspNetCore.Mvc.TagHelpers (aspnet80)");
                     }
@@ -7419,7 +7420,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreMvcViewFeatures == null)
+                    if (_MicrosoftAspNetCoreMvcViewFeatures is null)
                     {
                         _MicrosoftAspNetCoreMvcViewFeatures = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcViewFeatures).GetReference(filePath: "Microsoft.AspNetCore.Mvc.ViewFeatures.dll", display: "Microsoft.AspNetCore.Mvc.ViewFeatures (aspnet80)");
                     }
@@ -7436,7 +7437,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreOutputCaching == null)
+                    if (_MicrosoftAspNetCoreOutputCaching is null)
                     {
                         _MicrosoftAspNetCoreOutputCaching = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreOutputCaching).GetReference(filePath: "Microsoft.AspNetCore.OutputCaching.dll", display: "Microsoft.AspNetCore.OutputCaching (aspnet80)");
                     }
@@ -7453,7 +7454,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreRateLimiting == null)
+                    if (_MicrosoftAspNetCoreRateLimiting is null)
                     {
                         _MicrosoftAspNetCoreRateLimiting = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreRateLimiting).GetReference(filePath: "Microsoft.AspNetCore.RateLimiting.dll", display: "Microsoft.AspNetCore.RateLimiting (aspnet80)");
                     }
@@ -7470,7 +7471,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreRazor == null)
+                    if (_MicrosoftAspNetCoreRazor is null)
                     {
                         _MicrosoftAspNetCoreRazor = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreRazor).GetReference(filePath: "Microsoft.AspNetCore.Razor.dll", display: "Microsoft.AspNetCore.Razor (aspnet80)");
                     }
@@ -7487,7 +7488,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreRazorRuntime == null)
+                    if (_MicrosoftAspNetCoreRazorRuntime is null)
                     {
                         _MicrosoftAspNetCoreRazorRuntime = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreRazorRuntime).GetReference(filePath: "Microsoft.AspNetCore.Razor.Runtime.dll", display: "Microsoft.AspNetCore.Razor.Runtime (aspnet80)");
                     }
@@ -7504,7 +7505,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreRequestDecompression == null)
+                    if (_MicrosoftAspNetCoreRequestDecompression is null)
                     {
                         _MicrosoftAspNetCoreRequestDecompression = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreRequestDecompression).GetReference(filePath: "Microsoft.AspNetCore.RequestDecompression.dll", display: "Microsoft.AspNetCore.RequestDecompression (aspnet80)");
                     }
@@ -7521,7 +7522,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreResponseCachingAbstractions == null)
+                    if (_MicrosoftAspNetCoreResponseCachingAbstractions is null)
                     {
                         _MicrosoftAspNetCoreResponseCachingAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreResponseCachingAbstractions).GetReference(filePath: "Microsoft.AspNetCore.ResponseCaching.Abstractions.dll", display: "Microsoft.AspNetCore.ResponseCaching.Abstractions (aspnet80)");
                     }
@@ -7538,7 +7539,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreResponseCaching == null)
+                    if (_MicrosoftAspNetCoreResponseCaching is null)
                     {
                         _MicrosoftAspNetCoreResponseCaching = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreResponseCaching).GetReference(filePath: "Microsoft.AspNetCore.ResponseCaching.dll", display: "Microsoft.AspNetCore.ResponseCaching (aspnet80)");
                     }
@@ -7555,7 +7556,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreResponseCompression == null)
+                    if (_MicrosoftAspNetCoreResponseCompression is null)
                     {
                         _MicrosoftAspNetCoreResponseCompression = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreResponseCompression).GetReference(filePath: "Microsoft.AspNetCore.ResponseCompression.dll", display: "Microsoft.AspNetCore.ResponseCompression (aspnet80)");
                     }
@@ -7572,7 +7573,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreRewrite == null)
+                    if (_MicrosoftAspNetCoreRewrite is null)
                     {
                         _MicrosoftAspNetCoreRewrite = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreRewrite).GetReference(filePath: "Microsoft.AspNetCore.Rewrite.dll", display: "Microsoft.AspNetCore.Rewrite (aspnet80)");
                     }
@@ -7589,7 +7590,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreRoutingAbstractions == null)
+                    if (_MicrosoftAspNetCoreRoutingAbstractions is null)
                     {
                         _MicrosoftAspNetCoreRoutingAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreRoutingAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Routing.Abstractions.dll", display: "Microsoft.AspNetCore.Routing.Abstractions (aspnet80)");
                     }
@@ -7606,7 +7607,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreRouting == null)
+                    if (_MicrosoftAspNetCoreRouting is null)
                     {
                         _MicrosoftAspNetCoreRouting = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreRouting).GetReference(filePath: "Microsoft.AspNetCore.Routing.dll", display: "Microsoft.AspNetCore.Routing (aspnet80)");
                     }
@@ -7623,7 +7624,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreServerHttpSys == null)
+                    if (_MicrosoftAspNetCoreServerHttpSys is null)
                     {
                         _MicrosoftAspNetCoreServerHttpSys = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerHttpSys).GetReference(filePath: "Microsoft.AspNetCore.Server.HttpSys.dll", display: "Microsoft.AspNetCore.Server.HttpSys (aspnet80)");
                     }
@@ -7640,7 +7641,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreServerIIS == null)
+                    if (_MicrosoftAspNetCoreServerIIS is null)
                     {
                         _MicrosoftAspNetCoreServerIIS = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerIIS).GetReference(filePath: "Microsoft.AspNetCore.Server.IIS.dll", display: "Microsoft.AspNetCore.Server.IIS (aspnet80)");
                     }
@@ -7657,7 +7658,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreServerIISIntegration == null)
+                    if (_MicrosoftAspNetCoreServerIISIntegration is null)
                     {
                         _MicrosoftAspNetCoreServerIISIntegration = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerIISIntegration).GetReference(filePath: "Microsoft.AspNetCore.Server.IISIntegration.dll", display: "Microsoft.AspNetCore.Server.IISIntegration (aspnet80)");
                     }
@@ -7674,7 +7675,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreServerKestrelCore == null)
+                    if (_MicrosoftAspNetCoreServerKestrelCore is null)
                     {
                         _MicrosoftAspNetCoreServerKestrelCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerKestrelCore).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Core.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Core (aspnet80)");
                     }
@@ -7691,7 +7692,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreServerKestrel == null)
+                    if (_MicrosoftAspNetCoreServerKestrel is null)
                     {
                         _MicrosoftAspNetCoreServerKestrel = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerKestrel).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.dll", display: "Microsoft.AspNetCore.Server.Kestrel (aspnet80)");
                     }
@@ -7708,7 +7709,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreServerKestrelTransportNamedPipes == null)
+                    if (_MicrosoftAspNetCoreServerKestrelTransportNamedPipes is null)
                     {
                         _MicrosoftAspNetCoreServerKestrelTransportNamedPipes = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerKestrelTransportNamedPipes).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes (aspnet80)");
                     }
@@ -7725,7 +7726,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreServerKestrelTransportQuic == null)
+                    if (_MicrosoftAspNetCoreServerKestrelTransportQuic is null)
                     {
                         _MicrosoftAspNetCoreServerKestrelTransportQuic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerKestrelTransportQuic).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.Quic (aspnet80)");
                     }
@@ -7742,7 +7743,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreServerKestrelTransportSockets == null)
+                    if (_MicrosoftAspNetCoreServerKestrelTransportSockets is null)
                     {
                         _MicrosoftAspNetCoreServerKestrelTransportSockets = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerKestrelTransportSockets).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets (aspnet80)");
                     }
@@ -7759,7 +7760,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreSession == null)
+                    if (_MicrosoftAspNetCoreSession is null)
                     {
                         _MicrosoftAspNetCoreSession = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreSession).GetReference(filePath: "Microsoft.AspNetCore.Session.dll", display: "Microsoft.AspNetCore.Session (aspnet80)");
                     }
@@ -7776,7 +7777,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreSignalRCommon == null)
+                    if (_MicrosoftAspNetCoreSignalRCommon is null)
                     {
                         _MicrosoftAspNetCoreSignalRCommon = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreSignalRCommon).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Common.dll", display: "Microsoft.AspNetCore.SignalR.Common (aspnet80)");
                     }
@@ -7793,7 +7794,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreSignalRCore == null)
+                    if (_MicrosoftAspNetCoreSignalRCore is null)
                     {
                         _MicrosoftAspNetCoreSignalRCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreSignalRCore).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Core.dll", display: "Microsoft.AspNetCore.SignalR.Core (aspnet80)");
                     }
@@ -7810,7 +7811,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreSignalR == null)
+                    if (_MicrosoftAspNetCoreSignalR is null)
                     {
                         _MicrosoftAspNetCoreSignalR = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreSignalR).GetReference(filePath: "Microsoft.AspNetCore.SignalR.dll", display: "Microsoft.AspNetCore.SignalR (aspnet80)");
                     }
@@ -7827,7 +7828,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreSignalRProtocolsJson == null)
+                    if (_MicrosoftAspNetCoreSignalRProtocolsJson is null)
                     {
                         _MicrosoftAspNetCoreSignalRProtocolsJson = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreSignalRProtocolsJson).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Protocols.Json.dll", display: "Microsoft.AspNetCore.SignalR.Protocols.Json (aspnet80)");
                     }
@@ -7844,7 +7845,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreStaticFiles == null)
+                    if (_MicrosoftAspNetCoreStaticFiles is null)
                     {
                         _MicrosoftAspNetCoreStaticFiles = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreStaticFiles).GetReference(filePath: "Microsoft.AspNetCore.StaticFiles.dll", display: "Microsoft.AspNetCore.StaticFiles (aspnet80)");
                     }
@@ -7861,7 +7862,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreWebSockets == null)
+                    if (_MicrosoftAspNetCoreWebSockets is null)
                     {
                         _MicrosoftAspNetCoreWebSockets = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreWebSockets).GetReference(filePath: "Microsoft.AspNetCore.WebSockets.dll", display: "Microsoft.AspNetCore.WebSockets (aspnet80)");
                     }
@@ -7878,7 +7879,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftAspNetCoreWebUtilities == null)
+                    if (_MicrosoftAspNetCoreWebUtilities is null)
                     {
                         _MicrosoftAspNetCoreWebUtilities = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreWebUtilities).GetReference(filePath: "Microsoft.AspNetCore.WebUtilities.dll", display: "Microsoft.AspNetCore.WebUtilities (aspnet80)");
                     }
@@ -7895,7 +7896,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsCachingAbstractions == null)
+                    if (_MicrosoftExtensionsCachingAbstractions is null)
                     {
                         _MicrosoftExtensionsCachingAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsCachingAbstractions).GetReference(filePath: "Microsoft.Extensions.Caching.Abstractions.dll", display: "Microsoft.Extensions.Caching.Abstractions (aspnet80)");
                     }
@@ -7912,7 +7913,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsCachingMemory == null)
+                    if (_MicrosoftExtensionsCachingMemory is null)
                     {
                         _MicrosoftExtensionsCachingMemory = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsCachingMemory).GetReference(filePath: "Microsoft.Extensions.Caching.Memory.dll", display: "Microsoft.Extensions.Caching.Memory (aspnet80)");
                     }
@@ -7929,7 +7930,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsConfigurationAbstractions == null)
+                    if (_MicrosoftExtensionsConfigurationAbstractions is null)
                     {
                         _MicrosoftExtensionsConfigurationAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationAbstractions).GetReference(filePath: "Microsoft.Extensions.Configuration.Abstractions.dll", display: "Microsoft.Extensions.Configuration.Abstractions (aspnet80)");
                     }
@@ -7946,7 +7947,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsConfigurationBinder == null)
+                    if (_MicrosoftExtensionsConfigurationBinder is null)
                     {
                         _MicrosoftExtensionsConfigurationBinder = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationBinder).GetReference(filePath: "Microsoft.Extensions.Configuration.Binder.dll", display: "Microsoft.Extensions.Configuration.Binder (aspnet80)");
                     }
@@ -7963,7 +7964,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsConfigurationCommandLine == null)
+                    if (_MicrosoftExtensionsConfigurationCommandLine is null)
                     {
                         _MicrosoftExtensionsConfigurationCommandLine = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationCommandLine).GetReference(filePath: "Microsoft.Extensions.Configuration.CommandLine.dll", display: "Microsoft.Extensions.Configuration.CommandLine (aspnet80)");
                     }
@@ -7980,7 +7981,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsConfiguration == null)
+                    if (_MicrosoftExtensionsConfiguration is null)
                     {
                         _MicrosoftExtensionsConfiguration = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfiguration).GetReference(filePath: "Microsoft.Extensions.Configuration.dll", display: "Microsoft.Extensions.Configuration (aspnet80)");
                     }
@@ -7997,7 +7998,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsConfigurationEnvironmentVariables == null)
+                    if (_MicrosoftExtensionsConfigurationEnvironmentVariables is null)
                     {
                         _MicrosoftExtensionsConfigurationEnvironmentVariables = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationEnvironmentVariables).GetReference(filePath: "Microsoft.Extensions.Configuration.EnvironmentVariables.dll", display: "Microsoft.Extensions.Configuration.EnvironmentVariables (aspnet80)");
                     }
@@ -8014,7 +8015,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsConfigurationFileExtensions == null)
+                    if (_MicrosoftExtensionsConfigurationFileExtensions is null)
                     {
                         _MicrosoftExtensionsConfigurationFileExtensions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationFileExtensions).GetReference(filePath: "Microsoft.Extensions.Configuration.FileExtensions.dll", display: "Microsoft.Extensions.Configuration.FileExtensions (aspnet80)");
                     }
@@ -8031,7 +8032,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsConfigurationIni == null)
+                    if (_MicrosoftExtensionsConfigurationIni is null)
                     {
                         _MicrosoftExtensionsConfigurationIni = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationIni).GetReference(filePath: "Microsoft.Extensions.Configuration.Ini.dll", display: "Microsoft.Extensions.Configuration.Ini (aspnet80)");
                     }
@@ -8048,7 +8049,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsConfigurationJson == null)
+                    if (_MicrosoftExtensionsConfigurationJson is null)
                     {
                         _MicrosoftExtensionsConfigurationJson = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationJson).GetReference(filePath: "Microsoft.Extensions.Configuration.Json.dll", display: "Microsoft.Extensions.Configuration.Json (aspnet80)");
                     }
@@ -8065,7 +8066,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsConfigurationKeyPerFile == null)
+                    if (_MicrosoftExtensionsConfigurationKeyPerFile is null)
                     {
                         _MicrosoftExtensionsConfigurationKeyPerFile = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationKeyPerFile).GetReference(filePath: "Microsoft.Extensions.Configuration.KeyPerFile.dll", display: "Microsoft.Extensions.Configuration.KeyPerFile (aspnet80)");
                     }
@@ -8082,7 +8083,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsConfigurationUserSecrets == null)
+                    if (_MicrosoftExtensionsConfigurationUserSecrets is null)
                     {
                         _MicrosoftExtensionsConfigurationUserSecrets = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationUserSecrets).GetReference(filePath: "Microsoft.Extensions.Configuration.UserSecrets.dll", display: "Microsoft.Extensions.Configuration.UserSecrets (aspnet80)");
                     }
@@ -8099,7 +8100,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsConfigurationXml == null)
+                    if (_MicrosoftExtensionsConfigurationXml is null)
                     {
                         _MicrosoftExtensionsConfigurationXml = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationXml).GetReference(filePath: "Microsoft.Extensions.Configuration.Xml.dll", display: "Microsoft.Extensions.Configuration.Xml (aspnet80)");
                     }
@@ -8116,7 +8117,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsDependencyInjectionAbstractions == null)
+                    if (_MicrosoftExtensionsDependencyInjectionAbstractions is null)
                     {
                         _MicrosoftExtensionsDependencyInjectionAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsDependencyInjectionAbstractions).GetReference(filePath: "Microsoft.Extensions.DependencyInjection.Abstractions.dll", display: "Microsoft.Extensions.DependencyInjection.Abstractions (aspnet80)");
                     }
@@ -8133,7 +8134,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsDependencyInjection == null)
+                    if (_MicrosoftExtensionsDependencyInjection is null)
                     {
                         _MicrosoftExtensionsDependencyInjection = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsDependencyInjection).GetReference(filePath: "Microsoft.Extensions.DependencyInjection.dll", display: "Microsoft.Extensions.DependencyInjection (aspnet80)");
                     }
@@ -8150,7 +8151,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsDiagnosticsAbstractions == null)
+                    if (_MicrosoftExtensionsDiagnosticsAbstractions is null)
                     {
                         _MicrosoftExtensionsDiagnosticsAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsDiagnosticsAbstractions).GetReference(filePath: "Microsoft.Extensions.Diagnostics.Abstractions.dll", display: "Microsoft.Extensions.Diagnostics.Abstractions (aspnet80)");
                     }
@@ -8167,7 +8168,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsDiagnostics == null)
+                    if (_MicrosoftExtensionsDiagnostics is null)
                     {
                         _MicrosoftExtensionsDiagnostics = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsDiagnostics).GetReference(filePath: "Microsoft.Extensions.Diagnostics.dll", display: "Microsoft.Extensions.Diagnostics (aspnet80)");
                     }
@@ -8184,7 +8185,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsDiagnosticsHealthChecksAbstractions == null)
+                    if (_MicrosoftExtensionsDiagnosticsHealthChecksAbstractions is null)
                     {
                         _MicrosoftExtensionsDiagnosticsHealthChecksAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsDiagnosticsHealthChecksAbstractions).GetReference(filePath: "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll", display: "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions (aspnet80)");
                     }
@@ -8201,7 +8202,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsDiagnosticsHealthChecks == null)
+                    if (_MicrosoftExtensionsDiagnosticsHealthChecks is null)
                     {
                         _MicrosoftExtensionsDiagnosticsHealthChecks = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsDiagnosticsHealthChecks).GetReference(filePath: "Microsoft.Extensions.Diagnostics.HealthChecks.dll", display: "Microsoft.Extensions.Diagnostics.HealthChecks (aspnet80)");
                     }
@@ -8218,7 +8219,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsFeatures == null)
+                    if (_MicrosoftExtensionsFeatures is null)
                     {
                         _MicrosoftExtensionsFeatures = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsFeatures).GetReference(filePath: "Microsoft.Extensions.Features.dll", display: "Microsoft.Extensions.Features (aspnet80)");
                     }
@@ -8235,7 +8236,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsFileProvidersAbstractions == null)
+                    if (_MicrosoftExtensionsFileProvidersAbstractions is null)
                     {
                         _MicrosoftExtensionsFileProvidersAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsFileProvidersAbstractions).GetReference(filePath: "Microsoft.Extensions.FileProviders.Abstractions.dll", display: "Microsoft.Extensions.FileProviders.Abstractions (aspnet80)");
                     }
@@ -8252,7 +8253,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsFileProvidersComposite == null)
+                    if (_MicrosoftExtensionsFileProvidersComposite is null)
                     {
                         _MicrosoftExtensionsFileProvidersComposite = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsFileProvidersComposite).GetReference(filePath: "Microsoft.Extensions.FileProviders.Composite.dll", display: "Microsoft.Extensions.FileProviders.Composite (aspnet80)");
                     }
@@ -8269,7 +8270,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsFileProvidersEmbedded == null)
+                    if (_MicrosoftExtensionsFileProvidersEmbedded is null)
                     {
                         _MicrosoftExtensionsFileProvidersEmbedded = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsFileProvidersEmbedded).GetReference(filePath: "Microsoft.Extensions.FileProviders.Embedded.dll", display: "Microsoft.Extensions.FileProviders.Embedded (aspnet80)");
                     }
@@ -8286,7 +8287,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsFileProvidersPhysical == null)
+                    if (_MicrosoftExtensionsFileProvidersPhysical is null)
                     {
                         _MicrosoftExtensionsFileProvidersPhysical = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsFileProvidersPhysical).GetReference(filePath: "Microsoft.Extensions.FileProviders.Physical.dll", display: "Microsoft.Extensions.FileProviders.Physical (aspnet80)");
                     }
@@ -8303,7 +8304,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsFileSystemGlobbing == null)
+                    if (_MicrosoftExtensionsFileSystemGlobbing is null)
                     {
                         _MicrosoftExtensionsFileSystemGlobbing = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsFileSystemGlobbing).GetReference(filePath: "Microsoft.Extensions.FileSystemGlobbing.dll", display: "Microsoft.Extensions.FileSystemGlobbing (aspnet80)");
                     }
@@ -8320,7 +8321,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsHostingAbstractions == null)
+                    if (_MicrosoftExtensionsHostingAbstractions is null)
                     {
                         _MicrosoftExtensionsHostingAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsHostingAbstractions).GetReference(filePath: "Microsoft.Extensions.Hosting.Abstractions.dll", display: "Microsoft.Extensions.Hosting.Abstractions (aspnet80)");
                     }
@@ -8337,7 +8338,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsHosting == null)
+                    if (_MicrosoftExtensionsHosting is null)
                     {
                         _MicrosoftExtensionsHosting = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsHosting).GetReference(filePath: "Microsoft.Extensions.Hosting.dll", display: "Microsoft.Extensions.Hosting (aspnet80)");
                     }
@@ -8354,7 +8355,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsHttp == null)
+                    if (_MicrosoftExtensionsHttp is null)
                     {
                         _MicrosoftExtensionsHttp = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsHttp).GetReference(filePath: "Microsoft.Extensions.Http.dll", display: "Microsoft.Extensions.Http (aspnet80)");
                     }
@@ -8371,7 +8372,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsIdentityCore == null)
+                    if (_MicrosoftExtensionsIdentityCore is null)
                     {
                         _MicrosoftExtensionsIdentityCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsIdentityCore).GetReference(filePath: "Microsoft.Extensions.Identity.Core.dll", display: "Microsoft.Extensions.Identity.Core (aspnet80)");
                     }
@@ -8388,7 +8389,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsIdentityStores == null)
+                    if (_MicrosoftExtensionsIdentityStores is null)
                     {
                         _MicrosoftExtensionsIdentityStores = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsIdentityStores).GetReference(filePath: "Microsoft.Extensions.Identity.Stores.dll", display: "Microsoft.Extensions.Identity.Stores (aspnet80)");
                     }
@@ -8405,7 +8406,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsLocalizationAbstractions == null)
+                    if (_MicrosoftExtensionsLocalizationAbstractions is null)
                     {
                         _MicrosoftExtensionsLocalizationAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLocalizationAbstractions).GetReference(filePath: "Microsoft.Extensions.Localization.Abstractions.dll", display: "Microsoft.Extensions.Localization.Abstractions (aspnet80)");
                     }
@@ -8422,7 +8423,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsLocalization == null)
+                    if (_MicrosoftExtensionsLocalization is null)
                     {
                         _MicrosoftExtensionsLocalization = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLocalization).GetReference(filePath: "Microsoft.Extensions.Localization.dll", display: "Microsoft.Extensions.Localization (aspnet80)");
                     }
@@ -8439,7 +8440,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsLoggingAbstractions == null)
+                    if (_MicrosoftExtensionsLoggingAbstractions is null)
                     {
                         _MicrosoftExtensionsLoggingAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLoggingAbstractions).GetReference(filePath: "Microsoft.Extensions.Logging.Abstractions.dll", display: "Microsoft.Extensions.Logging.Abstractions (aspnet80)");
                     }
@@ -8456,7 +8457,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsLoggingConfiguration == null)
+                    if (_MicrosoftExtensionsLoggingConfiguration is null)
                     {
                         _MicrosoftExtensionsLoggingConfiguration = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLoggingConfiguration).GetReference(filePath: "Microsoft.Extensions.Logging.Configuration.dll", display: "Microsoft.Extensions.Logging.Configuration (aspnet80)");
                     }
@@ -8473,7 +8474,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsLoggingConsole == null)
+                    if (_MicrosoftExtensionsLoggingConsole is null)
                     {
                         _MicrosoftExtensionsLoggingConsole = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLoggingConsole).GetReference(filePath: "Microsoft.Extensions.Logging.Console.dll", display: "Microsoft.Extensions.Logging.Console (aspnet80)");
                     }
@@ -8490,7 +8491,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsLoggingDebug == null)
+                    if (_MicrosoftExtensionsLoggingDebug is null)
                     {
                         _MicrosoftExtensionsLoggingDebug = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLoggingDebug).GetReference(filePath: "Microsoft.Extensions.Logging.Debug.dll", display: "Microsoft.Extensions.Logging.Debug (aspnet80)");
                     }
@@ -8507,7 +8508,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsLogging == null)
+                    if (_MicrosoftExtensionsLogging is null)
                     {
                         _MicrosoftExtensionsLogging = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLogging).GetReference(filePath: "Microsoft.Extensions.Logging.dll", display: "Microsoft.Extensions.Logging (aspnet80)");
                     }
@@ -8524,7 +8525,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsLoggingEventLog == null)
+                    if (_MicrosoftExtensionsLoggingEventLog is null)
                     {
                         _MicrosoftExtensionsLoggingEventLog = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLoggingEventLog).GetReference(filePath: "Microsoft.Extensions.Logging.EventLog.dll", display: "Microsoft.Extensions.Logging.EventLog (aspnet80)");
                     }
@@ -8541,7 +8542,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsLoggingEventSource == null)
+                    if (_MicrosoftExtensionsLoggingEventSource is null)
                     {
                         _MicrosoftExtensionsLoggingEventSource = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLoggingEventSource).GetReference(filePath: "Microsoft.Extensions.Logging.EventSource.dll", display: "Microsoft.Extensions.Logging.EventSource (aspnet80)");
                     }
@@ -8558,7 +8559,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsLoggingTraceSource == null)
+                    if (_MicrosoftExtensionsLoggingTraceSource is null)
                     {
                         _MicrosoftExtensionsLoggingTraceSource = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLoggingTraceSource).GetReference(filePath: "Microsoft.Extensions.Logging.TraceSource.dll", display: "Microsoft.Extensions.Logging.TraceSource (aspnet80)");
                     }
@@ -8575,7 +8576,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsObjectPool == null)
+                    if (_MicrosoftExtensionsObjectPool is null)
                     {
                         _MicrosoftExtensionsObjectPool = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsObjectPool).GetReference(filePath: "Microsoft.Extensions.ObjectPool.dll", display: "Microsoft.Extensions.ObjectPool (aspnet80)");
                     }
@@ -8592,7 +8593,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsOptionsConfigurationExtensions == null)
+                    if (_MicrosoftExtensionsOptionsConfigurationExtensions is null)
                     {
                         _MicrosoftExtensionsOptionsConfigurationExtensions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsOptionsConfigurationExtensions).GetReference(filePath: "Microsoft.Extensions.Options.ConfigurationExtensions.dll", display: "Microsoft.Extensions.Options.ConfigurationExtensions (aspnet80)");
                     }
@@ -8609,7 +8610,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsOptionsDataAnnotations == null)
+                    if (_MicrosoftExtensionsOptionsDataAnnotations is null)
                     {
                         _MicrosoftExtensionsOptionsDataAnnotations = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsOptionsDataAnnotations).GetReference(filePath: "Microsoft.Extensions.Options.DataAnnotations.dll", display: "Microsoft.Extensions.Options.DataAnnotations (aspnet80)");
                     }
@@ -8626,7 +8627,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsOptions == null)
+                    if (_MicrosoftExtensionsOptions is null)
                     {
                         _MicrosoftExtensionsOptions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsOptions).GetReference(filePath: "Microsoft.Extensions.Options.dll", display: "Microsoft.Extensions.Options (aspnet80)");
                     }
@@ -8643,7 +8644,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsPrimitives == null)
+                    if (_MicrosoftExtensionsPrimitives is null)
                     {
                         _MicrosoftExtensionsPrimitives = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsPrimitives).GetReference(filePath: "Microsoft.Extensions.Primitives.dll", display: "Microsoft.Extensions.Primitives (aspnet80)");
                     }
@@ -8660,7 +8661,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftExtensionsWebEncoders == null)
+                    if (_MicrosoftExtensionsWebEncoders is null)
                     {
                         _MicrosoftExtensionsWebEncoders = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsWebEncoders).GetReference(filePath: "Microsoft.Extensions.WebEncoders.dll", display: "Microsoft.Extensions.WebEncoders (aspnet80)");
                     }
@@ -8677,7 +8678,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftJSInterop == null)
+                    if (_MicrosoftJSInterop is null)
                     {
                         _MicrosoftJSInterop = AssemblyMetadata.CreateFromImage(Resources.MicrosoftJSInterop).GetReference(filePath: "Microsoft.JSInterop.dll", display: "Microsoft.JSInterop (aspnet80)");
                     }
@@ -8694,7 +8695,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftNetHttpHeaders == null)
+                    if (_MicrosoftNetHttpHeaders is null)
                     {
                         _MicrosoftNetHttpHeaders = AssemblyMetadata.CreateFromImage(Resources.MicrosoftNetHttpHeaders).GetReference(filePath: "Microsoft.Net.Http.Headers.dll", display: "Microsoft.Net.Http.Headers (aspnet80)");
                     }
@@ -8711,7 +8712,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsEventLog == null)
+                    if (_SystemDiagnosticsEventLog is null)
                     {
                         _SystemDiagnosticsEventLog = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsEventLog).GetReference(filePath: "System.Diagnostics.EventLog.dll", display: "System.Diagnostics.EventLog (aspnet80)");
                     }
@@ -8728,7 +8729,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOPipelines == null)
+                    if (_SystemIOPipelines is null)
                     {
                         _SystemIOPipelines = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipelines).GetReference(filePath: "System.IO.Pipelines.dll", display: "System.IO.Pipelines (aspnet80)");
                     }
@@ -8745,7 +8746,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityCryptographyXml == null)
+                    if (_SystemSecurityCryptographyXml is null)
                     {
                         _SystemSecurityCryptographyXml = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyXml).GetReference(filePath: "System.Security.Cryptography.Xml.dll", display: "System.Security.Cryptography.Xml (aspnet80)");
                     }
@@ -8762,7 +8763,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreadingRateLimiting == null)
+                    if (_SystemThreadingRateLimiting is null)
                     {
                         _SystemThreadingRateLimiting = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingRateLimiting).GetReference(filePath: "System.Threading.RateLimiting.dll", display: "System.Threading.RateLimiting (aspnet80)");
                     }
@@ -8770,15 +8771,15 @@ namespace Basic.Reference.Assemblies
                 }
             }
 
-            private static PortableExecutableReference[]? _all;
-            public static IEnumerable<PortableExecutableReference> All
+            private static ImmutableArray<PortableExecutableReference> _all;
+            public static ImmutableArray<PortableExecutableReference> All
             {
                 get
                 {
-                    if (_all == null)
+                    if (_all.IsDefault)
                     {
-                        _all = new PortableExecutableReference[]
-                        {
+                        _all =
+                        [
                             MicrosoftCSharp,
                             MicrosoftVisualBasicCore,
                             MicrosoftVisualBasic,
@@ -9080,7 +9081,7 @@ namespace Basic.Reference.Assemblies
                             SystemIOPipelines,
                             SystemSecurityCryptographyXml,
                             SystemThreadingRateLimiting,
-                        };
+                        ];
                     }
                     return _all;
                 }

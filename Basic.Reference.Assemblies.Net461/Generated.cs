@@ -2,6 +2,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using Microsoft.CodeAnalysis;
 
@@ -11,1104 +12,1104 @@ namespace Basic.Reference.Assemblies
     {
         public static class Resources
         {
-            private static byte[]? _Accessibility;
-
             /// <summary>
             /// The image bytes for Accessibility.dll
             /// </summary>
             public static byte[] Accessibility => ResourceLoader.GetOrCreateResource(ref _Accessibility, "net461.Accessibility");
-            private static byte[]? _CustomMarshalers;
+            private static byte[]? _Accessibility;
 
             /// <summary>
             /// The image bytes for CustomMarshalers.dll
             /// </summary>
             public static byte[] CustomMarshalers => ResourceLoader.GetOrCreateResource(ref _CustomMarshalers, "net461.CustomMarshalers");
-            private static byte[]? _ISymWrapper;
+            private static byte[]? _CustomMarshalers;
 
             /// <summary>
             /// The image bytes for ISymWrapper.dll
             /// </summary>
             public static byte[] ISymWrapper => ResourceLoader.GetOrCreateResource(ref _ISymWrapper, "net461.ISymWrapper");
-            private static byte[]? _MicrosoftActivitiesBuild;
+            private static byte[]? _ISymWrapper;
 
             /// <summary>
             /// The image bytes for Microsoft.Activities.Build.dll
             /// </summary>
             public static byte[] MicrosoftActivitiesBuild => ResourceLoader.GetOrCreateResource(ref _MicrosoftActivitiesBuild, "net461.Microsoft.Activities.Build");
-            private static byte[]? _MicrosoftBuildConversionv40;
+            private static byte[]? _MicrosoftActivitiesBuild;
 
             /// <summary>
             /// The image bytes for Microsoft.Build.Conversion.v4.0.dll
             /// </summary>
             public static byte[] MicrosoftBuildConversionv40 => ResourceLoader.GetOrCreateResource(ref _MicrosoftBuildConversionv40, "net461.Microsoft.Build.Conversion.v4.0");
-            private static byte[]? _MicrosoftBuild;
+            private static byte[]? _MicrosoftBuildConversionv40;
 
             /// <summary>
             /// The image bytes for Microsoft.Build.dll
             /// </summary>
             public static byte[] MicrosoftBuild => ResourceLoader.GetOrCreateResource(ref _MicrosoftBuild, "net461.Microsoft.Build");
-            private static byte[]? _MicrosoftBuildEngine;
+            private static byte[]? _MicrosoftBuild;
 
             /// <summary>
             /// The image bytes for Microsoft.Build.Engine.dll
             /// </summary>
             public static byte[] MicrosoftBuildEngine => ResourceLoader.GetOrCreateResource(ref _MicrosoftBuildEngine, "net461.Microsoft.Build.Engine");
-            private static byte[]? _MicrosoftBuildFramework;
+            private static byte[]? _MicrosoftBuildEngine;
 
             /// <summary>
             /// The image bytes for Microsoft.Build.Framework.dll
             /// </summary>
             public static byte[] MicrosoftBuildFramework => ResourceLoader.GetOrCreateResource(ref _MicrosoftBuildFramework, "net461.Microsoft.Build.Framework");
-            private static byte[]? _MicrosoftBuildTasksv40;
+            private static byte[]? _MicrosoftBuildFramework;
 
             /// <summary>
             /// The image bytes for Microsoft.Build.Tasks.v4.0.dll
             /// </summary>
             public static byte[] MicrosoftBuildTasksv40 => ResourceLoader.GetOrCreateResource(ref _MicrosoftBuildTasksv40, "net461.Microsoft.Build.Tasks.v4.0");
-            private static byte[]? _MicrosoftBuildUtilitiesv40;
+            private static byte[]? _MicrosoftBuildTasksv40;
 
             /// <summary>
             /// The image bytes for Microsoft.Build.Utilities.v4.0.dll
             /// </summary>
             public static byte[] MicrosoftBuildUtilitiesv40 => ResourceLoader.GetOrCreateResource(ref _MicrosoftBuildUtilitiesv40, "net461.Microsoft.Build.Utilities.v4.0");
-            private static byte[]? _MicrosoftCSharp;
+            private static byte[]? _MicrosoftBuildUtilitiesv40;
 
             /// <summary>
             /// The image bytes for Microsoft.CSharp.dll
             /// </summary>
             public static byte[] MicrosoftCSharp => ResourceLoader.GetOrCreateResource(ref _MicrosoftCSharp, "net461.Microsoft.CSharp");
-            private static byte[]? _MicrosoftJScript;
+            private static byte[]? _MicrosoftCSharp;
 
             /// <summary>
             /// The image bytes for Microsoft.JScript.dll
             /// </summary>
             public static byte[] MicrosoftJScript => ResourceLoader.GetOrCreateResource(ref _MicrosoftJScript, "net461.Microsoft.JScript");
-            private static byte[]? _MicrosoftVisualBasicCompatibilityData;
+            private static byte[]? _MicrosoftJScript;
 
             /// <summary>
             /// The image bytes for Microsoft.VisualBasic.Compatibility.Data.dll
             /// </summary>
             public static byte[] MicrosoftVisualBasicCompatibilityData => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicCompatibilityData, "net461.Microsoft.VisualBasic.Compatibility.Data");
-            private static byte[]? _MicrosoftVisualBasicCompatibility;
+            private static byte[]? _MicrosoftVisualBasicCompatibilityData;
 
             /// <summary>
             /// The image bytes for Microsoft.VisualBasic.Compatibility.dll
             /// </summary>
             public static byte[] MicrosoftVisualBasicCompatibility => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicCompatibility, "net461.Microsoft.VisualBasic.Compatibility");
-            private static byte[]? _MicrosoftVisualBasic;
+            private static byte[]? _MicrosoftVisualBasicCompatibility;
 
             /// <summary>
             /// The image bytes for Microsoft.VisualBasic.dll
             /// </summary>
             public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "net461.Microsoft.VisualBasic");
-            private static byte[]? _MicrosoftVisualC;
+            private static byte[]? _MicrosoftVisualBasic;
 
             /// <summary>
             /// The image bytes for Microsoft.VisualC.dll
             /// </summary>
             public static byte[] MicrosoftVisualC => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualC, "net461.Microsoft.VisualC");
-            private static byte[]? _MicrosoftVisualCSTLCLR;
+            private static byte[]? _MicrosoftVisualC;
 
             /// <summary>
             /// The image bytes for Microsoft.VisualC.STLCLR.dll
             /// </summary>
             public static byte[] MicrosoftVisualCSTLCLR => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualCSTLCLR, "net461.Microsoft.VisualC.STLCLR");
-            private static byte[]? _mscorlib;
+            private static byte[]? _MicrosoftVisualCSTLCLR;
 
             /// <summary>
             /// The image bytes for mscorlib.dll
             /// </summary>
             public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "net461.mscorlib");
-            private static byte[]? _PresentationBuildTasks;
+            private static byte[]? _mscorlib;
 
             /// <summary>
             /// The image bytes for PresentationBuildTasks.dll
             /// </summary>
             public static byte[] PresentationBuildTasks => ResourceLoader.GetOrCreateResource(ref _PresentationBuildTasks, "net461.PresentationBuildTasks");
-            private static byte[]? _PresentationCore;
+            private static byte[]? _PresentationBuildTasks;
 
             /// <summary>
             /// The image bytes for PresentationCore.dll
             /// </summary>
             public static byte[] PresentationCore => ResourceLoader.GetOrCreateResource(ref _PresentationCore, "net461.PresentationCore");
-            private static byte[]? _PresentationFrameworkAero;
+            private static byte[]? _PresentationCore;
 
             /// <summary>
             /// The image bytes for PresentationFramework.Aero.dll
             /// </summary>
             public static byte[] PresentationFrameworkAero => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkAero, "net461.PresentationFramework.Aero");
-            private static byte[]? _PresentationFrameworkAero2;
+            private static byte[]? _PresentationFrameworkAero;
 
             /// <summary>
             /// The image bytes for PresentationFramework.Aero2.dll
             /// </summary>
             public static byte[] PresentationFrameworkAero2 => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkAero2, "net461.PresentationFramework.Aero2");
-            private static byte[]? _PresentationFrameworkAeroLite;
+            private static byte[]? _PresentationFrameworkAero2;
 
             /// <summary>
             /// The image bytes for PresentationFramework.AeroLite.dll
             /// </summary>
             public static byte[] PresentationFrameworkAeroLite => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkAeroLite, "net461.PresentationFramework.AeroLite");
-            private static byte[]? _PresentationFrameworkClassic;
+            private static byte[]? _PresentationFrameworkAeroLite;
 
             /// <summary>
             /// The image bytes for PresentationFramework.Classic.dll
             /// </summary>
             public static byte[] PresentationFrameworkClassic => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkClassic, "net461.PresentationFramework.Classic");
-            private static byte[]? _PresentationFramework;
+            private static byte[]? _PresentationFrameworkClassic;
 
             /// <summary>
             /// The image bytes for PresentationFramework.dll
             /// </summary>
             public static byte[] PresentationFramework => ResourceLoader.GetOrCreateResource(ref _PresentationFramework, "net461.PresentationFramework");
-            private static byte[]? _PresentationFrameworkLuna;
+            private static byte[]? _PresentationFramework;
 
             /// <summary>
             /// The image bytes for PresentationFramework.Luna.dll
             /// </summary>
             public static byte[] PresentationFrameworkLuna => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkLuna, "net461.PresentationFramework.Luna");
-            private static byte[]? _PresentationFrameworkRoyale;
+            private static byte[]? _PresentationFrameworkLuna;
 
             /// <summary>
             /// The image bytes for PresentationFramework.Royale.dll
             /// </summary>
             public static byte[] PresentationFrameworkRoyale => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkRoyale, "net461.PresentationFramework.Royale");
-            private static byte[]? _ReachFramework;
+            private static byte[]? _PresentationFrameworkRoyale;
 
             /// <summary>
             /// The image bytes for ReachFramework.dll
             /// </summary>
             public static byte[] ReachFramework => ResourceLoader.GetOrCreateResource(ref _ReachFramework, "net461.ReachFramework");
-            private static byte[]? _sysglobl;
+            private static byte[]? _ReachFramework;
 
             /// <summary>
             /// The image bytes for sysglobl.dll
             /// </summary>
             public static byte[] sysglobl => ResourceLoader.GetOrCreateResource(ref _sysglobl, "net461.sysglobl");
-            private static byte[]? _SystemActivitiesCorePresentation;
+            private static byte[]? _sysglobl;
 
             /// <summary>
             /// The image bytes for System.Activities.Core.Presentation.dll
             /// </summary>
             public static byte[] SystemActivitiesCorePresentation => ResourceLoader.GetOrCreateResource(ref _SystemActivitiesCorePresentation, "net461.System.Activities.Core.Presentation");
-            private static byte[]? _SystemActivities;
+            private static byte[]? _SystemActivitiesCorePresentation;
 
             /// <summary>
             /// The image bytes for System.Activities.dll
             /// </summary>
             public static byte[] SystemActivities => ResourceLoader.GetOrCreateResource(ref _SystemActivities, "net461.System.Activities");
-            private static byte[]? _SystemActivitiesDurableInstancing;
+            private static byte[]? _SystemActivities;
 
             /// <summary>
             /// The image bytes for System.Activities.DurableInstancing.dll
             /// </summary>
             public static byte[] SystemActivitiesDurableInstancing => ResourceLoader.GetOrCreateResource(ref _SystemActivitiesDurableInstancing, "net461.System.Activities.DurableInstancing");
-            private static byte[]? _SystemActivitiesPresentation;
+            private static byte[]? _SystemActivitiesDurableInstancing;
 
             /// <summary>
             /// The image bytes for System.Activities.Presentation.dll
             /// </summary>
             public static byte[] SystemActivitiesPresentation => ResourceLoader.GetOrCreateResource(ref _SystemActivitiesPresentation, "net461.System.Activities.Presentation");
-            private static byte[]? _SystemAddInContract;
+            private static byte[]? _SystemActivitiesPresentation;
 
             /// <summary>
             /// The image bytes for System.AddIn.Contract.dll
             /// </summary>
             public static byte[] SystemAddInContract => ResourceLoader.GetOrCreateResource(ref _SystemAddInContract, "net461.System.AddIn.Contract");
-            private static byte[]? _SystemAddIn;
+            private static byte[]? _SystemAddInContract;
 
             /// <summary>
             /// The image bytes for System.AddIn.dll
             /// </summary>
             public static byte[] SystemAddIn => ResourceLoader.GetOrCreateResource(ref _SystemAddIn, "net461.System.AddIn");
-            private static byte[]? _SystemComponentModelComposition;
+            private static byte[]? _SystemAddIn;
 
             /// <summary>
             /// The image bytes for System.ComponentModel.Composition.dll
             /// </summary>
             public static byte[] SystemComponentModelComposition => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelComposition, "net461.System.ComponentModel.Composition");
-            private static byte[]? _SystemComponentModelCompositionRegistration;
+            private static byte[]? _SystemComponentModelComposition;
 
             /// <summary>
             /// The image bytes for System.ComponentModel.Composition.Registration.dll
             /// </summary>
             public static byte[] SystemComponentModelCompositionRegistration => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelCompositionRegistration, "net461.System.ComponentModel.Composition.Registration");
-            private static byte[]? _SystemComponentModelDataAnnotations;
+            private static byte[]? _SystemComponentModelCompositionRegistration;
 
             /// <summary>
             /// The image bytes for System.ComponentModel.DataAnnotations.dll
             /// </summary>
             public static byte[] SystemComponentModelDataAnnotations => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelDataAnnotations, "net461.System.ComponentModel.DataAnnotations");
-            private static byte[]? _SystemConfiguration;
+            private static byte[]? _SystemComponentModelDataAnnotations;
 
             /// <summary>
             /// The image bytes for System.Configuration.dll
             /// </summary>
             public static byte[] SystemConfiguration => ResourceLoader.GetOrCreateResource(ref _SystemConfiguration, "net461.System.Configuration");
-            private static byte[]? _SystemConfigurationInstall;
+            private static byte[]? _SystemConfiguration;
 
             /// <summary>
             /// The image bytes for System.Configuration.Install.dll
             /// </summary>
             public static byte[] SystemConfigurationInstall => ResourceLoader.GetOrCreateResource(ref _SystemConfigurationInstall, "net461.System.Configuration.Install");
-            private static byte[]? _SystemCore;
+            private static byte[]? _SystemConfigurationInstall;
 
             /// <summary>
             /// The image bytes for System.Core.dll
             /// </summary>
             public static byte[] SystemCore => ResourceLoader.GetOrCreateResource(ref _SystemCore, "net461.System.Core");
-            private static byte[]? _SystemDataDataSetExtensions;
+            private static byte[]? _SystemCore;
 
             /// <summary>
             /// The image bytes for System.Data.DataSetExtensions.dll
             /// </summary>
             public static byte[] SystemDataDataSetExtensions => ResourceLoader.GetOrCreateResource(ref _SystemDataDataSetExtensions, "net461.System.Data.DataSetExtensions");
-            private static byte[]? _SystemData;
+            private static byte[]? _SystemDataDataSetExtensions;
 
             /// <summary>
             /// The image bytes for System.Data.dll
             /// </summary>
             public static byte[] SystemData => ResourceLoader.GetOrCreateResource(ref _SystemData, "net461.System.Data");
-            private static byte[]? _SystemDataEntityDesign;
+            private static byte[]? _SystemData;
 
             /// <summary>
             /// The image bytes for System.Data.Entity.Design.dll
             /// </summary>
             public static byte[] SystemDataEntityDesign => ResourceLoader.GetOrCreateResource(ref _SystemDataEntityDesign, "net461.System.Data.Entity.Design");
-            private static byte[]? _SystemDataEntity;
+            private static byte[]? _SystemDataEntityDesign;
 
             /// <summary>
             /// The image bytes for System.Data.Entity.dll
             /// </summary>
             public static byte[] SystemDataEntity => ResourceLoader.GetOrCreateResource(ref _SystemDataEntity, "net461.System.Data.Entity");
-            private static byte[]? _SystemDataLinq;
+            private static byte[]? _SystemDataEntity;
 
             /// <summary>
             /// The image bytes for System.Data.Linq.dll
             /// </summary>
             public static byte[] SystemDataLinq => ResourceLoader.GetOrCreateResource(ref _SystemDataLinq, "net461.System.Data.Linq");
-            private static byte[]? _SystemDataOracleClient;
+            private static byte[]? _SystemDataLinq;
 
             /// <summary>
             /// The image bytes for System.Data.OracleClient.dll
             /// </summary>
             public static byte[] SystemDataOracleClient => ResourceLoader.GetOrCreateResource(ref _SystemDataOracleClient, "net461.System.Data.OracleClient");
-            private static byte[]? _SystemDataServicesClient;
+            private static byte[]? _SystemDataOracleClient;
 
             /// <summary>
             /// The image bytes for System.Data.Services.Client.dll
             /// </summary>
             public static byte[] SystemDataServicesClient => ResourceLoader.GetOrCreateResource(ref _SystemDataServicesClient, "net461.System.Data.Services.Client");
-            private static byte[]? _SystemDataServicesDesign;
+            private static byte[]? _SystemDataServicesClient;
 
             /// <summary>
             /// The image bytes for System.Data.Services.Design.dll
             /// </summary>
             public static byte[] SystemDataServicesDesign => ResourceLoader.GetOrCreateResource(ref _SystemDataServicesDesign, "net461.System.Data.Services.Design");
-            private static byte[]? _SystemDataServices;
+            private static byte[]? _SystemDataServicesDesign;
 
             /// <summary>
             /// The image bytes for System.Data.Services.dll
             /// </summary>
             public static byte[] SystemDataServices => ResourceLoader.GetOrCreateResource(ref _SystemDataServices, "net461.System.Data.Services");
-            private static byte[]? _SystemDataSqlXml;
+            private static byte[]? _SystemDataServices;
 
             /// <summary>
             /// The image bytes for System.Data.SqlXml.dll
             /// </summary>
             public static byte[] SystemDataSqlXml => ResourceLoader.GetOrCreateResource(ref _SystemDataSqlXml, "net461.System.Data.SqlXml");
-            private static byte[]? _SystemDeployment;
+            private static byte[]? _SystemDataSqlXml;
 
             /// <summary>
             /// The image bytes for System.Deployment.dll
             /// </summary>
             public static byte[] SystemDeployment => ResourceLoader.GetOrCreateResource(ref _SystemDeployment, "net461.System.Deployment");
-            private static byte[]? _SystemDesign;
+            private static byte[]? _SystemDeployment;
 
             /// <summary>
             /// The image bytes for System.Design.dll
             /// </summary>
             public static byte[] SystemDesign => ResourceLoader.GetOrCreateResource(ref _SystemDesign, "net461.System.Design");
-            private static byte[]? _SystemDevice;
+            private static byte[]? _SystemDesign;
 
             /// <summary>
             /// The image bytes for System.Device.dll
             /// </summary>
             public static byte[] SystemDevice => ResourceLoader.GetOrCreateResource(ref _SystemDevice, "net461.System.Device");
-            private static byte[]? _SystemDirectoryServicesAccountManagement;
+            private static byte[]? _SystemDevice;
 
             /// <summary>
             /// The image bytes for System.DirectoryServices.AccountManagement.dll
             /// </summary>
             public static byte[] SystemDirectoryServicesAccountManagement => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServicesAccountManagement, "net461.System.DirectoryServices.AccountManagement");
-            private static byte[]? _SystemDirectoryServices;
+            private static byte[]? _SystemDirectoryServicesAccountManagement;
 
             /// <summary>
             /// The image bytes for System.DirectoryServices.dll
             /// </summary>
             public static byte[] SystemDirectoryServices => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServices, "net461.System.DirectoryServices");
-            private static byte[]? _SystemDirectoryServicesProtocols;
+            private static byte[]? _SystemDirectoryServices;
 
             /// <summary>
             /// The image bytes for System.DirectoryServices.Protocols.dll
             /// </summary>
             public static byte[] SystemDirectoryServicesProtocols => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServicesProtocols, "net461.System.DirectoryServices.Protocols");
-            private static byte[]? _System;
+            private static byte[]? _SystemDirectoryServicesProtocols;
 
             /// <summary>
             /// The image bytes for System.dll
             /// </summary>
             public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "net461.System");
-            private static byte[]? _SystemDrawingDesign;
+            private static byte[]? _System;
 
             /// <summary>
             /// The image bytes for System.Drawing.Design.dll
             /// </summary>
             public static byte[] SystemDrawingDesign => ResourceLoader.GetOrCreateResource(ref _SystemDrawingDesign, "net461.System.Drawing.Design");
-            private static byte[]? _SystemDrawing;
+            private static byte[]? _SystemDrawingDesign;
 
             /// <summary>
             /// The image bytes for System.Drawing.dll
             /// </summary>
             public static byte[] SystemDrawing => ResourceLoader.GetOrCreateResource(ref _SystemDrawing, "net461.System.Drawing");
-            private static byte[]? _SystemDynamic;
+            private static byte[]? _SystemDrawing;
 
             /// <summary>
             /// The image bytes for System.Dynamic.dll
             /// </summary>
             public static byte[] SystemDynamic => ResourceLoader.GetOrCreateResource(ref _SystemDynamic, "net461.System.Dynamic");
-            private static byte[]? _SystemIdentityModel;
+            private static byte[]? _SystemDynamic;
 
             /// <summary>
             /// The image bytes for System.IdentityModel.dll
             /// </summary>
             public static byte[] SystemIdentityModel => ResourceLoader.GetOrCreateResource(ref _SystemIdentityModel, "net461.System.IdentityModel");
-            private static byte[]? _SystemIdentityModelSelectors;
+            private static byte[]? _SystemIdentityModel;
 
             /// <summary>
             /// The image bytes for System.IdentityModel.Selectors.dll
             /// </summary>
             public static byte[] SystemIdentityModelSelectors => ResourceLoader.GetOrCreateResource(ref _SystemIdentityModelSelectors, "net461.System.IdentityModel.Selectors");
-            private static byte[]? _SystemIdentityModelServices;
+            private static byte[]? _SystemIdentityModelSelectors;
 
             /// <summary>
             /// The image bytes for System.IdentityModel.Services.dll
             /// </summary>
             public static byte[] SystemIdentityModelServices => ResourceLoader.GetOrCreateResource(ref _SystemIdentityModelServices, "net461.System.IdentityModel.Services");
-            private static byte[]? _SystemIOCompression;
+            private static byte[]? _SystemIdentityModelServices;
 
             /// <summary>
             /// The image bytes for System.IO.Compression.dll
             /// </summary>
             public static byte[] SystemIOCompression => ResourceLoader.GetOrCreateResource(ref _SystemIOCompression, "net461.System.IO.Compression");
-            private static byte[]? _SystemIOCompressionFileSystem;
+            private static byte[]? _SystemIOCompression;
 
             /// <summary>
             /// The image bytes for System.IO.Compression.FileSystem.dll
             /// </summary>
             public static byte[] SystemIOCompressionFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionFileSystem, "net461.System.IO.Compression.FileSystem");
-            private static byte[]? _SystemIOLog;
+            private static byte[]? _SystemIOCompressionFileSystem;
 
             /// <summary>
             /// The image bytes for System.IO.Log.dll
             /// </summary>
             public static byte[] SystemIOLog => ResourceLoader.GetOrCreateResource(ref _SystemIOLog, "net461.System.IO.Log");
-            private static byte[]? _SystemManagement;
+            private static byte[]? _SystemIOLog;
 
             /// <summary>
             /// The image bytes for System.Management.dll
             /// </summary>
             public static byte[] SystemManagement => ResourceLoader.GetOrCreateResource(ref _SystemManagement, "net461.System.Management");
-            private static byte[]? _SystemManagementInstrumentation;
+            private static byte[]? _SystemManagement;
 
             /// <summary>
             /// The image bytes for System.Management.Instrumentation.dll
             /// </summary>
             public static byte[] SystemManagementInstrumentation => ResourceLoader.GetOrCreateResource(ref _SystemManagementInstrumentation, "net461.System.Management.Instrumentation");
-            private static byte[]? _SystemMessaging;
+            private static byte[]? _SystemManagementInstrumentation;
 
             /// <summary>
             /// The image bytes for System.Messaging.dll
             /// </summary>
             public static byte[] SystemMessaging => ResourceLoader.GetOrCreateResource(ref _SystemMessaging, "net461.System.Messaging");
-            private static byte[]? _SystemNet;
+            private static byte[]? _SystemMessaging;
 
             /// <summary>
             /// The image bytes for System.Net.dll
             /// </summary>
             public static byte[] SystemNet => ResourceLoader.GetOrCreateResource(ref _SystemNet, "net461.System.Net");
-            private static byte[]? _SystemNetHttp;
+            private static byte[]? _SystemNet;
 
             /// <summary>
             /// The image bytes for System.Net.Http.dll
             /// </summary>
             public static byte[] SystemNetHttp => ResourceLoader.GetOrCreateResource(ref _SystemNetHttp, "net461.System.Net.Http");
-            private static byte[]? _SystemNetHttpWebRequest;
+            private static byte[]? _SystemNetHttp;
 
             /// <summary>
             /// The image bytes for System.Net.Http.WebRequest.dll
             /// </summary>
             public static byte[] SystemNetHttpWebRequest => ResourceLoader.GetOrCreateResource(ref _SystemNetHttpWebRequest, "net461.System.Net.Http.WebRequest");
-            private static byte[]? _SystemNumerics;
+            private static byte[]? _SystemNetHttpWebRequest;
 
             /// <summary>
             /// The image bytes for System.Numerics.dll
             /// </summary>
             public static byte[] SystemNumerics => ResourceLoader.GetOrCreateResource(ref _SystemNumerics, "net461.System.Numerics");
-            private static byte[]? _SystemNumericsVectors;
+            private static byte[]? _SystemNumerics;
 
             /// <summary>
             /// The image bytes for System.Numerics.Vectors.dll
             /// </summary>
             public static byte[] SystemNumericsVectors => ResourceLoader.GetOrCreateResource(ref _SystemNumericsVectors, "net461.System.Numerics.Vectors");
-            private static byte[]? _SystemPrinting;
+            private static byte[]? _SystemNumericsVectors;
 
             /// <summary>
             /// The image bytes for System.Printing.dll
             /// </summary>
             public static byte[] SystemPrinting => ResourceLoader.GetOrCreateResource(ref _SystemPrinting, "net461.System.Printing");
-            private static byte[]? _SystemReflectionContext;
+            private static byte[]? _SystemPrinting;
 
             /// <summary>
             /// The image bytes for System.Reflection.Context.dll
             /// </summary>
             public static byte[] SystemReflectionContext => ResourceLoader.GetOrCreateResource(ref _SystemReflectionContext, "net461.System.Reflection.Context");
-            private static byte[]? _SystemRuntimeCaching;
+            private static byte[]? _SystemReflectionContext;
 
             /// <summary>
             /// The image bytes for System.Runtime.Caching.dll
             /// </summary>
             public static byte[] SystemRuntimeCaching => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeCaching, "net461.System.Runtime.Caching");
-            private static byte[]? _SystemRuntimeDurableInstancing;
+            private static byte[]? _SystemRuntimeCaching;
 
             /// <summary>
             /// The image bytes for System.Runtime.DurableInstancing.dll
             /// </summary>
             public static byte[] SystemRuntimeDurableInstancing => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeDurableInstancing, "net461.System.Runtime.DurableInstancing");
-            private static byte[]? _SystemRuntimeRemoting;
+            private static byte[]? _SystemRuntimeDurableInstancing;
 
             /// <summary>
             /// The image bytes for System.Runtime.Remoting.dll
             /// </summary>
             public static byte[] SystemRuntimeRemoting => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeRemoting, "net461.System.Runtime.Remoting");
-            private static byte[]? _SystemRuntimeSerialization;
+            private static byte[]? _SystemRuntimeRemoting;
 
             /// <summary>
             /// The image bytes for System.Runtime.Serialization.dll
             /// </summary>
             public static byte[] SystemRuntimeSerialization => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerialization, "net461.System.Runtime.Serialization");
-            private static byte[]? _SystemRuntimeSerializationFormattersSoap;
+            private static byte[]? _SystemRuntimeSerialization;
 
             /// <summary>
             /// The image bytes for System.Runtime.Serialization.Formatters.Soap.dll
             /// </summary>
             public static byte[] SystemRuntimeSerializationFormattersSoap => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationFormattersSoap, "net461.System.Runtime.Serialization.Formatters.Soap");
-            private static byte[]? _SystemSecurity;
+            private static byte[]? _SystemRuntimeSerializationFormattersSoap;
 
             /// <summary>
             /// The image bytes for System.Security.dll
             /// </summary>
             public static byte[] SystemSecurity => ResourceLoader.GetOrCreateResource(ref _SystemSecurity, "net461.System.Security");
-            private static byte[]? _SystemServiceModelActivation;
+            private static byte[]? _SystemSecurity;
 
             /// <summary>
             /// The image bytes for System.ServiceModel.Activation.dll
             /// </summary>
             public static byte[] SystemServiceModelActivation => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelActivation, "net461.System.ServiceModel.Activation");
-            private static byte[]? _SystemServiceModelActivities;
+            private static byte[]? _SystemServiceModelActivation;
 
             /// <summary>
             /// The image bytes for System.ServiceModel.Activities.dll
             /// </summary>
             public static byte[] SystemServiceModelActivities => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelActivities, "net461.System.ServiceModel.Activities");
-            private static byte[]? _SystemServiceModelChannels;
+            private static byte[]? _SystemServiceModelActivities;
 
             /// <summary>
             /// The image bytes for System.ServiceModel.Channels.dll
             /// </summary>
             public static byte[] SystemServiceModelChannels => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelChannels, "net461.System.ServiceModel.Channels");
-            private static byte[]? _SystemServiceModelDiscovery;
+            private static byte[]? _SystemServiceModelChannels;
 
             /// <summary>
             /// The image bytes for System.ServiceModel.Discovery.dll
             /// </summary>
             public static byte[] SystemServiceModelDiscovery => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelDiscovery, "net461.System.ServiceModel.Discovery");
-            private static byte[]? _SystemServiceModel;
+            private static byte[]? _SystemServiceModelDiscovery;
 
             /// <summary>
             /// The image bytes for System.ServiceModel.dll
             /// </summary>
             public static byte[] SystemServiceModel => ResourceLoader.GetOrCreateResource(ref _SystemServiceModel, "net461.System.ServiceModel");
-            private static byte[]? _SystemServiceModelRouting;
+            private static byte[]? _SystemServiceModel;
 
             /// <summary>
             /// The image bytes for System.ServiceModel.Routing.dll
             /// </summary>
             public static byte[] SystemServiceModelRouting => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelRouting, "net461.System.ServiceModel.Routing");
-            private static byte[]? _SystemServiceModelWeb;
+            private static byte[]? _SystemServiceModelRouting;
 
             /// <summary>
             /// The image bytes for System.ServiceModel.Web.dll
             /// </summary>
             public static byte[] SystemServiceModelWeb => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelWeb, "net461.System.ServiceModel.Web");
-            private static byte[]? _SystemServiceProcess;
+            private static byte[]? _SystemServiceModelWeb;
 
             /// <summary>
             /// The image bytes for System.ServiceProcess.dll
             /// </summary>
             public static byte[] SystemServiceProcess => ResourceLoader.GetOrCreateResource(ref _SystemServiceProcess, "net461.System.ServiceProcess");
-            private static byte[]? _SystemSpeech;
+            private static byte[]? _SystemServiceProcess;
 
             /// <summary>
             /// The image bytes for System.Speech.dll
             /// </summary>
             public static byte[] SystemSpeech => ResourceLoader.GetOrCreateResource(ref _SystemSpeech, "net461.System.Speech");
-            private static byte[]? _SystemTransactions;
+            private static byte[]? _SystemSpeech;
 
             /// <summary>
             /// The image bytes for System.Transactions.dll
             /// </summary>
             public static byte[] SystemTransactions => ResourceLoader.GetOrCreateResource(ref _SystemTransactions, "net461.System.Transactions");
-            private static byte[]? _SystemWebAbstractions;
+            private static byte[]? _SystemTransactions;
 
             /// <summary>
             /// The image bytes for System.Web.Abstractions.dll
             /// </summary>
             public static byte[] SystemWebAbstractions => ResourceLoader.GetOrCreateResource(ref _SystemWebAbstractions, "net461.System.Web.Abstractions");
-            private static byte[]? _SystemWebApplicationServices;
+            private static byte[]? _SystemWebAbstractions;
 
             /// <summary>
             /// The image bytes for System.Web.ApplicationServices.dll
             /// </summary>
             public static byte[] SystemWebApplicationServices => ResourceLoader.GetOrCreateResource(ref _SystemWebApplicationServices, "net461.System.Web.ApplicationServices");
-            private static byte[]? _SystemWebDataVisualizationDesign;
+            private static byte[]? _SystemWebApplicationServices;
 
             /// <summary>
             /// The image bytes for System.Web.DataVisualization.Design.dll
             /// </summary>
             public static byte[] SystemWebDataVisualizationDesign => ResourceLoader.GetOrCreateResource(ref _SystemWebDataVisualizationDesign, "net461.System.Web.DataVisualization.Design");
-            private static byte[]? _SystemWebDataVisualization;
+            private static byte[]? _SystemWebDataVisualizationDesign;
 
             /// <summary>
             /// The image bytes for System.Web.DataVisualization.dll
             /// </summary>
             public static byte[] SystemWebDataVisualization => ResourceLoader.GetOrCreateResource(ref _SystemWebDataVisualization, "net461.System.Web.DataVisualization");
-            private static byte[]? _SystemWeb;
+            private static byte[]? _SystemWebDataVisualization;
 
             /// <summary>
             /// The image bytes for System.Web.dll
             /// </summary>
             public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "net461.System.Web");
-            private static byte[]? _SystemWebDynamicDataDesign;
+            private static byte[]? _SystemWeb;
 
             /// <summary>
             /// The image bytes for System.Web.DynamicData.Design.dll
             /// </summary>
             public static byte[] SystemWebDynamicDataDesign => ResourceLoader.GetOrCreateResource(ref _SystemWebDynamicDataDesign, "net461.System.Web.DynamicData.Design");
-            private static byte[]? _SystemWebDynamicData;
+            private static byte[]? _SystemWebDynamicDataDesign;
 
             /// <summary>
             /// The image bytes for System.Web.DynamicData.dll
             /// </summary>
             public static byte[] SystemWebDynamicData => ResourceLoader.GetOrCreateResource(ref _SystemWebDynamicData, "net461.System.Web.DynamicData");
-            private static byte[]? _SystemWebEntityDesign;
+            private static byte[]? _SystemWebDynamicData;
 
             /// <summary>
             /// The image bytes for System.Web.Entity.Design.dll
             /// </summary>
             public static byte[] SystemWebEntityDesign => ResourceLoader.GetOrCreateResource(ref _SystemWebEntityDesign, "net461.System.Web.Entity.Design");
-            private static byte[]? _SystemWebEntity;
+            private static byte[]? _SystemWebEntityDesign;
 
             /// <summary>
             /// The image bytes for System.Web.Entity.dll
             /// </summary>
             public static byte[] SystemWebEntity => ResourceLoader.GetOrCreateResource(ref _SystemWebEntity, "net461.System.Web.Entity");
-            private static byte[]? _SystemWebExtensionsDesign;
+            private static byte[]? _SystemWebEntity;
 
             /// <summary>
             /// The image bytes for System.Web.Extensions.Design.dll
             /// </summary>
             public static byte[] SystemWebExtensionsDesign => ResourceLoader.GetOrCreateResource(ref _SystemWebExtensionsDesign, "net461.System.Web.Extensions.Design");
-            private static byte[]? _SystemWebExtensions;
+            private static byte[]? _SystemWebExtensionsDesign;
 
             /// <summary>
             /// The image bytes for System.Web.Extensions.dll
             /// </summary>
             public static byte[] SystemWebExtensions => ResourceLoader.GetOrCreateResource(ref _SystemWebExtensions, "net461.System.Web.Extensions");
-            private static byte[]? _SystemWebMobile;
+            private static byte[]? _SystemWebExtensions;
 
             /// <summary>
             /// The image bytes for System.Web.Mobile.dll
             /// </summary>
             public static byte[] SystemWebMobile => ResourceLoader.GetOrCreateResource(ref _SystemWebMobile, "net461.System.Web.Mobile");
-            private static byte[]? _SystemWebRegularExpressions;
+            private static byte[]? _SystemWebMobile;
 
             /// <summary>
             /// The image bytes for System.Web.RegularExpressions.dll
             /// </summary>
             public static byte[] SystemWebRegularExpressions => ResourceLoader.GetOrCreateResource(ref _SystemWebRegularExpressions, "net461.System.Web.RegularExpressions");
-            private static byte[]? _SystemWebRouting;
+            private static byte[]? _SystemWebRegularExpressions;
 
             /// <summary>
             /// The image bytes for System.Web.Routing.dll
             /// </summary>
             public static byte[] SystemWebRouting => ResourceLoader.GetOrCreateResource(ref _SystemWebRouting, "net461.System.Web.Routing");
-            private static byte[]? _SystemWebServices;
+            private static byte[]? _SystemWebRouting;
 
             /// <summary>
             /// The image bytes for System.Web.Services.dll
             /// </summary>
             public static byte[] SystemWebServices => ResourceLoader.GetOrCreateResource(ref _SystemWebServices, "net461.System.Web.Services");
-            private static byte[]? _SystemWindowsControlsRibbon;
+            private static byte[]? _SystemWebServices;
 
             /// <summary>
             /// The image bytes for System.Windows.Controls.Ribbon.dll
             /// </summary>
             public static byte[] SystemWindowsControlsRibbon => ResourceLoader.GetOrCreateResource(ref _SystemWindowsControlsRibbon, "net461.System.Windows.Controls.Ribbon");
-            private static byte[]? _SystemWindows;
+            private static byte[]? _SystemWindowsControlsRibbon;
 
             /// <summary>
             /// The image bytes for System.Windows.dll
             /// </summary>
             public static byte[] SystemWindows => ResourceLoader.GetOrCreateResource(ref _SystemWindows, "net461.System.Windows");
-            private static byte[]? _SystemWindowsFormsDataVisualizationDesign;
+            private static byte[]? _SystemWindows;
 
             /// <summary>
             /// The image bytes for System.Windows.Forms.DataVisualization.Design.dll
             /// </summary>
             public static byte[] SystemWindowsFormsDataVisualizationDesign => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsDataVisualizationDesign, "net461.System.Windows.Forms.DataVisualization.Design");
-            private static byte[]? _SystemWindowsFormsDataVisualization;
+            private static byte[]? _SystemWindowsFormsDataVisualizationDesign;
 
             /// <summary>
             /// The image bytes for System.Windows.Forms.DataVisualization.dll
             /// </summary>
             public static byte[] SystemWindowsFormsDataVisualization => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsDataVisualization, "net461.System.Windows.Forms.DataVisualization");
-            private static byte[]? _SystemWindowsForms;
+            private static byte[]? _SystemWindowsFormsDataVisualization;
 
             /// <summary>
             /// The image bytes for System.Windows.Forms.dll
             /// </summary>
             public static byte[] SystemWindowsForms => ResourceLoader.GetOrCreateResource(ref _SystemWindowsForms, "net461.System.Windows.Forms");
-            private static byte[]? _SystemWindowsInputManipulations;
+            private static byte[]? _SystemWindowsForms;
 
             /// <summary>
             /// The image bytes for System.Windows.Input.Manipulations.dll
             /// </summary>
             public static byte[] SystemWindowsInputManipulations => ResourceLoader.GetOrCreateResource(ref _SystemWindowsInputManipulations, "net461.System.Windows.Input.Manipulations");
-            private static byte[]? _SystemWindowsPresentation;
+            private static byte[]? _SystemWindowsInputManipulations;
 
             /// <summary>
             /// The image bytes for System.Windows.Presentation.dll
             /// </summary>
             public static byte[] SystemWindowsPresentation => ResourceLoader.GetOrCreateResource(ref _SystemWindowsPresentation, "net461.System.Windows.Presentation");
-            private static byte[]? _SystemWorkflowActivities;
+            private static byte[]? _SystemWindowsPresentation;
 
             /// <summary>
             /// The image bytes for System.Workflow.Activities.dll
             /// </summary>
             public static byte[] SystemWorkflowActivities => ResourceLoader.GetOrCreateResource(ref _SystemWorkflowActivities, "net461.System.Workflow.Activities");
-            private static byte[]? _SystemWorkflowComponentModel;
+            private static byte[]? _SystemWorkflowActivities;
 
             /// <summary>
             /// The image bytes for System.Workflow.ComponentModel.dll
             /// </summary>
             public static byte[] SystemWorkflowComponentModel => ResourceLoader.GetOrCreateResource(ref _SystemWorkflowComponentModel, "net461.System.Workflow.ComponentModel");
-            private static byte[]? _SystemWorkflowRuntime;
+            private static byte[]? _SystemWorkflowComponentModel;
 
             /// <summary>
             /// The image bytes for System.Workflow.Runtime.dll
             /// </summary>
             public static byte[] SystemWorkflowRuntime => ResourceLoader.GetOrCreateResource(ref _SystemWorkflowRuntime, "net461.System.Workflow.Runtime");
-            private static byte[]? _SystemWorkflowServices;
+            private static byte[]? _SystemWorkflowRuntime;
 
             /// <summary>
             /// The image bytes for System.WorkflowServices.dll
             /// </summary>
             public static byte[] SystemWorkflowServices => ResourceLoader.GetOrCreateResource(ref _SystemWorkflowServices, "net461.System.WorkflowServices");
-            private static byte[]? _SystemXaml;
+            private static byte[]? _SystemWorkflowServices;
 
             /// <summary>
             /// The image bytes for System.Xaml.dll
             /// </summary>
             public static byte[] SystemXaml => ResourceLoader.GetOrCreateResource(ref _SystemXaml, "net461.System.Xaml");
-            private static byte[]? _SystemXml;
+            private static byte[]? _SystemXaml;
 
             /// <summary>
             /// The image bytes for System.Xml.dll
             /// </summary>
             public static byte[] SystemXml => ResourceLoader.GetOrCreateResource(ref _SystemXml, "net461.System.Xml");
-            private static byte[]? _SystemXmlLinq;
+            private static byte[]? _SystemXml;
 
             /// <summary>
             /// The image bytes for System.Xml.Linq.dll
             /// </summary>
             public static byte[] SystemXmlLinq => ResourceLoader.GetOrCreateResource(ref _SystemXmlLinq, "net461.System.Xml.Linq");
-            private static byte[]? _SystemXmlSerialization;
+            private static byte[]? _SystemXmlLinq;
 
             /// <summary>
             /// The image bytes for System.Xml.Serialization.dll
             /// </summary>
             public static byte[] SystemXmlSerialization => ResourceLoader.GetOrCreateResource(ref _SystemXmlSerialization, "net461.System.Xml.Serialization");
-            private static byte[]? _UIAutomationClient;
+            private static byte[]? _SystemXmlSerialization;
 
             /// <summary>
             /// The image bytes for UIAutomationClient.dll
             /// </summary>
             public static byte[] UIAutomationClient => ResourceLoader.GetOrCreateResource(ref _UIAutomationClient, "net461.UIAutomationClient");
-            private static byte[]? _UIAutomationClientsideProviders;
+            private static byte[]? _UIAutomationClient;
 
             /// <summary>
             /// The image bytes for UIAutomationClientsideProviders.dll
             /// </summary>
             public static byte[] UIAutomationClientsideProviders => ResourceLoader.GetOrCreateResource(ref _UIAutomationClientsideProviders, "net461.UIAutomationClientsideProviders");
-            private static byte[]? _UIAutomationProvider;
+            private static byte[]? _UIAutomationClientsideProviders;
 
             /// <summary>
             /// The image bytes for UIAutomationProvider.dll
             /// </summary>
             public static byte[] UIAutomationProvider => ResourceLoader.GetOrCreateResource(ref _UIAutomationProvider, "net461.UIAutomationProvider");
-            private static byte[]? _UIAutomationTypes;
+            private static byte[]? _UIAutomationProvider;
 
             /// <summary>
             /// The image bytes for UIAutomationTypes.dll
             /// </summary>
             public static byte[] UIAutomationTypes => ResourceLoader.GetOrCreateResource(ref _UIAutomationTypes, "net461.UIAutomationTypes");
-            private static byte[]? _WindowsBase;
+            private static byte[]? _UIAutomationTypes;
 
             /// <summary>
             /// The image bytes for WindowsBase.dll
             /// </summary>
             public static byte[] WindowsBase => ResourceLoader.GetOrCreateResource(ref _WindowsBase, "net461.WindowsBase");
-            private static byte[]? _WindowsFormsIntegration;
+            private static byte[]? _WindowsBase;
 
             /// <summary>
             /// The image bytes for WindowsFormsIntegration.dll
             /// </summary>
             public static byte[] WindowsFormsIntegration => ResourceLoader.GetOrCreateResource(ref _WindowsFormsIntegration, "net461.WindowsFormsIntegration");
-            private static byte[]? _XamlBuildTask;
+            private static byte[]? _WindowsFormsIntegration;
 
             /// <summary>
             /// The image bytes for XamlBuildTask.dll
             /// </summary>
             public static byte[] XamlBuildTask => ResourceLoader.GetOrCreateResource(ref _XamlBuildTask, "net461.XamlBuildTask");
-            private static byte[]? _SystemCollectionsConcurrent;
+            private static byte[]? _XamlBuildTask;
 
             /// <summary>
             /// The image bytes for System.Collections.Concurrent.dll
             /// </summary>
             public static byte[] SystemCollectionsConcurrent => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsConcurrent, "net461.System.Collections.Concurrent");
-            private static byte[]? _SystemCollections;
+            private static byte[]? _SystemCollectionsConcurrent;
 
             /// <summary>
             /// The image bytes for System.Collections.dll
             /// </summary>
             public static byte[] SystemCollections => ResourceLoader.GetOrCreateResource(ref _SystemCollections, "net461.System.Collections");
-            private static byte[]? _SystemComponentModelAnnotations;
+            private static byte[]? _SystemCollections;
 
             /// <summary>
             /// The image bytes for System.ComponentModel.Annotations.dll
             /// </summary>
             public static byte[] SystemComponentModelAnnotations => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelAnnotations, "net461.System.ComponentModel.Annotations");
-            private static byte[]? _SystemComponentModel;
+            private static byte[]? _SystemComponentModelAnnotations;
 
             /// <summary>
             /// The image bytes for System.ComponentModel.dll
             /// </summary>
             public static byte[] SystemComponentModel => ResourceLoader.GetOrCreateResource(ref _SystemComponentModel, "net461.System.ComponentModel");
-            private static byte[]? _SystemComponentModelEventBasedAsync;
+            private static byte[]? _SystemComponentModel;
 
             /// <summary>
             /// The image bytes for System.ComponentModel.EventBasedAsync.dll
             /// </summary>
             public static byte[] SystemComponentModelEventBasedAsync => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelEventBasedAsync, "net461.System.ComponentModel.EventBasedAsync");
-            private static byte[]? _SystemDiagnosticsContracts;
+            private static byte[]? _SystemComponentModelEventBasedAsync;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.Contracts.dll
             /// </summary>
             public static byte[] SystemDiagnosticsContracts => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsContracts, "net461.System.Diagnostics.Contracts");
-            private static byte[]? _SystemDiagnosticsDebug;
+            private static byte[]? _SystemDiagnosticsContracts;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.Debug.dll
             /// </summary>
             public static byte[] SystemDiagnosticsDebug => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsDebug, "net461.System.Diagnostics.Debug");
-            private static byte[]? _SystemDiagnosticsTools;
+            private static byte[]? _SystemDiagnosticsDebug;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.Tools.dll
             /// </summary>
             public static byte[] SystemDiagnosticsTools => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTools, "net461.System.Diagnostics.Tools");
-            private static byte[]? _SystemDiagnosticsTracing;
+            private static byte[]? _SystemDiagnosticsTools;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.Tracing.dll
             /// </summary>
             public static byte[] SystemDiagnosticsTracing => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTracing, "net461.System.Diagnostics.Tracing");
-            private static byte[]? _SystemDynamicRuntime;
+            private static byte[]? _SystemDiagnosticsTracing;
 
             /// <summary>
             /// The image bytes for System.Dynamic.Runtime.dll
             /// </summary>
             public static byte[] SystemDynamicRuntime => ResourceLoader.GetOrCreateResource(ref _SystemDynamicRuntime, "net461.System.Dynamic.Runtime");
-            private static byte[]? _SystemGlobalization;
+            private static byte[]? _SystemDynamicRuntime;
 
             /// <summary>
             /// The image bytes for System.Globalization.dll
             /// </summary>
             public static byte[] SystemGlobalization => ResourceLoader.GetOrCreateResource(ref _SystemGlobalization, "net461.System.Globalization");
-            private static byte[]? _SystemIO;
+            private static byte[]? _SystemGlobalization;
 
             /// <summary>
             /// The image bytes for System.IO.dll
             /// </summary>
             public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "net461.System.IO");
-            private static byte[]? _SystemLinq;
+            private static byte[]? _SystemIO;
 
             /// <summary>
             /// The image bytes for System.Linq.dll
             /// </summary>
             public static byte[] SystemLinq => ResourceLoader.GetOrCreateResource(ref _SystemLinq, "net461.System.Linq");
-            private static byte[]? _SystemLinqExpressions;
+            private static byte[]? _SystemLinq;
 
             /// <summary>
             /// The image bytes for System.Linq.Expressions.dll
             /// </summary>
             public static byte[] SystemLinqExpressions => ResourceLoader.GetOrCreateResource(ref _SystemLinqExpressions, "net461.System.Linq.Expressions");
-            private static byte[]? _SystemLinqParallel;
+            private static byte[]? _SystemLinqExpressions;
 
             /// <summary>
             /// The image bytes for System.Linq.Parallel.dll
             /// </summary>
             public static byte[] SystemLinqParallel => ResourceLoader.GetOrCreateResource(ref _SystemLinqParallel, "net461.System.Linq.Parallel");
-            private static byte[]? _SystemLinqQueryable;
+            private static byte[]? _SystemLinqParallel;
 
             /// <summary>
             /// The image bytes for System.Linq.Queryable.dll
             /// </summary>
             public static byte[] SystemLinqQueryable => ResourceLoader.GetOrCreateResource(ref _SystemLinqQueryable, "net461.System.Linq.Queryable");
-            private static byte[]? _SystemNetNetworkInformation;
+            private static byte[]? _SystemLinqQueryable;
 
             /// <summary>
             /// The image bytes for System.Net.NetworkInformation.dll
             /// </summary>
             public static byte[] SystemNetNetworkInformation => ResourceLoader.GetOrCreateResource(ref _SystemNetNetworkInformation, "net461.System.Net.NetworkInformation");
-            private static byte[]? _SystemNetPrimitives;
+            private static byte[]? _SystemNetNetworkInformation;
 
             /// <summary>
             /// The image bytes for System.Net.Primitives.dll
             /// </summary>
             public static byte[] SystemNetPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemNetPrimitives, "net461.System.Net.Primitives");
-            private static byte[]? _SystemNetRequests;
+            private static byte[]? _SystemNetPrimitives;
 
             /// <summary>
             /// The image bytes for System.Net.Requests.dll
             /// </summary>
             public static byte[] SystemNetRequests => ResourceLoader.GetOrCreateResource(ref _SystemNetRequests, "net461.System.Net.Requests");
-            private static byte[]? _SystemNetWebHeaderCollection;
+            private static byte[]? _SystemNetRequests;
 
             /// <summary>
             /// The image bytes for System.Net.WebHeaderCollection.dll
             /// </summary>
             public static byte[] SystemNetWebHeaderCollection => ResourceLoader.GetOrCreateResource(ref _SystemNetWebHeaderCollection, "net461.System.Net.WebHeaderCollection");
-            private static byte[]? _SystemObjectModel;
+            private static byte[]? _SystemNetWebHeaderCollection;
 
             /// <summary>
             /// The image bytes for System.ObjectModel.dll
             /// </summary>
             public static byte[] SystemObjectModel => ResourceLoader.GetOrCreateResource(ref _SystemObjectModel, "net461.System.ObjectModel");
-            private static byte[]? _SystemReflection;
+            private static byte[]? _SystemObjectModel;
 
             /// <summary>
             /// The image bytes for System.Reflection.dll
             /// </summary>
             public static byte[] SystemReflection => ResourceLoader.GetOrCreateResource(ref _SystemReflection, "net461.System.Reflection");
-            private static byte[]? _SystemReflectionEmit;
+            private static byte[]? _SystemReflection;
 
             /// <summary>
             /// The image bytes for System.Reflection.Emit.dll
             /// </summary>
             public static byte[] SystemReflectionEmit => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmit, "net461.System.Reflection.Emit");
-            private static byte[]? _SystemReflectionEmitILGeneration;
+            private static byte[]? _SystemReflectionEmit;
 
             /// <summary>
             /// The image bytes for System.Reflection.Emit.ILGeneration.dll
             /// </summary>
             public static byte[] SystemReflectionEmitILGeneration => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmitILGeneration, "net461.System.Reflection.Emit.ILGeneration");
-            private static byte[]? _SystemReflectionEmitLightweight;
+            private static byte[]? _SystemReflectionEmitILGeneration;
 
             /// <summary>
             /// The image bytes for System.Reflection.Emit.Lightweight.dll
             /// </summary>
             public static byte[] SystemReflectionEmitLightweight => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmitLightweight, "net461.System.Reflection.Emit.Lightweight");
-            private static byte[]? _SystemReflectionExtensions;
+            private static byte[]? _SystemReflectionEmitLightweight;
 
             /// <summary>
             /// The image bytes for System.Reflection.Extensions.dll
             /// </summary>
             public static byte[] SystemReflectionExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionExtensions, "net461.System.Reflection.Extensions");
-            private static byte[]? _SystemReflectionPrimitives;
+            private static byte[]? _SystemReflectionExtensions;
 
             /// <summary>
             /// The image bytes for System.Reflection.Primitives.dll
             /// </summary>
             public static byte[] SystemReflectionPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemReflectionPrimitives, "net461.System.Reflection.Primitives");
-            private static byte[]? _SystemResourcesResourceManager;
+            private static byte[]? _SystemReflectionPrimitives;
 
             /// <summary>
             /// The image bytes for System.Resources.ResourceManager.dll
             /// </summary>
             public static byte[] SystemResourcesResourceManager => ResourceLoader.GetOrCreateResource(ref _SystemResourcesResourceManager, "net461.System.Resources.ResourceManager");
-            private static byte[]? _SystemRuntime;
+            private static byte[]? _SystemResourcesResourceManager;
 
             /// <summary>
             /// The image bytes for System.Runtime.dll
             /// </summary>
             public static byte[] SystemRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntime, "net461.System.Runtime");
-            private static byte[]? _SystemRuntimeExtensions;
+            private static byte[]? _SystemRuntime;
 
             /// <summary>
             /// The image bytes for System.Runtime.Extensions.dll
             /// </summary>
             public static byte[] SystemRuntimeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeExtensions, "net461.System.Runtime.Extensions");
-            private static byte[]? _SystemRuntimeHandles;
+            private static byte[]? _SystemRuntimeExtensions;
 
             /// <summary>
             /// The image bytes for System.Runtime.Handles.dll
             /// </summary>
             public static byte[] SystemRuntimeHandles => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeHandles, "net461.System.Runtime.Handles");
-            private static byte[]? _SystemRuntimeInteropServices;
+            private static byte[]? _SystemRuntimeHandles;
 
             /// <summary>
             /// The image bytes for System.Runtime.InteropServices.dll
             /// </summary>
             public static byte[] SystemRuntimeInteropServices => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServices, "net461.System.Runtime.InteropServices");
-            private static byte[]? _SystemRuntimeInteropServicesWindowsRuntime;
+            private static byte[]? _SystemRuntimeInteropServices;
 
             /// <summary>
             /// The image bytes for System.Runtime.InteropServices.WindowsRuntime.dll
             /// </summary>
             public static byte[] SystemRuntimeInteropServicesWindowsRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesWindowsRuntime, "net461.System.Runtime.InteropServices.WindowsRuntime");
-            private static byte[]? _SystemRuntimeNumerics;
+            private static byte[]? _SystemRuntimeInteropServicesWindowsRuntime;
 
             /// <summary>
             /// The image bytes for System.Runtime.Numerics.dll
             /// </summary>
             public static byte[] SystemRuntimeNumerics => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeNumerics, "net461.System.Runtime.Numerics");
-            private static byte[]? _SystemRuntimeSerializationJson;
+            private static byte[]? _SystemRuntimeNumerics;
 
             /// <summary>
             /// The image bytes for System.Runtime.Serialization.Json.dll
             /// </summary>
             public static byte[] SystemRuntimeSerializationJson => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationJson, "net461.System.Runtime.Serialization.Json");
-            private static byte[]? _SystemRuntimeSerializationPrimitives;
+            private static byte[]? _SystemRuntimeSerializationJson;
 
             /// <summary>
             /// The image bytes for System.Runtime.Serialization.Primitives.dll
             /// </summary>
             public static byte[] SystemRuntimeSerializationPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationPrimitives, "net461.System.Runtime.Serialization.Primitives");
-            private static byte[]? _SystemRuntimeSerializationXml;
+            private static byte[]? _SystemRuntimeSerializationPrimitives;
 
             /// <summary>
             /// The image bytes for System.Runtime.Serialization.Xml.dll
             /// </summary>
             public static byte[] SystemRuntimeSerializationXml => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationXml, "net461.System.Runtime.Serialization.Xml");
-            private static byte[]? _SystemSecurityPrincipal;
+            private static byte[]? _SystemRuntimeSerializationXml;
 
             /// <summary>
             /// The image bytes for System.Security.Principal.dll
             /// </summary>
             public static byte[] SystemSecurityPrincipal => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipal, "net461.System.Security.Principal");
-            private static byte[]? _SystemServiceModelDuplex;
+            private static byte[]? _SystemSecurityPrincipal;
 
             /// <summary>
             /// The image bytes for System.ServiceModel.Duplex.dll
             /// </summary>
             public static byte[] SystemServiceModelDuplex => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelDuplex, "net461.System.ServiceModel.Duplex");
-            private static byte[]? _SystemServiceModelHttp;
+            private static byte[]? _SystemServiceModelDuplex;
 
             /// <summary>
             /// The image bytes for System.ServiceModel.Http.dll
             /// </summary>
             public static byte[] SystemServiceModelHttp => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelHttp, "net461.System.ServiceModel.Http");
-            private static byte[]? _SystemServiceModelNetTcp;
+            private static byte[]? _SystemServiceModelHttp;
 
             /// <summary>
             /// The image bytes for System.ServiceModel.NetTcp.dll
             /// </summary>
             public static byte[] SystemServiceModelNetTcp => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelNetTcp, "net461.System.ServiceModel.NetTcp");
-            private static byte[]? _SystemServiceModelPrimitives;
+            private static byte[]? _SystemServiceModelNetTcp;
 
             /// <summary>
             /// The image bytes for System.ServiceModel.Primitives.dll
             /// </summary>
             public static byte[] SystemServiceModelPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelPrimitives, "net461.System.ServiceModel.Primitives");
-            private static byte[]? _SystemServiceModelSecurity;
+            private static byte[]? _SystemServiceModelPrimitives;
 
             /// <summary>
             /// The image bytes for System.ServiceModel.Security.dll
             /// </summary>
             public static byte[] SystemServiceModelSecurity => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelSecurity, "net461.System.ServiceModel.Security");
-            private static byte[]? _SystemTextEncoding;
+            private static byte[]? _SystemServiceModelSecurity;
 
             /// <summary>
             /// The image bytes for System.Text.Encoding.dll
             /// </summary>
             public static byte[] SystemTextEncoding => ResourceLoader.GetOrCreateResource(ref _SystemTextEncoding, "net461.System.Text.Encoding");
-            private static byte[]? _SystemTextEncodingExtensions;
+            private static byte[]? _SystemTextEncoding;
 
             /// <summary>
             /// The image bytes for System.Text.Encoding.Extensions.dll
             /// </summary>
             public static byte[] SystemTextEncodingExtensions => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingExtensions, "net461.System.Text.Encoding.Extensions");
-            private static byte[]? _SystemTextRegularExpressions;
+            private static byte[]? _SystemTextEncodingExtensions;
 
             /// <summary>
             /// The image bytes for System.Text.RegularExpressions.dll
             /// </summary>
             public static byte[] SystemTextRegularExpressions => ResourceLoader.GetOrCreateResource(ref _SystemTextRegularExpressions, "net461.System.Text.RegularExpressions");
-            private static byte[]? _SystemThreading;
+            private static byte[]? _SystemTextRegularExpressions;
 
             /// <summary>
             /// The image bytes for System.Threading.dll
             /// </summary>
             public static byte[] SystemThreading => ResourceLoader.GetOrCreateResource(ref _SystemThreading, "net461.System.Threading");
-            private static byte[]? _SystemThreadingTasks;
+            private static byte[]? _SystemThreading;
 
             /// <summary>
             /// The image bytes for System.Threading.Tasks.dll
             /// </summary>
             public static byte[] SystemThreadingTasks => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasks, "net461.System.Threading.Tasks");
-            private static byte[]? _SystemThreadingTasksParallel;
+            private static byte[]? _SystemThreadingTasks;
 
             /// <summary>
             /// The image bytes for System.Threading.Tasks.Parallel.dll
             /// </summary>
             public static byte[] SystemThreadingTasksParallel => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksParallel, "net461.System.Threading.Tasks.Parallel");
-            private static byte[]? _SystemThreadingTimer;
+            private static byte[]? _SystemThreadingTasksParallel;
 
             /// <summary>
             /// The image bytes for System.Threading.Timer.dll
             /// </summary>
             public static byte[] SystemThreadingTimer => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTimer, "net461.System.Threading.Timer");
-            private static byte[]? _SystemXmlReaderWriter;
+            private static byte[]? _SystemThreadingTimer;
 
             /// <summary>
             /// The image bytes for System.Xml.ReaderWriter.dll
             /// </summary>
             public static byte[] SystemXmlReaderWriter => ResourceLoader.GetOrCreateResource(ref _SystemXmlReaderWriter, "net461.System.Xml.ReaderWriter");
-            private static byte[]? _SystemXmlXDocument;
+            private static byte[]? _SystemXmlReaderWriter;
 
             /// <summary>
             /// The image bytes for System.Xml.XDocument.dll
             /// </summary>
             public static byte[] SystemXmlXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXDocument, "net461.System.Xml.XDocument");
-            private static byte[]? _SystemXmlXmlSerializer;
+            private static byte[]? _SystemXmlXDocument;
 
             /// <summary>
             /// The image bytes for System.Xml.XmlSerializer.dll
             /// </summary>
             public static byte[] SystemXmlXmlSerializer => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlSerializer, "net461.System.Xml.XmlSerializer");
+            private static byte[]? _SystemXmlXmlSerializer;
+
 
         }
     }
@@ -2031,15 +2032,15 @@ namespace Basic.Reference.Assemblies
             /// The <see cref="ReferenceInfo"/> for System.Xml.XmlSerializer.dll
             /// </summary>
             public static ReferenceInfo SystemXmlXmlSerializer => new ReferenceInfo("System.Xml.XmlSerializer.dll", Resources.SystemXmlXmlSerializer, Net461.References.SystemXmlXmlSerializer, global::System.Guid.Parse("fecd65e9-233d-46f8-96be-cd2887bc96ff"));
-            private static ReferenceInfo[]? _all;
-            public static IEnumerable<ReferenceInfo> All
+            private static ImmutableArray<ReferenceInfo> _all;
+            public static ImmutableArray<ReferenceInfo> All
             {
                 get
                 {
-                    if (_all == null)
+                    if (_all.IsDefault)
                     {
-                        _all = new[]
-                        {
+                        _all =
+                        [
                             Accessibility,
                             CustomMarshalers,
                             ISymWrapper,
@@ -2223,7 +2224,7 @@ namespace Basic.Reference.Assemblies
                             SystemXmlReaderWriter,
                             SystemXmlXDocument,
                             SystemXmlXmlSerializer,
-                        };
+                        ];
                     }
                     return _all;
                 }
@@ -2246,7 +2247,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_Accessibility == null)
+                    if (_Accessibility is null)
                     {
                         _Accessibility = AssemblyMetadata.CreateFromImage(Resources.Accessibility).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net461)");
                     }
@@ -2263,7 +2264,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_CustomMarshalers == null)
+                    if (_CustomMarshalers is null)
                     {
                         _CustomMarshalers = AssemblyMetadata.CreateFromImage(Resources.CustomMarshalers).GetReference(filePath: "CustomMarshalers.dll", display: "CustomMarshalers (net461)");
                     }
@@ -2280,7 +2281,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_ISymWrapper == null)
+                    if (_ISymWrapper is null)
                     {
                         _ISymWrapper = AssemblyMetadata.CreateFromImage(Resources.ISymWrapper).GetReference(filePath: "ISymWrapper.dll", display: "ISymWrapper (net461)");
                     }
@@ -2297,7 +2298,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftActivitiesBuild == null)
+                    if (_MicrosoftActivitiesBuild is null)
                     {
                         _MicrosoftActivitiesBuild = AssemblyMetadata.CreateFromImage(Resources.MicrosoftActivitiesBuild).GetReference(filePath: "Microsoft.Activities.Build.dll", display: "Microsoft.Activities.Build (net461)");
                     }
@@ -2314,7 +2315,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftBuildConversionv40 == null)
+                    if (_MicrosoftBuildConversionv40 is null)
                     {
                         _MicrosoftBuildConversionv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildConversionv40).GetReference(filePath: "Microsoft.Build.Conversion.v4.0.dll", display: "Microsoft.Build.Conversion.v4.0 (net461)");
                     }
@@ -2331,7 +2332,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftBuild == null)
+                    if (_MicrosoftBuild is null)
                     {
                         _MicrosoftBuild = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuild).GetReference(filePath: "Microsoft.Build.dll", display: "Microsoft.Build (net461)");
                     }
@@ -2348,7 +2349,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftBuildEngine == null)
+                    if (_MicrosoftBuildEngine is null)
                     {
                         _MicrosoftBuildEngine = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildEngine).GetReference(filePath: "Microsoft.Build.Engine.dll", display: "Microsoft.Build.Engine (net461)");
                     }
@@ -2365,7 +2366,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftBuildFramework == null)
+                    if (_MicrosoftBuildFramework is null)
                     {
                         _MicrosoftBuildFramework = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildFramework).GetReference(filePath: "Microsoft.Build.Framework.dll", display: "Microsoft.Build.Framework (net461)");
                     }
@@ -2382,7 +2383,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftBuildTasksv40 == null)
+                    if (_MicrosoftBuildTasksv40 is null)
                     {
                         _MicrosoftBuildTasksv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildTasksv40).GetReference(filePath: "Microsoft.Build.Tasks.v4.0.dll", display: "Microsoft.Build.Tasks.v4.0 (net461)");
                     }
@@ -2399,7 +2400,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftBuildUtilitiesv40 == null)
+                    if (_MicrosoftBuildUtilitiesv40 is null)
                     {
                         _MicrosoftBuildUtilitiesv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildUtilitiesv40).GetReference(filePath: "Microsoft.Build.Utilities.v4.0.dll", display: "Microsoft.Build.Utilities.v4.0 (net461)");
                     }
@@ -2416,7 +2417,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftCSharp == null)
+                    if (_MicrosoftCSharp is null)
                     {
                         _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(Resources.MicrosoftCSharp).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (net461)");
                     }
@@ -2433,7 +2434,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftJScript == null)
+                    if (_MicrosoftJScript is null)
                     {
                         _MicrosoftJScript = AssemblyMetadata.CreateFromImage(Resources.MicrosoftJScript).GetReference(filePath: "Microsoft.JScript.dll", display: "Microsoft.JScript (net461)");
                     }
@@ -2450,7 +2451,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftVisualBasicCompatibilityData == null)
+                    if (_MicrosoftVisualBasicCompatibilityData is null)
                     {
                         _MicrosoftVisualBasicCompatibilityData = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibilityData).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.Data.dll", display: "Microsoft.VisualBasic.Compatibility.Data (net461)");
                     }
@@ -2467,7 +2468,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftVisualBasicCompatibility == null)
+                    if (_MicrosoftVisualBasicCompatibility is null)
                     {
                         _MicrosoftVisualBasicCompatibility = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibility).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.dll", display: "Microsoft.VisualBasic.Compatibility (net461)");
                     }
@@ -2484,7 +2485,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftVisualBasic == null)
+                    if (_MicrosoftVisualBasic is null)
                     {
                         _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net461)");
                     }
@@ -2501,7 +2502,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftVisualC == null)
+                    if (_MicrosoftVisualC is null)
                     {
                         _MicrosoftVisualC = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualC).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net461)");
                     }
@@ -2518,7 +2519,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftVisualCSTLCLR == null)
+                    if (_MicrosoftVisualCSTLCLR is null)
                     {
                         _MicrosoftVisualCSTLCLR = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualCSTLCLR).GetReference(filePath: "Microsoft.VisualC.STLCLR.dll", display: "Microsoft.VisualC.STLCLR (net461)");
                     }
@@ -2535,7 +2536,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_mscorlib == null)
+                    if (_mscorlib is null)
                     {
                         _mscorlib = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net461)");
                     }
@@ -2552,7 +2553,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationBuildTasks == null)
+                    if (_PresentationBuildTasks is null)
                     {
                         _PresentationBuildTasks = AssemblyMetadata.CreateFromImage(Resources.PresentationBuildTasks).GetReference(filePath: "PresentationBuildTasks.dll", display: "PresentationBuildTasks (net461)");
                     }
@@ -2569,7 +2570,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationCore == null)
+                    if (_PresentationCore is null)
                     {
                         _PresentationCore = AssemblyMetadata.CreateFromImage(Resources.PresentationCore).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net461)");
                     }
@@ -2586,7 +2587,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationFrameworkAero == null)
+                    if (_PresentationFrameworkAero is null)
                     {
                         _PresentationFrameworkAero = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net461)");
                     }
@@ -2603,7 +2604,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationFrameworkAero2 == null)
+                    if (_PresentationFrameworkAero2 is null)
                     {
                         _PresentationFrameworkAero2 = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero2).GetReference(filePath: "PresentationFramework.Aero2.dll", display: "PresentationFramework.Aero2 (net461)");
                     }
@@ -2620,7 +2621,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationFrameworkAeroLite == null)
+                    if (_PresentationFrameworkAeroLite is null)
                     {
                         _PresentationFrameworkAeroLite = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAeroLite).GetReference(filePath: "PresentationFramework.AeroLite.dll", display: "PresentationFramework.AeroLite (net461)");
                     }
@@ -2637,7 +2638,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationFrameworkClassic == null)
+                    if (_PresentationFrameworkClassic is null)
                     {
                         _PresentationFrameworkClassic = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkClassic).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net461)");
                     }
@@ -2654,7 +2655,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationFramework == null)
+                    if (_PresentationFramework is null)
                     {
                         _PresentationFramework = AssemblyMetadata.CreateFromImage(Resources.PresentationFramework).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net461)");
                     }
@@ -2671,7 +2672,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationFrameworkLuna == null)
+                    if (_PresentationFrameworkLuna is null)
                     {
                         _PresentationFrameworkLuna = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkLuna).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net461)");
                     }
@@ -2688,7 +2689,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationFrameworkRoyale == null)
+                    if (_PresentationFrameworkRoyale is null)
                     {
                         _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkRoyale).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net461)");
                     }
@@ -2705,7 +2706,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_ReachFramework == null)
+                    if (_ReachFramework is null)
                     {
                         _ReachFramework = AssemblyMetadata.CreateFromImage(Resources.ReachFramework).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net461)");
                     }
@@ -2722,7 +2723,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_sysglobl == null)
+                    if (_sysglobl is null)
                     {
                         _sysglobl = AssemblyMetadata.CreateFromImage(Resources.sysglobl).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net461)");
                     }
@@ -2739,7 +2740,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemActivitiesCorePresentation == null)
+                    if (_SystemActivitiesCorePresentation is null)
                     {
                         _SystemActivitiesCorePresentation = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesCorePresentation).GetReference(filePath: "System.Activities.Core.Presentation.dll", display: "System.Activities.Core.Presentation (net461)");
                     }
@@ -2756,7 +2757,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemActivities == null)
+                    if (_SystemActivities is null)
                     {
                         _SystemActivities = AssemblyMetadata.CreateFromImage(Resources.SystemActivities).GetReference(filePath: "System.Activities.dll", display: "System.Activities (net461)");
                     }
@@ -2773,7 +2774,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemActivitiesDurableInstancing == null)
+                    if (_SystemActivitiesDurableInstancing is null)
                     {
                         _SystemActivitiesDurableInstancing = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesDurableInstancing).GetReference(filePath: "System.Activities.DurableInstancing.dll", display: "System.Activities.DurableInstancing (net461)");
                     }
@@ -2790,7 +2791,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemActivitiesPresentation == null)
+                    if (_SystemActivitiesPresentation is null)
                     {
                         _SystemActivitiesPresentation = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesPresentation).GetReference(filePath: "System.Activities.Presentation.dll", display: "System.Activities.Presentation (net461)");
                     }
@@ -2807,7 +2808,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemAddInContract == null)
+                    if (_SystemAddInContract is null)
                     {
                         _SystemAddInContract = AssemblyMetadata.CreateFromImage(Resources.SystemAddInContract).GetReference(filePath: "System.AddIn.Contract.dll", display: "System.AddIn.Contract (net461)");
                     }
@@ -2824,7 +2825,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemAddIn == null)
+                    if (_SystemAddIn is null)
                     {
                         _SystemAddIn = AssemblyMetadata.CreateFromImage(Resources.SystemAddIn).GetReference(filePath: "System.AddIn.dll", display: "System.AddIn (net461)");
                     }
@@ -2841,7 +2842,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemComponentModelComposition == null)
+                    if (_SystemComponentModelComposition is null)
                     {
                         _SystemComponentModelComposition = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelComposition).GetReference(filePath: "System.ComponentModel.Composition.dll", display: "System.ComponentModel.Composition (net461)");
                     }
@@ -2858,7 +2859,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemComponentModelCompositionRegistration == null)
+                    if (_SystemComponentModelCompositionRegistration is null)
                     {
                         _SystemComponentModelCompositionRegistration = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelCompositionRegistration).GetReference(filePath: "System.ComponentModel.Composition.Registration.dll", display: "System.ComponentModel.Composition.Registration (net461)");
                     }
@@ -2875,7 +2876,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemComponentModelDataAnnotations == null)
+                    if (_SystemComponentModelDataAnnotations is null)
                     {
                         _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelDataAnnotations).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (net461)");
                     }
@@ -2892,7 +2893,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemConfiguration == null)
+                    if (_SystemConfiguration is null)
                     {
                         _SystemConfiguration = AssemblyMetadata.CreateFromImage(Resources.SystemConfiguration).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net461)");
                     }
@@ -2909,7 +2910,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemConfigurationInstall == null)
+                    if (_SystemConfigurationInstall is null)
                     {
                         _SystemConfigurationInstall = AssemblyMetadata.CreateFromImage(Resources.SystemConfigurationInstall).GetReference(filePath: "System.Configuration.Install.dll", display: "System.Configuration.Install (net461)");
                     }
@@ -2926,7 +2927,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemCore == null)
+                    if (_SystemCore is null)
                     {
                         _SystemCore = AssemblyMetadata.CreateFromImage(Resources.SystemCore).GetReference(filePath: "System.Core.dll", display: "System.Core (net461)");
                     }
@@ -2943,7 +2944,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDataDataSetExtensions == null)
+                    if (_SystemDataDataSetExtensions is null)
                     {
                         _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemDataDataSetExtensions).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net461)");
                     }
@@ -2960,7 +2961,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemData == null)
+                    if (_SystemData is null)
                     {
                         _SystemData = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (net461)");
                     }
@@ -2977,7 +2978,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDataEntityDesign == null)
+                    if (_SystemDataEntityDesign is null)
                     {
                         _SystemDataEntityDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDataEntityDesign).GetReference(filePath: "System.Data.Entity.Design.dll", display: "System.Data.Entity.Design (net461)");
                     }
@@ -2994,7 +2995,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDataEntity == null)
+                    if (_SystemDataEntity is null)
                     {
                         _SystemDataEntity = AssemblyMetadata.CreateFromImage(Resources.SystemDataEntity).GetReference(filePath: "System.Data.Entity.dll", display: "System.Data.Entity (net461)");
                     }
@@ -3011,7 +3012,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDataLinq == null)
+                    if (_SystemDataLinq is null)
                     {
                         _SystemDataLinq = AssemblyMetadata.CreateFromImage(Resources.SystemDataLinq).GetReference(filePath: "System.Data.Linq.dll", display: "System.Data.Linq (net461)");
                     }
@@ -3028,7 +3029,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDataOracleClient == null)
+                    if (_SystemDataOracleClient is null)
                     {
                         _SystemDataOracleClient = AssemblyMetadata.CreateFromImage(Resources.SystemDataOracleClient).GetReference(filePath: "System.Data.OracleClient.dll", display: "System.Data.OracleClient (net461)");
                     }
@@ -3045,7 +3046,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDataServicesClient == null)
+                    if (_SystemDataServicesClient is null)
                     {
                         _SystemDataServicesClient = AssemblyMetadata.CreateFromImage(Resources.SystemDataServicesClient).GetReference(filePath: "System.Data.Services.Client.dll", display: "System.Data.Services.Client (net461)");
                     }
@@ -3062,7 +3063,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDataServicesDesign == null)
+                    if (_SystemDataServicesDesign is null)
                     {
                         _SystemDataServicesDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDataServicesDesign).GetReference(filePath: "System.Data.Services.Design.dll", display: "System.Data.Services.Design (net461)");
                     }
@@ -3079,7 +3080,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDataServices == null)
+                    if (_SystemDataServices is null)
                     {
                         _SystemDataServices = AssemblyMetadata.CreateFromImage(Resources.SystemDataServices).GetReference(filePath: "System.Data.Services.dll", display: "System.Data.Services (net461)");
                     }
@@ -3096,7 +3097,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDataSqlXml == null)
+                    if (_SystemDataSqlXml is null)
                     {
                         _SystemDataSqlXml = AssemblyMetadata.CreateFromImage(Resources.SystemDataSqlXml).GetReference(filePath: "System.Data.SqlXml.dll", display: "System.Data.SqlXml (net461)");
                     }
@@ -3113,7 +3114,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDeployment == null)
+                    if (_SystemDeployment is null)
                     {
                         _SystemDeployment = AssemblyMetadata.CreateFromImage(Resources.SystemDeployment).GetReference(filePath: "System.Deployment.dll", display: "System.Deployment (net461)");
                     }
@@ -3130,7 +3131,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDesign == null)
+                    if (_SystemDesign is null)
                     {
                         _SystemDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDesign).GetReference(filePath: "System.Design.dll", display: "System.Design (net461)");
                     }
@@ -3147,7 +3148,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDevice == null)
+                    if (_SystemDevice is null)
                     {
                         _SystemDevice = AssemblyMetadata.CreateFromImage(Resources.SystemDevice).GetReference(filePath: "System.Device.dll", display: "System.Device (net461)");
                     }
@@ -3164,7 +3165,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDirectoryServicesAccountManagement == null)
+                    if (_SystemDirectoryServicesAccountManagement is null)
                     {
                         _SystemDirectoryServicesAccountManagement = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesAccountManagement).GetReference(filePath: "System.DirectoryServices.AccountManagement.dll", display: "System.DirectoryServices.AccountManagement (net461)");
                     }
@@ -3181,7 +3182,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDirectoryServices == null)
+                    if (_SystemDirectoryServices is null)
                     {
                         _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServices).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net461)");
                     }
@@ -3198,7 +3199,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDirectoryServicesProtocols == null)
+                    if (_SystemDirectoryServicesProtocols is null)
                     {
                         _SystemDirectoryServicesProtocols = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesProtocols).GetReference(filePath: "System.DirectoryServices.Protocols.dll", display: "System.DirectoryServices.Protocols (net461)");
                     }
@@ -3215,7 +3216,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_System == null)
+                    if (_System is null)
                     {
                         _System = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (net461)");
                     }
@@ -3232,7 +3233,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDrawingDesign == null)
+                    if (_SystemDrawingDesign is null)
                     {
                         _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingDesign).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net461)");
                     }
@@ -3249,7 +3250,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDrawing == null)
+                    if (_SystemDrawing is null)
                     {
                         _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net461)");
                     }
@@ -3266,7 +3267,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDynamic == null)
+                    if (_SystemDynamic is null)
                     {
                         _SystemDynamic = AssemblyMetadata.CreateFromImage(Resources.SystemDynamic).GetReference(filePath: "System.Dynamic.dll", display: "System.Dynamic (net461)");
                     }
@@ -3283,7 +3284,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIdentityModel == null)
+                    if (_SystemIdentityModel is null)
                     {
                         _SystemIdentityModel = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModel).GetReference(filePath: "System.IdentityModel.dll", display: "System.IdentityModel (net461)");
                     }
@@ -3300,7 +3301,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIdentityModelSelectors == null)
+                    if (_SystemIdentityModelSelectors is null)
                     {
                         _SystemIdentityModelSelectors = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModelSelectors).GetReference(filePath: "System.IdentityModel.Selectors.dll", display: "System.IdentityModel.Selectors (net461)");
                     }
@@ -3317,7 +3318,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIdentityModelServices == null)
+                    if (_SystemIdentityModelServices is null)
                     {
                         _SystemIdentityModelServices = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModelServices).GetReference(filePath: "System.IdentityModel.Services.dll", display: "System.IdentityModel.Services (net461)");
                     }
@@ -3334,7 +3335,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOCompression == null)
+                    if (_SystemIOCompression is null)
                     {
                         _SystemIOCompression = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (net461)");
                     }
@@ -3351,7 +3352,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOCompressionFileSystem == null)
+                    if (_SystemIOCompressionFileSystem is null)
                     {
                         _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionFileSystem).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (net461)");
                     }
@@ -3368,7 +3369,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOLog == null)
+                    if (_SystemIOLog is null)
                     {
                         _SystemIOLog = AssemblyMetadata.CreateFromImage(Resources.SystemIOLog).GetReference(filePath: "System.IO.Log.dll", display: "System.IO.Log (net461)");
                     }
@@ -3385,7 +3386,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemManagement == null)
+                    if (_SystemManagement is null)
                     {
                         _SystemManagement = AssemblyMetadata.CreateFromImage(Resources.SystemManagement).GetReference(filePath: "System.Management.dll", display: "System.Management (net461)");
                     }
@@ -3402,7 +3403,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemManagementInstrumentation == null)
+                    if (_SystemManagementInstrumentation is null)
                     {
                         _SystemManagementInstrumentation = AssemblyMetadata.CreateFromImage(Resources.SystemManagementInstrumentation).GetReference(filePath: "System.Management.Instrumentation.dll", display: "System.Management.Instrumentation (net461)");
                     }
@@ -3419,7 +3420,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemMessaging == null)
+                    if (_SystemMessaging is null)
                     {
                         _SystemMessaging = AssemblyMetadata.CreateFromImage(Resources.SystemMessaging).GetReference(filePath: "System.Messaging.dll", display: "System.Messaging (net461)");
                     }
@@ -3436,7 +3437,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNet == null)
+                    if (_SystemNet is null)
                     {
                         _SystemNet = AssemblyMetadata.CreateFromImage(Resources.SystemNet).GetReference(filePath: "System.Net.dll", display: "System.Net (net461)");
                     }
@@ -3453,7 +3454,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetHttp == null)
+                    if (_SystemNetHttp is null)
                     {
                         _SystemNetHttp = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (net461)");
                     }
@@ -3470,7 +3471,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetHttpWebRequest == null)
+                    if (_SystemNetHttpWebRequest is null)
                     {
                         _SystemNetHttpWebRequest = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpWebRequest).GetReference(filePath: "System.Net.Http.WebRequest.dll", display: "System.Net.Http.WebRequest (net461)");
                     }
@@ -3487,7 +3488,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNumerics == null)
+                    if (_SystemNumerics is null)
                     {
                         _SystemNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemNumerics).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net461)");
                     }
@@ -3504,7 +3505,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNumericsVectors == null)
+                    if (_SystemNumericsVectors is null)
                     {
                         _SystemNumericsVectors = AssemblyMetadata.CreateFromImage(Resources.SystemNumericsVectors).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (net461)");
                     }
@@ -3521,7 +3522,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemPrinting == null)
+                    if (_SystemPrinting is null)
                     {
                         _SystemPrinting = AssemblyMetadata.CreateFromImage(Resources.SystemPrinting).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net461)");
                     }
@@ -3538,7 +3539,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflectionContext == null)
+                    if (_SystemReflectionContext is null)
                     {
                         _SystemReflectionContext = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionContext).GetReference(filePath: "System.Reflection.Context.dll", display: "System.Reflection.Context (net461)");
                     }
@@ -3555,7 +3556,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeCaching == null)
+                    if (_SystemRuntimeCaching is null)
                     {
                         _SystemRuntimeCaching = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCaching).GetReference(filePath: "System.Runtime.Caching.dll", display: "System.Runtime.Caching (net461)");
                     }
@@ -3572,7 +3573,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeDurableInstancing == null)
+                    if (_SystemRuntimeDurableInstancing is null)
                     {
                         _SystemRuntimeDurableInstancing = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeDurableInstancing).GetReference(filePath: "System.Runtime.DurableInstancing.dll", display: "System.Runtime.DurableInstancing (net461)");
                     }
@@ -3589,7 +3590,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeRemoting == null)
+                    if (_SystemRuntimeRemoting is null)
                     {
                         _SystemRuntimeRemoting = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeRemoting).GetReference(filePath: "System.Runtime.Remoting.dll", display: "System.Runtime.Remoting (net461)");
                     }
@@ -3606,7 +3607,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeSerialization == null)
+                    if (_SystemRuntimeSerialization is null)
                     {
                         _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerialization).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net461)");
                     }
@@ -3623,7 +3624,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeSerializationFormattersSoap == null)
+                    if (_SystemRuntimeSerializationFormattersSoap is null)
                     {
                         _SystemRuntimeSerializationFormattersSoap = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormattersSoap).GetReference(filePath: "System.Runtime.Serialization.Formatters.Soap.dll", display: "System.Runtime.Serialization.Formatters.Soap (net461)");
                     }
@@ -3640,7 +3641,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurity == null)
+                    if (_SystemSecurity is null)
                     {
                         _SystemSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemSecurity).GetReference(filePath: "System.Security.dll", display: "System.Security (net461)");
                     }
@@ -3657,7 +3658,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceModelActivation == null)
+                    if (_SystemServiceModelActivation is null)
                     {
                         _SystemServiceModelActivation = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelActivation).GetReference(filePath: "System.ServiceModel.Activation.dll", display: "System.ServiceModel.Activation (net461)");
                     }
@@ -3674,7 +3675,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceModelActivities == null)
+                    if (_SystemServiceModelActivities is null)
                     {
                         _SystemServiceModelActivities = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelActivities).GetReference(filePath: "System.ServiceModel.Activities.dll", display: "System.ServiceModel.Activities (net461)");
                     }
@@ -3691,7 +3692,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceModelChannels == null)
+                    if (_SystemServiceModelChannels is null)
                     {
                         _SystemServiceModelChannels = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelChannels).GetReference(filePath: "System.ServiceModel.Channels.dll", display: "System.ServiceModel.Channels (net461)");
                     }
@@ -3708,7 +3709,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceModelDiscovery == null)
+                    if (_SystemServiceModelDiscovery is null)
                     {
                         _SystemServiceModelDiscovery = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelDiscovery).GetReference(filePath: "System.ServiceModel.Discovery.dll", display: "System.ServiceModel.Discovery (net461)");
                     }
@@ -3725,7 +3726,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceModel == null)
+                    if (_SystemServiceModel is null)
                     {
                         _SystemServiceModel = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModel).GetReference(filePath: "System.ServiceModel.dll", display: "System.ServiceModel (net461)");
                     }
@@ -3742,7 +3743,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceModelRouting == null)
+                    if (_SystemServiceModelRouting is null)
                     {
                         _SystemServiceModelRouting = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelRouting).GetReference(filePath: "System.ServiceModel.Routing.dll", display: "System.ServiceModel.Routing (net461)");
                     }
@@ -3759,7 +3760,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceModelWeb == null)
+                    if (_SystemServiceModelWeb is null)
                     {
                         _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelWeb).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (net461)");
                     }
@@ -3776,7 +3777,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceProcess == null)
+                    if (_SystemServiceProcess is null)
                     {
                         _SystemServiceProcess = AssemblyMetadata.CreateFromImage(Resources.SystemServiceProcess).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net461)");
                     }
@@ -3793,7 +3794,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSpeech == null)
+                    if (_SystemSpeech is null)
                     {
                         _SystemSpeech = AssemblyMetadata.CreateFromImage(Resources.SystemSpeech).GetReference(filePath: "System.Speech.dll", display: "System.Speech (net461)");
                     }
@@ -3810,7 +3811,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemTransactions == null)
+                    if (_SystemTransactions is null)
                     {
                         _SystemTransactions = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net461)");
                     }
@@ -3827,7 +3828,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebAbstractions == null)
+                    if (_SystemWebAbstractions is null)
                     {
                         _SystemWebAbstractions = AssemblyMetadata.CreateFromImage(Resources.SystemWebAbstractions).GetReference(filePath: "System.Web.Abstractions.dll", display: "System.Web.Abstractions (net461)");
                     }
@@ -3844,7 +3845,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebApplicationServices == null)
+                    if (_SystemWebApplicationServices is null)
                     {
                         _SystemWebApplicationServices = AssemblyMetadata.CreateFromImage(Resources.SystemWebApplicationServices).GetReference(filePath: "System.Web.ApplicationServices.dll", display: "System.Web.ApplicationServices (net461)");
                     }
@@ -3861,7 +3862,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebDataVisualizationDesign == null)
+                    if (_SystemWebDataVisualizationDesign is null)
                     {
                         _SystemWebDataVisualizationDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebDataVisualizationDesign).GetReference(filePath: "System.Web.DataVisualization.Design.dll", display: "System.Web.DataVisualization.Design (net461)");
                     }
@@ -3878,7 +3879,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebDataVisualization == null)
+                    if (_SystemWebDataVisualization is null)
                     {
                         _SystemWebDataVisualization = AssemblyMetadata.CreateFromImage(Resources.SystemWebDataVisualization).GetReference(filePath: "System.Web.DataVisualization.dll", display: "System.Web.DataVisualization (net461)");
                     }
@@ -3895,7 +3896,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWeb == null)
+                    if (_SystemWeb is null)
                     {
                         _SystemWeb = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (net461)");
                     }
@@ -3912,7 +3913,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebDynamicDataDesign == null)
+                    if (_SystemWebDynamicDataDesign is null)
                     {
                         _SystemWebDynamicDataDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebDynamicDataDesign).GetReference(filePath: "System.Web.DynamicData.Design.dll", display: "System.Web.DynamicData.Design (net461)");
                     }
@@ -3929,7 +3930,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebDynamicData == null)
+                    if (_SystemWebDynamicData is null)
                     {
                         _SystemWebDynamicData = AssemblyMetadata.CreateFromImage(Resources.SystemWebDynamicData).GetReference(filePath: "System.Web.DynamicData.dll", display: "System.Web.DynamicData (net461)");
                     }
@@ -3946,7 +3947,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebEntityDesign == null)
+                    if (_SystemWebEntityDesign is null)
                     {
                         _SystemWebEntityDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebEntityDesign).GetReference(filePath: "System.Web.Entity.Design.dll", display: "System.Web.Entity.Design (net461)");
                     }
@@ -3963,7 +3964,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebEntity == null)
+                    if (_SystemWebEntity is null)
                     {
                         _SystemWebEntity = AssemblyMetadata.CreateFromImage(Resources.SystemWebEntity).GetReference(filePath: "System.Web.Entity.dll", display: "System.Web.Entity (net461)");
                     }
@@ -3980,7 +3981,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebExtensionsDesign == null)
+                    if (_SystemWebExtensionsDesign is null)
                     {
                         _SystemWebExtensionsDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebExtensionsDesign).GetReference(filePath: "System.Web.Extensions.Design.dll", display: "System.Web.Extensions.Design (net461)");
                     }
@@ -3997,7 +3998,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebExtensions == null)
+                    if (_SystemWebExtensions is null)
                     {
                         _SystemWebExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemWebExtensions).GetReference(filePath: "System.Web.Extensions.dll", display: "System.Web.Extensions (net461)");
                     }
@@ -4014,7 +4015,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebMobile == null)
+                    if (_SystemWebMobile is null)
                     {
                         _SystemWebMobile = AssemblyMetadata.CreateFromImage(Resources.SystemWebMobile).GetReference(filePath: "System.Web.Mobile.dll", display: "System.Web.Mobile (net461)");
                     }
@@ -4031,7 +4032,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebRegularExpressions == null)
+                    if (_SystemWebRegularExpressions is null)
                     {
                         _SystemWebRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemWebRegularExpressions).GetReference(filePath: "System.Web.RegularExpressions.dll", display: "System.Web.RegularExpressions (net461)");
                     }
@@ -4048,7 +4049,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebRouting == null)
+                    if (_SystemWebRouting is null)
                     {
                         _SystemWebRouting = AssemblyMetadata.CreateFromImage(Resources.SystemWebRouting).GetReference(filePath: "System.Web.Routing.dll", display: "System.Web.Routing (net461)");
                     }
@@ -4065,7 +4066,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWebServices == null)
+                    if (_SystemWebServices is null)
                     {
                         _SystemWebServices = AssemblyMetadata.CreateFromImage(Resources.SystemWebServices).GetReference(filePath: "System.Web.Services.dll", display: "System.Web.Services (net461)");
                     }
@@ -4082,7 +4083,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindowsControlsRibbon == null)
+                    if (_SystemWindowsControlsRibbon is null)
                     {
                         _SystemWindowsControlsRibbon = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsControlsRibbon).GetReference(filePath: "System.Windows.Controls.Ribbon.dll", display: "System.Windows.Controls.Ribbon (net461)");
                     }
@@ -4099,7 +4100,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindows == null)
+                    if (_SystemWindows is null)
                     {
                         _SystemWindows = AssemblyMetadata.CreateFromImage(Resources.SystemWindows).GetReference(filePath: "System.Windows.dll", display: "System.Windows (net461)");
                     }
@@ -4116,7 +4117,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindowsFormsDataVisualizationDesign == null)
+                    if (_SystemWindowsFormsDataVisualizationDesign is null)
                     {
                         _SystemWindowsFormsDataVisualizationDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDataVisualizationDesign).GetReference(filePath: "System.Windows.Forms.DataVisualization.Design.dll", display: "System.Windows.Forms.DataVisualization.Design (net461)");
                     }
@@ -4133,7 +4134,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindowsFormsDataVisualization == null)
+                    if (_SystemWindowsFormsDataVisualization is null)
                     {
                         _SystemWindowsFormsDataVisualization = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDataVisualization).GetReference(filePath: "System.Windows.Forms.DataVisualization.dll", display: "System.Windows.Forms.DataVisualization (net461)");
                     }
@@ -4150,7 +4151,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindowsForms == null)
+                    if (_SystemWindowsForms is null)
                     {
                         _SystemWindowsForms = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsForms).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net461)");
                     }
@@ -4167,7 +4168,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindowsInputManipulations == null)
+                    if (_SystemWindowsInputManipulations is null)
                     {
                         _SystemWindowsInputManipulations = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsInputManipulations).GetReference(filePath: "System.Windows.Input.Manipulations.dll", display: "System.Windows.Input.Manipulations (net461)");
                     }
@@ -4184,7 +4185,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindowsPresentation == null)
+                    if (_SystemWindowsPresentation is null)
                     {
                         _SystemWindowsPresentation = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsPresentation).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net461)");
                     }
@@ -4201,7 +4202,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWorkflowActivities == null)
+                    if (_SystemWorkflowActivities is null)
                     {
                         _SystemWorkflowActivities = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowActivities).GetReference(filePath: "System.Workflow.Activities.dll", display: "System.Workflow.Activities (net461)");
                     }
@@ -4218,7 +4219,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWorkflowComponentModel == null)
+                    if (_SystemWorkflowComponentModel is null)
                     {
                         _SystemWorkflowComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowComponentModel).GetReference(filePath: "System.Workflow.ComponentModel.dll", display: "System.Workflow.ComponentModel (net461)");
                     }
@@ -4235,7 +4236,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWorkflowRuntime == null)
+                    if (_SystemWorkflowRuntime is null)
                     {
                         _SystemWorkflowRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowRuntime).GetReference(filePath: "System.Workflow.Runtime.dll", display: "System.Workflow.Runtime (net461)");
                     }
@@ -4252,7 +4253,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWorkflowServices == null)
+                    if (_SystemWorkflowServices is null)
                     {
                         _SystemWorkflowServices = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowServices).GetReference(filePath: "System.WorkflowServices.dll", display: "System.WorkflowServices (net461)");
                     }
@@ -4269,7 +4270,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXaml == null)
+                    if (_SystemXaml is null)
                     {
                         _SystemXaml = AssemblyMetadata.CreateFromImage(Resources.SystemXaml).GetReference(filePath: "System.Xaml.dll", display: "System.Xaml (net461)");
                     }
@@ -4286,7 +4287,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXml == null)
+                    if (_SystemXml is null)
                     {
                         _SystemXml = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net461)");
                     }
@@ -4303,7 +4304,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXmlLinq == null)
+                    if (_SystemXmlLinq is null)
                     {
                         _SystemXmlLinq = AssemblyMetadata.CreateFromImage(Resources.SystemXmlLinq).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net461)");
                     }
@@ -4320,7 +4321,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXmlSerialization == null)
+                    if (_SystemXmlSerialization is null)
                     {
                         _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemXmlSerialization).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (net461)");
                     }
@@ -4337,7 +4338,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_UIAutomationClient == null)
+                    if (_UIAutomationClient is null)
                     {
                         _UIAutomationClient = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClient).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net461)");
                     }
@@ -4354,7 +4355,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_UIAutomationClientsideProviders == null)
+                    if (_UIAutomationClientsideProviders is null)
                     {
                         _UIAutomationClientsideProviders = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClientsideProviders).GetReference(filePath: "UIAutomationClientsideProviders.dll", display: "UIAutomationClientsideProviders (net461)");
                     }
@@ -4371,7 +4372,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_UIAutomationProvider == null)
+                    if (_UIAutomationProvider is null)
                     {
                         _UIAutomationProvider = AssemblyMetadata.CreateFromImage(Resources.UIAutomationProvider).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net461)");
                     }
@@ -4388,7 +4389,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_UIAutomationTypes == null)
+                    if (_UIAutomationTypes is null)
                     {
                         _UIAutomationTypes = AssemblyMetadata.CreateFromImage(Resources.UIAutomationTypes).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net461)");
                     }
@@ -4405,7 +4406,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_WindowsBase == null)
+                    if (_WindowsBase is null)
                     {
                         _WindowsBase = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net461)");
                     }
@@ -4422,7 +4423,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_WindowsFormsIntegration == null)
+                    if (_WindowsFormsIntegration is null)
                     {
                         _WindowsFormsIntegration = AssemblyMetadata.CreateFromImage(Resources.WindowsFormsIntegration).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net461)");
                     }
@@ -4439,7 +4440,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_XamlBuildTask == null)
+                    if (_XamlBuildTask is null)
                     {
                         _XamlBuildTask = AssemblyMetadata.CreateFromImage(Resources.XamlBuildTask).GetReference(filePath: "XamlBuildTask.dll", display: "XamlBuildTask (net461)");
                     }
@@ -4456,7 +4457,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemCollectionsConcurrent == null)
+                    if (_SystemCollectionsConcurrent is null)
                     {
                         _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (net461)");
                     }
@@ -4473,7 +4474,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemCollections == null)
+                    if (_SystemCollections is null)
                     {
                         _SystemCollections = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (net461)");
                     }
@@ -4490,7 +4491,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemComponentModelAnnotations == null)
+                    if (_SystemComponentModelAnnotations is null)
                     {
                         _SystemComponentModelAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelAnnotations).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (net461)");
                     }
@@ -4507,7 +4508,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemComponentModel == null)
+                    if (_SystemComponentModel is null)
                     {
                         _SystemComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModel).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (net461)");
                     }
@@ -4524,7 +4525,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemComponentModelEventBasedAsync == null)
+                    if (_SystemComponentModelEventBasedAsync is null)
                     {
                         _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelEventBasedAsync).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (net461)");
                     }
@@ -4541,7 +4542,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsContracts == null)
+                    if (_SystemDiagnosticsContracts is null)
                     {
                         _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsContracts).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (net461)");
                     }
@@ -4558,7 +4559,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsDebug == null)
+                    if (_SystemDiagnosticsDebug is null)
                     {
                         _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (net461)");
                     }
@@ -4575,7 +4576,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsTools == null)
+                    if (_SystemDiagnosticsTools is null)
                     {
                         _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (net461)");
                     }
@@ -4592,7 +4593,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsTracing == null)
+                    if (_SystemDiagnosticsTracing is null)
                     {
                         _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (net461)");
                     }
@@ -4609,7 +4610,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDynamicRuntime == null)
+                    if (_SystemDynamicRuntime is null)
                     {
                         _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemDynamicRuntime).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (net461)");
                     }
@@ -4626,7 +4627,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemGlobalization == null)
+                    if (_SystemGlobalization is null)
                     {
                         _SystemGlobalization = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (net461)");
                     }
@@ -4643,7 +4644,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIO == null)
+                    if (_SystemIO is null)
                     {
                         _SystemIO = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (net461)");
                     }
@@ -4660,7 +4661,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemLinq == null)
+                    if (_SystemLinq is null)
                     {
                         _SystemLinq = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (net461)");
                     }
@@ -4677,7 +4678,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemLinqExpressions == null)
+                    if (_SystemLinqExpressions is null)
                     {
                         _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (net461)");
                     }
@@ -4694,7 +4695,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemLinqParallel == null)
+                    if (_SystemLinqParallel is null)
                     {
                         _SystemLinqParallel = AssemblyMetadata.CreateFromImage(Resources.SystemLinqParallel).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (net461)");
                     }
@@ -4711,7 +4712,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemLinqQueryable == null)
+                    if (_SystemLinqQueryable is null)
                     {
                         _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(Resources.SystemLinqQueryable).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (net461)");
                     }
@@ -4728,7 +4729,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetNetworkInformation == null)
+                    if (_SystemNetNetworkInformation is null)
                     {
                         _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(Resources.SystemNetNetworkInformation).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (net461)");
                     }
@@ -4745,7 +4746,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetPrimitives == null)
+                    if (_SystemNetPrimitives is null)
                     {
                         _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (net461)");
                     }
@@ -4762,7 +4763,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetRequests == null)
+                    if (_SystemNetRequests is null)
                     {
                         _SystemNetRequests = AssemblyMetadata.CreateFromImage(Resources.SystemNetRequests).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (net461)");
                     }
@@ -4779,7 +4780,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemNetWebHeaderCollection == null)
+                    if (_SystemNetWebHeaderCollection is null)
                     {
                         _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebHeaderCollection).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (net461)");
                     }
@@ -4796,7 +4797,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemObjectModel == null)
+                    if (_SystemObjectModel is null)
                     {
                         _SystemObjectModel = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (net461)");
                     }
@@ -4813,7 +4814,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflection == null)
+                    if (_SystemReflection is null)
                     {
                         _SystemReflection = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (net461)");
                     }
@@ -4830,7 +4831,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflectionEmit == null)
+                    if (_SystemReflectionEmit is null)
                     {
                         _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmit).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (net461)");
                     }
@@ -4847,7 +4848,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflectionEmitILGeneration == null)
+                    if (_SystemReflectionEmitILGeneration is null)
                     {
                         _SystemReflectionEmitILGeneration = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitILGeneration).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (net461)");
                     }
@@ -4864,7 +4865,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflectionEmitLightweight == null)
+                    if (_SystemReflectionEmitLightweight is null)
                     {
                         _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitLightweight).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (net461)");
                     }
@@ -4881,7 +4882,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflectionExtensions == null)
+                    if (_SystemReflectionExtensions is null)
                     {
                         _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (net461)");
                     }
@@ -4898,7 +4899,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemReflectionPrimitives == null)
+                    if (_SystemReflectionPrimitives is null)
                     {
                         _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (net461)");
                     }
@@ -4915,7 +4916,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemResourcesResourceManager == null)
+                    if (_SystemResourcesResourceManager is null)
                     {
                         _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (net461)");
                     }
@@ -4932,7 +4933,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntime == null)
+                    if (_SystemRuntime is null)
                     {
                         _SystemRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (net461)");
                     }
@@ -4949,7 +4950,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeExtensions == null)
+                    if (_SystemRuntimeExtensions is null)
                     {
                         _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (net461)");
                     }
@@ -4966,7 +4967,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeHandles == null)
+                    if (_SystemRuntimeHandles is null)
                     {
                         _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (net461)");
                     }
@@ -4983,7 +4984,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeInteropServices == null)
+                    if (_SystemRuntimeInteropServices is null)
                     {
                         _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (net461)");
                     }
@@ -5000,7 +5001,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeInteropServicesWindowsRuntime == null)
+                    if (_SystemRuntimeInteropServicesWindowsRuntime is null)
                     {
                         _SystemRuntimeInteropServicesWindowsRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesWindowsRuntime).GetReference(filePath: "System.Runtime.InteropServices.WindowsRuntime.dll", display: "System.Runtime.InteropServices.WindowsRuntime (net461)");
                     }
@@ -5017,7 +5018,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeNumerics == null)
+                    if (_SystemRuntimeNumerics is null)
                     {
                         _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (net461)");
                     }
@@ -5034,7 +5035,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeSerializationJson == null)
+                    if (_SystemRuntimeSerializationJson is null)
                     {
                         _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationJson).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (net461)");
                     }
@@ -5051,7 +5052,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeSerializationPrimitives == null)
+                    if (_SystemRuntimeSerializationPrimitives is null)
                     {
                         _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (net461)");
                     }
@@ -5068,7 +5069,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemRuntimeSerializationXml == null)
+                    if (_SystemRuntimeSerializationXml is null)
                     {
                         _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationXml).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (net461)");
                     }
@@ -5085,7 +5086,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityPrincipal == null)
+                    if (_SystemSecurityPrincipal is null)
                     {
                         _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (net461)");
                     }
@@ -5102,7 +5103,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceModelDuplex == null)
+                    if (_SystemServiceModelDuplex is null)
                     {
                         _SystemServiceModelDuplex = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelDuplex).GetReference(filePath: "System.ServiceModel.Duplex.dll", display: "System.ServiceModel.Duplex (net461)");
                     }
@@ -5119,7 +5120,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceModelHttp == null)
+                    if (_SystemServiceModelHttp is null)
                     {
                         _SystemServiceModelHttp = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelHttp).GetReference(filePath: "System.ServiceModel.Http.dll", display: "System.ServiceModel.Http (net461)");
                     }
@@ -5136,7 +5137,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceModelNetTcp == null)
+                    if (_SystemServiceModelNetTcp is null)
                     {
                         _SystemServiceModelNetTcp = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelNetTcp).GetReference(filePath: "System.ServiceModel.NetTcp.dll", display: "System.ServiceModel.NetTcp (net461)");
                     }
@@ -5153,7 +5154,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceModelPrimitives == null)
+                    if (_SystemServiceModelPrimitives is null)
                     {
                         _SystemServiceModelPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelPrimitives).GetReference(filePath: "System.ServiceModel.Primitives.dll", display: "System.ServiceModel.Primitives (net461)");
                     }
@@ -5170,7 +5171,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemServiceModelSecurity == null)
+                    if (_SystemServiceModelSecurity is null)
                     {
                         _SystemServiceModelSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelSecurity).GetReference(filePath: "System.ServiceModel.Security.dll", display: "System.ServiceModel.Security (net461)");
                     }
@@ -5187,7 +5188,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemTextEncoding == null)
+                    if (_SystemTextEncoding is null)
                     {
                         _SystemTextEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (net461)");
                     }
@@ -5204,7 +5205,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemTextEncodingExtensions == null)
+                    if (_SystemTextEncodingExtensions is null)
                     {
                         _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (net461)");
                     }
@@ -5221,7 +5222,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemTextRegularExpressions == null)
+                    if (_SystemTextRegularExpressions is null)
                     {
                         _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (net461)");
                     }
@@ -5238,7 +5239,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreading == null)
+                    if (_SystemThreading is null)
                     {
                         _SystemThreading = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (net461)");
                     }
@@ -5255,7 +5256,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreadingTasks == null)
+                    if (_SystemThreadingTasks is null)
                     {
                         _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (net461)");
                     }
@@ -5272,7 +5273,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreadingTasksParallel == null)
+                    if (_SystemThreadingTasksParallel is null)
                     {
                         _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksParallel).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (net461)");
                     }
@@ -5289,7 +5290,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreadingTimer == null)
+                    if (_SystemThreadingTimer is null)
                     {
                         _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (net461)");
                     }
@@ -5306,7 +5307,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXmlReaderWriter == null)
+                    if (_SystemXmlReaderWriter is null)
                     {
                         _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (net461)");
                     }
@@ -5323,7 +5324,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXmlXDocument == null)
+                    if (_SystemXmlXDocument is null)
                     {
                         _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (net461)");
                     }
@@ -5340,7 +5341,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXmlXmlSerializer == null)
+                    if (_SystemXmlXmlSerializer is null)
                     {
                         _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlSerializer).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (net461)");
                     }
@@ -5348,15 +5349,15 @@ namespace Basic.Reference.Assemblies
                 }
             }
 
-            private static PortableExecutableReference[]? _all;
-            public static IEnumerable<PortableExecutableReference> All
+            private static ImmutableArray<PortableExecutableReference> _all;
+            public static ImmutableArray<PortableExecutableReference> All
             {
                 get
                 {
-                    if (_all == null)
+                    if (_all.IsDefault)
                     {
-                        _all = new PortableExecutableReference[]
-                        {
+                        _all =
+                        [
                             Accessibility,
                             CustomMarshalers,
                             ISymWrapper,
@@ -5540,7 +5541,7 @@ namespace Basic.Reference.Assemblies
                             SystemXmlReaderWriter,
                             SystemXmlXDocument,
                             SystemXmlXmlSerializer,
-                        };
+                        ];
                     }
                     return _all;
                 }

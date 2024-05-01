@@ -2,6 +2,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using Microsoft.CodeAnalysis;
 
@@ -11,288 +12,288 @@ namespace Basic.Reference.Assemblies
     {
         public static class Resources
         {
-            private static byte[]? _Accessibility;
-
             /// <summary>
             /// The image bytes for Accessibility.dll
             /// </summary>
             public static byte[] Accessibility => ResourceLoader.GetOrCreateResource(ref _Accessibility, "net60windows.Accessibility");
-            private static byte[]? _MicrosoftVisualBasic;
+            private static byte[]? _Accessibility;
 
             /// <summary>
             /// The image bytes for Microsoft.VisualBasic.dll
             /// </summary>
             public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "net60windows.Microsoft.VisualBasic");
-            private static byte[]? _MicrosoftVisualBasicForms;
+            private static byte[]? _MicrosoftVisualBasic;
 
             /// <summary>
             /// The image bytes for Microsoft.VisualBasic.Forms.dll
             /// </summary>
             public static byte[] MicrosoftVisualBasicForms => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicForms, "net60windows.Microsoft.VisualBasic.Forms");
-            private static byte[]? _MicrosoftWin32RegistryAccessControl;
+            private static byte[]? _MicrosoftVisualBasicForms;
 
             /// <summary>
             /// The image bytes for Microsoft.Win32.Registry.AccessControl.dll
             /// </summary>
             public static byte[] MicrosoftWin32RegistryAccessControl => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32RegistryAccessControl, "net60windows.Microsoft.Win32.Registry.AccessControl");
-            private static byte[]? _MicrosoftWin32SystemEvents;
+            private static byte[]? _MicrosoftWin32RegistryAccessControl;
 
             /// <summary>
             /// The image bytes for Microsoft.Win32.SystemEvents.dll
             /// </summary>
             public static byte[] MicrosoftWin32SystemEvents => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32SystemEvents, "net60windows.Microsoft.Win32.SystemEvents");
-            private static byte[]? _PresentationCore;
+            private static byte[]? _MicrosoftWin32SystemEvents;
 
             /// <summary>
             /// The image bytes for PresentationCore.dll
             /// </summary>
             public static byte[] PresentationCore => ResourceLoader.GetOrCreateResource(ref _PresentationCore, "net60windows.PresentationCore");
-            private static byte[]? _PresentationFrameworkAero;
+            private static byte[]? _PresentationCore;
 
             /// <summary>
             /// The image bytes for PresentationFramework.Aero.dll
             /// </summary>
             public static byte[] PresentationFrameworkAero => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkAero, "net60windows.PresentationFramework.Aero");
-            private static byte[]? _PresentationFrameworkAero2;
+            private static byte[]? _PresentationFrameworkAero;
 
             /// <summary>
             /// The image bytes for PresentationFramework.Aero2.dll
             /// </summary>
             public static byte[] PresentationFrameworkAero2 => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkAero2, "net60windows.PresentationFramework.Aero2");
-            private static byte[]? _PresentationFrameworkAeroLite;
+            private static byte[]? _PresentationFrameworkAero2;
 
             /// <summary>
             /// The image bytes for PresentationFramework.AeroLite.dll
             /// </summary>
             public static byte[] PresentationFrameworkAeroLite => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkAeroLite, "net60windows.PresentationFramework.AeroLite");
-            private static byte[]? _PresentationFrameworkClassic;
+            private static byte[]? _PresentationFrameworkAeroLite;
 
             /// <summary>
             /// The image bytes for PresentationFramework.Classic.dll
             /// </summary>
             public static byte[] PresentationFrameworkClassic => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkClassic, "net60windows.PresentationFramework.Classic");
-            private static byte[]? _PresentationFramework;
+            private static byte[]? _PresentationFrameworkClassic;
 
             /// <summary>
             /// The image bytes for PresentationFramework.dll
             /// </summary>
             public static byte[] PresentationFramework => ResourceLoader.GetOrCreateResource(ref _PresentationFramework, "net60windows.PresentationFramework");
-            private static byte[]? _PresentationFrameworkLuna;
+            private static byte[]? _PresentationFramework;
 
             /// <summary>
             /// The image bytes for PresentationFramework.Luna.dll
             /// </summary>
             public static byte[] PresentationFrameworkLuna => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkLuna, "net60windows.PresentationFramework.Luna");
-            private static byte[]? _PresentationFrameworkRoyale;
+            private static byte[]? _PresentationFrameworkLuna;
 
             /// <summary>
             /// The image bytes for PresentationFramework.Royale.dll
             /// </summary>
             public static byte[] PresentationFrameworkRoyale => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkRoyale, "net60windows.PresentationFramework.Royale");
-            private static byte[]? _PresentationUI;
+            private static byte[]? _PresentationFrameworkRoyale;
 
             /// <summary>
             /// The image bytes for PresentationUI.dll
             /// </summary>
             public static byte[] PresentationUI => ResourceLoader.GetOrCreateResource(ref _PresentationUI, "net60windows.PresentationUI");
-            private static byte[]? _ReachFramework;
+            private static byte[]? _PresentationUI;
 
             /// <summary>
             /// The image bytes for ReachFramework.dll
             /// </summary>
             public static byte[] ReachFramework => ResourceLoader.GetOrCreateResource(ref _ReachFramework, "net60windows.ReachFramework");
-            private static byte[]? _SystemCodeDom;
+            private static byte[]? _ReachFramework;
 
             /// <summary>
             /// The image bytes for System.CodeDom.dll
             /// </summary>
             public static byte[] SystemCodeDom => ResourceLoader.GetOrCreateResource(ref _SystemCodeDom, "net60windows.System.CodeDom");
-            private static byte[]? _SystemConfigurationConfigurationManager;
+            private static byte[]? _SystemCodeDom;
 
             /// <summary>
             /// The image bytes for System.Configuration.ConfigurationManager.dll
             /// </summary>
             public static byte[] SystemConfigurationConfigurationManager => ResourceLoader.GetOrCreateResource(ref _SystemConfigurationConfigurationManager, "net60windows.System.Configuration.ConfigurationManager");
-            private static byte[]? _SystemDesign;
+            private static byte[]? _SystemConfigurationConfigurationManager;
 
             /// <summary>
             /// The image bytes for System.Design.dll
             /// </summary>
             public static byte[] SystemDesign => ResourceLoader.GetOrCreateResource(ref _SystemDesign, "net60windows.System.Design");
-            private static byte[]? _SystemDiagnosticsEventLog;
+            private static byte[]? _SystemDesign;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.EventLog.dll
             /// </summary>
             public static byte[] SystemDiagnosticsEventLog => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsEventLog, "net60windows.System.Diagnostics.EventLog");
-            private static byte[]? _SystemDiagnosticsPerformanceCounter;
+            private static byte[]? _SystemDiagnosticsEventLog;
 
             /// <summary>
             /// The image bytes for System.Diagnostics.PerformanceCounter.dll
             /// </summary>
             public static byte[] SystemDiagnosticsPerformanceCounter => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsPerformanceCounter, "net60windows.System.Diagnostics.PerformanceCounter");
-            private static byte[]? _SystemDirectoryServices;
+            private static byte[]? _SystemDiagnosticsPerformanceCounter;
 
             /// <summary>
             /// The image bytes for System.DirectoryServices.dll
             /// </summary>
             public static byte[] SystemDirectoryServices => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServices, "net60windows.System.DirectoryServices");
-            private static byte[]? _SystemDrawingCommon;
+            private static byte[]? _SystemDirectoryServices;
 
             /// <summary>
             /// The image bytes for System.Drawing.Common.dll
             /// </summary>
             public static byte[] SystemDrawingCommon => ResourceLoader.GetOrCreateResource(ref _SystemDrawingCommon, "net60windows.System.Drawing.Common");
-            private static byte[]? _SystemDrawingDesign;
+            private static byte[]? _SystemDrawingCommon;
 
             /// <summary>
             /// The image bytes for System.Drawing.Design.dll
             /// </summary>
             public static byte[] SystemDrawingDesign => ResourceLoader.GetOrCreateResource(ref _SystemDrawingDesign, "net60windows.System.Drawing.Design");
-            private static byte[]? _SystemDrawing;
+            private static byte[]? _SystemDrawingDesign;
 
             /// <summary>
             /// The image bytes for System.Drawing.dll
             /// </summary>
             public static byte[] SystemDrawing => ResourceLoader.GetOrCreateResource(ref _SystemDrawing, "net60windows.System.Drawing");
-            private static byte[]? _SystemIOPackaging;
+            private static byte[]? _SystemDrawing;
 
             /// <summary>
             /// The image bytes for System.IO.Packaging.dll
             /// </summary>
             public static byte[] SystemIOPackaging => ResourceLoader.GetOrCreateResource(ref _SystemIOPackaging, "net60windows.System.IO.Packaging");
-            private static byte[]? _SystemPrinting;
+            private static byte[]? _SystemIOPackaging;
 
             /// <summary>
             /// The image bytes for System.Printing.dll
             /// </summary>
             public static byte[] SystemPrinting => ResourceLoader.GetOrCreateResource(ref _SystemPrinting, "net60windows.System.Printing");
-            private static byte[]? _SystemResourcesExtensions;
+            private static byte[]? _SystemPrinting;
 
             /// <summary>
             /// The image bytes for System.Resources.Extensions.dll
             /// </summary>
             public static byte[] SystemResourcesExtensions => ResourceLoader.GetOrCreateResource(ref _SystemResourcesExtensions, "net60windows.System.Resources.Extensions");
-            private static byte[]? _SystemSecurityCryptographyPkcs;
+            private static byte[]? _SystemResourcesExtensions;
 
             /// <summary>
             /// The image bytes for System.Security.Cryptography.Pkcs.dll
             /// </summary>
             public static byte[] SystemSecurityCryptographyPkcs => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyPkcs, "net60windows.System.Security.Cryptography.Pkcs");
-            private static byte[]? _SystemSecurityCryptographyProtectedData;
+            private static byte[]? _SystemSecurityCryptographyPkcs;
 
             /// <summary>
             /// The image bytes for System.Security.Cryptography.ProtectedData.dll
             /// </summary>
             public static byte[] SystemSecurityCryptographyProtectedData => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyProtectedData, "net60windows.System.Security.Cryptography.ProtectedData");
-            private static byte[]? _SystemSecurityCryptographyXml;
+            private static byte[]? _SystemSecurityCryptographyProtectedData;
 
             /// <summary>
             /// The image bytes for System.Security.Cryptography.Xml.dll
             /// </summary>
             public static byte[] SystemSecurityCryptographyXml => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyXml, "net60windows.System.Security.Cryptography.Xml");
-            private static byte[]? _SystemSecurityPermissions;
+            private static byte[]? _SystemSecurityCryptographyXml;
 
             /// <summary>
             /// The image bytes for System.Security.Permissions.dll
             /// </summary>
             public static byte[] SystemSecurityPermissions => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPermissions, "net60windows.System.Security.Permissions");
-            private static byte[]? _SystemThreadingAccessControl;
+            private static byte[]? _SystemSecurityPermissions;
 
             /// <summary>
             /// The image bytes for System.Threading.AccessControl.dll
             /// </summary>
             public static byte[] SystemThreadingAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemThreadingAccessControl, "net60windows.System.Threading.AccessControl");
-            private static byte[]? _SystemWindowsControlsRibbon;
+            private static byte[]? _SystemThreadingAccessControl;
 
             /// <summary>
             /// The image bytes for System.Windows.Controls.Ribbon.dll
             /// </summary>
             public static byte[] SystemWindowsControlsRibbon => ResourceLoader.GetOrCreateResource(ref _SystemWindowsControlsRibbon, "net60windows.System.Windows.Controls.Ribbon");
-            private static byte[]? _SystemWindowsExtensions;
+            private static byte[]? _SystemWindowsControlsRibbon;
 
             /// <summary>
             /// The image bytes for System.Windows.Extensions.dll
             /// </summary>
             public static byte[] SystemWindowsExtensions => ResourceLoader.GetOrCreateResource(ref _SystemWindowsExtensions, "net60windows.System.Windows.Extensions");
-            private static byte[]? _SystemWindowsFormsDesign;
+            private static byte[]? _SystemWindowsExtensions;
 
             /// <summary>
             /// The image bytes for System.Windows.Forms.Design.dll
             /// </summary>
             public static byte[] SystemWindowsFormsDesign => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsDesign, "net60windows.System.Windows.Forms.Design");
-            private static byte[]? _SystemWindowsFormsDesignEditors;
+            private static byte[]? _SystemWindowsFormsDesign;
 
             /// <summary>
             /// The image bytes for System.Windows.Forms.Design.Editors.dll
             /// </summary>
             public static byte[] SystemWindowsFormsDesignEditors => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsDesignEditors, "net60windows.System.Windows.Forms.Design.Editors");
-            private static byte[]? _SystemWindowsForms;
+            private static byte[]? _SystemWindowsFormsDesignEditors;
 
             /// <summary>
             /// The image bytes for System.Windows.Forms.dll
             /// </summary>
             public static byte[] SystemWindowsForms => ResourceLoader.GetOrCreateResource(ref _SystemWindowsForms, "net60windows.System.Windows.Forms");
-            private static byte[]? _SystemWindowsFormsPrimitives;
+            private static byte[]? _SystemWindowsForms;
 
             /// <summary>
             /// The image bytes for System.Windows.Forms.Primitives.dll
             /// </summary>
             public static byte[] SystemWindowsFormsPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsPrimitives, "net60windows.System.Windows.Forms.Primitives");
-            private static byte[]? _SystemWindowsInputManipulations;
+            private static byte[]? _SystemWindowsFormsPrimitives;
 
             /// <summary>
             /// The image bytes for System.Windows.Input.Manipulations.dll
             /// </summary>
             public static byte[] SystemWindowsInputManipulations => ResourceLoader.GetOrCreateResource(ref _SystemWindowsInputManipulations, "net60windows.System.Windows.Input.Manipulations");
-            private static byte[]? _SystemWindowsPresentation;
+            private static byte[]? _SystemWindowsInputManipulations;
 
             /// <summary>
             /// The image bytes for System.Windows.Presentation.dll
             /// </summary>
             public static byte[] SystemWindowsPresentation => ResourceLoader.GetOrCreateResource(ref _SystemWindowsPresentation, "net60windows.System.Windows.Presentation");
-            private static byte[]? _SystemXaml;
+            private static byte[]? _SystemWindowsPresentation;
 
             /// <summary>
             /// The image bytes for System.Xaml.dll
             /// </summary>
             public static byte[] SystemXaml => ResourceLoader.GetOrCreateResource(ref _SystemXaml, "net60windows.System.Xaml");
-            private static byte[]? _UIAutomationClient;
+            private static byte[]? _SystemXaml;
 
             /// <summary>
             /// The image bytes for UIAutomationClient.dll
             /// </summary>
             public static byte[] UIAutomationClient => ResourceLoader.GetOrCreateResource(ref _UIAutomationClient, "net60windows.UIAutomationClient");
-            private static byte[]? _UIAutomationClientSideProviders;
+            private static byte[]? _UIAutomationClient;
 
             /// <summary>
             /// The image bytes for UIAutomationClientSideProviders.dll
             /// </summary>
             public static byte[] UIAutomationClientSideProviders => ResourceLoader.GetOrCreateResource(ref _UIAutomationClientSideProviders, "net60windows.UIAutomationClientSideProviders");
-            private static byte[]? _UIAutomationProvider;
+            private static byte[]? _UIAutomationClientSideProviders;
 
             /// <summary>
             /// The image bytes for UIAutomationProvider.dll
             /// </summary>
             public static byte[] UIAutomationProvider => ResourceLoader.GetOrCreateResource(ref _UIAutomationProvider, "net60windows.UIAutomationProvider");
-            private static byte[]? _UIAutomationTypes;
+            private static byte[]? _UIAutomationProvider;
 
             /// <summary>
             /// The image bytes for UIAutomationTypes.dll
             /// </summary>
             public static byte[] UIAutomationTypes => ResourceLoader.GetOrCreateResource(ref _UIAutomationTypes, "net60windows.UIAutomationTypes");
-            private static byte[]? _WindowsBase;
+            private static byte[]? _UIAutomationTypes;
 
             /// <summary>
             /// The image bytes for WindowsBase.dll
             /// </summary>
             public static byte[] WindowsBase => ResourceLoader.GetOrCreateResource(ref _WindowsBase, "net60windows.WindowsBase");
-            private static byte[]? _WindowsFormsIntegration;
+            private static byte[]? _WindowsBase;
 
             /// <summary>
             /// The image bytes for WindowsFormsIntegration.dll
             /// </summary>
             public static byte[] WindowsFormsIntegration => ResourceLoader.GetOrCreateResource(ref _WindowsFormsIntegration, "net60windows.WindowsFormsIntegration");
+            private static byte[]? _WindowsFormsIntegration;
+
 
         }
     }
@@ -535,15 +536,15 @@ namespace Basic.Reference.Assemblies
             /// The <see cref="ReferenceInfo"/> for WindowsFormsIntegration.dll
             /// </summary>
             public static ReferenceInfo WindowsFormsIntegration => new ReferenceInfo("WindowsFormsIntegration.dll", Resources.WindowsFormsIntegration, Net60Windows.References.WindowsFormsIntegration, global::System.Guid.Parse("43e8a206-4639-4bc5-a3ce-4ff03ef71466"));
-            private static ReferenceInfo[]? _all;
-            public static IEnumerable<ReferenceInfo> All
+            private static ImmutableArray<ReferenceInfo> _all;
+            public static ImmutableArray<ReferenceInfo> All
             {
                 get
                 {
-                    if (_all == null)
+                    if (_all.IsDefault)
                     {
-                        _all = new[]
-                        {
+                        _all =
+                        [
                             Accessibility,
                             MicrosoftVisualBasic,
                             MicrosoftVisualBasicForms,
@@ -591,7 +592,7 @@ namespace Basic.Reference.Assemblies
                             UIAutomationTypes,
                             WindowsBase,
                             WindowsFormsIntegration,
-                        };
+                        ];
                     }
                     return _all;
                 }
@@ -614,7 +615,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_Accessibility == null)
+                    if (_Accessibility is null)
                     {
                         _Accessibility = AssemblyMetadata.CreateFromImage(Resources.Accessibility).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net60windows)");
                     }
@@ -631,7 +632,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftVisualBasic == null)
+                    if (_MicrosoftVisualBasic is null)
                     {
                         _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net60windows)");
                     }
@@ -648,7 +649,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftVisualBasicForms == null)
+                    if (_MicrosoftVisualBasicForms is null)
                     {
                         _MicrosoftVisualBasicForms = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicForms).GetReference(filePath: "Microsoft.VisualBasic.Forms.dll", display: "Microsoft.VisualBasic.Forms (net60windows)");
                     }
@@ -665,7 +666,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftWin32RegistryAccessControl == null)
+                    if (_MicrosoftWin32RegistryAccessControl is null)
                     {
                         _MicrosoftWin32RegistryAccessControl = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32RegistryAccessControl).GetReference(filePath: "Microsoft.Win32.Registry.AccessControl.dll", display: "Microsoft.Win32.Registry.AccessControl (net60windows)");
                     }
@@ -682,7 +683,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_MicrosoftWin32SystemEvents == null)
+                    if (_MicrosoftWin32SystemEvents is null)
                     {
                         _MicrosoftWin32SystemEvents = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32SystemEvents).GetReference(filePath: "Microsoft.Win32.SystemEvents.dll", display: "Microsoft.Win32.SystemEvents (net60windows)");
                     }
@@ -699,7 +700,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationCore == null)
+                    if (_PresentationCore is null)
                     {
                         _PresentationCore = AssemblyMetadata.CreateFromImage(Resources.PresentationCore).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net60windows)");
                     }
@@ -716,7 +717,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationFrameworkAero == null)
+                    if (_PresentationFrameworkAero is null)
                     {
                         _PresentationFrameworkAero = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net60windows)");
                     }
@@ -733,7 +734,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationFrameworkAero2 == null)
+                    if (_PresentationFrameworkAero2 is null)
                     {
                         _PresentationFrameworkAero2 = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero2).GetReference(filePath: "PresentationFramework.Aero2.dll", display: "PresentationFramework.Aero2 (net60windows)");
                     }
@@ -750,7 +751,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationFrameworkAeroLite == null)
+                    if (_PresentationFrameworkAeroLite is null)
                     {
                         _PresentationFrameworkAeroLite = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAeroLite).GetReference(filePath: "PresentationFramework.AeroLite.dll", display: "PresentationFramework.AeroLite (net60windows)");
                     }
@@ -767,7 +768,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationFrameworkClassic == null)
+                    if (_PresentationFrameworkClassic is null)
                     {
                         _PresentationFrameworkClassic = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkClassic).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net60windows)");
                     }
@@ -784,7 +785,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationFramework == null)
+                    if (_PresentationFramework is null)
                     {
                         _PresentationFramework = AssemblyMetadata.CreateFromImage(Resources.PresentationFramework).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net60windows)");
                     }
@@ -801,7 +802,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationFrameworkLuna == null)
+                    if (_PresentationFrameworkLuna is null)
                     {
                         _PresentationFrameworkLuna = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkLuna).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net60windows)");
                     }
@@ -818,7 +819,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationFrameworkRoyale == null)
+                    if (_PresentationFrameworkRoyale is null)
                     {
                         _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkRoyale).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net60windows)");
                     }
@@ -835,7 +836,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_PresentationUI == null)
+                    if (_PresentationUI is null)
                     {
                         _PresentationUI = AssemblyMetadata.CreateFromImage(Resources.PresentationUI).GetReference(filePath: "PresentationUI.dll", display: "PresentationUI (net60windows)");
                     }
@@ -852,7 +853,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_ReachFramework == null)
+                    if (_ReachFramework is null)
                     {
                         _ReachFramework = AssemblyMetadata.CreateFromImage(Resources.ReachFramework).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net60windows)");
                     }
@@ -869,7 +870,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemCodeDom == null)
+                    if (_SystemCodeDom is null)
                     {
                         _SystemCodeDom = AssemblyMetadata.CreateFromImage(Resources.SystemCodeDom).GetReference(filePath: "System.CodeDom.dll", display: "System.CodeDom (net60windows)");
                     }
@@ -886,7 +887,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemConfigurationConfigurationManager == null)
+                    if (_SystemConfigurationConfigurationManager is null)
                     {
                         _SystemConfigurationConfigurationManager = AssemblyMetadata.CreateFromImage(Resources.SystemConfigurationConfigurationManager).GetReference(filePath: "System.Configuration.ConfigurationManager.dll", display: "System.Configuration.ConfigurationManager (net60windows)");
                     }
@@ -903,7 +904,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDesign == null)
+                    if (_SystemDesign is null)
                     {
                         _SystemDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDesign).GetReference(filePath: "System.Design.dll", display: "System.Design (net60windows)");
                     }
@@ -920,7 +921,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsEventLog == null)
+                    if (_SystemDiagnosticsEventLog is null)
                     {
                         _SystemDiagnosticsEventLog = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsEventLog).GetReference(filePath: "System.Diagnostics.EventLog.dll", display: "System.Diagnostics.EventLog (net60windows)");
                     }
@@ -937,7 +938,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDiagnosticsPerformanceCounter == null)
+                    if (_SystemDiagnosticsPerformanceCounter is null)
                     {
                         _SystemDiagnosticsPerformanceCounter = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsPerformanceCounter).GetReference(filePath: "System.Diagnostics.PerformanceCounter.dll", display: "System.Diagnostics.PerformanceCounter (net60windows)");
                     }
@@ -954,7 +955,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDirectoryServices == null)
+                    if (_SystemDirectoryServices is null)
                     {
                         _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServices).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net60windows)");
                     }
@@ -971,7 +972,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDrawingCommon == null)
+                    if (_SystemDrawingCommon is null)
                     {
                         _SystemDrawingCommon = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingCommon).GetReference(filePath: "System.Drawing.Common.dll", display: "System.Drawing.Common (net60windows)");
                     }
@@ -988,7 +989,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDrawingDesign == null)
+                    if (_SystemDrawingDesign is null)
                     {
                         _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingDesign).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net60windows)");
                     }
@@ -1005,7 +1006,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemDrawing == null)
+                    if (_SystemDrawing is null)
                     {
                         _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net60windows)");
                     }
@@ -1022,7 +1023,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemIOPackaging == null)
+                    if (_SystemIOPackaging is null)
                     {
                         _SystemIOPackaging = AssemblyMetadata.CreateFromImage(Resources.SystemIOPackaging).GetReference(filePath: "System.IO.Packaging.dll", display: "System.IO.Packaging (net60windows)");
                     }
@@ -1039,7 +1040,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemPrinting == null)
+                    if (_SystemPrinting is null)
                     {
                         _SystemPrinting = AssemblyMetadata.CreateFromImage(Resources.SystemPrinting).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net60windows)");
                     }
@@ -1056,7 +1057,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemResourcesExtensions == null)
+                    if (_SystemResourcesExtensions is null)
                     {
                         _SystemResourcesExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesExtensions).GetReference(filePath: "System.Resources.Extensions.dll", display: "System.Resources.Extensions (net60windows)");
                     }
@@ -1073,7 +1074,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityCryptographyPkcs == null)
+                    if (_SystemSecurityCryptographyPkcs is null)
                     {
                         _SystemSecurityCryptographyPkcs = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPkcs).GetReference(filePath: "System.Security.Cryptography.Pkcs.dll", display: "System.Security.Cryptography.Pkcs (net60windows)");
                     }
@@ -1090,7 +1091,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityCryptographyProtectedData == null)
+                    if (_SystemSecurityCryptographyProtectedData is null)
                     {
                         _SystemSecurityCryptographyProtectedData = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyProtectedData).GetReference(filePath: "System.Security.Cryptography.ProtectedData.dll", display: "System.Security.Cryptography.ProtectedData (net60windows)");
                     }
@@ -1107,7 +1108,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityCryptographyXml == null)
+                    if (_SystemSecurityCryptographyXml is null)
                     {
                         _SystemSecurityCryptographyXml = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyXml).GetReference(filePath: "System.Security.Cryptography.Xml.dll", display: "System.Security.Cryptography.Xml (net60windows)");
                     }
@@ -1124,7 +1125,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemSecurityPermissions == null)
+                    if (_SystemSecurityPermissions is null)
                     {
                         _SystemSecurityPermissions = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPermissions).GetReference(filePath: "System.Security.Permissions.dll", display: "System.Security.Permissions (net60windows)");
                     }
@@ -1141,7 +1142,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemThreadingAccessControl == null)
+                    if (_SystemThreadingAccessControl is null)
                     {
                         _SystemThreadingAccessControl = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingAccessControl).GetReference(filePath: "System.Threading.AccessControl.dll", display: "System.Threading.AccessControl (net60windows)");
                     }
@@ -1158,7 +1159,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindowsControlsRibbon == null)
+                    if (_SystemWindowsControlsRibbon is null)
                     {
                         _SystemWindowsControlsRibbon = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsControlsRibbon).GetReference(filePath: "System.Windows.Controls.Ribbon.dll", display: "System.Windows.Controls.Ribbon (net60windows)");
                     }
@@ -1175,7 +1176,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindowsExtensions == null)
+                    if (_SystemWindowsExtensions is null)
                     {
                         _SystemWindowsExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsExtensions).GetReference(filePath: "System.Windows.Extensions.dll", display: "System.Windows.Extensions (net60windows)");
                     }
@@ -1192,7 +1193,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindowsFormsDesign == null)
+                    if (_SystemWindowsFormsDesign is null)
                     {
                         _SystemWindowsFormsDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDesign).GetReference(filePath: "System.Windows.Forms.Design.dll", display: "System.Windows.Forms.Design (net60windows)");
                     }
@@ -1209,7 +1210,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindowsFormsDesignEditors == null)
+                    if (_SystemWindowsFormsDesignEditors is null)
                     {
                         _SystemWindowsFormsDesignEditors = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDesignEditors).GetReference(filePath: "System.Windows.Forms.Design.Editors.dll", display: "System.Windows.Forms.Design.Editors (net60windows)");
                     }
@@ -1226,7 +1227,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindowsForms == null)
+                    if (_SystemWindowsForms is null)
                     {
                         _SystemWindowsForms = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsForms).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net60windows)");
                     }
@@ -1243,7 +1244,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindowsFormsPrimitives == null)
+                    if (_SystemWindowsFormsPrimitives is null)
                     {
                         _SystemWindowsFormsPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsPrimitives).GetReference(filePath: "System.Windows.Forms.Primitives.dll", display: "System.Windows.Forms.Primitives (net60windows)");
                     }
@@ -1260,7 +1261,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindowsInputManipulations == null)
+                    if (_SystemWindowsInputManipulations is null)
                     {
                         _SystemWindowsInputManipulations = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsInputManipulations).GetReference(filePath: "System.Windows.Input.Manipulations.dll", display: "System.Windows.Input.Manipulations (net60windows)");
                     }
@@ -1277,7 +1278,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemWindowsPresentation == null)
+                    if (_SystemWindowsPresentation is null)
                     {
                         _SystemWindowsPresentation = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsPresentation).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net60windows)");
                     }
@@ -1294,7 +1295,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_SystemXaml == null)
+                    if (_SystemXaml is null)
                     {
                         _SystemXaml = AssemblyMetadata.CreateFromImage(Resources.SystemXaml).GetReference(filePath: "System.Xaml.dll", display: "System.Xaml (net60windows)");
                     }
@@ -1311,7 +1312,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_UIAutomationClient == null)
+                    if (_UIAutomationClient is null)
                     {
                         _UIAutomationClient = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClient).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net60windows)");
                     }
@@ -1328,7 +1329,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_UIAutomationClientSideProviders == null)
+                    if (_UIAutomationClientSideProviders is null)
                     {
                         _UIAutomationClientSideProviders = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClientSideProviders).GetReference(filePath: "UIAutomationClientSideProviders.dll", display: "UIAutomationClientSideProviders (net60windows)");
                     }
@@ -1345,7 +1346,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_UIAutomationProvider == null)
+                    if (_UIAutomationProvider is null)
                     {
                         _UIAutomationProvider = AssemblyMetadata.CreateFromImage(Resources.UIAutomationProvider).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net60windows)");
                     }
@@ -1362,7 +1363,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_UIAutomationTypes == null)
+                    if (_UIAutomationTypes is null)
                     {
                         _UIAutomationTypes = AssemblyMetadata.CreateFromImage(Resources.UIAutomationTypes).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net60windows)");
                     }
@@ -1379,7 +1380,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_WindowsBase == null)
+                    if (_WindowsBase is null)
                     {
                         _WindowsBase = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net60windows)");
                     }
@@ -1396,7 +1397,7 @@ namespace Basic.Reference.Assemblies
             {
                 get
                 {
-                    if (_WindowsFormsIntegration == null)
+                    if (_WindowsFormsIntegration is null)
                     {
                         _WindowsFormsIntegration = AssemblyMetadata.CreateFromImage(Resources.WindowsFormsIntegration).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net60windows)");
                     }
@@ -1404,15 +1405,15 @@ namespace Basic.Reference.Assemblies
                 }
             }
 
-            private static PortableExecutableReference[]? _all;
-            public static IEnumerable<PortableExecutableReference> All
+            private static ImmutableArray<PortableExecutableReference> _all;
+            public static ImmutableArray<PortableExecutableReference> All
             {
                 get
                 {
-                    if (_all == null)
+                    if (_all.IsDefault)
                     {
-                        _all = new PortableExecutableReference[]
-                        {
+                        _all =
+                        [
                             Accessibility,
                             MicrosoftVisualBasic,
                             MicrosoftVisualBasicForms,
@@ -1460,7 +1461,7 @@ namespace Basic.Reference.Assemblies
                             UIAutomationTypes,
                             WindowsBase,
                             WindowsFormsIntegration,
-                        };
+                        ];
                     }
                     return _all;
                 }
