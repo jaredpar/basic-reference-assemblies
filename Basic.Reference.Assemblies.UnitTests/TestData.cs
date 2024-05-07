@@ -25,6 +25,7 @@ namespace Basic.Reference.Assemblies.UnitTests
                     new object[] { "netstandard2.0", CombinedAssembly.NetStandard20.References.All },
                     new object[] { "net8.0", CombinedAssembly.Net80.References.All },
                     new object[] { "net8.0", AspNet80.References.All },
+                    new object[] { "net9.0", Net90.References.All },
                 };
             }
         }
@@ -65,6 +66,7 @@ namespace Basic.Reference.Assemblies.UnitTests
                     new object[] { "net8.0", Net80.ReferenceInfos.AllValues },
                     new object[] { "net8.0", Net80.ReferenceInfos.AllValues },
                     new object[] { "net8.0", Net80.ReferenceInfos.AllValues },
+                    new object[] { "net9.0", Net90.ReferenceInfos.AllValues },
 
                     new object[] { "netstandard2.0", CombinedAssembly.NetStandard20.ReferenceInfos.AllValues },
                     new object[] { "net472", CombinedAssembly.Net472.ReferenceInfos.AllValues },
