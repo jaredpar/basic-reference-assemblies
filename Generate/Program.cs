@@ -75,7 +75,7 @@ void Net80()
 
 void Net90()
 {
-    var content = GetGeneratedContent("Net90", [@"microsoft.netcore.app.ref\9.0.0-preview.3.24172.9\ref\net9.0"]);
+    var content = GetGeneratedContent("Net90", [@"microsoft.netcore.app.ref\9.0.0-preview.6.24327.7\ref\net9.0"]);
     var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net90");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -312,7 +312,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         var mvid = GetMvid(dllPath);
         var dll = Path.GetFileNameWithoutExtension(dllName);
         var logicalName = $"{lowerName}.{dll}";
-        var dllResourcePath = $@"{targetsPrefix}\{dllPath.Substring(realPackagePrefix.Length)}";
+        var dllResourcePath = Path.Join(targetsPrefix, dllPath.Substring(realPackagePrefix.Length));
 
         targetsContent.AppendLine($$"""
                     <EmbeddedResource Include="{{dllResourcePath}}" WithCulture="false">
