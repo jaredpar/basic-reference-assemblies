@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generate", "Generate\Genera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net90", "Basic.Reference.Assemblies.Net90\Basic.Reference.Assemblies.Net90.csproj", "{996A3527-7150-4785-940A-181B49EFFB80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net35", "Basic.Reference.Assemblies.Net35\Basic.Reference.Assemblies.Net35.csproj", "{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -223,6 +225,18 @@ Global
 		{996A3527-7150-4785-940A-181B49EFFB80}.Release|x64.Build.0 = Release|Any CPU
 		{996A3527-7150-4785-940A-181B49EFFB80}.Release|x86.ActiveCfg = Release|Any CPU
 		{996A3527-7150-4785-940A-181B49EFFB80}.Release|x86.Build.0 = Release|Any CPU
+		{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}.Debug|x64.Build.0 = Debug|Any CPU
+		{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}.Debug|x86.Build.0 = Debug|Any CPU
+		{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}.Release|x64.ActiveCfg = Release|Any CPU
+		{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}.Release|x64.Build.0 = Release|Any CPU
+		{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}.Release|x86.ActiveCfg = Release|Any CPU
+		{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

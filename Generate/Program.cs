@@ -18,6 +18,7 @@ Net90();
 AspNet80();
 NetStandard13();
 NetStandard20();
+Net35();
 Net461();
 Net472();
 CombinedReferenceInfo();
@@ -108,6 +109,14 @@ void NetStandard20()
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
     File.WriteAllText(Path.Combine(combinedDir, "Generated.NetStandard20.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(combinedDir, "Generated.NetStandard20.targets"), content.TargetsContent, encoding);
+}
+
+void Net35()
+{
+    var content = GetGeneratedContent("Net35", [@"microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5"], new Regex(@"System\.Enterprise.*"));
+    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net35");
+    File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
+    File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
 
 void Net461()
@@ -209,11 +218,18 @@ string GetWorkspacePath(string[] args)
 
 static Guid GetMvid(string filePath)
 {
-    using var fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read);
-    using var reader = new PEReader(fileStream, PEStreamOptions.LeaveOpen);
-    var mdReader = reader.GetMetadataReader();
-    GuidHandle handle = mdReader.GetModuleDefinition().Mvid;
-    return mdReader.GetGuid(handle);
+    try
+    {
+        using var fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read);
+        using var reader = new PEReader(fileStream, PEStreamOptions.LeaveOpen);
+        var mdReader = reader.GetMetadataReader();
+        GuidHandle handle = mdReader.GetModuleDefinition().Mvid;
+        return mdReader.GetGuid(handle);
+    }
+    catch (Exception ex)
+    {
+        throw new Exception($"Failed to get MVID for {filePath}", ex);
+    }
 }
 
 static string GetReferenceInfoIndented(string indent)
