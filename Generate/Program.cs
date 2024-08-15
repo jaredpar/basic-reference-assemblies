@@ -21,6 +21,7 @@ NetStandard13();
 NetStandard20();
 Net20();
 Net35();
+Net40();
 Net461();
 Net472();
 CombinedReferenceInfo();
@@ -125,6 +126,14 @@ void Net20()
 {
     var content = GetGeneratedContent("Net20", [@"microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0"]);
     var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net20");
+    File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
+    File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
+}
+
+void Net40()
+{
+    var content = GetGeneratedContent("Net40", [@"microsoft.netframework.referenceassemblies.net40\1.0.3\build\.NETFramework\v4.0"]);
+    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net40");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }

@@ -17,6 +17,7 @@ namespace Basic.Reference.Assemblies.UnitTests
                 {
                     new object[] { "net20", Net20.References.All },
                     new object[] { "net35", Net35.References.All },
+                    new object[] { "net40", Net40.References.All },
                     new object[] { "net461", Net461.References.All },
                     new object[] { "net472", Net472.References.All },
                     new object[] { "netcoreapp3.1", NetCoreApp31.References.All },
@@ -59,6 +60,7 @@ namespace Basic.Reference.Assemblies.UnitTests
                 {
                     new object[] { "net20", Net20.ReferenceInfos.AllValues },
                     new object[] { "net35", Net35.ReferenceInfos.AllValues },
+                    new object[] { "net40", Net40.ReferenceInfos.AllValues },
                     new object[] { "netstandard1.3", NetStandard13.ReferenceInfos.AllValues },
                     new object[] { "netstandard2.0", NetStandard20.ReferenceInfos.AllValues },
                     new object[] { "net461", Net461.ReferenceInfos.AllValues },
