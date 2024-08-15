@@ -1,0 +1,200 @@
+<Project>
+    <ItemGroup>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\Accessibility.dll" WithCulture="false">
+            <LogicalName>net20.Accessibility</LogicalName>
+            <Link>Resources\net20\Accessibility.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\AspNetMMCExt.dll" WithCulture="false">
+            <LogicalName>net20.AspNetMMCExt</LogicalName>
+            <Link>Resources\net20\AspNetMMCExt.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\cscompmgd.dll" WithCulture="false">
+            <LogicalName>net20.cscompmgd</LogicalName>
+            <Link>Resources\net20\cscompmgd.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\CustomMarshalers.dll" WithCulture="false">
+            <LogicalName>net20.CustomMarshalers</LogicalName>
+            <Link>Resources\net20\CustomMarshalers.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\IEExecRemote.dll" WithCulture="false">
+            <LogicalName>net20.IEExecRemote</LogicalName>
+            <Link>Resources\net20\IEExecRemote.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\IEHost.dll" WithCulture="false">
+            <LogicalName>net20.IEHost</LogicalName>
+            <Link>Resources\net20\IEHost.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\IIEHost.dll" WithCulture="false">
+            <LogicalName>net20.IIEHost</LogicalName>
+            <Link>Resources\net20\IIEHost.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\ISymWrapper.dll" WithCulture="false">
+            <LogicalName>net20.ISymWrapper</LogicalName>
+            <Link>Resources\net20\ISymWrapper.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\Microsoft.Build.Engine.dll" WithCulture="false">
+            <LogicalName>net20.Microsoft.Build.Engine</LogicalName>
+            <Link>Resources\net20\Microsoft.Build.Engine.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\Microsoft.Build.Framework.dll" WithCulture="false">
+            <LogicalName>net20.Microsoft.Build.Framework</LogicalName>
+            <Link>Resources\net20\Microsoft.Build.Framework.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\Microsoft.Build.Tasks.dll" WithCulture="false">
+            <LogicalName>net20.Microsoft.Build.Tasks</LogicalName>
+            <Link>Resources\net20\Microsoft.Build.Tasks.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\Microsoft.Build.Utilities.dll" WithCulture="false">
+            <LogicalName>net20.Microsoft.Build.Utilities</LogicalName>
+            <Link>Resources\net20\Microsoft.Build.Utilities.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\Microsoft.JScript.dll" WithCulture="false">
+            <LogicalName>net20.Microsoft.JScript</LogicalName>
+            <Link>Resources\net20\Microsoft.JScript.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\Microsoft.VisualBasic.Compatibility.Data.dll" WithCulture="false">
+            <LogicalName>net20.Microsoft.VisualBasic.Compatibility.Data</LogicalName>
+            <Link>Resources\net20\Microsoft.VisualBasic.Compatibility.Data.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\Microsoft.VisualBasic.Compatibility.dll" WithCulture="false">
+            <LogicalName>net20.Microsoft.VisualBasic.Compatibility</LogicalName>
+            <Link>Resources\net20\Microsoft.VisualBasic.Compatibility.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\Microsoft.VisualBasic.dll" WithCulture="false">
+            <LogicalName>net20.Microsoft.VisualBasic</LogicalName>
+            <Link>Resources\net20\Microsoft.VisualBasic.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\Microsoft.VisualBasic.Vsa.dll" WithCulture="false">
+            <LogicalName>net20.Microsoft.VisualBasic.Vsa</LogicalName>
+            <Link>Resources\net20\Microsoft.VisualBasic.Vsa.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\Microsoft.VisualC.dll" WithCulture="false">
+            <LogicalName>net20.Microsoft.VisualC</LogicalName>
+            <Link>Resources\net20\Microsoft.VisualC.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\Microsoft.Vsa.dll" WithCulture="false">
+            <LogicalName>net20.Microsoft.Vsa</LogicalName>
+            <Link>Resources\net20\Microsoft.Vsa.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\Microsoft.Vsa.Vb.CodeDOMProcessor.dll" WithCulture="false">
+            <LogicalName>net20.Microsoft.Vsa.Vb.CodeDOMProcessor</LogicalName>
+            <Link>Resources\net20\Microsoft.Vsa.Vb.CodeDOMProcessor.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\Microsoft_VsaVb.dll" WithCulture="false">
+            <LogicalName>net20.Microsoft_VsaVb</LogicalName>
+            <Link>Resources\net20\Microsoft_VsaVb.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\mscorlib.dll" WithCulture="false">
+            <LogicalName>net20.mscorlib</LogicalName>
+            <Link>Resources\net20\mscorlib.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\sysglobl.dll" WithCulture="false">
+            <LogicalName>net20.sysglobl</LogicalName>
+            <Link>Resources\net20\sysglobl.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Configuration.dll" WithCulture="false">
+            <LogicalName>net20.System.Configuration</LogicalName>
+            <Link>Resources\net20\System.Configuration.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Configuration.Install.dll" WithCulture="false">
+            <LogicalName>net20.System.Configuration.Install</LogicalName>
+            <Link>Resources\net20\System.Configuration.Install.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Data.dll" WithCulture="false">
+            <LogicalName>net20.System.Data</LogicalName>
+            <Link>Resources\net20\System.Data.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Data.OracleClient.dll" WithCulture="false">
+            <LogicalName>net20.System.Data.OracleClient</LogicalName>
+            <Link>Resources\net20\System.Data.OracleClient.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Data.SqlXml.dll" WithCulture="false">
+            <LogicalName>net20.System.Data.SqlXml</LogicalName>
+            <Link>Resources\net20\System.Data.SqlXml.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Deployment.dll" WithCulture="false">
+            <LogicalName>net20.System.Deployment</LogicalName>
+            <Link>Resources\net20\System.Deployment.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Design.dll" WithCulture="false">
+            <LogicalName>net20.System.Design</LogicalName>
+            <Link>Resources\net20\System.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.DirectoryServices.dll" WithCulture="false">
+            <LogicalName>net20.System.DirectoryServices</LogicalName>
+            <Link>Resources\net20\System.DirectoryServices.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.DirectoryServices.Protocols.dll" WithCulture="false">
+            <LogicalName>net20.System.DirectoryServices.Protocols</LogicalName>
+            <Link>Resources\net20\System.DirectoryServices.Protocols.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.dll" WithCulture="false">
+            <LogicalName>net20.System</LogicalName>
+            <Link>Resources\net20\System.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Drawing.Design.dll" WithCulture="false">
+            <LogicalName>net20.System.Drawing.Design</LogicalName>
+            <Link>Resources\net20\System.Drawing.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Drawing.dll" WithCulture="false">
+            <LogicalName>net20.System.Drawing</LogicalName>
+            <Link>Resources\net20\System.Drawing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.EnterpriseServices.dll" WithCulture="false">
+            <LogicalName>net20.System.EnterpriseServices</LogicalName>
+            <Link>Resources\net20\System.EnterpriseServices.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Management.dll" WithCulture="false">
+            <LogicalName>net20.System.Management</LogicalName>
+            <Link>Resources\net20\System.Management.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Messaging.dll" WithCulture="false">
+            <LogicalName>net20.System.Messaging</LogicalName>
+            <Link>Resources\net20\System.Messaging.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Runtime.Remoting.dll" WithCulture="false">
+            <LogicalName>net20.System.Runtime.Remoting</LogicalName>
+            <Link>Resources\net20\System.Runtime.Remoting.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Runtime.Serialization.Formatters.Soap.dll" WithCulture="false">
+            <LogicalName>net20.System.Runtime.Serialization.Formatters.Soap</LogicalName>
+            <Link>Resources\net20\System.Runtime.Serialization.Formatters.Soap.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Security.dll" WithCulture="false">
+            <LogicalName>net20.System.Security</LogicalName>
+            <Link>Resources\net20\System.Security.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.ServiceProcess.dll" WithCulture="false">
+            <LogicalName>net20.System.ServiceProcess</LogicalName>
+            <Link>Resources\net20\System.ServiceProcess.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Transactions.dll" WithCulture="false">
+            <LogicalName>net20.System.Transactions</LogicalName>
+            <Link>Resources\net20\System.Transactions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Web.dll" WithCulture="false">
+            <LogicalName>net20.System.Web</LogicalName>
+            <Link>Resources\net20\System.Web.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Web.Mobile.dll" WithCulture="false">
+            <LogicalName>net20.System.Web.Mobile</LogicalName>
+            <Link>Resources\net20\System.Web.Mobile.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Web.RegularExpressions.dll" WithCulture="false">
+            <LogicalName>net20.System.Web.RegularExpressions</LogicalName>
+            <Link>Resources\net20\System.Web.RegularExpressions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Web.Services.dll" WithCulture="false">
+            <LogicalName>net20.System.Web.Services</LogicalName>
+            <Link>Resources\net20\System.Web.Services.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Windows.Forms.dll" WithCulture="false">
+            <LogicalName>net20.System.Windows.Forms</LogicalName>
+            <Link>Resources\net20\System.Windows.Forms.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0\System.Xml.dll" WithCulture="false">
+            <LogicalName>net20.System.Xml</LogicalName>
+            <Link>Resources\net20\System.Xml.dll</Link>
+        </EmbeddedResource>
+    </ItemGroup>
+</Project>

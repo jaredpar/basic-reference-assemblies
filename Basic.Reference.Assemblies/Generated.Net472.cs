@@ -384,6 +384,12 @@ public static partial class Net472
         private static byte[]? _SystemDynamic;
 
         /// <summary>
+        /// The image bytes for System.EnterpriseServices.dll
+        /// </summary>
+        public static byte[] SystemEnterpriseServices => ResourceLoader.GetOrCreateResource(ref _SystemEnterpriseServices, "net472.System.EnterpriseServices");
+        private static byte[]? _SystemEnterpriseServices;
+
+        /// <summary>
         /// The image bytes for System.IdentityModel.dll
         /// </summary>
         public static byte[] SystemIdentityModel => ResourceLoader.GetOrCreateResource(ref _SystemIdentityModel, "net472.System.IdentityModel");
@@ -1734,6 +1740,11 @@ public static partial class Net472
         public static ReferenceInfo SystemDynamic => new ReferenceInfo("System.Dynamic.dll", Resources.SystemDynamic, Net472.References.SystemDynamic, global::System.Guid.Parse("70b59017-4b87-4839-96a4-1ece44f196df"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.EnterpriseServices.dll
+        /// </summary>
+        public static ReferenceInfo SystemEnterpriseServices => new ReferenceInfo("System.EnterpriseServices.dll", Resources.SystemEnterpriseServices, Net472.References.SystemEnterpriseServices, global::System.Guid.Parse("754c3569-9c41-4c09-ac2a-9c5f3a5e993f"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IdentityModel.dll
         /// </summary>
         public static ReferenceInfo SystemIdentityModel => new ReferenceInfo("System.IdentityModel.dll", Resources.SystemIdentityModel, Net472.References.SystemIdentityModel, global::System.Guid.Parse("6635be9f-d1ff-4c5d-878f-ac918e7e4791"));
@@ -2663,6 +2674,7 @@ public static partial class Net472
                         SystemDrawingDesign,
                         SystemDrawing,
                         SystemDynamic,
+                        SystemEnterpriseServices,
                         SystemIdentityModel,
                         SystemIdentityModelSelectors,
                         SystemIdentityModelServices,
@@ -3900,6 +3912,23 @@ public static partial class Net472
                     _SystemDynamic = AssemblyMetadata.CreateFromImage(Resources.SystemDynamic).GetReference(filePath: "System.Dynamic.dll", display: "System.Dynamic (net472)");
                 }
                 return _SystemDynamic;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemEnterpriseServices;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.EnterpriseServices.dll
+        /// </summary>
+        public static PortableExecutableReference SystemEnterpriseServices
+        {
+            get
+            {
+                if (_SystemEnterpriseServices is null)
+                {
+                    _SystemEnterpriseServices = AssemblyMetadata.CreateFromImage(Resources.SystemEnterpriseServices).GetReference(filePath: "System.EnterpriseServices.dll", display: "System.EnterpriseServices (net472)");
+                }
+                return _SystemEnterpriseServices;
             }
         }
 
@@ -6898,6 +6927,7 @@ public static partial class Net472
                         SystemDrawingDesign,
                         SystemDrawing,
                         SystemDynamic,
+                        SystemEnterpriseServices,
                         SystemIdentityModel,
                         SystemIdentityModelSelectors,
                         SystemIdentityModelServices,

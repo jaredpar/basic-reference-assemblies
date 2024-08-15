@@ -232,6 +232,10 @@
             <LogicalName>net35.System.Drawing</LogicalName>
             <Link>Resources\net35\System.Drawing.dll</Link>
         </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.EnterpriseServices.dll" WithCulture="false">
+            <LogicalName>net35.System.EnterpriseServices</LogicalName>
+            <Link>Resources\net35\System.EnterpriseServices.dll</Link>
+        </EmbeddedResource>
         <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.IdentityModel.dll" WithCulture="false">
             <LogicalName>net35.System.IdentityModel</LogicalName>
             <Link>Resources\net35\System.IdentityModel.dll</Link>

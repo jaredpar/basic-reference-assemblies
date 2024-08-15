@@ -360,6 +360,12 @@ public static partial class Net35
         private static byte[]? _SystemDrawing;
 
         /// <summary>
+        /// The image bytes for System.EnterpriseServices.dll
+        /// </summary>
+        public static byte[] SystemEnterpriseServices => ResourceLoader.GetOrCreateResource(ref _SystemEnterpriseServices, "net35.System.EnterpriseServices");
+        private static byte[]? _SystemEnterpriseServices;
+
+        /// <summary>
         /// The image bytes for System.IdentityModel.dll
         /// </summary>
         public static byte[] SystemIdentityModel => ResourceLoader.GetOrCreateResource(ref _SystemIdentityModel, "net35.System.IdentityModel");
@@ -916,6 +922,11 @@ public static partial class Net35
         public static ReferenceInfo SystemDrawing => new ReferenceInfo("System.Drawing.dll", Resources.SystemDrawing, Net35.References.SystemDrawing, global::System.Guid.Parse("e97641f9-9eae-4ed4-886a-8a22fa6fac2c"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.EnterpriseServices.dll
+        /// </summary>
+        public static ReferenceInfo SystemEnterpriseServices => new ReferenceInfo("System.EnterpriseServices.dll", Resources.SystemEnterpriseServices, Net35.References.SystemEnterpriseServices, global::System.Guid.Parse("7a462087-7be0-46d1-b6ab-b5c74d8b9000"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IdentityModel.dll
         /// </summary>
         public static ReferenceInfo SystemIdentityModel => new ReferenceInfo("System.IdentityModel.dll", Resources.SystemIdentityModel, Net35.References.SystemIdentityModel, global::System.Guid.Parse("3a4ebf5d-4cbb-4d49-98c8-fc6c4c0b9c1b"));
@@ -1196,6 +1207,7 @@ public static partial class Net35
                         System,
                         SystemDrawingDesign,
                         SystemDrawing,
+                        SystemEnterpriseServices,
                         SystemIdentityModel,
                         SystemIdentityModelSelectors,
                         SystemIOLog,
@@ -2239,6 +2251,23 @@ public static partial class Net35
             }
         }
 
+        private static PortableExecutableReference? _SystemEnterpriseServices;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.EnterpriseServices.dll
+        /// </summary>
+        public static PortableExecutableReference SystemEnterpriseServices
+        {
+            get
+            {
+                if (_SystemEnterpriseServices is null)
+                {
+                    _SystemEnterpriseServices = AssemblyMetadata.CreateFromImage(Resources.SystemEnterpriseServices).GetReference(filePath: "System.EnterpriseServices.dll", display: "System.EnterpriseServices (net35)");
+                }
+                return _SystemEnterpriseServices;
+            }
+        }
+
         private static PortableExecutableReference? _SystemIdentityModel;
 
         /// <summary>
@@ -3037,6 +3066,7 @@ public static partial class Net35
                         System,
                         SystemDrawingDesign,
                         SystemDrawing,
+                        SystemEnterpriseServices,
                         SystemIdentityModel,
                         SystemIdentityModelSelectors,
                         SystemIOLog,

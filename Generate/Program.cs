@@ -14,10 +14,12 @@ Net60();
 Net60Windows();
 Net70();
 Net80();
+Net80Windows();
 Net90();
 AspNet80();
 NetStandard13();
 NetStandard20();
+Net20();
 Net35();
 Net461();
 Net472();
@@ -74,6 +76,14 @@ void Net80()
     File.WriteAllText(Path.Combine(combinedDir, "Generated.Net80.targets"), content.TargetsContent, encoding);
 }
 
+void Net80Windows()
+{
+    var content = GetGeneratedContent("Net80Windows", [@"microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0"]);
+    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net80Windows");
+    File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
+    File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
+}
+
 void Net90()
 {
     var content = GetGeneratedContent("Net90", [@"microsoft.netcore.app.ref\9.0.0-preview.6.24327.7\ref\net9.0"]);
@@ -111,9 +121,17 @@ void NetStandard20()
     File.WriteAllText(Path.Combine(combinedDir, "Generated.NetStandard20.targets"), content.TargetsContent, encoding);
 }
 
+void Net20()
+{
+    var content = GetGeneratedContent("Net20", [@"microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0"]);
+    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net20");
+    File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
+    File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
+}
+
 void Net35()
 {
-    var content = GetGeneratedContent("Net35", [@"microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5"], new Regex(@"System\.Enterprise.*"));
+    var content = GetGeneratedContent("Net35", [@"microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5"]);
     var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net35");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -121,7 +139,7 @@ void Net35()
 
 void Net461()
 {
-    var content = GetGeneratedContent("Net461", [@"microsoft.netframework.referenceassemblies.net461\1.0.3\build\.NETFramework\v4.6.1"], new Regex(@"System\.Enterprise.*"));
+    var content = GetGeneratedContent("Net461", [@"microsoft.netframework.referenceassemblies.net461\1.0.3\build\.NETFramework\v4.6.1"]);
     var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net461");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -129,7 +147,7 @@ void Net461()
 
 void Net472()
 {
-    var content = GetGeneratedContent("Net472", [@"microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2"], new Regex(@"System\.Enterprise.*"));
+    var content = GetGeneratedContent("Net472", [@"microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2"]);
     var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net472");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -216,7 +234,7 @@ string GetWorkspacePath(string[] args)
     throw new Exception("Could not find workspace path");
 }
 
-static Guid GetMvid(string filePath)
+static (Guid Mvid, bool IsAssembly)? GetMvid(string filePath)
 {
     try
     {
@@ -224,11 +242,12 @@ static Guid GetMvid(string filePath)
         using var reader = new PEReader(fileStream, PEStreamOptions.LeaveOpen);
         var mdReader = reader.GetMetadataReader();
         GuidHandle handle = mdReader.GetModuleDefinition().Mvid;
-        return mdReader.GetGuid(handle);
+        return (mdReader.GetGuid(handle), mdReader.IsAssembly);
     }
-    catch (Exception ex)
+    catch (Exception)
     {
-        throw new Exception($"Failed to get MVID for {filePath}", ex);
+        // The ref assemblies often include a few native DLLs. These won't have MIVD so we can just ignore them.
+        return null;
     }
 }
 
@@ -325,7 +344,11 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
             continue;
         }
 
-        var mvid = GetMvid(dllPath);
+        if (GetMvid(dllPath) is not var (mvid, isAssembly) || !isAssembly)
+        {
+            continue;
+        }
+
         var dll = Path.GetFileNameWithoutExtension(dllName);
         var logicalName = $"{lowerName}.{dll}";
         var dllResourcePath = Path.Join(targetsPrefix, dllPath.Substring(realPackagePrefix.Length));
