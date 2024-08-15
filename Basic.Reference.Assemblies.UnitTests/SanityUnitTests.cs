@@ -5,27 +5,33 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Xunit;
+using Xunit.Abstractions;
+using Xunit.Sdk;
 
 namespace Basic.Reference.Assemblies.UnitTests;
 
-public class SanityUnitTests
+public class SanityUnitTests(ITestOutputHelper outputHelper)
 {
+    public ITestOutputHelper TestOutputHelper { get; } = outputHelper;
+
     [Theory]
     [MemberData(nameof(TestData.ApplicationReferences), MemberType = typeof(TestData))]
     public void AllAppCanCompile(string targetFramework, IEnumerable<MetadataReference> references)
     {
-        var source = @"
-using System;
+        TestOutputHelper.WriteLine(targetFramework);
+        var source = """
+            using System;
 
-public class C
-{
-public Exception Exception;
+            public class C
+            {
+                public Exception Exception;
 
-static void Main() 
-{
-    Console.WriteLine(""Hello World"");
-}
-}";
+                static void Main() 
+                {
+                    Console.WriteLine("Hello World");
+                }
+            }
+            """;
 
         var compilation = CSharpCompilation.Create(
             "Example",
@@ -91,7 +97,7 @@ static void Main()
     public void AllReferenceInfo(string targetFramework, IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> referenceValues)
     {
         var list = referenceValues.ToList();
-        Assert.True(list.Count > 50, $"Not enough assemblies in {targetFramework}"); // Make sure we have it all
+        Assert.True(list.Count > 35, $"Not enough assemblies in {targetFramework}"); // Make sure we have it all
         foreach (var tuple in list)
         {
             Assert.Equal(tuple.Mvid, tuple.Reference.GetMvid());

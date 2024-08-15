@@ -244,6 +244,10 @@
             <LogicalName>net461.System.Dynamic</LogicalName>
             <Link>Resources\net461\System.Dynamic.dll</Link>
         </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.3\build\.NETFramework\v4.6.1\System.EnterpriseServices.dll" WithCulture="false">
+            <LogicalName>net461.System.EnterpriseServices</LogicalName>
+            <Link>Resources\net461\System.EnterpriseServices.dll</Link>
+        </EmbeddedResource>
         <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net461\1.0.3\build\.NETFramework\v4.6.1\System.IdentityModel.dll" WithCulture="false">
             <LogicalName>net461.System.IdentityModel</LogicalName>
             <Link>Resources\net461\System.IdentityModel.dll</Link>

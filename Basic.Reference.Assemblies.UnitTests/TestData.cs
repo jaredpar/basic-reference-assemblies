@@ -15,13 +15,16 @@ namespace Basic.Reference.Assemblies.UnitTests
             {
                 return new object[][]
                 {
+                    new object[] { "net20", Net20.References.All },
+                    new object[] { "net35", Net35.References.All },
+                    new object[] { "net40", Net40.References.All },
                     new object[] { "net461", Net461.References.All },
                     new object[] { "net472", Net472.References.All },
                     new object[] { "netcoreapp3.1", NetCoreApp31.References.All },
                     new object[] { "net5.0", Net50.References.All },
                     new object[] { "net6.0", Net60.References.All },
                     new object[] { "net7.0", Net70.References.All },
-                    new object[] { "net8.0", Net70.References.All },
+                    new object[] { "net8.0", Net80.References.All },
                     new object[] { "netstandard2.0", CombinedAssembly.NetStandard20.References.All },
                     new object[] { "net8.0", CombinedAssembly.Net80.References.All },
                     new object[] { "net8.0", AspNet80.References.All },
@@ -55,6 +58,9 @@ namespace Basic.Reference.Assemblies.UnitTests
             {
                 return new object[][]
                 {
+                    new object[] { "net20", Net20.ReferenceInfos.AllValues },
+                    new object[] { "net35", Net35.ReferenceInfos.AllValues },
+                    new object[] { "net40", Net40.ReferenceInfos.AllValues },
                     new object[] { "netstandard1.3", NetStandard13.ReferenceInfos.AllValues },
                     new object[] { "netstandard2.0", NetStandard20.ReferenceInfos.AllValues },
                     new object[] { "net461", Net461.ReferenceInfos.AllValues },
@@ -63,8 +69,6 @@ namespace Basic.Reference.Assemblies.UnitTests
                     new object[] { "net5.0", Net50.ReferenceInfos.AllValues },
                     new object[] { "net6.0", Net60.ReferenceInfos.AllValues },
                     new object[] { "net7.0", Net70.ReferenceInfos.AllValues },
-                    new object[] { "net8.0", Net80.ReferenceInfos.AllValues },
-                    new object[] { "net8.0", Net80.ReferenceInfos.AllValues },
                     new object[] { "net8.0", Net80.ReferenceInfos.AllValues },
                     new object[] { "net9.0", Net90.ReferenceInfos.AllValues },
 
