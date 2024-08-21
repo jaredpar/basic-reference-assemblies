@@ -2,9 +2,9 @@
 
 ## Creating a new Target Framework
 
-To create a new Target Framework assembly do the following. Note: this is written for creating `net7.0` but can be applied to any target framework by using the approriate moniker:
+To create a new Target Framework assembly do the following. Note: this is written for creating `net7.0` but can be applied to any target framework by using the appropriate moniker:
 
-First need to find the version of the Microsoft.NETCore.App.Ref to use. Navigate to the [NuPkg link](https://www.nuget.org/packages/Microsoft.NETCore.App.Ref) and find the latest version. In this case we'll be using 7.0.0-rc.1.22426.10. 
+First need to find the version of the Microsoft.NETCore.App.Ref to use. Navigate to the [NuPkg link](https://www.nuget.org/packages/Microsoft.NETCore.App.Ref) and find the latest version. In this case we'll be using 7.0.0-rc.1.22426.10.
 
 Create the directory `Basic.Reference.Assemblies.Net70` and add a project file with the following format:
 
