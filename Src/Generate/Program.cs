@@ -332,7 +332,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
             {
         """);
 
-    var allPropNames = ProcessDlls(
+    ProcessDlls(
         name,
         realPackagePaths,
         realPackagePrefix,
@@ -341,58 +341,6 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         resourcesContent,
         refContent,
         refInfoContent);
-
-    refInfoContent.AppendLine("""
-                private static ImmutableArray<ReferenceInfo> _all;
-                public static ImmutableArray<ReferenceInfo> All
-                {
-                    get
-                    {
-                        if (_all.IsDefault)
-                        {
-                            _all =
-                            [
-        """);
-
-    refContent.AppendLine("""
-                private static ImmutableArray<PortableExecutableReference> _all;
-                public static ImmutableArray<PortableExecutableReference> All
-                {
-                    get
-                    {
-                        if (_all.IsDefault)
-                        {
-                            _all =
-                            [
-        """);
-
-    foreach (var propName in allPropNames)
-    {
-      refInfoContent.AppendLine($"                        {propName},");
-      refContent.AppendLine($"                        {propName},");
-    }
-
-    refContent.AppendLine("""
-                            ];
-                        }
-                        return _all;
-                    }
-                }
-            }
-        }
-        """);
-
-    refInfoContent.AppendLine("""
-                            ];
-                        }
-                        return _all;
-                    }
-                }
-
-                public static IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> AllValues => All.Select(x => x.AsTuple());
-            }
-        }
-        """);
 
     resourcesContent.AppendLine("""
 
@@ -425,7 +373,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
 
     return (codeContent.ToString(), targetsContent.ToString());
 
-    static List<string> ProcessDlls(
+    void ProcessDlls(
         string name,
         string[] packagePaths,
         string packagePrefix,
@@ -492,7 +440,57 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
                 """);
         }
 
-        return allPropNames;
+        refInfoContent.AppendLine("""
+                    private static ImmutableArray<ReferenceInfo> _all;
+                    public static ImmutableArray<ReferenceInfo> All
+                    {
+                        get
+                        {
+                            if (_all.IsDefault)
+                            {
+                                _all =
+                                [
+            """);
+
+        refContent.AppendLine("""
+                    private static ImmutableArray<PortableExecutableReference> _all;
+                    public static ImmutableArray<PortableExecutableReference> All
+                    {
+                        get
+                        {
+                            if (_all.IsDefault)
+                            {
+                                _all =
+                                [
+            """);
+
+        foreach (var propName in allPropNames)
+        {
+        refInfoContent.AppendLine($"                        {propName},");
+        refContent.AppendLine($"                        {propName},");
+        }
+
+        refContent.AppendLine("""
+                                ];
+                            }
+                            return _all;
+                        }
+                    }
+                }
+            }
+            """);
+
+        refInfoContent.AppendLine("""
+                                ];
+                            }
+                            return _all;
+                        }
+                    }
+
+                    public static IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> AllValues => All.Select(x => x.AsTuple());
+                }
+            }
+            """);
     }
 
     static IEnumerable<(string FilePath, string RelativeFilePath, Guid Mvid)> FindDlls(string[] packagePaths, string packagePrefix)
