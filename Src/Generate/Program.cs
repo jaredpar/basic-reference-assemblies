@@ -333,29 +333,13 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         """);
 
     var lowerName = name.ToLower();
-    var dllPaths = new List<string>();
-    foreach (var realPackagePath in realPackagePaths)
-    {
-        dllPaths.AddRange(Directory.GetFiles(realPackagePath, "*.dll"));
-        var facadesPath = Path.Combine(realPackagePath, "Facades");
-        if (Directory.Exists(facadesPath))
-        {
-            dllPaths.AddRange(Directory.GetFiles(facadesPath, "*.dll"));
-        }
-    }
-
     var allPropNames = new List<string>();
-    foreach (var dllPath in dllPaths)
+    foreach (var dllInfo in FindDlls(realPackagePaths))
     {
-        var dllName = Path.GetFileName(dllPath)!;
-        if (GetMvid(dllPath) is not var (mvid, isAssembly) || !isAssembly)
-        {
-            continue;
-        }
-
+        var dllName = Path.GetFileName(dllInfo.FilePath)!;
         var dll = Path.GetFileNameWithoutExtension(dllName);
         var logicalName = $"{lowerName}.{dll}";
-        var dllResourcePath = Path.Join(targetsPrefix, dllPath.Substring(realPackagePrefix.Length));
+        var dllResourcePath = Path.Join(targetsPrefix, dllInfo.RelativeFilePath);
 
         targetsContent.AppendLine($$"""
                     <EmbeddedResource Include="{{dllResourcePath}}" WithCulture="false">
@@ -381,7 +365,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
                     /// <summary>
                     /// The <see cref="ReferenceInfo"/> for {{dllName}}
                     /// </summary>
-                    public static ReferenceInfo {{propName}} => new ReferenceInfo("{{dllName}}", Resources.{{propName}}, {{name}}.References.{{propName}}, global::System.Guid.Parse("{{mvid}}"));
+                    public static ReferenceInfo {{propName}} => new ReferenceInfo("{{dllName}}", Resources.{{propName}}, {{name}}.References.{{propName}}, global::System.Guid.Parse("{{dllInfo.Mvid}}"));
             """);
 
         metadataContent.AppendLine($$"""
@@ -487,6 +471,32 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         """);
 
     return (codeContent.ToString(), targetsContent.ToString());
+
+    IEnumerable<(string FilePath, string RelativeFilePath, Guid Mvid)> FindDlls(string[] packagePaths)
+    {
+        var dllPaths = new List<string>();
+        foreach (var realPackagePath in realPackagePaths)
+        {
+            dllPaths.AddRange(Directory.GetFiles(realPackagePath, "*.dll"));
+            var facadesPath = Path.Combine(realPackagePath, "Facades");
+            if (Directory.Exists(facadesPath))
+            {
+                dllPaths.AddRange(Directory.GetFiles(facadesPath, "*.dll"));
+            }
+        }
+
+        var allPropNames = new List<string>();
+        foreach (var dllPath in dllPaths)
+        {
+            if (GetMvid(dllPath) is not var (mvid, isAssembly) || !isAssembly)
+            {
+                continue;
+            }
+
+            var relativeFilePath = dllPath.Substring(realPackagePrefix.Length);
+            yield return (dllPath, relativeFilePath, mvid);
+        }
+    }
 }
 
 static (string CodeContent, string TargetsContent) GetGeneratedContent(string name, string[] packagePaths)
