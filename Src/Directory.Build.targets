@@ -1,7 +1,7 @@
 <Project>
 
   <ItemGroup Condition="'$(IsPackable)' == 'true'">
-    <Compile Include="..\Shared\ResourceLoader.cs" Link="ResourceLoader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shared\ResourceLoader.cs" Link="ResourceLoader.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup Condition="'$(IsPackable)' == 'true'">
-    <None Include="$(MSBuildThisFileDirectory)README.md" Pack="true" PackagePath="\" />
+    <None Include="$(MSBuildThisFileDirectory)..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>

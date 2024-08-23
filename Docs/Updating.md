@@ -24,7 +24,7 @@ Create the directory `Basic.Reference.Assemblies.Net70` and add a project file w
 </Project>
 ```
 
-Run `dotnet restore` on `Basic.Reference.Assemblies.Net70.csproj` to ensure the NuPkg is downloaded to the machine. Update `Generate\Program.cs` file to have an entry for the new target framework
+Run `dotnet restore` on `Src\Basic.Reference.Assemblies.Net70.csproj` to ensure the NuPkg is downloaded to the machine. Update `Src\Generate\Program.cs` file to have an entry for the new target framework
 
 ```csharp
 void Net70()
@@ -48,5 +48,5 @@ To upgrade an existing target framework do the following:
 
 1. Navigate to https://www.nuget.org/packages/Microsoft.NETCore.App.Ref and find the latest version for the target framework. For say `net6.0` that will be the latest version begining with `6.0`. 
 2. Move to that version in the appropriate project file. For say `net6.0` that wil be Basic.Reference.Assemblies.Net60.csproj
-3. Move to that version in `Generate\Program.cs` for the target framework
-4. Run `dotnet run Generate\Generate.csproj`
+3. Move to that version in `Src\Generate\Program.cs` for the target framework
+4. Run `dotnet run Src\Generate\Generate.csproj`

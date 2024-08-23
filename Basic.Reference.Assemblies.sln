@@ -3,45 +3,45 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31612.314
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.NetCoreApp31", "Basic.Reference.Assemblies.NetCoreApp31\Basic.Reference.Assemblies.NetCoreApp31.csproj", "{23924D94-13B5-48E4-B90D-E55ADB6E5404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.NetCoreApp31", "Src\Basic.Reference.Assemblies.NetCoreApp31\Basic.Reference.Assemblies.NetCoreApp31.csproj", "{23924D94-13B5-48E4-B90D-E55ADB6E5404}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.UnitTests", "Basic.Reference.Assemblies.UnitTests\Basic.Reference.Assemblies.UnitTests.csproj", "{DF2FCB24-4D84-46F8-9469-CC48C9AC9CC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.UnitTests", "Src\Basic.Reference.Assemblies.UnitTests\Basic.Reference.Assemblies.UnitTests.csproj", "{DF2FCB24-4D84-46F8-9469-CC48C9AC9CC5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net50", "Basic.Reference.Assemblies.Net50\Basic.Reference.Assemblies.Net50.csproj", "{A14B94F6-BC0E-4412-ACDF-9C9640220B03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net50", "Src\Basic.Reference.Assemblies.Net50\Basic.Reference.Assemblies.Net50.csproj", "{A14B94F6-BC0E-4412-ACDF-9C9640220B03}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.NetStandard20", "Basic.Reference.Assemblies.NetStandard20\Basic.Reference.Assemblies.NetStandard20.csproj", "{36D1BA52-3A5E-4680-8B47-26A308DFC889}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.NetStandard20", "Src\Basic.Reference.Assemblies.NetStandard20\Basic.Reference.Assemblies.NetStandard20.csproj", "{36D1BA52-3A5E-4680-8B47-26A308DFC889}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies", "Basic.Reference.Assemblies\Basic.Reference.Assemblies.csproj", "{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies", "Src\Basic.Reference.Assemblies\Basic.Reference.Assemblies.csproj", "{28EA430D-F84C-46DE-B2EC-D60D1C0A437C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net472", "Basic.Reference.Assemblies.Net472\Basic.Reference.Assemblies.Net472.csproj", "{6F49C153-3DB0-4286-AA66-51B1603D84AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net472", "Src\Basic.Reference.Assemblies.Net472\Basic.Reference.Assemblies.Net472.csproj", "{6F49C153-3DB0-4286-AA66-51B1603D84AC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net60", "Basic.Reference.Assemblies.Net60\Basic.Reference.Assemblies.Net60.csproj", "{E2269796-09B5-40C8-85ED-476B5E71B29D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net60", "Src\Basic.Reference.Assemblies.Net60\Basic.Reference.Assemblies.Net60.csproj", "{E2269796-09B5-40C8-85ED-476B5E71B29D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net461", "Basic.Reference.Assemblies.Net461\Basic.Reference.Assemblies.Net461.csproj", "{214260A9-1E3C-400C-A0D1-2BD099F60AD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net461", "Src\Basic.Reference.Assemblies.Net461\Basic.Reference.Assemblies.Net461.csproj", "{214260A9-1E3C-400C-A0D1-2BD099F60AD7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.NetStandard13", "Basic.Reference.Assemblies.NetStandard13\Basic.Reference.Assemblies.NetStandard13.csproj", "{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.NetStandard13", "Src\Basic.Reference.Assemblies.NetStandard13\Basic.Reference.Assemblies.NetStandard13.csproj", "{DF0A6565-DAB8-4646-AEB4-AF322BE8CBC5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net70", "Basic.Reference.Assemblies.Net70\Basic.Reference.Assemblies.Net70.csproj", "{24CCB309-D324-4AD6-A1D4-7E9CFD82A7FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net70", "Src\Basic.Reference.Assemblies.Net70\Basic.Reference.Assemblies.Net70.csproj", "{24CCB309-D324-4AD6-A1D4-7E9CFD82A7FD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net60Windows", "Basic.Reference.Assemblies.Net60Windows\Basic.Reference.Assemblies.Net60Windows.csproj", "{BBFE738E-E386-4F29-933C-318B9052097B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic.Reference.Assemblies.Net60Windows", "Src\Basic.Reference.Assemblies.Net60Windows\Basic.Reference.Assemblies.Net60Windows.csproj", "{BBFE738E-E386-4F29-933C-318B9052097B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net80", "Basic.Reference.Assemblies.Net80\Basic.Reference.Assemblies.Net80.csproj", "{DF1F1959-6D1E-4DF2-9013-81747C95194C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net80", "Src\Basic.Reference.Assemblies.Net80\Basic.Reference.Assemblies.Net80.csproj", "{DF1F1959-6D1E-4DF2-9013-81747C95194C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.AspNet80", "Basic.Reference.Assemblies.AspNet80\Basic.Reference.Assemblies.AspNet80.csproj", "{AD797DEA-E9DC-470B-861C-F049AD858B2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.AspNet80", "Src\Basic.Reference.Assemblies.AspNet80\Basic.Reference.Assemblies.AspNet80.csproj", "{AD797DEA-E9DC-470B-861C-F049AD858B2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generate", "Generate\Generate.csproj", "{597AECC8-C644-4E8B-A429-B1F8CA015C90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generate", "Src\Generate\Generate.csproj", "{597AECC8-C644-4E8B-A429-B1F8CA015C90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net90", "Basic.Reference.Assemblies.Net90\Basic.Reference.Assemblies.Net90.csproj", "{996A3527-7150-4785-940A-181B49EFFB80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net90", "Src\Basic.Reference.Assemblies.Net90\Basic.Reference.Assemblies.Net90.csproj", "{996A3527-7150-4785-940A-181B49EFFB80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net35", "Basic.Reference.Assemblies.Net35\Basic.Reference.Assemblies.Net35.csproj", "{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net35", "Src\Basic.Reference.Assemblies.Net35\Basic.Reference.Assemblies.Net35.csproj", "{013D5D0E-0B16-4C3F-8D93-26E6FE333E2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net20", "Basic.Reference.Assemblies.Net20\Basic.Reference.Assemblies.Net20.csproj", "{0370E0CF-21D3-45D8-A517-CFBE43E3ABCF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net20", "Src\Basic.Reference.Assemblies.Net20\Basic.Reference.Assemblies.Net20.csproj", "{0370E0CF-21D3-45D8-A517-CFBE43E3ABCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net80Windows", "Basic.Reference.Assemblies.Net80Windows\Basic.Reference.Assemblies.Net80Windows.csproj", "{45EA84F5-A8D8-47C7-BED8-D4D8AD5F6DE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net80Windows", "Src\Basic.Reference.Assemblies.Net80Windows\Basic.Reference.Assemblies.Net80Windows.csproj", "{45EA84F5-A8D8-47C7-BED8-D4D8AD5F6DE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net40", "Basic.Reference.Assemblies.Net40\Basic.Reference.Assemblies.Net40.csproj", "{91269B33-796A-4143-A96E-072D87A2C084}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.Net40", "Src\Basic.Reference.Assemblies.Net40\Basic.Reference.Assemblies.Net40.csproj", "{91269B33-796A-4143-A96E-072D87A2C084}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.AspNet90", "Basic.Reference.Assemblies.AspNet90\Basic.Reference.Assemblies.AspNet90.csproj", "{72C15DA0-4D3F-424A-9717-AB8B332A8DD4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.AspNet90", "Src\Basic.Reference.Assemblies.AspNet90\Basic.Reference.Assemblies.AspNet90.csproj", "{72C15DA0-4D3F-424A-9717-AB8B332A8DD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
