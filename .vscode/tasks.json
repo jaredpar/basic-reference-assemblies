@@ -1,37 +1,39 @@
 {
-	"version": "2.0.0",
-	"tasks": [
-		{            
-			"label": "build",
+    "version": "2.0.0",
+    "tasks": [
+        {            
+            "label": "build",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
                 "${workspaceFolder}/Basic.Reference.Assemblies.sln",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "/consoleloggerparameters:NoSummary",
+                "/tl:off"
             ],
             "problemMatcher": "$msCompile",
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
-		},
-		{            
-			"label": "build generate",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        },
+        {            
+            "label": "build generate",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Generate/Generate.csproj",
+                "${workspaceFolder}/Src/Generate/Generate.csproj",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "/consoleloggerparameters:NoSummary",
+                "/tl:off"
             ],
             "problemMatcher": "$msCompile",
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
-		}
-	]
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        }
+    ]
 }

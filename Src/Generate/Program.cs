@@ -115,7 +115,7 @@ void NetStandard13()
     // netstandard1.3 is a special case because it's not a single package. Instead the collection of DLLs that make
     // up the TFM are just checked into the repo directly.
     var realPackagePath = Path.Combine(srcPath, "Resources", "netstandard1.3");
-    var content = GetGeneratedContentCore("NetStandard13", [realPackagePath], srcPath, @"$(MSBuildThisFileDirectory)..", excludePattern: null);
+    var content = GetGeneratedContentCore("NetStandard13", [realPackagePath], srcPath, @"$(MSBuildThisFileDirectory)..");
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.NetStandard13");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -300,7 +300,7 @@ static string GetReferenceInfo(string containingTypeName) => $$"""
     #endif
     """;
 
-static (string CodeContent, string TargetsContent) GetGeneratedContentCore(string name, string[] realPackagePaths, string realPackagePrefix, string targetsPrefix, Regex? excludePattern)
+static (string CodeContent, string TargetsContent) GetGeneratedContentCore(string name, string[] realPackagePaths, string realPackagePrefix, string targetsPrefix)
 {
     var targetsContent = new StringBuilder();
     targetsContent.AppendLine("""
@@ -308,17 +308,8 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
             <ItemGroup>
         """);
 
-    var codeContent = new StringBuilder();
-    codeContent.AppendLine($$"""
-        // This is a generated file, please edit Generate\Program.cs to change the contents
-
-        using System;
-        using System.Collections.Generic;
-        using System.Collections.Immutable;
-        using System.Linq;
-        using Microsoft.CodeAnalysis;
-
-        namespace Basic.Reference.Assemblies;
+    var resourcesContent = new StringBuilder();
+    resourcesContent.AppendLine($$"""
         public static partial class {{name}}
         {
             public static class Resources
@@ -357,11 +348,6 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
     foreach (var dllPath in dllPaths)
     {
         var dllName = Path.GetFileName(dllPath)!;
-        if (excludePattern is not null && excludePattern.IsMatch(dllName))
-        {
-            continue;
-        }
-
         if (GetMvid(dllPath) is not var (mvid, isAssembly) || !isAssembly)
         {
             continue;
@@ -381,7 +367,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         var propName = dll.Replace(".", "");
         allPropNames.Add(propName);
         var fieldName = $"_{propName}";
-        codeContent.AppendLine($$"""
+        resourcesContent.AppendLine($$"""
                     /// <summary>
                     /// The image bytes for {{dllName}}
                     /// </summary>
@@ -471,14 +457,27 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         }
         """);
 
-    codeContent.AppendLine("""
+    resourcesContent.AppendLine("""
 
             }
         }
         """);
 
-    codeContent.AppendLine(refInfoContent.ToString());
+    var codeContent = new StringBuilder();
+    codeContent.AppendLine($$"""
+        // This is a generated file, please edit Src\Generate\Program.cs to change the contents
 
+        using System;
+        using System.Collections.Generic;
+        using System.Collections.Immutable;
+        using System.Linq;
+        using Microsoft.CodeAnalysis;
+
+        namespace Basic.Reference.Assemblies;
+        """);
+
+    codeContent.AppendLine(resourcesContent.ToString());
+    codeContent.AppendLine(refInfoContent.ToString());
     codeContent.AppendLine(metadataContent.ToString());
     codeContent.AppendLine(GetReferenceInfo(name));
 
@@ -490,7 +489,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
     return (codeContent.ToString(), targetsContent.ToString());
 }
 
-static (string CodeContent, string TargetsContent) GetGeneratedContent(string name, string[] packagePaths, Regex? excludePattern = null)
+static (string CodeContent, string TargetsContent) GetGeneratedContent(string name, string[] packagePaths)
 {
     var nugetPackageRoot = Environment.GetEnvironmentVariable("NUGET_PACKAGES");
     if (string.IsNullOrEmpty(nugetPackageRoot))
@@ -499,5 +498,5 @@ static (string CodeContent, string TargetsContent) GetGeneratedContent(string na
     }
 
     var realPackagePaths = packagePaths.Select(x => Path.Combine(nugetPackageRoot, x)).ToArray();
-    return GetGeneratedContentCore(name, realPackagePaths, nugetPackageRoot, "$(NuGetPackageRoot)", excludePattern);
+    return GetGeneratedContentCore(name, realPackagePaths, nugetPackageRoot, "$(NuGetPackageRoot)");
 }

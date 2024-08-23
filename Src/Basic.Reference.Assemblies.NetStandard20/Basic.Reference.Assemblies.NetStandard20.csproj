@@ -5,6 +5,10 @@
     <IsPackable>true</IsPackable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" IncludeAssets="none" PrivateAssets="all" GeneratePathProperty="true" />
+  </ItemGroup>
+
   <Import Project="Generated.targets" />
 
 </Project>

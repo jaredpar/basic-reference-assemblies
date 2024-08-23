@@ -1,4 +1,4 @@
-// This is a generated file, please edit Generate\Program.cs to change the contents
+// This is a generated file, please edit Src\Generate\Program.cs to change the contents
 
 using System;
 using System.Collections.Generic;
@@ -1118,6 +1118,7 @@ public static partial class Net461
 
     }
 }
+
 public static partial class Net461
 {
     public static class ReferenceInfos
