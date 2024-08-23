@@ -365,6 +365,9 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         namespace Basic.Reference.Assemblies;
         """);
 
+    codeContent.AppendLine(refInfoContent.ToString());
+    codeContent.AppendLine(refContent.ToString());
+
     if (extraPackagePaths.Length > 0)
     {
         var extraRefContent = new StringBuilder();
@@ -403,11 +406,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         }
         """);
 
-
     codeContent.AppendLine(resourcesContent.ToString());
-    codeContent.AppendLine(refInfoContent.ToString());
-    codeContent.AppendLine(refContent.ToString());
-
     codeContent.AppendLine(GetReferenceInfo(name));
 
     targetsContent.AppendLine("""

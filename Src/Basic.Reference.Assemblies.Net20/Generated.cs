@@ -9,308 +9,6 @@ using Microsoft.CodeAnalysis;
 namespace Basic.Reference.Assemblies;
 public static partial class Net20
 {
-    public static class Resources
-    {
-        /// <summary>
-        /// The image bytes for Accessibility.dll
-        /// </summary>
-        public static byte[] Accessibility => ResourceLoader.GetOrCreateResource(ref _Accessibility, "net20.Accessibility");
-        private static byte[]? _Accessibility;
-
-        /// <summary>
-        /// The image bytes for AspNetMMCExt.dll
-        /// </summary>
-        public static byte[] AspNetMMCExt => ResourceLoader.GetOrCreateResource(ref _AspNetMMCExt, "net20.AspNetMMCExt");
-        private static byte[]? _AspNetMMCExt;
-
-        /// <summary>
-        /// The image bytes for cscompmgd.dll
-        /// </summary>
-        public static byte[] cscompmgd => ResourceLoader.GetOrCreateResource(ref _cscompmgd, "net20.cscompmgd");
-        private static byte[]? _cscompmgd;
-
-        /// <summary>
-        /// The image bytes for CustomMarshalers.dll
-        /// </summary>
-        public static byte[] CustomMarshalers => ResourceLoader.GetOrCreateResource(ref _CustomMarshalers, "net20.CustomMarshalers");
-        private static byte[]? _CustomMarshalers;
-
-        /// <summary>
-        /// The image bytes for IEExecRemote.dll
-        /// </summary>
-        public static byte[] IEExecRemote => ResourceLoader.GetOrCreateResource(ref _IEExecRemote, "net20.IEExecRemote");
-        private static byte[]? _IEExecRemote;
-
-        /// <summary>
-        /// The image bytes for IEHost.dll
-        /// </summary>
-        public static byte[] IEHost => ResourceLoader.GetOrCreateResource(ref _IEHost, "net20.IEHost");
-        private static byte[]? _IEHost;
-
-        /// <summary>
-        /// The image bytes for IIEHost.dll
-        /// </summary>
-        public static byte[] IIEHost => ResourceLoader.GetOrCreateResource(ref _IIEHost, "net20.IIEHost");
-        private static byte[]? _IIEHost;
-
-        /// <summary>
-        /// The image bytes for ISymWrapper.dll
-        /// </summary>
-        public static byte[] ISymWrapper => ResourceLoader.GetOrCreateResource(ref _ISymWrapper, "net20.ISymWrapper");
-        private static byte[]? _ISymWrapper;
-
-        /// <summary>
-        /// The image bytes for Microsoft.Build.Engine.dll
-        /// </summary>
-        public static byte[] MicrosoftBuildEngine => ResourceLoader.GetOrCreateResource(ref _MicrosoftBuildEngine, "net20.Microsoft.Build.Engine");
-        private static byte[]? _MicrosoftBuildEngine;
-
-        /// <summary>
-        /// The image bytes for Microsoft.Build.Framework.dll
-        /// </summary>
-        public static byte[] MicrosoftBuildFramework => ResourceLoader.GetOrCreateResource(ref _MicrosoftBuildFramework, "net20.Microsoft.Build.Framework");
-        private static byte[]? _MicrosoftBuildFramework;
-
-        /// <summary>
-        /// The image bytes for Microsoft.Build.Tasks.dll
-        /// </summary>
-        public static byte[] MicrosoftBuildTasks => ResourceLoader.GetOrCreateResource(ref _MicrosoftBuildTasks, "net20.Microsoft.Build.Tasks");
-        private static byte[]? _MicrosoftBuildTasks;
-
-        /// <summary>
-        /// The image bytes for Microsoft.Build.Utilities.dll
-        /// </summary>
-        public static byte[] MicrosoftBuildUtilities => ResourceLoader.GetOrCreateResource(ref _MicrosoftBuildUtilities, "net20.Microsoft.Build.Utilities");
-        private static byte[]? _MicrosoftBuildUtilities;
-
-        /// <summary>
-        /// The image bytes for Microsoft.JScript.dll
-        /// </summary>
-        public static byte[] MicrosoftJScript => ResourceLoader.GetOrCreateResource(ref _MicrosoftJScript, "net20.Microsoft.JScript");
-        private static byte[]? _MicrosoftJScript;
-
-        /// <summary>
-        /// The image bytes for Microsoft.VisualBasic.Compatibility.Data.dll
-        /// </summary>
-        public static byte[] MicrosoftVisualBasicCompatibilityData => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicCompatibilityData, "net20.Microsoft.VisualBasic.Compatibility.Data");
-        private static byte[]? _MicrosoftVisualBasicCompatibilityData;
-
-        /// <summary>
-        /// The image bytes for Microsoft.VisualBasic.Compatibility.dll
-        /// </summary>
-        public static byte[] MicrosoftVisualBasicCompatibility => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicCompatibility, "net20.Microsoft.VisualBasic.Compatibility");
-        private static byte[]? _MicrosoftVisualBasicCompatibility;
-
-        /// <summary>
-        /// The image bytes for Microsoft.VisualBasic.dll
-        /// </summary>
-        public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "net20.Microsoft.VisualBasic");
-        private static byte[]? _MicrosoftVisualBasic;
-
-        /// <summary>
-        /// The image bytes for Microsoft.VisualBasic.Vsa.dll
-        /// </summary>
-        public static byte[] MicrosoftVisualBasicVsa => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicVsa, "net20.Microsoft.VisualBasic.Vsa");
-        private static byte[]? _MicrosoftVisualBasicVsa;
-
-        /// <summary>
-        /// The image bytes for Microsoft.VisualC.dll
-        /// </summary>
-        public static byte[] MicrosoftVisualC => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualC, "net20.Microsoft.VisualC");
-        private static byte[]? _MicrosoftVisualC;
-
-        /// <summary>
-        /// The image bytes for Microsoft.Vsa.dll
-        /// </summary>
-        public static byte[] MicrosoftVsa => ResourceLoader.GetOrCreateResource(ref _MicrosoftVsa, "net20.Microsoft.Vsa");
-        private static byte[]? _MicrosoftVsa;
-
-        /// <summary>
-        /// The image bytes for Microsoft.Vsa.Vb.CodeDOMProcessor.dll
-        /// </summary>
-        public static byte[] MicrosoftVsaVbCodeDOMProcessor => ResourceLoader.GetOrCreateResource(ref _MicrosoftVsaVbCodeDOMProcessor, "net20.Microsoft.Vsa.Vb.CodeDOMProcessor");
-        private static byte[]? _MicrosoftVsaVbCodeDOMProcessor;
-
-        /// <summary>
-        /// The image bytes for Microsoft_VsaVb.dll
-        /// </summary>
-        public static byte[] Microsoft_VsaVb => ResourceLoader.GetOrCreateResource(ref _Microsoft_VsaVb, "net20.Microsoft_VsaVb");
-        private static byte[]? _Microsoft_VsaVb;
-
-        /// <summary>
-        /// The image bytes for mscorlib.dll
-        /// </summary>
-        public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "net20.mscorlib");
-        private static byte[]? _mscorlib;
-
-        /// <summary>
-        /// The image bytes for sysglobl.dll
-        /// </summary>
-        public static byte[] sysglobl => ResourceLoader.GetOrCreateResource(ref _sysglobl, "net20.sysglobl");
-        private static byte[]? _sysglobl;
-
-        /// <summary>
-        /// The image bytes for System.Configuration.dll
-        /// </summary>
-        public static byte[] SystemConfiguration => ResourceLoader.GetOrCreateResource(ref _SystemConfiguration, "net20.System.Configuration");
-        private static byte[]? _SystemConfiguration;
-
-        /// <summary>
-        /// The image bytes for System.Configuration.Install.dll
-        /// </summary>
-        public static byte[] SystemConfigurationInstall => ResourceLoader.GetOrCreateResource(ref _SystemConfigurationInstall, "net20.System.Configuration.Install");
-        private static byte[]? _SystemConfigurationInstall;
-
-        /// <summary>
-        /// The image bytes for System.Data.dll
-        /// </summary>
-        public static byte[] SystemData => ResourceLoader.GetOrCreateResource(ref _SystemData, "net20.System.Data");
-        private static byte[]? _SystemData;
-
-        /// <summary>
-        /// The image bytes for System.Data.OracleClient.dll
-        /// </summary>
-        public static byte[] SystemDataOracleClient => ResourceLoader.GetOrCreateResource(ref _SystemDataOracleClient, "net20.System.Data.OracleClient");
-        private static byte[]? _SystemDataOracleClient;
-
-        /// <summary>
-        /// The image bytes for System.Data.SqlXml.dll
-        /// </summary>
-        public static byte[] SystemDataSqlXml => ResourceLoader.GetOrCreateResource(ref _SystemDataSqlXml, "net20.System.Data.SqlXml");
-        private static byte[]? _SystemDataSqlXml;
-
-        /// <summary>
-        /// The image bytes for System.Deployment.dll
-        /// </summary>
-        public static byte[] SystemDeployment => ResourceLoader.GetOrCreateResource(ref _SystemDeployment, "net20.System.Deployment");
-        private static byte[]? _SystemDeployment;
-
-        /// <summary>
-        /// The image bytes for System.Design.dll
-        /// </summary>
-        public static byte[] SystemDesign => ResourceLoader.GetOrCreateResource(ref _SystemDesign, "net20.System.Design");
-        private static byte[]? _SystemDesign;
-
-        /// <summary>
-        /// The image bytes for System.DirectoryServices.dll
-        /// </summary>
-        public static byte[] SystemDirectoryServices => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServices, "net20.System.DirectoryServices");
-        private static byte[]? _SystemDirectoryServices;
-
-        /// <summary>
-        /// The image bytes for System.DirectoryServices.Protocols.dll
-        /// </summary>
-        public static byte[] SystemDirectoryServicesProtocols => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServicesProtocols, "net20.System.DirectoryServices.Protocols");
-        private static byte[]? _SystemDirectoryServicesProtocols;
-
-        /// <summary>
-        /// The image bytes for System.dll
-        /// </summary>
-        public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "net20.System");
-        private static byte[]? _System;
-
-        /// <summary>
-        /// The image bytes for System.Drawing.Design.dll
-        /// </summary>
-        public static byte[] SystemDrawingDesign => ResourceLoader.GetOrCreateResource(ref _SystemDrawingDesign, "net20.System.Drawing.Design");
-        private static byte[]? _SystemDrawingDesign;
-
-        /// <summary>
-        /// The image bytes for System.Drawing.dll
-        /// </summary>
-        public static byte[] SystemDrawing => ResourceLoader.GetOrCreateResource(ref _SystemDrawing, "net20.System.Drawing");
-        private static byte[]? _SystemDrawing;
-
-        /// <summary>
-        /// The image bytes for System.EnterpriseServices.dll
-        /// </summary>
-        public static byte[] SystemEnterpriseServices => ResourceLoader.GetOrCreateResource(ref _SystemEnterpriseServices, "net20.System.EnterpriseServices");
-        private static byte[]? _SystemEnterpriseServices;
-
-        /// <summary>
-        /// The image bytes for System.Management.dll
-        /// </summary>
-        public static byte[] SystemManagement => ResourceLoader.GetOrCreateResource(ref _SystemManagement, "net20.System.Management");
-        private static byte[]? _SystemManagement;
-
-        /// <summary>
-        /// The image bytes for System.Messaging.dll
-        /// </summary>
-        public static byte[] SystemMessaging => ResourceLoader.GetOrCreateResource(ref _SystemMessaging, "net20.System.Messaging");
-        private static byte[]? _SystemMessaging;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.Remoting.dll
-        /// </summary>
-        public static byte[] SystemRuntimeRemoting => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeRemoting, "net20.System.Runtime.Remoting");
-        private static byte[]? _SystemRuntimeRemoting;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.Serialization.Formatters.Soap.dll
-        /// </summary>
-        public static byte[] SystemRuntimeSerializationFormattersSoap => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationFormattersSoap, "net20.System.Runtime.Serialization.Formatters.Soap");
-        private static byte[]? _SystemRuntimeSerializationFormattersSoap;
-
-        /// <summary>
-        /// The image bytes for System.Security.dll
-        /// </summary>
-        public static byte[] SystemSecurity => ResourceLoader.GetOrCreateResource(ref _SystemSecurity, "net20.System.Security");
-        private static byte[]? _SystemSecurity;
-
-        /// <summary>
-        /// The image bytes for System.ServiceProcess.dll
-        /// </summary>
-        public static byte[] SystemServiceProcess => ResourceLoader.GetOrCreateResource(ref _SystemServiceProcess, "net20.System.ServiceProcess");
-        private static byte[]? _SystemServiceProcess;
-
-        /// <summary>
-        /// The image bytes for System.Transactions.dll
-        /// </summary>
-        public static byte[] SystemTransactions => ResourceLoader.GetOrCreateResource(ref _SystemTransactions, "net20.System.Transactions");
-        private static byte[]? _SystemTransactions;
-
-        /// <summary>
-        /// The image bytes for System.Web.dll
-        /// </summary>
-        public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "net20.System.Web");
-        private static byte[]? _SystemWeb;
-
-        /// <summary>
-        /// The image bytes for System.Web.Mobile.dll
-        /// </summary>
-        public static byte[] SystemWebMobile => ResourceLoader.GetOrCreateResource(ref _SystemWebMobile, "net20.System.Web.Mobile");
-        private static byte[]? _SystemWebMobile;
-
-        /// <summary>
-        /// The image bytes for System.Web.RegularExpressions.dll
-        /// </summary>
-        public static byte[] SystemWebRegularExpressions => ResourceLoader.GetOrCreateResource(ref _SystemWebRegularExpressions, "net20.System.Web.RegularExpressions");
-        private static byte[]? _SystemWebRegularExpressions;
-
-        /// <summary>
-        /// The image bytes for System.Web.Services.dll
-        /// </summary>
-        public static byte[] SystemWebServices => ResourceLoader.GetOrCreateResource(ref _SystemWebServices, "net20.System.Web.Services");
-        private static byte[]? _SystemWebServices;
-
-        /// <summary>
-        /// The image bytes for System.Windows.Forms.dll
-        /// </summary>
-        public static byte[] SystemWindowsForms => ResourceLoader.GetOrCreateResource(ref _SystemWindowsForms, "net20.System.Windows.Forms");
-        private static byte[]? _SystemWindowsForms;
-
-        /// <summary>
-        /// The image bytes for System.Xml.dll
-        /// </summary>
-        public static byte[] SystemXml => ResourceLoader.GetOrCreateResource(ref _SystemXml, "net20.System.Xml");
-        private static byte[]? _SystemXml;
-
-
-    }
-}
-
-public static partial class Net20
-{
     public static class ReferenceInfos
     {
 
@@ -1526,6 +1224,308 @@ public static partial class Net20
                 return _all;
             }
         }
+    }
+}
+
+public static partial class Net20
+{
+    public static class Resources
+    {
+        /// <summary>
+        /// The image bytes for Accessibility.dll
+        /// </summary>
+        public static byte[] Accessibility => ResourceLoader.GetOrCreateResource(ref _Accessibility, "net20.Accessibility");
+        private static byte[]? _Accessibility;
+
+        /// <summary>
+        /// The image bytes for AspNetMMCExt.dll
+        /// </summary>
+        public static byte[] AspNetMMCExt => ResourceLoader.GetOrCreateResource(ref _AspNetMMCExt, "net20.AspNetMMCExt");
+        private static byte[]? _AspNetMMCExt;
+
+        /// <summary>
+        /// The image bytes for cscompmgd.dll
+        /// </summary>
+        public static byte[] cscompmgd => ResourceLoader.GetOrCreateResource(ref _cscompmgd, "net20.cscompmgd");
+        private static byte[]? _cscompmgd;
+
+        /// <summary>
+        /// The image bytes for CustomMarshalers.dll
+        /// </summary>
+        public static byte[] CustomMarshalers => ResourceLoader.GetOrCreateResource(ref _CustomMarshalers, "net20.CustomMarshalers");
+        private static byte[]? _CustomMarshalers;
+
+        /// <summary>
+        /// The image bytes for IEExecRemote.dll
+        /// </summary>
+        public static byte[] IEExecRemote => ResourceLoader.GetOrCreateResource(ref _IEExecRemote, "net20.IEExecRemote");
+        private static byte[]? _IEExecRemote;
+
+        /// <summary>
+        /// The image bytes for IEHost.dll
+        /// </summary>
+        public static byte[] IEHost => ResourceLoader.GetOrCreateResource(ref _IEHost, "net20.IEHost");
+        private static byte[]? _IEHost;
+
+        /// <summary>
+        /// The image bytes for IIEHost.dll
+        /// </summary>
+        public static byte[] IIEHost => ResourceLoader.GetOrCreateResource(ref _IIEHost, "net20.IIEHost");
+        private static byte[]? _IIEHost;
+
+        /// <summary>
+        /// The image bytes for ISymWrapper.dll
+        /// </summary>
+        public static byte[] ISymWrapper => ResourceLoader.GetOrCreateResource(ref _ISymWrapper, "net20.ISymWrapper");
+        private static byte[]? _ISymWrapper;
+
+        /// <summary>
+        /// The image bytes for Microsoft.Build.Engine.dll
+        /// </summary>
+        public static byte[] MicrosoftBuildEngine => ResourceLoader.GetOrCreateResource(ref _MicrosoftBuildEngine, "net20.Microsoft.Build.Engine");
+        private static byte[]? _MicrosoftBuildEngine;
+
+        /// <summary>
+        /// The image bytes for Microsoft.Build.Framework.dll
+        /// </summary>
+        public static byte[] MicrosoftBuildFramework => ResourceLoader.GetOrCreateResource(ref _MicrosoftBuildFramework, "net20.Microsoft.Build.Framework");
+        private static byte[]? _MicrosoftBuildFramework;
+
+        /// <summary>
+        /// The image bytes for Microsoft.Build.Tasks.dll
+        /// </summary>
+        public static byte[] MicrosoftBuildTasks => ResourceLoader.GetOrCreateResource(ref _MicrosoftBuildTasks, "net20.Microsoft.Build.Tasks");
+        private static byte[]? _MicrosoftBuildTasks;
+
+        /// <summary>
+        /// The image bytes for Microsoft.Build.Utilities.dll
+        /// </summary>
+        public static byte[] MicrosoftBuildUtilities => ResourceLoader.GetOrCreateResource(ref _MicrosoftBuildUtilities, "net20.Microsoft.Build.Utilities");
+        private static byte[]? _MicrosoftBuildUtilities;
+
+        /// <summary>
+        /// The image bytes for Microsoft.JScript.dll
+        /// </summary>
+        public static byte[] MicrosoftJScript => ResourceLoader.GetOrCreateResource(ref _MicrosoftJScript, "net20.Microsoft.JScript");
+        private static byte[]? _MicrosoftJScript;
+
+        /// <summary>
+        /// The image bytes for Microsoft.VisualBasic.Compatibility.Data.dll
+        /// </summary>
+        public static byte[] MicrosoftVisualBasicCompatibilityData => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicCompatibilityData, "net20.Microsoft.VisualBasic.Compatibility.Data");
+        private static byte[]? _MicrosoftVisualBasicCompatibilityData;
+
+        /// <summary>
+        /// The image bytes for Microsoft.VisualBasic.Compatibility.dll
+        /// </summary>
+        public static byte[] MicrosoftVisualBasicCompatibility => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicCompatibility, "net20.Microsoft.VisualBasic.Compatibility");
+        private static byte[]? _MicrosoftVisualBasicCompatibility;
+
+        /// <summary>
+        /// The image bytes for Microsoft.VisualBasic.dll
+        /// </summary>
+        public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "net20.Microsoft.VisualBasic");
+        private static byte[]? _MicrosoftVisualBasic;
+
+        /// <summary>
+        /// The image bytes for Microsoft.VisualBasic.Vsa.dll
+        /// </summary>
+        public static byte[] MicrosoftVisualBasicVsa => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicVsa, "net20.Microsoft.VisualBasic.Vsa");
+        private static byte[]? _MicrosoftVisualBasicVsa;
+
+        /// <summary>
+        /// The image bytes for Microsoft.VisualC.dll
+        /// </summary>
+        public static byte[] MicrosoftVisualC => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualC, "net20.Microsoft.VisualC");
+        private static byte[]? _MicrosoftVisualC;
+
+        /// <summary>
+        /// The image bytes for Microsoft.Vsa.dll
+        /// </summary>
+        public static byte[] MicrosoftVsa => ResourceLoader.GetOrCreateResource(ref _MicrosoftVsa, "net20.Microsoft.Vsa");
+        private static byte[]? _MicrosoftVsa;
+
+        /// <summary>
+        /// The image bytes for Microsoft.Vsa.Vb.CodeDOMProcessor.dll
+        /// </summary>
+        public static byte[] MicrosoftVsaVbCodeDOMProcessor => ResourceLoader.GetOrCreateResource(ref _MicrosoftVsaVbCodeDOMProcessor, "net20.Microsoft.Vsa.Vb.CodeDOMProcessor");
+        private static byte[]? _MicrosoftVsaVbCodeDOMProcessor;
+
+        /// <summary>
+        /// The image bytes for Microsoft_VsaVb.dll
+        /// </summary>
+        public static byte[] Microsoft_VsaVb => ResourceLoader.GetOrCreateResource(ref _Microsoft_VsaVb, "net20.Microsoft_VsaVb");
+        private static byte[]? _Microsoft_VsaVb;
+
+        /// <summary>
+        /// The image bytes for mscorlib.dll
+        /// </summary>
+        public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "net20.mscorlib");
+        private static byte[]? _mscorlib;
+
+        /// <summary>
+        /// The image bytes for sysglobl.dll
+        /// </summary>
+        public static byte[] sysglobl => ResourceLoader.GetOrCreateResource(ref _sysglobl, "net20.sysglobl");
+        private static byte[]? _sysglobl;
+
+        /// <summary>
+        /// The image bytes for System.Configuration.dll
+        /// </summary>
+        public static byte[] SystemConfiguration => ResourceLoader.GetOrCreateResource(ref _SystemConfiguration, "net20.System.Configuration");
+        private static byte[]? _SystemConfiguration;
+
+        /// <summary>
+        /// The image bytes for System.Configuration.Install.dll
+        /// </summary>
+        public static byte[] SystemConfigurationInstall => ResourceLoader.GetOrCreateResource(ref _SystemConfigurationInstall, "net20.System.Configuration.Install");
+        private static byte[]? _SystemConfigurationInstall;
+
+        /// <summary>
+        /// The image bytes for System.Data.dll
+        /// </summary>
+        public static byte[] SystemData => ResourceLoader.GetOrCreateResource(ref _SystemData, "net20.System.Data");
+        private static byte[]? _SystemData;
+
+        /// <summary>
+        /// The image bytes for System.Data.OracleClient.dll
+        /// </summary>
+        public static byte[] SystemDataOracleClient => ResourceLoader.GetOrCreateResource(ref _SystemDataOracleClient, "net20.System.Data.OracleClient");
+        private static byte[]? _SystemDataOracleClient;
+
+        /// <summary>
+        /// The image bytes for System.Data.SqlXml.dll
+        /// </summary>
+        public static byte[] SystemDataSqlXml => ResourceLoader.GetOrCreateResource(ref _SystemDataSqlXml, "net20.System.Data.SqlXml");
+        private static byte[]? _SystemDataSqlXml;
+
+        /// <summary>
+        /// The image bytes for System.Deployment.dll
+        /// </summary>
+        public static byte[] SystemDeployment => ResourceLoader.GetOrCreateResource(ref _SystemDeployment, "net20.System.Deployment");
+        private static byte[]? _SystemDeployment;
+
+        /// <summary>
+        /// The image bytes for System.Design.dll
+        /// </summary>
+        public static byte[] SystemDesign => ResourceLoader.GetOrCreateResource(ref _SystemDesign, "net20.System.Design");
+        private static byte[]? _SystemDesign;
+
+        /// <summary>
+        /// The image bytes for System.DirectoryServices.dll
+        /// </summary>
+        public static byte[] SystemDirectoryServices => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServices, "net20.System.DirectoryServices");
+        private static byte[]? _SystemDirectoryServices;
+
+        /// <summary>
+        /// The image bytes for System.DirectoryServices.Protocols.dll
+        /// </summary>
+        public static byte[] SystemDirectoryServicesProtocols => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServicesProtocols, "net20.System.DirectoryServices.Protocols");
+        private static byte[]? _SystemDirectoryServicesProtocols;
+
+        /// <summary>
+        /// The image bytes for System.dll
+        /// </summary>
+        public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "net20.System");
+        private static byte[]? _System;
+
+        /// <summary>
+        /// The image bytes for System.Drawing.Design.dll
+        /// </summary>
+        public static byte[] SystemDrawingDesign => ResourceLoader.GetOrCreateResource(ref _SystemDrawingDesign, "net20.System.Drawing.Design");
+        private static byte[]? _SystemDrawingDesign;
+
+        /// <summary>
+        /// The image bytes for System.Drawing.dll
+        /// </summary>
+        public static byte[] SystemDrawing => ResourceLoader.GetOrCreateResource(ref _SystemDrawing, "net20.System.Drawing");
+        private static byte[]? _SystemDrawing;
+
+        /// <summary>
+        /// The image bytes for System.EnterpriseServices.dll
+        /// </summary>
+        public static byte[] SystemEnterpriseServices => ResourceLoader.GetOrCreateResource(ref _SystemEnterpriseServices, "net20.System.EnterpriseServices");
+        private static byte[]? _SystemEnterpriseServices;
+
+        /// <summary>
+        /// The image bytes for System.Management.dll
+        /// </summary>
+        public static byte[] SystemManagement => ResourceLoader.GetOrCreateResource(ref _SystemManagement, "net20.System.Management");
+        private static byte[]? _SystemManagement;
+
+        /// <summary>
+        /// The image bytes for System.Messaging.dll
+        /// </summary>
+        public static byte[] SystemMessaging => ResourceLoader.GetOrCreateResource(ref _SystemMessaging, "net20.System.Messaging");
+        private static byte[]? _SystemMessaging;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.Remoting.dll
+        /// </summary>
+        public static byte[] SystemRuntimeRemoting => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeRemoting, "net20.System.Runtime.Remoting");
+        private static byte[]? _SystemRuntimeRemoting;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.Serialization.Formatters.Soap.dll
+        /// </summary>
+        public static byte[] SystemRuntimeSerializationFormattersSoap => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationFormattersSoap, "net20.System.Runtime.Serialization.Formatters.Soap");
+        private static byte[]? _SystemRuntimeSerializationFormattersSoap;
+
+        /// <summary>
+        /// The image bytes for System.Security.dll
+        /// </summary>
+        public static byte[] SystemSecurity => ResourceLoader.GetOrCreateResource(ref _SystemSecurity, "net20.System.Security");
+        private static byte[]? _SystemSecurity;
+
+        /// <summary>
+        /// The image bytes for System.ServiceProcess.dll
+        /// </summary>
+        public static byte[] SystemServiceProcess => ResourceLoader.GetOrCreateResource(ref _SystemServiceProcess, "net20.System.ServiceProcess");
+        private static byte[]? _SystemServiceProcess;
+
+        /// <summary>
+        /// The image bytes for System.Transactions.dll
+        /// </summary>
+        public static byte[] SystemTransactions => ResourceLoader.GetOrCreateResource(ref _SystemTransactions, "net20.System.Transactions");
+        private static byte[]? _SystemTransactions;
+
+        /// <summary>
+        /// The image bytes for System.Web.dll
+        /// </summary>
+        public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "net20.System.Web");
+        private static byte[]? _SystemWeb;
+
+        /// <summary>
+        /// The image bytes for System.Web.Mobile.dll
+        /// </summary>
+        public static byte[] SystemWebMobile => ResourceLoader.GetOrCreateResource(ref _SystemWebMobile, "net20.System.Web.Mobile");
+        private static byte[]? _SystemWebMobile;
+
+        /// <summary>
+        /// The image bytes for System.Web.RegularExpressions.dll
+        /// </summary>
+        public static byte[] SystemWebRegularExpressions => ResourceLoader.GetOrCreateResource(ref _SystemWebRegularExpressions, "net20.System.Web.RegularExpressions");
+        private static byte[]? _SystemWebRegularExpressions;
+
+        /// <summary>
+        /// The image bytes for System.Web.Services.dll
+        /// </summary>
+        public static byte[] SystemWebServices => ResourceLoader.GetOrCreateResource(ref _SystemWebServices, "net20.System.Web.Services");
+        private static byte[]? _SystemWebServices;
+
+        /// <summary>
+        /// The image bytes for System.Windows.Forms.dll
+        /// </summary>
+        public static byte[] SystemWindowsForms => ResourceLoader.GetOrCreateResource(ref _SystemWindowsForms, "net20.System.Windows.Forms");
+        private static byte[]? _SystemWindowsForms;
+
+        /// <summary>
+        /// The image bytes for System.Xml.dll
+        /// </summary>
+        public static byte[] SystemXml => ResourceLoader.GetOrCreateResource(ref _SystemXml, "net20.System.Xml");
+        private static byte[]? _SystemXml;
+
+
     }
 }
 
