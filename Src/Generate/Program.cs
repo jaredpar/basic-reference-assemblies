@@ -127,8 +127,8 @@ void NetStandard20()
         "NetStandard20",
         [@"netstandard.library\2.0.3\build\netstandard2.0\ref"],
         [
-            @"microsoft.csharp\4.7.0\lib\netstandard2.0",
-            @"microsoft.visualbasic\10.3.0\lib\netstandard2.0",
+            @"microsoft.csharp\4.7.0\ref\netstandard2.0",
+            @"microsoft.visualbasic\10.3.0\ref\netstandard2.0",
             @"system.threading.tasks.extensions\4.5.4\lib\netstandard2.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.NetStandard20");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
