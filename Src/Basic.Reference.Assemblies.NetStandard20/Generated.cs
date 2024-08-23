@@ -2771,12 +2771,12 @@ public static partial class NetStandard20
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.CSharp.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftCSharp => new ReferenceInfo("Microsoft.CSharp.dll", Resources.MicrosoftCSharp, NetStandard20.ExtraReferences.MicrosoftCSharp, global::System.Guid.Parse("481b904b-3433-4e80-b896-766a3cc8e857"));
+        public static ReferenceInfo MicrosoftCSharp => new ReferenceInfo("Microsoft.CSharp.dll", Resources.MicrosoftCSharp, NetStandard20.ExtraReferences.MicrosoftCSharp, global::System.Guid.Parse("77c6c890-19ac-4339-a953-ed9afe11ea30"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftVisualBasic => new ReferenceInfo("Microsoft.VisualBasic.dll", Resources.MicrosoftVisualBasic, NetStandard20.ExtraReferences.MicrosoftVisualBasic, global::System.Guid.Parse("b61ee3c6-71d0-4726-931a-fa448a2e8f0e"));
+        public static ReferenceInfo MicrosoftVisualBasic => new ReferenceInfo("Microsoft.VisualBasic.dll", Resources.MicrosoftVisualBasic, NetStandard20.ExtraReferences.MicrosoftVisualBasic, global::System.Guid.Parse("ac737773-c586-4e01-96c3-8bee70ea9575"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Extensions.dll
