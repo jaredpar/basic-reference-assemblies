@@ -316,8 +316,8 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
             {
         """);
 
-    var metadataContent = new StringBuilder();
-    metadataContent.AppendLine($$"""
+    var refContent = new StringBuilder();
+    refContent.AppendLine($$"""
         public static partial class {{name}}
         {
             public static class References
@@ -332,62 +332,15 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
             {
         """);
 
-    var lowerName = name.ToLower();
-    var allPropNames = new List<string>();
-    foreach (var dllInfo in FindDlls(realPackagePaths))
-    {
-        var dllName = Path.GetFileName(dllInfo.FilePath)!;
-        var dll = Path.GetFileNameWithoutExtension(dllName);
-        var logicalName = $"{lowerName}.{dll}";
-        var dllResourcePath = Path.Join(targetsPrefix, dllInfo.RelativeFilePath);
-
-        targetsContent.AppendLine($$"""
-                    <EmbeddedResource Include="{{dllResourcePath}}" WithCulture="false">
-                        <LogicalName>{{logicalName}}</LogicalName>
-                        <Link>Resources\{{lowerName}}\{{dllName}}</Link>
-                    </EmbeddedResource>
-            """);
-
-        var propName = dll.Replace(".", "");
-        allPropNames.Add(propName);
-        var fieldName = $"_{propName}";
-        resourcesContent.AppendLine($$"""
-                    /// <summary>
-                    /// The image bytes for {{dllName}}
-                    /// </summary>
-                    public static byte[] {{propName}} => ResourceLoader.GetOrCreateResource(ref {{fieldName}}, "{{logicalName}}");
-                    private static byte[]? {{fieldName}};
-
-            """);
-
-        refInfoContent.AppendLine($$"""
-
-                    /// <summary>
-                    /// The <see cref="ReferenceInfo"/> for {{dllName}}
-                    /// </summary>
-                    public static ReferenceInfo {{propName}} => new ReferenceInfo("{{dllName}}", Resources.{{propName}}, {{name}}.References.{{propName}}, global::System.Guid.Parse("{{dllInfo.Mvid}}"));
-            """);
-
-        metadataContent.AppendLine($$"""
-                    private static PortableExecutableReference? {{fieldName}};
-
-                    /// <summary>
-                    /// The <see cref="PortableExecutableReference"/> for {{dllName}}
-                    /// </summary>
-                    public static PortableExecutableReference {{propName}}
-                    {
-                        get
-                        {
-                            if ({{fieldName}} is null)
-                            {
-                                {{fieldName}} = AssemblyMetadata.CreateFromImage(Resources.{{propName}}).GetReference(filePath: "{{dllName}}", display: "{{dll}} ({{lowerName}})");
-                            }
-                            return {{fieldName}};
-                        }
-                    }
-
-            """);
-    }
+    var allPropNames = ProcessDlls(
+        name,
+        realPackagePaths,
+        realPackagePrefix,
+        targetsPrefix,
+        targetsContent,
+        resourcesContent,
+        refContent,
+        refInfoContent);
 
     refInfoContent.AppendLine("""
                 private static ImmutableArray<ReferenceInfo> _all;
@@ -401,7 +354,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
                             [
         """);
 
-    metadataContent.AppendLine("""
+    refContent.AppendLine("""
                 private static ImmutableArray<PortableExecutableReference> _all;
                 public static ImmutableArray<PortableExecutableReference> All
                 {
@@ -416,10 +369,10 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
     foreach (var propName in allPropNames)
     {
       refInfoContent.AppendLine($"                        {propName},");
-      metadataContent.AppendLine($"                        {propName},");
+      refContent.AppendLine($"                        {propName},");
     }
 
-    metadataContent.AppendLine("""
+    refContent.AppendLine("""
                             ];
                         }
                         return _all;
@@ -462,7 +415,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
 
     codeContent.AppendLine(resourcesContent.ToString());
     codeContent.AppendLine(refInfoContent.ToString());
-    codeContent.AppendLine(metadataContent.ToString());
+    codeContent.AppendLine(refContent.ToString());
     codeContent.AppendLine(GetReferenceInfo(name));
 
     targetsContent.AppendLine("""
@@ -472,13 +425,83 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
 
     return (codeContent.ToString(), targetsContent.ToString());
 
-    IEnumerable<(string FilePath, string RelativeFilePath, Guid Mvid)> FindDlls(string[] packagePaths)
+    static List<string> ProcessDlls(
+        string name,
+        string[] packagePaths,
+        string packagePrefix,
+        string targetsPrefix,
+        StringBuilder targetsContent,
+        StringBuilder resourcesContent, 
+        StringBuilder refContent,
+        StringBuilder refInfoContent)
+    {
+        var lowerName = name.ToLower();
+        var allPropNames = new List<string>();
+        foreach (var dllInfo in FindDlls(packagePaths, packagePrefix))
+        {
+            var dllName = Path.GetFileName(dllInfo.FilePath)!;
+            var dll = Path.GetFileNameWithoutExtension(dllName);
+            var logicalName = $"{lowerName}.{dll}";
+            var dllResourcePath = Path.Join(targetsPrefix, dllInfo.RelativeFilePath);
+
+            targetsContent.AppendLine($$"""
+                        <EmbeddedResource Include="{{dllResourcePath}}" WithCulture="false">
+                            <LogicalName>{{logicalName}}</LogicalName>
+                            <Link>Resources\{{lowerName}}\{{dllName}}</Link>
+                        </EmbeddedResource>
+                """);
+
+            var propName = dll.Replace(".", "");
+            allPropNames.Add(propName);
+            var fieldName = $"_{propName}";
+            resourcesContent.AppendLine($$"""
+                        /// <summary>
+                        /// The image bytes for {{dllName}}
+                        /// </summary>
+                        public static byte[] {{propName}} => ResourceLoader.GetOrCreateResource(ref {{fieldName}}, "{{logicalName}}");
+                        private static byte[]? {{fieldName}};
+
+                """);
+
+            refInfoContent.AppendLine($$"""
+
+                        /// <summary>
+                        /// The <see cref="ReferenceInfo"/> for {{dllName}}
+                        /// </summary>
+                        public static ReferenceInfo {{propName}} => new ReferenceInfo("{{dllName}}", Resources.{{propName}}, {{name}}.References.{{propName}}, global::System.Guid.Parse("{{dllInfo.Mvid}}"));
+                """);
+
+            refContent.AppendLine($$"""
+                        private static PortableExecutableReference? {{fieldName}};
+
+                        /// <summary>
+                        /// The <see cref="PortableExecutableReference"/> for {{dllName}}
+                        /// </summary>
+                        public static PortableExecutableReference {{propName}}
+                        {
+                            get
+                            {
+                                if ({{fieldName}} is null)
+                                {
+                                    {{fieldName}} = AssemblyMetadata.CreateFromImage(Resources.{{propName}}).GetReference(filePath: "{{dllName}}", display: "{{dll}} ({{lowerName}})");
+                                }
+                                return {{fieldName}};
+                            }
+                        }
+
+                """);
+        }
+
+        return allPropNames;
+    }
+
+    static IEnumerable<(string FilePath, string RelativeFilePath, Guid Mvid)> FindDlls(string[] packagePaths, string packagePrefix)
     {
         var dllPaths = new List<string>();
-        foreach (var realPackagePath in realPackagePaths)
+        foreach (var packagePath in packagePaths)
         {
-            dllPaths.AddRange(Directory.GetFiles(realPackagePath, "*.dll"));
-            var facadesPath = Path.Combine(realPackagePath, "Facades");
+            dllPaths.AddRange(Directory.GetFiles(packagePath, "*.dll"));
+            var facadesPath = Path.Combine(packagePath, "Facades");
             if (Directory.Exists(facadesPath))
             {
                 dllPaths.AddRange(Directory.GetFiles(facadesPath, "*.dll"));
@@ -493,7 +516,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
                 continue;
             }
 
-            var relativeFilePath = dllPath.Substring(realPackagePrefix.Length);
+            var relativeFilePath = dllPath.Substring(packagePrefix.Length);
             yield return (dllPath, relativeFilePath, mvid);
         }
     }
