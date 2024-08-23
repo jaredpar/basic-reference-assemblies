@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <UseArtifactsOutput>true</UseArtifactsOutput>
+    <ArtifactsPath>$(MSBuildThisFileDirectory)..\artifacts</ArtifactsPath>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
     <DebugType>Embedded</DebugType>

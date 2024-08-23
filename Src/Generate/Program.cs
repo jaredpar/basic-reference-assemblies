@@ -5,8 +5,8 @@ using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Text.RegularExpressions;
 
-var workspacePath = GetWorkspacePath(args);
-var combinedDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies");
+var srcPath = GetSrcPath(args);
+var combinedDir = Path.Combine(srcPath, "Basic.Reference.Assemblies");
 var encoding = new UTF8Encoding(encoderShouldEmitUTF8Identifier: false);
 NetCoreApp31();
 Net50();
@@ -30,7 +30,7 @@ CombinedReferenceInfo();
 void NetCoreApp31()
 {
     var content = GetGeneratedContent("NetCoreApp31", [@"microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.NetCoreApp31");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.NetCoreApp31");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -38,7 +38,7 @@ void NetCoreApp31()
 void Net50()
 {
     var content = GetGeneratedContent("Net50", [@"microsoft.netcore.app.ref\5.0.0\ref\net5.0"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net50");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net50");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -46,7 +46,7 @@ void Net50()
 void Net60()
 {
     var content = GetGeneratedContent("Net60", [@"microsoft.netcore.app.ref\6.0.27\ref\net6.0"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net60");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net60");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -54,7 +54,7 @@ void Net60()
 void Net60Windows()
 {
     var content = GetGeneratedContent("Net60Windows", [@"microsoft.windowsdesktop.app.ref\6.0.27\ref\net6.0"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net60Windows");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net60Windows");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -62,7 +62,7 @@ void Net60Windows()
 void Net70()
 {
     var content = GetGeneratedContent("Net70", [@"microsoft.netcore.app.ref\7.0.16\ref\net7.0"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net70");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net70");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -70,7 +70,7 @@ void Net70()
 void Net80()
 {
     var content = GetGeneratedContent("Net80", [@"microsoft.netcore.app.ref\8.0.3\ref\net8.0"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net80");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net80");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 
@@ -81,7 +81,7 @@ void Net80()
 void Net80Windows()
 {
     var content = GetGeneratedContent("Net80Windows", [@"microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net80Windows");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net80Windows");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -89,7 +89,7 @@ void Net80Windows()
 void Net90()
 {
     var content = GetGeneratedContent("Net90", [@"microsoft.netcore.app.ref\9.0.0-preview.6.24327.7\ref\net9.0"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net90");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net90");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -97,7 +97,7 @@ void Net90()
 void AspNet80()
 {
     var content = GetGeneratedContent("AspNet80", [@"microsoft.netcore.app.ref\8.0.3\ref\net8.0", @"microsoft.aspnetcore.app.ref\8.0.3\ref\net8.0"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.AspNet80");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.AspNet80");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -105,7 +105,7 @@ void AspNet80()
 void AspNet90()
 {
     var content = GetGeneratedContent("AspNet90", [@"microsoft.netcore.app.ref\9.0.0-preview.6.24327.7\ref\net9.0", @"microsoft.aspnetcore.app.ref\9.0.0-preview.6.24328.4\ref\net9.0"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.AspNet90");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.AspNet90");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -114,9 +114,9 @@ void NetStandard13()
 {
     // netstandard1.3 is a special case because it's not a single package. Instead the collection of DLLs that make
     // up the TFM are just checked into the repo directly.
-    var realPackagePath = Path.Combine(workspacePath, "Resources", "netstandard1.3");
-    var content = GetGeneratedContentCore("NetStandard13", [realPackagePath], workspacePath, @"$(MSBuildThisFileDirectory)..", excludePattern: null);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.NetStandard13");
+    var realPackagePath = Path.Combine(srcPath, "Resources", "netstandard1.3");
+    var content = GetGeneratedContentCore("NetStandard13", [realPackagePath], srcPath, @"$(MSBuildThisFileDirectory)..", excludePattern: null);
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.NetStandard13");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -124,7 +124,7 @@ void NetStandard13()
 void NetStandard20()
 {
     var content = GetGeneratedContent("NetStandard20", [@"netstandard.library\2.0.3\build\netstandard2.0\ref"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.NetStandard20");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.NetStandard20");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
     File.WriteAllText(Path.Combine(combinedDir, "Generated.NetStandard20.cs"), content.CodeContent, encoding);
@@ -134,7 +134,7 @@ void NetStandard20()
 void Net20()
 {
     var content = GetGeneratedContent("Net20", [@"microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net20");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net20");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -142,7 +142,7 @@ void Net20()
 void Net40()
 {
     var content = GetGeneratedContent("Net40", [@"microsoft.netframework.referenceassemblies.net40\1.0.3\build\.NETFramework\v4.0"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net40");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net40");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -150,7 +150,7 @@ void Net40()
 void Net35()
 {
     var content = GetGeneratedContent("Net35", [@"microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net35");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net35");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -158,7 +158,7 @@ void Net35()
 void Net461()
 {
     var content = GetGeneratedContent("Net461", [@"microsoft.netframework.referenceassemblies.net461\1.0.3\build\.NETFramework\v4.6.1"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net461");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net461");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -166,7 +166,7 @@ void Net461()
 void Net472()
 {
     var content = GetGeneratedContent("Net472", [@"microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2"]);
-    var targetDir = Path.Combine(workspacePath, "Basic.Reference.Assemblies.Net472");
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net472");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
     File.WriteAllText(Path.Combine(combinedDir, "Generated.Net472.cs"), content.CodeContent, encoding);
@@ -235,15 +235,15 @@ void CombinedReferenceInfo()
     File.WriteAllText(Path.Combine(combinedDir, "ReferenceInfo.cs"), content, encoding);
 }
 
-string GetWorkspacePath(string[] args)
+string GetSrcPath(string[] args)
 {
     var dir = Environment.CurrentDirectory;
     do
     {
-        var filePath = Path.Combine(dir, "Generate", "Program.cs");
+        var filePath = Path.Combine(dir, "Src", "Generate", "Program.cs");
         if (File.Exists(filePath))
         {
-            return dir;
+            return Path.Combine(dir, "Src");
         }
 
         dir = Path.GetDirectoryName(dir);
