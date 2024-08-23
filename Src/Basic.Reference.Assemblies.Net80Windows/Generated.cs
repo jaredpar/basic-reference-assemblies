@@ -1,4 +1,4 @@
-// This is a generated file, please edit Generate\Program.cs to change the contents
+// This is a generated file, please edit Src\Generate\Program.cs to change the contents
 
 using System;
 using System.Collections.Generic;
@@ -7,295 +7,6 @@ using System.Linq;
 using Microsoft.CodeAnalysis;
 
 namespace Basic.Reference.Assemblies;
-public static partial class Net80Windows
-{
-    public static class Resources
-    {
-        /// <summary>
-        /// The image bytes for Accessibility.dll
-        /// </summary>
-        public static byte[] Accessibility => ResourceLoader.GetOrCreateResource(ref _Accessibility, "net80windows.Accessibility");
-        private static byte[]? _Accessibility;
-
-        /// <summary>
-        /// The image bytes for Microsoft.VisualBasic.dll
-        /// </summary>
-        public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "net80windows.Microsoft.VisualBasic");
-        private static byte[]? _MicrosoftVisualBasic;
-
-        /// <summary>
-        /// The image bytes for Microsoft.VisualBasic.Forms.dll
-        /// </summary>
-        public static byte[] MicrosoftVisualBasicForms => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicForms, "net80windows.Microsoft.VisualBasic.Forms");
-        private static byte[]? _MicrosoftVisualBasicForms;
-
-        /// <summary>
-        /// The image bytes for Microsoft.Win32.Registry.AccessControl.dll
-        /// </summary>
-        public static byte[] MicrosoftWin32RegistryAccessControl => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32RegistryAccessControl, "net80windows.Microsoft.Win32.Registry.AccessControl");
-        private static byte[]? _MicrosoftWin32RegistryAccessControl;
-
-        /// <summary>
-        /// The image bytes for Microsoft.Win32.SystemEvents.dll
-        /// </summary>
-        public static byte[] MicrosoftWin32SystemEvents => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32SystemEvents, "net80windows.Microsoft.Win32.SystemEvents");
-        private static byte[]? _MicrosoftWin32SystemEvents;
-
-        /// <summary>
-        /// The image bytes for PresentationCore.dll
-        /// </summary>
-        public static byte[] PresentationCore => ResourceLoader.GetOrCreateResource(ref _PresentationCore, "net80windows.PresentationCore");
-        private static byte[]? _PresentationCore;
-
-        /// <summary>
-        /// The image bytes for PresentationFramework.Aero.dll
-        /// </summary>
-        public static byte[] PresentationFrameworkAero => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkAero, "net80windows.PresentationFramework.Aero");
-        private static byte[]? _PresentationFrameworkAero;
-
-        /// <summary>
-        /// The image bytes for PresentationFramework.Aero2.dll
-        /// </summary>
-        public static byte[] PresentationFrameworkAero2 => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkAero2, "net80windows.PresentationFramework.Aero2");
-        private static byte[]? _PresentationFrameworkAero2;
-
-        /// <summary>
-        /// The image bytes for PresentationFramework.AeroLite.dll
-        /// </summary>
-        public static byte[] PresentationFrameworkAeroLite => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkAeroLite, "net80windows.PresentationFramework.AeroLite");
-        private static byte[]? _PresentationFrameworkAeroLite;
-
-        /// <summary>
-        /// The image bytes for PresentationFramework.Classic.dll
-        /// </summary>
-        public static byte[] PresentationFrameworkClassic => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkClassic, "net80windows.PresentationFramework.Classic");
-        private static byte[]? _PresentationFrameworkClassic;
-
-        /// <summary>
-        /// The image bytes for PresentationFramework.dll
-        /// </summary>
-        public static byte[] PresentationFramework => ResourceLoader.GetOrCreateResource(ref _PresentationFramework, "net80windows.PresentationFramework");
-        private static byte[]? _PresentationFramework;
-
-        /// <summary>
-        /// The image bytes for PresentationFramework.Luna.dll
-        /// </summary>
-        public static byte[] PresentationFrameworkLuna => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkLuna, "net80windows.PresentationFramework.Luna");
-        private static byte[]? _PresentationFrameworkLuna;
-
-        /// <summary>
-        /// The image bytes for PresentationFramework.Royale.dll
-        /// </summary>
-        public static byte[] PresentationFrameworkRoyale => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkRoyale, "net80windows.PresentationFramework.Royale");
-        private static byte[]? _PresentationFrameworkRoyale;
-
-        /// <summary>
-        /// The image bytes for PresentationUI.dll
-        /// </summary>
-        public static byte[] PresentationUI => ResourceLoader.GetOrCreateResource(ref _PresentationUI, "net80windows.PresentationUI");
-        private static byte[]? _PresentationUI;
-
-        /// <summary>
-        /// The image bytes for ReachFramework.dll
-        /// </summary>
-        public static byte[] ReachFramework => ResourceLoader.GetOrCreateResource(ref _ReachFramework, "net80windows.ReachFramework");
-        private static byte[]? _ReachFramework;
-
-        /// <summary>
-        /// The image bytes for System.CodeDom.dll
-        /// </summary>
-        public static byte[] SystemCodeDom => ResourceLoader.GetOrCreateResource(ref _SystemCodeDom, "net80windows.System.CodeDom");
-        private static byte[]? _SystemCodeDom;
-
-        /// <summary>
-        /// The image bytes for System.Configuration.ConfigurationManager.dll
-        /// </summary>
-        public static byte[] SystemConfigurationConfigurationManager => ResourceLoader.GetOrCreateResource(ref _SystemConfigurationConfigurationManager, "net80windows.System.Configuration.ConfigurationManager");
-        private static byte[]? _SystemConfigurationConfigurationManager;
-
-        /// <summary>
-        /// The image bytes for System.Design.dll
-        /// </summary>
-        public static byte[] SystemDesign => ResourceLoader.GetOrCreateResource(ref _SystemDesign, "net80windows.System.Design");
-        private static byte[]? _SystemDesign;
-
-        /// <summary>
-        /// The image bytes for System.Diagnostics.EventLog.dll
-        /// </summary>
-        public static byte[] SystemDiagnosticsEventLog => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsEventLog, "net80windows.System.Diagnostics.EventLog");
-        private static byte[]? _SystemDiagnosticsEventLog;
-
-        /// <summary>
-        /// The image bytes for System.Diagnostics.PerformanceCounter.dll
-        /// </summary>
-        public static byte[] SystemDiagnosticsPerformanceCounter => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsPerformanceCounter, "net80windows.System.Diagnostics.PerformanceCounter");
-        private static byte[]? _SystemDiagnosticsPerformanceCounter;
-
-        /// <summary>
-        /// The image bytes for System.DirectoryServices.dll
-        /// </summary>
-        public static byte[] SystemDirectoryServices => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServices, "net80windows.System.DirectoryServices");
-        private static byte[]? _SystemDirectoryServices;
-
-        /// <summary>
-        /// The image bytes for System.Drawing.Common.dll
-        /// </summary>
-        public static byte[] SystemDrawingCommon => ResourceLoader.GetOrCreateResource(ref _SystemDrawingCommon, "net80windows.System.Drawing.Common");
-        private static byte[]? _SystemDrawingCommon;
-
-        /// <summary>
-        /// The image bytes for System.Drawing.Design.dll
-        /// </summary>
-        public static byte[] SystemDrawingDesign => ResourceLoader.GetOrCreateResource(ref _SystemDrawingDesign, "net80windows.System.Drawing.Design");
-        private static byte[]? _SystemDrawingDesign;
-
-        /// <summary>
-        /// The image bytes for System.Drawing.dll
-        /// </summary>
-        public static byte[] SystemDrawing => ResourceLoader.GetOrCreateResource(ref _SystemDrawing, "net80windows.System.Drawing");
-        private static byte[]? _SystemDrawing;
-
-        /// <summary>
-        /// The image bytes for System.IO.Packaging.dll
-        /// </summary>
-        public static byte[] SystemIOPackaging => ResourceLoader.GetOrCreateResource(ref _SystemIOPackaging, "net80windows.System.IO.Packaging");
-        private static byte[]? _SystemIOPackaging;
-
-        /// <summary>
-        /// The image bytes for System.Printing.dll
-        /// </summary>
-        public static byte[] SystemPrinting => ResourceLoader.GetOrCreateResource(ref _SystemPrinting, "net80windows.System.Printing");
-        private static byte[]? _SystemPrinting;
-
-        /// <summary>
-        /// The image bytes for System.Resources.Extensions.dll
-        /// </summary>
-        public static byte[] SystemResourcesExtensions => ResourceLoader.GetOrCreateResource(ref _SystemResourcesExtensions, "net80windows.System.Resources.Extensions");
-        private static byte[]? _SystemResourcesExtensions;
-
-        /// <summary>
-        /// The image bytes for System.Security.Cryptography.Pkcs.dll
-        /// </summary>
-        public static byte[] SystemSecurityCryptographyPkcs => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyPkcs, "net80windows.System.Security.Cryptography.Pkcs");
-        private static byte[]? _SystemSecurityCryptographyPkcs;
-
-        /// <summary>
-        /// The image bytes for System.Security.Cryptography.ProtectedData.dll
-        /// </summary>
-        public static byte[] SystemSecurityCryptographyProtectedData => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyProtectedData, "net80windows.System.Security.Cryptography.ProtectedData");
-        private static byte[]? _SystemSecurityCryptographyProtectedData;
-
-        /// <summary>
-        /// The image bytes for System.Security.Cryptography.Xml.dll
-        /// </summary>
-        public static byte[] SystemSecurityCryptographyXml => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyXml, "net80windows.System.Security.Cryptography.Xml");
-        private static byte[]? _SystemSecurityCryptographyXml;
-
-        /// <summary>
-        /// The image bytes for System.Security.Permissions.dll
-        /// </summary>
-        public static byte[] SystemSecurityPermissions => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPermissions, "net80windows.System.Security.Permissions");
-        private static byte[]? _SystemSecurityPermissions;
-
-        /// <summary>
-        /// The image bytes for System.Threading.AccessControl.dll
-        /// </summary>
-        public static byte[] SystemThreadingAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemThreadingAccessControl, "net80windows.System.Threading.AccessControl");
-        private static byte[]? _SystemThreadingAccessControl;
-
-        /// <summary>
-        /// The image bytes for System.Windows.Controls.Ribbon.dll
-        /// </summary>
-        public static byte[] SystemWindowsControlsRibbon => ResourceLoader.GetOrCreateResource(ref _SystemWindowsControlsRibbon, "net80windows.System.Windows.Controls.Ribbon");
-        private static byte[]? _SystemWindowsControlsRibbon;
-
-        /// <summary>
-        /// The image bytes for System.Windows.Extensions.dll
-        /// </summary>
-        public static byte[] SystemWindowsExtensions => ResourceLoader.GetOrCreateResource(ref _SystemWindowsExtensions, "net80windows.System.Windows.Extensions");
-        private static byte[]? _SystemWindowsExtensions;
-
-        /// <summary>
-        /// The image bytes for System.Windows.Forms.Design.dll
-        /// </summary>
-        public static byte[] SystemWindowsFormsDesign => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsDesign, "net80windows.System.Windows.Forms.Design");
-        private static byte[]? _SystemWindowsFormsDesign;
-
-        /// <summary>
-        /// The image bytes for System.Windows.Forms.Design.Editors.dll
-        /// </summary>
-        public static byte[] SystemWindowsFormsDesignEditors => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsDesignEditors, "net80windows.System.Windows.Forms.Design.Editors");
-        private static byte[]? _SystemWindowsFormsDesignEditors;
-
-        /// <summary>
-        /// The image bytes for System.Windows.Forms.dll
-        /// </summary>
-        public static byte[] SystemWindowsForms => ResourceLoader.GetOrCreateResource(ref _SystemWindowsForms, "net80windows.System.Windows.Forms");
-        private static byte[]? _SystemWindowsForms;
-
-        /// <summary>
-        /// The image bytes for System.Windows.Forms.Primitives.dll
-        /// </summary>
-        public static byte[] SystemWindowsFormsPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsPrimitives, "net80windows.System.Windows.Forms.Primitives");
-        private static byte[]? _SystemWindowsFormsPrimitives;
-
-        /// <summary>
-        /// The image bytes for System.Windows.Input.Manipulations.dll
-        /// </summary>
-        public static byte[] SystemWindowsInputManipulations => ResourceLoader.GetOrCreateResource(ref _SystemWindowsInputManipulations, "net80windows.System.Windows.Input.Manipulations");
-        private static byte[]? _SystemWindowsInputManipulations;
-
-        /// <summary>
-        /// The image bytes for System.Windows.Presentation.dll
-        /// </summary>
-        public static byte[] SystemWindowsPresentation => ResourceLoader.GetOrCreateResource(ref _SystemWindowsPresentation, "net80windows.System.Windows.Presentation");
-        private static byte[]? _SystemWindowsPresentation;
-
-        /// <summary>
-        /// The image bytes for System.Xaml.dll
-        /// </summary>
-        public static byte[] SystemXaml => ResourceLoader.GetOrCreateResource(ref _SystemXaml, "net80windows.System.Xaml");
-        private static byte[]? _SystemXaml;
-
-        /// <summary>
-        /// The image bytes for UIAutomationClient.dll
-        /// </summary>
-        public static byte[] UIAutomationClient => ResourceLoader.GetOrCreateResource(ref _UIAutomationClient, "net80windows.UIAutomationClient");
-        private static byte[]? _UIAutomationClient;
-
-        /// <summary>
-        /// The image bytes for UIAutomationClientSideProviders.dll
-        /// </summary>
-        public static byte[] UIAutomationClientSideProviders => ResourceLoader.GetOrCreateResource(ref _UIAutomationClientSideProviders, "net80windows.UIAutomationClientSideProviders");
-        private static byte[]? _UIAutomationClientSideProviders;
-
-        /// <summary>
-        /// The image bytes for UIAutomationProvider.dll
-        /// </summary>
-        public static byte[] UIAutomationProvider => ResourceLoader.GetOrCreateResource(ref _UIAutomationProvider, "net80windows.UIAutomationProvider");
-        private static byte[]? _UIAutomationProvider;
-
-        /// <summary>
-        /// The image bytes for UIAutomationTypes.dll
-        /// </summary>
-        public static byte[] UIAutomationTypes => ResourceLoader.GetOrCreateResource(ref _UIAutomationTypes, "net80windows.UIAutomationTypes");
-        private static byte[]? _UIAutomationTypes;
-
-        /// <summary>
-        /// The image bytes for WindowsBase.dll
-        /// </summary>
-        public static byte[] WindowsBase => ResourceLoader.GetOrCreateResource(ref _WindowsBase, "net80windows.WindowsBase");
-        private static byte[]? _WindowsBase;
-
-        /// <summary>
-        /// The image bytes for WindowsFormsIntegration.dll
-        /// </summary>
-        public static byte[] WindowsFormsIntegration => ResourceLoader.GetOrCreateResource(ref _WindowsFormsIntegration, "net80windows.WindowsFormsIntegration");
-        private static byte[]? _WindowsFormsIntegration;
-
-
-    }
-}
 public static partial class Net80Windows
 {
     public static class ReferenceInfos
@@ -1465,6 +1176,296 @@ public static partial class Net80Windows
                 return _all;
             }
         }
+    }
+}
+
+public static partial class Net80Windows
+{
+    public static class Resources
+    {
+        /// <summary>
+        /// The image bytes for Accessibility.dll
+        /// </summary>
+        public static byte[] Accessibility => ResourceLoader.GetOrCreateResource(ref _Accessibility, "net80windows.Accessibility");
+        private static byte[]? _Accessibility;
+
+        /// <summary>
+        /// The image bytes for Microsoft.VisualBasic.dll
+        /// </summary>
+        public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "net80windows.Microsoft.VisualBasic");
+        private static byte[]? _MicrosoftVisualBasic;
+
+        /// <summary>
+        /// The image bytes for Microsoft.VisualBasic.Forms.dll
+        /// </summary>
+        public static byte[] MicrosoftVisualBasicForms => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicForms, "net80windows.Microsoft.VisualBasic.Forms");
+        private static byte[]? _MicrosoftVisualBasicForms;
+
+        /// <summary>
+        /// The image bytes for Microsoft.Win32.Registry.AccessControl.dll
+        /// </summary>
+        public static byte[] MicrosoftWin32RegistryAccessControl => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32RegistryAccessControl, "net80windows.Microsoft.Win32.Registry.AccessControl");
+        private static byte[]? _MicrosoftWin32RegistryAccessControl;
+
+        /// <summary>
+        /// The image bytes for Microsoft.Win32.SystemEvents.dll
+        /// </summary>
+        public static byte[] MicrosoftWin32SystemEvents => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32SystemEvents, "net80windows.Microsoft.Win32.SystemEvents");
+        private static byte[]? _MicrosoftWin32SystemEvents;
+
+        /// <summary>
+        /// The image bytes for PresentationCore.dll
+        /// </summary>
+        public static byte[] PresentationCore => ResourceLoader.GetOrCreateResource(ref _PresentationCore, "net80windows.PresentationCore");
+        private static byte[]? _PresentationCore;
+
+        /// <summary>
+        /// The image bytes for PresentationFramework.Aero.dll
+        /// </summary>
+        public static byte[] PresentationFrameworkAero => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkAero, "net80windows.PresentationFramework.Aero");
+        private static byte[]? _PresentationFrameworkAero;
+
+        /// <summary>
+        /// The image bytes for PresentationFramework.Aero2.dll
+        /// </summary>
+        public static byte[] PresentationFrameworkAero2 => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkAero2, "net80windows.PresentationFramework.Aero2");
+        private static byte[]? _PresentationFrameworkAero2;
+
+        /// <summary>
+        /// The image bytes for PresentationFramework.AeroLite.dll
+        /// </summary>
+        public static byte[] PresentationFrameworkAeroLite => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkAeroLite, "net80windows.PresentationFramework.AeroLite");
+        private static byte[]? _PresentationFrameworkAeroLite;
+
+        /// <summary>
+        /// The image bytes for PresentationFramework.Classic.dll
+        /// </summary>
+        public static byte[] PresentationFrameworkClassic => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkClassic, "net80windows.PresentationFramework.Classic");
+        private static byte[]? _PresentationFrameworkClassic;
+
+        /// <summary>
+        /// The image bytes for PresentationFramework.dll
+        /// </summary>
+        public static byte[] PresentationFramework => ResourceLoader.GetOrCreateResource(ref _PresentationFramework, "net80windows.PresentationFramework");
+        private static byte[]? _PresentationFramework;
+
+        /// <summary>
+        /// The image bytes for PresentationFramework.Luna.dll
+        /// </summary>
+        public static byte[] PresentationFrameworkLuna => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkLuna, "net80windows.PresentationFramework.Luna");
+        private static byte[]? _PresentationFrameworkLuna;
+
+        /// <summary>
+        /// The image bytes for PresentationFramework.Royale.dll
+        /// </summary>
+        public static byte[] PresentationFrameworkRoyale => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkRoyale, "net80windows.PresentationFramework.Royale");
+        private static byte[]? _PresentationFrameworkRoyale;
+
+        /// <summary>
+        /// The image bytes for PresentationUI.dll
+        /// </summary>
+        public static byte[] PresentationUI => ResourceLoader.GetOrCreateResource(ref _PresentationUI, "net80windows.PresentationUI");
+        private static byte[]? _PresentationUI;
+
+        /// <summary>
+        /// The image bytes for ReachFramework.dll
+        /// </summary>
+        public static byte[] ReachFramework => ResourceLoader.GetOrCreateResource(ref _ReachFramework, "net80windows.ReachFramework");
+        private static byte[]? _ReachFramework;
+
+        /// <summary>
+        /// The image bytes for System.CodeDom.dll
+        /// </summary>
+        public static byte[] SystemCodeDom => ResourceLoader.GetOrCreateResource(ref _SystemCodeDom, "net80windows.System.CodeDom");
+        private static byte[]? _SystemCodeDom;
+
+        /// <summary>
+        /// The image bytes for System.Configuration.ConfigurationManager.dll
+        /// </summary>
+        public static byte[] SystemConfigurationConfigurationManager => ResourceLoader.GetOrCreateResource(ref _SystemConfigurationConfigurationManager, "net80windows.System.Configuration.ConfigurationManager");
+        private static byte[]? _SystemConfigurationConfigurationManager;
+
+        /// <summary>
+        /// The image bytes for System.Design.dll
+        /// </summary>
+        public static byte[] SystemDesign => ResourceLoader.GetOrCreateResource(ref _SystemDesign, "net80windows.System.Design");
+        private static byte[]? _SystemDesign;
+
+        /// <summary>
+        /// The image bytes for System.Diagnostics.EventLog.dll
+        /// </summary>
+        public static byte[] SystemDiagnosticsEventLog => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsEventLog, "net80windows.System.Diagnostics.EventLog");
+        private static byte[]? _SystemDiagnosticsEventLog;
+
+        /// <summary>
+        /// The image bytes for System.Diagnostics.PerformanceCounter.dll
+        /// </summary>
+        public static byte[] SystemDiagnosticsPerformanceCounter => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsPerformanceCounter, "net80windows.System.Diagnostics.PerformanceCounter");
+        private static byte[]? _SystemDiagnosticsPerformanceCounter;
+
+        /// <summary>
+        /// The image bytes for System.DirectoryServices.dll
+        /// </summary>
+        public static byte[] SystemDirectoryServices => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServices, "net80windows.System.DirectoryServices");
+        private static byte[]? _SystemDirectoryServices;
+
+        /// <summary>
+        /// The image bytes for System.Drawing.Common.dll
+        /// </summary>
+        public static byte[] SystemDrawingCommon => ResourceLoader.GetOrCreateResource(ref _SystemDrawingCommon, "net80windows.System.Drawing.Common");
+        private static byte[]? _SystemDrawingCommon;
+
+        /// <summary>
+        /// The image bytes for System.Drawing.Design.dll
+        /// </summary>
+        public static byte[] SystemDrawingDesign => ResourceLoader.GetOrCreateResource(ref _SystemDrawingDesign, "net80windows.System.Drawing.Design");
+        private static byte[]? _SystemDrawingDesign;
+
+        /// <summary>
+        /// The image bytes for System.Drawing.dll
+        /// </summary>
+        public static byte[] SystemDrawing => ResourceLoader.GetOrCreateResource(ref _SystemDrawing, "net80windows.System.Drawing");
+        private static byte[]? _SystemDrawing;
+
+        /// <summary>
+        /// The image bytes for System.IO.Packaging.dll
+        /// </summary>
+        public static byte[] SystemIOPackaging => ResourceLoader.GetOrCreateResource(ref _SystemIOPackaging, "net80windows.System.IO.Packaging");
+        private static byte[]? _SystemIOPackaging;
+
+        /// <summary>
+        /// The image bytes for System.Printing.dll
+        /// </summary>
+        public static byte[] SystemPrinting => ResourceLoader.GetOrCreateResource(ref _SystemPrinting, "net80windows.System.Printing");
+        private static byte[]? _SystemPrinting;
+
+        /// <summary>
+        /// The image bytes for System.Resources.Extensions.dll
+        /// </summary>
+        public static byte[] SystemResourcesExtensions => ResourceLoader.GetOrCreateResource(ref _SystemResourcesExtensions, "net80windows.System.Resources.Extensions");
+        private static byte[]? _SystemResourcesExtensions;
+
+        /// <summary>
+        /// The image bytes for System.Security.Cryptography.Pkcs.dll
+        /// </summary>
+        public static byte[] SystemSecurityCryptographyPkcs => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyPkcs, "net80windows.System.Security.Cryptography.Pkcs");
+        private static byte[]? _SystemSecurityCryptographyPkcs;
+
+        /// <summary>
+        /// The image bytes for System.Security.Cryptography.ProtectedData.dll
+        /// </summary>
+        public static byte[] SystemSecurityCryptographyProtectedData => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyProtectedData, "net80windows.System.Security.Cryptography.ProtectedData");
+        private static byte[]? _SystemSecurityCryptographyProtectedData;
+
+        /// <summary>
+        /// The image bytes for System.Security.Cryptography.Xml.dll
+        /// </summary>
+        public static byte[] SystemSecurityCryptographyXml => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyXml, "net80windows.System.Security.Cryptography.Xml");
+        private static byte[]? _SystemSecurityCryptographyXml;
+
+        /// <summary>
+        /// The image bytes for System.Security.Permissions.dll
+        /// </summary>
+        public static byte[] SystemSecurityPermissions => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPermissions, "net80windows.System.Security.Permissions");
+        private static byte[]? _SystemSecurityPermissions;
+
+        /// <summary>
+        /// The image bytes for System.Threading.AccessControl.dll
+        /// </summary>
+        public static byte[] SystemThreadingAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemThreadingAccessControl, "net80windows.System.Threading.AccessControl");
+        private static byte[]? _SystemThreadingAccessControl;
+
+        /// <summary>
+        /// The image bytes for System.Windows.Controls.Ribbon.dll
+        /// </summary>
+        public static byte[] SystemWindowsControlsRibbon => ResourceLoader.GetOrCreateResource(ref _SystemWindowsControlsRibbon, "net80windows.System.Windows.Controls.Ribbon");
+        private static byte[]? _SystemWindowsControlsRibbon;
+
+        /// <summary>
+        /// The image bytes for System.Windows.Extensions.dll
+        /// </summary>
+        public static byte[] SystemWindowsExtensions => ResourceLoader.GetOrCreateResource(ref _SystemWindowsExtensions, "net80windows.System.Windows.Extensions");
+        private static byte[]? _SystemWindowsExtensions;
+
+        /// <summary>
+        /// The image bytes for System.Windows.Forms.Design.dll
+        /// </summary>
+        public static byte[] SystemWindowsFormsDesign => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsDesign, "net80windows.System.Windows.Forms.Design");
+        private static byte[]? _SystemWindowsFormsDesign;
+
+        /// <summary>
+        /// The image bytes for System.Windows.Forms.Design.Editors.dll
+        /// </summary>
+        public static byte[] SystemWindowsFormsDesignEditors => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsDesignEditors, "net80windows.System.Windows.Forms.Design.Editors");
+        private static byte[]? _SystemWindowsFormsDesignEditors;
+
+        /// <summary>
+        /// The image bytes for System.Windows.Forms.dll
+        /// </summary>
+        public static byte[] SystemWindowsForms => ResourceLoader.GetOrCreateResource(ref _SystemWindowsForms, "net80windows.System.Windows.Forms");
+        private static byte[]? _SystemWindowsForms;
+
+        /// <summary>
+        /// The image bytes for System.Windows.Forms.Primitives.dll
+        /// </summary>
+        public static byte[] SystemWindowsFormsPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsPrimitives, "net80windows.System.Windows.Forms.Primitives");
+        private static byte[]? _SystemWindowsFormsPrimitives;
+
+        /// <summary>
+        /// The image bytes for System.Windows.Input.Manipulations.dll
+        /// </summary>
+        public static byte[] SystemWindowsInputManipulations => ResourceLoader.GetOrCreateResource(ref _SystemWindowsInputManipulations, "net80windows.System.Windows.Input.Manipulations");
+        private static byte[]? _SystemWindowsInputManipulations;
+
+        /// <summary>
+        /// The image bytes for System.Windows.Presentation.dll
+        /// </summary>
+        public static byte[] SystemWindowsPresentation => ResourceLoader.GetOrCreateResource(ref _SystemWindowsPresentation, "net80windows.System.Windows.Presentation");
+        private static byte[]? _SystemWindowsPresentation;
+
+        /// <summary>
+        /// The image bytes for System.Xaml.dll
+        /// </summary>
+        public static byte[] SystemXaml => ResourceLoader.GetOrCreateResource(ref _SystemXaml, "net80windows.System.Xaml");
+        private static byte[]? _SystemXaml;
+
+        /// <summary>
+        /// The image bytes for UIAutomationClient.dll
+        /// </summary>
+        public static byte[] UIAutomationClient => ResourceLoader.GetOrCreateResource(ref _UIAutomationClient, "net80windows.UIAutomationClient");
+        private static byte[]? _UIAutomationClient;
+
+        /// <summary>
+        /// The image bytes for UIAutomationClientSideProviders.dll
+        /// </summary>
+        public static byte[] UIAutomationClientSideProviders => ResourceLoader.GetOrCreateResource(ref _UIAutomationClientSideProviders, "net80windows.UIAutomationClientSideProviders");
+        private static byte[]? _UIAutomationClientSideProviders;
+
+        /// <summary>
+        /// The image bytes for UIAutomationProvider.dll
+        /// </summary>
+        public static byte[] UIAutomationProvider => ResourceLoader.GetOrCreateResource(ref _UIAutomationProvider, "net80windows.UIAutomationProvider");
+        private static byte[]? _UIAutomationProvider;
+
+        /// <summary>
+        /// The image bytes for UIAutomationTypes.dll
+        /// </summary>
+        public static byte[] UIAutomationTypes => ResourceLoader.GetOrCreateResource(ref _UIAutomationTypes, "net80windows.UIAutomationTypes");
+        private static byte[]? _UIAutomationTypes;
+
+        /// <summary>
+        /// The image bytes for WindowsBase.dll
+        /// </summary>
+        public static byte[] WindowsBase => ResourceLoader.GetOrCreateResource(ref _WindowsBase, "net80windows.WindowsBase");
+        private static byte[]? _WindowsBase;
+
+        /// <summary>
+        /// The image bytes for WindowsFormsIntegration.dll
+        /// </summary>
+        public static byte[] WindowsFormsIntegration => ResourceLoader.GetOrCreateResource(ref _WindowsFormsIntegration, "net80windows.WindowsFormsIntegration");
+        private static byte[]? _WindowsFormsIntegration;
+
+
     }
 }
 

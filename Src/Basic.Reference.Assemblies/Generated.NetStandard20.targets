@@ -452,5 +452,17 @@
             <LogicalName>netstandard20.System.Xml.XPath.XDocument</LogicalName>
             <Link>Resources\netstandard20\System.Xml.XPath.XDocument.dll</Link>
         </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.csharp\4.7.0\lib\netstandard2.0\Microsoft.CSharp.dll" WithCulture="false">
+            <LogicalName>netstandard20.Microsoft.CSharp</LogicalName>
+            <Link>Resources\netstandard20\Microsoft.CSharp.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.visualbasic\10.3.0\lib\netstandard2.0\Microsoft.VisualBasic.dll" WithCulture="false">
+            <LogicalName>netstandard20.Microsoft.VisualBasic</LogicalName>
+            <Link>Resources\netstandard20\Microsoft.VisualBasic.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\system.threading.tasks.extensions\4.5.4\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll" WithCulture="false">
+            <LogicalName>netstandard20.System.Threading.Tasks.Extensions</LogicalName>
+            <Link>Resources\netstandard20\System.Threading.Tasks.Extensions.dll</Link>
+        </EmbeddedResource>
     </ItemGroup>
 </Project>

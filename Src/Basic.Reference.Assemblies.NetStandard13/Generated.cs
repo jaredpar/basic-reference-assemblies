@@ -1,4 +1,4 @@
-// This is a generated file, please edit Generate\Program.cs to change the contents
+// This is a generated file, please edit Src\Generate\Program.cs to change the contents
 
 using System;
 using System.Collections.Generic;
@@ -7,361 +7,6 @@ using System.Linq;
 using Microsoft.CodeAnalysis;
 
 namespace Basic.Reference.Assemblies;
-public static partial class NetStandard13
-{
-    public static class Resources
-    {
-        /// <summary>
-        /// The image bytes for Microsoft.Win32.Primitives.dll
-        /// </summary>
-        public static byte[] MicrosoftWin32Primitives => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32Primitives, "netstandard13.Microsoft.Win32.Primitives");
-        private static byte[]? _MicrosoftWin32Primitives;
-
-        /// <summary>
-        /// The image bytes for System.AppContext.dll
-        /// </summary>
-        public static byte[] SystemAppContext => ResourceLoader.GetOrCreateResource(ref _SystemAppContext, "netstandard13.System.AppContext");
-        private static byte[]? _SystemAppContext;
-
-        /// <summary>
-        /// The image bytes for System.Collections.Concurrent.dll
-        /// </summary>
-        public static byte[] SystemCollectionsConcurrent => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsConcurrent, "netstandard13.System.Collections.Concurrent");
-        private static byte[]? _SystemCollectionsConcurrent;
-
-        /// <summary>
-        /// The image bytes for System.Collections.dll
-        /// </summary>
-        public static byte[] SystemCollections => ResourceLoader.GetOrCreateResource(ref _SystemCollections, "netstandard13.System.Collections");
-        private static byte[]? _SystemCollections;
-
-        /// <summary>
-        /// The image bytes for System.Console.dll
-        /// </summary>
-        public static byte[] SystemConsole => ResourceLoader.GetOrCreateResource(ref _SystemConsole, "netstandard13.System.Console");
-        private static byte[]? _SystemConsole;
-
-        /// <summary>
-        /// The image bytes for System.Diagnostics.Debug.dll
-        /// </summary>
-        public static byte[] SystemDiagnosticsDebug => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsDebug, "netstandard13.System.Diagnostics.Debug");
-        private static byte[]? _SystemDiagnosticsDebug;
-
-        /// <summary>
-        /// The image bytes for System.Diagnostics.FileVersionInfo.dll
-        /// </summary>
-        public static byte[] SystemDiagnosticsFileVersionInfo => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsFileVersionInfo, "netstandard13.System.Diagnostics.FileVersionInfo");
-        private static byte[]? _SystemDiagnosticsFileVersionInfo;
-
-        /// <summary>
-        /// The image bytes for System.Diagnostics.Process.dll
-        /// </summary>
-        public static byte[] SystemDiagnosticsProcess => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsProcess, "netstandard13.System.Diagnostics.Process");
-        private static byte[]? _SystemDiagnosticsProcess;
-
-        /// <summary>
-        /// The image bytes for System.Diagnostics.Tools.dll
-        /// </summary>
-        public static byte[] SystemDiagnosticsTools => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTools, "netstandard13.System.Diagnostics.Tools");
-        private static byte[]? _SystemDiagnosticsTools;
-
-        /// <summary>
-        /// The image bytes for System.Diagnostics.Tracing.dll
-        /// </summary>
-        public static byte[] SystemDiagnosticsTracing => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTracing, "netstandard13.System.Diagnostics.Tracing");
-        private static byte[]? _SystemDiagnosticsTracing;
-
-        /// <summary>
-        /// The image bytes for System.Globalization.Calendars.dll
-        /// </summary>
-        public static byte[] SystemGlobalizationCalendars => ResourceLoader.GetOrCreateResource(ref _SystemGlobalizationCalendars, "netstandard13.System.Globalization.Calendars");
-        private static byte[]? _SystemGlobalizationCalendars;
-
-        /// <summary>
-        /// The image bytes for System.Globalization.dll
-        /// </summary>
-        public static byte[] SystemGlobalization => ResourceLoader.GetOrCreateResource(ref _SystemGlobalization, "netstandard13.System.Globalization");
-        private static byte[]? _SystemGlobalization;
-
-        /// <summary>
-        /// The image bytes for System.IO.Compression.dll
-        /// </summary>
-        public static byte[] SystemIOCompression => ResourceLoader.GetOrCreateResource(ref _SystemIOCompression, "netstandard13.System.IO.Compression");
-        private static byte[]? _SystemIOCompression;
-
-        /// <summary>
-        /// The image bytes for System.IO.Compression.ZipFile.dll
-        /// </summary>
-        public static byte[] SystemIOCompressionZipFile => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionZipFile, "netstandard13.System.IO.Compression.ZipFile");
-        private static byte[]? _SystemIOCompressionZipFile;
-
-        /// <summary>
-        /// The image bytes for System.IO.dll
-        /// </summary>
-        public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "netstandard13.System.IO");
-        private static byte[]? _SystemIO;
-
-        /// <summary>
-        /// The image bytes for System.IO.FileSystem.dll
-        /// </summary>
-        public static byte[] SystemIOFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystem, "netstandard13.System.IO.FileSystem");
-        private static byte[]? _SystemIOFileSystem;
-
-        /// <summary>
-        /// The image bytes for System.IO.FileSystem.Primitives.dll
-        /// </summary>
-        public static byte[] SystemIOFileSystemPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemPrimitives, "netstandard13.System.IO.FileSystem.Primitives");
-        private static byte[]? _SystemIOFileSystemPrimitives;
-
-        /// <summary>
-        /// The image bytes for System.Linq.dll
-        /// </summary>
-        public static byte[] SystemLinq => ResourceLoader.GetOrCreateResource(ref _SystemLinq, "netstandard13.System.Linq");
-        private static byte[]? _SystemLinq;
-
-        /// <summary>
-        /// The image bytes for System.Linq.Expressions.dll
-        /// </summary>
-        public static byte[] SystemLinqExpressions => ResourceLoader.GetOrCreateResource(ref _SystemLinqExpressions, "netstandard13.System.Linq.Expressions");
-        private static byte[]? _SystemLinqExpressions;
-
-        /// <summary>
-        /// The image bytes for System.Net.Http.dll
-        /// </summary>
-        public static byte[] SystemNetHttp => ResourceLoader.GetOrCreateResource(ref _SystemNetHttp, "netstandard13.System.Net.Http");
-        private static byte[]? _SystemNetHttp;
-
-        /// <summary>
-        /// The image bytes for System.Net.Primitives.dll
-        /// </summary>
-        public static byte[] SystemNetPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemNetPrimitives, "netstandard13.System.Net.Primitives");
-        private static byte[]? _SystemNetPrimitives;
-
-        /// <summary>
-        /// The image bytes for System.Net.Security.dll
-        /// </summary>
-        public static byte[] SystemNetSecurity => ResourceLoader.GetOrCreateResource(ref _SystemNetSecurity, "netstandard13.System.Net.Security");
-        private static byte[]? _SystemNetSecurity;
-
-        /// <summary>
-        /// The image bytes for System.Net.Sockets.dll
-        /// </summary>
-        public static byte[] SystemNetSockets => ResourceLoader.GetOrCreateResource(ref _SystemNetSockets, "netstandard13.System.Net.Sockets");
-        private static byte[]? _SystemNetSockets;
-
-        /// <summary>
-        /// The image bytes for System.ObjectModel.dll
-        /// </summary>
-        public static byte[] SystemObjectModel => ResourceLoader.GetOrCreateResource(ref _SystemObjectModel, "netstandard13.System.ObjectModel");
-        private static byte[]? _SystemObjectModel;
-
-        /// <summary>
-        /// The image bytes for System.Reflection.dll
-        /// </summary>
-        public static byte[] SystemReflection => ResourceLoader.GetOrCreateResource(ref _SystemReflection, "netstandard13.System.Reflection");
-        private static byte[]? _SystemReflection;
-
-        /// <summary>
-        /// The image bytes for System.Reflection.Extensions.dll
-        /// </summary>
-        public static byte[] SystemReflectionExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionExtensions, "netstandard13.System.Reflection.Extensions");
-        private static byte[]? _SystemReflectionExtensions;
-
-        /// <summary>
-        /// The image bytes for System.Reflection.Primitives.dll
-        /// </summary>
-        public static byte[] SystemReflectionPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemReflectionPrimitives, "netstandard13.System.Reflection.Primitives");
-        private static byte[]? _SystemReflectionPrimitives;
-
-        /// <summary>
-        /// The image bytes for System.Resources.ResourceManager.dll
-        /// </summary>
-        public static byte[] SystemResourcesResourceManager => ResourceLoader.GetOrCreateResource(ref _SystemResourcesResourceManager, "netstandard13.System.Resources.ResourceManager");
-        private static byte[]? _SystemResourcesResourceManager;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.dll
-        /// </summary>
-        public static byte[] SystemRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntime, "netstandard13.System.Runtime");
-        private static byte[]? _SystemRuntime;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.Extensions.dll
-        /// </summary>
-        public static byte[] SystemRuntimeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeExtensions, "netstandard13.System.Runtime.Extensions");
-        private static byte[]? _SystemRuntimeExtensions;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.Handles.dll
-        /// </summary>
-        public static byte[] SystemRuntimeHandles => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeHandles, "netstandard13.System.Runtime.Handles");
-        private static byte[]? _SystemRuntimeHandles;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.InteropServices.dll
-        /// </summary>
-        public static byte[] SystemRuntimeInteropServices => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServices, "netstandard13.System.Runtime.InteropServices");
-        private static byte[]? _SystemRuntimeInteropServices;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.InteropServices.RuntimeInformation.dll
-        /// </summary>
-        public static byte[] SystemRuntimeInteropServicesRuntimeInformation => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesRuntimeInformation, "netstandard13.System.Runtime.InteropServices.RuntimeInformation");
-        private static byte[]? _SystemRuntimeInteropServicesRuntimeInformation;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.Numerics.dll
-        /// </summary>
-        public static byte[] SystemRuntimeNumerics => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeNumerics, "netstandard13.System.Runtime.Numerics");
-        private static byte[]? _SystemRuntimeNumerics;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.Serialization.Primitives.dll
-        /// </summary>
-        public static byte[] SystemRuntimeSerializationPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationPrimitives, "netstandard13.System.Runtime.Serialization.Primitives");
-        private static byte[]? _SystemRuntimeSerializationPrimitives;
-
-        /// <summary>
-        /// The image bytes for System.Security.AccessControl.dll
-        /// </summary>
-        public static byte[] SystemSecurityAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemSecurityAccessControl, "netstandard13.System.Security.AccessControl");
-        private static byte[]? _SystemSecurityAccessControl;
-
-        /// <summary>
-        /// The image bytes for System.Security.Claims.dll
-        /// </summary>
-        public static byte[] SystemSecurityClaims => ResourceLoader.GetOrCreateResource(ref _SystemSecurityClaims, "netstandard13.System.Security.Claims");
-        private static byte[]? _SystemSecurityClaims;
-
-        /// <summary>
-        /// The image bytes for System.Security.Cryptography.Algorithms.dll
-        /// </summary>
-        public static byte[] SystemSecurityCryptographyAlgorithms => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyAlgorithms, "netstandard13.System.Security.Cryptography.Algorithms");
-        private static byte[]? _SystemSecurityCryptographyAlgorithms;
-
-        /// <summary>
-        /// The image bytes for System.Security.Cryptography.Csp.dll
-        /// </summary>
-        public static byte[] SystemSecurityCryptographyCsp => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyCsp, "netstandard13.System.Security.Cryptography.Csp");
-        private static byte[]? _SystemSecurityCryptographyCsp;
-
-        /// <summary>
-        /// The image bytes for System.Security.Cryptography.Encoding.dll
-        /// </summary>
-        public static byte[] SystemSecurityCryptographyEncoding => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyEncoding, "netstandard13.System.Security.Cryptography.Encoding");
-        private static byte[]? _SystemSecurityCryptographyEncoding;
-
-        /// <summary>
-        /// The image bytes for System.Security.Cryptography.Primitives.dll
-        /// </summary>
-        public static byte[] SystemSecurityCryptographyPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyPrimitives, "netstandard13.System.Security.Cryptography.Primitives");
-        private static byte[]? _SystemSecurityCryptographyPrimitives;
-
-        /// <summary>
-        /// The image bytes for System.Security.Cryptography.X509Certificates.dll
-        /// </summary>
-        public static byte[] SystemSecurityCryptographyX509Certificates => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyX509Certificates, "netstandard13.System.Security.Cryptography.X509Certificates");
-        private static byte[]? _SystemSecurityCryptographyX509Certificates;
-
-        /// <summary>
-        /// The image bytes for System.Security.Principal.dll
-        /// </summary>
-        public static byte[] SystemSecurityPrincipal => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipal, "netstandard13.System.Security.Principal");
-        private static byte[]? _SystemSecurityPrincipal;
-
-        /// <summary>
-        /// The image bytes for System.Security.Principal.Windows.dll
-        /// </summary>
-        public static byte[] SystemSecurityPrincipalWindows => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipalWindows, "netstandard13.System.Security.Principal.Windows");
-        private static byte[]? _SystemSecurityPrincipalWindows;
-
-        /// <summary>
-        /// The image bytes for System.Text.Encoding.CodePages.dll
-        /// </summary>
-        public static byte[] SystemTextEncodingCodePages => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingCodePages, "netstandard13.System.Text.Encoding.CodePages");
-        private static byte[]? _SystemTextEncodingCodePages;
-
-        /// <summary>
-        /// The image bytes for System.Text.Encoding.dll
-        /// </summary>
-        public static byte[] SystemTextEncoding => ResourceLoader.GetOrCreateResource(ref _SystemTextEncoding, "netstandard13.System.Text.Encoding");
-        private static byte[]? _SystemTextEncoding;
-
-        /// <summary>
-        /// The image bytes for System.Text.Encoding.Extensions.dll
-        /// </summary>
-        public static byte[] SystemTextEncodingExtensions => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingExtensions, "netstandard13.System.Text.Encoding.Extensions");
-        private static byte[]? _SystemTextEncodingExtensions;
-
-        /// <summary>
-        /// The image bytes for System.Text.RegularExpressions.dll
-        /// </summary>
-        public static byte[] SystemTextRegularExpressions => ResourceLoader.GetOrCreateResource(ref _SystemTextRegularExpressions, "netstandard13.System.Text.RegularExpressions");
-        private static byte[]? _SystemTextRegularExpressions;
-
-        /// <summary>
-        /// The image bytes for System.Threading.dll
-        /// </summary>
-        public static byte[] SystemThreading => ResourceLoader.GetOrCreateResource(ref _SystemThreading, "netstandard13.System.Threading");
-        private static byte[]? _SystemThreading;
-
-        /// <summary>
-        /// The image bytes for System.Threading.Tasks.dll
-        /// </summary>
-        public static byte[] SystemThreadingTasks => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasks, "netstandard13.System.Threading.Tasks");
-        private static byte[]? _SystemThreadingTasks;
-
-        /// <summary>
-        /// The image bytes for System.Threading.Tasks.Extensions.dll
-        /// </summary>
-        public static byte[] SystemThreadingTasksExtensions => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksExtensions, "netstandard13.System.Threading.Tasks.Extensions");
-        private static byte[]? _SystemThreadingTasksExtensions;
-
-        /// <summary>
-        /// The image bytes for System.Threading.Timer.dll
-        /// </summary>
-        public static byte[] SystemThreadingTimer => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTimer, "netstandard13.System.Threading.Timer");
-        private static byte[]? _SystemThreadingTimer;
-
-        /// <summary>
-        /// The image bytes for System.ValueTuple.dll
-        /// </summary>
-        public static byte[] SystemValueTuple => ResourceLoader.GetOrCreateResource(ref _SystemValueTuple, "netstandard13.System.ValueTuple");
-        private static byte[]? _SystemValueTuple;
-
-        /// <summary>
-        /// The image bytes for System.Xml.ReaderWriter.dll
-        /// </summary>
-        public static byte[] SystemXmlReaderWriter => ResourceLoader.GetOrCreateResource(ref _SystemXmlReaderWriter, "netstandard13.System.Xml.ReaderWriter");
-        private static byte[]? _SystemXmlReaderWriter;
-
-        /// <summary>
-        /// The image bytes for System.Xml.XDocument.dll
-        /// </summary>
-        public static byte[] SystemXmlXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXDocument, "netstandard13.System.Xml.XDocument");
-        private static byte[]? _SystemXmlXDocument;
-
-        /// <summary>
-        /// The image bytes for System.Xml.XmlDocument.dll
-        /// </summary>
-        public static byte[] SystemXmlXmlDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlDocument, "netstandard13.System.Xml.XmlDocument");
-        private static byte[]? _SystemXmlXmlDocument;
-
-        /// <summary>
-        /// The image bytes for System.Xml.XPath.dll
-        /// </summary>
-        public static byte[] SystemXmlXPath => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPath, "netstandard13.System.Xml.XPath");
-        private static byte[]? _SystemXmlXPath;
-
-        /// <summary>
-        /// The image bytes for System.Xml.XPath.XDocument.dll
-        /// </summary>
-        public static byte[] SystemXmlXPathXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPathXDocument, "netstandard13.System.Xml.XPath.XDocument");
-        private static byte[]? _SystemXmlXPathXDocument;
-
-
-    }
-}
 public static partial class NetStandard13
 {
     public static class ReferenceInfos
@@ -1795,6 +1440,362 @@ public static partial class NetStandard13
                 return _all;
             }
         }
+    }
+}
+
+public static partial class NetStandard13
+{
+    public static class Resources
+    {
+        /// <summary>
+        /// The image bytes for Microsoft.Win32.Primitives.dll
+        /// </summary>
+        public static byte[] MicrosoftWin32Primitives => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32Primitives, "netstandard13.Microsoft.Win32.Primitives");
+        private static byte[]? _MicrosoftWin32Primitives;
+
+        /// <summary>
+        /// The image bytes for System.AppContext.dll
+        /// </summary>
+        public static byte[] SystemAppContext => ResourceLoader.GetOrCreateResource(ref _SystemAppContext, "netstandard13.System.AppContext");
+        private static byte[]? _SystemAppContext;
+
+        /// <summary>
+        /// The image bytes for System.Collections.Concurrent.dll
+        /// </summary>
+        public static byte[] SystemCollectionsConcurrent => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsConcurrent, "netstandard13.System.Collections.Concurrent");
+        private static byte[]? _SystemCollectionsConcurrent;
+
+        /// <summary>
+        /// The image bytes for System.Collections.dll
+        /// </summary>
+        public static byte[] SystemCollections => ResourceLoader.GetOrCreateResource(ref _SystemCollections, "netstandard13.System.Collections");
+        private static byte[]? _SystemCollections;
+
+        /// <summary>
+        /// The image bytes for System.Console.dll
+        /// </summary>
+        public static byte[] SystemConsole => ResourceLoader.GetOrCreateResource(ref _SystemConsole, "netstandard13.System.Console");
+        private static byte[]? _SystemConsole;
+
+        /// <summary>
+        /// The image bytes for System.Diagnostics.Debug.dll
+        /// </summary>
+        public static byte[] SystemDiagnosticsDebug => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsDebug, "netstandard13.System.Diagnostics.Debug");
+        private static byte[]? _SystemDiagnosticsDebug;
+
+        /// <summary>
+        /// The image bytes for System.Diagnostics.FileVersionInfo.dll
+        /// </summary>
+        public static byte[] SystemDiagnosticsFileVersionInfo => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsFileVersionInfo, "netstandard13.System.Diagnostics.FileVersionInfo");
+        private static byte[]? _SystemDiagnosticsFileVersionInfo;
+
+        /// <summary>
+        /// The image bytes for System.Diagnostics.Process.dll
+        /// </summary>
+        public static byte[] SystemDiagnosticsProcess => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsProcess, "netstandard13.System.Diagnostics.Process");
+        private static byte[]? _SystemDiagnosticsProcess;
+
+        /// <summary>
+        /// The image bytes for System.Diagnostics.Tools.dll
+        /// </summary>
+        public static byte[] SystemDiagnosticsTools => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTools, "netstandard13.System.Diagnostics.Tools");
+        private static byte[]? _SystemDiagnosticsTools;
+
+        /// <summary>
+        /// The image bytes for System.Diagnostics.Tracing.dll
+        /// </summary>
+        public static byte[] SystemDiagnosticsTracing => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTracing, "netstandard13.System.Diagnostics.Tracing");
+        private static byte[]? _SystemDiagnosticsTracing;
+
+        /// <summary>
+        /// The image bytes for System.Globalization.Calendars.dll
+        /// </summary>
+        public static byte[] SystemGlobalizationCalendars => ResourceLoader.GetOrCreateResource(ref _SystemGlobalizationCalendars, "netstandard13.System.Globalization.Calendars");
+        private static byte[]? _SystemGlobalizationCalendars;
+
+        /// <summary>
+        /// The image bytes for System.Globalization.dll
+        /// </summary>
+        public static byte[] SystemGlobalization => ResourceLoader.GetOrCreateResource(ref _SystemGlobalization, "netstandard13.System.Globalization");
+        private static byte[]? _SystemGlobalization;
+
+        /// <summary>
+        /// The image bytes for System.IO.Compression.dll
+        /// </summary>
+        public static byte[] SystemIOCompression => ResourceLoader.GetOrCreateResource(ref _SystemIOCompression, "netstandard13.System.IO.Compression");
+        private static byte[]? _SystemIOCompression;
+
+        /// <summary>
+        /// The image bytes for System.IO.Compression.ZipFile.dll
+        /// </summary>
+        public static byte[] SystemIOCompressionZipFile => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionZipFile, "netstandard13.System.IO.Compression.ZipFile");
+        private static byte[]? _SystemIOCompressionZipFile;
+
+        /// <summary>
+        /// The image bytes for System.IO.dll
+        /// </summary>
+        public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "netstandard13.System.IO");
+        private static byte[]? _SystemIO;
+
+        /// <summary>
+        /// The image bytes for System.IO.FileSystem.dll
+        /// </summary>
+        public static byte[] SystemIOFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystem, "netstandard13.System.IO.FileSystem");
+        private static byte[]? _SystemIOFileSystem;
+
+        /// <summary>
+        /// The image bytes for System.IO.FileSystem.Primitives.dll
+        /// </summary>
+        public static byte[] SystemIOFileSystemPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemPrimitives, "netstandard13.System.IO.FileSystem.Primitives");
+        private static byte[]? _SystemIOFileSystemPrimitives;
+
+        /// <summary>
+        /// The image bytes for System.Linq.dll
+        /// </summary>
+        public static byte[] SystemLinq => ResourceLoader.GetOrCreateResource(ref _SystemLinq, "netstandard13.System.Linq");
+        private static byte[]? _SystemLinq;
+
+        /// <summary>
+        /// The image bytes for System.Linq.Expressions.dll
+        /// </summary>
+        public static byte[] SystemLinqExpressions => ResourceLoader.GetOrCreateResource(ref _SystemLinqExpressions, "netstandard13.System.Linq.Expressions");
+        private static byte[]? _SystemLinqExpressions;
+
+        /// <summary>
+        /// The image bytes for System.Net.Http.dll
+        /// </summary>
+        public static byte[] SystemNetHttp => ResourceLoader.GetOrCreateResource(ref _SystemNetHttp, "netstandard13.System.Net.Http");
+        private static byte[]? _SystemNetHttp;
+
+        /// <summary>
+        /// The image bytes for System.Net.Primitives.dll
+        /// </summary>
+        public static byte[] SystemNetPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemNetPrimitives, "netstandard13.System.Net.Primitives");
+        private static byte[]? _SystemNetPrimitives;
+
+        /// <summary>
+        /// The image bytes for System.Net.Security.dll
+        /// </summary>
+        public static byte[] SystemNetSecurity => ResourceLoader.GetOrCreateResource(ref _SystemNetSecurity, "netstandard13.System.Net.Security");
+        private static byte[]? _SystemNetSecurity;
+
+        /// <summary>
+        /// The image bytes for System.Net.Sockets.dll
+        /// </summary>
+        public static byte[] SystemNetSockets => ResourceLoader.GetOrCreateResource(ref _SystemNetSockets, "netstandard13.System.Net.Sockets");
+        private static byte[]? _SystemNetSockets;
+
+        /// <summary>
+        /// The image bytes for System.ObjectModel.dll
+        /// </summary>
+        public static byte[] SystemObjectModel => ResourceLoader.GetOrCreateResource(ref _SystemObjectModel, "netstandard13.System.ObjectModel");
+        private static byte[]? _SystemObjectModel;
+
+        /// <summary>
+        /// The image bytes for System.Reflection.dll
+        /// </summary>
+        public static byte[] SystemReflection => ResourceLoader.GetOrCreateResource(ref _SystemReflection, "netstandard13.System.Reflection");
+        private static byte[]? _SystemReflection;
+
+        /// <summary>
+        /// The image bytes for System.Reflection.Extensions.dll
+        /// </summary>
+        public static byte[] SystemReflectionExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionExtensions, "netstandard13.System.Reflection.Extensions");
+        private static byte[]? _SystemReflectionExtensions;
+
+        /// <summary>
+        /// The image bytes for System.Reflection.Primitives.dll
+        /// </summary>
+        public static byte[] SystemReflectionPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemReflectionPrimitives, "netstandard13.System.Reflection.Primitives");
+        private static byte[]? _SystemReflectionPrimitives;
+
+        /// <summary>
+        /// The image bytes for System.Resources.ResourceManager.dll
+        /// </summary>
+        public static byte[] SystemResourcesResourceManager => ResourceLoader.GetOrCreateResource(ref _SystemResourcesResourceManager, "netstandard13.System.Resources.ResourceManager");
+        private static byte[]? _SystemResourcesResourceManager;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.dll
+        /// </summary>
+        public static byte[] SystemRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntime, "netstandard13.System.Runtime");
+        private static byte[]? _SystemRuntime;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.Extensions.dll
+        /// </summary>
+        public static byte[] SystemRuntimeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeExtensions, "netstandard13.System.Runtime.Extensions");
+        private static byte[]? _SystemRuntimeExtensions;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.Handles.dll
+        /// </summary>
+        public static byte[] SystemRuntimeHandles => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeHandles, "netstandard13.System.Runtime.Handles");
+        private static byte[]? _SystemRuntimeHandles;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.InteropServices.dll
+        /// </summary>
+        public static byte[] SystemRuntimeInteropServices => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServices, "netstandard13.System.Runtime.InteropServices");
+        private static byte[]? _SystemRuntimeInteropServices;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.InteropServices.RuntimeInformation.dll
+        /// </summary>
+        public static byte[] SystemRuntimeInteropServicesRuntimeInformation => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesRuntimeInformation, "netstandard13.System.Runtime.InteropServices.RuntimeInformation");
+        private static byte[]? _SystemRuntimeInteropServicesRuntimeInformation;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.Numerics.dll
+        /// </summary>
+        public static byte[] SystemRuntimeNumerics => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeNumerics, "netstandard13.System.Runtime.Numerics");
+        private static byte[]? _SystemRuntimeNumerics;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.Serialization.Primitives.dll
+        /// </summary>
+        public static byte[] SystemRuntimeSerializationPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationPrimitives, "netstandard13.System.Runtime.Serialization.Primitives");
+        private static byte[]? _SystemRuntimeSerializationPrimitives;
+
+        /// <summary>
+        /// The image bytes for System.Security.AccessControl.dll
+        /// </summary>
+        public static byte[] SystemSecurityAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemSecurityAccessControl, "netstandard13.System.Security.AccessControl");
+        private static byte[]? _SystemSecurityAccessControl;
+
+        /// <summary>
+        /// The image bytes for System.Security.Claims.dll
+        /// </summary>
+        public static byte[] SystemSecurityClaims => ResourceLoader.GetOrCreateResource(ref _SystemSecurityClaims, "netstandard13.System.Security.Claims");
+        private static byte[]? _SystemSecurityClaims;
+
+        /// <summary>
+        /// The image bytes for System.Security.Cryptography.Algorithms.dll
+        /// </summary>
+        public static byte[] SystemSecurityCryptographyAlgorithms => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyAlgorithms, "netstandard13.System.Security.Cryptography.Algorithms");
+        private static byte[]? _SystemSecurityCryptographyAlgorithms;
+
+        /// <summary>
+        /// The image bytes for System.Security.Cryptography.Csp.dll
+        /// </summary>
+        public static byte[] SystemSecurityCryptographyCsp => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyCsp, "netstandard13.System.Security.Cryptography.Csp");
+        private static byte[]? _SystemSecurityCryptographyCsp;
+
+        /// <summary>
+        /// The image bytes for System.Security.Cryptography.Encoding.dll
+        /// </summary>
+        public static byte[] SystemSecurityCryptographyEncoding => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyEncoding, "netstandard13.System.Security.Cryptography.Encoding");
+        private static byte[]? _SystemSecurityCryptographyEncoding;
+
+        /// <summary>
+        /// The image bytes for System.Security.Cryptography.Primitives.dll
+        /// </summary>
+        public static byte[] SystemSecurityCryptographyPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyPrimitives, "netstandard13.System.Security.Cryptography.Primitives");
+        private static byte[]? _SystemSecurityCryptographyPrimitives;
+
+        /// <summary>
+        /// The image bytes for System.Security.Cryptography.X509Certificates.dll
+        /// </summary>
+        public static byte[] SystemSecurityCryptographyX509Certificates => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyX509Certificates, "netstandard13.System.Security.Cryptography.X509Certificates");
+        private static byte[]? _SystemSecurityCryptographyX509Certificates;
+
+        /// <summary>
+        /// The image bytes for System.Security.Principal.dll
+        /// </summary>
+        public static byte[] SystemSecurityPrincipal => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipal, "netstandard13.System.Security.Principal");
+        private static byte[]? _SystemSecurityPrincipal;
+
+        /// <summary>
+        /// The image bytes for System.Security.Principal.Windows.dll
+        /// </summary>
+        public static byte[] SystemSecurityPrincipalWindows => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipalWindows, "netstandard13.System.Security.Principal.Windows");
+        private static byte[]? _SystemSecurityPrincipalWindows;
+
+        /// <summary>
+        /// The image bytes for System.Text.Encoding.CodePages.dll
+        /// </summary>
+        public static byte[] SystemTextEncodingCodePages => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingCodePages, "netstandard13.System.Text.Encoding.CodePages");
+        private static byte[]? _SystemTextEncodingCodePages;
+
+        /// <summary>
+        /// The image bytes for System.Text.Encoding.dll
+        /// </summary>
+        public static byte[] SystemTextEncoding => ResourceLoader.GetOrCreateResource(ref _SystemTextEncoding, "netstandard13.System.Text.Encoding");
+        private static byte[]? _SystemTextEncoding;
+
+        /// <summary>
+        /// The image bytes for System.Text.Encoding.Extensions.dll
+        /// </summary>
+        public static byte[] SystemTextEncodingExtensions => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingExtensions, "netstandard13.System.Text.Encoding.Extensions");
+        private static byte[]? _SystemTextEncodingExtensions;
+
+        /// <summary>
+        /// The image bytes for System.Text.RegularExpressions.dll
+        /// </summary>
+        public static byte[] SystemTextRegularExpressions => ResourceLoader.GetOrCreateResource(ref _SystemTextRegularExpressions, "netstandard13.System.Text.RegularExpressions");
+        private static byte[]? _SystemTextRegularExpressions;
+
+        /// <summary>
+        /// The image bytes for System.Threading.dll
+        /// </summary>
+        public static byte[] SystemThreading => ResourceLoader.GetOrCreateResource(ref _SystemThreading, "netstandard13.System.Threading");
+        private static byte[]? _SystemThreading;
+
+        /// <summary>
+        /// The image bytes for System.Threading.Tasks.dll
+        /// </summary>
+        public static byte[] SystemThreadingTasks => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasks, "netstandard13.System.Threading.Tasks");
+        private static byte[]? _SystemThreadingTasks;
+
+        /// <summary>
+        /// The image bytes for System.Threading.Tasks.Extensions.dll
+        /// </summary>
+        public static byte[] SystemThreadingTasksExtensions => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksExtensions, "netstandard13.System.Threading.Tasks.Extensions");
+        private static byte[]? _SystemThreadingTasksExtensions;
+
+        /// <summary>
+        /// The image bytes for System.Threading.Timer.dll
+        /// </summary>
+        public static byte[] SystemThreadingTimer => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTimer, "netstandard13.System.Threading.Timer");
+        private static byte[]? _SystemThreadingTimer;
+
+        /// <summary>
+        /// The image bytes for System.ValueTuple.dll
+        /// </summary>
+        public static byte[] SystemValueTuple => ResourceLoader.GetOrCreateResource(ref _SystemValueTuple, "netstandard13.System.ValueTuple");
+        private static byte[]? _SystemValueTuple;
+
+        /// <summary>
+        /// The image bytes for System.Xml.ReaderWriter.dll
+        /// </summary>
+        public static byte[] SystemXmlReaderWriter => ResourceLoader.GetOrCreateResource(ref _SystemXmlReaderWriter, "netstandard13.System.Xml.ReaderWriter");
+        private static byte[]? _SystemXmlReaderWriter;
+
+        /// <summary>
+        /// The image bytes for System.Xml.XDocument.dll
+        /// </summary>
+        public static byte[] SystemXmlXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXDocument, "netstandard13.System.Xml.XDocument");
+        private static byte[]? _SystemXmlXDocument;
+
+        /// <summary>
+        /// The image bytes for System.Xml.XmlDocument.dll
+        /// </summary>
+        public static byte[] SystemXmlXmlDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlDocument, "netstandard13.System.Xml.XmlDocument");
+        private static byte[]? _SystemXmlXmlDocument;
+
+        /// <summary>
+        /// The image bytes for System.Xml.XPath.dll
+        /// </summary>
+        public static byte[] SystemXmlXPath => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPath, "netstandard13.System.Xml.XPath");
+        private static byte[]? _SystemXmlXPath;
+
+        /// <summary>
+        /// The image bytes for System.Xml.XPath.XDocument.dll
+        /// </summary>
+        public static byte[] SystemXmlXPathXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPathXDocument, "netstandard13.System.Xml.XPath.XDocument");
+        private static byte[]? _SystemXmlXPathXDocument;
+
+
     }
 }
 

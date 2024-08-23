@@ -115,7 +115,7 @@ void NetStandard13()
     // netstandard1.3 is a special case because it's not a single package. Instead the collection of DLLs that make
     // up the TFM are just checked into the repo directly.
     var realPackagePath = Path.Combine(srcPath, "Resources", "netstandard1.3");
-    var content = GetGeneratedContentCore("NetStandard13", [realPackagePath], srcPath, @"$(MSBuildThisFileDirectory)..", excludePattern: null);
+    var content = GetGeneratedContentCore("NetStandard13", [realPackagePath], [], srcPath, @"$(MSBuildThisFileDirectory)..");
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.NetStandard13");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -123,7 +123,13 @@ void NetStandard13()
 
 void NetStandard20()
 {
-    var content = GetGeneratedContent("NetStandard20", [@"netstandard.library\2.0.3\build\netstandard2.0\ref"]);
+    var content = GetGeneratedContent(
+        "NetStandard20",
+        [@"netstandard.library\2.0.3\build\netstandard2.0\ref"],
+        [
+            @"microsoft.csharp\4.7.0\lib\netstandard2.0",
+            @"microsoft.visualbasic\10.3.0\lib\netstandard2.0",
+            @"system.threading.tasks.extensions\4.5.4\lib\netstandard2.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.NetStandard20");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -157,7 +163,10 @@ void Net35()
 
 void Net461()
 {
-    var content = GetGeneratedContent("Net461", [@"microsoft.netframework.referenceassemblies.net461\1.0.3\build\.NETFramework\v4.6.1"]);
+    var content = GetGeneratedContent(
+        "Net461",
+        [@"microsoft.netframework.referenceassemblies.net461\1.0.3\build\.NETFramework\v4.6.1"],
+        [@"system.threading.tasks.extensions\4.5.4\lib\net461"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net461");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -300,7 +309,7 @@ static string GetReferenceInfo(string containingTypeName) => $$"""
     #endif
     """;
 
-static (string CodeContent, string TargetsContent) GetGeneratedContentCore(string name, string[] realPackagePaths, string realPackagePrefix, string targetsPrefix, Regex? excludePattern)
+static (string CodeContent, string TargetsContent) GetGeneratedContentCore(string name, string[] packagePaths, string[] extraPackagePaths, string packagePrefix, string targetsPrefix)
 {
     var targetsContent = new StringBuilder();
     targetsContent.AppendLine("""
@@ -308,25 +317,16 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
             <ItemGroup>
         """);
 
-    var codeContent = new StringBuilder();
-    codeContent.AppendLine($$"""
-        // This is a generated file, please edit Generate\Program.cs to change the contents
-
-        using System;
-        using System.Collections.Generic;
-        using System.Collections.Immutable;
-        using System.Linq;
-        using Microsoft.CodeAnalysis;
-
-        namespace Basic.Reference.Assemblies;
+    var resourcesContent = new StringBuilder();
+    resourcesContent.AppendLine($$"""
         public static partial class {{name}}
         {
             public static class Resources
             {
         """);
 
-    var metadataContent = new StringBuilder();
-    metadataContent.AppendLine($$"""
+    var refContent = new StringBuilder();
+    refContent.AppendLine($$"""
         public static partial class {{name}}
         {
             public static class References
@@ -341,145 +341,72 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
             {
         """);
 
-    var lowerName = name.ToLower();
-    var dllPaths = new List<string>();
-    foreach (var realPackagePath in realPackagePaths)
-    {
-        dllPaths.AddRange(Directory.GetFiles(realPackagePath, "*.dll"));
-        var facadesPath = Path.Combine(realPackagePath, "Facades");
-        if (Directory.Exists(facadesPath))
-        {
-            dllPaths.AddRange(Directory.GetFiles(facadesPath, "*.dll"));
-        }
-    }
+    ProcessDlls(
+        name,
+        packagePaths,
+        packagePrefix,
+        targetsPrefix,
+        "References",
+        targetsContent,
+        resourcesContent,
+        refContent,
+        refInfoContent);
 
-    var allPropNames = new List<string>();
-    foreach (var dllPath in dllPaths)
-    {
-        var dllName = Path.GetFileName(dllPath)!;
-        if (excludePattern is not null && excludePattern.IsMatch(dllName))
-        {
-            continue;
-        }
+    var codeContent = new StringBuilder();
+    codeContent.AppendLine($$"""
+        // This is a generated file, please edit Src\Generate\Program.cs to change the contents
 
-        if (GetMvid(dllPath) is not var (mvid, isAssembly) || !isAssembly)
-        {
-            continue;
-        }
+        using System;
+        using System.Collections.Generic;
+        using System.Collections.Immutable;
+        using System.Linq;
+        using Microsoft.CodeAnalysis;
 
-        var dll = Path.GetFileNameWithoutExtension(dllName);
-        var logicalName = $"{lowerName}.{dll}";
-        var dllResourcePath = Path.Join(targetsPrefix, dllPath.Substring(realPackagePrefix.Length));
-
-        targetsContent.AppendLine($$"""
-                    <EmbeddedResource Include="{{dllResourcePath}}" WithCulture="false">
-                        <LogicalName>{{logicalName}}</LogicalName>
-                        <Link>Resources\{{lowerName}}\{{dllName}}</Link>
-                    </EmbeddedResource>
-            """);
-
-        var propName = dll.Replace(".", "");
-        allPropNames.Add(propName);
-        var fieldName = $"_{propName}";
-        codeContent.AppendLine($$"""
-                    /// <summary>
-                    /// The image bytes for {{dllName}}
-                    /// </summary>
-                    public static byte[] {{propName}} => ResourceLoader.GetOrCreateResource(ref {{fieldName}}, "{{logicalName}}");
-                    private static byte[]? {{fieldName}};
-
-            """);
-
-        refInfoContent.AppendLine($$"""
-
-                    /// <summary>
-                    /// The <see cref="ReferenceInfo"/> for {{dllName}}
-                    /// </summary>
-                    public static ReferenceInfo {{propName}} => new ReferenceInfo("{{dllName}}", Resources.{{propName}}, {{name}}.References.{{propName}}, global::System.Guid.Parse("{{mvid}}"));
-            """);
-
-        metadataContent.AppendLine($$"""
-                    private static PortableExecutableReference? {{fieldName}};
-
-                    /// <summary>
-                    /// The <see cref="PortableExecutableReference"/> for {{dllName}}
-                    /// </summary>
-                    public static PortableExecutableReference {{propName}}
-                    {
-                        get
-                        {
-                            if ({{fieldName}} is null)
-                            {
-                                {{fieldName}} = AssemblyMetadata.CreateFromImage(Resources.{{propName}}).GetReference(filePath: "{{dllName}}", display: "{{dll}} ({{lowerName}})");
-                            }
-                            return {{fieldName}};
-                        }
-                    }
-
-            """);
-    }
-
-    refInfoContent.AppendLine("""
-                private static ImmutableArray<ReferenceInfo> _all;
-                public static ImmutableArray<ReferenceInfo> All
-                {
-                    get
-                    {
-                        if (_all.IsDefault)
-                        {
-                            _all =
-                            [
-        """);
-
-    metadataContent.AppendLine("""
-                private static ImmutableArray<PortableExecutableReference> _all;
-                public static ImmutableArray<PortableExecutableReference> All
-                {
-                    get
-                    {
-                        if (_all.IsDefault)
-                        {
-                            _all =
-                            [
-        """);
-
-    foreach (var propName in allPropNames)
-    {
-      refInfoContent.AppendLine($"                        {propName},");
-      metadataContent.AppendLine($"                        {propName},");
-    }
-
-    metadataContent.AppendLine("""
-                            ];
-                        }
-                        return _all;
-                    }
-                }
-            }
-        }
-        """);
-
-    refInfoContent.AppendLine("""
-                            ];
-                        }
-                        return _all;
-                    }
-                }
-
-                public static IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> AllValues => All.Select(x => x.AsTuple());
-            }
-        }
-        """);
-
-    codeContent.AppendLine("""
-
-            }
-        }
+        namespace Basic.Reference.Assemblies;
         """);
 
     codeContent.AppendLine(refInfoContent.ToString());
+    codeContent.AppendLine(refContent.ToString());
 
-    codeContent.AppendLine(metadataContent.ToString());
+    if (extraPackagePaths.Length > 0)
+    {
+        var extraRefContent = new StringBuilder();
+        extraRefContent.AppendLine($$"""
+            public static partial class {{name}}
+            {
+                public static class ExtraReferences
+                {
+            """);
+
+        var extraRefInfoContent = new StringBuilder();
+        extraRefInfoContent.AppendLine($$"""
+            public static partial class {{name}}
+            {
+                public static class ExtraReferenceInfos
+                {
+            """);
+
+        ProcessDlls(
+            name,
+            extraPackagePaths,
+            packagePrefix,
+            targetsPrefix,
+            "ExtraReferences",
+            targetsContent,
+            resourcesContent,
+            extraRefContent,
+            extraRefInfoContent);
+        codeContent.AppendLine(extraRefInfoContent.ToString());
+        codeContent.AppendLine(extraRefContent.ToString());
+    }
+
+    resourcesContent.AppendLine("""
+
+            }
+        }
+        """);
+
+    codeContent.AppendLine(resourcesContent.ToString());
     codeContent.AppendLine(GetReferenceInfo(name));
 
     targetsContent.AppendLine("""
@@ -488,9 +415,156 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         """);
 
     return (codeContent.ToString(), targetsContent.ToString());
+
+    void ProcessDlls(
+        string name,
+        string[] packagePaths,
+        string packagePrefix,
+        string targetsPrefix,
+        string refName,
+        StringBuilder targetsContent,
+        StringBuilder resourcesContent, 
+        StringBuilder refContent,
+        StringBuilder refInfoContent)
+    {
+        var lowerName = name.ToLower();
+        var allPropNames = new List<string>();
+        foreach (var dllInfo in FindDlls(packagePaths, packagePrefix))
+        {
+            var dllName = Path.GetFileName(dllInfo.FilePath)!;
+            var dll = Path.GetFileNameWithoutExtension(dllName);
+            var logicalName = $"{lowerName}.{dll}";
+            var dllResourcePath = Path.Join(targetsPrefix, dllInfo.RelativeFilePath);
+
+            targetsContent.AppendLine($$"""
+                        <EmbeddedResource Include="{{dllResourcePath}}" WithCulture="false">
+                            <LogicalName>{{logicalName}}</LogicalName>
+                            <Link>Resources\{{lowerName}}\{{dllName}}</Link>
+                        </EmbeddedResource>
+                """);
+
+            var propName = dll.Replace(".", "");
+            allPropNames.Add(propName);
+            var fieldName = $"_{propName}";
+            resourcesContent.AppendLine($$"""
+                        /// <summary>
+                        /// The image bytes for {{dllName}}
+                        /// </summary>
+                        public static byte[] {{propName}} => ResourceLoader.GetOrCreateResource(ref {{fieldName}}, "{{logicalName}}");
+                        private static byte[]? {{fieldName}};
+
+                """);
+
+            refInfoContent.AppendLine($$"""
+
+                        /// <summary>
+                        /// The <see cref="ReferenceInfo"/> for {{dllName}}
+                        /// </summary>
+                        public static ReferenceInfo {{propName}} => new ReferenceInfo("{{dllName}}", Resources.{{propName}}, {{name}}.{{refName}}.{{propName}}, global::System.Guid.Parse("{{dllInfo.Mvid}}"));
+                """);
+
+            refContent.AppendLine($$"""
+                        private static PortableExecutableReference? {{fieldName}};
+
+                        /// <summary>
+                        /// The <see cref="PortableExecutableReference"/> for {{dllName}}
+                        /// </summary>
+                        public static PortableExecutableReference {{propName}}
+                        {
+                            get
+                            {
+                                if ({{fieldName}} is null)
+                                {
+                                    {{fieldName}} = AssemblyMetadata.CreateFromImage(Resources.{{propName}}).GetReference(filePath: "{{dllName}}", display: "{{dll}} ({{lowerName}})");
+                                }
+                                return {{fieldName}};
+                            }
+                        }
+
+                """);
+        }
+
+        refInfoContent.AppendLine("""
+                    private static ImmutableArray<ReferenceInfo> _all;
+                    public static ImmutableArray<ReferenceInfo> All
+                    {
+                        get
+                        {
+                            if (_all.IsDefault)
+                            {
+                                _all =
+                                [
+            """);
+
+        refContent.AppendLine("""
+                    private static ImmutableArray<PortableExecutableReference> _all;
+                    public static ImmutableArray<PortableExecutableReference> All
+                    {
+                        get
+                        {
+                            if (_all.IsDefault)
+                            {
+                                _all =
+                                [
+            """);
+
+        foreach (var propName in allPropNames)
+        {
+        refInfoContent.AppendLine($"                        {propName},");
+        refContent.AppendLine($"                        {propName},");
+        }
+
+        refContent.AppendLine("""
+                                ];
+                            }
+                            return _all;
+                        }
+                    }
+                }
+            }
+            """);
+
+        refInfoContent.AppendLine("""
+                                ];
+                            }
+                            return _all;
+                        }
+                    }
+
+                    public static IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> AllValues => All.Select(x => x.AsTuple());
+                }
+            }
+            """);
+    }
+
+    static IEnumerable<(string FilePath, string RelativeFilePath, Guid Mvid)> FindDlls(string[] packagePaths, string packagePrefix)
+    {
+        var dllPaths = new List<string>();
+        foreach (var packagePath in packagePaths)
+        {
+            dllPaths.AddRange(Directory.GetFiles(packagePath, "*.dll"));
+            var facadesPath = Path.Combine(packagePath, "Facades");
+            if (Directory.Exists(facadesPath))
+            {
+                dllPaths.AddRange(Directory.GetFiles(facadesPath, "*.dll"));
+            }
+        }
+
+        var allPropNames = new List<string>();
+        foreach (var dllPath in dllPaths)
+        {
+            if (GetMvid(dllPath) is not var (mvid, isAssembly) || !isAssembly)
+            {
+                continue;
+            }
+
+            var relativeFilePath = dllPath.Substring(packagePrefix.Length);
+            yield return (dllPath, relativeFilePath, mvid);
+        }
+    }
 }
 
-static (string CodeContent, string TargetsContent) GetGeneratedContent(string name, string[] packagePaths, Regex? excludePattern = null)
+static (string CodeContent, string TargetsContent) GetGeneratedContent(string name, string[] packagePaths, string[]? extraPackagePaths = null)
 {
     var nugetPackageRoot = Environment.GetEnvironmentVariable("NUGET_PACKAGES");
     if (string.IsNullOrEmpty(nugetPackageRoot))
@@ -499,5 +573,8 @@ static (string CodeContent, string TargetsContent) GetGeneratedContent(string na
     }
 
     var realPackagePaths = packagePaths.Select(x => Path.Combine(nugetPackageRoot, x)).ToArray();
-    return GetGeneratedContentCore(name, realPackagePaths, nugetPackageRoot, "$(NuGetPackageRoot)", excludePattern);
+    var realExtraPackagePaths = extraPackagePaths is not null 
+        ? extraPackagePaths.Select(x => Path.Combine(nugetPackageRoot, x)).ToArray()
+        : [];
+    return GetGeneratedContentCore(name, realPackagePaths, realExtraPackagePaths, nugetPackageRoot, "$(NuGetPackageRoot)");
 }
