@@ -7,6 +7,8 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" IncludeAssets="none" PrivateAssets="all" GeneratePathProperty="true" />
+    <PackageReference Include="Microsoft.VisualBasic" Version="10.3.0" IncludeAssets="none" PrivateAssets="all" GeneratePathProperty="true" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" IncludeAssets="none" PrivateAssets="all" GeneratePathProperty="true" />
   </ItemGroup>
 
   <Import Project="Generated.targets" />

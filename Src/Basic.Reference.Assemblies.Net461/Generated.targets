@@ -736,5 +736,9 @@
             <LogicalName>net461.System.Xml.XmlSerializer</LogicalName>
             <Link>Resources\net461\System.Xml.XmlSerializer.dll</Link>
         </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\system.threading.tasks.extensions\4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll" WithCulture="false">
+            <LogicalName>net461.System.Threading.Tasks.Extensions</LogicalName>
+            <Link>Resources\net461\System.Threading.Tasks.Extensions.dll</Link>
+        </EmbeddedResource>
     </ItemGroup>
 </Project>

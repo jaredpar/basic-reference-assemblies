@@ -9,6 +9,74 @@ using Microsoft.CodeAnalysis;
 namespace Basic.Reference.Assemblies;
 public static partial class Net461
 {
+    public static class ExtraReferenceInfos
+    {
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Extensions.dll
+        /// </summary>
+        public static ReferenceInfo SystemThreadingTasksExtensions => new ReferenceInfo("System.Threading.Tasks.Extensions.dll", Resources.SystemThreadingTasksExtensions, Net461.ExtraReferences.SystemThreadingTasksExtensions, global::System.Guid.Parse("bc890e4e-a34f-463c-8fd9-60f43c8beb88"));
+        private static ImmutableArray<ReferenceInfo> _all;
+        public static ImmutableArray<ReferenceInfo> All
+        {
+            get
+            {
+                if (_all.IsDefault)
+                {
+                    _all =
+                    [
+                        SystemThreadingTasksExtensions,
+                    ];
+                }
+                return _all;
+            }
+        }
+
+        public static IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> AllValues => All.Select(x => x.AsTuple());
+    }
+}
+
+public static partial class Net461
+{
+    public static class ExtraReferences
+    {
+        private static PortableExecutableReference? _SystemThreadingTasksExtensions;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Threading.Tasks.Extensions.dll
+        /// </summary>
+        public static PortableExecutableReference SystemThreadingTasksExtensions
+        {
+            get
+            {
+                if (_SystemThreadingTasksExtensions is null)
+                {
+                    _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksExtensions).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (net461)");
+                }
+                return _SystemThreadingTasksExtensions;
+            }
+        }
+
+        private static ImmutableArray<PortableExecutableReference> _all;
+        public static ImmutableArray<PortableExecutableReference> All
+        {
+            get
+            {
+                if (_all.IsDefault)
+                {
+                    _all =
+                    [
+                        SystemThreadingTasksExtensions,
+                    ];
+                }
+                return _all;
+            }
+        }
+    }
+}
+
+public static partial class Net461
+{
     public static class Resources
     {
         /// <summary>
@@ -1114,6 +1182,12 @@ public static partial class Net461
         /// </summary>
         public static byte[] SystemXmlXmlSerializer => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlSerializer, "net461.System.Xml.XmlSerializer");
         private static byte[]? _SystemXmlXmlSerializer;
+
+        /// <summary>
+        /// The image bytes for System.Threading.Tasks.Extensions.dll
+        /// </summary>
+        public static byte[] SystemThreadingTasksExtensions => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksExtensions, "net461.System.Threading.Tasks.Extensions");
+        private static byte[]? _SystemThreadingTasksExtensions;
 
 
     }

@@ -116,4 +116,64 @@ static void Main()
         Assert.NotEmpty(Net461.References.All);
         Assert.NotEmpty(Net472.References.All);
     }
+
+    [Fact]
+    public void ExtraNetStandard20()
+    {
+        var source = """
+            using System;
+
+            public class C
+            {
+                public System.Threading.Tasks.ValueTask Field1;
+                public dynamic Field2;
+                public Microsoft.VisualBasic.CompilerServices.NewLateBinding Field3;
+
+                static void Main() 
+                {
+                    Console.WriteLine("");
+                }
+            }
+            """;
+
+        var compilation = CSharpCompilation.Create(
+            "Example",
+            [CSharpSyntaxTree.ParseText(source)],
+            [.. NetStandard20.References.All, .. NetStandard20.ExtraReferences.All]);
+
+        Assert.Empty(compilation.GetDiagnostics());
+        using var stream = new MemoryStream();
+        var emitResult = compilation.Emit(stream);
+        Assert.True(emitResult.Success);
+        Assert.Empty(emitResult.Diagnostics);
+    }
+
+    [Fact]
+    public void ExtraNetStandardNet461()
+    {
+        var source = """
+            using System;
+
+            public class C
+            {
+                public System.Threading.Tasks.ValueTask Field1;
+
+                static void Main() 
+                {
+                    Console.WriteLine("");
+                }
+            }
+            """;
+
+        var compilation = CSharpCompilation.Create(
+            "Example",
+            [CSharpSyntaxTree.ParseText(source)],
+            [.. Net461.References.All, .. Net461.ExtraReferences.All]);
+
+        Assert.Empty(compilation.GetDiagnostics());
+        using var stream = new MemoryStream();
+        var emitResult = compilation.Emit(stream);
+        Assert.True(emitResult.Success);
+        Assert.Empty(emitResult.Diagnostics);
+    }
 }

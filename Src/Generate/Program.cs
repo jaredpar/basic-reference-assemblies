@@ -115,7 +115,7 @@ void NetStandard13()
     // netstandard1.3 is a special case because it's not a single package. Instead the collection of DLLs that make
     // up the TFM are just checked into the repo directly.
     var realPackagePath = Path.Combine(srcPath, "Resources", "netstandard1.3");
-    var content = GetGeneratedContentCore("NetStandard13", [realPackagePath], srcPath, @"$(MSBuildThisFileDirectory)..");
+    var content = GetGeneratedContentCore("NetStandard13", [realPackagePath], [], srcPath, @"$(MSBuildThisFileDirectory)..");
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.NetStandard13");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -123,7 +123,13 @@ void NetStandard13()
 
 void NetStandard20()
 {
-    var content = GetGeneratedContent("NetStandard20", [@"netstandard.library\2.0.3\build\netstandard2.0\ref"]);
+    var content = GetGeneratedContent(
+        "NetStandard20",
+        [@"netstandard.library\2.0.3\build\netstandard2.0\ref"],
+        [
+            @"microsoft.csharp\4.7.0\lib\netstandard2.0",
+            @"microsoft.visualbasic\10.3.0\lib\netstandard2.0",
+            @"system.threading.tasks.extensions\4.5.4\lib\netstandard2.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.NetStandard20");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -157,7 +163,10 @@ void Net35()
 
 void Net461()
 {
-    var content = GetGeneratedContent("Net461", [@"microsoft.netframework.referenceassemblies.net461\1.0.3\build\.NETFramework\v4.6.1"]);
+    var content = GetGeneratedContent(
+        "Net461",
+        [@"microsoft.netframework.referenceassemblies.net461\1.0.3\build\.NETFramework\v4.6.1"],
+        [@"system.threading.tasks.extensions\4.5.4\lib\net461"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net461");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -300,7 +309,7 @@ static string GetReferenceInfo(string containingTypeName) => $$"""
     #endif
     """;
 
-static (string CodeContent, string TargetsContent) GetGeneratedContentCore(string name, string[] realPackagePaths, string realPackagePrefix, string targetsPrefix)
+static (string CodeContent, string TargetsContent) GetGeneratedContentCore(string name, string[] packagePaths, string[] extraPackagePaths, string packagePrefix, string targetsPrefix)
 {
     var targetsContent = new StringBuilder();
     targetsContent.AppendLine("""
@@ -334,19 +343,14 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
 
     ProcessDlls(
         name,
-        realPackagePaths,
-        realPackagePrefix,
+        packagePaths,
+        packagePrefix,
         targetsPrefix,
+        "References",
         targetsContent,
         resourcesContent,
         refContent,
         refInfoContent);
-
-    resourcesContent.AppendLine("""
-
-            }
-        }
-        """);
 
     var codeContent = new StringBuilder();
     codeContent.AppendLine($$"""
@@ -361,9 +365,49 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         namespace Basic.Reference.Assemblies;
         """);
 
+    if (extraPackagePaths.Length > 0)
+    {
+        var extraRefContent = new StringBuilder();
+        extraRefContent.AppendLine($$"""
+            public static partial class {{name}}
+            {
+                public static class ExtraReferences
+                {
+            """);
+
+        var extraRefInfoContent = new StringBuilder();
+        extraRefInfoContent.AppendLine($$"""
+            public static partial class {{name}}
+            {
+                public static class ExtraReferenceInfos
+                {
+            """);
+
+        ProcessDlls(
+            name,
+            extraPackagePaths,
+            packagePrefix,
+            targetsPrefix,
+            "ExtraReferences",
+            targetsContent,
+            resourcesContent,
+            extraRefContent,
+            extraRefInfoContent);
+        codeContent.AppendLine(extraRefInfoContent.ToString());
+        codeContent.AppendLine(extraRefContent.ToString());
+    }
+
+    resourcesContent.AppendLine("""
+
+            }
+        }
+        """);
+
+
     codeContent.AppendLine(resourcesContent.ToString());
     codeContent.AppendLine(refInfoContent.ToString());
     codeContent.AppendLine(refContent.ToString());
+
     codeContent.AppendLine(GetReferenceInfo(name));
 
     targetsContent.AppendLine("""
@@ -378,6 +422,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         string[] packagePaths,
         string packagePrefix,
         string targetsPrefix,
+        string refName,
         StringBuilder targetsContent,
         StringBuilder resourcesContent, 
         StringBuilder refContent,
@@ -416,7 +461,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
                         /// <summary>
                         /// The <see cref="ReferenceInfo"/> for {{dllName}}
                         /// </summary>
-                        public static ReferenceInfo {{propName}} => new ReferenceInfo("{{dllName}}", Resources.{{propName}}, {{name}}.References.{{propName}}, global::System.Guid.Parse("{{dllInfo.Mvid}}"));
+                        public static ReferenceInfo {{propName}} => new ReferenceInfo("{{dllName}}", Resources.{{propName}}, {{name}}.{{refName}}.{{propName}}, global::System.Guid.Parse("{{dllInfo.Mvid}}"));
                 """);
 
             refContent.AppendLine($$"""
@@ -520,7 +565,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
     }
 }
 
-static (string CodeContent, string TargetsContent) GetGeneratedContent(string name, string[] packagePaths)
+static (string CodeContent, string TargetsContent) GetGeneratedContent(string name, string[] packagePaths, string[]? extraPackagePaths = null)
 {
     var nugetPackageRoot = Environment.GetEnvironmentVariable("NUGET_PACKAGES");
     if (string.IsNullOrEmpty(nugetPackageRoot))
@@ -529,5 +574,8 @@ static (string CodeContent, string TargetsContent) GetGeneratedContent(string na
     }
 
     var realPackagePaths = packagePaths.Select(x => Path.Combine(nugetPackageRoot, x)).ToArray();
-    return GetGeneratedContentCore(name, realPackagePaths, nugetPackageRoot, "$(NuGetPackageRoot)");
+    var realExtraPackagePaths = extraPackagePaths is not null 
+        ? extraPackagePaths.Select(x => Path.Combine(nugetPackageRoot, x)).ToArray()
+        : [];
+    return GetGeneratedContentCore(name, realPackagePaths, realExtraPackagePaths, nugetPackageRoot, "$(NuGetPackageRoot)");
 }

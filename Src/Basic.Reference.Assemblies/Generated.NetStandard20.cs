@@ -9,6 +9,122 @@ using Microsoft.CodeAnalysis;
 namespace Basic.Reference.Assemblies;
 public static partial class NetStandard20
 {
+    public static class ExtraReferenceInfos
+    {
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for Microsoft.CSharp.dll
+        /// </summary>
+        public static ReferenceInfo MicrosoftCSharp => new ReferenceInfo("Microsoft.CSharp.dll", Resources.MicrosoftCSharp, NetStandard20.ExtraReferences.MicrosoftCSharp, global::System.Guid.Parse("481b904b-3433-4e80-b896-766a3cc8e857"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.dll
+        /// </summary>
+        public static ReferenceInfo MicrosoftVisualBasic => new ReferenceInfo("Microsoft.VisualBasic.dll", Resources.MicrosoftVisualBasic, NetStandard20.ExtraReferences.MicrosoftVisualBasic, global::System.Guid.Parse("b61ee3c6-71d0-4726-931a-fa448a2e8f0e"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Extensions.dll
+        /// </summary>
+        public static ReferenceInfo SystemThreadingTasksExtensions => new ReferenceInfo("System.Threading.Tasks.Extensions.dll", Resources.SystemThreadingTasksExtensions, NetStandard20.ExtraReferences.SystemThreadingTasksExtensions, global::System.Guid.Parse("619062a8-972f-4ae5-bbee-e36ac541d14f"));
+        private static ImmutableArray<ReferenceInfo> _all;
+        public static ImmutableArray<ReferenceInfo> All
+        {
+            get
+            {
+                if (_all.IsDefault)
+                {
+                    _all =
+                    [
+                        MicrosoftCSharp,
+                        MicrosoftVisualBasic,
+                        SystemThreadingTasksExtensions,
+                    ];
+                }
+                return _all;
+            }
+        }
+
+        public static IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> AllValues => All.Select(x => x.AsTuple());
+    }
+}
+
+public static partial class NetStandard20
+{
+    public static class ExtraReferences
+    {
+        private static PortableExecutableReference? _MicrosoftCSharp;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for Microsoft.CSharp.dll
+        /// </summary>
+        public static PortableExecutableReference MicrosoftCSharp
+        {
+            get
+            {
+                if (_MicrosoftCSharp is null)
+                {
+                    _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(Resources.MicrosoftCSharp).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (netstandard20)");
+                }
+                return _MicrosoftCSharp;
+            }
+        }
+
+        private static PortableExecutableReference? _MicrosoftVisualBasic;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for Microsoft.VisualBasic.dll
+        /// </summary>
+        public static PortableExecutableReference MicrosoftVisualBasic
+        {
+            get
+            {
+                if (_MicrosoftVisualBasic is null)
+                {
+                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (netstandard20)");
+                }
+                return _MicrosoftVisualBasic;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemThreadingTasksExtensions;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Threading.Tasks.Extensions.dll
+        /// </summary>
+        public static PortableExecutableReference SystemThreadingTasksExtensions
+        {
+            get
+            {
+                if (_SystemThreadingTasksExtensions is null)
+                {
+                    _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksExtensions).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (netstandard20)");
+                }
+                return _SystemThreadingTasksExtensions;
+            }
+        }
+
+        private static ImmutableArray<PortableExecutableReference> _all;
+        public static ImmutableArray<PortableExecutableReference> All
+        {
+            get
+            {
+                if (_all.IsDefault)
+                {
+                    _all =
+                    [
+                        MicrosoftCSharp,
+                        MicrosoftVisualBasic,
+                        SystemThreadingTasksExtensions,
+                    ];
+                }
+                return _all;
+            }
+        }
+    }
+}
+
+public static partial class NetStandard20
+{
     public static class Resources
     {
         /// <summary>
@@ -688,6 +804,24 @@ public static partial class NetStandard20
         /// </summary>
         public static byte[] SystemXmlXPathXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPathXDocument, "netstandard20.System.Xml.XPath.XDocument");
         private static byte[]? _SystemXmlXPathXDocument;
+
+        /// <summary>
+        /// The image bytes for Microsoft.CSharp.dll
+        /// </summary>
+        public static byte[] MicrosoftCSharp => ResourceLoader.GetOrCreateResource(ref _MicrosoftCSharp, "netstandard20.Microsoft.CSharp");
+        private static byte[]? _MicrosoftCSharp;
+
+        /// <summary>
+        /// The image bytes for Microsoft.VisualBasic.dll
+        /// </summary>
+        public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "netstandard20.Microsoft.VisualBasic");
+        private static byte[]? _MicrosoftVisualBasic;
+
+        /// <summary>
+        /// The image bytes for System.Threading.Tasks.Extensions.dll
+        /// </summary>
+        public static byte[] SystemThreadingTasksExtensions => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksExtensions, "netstandard20.System.Threading.Tasks.Extensions");
+        private static byte[]? _SystemThreadingTasksExtensions;
 
 
     }
