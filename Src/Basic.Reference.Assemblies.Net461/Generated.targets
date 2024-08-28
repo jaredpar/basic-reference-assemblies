@@ -740,5 +740,9 @@
             <LogicalName>net461.System.Threading.Tasks.Extensions</LogicalName>
             <Link>Resources\net461\System.Threading.Tasks.Extensions.dll</Link>
         </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\system.valuetuple\4.5.0\lib\net461\System.ValueTuple.dll" WithCulture="false">
+            <LogicalName>net461.System.ValueTuple</LogicalName>
+            <Link>Resources\net461\System.ValueTuple.dll</Link>
+        </EmbeddedResource>
     </ItemGroup>
 </Project>

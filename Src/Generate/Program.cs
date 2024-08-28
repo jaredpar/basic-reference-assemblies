@@ -166,7 +166,10 @@ void Net461()
     var content = GetGeneratedContent(
         "Net461",
         [@"microsoft.netframework.referenceassemblies.net461\1.0.3\build\.NETFramework\v4.6.1"],
-        [@"system.threading.tasks.extensions\4.5.4\lib\net461"]);
+        [
+            @"system.threading.tasks.extensions\4.5.4\lib\net461",
+            @"system.valuetuple\4.5.0\lib\net461"
+        ]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net461");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
