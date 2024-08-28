@@ -13,6 +13,12 @@ namespace Basic.Reference.Assemblies.UnitTests;
 public class SanityUnitTests(ITestOutputHelper outputHelper)
 {
     public ITestOutputHelper TestOutputHelper { get; } = outputHelper;
+    public bool IsCoreClr =>
+#if NET
+        true;
+#else
+        false;
+#endif
 
     [Theory]
     [MemberData(nameof(TestData.ApplicationReferences), MemberType = typeof(TestData))]
@@ -190,7 +196,11 @@ static void Main()
                 }
             }
             """;
-        var actual = CompilationUtil.CompileAndRun(source, nameof(RunTuple));
+
+        var references = IsCoreClr
+            ? Net80.References.All
+            : [.. Net461.References.All, .. Net461.ExtraReferences.All];
+        var actual = CompilationUtil.CompileAndRun(source, nameof(RunTuple), references);
         Assert.Equal("(1, 2)", actual);
     }
 }

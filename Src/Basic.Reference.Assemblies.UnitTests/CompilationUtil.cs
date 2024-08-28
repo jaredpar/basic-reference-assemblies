@@ -1,5 +1,6 @@
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
+using Microsoft.CodeAnalysis.Operations;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -11,14 +12,8 @@ using System.Threading.Tasks;
 namespace Basic.Reference.Assemblies.UnitTests;
 internal static class CompilationUtil
 {
-    public static MemoryStream CompileToLibrary(string code, string assemblyName)
+    public static MemoryStream CompileToLibrary(string code, string assemblyName, IEnumerable<MetadataReference> references)
     {
-        var references =
-#if NET
-            Net80.References.All;
-#else
-            Net461.References.All;
-#endif
         var options = new CSharpCompilationOptions(OutputKind.DynamicallyLinkedLibrary);
         var compilation = CSharpCompilation.Create(
             assemblyName,
@@ -48,23 +43,23 @@ internal static class CompilationUtil
         }
     }
 
-    public static Assembly CompileToLibraryAndLoad(string code, string assemblyName)
+    public static Assembly CompileToLibraryAndLoad(string code, string assemblyName, IEnumerable<MetadataReference> references)
     {
-        var stream = CompileToLibrary(code, assemblyName);
+        var stream = CompileToLibrary(code, assemblyName, references);
         return Load(stream, assemblyName);
     }
 
     /// <summary>
     /// Compile and run the code expecting to find a static Lib.Go method
     /// </summary>
-    public static string? CompileAndRun(string code, string assemblyName)
+    public static string? CompileAndRun(string code, string assemblyName, IEnumerable<MetadataReference> references)
     {
-        var assembly = CompileToLibraryAndLoad(code, assemblyName);
+        var assembly = CompileToLibraryAndLoad(code, assemblyName, references);
         var libType = assembly
             .GetTypes()
             .Where(x => x.Name == "Lib")
             .Single();
-        var method = libType.GetMethod("Go", BindingFlags.Static | BindingFlags.NonPublic);
+        var method = libType.GetMethod("Go", BindingFlags.Static | BindingFlags.NonPublic | BindingFlags.Public);
         var obj = method!.Invoke(null, null);
         return (string?)obj;
     }
