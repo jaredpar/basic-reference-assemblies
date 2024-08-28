@@ -176,4 +176,21 @@ static void Main()
         Assert.True(emitResult.Success);
         Assert.Empty(emitResult.Diagnostics);
     }
+
+    [Fact]
+    public void RunTuple()
+    {
+        var source = """
+            static class Lib
+            { 
+                public static string Go()
+                {
+                    var tuple = (1, 2);
+                    return tuple.ToString();
+                }
+            }
+            """;
+        var actual = CompilationUtil.CompileAndRun(source, nameof(RunTuple));
+        Assert.Equal("(1, 2)", actual);
+    }
 }

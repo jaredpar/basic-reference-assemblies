@@ -29,7 +29,7 @@ jobs:
         run: dotnet pack -p:PackageOutputPath="${GITHUB_WORKSPACE}/packages" -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="0.0.0.1"
       
       - name: Test
-        run: dotnet test --no-build --verbosity normal
+        run: dotnet test --framework net8.0 --no-build --verbosity normal
 
       - name: Upload Binary Log 
         uses: actions/upload-artifact@v3
