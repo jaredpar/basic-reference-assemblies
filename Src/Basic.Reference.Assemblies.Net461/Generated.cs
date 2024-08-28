@@ -4476,6 +4476,11 @@ public static partial class Net461
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Extensions.dll
         /// </summary>
         public static ReferenceInfo SystemThreadingTasksExtensions => new ReferenceInfo("System.Threading.Tasks.Extensions.dll", Resources.SystemThreadingTasksExtensions, Net461.ExtraReferences.SystemThreadingTasksExtensions, global::System.Guid.Parse("bc890e4e-a34f-463c-8fd9-60f43c8beb88"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.ValueTuple.dll
+        /// </summary>
+        public static ReferenceInfo SystemValueTuple => new ReferenceInfo("System.ValueTuple.dll", Resources.SystemValueTuple, Net461.ExtraReferences.SystemValueTuple, global::System.Guid.Parse("1aa5ee86-d143-43bd-94ec-c0749ff98222"));
         private static ImmutableArray<ReferenceInfo> _all;
         public static ImmutableArray<ReferenceInfo> All
         {
@@ -4486,6 +4491,7 @@ public static partial class Net461
                     _all =
                     [
                         SystemThreadingTasksExtensions,
+                        SystemValueTuple,
                     ];
                 }
                 return _all;
@@ -4517,6 +4523,23 @@ public static partial class Net461
             }
         }
 
+        private static PortableExecutableReference? _SystemValueTuple;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.ValueTuple.dll
+        /// </summary>
+        public static PortableExecutableReference SystemValueTuple
+        {
+            get
+            {
+                if (_SystemValueTuple is null)
+                {
+                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (net461)");
+                }
+                return _SystemValueTuple;
+            }
+        }
+
         private static ImmutableArray<PortableExecutableReference> _all;
         public static ImmutableArray<PortableExecutableReference> All
         {
@@ -4527,6 +4550,7 @@ public static partial class Net461
                     _all =
                     [
                         SystemThreadingTasksExtensions,
+                        SystemValueTuple,
                     ];
                 }
                 return _all;
@@ -5648,6 +5672,12 @@ public static partial class Net461
         /// </summary>
         public static byte[] SystemThreadingTasksExtensions => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksExtensions, "net461.System.Threading.Tasks.Extensions");
         private static byte[]? _SystemThreadingTasksExtensions;
+
+        /// <summary>
+        /// The image bytes for System.ValueTuple.dll
+        /// </summary>
+        public static byte[] SystemValueTuple => ResourceLoader.GetOrCreateResource(ref _SystemValueTuple, "net461.System.ValueTuple");
+        private static byte[]? _SystemValueTuple;
 
 
     }
