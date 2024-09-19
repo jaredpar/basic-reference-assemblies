@@ -999,7 +999,7 @@ public static partial class Net60
             {
                 if (_MicrosoftCSharp is null)
                 {
-                    _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(Resources.MicrosoftCSharp).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (net60)");
+                    _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.Microsoft.CSharp")).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (net60)");
                 }
                 return _MicrosoftCSharp;
             }
@@ -1016,7 +1016,7 @@ public static partial class Net60
             {
                 if (_MicrosoftVisualBasicCore is null)
                 {
-                    _MicrosoftVisualBasicCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCore).GetReference(filePath: "Microsoft.VisualBasic.Core.dll", display: "Microsoft.VisualBasic.Core (net60)");
+                    _MicrosoftVisualBasicCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.Microsoft.VisualBasic.Core")).GetReference(filePath: "Microsoft.VisualBasic.Core.dll", display: "Microsoft.VisualBasic.Core (net60)");
                 }
                 return _MicrosoftVisualBasicCore;
             }
@@ -1033,7 +1033,7 @@ public static partial class Net60
             {
                 if (_MicrosoftVisualBasic is null)
                 {
-                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net60)");
+                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net60)");
                 }
                 return _MicrosoftVisualBasic;
             }
@@ -1050,7 +1050,7 @@ public static partial class Net60
             {
                 if (_MicrosoftWin32Primitives is null)
                 {
-                    _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Primitives).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (net60)");
+                    _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.Microsoft.Win32.Primitives")).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (net60)");
                 }
                 return _MicrosoftWin32Primitives;
             }
@@ -1067,7 +1067,7 @@ public static partial class Net60
             {
                 if (_MicrosoftWin32Registry is null)
                 {
-                    _MicrosoftWin32Registry = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Registry).GetReference(filePath: "Microsoft.Win32.Registry.dll", display: "Microsoft.Win32.Registry (net60)");
+                    _MicrosoftWin32Registry = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.Microsoft.Win32.Registry")).GetReference(filePath: "Microsoft.Win32.Registry.dll", display: "Microsoft.Win32.Registry (net60)");
                 }
                 return _MicrosoftWin32Registry;
             }
@@ -1084,7 +1084,7 @@ public static partial class Net60
             {
                 if (_mscorlib is null)
                 {
-                    _mscorlib = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net60)");
+                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net60)");
                 }
                 return _mscorlib;
             }
@@ -1101,7 +1101,7 @@ public static partial class Net60
             {
                 if (_netstandard is null)
                 {
-                    _netstandard = AssemblyMetadata.CreateFromImage(Resources.netstandard).GetReference(filePath: "netstandard.dll", display: "netstandard (net60)");
+                    _netstandard = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.netstandard")).GetReference(filePath: "netstandard.dll", display: "netstandard (net60)");
                 }
                 return _netstandard;
             }
@@ -1118,7 +1118,7 @@ public static partial class Net60
             {
                 if (_SystemAppContext is null)
                 {
-                    _SystemAppContext = AssemblyMetadata.CreateFromImage(Resources.SystemAppContext).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (net60)");
+                    _SystemAppContext = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.AppContext")).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (net60)");
                 }
                 return _SystemAppContext;
             }
@@ -1135,7 +1135,7 @@ public static partial class Net60
             {
                 if (_SystemBuffers is null)
                 {
-                    _SystemBuffers = AssemblyMetadata.CreateFromImage(Resources.SystemBuffers).GetReference(filePath: "System.Buffers.dll", display: "System.Buffers (net60)");
+                    _SystemBuffers = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Buffers")).GetReference(filePath: "System.Buffers.dll", display: "System.Buffers (net60)");
                 }
                 return _SystemBuffers;
             }
@@ -1152,7 +1152,7 @@ public static partial class Net60
             {
                 if (_SystemCollectionsConcurrent is null)
                 {
-                    _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (net60)");
+                    _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Collections.Concurrent")).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (net60)");
                 }
                 return _SystemCollectionsConcurrent;
             }
@@ -1169,7 +1169,7 @@ public static partial class Net60
             {
                 if (_SystemCollections is null)
                 {
-                    _SystemCollections = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (net60)");
+                    _SystemCollections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Collections")).GetReference(filePath: "System.Collections.dll", display: "System.Collections (net60)");
                 }
                 return _SystemCollections;
             }
@@ -1186,7 +1186,7 @@ public static partial class Net60
             {
                 if (_SystemCollectionsImmutable is null)
                 {
-                    _SystemCollectionsImmutable = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsImmutable).GetReference(filePath: "System.Collections.Immutable.dll", display: "System.Collections.Immutable (net60)");
+                    _SystemCollectionsImmutable = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Collections.Immutable")).GetReference(filePath: "System.Collections.Immutable.dll", display: "System.Collections.Immutable (net60)");
                 }
                 return _SystemCollectionsImmutable;
             }
@@ -1203,7 +1203,7 @@ public static partial class Net60
             {
                 if (_SystemCollectionsNonGeneric is null)
                 {
-                    _SystemCollectionsNonGeneric = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsNonGeneric).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (net60)");
+                    _SystemCollectionsNonGeneric = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Collections.NonGeneric")).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (net60)");
                 }
                 return _SystemCollectionsNonGeneric;
             }
@@ -1220,7 +1220,7 @@ public static partial class Net60
             {
                 if (_SystemCollectionsSpecialized is null)
                 {
-                    _SystemCollectionsSpecialized = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsSpecialized).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (net60)");
+                    _SystemCollectionsSpecialized = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Collections.Specialized")).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (net60)");
                 }
                 return _SystemCollectionsSpecialized;
             }
@@ -1237,7 +1237,7 @@ public static partial class Net60
             {
                 if (_SystemComponentModelAnnotations is null)
                 {
-                    _SystemComponentModelAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelAnnotations).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (net60)");
+                    _SystemComponentModelAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.ComponentModel.Annotations")).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (net60)");
                 }
                 return _SystemComponentModelAnnotations;
             }
@@ -1254,7 +1254,7 @@ public static partial class Net60
             {
                 if (_SystemComponentModelDataAnnotations is null)
                 {
-                    _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelDataAnnotations).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (net60)");
+                    _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.ComponentModel.DataAnnotations")).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (net60)");
                 }
                 return _SystemComponentModelDataAnnotations;
             }
@@ -1271,7 +1271,7 @@ public static partial class Net60
             {
                 if (_SystemComponentModel is null)
                 {
-                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModel).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (net60)");
+                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.ComponentModel")).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (net60)");
                 }
                 return _SystemComponentModel;
             }
@@ -1288,7 +1288,7 @@ public static partial class Net60
             {
                 if (_SystemComponentModelEventBasedAsync is null)
                 {
-                    _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelEventBasedAsync).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (net60)");
+                    _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.ComponentModel.EventBasedAsync")).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (net60)");
                 }
                 return _SystemComponentModelEventBasedAsync;
             }
@@ -1305,7 +1305,7 @@ public static partial class Net60
             {
                 if (_SystemComponentModelPrimitives is null)
                 {
-                    _SystemComponentModelPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelPrimitives).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (net60)");
+                    _SystemComponentModelPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.ComponentModel.Primitives")).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (net60)");
                 }
                 return _SystemComponentModelPrimitives;
             }
@@ -1322,7 +1322,7 @@ public static partial class Net60
             {
                 if (_SystemComponentModelTypeConverter is null)
                 {
-                    _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelTypeConverter).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (net60)");
+                    _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.ComponentModel.TypeConverter")).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (net60)");
                 }
                 return _SystemComponentModelTypeConverter;
             }
@@ -1339,7 +1339,7 @@ public static partial class Net60
             {
                 if (_SystemConfiguration is null)
                 {
-                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(Resources.SystemConfiguration).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net60)");
+                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Configuration")).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net60)");
                 }
                 return _SystemConfiguration;
             }
@@ -1356,7 +1356,7 @@ public static partial class Net60
             {
                 if (_SystemConsole is null)
                 {
-                    _SystemConsole = AssemblyMetadata.CreateFromImage(Resources.SystemConsole).GetReference(filePath: "System.Console.dll", display: "System.Console (net60)");
+                    _SystemConsole = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Console")).GetReference(filePath: "System.Console.dll", display: "System.Console (net60)");
                 }
                 return _SystemConsole;
             }
@@ -1373,7 +1373,7 @@ public static partial class Net60
             {
                 if (_SystemCore is null)
                 {
-                    _SystemCore = AssemblyMetadata.CreateFromImage(Resources.SystemCore).GetReference(filePath: "System.Core.dll", display: "System.Core (net60)");
+                    _SystemCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Core")).GetReference(filePath: "System.Core.dll", display: "System.Core (net60)");
                 }
                 return _SystemCore;
             }
@@ -1390,7 +1390,7 @@ public static partial class Net60
             {
                 if (_SystemDataCommon is null)
                 {
-                    _SystemDataCommon = AssemblyMetadata.CreateFromImage(Resources.SystemDataCommon).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (net60)");
+                    _SystemDataCommon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Data.Common")).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (net60)");
                 }
                 return _SystemDataCommon;
             }
@@ -1407,7 +1407,7 @@ public static partial class Net60
             {
                 if (_SystemDataDataSetExtensions is null)
                 {
-                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemDataDataSetExtensions).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net60)");
+                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Data.DataSetExtensions")).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net60)");
                 }
                 return _SystemDataDataSetExtensions;
             }
@@ -1424,7 +1424,7 @@ public static partial class Net60
             {
                 if (_SystemData is null)
                 {
-                    _SystemData = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (net60)");
+                    _SystemData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Data")).GetReference(filePath: "System.Data.dll", display: "System.Data (net60)");
                 }
                 return _SystemData;
             }
@@ -1441,7 +1441,7 @@ public static partial class Net60
             {
                 if (_SystemDiagnosticsContracts is null)
                 {
-                    _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsContracts).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (net60)");
+                    _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Diagnostics.Contracts")).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (net60)");
                 }
                 return _SystemDiagnosticsContracts;
             }
@@ -1458,7 +1458,7 @@ public static partial class Net60
             {
                 if (_SystemDiagnosticsDebug is null)
                 {
-                    _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (net60)");
+                    _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Diagnostics.Debug")).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (net60)");
                 }
                 return _SystemDiagnosticsDebug;
             }
@@ -1475,7 +1475,7 @@ public static partial class Net60
             {
                 if (_SystemDiagnosticsDiagnosticSource is null)
                 {
-                    _SystemDiagnosticsDiagnosticSource = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDiagnosticSource).GetReference(filePath: "System.Diagnostics.DiagnosticSource.dll", display: "System.Diagnostics.DiagnosticSource (net60)");
+                    _SystemDiagnosticsDiagnosticSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Diagnostics.DiagnosticSource")).GetReference(filePath: "System.Diagnostics.DiagnosticSource.dll", display: "System.Diagnostics.DiagnosticSource (net60)");
                 }
                 return _SystemDiagnosticsDiagnosticSource;
             }
@@ -1492,7 +1492,7 @@ public static partial class Net60
             {
                 if (_SystemDiagnosticsFileVersionInfo is null)
                 {
-                    _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsFileVersionInfo).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (net60)");
+                    _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Diagnostics.FileVersionInfo")).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (net60)");
                 }
                 return _SystemDiagnosticsFileVersionInfo;
             }
@@ -1509,7 +1509,7 @@ public static partial class Net60
             {
                 if (_SystemDiagnosticsProcess is null)
                 {
-                    _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsProcess).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (net60)");
+                    _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Diagnostics.Process")).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (net60)");
                 }
                 return _SystemDiagnosticsProcess;
             }
@@ -1526,7 +1526,7 @@ public static partial class Net60
             {
                 if (_SystemDiagnosticsStackTrace is null)
                 {
-                    _SystemDiagnosticsStackTrace = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsStackTrace).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (net60)");
+                    _SystemDiagnosticsStackTrace = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Diagnostics.StackTrace")).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (net60)");
                 }
                 return _SystemDiagnosticsStackTrace;
             }
@@ -1543,7 +1543,7 @@ public static partial class Net60
             {
                 if (_SystemDiagnosticsTextWriterTraceListener is null)
                 {
-                    _SystemDiagnosticsTextWriterTraceListener = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTextWriterTraceListener).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (net60)");
+                    _SystemDiagnosticsTextWriterTraceListener = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Diagnostics.TextWriterTraceListener")).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (net60)");
                 }
                 return _SystemDiagnosticsTextWriterTraceListener;
             }
@@ -1560,7 +1560,7 @@ public static partial class Net60
             {
                 if (_SystemDiagnosticsTools is null)
                 {
-                    _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (net60)");
+                    _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Diagnostics.Tools")).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (net60)");
                 }
                 return _SystemDiagnosticsTools;
             }
@@ -1577,7 +1577,7 @@ public static partial class Net60
             {
                 if (_SystemDiagnosticsTraceSource is null)
                 {
-                    _SystemDiagnosticsTraceSource = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTraceSource).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (net60)");
+                    _SystemDiagnosticsTraceSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Diagnostics.TraceSource")).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (net60)");
                 }
                 return _SystemDiagnosticsTraceSource;
             }
@@ -1594,7 +1594,7 @@ public static partial class Net60
             {
                 if (_SystemDiagnosticsTracing is null)
                 {
-                    _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (net60)");
+                    _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Diagnostics.Tracing")).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (net60)");
                 }
                 return _SystemDiagnosticsTracing;
             }
@@ -1611,7 +1611,7 @@ public static partial class Net60
             {
                 if (_System is null)
                 {
-                    _System = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (net60)");
+                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System")).GetReference(filePath: "System.dll", display: "System (net60)");
                 }
                 return _System;
             }
@@ -1628,7 +1628,7 @@ public static partial class Net60
             {
                 if (_SystemDrawing is null)
                 {
-                    _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net60)");
+                    _SystemDrawing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Drawing")).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net60)");
                 }
                 return _SystemDrawing;
             }
@@ -1645,7 +1645,7 @@ public static partial class Net60
             {
                 if (_SystemDrawingPrimitives is null)
                 {
-                    _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingPrimitives).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (net60)");
+                    _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Drawing.Primitives")).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (net60)");
                 }
                 return _SystemDrawingPrimitives;
             }
@@ -1662,7 +1662,7 @@ public static partial class Net60
             {
                 if (_SystemDynamicRuntime is null)
                 {
-                    _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemDynamicRuntime).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (net60)");
+                    _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Dynamic.Runtime")).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (net60)");
                 }
                 return _SystemDynamicRuntime;
             }
@@ -1679,7 +1679,7 @@ public static partial class Net60
             {
                 if (_SystemFormatsAsn1 is null)
                 {
-                    _SystemFormatsAsn1 = AssemblyMetadata.CreateFromImage(Resources.SystemFormatsAsn1).GetReference(filePath: "System.Formats.Asn1.dll", display: "System.Formats.Asn1 (net60)");
+                    _SystemFormatsAsn1 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Formats.Asn1")).GetReference(filePath: "System.Formats.Asn1.dll", display: "System.Formats.Asn1 (net60)");
                 }
                 return _SystemFormatsAsn1;
             }
@@ -1696,7 +1696,7 @@ public static partial class Net60
             {
                 if (_SystemGlobalizationCalendars is null)
                 {
-                    _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationCalendars).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (net60)");
+                    _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Globalization.Calendars")).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (net60)");
                 }
                 return _SystemGlobalizationCalendars;
             }
@@ -1713,7 +1713,7 @@ public static partial class Net60
             {
                 if (_SystemGlobalization is null)
                 {
-                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (net60)");
+                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Globalization")).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (net60)");
                 }
                 return _SystemGlobalization;
             }
@@ -1730,7 +1730,7 @@ public static partial class Net60
             {
                 if (_SystemGlobalizationExtensions is null)
                 {
-                    _SystemGlobalizationExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationExtensions).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (net60)");
+                    _SystemGlobalizationExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Globalization.Extensions")).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (net60)");
                 }
                 return _SystemGlobalizationExtensions;
             }
@@ -1747,7 +1747,7 @@ public static partial class Net60
             {
                 if (_SystemIOCompressionBrotli is null)
                 {
-                    _SystemIOCompressionBrotli = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionBrotli).GetReference(filePath: "System.IO.Compression.Brotli.dll", display: "System.IO.Compression.Brotli (net60)");
+                    _SystemIOCompressionBrotli = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO.Compression.Brotli")).GetReference(filePath: "System.IO.Compression.Brotli.dll", display: "System.IO.Compression.Brotli (net60)");
                 }
                 return _SystemIOCompressionBrotli;
             }
@@ -1764,7 +1764,7 @@ public static partial class Net60
             {
                 if (_SystemIOCompression is null)
                 {
-                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (net60)");
+                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (net60)");
                 }
                 return _SystemIOCompression;
             }
@@ -1781,7 +1781,7 @@ public static partial class Net60
             {
                 if (_SystemIOCompressionFileSystem is null)
                 {
-                    _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionFileSystem).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (net60)");
+                    _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO.Compression.FileSystem")).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (net60)");
                 }
                 return _SystemIOCompressionFileSystem;
             }
@@ -1798,7 +1798,7 @@ public static partial class Net60
             {
                 if (_SystemIOCompressionZipFile is null)
                 {
-                    _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionZipFile).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (net60)");
+                    _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO.Compression.ZipFile")).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (net60)");
                 }
                 return _SystemIOCompressionZipFile;
             }
@@ -1815,7 +1815,7 @@ public static partial class Net60
             {
                 if (_SystemIO is null)
                 {
-                    _SystemIO = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (net60)");
+                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (net60)");
                 }
                 return _SystemIO;
             }
@@ -1832,7 +1832,7 @@ public static partial class Net60
             {
                 if (_SystemIOFileSystemAccessControl is null)
                 {
-                    _SystemIOFileSystemAccessControl = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemAccessControl).GetReference(filePath: "System.IO.FileSystem.AccessControl.dll", display: "System.IO.FileSystem.AccessControl (net60)");
+                    _SystemIOFileSystemAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO.FileSystem.AccessControl")).GetReference(filePath: "System.IO.FileSystem.AccessControl.dll", display: "System.IO.FileSystem.AccessControl (net60)");
                 }
                 return _SystemIOFileSystemAccessControl;
             }
@@ -1849,7 +1849,7 @@ public static partial class Net60
             {
                 if (_SystemIOFileSystem is null)
                 {
-                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystem).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (net60)");
+                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO.FileSystem")).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (net60)");
                 }
                 return _SystemIOFileSystem;
             }
@@ -1866,7 +1866,7 @@ public static partial class Net60
             {
                 if (_SystemIOFileSystemDriveInfo is null)
                 {
-                    _SystemIOFileSystemDriveInfo = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemDriveInfo).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (net60)");
+                    _SystemIOFileSystemDriveInfo = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO.FileSystem.DriveInfo")).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (net60)");
                 }
                 return _SystemIOFileSystemDriveInfo;
             }
@@ -1883,7 +1883,7 @@ public static partial class Net60
             {
                 if (_SystemIOFileSystemPrimitives is null)
                 {
-                    _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemPrimitives).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (net60)");
+                    _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO.FileSystem.Primitives")).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (net60)");
                 }
                 return _SystemIOFileSystemPrimitives;
             }
@@ -1900,7 +1900,7 @@ public static partial class Net60
             {
                 if (_SystemIOFileSystemWatcher is null)
                 {
-                    _SystemIOFileSystemWatcher = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemWatcher).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (net60)");
+                    _SystemIOFileSystemWatcher = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO.FileSystem.Watcher")).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (net60)");
                 }
                 return _SystemIOFileSystemWatcher;
             }
@@ -1917,7 +1917,7 @@ public static partial class Net60
             {
                 if (_SystemIOIsolatedStorage is null)
                 {
-                    _SystemIOIsolatedStorage = AssemblyMetadata.CreateFromImage(Resources.SystemIOIsolatedStorage).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (net60)");
+                    _SystemIOIsolatedStorage = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO.IsolatedStorage")).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (net60)");
                 }
                 return _SystemIOIsolatedStorage;
             }
@@ -1934,7 +1934,7 @@ public static partial class Net60
             {
                 if (_SystemIOMemoryMappedFiles is null)
                 {
-                    _SystemIOMemoryMappedFiles = AssemblyMetadata.CreateFromImage(Resources.SystemIOMemoryMappedFiles).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (net60)");
+                    _SystemIOMemoryMappedFiles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO.MemoryMappedFiles")).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (net60)");
                 }
                 return _SystemIOMemoryMappedFiles;
             }
@@ -1951,7 +1951,7 @@ public static partial class Net60
             {
                 if (_SystemIOPipesAccessControl is null)
                 {
-                    _SystemIOPipesAccessControl = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipesAccessControl).GetReference(filePath: "System.IO.Pipes.AccessControl.dll", display: "System.IO.Pipes.AccessControl (net60)");
+                    _SystemIOPipesAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO.Pipes.AccessControl")).GetReference(filePath: "System.IO.Pipes.AccessControl.dll", display: "System.IO.Pipes.AccessControl (net60)");
                 }
                 return _SystemIOPipesAccessControl;
             }
@@ -1968,7 +1968,7 @@ public static partial class Net60
             {
                 if (_SystemIOPipes is null)
                 {
-                    _SystemIOPipes = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipes).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (net60)");
+                    _SystemIOPipes = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO.Pipes")).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (net60)");
                 }
                 return _SystemIOPipes;
             }
@@ -1985,7 +1985,7 @@ public static partial class Net60
             {
                 if (_SystemIOUnmanagedMemoryStream is null)
                 {
-                    _SystemIOUnmanagedMemoryStream = AssemblyMetadata.CreateFromImage(Resources.SystemIOUnmanagedMemoryStream).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (net60)");
+                    _SystemIOUnmanagedMemoryStream = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.IO.UnmanagedMemoryStream")).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (net60)");
                 }
                 return _SystemIOUnmanagedMemoryStream;
             }
@@ -2002,7 +2002,7 @@ public static partial class Net60
             {
                 if (_SystemLinq is null)
                 {
-                    _SystemLinq = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (net60)");
+                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (net60)");
                 }
                 return _SystemLinq;
             }
@@ -2019,7 +2019,7 @@ public static partial class Net60
             {
                 if (_SystemLinqExpressions is null)
                 {
-                    _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (net60)");
+                    _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Linq.Expressions")).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (net60)");
                 }
                 return _SystemLinqExpressions;
             }
@@ -2036,7 +2036,7 @@ public static partial class Net60
             {
                 if (_SystemLinqParallel is null)
                 {
-                    _SystemLinqParallel = AssemblyMetadata.CreateFromImage(Resources.SystemLinqParallel).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (net60)");
+                    _SystemLinqParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Linq.Parallel")).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (net60)");
                 }
                 return _SystemLinqParallel;
             }
@@ -2053,7 +2053,7 @@ public static partial class Net60
             {
                 if (_SystemLinqQueryable is null)
                 {
-                    _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(Resources.SystemLinqQueryable).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (net60)");
+                    _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Linq.Queryable")).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (net60)");
                 }
                 return _SystemLinqQueryable;
             }
@@ -2070,7 +2070,7 @@ public static partial class Net60
             {
                 if (_SystemMemory is null)
                 {
-                    _SystemMemory = AssemblyMetadata.CreateFromImage(Resources.SystemMemory).GetReference(filePath: "System.Memory.dll", display: "System.Memory (net60)");
+                    _SystemMemory = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Memory")).GetReference(filePath: "System.Memory.dll", display: "System.Memory (net60)");
                 }
                 return _SystemMemory;
             }
@@ -2087,7 +2087,7 @@ public static partial class Net60
             {
                 if (_SystemNet is null)
                 {
-                    _SystemNet = AssemblyMetadata.CreateFromImage(Resources.SystemNet).GetReference(filePath: "System.Net.dll", display: "System.Net (net60)");
+                    _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (net60)");
                 }
                 return _SystemNet;
             }
@@ -2104,7 +2104,7 @@ public static partial class Net60
             {
                 if (_SystemNetHttp is null)
                 {
-                    _SystemNetHttp = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (net60)");
+                    _SystemNetHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.Http")).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (net60)");
                 }
                 return _SystemNetHttp;
             }
@@ -2121,7 +2121,7 @@ public static partial class Net60
             {
                 if (_SystemNetHttpJson is null)
                 {
-                    _SystemNetHttpJson = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpJson).GetReference(filePath: "System.Net.Http.Json.dll", display: "System.Net.Http.Json (net60)");
+                    _SystemNetHttpJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.Http.Json")).GetReference(filePath: "System.Net.Http.Json.dll", display: "System.Net.Http.Json (net60)");
                 }
                 return _SystemNetHttpJson;
             }
@@ -2138,7 +2138,7 @@ public static partial class Net60
             {
                 if (_SystemNetHttpListener is null)
                 {
-                    _SystemNetHttpListener = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpListener).GetReference(filePath: "System.Net.HttpListener.dll", display: "System.Net.HttpListener (net60)");
+                    _SystemNetHttpListener = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.HttpListener")).GetReference(filePath: "System.Net.HttpListener.dll", display: "System.Net.HttpListener (net60)");
                 }
                 return _SystemNetHttpListener;
             }
@@ -2155,7 +2155,7 @@ public static partial class Net60
             {
                 if (_SystemNetMail is null)
                 {
-                    _SystemNetMail = AssemblyMetadata.CreateFromImage(Resources.SystemNetMail).GetReference(filePath: "System.Net.Mail.dll", display: "System.Net.Mail (net60)");
+                    _SystemNetMail = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.Mail")).GetReference(filePath: "System.Net.Mail.dll", display: "System.Net.Mail (net60)");
                 }
                 return _SystemNetMail;
             }
@@ -2172,7 +2172,7 @@ public static partial class Net60
             {
                 if (_SystemNetNameResolution is null)
                 {
-                    _SystemNetNameResolution = AssemblyMetadata.CreateFromImage(Resources.SystemNetNameResolution).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (net60)");
+                    _SystemNetNameResolution = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.NameResolution")).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (net60)");
                 }
                 return _SystemNetNameResolution;
             }
@@ -2189,7 +2189,7 @@ public static partial class Net60
             {
                 if (_SystemNetNetworkInformation is null)
                 {
-                    _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(Resources.SystemNetNetworkInformation).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (net60)");
+                    _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.NetworkInformation")).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (net60)");
                 }
                 return _SystemNetNetworkInformation;
             }
@@ -2206,7 +2206,7 @@ public static partial class Net60
             {
                 if (_SystemNetPing is null)
                 {
-                    _SystemNetPing = AssemblyMetadata.CreateFromImage(Resources.SystemNetPing).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (net60)");
+                    _SystemNetPing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.Ping")).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (net60)");
                 }
                 return _SystemNetPing;
             }
@@ -2223,7 +2223,7 @@ public static partial class Net60
             {
                 if (_SystemNetPrimitives is null)
                 {
-                    _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (net60)");
+                    _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.Primitives")).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (net60)");
                 }
                 return _SystemNetPrimitives;
             }
@@ -2240,7 +2240,7 @@ public static partial class Net60
             {
                 if (_SystemNetRequests is null)
                 {
-                    _SystemNetRequests = AssemblyMetadata.CreateFromImage(Resources.SystemNetRequests).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (net60)");
+                    _SystemNetRequests = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.Requests")).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (net60)");
                 }
                 return _SystemNetRequests;
             }
@@ -2257,7 +2257,7 @@ public static partial class Net60
             {
                 if (_SystemNetSecurity is null)
                 {
-                    _SystemNetSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemNetSecurity).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (net60)");
+                    _SystemNetSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.Security")).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (net60)");
                 }
                 return _SystemNetSecurity;
             }
@@ -2274,7 +2274,7 @@ public static partial class Net60
             {
                 if (_SystemNetServicePoint is null)
                 {
-                    _SystemNetServicePoint = AssemblyMetadata.CreateFromImage(Resources.SystemNetServicePoint).GetReference(filePath: "System.Net.ServicePoint.dll", display: "System.Net.ServicePoint (net60)");
+                    _SystemNetServicePoint = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.ServicePoint")).GetReference(filePath: "System.Net.ServicePoint.dll", display: "System.Net.ServicePoint (net60)");
                 }
                 return _SystemNetServicePoint;
             }
@@ -2291,7 +2291,7 @@ public static partial class Net60
             {
                 if (_SystemNetSockets is null)
                 {
-                    _SystemNetSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetSockets).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (net60)");
+                    _SystemNetSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.Sockets")).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (net60)");
                 }
                 return _SystemNetSockets;
             }
@@ -2308,7 +2308,7 @@ public static partial class Net60
             {
                 if (_SystemNetWebClient is null)
                 {
-                    _SystemNetWebClient = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebClient).GetReference(filePath: "System.Net.WebClient.dll", display: "System.Net.WebClient (net60)");
+                    _SystemNetWebClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.WebClient")).GetReference(filePath: "System.Net.WebClient.dll", display: "System.Net.WebClient (net60)");
                 }
                 return _SystemNetWebClient;
             }
@@ -2325,7 +2325,7 @@ public static partial class Net60
             {
                 if (_SystemNetWebHeaderCollection is null)
                 {
-                    _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebHeaderCollection).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (net60)");
+                    _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.WebHeaderCollection")).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (net60)");
                 }
                 return _SystemNetWebHeaderCollection;
             }
@@ -2342,7 +2342,7 @@ public static partial class Net60
             {
                 if (_SystemNetWebProxy is null)
                 {
-                    _SystemNetWebProxy = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebProxy).GetReference(filePath: "System.Net.WebProxy.dll", display: "System.Net.WebProxy (net60)");
+                    _SystemNetWebProxy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.WebProxy")).GetReference(filePath: "System.Net.WebProxy.dll", display: "System.Net.WebProxy (net60)");
                 }
                 return _SystemNetWebProxy;
             }
@@ -2359,7 +2359,7 @@ public static partial class Net60
             {
                 if (_SystemNetWebSocketsClient is null)
                 {
-                    _SystemNetWebSocketsClient = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSocketsClient).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (net60)");
+                    _SystemNetWebSocketsClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.WebSockets.Client")).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (net60)");
                 }
                 return _SystemNetWebSocketsClient;
             }
@@ -2376,7 +2376,7 @@ public static partial class Net60
             {
                 if (_SystemNetWebSockets is null)
                 {
-                    _SystemNetWebSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSockets).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (net60)");
+                    _SystemNetWebSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Net.WebSockets")).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (net60)");
                 }
                 return _SystemNetWebSockets;
             }
@@ -2393,7 +2393,7 @@ public static partial class Net60
             {
                 if (_SystemNumerics is null)
                 {
-                    _SystemNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemNumerics).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net60)");
+                    _SystemNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Numerics")).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net60)");
                 }
                 return _SystemNumerics;
             }
@@ -2410,7 +2410,7 @@ public static partial class Net60
             {
                 if (_SystemNumericsVectors is null)
                 {
-                    _SystemNumericsVectors = AssemblyMetadata.CreateFromImage(Resources.SystemNumericsVectors).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (net60)");
+                    _SystemNumericsVectors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Numerics.Vectors")).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (net60)");
                 }
                 return _SystemNumericsVectors;
             }
@@ -2427,7 +2427,7 @@ public static partial class Net60
             {
                 if (_SystemObjectModel is null)
                 {
-                    _SystemObjectModel = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (net60)");
+                    _SystemObjectModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.ObjectModel")).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (net60)");
                 }
                 return _SystemObjectModel;
             }
@@ -2444,7 +2444,7 @@ public static partial class Net60
             {
                 if (_SystemReflectionDispatchProxy is null)
                 {
-                    _SystemReflectionDispatchProxy = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionDispatchProxy).GetReference(filePath: "System.Reflection.DispatchProxy.dll", display: "System.Reflection.DispatchProxy (net60)");
+                    _SystemReflectionDispatchProxy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Reflection.DispatchProxy")).GetReference(filePath: "System.Reflection.DispatchProxy.dll", display: "System.Reflection.DispatchProxy (net60)");
                 }
                 return _SystemReflectionDispatchProxy;
             }
@@ -2461,7 +2461,7 @@ public static partial class Net60
             {
                 if (_SystemReflection is null)
                 {
-                    _SystemReflection = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (net60)");
+                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (net60)");
                 }
                 return _SystemReflection;
             }
@@ -2478,7 +2478,7 @@ public static partial class Net60
             {
                 if (_SystemReflectionEmit is null)
                 {
-                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmit).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (net60)");
+                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Reflection.Emit")).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (net60)");
                 }
                 return _SystemReflectionEmit;
             }
@@ -2495,7 +2495,7 @@ public static partial class Net60
             {
                 if (_SystemReflectionEmitILGeneration is null)
                 {
-                    _SystemReflectionEmitILGeneration = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitILGeneration).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (net60)");
+                    _SystemReflectionEmitILGeneration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Reflection.Emit.ILGeneration")).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (net60)");
                 }
                 return _SystemReflectionEmitILGeneration;
             }
@@ -2512,7 +2512,7 @@ public static partial class Net60
             {
                 if (_SystemReflectionEmitLightweight is null)
                 {
-                    _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitLightweight).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (net60)");
+                    _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Reflection.Emit.Lightweight")).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (net60)");
                 }
                 return _SystemReflectionEmitLightweight;
             }
@@ -2529,7 +2529,7 @@ public static partial class Net60
             {
                 if (_SystemReflectionExtensions is null)
                 {
-                    _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (net60)");
+                    _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Reflection.Extensions")).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (net60)");
                 }
                 return _SystemReflectionExtensions;
             }
@@ -2546,7 +2546,7 @@ public static partial class Net60
             {
                 if (_SystemReflectionMetadata is null)
                 {
-                    _SystemReflectionMetadata = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionMetadata).GetReference(filePath: "System.Reflection.Metadata.dll", display: "System.Reflection.Metadata (net60)");
+                    _SystemReflectionMetadata = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Reflection.Metadata")).GetReference(filePath: "System.Reflection.Metadata.dll", display: "System.Reflection.Metadata (net60)");
                 }
                 return _SystemReflectionMetadata;
             }
@@ -2563,7 +2563,7 @@ public static partial class Net60
             {
                 if (_SystemReflectionPrimitives is null)
                 {
-                    _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (net60)");
+                    _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Reflection.Primitives")).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (net60)");
                 }
                 return _SystemReflectionPrimitives;
             }
@@ -2580,7 +2580,7 @@ public static partial class Net60
             {
                 if (_SystemReflectionTypeExtensions is null)
                 {
-                    _SystemReflectionTypeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionTypeExtensions).GetReference(filePath: "System.Reflection.TypeExtensions.dll", display: "System.Reflection.TypeExtensions (net60)");
+                    _SystemReflectionTypeExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Reflection.TypeExtensions")).GetReference(filePath: "System.Reflection.TypeExtensions.dll", display: "System.Reflection.TypeExtensions (net60)");
                 }
                 return _SystemReflectionTypeExtensions;
             }
@@ -2597,7 +2597,7 @@ public static partial class Net60
             {
                 if (_SystemResourcesReader is null)
                 {
-                    _SystemResourcesReader = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesReader).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (net60)");
+                    _SystemResourcesReader = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Resources.Reader")).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (net60)");
                 }
                 return _SystemResourcesReader;
             }
@@ -2614,7 +2614,7 @@ public static partial class Net60
             {
                 if (_SystemResourcesResourceManager is null)
                 {
-                    _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (net60)");
+                    _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Resources.ResourceManager")).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (net60)");
                 }
                 return _SystemResourcesResourceManager;
             }
@@ -2631,7 +2631,7 @@ public static partial class Net60
             {
                 if (_SystemResourcesWriter is null)
                 {
-                    _SystemResourcesWriter = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesWriter).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (net60)");
+                    _SystemResourcesWriter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Resources.Writer")).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (net60)");
                 }
                 return _SystemResourcesWriter;
             }
@@ -2648,7 +2648,7 @@ public static partial class Net60
             {
                 if (_SystemRuntimeCompilerServicesUnsafe is null)
                 {
-                    _SystemRuntimeCompilerServicesUnsafe = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesUnsafe).GetReference(filePath: "System.Runtime.CompilerServices.Unsafe.dll", display: "System.Runtime.CompilerServices.Unsafe (net60)");
+                    _SystemRuntimeCompilerServicesUnsafe = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime.CompilerServices.Unsafe")).GetReference(filePath: "System.Runtime.CompilerServices.Unsafe.dll", display: "System.Runtime.CompilerServices.Unsafe (net60)");
                 }
                 return _SystemRuntimeCompilerServicesUnsafe;
             }
@@ -2665,7 +2665,7 @@ public static partial class Net60
             {
                 if (_SystemRuntimeCompilerServicesVisualC is null)
                 {
-                    _SystemRuntimeCompilerServicesVisualC = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesVisualC).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (net60)");
+                    _SystemRuntimeCompilerServicesVisualC = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime.CompilerServices.VisualC")).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (net60)");
                 }
                 return _SystemRuntimeCompilerServicesVisualC;
             }
@@ -2682,7 +2682,7 @@ public static partial class Net60
             {
                 if (_SystemRuntime is null)
                 {
-                    _SystemRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (net60)");
+                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (net60)");
                 }
                 return _SystemRuntime;
             }
@@ -2699,7 +2699,7 @@ public static partial class Net60
             {
                 if (_SystemRuntimeExtensions is null)
                 {
-                    _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (net60)");
+                    _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime.Extensions")).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (net60)");
                 }
                 return _SystemRuntimeExtensions;
             }
@@ -2716,7 +2716,7 @@ public static partial class Net60
             {
                 if (_SystemRuntimeHandles is null)
                 {
-                    _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (net60)");
+                    _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime.Handles")).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (net60)");
                 }
                 return _SystemRuntimeHandles;
             }
@@ -2733,7 +2733,7 @@ public static partial class Net60
             {
                 if (_SystemRuntimeInteropServices is null)
                 {
-                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (net60)");
+                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (net60)");
                 }
                 return _SystemRuntimeInteropServices;
             }
@@ -2750,7 +2750,7 @@ public static partial class Net60
             {
                 if (_SystemRuntimeInteropServicesRuntimeInformation is null)
                 {
-                    _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesRuntimeInformation).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (net60)");
+                    _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime.InteropServices.RuntimeInformation")).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (net60)");
                 }
                 return _SystemRuntimeInteropServicesRuntimeInformation;
             }
@@ -2767,7 +2767,7 @@ public static partial class Net60
             {
                 if (_SystemRuntimeIntrinsics is null)
                 {
-                    _SystemRuntimeIntrinsics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeIntrinsics).GetReference(filePath: "System.Runtime.Intrinsics.dll", display: "System.Runtime.Intrinsics (net60)");
+                    _SystemRuntimeIntrinsics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime.Intrinsics")).GetReference(filePath: "System.Runtime.Intrinsics.dll", display: "System.Runtime.Intrinsics (net60)");
                 }
                 return _SystemRuntimeIntrinsics;
             }
@@ -2784,7 +2784,7 @@ public static partial class Net60
             {
                 if (_SystemRuntimeLoader is null)
                 {
-                    _SystemRuntimeLoader = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeLoader).GetReference(filePath: "System.Runtime.Loader.dll", display: "System.Runtime.Loader (net60)");
+                    _SystemRuntimeLoader = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime.Loader")).GetReference(filePath: "System.Runtime.Loader.dll", display: "System.Runtime.Loader (net60)");
                 }
                 return _SystemRuntimeLoader;
             }
@@ -2801,7 +2801,7 @@ public static partial class Net60
             {
                 if (_SystemRuntimeNumerics is null)
                 {
-                    _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (net60)");
+                    _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime.Numerics")).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (net60)");
                 }
                 return _SystemRuntimeNumerics;
             }
@@ -2818,7 +2818,7 @@ public static partial class Net60
             {
                 if (_SystemRuntimeSerialization is null)
                 {
-                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerialization).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net60)");
+                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net60)");
                 }
                 return _SystemRuntimeSerialization;
             }
@@ -2835,7 +2835,7 @@ public static partial class Net60
             {
                 if (_SystemRuntimeSerializationFormatters is null)
                 {
-                    _SystemRuntimeSerializationFormatters = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormatters).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (net60)");
+                    _SystemRuntimeSerializationFormatters = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime.Serialization.Formatters")).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (net60)");
                 }
                 return _SystemRuntimeSerializationFormatters;
             }
@@ -2852,7 +2852,7 @@ public static partial class Net60
             {
                 if (_SystemRuntimeSerializationJson is null)
                 {
-                    _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationJson).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (net60)");
+                    _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime.Serialization.Json")).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (net60)");
                 }
                 return _SystemRuntimeSerializationJson;
             }
@@ -2869,7 +2869,7 @@ public static partial class Net60
             {
                 if (_SystemRuntimeSerializationPrimitives is null)
                 {
-                    _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (net60)");
+                    _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime.Serialization.Primitives")).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (net60)");
                 }
                 return _SystemRuntimeSerializationPrimitives;
             }
@@ -2886,7 +2886,7 @@ public static partial class Net60
             {
                 if (_SystemRuntimeSerializationXml is null)
                 {
-                    _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationXml).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (net60)");
+                    _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Runtime.Serialization.Xml")).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (net60)");
                 }
                 return _SystemRuntimeSerializationXml;
             }
@@ -2903,7 +2903,7 @@ public static partial class Net60
             {
                 if (_SystemSecurityAccessControl is null)
                 {
-                    _SystemSecurityAccessControl = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityAccessControl).GetReference(filePath: "System.Security.AccessControl.dll", display: "System.Security.AccessControl (net60)");
+                    _SystemSecurityAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Security.AccessControl")).GetReference(filePath: "System.Security.AccessControl.dll", display: "System.Security.AccessControl (net60)");
                 }
                 return _SystemSecurityAccessControl;
             }
@@ -2920,7 +2920,7 @@ public static partial class Net60
             {
                 if (_SystemSecurityClaims is null)
                 {
-                    _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityClaims).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (net60)");
+                    _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Security.Claims")).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (net60)");
                 }
                 return _SystemSecurityClaims;
             }
@@ -2937,7 +2937,7 @@ public static partial class Net60
             {
                 if (_SystemSecurityCryptographyAlgorithms is null)
                 {
-                    _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyAlgorithms).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (net60)");
+                    _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Security.Cryptography.Algorithms")).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (net60)");
                 }
                 return _SystemSecurityCryptographyAlgorithms;
             }
@@ -2954,7 +2954,7 @@ public static partial class Net60
             {
                 if (_SystemSecurityCryptographyCng is null)
                 {
-                    _SystemSecurityCryptographyCng = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCng).GetReference(filePath: "System.Security.Cryptography.Cng.dll", display: "System.Security.Cryptography.Cng (net60)");
+                    _SystemSecurityCryptographyCng = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Security.Cryptography.Cng")).GetReference(filePath: "System.Security.Cryptography.Cng.dll", display: "System.Security.Cryptography.Cng (net60)");
                 }
                 return _SystemSecurityCryptographyCng;
             }
@@ -2971,7 +2971,7 @@ public static partial class Net60
             {
                 if (_SystemSecurityCryptographyCsp is null)
                 {
-                    _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCsp).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (net60)");
+                    _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Security.Cryptography.Csp")).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (net60)");
                 }
                 return _SystemSecurityCryptographyCsp;
             }
@@ -2988,7 +2988,7 @@ public static partial class Net60
             {
                 if (_SystemSecurityCryptographyEncoding is null)
                 {
-                    _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyEncoding).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (net60)");
+                    _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Security.Cryptography.Encoding")).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (net60)");
                 }
                 return _SystemSecurityCryptographyEncoding;
             }
@@ -3005,7 +3005,7 @@ public static partial class Net60
             {
                 if (_SystemSecurityCryptographyOpenSsl is null)
                 {
-                    _SystemSecurityCryptographyOpenSsl = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyOpenSsl).GetReference(filePath: "System.Security.Cryptography.OpenSsl.dll", display: "System.Security.Cryptography.OpenSsl (net60)");
+                    _SystemSecurityCryptographyOpenSsl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Security.Cryptography.OpenSsl")).GetReference(filePath: "System.Security.Cryptography.OpenSsl.dll", display: "System.Security.Cryptography.OpenSsl (net60)");
                 }
                 return _SystemSecurityCryptographyOpenSsl;
             }
@@ -3022,7 +3022,7 @@ public static partial class Net60
             {
                 if (_SystemSecurityCryptographyPrimitives is null)
                 {
-                    _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPrimitives).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (net60)");
+                    _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Security.Cryptography.Primitives")).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (net60)");
                 }
                 return _SystemSecurityCryptographyPrimitives;
             }
@@ -3039,7 +3039,7 @@ public static partial class Net60
             {
                 if (_SystemSecurityCryptographyX509Certificates is null)
                 {
-                    _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyX509Certificates).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (net60)");
+                    _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Security.Cryptography.X509Certificates")).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (net60)");
                 }
                 return _SystemSecurityCryptographyX509Certificates;
             }
@@ -3056,7 +3056,7 @@ public static partial class Net60
             {
                 if (_SystemSecurity is null)
                 {
-                    _SystemSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemSecurity).GetReference(filePath: "System.Security.dll", display: "System.Security (net60)");
+                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (net60)");
                 }
                 return _SystemSecurity;
             }
@@ -3073,7 +3073,7 @@ public static partial class Net60
             {
                 if (_SystemSecurityPrincipal is null)
                 {
-                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (net60)");
+                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Security.Principal")).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (net60)");
                 }
                 return _SystemSecurityPrincipal;
             }
@@ -3090,7 +3090,7 @@ public static partial class Net60
             {
                 if (_SystemSecurityPrincipalWindows is null)
                 {
-                    _SystemSecurityPrincipalWindows = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipalWindows).GetReference(filePath: "System.Security.Principal.Windows.dll", display: "System.Security.Principal.Windows (net60)");
+                    _SystemSecurityPrincipalWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Security.Principal.Windows")).GetReference(filePath: "System.Security.Principal.Windows.dll", display: "System.Security.Principal.Windows (net60)");
                 }
                 return _SystemSecurityPrincipalWindows;
             }
@@ -3107,7 +3107,7 @@ public static partial class Net60
             {
                 if (_SystemSecuritySecureString is null)
                 {
-                    _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(Resources.SystemSecuritySecureString).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (net60)");
+                    _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Security.SecureString")).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (net60)");
                 }
                 return _SystemSecuritySecureString;
             }
@@ -3124,7 +3124,7 @@ public static partial class Net60
             {
                 if (_SystemServiceModelWeb is null)
                 {
-                    _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelWeb).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (net60)");
+                    _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.ServiceModel.Web")).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (net60)");
                 }
                 return _SystemServiceModelWeb;
             }
@@ -3141,7 +3141,7 @@ public static partial class Net60
             {
                 if (_SystemServiceProcess is null)
                 {
-                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(Resources.SystemServiceProcess).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net60)");
+                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.ServiceProcess")).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net60)");
                 }
                 return _SystemServiceProcess;
             }
@@ -3158,7 +3158,7 @@ public static partial class Net60
             {
                 if (_SystemTextEncodingCodePages is null)
                 {
-                    _SystemTextEncodingCodePages = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingCodePages).GetReference(filePath: "System.Text.Encoding.CodePages.dll", display: "System.Text.Encoding.CodePages (net60)");
+                    _SystemTextEncodingCodePages = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Text.Encoding.CodePages")).GetReference(filePath: "System.Text.Encoding.CodePages.dll", display: "System.Text.Encoding.CodePages (net60)");
                 }
                 return _SystemTextEncodingCodePages;
             }
@@ -3175,7 +3175,7 @@ public static partial class Net60
             {
                 if (_SystemTextEncoding is null)
                 {
-                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (net60)");
+                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Text.Encoding")).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (net60)");
                 }
                 return _SystemTextEncoding;
             }
@@ -3192,7 +3192,7 @@ public static partial class Net60
             {
                 if (_SystemTextEncodingExtensions is null)
                 {
-                    _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (net60)");
+                    _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Text.Encoding.Extensions")).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (net60)");
                 }
                 return _SystemTextEncodingExtensions;
             }
@@ -3209,7 +3209,7 @@ public static partial class Net60
             {
                 if (_SystemTextEncodingsWeb is null)
                 {
-                    _SystemTextEncodingsWeb = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingsWeb).GetReference(filePath: "System.Text.Encodings.Web.dll", display: "System.Text.Encodings.Web (net60)");
+                    _SystemTextEncodingsWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Text.Encodings.Web")).GetReference(filePath: "System.Text.Encodings.Web.dll", display: "System.Text.Encodings.Web (net60)");
                 }
                 return _SystemTextEncodingsWeb;
             }
@@ -3226,7 +3226,7 @@ public static partial class Net60
             {
                 if (_SystemTextJson is null)
                 {
-                    _SystemTextJson = AssemblyMetadata.CreateFromImage(Resources.SystemTextJson).GetReference(filePath: "System.Text.Json.dll", display: "System.Text.Json (net60)");
+                    _SystemTextJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Text.Json")).GetReference(filePath: "System.Text.Json.dll", display: "System.Text.Json (net60)");
                 }
                 return _SystemTextJson;
             }
@@ -3243,7 +3243,7 @@ public static partial class Net60
             {
                 if (_SystemTextRegularExpressions is null)
                 {
-                    _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (net60)");
+                    _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Text.RegularExpressions")).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (net60)");
                 }
                 return _SystemTextRegularExpressions;
             }
@@ -3260,7 +3260,7 @@ public static partial class Net60
             {
                 if (_SystemThreadingChannels is null)
                 {
-                    _SystemThreadingChannels = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingChannels).GetReference(filePath: "System.Threading.Channels.dll", display: "System.Threading.Channels (net60)");
+                    _SystemThreadingChannels = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Threading.Channels")).GetReference(filePath: "System.Threading.Channels.dll", display: "System.Threading.Channels (net60)");
                 }
                 return _SystemThreadingChannels;
             }
@@ -3277,7 +3277,7 @@ public static partial class Net60
             {
                 if (_SystemThreading is null)
                 {
-                    _SystemThreading = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (net60)");
+                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (net60)");
                 }
                 return _SystemThreading;
             }
@@ -3294,7 +3294,7 @@ public static partial class Net60
             {
                 if (_SystemThreadingOverlapped is null)
                 {
-                    _SystemThreadingOverlapped = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingOverlapped).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (net60)");
+                    _SystemThreadingOverlapped = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Threading.Overlapped")).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (net60)");
                 }
                 return _SystemThreadingOverlapped;
             }
@@ -3311,7 +3311,7 @@ public static partial class Net60
             {
                 if (_SystemThreadingTasksDataflow is null)
                 {
-                    _SystemThreadingTasksDataflow = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksDataflow).GetReference(filePath: "System.Threading.Tasks.Dataflow.dll", display: "System.Threading.Tasks.Dataflow (net60)");
+                    _SystemThreadingTasksDataflow = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Threading.Tasks.Dataflow")).GetReference(filePath: "System.Threading.Tasks.Dataflow.dll", display: "System.Threading.Tasks.Dataflow (net60)");
                 }
                 return _SystemThreadingTasksDataflow;
             }
@@ -3328,7 +3328,7 @@ public static partial class Net60
             {
                 if (_SystemThreadingTasks is null)
                 {
-                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (net60)");
+                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Threading.Tasks")).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (net60)");
                 }
                 return _SystemThreadingTasks;
             }
@@ -3345,7 +3345,7 @@ public static partial class Net60
             {
                 if (_SystemThreadingTasksExtensions is null)
                 {
-                    _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksExtensions).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (net60)");
+                    _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Threading.Tasks.Extensions")).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (net60)");
                 }
                 return _SystemThreadingTasksExtensions;
             }
@@ -3362,7 +3362,7 @@ public static partial class Net60
             {
                 if (_SystemThreadingTasksParallel is null)
                 {
-                    _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksParallel).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (net60)");
+                    _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Threading.Tasks.Parallel")).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (net60)");
                 }
                 return _SystemThreadingTasksParallel;
             }
@@ -3379,7 +3379,7 @@ public static partial class Net60
             {
                 if (_SystemThreadingThread is null)
                 {
-                    _SystemThreadingThread = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThread).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (net60)");
+                    _SystemThreadingThread = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Threading.Thread")).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (net60)");
                 }
                 return _SystemThreadingThread;
             }
@@ -3396,7 +3396,7 @@ public static partial class Net60
             {
                 if (_SystemThreadingThreadPool is null)
                 {
-                    _SystemThreadingThreadPool = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThreadPool).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (net60)");
+                    _SystemThreadingThreadPool = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Threading.ThreadPool")).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (net60)");
                 }
                 return _SystemThreadingThreadPool;
             }
@@ -3413,7 +3413,7 @@ public static partial class Net60
             {
                 if (_SystemThreadingTimer is null)
                 {
-                    _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (net60)");
+                    _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Threading.Timer")).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (net60)");
                 }
                 return _SystemThreadingTimer;
             }
@@ -3430,7 +3430,7 @@ public static partial class Net60
             {
                 if (_SystemTransactions is null)
                 {
-                    _SystemTransactions = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net60)");
+                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net60)");
                 }
                 return _SystemTransactions;
             }
@@ -3447,7 +3447,7 @@ public static partial class Net60
             {
                 if (_SystemTransactionsLocal is null)
                 {
-                    _SystemTransactionsLocal = AssemblyMetadata.CreateFromImage(Resources.SystemTransactionsLocal).GetReference(filePath: "System.Transactions.Local.dll", display: "System.Transactions.Local (net60)");
+                    _SystemTransactionsLocal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Transactions.Local")).GetReference(filePath: "System.Transactions.Local.dll", display: "System.Transactions.Local (net60)");
                 }
                 return _SystemTransactionsLocal;
             }
@@ -3464,7 +3464,7 @@ public static partial class Net60
             {
                 if (_SystemValueTuple is null)
                 {
-                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (net60)");
+                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.ValueTuple")).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (net60)");
                 }
                 return _SystemValueTuple;
             }
@@ -3481,7 +3481,7 @@ public static partial class Net60
             {
                 if (_SystemWeb is null)
                 {
-                    _SystemWeb = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (net60)");
+                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (net60)");
                 }
                 return _SystemWeb;
             }
@@ -3498,7 +3498,7 @@ public static partial class Net60
             {
                 if (_SystemWebHttpUtility is null)
                 {
-                    _SystemWebHttpUtility = AssemblyMetadata.CreateFromImage(Resources.SystemWebHttpUtility).GetReference(filePath: "System.Web.HttpUtility.dll", display: "System.Web.HttpUtility (net60)");
+                    _SystemWebHttpUtility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Web.HttpUtility")).GetReference(filePath: "System.Web.HttpUtility.dll", display: "System.Web.HttpUtility (net60)");
                 }
                 return _SystemWebHttpUtility;
             }
@@ -3515,7 +3515,7 @@ public static partial class Net60
             {
                 if (_SystemWindows is null)
                 {
-                    _SystemWindows = AssemblyMetadata.CreateFromImage(Resources.SystemWindows).GetReference(filePath: "System.Windows.dll", display: "System.Windows (net60)");
+                    _SystemWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Windows")).GetReference(filePath: "System.Windows.dll", display: "System.Windows (net60)");
                 }
                 return _SystemWindows;
             }
@@ -3532,7 +3532,7 @@ public static partial class Net60
             {
                 if (_SystemXml is null)
                 {
-                    _SystemXml = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net60)");
+                    _SystemXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Xml")).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net60)");
                 }
                 return _SystemXml;
             }
@@ -3549,7 +3549,7 @@ public static partial class Net60
             {
                 if (_SystemXmlLinq is null)
                 {
-                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(Resources.SystemXmlLinq).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net60)");
+                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Xml.Linq")).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net60)");
                 }
                 return _SystemXmlLinq;
             }
@@ -3566,7 +3566,7 @@ public static partial class Net60
             {
                 if (_SystemXmlReaderWriter is null)
                 {
-                    _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (net60)");
+                    _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Xml.ReaderWriter")).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (net60)");
                 }
                 return _SystemXmlReaderWriter;
             }
@@ -3583,7 +3583,7 @@ public static partial class Net60
             {
                 if (_SystemXmlSerialization is null)
                 {
-                    _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemXmlSerialization).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (net60)");
+                    _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Xml.Serialization")).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (net60)");
                 }
                 return _SystemXmlSerialization;
             }
@@ -3600,7 +3600,7 @@ public static partial class Net60
             {
                 if (_SystemXmlXDocument is null)
                 {
-                    _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (net60)");
+                    _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Xml.XDocument")).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (net60)");
                 }
                 return _SystemXmlXDocument;
             }
@@ -3617,7 +3617,7 @@ public static partial class Net60
             {
                 if (_SystemXmlXmlDocument is null)
                 {
-                    _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlDocument).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (net60)");
+                    _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Xml.XmlDocument")).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (net60)");
                 }
                 return _SystemXmlXmlDocument;
             }
@@ -3634,7 +3634,7 @@ public static partial class Net60
             {
                 if (_SystemXmlXmlSerializer is null)
                 {
-                    _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlSerializer).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (net60)");
+                    _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Xml.XmlSerializer")).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (net60)");
                 }
                 return _SystemXmlXmlSerializer;
             }
@@ -3651,7 +3651,7 @@ public static partial class Net60
             {
                 if (_SystemXmlXPath is null)
                 {
-                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPath).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (net60)");
+                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Xml.XPath")).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (net60)");
                 }
                 return _SystemXmlXPath;
             }
@@ -3668,7 +3668,7 @@ public static partial class Net60
             {
                 if (_SystemXmlXPathXDocument is null)
                 {
-                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPathXDocument).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (net60)");
+                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (net60)");
                 }
                 return _SystemXmlXPathXDocument;
             }
@@ -3685,7 +3685,7 @@ public static partial class Net60
             {
                 if (_WindowsBase is null)
                 {
-                    _WindowsBase = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net60)");
+                    _WindowsBase = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60.WindowsBase")).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net60)");
                 }
                 return _WindowsBase;
             }

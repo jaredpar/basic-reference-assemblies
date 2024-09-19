@@ -741,7 +741,7 @@ public static partial class Net40
             {
                 if (_Accessibility is null)
                 {
-                    _Accessibility = AssemblyMetadata.CreateFromImage(Resources.Accessibility).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net40)");
+                    _Accessibility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.Accessibility")).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net40)");
                 }
                 return _Accessibility;
             }
@@ -758,7 +758,7 @@ public static partial class Net40
             {
                 if (_CustomMarshalers is null)
                 {
-                    _CustomMarshalers = AssemblyMetadata.CreateFromImage(Resources.CustomMarshalers).GetReference(filePath: "CustomMarshalers.dll", display: "CustomMarshalers (net40)");
+                    _CustomMarshalers = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.CustomMarshalers")).GetReference(filePath: "CustomMarshalers.dll", display: "CustomMarshalers (net40)");
                 }
                 return _CustomMarshalers;
             }
@@ -775,7 +775,7 @@ public static partial class Net40
             {
                 if (_ISymWrapper is null)
                 {
-                    _ISymWrapper = AssemblyMetadata.CreateFromImage(Resources.ISymWrapper).GetReference(filePath: "ISymWrapper.dll", display: "ISymWrapper (net40)");
+                    _ISymWrapper = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.ISymWrapper")).GetReference(filePath: "ISymWrapper.dll", display: "ISymWrapper (net40)");
                 }
                 return _ISymWrapper;
             }
@@ -792,7 +792,7 @@ public static partial class Net40
             {
                 if (_MicrosoftBuildConversionv40 is null)
                 {
-                    _MicrosoftBuildConversionv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildConversionv40).GetReference(filePath: "Microsoft.Build.Conversion.v4.0.dll", display: "Microsoft.Build.Conversion.v4.0 (net40)");
+                    _MicrosoftBuildConversionv40 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.Microsoft.Build.Conversion.v4.0")).GetReference(filePath: "Microsoft.Build.Conversion.v4.0.dll", display: "Microsoft.Build.Conversion.v4.0 (net40)");
                 }
                 return _MicrosoftBuildConversionv40;
             }
@@ -809,7 +809,7 @@ public static partial class Net40
             {
                 if (_MicrosoftBuild is null)
                 {
-                    _MicrosoftBuild = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuild).GetReference(filePath: "Microsoft.Build.dll", display: "Microsoft.Build (net40)");
+                    _MicrosoftBuild = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.Microsoft.Build")).GetReference(filePath: "Microsoft.Build.dll", display: "Microsoft.Build (net40)");
                 }
                 return _MicrosoftBuild;
             }
@@ -826,7 +826,7 @@ public static partial class Net40
             {
                 if (_MicrosoftBuildEngine is null)
                 {
-                    _MicrosoftBuildEngine = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildEngine).GetReference(filePath: "Microsoft.Build.Engine.dll", display: "Microsoft.Build.Engine (net40)");
+                    _MicrosoftBuildEngine = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.Microsoft.Build.Engine")).GetReference(filePath: "Microsoft.Build.Engine.dll", display: "Microsoft.Build.Engine (net40)");
                 }
                 return _MicrosoftBuildEngine;
             }
@@ -843,7 +843,7 @@ public static partial class Net40
             {
                 if (_MicrosoftBuildFramework is null)
                 {
-                    _MicrosoftBuildFramework = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildFramework).GetReference(filePath: "Microsoft.Build.Framework.dll", display: "Microsoft.Build.Framework (net40)");
+                    _MicrosoftBuildFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.Microsoft.Build.Framework")).GetReference(filePath: "Microsoft.Build.Framework.dll", display: "Microsoft.Build.Framework (net40)");
                 }
                 return _MicrosoftBuildFramework;
             }
@@ -860,7 +860,7 @@ public static partial class Net40
             {
                 if (_MicrosoftBuildTasksv40 is null)
                 {
-                    _MicrosoftBuildTasksv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildTasksv40).GetReference(filePath: "Microsoft.Build.Tasks.v4.0.dll", display: "Microsoft.Build.Tasks.v4.0 (net40)");
+                    _MicrosoftBuildTasksv40 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.Microsoft.Build.Tasks.v4.0")).GetReference(filePath: "Microsoft.Build.Tasks.v4.0.dll", display: "Microsoft.Build.Tasks.v4.0 (net40)");
                 }
                 return _MicrosoftBuildTasksv40;
             }
@@ -877,7 +877,7 @@ public static partial class Net40
             {
                 if (_MicrosoftBuildUtilitiesv40 is null)
                 {
-                    _MicrosoftBuildUtilitiesv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildUtilitiesv40).GetReference(filePath: "Microsoft.Build.Utilities.v4.0.dll", display: "Microsoft.Build.Utilities.v4.0 (net40)");
+                    _MicrosoftBuildUtilitiesv40 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.Microsoft.Build.Utilities.v4.0")).GetReference(filePath: "Microsoft.Build.Utilities.v4.0.dll", display: "Microsoft.Build.Utilities.v4.0 (net40)");
                 }
                 return _MicrosoftBuildUtilitiesv40;
             }
@@ -894,7 +894,7 @@ public static partial class Net40
             {
                 if (_MicrosoftCSharp is null)
                 {
-                    _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(Resources.MicrosoftCSharp).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (net40)");
+                    _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.Microsoft.CSharp")).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (net40)");
                 }
                 return _MicrosoftCSharp;
             }
@@ -911,7 +911,7 @@ public static partial class Net40
             {
                 if (_MicrosoftJScript is null)
                 {
-                    _MicrosoftJScript = AssemblyMetadata.CreateFromImage(Resources.MicrosoftJScript).GetReference(filePath: "Microsoft.JScript.dll", display: "Microsoft.JScript (net40)");
+                    _MicrosoftJScript = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.Microsoft.JScript")).GetReference(filePath: "Microsoft.JScript.dll", display: "Microsoft.JScript (net40)");
                 }
                 return _MicrosoftJScript;
             }
@@ -928,7 +928,7 @@ public static partial class Net40
             {
                 if (_MicrosoftVisualBasicCompatibilityData is null)
                 {
-                    _MicrosoftVisualBasicCompatibilityData = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibilityData).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.Data.dll", display: "Microsoft.VisualBasic.Compatibility.Data (net40)");
+                    _MicrosoftVisualBasicCompatibilityData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.Microsoft.VisualBasic.Compatibility.Data")).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.Data.dll", display: "Microsoft.VisualBasic.Compatibility.Data (net40)");
                 }
                 return _MicrosoftVisualBasicCompatibilityData;
             }
@@ -945,7 +945,7 @@ public static partial class Net40
             {
                 if (_MicrosoftVisualBasicCompatibility is null)
                 {
-                    _MicrosoftVisualBasicCompatibility = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibility).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.dll", display: "Microsoft.VisualBasic.Compatibility (net40)");
+                    _MicrosoftVisualBasicCompatibility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.Microsoft.VisualBasic.Compatibility")).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.dll", display: "Microsoft.VisualBasic.Compatibility (net40)");
                 }
                 return _MicrosoftVisualBasicCompatibility;
             }
@@ -962,7 +962,7 @@ public static partial class Net40
             {
                 if (_MicrosoftVisualBasic is null)
                 {
-                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net40)");
+                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net40)");
                 }
                 return _MicrosoftVisualBasic;
             }
@@ -979,7 +979,7 @@ public static partial class Net40
             {
                 if (_MicrosoftVisualC is null)
                 {
-                    _MicrosoftVisualC = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualC).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net40)");
+                    _MicrosoftVisualC = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.Microsoft.VisualC")).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net40)");
                 }
                 return _MicrosoftVisualC;
             }
@@ -996,7 +996,7 @@ public static partial class Net40
             {
                 if (_MicrosoftVisualCSTLCLR is null)
                 {
-                    _MicrosoftVisualCSTLCLR = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualCSTLCLR).GetReference(filePath: "Microsoft.VisualC.STLCLR.dll", display: "Microsoft.VisualC.STLCLR (net40)");
+                    _MicrosoftVisualCSTLCLR = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.Microsoft.VisualC.STLCLR")).GetReference(filePath: "Microsoft.VisualC.STLCLR.dll", display: "Microsoft.VisualC.STLCLR (net40)");
                 }
                 return _MicrosoftVisualCSTLCLR;
             }
@@ -1013,7 +1013,7 @@ public static partial class Net40
             {
                 if (_mscorlib is null)
                 {
-                    _mscorlib = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net40)");
+                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net40)");
                 }
                 return _mscorlib;
             }
@@ -1030,7 +1030,7 @@ public static partial class Net40
             {
                 if (_PresentationBuildTasks is null)
                 {
-                    _PresentationBuildTasks = AssemblyMetadata.CreateFromImage(Resources.PresentationBuildTasks).GetReference(filePath: "PresentationBuildTasks.dll", display: "PresentationBuildTasks (net40)");
+                    _PresentationBuildTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.PresentationBuildTasks")).GetReference(filePath: "PresentationBuildTasks.dll", display: "PresentationBuildTasks (net40)");
                 }
                 return _PresentationBuildTasks;
             }
@@ -1047,7 +1047,7 @@ public static partial class Net40
             {
                 if (_PresentationCore is null)
                 {
-                    _PresentationCore = AssemblyMetadata.CreateFromImage(Resources.PresentationCore).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net40)");
+                    _PresentationCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.PresentationCore")).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net40)");
                 }
                 return _PresentationCore;
             }
@@ -1064,7 +1064,7 @@ public static partial class Net40
             {
                 if (_PresentationFrameworkAero is null)
                 {
-                    _PresentationFrameworkAero = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net40)");
+                    _PresentationFrameworkAero = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.PresentationFramework.Aero")).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net40)");
                 }
                 return _PresentationFrameworkAero;
             }
@@ -1081,7 +1081,7 @@ public static partial class Net40
             {
                 if (_PresentationFrameworkClassic is null)
                 {
-                    _PresentationFrameworkClassic = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkClassic).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net40)");
+                    _PresentationFrameworkClassic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.PresentationFramework.Classic")).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net40)");
                 }
                 return _PresentationFrameworkClassic;
             }
@@ -1098,7 +1098,7 @@ public static partial class Net40
             {
                 if (_PresentationFramework is null)
                 {
-                    _PresentationFramework = AssemblyMetadata.CreateFromImage(Resources.PresentationFramework).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net40)");
+                    _PresentationFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.PresentationFramework")).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net40)");
                 }
                 return _PresentationFramework;
             }
@@ -1115,7 +1115,7 @@ public static partial class Net40
             {
                 if (_PresentationFrameworkLuna is null)
                 {
-                    _PresentationFrameworkLuna = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkLuna).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net40)");
+                    _PresentationFrameworkLuna = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.PresentationFramework.Luna")).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net40)");
                 }
                 return _PresentationFrameworkLuna;
             }
@@ -1132,7 +1132,7 @@ public static partial class Net40
             {
                 if (_PresentationFrameworkRoyale is null)
                 {
-                    _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkRoyale).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net40)");
+                    _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.PresentationFramework.Royale")).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net40)");
                 }
                 return _PresentationFrameworkRoyale;
             }
@@ -1149,7 +1149,7 @@ public static partial class Net40
             {
                 if (_ReachFramework is null)
                 {
-                    _ReachFramework = AssemblyMetadata.CreateFromImage(Resources.ReachFramework).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net40)");
+                    _ReachFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.ReachFramework")).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net40)");
                 }
                 return _ReachFramework;
             }
@@ -1166,7 +1166,7 @@ public static partial class Net40
             {
                 if (_sysglobl is null)
                 {
-                    _sysglobl = AssemblyMetadata.CreateFromImage(Resources.sysglobl).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net40)");
+                    _sysglobl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.sysglobl")).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net40)");
                 }
                 return _sysglobl;
             }
@@ -1183,7 +1183,7 @@ public static partial class Net40
             {
                 if (_SystemActivitiesCorePresentation is null)
                 {
-                    _SystemActivitiesCorePresentation = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesCorePresentation).GetReference(filePath: "System.Activities.Core.Presentation.dll", display: "System.Activities.Core.Presentation (net40)");
+                    _SystemActivitiesCorePresentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Activities.Core.Presentation")).GetReference(filePath: "System.Activities.Core.Presentation.dll", display: "System.Activities.Core.Presentation (net40)");
                 }
                 return _SystemActivitiesCorePresentation;
             }
@@ -1200,7 +1200,7 @@ public static partial class Net40
             {
                 if (_SystemActivities is null)
                 {
-                    _SystemActivities = AssemblyMetadata.CreateFromImage(Resources.SystemActivities).GetReference(filePath: "System.Activities.dll", display: "System.Activities (net40)");
+                    _SystemActivities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Activities")).GetReference(filePath: "System.Activities.dll", display: "System.Activities (net40)");
                 }
                 return _SystemActivities;
             }
@@ -1217,7 +1217,7 @@ public static partial class Net40
             {
                 if (_SystemActivitiesDurableInstancing is null)
                 {
-                    _SystemActivitiesDurableInstancing = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesDurableInstancing).GetReference(filePath: "System.Activities.DurableInstancing.dll", display: "System.Activities.DurableInstancing (net40)");
+                    _SystemActivitiesDurableInstancing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Activities.DurableInstancing")).GetReference(filePath: "System.Activities.DurableInstancing.dll", display: "System.Activities.DurableInstancing (net40)");
                 }
                 return _SystemActivitiesDurableInstancing;
             }
@@ -1234,7 +1234,7 @@ public static partial class Net40
             {
                 if (_SystemActivitiesPresentation is null)
                 {
-                    _SystemActivitiesPresentation = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesPresentation).GetReference(filePath: "System.Activities.Presentation.dll", display: "System.Activities.Presentation (net40)");
+                    _SystemActivitiesPresentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Activities.Presentation")).GetReference(filePath: "System.Activities.Presentation.dll", display: "System.Activities.Presentation (net40)");
                 }
                 return _SystemActivitiesPresentation;
             }
@@ -1251,7 +1251,7 @@ public static partial class Net40
             {
                 if (_SystemAddInContract is null)
                 {
-                    _SystemAddInContract = AssemblyMetadata.CreateFromImage(Resources.SystemAddInContract).GetReference(filePath: "System.AddIn.Contract.dll", display: "System.AddIn.Contract (net40)");
+                    _SystemAddInContract = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.AddIn.Contract")).GetReference(filePath: "System.AddIn.Contract.dll", display: "System.AddIn.Contract (net40)");
                 }
                 return _SystemAddInContract;
             }
@@ -1268,7 +1268,7 @@ public static partial class Net40
             {
                 if (_SystemAddIn is null)
                 {
-                    _SystemAddIn = AssemblyMetadata.CreateFromImage(Resources.SystemAddIn).GetReference(filePath: "System.AddIn.dll", display: "System.AddIn (net40)");
+                    _SystemAddIn = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.AddIn")).GetReference(filePath: "System.AddIn.dll", display: "System.AddIn (net40)");
                 }
                 return _SystemAddIn;
             }
@@ -1285,7 +1285,7 @@ public static partial class Net40
             {
                 if (_SystemComponentModelComposition is null)
                 {
-                    _SystemComponentModelComposition = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelComposition).GetReference(filePath: "System.ComponentModel.Composition.dll", display: "System.ComponentModel.Composition (net40)");
+                    _SystemComponentModelComposition = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.ComponentModel.Composition")).GetReference(filePath: "System.ComponentModel.Composition.dll", display: "System.ComponentModel.Composition (net40)");
                 }
                 return _SystemComponentModelComposition;
             }
@@ -1302,7 +1302,7 @@ public static partial class Net40
             {
                 if (_SystemComponentModelDataAnnotations is null)
                 {
-                    _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelDataAnnotations).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (net40)");
+                    _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.ComponentModel.DataAnnotations")).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (net40)");
                 }
                 return _SystemComponentModelDataAnnotations;
             }
@@ -1319,7 +1319,7 @@ public static partial class Net40
             {
                 if (_SystemConfiguration is null)
                 {
-                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(Resources.SystemConfiguration).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net40)");
+                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Configuration")).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net40)");
                 }
                 return _SystemConfiguration;
             }
@@ -1336,7 +1336,7 @@ public static partial class Net40
             {
                 if (_SystemConfigurationInstall is null)
                 {
-                    _SystemConfigurationInstall = AssemblyMetadata.CreateFromImage(Resources.SystemConfigurationInstall).GetReference(filePath: "System.Configuration.Install.dll", display: "System.Configuration.Install (net40)");
+                    _SystemConfigurationInstall = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Configuration.Install")).GetReference(filePath: "System.Configuration.Install.dll", display: "System.Configuration.Install (net40)");
                 }
                 return _SystemConfigurationInstall;
             }
@@ -1353,7 +1353,7 @@ public static partial class Net40
             {
                 if (_SystemCore is null)
                 {
-                    _SystemCore = AssemblyMetadata.CreateFromImage(Resources.SystemCore).GetReference(filePath: "System.Core.dll", display: "System.Core (net40)");
+                    _SystemCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Core")).GetReference(filePath: "System.Core.dll", display: "System.Core (net40)");
                 }
                 return _SystemCore;
             }
@@ -1370,7 +1370,7 @@ public static partial class Net40
             {
                 if (_SystemDataDataSetExtensions is null)
                 {
-                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemDataDataSetExtensions).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net40)");
+                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Data.DataSetExtensions")).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net40)");
                 }
                 return _SystemDataDataSetExtensions;
             }
@@ -1387,7 +1387,7 @@ public static partial class Net40
             {
                 if (_SystemData is null)
                 {
-                    _SystemData = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (net40)");
+                    _SystemData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Data")).GetReference(filePath: "System.Data.dll", display: "System.Data (net40)");
                 }
                 return _SystemData;
             }
@@ -1404,7 +1404,7 @@ public static partial class Net40
             {
                 if (_SystemDataEntityDesign is null)
                 {
-                    _SystemDataEntityDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDataEntityDesign).GetReference(filePath: "System.Data.Entity.Design.dll", display: "System.Data.Entity.Design (net40)");
+                    _SystemDataEntityDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Data.Entity.Design")).GetReference(filePath: "System.Data.Entity.Design.dll", display: "System.Data.Entity.Design (net40)");
                 }
                 return _SystemDataEntityDesign;
             }
@@ -1421,7 +1421,7 @@ public static partial class Net40
             {
                 if (_SystemDataEntity is null)
                 {
-                    _SystemDataEntity = AssemblyMetadata.CreateFromImage(Resources.SystemDataEntity).GetReference(filePath: "System.Data.Entity.dll", display: "System.Data.Entity (net40)");
+                    _SystemDataEntity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Data.Entity")).GetReference(filePath: "System.Data.Entity.dll", display: "System.Data.Entity (net40)");
                 }
                 return _SystemDataEntity;
             }
@@ -1438,7 +1438,7 @@ public static partial class Net40
             {
                 if (_SystemDataLinq is null)
                 {
-                    _SystemDataLinq = AssemblyMetadata.CreateFromImage(Resources.SystemDataLinq).GetReference(filePath: "System.Data.Linq.dll", display: "System.Data.Linq (net40)");
+                    _SystemDataLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Data.Linq")).GetReference(filePath: "System.Data.Linq.dll", display: "System.Data.Linq (net40)");
                 }
                 return _SystemDataLinq;
             }
@@ -1455,7 +1455,7 @@ public static partial class Net40
             {
                 if (_SystemDataOracleClient is null)
                 {
-                    _SystemDataOracleClient = AssemblyMetadata.CreateFromImage(Resources.SystemDataOracleClient).GetReference(filePath: "System.Data.OracleClient.dll", display: "System.Data.OracleClient (net40)");
+                    _SystemDataOracleClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Data.OracleClient")).GetReference(filePath: "System.Data.OracleClient.dll", display: "System.Data.OracleClient (net40)");
                 }
                 return _SystemDataOracleClient;
             }
@@ -1472,7 +1472,7 @@ public static partial class Net40
             {
                 if (_SystemDataServicesClient is null)
                 {
-                    _SystemDataServicesClient = AssemblyMetadata.CreateFromImage(Resources.SystemDataServicesClient).GetReference(filePath: "System.Data.Services.Client.dll", display: "System.Data.Services.Client (net40)");
+                    _SystemDataServicesClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Data.Services.Client")).GetReference(filePath: "System.Data.Services.Client.dll", display: "System.Data.Services.Client (net40)");
                 }
                 return _SystemDataServicesClient;
             }
@@ -1489,7 +1489,7 @@ public static partial class Net40
             {
                 if (_SystemDataServicesDesign is null)
                 {
-                    _SystemDataServicesDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDataServicesDesign).GetReference(filePath: "System.Data.Services.Design.dll", display: "System.Data.Services.Design (net40)");
+                    _SystemDataServicesDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Data.Services.Design")).GetReference(filePath: "System.Data.Services.Design.dll", display: "System.Data.Services.Design (net40)");
                 }
                 return _SystemDataServicesDesign;
             }
@@ -1506,7 +1506,7 @@ public static partial class Net40
             {
                 if (_SystemDataServices is null)
                 {
-                    _SystemDataServices = AssemblyMetadata.CreateFromImage(Resources.SystemDataServices).GetReference(filePath: "System.Data.Services.dll", display: "System.Data.Services (net40)");
+                    _SystemDataServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Data.Services")).GetReference(filePath: "System.Data.Services.dll", display: "System.Data.Services (net40)");
                 }
                 return _SystemDataServices;
             }
@@ -1523,7 +1523,7 @@ public static partial class Net40
             {
                 if (_SystemDataSqlXml is null)
                 {
-                    _SystemDataSqlXml = AssemblyMetadata.CreateFromImage(Resources.SystemDataSqlXml).GetReference(filePath: "System.Data.SqlXml.dll", display: "System.Data.SqlXml (net40)");
+                    _SystemDataSqlXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Data.SqlXml")).GetReference(filePath: "System.Data.SqlXml.dll", display: "System.Data.SqlXml (net40)");
                 }
                 return _SystemDataSqlXml;
             }
@@ -1540,7 +1540,7 @@ public static partial class Net40
             {
                 if (_SystemDeployment is null)
                 {
-                    _SystemDeployment = AssemblyMetadata.CreateFromImage(Resources.SystemDeployment).GetReference(filePath: "System.Deployment.dll", display: "System.Deployment (net40)");
+                    _SystemDeployment = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Deployment")).GetReference(filePath: "System.Deployment.dll", display: "System.Deployment (net40)");
                 }
                 return _SystemDeployment;
             }
@@ -1557,7 +1557,7 @@ public static partial class Net40
             {
                 if (_SystemDesign is null)
                 {
-                    _SystemDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDesign).GetReference(filePath: "System.Design.dll", display: "System.Design (net40)");
+                    _SystemDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Design")).GetReference(filePath: "System.Design.dll", display: "System.Design (net40)");
                 }
                 return _SystemDesign;
             }
@@ -1574,7 +1574,7 @@ public static partial class Net40
             {
                 if (_SystemDevice is null)
                 {
-                    _SystemDevice = AssemblyMetadata.CreateFromImage(Resources.SystemDevice).GetReference(filePath: "System.Device.dll", display: "System.Device (net40)");
+                    _SystemDevice = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Device")).GetReference(filePath: "System.Device.dll", display: "System.Device (net40)");
                 }
                 return _SystemDevice;
             }
@@ -1591,7 +1591,7 @@ public static partial class Net40
             {
                 if (_SystemDirectoryServicesAccountManagement is null)
                 {
-                    _SystemDirectoryServicesAccountManagement = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesAccountManagement).GetReference(filePath: "System.DirectoryServices.AccountManagement.dll", display: "System.DirectoryServices.AccountManagement (net40)");
+                    _SystemDirectoryServicesAccountManagement = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.DirectoryServices.AccountManagement")).GetReference(filePath: "System.DirectoryServices.AccountManagement.dll", display: "System.DirectoryServices.AccountManagement (net40)");
                 }
                 return _SystemDirectoryServicesAccountManagement;
             }
@@ -1608,7 +1608,7 @@ public static partial class Net40
             {
                 if (_SystemDirectoryServices is null)
                 {
-                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServices).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net40)");
+                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.DirectoryServices")).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net40)");
                 }
                 return _SystemDirectoryServices;
             }
@@ -1625,7 +1625,7 @@ public static partial class Net40
             {
                 if (_SystemDirectoryServicesProtocols is null)
                 {
-                    _SystemDirectoryServicesProtocols = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesProtocols).GetReference(filePath: "System.DirectoryServices.Protocols.dll", display: "System.DirectoryServices.Protocols (net40)");
+                    _SystemDirectoryServicesProtocols = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.DirectoryServices.Protocols")).GetReference(filePath: "System.DirectoryServices.Protocols.dll", display: "System.DirectoryServices.Protocols (net40)");
                 }
                 return _SystemDirectoryServicesProtocols;
             }
@@ -1642,7 +1642,7 @@ public static partial class Net40
             {
                 if (_System is null)
                 {
-                    _System = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (net40)");
+                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System")).GetReference(filePath: "System.dll", display: "System (net40)");
                 }
                 return _System;
             }
@@ -1659,7 +1659,7 @@ public static partial class Net40
             {
                 if (_SystemDrawingDesign is null)
                 {
-                    _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingDesign).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net40)");
+                    _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Drawing.Design")).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net40)");
                 }
                 return _SystemDrawingDesign;
             }
@@ -1676,7 +1676,7 @@ public static partial class Net40
             {
                 if (_SystemDrawing is null)
                 {
-                    _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net40)");
+                    _SystemDrawing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Drawing")).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net40)");
                 }
                 return _SystemDrawing;
             }
@@ -1693,7 +1693,7 @@ public static partial class Net40
             {
                 if (_SystemEnterpriseServices is null)
                 {
-                    _SystemEnterpriseServices = AssemblyMetadata.CreateFromImage(Resources.SystemEnterpriseServices).GetReference(filePath: "System.EnterpriseServices.dll", display: "System.EnterpriseServices (net40)");
+                    _SystemEnterpriseServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.EnterpriseServices")).GetReference(filePath: "System.EnterpriseServices.dll", display: "System.EnterpriseServices (net40)");
                 }
                 return _SystemEnterpriseServices;
             }
@@ -1710,7 +1710,7 @@ public static partial class Net40
             {
                 if (_SystemIdentityModel is null)
                 {
-                    _SystemIdentityModel = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModel).GetReference(filePath: "System.IdentityModel.dll", display: "System.IdentityModel (net40)");
+                    _SystemIdentityModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.IdentityModel")).GetReference(filePath: "System.IdentityModel.dll", display: "System.IdentityModel (net40)");
                 }
                 return _SystemIdentityModel;
             }
@@ -1727,7 +1727,7 @@ public static partial class Net40
             {
                 if (_SystemIdentityModelSelectors is null)
                 {
-                    _SystemIdentityModelSelectors = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModelSelectors).GetReference(filePath: "System.IdentityModel.Selectors.dll", display: "System.IdentityModel.Selectors (net40)");
+                    _SystemIdentityModelSelectors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.IdentityModel.Selectors")).GetReference(filePath: "System.IdentityModel.Selectors.dll", display: "System.IdentityModel.Selectors (net40)");
                 }
                 return _SystemIdentityModelSelectors;
             }
@@ -1744,7 +1744,7 @@ public static partial class Net40
             {
                 if (_SystemIOLog is null)
                 {
-                    _SystemIOLog = AssemblyMetadata.CreateFromImage(Resources.SystemIOLog).GetReference(filePath: "System.IO.Log.dll", display: "System.IO.Log (net40)");
+                    _SystemIOLog = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.IO.Log")).GetReference(filePath: "System.IO.Log.dll", display: "System.IO.Log (net40)");
                 }
                 return _SystemIOLog;
             }
@@ -1761,7 +1761,7 @@ public static partial class Net40
             {
                 if (_SystemManagement is null)
                 {
-                    _SystemManagement = AssemblyMetadata.CreateFromImage(Resources.SystemManagement).GetReference(filePath: "System.Management.dll", display: "System.Management (net40)");
+                    _SystemManagement = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Management")).GetReference(filePath: "System.Management.dll", display: "System.Management (net40)");
                 }
                 return _SystemManagement;
             }
@@ -1778,7 +1778,7 @@ public static partial class Net40
             {
                 if (_SystemManagementInstrumentation is null)
                 {
-                    _SystemManagementInstrumentation = AssemblyMetadata.CreateFromImage(Resources.SystemManagementInstrumentation).GetReference(filePath: "System.Management.Instrumentation.dll", display: "System.Management.Instrumentation (net40)");
+                    _SystemManagementInstrumentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Management.Instrumentation")).GetReference(filePath: "System.Management.Instrumentation.dll", display: "System.Management.Instrumentation (net40)");
                 }
                 return _SystemManagementInstrumentation;
             }
@@ -1795,7 +1795,7 @@ public static partial class Net40
             {
                 if (_SystemMessaging is null)
                 {
-                    _SystemMessaging = AssemblyMetadata.CreateFromImage(Resources.SystemMessaging).GetReference(filePath: "System.Messaging.dll", display: "System.Messaging (net40)");
+                    _SystemMessaging = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Messaging")).GetReference(filePath: "System.Messaging.dll", display: "System.Messaging (net40)");
                 }
                 return _SystemMessaging;
             }
@@ -1812,7 +1812,7 @@ public static partial class Net40
             {
                 if (_SystemNet is null)
                 {
-                    _SystemNet = AssemblyMetadata.CreateFromImage(Resources.SystemNet).GetReference(filePath: "System.Net.dll", display: "System.Net (net40)");
+                    _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (net40)");
                 }
                 return _SystemNet;
             }
@@ -1829,7 +1829,7 @@ public static partial class Net40
             {
                 if (_SystemNumerics is null)
                 {
-                    _SystemNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemNumerics).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net40)");
+                    _SystemNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Numerics")).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net40)");
                 }
                 return _SystemNumerics;
             }
@@ -1846,7 +1846,7 @@ public static partial class Net40
             {
                 if (_SystemPrinting is null)
                 {
-                    _SystemPrinting = AssemblyMetadata.CreateFromImage(Resources.SystemPrinting).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net40)");
+                    _SystemPrinting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Printing")).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net40)");
                 }
                 return _SystemPrinting;
             }
@@ -1863,7 +1863,7 @@ public static partial class Net40
             {
                 if (_SystemRuntimeCaching is null)
                 {
-                    _SystemRuntimeCaching = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCaching).GetReference(filePath: "System.Runtime.Caching.dll", display: "System.Runtime.Caching (net40)");
+                    _SystemRuntimeCaching = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Runtime.Caching")).GetReference(filePath: "System.Runtime.Caching.dll", display: "System.Runtime.Caching (net40)");
                 }
                 return _SystemRuntimeCaching;
             }
@@ -1880,7 +1880,7 @@ public static partial class Net40
             {
                 if (_SystemRuntimeDurableInstancing is null)
                 {
-                    _SystemRuntimeDurableInstancing = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeDurableInstancing).GetReference(filePath: "System.Runtime.DurableInstancing.dll", display: "System.Runtime.DurableInstancing (net40)");
+                    _SystemRuntimeDurableInstancing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Runtime.DurableInstancing")).GetReference(filePath: "System.Runtime.DurableInstancing.dll", display: "System.Runtime.DurableInstancing (net40)");
                 }
                 return _SystemRuntimeDurableInstancing;
             }
@@ -1897,7 +1897,7 @@ public static partial class Net40
             {
                 if (_SystemRuntimeRemoting is null)
                 {
-                    _SystemRuntimeRemoting = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeRemoting).GetReference(filePath: "System.Runtime.Remoting.dll", display: "System.Runtime.Remoting (net40)");
+                    _SystemRuntimeRemoting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Runtime.Remoting")).GetReference(filePath: "System.Runtime.Remoting.dll", display: "System.Runtime.Remoting (net40)");
                 }
                 return _SystemRuntimeRemoting;
             }
@@ -1914,7 +1914,7 @@ public static partial class Net40
             {
                 if (_SystemRuntimeSerialization is null)
                 {
-                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerialization).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net40)");
+                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net40)");
                 }
                 return _SystemRuntimeSerialization;
             }
@@ -1931,7 +1931,7 @@ public static partial class Net40
             {
                 if (_SystemRuntimeSerializationFormattersSoap is null)
                 {
-                    _SystemRuntimeSerializationFormattersSoap = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormattersSoap).GetReference(filePath: "System.Runtime.Serialization.Formatters.Soap.dll", display: "System.Runtime.Serialization.Formatters.Soap (net40)");
+                    _SystemRuntimeSerializationFormattersSoap = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Runtime.Serialization.Formatters.Soap")).GetReference(filePath: "System.Runtime.Serialization.Formatters.Soap.dll", display: "System.Runtime.Serialization.Formatters.Soap (net40)");
                 }
                 return _SystemRuntimeSerializationFormattersSoap;
             }
@@ -1948,7 +1948,7 @@ public static partial class Net40
             {
                 if (_SystemSecurity is null)
                 {
-                    _SystemSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemSecurity).GetReference(filePath: "System.Security.dll", display: "System.Security (net40)");
+                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (net40)");
                 }
                 return _SystemSecurity;
             }
@@ -1965,7 +1965,7 @@ public static partial class Net40
             {
                 if (_SystemServiceModelActivation is null)
                 {
-                    _SystemServiceModelActivation = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelActivation).GetReference(filePath: "System.ServiceModel.Activation.dll", display: "System.ServiceModel.Activation (net40)");
+                    _SystemServiceModelActivation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.ServiceModel.Activation")).GetReference(filePath: "System.ServiceModel.Activation.dll", display: "System.ServiceModel.Activation (net40)");
                 }
                 return _SystemServiceModelActivation;
             }
@@ -1982,7 +1982,7 @@ public static partial class Net40
             {
                 if (_SystemServiceModelActivities is null)
                 {
-                    _SystemServiceModelActivities = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelActivities).GetReference(filePath: "System.ServiceModel.Activities.dll", display: "System.ServiceModel.Activities (net40)");
+                    _SystemServiceModelActivities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.ServiceModel.Activities")).GetReference(filePath: "System.ServiceModel.Activities.dll", display: "System.ServiceModel.Activities (net40)");
                 }
                 return _SystemServiceModelActivities;
             }
@@ -1999,7 +1999,7 @@ public static partial class Net40
             {
                 if (_SystemServiceModelChannels is null)
                 {
-                    _SystemServiceModelChannels = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelChannels).GetReference(filePath: "System.ServiceModel.Channels.dll", display: "System.ServiceModel.Channels (net40)");
+                    _SystemServiceModelChannels = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.ServiceModel.Channels")).GetReference(filePath: "System.ServiceModel.Channels.dll", display: "System.ServiceModel.Channels (net40)");
                 }
                 return _SystemServiceModelChannels;
             }
@@ -2016,7 +2016,7 @@ public static partial class Net40
             {
                 if (_SystemServiceModelDiscovery is null)
                 {
-                    _SystemServiceModelDiscovery = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelDiscovery).GetReference(filePath: "System.ServiceModel.Discovery.dll", display: "System.ServiceModel.Discovery (net40)");
+                    _SystemServiceModelDiscovery = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.ServiceModel.Discovery")).GetReference(filePath: "System.ServiceModel.Discovery.dll", display: "System.ServiceModel.Discovery (net40)");
                 }
                 return _SystemServiceModelDiscovery;
             }
@@ -2033,7 +2033,7 @@ public static partial class Net40
             {
                 if (_SystemServiceModel is null)
                 {
-                    _SystemServiceModel = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModel).GetReference(filePath: "System.ServiceModel.dll", display: "System.ServiceModel (net40)");
+                    _SystemServiceModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.ServiceModel")).GetReference(filePath: "System.ServiceModel.dll", display: "System.ServiceModel (net40)");
                 }
                 return _SystemServiceModel;
             }
@@ -2050,7 +2050,7 @@ public static partial class Net40
             {
                 if (_SystemServiceModelRouting is null)
                 {
-                    _SystemServiceModelRouting = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelRouting).GetReference(filePath: "System.ServiceModel.Routing.dll", display: "System.ServiceModel.Routing (net40)");
+                    _SystemServiceModelRouting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.ServiceModel.Routing")).GetReference(filePath: "System.ServiceModel.Routing.dll", display: "System.ServiceModel.Routing (net40)");
                 }
                 return _SystemServiceModelRouting;
             }
@@ -2067,7 +2067,7 @@ public static partial class Net40
             {
                 if (_SystemServiceModelWeb is null)
                 {
-                    _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelWeb).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (net40)");
+                    _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.ServiceModel.Web")).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (net40)");
                 }
                 return _SystemServiceModelWeb;
             }
@@ -2084,7 +2084,7 @@ public static partial class Net40
             {
                 if (_SystemServiceProcess is null)
                 {
-                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(Resources.SystemServiceProcess).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net40)");
+                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.ServiceProcess")).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net40)");
                 }
                 return _SystemServiceProcess;
             }
@@ -2101,7 +2101,7 @@ public static partial class Net40
             {
                 if (_SystemSpeech is null)
                 {
-                    _SystemSpeech = AssemblyMetadata.CreateFromImage(Resources.SystemSpeech).GetReference(filePath: "System.Speech.dll", display: "System.Speech (net40)");
+                    _SystemSpeech = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Speech")).GetReference(filePath: "System.Speech.dll", display: "System.Speech (net40)");
                 }
                 return _SystemSpeech;
             }
@@ -2118,7 +2118,7 @@ public static partial class Net40
             {
                 if (_SystemTransactions is null)
                 {
-                    _SystemTransactions = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net40)");
+                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net40)");
                 }
                 return _SystemTransactions;
             }
@@ -2135,7 +2135,7 @@ public static partial class Net40
             {
                 if (_SystemWebAbstractions is null)
                 {
-                    _SystemWebAbstractions = AssemblyMetadata.CreateFromImage(Resources.SystemWebAbstractions).GetReference(filePath: "System.Web.Abstractions.dll", display: "System.Web.Abstractions (net40)");
+                    _SystemWebAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web.Abstractions")).GetReference(filePath: "System.Web.Abstractions.dll", display: "System.Web.Abstractions (net40)");
                 }
                 return _SystemWebAbstractions;
             }
@@ -2152,7 +2152,7 @@ public static partial class Net40
             {
                 if (_SystemWebApplicationServices is null)
                 {
-                    _SystemWebApplicationServices = AssemblyMetadata.CreateFromImage(Resources.SystemWebApplicationServices).GetReference(filePath: "System.Web.ApplicationServices.dll", display: "System.Web.ApplicationServices (net40)");
+                    _SystemWebApplicationServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web.ApplicationServices")).GetReference(filePath: "System.Web.ApplicationServices.dll", display: "System.Web.ApplicationServices (net40)");
                 }
                 return _SystemWebApplicationServices;
             }
@@ -2169,7 +2169,7 @@ public static partial class Net40
             {
                 if (_SystemWebDataVisualizationDesign is null)
                 {
-                    _SystemWebDataVisualizationDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebDataVisualizationDesign).GetReference(filePath: "System.Web.DataVisualization.Design.dll", display: "System.Web.DataVisualization.Design (net40)");
+                    _SystemWebDataVisualizationDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web.DataVisualization.Design")).GetReference(filePath: "System.Web.DataVisualization.Design.dll", display: "System.Web.DataVisualization.Design (net40)");
                 }
                 return _SystemWebDataVisualizationDesign;
             }
@@ -2186,7 +2186,7 @@ public static partial class Net40
             {
                 if (_SystemWebDataVisualization is null)
                 {
-                    _SystemWebDataVisualization = AssemblyMetadata.CreateFromImage(Resources.SystemWebDataVisualization).GetReference(filePath: "System.Web.DataVisualization.dll", display: "System.Web.DataVisualization (net40)");
+                    _SystemWebDataVisualization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web.DataVisualization")).GetReference(filePath: "System.Web.DataVisualization.dll", display: "System.Web.DataVisualization (net40)");
                 }
                 return _SystemWebDataVisualization;
             }
@@ -2203,7 +2203,7 @@ public static partial class Net40
             {
                 if (_SystemWeb is null)
                 {
-                    _SystemWeb = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (net40)");
+                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (net40)");
                 }
                 return _SystemWeb;
             }
@@ -2220,7 +2220,7 @@ public static partial class Net40
             {
                 if (_SystemWebDynamicDataDesign is null)
                 {
-                    _SystemWebDynamicDataDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebDynamicDataDesign).GetReference(filePath: "System.Web.DynamicData.Design.dll", display: "System.Web.DynamicData.Design (net40)");
+                    _SystemWebDynamicDataDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web.DynamicData.Design")).GetReference(filePath: "System.Web.DynamicData.Design.dll", display: "System.Web.DynamicData.Design (net40)");
                 }
                 return _SystemWebDynamicDataDesign;
             }
@@ -2237,7 +2237,7 @@ public static partial class Net40
             {
                 if (_SystemWebDynamicData is null)
                 {
-                    _SystemWebDynamicData = AssemblyMetadata.CreateFromImage(Resources.SystemWebDynamicData).GetReference(filePath: "System.Web.DynamicData.dll", display: "System.Web.DynamicData (net40)");
+                    _SystemWebDynamicData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web.DynamicData")).GetReference(filePath: "System.Web.DynamicData.dll", display: "System.Web.DynamicData (net40)");
                 }
                 return _SystemWebDynamicData;
             }
@@ -2254,7 +2254,7 @@ public static partial class Net40
             {
                 if (_SystemWebEntityDesign is null)
                 {
-                    _SystemWebEntityDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebEntityDesign).GetReference(filePath: "System.Web.Entity.Design.dll", display: "System.Web.Entity.Design (net40)");
+                    _SystemWebEntityDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web.Entity.Design")).GetReference(filePath: "System.Web.Entity.Design.dll", display: "System.Web.Entity.Design (net40)");
                 }
                 return _SystemWebEntityDesign;
             }
@@ -2271,7 +2271,7 @@ public static partial class Net40
             {
                 if (_SystemWebEntity is null)
                 {
-                    _SystemWebEntity = AssemblyMetadata.CreateFromImage(Resources.SystemWebEntity).GetReference(filePath: "System.Web.Entity.dll", display: "System.Web.Entity (net40)");
+                    _SystemWebEntity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web.Entity")).GetReference(filePath: "System.Web.Entity.dll", display: "System.Web.Entity (net40)");
                 }
                 return _SystemWebEntity;
             }
@@ -2288,7 +2288,7 @@ public static partial class Net40
             {
                 if (_SystemWebExtensionsDesign is null)
                 {
-                    _SystemWebExtensionsDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebExtensionsDesign).GetReference(filePath: "System.Web.Extensions.Design.dll", display: "System.Web.Extensions.Design (net40)");
+                    _SystemWebExtensionsDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web.Extensions.Design")).GetReference(filePath: "System.Web.Extensions.Design.dll", display: "System.Web.Extensions.Design (net40)");
                 }
                 return _SystemWebExtensionsDesign;
             }
@@ -2305,7 +2305,7 @@ public static partial class Net40
             {
                 if (_SystemWebExtensions is null)
                 {
-                    _SystemWebExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemWebExtensions).GetReference(filePath: "System.Web.Extensions.dll", display: "System.Web.Extensions (net40)");
+                    _SystemWebExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web.Extensions")).GetReference(filePath: "System.Web.Extensions.dll", display: "System.Web.Extensions (net40)");
                 }
                 return _SystemWebExtensions;
             }
@@ -2322,7 +2322,7 @@ public static partial class Net40
             {
                 if (_SystemWebMobile is null)
                 {
-                    _SystemWebMobile = AssemblyMetadata.CreateFromImage(Resources.SystemWebMobile).GetReference(filePath: "System.Web.Mobile.dll", display: "System.Web.Mobile (net40)");
+                    _SystemWebMobile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web.Mobile")).GetReference(filePath: "System.Web.Mobile.dll", display: "System.Web.Mobile (net40)");
                 }
                 return _SystemWebMobile;
             }
@@ -2339,7 +2339,7 @@ public static partial class Net40
             {
                 if (_SystemWebRegularExpressions is null)
                 {
-                    _SystemWebRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemWebRegularExpressions).GetReference(filePath: "System.Web.RegularExpressions.dll", display: "System.Web.RegularExpressions (net40)");
+                    _SystemWebRegularExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web.RegularExpressions")).GetReference(filePath: "System.Web.RegularExpressions.dll", display: "System.Web.RegularExpressions (net40)");
                 }
                 return _SystemWebRegularExpressions;
             }
@@ -2356,7 +2356,7 @@ public static partial class Net40
             {
                 if (_SystemWebRouting is null)
                 {
-                    _SystemWebRouting = AssemblyMetadata.CreateFromImage(Resources.SystemWebRouting).GetReference(filePath: "System.Web.Routing.dll", display: "System.Web.Routing (net40)");
+                    _SystemWebRouting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web.Routing")).GetReference(filePath: "System.Web.Routing.dll", display: "System.Web.Routing (net40)");
                 }
                 return _SystemWebRouting;
             }
@@ -2373,7 +2373,7 @@ public static partial class Net40
             {
                 if (_SystemWebServices is null)
                 {
-                    _SystemWebServices = AssemblyMetadata.CreateFromImage(Resources.SystemWebServices).GetReference(filePath: "System.Web.Services.dll", display: "System.Web.Services (net40)");
+                    _SystemWebServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Web.Services")).GetReference(filePath: "System.Web.Services.dll", display: "System.Web.Services (net40)");
                 }
                 return _SystemWebServices;
             }
@@ -2390,7 +2390,7 @@ public static partial class Net40
             {
                 if (_SystemWindowsFormsDataVisualizationDesign is null)
                 {
-                    _SystemWindowsFormsDataVisualizationDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDataVisualizationDesign).GetReference(filePath: "System.Windows.Forms.DataVisualization.Design.dll", display: "System.Windows.Forms.DataVisualization.Design (net40)");
+                    _SystemWindowsFormsDataVisualizationDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Windows.Forms.DataVisualization.Design")).GetReference(filePath: "System.Windows.Forms.DataVisualization.Design.dll", display: "System.Windows.Forms.DataVisualization.Design (net40)");
                 }
                 return _SystemWindowsFormsDataVisualizationDesign;
             }
@@ -2407,7 +2407,7 @@ public static partial class Net40
             {
                 if (_SystemWindowsFormsDataVisualization is null)
                 {
-                    _SystemWindowsFormsDataVisualization = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDataVisualization).GetReference(filePath: "System.Windows.Forms.DataVisualization.dll", display: "System.Windows.Forms.DataVisualization (net40)");
+                    _SystemWindowsFormsDataVisualization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Windows.Forms.DataVisualization")).GetReference(filePath: "System.Windows.Forms.DataVisualization.dll", display: "System.Windows.Forms.DataVisualization (net40)");
                 }
                 return _SystemWindowsFormsDataVisualization;
             }
@@ -2424,7 +2424,7 @@ public static partial class Net40
             {
                 if (_SystemWindowsForms is null)
                 {
-                    _SystemWindowsForms = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsForms).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net40)");
+                    _SystemWindowsForms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Windows.Forms")).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net40)");
                 }
                 return _SystemWindowsForms;
             }
@@ -2441,7 +2441,7 @@ public static partial class Net40
             {
                 if (_SystemWindowsInputManipulations is null)
                 {
-                    _SystemWindowsInputManipulations = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsInputManipulations).GetReference(filePath: "System.Windows.Input.Manipulations.dll", display: "System.Windows.Input.Manipulations (net40)");
+                    _SystemWindowsInputManipulations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Windows.Input.Manipulations")).GetReference(filePath: "System.Windows.Input.Manipulations.dll", display: "System.Windows.Input.Manipulations (net40)");
                 }
                 return _SystemWindowsInputManipulations;
             }
@@ -2458,7 +2458,7 @@ public static partial class Net40
             {
                 if (_SystemWindowsPresentation is null)
                 {
-                    _SystemWindowsPresentation = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsPresentation).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net40)");
+                    _SystemWindowsPresentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Windows.Presentation")).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net40)");
                 }
                 return _SystemWindowsPresentation;
             }
@@ -2475,7 +2475,7 @@ public static partial class Net40
             {
                 if (_SystemWorkflowActivities is null)
                 {
-                    _SystemWorkflowActivities = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowActivities).GetReference(filePath: "System.Workflow.Activities.dll", display: "System.Workflow.Activities (net40)");
+                    _SystemWorkflowActivities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Workflow.Activities")).GetReference(filePath: "System.Workflow.Activities.dll", display: "System.Workflow.Activities (net40)");
                 }
                 return _SystemWorkflowActivities;
             }
@@ -2492,7 +2492,7 @@ public static partial class Net40
             {
                 if (_SystemWorkflowComponentModel is null)
                 {
-                    _SystemWorkflowComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowComponentModel).GetReference(filePath: "System.Workflow.ComponentModel.dll", display: "System.Workflow.ComponentModel (net40)");
+                    _SystemWorkflowComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Workflow.ComponentModel")).GetReference(filePath: "System.Workflow.ComponentModel.dll", display: "System.Workflow.ComponentModel (net40)");
                 }
                 return _SystemWorkflowComponentModel;
             }
@@ -2509,7 +2509,7 @@ public static partial class Net40
             {
                 if (_SystemWorkflowRuntime is null)
                 {
-                    _SystemWorkflowRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowRuntime).GetReference(filePath: "System.Workflow.Runtime.dll", display: "System.Workflow.Runtime (net40)");
+                    _SystemWorkflowRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Workflow.Runtime")).GetReference(filePath: "System.Workflow.Runtime.dll", display: "System.Workflow.Runtime (net40)");
                 }
                 return _SystemWorkflowRuntime;
             }
@@ -2526,7 +2526,7 @@ public static partial class Net40
             {
                 if (_SystemWorkflowServices is null)
                 {
-                    _SystemWorkflowServices = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowServices).GetReference(filePath: "System.WorkflowServices.dll", display: "System.WorkflowServices (net40)");
+                    _SystemWorkflowServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.WorkflowServices")).GetReference(filePath: "System.WorkflowServices.dll", display: "System.WorkflowServices (net40)");
                 }
                 return _SystemWorkflowServices;
             }
@@ -2543,7 +2543,7 @@ public static partial class Net40
             {
                 if (_SystemXaml is null)
                 {
-                    _SystemXaml = AssemblyMetadata.CreateFromImage(Resources.SystemXaml).GetReference(filePath: "System.Xaml.dll", display: "System.Xaml (net40)");
+                    _SystemXaml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Xaml")).GetReference(filePath: "System.Xaml.dll", display: "System.Xaml (net40)");
                 }
                 return _SystemXaml;
             }
@@ -2560,7 +2560,7 @@ public static partial class Net40
             {
                 if (_SystemXml is null)
                 {
-                    _SystemXml = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net40)");
+                    _SystemXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Xml")).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net40)");
                 }
                 return _SystemXml;
             }
@@ -2577,7 +2577,7 @@ public static partial class Net40
             {
                 if (_SystemXmlLinq is null)
                 {
-                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(Resources.SystemXmlLinq).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net40)");
+                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.System.Xml.Linq")).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net40)");
                 }
                 return _SystemXmlLinq;
             }
@@ -2594,7 +2594,7 @@ public static partial class Net40
             {
                 if (_UIAutomationClient is null)
                 {
-                    _UIAutomationClient = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClient).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net40)");
+                    _UIAutomationClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.UIAutomationClient")).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net40)");
                 }
                 return _UIAutomationClient;
             }
@@ -2611,7 +2611,7 @@ public static partial class Net40
             {
                 if (_UIAutomationClientsideProviders is null)
                 {
-                    _UIAutomationClientsideProviders = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClientsideProviders).GetReference(filePath: "UIAutomationClientsideProviders.dll", display: "UIAutomationClientsideProviders (net40)");
+                    _UIAutomationClientsideProviders = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.UIAutomationClientsideProviders")).GetReference(filePath: "UIAutomationClientsideProviders.dll", display: "UIAutomationClientsideProviders (net40)");
                 }
                 return _UIAutomationClientsideProviders;
             }
@@ -2628,7 +2628,7 @@ public static partial class Net40
             {
                 if (_UIAutomationProvider is null)
                 {
-                    _UIAutomationProvider = AssemblyMetadata.CreateFromImage(Resources.UIAutomationProvider).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net40)");
+                    _UIAutomationProvider = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.UIAutomationProvider")).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net40)");
                 }
                 return _UIAutomationProvider;
             }
@@ -2645,7 +2645,7 @@ public static partial class Net40
             {
                 if (_UIAutomationTypes is null)
                 {
-                    _UIAutomationTypes = AssemblyMetadata.CreateFromImage(Resources.UIAutomationTypes).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net40)");
+                    _UIAutomationTypes = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.UIAutomationTypes")).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net40)");
                 }
                 return _UIAutomationTypes;
             }
@@ -2662,7 +2662,7 @@ public static partial class Net40
             {
                 if (_WindowsBase is null)
                 {
-                    _WindowsBase = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net40)");
+                    _WindowsBase = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.WindowsBase")).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net40)");
                 }
                 return _WindowsBase;
             }
@@ -2679,7 +2679,7 @@ public static partial class Net40
             {
                 if (_WindowsFormsIntegration is null)
                 {
-                    _WindowsFormsIntegration = AssemblyMetadata.CreateFromImage(Resources.WindowsFormsIntegration).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net40)");
+                    _WindowsFormsIntegration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.WindowsFormsIntegration")).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net40)");
                 }
                 return _WindowsFormsIntegration;
             }
@@ -2696,7 +2696,7 @@ public static partial class Net40
             {
                 if (_XamlBuildTask is null)
                 {
-                    _XamlBuildTask = AssemblyMetadata.CreateFromImage(Resources.XamlBuildTask).GetReference(filePath: "XamlBuildTask.dll", display: "XamlBuildTask (net40)");
+                    _XamlBuildTask = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net40.XamlBuildTask")).GetReference(filePath: "XamlBuildTask.dll", display: "XamlBuildTask (net40)");
                 }
                 return _XamlBuildTask;
             }

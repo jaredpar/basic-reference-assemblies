@@ -1149,7 +1149,7 @@ public static partial class Net461
             {
                 if (_Accessibility is null)
                 {
-                    _Accessibility = AssemblyMetadata.CreateFromImage(Resources.Accessibility).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net461)");
+                    _Accessibility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Accessibility")).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net461)");
                 }
                 return _Accessibility;
             }
@@ -1166,7 +1166,7 @@ public static partial class Net461
             {
                 if (_CustomMarshalers is null)
                 {
-                    _CustomMarshalers = AssemblyMetadata.CreateFromImage(Resources.CustomMarshalers).GetReference(filePath: "CustomMarshalers.dll", display: "CustomMarshalers (net461)");
+                    _CustomMarshalers = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.CustomMarshalers")).GetReference(filePath: "CustomMarshalers.dll", display: "CustomMarshalers (net461)");
                 }
                 return _CustomMarshalers;
             }
@@ -1183,7 +1183,7 @@ public static partial class Net461
             {
                 if (_ISymWrapper is null)
                 {
-                    _ISymWrapper = AssemblyMetadata.CreateFromImage(Resources.ISymWrapper).GetReference(filePath: "ISymWrapper.dll", display: "ISymWrapper (net461)");
+                    _ISymWrapper = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.ISymWrapper")).GetReference(filePath: "ISymWrapper.dll", display: "ISymWrapper (net461)");
                 }
                 return _ISymWrapper;
             }
@@ -1200,7 +1200,7 @@ public static partial class Net461
             {
                 if (_MicrosoftActivitiesBuild is null)
                 {
-                    _MicrosoftActivitiesBuild = AssemblyMetadata.CreateFromImage(Resources.MicrosoftActivitiesBuild).GetReference(filePath: "Microsoft.Activities.Build.dll", display: "Microsoft.Activities.Build (net461)");
+                    _MicrosoftActivitiesBuild = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Microsoft.Activities.Build")).GetReference(filePath: "Microsoft.Activities.Build.dll", display: "Microsoft.Activities.Build (net461)");
                 }
                 return _MicrosoftActivitiesBuild;
             }
@@ -1217,7 +1217,7 @@ public static partial class Net461
             {
                 if (_MicrosoftBuildConversionv40 is null)
                 {
-                    _MicrosoftBuildConversionv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildConversionv40).GetReference(filePath: "Microsoft.Build.Conversion.v4.0.dll", display: "Microsoft.Build.Conversion.v4.0 (net461)");
+                    _MicrosoftBuildConversionv40 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Microsoft.Build.Conversion.v4.0")).GetReference(filePath: "Microsoft.Build.Conversion.v4.0.dll", display: "Microsoft.Build.Conversion.v4.0 (net461)");
                 }
                 return _MicrosoftBuildConversionv40;
             }
@@ -1234,7 +1234,7 @@ public static partial class Net461
             {
                 if (_MicrosoftBuild is null)
                 {
-                    _MicrosoftBuild = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuild).GetReference(filePath: "Microsoft.Build.dll", display: "Microsoft.Build (net461)");
+                    _MicrosoftBuild = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Microsoft.Build")).GetReference(filePath: "Microsoft.Build.dll", display: "Microsoft.Build (net461)");
                 }
                 return _MicrosoftBuild;
             }
@@ -1251,7 +1251,7 @@ public static partial class Net461
             {
                 if (_MicrosoftBuildEngine is null)
                 {
-                    _MicrosoftBuildEngine = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildEngine).GetReference(filePath: "Microsoft.Build.Engine.dll", display: "Microsoft.Build.Engine (net461)");
+                    _MicrosoftBuildEngine = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Microsoft.Build.Engine")).GetReference(filePath: "Microsoft.Build.Engine.dll", display: "Microsoft.Build.Engine (net461)");
                 }
                 return _MicrosoftBuildEngine;
             }
@@ -1268,7 +1268,7 @@ public static partial class Net461
             {
                 if (_MicrosoftBuildFramework is null)
                 {
-                    _MicrosoftBuildFramework = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildFramework).GetReference(filePath: "Microsoft.Build.Framework.dll", display: "Microsoft.Build.Framework (net461)");
+                    _MicrosoftBuildFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Microsoft.Build.Framework")).GetReference(filePath: "Microsoft.Build.Framework.dll", display: "Microsoft.Build.Framework (net461)");
                 }
                 return _MicrosoftBuildFramework;
             }
@@ -1285,7 +1285,7 @@ public static partial class Net461
             {
                 if (_MicrosoftBuildTasksv40 is null)
                 {
-                    _MicrosoftBuildTasksv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildTasksv40).GetReference(filePath: "Microsoft.Build.Tasks.v4.0.dll", display: "Microsoft.Build.Tasks.v4.0 (net461)");
+                    _MicrosoftBuildTasksv40 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Microsoft.Build.Tasks.v4.0")).GetReference(filePath: "Microsoft.Build.Tasks.v4.0.dll", display: "Microsoft.Build.Tasks.v4.0 (net461)");
                 }
                 return _MicrosoftBuildTasksv40;
             }
@@ -1302,7 +1302,7 @@ public static partial class Net461
             {
                 if (_MicrosoftBuildUtilitiesv40 is null)
                 {
-                    _MicrosoftBuildUtilitiesv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildUtilitiesv40).GetReference(filePath: "Microsoft.Build.Utilities.v4.0.dll", display: "Microsoft.Build.Utilities.v4.0 (net461)");
+                    _MicrosoftBuildUtilitiesv40 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Microsoft.Build.Utilities.v4.0")).GetReference(filePath: "Microsoft.Build.Utilities.v4.0.dll", display: "Microsoft.Build.Utilities.v4.0 (net461)");
                 }
                 return _MicrosoftBuildUtilitiesv40;
             }
@@ -1319,7 +1319,7 @@ public static partial class Net461
             {
                 if (_MicrosoftCSharp is null)
                 {
-                    _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(Resources.MicrosoftCSharp).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (net461)");
+                    _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Microsoft.CSharp")).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (net461)");
                 }
                 return _MicrosoftCSharp;
             }
@@ -1336,7 +1336,7 @@ public static partial class Net461
             {
                 if (_MicrosoftJScript is null)
                 {
-                    _MicrosoftJScript = AssemblyMetadata.CreateFromImage(Resources.MicrosoftJScript).GetReference(filePath: "Microsoft.JScript.dll", display: "Microsoft.JScript (net461)");
+                    _MicrosoftJScript = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Microsoft.JScript")).GetReference(filePath: "Microsoft.JScript.dll", display: "Microsoft.JScript (net461)");
                 }
                 return _MicrosoftJScript;
             }
@@ -1353,7 +1353,7 @@ public static partial class Net461
             {
                 if (_MicrosoftVisualBasicCompatibilityData is null)
                 {
-                    _MicrosoftVisualBasicCompatibilityData = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibilityData).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.Data.dll", display: "Microsoft.VisualBasic.Compatibility.Data (net461)");
+                    _MicrosoftVisualBasicCompatibilityData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Microsoft.VisualBasic.Compatibility.Data")).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.Data.dll", display: "Microsoft.VisualBasic.Compatibility.Data (net461)");
                 }
                 return _MicrosoftVisualBasicCompatibilityData;
             }
@@ -1370,7 +1370,7 @@ public static partial class Net461
             {
                 if (_MicrosoftVisualBasicCompatibility is null)
                 {
-                    _MicrosoftVisualBasicCompatibility = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibility).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.dll", display: "Microsoft.VisualBasic.Compatibility (net461)");
+                    _MicrosoftVisualBasicCompatibility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Microsoft.VisualBasic.Compatibility")).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.dll", display: "Microsoft.VisualBasic.Compatibility (net461)");
                 }
                 return _MicrosoftVisualBasicCompatibility;
             }
@@ -1387,7 +1387,7 @@ public static partial class Net461
             {
                 if (_MicrosoftVisualBasic is null)
                 {
-                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net461)");
+                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net461)");
                 }
                 return _MicrosoftVisualBasic;
             }
@@ -1404,7 +1404,7 @@ public static partial class Net461
             {
                 if (_MicrosoftVisualC is null)
                 {
-                    _MicrosoftVisualC = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualC).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net461)");
+                    _MicrosoftVisualC = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Microsoft.VisualC")).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net461)");
                 }
                 return _MicrosoftVisualC;
             }
@@ -1421,7 +1421,7 @@ public static partial class Net461
             {
                 if (_MicrosoftVisualCSTLCLR is null)
                 {
-                    _MicrosoftVisualCSTLCLR = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualCSTLCLR).GetReference(filePath: "Microsoft.VisualC.STLCLR.dll", display: "Microsoft.VisualC.STLCLR (net461)");
+                    _MicrosoftVisualCSTLCLR = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.Microsoft.VisualC.STLCLR")).GetReference(filePath: "Microsoft.VisualC.STLCLR.dll", display: "Microsoft.VisualC.STLCLR (net461)");
                 }
                 return _MicrosoftVisualCSTLCLR;
             }
@@ -1438,7 +1438,7 @@ public static partial class Net461
             {
                 if (_mscorlib is null)
                 {
-                    _mscorlib = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net461)");
+                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net461)");
                 }
                 return _mscorlib;
             }
@@ -1455,7 +1455,7 @@ public static partial class Net461
             {
                 if (_PresentationBuildTasks is null)
                 {
-                    _PresentationBuildTasks = AssemblyMetadata.CreateFromImage(Resources.PresentationBuildTasks).GetReference(filePath: "PresentationBuildTasks.dll", display: "PresentationBuildTasks (net461)");
+                    _PresentationBuildTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.PresentationBuildTasks")).GetReference(filePath: "PresentationBuildTasks.dll", display: "PresentationBuildTasks (net461)");
                 }
                 return _PresentationBuildTasks;
             }
@@ -1472,7 +1472,7 @@ public static partial class Net461
             {
                 if (_PresentationCore is null)
                 {
-                    _PresentationCore = AssemblyMetadata.CreateFromImage(Resources.PresentationCore).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net461)");
+                    _PresentationCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.PresentationCore")).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net461)");
                 }
                 return _PresentationCore;
             }
@@ -1489,7 +1489,7 @@ public static partial class Net461
             {
                 if (_PresentationFrameworkAero is null)
                 {
-                    _PresentationFrameworkAero = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net461)");
+                    _PresentationFrameworkAero = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.PresentationFramework.Aero")).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net461)");
                 }
                 return _PresentationFrameworkAero;
             }
@@ -1506,7 +1506,7 @@ public static partial class Net461
             {
                 if (_PresentationFrameworkAero2 is null)
                 {
-                    _PresentationFrameworkAero2 = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero2).GetReference(filePath: "PresentationFramework.Aero2.dll", display: "PresentationFramework.Aero2 (net461)");
+                    _PresentationFrameworkAero2 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.PresentationFramework.Aero2")).GetReference(filePath: "PresentationFramework.Aero2.dll", display: "PresentationFramework.Aero2 (net461)");
                 }
                 return _PresentationFrameworkAero2;
             }
@@ -1523,7 +1523,7 @@ public static partial class Net461
             {
                 if (_PresentationFrameworkAeroLite is null)
                 {
-                    _PresentationFrameworkAeroLite = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAeroLite).GetReference(filePath: "PresentationFramework.AeroLite.dll", display: "PresentationFramework.AeroLite (net461)");
+                    _PresentationFrameworkAeroLite = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.PresentationFramework.AeroLite")).GetReference(filePath: "PresentationFramework.AeroLite.dll", display: "PresentationFramework.AeroLite (net461)");
                 }
                 return _PresentationFrameworkAeroLite;
             }
@@ -1540,7 +1540,7 @@ public static partial class Net461
             {
                 if (_PresentationFrameworkClassic is null)
                 {
-                    _PresentationFrameworkClassic = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkClassic).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net461)");
+                    _PresentationFrameworkClassic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.PresentationFramework.Classic")).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net461)");
                 }
                 return _PresentationFrameworkClassic;
             }
@@ -1557,7 +1557,7 @@ public static partial class Net461
             {
                 if (_PresentationFramework is null)
                 {
-                    _PresentationFramework = AssemblyMetadata.CreateFromImage(Resources.PresentationFramework).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net461)");
+                    _PresentationFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.PresentationFramework")).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net461)");
                 }
                 return _PresentationFramework;
             }
@@ -1574,7 +1574,7 @@ public static partial class Net461
             {
                 if (_PresentationFrameworkLuna is null)
                 {
-                    _PresentationFrameworkLuna = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkLuna).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net461)");
+                    _PresentationFrameworkLuna = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.PresentationFramework.Luna")).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net461)");
                 }
                 return _PresentationFrameworkLuna;
             }
@@ -1591,7 +1591,7 @@ public static partial class Net461
             {
                 if (_PresentationFrameworkRoyale is null)
                 {
-                    _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkRoyale).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net461)");
+                    _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.PresentationFramework.Royale")).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net461)");
                 }
                 return _PresentationFrameworkRoyale;
             }
@@ -1608,7 +1608,7 @@ public static partial class Net461
             {
                 if (_ReachFramework is null)
                 {
-                    _ReachFramework = AssemblyMetadata.CreateFromImage(Resources.ReachFramework).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net461)");
+                    _ReachFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.ReachFramework")).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net461)");
                 }
                 return _ReachFramework;
             }
@@ -1625,7 +1625,7 @@ public static partial class Net461
             {
                 if (_sysglobl is null)
                 {
-                    _sysglobl = AssemblyMetadata.CreateFromImage(Resources.sysglobl).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net461)");
+                    _sysglobl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.sysglobl")).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net461)");
                 }
                 return _sysglobl;
             }
@@ -1642,7 +1642,7 @@ public static partial class Net461
             {
                 if (_SystemActivitiesCorePresentation is null)
                 {
-                    _SystemActivitiesCorePresentation = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesCorePresentation).GetReference(filePath: "System.Activities.Core.Presentation.dll", display: "System.Activities.Core.Presentation (net461)");
+                    _SystemActivitiesCorePresentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Activities.Core.Presentation")).GetReference(filePath: "System.Activities.Core.Presentation.dll", display: "System.Activities.Core.Presentation (net461)");
                 }
                 return _SystemActivitiesCorePresentation;
             }
@@ -1659,7 +1659,7 @@ public static partial class Net461
             {
                 if (_SystemActivities is null)
                 {
-                    _SystemActivities = AssemblyMetadata.CreateFromImage(Resources.SystemActivities).GetReference(filePath: "System.Activities.dll", display: "System.Activities (net461)");
+                    _SystemActivities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Activities")).GetReference(filePath: "System.Activities.dll", display: "System.Activities (net461)");
                 }
                 return _SystemActivities;
             }
@@ -1676,7 +1676,7 @@ public static partial class Net461
             {
                 if (_SystemActivitiesDurableInstancing is null)
                 {
-                    _SystemActivitiesDurableInstancing = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesDurableInstancing).GetReference(filePath: "System.Activities.DurableInstancing.dll", display: "System.Activities.DurableInstancing (net461)");
+                    _SystemActivitiesDurableInstancing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Activities.DurableInstancing")).GetReference(filePath: "System.Activities.DurableInstancing.dll", display: "System.Activities.DurableInstancing (net461)");
                 }
                 return _SystemActivitiesDurableInstancing;
             }
@@ -1693,7 +1693,7 @@ public static partial class Net461
             {
                 if (_SystemActivitiesPresentation is null)
                 {
-                    _SystemActivitiesPresentation = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesPresentation).GetReference(filePath: "System.Activities.Presentation.dll", display: "System.Activities.Presentation (net461)");
+                    _SystemActivitiesPresentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Activities.Presentation")).GetReference(filePath: "System.Activities.Presentation.dll", display: "System.Activities.Presentation (net461)");
                 }
                 return _SystemActivitiesPresentation;
             }
@@ -1710,7 +1710,7 @@ public static partial class Net461
             {
                 if (_SystemAddInContract is null)
                 {
-                    _SystemAddInContract = AssemblyMetadata.CreateFromImage(Resources.SystemAddInContract).GetReference(filePath: "System.AddIn.Contract.dll", display: "System.AddIn.Contract (net461)");
+                    _SystemAddInContract = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.AddIn.Contract")).GetReference(filePath: "System.AddIn.Contract.dll", display: "System.AddIn.Contract (net461)");
                 }
                 return _SystemAddInContract;
             }
@@ -1727,7 +1727,7 @@ public static partial class Net461
             {
                 if (_SystemAddIn is null)
                 {
-                    _SystemAddIn = AssemblyMetadata.CreateFromImage(Resources.SystemAddIn).GetReference(filePath: "System.AddIn.dll", display: "System.AddIn (net461)");
+                    _SystemAddIn = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.AddIn")).GetReference(filePath: "System.AddIn.dll", display: "System.AddIn (net461)");
                 }
                 return _SystemAddIn;
             }
@@ -1744,7 +1744,7 @@ public static partial class Net461
             {
                 if (_SystemComponentModelComposition is null)
                 {
-                    _SystemComponentModelComposition = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelComposition).GetReference(filePath: "System.ComponentModel.Composition.dll", display: "System.ComponentModel.Composition (net461)");
+                    _SystemComponentModelComposition = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ComponentModel.Composition")).GetReference(filePath: "System.ComponentModel.Composition.dll", display: "System.ComponentModel.Composition (net461)");
                 }
                 return _SystemComponentModelComposition;
             }
@@ -1761,7 +1761,7 @@ public static partial class Net461
             {
                 if (_SystemComponentModelCompositionRegistration is null)
                 {
-                    _SystemComponentModelCompositionRegistration = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelCompositionRegistration).GetReference(filePath: "System.ComponentModel.Composition.Registration.dll", display: "System.ComponentModel.Composition.Registration (net461)");
+                    _SystemComponentModelCompositionRegistration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ComponentModel.Composition.Registration")).GetReference(filePath: "System.ComponentModel.Composition.Registration.dll", display: "System.ComponentModel.Composition.Registration (net461)");
                 }
                 return _SystemComponentModelCompositionRegistration;
             }
@@ -1778,7 +1778,7 @@ public static partial class Net461
             {
                 if (_SystemComponentModelDataAnnotations is null)
                 {
-                    _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelDataAnnotations).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (net461)");
+                    _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ComponentModel.DataAnnotations")).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (net461)");
                 }
                 return _SystemComponentModelDataAnnotations;
             }
@@ -1795,7 +1795,7 @@ public static partial class Net461
             {
                 if (_SystemConfiguration is null)
                 {
-                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(Resources.SystemConfiguration).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net461)");
+                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Configuration")).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net461)");
                 }
                 return _SystemConfiguration;
             }
@@ -1812,7 +1812,7 @@ public static partial class Net461
             {
                 if (_SystemConfigurationInstall is null)
                 {
-                    _SystemConfigurationInstall = AssemblyMetadata.CreateFromImage(Resources.SystemConfigurationInstall).GetReference(filePath: "System.Configuration.Install.dll", display: "System.Configuration.Install (net461)");
+                    _SystemConfigurationInstall = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Configuration.Install")).GetReference(filePath: "System.Configuration.Install.dll", display: "System.Configuration.Install (net461)");
                 }
                 return _SystemConfigurationInstall;
             }
@@ -1829,7 +1829,7 @@ public static partial class Net461
             {
                 if (_SystemCore is null)
                 {
-                    _SystemCore = AssemblyMetadata.CreateFromImage(Resources.SystemCore).GetReference(filePath: "System.Core.dll", display: "System.Core (net461)");
+                    _SystemCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Core")).GetReference(filePath: "System.Core.dll", display: "System.Core (net461)");
                 }
                 return _SystemCore;
             }
@@ -1846,7 +1846,7 @@ public static partial class Net461
             {
                 if (_SystemDataDataSetExtensions is null)
                 {
-                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemDataDataSetExtensions).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net461)");
+                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Data.DataSetExtensions")).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net461)");
                 }
                 return _SystemDataDataSetExtensions;
             }
@@ -1863,7 +1863,7 @@ public static partial class Net461
             {
                 if (_SystemData is null)
                 {
-                    _SystemData = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (net461)");
+                    _SystemData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Data")).GetReference(filePath: "System.Data.dll", display: "System.Data (net461)");
                 }
                 return _SystemData;
             }
@@ -1880,7 +1880,7 @@ public static partial class Net461
             {
                 if (_SystemDataEntityDesign is null)
                 {
-                    _SystemDataEntityDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDataEntityDesign).GetReference(filePath: "System.Data.Entity.Design.dll", display: "System.Data.Entity.Design (net461)");
+                    _SystemDataEntityDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Data.Entity.Design")).GetReference(filePath: "System.Data.Entity.Design.dll", display: "System.Data.Entity.Design (net461)");
                 }
                 return _SystemDataEntityDesign;
             }
@@ -1897,7 +1897,7 @@ public static partial class Net461
             {
                 if (_SystemDataEntity is null)
                 {
-                    _SystemDataEntity = AssemblyMetadata.CreateFromImage(Resources.SystemDataEntity).GetReference(filePath: "System.Data.Entity.dll", display: "System.Data.Entity (net461)");
+                    _SystemDataEntity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Data.Entity")).GetReference(filePath: "System.Data.Entity.dll", display: "System.Data.Entity (net461)");
                 }
                 return _SystemDataEntity;
             }
@@ -1914,7 +1914,7 @@ public static partial class Net461
             {
                 if (_SystemDataLinq is null)
                 {
-                    _SystemDataLinq = AssemblyMetadata.CreateFromImage(Resources.SystemDataLinq).GetReference(filePath: "System.Data.Linq.dll", display: "System.Data.Linq (net461)");
+                    _SystemDataLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Data.Linq")).GetReference(filePath: "System.Data.Linq.dll", display: "System.Data.Linq (net461)");
                 }
                 return _SystemDataLinq;
             }
@@ -1931,7 +1931,7 @@ public static partial class Net461
             {
                 if (_SystemDataOracleClient is null)
                 {
-                    _SystemDataOracleClient = AssemblyMetadata.CreateFromImage(Resources.SystemDataOracleClient).GetReference(filePath: "System.Data.OracleClient.dll", display: "System.Data.OracleClient (net461)");
+                    _SystemDataOracleClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Data.OracleClient")).GetReference(filePath: "System.Data.OracleClient.dll", display: "System.Data.OracleClient (net461)");
                 }
                 return _SystemDataOracleClient;
             }
@@ -1948,7 +1948,7 @@ public static partial class Net461
             {
                 if (_SystemDataServicesClient is null)
                 {
-                    _SystemDataServicesClient = AssemblyMetadata.CreateFromImage(Resources.SystemDataServicesClient).GetReference(filePath: "System.Data.Services.Client.dll", display: "System.Data.Services.Client (net461)");
+                    _SystemDataServicesClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Data.Services.Client")).GetReference(filePath: "System.Data.Services.Client.dll", display: "System.Data.Services.Client (net461)");
                 }
                 return _SystemDataServicesClient;
             }
@@ -1965,7 +1965,7 @@ public static partial class Net461
             {
                 if (_SystemDataServicesDesign is null)
                 {
-                    _SystemDataServicesDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDataServicesDesign).GetReference(filePath: "System.Data.Services.Design.dll", display: "System.Data.Services.Design (net461)");
+                    _SystemDataServicesDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Data.Services.Design")).GetReference(filePath: "System.Data.Services.Design.dll", display: "System.Data.Services.Design (net461)");
                 }
                 return _SystemDataServicesDesign;
             }
@@ -1982,7 +1982,7 @@ public static partial class Net461
             {
                 if (_SystemDataServices is null)
                 {
-                    _SystemDataServices = AssemblyMetadata.CreateFromImage(Resources.SystemDataServices).GetReference(filePath: "System.Data.Services.dll", display: "System.Data.Services (net461)");
+                    _SystemDataServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Data.Services")).GetReference(filePath: "System.Data.Services.dll", display: "System.Data.Services (net461)");
                 }
                 return _SystemDataServices;
             }
@@ -1999,7 +1999,7 @@ public static partial class Net461
             {
                 if (_SystemDataSqlXml is null)
                 {
-                    _SystemDataSqlXml = AssemblyMetadata.CreateFromImage(Resources.SystemDataSqlXml).GetReference(filePath: "System.Data.SqlXml.dll", display: "System.Data.SqlXml (net461)");
+                    _SystemDataSqlXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Data.SqlXml")).GetReference(filePath: "System.Data.SqlXml.dll", display: "System.Data.SqlXml (net461)");
                 }
                 return _SystemDataSqlXml;
             }
@@ -2016,7 +2016,7 @@ public static partial class Net461
             {
                 if (_SystemDeployment is null)
                 {
-                    _SystemDeployment = AssemblyMetadata.CreateFromImage(Resources.SystemDeployment).GetReference(filePath: "System.Deployment.dll", display: "System.Deployment (net461)");
+                    _SystemDeployment = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Deployment")).GetReference(filePath: "System.Deployment.dll", display: "System.Deployment (net461)");
                 }
                 return _SystemDeployment;
             }
@@ -2033,7 +2033,7 @@ public static partial class Net461
             {
                 if (_SystemDesign is null)
                 {
-                    _SystemDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDesign).GetReference(filePath: "System.Design.dll", display: "System.Design (net461)");
+                    _SystemDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Design")).GetReference(filePath: "System.Design.dll", display: "System.Design (net461)");
                 }
                 return _SystemDesign;
             }
@@ -2050,7 +2050,7 @@ public static partial class Net461
             {
                 if (_SystemDevice is null)
                 {
-                    _SystemDevice = AssemblyMetadata.CreateFromImage(Resources.SystemDevice).GetReference(filePath: "System.Device.dll", display: "System.Device (net461)");
+                    _SystemDevice = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Device")).GetReference(filePath: "System.Device.dll", display: "System.Device (net461)");
                 }
                 return _SystemDevice;
             }
@@ -2067,7 +2067,7 @@ public static partial class Net461
             {
                 if (_SystemDirectoryServicesAccountManagement is null)
                 {
-                    _SystemDirectoryServicesAccountManagement = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesAccountManagement).GetReference(filePath: "System.DirectoryServices.AccountManagement.dll", display: "System.DirectoryServices.AccountManagement (net461)");
+                    _SystemDirectoryServicesAccountManagement = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.DirectoryServices.AccountManagement")).GetReference(filePath: "System.DirectoryServices.AccountManagement.dll", display: "System.DirectoryServices.AccountManagement (net461)");
                 }
                 return _SystemDirectoryServicesAccountManagement;
             }
@@ -2084,7 +2084,7 @@ public static partial class Net461
             {
                 if (_SystemDirectoryServices is null)
                 {
-                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServices).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net461)");
+                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.DirectoryServices")).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net461)");
                 }
                 return _SystemDirectoryServices;
             }
@@ -2101,7 +2101,7 @@ public static partial class Net461
             {
                 if (_SystemDirectoryServicesProtocols is null)
                 {
-                    _SystemDirectoryServicesProtocols = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesProtocols).GetReference(filePath: "System.DirectoryServices.Protocols.dll", display: "System.DirectoryServices.Protocols (net461)");
+                    _SystemDirectoryServicesProtocols = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.DirectoryServices.Protocols")).GetReference(filePath: "System.DirectoryServices.Protocols.dll", display: "System.DirectoryServices.Protocols (net461)");
                 }
                 return _SystemDirectoryServicesProtocols;
             }
@@ -2118,7 +2118,7 @@ public static partial class Net461
             {
                 if (_System is null)
                 {
-                    _System = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (net461)");
+                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System")).GetReference(filePath: "System.dll", display: "System (net461)");
                 }
                 return _System;
             }
@@ -2135,7 +2135,7 @@ public static partial class Net461
             {
                 if (_SystemDrawingDesign is null)
                 {
-                    _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingDesign).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net461)");
+                    _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Drawing.Design")).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net461)");
                 }
                 return _SystemDrawingDesign;
             }
@@ -2152,7 +2152,7 @@ public static partial class Net461
             {
                 if (_SystemDrawing is null)
                 {
-                    _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net461)");
+                    _SystemDrawing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Drawing")).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net461)");
                 }
                 return _SystemDrawing;
             }
@@ -2169,7 +2169,7 @@ public static partial class Net461
             {
                 if (_SystemDynamic is null)
                 {
-                    _SystemDynamic = AssemblyMetadata.CreateFromImage(Resources.SystemDynamic).GetReference(filePath: "System.Dynamic.dll", display: "System.Dynamic (net461)");
+                    _SystemDynamic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Dynamic")).GetReference(filePath: "System.Dynamic.dll", display: "System.Dynamic (net461)");
                 }
                 return _SystemDynamic;
             }
@@ -2186,7 +2186,7 @@ public static partial class Net461
             {
                 if (_SystemEnterpriseServices is null)
                 {
-                    _SystemEnterpriseServices = AssemblyMetadata.CreateFromImage(Resources.SystemEnterpriseServices).GetReference(filePath: "System.EnterpriseServices.dll", display: "System.EnterpriseServices (net461)");
+                    _SystemEnterpriseServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.EnterpriseServices")).GetReference(filePath: "System.EnterpriseServices.dll", display: "System.EnterpriseServices (net461)");
                 }
                 return _SystemEnterpriseServices;
             }
@@ -2203,7 +2203,7 @@ public static partial class Net461
             {
                 if (_SystemIdentityModel is null)
                 {
-                    _SystemIdentityModel = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModel).GetReference(filePath: "System.IdentityModel.dll", display: "System.IdentityModel (net461)");
+                    _SystemIdentityModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.IdentityModel")).GetReference(filePath: "System.IdentityModel.dll", display: "System.IdentityModel (net461)");
                 }
                 return _SystemIdentityModel;
             }
@@ -2220,7 +2220,7 @@ public static partial class Net461
             {
                 if (_SystemIdentityModelSelectors is null)
                 {
-                    _SystemIdentityModelSelectors = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModelSelectors).GetReference(filePath: "System.IdentityModel.Selectors.dll", display: "System.IdentityModel.Selectors (net461)");
+                    _SystemIdentityModelSelectors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.IdentityModel.Selectors")).GetReference(filePath: "System.IdentityModel.Selectors.dll", display: "System.IdentityModel.Selectors (net461)");
                 }
                 return _SystemIdentityModelSelectors;
             }
@@ -2237,7 +2237,7 @@ public static partial class Net461
             {
                 if (_SystemIdentityModelServices is null)
                 {
-                    _SystemIdentityModelServices = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModelServices).GetReference(filePath: "System.IdentityModel.Services.dll", display: "System.IdentityModel.Services (net461)");
+                    _SystemIdentityModelServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.IdentityModel.Services")).GetReference(filePath: "System.IdentityModel.Services.dll", display: "System.IdentityModel.Services (net461)");
                 }
                 return _SystemIdentityModelServices;
             }
@@ -2254,7 +2254,7 @@ public static partial class Net461
             {
                 if (_SystemIOCompression is null)
                 {
-                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (net461)");
+                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (net461)");
                 }
                 return _SystemIOCompression;
             }
@@ -2271,7 +2271,7 @@ public static partial class Net461
             {
                 if (_SystemIOCompressionFileSystem is null)
                 {
-                    _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionFileSystem).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (net461)");
+                    _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.IO.Compression.FileSystem")).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (net461)");
                 }
                 return _SystemIOCompressionFileSystem;
             }
@@ -2288,7 +2288,7 @@ public static partial class Net461
             {
                 if (_SystemIOLog is null)
                 {
-                    _SystemIOLog = AssemblyMetadata.CreateFromImage(Resources.SystemIOLog).GetReference(filePath: "System.IO.Log.dll", display: "System.IO.Log (net461)");
+                    _SystemIOLog = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.IO.Log")).GetReference(filePath: "System.IO.Log.dll", display: "System.IO.Log (net461)");
                 }
                 return _SystemIOLog;
             }
@@ -2305,7 +2305,7 @@ public static partial class Net461
             {
                 if (_SystemManagement is null)
                 {
-                    _SystemManagement = AssemblyMetadata.CreateFromImage(Resources.SystemManagement).GetReference(filePath: "System.Management.dll", display: "System.Management (net461)");
+                    _SystemManagement = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Management")).GetReference(filePath: "System.Management.dll", display: "System.Management (net461)");
                 }
                 return _SystemManagement;
             }
@@ -2322,7 +2322,7 @@ public static partial class Net461
             {
                 if (_SystemManagementInstrumentation is null)
                 {
-                    _SystemManagementInstrumentation = AssemblyMetadata.CreateFromImage(Resources.SystemManagementInstrumentation).GetReference(filePath: "System.Management.Instrumentation.dll", display: "System.Management.Instrumentation (net461)");
+                    _SystemManagementInstrumentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Management.Instrumentation")).GetReference(filePath: "System.Management.Instrumentation.dll", display: "System.Management.Instrumentation (net461)");
                 }
                 return _SystemManagementInstrumentation;
             }
@@ -2339,7 +2339,7 @@ public static partial class Net461
             {
                 if (_SystemMessaging is null)
                 {
-                    _SystemMessaging = AssemblyMetadata.CreateFromImage(Resources.SystemMessaging).GetReference(filePath: "System.Messaging.dll", display: "System.Messaging (net461)");
+                    _SystemMessaging = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Messaging")).GetReference(filePath: "System.Messaging.dll", display: "System.Messaging (net461)");
                 }
                 return _SystemMessaging;
             }
@@ -2356,7 +2356,7 @@ public static partial class Net461
             {
                 if (_SystemNet is null)
                 {
-                    _SystemNet = AssemblyMetadata.CreateFromImage(Resources.SystemNet).GetReference(filePath: "System.Net.dll", display: "System.Net (net461)");
+                    _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (net461)");
                 }
                 return _SystemNet;
             }
@@ -2373,7 +2373,7 @@ public static partial class Net461
             {
                 if (_SystemNetHttp is null)
                 {
-                    _SystemNetHttp = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (net461)");
+                    _SystemNetHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Net.Http")).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (net461)");
                 }
                 return _SystemNetHttp;
             }
@@ -2390,7 +2390,7 @@ public static partial class Net461
             {
                 if (_SystemNetHttpWebRequest is null)
                 {
-                    _SystemNetHttpWebRequest = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpWebRequest).GetReference(filePath: "System.Net.Http.WebRequest.dll", display: "System.Net.Http.WebRequest (net461)");
+                    _SystemNetHttpWebRequest = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Net.Http.WebRequest")).GetReference(filePath: "System.Net.Http.WebRequest.dll", display: "System.Net.Http.WebRequest (net461)");
                 }
                 return _SystemNetHttpWebRequest;
             }
@@ -2407,7 +2407,7 @@ public static partial class Net461
             {
                 if (_SystemNumerics is null)
                 {
-                    _SystemNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemNumerics).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net461)");
+                    _SystemNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Numerics")).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net461)");
                 }
                 return _SystemNumerics;
             }
@@ -2424,7 +2424,7 @@ public static partial class Net461
             {
                 if (_SystemNumericsVectors is null)
                 {
-                    _SystemNumericsVectors = AssemblyMetadata.CreateFromImage(Resources.SystemNumericsVectors).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (net461)");
+                    _SystemNumericsVectors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Numerics.Vectors")).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (net461)");
                 }
                 return _SystemNumericsVectors;
             }
@@ -2441,7 +2441,7 @@ public static partial class Net461
             {
                 if (_SystemPrinting is null)
                 {
-                    _SystemPrinting = AssemblyMetadata.CreateFromImage(Resources.SystemPrinting).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net461)");
+                    _SystemPrinting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Printing")).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net461)");
                 }
                 return _SystemPrinting;
             }
@@ -2458,7 +2458,7 @@ public static partial class Net461
             {
                 if (_SystemReflectionContext is null)
                 {
-                    _SystemReflectionContext = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionContext).GetReference(filePath: "System.Reflection.Context.dll", display: "System.Reflection.Context (net461)");
+                    _SystemReflectionContext = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Reflection.Context")).GetReference(filePath: "System.Reflection.Context.dll", display: "System.Reflection.Context (net461)");
                 }
                 return _SystemReflectionContext;
             }
@@ -2475,7 +2475,7 @@ public static partial class Net461
             {
                 if (_SystemRuntimeCaching is null)
                 {
-                    _SystemRuntimeCaching = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCaching).GetReference(filePath: "System.Runtime.Caching.dll", display: "System.Runtime.Caching (net461)");
+                    _SystemRuntimeCaching = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Runtime.Caching")).GetReference(filePath: "System.Runtime.Caching.dll", display: "System.Runtime.Caching (net461)");
                 }
                 return _SystemRuntimeCaching;
             }
@@ -2492,7 +2492,7 @@ public static partial class Net461
             {
                 if (_SystemRuntimeDurableInstancing is null)
                 {
-                    _SystemRuntimeDurableInstancing = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeDurableInstancing).GetReference(filePath: "System.Runtime.DurableInstancing.dll", display: "System.Runtime.DurableInstancing (net461)");
+                    _SystemRuntimeDurableInstancing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Runtime.DurableInstancing")).GetReference(filePath: "System.Runtime.DurableInstancing.dll", display: "System.Runtime.DurableInstancing (net461)");
                 }
                 return _SystemRuntimeDurableInstancing;
             }
@@ -2509,7 +2509,7 @@ public static partial class Net461
             {
                 if (_SystemRuntimeRemoting is null)
                 {
-                    _SystemRuntimeRemoting = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeRemoting).GetReference(filePath: "System.Runtime.Remoting.dll", display: "System.Runtime.Remoting (net461)");
+                    _SystemRuntimeRemoting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Runtime.Remoting")).GetReference(filePath: "System.Runtime.Remoting.dll", display: "System.Runtime.Remoting (net461)");
                 }
                 return _SystemRuntimeRemoting;
             }
@@ -2526,7 +2526,7 @@ public static partial class Net461
             {
                 if (_SystemRuntimeSerialization is null)
                 {
-                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerialization).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net461)");
+                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net461)");
                 }
                 return _SystemRuntimeSerialization;
             }
@@ -2543,7 +2543,7 @@ public static partial class Net461
             {
                 if (_SystemRuntimeSerializationFormattersSoap is null)
                 {
-                    _SystemRuntimeSerializationFormattersSoap = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormattersSoap).GetReference(filePath: "System.Runtime.Serialization.Formatters.Soap.dll", display: "System.Runtime.Serialization.Formatters.Soap (net461)");
+                    _SystemRuntimeSerializationFormattersSoap = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Runtime.Serialization.Formatters.Soap")).GetReference(filePath: "System.Runtime.Serialization.Formatters.Soap.dll", display: "System.Runtime.Serialization.Formatters.Soap (net461)");
                 }
                 return _SystemRuntimeSerializationFormattersSoap;
             }
@@ -2560,7 +2560,7 @@ public static partial class Net461
             {
                 if (_SystemSecurity is null)
                 {
-                    _SystemSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemSecurity).GetReference(filePath: "System.Security.dll", display: "System.Security (net461)");
+                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (net461)");
                 }
                 return _SystemSecurity;
             }
@@ -2577,7 +2577,7 @@ public static partial class Net461
             {
                 if (_SystemServiceModelActivation is null)
                 {
-                    _SystemServiceModelActivation = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelActivation).GetReference(filePath: "System.ServiceModel.Activation.dll", display: "System.ServiceModel.Activation (net461)");
+                    _SystemServiceModelActivation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ServiceModel.Activation")).GetReference(filePath: "System.ServiceModel.Activation.dll", display: "System.ServiceModel.Activation (net461)");
                 }
                 return _SystemServiceModelActivation;
             }
@@ -2594,7 +2594,7 @@ public static partial class Net461
             {
                 if (_SystemServiceModelActivities is null)
                 {
-                    _SystemServiceModelActivities = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelActivities).GetReference(filePath: "System.ServiceModel.Activities.dll", display: "System.ServiceModel.Activities (net461)");
+                    _SystemServiceModelActivities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ServiceModel.Activities")).GetReference(filePath: "System.ServiceModel.Activities.dll", display: "System.ServiceModel.Activities (net461)");
                 }
                 return _SystemServiceModelActivities;
             }
@@ -2611,7 +2611,7 @@ public static partial class Net461
             {
                 if (_SystemServiceModelChannels is null)
                 {
-                    _SystemServiceModelChannels = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelChannels).GetReference(filePath: "System.ServiceModel.Channels.dll", display: "System.ServiceModel.Channels (net461)");
+                    _SystemServiceModelChannels = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ServiceModel.Channels")).GetReference(filePath: "System.ServiceModel.Channels.dll", display: "System.ServiceModel.Channels (net461)");
                 }
                 return _SystemServiceModelChannels;
             }
@@ -2628,7 +2628,7 @@ public static partial class Net461
             {
                 if (_SystemServiceModelDiscovery is null)
                 {
-                    _SystemServiceModelDiscovery = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelDiscovery).GetReference(filePath: "System.ServiceModel.Discovery.dll", display: "System.ServiceModel.Discovery (net461)");
+                    _SystemServiceModelDiscovery = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ServiceModel.Discovery")).GetReference(filePath: "System.ServiceModel.Discovery.dll", display: "System.ServiceModel.Discovery (net461)");
                 }
                 return _SystemServiceModelDiscovery;
             }
@@ -2645,7 +2645,7 @@ public static partial class Net461
             {
                 if (_SystemServiceModel is null)
                 {
-                    _SystemServiceModel = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModel).GetReference(filePath: "System.ServiceModel.dll", display: "System.ServiceModel (net461)");
+                    _SystemServiceModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ServiceModel")).GetReference(filePath: "System.ServiceModel.dll", display: "System.ServiceModel (net461)");
                 }
                 return _SystemServiceModel;
             }
@@ -2662,7 +2662,7 @@ public static partial class Net461
             {
                 if (_SystemServiceModelRouting is null)
                 {
-                    _SystemServiceModelRouting = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelRouting).GetReference(filePath: "System.ServiceModel.Routing.dll", display: "System.ServiceModel.Routing (net461)");
+                    _SystemServiceModelRouting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ServiceModel.Routing")).GetReference(filePath: "System.ServiceModel.Routing.dll", display: "System.ServiceModel.Routing (net461)");
                 }
                 return _SystemServiceModelRouting;
             }
@@ -2679,7 +2679,7 @@ public static partial class Net461
             {
                 if (_SystemServiceModelWeb is null)
                 {
-                    _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelWeb).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (net461)");
+                    _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ServiceModel.Web")).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (net461)");
                 }
                 return _SystemServiceModelWeb;
             }
@@ -2696,7 +2696,7 @@ public static partial class Net461
             {
                 if (_SystemServiceProcess is null)
                 {
-                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(Resources.SystemServiceProcess).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net461)");
+                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ServiceProcess")).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net461)");
                 }
                 return _SystemServiceProcess;
             }
@@ -2713,7 +2713,7 @@ public static partial class Net461
             {
                 if (_SystemSpeech is null)
                 {
-                    _SystemSpeech = AssemblyMetadata.CreateFromImage(Resources.SystemSpeech).GetReference(filePath: "System.Speech.dll", display: "System.Speech (net461)");
+                    _SystemSpeech = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Speech")).GetReference(filePath: "System.Speech.dll", display: "System.Speech (net461)");
                 }
                 return _SystemSpeech;
             }
@@ -2730,7 +2730,7 @@ public static partial class Net461
             {
                 if (_SystemTransactions is null)
                 {
-                    _SystemTransactions = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net461)");
+                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net461)");
                 }
                 return _SystemTransactions;
             }
@@ -2747,7 +2747,7 @@ public static partial class Net461
             {
                 if (_SystemWebAbstractions is null)
                 {
-                    _SystemWebAbstractions = AssemblyMetadata.CreateFromImage(Resources.SystemWebAbstractions).GetReference(filePath: "System.Web.Abstractions.dll", display: "System.Web.Abstractions (net461)");
+                    _SystemWebAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web.Abstractions")).GetReference(filePath: "System.Web.Abstractions.dll", display: "System.Web.Abstractions (net461)");
                 }
                 return _SystemWebAbstractions;
             }
@@ -2764,7 +2764,7 @@ public static partial class Net461
             {
                 if (_SystemWebApplicationServices is null)
                 {
-                    _SystemWebApplicationServices = AssemblyMetadata.CreateFromImage(Resources.SystemWebApplicationServices).GetReference(filePath: "System.Web.ApplicationServices.dll", display: "System.Web.ApplicationServices (net461)");
+                    _SystemWebApplicationServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web.ApplicationServices")).GetReference(filePath: "System.Web.ApplicationServices.dll", display: "System.Web.ApplicationServices (net461)");
                 }
                 return _SystemWebApplicationServices;
             }
@@ -2781,7 +2781,7 @@ public static partial class Net461
             {
                 if (_SystemWebDataVisualizationDesign is null)
                 {
-                    _SystemWebDataVisualizationDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebDataVisualizationDesign).GetReference(filePath: "System.Web.DataVisualization.Design.dll", display: "System.Web.DataVisualization.Design (net461)");
+                    _SystemWebDataVisualizationDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web.DataVisualization.Design")).GetReference(filePath: "System.Web.DataVisualization.Design.dll", display: "System.Web.DataVisualization.Design (net461)");
                 }
                 return _SystemWebDataVisualizationDesign;
             }
@@ -2798,7 +2798,7 @@ public static partial class Net461
             {
                 if (_SystemWebDataVisualization is null)
                 {
-                    _SystemWebDataVisualization = AssemblyMetadata.CreateFromImage(Resources.SystemWebDataVisualization).GetReference(filePath: "System.Web.DataVisualization.dll", display: "System.Web.DataVisualization (net461)");
+                    _SystemWebDataVisualization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web.DataVisualization")).GetReference(filePath: "System.Web.DataVisualization.dll", display: "System.Web.DataVisualization (net461)");
                 }
                 return _SystemWebDataVisualization;
             }
@@ -2815,7 +2815,7 @@ public static partial class Net461
             {
                 if (_SystemWeb is null)
                 {
-                    _SystemWeb = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (net461)");
+                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (net461)");
                 }
                 return _SystemWeb;
             }
@@ -2832,7 +2832,7 @@ public static partial class Net461
             {
                 if (_SystemWebDynamicDataDesign is null)
                 {
-                    _SystemWebDynamicDataDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebDynamicDataDesign).GetReference(filePath: "System.Web.DynamicData.Design.dll", display: "System.Web.DynamicData.Design (net461)");
+                    _SystemWebDynamicDataDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web.DynamicData.Design")).GetReference(filePath: "System.Web.DynamicData.Design.dll", display: "System.Web.DynamicData.Design (net461)");
                 }
                 return _SystemWebDynamicDataDesign;
             }
@@ -2849,7 +2849,7 @@ public static partial class Net461
             {
                 if (_SystemWebDynamicData is null)
                 {
-                    _SystemWebDynamicData = AssemblyMetadata.CreateFromImage(Resources.SystemWebDynamicData).GetReference(filePath: "System.Web.DynamicData.dll", display: "System.Web.DynamicData (net461)");
+                    _SystemWebDynamicData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web.DynamicData")).GetReference(filePath: "System.Web.DynamicData.dll", display: "System.Web.DynamicData (net461)");
                 }
                 return _SystemWebDynamicData;
             }
@@ -2866,7 +2866,7 @@ public static partial class Net461
             {
                 if (_SystemWebEntityDesign is null)
                 {
-                    _SystemWebEntityDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebEntityDesign).GetReference(filePath: "System.Web.Entity.Design.dll", display: "System.Web.Entity.Design (net461)");
+                    _SystemWebEntityDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web.Entity.Design")).GetReference(filePath: "System.Web.Entity.Design.dll", display: "System.Web.Entity.Design (net461)");
                 }
                 return _SystemWebEntityDesign;
             }
@@ -2883,7 +2883,7 @@ public static partial class Net461
             {
                 if (_SystemWebEntity is null)
                 {
-                    _SystemWebEntity = AssemblyMetadata.CreateFromImage(Resources.SystemWebEntity).GetReference(filePath: "System.Web.Entity.dll", display: "System.Web.Entity (net461)");
+                    _SystemWebEntity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web.Entity")).GetReference(filePath: "System.Web.Entity.dll", display: "System.Web.Entity (net461)");
                 }
                 return _SystemWebEntity;
             }
@@ -2900,7 +2900,7 @@ public static partial class Net461
             {
                 if (_SystemWebExtensionsDesign is null)
                 {
-                    _SystemWebExtensionsDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebExtensionsDesign).GetReference(filePath: "System.Web.Extensions.Design.dll", display: "System.Web.Extensions.Design (net461)");
+                    _SystemWebExtensionsDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web.Extensions.Design")).GetReference(filePath: "System.Web.Extensions.Design.dll", display: "System.Web.Extensions.Design (net461)");
                 }
                 return _SystemWebExtensionsDesign;
             }
@@ -2917,7 +2917,7 @@ public static partial class Net461
             {
                 if (_SystemWebExtensions is null)
                 {
-                    _SystemWebExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemWebExtensions).GetReference(filePath: "System.Web.Extensions.dll", display: "System.Web.Extensions (net461)");
+                    _SystemWebExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web.Extensions")).GetReference(filePath: "System.Web.Extensions.dll", display: "System.Web.Extensions (net461)");
                 }
                 return _SystemWebExtensions;
             }
@@ -2934,7 +2934,7 @@ public static partial class Net461
             {
                 if (_SystemWebMobile is null)
                 {
-                    _SystemWebMobile = AssemblyMetadata.CreateFromImage(Resources.SystemWebMobile).GetReference(filePath: "System.Web.Mobile.dll", display: "System.Web.Mobile (net461)");
+                    _SystemWebMobile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web.Mobile")).GetReference(filePath: "System.Web.Mobile.dll", display: "System.Web.Mobile (net461)");
                 }
                 return _SystemWebMobile;
             }
@@ -2951,7 +2951,7 @@ public static partial class Net461
             {
                 if (_SystemWebRegularExpressions is null)
                 {
-                    _SystemWebRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemWebRegularExpressions).GetReference(filePath: "System.Web.RegularExpressions.dll", display: "System.Web.RegularExpressions (net461)");
+                    _SystemWebRegularExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web.RegularExpressions")).GetReference(filePath: "System.Web.RegularExpressions.dll", display: "System.Web.RegularExpressions (net461)");
                 }
                 return _SystemWebRegularExpressions;
             }
@@ -2968,7 +2968,7 @@ public static partial class Net461
             {
                 if (_SystemWebRouting is null)
                 {
-                    _SystemWebRouting = AssemblyMetadata.CreateFromImage(Resources.SystemWebRouting).GetReference(filePath: "System.Web.Routing.dll", display: "System.Web.Routing (net461)");
+                    _SystemWebRouting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web.Routing")).GetReference(filePath: "System.Web.Routing.dll", display: "System.Web.Routing (net461)");
                 }
                 return _SystemWebRouting;
             }
@@ -2985,7 +2985,7 @@ public static partial class Net461
             {
                 if (_SystemWebServices is null)
                 {
-                    _SystemWebServices = AssemblyMetadata.CreateFromImage(Resources.SystemWebServices).GetReference(filePath: "System.Web.Services.dll", display: "System.Web.Services (net461)");
+                    _SystemWebServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Web.Services")).GetReference(filePath: "System.Web.Services.dll", display: "System.Web.Services (net461)");
                 }
                 return _SystemWebServices;
             }
@@ -3002,7 +3002,7 @@ public static partial class Net461
             {
                 if (_SystemWindowsControlsRibbon is null)
                 {
-                    _SystemWindowsControlsRibbon = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsControlsRibbon).GetReference(filePath: "System.Windows.Controls.Ribbon.dll", display: "System.Windows.Controls.Ribbon (net461)");
+                    _SystemWindowsControlsRibbon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Windows.Controls.Ribbon")).GetReference(filePath: "System.Windows.Controls.Ribbon.dll", display: "System.Windows.Controls.Ribbon (net461)");
                 }
                 return _SystemWindowsControlsRibbon;
             }
@@ -3019,7 +3019,7 @@ public static partial class Net461
             {
                 if (_SystemWindows is null)
                 {
-                    _SystemWindows = AssemblyMetadata.CreateFromImage(Resources.SystemWindows).GetReference(filePath: "System.Windows.dll", display: "System.Windows (net461)");
+                    _SystemWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Windows")).GetReference(filePath: "System.Windows.dll", display: "System.Windows (net461)");
                 }
                 return _SystemWindows;
             }
@@ -3036,7 +3036,7 @@ public static partial class Net461
             {
                 if (_SystemWindowsFormsDataVisualizationDesign is null)
                 {
-                    _SystemWindowsFormsDataVisualizationDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDataVisualizationDesign).GetReference(filePath: "System.Windows.Forms.DataVisualization.Design.dll", display: "System.Windows.Forms.DataVisualization.Design (net461)");
+                    _SystemWindowsFormsDataVisualizationDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Windows.Forms.DataVisualization.Design")).GetReference(filePath: "System.Windows.Forms.DataVisualization.Design.dll", display: "System.Windows.Forms.DataVisualization.Design (net461)");
                 }
                 return _SystemWindowsFormsDataVisualizationDesign;
             }
@@ -3053,7 +3053,7 @@ public static partial class Net461
             {
                 if (_SystemWindowsFormsDataVisualization is null)
                 {
-                    _SystemWindowsFormsDataVisualization = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDataVisualization).GetReference(filePath: "System.Windows.Forms.DataVisualization.dll", display: "System.Windows.Forms.DataVisualization (net461)");
+                    _SystemWindowsFormsDataVisualization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Windows.Forms.DataVisualization")).GetReference(filePath: "System.Windows.Forms.DataVisualization.dll", display: "System.Windows.Forms.DataVisualization (net461)");
                 }
                 return _SystemWindowsFormsDataVisualization;
             }
@@ -3070,7 +3070,7 @@ public static partial class Net461
             {
                 if (_SystemWindowsForms is null)
                 {
-                    _SystemWindowsForms = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsForms).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net461)");
+                    _SystemWindowsForms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Windows.Forms")).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net461)");
                 }
                 return _SystemWindowsForms;
             }
@@ -3087,7 +3087,7 @@ public static partial class Net461
             {
                 if (_SystemWindowsInputManipulations is null)
                 {
-                    _SystemWindowsInputManipulations = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsInputManipulations).GetReference(filePath: "System.Windows.Input.Manipulations.dll", display: "System.Windows.Input.Manipulations (net461)");
+                    _SystemWindowsInputManipulations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Windows.Input.Manipulations")).GetReference(filePath: "System.Windows.Input.Manipulations.dll", display: "System.Windows.Input.Manipulations (net461)");
                 }
                 return _SystemWindowsInputManipulations;
             }
@@ -3104,7 +3104,7 @@ public static partial class Net461
             {
                 if (_SystemWindowsPresentation is null)
                 {
-                    _SystemWindowsPresentation = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsPresentation).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net461)");
+                    _SystemWindowsPresentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Windows.Presentation")).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net461)");
                 }
                 return _SystemWindowsPresentation;
             }
@@ -3121,7 +3121,7 @@ public static partial class Net461
             {
                 if (_SystemWorkflowActivities is null)
                 {
-                    _SystemWorkflowActivities = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowActivities).GetReference(filePath: "System.Workflow.Activities.dll", display: "System.Workflow.Activities (net461)");
+                    _SystemWorkflowActivities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Workflow.Activities")).GetReference(filePath: "System.Workflow.Activities.dll", display: "System.Workflow.Activities (net461)");
                 }
                 return _SystemWorkflowActivities;
             }
@@ -3138,7 +3138,7 @@ public static partial class Net461
             {
                 if (_SystemWorkflowComponentModel is null)
                 {
-                    _SystemWorkflowComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowComponentModel).GetReference(filePath: "System.Workflow.ComponentModel.dll", display: "System.Workflow.ComponentModel (net461)");
+                    _SystemWorkflowComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Workflow.ComponentModel")).GetReference(filePath: "System.Workflow.ComponentModel.dll", display: "System.Workflow.ComponentModel (net461)");
                 }
                 return _SystemWorkflowComponentModel;
             }
@@ -3155,7 +3155,7 @@ public static partial class Net461
             {
                 if (_SystemWorkflowRuntime is null)
                 {
-                    _SystemWorkflowRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowRuntime).GetReference(filePath: "System.Workflow.Runtime.dll", display: "System.Workflow.Runtime (net461)");
+                    _SystemWorkflowRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Workflow.Runtime")).GetReference(filePath: "System.Workflow.Runtime.dll", display: "System.Workflow.Runtime (net461)");
                 }
                 return _SystemWorkflowRuntime;
             }
@@ -3172,7 +3172,7 @@ public static partial class Net461
             {
                 if (_SystemWorkflowServices is null)
                 {
-                    _SystemWorkflowServices = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowServices).GetReference(filePath: "System.WorkflowServices.dll", display: "System.WorkflowServices (net461)");
+                    _SystemWorkflowServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.WorkflowServices")).GetReference(filePath: "System.WorkflowServices.dll", display: "System.WorkflowServices (net461)");
                 }
                 return _SystemWorkflowServices;
             }
@@ -3189,7 +3189,7 @@ public static partial class Net461
             {
                 if (_SystemXaml is null)
                 {
-                    _SystemXaml = AssemblyMetadata.CreateFromImage(Resources.SystemXaml).GetReference(filePath: "System.Xaml.dll", display: "System.Xaml (net461)");
+                    _SystemXaml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Xaml")).GetReference(filePath: "System.Xaml.dll", display: "System.Xaml (net461)");
                 }
                 return _SystemXaml;
             }
@@ -3206,7 +3206,7 @@ public static partial class Net461
             {
                 if (_SystemXml is null)
                 {
-                    _SystemXml = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net461)");
+                    _SystemXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Xml")).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net461)");
                 }
                 return _SystemXml;
             }
@@ -3223,7 +3223,7 @@ public static partial class Net461
             {
                 if (_SystemXmlLinq is null)
                 {
-                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(Resources.SystemXmlLinq).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net461)");
+                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Xml.Linq")).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net461)");
                 }
                 return _SystemXmlLinq;
             }
@@ -3240,7 +3240,7 @@ public static partial class Net461
             {
                 if (_SystemXmlSerialization is null)
                 {
-                    _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemXmlSerialization).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (net461)");
+                    _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Xml.Serialization")).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (net461)");
                 }
                 return _SystemXmlSerialization;
             }
@@ -3257,7 +3257,7 @@ public static partial class Net461
             {
                 if (_UIAutomationClient is null)
                 {
-                    _UIAutomationClient = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClient).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net461)");
+                    _UIAutomationClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.UIAutomationClient")).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net461)");
                 }
                 return _UIAutomationClient;
             }
@@ -3274,7 +3274,7 @@ public static partial class Net461
             {
                 if (_UIAutomationClientsideProviders is null)
                 {
-                    _UIAutomationClientsideProviders = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClientsideProviders).GetReference(filePath: "UIAutomationClientsideProviders.dll", display: "UIAutomationClientsideProviders (net461)");
+                    _UIAutomationClientsideProviders = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.UIAutomationClientsideProviders")).GetReference(filePath: "UIAutomationClientsideProviders.dll", display: "UIAutomationClientsideProviders (net461)");
                 }
                 return _UIAutomationClientsideProviders;
             }
@@ -3291,7 +3291,7 @@ public static partial class Net461
             {
                 if (_UIAutomationProvider is null)
                 {
-                    _UIAutomationProvider = AssemblyMetadata.CreateFromImage(Resources.UIAutomationProvider).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net461)");
+                    _UIAutomationProvider = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.UIAutomationProvider")).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net461)");
                 }
                 return _UIAutomationProvider;
             }
@@ -3308,7 +3308,7 @@ public static partial class Net461
             {
                 if (_UIAutomationTypes is null)
                 {
-                    _UIAutomationTypes = AssemblyMetadata.CreateFromImage(Resources.UIAutomationTypes).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net461)");
+                    _UIAutomationTypes = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.UIAutomationTypes")).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net461)");
                 }
                 return _UIAutomationTypes;
             }
@@ -3325,7 +3325,7 @@ public static partial class Net461
             {
                 if (_WindowsBase is null)
                 {
-                    _WindowsBase = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net461)");
+                    _WindowsBase = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.WindowsBase")).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net461)");
                 }
                 return _WindowsBase;
             }
@@ -3342,7 +3342,7 @@ public static partial class Net461
             {
                 if (_WindowsFormsIntegration is null)
                 {
-                    _WindowsFormsIntegration = AssemblyMetadata.CreateFromImage(Resources.WindowsFormsIntegration).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net461)");
+                    _WindowsFormsIntegration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.WindowsFormsIntegration")).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net461)");
                 }
                 return _WindowsFormsIntegration;
             }
@@ -3359,7 +3359,7 @@ public static partial class Net461
             {
                 if (_XamlBuildTask is null)
                 {
-                    _XamlBuildTask = AssemblyMetadata.CreateFromImage(Resources.XamlBuildTask).GetReference(filePath: "XamlBuildTask.dll", display: "XamlBuildTask (net461)");
+                    _XamlBuildTask = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.XamlBuildTask")).GetReference(filePath: "XamlBuildTask.dll", display: "XamlBuildTask (net461)");
                 }
                 return _XamlBuildTask;
             }
@@ -3376,7 +3376,7 @@ public static partial class Net461
             {
                 if (_SystemCollectionsConcurrent is null)
                 {
-                    _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (net461)");
+                    _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Collections.Concurrent")).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (net461)");
                 }
                 return _SystemCollectionsConcurrent;
             }
@@ -3393,7 +3393,7 @@ public static partial class Net461
             {
                 if (_SystemCollections is null)
                 {
-                    _SystemCollections = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (net461)");
+                    _SystemCollections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Collections")).GetReference(filePath: "System.Collections.dll", display: "System.Collections (net461)");
                 }
                 return _SystemCollections;
             }
@@ -3410,7 +3410,7 @@ public static partial class Net461
             {
                 if (_SystemComponentModelAnnotations is null)
                 {
-                    _SystemComponentModelAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelAnnotations).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (net461)");
+                    _SystemComponentModelAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ComponentModel.Annotations")).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (net461)");
                 }
                 return _SystemComponentModelAnnotations;
             }
@@ -3427,7 +3427,7 @@ public static partial class Net461
             {
                 if (_SystemComponentModel is null)
                 {
-                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModel).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (net461)");
+                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ComponentModel")).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (net461)");
                 }
                 return _SystemComponentModel;
             }
@@ -3444,7 +3444,7 @@ public static partial class Net461
             {
                 if (_SystemComponentModelEventBasedAsync is null)
                 {
-                    _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelEventBasedAsync).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (net461)");
+                    _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ComponentModel.EventBasedAsync")).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (net461)");
                 }
                 return _SystemComponentModelEventBasedAsync;
             }
@@ -3461,7 +3461,7 @@ public static partial class Net461
             {
                 if (_SystemDiagnosticsContracts is null)
                 {
-                    _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsContracts).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (net461)");
+                    _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Diagnostics.Contracts")).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (net461)");
                 }
                 return _SystemDiagnosticsContracts;
             }
@@ -3478,7 +3478,7 @@ public static partial class Net461
             {
                 if (_SystemDiagnosticsDebug is null)
                 {
-                    _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (net461)");
+                    _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Diagnostics.Debug")).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (net461)");
                 }
                 return _SystemDiagnosticsDebug;
             }
@@ -3495,7 +3495,7 @@ public static partial class Net461
             {
                 if (_SystemDiagnosticsTools is null)
                 {
-                    _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (net461)");
+                    _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Diagnostics.Tools")).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (net461)");
                 }
                 return _SystemDiagnosticsTools;
             }
@@ -3512,7 +3512,7 @@ public static partial class Net461
             {
                 if (_SystemDiagnosticsTracing is null)
                 {
-                    _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (net461)");
+                    _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Diagnostics.Tracing")).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (net461)");
                 }
                 return _SystemDiagnosticsTracing;
             }
@@ -3529,7 +3529,7 @@ public static partial class Net461
             {
                 if (_SystemDynamicRuntime is null)
                 {
-                    _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemDynamicRuntime).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (net461)");
+                    _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Dynamic.Runtime")).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (net461)");
                 }
                 return _SystemDynamicRuntime;
             }
@@ -3546,7 +3546,7 @@ public static partial class Net461
             {
                 if (_SystemGlobalization is null)
                 {
-                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (net461)");
+                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Globalization")).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (net461)");
                 }
                 return _SystemGlobalization;
             }
@@ -3563,7 +3563,7 @@ public static partial class Net461
             {
                 if (_SystemIO is null)
                 {
-                    _SystemIO = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (net461)");
+                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (net461)");
                 }
                 return _SystemIO;
             }
@@ -3580,7 +3580,7 @@ public static partial class Net461
             {
                 if (_SystemLinq is null)
                 {
-                    _SystemLinq = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (net461)");
+                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (net461)");
                 }
                 return _SystemLinq;
             }
@@ -3597,7 +3597,7 @@ public static partial class Net461
             {
                 if (_SystemLinqExpressions is null)
                 {
-                    _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (net461)");
+                    _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Linq.Expressions")).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (net461)");
                 }
                 return _SystemLinqExpressions;
             }
@@ -3614,7 +3614,7 @@ public static partial class Net461
             {
                 if (_SystemLinqParallel is null)
                 {
-                    _SystemLinqParallel = AssemblyMetadata.CreateFromImage(Resources.SystemLinqParallel).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (net461)");
+                    _SystemLinqParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Linq.Parallel")).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (net461)");
                 }
                 return _SystemLinqParallel;
             }
@@ -3631,7 +3631,7 @@ public static partial class Net461
             {
                 if (_SystemLinqQueryable is null)
                 {
-                    _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(Resources.SystemLinqQueryable).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (net461)");
+                    _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Linq.Queryable")).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (net461)");
                 }
                 return _SystemLinqQueryable;
             }
@@ -3648,7 +3648,7 @@ public static partial class Net461
             {
                 if (_SystemNetNetworkInformation is null)
                 {
-                    _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(Resources.SystemNetNetworkInformation).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (net461)");
+                    _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Net.NetworkInformation")).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (net461)");
                 }
                 return _SystemNetNetworkInformation;
             }
@@ -3665,7 +3665,7 @@ public static partial class Net461
             {
                 if (_SystemNetPrimitives is null)
                 {
-                    _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (net461)");
+                    _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Net.Primitives")).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (net461)");
                 }
                 return _SystemNetPrimitives;
             }
@@ -3682,7 +3682,7 @@ public static partial class Net461
             {
                 if (_SystemNetRequests is null)
                 {
-                    _SystemNetRequests = AssemblyMetadata.CreateFromImage(Resources.SystemNetRequests).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (net461)");
+                    _SystemNetRequests = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Net.Requests")).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (net461)");
                 }
                 return _SystemNetRequests;
             }
@@ -3699,7 +3699,7 @@ public static partial class Net461
             {
                 if (_SystemNetWebHeaderCollection is null)
                 {
-                    _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebHeaderCollection).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (net461)");
+                    _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Net.WebHeaderCollection")).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (net461)");
                 }
                 return _SystemNetWebHeaderCollection;
             }
@@ -3716,7 +3716,7 @@ public static partial class Net461
             {
                 if (_SystemObjectModel is null)
                 {
-                    _SystemObjectModel = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (net461)");
+                    _SystemObjectModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ObjectModel")).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (net461)");
                 }
                 return _SystemObjectModel;
             }
@@ -3733,7 +3733,7 @@ public static partial class Net461
             {
                 if (_SystemReflection is null)
                 {
-                    _SystemReflection = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (net461)");
+                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (net461)");
                 }
                 return _SystemReflection;
             }
@@ -3750,7 +3750,7 @@ public static partial class Net461
             {
                 if (_SystemReflectionEmit is null)
                 {
-                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmit).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (net461)");
+                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Reflection.Emit")).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (net461)");
                 }
                 return _SystemReflectionEmit;
             }
@@ -3767,7 +3767,7 @@ public static partial class Net461
             {
                 if (_SystemReflectionEmitILGeneration is null)
                 {
-                    _SystemReflectionEmitILGeneration = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitILGeneration).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (net461)");
+                    _SystemReflectionEmitILGeneration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Reflection.Emit.ILGeneration")).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (net461)");
                 }
                 return _SystemReflectionEmitILGeneration;
             }
@@ -3784,7 +3784,7 @@ public static partial class Net461
             {
                 if (_SystemReflectionEmitLightweight is null)
                 {
-                    _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitLightweight).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (net461)");
+                    _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Reflection.Emit.Lightweight")).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (net461)");
                 }
                 return _SystemReflectionEmitLightweight;
             }
@@ -3801,7 +3801,7 @@ public static partial class Net461
             {
                 if (_SystemReflectionExtensions is null)
                 {
-                    _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (net461)");
+                    _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Reflection.Extensions")).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (net461)");
                 }
                 return _SystemReflectionExtensions;
             }
@@ -3818,7 +3818,7 @@ public static partial class Net461
             {
                 if (_SystemReflectionPrimitives is null)
                 {
-                    _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (net461)");
+                    _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Reflection.Primitives")).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (net461)");
                 }
                 return _SystemReflectionPrimitives;
             }
@@ -3835,7 +3835,7 @@ public static partial class Net461
             {
                 if (_SystemResourcesResourceManager is null)
                 {
-                    _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (net461)");
+                    _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Resources.ResourceManager")).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (net461)");
                 }
                 return _SystemResourcesResourceManager;
             }
@@ -3852,7 +3852,7 @@ public static partial class Net461
             {
                 if (_SystemRuntime is null)
                 {
-                    _SystemRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (net461)");
+                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (net461)");
                 }
                 return _SystemRuntime;
             }
@@ -3869,7 +3869,7 @@ public static partial class Net461
             {
                 if (_SystemRuntimeExtensions is null)
                 {
-                    _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (net461)");
+                    _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Runtime.Extensions")).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (net461)");
                 }
                 return _SystemRuntimeExtensions;
             }
@@ -3886,7 +3886,7 @@ public static partial class Net461
             {
                 if (_SystemRuntimeHandles is null)
                 {
-                    _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (net461)");
+                    _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Runtime.Handles")).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (net461)");
                 }
                 return _SystemRuntimeHandles;
             }
@@ -3903,7 +3903,7 @@ public static partial class Net461
             {
                 if (_SystemRuntimeInteropServices is null)
                 {
-                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (net461)");
+                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (net461)");
                 }
                 return _SystemRuntimeInteropServices;
             }
@@ -3920,7 +3920,7 @@ public static partial class Net461
             {
                 if (_SystemRuntimeInteropServicesWindowsRuntime is null)
                 {
-                    _SystemRuntimeInteropServicesWindowsRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesWindowsRuntime).GetReference(filePath: "System.Runtime.InteropServices.WindowsRuntime.dll", display: "System.Runtime.InteropServices.WindowsRuntime (net461)");
+                    _SystemRuntimeInteropServicesWindowsRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Runtime.InteropServices.WindowsRuntime")).GetReference(filePath: "System.Runtime.InteropServices.WindowsRuntime.dll", display: "System.Runtime.InteropServices.WindowsRuntime (net461)");
                 }
                 return _SystemRuntimeInteropServicesWindowsRuntime;
             }
@@ -3937,7 +3937,7 @@ public static partial class Net461
             {
                 if (_SystemRuntimeNumerics is null)
                 {
-                    _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (net461)");
+                    _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Runtime.Numerics")).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (net461)");
                 }
                 return _SystemRuntimeNumerics;
             }
@@ -3954,7 +3954,7 @@ public static partial class Net461
             {
                 if (_SystemRuntimeSerializationJson is null)
                 {
-                    _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationJson).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (net461)");
+                    _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Runtime.Serialization.Json")).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (net461)");
                 }
                 return _SystemRuntimeSerializationJson;
             }
@@ -3971,7 +3971,7 @@ public static partial class Net461
             {
                 if (_SystemRuntimeSerializationPrimitives is null)
                 {
-                    _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (net461)");
+                    _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Runtime.Serialization.Primitives")).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (net461)");
                 }
                 return _SystemRuntimeSerializationPrimitives;
             }
@@ -3988,7 +3988,7 @@ public static partial class Net461
             {
                 if (_SystemRuntimeSerializationXml is null)
                 {
-                    _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationXml).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (net461)");
+                    _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Runtime.Serialization.Xml")).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (net461)");
                 }
                 return _SystemRuntimeSerializationXml;
             }
@@ -4005,7 +4005,7 @@ public static partial class Net461
             {
                 if (_SystemSecurityPrincipal is null)
                 {
-                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (net461)");
+                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Security.Principal")).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (net461)");
                 }
                 return _SystemSecurityPrincipal;
             }
@@ -4022,7 +4022,7 @@ public static partial class Net461
             {
                 if (_SystemServiceModelDuplex is null)
                 {
-                    _SystemServiceModelDuplex = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelDuplex).GetReference(filePath: "System.ServiceModel.Duplex.dll", display: "System.ServiceModel.Duplex (net461)");
+                    _SystemServiceModelDuplex = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ServiceModel.Duplex")).GetReference(filePath: "System.ServiceModel.Duplex.dll", display: "System.ServiceModel.Duplex (net461)");
                 }
                 return _SystemServiceModelDuplex;
             }
@@ -4039,7 +4039,7 @@ public static partial class Net461
             {
                 if (_SystemServiceModelHttp is null)
                 {
-                    _SystemServiceModelHttp = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelHttp).GetReference(filePath: "System.ServiceModel.Http.dll", display: "System.ServiceModel.Http (net461)");
+                    _SystemServiceModelHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ServiceModel.Http")).GetReference(filePath: "System.ServiceModel.Http.dll", display: "System.ServiceModel.Http (net461)");
                 }
                 return _SystemServiceModelHttp;
             }
@@ -4056,7 +4056,7 @@ public static partial class Net461
             {
                 if (_SystemServiceModelNetTcp is null)
                 {
-                    _SystemServiceModelNetTcp = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelNetTcp).GetReference(filePath: "System.ServiceModel.NetTcp.dll", display: "System.ServiceModel.NetTcp (net461)");
+                    _SystemServiceModelNetTcp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ServiceModel.NetTcp")).GetReference(filePath: "System.ServiceModel.NetTcp.dll", display: "System.ServiceModel.NetTcp (net461)");
                 }
                 return _SystemServiceModelNetTcp;
             }
@@ -4073,7 +4073,7 @@ public static partial class Net461
             {
                 if (_SystemServiceModelPrimitives is null)
                 {
-                    _SystemServiceModelPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelPrimitives).GetReference(filePath: "System.ServiceModel.Primitives.dll", display: "System.ServiceModel.Primitives (net461)");
+                    _SystemServiceModelPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ServiceModel.Primitives")).GetReference(filePath: "System.ServiceModel.Primitives.dll", display: "System.ServiceModel.Primitives (net461)");
                 }
                 return _SystemServiceModelPrimitives;
             }
@@ -4090,7 +4090,7 @@ public static partial class Net461
             {
                 if (_SystemServiceModelSecurity is null)
                 {
-                    _SystemServiceModelSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelSecurity).GetReference(filePath: "System.ServiceModel.Security.dll", display: "System.ServiceModel.Security (net461)");
+                    _SystemServiceModelSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ServiceModel.Security")).GetReference(filePath: "System.ServiceModel.Security.dll", display: "System.ServiceModel.Security (net461)");
                 }
                 return _SystemServiceModelSecurity;
             }
@@ -4107,7 +4107,7 @@ public static partial class Net461
             {
                 if (_SystemTextEncoding is null)
                 {
-                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (net461)");
+                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Text.Encoding")).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (net461)");
                 }
                 return _SystemTextEncoding;
             }
@@ -4124,7 +4124,7 @@ public static partial class Net461
             {
                 if (_SystemTextEncodingExtensions is null)
                 {
-                    _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (net461)");
+                    _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Text.Encoding.Extensions")).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (net461)");
                 }
                 return _SystemTextEncodingExtensions;
             }
@@ -4141,7 +4141,7 @@ public static partial class Net461
             {
                 if (_SystemTextRegularExpressions is null)
                 {
-                    _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (net461)");
+                    _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Text.RegularExpressions")).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (net461)");
                 }
                 return _SystemTextRegularExpressions;
             }
@@ -4158,7 +4158,7 @@ public static partial class Net461
             {
                 if (_SystemThreading is null)
                 {
-                    _SystemThreading = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (net461)");
+                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (net461)");
                 }
                 return _SystemThreading;
             }
@@ -4175,7 +4175,7 @@ public static partial class Net461
             {
                 if (_SystemThreadingTasks is null)
                 {
-                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (net461)");
+                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Threading.Tasks")).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (net461)");
                 }
                 return _SystemThreadingTasks;
             }
@@ -4192,7 +4192,7 @@ public static partial class Net461
             {
                 if (_SystemThreadingTasksParallel is null)
                 {
-                    _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksParallel).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (net461)");
+                    _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Threading.Tasks.Parallel")).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (net461)");
                 }
                 return _SystemThreadingTasksParallel;
             }
@@ -4209,7 +4209,7 @@ public static partial class Net461
             {
                 if (_SystemThreadingTimer is null)
                 {
-                    _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (net461)");
+                    _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Threading.Timer")).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (net461)");
                 }
                 return _SystemThreadingTimer;
             }
@@ -4226,7 +4226,7 @@ public static partial class Net461
             {
                 if (_SystemXmlReaderWriter is null)
                 {
-                    _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (net461)");
+                    _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Xml.ReaderWriter")).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (net461)");
                 }
                 return _SystemXmlReaderWriter;
             }
@@ -4243,7 +4243,7 @@ public static partial class Net461
             {
                 if (_SystemXmlXDocument is null)
                 {
-                    _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (net461)");
+                    _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Xml.XDocument")).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (net461)");
                 }
                 return _SystemXmlXDocument;
             }
@@ -4260,7 +4260,7 @@ public static partial class Net461
             {
                 if (_SystemXmlXmlSerializer is null)
                 {
-                    _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlSerializer).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (net461)");
+                    _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Xml.XmlSerializer")).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (net461)");
                 }
                 return _SystemXmlXmlSerializer;
             }
@@ -4517,7 +4517,7 @@ public static partial class Net461
             {
                 if (_SystemThreadingTasksExtensions is null)
                 {
-                    _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksExtensions).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (net461)");
+                    _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.Threading.Tasks.Extensions")).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (net461)");
                 }
                 return _SystemThreadingTasksExtensions;
             }
@@ -4534,7 +4534,7 @@ public static partial class Net461
             {
                 if (_SystemValueTuple is null)
                 {
-                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (net461)");
+                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net461.System.ValueTuple")).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (net461)");
                 }
                 return _SystemValueTuple;
             }

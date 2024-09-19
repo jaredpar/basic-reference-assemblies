@@ -657,7 +657,7 @@ public static partial class Net35
             {
                 if (_Accessibility is null)
                 {
-                    _Accessibility = AssemblyMetadata.CreateFromImage(Resources.Accessibility).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net35)");
+                    _Accessibility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Accessibility")).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net35)");
                 }
                 return _Accessibility;
             }
@@ -674,7 +674,7 @@ public static partial class Net35
             {
                 if (_AspNetMMCExt is null)
                 {
-                    _AspNetMMCExt = AssemblyMetadata.CreateFromImage(Resources.AspNetMMCExt).GetReference(filePath: "AspNetMMCExt.dll", display: "AspNetMMCExt (net35)");
+                    _AspNetMMCExt = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.AspNetMMCExt")).GetReference(filePath: "AspNetMMCExt.dll", display: "AspNetMMCExt (net35)");
                 }
                 return _AspNetMMCExt;
             }
@@ -691,7 +691,7 @@ public static partial class Net35
             {
                 if (_cscompmgd is null)
                 {
-                    _cscompmgd = AssemblyMetadata.CreateFromImage(Resources.cscompmgd).GetReference(filePath: "cscompmgd.dll", display: "cscompmgd (net35)");
+                    _cscompmgd = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.cscompmgd")).GetReference(filePath: "cscompmgd.dll", display: "cscompmgd (net35)");
                 }
                 return _cscompmgd;
             }
@@ -708,7 +708,7 @@ public static partial class Net35
             {
                 if (_CustomMarshalers is null)
                 {
-                    _CustomMarshalers = AssemblyMetadata.CreateFromImage(Resources.CustomMarshalers).GetReference(filePath: "CustomMarshalers.dll", display: "CustomMarshalers (net35)");
+                    _CustomMarshalers = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.CustomMarshalers")).GetReference(filePath: "CustomMarshalers.dll", display: "CustomMarshalers (net35)");
                 }
                 return _CustomMarshalers;
             }
@@ -725,7 +725,7 @@ public static partial class Net35
             {
                 if (_IEExecRemote is null)
                 {
-                    _IEExecRemote = AssemblyMetadata.CreateFromImage(Resources.IEExecRemote).GetReference(filePath: "IEExecRemote.dll", display: "IEExecRemote (net35)");
+                    _IEExecRemote = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.IEExecRemote")).GetReference(filePath: "IEExecRemote.dll", display: "IEExecRemote (net35)");
                 }
                 return _IEExecRemote;
             }
@@ -742,7 +742,7 @@ public static partial class Net35
             {
                 if (_IEHost is null)
                 {
-                    _IEHost = AssemblyMetadata.CreateFromImage(Resources.IEHost).GetReference(filePath: "IEHost.dll", display: "IEHost (net35)");
+                    _IEHost = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.IEHost")).GetReference(filePath: "IEHost.dll", display: "IEHost (net35)");
                 }
                 return _IEHost;
             }
@@ -759,7 +759,7 @@ public static partial class Net35
             {
                 if (_IIEHost is null)
                 {
-                    _IIEHost = AssemblyMetadata.CreateFromImage(Resources.IIEHost).GetReference(filePath: "IIEHost.dll", display: "IIEHost (net35)");
+                    _IIEHost = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.IIEHost")).GetReference(filePath: "IIEHost.dll", display: "IIEHost (net35)");
                 }
                 return _IIEHost;
             }
@@ -776,7 +776,7 @@ public static partial class Net35
             {
                 if (_ISymWrapper is null)
                 {
-                    _ISymWrapper = AssemblyMetadata.CreateFromImage(Resources.ISymWrapper).GetReference(filePath: "ISymWrapper.dll", display: "ISymWrapper (net35)");
+                    _ISymWrapper = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.ISymWrapper")).GetReference(filePath: "ISymWrapper.dll", display: "ISymWrapper (net35)");
                 }
                 return _ISymWrapper;
             }
@@ -793,7 +793,7 @@ public static partial class Net35
             {
                 if (_MicrosoftBuildConversionv35 is null)
                 {
-                    _MicrosoftBuildConversionv35 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildConversionv35).GetReference(filePath: "Microsoft.Build.Conversion.v3.5.dll", display: "Microsoft.Build.Conversion.v3.5 (net35)");
+                    _MicrosoftBuildConversionv35 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.Build.Conversion.v3.5")).GetReference(filePath: "Microsoft.Build.Conversion.v3.5.dll", display: "Microsoft.Build.Conversion.v3.5 (net35)");
                 }
                 return _MicrosoftBuildConversionv35;
             }
@@ -810,7 +810,7 @@ public static partial class Net35
             {
                 if (_MicrosoftBuildEngine is null)
                 {
-                    _MicrosoftBuildEngine = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildEngine).GetReference(filePath: "Microsoft.Build.Engine.dll", display: "Microsoft.Build.Engine (net35)");
+                    _MicrosoftBuildEngine = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.Build.Engine")).GetReference(filePath: "Microsoft.Build.Engine.dll", display: "Microsoft.Build.Engine (net35)");
                 }
                 return _MicrosoftBuildEngine;
             }
@@ -827,7 +827,7 @@ public static partial class Net35
             {
                 if (_MicrosoftBuildFramework is null)
                 {
-                    _MicrosoftBuildFramework = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildFramework).GetReference(filePath: "Microsoft.Build.Framework.dll", display: "Microsoft.Build.Framework (net35)");
+                    _MicrosoftBuildFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.Build.Framework")).GetReference(filePath: "Microsoft.Build.Framework.dll", display: "Microsoft.Build.Framework (net35)");
                 }
                 return _MicrosoftBuildFramework;
             }
@@ -844,7 +844,7 @@ public static partial class Net35
             {
                 if (_MicrosoftBuildTasks is null)
                 {
-                    _MicrosoftBuildTasks = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildTasks).GetReference(filePath: "Microsoft.Build.Tasks.dll", display: "Microsoft.Build.Tasks (net35)");
+                    _MicrosoftBuildTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.Build.Tasks")).GetReference(filePath: "Microsoft.Build.Tasks.dll", display: "Microsoft.Build.Tasks (net35)");
                 }
                 return _MicrosoftBuildTasks;
             }
@@ -861,7 +861,7 @@ public static partial class Net35
             {
                 if (_MicrosoftBuildUtilities is null)
                 {
-                    _MicrosoftBuildUtilities = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildUtilities).GetReference(filePath: "Microsoft.Build.Utilities.dll", display: "Microsoft.Build.Utilities (net35)");
+                    _MicrosoftBuildUtilities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.Build.Utilities")).GetReference(filePath: "Microsoft.Build.Utilities.dll", display: "Microsoft.Build.Utilities (net35)");
                 }
                 return _MicrosoftBuildUtilities;
             }
@@ -878,7 +878,7 @@ public static partial class Net35
             {
                 if (_MicrosoftBuildUtilitiesv35 is null)
                 {
-                    _MicrosoftBuildUtilitiesv35 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildUtilitiesv35).GetReference(filePath: "Microsoft.Build.Utilities.v3.5.dll", display: "Microsoft.Build.Utilities.v3.5 (net35)");
+                    _MicrosoftBuildUtilitiesv35 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.Build.Utilities.v3.5")).GetReference(filePath: "Microsoft.Build.Utilities.v3.5.dll", display: "Microsoft.Build.Utilities.v3.5 (net35)");
                 }
                 return _MicrosoftBuildUtilitiesv35;
             }
@@ -895,7 +895,7 @@ public static partial class Net35
             {
                 if (_MicrosoftJScript is null)
                 {
-                    _MicrosoftJScript = AssemblyMetadata.CreateFromImage(Resources.MicrosoftJScript).GetReference(filePath: "Microsoft.JScript.dll", display: "Microsoft.JScript (net35)");
+                    _MicrosoftJScript = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.JScript")).GetReference(filePath: "Microsoft.JScript.dll", display: "Microsoft.JScript (net35)");
                 }
                 return _MicrosoftJScript;
             }
@@ -912,7 +912,7 @@ public static partial class Net35
             {
                 if (_MicrosoftVisualBasicCompatibilityData is null)
                 {
-                    _MicrosoftVisualBasicCompatibilityData = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibilityData).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.Data.dll", display: "Microsoft.VisualBasic.Compatibility.Data (net35)");
+                    _MicrosoftVisualBasicCompatibilityData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.VisualBasic.Compatibility.Data")).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.Data.dll", display: "Microsoft.VisualBasic.Compatibility.Data (net35)");
                 }
                 return _MicrosoftVisualBasicCompatibilityData;
             }
@@ -929,7 +929,7 @@ public static partial class Net35
             {
                 if (_MicrosoftVisualBasicCompatibility is null)
                 {
-                    _MicrosoftVisualBasicCompatibility = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibility).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.dll", display: "Microsoft.VisualBasic.Compatibility (net35)");
+                    _MicrosoftVisualBasicCompatibility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.VisualBasic.Compatibility")).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.dll", display: "Microsoft.VisualBasic.Compatibility (net35)");
                 }
                 return _MicrosoftVisualBasicCompatibility;
             }
@@ -946,7 +946,7 @@ public static partial class Net35
             {
                 if (_MicrosoftVisualBasic is null)
                 {
-                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net35)");
+                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net35)");
                 }
                 return _MicrosoftVisualBasic;
             }
@@ -963,7 +963,7 @@ public static partial class Net35
             {
                 if (_MicrosoftVisualBasicVsa is null)
                 {
-                    _MicrosoftVisualBasicVsa = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicVsa).GetReference(filePath: "Microsoft.VisualBasic.Vsa.dll", display: "Microsoft.VisualBasic.Vsa (net35)");
+                    _MicrosoftVisualBasicVsa = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.VisualBasic.Vsa")).GetReference(filePath: "Microsoft.VisualBasic.Vsa.dll", display: "Microsoft.VisualBasic.Vsa (net35)");
                 }
                 return _MicrosoftVisualBasicVsa;
             }
@@ -980,7 +980,7 @@ public static partial class Net35
             {
                 if (_MicrosoftVisualC is null)
                 {
-                    _MicrosoftVisualC = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualC).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net35)");
+                    _MicrosoftVisualC = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.VisualC")).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net35)");
                 }
                 return _MicrosoftVisualC;
             }
@@ -997,7 +997,7 @@ public static partial class Net35
             {
                 if (_MicrosoftVisualCSTLCLR is null)
                 {
-                    _MicrosoftVisualCSTLCLR = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualCSTLCLR).GetReference(filePath: "Microsoft.VisualC.STLCLR.dll", display: "Microsoft.VisualC.STLCLR (net35)");
+                    _MicrosoftVisualCSTLCLR = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.VisualC.STLCLR")).GetReference(filePath: "Microsoft.VisualC.STLCLR.dll", display: "Microsoft.VisualC.STLCLR (net35)");
                 }
                 return _MicrosoftVisualCSTLCLR;
             }
@@ -1014,7 +1014,7 @@ public static partial class Net35
             {
                 if (_MicrosoftVsa is null)
                 {
-                    _MicrosoftVsa = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVsa).GetReference(filePath: "Microsoft.Vsa.dll", display: "Microsoft.Vsa (net35)");
+                    _MicrosoftVsa = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.Vsa")).GetReference(filePath: "Microsoft.Vsa.dll", display: "Microsoft.Vsa (net35)");
                 }
                 return _MicrosoftVsa;
             }
@@ -1031,7 +1031,7 @@ public static partial class Net35
             {
                 if (_MicrosoftVsaVbCodeDOMProcessor is null)
                 {
-                    _MicrosoftVsaVbCodeDOMProcessor = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVsaVbCodeDOMProcessor).GetReference(filePath: "Microsoft.Vsa.Vb.CodeDOMProcessor.dll", display: "Microsoft.Vsa.Vb.CodeDOMProcessor (net35)");
+                    _MicrosoftVsaVbCodeDOMProcessor = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.Vsa.Vb.CodeDOMProcessor")).GetReference(filePath: "Microsoft.Vsa.Vb.CodeDOMProcessor.dll", display: "Microsoft.Vsa.Vb.CodeDOMProcessor (net35)");
                 }
                 return _MicrosoftVsaVbCodeDOMProcessor;
             }
@@ -1048,7 +1048,7 @@ public static partial class Net35
             {
                 if (_Microsoft_VsaVb is null)
                 {
-                    _Microsoft_VsaVb = AssemblyMetadata.CreateFromImage(Resources.Microsoft_VsaVb).GetReference(filePath: "Microsoft_VsaVb.dll", display: "Microsoft_VsaVb (net35)");
+                    _Microsoft_VsaVb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft_VsaVb")).GetReference(filePath: "Microsoft_VsaVb.dll", display: "Microsoft_VsaVb (net35)");
                 }
                 return _Microsoft_VsaVb;
             }
@@ -1065,7 +1065,7 @@ public static partial class Net35
             {
                 if (_mscorlib is null)
                 {
-                    _mscorlib = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net35)");
+                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net35)");
                 }
                 return _mscorlib;
             }
@@ -1082,7 +1082,7 @@ public static partial class Net35
             {
                 if (_PresentationBuildTasks is null)
                 {
-                    _PresentationBuildTasks = AssemblyMetadata.CreateFromImage(Resources.PresentationBuildTasks).GetReference(filePath: "PresentationBuildTasks.dll", display: "PresentationBuildTasks (net35)");
+                    _PresentationBuildTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.PresentationBuildTasks")).GetReference(filePath: "PresentationBuildTasks.dll", display: "PresentationBuildTasks (net35)");
                 }
                 return _PresentationBuildTasks;
             }
@@ -1099,7 +1099,7 @@ public static partial class Net35
             {
                 if (_PresentationCore is null)
                 {
-                    _PresentationCore = AssemblyMetadata.CreateFromImage(Resources.PresentationCore).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net35)");
+                    _PresentationCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.PresentationCore")).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net35)");
                 }
                 return _PresentationCore;
             }
@@ -1116,7 +1116,7 @@ public static partial class Net35
             {
                 if (_PresentationFrameworkAero is null)
                 {
-                    _PresentationFrameworkAero = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net35)");
+                    _PresentationFrameworkAero = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.PresentationFramework.Aero")).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net35)");
                 }
                 return _PresentationFrameworkAero;
             }
@@ -1133,7 +1133,7 @@ public static partial class Net35
             {
                 if (_PresentationFrameworkClassic is null)
                 {
-                    _PresentationFrameworkClassic = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkClassic).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net35)");
+                    _PresentationFrameworkClassic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.PresentationFramework.Classic")).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net35)");
                 }
                 return _PresentationFrameworkClassic;
             }
@@ -1150,7 +1150,7 @@ public static partial class Net35
             {
                 if (_PresentationFramework is null)
                 {
-                    _PresentationFramework = AssemblyMetadata.CreateFromImage(Resources.PresentationFramework).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net35)");
+                    _PresentationFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.PresentationFramework")).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net35)");
                 }
                 return _PresentationFramework;
             }
@@ -1167,7 +1167,7 @@ public static partial class Net35
             {
                 if (_PresentationFrameworkLuna is null)
                 {
-                    _PresentationFrameworkLuna = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkLuna).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net35)");
+                    _PresentationFrameworkLuna = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.PresentationFramework.Luna")).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net35)");
                 }
                 return _PresentationFrameworkLuna;
             }
@@ -1184,7 +1184,7 @@ public static partial class Net35
             {
                 if (_PresentationFrameworkRoyale is null)
                 {
-                    _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkRoyale).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net35)");
+                    _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.PresentationFramework.Royale")).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net35)");
                 }
                 return _PresentationFrameworkRoyale;
             }
@@ -1201,7 +1201,7 @@ public static partial class Net35
             {
                 if (_ReachFramework is null)
                 {
-                    _ReachFramework = AssemblyMetadata.CreateFromImage(Resources.ReachFramework).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net35)");
+                    _ReachFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.ReachFramework")).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net35)");
                 }
                 return _ReachFramework;
             }
@@ -1218,7 +1218,7 @@ public static partial class Net35
             {
                 if (_sysglobl is null)
                 {
-                    _sysglobl = AssemblyMetadata.CreateFromImage(Resources.sysglobl).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net35)");
+                    _sysglobl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.sysglobl")).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net35)");
                 }
                 return _sysglobl;
             }
@@ -1235,7 +1235,7 @@ public static partial class Net35
             {
                 if (_SystemAddInContract is null)
                 {
-                    _SystemAddInContract = AssemblyMetadata.CreateFromImage(Resources.SystemAddInContract).GetReference(filePath: "System.AddIn.Contract.dll", display: "System.AddIn.Contract (net35)");
+                    _SystemAddInContract = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.AddIn.Contract")).GetReference(filePath: "System.AddIn.Contract.dll", display: "System.AddIn.Contract (net35)");
                 }
                 return _SystemAddInContract;
             }
@@ -1252,7 +1252,7 @@ public static partial class Net35
             {
                 if (_SystemAddIn is null)
                 {
-                    _SystemAddIn = AssemblyMetadata.CreateFromImage(Resources.SystemAddIn).GetReference(filePath: "System.AddIn.dll", display: "System.AddIn (net35)");
+                    _SystemAddIn = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.AddIn")).GetReference(filePath: "System.AddIn.dll", display: "System.AddIn (net35)");
                 }
                 return _SystemAddIn;
             }
@@ -1269,7 +1269,7 @@ public static partial class Net35
             {
                 if (_SystemComponentModelDataAnnotations is null)
                 {
-                    _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelDataAnnotations).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (net35)");
+                    _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.ComponentModel.DataAnnotations")).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (net35)");
                 }
                 return _SystemComponentModelDataAnnotations;
             }
@@ -1286,7 +1286,7 @@ public static partial class Net35
             {
                 if (_SystemConfiguration is null)
                 {
-                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(Resources.SystemConfiguration).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net35)");
+                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Configuration")).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net35)");
                 }
                 return _SystemConfiguration;
             }
@@ -1303,7 +1303,7 @@ public static partial class Net35
             {
                 if (_SystemConfigurationInstall is null)
                 {
-                    _SystemConfigurationInstall = AssemblyMetadata.CreateFromImage(Resources.SystemConfigurationInstall).GetReference(filePath: "System.Configuration.Install.dll", display: "System.Configuration.Install (net35)");
+                    _SystemConfigurationInstall = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Configuration.Install")).GetReference(filePath: "System.Configuration.Install.dll", display: "System.Configuration.Install (net35)");
                 }
                 return _SystemConfigurationInstall;
             }
@@ -1320,7 +1320,7 @@ public static partial class Net35
             {
                 if (_SystemCore is null)
                 {
-                    _SystemCore = AssemblyMetadata.CreateFromImage(Resources.SystemCore).GetReference(filePath: "System.Core.dll", display: "System.Core (net35)");
+                    _SystemCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Core")).GetReference(filePath: "System.Core.dll", display: "System.Core (net35)");
                 }
                 return _SystemCore;
             }
@@ -1337,7 +1337,7 @@ public static partial class Net35
             {
                 if (_SystemDataDataSetExtensions is null)
                 {
-                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemDataDataSetExtensions).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net35)");
+                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Data.DataSetExtensions")).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net35)");
                 }
                 return _SystemDataDataSetExtensions;
             }
@@ -1354,7 +1354,7 @@ public static partial class Net35
             {
                 if (_SystemData is null)
                 {
-                    _SystemData = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (net35)");
+                    _SystemData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Data")).GetReference(filePath: "System.Data.dll", display: "System.Data (net35)");
                 }
                 return _SystemData;
             }
@@ -1371,7 +1371,7 @@ public static partial class Net35
             {
                 if (_SystemDataEntityDesign is null)
                 {
-                    _SystemDataEntityDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDataEntityDesign).GetReference(filePath: "System.Data.Entity.Design.dll", display: "System.Data.Entity.Design (net35)");
+                    _SystemDataEntityDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Data.Entity.Design")).GetReference(filePath: "System.Data.Entity.Design.dll", display: "System.Data.Entity.Design (net35)");
                 }
                 return _SystemDataEntityDesign;
             }
@@ -1388,7 +1388,7 @@ public static partial class Net35
             {
                 if (_SystemDataEntity is null)
                 {
-                    _SystemDataEntity = AssemblyMetadata.CreateFromImage(Resources.SystemDataEntity).GetReference(filePath: "System.Data.Entity.dll", display: "System.Data.Entity (net35)");
+                    _SystemDataEntity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Data.Entity")).GetReference(filePath: "System.Data.Entity.dll", display: "System.Data.Entity (net35)");
                 }
                 return _SystemDataEntity;
             }
@@ -1405,7 +1405,7 @@ public static partial class Net35
             {
                 if (_SystemDataLinq is null)
                 {
-                    _SystemDataLinq = AssemblyMetadata.CreateFromImage(Resources.SystemDataLinq).GetReference(filePath: "System.Data.Linq.dll", display: "System.Data.Linq (net35)");
+                    _SystemDataLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Data.Linq")).GetReference(filePath: "System.Data.Linq.dll", display: "System.Data.Linq (net35)");
                 }
                 return _SystemDataLinq;
             }
@@ -1422,7 +1422,7 @@ public static partial class Net35
             {
                 if (_SystemDataOracleClient is null)
                 {
-                    _SystemDataOracleClient = AssemblyMetadata.CreateFromImage(Resources.SystemDataOracleClient).GetReference(filePath: "System.Data.OracleClient.dll", display: "System.Data.OracleClient (net35)");
+                    _SystemDataOracleClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Data.OracleClient")).GetReference(filePath: "System.Data.OracleClient.dll", display: "System.Data.OracleClient (net35)");
                 }
                 return _SystemDataOracleClient;
             }
@@ -1439,7 +1439,7 @@ public static partial class Net35
             {
                 if (_SystemDataServicesClient is null)
                 {
-                    _SystemDataServicesClient = AssemblyMetadata.CreateFromImage(Resources.SystemDataServicesClient).GetReference(filePath: "System.Data.Services.Client.dll", display: "System.Data.Services.Client (net35)");
+                    _SystemDataServicesClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Data.Services.Client")).GetReference(filePath: "System.Data.Services.Client.dll", display: "System.Data.Services.Client (net35)");
                 }
                 return _SystemDataServicesClient;
             }
@@ -1456,7 +1456,7 @@ public static partial class Net35
             {
                 if (_SystemDataServicesDesign is null)
                 {
-                    _SystemDataServicesDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDataServicesDesign).GetReference(filePath: "System.Data.Services.Design.dll", display: "System.Data.Services.Design (net35)");
+                    _SystemDataServicesDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Data.Services.Design")).GetReference(filePath: "System.Data.Services.Design.dll", display: "System.Data.Services.Design (net35)");
                 }
                 return _SystemDataServicesDesign;
             }
@@ -1473,7 +1473,7 @@ public static partial class Net35
             {
                 if (_SystemDataServices is null)
                 {
-                    _SystemDataServices = AssemblyMetadata.CreateFromImage(Resources.SystemDataServices).GetReference(filePath: "System.Data.Services.dll", display: "System.Data.Services (net35)");
+                    _SystemDataServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Data.Services")).GetReference(filePath: "System.Data.Services.dll", display: "System.Data.Services (net35)");
                 }
                 return _SystemDataServices;
             }
@@ -1490,7 +1490,7 @@ public static partial class Net35
             {
                 if (_SystemDataSqlXml is null)
                 {
-                    _SystemDataSqlXml = AssemblyMetadata.CreateFromImage(Resources.SystemDataSqlXml).GetReference(filePath: "System.Data.SqlXml.dll", display: "System.Data.SqlXml (net35)");
+                    _SystemDataSqlXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Data.SqlXml")).GetReference(filePath: "System.Data.SqlXml.dll", display: "System.Data.SqlXml (net35)");
                 }
                 return _SystemDataSqlXml;
             }
@@ -1507,7 +1507,7 @@ public static partial class Net35
             {
                 if (_SystemDeployment is null)
                 {
-                    _SystemDeployment = AssemblyMetadata.CreateFromImage(Resources.SystemDeployment).GetReference(filePath: "System.Deployment.dll", display: "System.Deployment (net35)");
+                    _SystemDeployment = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Deployment")).GetReference(filePath: "System.Deployment.dll", display: "System.Deployment (net35)");
                 }
                 return _SystemDeployment;
             }
@@ -1524,7 +1524,7 @@ public static partial class Net35
             {
                 if (_SystemDesign is null)
                 {
-                    _SystemDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDesign).GetReference(filePath: "System.Design.dll", display: "System.Design (net35)");
+                    _SystemDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Design")).GetReference(filePath: "System.Design.dll", display: "System.Design (net35)");
                 }
                 return _SystemDesign;
             }
@@ -1541,7 +1541,7 @@ public static partial class Net35
             {
                 if (_SystemDirectoryServicesAccountManagement is null)
                 {
-                    _SystemDirectoryServicesAccountManagement = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesAccountManagement).GetReference(filePath: "System.DirectoryServices.AccountManagement.dll", display: "System.DirectoryServices.AccountManagement (net35)");
+                    _SystemDirectoryServicesAccountManagement = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.DirectoryServices.AccountManagement")).GetReference(filePath: "System.DirectoryServices.AccountManagement.dll", display: "System.DirectoryServices.AccountManagement (net35)");
                 }
                 return _SystemDirectoryServicesAccountManagement;
             }
@@ -1558,7 +1558,7 @@ public static partial class Net35
             {
                 if (_SystemDirectoryServices is null)
                 {
-                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServices).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net35)");
+                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.DirectoryServices")).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net35)");
                 }
                 return _SystemDirectoryServices;
             }
@@ -1575,7 +1575,7 @@ public static partial class Net35
             {
                 if (_SystemDirectoryServicesProtocols is null)
                 {
-                    _SystemDirectoryServicesProtocols = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesProtocols).GetReference(filePath: "System.DirectoryServices.Protocols.dll", display: "System.DirectoryServices.Protocols (net35)");
+                    _SystemDirectoryServicesProtocols = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.DirectoryServices.Protocols")).GetReference(filePath: "System.DirectoryServices.Protocols.dll", display: "System.DirectoryServices.Protocols (net35)");
                 }
                 return _SystemDirectoryServicesProtocols;
             }
@@ -1592,7 +1592,7 @@ public static partial class Net35
             {
                 if (_System is null)
                 {
-                    _System = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (net35)");
+                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System")).GetReference(filePath: "System.dll", display: "System (net35)");
                 }
                 return _System;
             }
@@ -1609,7 +1609,7 @@ public static partial class Net35
             {
                 if (_SystemDrawingDesign is null)
                 {
-                    _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingDesign).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net35)");
+                    _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Drawing.Design")).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net35)");
                 }
                 return _SystemDrawingDesign;
             }
@@ -1626,7 +1626,7 @@ public static partial class Net35
             {
                 if (_SystemDrawing is null)
                 {
-                    _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net35)");
+                    _SystemDrawing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Drawing")).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net35)");
                 }
                 return _SystemDrawing;
             }
@@ -1643,7 +1643,7 @@ public static partial class Net35
             {
                 if (_SystemEnterpriseServices is null)
                 {
-                    _SystemEnterpriseServices = AssemblyMetadata.CreateFromImage(Resources.SystemEnterpriseServices).GetReference(filePath: "System.EnterpriseServices.dll", display: "System.EnterpriseServices (net35)");
+                    _SystemEnterpriseServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.EnterpriseServices")).GetReference(filePath: "System.EnterpriseServices.dll", display: "System.EnterpriseServices (net35)");
                 }
                 return _SystemEnterpriseServices;
             }
@@ -1660,7 +1660,7 @@ public static partial class Net35
             {
                 if (_SystemIdentityModel is null)
                 {
-                    _SystemIdentityModel = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModel).GetReference(filePath: "System.IdentityModel.dll", display: "System.IdentityModel (net35)");
+                    _SystemIdentityModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.IdentityModel")).GetReference(filePath: "System.IdentityModel.dll", display: "System.IdentityModel (net35)");
                 }
                 return _SystemIdentityModel;
             }
@@ -1677,7 +1677,7 @@ public static partial class Net35
             {
                 if (_SystemIdentityModelSelectors is null)
                 {
-                    _SystemIdentityModelSelectors = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModelSelectors).GetReference(filePath: "System.IdentityModel.Selectors.dll", display: "System.IdentityModel.Selectors (net35)");
+                    _SystemIdentityModelSelectors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.IdentityModel.Selectors")).GetReference(filePath: "System.IdentityModel.Selectors.dll", display: "System.IdentityModel.Selectors (net35)");
                 }
                 return _SystemIdentityModelSelectors;
             }
@@ -1694,7 +1694,7 @@ public static partial class Net35
             {
                 if (_SystemIOLog is null)
                 {
-                    _SystemIOLog = AssemblyMetadata.CreateFromImage(Resources.SystemIOLog).GetReference(filePath: "System.IO.Log.dll", display: "System.IO.Log (net35)");
+                    _SystemIOLog = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.IO.Log")).GetReference(filePath: "System.IO.Log.dll", display: "System.IO.Log (net35)");
                 }
                 return _SystemIOLog;
             }
@@ -1711,7 +1711,7 @@ public static partial class Net35
             {
                 if (_SystemManagement is null)
                 {
-                    _SystemManagement = AssemblyMetadata.CreateFromImage(Resources.SystemManagement).GetReference(filePath: "System.Management.dll", display: "System.Management (net35)");
+                    _SystemManagement = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Management")).GetReference(filePath: "System.Management.dll", display: "System.Management (net35)");
                 }
                 return _SystemManagement;
             }
@@ -1728,7 +1728,7 @@ public static partial class Net35
             {
                 if (_SystemManagementInstrumentation is null)
                 {
-                    _SystemManagementInstrumentation = AssemblyMetadata.CreateFromImage(Resources.SystemManagementInstrumentation).GetReference(filePath: "System.Management.Instrumentation.dll", display: "System.Management.Instrumentation (net35)");
+                    _SystemManagementInstrumentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Management.Instrumentation")).GetReference(filePath: "System.Management.Instrumentation.dll", display: "System.Management.Instrumentation (net35)");
                 }
                 return _SystemManagementInstrumentation;
             }
@@ -1745,7 +1745,7 @@ public static partial class Net35
             {
                 if (_SystemMessaging is null)
                 {
-                    _SystemMessaging = AssemblyMetadata.CreateFromImage(Resources.SystemMessaging).GetReference(filePath: "System.Messaging.dll", display: "System.Messaging (net35)");
+                    _SystemMessaging = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Messaging")).GetReference(filePath: "System.Messaging.dll", display: "System.Messaging (net35)");
                 }
                 return _SystemMessaging;
             }
@@ -1762,7 +1762,7 @@ public static partial class Net35
             {
                 if (_SystemNet is null)
                 {
-                    _SystemNet = AssemblyMetadata.CreateFromImage(Resources.SystemNet).GetReference(filePath: "System.Net.dll", display: "System.Net (net35)");
+                    _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (net35)");
                 }
                 return _SystemNet;
             }
@@ -1779,7 +1779,7 @@ public static partial class Net35
             {
                 if (_SystemPrinting is null)
                 {
-                    _SystemPrinting = AssemblyMetadata.CreateFromImage(Resources.SystemPrinting).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net35)");
+                    _SystemPrinting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Printing")).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net35)");
                 }
                 return _SystemPrinting;
             }
@@ -1796,7 +1796,7 @@ public static partial class Net35
             {
                 if (_SystemRuntimeRemoting is null)
                 {
-                    _SystemRuntimeRemoting = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeRemoting).GetReference(filePath: "System.Runtime.Remoting.dll", display: "System.Runtime.Remoting (net35)");
+                    _SystemRuntimeRemoting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Runtime.Remoting")).GetReference(filePath: "System.Runtime.Remoting.dll", display: "System.Runtime.Remoting (net35)");
                 }
                 return _SystemRuntimeRemoting;
             }
@@ -1813,7 +1813,7 @@ public static partial class Net35
             {
                 if (_SystemRuntimeSerialization is null)
                 {
-                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerialization).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net35)");
+                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net35)");
                 }
                 return _SystemRuntimeSerialization;
             }
@@ -1830,7 +1830,7 @@ public static partial class Net35
             {
                 if (_SystemRuntimeSerializationFormattersSoap is null)
                 {
-                    _SystemRuntimeSerializationFormattersSoap = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormattersSoap).GetReference(filePath: "System.Runtime.Serialization.Formatters.Soap.dll", display: "System.Runtime.Serialization.Formatters.Soap (net35)");
+                    _SystemRuntimeSerializationFormattersSoap = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Runtime.Serialization.Formatters.Soap")).GetReference(filePath: "System.Runtime.Serialization.Formatters.Soap.dll", display: "System.Runtime.Serialization.Formatters.Soap (net35)");
                 }
                 return _SystemRuntimeSerializationFormattersSoap;
             }
@@ -1847,7 +1847,7 @@ public static partial class Net35
             {
                 if (_SystemSecurity is null)
                 {
-                    _SystemSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemSecurity).GetReference(filePath: "System.Security.dll", display: "System.Security (net35)");
+                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (net35)");
                 }
                 return _SystemSecurity;
             }
@@ -1864,7 +1864,7 @@ public static partial class Net35
             {
                 if (_SystemServiceModel is null)
                 {
-                    _SystemServiceModel = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModel).GetReference(filePath: "System.ServiceModel.dll", display: "System.ServiceModel (net35)");
+                    _SystemServiceModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.ServiceModel")).GetReference(filePath: "System.ServiceModel.dll", display: "System.ServiceModel (net35)");
                 }
                 return _SystemServiceModel;
             }
@@ -1881,7 +1881,7 @@ public static partial class Net35
             {
                 if (_SystemServiceModelWeb is null)
                 {
-                    _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelWeb).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (net35)");
+                    _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.ServiceModel.Web")).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (net35)");
                 }
                 return _SystemServiceModelWeb;
             }
@@ -1898,7 +1898,7 @@ public static partial class Net35
             {
                 if (_SystemServiceProcess is null)
                 {
-                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(Resources.SystemServiceProcess).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net35)");
+                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.ServiceProcess")).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net35)");
                 }
                 return _SystemServiceProcess;
             }
@@ -1915,7 +1915,7 @@ public static partial class Net35
             {
                 if (_SystemSpeech is null)
                 {
-                    _SystemSpeech = AssemblyMetadata.CreateFromImage(Resources.SystemSpeech).GetReference(filePath: "System.Speech.dll", display: "System.Speech (net35)");
+                    _SystemSpeech = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Speech")).GetReference(filePath: "System.Speech.dll", display: "System.Speech (net35)");
                 }
                 return _SystemSpeech;
             }
@@ -1932,7 +1932,7 @@ public static partial class Net35
             {
                 if (_SystemTransactions is null)
                 {
-                    _SystemTransactions = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net35)");
+                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net35)");
                 }
                 return _SystemTransactions;
             }
@@ -1949,7 +1949,7 @@ public static partial class Net35
             {
                 if (_SystemWebAbstractions is null)
                 {
-                    _SystemWebAbstractions = AssemblyMetadata.CreateFromImage(Resources.SystemWebAbstractions).GetReference(filePath: "System.Web.Abstractions.dll", display: "System.Web.Abstractions (net35)");
+                    _SystemWebAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web.Abstractions")).GetReference(filePath: "System.Web.Abstractions.dll", display: "System.Web.Abstractions (net35)");
                 }
                 return _SystemWebAbstractions;
             }
@@ -1966,7 +1966,7 @@ public static partial class Net35
             {
                 if (_SystemWeb is null)
                 {
-                    _SystemWeb = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (net35)");
+                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (net35)");
                 }
                 return _SystemWeb;
             }
@@ -1983,7 +1983,7 @@ public static partial class Net35
             {
                 if (_SystemWebDynamicDataDesign is null)
                 {
-                    _SystemWebDynamicDataDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebDynamicDataDesign).GetReference(filePath: "System.Web.DynamicData.Design.dll", display: "System.Web.DynamicData.Design (net35)");
+                    _SystemWebDynamicDataDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web.DynamicData.Design")).GetReference(filePath: "System.Web.DynamicData.Design.dll", display: "System.Web.DynamicData.Design (net35)");
                 }
                 return _SystemWebDynamicDataDesign;
             }
@@ -2000,7 +2000,7 @@ public static partial class Net35
             {
                 if (_SystemWebDynamicData is null)
                 {
-                    _SystemWebDynamicData = AssemblyMetadata.CreateFromImage(Resources.SystemWebDynamicData).GetReference(filePath: "System.Web.DynamicData.dll", display: "System.Web.DynamicData (net35)");
+                    _SystemWebDynamicData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web.DynamicData")).GetReference(filePath: "System.Web.DynamicData.dll", display: "System.Web.DynamicData (net35)");
                 }
                 return _SystemWebDynamicData;
             }
@@ -2017,7 +2017,7 @@ public static partial class Net35
             {
                 if (_SystemWebEntityDesign is null)
                 {
-                    _SystemWebEntityDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebEntityDesign).GetReference(filePath: "System.Web.Entity.Design.dll", display: "System.Web.Entity.Design (net35)");
+                    _SystemWebEntityDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web.Entity.Design")).GetReference(filePath: "System.Web.Entity.Design.dll", display: "System.Web.Entity.Design (net35)");
                 }
                 return _SystemWebEntityDesign;
             }
@@ -2034,7 +2034,7 @@ public static partial class Net35
             {
                 if (_SystemWebEntity is null)
                 {
-                    _SystemWebEntity = AssemblyMetadata.CreateFromImage(Resources.SystemWebEntity).GetReference(filePath: "System.Web.Entity.dll", display: "System.Web.Entity (net35)");
+                    _SystemWebEntity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web.Entity")).GetReference(filePath: "System.Web.Entity.dll", display: "System.Web.Entity (net35)");
                 }
                 return _SystemWebEntity;
             }
@@ -2051,7 +2051,7 @@ public static partial class Net35
             {
                 if (_SystemWebExtensionsDesign is null)
                 {
-                    _SystemWebExtensionsDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebExtensionsDesign).GetReference(filePath: "System.Web.Extensions.Design.dll", display: "System.Web.Extensions.Design (net35)");
+                    _SystemWebExtensionsDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web.Extensions.Design")).GetReference(filePath: "System.Web.Extensions.Design.dll", display: "System.Web.Extensions.Design (net35)");
                 }
                 return _SystemWebExtensionsDesign;
             }
@@ -2068,7 +2068,7 @@ public static partial class Net35
             {
                 if (_SystemWebExtensions is null)
                 {
-                    _SystemWebExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemWebExtensions).GetReference(filePath: "System.Web.Extensions.dll", display: "System.Web.Extensions (net35)");
+                    _SystemWebExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web.Extensions")).GetReference(filePath: "System.Web.Extensions.dll", display: "System.Web.Extensions (net35)");
                 }
                 return _SystemWebExtensions;
             }
@@ -2085,7 +2085,7 @@ public static partial class Net35
             {
                 if (_SystemWebMobile is null)
                 {
-                    _SystemWebMobile = AssemblyMetadata.CreateFromImage(Resources.SystemWebMobile).GetReference(filePath: "System.Web.Mobile.dll", display: "System.Web.Mobile (net35)");
+                    _SystemWebMobile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web.Mobile")).GetReference(filePath: "System.Web.Mobile.dll", display: "System.Web.Mobile (net35)");
                 }
                 return _SystemWebMobile;
             }
@@ -2102,7 +2102,7 @@ public static partial class Net35
             {
                 if (_SystemWebRegularExpressions is null)
                 {
-                    _SystemWebRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemWebRegularExpressions).GetReference(filePath: "System.Web.RegularExpressions.dll", display: "System.Web.RegularExpressions (net35)");
+                    _SystemWebRegularExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web.RegularExpressions")).GetReference(filePath: "System.Web.RegularExpressions.dll", display: "System.Web.RegularExpressions (net35)");
                 }
                 return _SystemWebRegularExpressions;
             }
@@ -2119,7 +2119,7 @@ public static partial class Net35
             {
                 if (_SystemWebRouting is null)
                 {
-                    _SystemWebRouting = AssemblyMetadata.CreateFromImage(Resources.SystemWebRouting).GetReference(filePath: "System.Web.Routing.dll", display: "System.Web.Routing (net35)");
+                    _SystemWebRouting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web.Routing")).GetReference(filePath: "System.Web.Routing.dll", display: "System.Web.Routing (net35)");
                 }
                 return _SystemWebRouting;
             }
@@ -2136,7 +2136,7 @@ public static partial class Net35
             {
                 if (_SystemWebServices is null)
                 {
-                    _SystemWebServices = AssemblyMetadata.CreateFromImage(Resources.SystemWebServices).GetReference(filePath: "System.Web.Services.dll", display: "System.Web.Services (net35)");
+                    _SystemWebServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web.Services")).GetReference(filePath: "System.Web.Services.dll", display: "System.Web.Services (net35)");
                 }
                 return _SystemWebServices;
             }
@@ -2153,7 +2153,7 @@ public static partial class Net35
             {
                 if (_SystemWindowsForms is null)
                 {
-                    _SystemWindowsForms = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsForms).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net35)");
+                    _SystemWindowsForms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Windows.Forms")).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net35)");
                 }
                 return _SystemWindowsForms;
             }
@@ -2170,7 +2170,7 @@ public static partial class Net35
             {
                 if (_SystemWindowsPresentation is null)
                 {
-                    _SystemWindowsPresentation = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsPresentation).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net35)");
+                    _SystemWindowsPresentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Windows.Presentation")).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net35)");
                 }
                 return _SystemWindowsPresentation;
             }
@@ -2187,7 +2187,7 @@ public static partial class Net35
             {
                 if (_SystemWorkflowActivities is null)
                 {
-                    _SystemWorkflowActivities = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowActivities).GetReference(filePath: "System.Workflow.Activities.dll", display: "System.Workflow.Activities (net35)");
+                    _SystemWorkflowActivities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Workflow.Activities")).GetReference(filePath: "System.Workflow.Activities.dll", display: "System.Workflow.Activities (net35)");
                 }
                 return _SystemWorkflowActivities;
             }
@@ -2204,7 +2204,7 @@ public static partial class Net35
             {
                 if (_SystemWorkflowComponentModel is null)
                 {
-                    _SystemWorkflowComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowComponentModel).GetReference(filePath: "System.Workflow.ComponentModel.dll", display: "System.Workflow.ComponentModel (net35)");
+                    _SystemWorkflowComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Workflow.ComponentModel")).GetReference(filePath: "System.Workflow.ComponentModel.dll", display: "System.Workflow.ComponentModel (net35)");
                 }
                 return _SystemWorkflowComponentModel;
             }
@@ -2221,7 +2221,7 @@ public static partial class Net35
             {
                 if (_SystemWorkflowRuntime is null)
                 {
-                    _SystemWorkflowRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowRuntime).GetReference(filePath: "System.Workflow.Runtime.dll", display: "System.Workflow.Runtime (net35)");
+                    _SystemWorkflowRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Workflow.Runtime")).GetReference(filePath: "System.Workflow.Runtime.dll", display: "System.Workflow.Runtime (net35)");
                 }
                 return _SystemWorkflowRuntime;
             }
@@ -2238,7 +2238,7 @@ public static partial class Net35
             {
                 if (_SystemWorkflowServices is null)
                 {
-                    _SystemWorkflowServices = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowServices).GetReference(filePath: "System.WorkflowServices.dll", display: "System.WorkflowServices (net35)");
+                    _SystemWorkflowServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.WorkflowServices")).GetReference(filePath: "System.WorkflowServices.dll", display: "System.WorkflowServices (net35)");
                 }
                 return _SystemWorkflowServices;
             }
@@ -2255,7 +2255,7 @@ public static partial class Net35
             {
                 if (_SystemXml is null)
                 {
-                    _SystemXml = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net35)");
+                    _SystemXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Xml")).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net35)");
                 }
                 return _SystemXml;
             }
@@ -2272,7 +2272,7 @@ public static partial class Net35
             {
                 if (_SystemXmlLinq is null)
                 {
-                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(Resources.SystemXmlLinq).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net35)");
+                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Xml.Linq")).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net35)");
                 }
                 return _SystemXmlLinq;
             }
@@ -2289,7 +2289,7 @@ public static partial class Net35
             {
                 if (_UIAutomationClient is null)
                 {
-                    _UIAutomationClient = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClient).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net35)");
+                    _UIAutomationClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.UIAutomationClient")).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net35)");
                 }
                 return _UIAutomationClient;
             }
@@ -2306,7 +2306,7 @@ public static partial class Net35
             {
                 if (_UIAutomationClientsideProviders is null)
                 {
-                    _UIAutomationClientsideProviders = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClientsideProviders).GetReference(filePath: "UIAutomationClientsideProviders.dll", display: "UIAutomationClientsideProviders (net35)");
+                    _UIAutomationClientsideProviders = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.UIAutomationClientsideProviders")).GetReference(filePath: "UIAutomationClientsideProviders.dll", display: "UIAutomationClientsideProviders (net35)");
                 }
                 return _UIAutomationClientsideProviders;
             }
@@ -2323,7 +2323,7 @@ public static partial class Net35
             {
                 if (_UIAutomationProvider is null)
                 {
-                    _UIAutomationProvider = AssemblyMetadata.CreateFromImage(Resources.UIAutomationProvider).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net35)");
+                    _UIAutomationProvider = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.UIAutomationProvider")).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net35)");
                 }
                 return _UIAutomationProvider;
             }
@@ -2340,7 +2340,7 @@ public static partial class Net35
             {
                 if (_UIAutomationTypes is null)
                 {
-                    _UIAutomationTypes = AssemblyMetadata.CreateFromImage(Resources.UIAutomationTypes).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net35)");
+                    _UIAutomationTypes = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.UIAutomationTypes")).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net35)");
                 }
                 return _UIAutomationTypes;
             }
@@ -2357,7 +2357,7 @@ public static partial class Net35
             {
                 if (_WindowsBase is null)
                 {
-                    _WindowsBase = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net35)");
+                    _WindowsBase = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.WindowsBase")).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net35)");
                 }
                 return _WindowsBase;
             }
@@ -2374,7 +2374,7 @@ public static partial class Net35
             {
                 if (_WindowsFormsIntegration is null)
                 {
-                    _WindowsFormsIntegration = AssemblyMetadata.CreateFromImage(Resources.WindowsFormsIntegration).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net35)");
+                    _WindowsFormsIntegration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.WindowsFormsIntegration")).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net35)");
                 }
                 return _WindowsFormsIntegration;
             }

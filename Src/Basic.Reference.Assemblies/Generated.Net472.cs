@@ -1455,7 +1455,7 @@ public static partial class Net472
             {
                 if (_Accessibility is null)
                 {
-                    _Accessibility = AssemblyMetadata.CreateFromImage(Resources.Accessibility).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net472)");
+                    _Accessibility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Accessibility")).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net472)");
                 }
                 return _Accessibility;
             }
@@ -1472,7 +1472,7 @@ public static partial class Net472
             {
                 if (_CustomMarshalers is null)
                 {
-                    _CustomMarshalers = AssemblyMetadata.CreateFromImage(Resources.CustomMarshalers).GetReference(filePath: "CustomMarshalers.dll", display: "CustomMarshalers (net472)");
+                    _CustomMarshalers = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.CustomMarshalers")).GetReference(filePath: "CustomMarshalers.dll", display: "CustomMarshalers (net472)");
                 }
                 return _CustomMarshalers;
             }
@@ -1489,7 +1489,7 @@ public static partial class Net472
             {
                 if (_ISymWrapper is null)
                 {
-                    _ISymWrapper = AssemblyMetadata.CreateFromImage(Resources.ISymWrapper).GetReference(filePath: "ISymWrapper.dll", display: "ISymWrapper (net472)");
+                    _ISymWrapper = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.ISymWrapper")).GetReference(filePath: "ISymWrapper.dll", display: "ISymWrapper (net472)");
                 }
                 return _ISymWrapper;
             }
@@ -1506,7 +1506,7 @@ public static partial class Net472
             {
                 if (_MicrosoftActivitiesBuild is null)
                 {
-                    _MicrosoftActivitiesBuild = AssemblyMetadata.CreateFromImage(Resources.MicrosoftActivitiesBuild).GetReference(filePath: "Microsoft.Activities.Build.dll", display: "Microsoft.Activities.Build (net472)");
+                    _MicrosoftActivitiesBuild = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.Activities.Build")).GetReference(filePath: "Microsoft.Activities.Build.dll", display: "Microsoft.Activities.Build (net472)");
                 }
                 return _MicrosoftActivitiesBuild;
             }
@@ -1523,7 +1523,7 @@ public static partial class Net472
             {
                 if (_MicrosoftBuildConversionv40 is null)
                 {
-                    _MicrosoftBuildConversionv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildConversionv40).GetReference(filePath: "Microsoft.Build.Conversion.v4.0.dll", display: "Microsoft.Build.Conversion.v4.0 (net472)");
+                    _MicrosoftBuildConversionv40 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.Build.Conversion.v4.0")).GetReference(filePath: "Microsoft.Build.Conversion.v4.0.dll", display: "Microsoft.Build.Conversion.v4.0 (net472)");
                 }
                 return _MicrosoftBuildConversionv40;
             }
@@ -1540,7 +1540,7 @@ public static partial class Net472
             {
                 if (_MicrosoftBuild is null)
                 {
-                    _MicrosoftBuild = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuild).GetReference(filePath: "Microsoft.Build.dll", display: "Microsoft.Build (net472)");
+                    _MicrosoftBuild = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.Build")).GetReference(filePath: "Microsoft.Build.dll", display: "Microsoft.Build (net472)");
                 }
                 return _MicrosoftBuild;
             }
@@ -1557,7 +1557,7 @@ public static partial class Net472
             {
                 if (_MicrosoftBuildEngine is null)
                 {
-                    _MicrosoftBuildEngine = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildEngine).GetReference(filePath: "Microsoft.Build.Engine.dll", display: "Microsoft.Build.Engine (net472)");
+                    _MicrosoftBuildEngine = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.Build.Engine")).GetReference(filePath: "Microsoft.Build.Engine.dll", display: "Microsoft.Build.Engine (net472)");
                 }
                 return _MicrosoftBuildEngine;
             }
@@ -1574,7 +1574,7 @@ public static partial class Net472
             {
                 if (_MicrosoftBuildFramework is null)
                 {
-                    _MicrosoftBuildFramework = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildFramework).GetReference(filePath: "Microsoft.Build.Framework.dll", display: "Microsoft.Build.Framework (net472)");
+                    _MicrosoftBuildFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.Build.Framework")).GetReference(filePath: "Microsoft.Build.Framework.dll", display: "Microsoft.Build.Framework (net472)");
                 }
                 return _MicrosoftBuildFramework;
             }
@@ -1591,7 +1591,7 @@ public static partial class Net472
             {
                 if (_MicrosoftBuildTasksv40 is null)
                 {
-                    _MicrosoftBuildTasksv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildTasksv40).GetReference(filePath: "Microsoft.Build.Tasks.v4.0.dll", display: "Microsoft.Build.Tasks.v4.0 (net472)");
+                    _MicrosoftBuildTasksv40 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.Build.Tasks.v4.0")).GetReference(filePath: "Microsoft.Build.Tasks.v4.0.dll", display: "Microsoft.Build.Tasks.v4.0 (net472)");
                 }
                 return _MicrosoftBuildTasksv40;
             }
@@ -1608,7 +1608,7 @@ public static partial class Net472
             {
                 if (_MicrosoftBuildUtilitiesv40 is null)
                 {
-                    _MicrosoftBuildUtilitiesv40 = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildUtilitiesv40).GetReference(filePath: "Microsoft.Build.Utilities.v4.0.dll", display: "Microsoft.Build.Utilities.v4.0 (net472)");
+                    _MicrosoftBuildUtilitiesv40 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.Build.Utilities.v4.0")).GetReference(filePath: "Microsoft.Build.Utilities.v4.0.dll", display: "Microsoft.Build.Utilities.v4.0 (net472)");
                 }
                 return _MicrosoftBuildUtilitiesv40;
             }
@@ -1625,7 +1625,7 @@ public static partial class Net472
             {
                 if (_MicrosoftCSharp is null)
                 {
-                    _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(Resources.MicrosoftCSharp).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (net472)");
+                    _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.CSharp")).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (net472)");
                 }
                 return _MicrosoftCSharp;
             }
@@ -1642,7 +1642,7 @@ public static partial class Net472
             {
                 if (_MicrosoftJScript is null)
                 {
-                    _MicrosoftJScript = AssemblyMetadata.CreateFromImage(Resources.MicrosoftJScript).GetReference(filePath: "Microsoft.JScript.dll", display: "Microsoft.JScript (net472)");
+                    _MicrosoftJScript = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.JScript")).GetReference(filePath: "Microsoft.JScript.dll", display: "Microsoft.JScript (net472)");
                 }
                 return _MicrosoftJScript;
             }
@@ -1659,7 +1659,7 @@ public static partial class Net472
             {
                 if (_MicrosoftVisualBasicCompatibilityData is null)
                 {
-                    _MicrosoftVisualBasicCompatibilityData = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibilityData).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.Data.dll", display: "Microsoft.VisualBasic.Compatibility.Data (net472)");
+                    _MicrosoftVisualBasicCompatibilityData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.VisualBasic.Compatibility.Data")).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.Data.dll", display: "Microsoft.VisualBasic.Compatibility.Data (net472)");
                 }
                 return _MicrosoftVisualBasicCompatibilityData;
             }
@@ -1676,7 +1676,7 @@ public static partial class Net472
             {
                 if (_MicrosoftVisualBasicCompatibility is null)
                 {
-                    _MicrosoftVisualBasicCompatibility = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibility).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.dll", display: "Microsoft.VisualBasic.Compatibility (net472)");
+                    _MicrosoftVisualBasicCompatibility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.VisualBasic.Compatibility")).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.dll", display: "Microsoft.VisualBasic.Compatibility (net472)");
                 }
                 return _MicrosoftVisualBasicCompatibility;
             }
@@ -1693,7 +1693,7 @@ public static partial class Net472
             {
                 if (_MicrosoftVisualBasic is null)
                 {
-                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net472)");
+                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net472)");
                 }
                 return _MicrosoftVisualBasic;
             }
@@ -1710,7 +1710,7 @@ public static partial class Net472
             {
                 if (_MicrosoftVisualC is null)
                 {
-                    _MicrosoftVisualC = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualC).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net472)");
+                    _MicrosoftVisualC = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.VisualC")).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net472)");
                 }
                 return _MicrosoftVisualC;
             }
@@ -1727,7 +1727,7 @@ public static partial class Net472
             {
                 if (_MicrosoftVisualCSTLCLR is null)
                 {
-                    _MicrosoftVisualCSTLCLR = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualCSTLCLR).GetReference(filePath: "Microsoft.VisualC.STLCLR.dll", display: "Microsoft.VisualC.STLCLR (net472)");
+                    _MicrosoftVisualCSTLCLR = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.VisualC.STLCLR")).GetReference(filePath: "Microsoft.VisualC.STLCLR.dll", display: "Microsoft.VisualC.STLCLR (net472)");
                 }
                 return _MicrosoftVisualCSTLCLR;
             }
@@ -1744,7 +1744,7 @@ public static partial class Net472
             {
                 if (_mscorlib is null)
                 {
-                    _mscorlib = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net472)");
+                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net472)");
                 }
                 return _mscorlib;
             }
@@ -1761,7 +1761,7 @@ public static partial class Net472
             {
                 if (_PresentationBuildTasks is null)
                 {
-                    _PresentationBuildTasks = AssemblyMetadata.CreateFromImage(Resources.PresentationBuildTasks).GetReference(filePath: "PresentationBuildTasks.dll", display: "PresentationBuildTasks (net472)");
+                    _PresentationBuildTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.PresentationBuildTasks")).GetReference(filePath: "PresentationBuildTasks.dll", display: "PresentationBuildTasks (net472)");
                 }
                 return _PresentationBuildTasks;
             }
@@ -1778,7 +1778,7 @@ public static partial class Net472
             {
                 if (_PresentationCore is null)
                 {
-                    _PresentationCore = AssemblyMetadata.CreateFromImage(Resources.PresentationCore).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net472)");
+                    _PresentationCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.PresentationCore")).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net472)");
                 }
                 return _PresentationCore;
             }
@@ -1795,7 +1795,7 @@ public static partial class Net472
             {
                 if (_PresentationFrameworkAero is null)
                 {
-                    _PresentationFrameworkAero = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net472)");
+                    _PresentationFrameworkAero = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.PresentationFramework.Aero")).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net472)");
                 }
                 return _PresentationFrameworkAero;
             }
@@ -1812,7 +1812,7 @@ public static partial class Net472
             {
                 if (_PresentationFrameworkAero2 is null)
                 {
-                    _PresentationFrameworkAero2 = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero2).GetReference(filePath: "PresentationFramework.Aero2.dll", display: "PresentationFramework.Aero2 (net472)");
+                    _PresentationFrameworkAero2 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.PresentationFramework.Aero2")).GetReference(filePath: "PresentationFramework.Aero2.dll", display: "PresentationFramework.Aero2 (net472)");
                 }
                 return _PresentationFrameworkAero2;
             }
@@ -1829,7 +1829,7 @@ public static partial class Net472
             {
                 if (_PresentationFrameworkAeroLite is null)
                 {
-                    _PresentationFrameworkAeroLite = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAeroLite).GetReference(filePath: "PresentationFramework.AeroLite.dll", display: "PresentationFramework.AeroLite (net472)");
+                    _PresentationFrameworkAeroLite = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.PresentationFramework.AeroLite")).GetReference(filePath: "PresentationFramework.AeroLite.dll", display: "PresentationFramework.AeroLite (net472)");
                 }
                 return _PresentationFrameworkAeroLite;
             }
@@ -1846,7 +1846,7 @@ public static partial class Net472
             {
                 if (_PresentationFrameworkClassic is null)
                 {
-                    _PresentationFrameworkClassic = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkClassic).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net472)");
+                    _PresentationFrameworkClassic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.PresentationFramework.Classic")).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net472)");
                 }
                 return _PresentationFrameworkClassic;
             }
@@ -1863,7 +1863,7 @@ public static partial class Net472
             {
                 if (_PresentationFramework is null)
                 {
-                    _PresentationFramework = AssemblyMetadata.CreateFromImage(Resources.PresentationFramework).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net472)");
+                    _PresentationFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.PresentationFramework")).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net472)");
                 }
                 return _PresentationFramework;
             }
@@ -1880,7 +1880,7 @@ public static partial class Net472
             {
                 if (_PresentationFrameworkLuna is null)
                 {
-                    _PresentationFrameworkLuna = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkLuna).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net472)");
+                    _PresentationFrameworkLuna = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.PresentationFramework.Luna")).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net472)");
                 }
                 return _PresentationFrameworkLuna;
             }
@@ -1897,7 +1897,7 @@ public static partial class Net472
             {
                 if (_PresentationFrameworkRoyale is null)
                 {
-                    _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkRoyale).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net472)");
+                    _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.PresentationFramework.Royale")).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net472)");
                 }
                 return _PresentationFrameworkRoyale;
             }
@@ -1914,7 +1914,7 @@ public static partial class Net472
             {
                 if (_ReachFramework is null)
                 {
-                    _ReachFramework = AssemblyMetadata.CreateFromImage(Resources.ReachFramework).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net472)");
+                    _ReachFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.ReachFramework")).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net472)");
                 }
                 return _ReachFramework;
             }
@@ -1931,7 +1931,7 @@ public static partial class Net472
             {
                 if (_sysglobl is null)
                 {
-                    _sysglobl = AssemblyMetadata.CreateFromImage(Resources.sysglobl).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net472)");
+                    _sysglobl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.sysglobl")).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net472)");
                 }
                 return _sysglobl;
             }
@@ -1948,7 +1948,7 @@ public static partial class Net472
             {
                 if (_SystemActivitiesCorePresentation is null)
                 {
-                    _SystemActivitiesCorePresentation = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesCorePresentation).GetReference(filePath: "System.Activities.Core.Presentation.dll", display: "System.Activities.Core.Presentation (net472)");
+                    _SystemActivitiesCorePresentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Activities.Core.Presentation")).GetReference(filePath: "System.Activities.Core.Presentation.dll", display: "System.Activities.Core.Presentation (net472)");
                 }
                 return _SystemActivitiesCorePresentation;
             }
@@ -1965,7 +1965,7 @@ public static partial class Net472
             {
                 if (_SystemActivities is null)
                 {
-                    _SystemActivities = AssemblyMetadata.CreateFromImage(Resources.SystemActivities).GetReference(filePath: "System.Activities.dll", display: "System.Activities (net472)");
+                    _SystemActivities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Activities")).GetReference(filePath: "System.Activities.dll", display: "System.Activities (net472)");
                 }
                 return _SystemActivities;
             }
@@ -1982,7 +1982,7 @@ public static partial class Net472
             {
                 if (_SystemActivitiesDurableInstancing is null)
                 {
-                    _SystemActivitiesDurableInstancing = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesDurableInstancing).GetReference(filePath: "System.Activities.DurableInstancing.dll", display: "System.Activities.DurableInstancing (net472)");
+                    _SystemActivitiesDurableInstancing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Activities.DurableInstancing")).GetReference(filePath: "System.Activities.DurableInstancing.dll", display: "System.Activities.DurableInstancing (net472)");
                 }
                 return _SystemActivitiesDurableInstancing;
             }
@@ -1999,7 +1999,7 @@ public static partial class Net472
             {
                 if (_SystemActivitiesPresentation is null)
                 {
-                    _SystemActivitiesPresentation = AssemblyMetadata.CreateFromImage(Resources.SystemActivitiesPresentation).GetReference(filePath: "System.Activities.Presentation.dll", display: "System.Activities.Presentation (net472)");
+                    _SystemActivitiesPresentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Activities.Presentation")).GetReference(filePath: "System.Activities.Presentation.dll", display: "System.Activities.Presentation (net472)");
                 }
                 return _SystemActivitiesPresentation;
             }
@@ -2016,7 +2016,7 @@ public static partial class Net472
             {
                 if (_SystemAddInContract is null)
                 {
-                    _SystemAddInContract = AssemblyMetadata.CreateFromImage(Resources.SystemAddInContract).GetReference(filePath: "System.AddIn.Contract.dll", display: "System.AddIn.Contract (net472)");
+                    _SystemAddInContract = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.AddIn.Contract")).GetReference(filePath: "System.AddIn.Contract.dll", display: "System.AddIn.Contract (net472)");
                 }
                 return _SystemAddInContract;
             }
@@ -2033,7 +2033,7 @@ public static partial class Net472
             {
                 if (_SystemAddIn is null)
                 {
-                    _SystemAddIn = AssemblyMetadata.CreateFromImage(Resources.SystemAddIn).GetReference(filePath: "System.AddIn.dll", display: "System.AddIn (net472)");
+                    _SystemAddIn = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.AddIn")).GetReference(filePath: "System.AddIn.dll", display: "System.AddIn (net472)");
                 }
                 return _SystemAddIn;
             }
@@ -2050,7 +2050,7 @@ public static partial class Net472
             {
                 if (_SystemComponentModelComposition is null)
                 {
-                    _SystemComponentModelComposition = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelComposition).GetReference(filePath: "System.ComponentModel.Composition.dll", display: "System.ComponentModel.Composition (net472)");
+                    _SystemComponentModelComposition = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ComponentModel.Composition")).GetReference(filePath: "System.ComponentModel.Composition.dll", display: "System.ComponentModel.Composition (net472)");
                 }
                 return _SystemComponentModelComposition;
             }
@@ -2067,7 +2067,7 @@ public static partial class Net472
             {
                 if (_SystemComponentModelCompositionRegistration is null)
                 {
-                    _SystemComponentModelCompositionRegistration = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelCompositionRegistration).GetReference(filePath: "System.ComponentModel.Composition.Registration.dll", display: "System.ComponentModel.Composition.Registration (net472)");
+                    _SystemComponentModelCompositionRegistration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ComponentModel.Composition.Registration")).GetReference(filePath: "System.ComponentModel.Composition.Registration.dll", display: "System.ComponentModel.Composition.Registration (net472)");
                 }
                 return _SystemComponentModelCompositionRegistration;
             }
@@ -2084,7 +2084,7 @@ public static partial class Net472
             {
                 if (_SystemComponentModelDataAnnotations is null)
                 {
-                    _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelDataAnnotations).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (net472)");
+                    _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ComponentModel.DataAnnotations")).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (net472)");
                 }
                 return _SystemComponentModelDataAnnotations;
             }
@@ -2101,7 +2101,7 @@ public static partial class Net472
             {
                 if (_SystemConfiguration is null)
                 {
-                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(Resources.SystemConfiguration).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net472)");
+                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Configuration")).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net472)");
                 }
                 return _SystemConfiguration;
             }
@@ -2118,7 +2118,7 @@ public static partial class Net472
             {
                 if (_SystemConfigurationInstall is null)
                 {
-                    _SystemConfigurationInstall = AssemblyMetadata.CreateFromImage(Resources.SystemConfigurationInstall).GetReference(filePath: "System.Configuration.Install.dll", display: "System.Configuration.Install (net472)");
+                    _SystemConfigurationInstall = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Configuration.Install")).GetReference(filePath: "System.Configuration.Install.dll", display: "System.Configuration.Install (net472)");
                 }
                 return _SystemConfigurationInstall;
             }
@@ -2135,7 +2135,7 @@ public static partial class Net472
             {
                 if (_SystemCore is null)
                 {
-                    _SystemCore = AssemblyMetadata.CreateFromImage(Resources.SystemCore).GetReference(filePath: "System.Core.dll", display: "System.Core (net472)");
+                    _SystemCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Core")).GetReference(filePath: "System.Core.dll", display: "System.Core (net472)");
                 }
                 return _SystemCore;
             }
@@ -2152,7 +2152,7 @@ public static partial class Net472
             {
                 if (_SystemDataDataSetExtensions is null)
                 {
-                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemDataDataSetExtensions).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net472)");
+                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Data.DataSetExtensions")).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net472)");
                 }
                 return _SystemDataDataSetExtensions;
             }
@@ -2169,7 +2169,7 @@ public static partial class Net472
             {
                 if (_SystemData is null)
                 {
-                    _SystemData = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (net472)");
+                    _SystemData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Data")).GetReference(filePath: "System.Data.dll", display: "System.Data (net472)");
                 }
                 return _SystemData;
             }
@@ -2186,7 +2186,7 @@ public static partial class Net472
             {
                 if (_SystemDataEntityDesign is null)
                 {
-                    _SystemDataEntityDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDataEntityDesign).GetReference(filePath: "System.Data.Entity.Design.dll", display: "System.Data.Entity.Design (net472)");
+                    _SystemDataEntityDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Data.Entity.Design")).GetReference(filePath: "System.Data.Entity.Design.dll", display: "System.Data.Entity.Design (net472)");
                 }
                 return _SystemDataEntityDesign;
             }
@@ -2203,7 +2203,7 @@ public static partial class Net472
             {
                 if (_SystemDataEntity is null)
                 {
-                    _SystemDataEntity = AssemblyMetadata.CreateFromImage(Resources.SystemDataEntity).GetReference(filePath: "System.Data.Entity.dll", display: "System.Data.Entity (net472)");
+                    _SystemDataEntity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Data.Entity")).GetReference(filePath: "System.Data.Entity.dll", display: "System.Data.Entity (net472)");
                 }
                 return _SystemDataEntity;
             }
@@ -2220,7 +2220,7 @@ public static partial class Net472
             {
                 if (_SystemDataLinq is null)
                 {
-                    _SystemDataLinq = AssemblyMetadata.CreateFromImage(Resources.SystemDataLinq).GetReference(filePath: "System.Data.Linq.dll", display: "System.Data.Linq (net472)");
+                    _SystemDataLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Data.Linq")).GetReference(filePath: "System.Data.Linq.dll", display: "System.Data.Linq (net472)");
                 }
                 return _SystemDataLinq;
             }
@@ -2237,7 +2237,7 @@ public static partial class Net472
             {
                 if (_SystemDataOracleClient is null)
                 {
-                    _SystemDataOracleClient = AssemblyMetadata.CreateFromImage(Resources.SystemDataOracleClient).GetReference(filePath: "System.Data.OracleClient.dll", display: "System.Data.OracleClient (net472)");
+                    _SystemDataOracleClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Data.OracleClient")).GetReference(filePath: "System.Data.OracleClient.dll", display: "System.Data.OracleClient (net472)");
                 }
                 return _SystemDataOracleClient;
             }
@@ -2254,7 +2254,7 @@ public static partial class Net472
             {
                 if (_SystemDataServicesClient is null)
                 {
-                    _SystemDataServicesClient = AssemblyMetadata.CreateFromImage(Resources.SystemDataServicesClient).GetReference(filePath: "System.Data.Services.Client.dll", display: "System.Data.Services.Client (net472)");
+                    _SystemDataServicesClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Data.Services.Client")).GetReference(filePath: "System.Data.Services.Client.dll", display: "System.Data.Services.Client (net472)");
                 }
                 return _SystemDataServicesClient;
             }
@@ -2271,7 +2271,7 @@ public static partial class Net472
             {
                 if (_SystemDataServicesDesign is null)
                 {
-                    _SystemDataServicesDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDataServicesDesign).GetReference(filePath: "System.Data.Services.Design.dll", display: "System.Data.Services.Design (net472)");
+                    _SystemDataServicesDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Data.Services.Design")).GetReference(filePath: "System.Data.Services.Design.dll", display: "System.Data.Services.Design (net472)");
                 }
                 return _SystemDataServicesDesign;
             }
@@ -2288,7 +2288,7 @@ public static partial class Net472
             {
                 if (_SystemDataServices is null)
                 {
-                    _SystemDataServices = AssemblyMetadata.CreateFromImage(Resources.SystemDataServices).GetReference(filePath: "System.Data.Services.dll", display: "System.Data.Services (net472)");
+                    _SystemDataServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Data.Services")).GetReference(filePath: "System.Data.Services.dll", display: "System.Data.Services (net472)");
                 }
                 return _SystemDataServices;
             }
@@ -2305,7 +2305,7 @@ public static partial class Net472
             {
                 if (_SystemDataSqlXml is null)
                 {
-                    _SystemDataSqlXml = AssemblyMetadata.CreateFromImage(Resources.SystemDataSqlXml).GetReference(filePath: "System.Data.SqlXml.dll", display: "System.Data.SqlXml (net472)");
+                    _SystemDataSqlXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Data.SqlXml")).GetReference(filePath: "System.Data.SqlXml.dll", display: "System.Data.SqlXml (net472)");
                 }
                 return _SystemDataSqlXml;
             }
@@ -2322,7 +2322,7 @@ public static partial class Net472
             {
                 if (_SystemDeployment is null)
                 {
-                    _SystemDeployment = AssemblyMetadata.CreateFromImage(Resources.SystemDeployment).GetReference(filePath: "System.Deployment.dll", display: "System.Deployment (net472)");
+                    _SystemDeployment = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Deployment")).GetReference(filePath: "System.Deployment.dll", display: "System.Deployment (net472)");
                 }
                 return _SystemDeployment;
             }
@@ -2339,7 +2339,7 @@ public static partial class Net472
             {
                 if (_SystemDesign is null)
                 {
-                    _SystemDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDesign).GetReference(filePath: "System.Design.dll", display: "System.Design (net472)");
+                    _SystemDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Design")).GetReference(filePath: "System.Design.dll", display: "System.Design (net472)");
                 }
                 return _SystemDesign;
             }
@@ -2356,7 +2356,7 @@ public static partial class Net472
             {
                 if (_SystemDevice is null)
                 {
-                    _SystemDevice = AssemblyMetadata.CreateFromImage(Resources.SystemDevice).GetReference(filePath: "System.Device.dll", display: "System.Device (net472)");
+                    _SystemDevice = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Device")).GetReference(filePath: "System.Device.dll", display: "System.Device (net472)");
                 }
                 return _SystemDevice;
             }
@@ -2373,7 +2373,7 @@ public static partial class Net472
             {
                 if (_SystemDiagnosticsTracing is null)
                 {
-                    _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (net472)");
+                    _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Diagnostics.Tracing")).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (net472)");
                 }
                 return _SystemDiagnosticsTracing;
             }
@@ -2390,7 +2390,7 @@ public static partial class Net472
             {
                 if (_SystemDirectoryServicesAccountManagement is null)
                 {
-                    _SystemDirectoryServicesAccountManagement = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesAccountManagement).GetReference(filePath: "System.DirectoryServices.AccountManagement.dll", display: "System.DirectoryServices.AccountManagement (net472)");
+                    _SystemDirectoryServicesAccountManagement = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.DirectoryServices.AccountManagement")).GetReference(filePath: "System.DirectoryServices.AccountManagement.dll", display: "System.DirectoryServices.AccountManagement (net472)");
                 }
                 return _SystemDirectoryServicesAccountManagement;
             }
@@ -2407,7 +2407,7 @@ public static partial class Net472
             {
                 if (_SystemDirectoryServices is null)
                 {
-                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServices).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net472)");
+                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.DirectoryServices")).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net472)");
                 }
                 return _SystemDirectoryServices;
             }
@@ -2424,7 +2424,7 @@ public static partial class Net472
             {
                 if (_SystemDirectoryServicesProtocols is null)
                 {
-                    _SystemDirectoryServicesProtocols = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesProtocols).GetReference(filePath: "System.DirectoryServices.Protocols.dll", display: "System.DirectoryServices.Protocols (net472)");
+                    _SystemDirectoryServicesProtocols = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.DirectoryServices.Protocols")).GetReference(filePath: "System.DirectoryServices.Protocols.dll", display: "System.DirectoryServices.Protocols (net472)");
                 }
                 return _SystemDirectoryServicesProtocols;
             }
@@ -2441,7 +2441,7 @@ public static partial class Net472
             {
                 if (_System is null)
                 {
-                    _System = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (net472)");
+                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System")).GetReference(filePath: "System.dll", display: "System (net472)");
                 }
                 return _System;
             }
@@ -2458,7 +2458,7 @@ public static partial class Net472
             {
                 if (_SystemDrawingDesign is null)
                 {
-                    _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingDesign).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net472)");
+                    _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Drawing.Design")).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net472)");
                 }
                 return _SystemDrawingDesign;
             }
@@ -2475,7 +2475,7 @@ public static partial class Net472
             {
                 if (_SystemDrawing is null)
                 {
-                    _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net472)");
+                    _SystemDrawing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Drawing")).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net472)");
                 }
                 return _SystemDrawing;
             }
@@ -2492,7 +2492,7 @@ public static partial class Net472
             {
                 if (_SystemDynamic is null)
                 {
-                    _SystemDynamic = AssemblyMetadata.CreateFromImage(Resources.SystemDynamic).GetReference(filePath: "System.Dynamic.dll", display: "System.Dynamic (net472)");
+                    _SystemDynamic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Dynamic")).GetReference(filePath: "System.Dynamic.dll", display: "System.Dynamic (net472)");
                 }
                 return _SystemDynamic;
             }
@@ -2509,7 +2509,7 @@ public static partial class Net472
             {
                 if (_SystemEnterpriseServices is null)
                 {
-                    _SystemEnterpriseServices = AssemblyMetadata.CreateFromImage(Resources.SystemEnterpriseServices).GetReference(filePath: "System.EnterpriseServices.dll", display: "System.EnterpriseServices (net472)");
+                    _SystemEnterpriseServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.EnterpriseServices")).GetReference(filePath: "System.EnterpriseServices.dll", display: "System.EnterpriseServices (net472)");
                 }
                 return _SystemEnterpriseServices;
             }
@@ -2526,7 +2526,7 @@ public static partial class Net472
             {
                 if (_SystemIdentityModel is null)
                 {
-                    _SystemIdentityModel = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModel).GetReference(filePath: "System.IdentityModel.dll", display: "System.IdentityModel (net472)");
+                    _SystemIdentityModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IdentityModel")).GetReference(filePath: "System.IdentityModel.dll", display: "System.IdentityModel (net472)");
                 }
                 return _SystemIdentityModel;
             }
@@ -2543,7 +2543,7 @@ public static partial class Net472
             {
                 if (_SystemIdentityModelSelectors is null)
                 {
-                    _SystemIdentityModelSelectors = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModelSelectors).GetReference(filePath: "System.IdentityModel.Selectors.dll", display: "System.IdentityModel.Selectors (net472)");
+                    _SystemIdentityModelSelectors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IdentityModel.Selectors")).GetReference(filePath: "System.IdentityModel.Selectors.dll", display: "System.IdentityModel.Selectors (net472)");
                 }
                 return _SystemIdentityModelSelectors;
             }
@@ -2560,7 +2560,7 @@ public static partial class Net472
             {
                 if (_SystemIdentityModelServices is null)
                 {
-                    _SystemIdentityModelServices = AssemblyMetadata.CreateFromImage(Resources.SystemIdentityModelServices).GetReference(filePath: "System.IdentityModel.Services.dll", display: "System.IdentityModel.Services (net472)");
+                    _SystemIdentityModelServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IdentityModel.Services")).GetReference(filePath: "System.IdentityModel.Services.dll", display: "System.IdentityModel.Services (net472)");
                 }
                 return _SystemIdentityModelServices;
             }
@@ -2577,7 +2577,7 @@ public static partial class Net472
             {
                 if (_SystemIOCompression is null)
                 {
-                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (net472)");
+                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (net472)");
                 }
                 return _SystemIOCompression;
             }
@@ -2594,7 +2594,7 @@ public static partial class Net472
             {
                 if (_SystemIOCompressionFileSystem is null)
                 {
-                    _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionFileSystem).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (net472)");
+                    _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IO.Compression.FileSystem")).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (net472)");
                 }
                 return _SystemIOCompressionFileSystem;
             }
@@ -2611,7 +2611,7 @@ public static partial class Net472
             {
                 if (_SystemIOLog is null)
                 {
-                    _SystemIOLog = AssemblyMetadata.CreateFromImage(Resources.SystemIOLog).GetReference(filePath: "System.IO.Log.dll", display: "System.IO.Log (net472)");
+                    _SystemIOLog = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IO.Log")).GetReference(filePath: "System.IO.Log.dll", display: "System.IO.Log (net472)");
                 }
                 return _SystemIOLog;
             }
@@ -2628,7 +2628,7 @@ public static partial class Net472
             {
                 if (_SystemManagement is null)
                 {
-                    _SystemManagement = AssemblyMetadata.CreateFromImage(Resources.SystemManagement).GetReference(filePath: "System.Management.dll", display: "System.Management (net472)");
+                    _SystemManagement = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Management")).GetReference(filePath: "System.Management.dll", display: "System.Management (net472)");
                 }
                 return _SystemManagement;
             }
@@ -2645,7 +2645,7 @@ public static partial class Net472
             {
                 if (_SystemManagementInstrumentation is null)
                 {
-                    _SystemManagementInstrumentation = AssemblyMetadata.CreateFromImage(Resources.SystemManagementInstrumentation).GetReference(filePath: "System.Management.Instrumentation.dll", display: "System.Management.Instrumentation (net472)");
+                    _SystemManagementInstrumentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Management.Instrumentation")).GetReference(filePath: "System.Management.Instrumentation.dll", display: "System.Management.Instrumentation (net472)");
                 }
                 return _SystemManagementInstrumentation;
             }
@@ -2662,7 +2662,7 @@ public static partial class Net472
             {
                 if (_SystemMessaging is null)
                 {
-                    _SystemMessaging = AssemblyMetadata.CreateFromImage(Resources.SystemMessaging).GetReference(filePath: "System.Messaging.dll", display: "System.Messaging (net472)");
+                    _SystemMessaging = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Messaging")).GetReference(filePath: "System.Messaging.dll", display: "System.Messaging (net472)");
                 }
                 return _SystemMessaging;
             }
@@ -2679,7 +2679,7 @@ public static partial class Net472
             {
                 if (_SystemNet is null)
                 {
-                    _SystemNet = AssemblyMetadata.CreateFromImage(Resources.SystemNet).GetReference(filePath: "System.Net.dll", display: "System.Net (net472)");
+                    _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (net472)");
                 }
                 return _SystemNet;
             }
@@ -2696,7 +2696,7 @@ public static partial class Net472
             {
                 if (_SystemNetHttp is null)
                 {
-                    _SystemNetHttp = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (net472)");
+                    _SystemNetHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Net.Http")).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (net472)");
                 }
                 return _SystemNetHttp;
             }
@@ -2713,7 +2713,7 @@ public static partial class Net472
             {
                 if (_SystemNetHttpWebRequest is null)
                 {
-                    _SystemNetHttpWebRequest = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpWebRequest).GetReference(filePath: "System.Net.Http.WebRequest.dll", display: "System.Net.Http.WebRequest (net472)");
+                    _SystemNetHttpWebRequest = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Net.Http.WebRequest")).GetReference(filePath: "System.Net.Http.WebRequest.dll", display: "System.Net.Http.WebRequest (net472)");
                 }
                 return _SystemNetHttpWebRequest;
             }
@@ -2730,7 +2730,7 @@ public static partial class Net472
             {
                 if (_SystemNumerics is null)
                 {
-                    _SystemNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemNumerics).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net472)");
+                    _SystemNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Numerics")).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net472)");
                 }
                 return _SystemNumerics;
             }
@@ -2747,7 +2747,7 @@ public static partial class Net472
             {
                 if (_SystemPrinting is null)
                 {
-                    _SystemPrinting = AssemblyMetadata.CreateFromImage(Resources.SystemPrinting).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net472)");
+                    _SystemPrinting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Printing")).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net472)");
                 }
                 return _SystemPrinting;
             }
@@ -2764,7 +2764,7 @@ public static partial class Net472
             {
                 if (_SystemReflectionContext is null)
                 {
-                    _SystemReflectionContext = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionContext).GetReference(filePath: "System.Reflection.Context.dll", display: "System.Reflection.Context (net472)");
+                    _SystemReflectionContext = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Reflection.Context")).GetReference(filePath: "System.Reflection.Context.dll", display: "System.Reflection.Context (net472)");
                 }
                 return _SystemReflectionContext;
             }
@@ -2781,7 +2781,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeCaching is null)
                 {
-                    _SystemRuntimeCaching = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCaching).GetReference(filePath: "System.Runtime.Caching.dll", display: "System.Runtime.Caching (net472)");
+                    _SystemRuntimeCaching = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.Caching")).GetReference(filePath: "System.Runtime.Caching.dll", display: "System.Runtime.Caching (net472)");
                 }
                 return _SystemRuntimeCaching;
             }
@@ -2798,7 +2798,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeDurableInstancing is null)
                 {
-                    _SystemRuntimeDurableInstancing = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeDurableInstancing).GetReference(filePath: "System.Runtime.DurableInstancing.dll", display: "System.Runtime.DurableInstancing (net472)");
+                    _SystemRuntimeDurableInstancing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.DurableInstancing")).GetReference(filePath: "System.Runtime.DurableInstancing.dll", display: "System.Runtime.DurableInstancing (net472)");
                 }
                 return _SystemRuntimeDurableInstancing;
             }
@@ -2815,7 +2815,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeRemoting is null)
                 {
-                    _SystemRuntimeRemoting = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeRemoting).GetReference(filePath: "System.Runtime.Remoting.dll", display: "System.Runtime.Remoting (net472)");
+                    _SystemRuntimeRemoting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.Remoting")).GetReference(filePath: "System.Runtime.Remoting.dll", display: "System.Runtime.Remoting (net472)");
                 }
                 return _SystemRuntimeRemoting;
             }
@@ -2832,7 +2832,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeSerialization is null)
                 {
-                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerialization).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net472)");
+                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net472)");
                 }
                 return _SystemRuntimeSerialization;
             }
@@ -2849,7 +2849,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeSerializationFormattersSoap is null)
                 {
-                    _SystemRuntimeSerializationFormattersSoap = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormattersSoap).GetReference(filePath: "System.Runtime.Serialization.Formatters.Soap.dll", display: "System.Runtime.Serialization.Formatters.Soap (net472)");
+                    _SystemRuntimeSerializationFormattersSoap = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.Serialization.Formatters.Soap")).GetReference(filePath: "System.Runtime.Serialization.Formatters.Soap.dll", display: "System.Runtime.Serialization.Formatters.Soap (net472)");
                 }
                 return _SystemRuntimeSerializationFormattersSoap;
             }
@@ -2866,7 +2866,7 @@ public static partial class Net472
             {
                 if (_SystemSecurity is null)
                 {
-                    _SystemSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemSecurity).GetReference(filePath: "System.Security.dll", display: "System.Security (net472)");
+                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (net472)");
                 }
                 return _SystemSecurity;
             }
@@ -2883,7 +2883,7 @@ public static partial class Net472
             {
                 if (_SystemServiceModelActivation is null)
                 {
-                    _SystemServiceModelActivation = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelActivation).GetReference(filePath: "System.ServiceModel.Activation.dll", display: "System.ServiceModel.Activation (net472)");
+                    _SystemServiceModelActivation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ServiceModel.Activation")).GetReference(filePath: "System.ServiceModel.Activation.dll", display: "System.ServiceModel.Activation (net472)");
                 }
                 return _SystemServiceModelActivation;
             }
@@ -2900,7 +2900,7 @@ public static partial class Net472
             {
                 if (_SystemServiceModelActivities is null)
                 {
-                    _SystemServiceModelActivities = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelActivities).GetReference(filePath: "System.ServiceModel.Activities.dll", display: "System.ServiceModel.Activities (net472)");
+                    _SystemServiceModelActivities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ServiceModel.Activities")).GetReference(filePath: "System.ServiceModel.Activities.dll", display: "System.ServiceModel.Activities (net472)");
                 }
                 return _SystemServiceModelActivities;
             }
@@ -2917,7 +2917,7 @@ public static partial class Net472
             {
                 if (_SystemServiceModelChannels is null)
                 {
-                    _SystemServiceModelChannels = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelChannels).GetReference(filePath: "System.ServiceModel.Channels.dll", display: "System.ServiceModel.Channels (net472)");
+                    _SystemServiceModelChannels = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ServiceModel.Channels")).GetReference(filePath: "System.ServiceModel.Channels.dll", display: "System.ServiceModel.Channels (net472)");
                 }
                 return _SystemServiceModelChannels;
             }
@@ -2934,7 +2934,7 @@ public static partial class Net472
             {
                 if (_SystemServiceModelDiscovery is null)
                 {
-                    _SystemServiceModelDiscovery = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelDiscovery).GetReference(filePath: "System.ServiceModel.Discovery.dll", display: "System.ServiceModel.Discovery (net472)");
+                    _SystemServiceModelDiscovery = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ServiceModel.Discovery")).GetReference(filePath: "System.ServiceModel.Discovery.dll", display: "System.ServiceModel.Discovery (net472)");
                 }
                 return _SystemServiceModelDiscovery;
             }
@@ -2951,7 +2951,7 @@ public static partial class Net472
             {
                 if (_SystemServiceModel is null)
                 {
-                    _SystemServiceModel = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModel).GetReference(filePath: "System.ServiceModel.dll", display: "System.ServiceModel (net472)");
+                    _SystemServiceModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ServiceModel")).GetReference(filePath: "System.ServiceModel.dll", display: "System.ServiceModel (net472)");
                 }
                 return _SystemServiceModel;
             }
@@ -2968,7 +2968,7 @@ public static partial class Net472
             {
                 if (_SystemServiceModelRouting is null)
                 {
-                    _SystemServiceModelRouting = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelRouting).GetReference(filePath: "System.ServiceModel.Routing.dll", display: "System.ServiceModel.Routing (net472)");
+                    _SystemServiceModelRouting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ServiceModel.Routing")).GetReference(filePath: "System.ServiceModel.Routing.dll", display: "System.ServiceModel.Routing (net472)");
                 }
                 return _SystemServiceModelRouting;
             }
@@ -2985,7 +2985,7 @@ public static partial class Net472
             {
                 if (_SystemServiceModelWeb is null)
                 {
-                    _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelWeb).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (net472)");
+                    _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ServiceModel.Web")).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (net472)");
                 }
                 return _SystemServiceModelWeb;
             }
@@ -3002,7 +3002,7 @@ public static partial class Net472
             {
                 if (_SystemServiceProcess is null)
                 {
-                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(Resources.SystemServiceProcess).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net472)");
+                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ServiceProcess")).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net472)");
                 }
                 return _SystemServiceProcess;
             }
@@ -3019,7 +3019,7 @@ public static partial class Net472
             {
                 if (_SystemSpeech is null)
                 {
-                    _SystemSpeech = AssemblyMetadata.CreateFromImage(Resources.SystemSpeech).GetReference(filePath: "System.Speech.dll", display: "System.Speech (net472)");
+                    _SystemSpeech = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Speech")).GetReference(filePath: "System.Speech.dll", display: "System.Speech (net472)");
                 }
                 return _SystemSpeech;
             }
@@ -3036,7 +3036,7 @@ public static partial class Net472
             {
                 if (_SystemTransactions is null)
                 {
-                    _SystemTransactions = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net472)");
+                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net472)");
                 }
                 return _SystemTransactions;
             }
@@ -3053,7 +3053,7 @@ public static partial class Net472
             {
                 if (_SystemWebAbstractions is null)
                 {
-                    _SystemWebAbstractions = AssemblyMetadata.CreateFromImage(Resources.SystemWebAbstractions).GetReference(filePath: "System.Web.Abstractions.dll", display: "System.Web.Abstractions (net472)");
+                    _SystemWebAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web.Abstractions")).GetReference(filePath: "System.Web.Abstractions.dll", display: "System.Web.Abstractions (net472)");
                 }
                 return _SystemWebAbstractions;
             }
@@ -3070,7 +3070,7 @@ public static partial class Net472
             {
                 if (_SystemWebApplicationServices is null)
                 {
-                    _SystemWebApplicationServices = AssemblyMetadata.CreateFromImage(Resources.SystemWebApplicationServices).GetReference(filePath: "System.Web.ApplicationServices.dll", display: "System.Web.ApplicationServices (net472)");
+                    _SystemWebApplicationServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web.ApplicationServices")).GetReference(filePath: "System.Web.ApplicationServices.dll", display: "System.Web.ApplicationServices (net472)");
                 }
                 return _SystemWebApplicationServices;
             }
@@ -3087,7 +3087,7 @@ public static partial class Net472
             {
                 if (_SystemWebDataVisualizationDesign is null)
                 {
-                    _SystemWebDataVisualizationDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebDataVisualizationDesign).GetReference(filePath: "System.Web.DataVisualization.Design.dll", display: "System.Web.DataVisualization.Design (net472)");
+                    _SystemWebDataVisualizationDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web.DataVisualization.Design")).GetReference(filePath: "System.Web.DataVisualization.Design.dll", display: "System.Web.DataVisualization.Design (net472)");
                 }
                 return _SystemWebDataVisualizationDesign;
             }
@@ -3104,7 +3104,7 @@ public static partial class Net472
             {
                 if (_SystemWebDataVisualization is null)
                 {
-                    _SystemWebDataVisualization = AssemblyMetadata.CreateFromImage(Resources.SystemWebDataVisualization).GetReference(filePath: "System.Web.DataVisualization.dll", display: "System.Web.DataVisualization (net472)");
+                    _SystemWebDataVisualization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web.DataVisualization")).GetReference(filePath: "System.Web.DataVisualization.dll", display: "System.Web.DataVisualization (net472)");
                 }
                 return _SystemWebDataVisualization;
             }
@@ -3121,7 +3121,7 @@ public static partial class Net472
             {
                 if (_SystemWeb is null)
                 {
-                    _SystemWeb = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (net472)");
+                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (net472)");
                 }
                 return _SystemWeb;
             }
@@ -3138,7 +3138,7 @@ public static partial class Net472
             {
                 if (_SystemWebDynamicDataDesign is null)
                 {
-                    _SystemWebDynamicDataDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebDynamicDataDesign).GetReference(filePath: "System.Web.DynamicData.Design.dll", display: "System.Web.DynamicData.Design (net472)");
+                    _SystemWebDynamicDataDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web.DynamicData.Design")).GetReference(filePath: "System.Web.DynamicData.Design.dll", display: "System.Web.DynamicData.Design (net472)");
                 }
                 return _SystemWebDynamicDataDesign;
             }
@@ -3155,7 +3155,7 @@ public static partial class Net472
             {
                 if (_SystemWebDynamicData is null)
                 {
-                    _SystemWebDynamicData = AssemblyMetadata.CreateFromImage(Resources.SystemWebDynamicData).GetReference(filePath: "System.Web.DynamicData.dll", display: "System.Web.DynamicData (net472)");
+                    _SystemWebDynamicData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web.DynamicData")).GetReference(filePath: "System.Web.DynamicData.dll", display: "System.Web.DynamicData (net472)");
                 }
                 return _SystemWebDynamicData;
             }
@@ -3172,7 +3172,7 @@ public static partial class Net472
             {
                 if (_SystemWebEntityDesign is null)
                 {
-                    _SystemWebEntityDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebEntityDesign).GetReference(filePath: "System.Web.Entity.Design.dll", display: "System.Web.Entity.Design (net472)");
+                    _SystemWebEntityDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web.Entity.Design")).GetReference(filePath: "System.Web.Entity.Design.dll", display: "System.Web.Entity.Design (net472)");
                 }
                 return _SystemWebEntityDesign;
             }
@@ -3189,7 +3189,7 @@ public static partial class Net472
             {
                 if (_SystemWebEntity is null)
                 {
-                    _SystemWebEntity = AssemblyMetadata.CreateFromImage(Resources.SystemWebEntity).GetReference(filePath: "System.Web.Entity.dll", display: "System.Web.Entity (net472)");
+                    _SystemWebEntity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web.Entity")).GetReference(filePath: "System.Web.Entity.dll", display: "System.Web.Entity (net472)");
                 }
                 return _SystemWebEntity;
             }
@@ -3206,7 +3206,7 @@ public static partial class Net472
             {
                 if (_SystemWebExtensionsDesign is null)
                 {
-                    _SystemWebExtensionsDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWebExtensionsDesign).GetReference(filePath: "System.Web.Extensions.Design.dll", display: "System.Web.Extensions.Design (net472)");
+                    _SystemWebExtensionsDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web.Extensions.Design")).GetReference(filePath: "System.Web.Extensions.Design.dll", display: "System.Web.Extensions.Design (net472)");
                 }
                 return _SystemWebExtensionsDesign;
             }
@@ -3223,7 +3223,7 @@ public static partial class Net472
             {
                 if (_SystemWebExtensions is null)
                 {
-                    _SystemWebExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemWebExtensions).GetReference(filePath: "System.Web.Extensions.dll", display: "System.Web.Extensions (net472)");
+                    _SystemWebExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web.Extensions")).GetReference(filePath: "System.Web.Extensions.dll", display: "System.Web.Extensions (net472)");
                 }
                 return _SystemWebExtensions;
             }
@@ -3240,7 +3240,7 @@ public static partial class Net472
             {
                 if (_SystemWebMobile is null)
                 {
-                    _SystemWebMobile = AssemblyMetadata.CreateFromImage(Resources.SystemWebMobile).GetReference(filePath: "System.Web.Mobile.dll", display: "System.Web.Mobile (net472)");
+                    _SystemWebMobile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web.Mobile")).GetReference(filePath: "System.Web.Mobile.dll", display: "System.Web.Mobile (net472)");
                 }
                 return _SystemWebMobile;
             }
@@ -3257,7 +3257,7 @@ public static partial class Net472
             {
                 if (_SystemWebRegularExpressions is null)
                 {
-                    _SystemWebRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemWebRegularExpressions).GetReference(filePath: "System.Web.RegularExpressions.dll", display: "System.Web.RegularExpressions (net472)");
+                    _SystemWebRegularExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web.RegularExpressions")).GetReference(filePath: "System.Web.RegularExpressions.dll", display: "System.Web.RegularExpressions (net472)");
                 }
                 return _SystemWebRegularExpressions;
             }
@@ -3274,7 +3274,7 @@ public static partial class Net472
             {
                 if (_SystemWebRouting is null)
                 {
-                    _SystemWebRouting = AssemblyMetadata.CreateFromImage(Resources.SystemWebRouting).GetReference(filePath: "System.Web.Routing.dll", display: "System.Web.Routing (net472)");
+                    _SystemWebRouting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web.Routing")).GetReference(filePath: "System.Web.Routing.dll", display: "System.Web.Routing (net472)");
                 }
                 return _SystemWebRouting;
             }
@@ -3291,7 +3291,7 @@ public static partial class Net472
             {
                 if (_SystemWebServices is null)
                 {
-                    _SystemWebServices = AssemblyMetadata.CreateFromImage(Resources.SystemWebServices).GetReference(filePath: "System.Web.Services.dll", display: "System.Web.Services (net472)");
+                    _SystemWebServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Web.Services")).GetReference(filePath: "System.Web.Services.dll", display: "System.Web.Services (net472)");
                 }
                 return _SystemWebServices;
             }
@@ -3308,7 +3308,7 @@ public static partial class Net472
             {
                 if (_SystemWindowsControlsRibbon is null)
                 {
-                    _SystemWindowsControlsRibbon = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsControlsRibbon).GetReference(filePath: "System.Windows.Controls.Ribbon.dll", display: "System.Windows.Controls.Ribbon (net472)");
+                    _SystemWindowsControlsRibbon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Windows.Controls.Ribbon")).GetReference(filePath: "System.Windows.Controls.Ribbon.dll", display: "System.Windows.Controls.Ribbon (net472)");
                 }
                 return _SystemWindowsControlsRibbon;
             }
@@ -3325,7 +3325,7 @@ public static partial class Net472
             {
                 if (_SystemWindows is null)
                 {
-                    _SystemWindows = AssemblyMetadata.CreateFromImage(Resources.SystemWindows).GetReference(filePath: "System.Windows.dll", display: "System.Windows (net472)");
+                    _SystemWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Windows")).GetReference(filePath: "System.Windows.dll", display: "System.Windows (net472)");
                 }
                 return _SystemWindows;
             }
@@ -3342,7 +3342,7 @@ public static partial class Net472
             {
                 if (_SystemWindowsFormsDataVisualizationDesign is null)
                 {
-                    _SystemWindowsFormsDataVisualizationDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDataVisualizationDesign).GetReference(filePath: "System.Windows.Forms.DataVisualization.Design.dll", display: "System.Windows.Forms.DataVisualization.Design (net472)");
+                    _SystemWindowsFormsDataVisualizationDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Windows.Forms.DataVisualization.Design")).GetReference(filePath: "System.Windows.Forms.DataVisualization.Design.dll", display: "System.Windows.Forms.DataVisualization.Design (net472)");
                 }
                 return _SystemWindowsFormsDataVisualizationDesign;
             }
@@ -3359,7 +3359,7 @@ public static partial class Net472
             {
                 if (_SystemWindowsFormsDataVisualization is null)
                 {
-                    _SystemWindowsFormsDataVisualization = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDataVisualization).GetReference(filePath: "System.Windows.Forms.DataVisualization.dll", display: "System.Windows.Forms.DataVisualization (net472)");
+                    _SystemWindowsFormsDataVisualization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Windows.Forms.DataVisualization")).GetReference(filePath: "System.Windows.Forms.DataVisualization.dll", display: "System.Windows.Forms.DataVisualization (net472)");
                 }
                 return _SystemWindowsFormsDataVisualization;
             }
@@ -3376,7 +3376,7 @@ public static partial class Net472
             {
                 if (_SystemWindowsForms is null)
                 {
-                    _SystemWindowsForms = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsForms).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net472)");
+                    _SystemWindowsForms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Windows.Forms")).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net472)");
                 }
                 return _SystemWindowsForms;
             }
@@ -3393,7 +3393,7 @@ public static partial class Net472
             {
                 if (_SystemWindowsInputManipulations is null)
                 {
-                    _SystemWindowsInputManipulations = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsInputManipulations).GetReference(filePath: "System.Windows.Input.Manipulations.dll", display: "System.Windows.Input.Manipulations (net472)");
+                    _SystemWindowsInputManipulations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Windows.Input.Manipulations")).GetReference(filePath: "System.Windows.Input.Manipulations.dll", display: "System.Windows.Input.Manipulations (net472)");
                 }
                 return _SystemWindowsInputManipulations;
             }
@@ -3410,7 +3410,7 @@ public static partial class Net472
             {
                 if (_SystemWindowsPresentation is null)
                 {
-                    _SystemWindowsPresentation = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsPresentation).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net472)");
+                    _SystemWindowsPresentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Windows.Presentation")).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net472)");
                 }
                 return _SystemWindowsPresentation;
             }
@@ -3427,7 +3427,7 @@ public static partial class Net472
             {
                 if (_SystemWorkflowActivities is null)
                 {
-                    _SystemWorkflowActivities = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowActivities).GetReference(filePath: "System.Workflow.Activities.dll", display: "System.Workflow.Activities (net472)");
+                    _SystemWorkflowActivities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Workflow.Activities")).GetReference(filePath: "System.Workflow.Activities.dll", display: "System.Workflow.Activities (net472)");
                 }
                 return _SystemWorkflowActivities;
             }
@@ -3444,7 +3444,7 @@ public static partial class Net472
             {
                 if (_SystemWorkflowComponentModel is null)
                 {
-                    _SystemWorkflowComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowComponentModel).GetReference(filePath: "System.Workflow.ComponentModel.dll", display: "System.Workflow.ComponentModel (net472)");
+                    _SystemWorkflowComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Workflow.ComponentModel")).GetReference(filePath: "System.Workflow.ComponentModel.dll", display: "System.Workflow.ComponentModel (net472)");
                 }
                 return _SystemWorkflowComponentModel;
             }
@@ -3461,7 +3461,7 @@ public static partial class Net472
             {
                 if (_SystemWorkflowRuntime is null)
                 {
-                    _SystemWorkflowRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowRuntime).GetReference(filePath: "System.Workflow.Runtime.dll", display: "System.Workflow.Runtime (net472)");
+                    _SystemWorkflowRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Workflow.Runtime")).GetReference(filePath: "System.Workflow.Runtime.dll", display: "System.Workflow.Runtime (net472)");
                 }
                 return _SystemWorkflowRuntime;
             }
@@ -3478,7 +3478,7 @@ public static partial class Net472
             {
                 if (_SystemWorkflowServices is null)
                 {
-                    _SystemWorkflowServices = AssemblyMetadata.CreateFromImage(Resources.SystemWorkflowServices).GetReference(filePath: "System.WorkflowServices.dll", display: "System.WorkflowServices (net472)");
+                    _SystemWorkflowServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.WorkflowServices")).GetReference(filePath: "System.WorkflowServices.dll", display: "System.WorkflowServices (net472)");
                 }
                 return _SystemWorkflowServices;
             }
@@ -3495,7 +3495,7 @@ public static partial class Net472
             {
                 if (_SystemXaml is null)
                 {
-                    _SystemXaml = AssemblyMetadata.CreateFromImage(Resources.SystemXaml).GetReference(filePath: "System.Xaml.dll", display: "System.Xaml (net472)");
+                    _SystemXaml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Xaml")).GetReference(filePath: "System.Xaml.dll", display: "System.Xaml (net472)");
                 }
                 return _SystemXaml;
             }
@@ -3512,7 +3512,7 @@ public static partial class Net472
             {
                 if (_SystemXml is null)
                 {
-                    _SystemXml = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net472)");
+                    _SystemXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Xml")).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net472)");
                 }
                 return _SystemXml;
             }
@@ -3529,7 +3529,7 @@ public static partial class Net472
             {
                 if (_SystemXmlLinq is null)
                 {
-                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(Resources.SystemXmlLinq).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net472)");
+                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Xml.Linq")).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net472)");
                 }
                 return _SystemXmlLinq;
             }
@@ -3546,7 +3546,7 @@ public static partial class Net472
             {
                 if (_SystemXmlSerialization is null)
                 {
-                    _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemXmlSerialization).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (net472)");
+                    _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Xml.Serialization")).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (net472)");
                 }
                 return _SystemXmlSerialization;
             }
@@ -3563,7 +3563,7 @@ public static partial class Net472
             {
                 if (_UIAutomationClient is null)
                 {
-                    _UIAutomationClient = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClient).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net472)");
+                    _UIAutomationClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.UIAutomationClient")).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net472)");
                 }
                 return _UIAutomationClient;
             }
@@ -3580,7 +3580,7 @@ public static partial class Net472
             {
                 if (_UIAutomationClientsideProviders is null)
                 {
-                    _UIAutomationClientsideProviders = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClientsideProviders).GetReference(filePath: "UIAutomationClientsideProviders.dll", display: "UIAutomationClientsideProviders (net472)");
+                    _UIAutomationClientsideProviders = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.UIAutomationClientsideProviders")).GetReference(filePath: "UIAutomationClientsideProviders.dll", display: "UIAutomationClientsideProviders (net472)");
                 }
                 return _UIAutomationClientsideProviders;
             }
@@ -3597,7 +3597,7 @@ public static partial class Net472
             {
                 if (_UIAutomationProvider is null)
                 {
-                    _UIAutomationProvider = AssemblyMetadata.CreateFromImage(Resources.UIAutomationProvider).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net472)");
+                    _UIAutomationProvider = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.UIAutomationProvider")).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net472)");
                 }
                 return _UIAutomationProvider;
             }
@@ -3614,7 +3614,7 @@ public static partial class Net472
             {
                 if (_UIAutomationTypes is null)
                 {
-                    _UIAutomationTypes = AssemblyMetadata.CreateFromImage(Resources.UIAutomationTypes).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net472)");
+                    _UIAutomationTypes = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.UIAutomationTypes")).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net472)");
                 }
                 return _UIAutomationTypes;
             }
@@ -3631,7 +3631,7 @@ public static partial class Net472
             {
                 if (_WindowsBase is null)
                 {
-                    _WindowsBase = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net472)");
+                    _WindowsBase = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.WindowsBase")).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net472)");
                 }
                 return _WindowsBase;
             }
@@ -3648,7 +3648,7 @@ public static partial class Net472
             {
                 if (_WindowsFormsIntegration is null)
                 {
-                    _WindowsFormsIntegration = AssemblyMetadata.CreateFromImage(Resources.WindowsFormsIntegration).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net472)");
+                    _WindowsFormsIntegration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.WindowsFormsIntegration")).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net472)");
                 }
                 return _WindowsFormsIntegration;
             }
@@ -3665,7 +3665,7 @@ public static partial class Net472
             {
                 if (_XamlBuildTask is null)
                 {
-                    _XamlBuildTask = AssemblyMetadata.CreateFromImage(Resources.XamlBuildTask).GetReference(filePath: "XamlBuildTask.dll", display: "XamlBuildTask (net472)");
+                    _XamlBuildTask = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.XamlBuildTask")).GetReference(filePath: "XamlBuildTask.dll", display: "XamlBuildTask (net472)");
                 }
                 return _XamlBuildTask;
             }
@@ -3682,7 +3682,7 @@ public static partial class Net472
             {
                 if (_MicrosoftWin32Primitives is null)
                 {
-                    _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Primitives).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (net472)");
+                    _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.Microsoft.Win32.Primitives")).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (net472)");
                 }
                 return _MicrosoftWin32Primitives;
             }
@@ -3699,7 +3699,7 @@ public static partial class Net472
             {
                 if (_netstandard is null)
                 {
-                    _netstandard = AssemblyMetadata.CreateFromImage(Resources.netstandard).GetReference(filePath: "netstandard.dll", display: "netstandard (net472)");
+                    _netstandard = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.netstandard")).GetReference(filePath: "netstandard.dll", display: "netstandard (net472)");
                 }
                 return _netstandard;
             }
@@ -3716,7 +3716,7 @@ public static partial class Net472
             {
                 if (_SystemAppContext is null)
                 {
-                    _SystemAppContext = AssemblyMetadata.CreateFromImage(Resources.SystemAppContext).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (net472)");
+                    _SystemAppContext = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.AppContext")).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (net472)");
                 }
                 return _SystemAppContext;
             }
@@ -3733,7 +3733,7 @@ public static partial class Net472
             {
                 if (_SystemCollectionsConcurrent is null)
                 {
-                    _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (net472)");
+                    _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Collections.Concurrent")).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (net472)");
                 }
                 return _SystemCollectionsConcurrent;
             }
@@ -3750,7 +3750,7 @@ public static partial class Net472
             {
                 if (_SystemCollections is null)
                 {
-                    _SystemCollections = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (net472)");
+                    _SystemCollections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Collections")).GetReference(filePath: "System.Collections.dll", display: "System.Collections (net472)");
                 }
                 return _SystemCollections;
             }
@@ -3767,7 +3767,7 @@ public static partial class Net472
             {
                 if (_SystemCollectionsNonGeneric is null)
                 {
-                    _SystemCollectionsNonGeneric = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsNonGeneric).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (net472)");
+                    _SystemCollectionsNonGeneric = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Collections.NonGeneric")).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (net472)");
                 }
                 return _SystemCollectionsNonGeneric;
             }
@@ -3784,7 +3784,7 @@ public static partial class Net472
             {
                 if (_SystemCollectionsSpecialized is null)
                 {
-                    _SystemCollectionsSpecialized = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsSpecialized).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (net472)");
+                    _SystemCollectionsSpecialized = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Collections.Specialized")).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (net472)");
                 }
                 return _SystemCollectionsSpecialized;
             }
@@ -3801,7 +3801,7 @@ public static partial class Net472
             {
                 if (_SystemComponentModelAnnotations is null)
                 {
-                    _SystemComponentModelAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelAnnotations).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (net472)");
+                    _SystemComponentModelAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ComponentModel.Annotations")).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (net472)");
                 }
                 return _SystemComponentModelAnnotations;
             }
@@ -3818,7 +3818,7 @@ public static partial class Net472
             {
                 if (_SystemComponentModel is null)
                 {
-                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModel).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (net472)");
+                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ComponentModel")).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (net472)");
                 }
                 return _SystemComponentModel;
             }
@@ -3835,7 +3835,7 @@ public static partial class Net472
             {
                 if (_SystemComponentModelEventBasedAsync is null)
                 {
-                    _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelEventBasedAsync).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (net472)");
+                    _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ComponentModel.EventBasedAsync")).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (net472)");
                 }
                 return _SystemComponentModelEventBasedAsync;
             }
@@ -3852,7 +3852,7 @@ public static partial class Net472
             {
                 if (_SystemComponentModelPrimitives is null)
                 {
-                    _SystemComponentModelPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelPrimitives).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (net472)");
+                    _SystemComponentModelPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ComponentModel.Primitives")).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (net472)");
                 }
                 return _SystemComponentModelPrimitives;
             }
@@ -3869,7 +3869,7 @@ public static partial class Net472
             {
                 if (_SystemComponentModelTypeConverter is null)
                 {
-                    _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelTypeConverter).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (net472)");
+                    _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ComponentModel.TypeConverter")).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (net472)");
                 }
                 return _SystemComponentModelTypeConverter;
             }
@@ -3886,7 +3886,7 @@ public static partial class Net472
             {
                 if (_SystemConsole is null)
                 {
-                    _SystemConsole = AssemblyMetadata.CreateFromImage(Resources.SystemConsole).GetReference(filePath: "System.Console.dll", display: "System.Console (net472)");
+                    _SystemConsole = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Console")).GetReference(filePath: "System.Console.dll", display: "System.Console (net472)");
                 }
                 return _SystemConsole;
             }
@@ -3903,7 +3903,7 @@ public static partial class Net472
             {
                 if (_SystemDataCommon is null)
                 {
-                    _SystemDataCommon = AssemblyMetadata.CreateFromImage(Resources.SystemDataCommon).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (net472)");
+                    _SystemDataCommon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Data.Common")).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (net472)");
                 }
                 return _SystemDataCommon;
             }
@@ -3920,7 +3920,7 @@ public static partial class Net472
             {
                 if (_SystemDiagnosticsContracts is null)
                 {
-                    _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsContracts).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (net472)");
+                    _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Diagnostics.Contracts")).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (net472)");
                 }
                 return _SystemDiagnosticsContracts;
             }
@@ -3937,7 +3937,7 @@ public static partial class Net472
             {
                 if (_SystemDiagnosticsDebug is null)
                 {
-                    _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (net472)");
+                    _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Diagnostics.Debug")).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (net472)");
                 }
                 return _SystemDiagnosticsDebug;
             }
@@ -3954,7 +3954,7 @@ public static partial class Net472
             {
                 if (_SystemDiagnosticsFileVersionInfo is null)
                 {
-                    _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsFileVersionInfo).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (net472)");
+                    _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Diagnostics.FileVersionInfo")).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (net472)");
                 }
                 return _SystemDiagnosticsFileVersionInfo;
             }
@@ -3971,7 +3971,7 @@ public static partial class Net472
             {
                 if (_SystemDiagnosticsProcess is null)
                 {
-                    _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsProcess).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (net472)");
+                    _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Diagnostics.Process")).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (net472)");
                 }
                 return _SystemDiagnosticsProcess;
             }
@@ -3988,7 +3988,7 @@ public static partial class Net472
             {
                 if (_SystemDiagnosticsStackTrace is null)
                 {
-                    _SystemDiagnosticsStackTrace = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsStackTrace).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (net472)");
+                    _SystemDiagnosticsStackTrace = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Diagnostics.StackTrace")).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (net472)");
                 }
                 return _SystemDiagnosticsStackTrace;
             }
@@ -4005,7 +4005,7 @@ public static partial class Net472
             {
                 if (_SystemDiagnosticsTextWriterTraceListener is null)
                 {
-                    _SystemDiagnosticsTextWriterTraceListener = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTextWriterTraceListener).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (net472)");
+                    _SystemDiagnosticsTextWriterTraceListener = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Diagnostics.TextWriterTraceListener")).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (net472)");
                 }
                 return _SystemDiagnosticsTextWriterTraceListener;
             }
@@ -4022,7 +4022,7 @@ public static partial class Net472
             {
                 if (_SystemDiagnosticsTools is null)
                 {
-                    _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (net472)");
+                    _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Diagnostics.Tools")).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (net472)");
                 }
                 return _SystemDiagnosticsTools;
             }
@@ -4039,7 +4039,7 @@ public static partial class Net472
             {
                 if (_SystemDiagnosticsTraceSource is null)
                 {
-                    _SystemDiagnosticsTraceSource = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTraceSource).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (net472)");
+                    _SystemDiagnosticsTraceSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Diagnostics.TraceSource")).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (net472)");
                 }
                 return _SystemDiagnosticsTraceSource;
             }
@@ -4056,7 +4056,7 @@ public static partial class Net472
             {
                 if (_SystemDrawingPrimitives is null)
                 {
-                    _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingPrimitives).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (net472)");
+                    _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Drawing.Primitives")).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (net472)");
                 }
                 return _SystemDrawingPrimitives;
             }
@@ -4073,7 +4073,7 @@ public static partial class Net472
             {
                 if (_SystemDynamicRuntime is null)
                 {
-                    _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemDynamicRuntime).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (net472)");
+                    _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Dynamic.Runtime")).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (net472)");
                 }
                 return _SystemDynamicRuntime;
             }
@@ -4090,7 +4090,7 @@ public static partial class Net472
             {
                 if (_SystemGlobalizationCalendars is null)
                 {
-                    _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationCalendars).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (net472)");
+                    _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Globalization.Calendars")).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (net472)");
                 }
                 return _SystemGlobalizationCalendars;
             }
@@ -4107,7 +4107,7 @@ public static partial class Net472
             {
                 if (_SystemGlobalization is null)
                 {
-                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (net472)");
+                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Globalization")).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (net472)");
                 }
                 return _SystemGlobalization;
             }
@@ -4124,7 +4124,7 @@ public static partial class Net472
             {
                 if (_SystemGlobalizationExtensions is null)
                 {
-                    _SystemGlobalizationExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationExtensions).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (net472)");
+                    _SystemGlobalizationExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Globalization.Extensions")).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (net472)");
                 }
                 return _SystemGlobalizationExtensions;
             }
@@ -4141,7 +4141,7 @@ public static partial class Net472
             {
                 if (_SystemIOCompressionZipFile is null)
                 {
-                    _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionZipFile).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (net472)");
+                    _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IO.Compression.ZipFile")).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (net472)");
                 }
                 return _SystemIOCompressionZipFile;
             }
@@ -4158,7 +4158,7 @@ public static partial class Net472
             {
                 if (_SystemIO is null)
                 {
-                    _SystemIO = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (net472)");
+                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (net472)");
                 }
                 return _SystemIO;
             }
@@ -4175,7 +4175,7 @@ public static partial class Net472
             {
                 if (_SystemIOFileSystem is null)
                 {
-                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystem).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (net472)");
+                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IO.FileSystem")).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (net472)");
                 }
                 return _SystemIOFileSystem;
             }
@@ -4192,7 +4192,7 @@ public static partial class Net472
             {
                 if (_SystemIOFileSystemDriveInfo is null)
                 {
-                    _SystemIOFileSystemDriveInfo = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemDriveInfo).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (net472)");
+                    _SystemIOFileSystemDriveInfo = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IO.FileSystem.DriveInfo")).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (net472)");
                 }
                 return _SystemIOFileSystemDriveInfo;
             }
@@ -4209,7 +4209,7 @@ public static partial class Net472
             {
                 if (_SystemIOFileSystemPrimitives is null)
                 {
-                    _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemPrimitives).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (net472)");
+                    _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IO.FileSystem.Primitives")).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (net472)");
                 }
                 return _SystemIOFileSystemPrimitives;
             }
@@ -4226,7 +4226,7 @@ public static partial class Net472
             {
                 if (_SystemIOFileSystemWatcher is null)
                 {
-                    _SystemIOFileSystemWatcher = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemWatcher).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (net472)");
+                    _SystemIOFileSystemWatcher = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IO.FileSystem.Watcher")).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (net472)");
                 }
                 return _SystemIOFileSystemWatcher;
             }
@@ -4243,7 +4243,7 @@ public static partial class Net472
             {
                 if (_SystemIOIsolatedStorage is null)
                 {
-                    _SystemIOIsolatedStorage = AssemblyMetadata.CreateFromImage(Resources.SystemIOIsolatedStorage).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (net472)");
+                    _SystemIOIsolatedStorage = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IO.IsolatedStorage")).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (net472)");
                 }
                 return _SystemIOIsolatedStorage;
             }
@@ -4260,7 +4260,7 @@ public static partial class Net472
             {
                 if (_SystemIOMemoryMappedFiles is null)
                 {
-                    _SystemIOMemoryMappedFiles = AssemblyMetadata.CreateFromImage(Resources.SystemIOMemoryMappedFiles).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (net472)");
+                    _SystemIOMemoryMappedFiles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IO.MemoryMappedFiles")).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (net472)");
                 }
                 return _SystemIOMemoryMappedFiles;
             }
@@ -4277,7 +4277,7 @@ public static partial class Net472
             {
                 if (_SystemIOPipes is null)
                 {
-                    _SystemIOPipes = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipes).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (net472)");
+                    _SystemIOPipes = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IO.Pipes")).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (net472)");
                 }
                 return _SystemIOPipes;
             }
@@ -4294,7 +4294,7 @@ public static partial class Net472
             {
                 if (_SystemIOUnmanagedMemoryStream is null)
                 {
-                    _SystemIOUnmanagedMemoryStream = AssemblyMetadata.CreateFromImage(Resources.SystemIOUnmanagedMemoryStream).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (net472)");
+                    _SystemIOUnmanagedMemoryStream = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.IO.UnmanagedMemoryStream")).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (net472)");
                 }
                 return _SystemIOUnmanagedMemoryStream;
             }
@@ -4311,7 +4311,7 @@ public static partial class Net472
             {
                 if (_SystemLinq is null)
                 {
-                    _SystemLinq = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (net472)");
+                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (net472)");
                 }
                 return _SystemLinq;
             }
@@ -4328,7 +4328,7 @@ public static partial class Net472
             {
                 if (_SystemLinqExpressions is null)
                 {
-                    _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (net472)");
+                    _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Linq.Expressions")).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (net472)");
                 }
                 return _SystemLinqExpressions;
             }
@@ -4345,7 +4345,7 @@ public static partial class Net472
             {
                 if (_SystemLinqParallel is null)
                 {
-                    _SystemLinqParallel = AssemblyMetadata.CreateFromImage(Resources.SystemLinqParallel).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (net472)");
+                    _SystemLinqParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Linq.Parallel")).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (net472)");
                 }
                 return _SystemLinqParallel;
             }
@@ -4362,7 +4362,7 @@ public static partial class Net472
             {
                 if (_SystemLinqQueryable is null)
                 {
-                    _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(Resources.SystemLinqQueryable).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (net472)");
+                    _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Linq.Queryable")).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (net472)");
                 }
                 return _SystemLinqQueryable;
             }
@@ -4379,7 +4379,7 @@ public static partial class Net472
             {
                 if (_SystemNetHttpRtc is null)
                 {
-                    _SystemNetHttpRtc = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpRtc).GetReference(filePath: "System.Net.Http.Rtc.dll", display: "System.Net.Http.Rtc (net472)");
+                    _SystemNetHttpRtc = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Net.Http.Rtc")).GetReference(filePath: "System.Net.Http.Rtc.dll", display: "System.Net.Http.Rtc (net472)");
                 }
                 return _SystemNetHttpRtc;
             }
@@ -4396,7 +4396,7 @@ public static partial class Net472
             {
                 if (_SystemNetNameResolution is null)
                 {
-                    _SystemNetNameResolution = AssemblyMetadata.CreateFromImage(Resources.SystemNetNameResolution).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (net472)");
+                    _SystemNetNameResolution = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Net.NameResolution")).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (net472)");
                 }
                 return _SystemNetNameResolution;
             }
@@ -4413,7 +4413,7 @@ public static partial class Net472
             {
                 if (_SystemNetNetworkInformation is null)
                 {
-                    _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(Resources.SystemNetNetworkInformation).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (net472)");
+                    _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Net.NetworkInformation")).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (net472)");
                 }
                 return _SystemNetNetworkInformation;
             }
@@ -4430,7 +4430,7 @@ public static partial class Net472
             {
                 if (_SystemNetPing is null)
                 {
-                    _SystemNetPing = AssemblyMetadata.CreateFromImage(Resources.SystemNetPing).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (net472)");
+                    _SystemNetPing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Net.Ping")).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (net472)");
                 }
                 return _SystemNetPing;
             }
@@ -4447,7 +4447,7 @@ public static partial class Net472
             {
                 if (_SystemNetPrimitives is null)
                 {
-                    _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (net472)");
+                    _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Net.Primitives")).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (net472)");
                 }
                 return _SystemNetPrimitives;
             }
@@ -4464,7 +4464,7 @@ public static partial class Net472
             {
                 if (_SystemNetRequests is null)
                 {
-                    _SystemNetRequests = AssemblyMetadata.CreateFromImage(Resources.SystemNetRequests).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (net472)");
+                    _SystemNetRequests = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Net.Requests")).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (net472)");
                 }
                 return _SystemNetRequests;
             }
@@ -4481,7 +4481,7 @@ public static partial class Net472
             {
                 if (_SystemNetSecurity is null)
                 {
-                    _SystemNetSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemNetSecurity).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (net472)");
+                    _SystemNetSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Net.Security")).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (net472)");
                 }
                 return _SystemNetSecurity;
             }
@@ -4498,7 +4498,7 @@ public static partial class Net472
             {
                 if (_SystemNetSockets is null)
                 {
-                    _SystemNetSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetSockets).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (net472)");
+                    _SystemNetSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Net.Sockets")).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (net472)");
                 }
                 return _SystemNetSockets;
             }
@@ -4515,7 +4515,7 @@ public static partial class Net472
             {
                 if (_SystemNetWebHeaderCollection is null)
                 {
-                    _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebHeaderCollection).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (net472)");
+                    _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Net.WebHeaderCollection")).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (net472)");
                 }
                 return _SystemNetWebHeaderCollection;
             }
@@ -4532,7 +4532,7 @@ public static partial class Net472
             {
                 if (_SystemNetWebSocketsClient is null)
                 {
-                    _SystemNetWebSocketsClient = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSocketsClient).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (net472)");
+                    _SystemNetWebSocketsClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Net.WebSockets.Client")).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (net472)");
                 }
                 return _SystemNetWebSocketsClient;
             }
@@ -4549,7 +4549,7 @@ public static partial class Net472
             {
                 if (_SystemNetWebSockets is null)
                 {
-                    _SystemNetWebSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSockets).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (net472)");
+                    _SystemNetWebSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Net.WebSockets")).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (net472)");
                 }
                 return _SystemNetWebSockets;
             }
@@ -4566,7 +4566,7 @@ public static partial class Net472
             {
                 if (_SystemObjectModel is null)
                 {
-                    _SystemObjectModel = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (net472)");
+                    _SystemObjectModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ObjectModel")).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (net472)");
                 }
                 return _SystemObjectModel;
             }
@@ -4583,7 +4583,7 @@ public static partial class Net472
             {
                 if (_SystemReflection is null)
                 {
-                    _SystemReflection = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (net472)");
+                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (net472)");
                 }
                 return _SystemReflection;
             }
@@ -4600,7 +4600,7 @@ public static partial class Net472
             {
                 if (_SystemReflectionEmit is null)
                 {
-                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmit).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (net472)");
+                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Reflection.Emit")).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (net472)");
                 }
                 return _SystemReflectionEmit;
             }
@@ -4617,7 +4617,7 @@ public static partial class Net472
             {
                 if (_SystemReflectionEmitILGeneration is null)
                 {
-                    _SystemReflectionEmitILGeneration = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitILGeneration).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (net472)");
+                    _SystemReflectionEmitILGeneration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Reflection.Emit.ILGeneration")).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (net472)");
                 }
                 return _SystemReflectionEmitILGeneration;
             }
@@ -4634,7 +4634,7 @@ public static partial class Net472
             {
                 if (_SystemReflectionEmitLightweight is null)
                 {
-                    _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitLightweight).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (net472)");
+                    _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Reflection.Emit.Lightweight")).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (net472)");
                 }
                 return _SystemReflectionEmitLightweight;
             }
@@ -4651,7 +4651,7 @@ public static partial class Net472
             {
                 if (_SystemReflectionExtensions is null)
                 {
-                    _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (net472)");
+                    _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Reflection.Extensions")).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (net472)");
                 }
                 return _SystemReflectionExtensions;
             }
@@ -4668,7 +4668,7 @@ public static partial class Net472
             {
                 if (_SystemReflectionPrimitives is null)
                 {
-                    _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (net472)");
+                    _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Reflection.Primitives")).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (net472)");
                 }
                 return _SystemReflectionPrimitives;
             }
@@ -4685,7 +4685,7 @@ public static partial class Net472
             {
                 if (_SystemResourcesReader is null)
                 {
-                    _SystemResourcesReader = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesReader).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (net472)");
+                    _SystemResourcesReader = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Resources.Reader")).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (net472)");
                 }
                 return _SystemResourcesReader;
             }
@@ -4702,7 +4702,7 @@ public static partial class Net472
             {
                 if (_SystemResourcesResourceManager is null)
                 {
-                    _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (net472)");
+                    _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Resources.ResourceManager")).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (net472)");
                 }
                 return _SystemResourcesResourceManager;
             }
@@ -4719,7 +4719,7 @@ public static partial class Net472
             {
                 if (_SystemResourcesWriter is null)
                 {
-                    _SystemResourcesWriter = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesWriter).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (net472)");
+                    _SystemResourcesWriter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Resources.Writer")).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (net472)");
                 }
                 return _SystemResourcesWriter;
             }
@@ -4736,7 +4736,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeCompilerServicesVisualC is null)
                 {
-                    _SystemRuntimeCompilerServicesVisualC = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesVisualC).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (net472)");
+                    _SystemRuntimeCompilerServicesVisualC = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.CompilerServices.VisualC")).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (net472)");
                 }
                 return _SystemRuntimeCompilerServicesVisualC;
             }
@@ -4753,7 +4753,7 @@ public static partial class Net472
             {
                 if (_SystemRuntime is null)
                 {
-                    _SystemRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (net472)");
+                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (net472)");
                 }
                 return _SystemRuntime;
             }
@@ -4770,7 +4770,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeExtensions is null)
                 {
-                    _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (net472)");
+                    _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.Extensions")).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (net472)");
                 }
                 return _SystemRuntimeExtensions;
             }
@@ -4787,7 +4787,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeHandles is null)
                 {
-                    _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (net472)");
+                    _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.Handles")).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (net472)");
                 }
                 return _SystemRuntimeHandles;
             }
@@ -4804,7 +4804,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeInteropServices is null)
                 {
-                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (net472)");
+                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (net472)");
                 }
                 return _SystemRuntimeInteropServices;
             }
@@ -4821,7 +4821,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeInteropServicesRuntimeInformation is null)
                 {
-                    _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesRuntimeInformation).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (net472)");
+                    _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.InteropServices.RuntimeInformation")).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (net472)");
                 }
                 return _SystemRuntimeInteropServicesRuntimeInformation;
             }
@@ -4838,7 +4838,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeInteropServicesWindowsRuntime is null)
                 {
-                    _SystemRuntimeInteropServicesWindowsRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesWindowsRuntime).GetReference(filePath: "System.Runtime.InteropServices.WindowsRuntime.dll", display: "System.Runtime.InteropServices.WindowsRuntime (net472)");
+                    _SystemRuntimeInteropServicesWindowsRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.InteropServices.WindowsRuntime")).GetReference(filePath: "System.Runtime.InteropServices.WindowsRuntime.dll", display: "System.Runtime.InteropServices.WindowsRuntime (net472)");
                 }
                 return _SystemRuntimeInteropServicesWindowsRuntime;
             }
@@ -4855,7 +4855,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeNumerics is null)
                 {
-                    _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (net472)");
+                    _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.Numerics")).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (net472)");
                 }
                 return _SystemRuntimeNumerics;
             }
@@ -4872,7 +4872,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeSerializationFormatters is null)
                 {
-                    _SystemRuntimeSerializationFormatters = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormatters).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (net472)");
+                    _SystemRuntimeSerializationFormatters = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.Serialization.Formatters")).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (net472)");
                 }
                 return _SystemRuntimeSerializationFormatters;
             }
@@ -4889,7 +4889,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeSerializationJson is null)
                 {
-                    _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationJson).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (net472)");
+                    _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.Serialization.Json")).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (net472)");
                 }
                 return _SystemRuntimeSerializationJson;
             }
@@ -4906,7 +4906,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeSerializationPrimitives is null)
                 {
-                    _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (net472)");
+                    _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.Serialization.Primitives")).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (net472)");
                 }
                 return _SystemRuntimeSerializationPrimitives;
             }
@@ -4923,7 +4923,7 @@ public static partial class Net472
             {
                 if (_SystemRuntimeSerializationXml is null)
                 {
-                    _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationXml).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (net472)");
+                    _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Runtime.Serialization.Xml")).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (net472)");
                 }
                 return _SystemRuntimeSerializationXml;
             }
@@ -4940,7 +4940,7 @@ public static partial class Net472
             {
                 if (_SystemSecurityClaims is null)
                 {
-                    _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityClaims).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (net472)");
+                    _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Security.Claims")).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (net472)");
                 }
                 return _SystemSecurityClaims;
             }
@@ -4957,7 +4957,7 @@ public static partial class Net472
             {
                 if (_SystemSecurityCryptographyAlgorithms is null)
                 {
-                    _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyAlgorithms).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (net472)");
+                    _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Security.Cryptography.Algorithms")).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (net472)");
                 }
                 return _SystemSecurityCryptographyAlgorithms;
             }
@@ -4974,7 +4974,7 @@ public static partial class Net472
             {
                 if (_SystemSecurityCryptographyCsp is null)
                 {
-                    _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCsp).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (net472)");
+                    _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Security.Cryptography.Csp")).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (net472)");
                 }
                 return _SystemSecurityCryptographyCsp;
             }
@@ -4991,7 +4991,7 @@ public static partial class Net472
             {
                 if (_SystemSecurityCryptographyEncoding is null)
                 {
-                    _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyEncoding).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (net472)");
+                    _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Security.Cryptography.Encoding")).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (net472)");
                 }
                 return _SystemSecurityCryptographyEncoding;
             }
@@ -5008,7 +5008,7 @@ public static partial class Net472
             {
                 if (_SystemSecurityCryptographyPrimitives is null)
                 {
-                    _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPrimitives).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (net472)");
+                    _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Security.Cryptography.Primitives")).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (net472)");
                 }
                 return _SystemSecurityCryptographyPrimitives;
             }
@@ -5025,7 +5025,7 @@ public static partial class Net472
             {
                 if (_SystemSecurityCryptographyX509Certificates is null)
                 {
-                    _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyX509Certificates).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (net472)");
+                    _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Security.Cryptography.X509Certificates")).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (net472)");
                 }
                 return _SystemSecurityCryptographyX509Certificates;
             }
@@ -5042,7 +5042,7 @@ public static partial class Net472
             {
                 if (_SystemSecurityPrincipal is null)
                 {
-                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (net472)");
+                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Security.Principal")).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (net472)");
                 }
                 return _SystemSecurityPrincipal;
             }
@@ -5059,7 +5059,7 @@ public static partial class Net472
             {
                 if (_SystemSecuritySecureString is null)
                 {
-                    _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(Resources.SystemSecuritySecureString).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (net472)");
+                    _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Security.SecureString")).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (net472)");
                 }
                 return _SystemSecuritySecureString;
             }
@@ -5076,7 +5076,7 @@ public static partial class Net472
             {
                 if (_SystemServiceModelDuplex is null)
                 {
-                    _SystemServiceModelDuplex = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelDuplex).GetReference(filePath: "System.ServiceModel.Duplex.dll", display: "System.ServiceModel.Duplex (net472)");
+                    _SystemServiceModelDuplex = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ServiceModel.Duplex")).GetReference(filePath: "System.ServiceModel.Duplex.dll", display: "System.ServiceModel.Duplex (net472)");
                 }
                 return _SystemServiceModelDuplex;
             }
@@ -5093,7 +5093,7 @@ public static partial class Net472
             {
                 if (_SystemServiceModelHttp is null)
                 {
-                    _SystemServiceModelHttp = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelHttp).GetReference(filePath: "System.ServiceModel.Http.dll", display: "System.ServiceModel.Http (net472)");
+                    _SystemServiceModelHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ServiceModel.Http")).GetReference(filePath: "System.ServiceModel.Http.dll", display: "System.ServiceModel.Http (net472)");
                 }
                 return _SystemServiceModelHttp;
             }
@@ -5110,7 +5110,7 @@ public static partial class Net472
             {
                 if (_SystemServiceModelNetTcp is null)
                 {
-                    _SystemServiceModelNetTcp = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelNetTcp).GetReference(filePath: "System.ServiceModel.NetTcp.dll", display: "System.ServiceModel.NetTcp (net472)");
+                    _SystemServiceModelNetTcp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ServiceModel.NetTcp")).GetReference(filePath: "System.ServiceModel.NetTcp.dll", display: "System.ServiceModel.NetTcp (net472)");
                 }
                 return _SystemServiceModelNetTcp;
             }
@@ -5127,7 +5127,7 @@ public static partial class Net472
             {
                 if (_SystemServiceModelPrimitives is null)
                 {
-                    _SystemServiceModelPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelPrimitives).GetReference(filePath: "System.ServiceModel.Primitives.dll", display: "System.ServiceModel.Primitives (net472)");
+                    _SystemServiceModelPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ServiceModel.Primitives")).GetReference(filePath: "System.ServiceModel.Primitives.dll", display: "System.ServiceModel.Primitives (net472)");
                 }
                 return _SystemServiceModelPrimitives;
             }
@@ -5144,7 +5144,7 @@ public static partial class Net472
             {
                 if (_SystemServiceModelSecurity is null)
                 {
-                    _SystemServiceModelSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelSecurity).GetReference(filePath: "System.ServiceModel.Security.dll", display: "System.ServiceModel.Security (net472)");
+                    _SystemServiceModelSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ServiceModel.Security")).GetReference(filePath: "System.ServiceModel.Security.dll", display: "System.ServiceModel.Security (net472)");
                 }
                 return _SystemServiceModelSecurity;
             }
@@ -5161,7 +5161,7 @@ public static partial class Net472
             {
                 if (_SystemTextEncoding is null)
                 {
-                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (net472)");
+                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Text.Encoding")).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (net472)");
                 }
                 return _SystemTextEncoding;
             }
@@ -5178,7 +5178,7 @@ public static partial class Net472
             {
                 if (_SystemTextEncodingExtensions is null)
                 {
-                    _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (net472)");
+                    _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Text.Encoding.Extensions")).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (net472)");
                 }
                 return _SystemTextEncodingExtensions;
             }
@@ -5195,7 +5195,7 @@ public static partial class Net472
             {
                 if (_SystemTextRegularExpressions is null)
                 {
-                    _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (net472)");
+                    _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Text.RegularExpressions")).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (net472)");
                 }
                 return _SystemTextRegularExpressions;
             }
@@ -5212,7 +5212,7 @@ public static partial class Net472
             {
                 if (_SystemThreading is null)
                 {
-                    _SystemThreading = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (net472)");
+                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (net472)");
                 }
                 return _SystemThreading;
             }
@@ -5229,7 +5229,7 @@ public static partial class Net472
             {
                 if (_SystemThreadingOverlapped is null)
                 {
-                    _SystemThreadingOverlapped = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingOverlapped).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (net472)");
+                    _SystemThreadingOverlapped = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Threading.Overlapped")).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (net472)");
                 }
                 return _SystemThreadingOverlapped;
             }
@@ -5246,7 +5246,7 @@ public static partial class Net472
             {
                 if (_SystemThreadingTasks is null)
                 {
-                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (net472)");
+                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Threading.Tasks")).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (net472)");
                 }
                 return _SystemThreadingTasks;
             }
@@ -5263,7 +5263,7 @@ public static partial class Net472
             {
                 if (_SystemThreadingTasksParallel is null)
                 {
-                    _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksParallel).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (net472)");
+                    _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Threading.Tasks.Parallel")).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (net472)");
                 }
                 return _SystemThreadingTasksParallel;
             }
@@ -5280,7 +5280,7 @@ public static partial class Net472
             {
                 if (_SystemThreadingThread is null)
                 {
-                    _SystemThreadingThread = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThread).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (net472)");
+                    _SystemThreadingThread = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Threading.Thread")).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (net472)");
                 }
                 return _SystemThreadingThread;
             }
@@ -5297,7 +5297,7 @@ public static partial class Net472
             {
                 if (_SystemThreadingThreadPool is null)
                 {
-                    _SystemThreadingThreadPool = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThreadPool).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (net472)");
+                    _SystemThreadingThreadPool = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Threading.ThreadPool")).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (net472)");
                 }
                 return _SystemThreadingThreadPool;
             }
@@ -5314,7 +5314,7 @@ public static partial class Net472
             {
                 if (_SystemThreadingTimer is null)
                 {
-                    _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (net472)");
+                    _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Threading.Timer")).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (net472)");
                 }
                 return _SystemThreadingTimer;
             }
@@ -5331,7 +5331,7 @@ public static partial class Net472
             {
                 if (_SystemValueTuple is null)
                 {
-                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (net472)");
+                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.ValueTuple")).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (net472)");
                 }
                 return _SystemValueTuple;
             }
@@ -5348,7 +5348,7 @@ public static partial class Net472
             {
                 if (_SystemXmlReaderWriter is null)
                 {
-                    _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (net472)");
+                    _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Xml.ReaderWriter")).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (net472)");
                 }
                 return _SystemXmlReaderWriter;
             }
@@ -5365,7 +5365,7 @@ public static partial class Net472
             {
                 if (_SystemXmlXDocument is null)
                 {
-                    _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (net472)");
+                    _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Xml.XDocument")).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (net472)");
                 }
                 return _SystemXmlXDocument;
             }
@@ -5382,7 +5382,7 @@ public static partial class Net472
             {
                 if (_SystemXmlXmlDocument is null)
                 {
-                    _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlDocument).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (net472)");
+                    _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Xml.XmlDocument")).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (net472)");
                 }
                 return _SystemXmlXmlDocument;
             }
@@ -5399,7 +5399,7 @@ public static partial class Net472
             {
                 if (_SystemXmlXmlSerializer is null)
                 {
-                    _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlSerializer).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (net472)");
+                    _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Xml.XmlSerializer")).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (net472)");
                 }
                 return _SystemXmlXmlSerializer;
             }
@@ -5416,7 +5416,7 @@ public static partial class Net472
             {
                 if (_SystemXmlXPath is null)
                 {
-                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPath).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (net472)");
+                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Xml.XPath")).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (net472)");
                 }
                 return _SystemXmlXPath;
             }
@@ -5433,7 +5433,7 @@ public static partial class Net472
             {
                 if (_SystemXmlXPathXDocument is null)
                 {
-                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPathXDocument).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (net472)");
+                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net472.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (net472)");
                 }
                 return _SystemXmlXPathXDocument;
             }

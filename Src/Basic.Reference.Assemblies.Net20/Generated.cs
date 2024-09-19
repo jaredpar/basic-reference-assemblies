@@ -339,7 +339,7 @@ public static partial class Net20
             {
                 if (_Accessibility is null)
                 {
-                    _Accessibility = AssemblyMetadata.CreateFromImage(Resources.Accessibility).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net20)");
+                    _Accessibility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Accessibility")).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net20)");
                 }
                 return _Accessibility;
             }
@@ -356,7 +356,7 @@ public static partial class Net20
             {
                 if (_AspNetMMCExt is null)
                 {
-                    _AspNetMMCExt = AssemblyMetadata.CreateFromImage(Resources.AspNetMMCExt).GetReference(filePath: "AspNetMMCExt.dll", display: "AspNetMMCExt (net20)");
+                    _AspNetMMCExt = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.AspNetMMCExt")).GetReference(filePath: "AspNetMMCExt.dll", display: "AspNetMMCExt (net20)");
                 }
                 return _AspNetMMCExt;
             }
@@ -373,7 +373,7 @@ public static partial class Net20
             {
                 if (_cscompmgd is null)
                 {
-                    _cscompmgd = AssemblyMetadata.CreateFromImage(Resources.cscompmgd).GetReference(filePath: "cscompmgd.dll", display: "cscompmgd (net20)");
+                    _cscompmgd = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.cscompmgd")).GetReference(filePath: "cscompmgd.dll", display: "cscompmgd (net20)");
                 }
                 return _cscompmgd;
             }
@@ -390,7 +390,7 @@ public static partial class Net20
             {
                 if (_CustomMarshalers is null)
                 {
-                    _CustomMarshalers = AssemblyMetadata.CreateFromImage(Resources.CustomMarshalers).GetReference(filePath: "CustomMarshalers.dll", display: "CustomMarshalers (net20)");
+                    _CustomMarshalers = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.CustomMarshalers")).GetReference(filePath: "CustomMarshalers.dll", display: "CustomMarshalers (net20)");
                 }
                 return _CustomMarshalers;
             }
@@ -407,7 +407,7 @@ public static partial class Net20
             {
                 if (_IEExecRemote is null)
                 {
-                    _IEExecRemote = AssemblyMetadata.CreateFromImage(Resources.IEExecRemote).GetReference(filePath: "IEExecRemote.dll", display: "IEExecRemote (net20)");
+                    _IEExecRemote = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.IEExecRemote")).GetReference(filePath: "IEExecRemote.dll", display: "IEExecRemote (net20)");
                 }
                 return _IEExecRemote;
             }
@@ -424,7 +424,7 @@ public static partial class Net20
             {
                 if (_IEHost is null)
                 {
-                    _IEHost = AssemblyMetadata.CreateFromImage(Resources.IEHost).GetReference(filePath: "IEHost.dll", display: "IEHost (net20)");
+                    _IEHost = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.IEHost")).GetReference(filePath: "IEHost.dll", display: "IEHost (net20)");
                 }
                 return _IEHost;
             }
@@ -441,7 +441,7 @@ public static partial class Net20
             {
                 if (_IIEHost is null)
                 {
-                    _IIEHost = AssemblyMetadata.CreateFromImage(Resources.IIEHost).GetReference(filePath: "IIEHost.dll", display: "IIEHost (net20)");
+                    _IIEHost = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.IIEHost")).GetReference(filePath: "IIEHost.dll", display: "IIEHost (net20)");
                 }
                 return _IIEHost;
             }
@@ -458,7 +458,7 @@ public static partial class Net20
             {
                 if (_ISymWrapper is null)
                 {
-                    _ISymWrapper = AssemblyMetadata.CreateFromImage(Resources.ISymWrapper).GetReference(filePath: "ISymWrapper.dll", display: "ISymWrapper (net20)");
+                    _ISymWrapper = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.ISymWrapper")).GetReference(filePath: "ISymWrapper.dll", display: "ISymWrapper (net20)");
                 }
                 return _ISymWrapper;
             }
@@ -475,7 +475,7 @@ public static partial class Net20
             {
                 if (_MicrosoftBuildEngine is null)
                 {
-                    _MicrosoftBuildEngine = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildEngine).GetReference(filePath: "Microsoft.Build.Engine.dll", display: "Microsoft.Build.Engine (net20)");
+                    _MicrosoftBuildEngine = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.Build.Engine")).GetReference(filePath: "Microsoft.Build.Engine.dll", display: "Microsoft.Build.Engine (net20)");
                 }
                 return _MicrosoftBuildEngine;
             }
@@ -492,7 +492,7 @@ public static partial class Net20
             {
                 if (_MicrosoftBuildFramework is null)
                 {
-                    _MicrosoftBuildFramework = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildFramework).GetReference(filePath: "Microsoft.Build.Framework.dll", display: "Microsoft.Build.Framework (net20)");
+                    _MicrosoftBuildFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.Build.Framework")).GetReference(filePath: "Microsoft.Build.Framework.dll", display: "Microsoft.Build.Framework (net20)");
                 }
                 return _MicrosoftBuildFramework;
             }
@@ -509,7 +509,7 @@ public static partial class Net20
             {
                 if (_MicrosoftBuildTasks is null)
                 {
-                    _MicrosoftBuildTasks = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildTasks).GetReference(filePath: "Microsoft.Build.Tasks.dll", display: "Microsoft.Build.Tasks (net20)");
+                    _MicrosoftBuildTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.Build.Tasks")).GetReference(filePath: "Microsoft.Build.Tasks.dll", display: "Microsoft.Build.Tasks (net20)");
                 }
                 return _MicrosoftBuildTasks;
             }
@@ -526,7 +526,7 @@ public static partial class Net20
             {
                 if (_MicrosoftBuildUtilities is null)
                 {
-                    _MicrosoftBuildUtilities = AssemblyMetadata.CreateFromImage(Resources.MicrosoftBuildUtilities).GetReference(filePath: "Microsoft.Build.Utilities.dll", display: "Microsoft.Build.Utilities (net20)");
+                    _MicrosoftBuildUtilities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.Build.Utilities")).GetReference(filePath: "Microsoft.Build.Utilities.dll", display: "Microsoft.Build.Utilities (net20)");
                 }
                 return _MicrosoftBuildUtilities;
             }
@@ -543,7 +543,7 @@ public static partial class Net20
             {
                 if (_MicrosoftJScript is null)
                 {
-                    _MicrosoftJScript = AssemblyMetadata.CreateFromImage(Resources.MicrosoftJScript).GetReference(filePath: "Microsoft.JScript.dll", display: "Microsoft.JScript (net20)");
+                    _MicrosoftJScript = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.JScript")).GetReference(filePath: "Microsoft.JScript.dll", display: "Microsoft.JScript (net20)");
                 }
                 return _MicrosoftJScript;
             }
@@ -560,7 +560,7 @@ public static partial class Net20
             {
                 if (_MicrosoftVisualBasicCompatibilityData is null)
                 {
-                    _MicrosoftVisualBasicCompatibilityData = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibilityData).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.Data.dll", display: "Microsoft.VisualBasic.Compatibility.Data (net20)");
+                    _MicrosoftVisualBasicCompatibilityData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.VisualBasic.Compatibility.Data")).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.Data.dll", display: "Microsoft.VisualBasic.Compatibility.Data (net20)");
                 }
                 return _MicrosoftVisualBasicCompatibilityData;
             }
@@ -577,7 +577,7 @@ public static partial class Net20
             {
                 if (_MicrosoftVisualBasicCompatibility is null)
                 {
-                    _MicrosoftVisualBasicCompatibility = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCompatibility).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.dll", display: "Microsoft.VisualBasic.Compatibility (net20)");
+                    _MicrosoftVisualBasicCompatibility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.VisualBasic.Compatibility")).GetReference(filePath: "Microsoft.VisualBasic.Compatibility.dll", display: "Microsoft.VisualBasic.Compatibility (net20)");
                 }
                 return _MicrosoftVisualBasicCompatibility;
             }
@@ -594,7 +594,7 @@ public static partial class Net20
             {
                 if (_MicrosoftVisualBasic is null)
                 {
-                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net20)");
+                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net20)");
                 }
                 return _MicrosoftVisualBasic;
             }
@@ -611,7 +611,7 @@ public static partial class Net20
             {
                 if (_MicrosoftVisualBasicVsa is null)
                 {
-                    _MicrosoftVisualBasicVsa = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicVsa).GetReference(filePath: "Microsoft.VisualBasic.Vsa.dll", display: "Microsoft.VisualBasic.Vsa (net20)");
+                    _MicrosoftVisualBasicVsa = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.VisualBasic.Vsa")).GetReference(filePath: "Microsoft.VisualBasic.Vsa.dll", display: "Microsoft.VisualBasic.Vsa (net20)");
                 }
                 return _MicrosoftVisualBasicVsa;
             }
@@ -628,7 +628,7 @@ public static partial class Net20
             {
                 if (_MicrosoftVisualC is null)
                 {
-                    _MicrosoftVisualC = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualC).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net20)");
+                    _MicrosoftVisualC = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.VisualC")).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net20)");
                 }
                 return _MicrosoftVisualC;
             }
@@ -645,7 +645,7 @@ public static partial class Net20
             {
                 if (_MicrosoftVsa is null)
                 {
-                    _MicrosoftVsa = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVsa).GetReference(filePath: "Microsoft.Vsa.dll", display: "Microsoft.Vsa (net20)");
+                    _MicrosoftVsa = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.Vsa")).GetReference(filePath: "Microsoft.Vsa.dll", display: "Microsoft.Vsa (net20)");
                 }
                 return _MicrosoftVsa;
             }
@@ -662,7 +662,7 @@ public static partial class Net20
             {
                 if (_MicrosoftVsaVbCodeDOMProcessor is null)
                 {
-                    _MicrosoftVsaVbCodeDOMProcessor = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVsaVbCodeDOMProcessor).GetReference(filePath: "Microsoft.Vsa.Vb.CodeDOMProcessor.dll", display: "Microsoft.Vsa.Vb.CodeDOMProcessor (net20)");
+                    _MicrosoftVsaVbCodeDOMProcessor = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.Vsa.Vb.CodeDOMProcessor")).GetReference(filePath: "Microsoft.Vsa.Vb.CodeDOMProcessor.dll", display: "Microsoft.Vsa.Vb.CodeDOMProcessor (net20)");
                 }
                 return _MicrosoftVsaVbCodeDOMProcessor;
             }
@@ -679,7 +679,7 @@ public static partial class Net20
             {
                 if (_Microsoft_VsaVb is null)
                 {
-                    _Microsoft_VsaVb = AssemblyMetadata.CreateFromImage(Resources.Microsoft_VsaVb).GetReference(filePath: "Microsoft_VsaVb.dll", display: "Microsoft_VsaVb (net20)");
+                    _Microsoft_VsaVb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft_VsaVb")).GetReference(filePath: "Microsoft_VsaVb.dll", display: "Microsoft_VsaVb (net20)");
                 }
                 return _Microsoft_VsaVb;
             }
@@ -696,7 +696,7 @@ public static partial class Net20
             {
                 if (_mscorlib is null)
                 {
-                    _mscorlib = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net20)");
+                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net20)");
                 }
                 return _mscorlib;
             }
@@ -713,7 +713,7 @@ public static partial class Net20
             {
                 if (_sysglobl is null)
                 {
-                    _sysglobl = AssemblyMetadata.CreateFromImage(Resources.sysglobl).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net20)");
+                    _sysglobl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.sysglobl")).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net20)");
                 }
                 return _sysglobl;
             }
@@ -730,7 +730,7 @@ public static partial class Net20
             {
                 if (_SystemConfiguration is null)
                 {
-                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(Resources.SystemConfiguration).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net20)");
+                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Configuration")).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net20)");
                 }
                 return _SystemConfiguration;
             }
@@ -747,7 +747,7 @@ public static partial class Net20
             {
                 if (_SystemConfigurationInstall is null)
                 {
-                    _SystemConfigurationInstall = AssemblyMetadata.CreateFromImage(Resources.SystemConfigurationInstall).GetReference(filePath: "System.Configuration.Install.dll", display: "System.Configuration.Install (net20)");
+                    _SystemConfigurationInstall = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Configuration.Install")).GetReference(filePath: "System.Configuration.Install.dll", display: "System.Configuration.Install (net20)");
                 }
                 return _SystemConfigurationInstall;
             }
@@ -764,7 +764,7 @@ public static partial class Net20
             {
                 if (_SystemData is null)
                 {
-                    _SystemData = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (net20)");
+                    _SystemData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Data")).GetReference(filePath: "System.Data.dll", display: "System.Data (net20)");
                 }
                 return _SystemData;
             }
@@ -781,7 +781,7 @@ public static partial class Net20
             {
                 if (_SystemDataOracleClient is null)
                 {
-                    _SystemDataOracleClient = AssemblyMetadata.CreateFromImage(Resources.SystemDataOracleClient).GetReference(filePath: "System.Data.OracleClient.dll", display: "System.Data.OracleClient (net20)");
+                    _SystemDataOracleClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Data.OracleClient")).GetReference(filePath: "System.Data.OracleClient.dll", display: "System.Data.OracleClient (net20)");
                 }
                 return _SystemDataOracleClient;
             }
@@ -798,7 +798,7 @@ public static partial class Net20
             {
                 if (_SystemDataSqlXml is null)
                 {
-                    _SystemDataSqlXml = AssemblyMetadata.CreateFromImage(Resources.SystemDataSqlXml).GetReference(filePath: "System.Data.SqlXml.dll", display: "System.Data.SqlXml (net20)");
+                    _SystemDataSqlXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Data.SqlXml")).GetReference(filePath: "System.Data.SqlXml.dll", display: "System.Data.SqlXml (net20)");
                 }
                 return _SystemDataSqlXml;
             }
@@ -815,7 +815,7 @@ public static partial class Net20
             {
                 if (_SystemDeployment is null)
                 {
-                    _SystemDeployment = AssemblyMetadata.CreateFromImage(Resources.SystemDeployment).GetReference(filePath: "System.Deployment.dll", display: "System.Deployment (net20)");
+                    _SystemDeployment = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Deployment")).GetReference(filePath: "System.Deployment.dll", display: "System.Deployment (net20)");
                 }
                 return _SystemDeployment;
             }
@@ -832,7 +832,7 @@ public static partial class Net20
             {
                 if (_SystemDesign is null)
                 {
-                    _SystemDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDesign).GetReference(filePath: "System.Design.dll", display: "System.Design (net20)");
+                    _SystemDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Design")).GetReference(filePath: "System.Design.dll", display: "System.Design (net20)");
                 }
                 return _SystemDesign;
             }
@@ -849,7 +849,7 @@ public static partial class Net20
             {
                 if (_SystemDirectoryServices is null)
                 {
-                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServices).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net20)");
+                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.DirectoryServices")).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net20)");
                 }
                 return _SystemDirectoryServices;
             }
@@ -866,7 +866,7 @@ public static partial class Net20
             {
                 if (_SystemDirectoryServicesProtocols is null)
                 {
-                    _SystemDirectoryServicesProtocols = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServicesProtocols).GetReference(filePath: "System.DirectoryServices.Protocols.dll", display: "System.DirectoryServices.Protocols (net20)");
+                    _SystemDirectoryServicesProtocols = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.DirectoryServices.Protocols")).GetReference(filePath: "System.DirectoryServices.Protocols.dll", display: "System.DirectoryServices.Protocols (net20)");
                 }
                 return _SystemDirectoryServicesProtocols;
             }
@@ -883,7 +883,7 @@ public static partial class Net20
             {
                 if (_System is null)
                 {
-                    _System = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (net20)");
+                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System")).GetReference(filePath: "System.dll", display: "System (net20)");
                 }
                 return _System;
             }
@@ -900,7 +900,7 @@ public static partial class Net20
             {
                 if (_SystemDrawingDesign is null)
                 {
-                    _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingDesign).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net20)");
+                    _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Drawing.Design")).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net20)");
                 }
                 return _SystemDrawingDesign;
             }
@@ -917,7 +917,7 @@ public static partial class Net20
             {
                 if (_SystemDrawing is null)
                 {
-                    _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net20)");
+                    _SystemDrawing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Drawing")).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net20)");
                 }
                 return _SystemDrawing;
             }
@@ -934,7 +934,7 @@ public static partial class Net20
             {
                 if (_SystemEnterpriseServices is null)
                 {
-                    _SystemEnterpriseServices = AssemblyMetadata.CreateFromImage(Resources.SystemEnterpriseServices).GetReference(filePath: "System.EnterpriseServices.dll", display: "System.EnterpriseServices (net20)");
+                    _SystemEnterpriseServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.EnterpriseServices")).GetReference(filePath: "System.EnterpriseServices.dll", display: "System.EnterpriseServices (net20)");
                 }
                 return _SystemEnterpriseServices;
             }
@@ -951,7 +951,7 @@ public static partial class Net20
             {
                 if (_SystemManagement is null)
                 {
-                    _SystemManagement = AssemblyMetadata.CreateFromImage(Resources.SystemManagement).GetReference(filePath: "System.Management.dll", display: "System.Management (net20)");
+                    _SystemManagement = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Management")).GetReference(filePath: "System.Management.dll", display: "System.Management (net20)");
                 }
                 return _SystemManagement;
             }
@@ -968,7 +968,7 @@ public static partial class Net20
             {
                 if (_SystemMessaging is null)
                 {
-                    _SystemMessaging = AssemblyMetadata.CreateFromImage(Resources.SystemMessaging).GetReference(filePath: "System.Messaging.dll", display: "System.Messaging (net20)");
+                    _SystemMessaging = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Messaging")).GetReference(filePath: "System.Messaging.dll", display: "System.Messaging (net20)");
                 }
                 return _SystemMessaging;
             }
@@ -985,7 +985,7 @@ public static partial class Net20
             {
                 if (_SystemRuntimeRemoting is null)
                 {
-                    _SystemRuntimeRemoting = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeRemoting).GetReference(filePath: "System.Runtime.Remoting.dll", display: "System.Runtime.Remoting (net20)");
+                    _SystemRuntimeRemoting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Runtime.Remoting")).GetReference(filePath: "System.Runtime.Remoting.dll", display: "System.Runtime.Remoting (net20)");
                 }
                 return _SystemRuntimeRemoting;
             }
@@ -1002,7 +1002,7 @@ public static partial class Net20
             {
                 if (_SystemRuntimeSerializationFormattersSoap is null)
                 {
-                    _SystemRuntimeSerializationFormattersSoap = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormattersSoap).GetReference(filePath: "System.Runtime.Serialization.Formatters.Soap.dll", display: "System.Runtime.Serialization.Formatters.Soap (net20)");
+                    _SystemRuntimeSerializationFormattersSoap = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Runtime.Serialization.Formatters.Soap")).GetReference(filePath: "System.Runtime.Serialization.Formatters.Soap.dll", display: "System.Runtime.Serialization.Formatters.Soap (net20)");
                 }
                 return _SystemRuntimeSerializationFormattersSoap;
             }
@@ -1019,7 +1019,7 @@ public static partial class Net20
             {
                 if (_SystemSecurity is null)
                 {
-                    _SystemSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemSecurity).GetReference(filePath: "System.Security.dll", display: "System.Security (net20)");
+                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (net20)");
                 }
                 return _SystemSecurity;
             }
@@ -1036,7 +1036,7 @@ public static partial class Net20
             {
                 if (_SystemServiceProcess is null)
                 {
-                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(Resources.SystemServiceProcess).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net20)");
+                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.ServiceProcess")).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net20)");
                 }
                 return _SystemServiceProcess;
             }
@@ -1053,7 +1053,7 @@ public static partial class Net20
             {
                 if (_SystemTransactions is null)
                 {
-                    _SystemTransactions = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net20)");
+                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net20)");
                 }
                 return _SystemTransactions;
             }
@@ -1070,7 +1070,7 @@ public static partial class Net20
             {
                 if (_SystemWeb is null)
                 {
-                    _SystemWeb = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (net20)");
+                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (net20)");
                 }
                 return _SystemWeb;
             }
@@ -1087,7 +1087,7 @@ public static partial class Net20
             {
                 if (_SystemWebMobile is null)
                 {
-                    _SystemWebMobile = AssemblyMetadata.CreateFromImage(Resources.SystemWebMobile).GetReference(filePath: "System.Web.Mobile.dll", display: "System.Web.Mobile (net20)");
+                    _SystemWebMobile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Web.Mobile")).GetReference(filePath: "System.Web.Mobile.dll", display: "System.Web.Mobile (net20)");
                 }
                 return _SystemWebMobile;
             }
@@ -1104,7 +1104,7 @@ public static partial class Net20
             {
                 if (_SystemWebRegularExpressions is null)
                 {
-                    _SystemWebRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemWebRegularExpressions).GetReference(filePath: "System.Web.RegularExpressions.dll", display: "System.Web.RegularExpressions (net20)");
+                    _SystemWebRegularExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Web.RegularExpressions")).GetReference(filePath: "System.Web.RegularExpressions.dll", display: "System.Web.RegularExpressions (net20)");
                 }
                 return _SystemWebRegularExpressions;
             }
@@ -1121,7 +1121,7 @@ public static partial class Net20
             {
                 if (_SystemWebServices is null)
                 {
-                    _SystemWebServices = AssemblyMetadata.CreateFromImage(Resources.SystemWebServices).GetReference(filePath: "System.Web.Services.dll", display: "System.Web.Services (net20)");
+                    _SystemWebServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Web.Services")).GetReference(filePath: "System.Web.Services.dll", display: "System.Web.Services (net20)");
                 }
                 return _SystemWebServices;
             }
@@ -1138,7 +1138,7 @@ public static partial class Net20
             {
                 if (_SystemWindowsForms is null)
                 {
-                    _SystemWindowsForms = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsForms).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net20)");
+                    _SystemWindowsForms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Windows.Forms")).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net20)");
                 }
                 return _SystemWindowsForms;
             }
@@ -1155,7 +1155,7 @@ public static partial class Net20
             {
                 if (_SystemXml is null)
                 {
-                    _SystemXml = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net20)");
+                    _SystemXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Xml")).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net20)");
                 }
                 return _SystemXml;
             }
