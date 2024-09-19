@@ -1851,7 +1851,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftCSharp is null)
                 {
-                    _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(Resources.MicrosoftCSharp).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (aspnet80)");
+                    _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.CSharp")).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (aspnet80)");
                 }
                 return _MicrosoftCSharp;
             }
@@ -1868,7 +1868,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftVisualBasicCore is null)
                 {
-                    _MicrosoftVisualBasicCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicCore).GetReference(filePath: "Microsoft.VisualBasic.Core.dll", display: "Microsoft.VisualBasic.Core (aspnet80)");
+                    _MicrosoftVisualBasicCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.VisualBasic.Core")).GetReference(filePath: "Microsoft.VisualBasic.Core.dll", display: "Microsoft.VisualBasic.Core (aspnet80)");
                 }
                 return _MicrosoftVisualBasicCore;
             }
@@ -1885,7 +1885,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftVisualBasic is null)
                 {
-                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (aspnet80)");
+                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (aspnet80)");
                 }
                 return _MicrosoftVisualBasic;
             }
@@ -1902,7 +1902,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftWin32Primitives is null)
                 {
-                    _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Primitives).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (aspnet80)");
+                    _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Win32.Primitives")).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (aspnet80)");
                 }
                 return _MicrosoftWin32Primitives;
             }
@@ -1919,7 +1919,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftWin32Registry is null)
                 {
-                    _MicrosoftWin32Registry = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Registry).GetReference(filePath: "Microsoft.Win32.Registry.dll", display: "Microsoft.Win32.Registry (aspnet80)");
+                    _MicrosoftWin32Registry = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Win32.Registry")).GetReference(filePath: "Microsoft.Win32.Registry.dll", display: "Microsoft.Win32.Registry (aspnet80)");
                 }
                 return _MicrosoftWin32Registry;
             }
@@ -1936,7 +1936,7 @@ public static partial class AspNet80
             {
                 if (_mscorlib is null)
                 {
-                    _mscorlib = AssemblyMetadata.CreateFromImage(Resources.mscorlib).GetReference(filePath: "mscorlib.dll", display: "mscorlib (aspnet80)");
+                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (aspnet80)");
                 }
                 return _mscorlib;
             }
@@ -1953,7 +1953,7 @@ public static partial class AspNet80
             {
                 if (_netstandard is null)
                 {
-                    _netstandard = AssemblyMetadata.CreateFromImage(Resources.netstandard).GetReference(filePath: "netstandard.dll", display: "netstandard (aspnet80)");
+                    _netstandard = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.netstandard")).GetReference(filePath: "netstandard.dll", display: "netstandard (aspnet80)");
                 }
                 return _netstandard;
             }
@@ -1970,7 +1970,7 @@ public static partial class AspNet80
             {
                 if (_SystemAppContext is null)
                 {
-                    _SystemAppContext = AssemblyMetadata.CreateFromImage(Resources.SystemAppContext).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (aspnet80)");
+                    _SystemAppContext = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.AppContext")).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (aspnet80)");
                 }
                 return _SystemAppContext;
             }
@@ -1987,7 +1987,7 @@ public static partial class AspNet80
             {
                 if (_SystemBuffers is null)
                 {
-                    _SystemBuffers = AssemblyMetadata.CreateFromImage(Resources.SystemBuffers).GetReference(filePath: "System.Buffers.dll", display: "System.Buffers (aspnet80)");
+                    _SystemBuffers = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Buffers")).GetReference(filePath: "System.Buffers.dll", display: "System.Buffers (aspnet80)");
                 }
                 return _SystemBuffers;
             }
@@ -2004,7 +2004,7 @@ public static partial class AspNet80
             {
                 if (_SystemCollectionsConcurrent is null)
                 {
-                    _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (aspnet80)");
+                    _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Collections.Concurrent")).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (aspnet80)");
                 }
                 return _SystemCollectionsConcurrent;
             }
@@ -2021,7 +2021,7 @@ public static partial class AspNet80
             {
                 if (_SystemCollections is null)
                 {
-                    _SystemCollections = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (aspnet80)");
+                    _SystemCollections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Collections")).GetReference(filePath: "System.Collections.dll", display: "System.Collections (aspnet80)");
                 }
                 return _SystemCollections;
             }
@@ -2038,7 +2038,7 @@ public static partial class AspNet80
             {
                 if (_SystemCollectionsImmutable is null)
                 {
-                    _SystemCollectionsImmutable = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsImmutable).GetReference(filePath: "System.Collections.Immutable.dll", display: "System.Collections.Immutable (aspnet80)");
+                    _SystemCollectionsImmutable = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Collections.Immutable")).GetReference(filePath: "System.Collections.Immutable.dll", display: "System.Collections.Immutable (aspnet80)");
                 }
                 return _SystemCollectionsImmutable;
             }
@@ -2055,7 +2055,7 @@ public static partial class AspNet80
             {
                 if (_SystemCollectionsNonGeneric is null)
                 {
-                    _SystemCollectionsNonGeneric = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsNonGeneric).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (aspnet80)");
+                    _SystemCollectionsNonGeneric = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Collections.NonGeneric")).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (aspnet80)");
                 }
                 return _SystemCollectionsNonGeneric;
             }
@@ -2072,7 +2072,7 @@ public static partial class AspNet80
             {
                 if (_SystemCollectionsSpecialized is null)
                 {
-                    _SystemCollectionsSpecialized = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsSpecialized).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (aspnet80)");
+                    _SystemCollectionsSpecialized = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Collections.Specialized")).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (aspnet80)");
                 }
                 return _SystemCollectionsSpecialized;
             }
@@ -2089,7 +2089,7 @@ public static partial class AspNet80
             {
                 if (_SystemComponentModelAnnotations is null)
                 {
-                    _SystemComponentModelAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelAnnotations).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (aspnet80)");
+                    _SystemComponentModelAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.ComponentModel.Annotations")).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (aspnet80)");
                 }
                 return _SystemComponentModelAnnotations;
             }
@@ -2106,7 +2106,7 @@ public static partial class AspNet80
             {
                 if (_SystemComponentModelDataAnnotations is null)
                 {
-                    _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelDataAnnotations).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (aspnet80)");
+                    _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.ComponentModel.DataAnnotations")).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (aspnet80)");
                 }
                 return _SystemComponentModelDataAnnotations;
             }
@@ -2123,7 +2123,7 @@ public static partial class AspNet80
             {
                 if (_SystemComponentModel is null)
                 {
-                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModel).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (aspnet80)");
+                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.ComponentModel")).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (aspnet80)");
                 }
                 return _SystemComponentModel;
             }
@@ -2140,7 +2140,7 @@ public static partial class AspNet80
             {
                 if (_SystemComponentModelEventBasedAsync is null)
                 {
-                    _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelEventBasedAsync).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (aspnet80)");
+                    _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.ComponentModel.EventBasedAsync")).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (aspnet80)");
                 }
                 return _SystemComponentModelEventBasedAsync;
             }
@@ -2157,7 +2157,7 @@ public static partial class AspNet80
             {
                 if (_SystemComponentModelPrimitives is null)
                 {
-                    _SystemComponentModelPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelPrimitives).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (aspnet80)");
+                    _SystemComponentModelPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.ComponentModel.Primitives")).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (aspnet80)");
                 }
                 return _SystemComponentModelPrimitives;
             }
@@ -2174,7 +2174,7 @@ public static partial class AspNet80
             {
                 if (_SystemComponentModelTypeConverter is null)
                 {
-                    _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(Resources.SystemComponentModelTypeConverter).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (aspnet80)");
+                    _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.ComponentModel.TypeConverter")).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (aspnet80)");
                 }
                 return _SystemComponentModelTypeConverter;
             }
@@ -2191,7 +2191,7 @@ public static partial class AspNet80
             {
                 if (_SystemConfiguration is null)
                 {
-                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(Resources.SystemConfiguration).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (aspnet80)");
+                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Configuration")).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (aspnet80)");
                 }
                 return _SystemConfiguration;
             }
@@ -2208,7 +2208,7 @@ public static partial class AspNet80
             {
                 if (_SystemConsole is null)
                 {
-                    _SystemConsole = AssemblyMetadata.CreateFromImage(Resources.SystemConsole).GetReference(filePath: "System.Console.dll", display: "System.Console (aspnet80)");
+                    _SystemConsole = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Console")).GetReference(filePath: "System.Console.dll", display: "System.Console (aspnet80)");
                 }
                 return _SystemConsole;
             }
@@ -2225,7 +2225,7 @@ public static partial class AspNet80
             {
                 if (_SystemCore is null)
                 {
-                    _SystemCore = AssemblyMetadata.CreateFromImage(Resources.SystemCore).GetReference(filePath: "System.Core.dll", display: "System.Core (aspnet80)");
+                    _SystemCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Core")).GetReference(filePath: "System.Core.dll", display: "System.Core (aspnet80)");
                 }
                 return _SystemCore;
             }
@@ -2242,7 +2242,7 @@ public static partial class AspNet80
             {
                 if (_SystemDataCommon is null)
                 {
-                    _SystemDataCommon = AssemblyMetadata.CreateFromImage(Resources.SystemDataCommon).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (aspnet80)");
+                    _SystemDataCommon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Data.Common")).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (aspnet80)");
                 }
                 return _SystemDataCommon;
             }
@@ -2259,7 +2259,7 @@ public static partial class AspNet80
             {
                 if (_SystemDataDataSetExtensions is null)
                 {
-                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemDataDataSetExtensions).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (aspnet80)");
+                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Data.DataSetExtensions")).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (aspnet80)");
                 }
                 return _SystemDataDataSetExtensions;
             }
@@ -2276,7 +2276,7 @@ public static partial class AspNet80
             {
                 if (_SystemData is null)
                 {
-                    _SystemData = AssemblyMetadata.CreateFromImage(Resources.SystemData).GetReference(filePath: "System.Data.dll", display: "System.Data (aspnet80)");
+                    _SystemData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Data")).GetReference(filePath: "System.Data.dll", display: "System.Data (aspnet80)");
                 }
                 return _SystemData;
             }
@@ -2293,7 +2293,7 @@ public static partial class AspNet80
             {
                 if (_SystemDiagnosticsContracts is null)
                 {
-                    _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsContracts).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (aspnet80)");
+                    _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Diagnostics.Contracts")).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (aspnet80)");
                 }
                 return _SystemDiagnosticsContracts;
             }
@@ -2310,7 +2310,7 @@ public static partial class AspNet80
             {
                 if (_SystemDiagnosticsDebug is null)
                 {
-                    _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (aspnet80)");
+                    _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Diagnostics.Debug")).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (aspnet80)");
                 }
                 return _SystemDiagnosticsDebug;
             }
@@ -2327,7 +2327,7 @@ public static partial class AspNet80
             {
                 if (_SystemDiagnosticsDiagnosticSource is null)
                 {
-                    _SystemDiagnosticsDiagnosticSource = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDiagnosticSource).GetReference(filePath: "System.Diagnostics.DiagnosticSource.dll", display: "System.Diagnostics.DiagnosticSource (aspnet80)");
+                    _SystemDiagnosticsDiagnosticSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Diagnostics.DiagnosticSource")).GetReference(filePath: "System.Diagnostics.DiagnosticSource.dll", display: "System.Diagnostics.DiagnosticSource (aspnet80)");
                 }
                 return _SystemDiagnosticsDiagnosticSource;
             }
@@ -2344,7 +2344,7 @@ public static partial class AspNet80
             {
                 if (_SystemDiagnosticsFileVersionInfo is null)
                 {
-                    _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsFileVersionInfo).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (aspnet80)");
+                    _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Diagnostics.FileVersionInfo")).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (aspnet80)");
                 }
                 return _SystemDiagnosticsFileVersionInfo;
             }
@@ -2361,7 +2361,7 @@ public static partial class AspNet80
             {
                 if (_SystemDiagnosticsProcess is null)
                 {
-                    _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsProcess).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (aspnet80)");
+                    _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Diagnostics.Process")).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (aspnet80)");
                 }
                 return _SystemDiagnosticsProcess;
             }
@@ -2378,7 +2378,7 @@ public static partial class AspNet80
             {
                 if (_SystemDiagnosticsStackTrace is null)
                 {
-                    _SystemDiagnosticsStackTrace = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsStackTrace).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (aspnet80)");
+                    _SystemDiagnosticsStackTrace = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Diagnostics.StackTrace")).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (aspnet80)");
                 }
                 return _SystemDiagnosticsStackTrace;
             }
@@ -2395,7 +2395,7 @@ public static partial class AspNet80
             {
                 if (_SystemDiagnosticsTextWriterTraceListener is null)
                 {
-                    _SystemDiagnosticsTextWriterTraceListener = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTextWriterTraceListener).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (aspnet80)");
+                    _SystemDiagnosticsTextWriterTraceListener = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Diagnostics.TextWriterTraceListener")).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (aspnet80)");
                 }
                 return _SystemDiagnosticsTextWriterTraceListener;
             }
@@ -2412,7 +2412,7 @@ public static partial class AspNet80
             {
                 if (_SystemDiagnosticsTools is null)
                 {
-                    _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (aspnet80)");
+                    _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Diagnostics.Tools")).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (aspnet80)");
                 }
                 return _SystemDiagnosticsTools;
             }
@@ -2429,7 +2429,7 @@ public static partial class AspNet80
             {
                 if (_SystemDiagnosticsTraceSource is null)
                 {
-                    _SystemDiagnosticsTraceSource = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTraceSource).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (aspnet80)");
+                    _SystemDiagnosticsTraceSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Diagnostics.TraceSource")).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (aspnet80)");
                 }
                 return _SystemDiagnosticsTraceSource;
             }
@@ -2446,7 +2446,7 @@ public static partial class AspNet80
             {
                 if (_SystemDiagnosticsTracing is null)
                 {
-                    _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (aspnet80)");
+                    _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Diagnostics.Tracing")).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (aspnet80)");
                 }
                 return _SystemDiagnosticsTracing;
             }
@@ -2463,7 +2463,7 @@ public static partial class AspNet80
             {
                 if (_System is null)
                 {
-                    _System = AssemblyMetadata.CreateFromImage(Resources.System).GetReference(filePath: "System.dll", display: "System (aspnet80)");
+                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System")).GetReference(filePath: "System.dll", display: "System (aspnet80)");
                 }
                 return _System;
             }
@@ -2480,7 +2480,7 @@ public static partial class AspNet80
             {
                 if (_SystemDrawing is null)
                 {
-                    _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (aspnet80)");
+                    _SystemDrawing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Drawing")).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (aspnet80)");
                 }
                 return _SystemDrawing;
             }
@@ -2497,7 +2497,7 @@ public static partial class AspNet80
             {
                 if (_SystemDrawingPrimitives is null)
                 {
-                    _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingPrimitives).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (aspnet80)");
+                    _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Drawing.Primitives")).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (aspnet80)");
                 }
                 return _SystemDrawingPrimitives;
             }
@@ -2514,7 +2514,7 @@ public static partial class AspNet80
             {
                 if (_SystemDynamicRuntime is null)
                 {
-                    _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemDynamicRuntime).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (aspnet80)");
+                    _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Dynamic.Runtime")).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (aspnet80)");
                 }
                 return _SystemDynamicRuntime;
             }
@@ -2531,7 +2531,7 @@ public static partial class AspNet80
             {
                 if (_SystemFormatsAsn1 is null)
                 {
-                    _SystemFormatsAsn1 = AssemblyMetadata.CreateFromImage(Resources.SystemFormatsAsn1).GetReference(filePath: "System.Formats.Asn1.dll", display: "System.Formats.Asn1 (aspnet80)");
+                    _SystemFormatsAsn1 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Formats.Asn1")).GetReference(filePath: "System.Formats.Asn1.dll", display: "System.Formats.Asn1 (aspnet80)");
                 }
                 return _SystemFormatsAsn1;
             }
@@ -2548,7 +2548,7 @@ public static partial class AspNet80
             {
                 if (_SystemFormatsTar is null)
                 {
-                    _SystemFormatsTar = AssemblyMetadata.CreateFromImage(Resources.SystemFormatsTar).GetReference(filePath: "System.Formats.Tar.dll", display: "System.Formats.Tar (aspnet80)");
+                    _SystemFormatsTar = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Formats.Tar")).GetReference(filePath: "System.Formats.Tar.dll", display: "System.Formats.Tar (aspnet80)");
                 }
                 return _SystemFormatsTar;
             }
@@ -2565,7 +2565,7 @@ public static partial class AspNet80
             {
                 if (_SystemGlobalizationCalendars is null)
                 {
-                    _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationCalendars).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (aspnet80)");
+                    _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Globalization.Calendars")).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (aspnet80)");
                 }
                 return _SystemGlobalizationCalendars;
             }
@@ -2582,7 +2582,7 @@ public static partial class AspNet80
             {
                 if (_SystemGlobalization is null)
                 {
-                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (aspnet80)");
+                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Globalization")).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (aspnet80)");
                 }
                 return _SystemGlobalization;
             }
@@ -2599,7 +2599,7 @@ public static partial class AspNet80
             {
                 if (_SystemGlobalizationExtensions is null)
                 {
-                    _SystemGlobalizationExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationExtensions).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (aspnet80)");
+                    _SystemGlobalizationExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Globalization.Extensions")).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (aspnet80)");
                 }
                 return _SystemGlobalizationExtensions;
             }
@@ -2616,7 +2616,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOCompressionBrotli is null)
                 {
-                    _SystemIOCompressionBrotli = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionBrotli).GetReference(filePath: "System.IO.Compression.Brotli.dll", display: "System.IO.Compression.Brotli (aspnet80)");
+                    _SystemIOCompressionBrotli = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.Compression.Brotli")).GetReference(filePath: "System.IO.Compression.Brotli.dll", display: "System.IO.Compression.Brotli (aspnet80)");
                 }
                 return _SystemIOCompressionBrotli;
             }
@@ -2633,7 +2633,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOCompression is null)
                 {
-                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (aspnet80)");
+                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (aspnet80)");
                 }
                 return _SystemIOCompression;
             }
@@ -2650,7 +2650,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOCompressionFileSystem is null)
                 {
-                    _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionFileSystem).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (aspnet80)");
+                    _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.Compression.FileSystem")).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (aspnet80)");
                 }
                 return _SystemIOCompressionFileSystem;
             }
@@ -2667,7 +2667,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOCompressionZipFile is null)
                 {
-                    _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionZipFile).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (aspnet80)");
+                    _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.Compression.ZipFile")).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (aspnet80)");
                 }
                 return _SystemIOCompressionZipFile;
             }
@@ -2684,7 +2684,7 @@ public static partial class AspNet80
             {
                 if (_SystemIO is null)
                 {
-                    _SystemIO = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (aspnet80)");
+                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (aspnet80)");
                 }
                 return _SystemIO;
             }
@@ -2701,7 +2701,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOFileSystemAccessControl is null)
                 {
-                    _SystemIOFileSystemAccessControl = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemAccessControl).GetReference(filePath: "System.IO.FileSystem.AccessControl.dll", display: "System.IO.FileSystem.AccessControl (aspnet80)");
+                    _SystemIOFileSystemAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.FileSystem.AccessControl")).GetReference(filePath: "System.IO.FileSystem.AccessControl.dll", display: "System.IO.FileSystem.AccessControl (aspnet80)");
                 }
                 return _SystemIOFileSystemAccessControl;
             }
@@ -2718,7 +2718,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOFileSystem is null)
                 {
-                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystem).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (aspnet80)");
+                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.FileSystem")).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (aspnet80)");
                 }
                 return _SystemIOFileSystem;
             }
@@ -2735,7 +2735,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOFileSystemDriveInfo is null)
                 {
-                    _SystemIOFileSystemDriveInfo = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemDriveInfo).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (aspnet80)");
+                    _SystemIOFileSystemDriveInfo = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.FileSystem.DriveInfo")).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (aspnet80)");
                 }
                 return _SystemIOFileSystemDriveInfo;
             }
@@ -2752,7 +2752,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOFileSystemPrimitives is null)
                 {
-                    _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemPrimitives).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (aspnet80)");
+                    _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.FileSystem.Primitives")).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (aspnet80)");
                 }
                 return _SystemIOFileSystemPrimitives;
             }
@@ -2769,7 +2769,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOFileSystemWatcher is null)
                 {
-                    _SystemIOFileSystemWatcher = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemWatcher).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (aspnet80)");
+                    _SystemIOFileSystemWatcher = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.FileSystem.Watcher")).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (aspnet80)");
                 }
                 return _SystemIOFileSystemWatcher;
             }
@@ -2786,7 +2786,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOIsolatedStorage is null)
                 {
-                    _SystemIOIsolatedStorage = AssemblyMetadata.CreateFromImage(Resources.SystemIOIsolatedStorage).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (aspnet80)");
+                    _SystemIOIsolatedStorage = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.IsolatedStorage")).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (aspnet80)");
                 }
                 return _SystemIOIsolatedStorage;
             }
@@ -2803,7 +2803,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOMemoryMappedFiles is null)
                 {
-                    _SystemIOMemoryMappedFiles = AssemblyMetadata.CreateFromImage(Resources.SystemIOMemoryMappedFiles).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (aspnet80)");
+                    _SystemIOMemoryMappedFiles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.MemoryMappedFiles")).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (aspnet80)");
                 }
                 return _SystemIOMemoryMappedFiles;
             }
@@ -2820,7 +2820,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOPipesAccessControl is null)
                 {
-                    _SystemIOPipesAccessControl = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipesAccessControl).GetReference(filePath: "System.IO.Pipes.AccessControl.dll", display: "System.IO.Pipes.AccessControl (aspnet80)");
+                    _SystemIOPipesAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.Pipes.AccessControl")).GetReference(filePath: "System.IO.Pipes.AccessControl.dll", display: "System.IO.Pipes.AccessControl (aspnet80)");
                 }
                 return _SystemIOPipesAccessControl;
             }
@@ -2837,7 +2837,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOPipes is null)
                 {
-                    _SystemIOPipes = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipes).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (aspnet80)");
+                    _SystemIOPipes = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.Pipes")).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (aspnet80)");
                 }
                 return _SystemIOPipes;
             }
@@ -2854,7 +2854,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOUnmanagedMemoryStream is null)
                 {
-                    _SystemIOUnmanagedMemoryStream = AssemblyMetadata.CreateFromImage(Resources.SystemIOUnmanagedMemoryStream).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (aspnet80)");
+                    _SystemIOUnmanagedMemoryStream = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.UnmanagedMemoryStream")).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (aspnet80)");
                 }
                 return _SystemIOUnmanagedMemoryStream;
             }
@@ -2871,7 +2871,7 @@ public static partial class AspNet80
             {
                 if (_SystemLinq is null)
                 {
-                    _SystemLinq = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (aspnet80)");
+                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (aspnet80)");
                 }
                 return _SystemLinq;
             }
@@ -2888,7 +2888,7 @@ public static partial class AspNet80
             {
                 if (_SystemLinqExpressions is null)
                 {
-                    _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (aspnet80)");
+                    _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Linq.Expressions")).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (aspnet80)");
                 }
                 return _SystemLinqExpressions;
             }
@@ -2905,7 +2905,7 @@ public static partial class AspNet80
             {
                 if (_SystemLinqParallel is null)
                 {
-                    _SystemLinqParallel = AssemblyMetadata.CreateFromImage(Resources.SystemLinqParallel).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (aspnet80)");
+                    _SystemLinqParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Linq.Parallel")).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (aspnet80)");
                 }
                 return _SystemLinqParallel;
             }
@@ -2922,7 +2922,7 @@ public static partial class AspNet80
             {
                 if (_SystemLinqQueryable is null)
                 {
-                    _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(Resources.SystemLinqQueryable).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (aspnet80)");
+                    _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Linq.Queryable")).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (aspnet80)");
                 }
                 return _SystemLinqQueryable;
             }
@@ -2939,7 +2939,7 @@ public static partial class AspNet80
             {
                 if (_SystemMemory is null)
                 {
-                    _SystemMemory = AssemblyMetadata.CreateFromImage(Resources.SystemMemory).GetReference(filePath: "System.Memory.dll", display: "System.Memory (aspnet80)");
+                    _SystemMemory = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Memory")).GetReference(filePath: "System.Memory.dll", display: "System.Memory (aspnet80)");
                 }
                 return _SystemMemory;
             }
@@ -2956,7 +2956,7 @@ public static partial class AspNet80
             {
                 if (_SystemNet is null)
                 {
-                    _SystemNet = AssemblyMetadata.CreateFromImage(Resources.SystemNet).GetReference(filePath: "System.Net.dll", display: "System.Net (aspnet80)");
+                    _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (aspnet80)");
                 }
                 return _SystemNet;
             }
@@ -2973,7 +2973,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetHttp is null)
                 {
-                    _SystemNetHttp = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (aspnet80)");
+                    _SystemNetHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.Http")).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (aspnet80)");
                 }
                 return _SystemNetHttp;
             }
@@ -2990,7 +2990,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetHttpJson is null)
                 {
-                    _SystemNetHttpJson = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpJson).GetReference(filePath: "System.Net.Http.Json.dll", display: "System.Net.Http.Json (aspnet80)");
+                    _SystemNetHttpJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.Http.Json")).GetReference(filePath: "System.Net.Http.Json.dll", display: "System.Net.Http.Json (aspnet80)");
                 }
                 return _SystemNetHttpJson;
             }
@@ -3007,7 +3007,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetHttpListener is null)
                 {
-                    _SystemNetHttpListener = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttpListener).GetReference(filePath: "System.Net.HttpListener.dll", display: "System.Net.HttpListener (aspnet80)");
+                    _SystemNetHttpListener = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.HttpListener")).GetReference(filePath: "System.Net.HttpListener.dll", display: "System.Net.HttpListener (aspnet80)");
                 }
                 return _SystemNetHttpListener;
             }
@@ -3024,7 +3024,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetMail is null)
                 {
-                    _SystemNetMail = AssemblyMetadata.CreateFromImage(Resources.SystemNetMail).GetReference(filePath: "System.Net.Mail.dll", display: "System.Net.Mail (aspnet80)");
+                    _SystemNetMail = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.Mail")).GetReference(filePath: "System.Net.Mail.dll", display: "System.Net.Mail (aspnet80)");
                 }
                 return _SystemNetMail;
             }
@@ -3041,7 +3041,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetNameResolution is null)
                 {
-                    _SystemNetNameResolution = AssemblyMetadata.CreateFromImage(Resources.SystemNetNameResolution).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (aspnet80)");
+                    _SystemNetNameResolution = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.NameResolution")).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (aspnet80)");
                 }
                 return _SystemNetNameResolution;
             }
@@ -3058,7 +3058,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetNetworkInformation is null)
                 {
-                    _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(Resources.SystemNetNetworkInformation).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (aspnet80)");
+                    _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.NetworkInformation")).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (aspnet80)");
                 }
                 return _SystemNetNetworkInformation;
             }
@@ -3075,7 +3075,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetPing is null)
                 {
-                    _SystemNetPing = AssemblyMetadata.CreateFromImage(Resources.SystemNetPing).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (aspnet80)");
+                    _SystemNetPing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.Ping")).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (aspnet80)");
                 }
                 return _SystemNetPing;
             }
@@ -3092,7 +3092,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetPrimitives is null)
                 {
-                    _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (aspnet80)");
+                    _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.Primitives")).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (aspnet80)");
                 }
                 return _SystemNetPrimitives;
             }
@@ -3109,7 +3109,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetQuic is null)
                 {
-                    _SystemNetQuic = AssemblyMetadata.CreateFromImage(Resources.SystemNetQuic).GetReference(filePath: "System.Net.Quic.dll", display: "System.Net.Quic (aspnet80)");
+                    _SystemNetQuic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.Quic")).GetReference(filePath: "System.Net.Quic.dll", display: "System.Net.Quic (aspnet80)");
                 }
                 return _SystemNetQuic;
             }
@@ -3126,7 +3126,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetRequests is null)
                 {
-                    _SystemNetRequests = AssemblyMetadata.CreateFromImage(Resources.SystemNetRequests).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (aspnet80)");
+                    _SystemNetRequests = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.Requests")).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (aspnet80)");
                 }
                 return _SystemNetRequests;
             }
@@ -3143,7 +3143,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetSecurity is null)
                 {
-                    _SystemNetSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemNetSecurity).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (aspnet80)");
+                    _SystemNetSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.Security")).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (aspnet80)");
                 }
                 return _SystemNetSecurity;
             }
@@ -3160,7 +3160,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetServicePoint is null)
                 {
-                    _SystemNetServicePoint = AssemblyMetadata.CreateFromImage(Resources.SystemNetServicePoint).GetReference(filePath: "System.Net.ServicePoint.dll", display: "System.Net.ServicePoint (aspnet80)");
+                    _SystemNetServicePoint = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.ServicePoint")).GetReference(filePath: "System.Net.ServicePoint.dll", display: "System.Net.ServicePoint (aspnet80)");
                 }
                 return _SystemNetServicePoint;
             }
@@ -3177,7 +3177,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetSockets is null)
                 {
-                    _SystemNetSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetSockets).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (aspnet80)");
+                    _SystemNetSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.Sockets")).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (aspnet80)");
                 }
                 return _SystemNetSockets;
             }
@@ -3194,7 +3194,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetWebClient is null)
                 {
-                    _SystemNetWebClient = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebClient).GetReference(filePath: "System.Net.WebClient.dll", display: "System.Net.WebClient (aspnet80)");
+                    _SystemNetWebClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.WebClient")).GetReference(filePath: "System.Net.WebClient.dll", display: "System.Net.WebClient (aspnet80)");
                 }
                 return _SystemNetWebClient;
             }
@@ -3211,7 +3211,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetWebHeaderCollection is null)
                 {
-                    _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebHeaderCollection).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (aspnet80)");
+                    _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.WebHeaderCollection")).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (aspnet80)");
                 }
                 return _SystemNetWebHeaderCollection;
             }
@@ -3228,7 +3228,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetWebProxy is null)
                 {
-                    _SystemNetWebProxy = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebProxy).GetReference(filePath: "System.Net.WebProxy.dll", display: "System.Net.WebProxy (aspnet80)");
+                    _SystemNetWebProxy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.WebProxy")).GetReference(filePath: "System.Net.WebProxy.dll", display: "System.Net.WebProxy (aspnet80)");
                 }
                 return _SystemNetWebProxy;
             }
@@ -3245,7 +3245,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetWebSocketsClient is null)
                 {
-                    _SystemNetWebSocketsClient = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSocketsClient).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (aspnet80)");
+                    _SystemNetWebSocketsClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.WebSockets.Client")).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (aspnet80)");
                 }
                 return _SystemNetWebSocketsClient;
             }
@@ -3262,7 +3262,7 @@ public static partial class AspNet80
             {
                 if (_SystemNetWebSockets is null)
                 {
-                    _SystemNetWebSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetWebSockets).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (aspnet80)");
+                    _SystemNetWebSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Net.WebSockets")).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (aspnet80)");
                 }
                 return _SystemNetWebSockets;
             }
@@ -3279,7 +3279,7 @@ public static partial class AspNet80
             {
                 if (_SystemNumerics is null)
                 {
-                    _SystemNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemNumerics).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (aspnet80)");
+                    _SystemNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Numerics")).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (aspnet80)");
                 }
                 return _SystemNumerics;
             }
@@ -3296,7 +3296,7 @@ public static partial class AspNet80
             {
                 if (_SystemNumericsVectors is null)
                 {
-                    _SystemNumericsVectors = AssemblyMetadata.CreateFromImage(Resources.SystemNumericsVectors).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (aspnet80)");
+                    _SystemNumericsVectors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Numerics.Vectors")).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (aspnet80)");
                 }
                 return _SystemNumericsVectors;
             }
@@ -3313,7 +3313,7 @@ public static partial class AspNet80
             {
                 if (_SystemObjectModel is null)
                 {
-                    _SystemObjectModel = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (aspnet80)");
+                    _SystemObjectModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.ObjectModel")).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (aspnet80)");
                 }
                 return _SystemObjectModel;
             }
@@ -3330,7 +3330,7 @@ public static partial class AspNet80
             {
                 if (_SystemReflectionDispatchProxy is null)
                 {
-                    _SystemReflectionDispatchProxy = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionDispatchProxy).GetReference(filePath: "System.Reflection.DispatchProxy.dll", display: "System.Reflection.DispatchProxy (aspnet80)");
+                    _SystemReflectionDispatchProxy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Reflection.DispatchProxy")).GetReference(filePath: "System.Reflection.DispatchProxy.dll", display: "System.Reflection.DispatchProxy (aspnet80)");
                 }
                 return _SystemReflectionDispatchProxy;
             }
@@ -3347,7 +3347,7 @@ public static partial class AspNet80
             {
                 if (_SystemReflection is null)
                 {
-                    _SystemReflection = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (aspnet80)");
+                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (aspnet80)");
                 }
                 return _SystemReflection;
             }
@@ -3364,7 +3364,7 @@ public static partial class AspNet80
             {
                 if (_SystemReflectionEmit is null)
                 {
-                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmit).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (aspnet80)");
+                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Reflection.Emit")).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (aspnet80)");
                 }
                 return _SystemReflectionEmit;
             }
@@ -3381,7 +3381,7 @@ public static partial class AspNet80
             {
                 if (_SystemReflectionEmitILGeneration is null)
                 {
-                    _SystemReflectionEmitILGeneration = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitILGeneration).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (aspnet80)");
+                    _SystemReflectionEmitILGeneration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Reflection.Emit.ILGeneration")).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (aspnet80)");
                 }
                 return _SystemReflectionEmitILGeneration;
             }
@@ -3398,7 +3398,7 @@ public static partial class AspNet80
             {
                 if (_SystemReflectionEmitLightweight is null)
                 {
-                    _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionEmitLightweight).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (aspnet80)");
+                    _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Reflection.Emit.Lightweight")).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (aspnet80)");
                 }
                 return _SystemReflectionEmitLightweight;
             }
@@ -3415,7 +3415,7 @@ public static partial class AspNet80
             {
                 if (_SystemReflectionExtensions is null)
                 {
-                    _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (aspnet80)");
+                    _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Reflection.Extensions")).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (aspnet80)");
                 }
                 return _SystemReflectionExtensions;
             }
@@ -3432,7 +3432,7 @@ public static partial class AspNet80
             {
                 if (_SystemReflectionMetadata is null)
                 {
-                    _SystemReflectionMetadata = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionMetadata).GetReference(filePath: "System.Reflection.Metadata.dll", display: "System.Reflection.Metadata (aspnet80)");
+                    _SystemReflectionMetadata = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Reflection.Metadata")).GetReference(filePath: "System.Reflection.Metadata.dll", display: "System.Reflection.Metadata (aspnet80)");
                 }
                 return _SystemReflectionMetadata;
             }
@@ -3449,7 +3449,7 @@ public static partial class AspNet80
             {
                 if (_SystemReflectionPrimitives is null)
                 {
-                    _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (aspnet80)");
+                    _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Reflection.Primitives")).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (aspnet80)");
                 }
                 return _SystemReflectionPrimitives;
             }
@@ -3466,7 +3466,7 @@ public static partial class AspNet80
             {
                 if (_SystemReflectionTypeExtensions is null)
                 {
-                    _SystemReflectionTypeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionTypeExtensions).GetReference(filePath: "System.Reflection.TypeExtensions.dll", display: "System.Reflection.TypeExtensions (aspnet80)");
+                    _SystemReflectionTypeExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Reflection.TypeExtensions")).GetReference(filePath: "System.Reflection.TypeExtensions.dll", display: "System.Reflection.TypeExtensions (aspnet80)");
                 }
                 return _SystemReflectionTypeExtensions;
             }
@@ -3483,7 +3483,7 @@ public static partial class AspNet80
             {
                 if (_SystemResourcesReader is null)
                 {
-                    _SystemResourcesReader = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesReader).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (aspnet80)");
+                    _SystemResourcesReader = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Resources.Reader")).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (aspnet80)");
                 }
                 return _SystemResourcesReader;
             }
@@ -3500,7 +3500,7 @@ public static partial class AspNet80
             {
                 if (_SystemResourcesResourceManager is null)
                 {
-                    _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (aspnet80)");
+                    _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Resources.ResourceManager")).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (aspnet80)");
                 }
                 return _SystemResourcesResourceManager;
             }
@@ -3517,7 +3517,7 @@ public static partial class AspNet80
             {
                 if (_SystemResourcesWriter is null)
                 {
-                    _SystemResourcesWriter = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesWriter).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (aspnet80)");
+                    _SystemResourcesWriter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Resources.Writer")).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (aspnet80)");
                 }
                 return _SystemResourcesWriter;
             }
@@ -3534,7 +3534,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeCompilerServicesUnsafe is null)
                 {
-                    _SystemRuntimeCompilerServicesUnsafe = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesUnsafe).GetReference(filePath: "System.Runtime.CompilerServices.Unsafe.dll", display: "System.Runtime.CompilerServices.Unsafe (aspnet80)");
+                    _SystemRuntimeCompilerServicesUnsafe = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.CompilerServices.Unsafe")).GetReference(filePath: "System.Runtime.CompilerServices.Unsafe.dll", display: "System.Runtime.CompilerServices.Unsafe (aspnet80)");
                 }
                 return _SystemRuntimeCompilerServicesUnsafe;
             }
@@ -3551,7 +3551,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeCompilerServicesVisualC is null)
                 {
-                    _SystemRuntimeCompilerServicesVisualC = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeCompilerServicesVisualC).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (aspnet80)");
+                    _SystemRuntimeCompilerServicesVisualC = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.CompilerServices.VisualC")).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (aspnet80)");
                 }
                 return _SystemRuntimeCompilerServicesVisualC;
             }
@@ -3568,7 +3568,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntime is null)
                 {
-                    _SystemRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (aspnet80)");
+                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (aspnet80)");
                 }
                 return _SystemRuntime;
             }
@@ -3585,7 +3585,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeExtensions is null)
                 {
-                    _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (aspnet80)");
+                    _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.Extensions")).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (aspnet80)");
                 }
                 return _SystemRuntimeExtensions;
             }
@@ -3602,7 +3602,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeHandles is null)
                 {
-                    _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (aspnet80)");
+                    _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.Handles")).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (aspnet80)");
                 }
                 return _SystemRuntimeHandles;
             }
@@ -3619,7 +3619,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeInteropServices is null)
                 {
-                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (aspnet80)");
+                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (aspnet80)");
                 }
                 return _SystemRuntimeInteropServices;
             }
@@ -3636,7 +3636,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeInteropServicesJavaScript is null)
                 {
-                    _SystemRuntimeInteropServicesJavaScript = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesJavaScript).GetReference(filePath: "System.Runtime.InteropServices.JavaScript.dll", display: "System.Runtime.InteropServices.JavaScript (aspnet80)");
+                    _SystemRuntimeInteropServicesJavaScript = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.InteropServices.JavaScript")).GetReference(filePath: "System.Runtime.InteropServices.JavaScript.dll", display: "System.Runtime.InteropServices.JavaScript (aspnet80)");
                 }
                 return _SystemRuntimeInteropServicesJavaScript;
             }
@@ -3653,7 +3653,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeInteropServicesRuntimeInformation is null)
                 {
-                    _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesRuntimeInformation).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (aspnet80)");
+                    _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.InteropServices.RuntimeInformation")).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (aspnet80)");
                 }
                 return _SystemRuntimeInteropServicesRuntimeInformation;
             }
@@ -3670,7 +3670,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeIntrinsics is null)
                 {
-                    _SystemRuntimeIntrinsics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeIntrinsics).GetReference(filePath: "System.Runtime.Intrinsics.dll", display: "System.Runtime.Intrinsics (aspnet80)");
+                    _SystemRuntimeIntrinsics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.Intrinsics")).GetReference(filePath: "System.Runtime.Intrinsics.dll", display: "System.Runtime.Intrinsics (aspnet80)");
                 }
                 return _SystemRuntimeIntrinsics;
             }
@@ -3687,7 +3687,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeLoader is null)
                 {
-                    _SystemRuntimeLoader = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeLoader).GetReference(filePath: "System.Runtime.Loader.dll", display: "System.Runtime.Loader (aspnet80)");
+                    _SystemRuntimeLoader = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.Loader")).GetReference(filePath: "System.Runtime.Loader.dll", display: "System.Runtime.Loader (aspnet80)");
                 }
                 return _SystemRuntimeLoader;
             }
@@ -3704,7 +3704,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeNumerics is null)
                 {
-                    _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (aspnet80)");
+                    _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.Numerics")).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (aspnet80)");
                 }
                 return _SystemRuntimeNumerics;
             }
@@ -3721,7 +3721,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeSerialization is null)
                 {
-                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerialization).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (aspnet80)");
+                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (aspnet80)");
                 }
                 return _SystemRuntimeSerialization;
             }
@@ -3738,7 +3738,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeSerializationFormatters is null)
                 {
-                    _SystemRuntimeSerializationFormatters = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationFormatters).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (aspnet80)");
+                    _SystemRuntimeSerializationFormatters = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.Serialization.Formatters")).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (aspnet80)");
                 }
                 return _SystemRuntimeSerializationFormatters;
             }
@@ -3755,7 +3755,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeSerializationJson is null)
                 {
-                    _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationJson).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (aspnet80)");
+                    _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.Serialization.Json")).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (aspnet80)");
                 }
                 return _SystemRuntimeSerializationJson;
             }
@@ -3772,7 +3772,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeSerializationPrimitives is null)
                 {
-                    _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (aspnet80)");
+                    _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.Serialization.Primitives")).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (aspnet80)");
                 }
                 return _SystemRuntimeSerializationPrimitives;
             }
@@ -3789,7 +3789,7 @@ public static partial class AspNet80
             {
                 if (_SystemRuntimeSerializationXml is null)
                 {
-                    _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationXml).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (aspnet80)");
+                    _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Runtime.Serialization.Xml")).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (aspnet80)");
                 }
                 return _SystemRuntimeSerializationXml;
             }
@@ -3806,7 +3806,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecurityAccessControl is null)
                 {
-                    _SystemSecurityAccessControl = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityAccessControl).GetReference(filePath: "System.Security.AccessControl.dll", display: "System.Security.AccessControl (aspnet80)");
+                    _SystemSecurityAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security.AccessControl")).GetReference(filePath: "System.Security.AccessControl.dll", display: "System.Security.AccessControl (aspnet80)");
                 }
                 return _SystemSecurityAccessControl;
             }
@@ -3823,7 +3823,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecurityClaims is null)
                 {
-                    _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityClaims).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (aspnet80)");
+                    _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security.Claims")).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (aspnet80)");
                 }
                 return _SystemSecurityClaims;
             }
@@ -3840,7 +3840,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecurityCryptographyAlgorithms is null)
                 {
-                    _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyAlgorithms).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (aspnet80)");
+                    _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security.Cryptography.Algorithms")).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (aspnet80)");
                 }
                 return _SystemSecurityCryptographyAlgorithms;
             }
@@ -3857,7 +3857,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecurityCryptographyCng is null)
                 {
-                    _SystemSecurityCryptographyCng = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCng).GetReference(filePath: "System.Security.Cryptography.Cng.dll", display: "System.Security.Cryptography.Cng (aspnet80)");
+                    _SystemSecurityCryptographyCng = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security.Cryptography.Cng")).GetReference(filePath: "System.Security.Cryptography.Cng.dll", display: "System.Security.Cryptography.Cng (aspnet80)");
                 }
                 return _SystemSecurityCryptographyCng;
             }
@@ -3874,7 +3874,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecurityCryptographyCsp is null)
                 {
-                    _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCsp).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (aspnet80)");
+                    _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security.Cryptography.Csp")).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (aspnet80)");
                 }
                 return _SystemSecurityCryptographyCsp;
             }
@@ -3891,7 +3891,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecurityCryptography is null)
                 {
-                    _SystemSecurityCryptography = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptography).GetReference(filePath: "System.Security.Cryptography.dll", display: "System.Security.Cryptography (aspnet80)");
+                    _SystemSecurityCryptography = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security.Cryptography")).GetReference(filePath: "System.Security.Cryptography.dll", display: "System.Security.Cryptography (aspnet80)");
                 }
                 return _SystemSecurityCryptography;
             }
@@ -3908,7 +3908,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecurityCryptographyEncoding is null)
                 {
-                    _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyEncoding).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (aspnet80)");
+                    _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security.Cryptography.Encoding")).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (aspnet80)");
                 }
                 return _SystemSecurityCryptographyEncoding;
             }
@@ -3925,7 +3925,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecurityCryptographyOpenSsl is null)
                 {
-                    _SystemSecurityCryptographyOpenSsl = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyOpenSsl).GetReference(filePath: "System.Security.Cryptography.OpenSsl.dll", display: "System.Security.Cryptography.OpenSsl (aspnet80)");
+                    _SystemSecurityCryptographyOpenSsl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security.Cryptography.OpenSsl")).GetReference(filePath: "System.Security.Cryptography.OpenSsl.dll", display: "System.Security.Cryptography.OpenSsl (aspnet80)");
                 }
                 return _SystemSecurityCryptographyOpenSsl;
             }
@@ -3942,7 +3942,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecurityCryptographyPrimitives is null)
                 {
-                    _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPrimitives).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (aspnet80)");
+                    _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security.Cryptography.Primitives")).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (aspnet80)");
                 }
                 return _SystemSecurityCryptographyPrimitives;
             }
@@ -3959,7 +3959,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecurityCryptographyX509Certificates is null)
                 {
-                    _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyX509Certificates).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (aspnet80)");
+                    _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security.Cryptography.X509Certificates")).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (aspnet80)");
                 }
                 return _SystemSecurityCryptographyX509Certificates;
             }
@@ -3976,7 +3976,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecurity is null)
                 {
-                    _SystemSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemSecurity).GetReference(filePath: "System.Security.dll", display: "System.Security (aspnet80)");
+                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (aspnet80)");
                 }
                 return _SystemSecurity;
             }
@@ -3993,7 +3993,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecurityPrincipal is null)
                 {
-                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (aspnet80)");
+                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security.Principal")).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (aspnet80)");
                 }
                 return _SystemSecurityPrincipal;
             }
@@ -4010,7 +4010,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecurityPrincipalWindows is null)
                 {
-                    _SystemSecurityPrincipalWindows = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipalWindows).GetReference(filePath: "System.Security.Principal.Windows.dll", display: "System.Security.Principal.Windows (aspnet80)");
+                    _SystemSecurityPrincipalWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security.Principal.Windows")).GetReference(filePath: "System.Security.Principal.Windows.dll", display: "System.Security.Principal.Windows (aspnet80)");
                 }
                 return _SystemSecurityPrincipalWindows;
             }
@@ -4027,7 +4027,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecuritySecureString is null)
                 {
-                    _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(Resources.SystemSecuritySecureString).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (aspnet80)");
+                    _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security.SecureString")).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (aspnet80)");
                 }
                 return _SystemSecuritySecureString;
             }
@@ -4044,7 +4044,7 @@ public static partial class AspNet80
             {
                 if (_SystemServiceModelWeb is null)
                 {
-                    _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(Resources.SystemServiceModelWeb).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (aspnet80)");
+                    _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.ServiceModel.Web")).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (aspnet80)");
                 }
                 return _SystemServiceModelWeb;
             }
@@ -4061,7 +4061,7 @@ public static partial class AspNet80
             {
                 if (_SystemServiceProcess is null)
                 {
-                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(Resources.SystemServiceProcess).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (aspnet80)");
+                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.ServiceProcess")).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (aspnet80)");
                 }
                 return _SystemServiceProcess;
             }
@@ -4078,7 +4078,7 @@ public static partial class AspNet80
             {
                 if (_SystemTextEncodingCodePages is null)
                 {
-                    _SystemTextEncodingCodePages = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingCodePages).GetReference(filePath: "System.Text.Encoding.CodePages.dll", display: "System.Text.Encoding.CodePages (aspnet80)");
+                    _SystemTextEncodingCodePages = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Text.Encoding.CodePages")).GetReference(filePath: "System.Text.Encoding.CodePages.dll", display: "System.Text.Encoding.CodePages (aspnet80)");
                 }
                 return _SystemTextEncodingCodePages;
             }
@@ -4095,7 +4095,7 @@ public static partial class AspNet80
             {
                 if (_SystemTextEncoding is null)
                 {
-                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (aspnet80)");
+                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Text.Encoding")).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (aspnet80)");
                 }
                 return _SystemTextEncoding;
             }
@@ -4112,7 +4112,7 @@ public static partial class AspNet80
             {
                 if (_SystemTextEncodingExtensions is null)
                 {
-                    _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (aspnet80)");
+                    _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Text.Encoding.Extensions")).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (aspnet80)");
                 }
                 return _SystemTextEncodingExtensions;
             }
@@ -4129,7 +4129,7 @@ public static partial class AspNet80
             {
                 if (_SystemTextEncodingsWeb is null)
                 {
-                    _SystemTextEncodingsWeb = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingsWeb).GetReference(filePath: "System.Text.Encodings.Web.dll", display: "System.Text.Encodings.Web (aspnet80)");
+                    _SystemTextEncodingsWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Text.Encodings.Web")).GetReference(filePath: "System.Text.Encodings.Web.dll", display: "System.Text.Encodings.Web (aspnet80)");
                 }
                 return _SystemTextEncodingsWeb;
             }
@@ -4146,7 +4146,7 @@ public static partial class AspNet80
             {
                 if (_SystemTextJson is null)
                 {
-                    _SystemTextJson = AssemblyMetadata.CreateFromImage(Resources.SystemTextJson).GetReference(filePath: "System.Text.Json.dll", display: "System.Text.Json (aspnet80)");
+                    _SystemTextJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Text.Json")).GetReference(filePath: "System.Text.Json.dll", display: "System.Text.Json (aspnet80)");
                 }
                 return _SystemTextJson;
             }
@@ -4163,7 +4163,7 @@ public static partial class AspNet80
             {
                 if (_SystemTextRegularExpressions is null)
                 {
-                    _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (aspnet80)");
+                    _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Text.RegularExpressions")).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (aspnet80)");
                 }
                 return _SystemTextRegularExpressions;
             }
@@ -4180,7 +4180,7 @@ public static partial class AspNet80
             {
                 if (_SystemThreadingChannels is null)
                 {
-                    _SystemThreadingChannels = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingChannels).GetReference(filePath: "System.Threading.Channels.dll", display: "System.Threading.Channels (aspnet80)");
+                    _SystemThreadingChannels = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Threading.Channels")).GetReference(filePath: "System.Threading.Channels.dll", display: "System.Threading.Channels (aspnet80)");
                 }
                 return _SystemThreadingChannels;
             }
@@ -4197,7 +4197,7 @@ public static partial class AspNet80
             {
                 if (_SystemThreading is null)
                 {
-                    _SystemThreading = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (aspnet80)");
+                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (aspnet80)");
                 }
                 return _SystemThreading;
             }
@@ -4214,7 +4214,7 @@ public static partial class AspNet80
             {
                 if (_SystemThreadingOverlapped is null)
                 {
-                    _SystemThreadingOverlapped = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingOverlapped).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (aspnet80)");
+                    _SystemThreadingOverlapped = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Threading.Overlapped")).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (aspnet80)");
                 }
                 return _SystemThreadingOverlapped;
             }
@@ -4231,7 +4231,7 @@ public static partial class AspNet80
             {
                 if (_SystemThreadingTasksDataflow is null)
                 {
-                    _SystemThreadingTasksDataflow = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksDataflow).GetReference(filePath: "System.Threading.Tasks.Dataflow.dll", display: "System.Threading.Tasks.Dataflow (aspnet80)");
+                    _SystemThreadingTasksDataflow = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Threading.Tasks.Dataflow")).GetReference(filePath: "System.Threading.Tasks.Dataflow.dll", display: "System.Threading.Tasks.Dataflow (aspnet80)");
                 }
                 return _SystemThreadingTasksDataflow;
             }
@@ -4248,7 +4248,7 @@ public static partial class AspNet80
             {
                 if (_SystemThreadingTasks is null)
                 {
-                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (aspnet80)");
+                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Threading.Tasks")).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (aspnet80)");
                 }
                 return _SystemThreadingTasks;
             }
@@ -4265,7 +4265,7 @@ public static partial class AspNet80
             {
                 if (_SystemThreadingTasksExtensions is null)
                 {
-                    _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksExtensions).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (aspnet80)");
+                    _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Threading.Tasks.Extensions")).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (aspnet80)");
                 }
                 return _SystemThreadingTasksExtensions;
             }
@@ -4282,7 +4282,7 @@ public static partial class AspNet80
             {
                 if (_SystemThreadingTasksParallel is null)
                 {
-                    _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksParallel).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (aspnet80)");
+                    _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Threading.Tasks.Parallel")).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (aspnet80)");
                 }
                 return _SystemThreadingTasksParallel;
             }
@@ -4299,7 +4299,7 @@ public static partial class AspNet80
             {
                 if (_SystemThreadingThread is null)
                 {
-                    _SystemThreadingThread = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThread).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (aspnet80)");
+                    _SystemThreadingThread = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Threading.Thread")).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (aspnet80)");
                 }
                 return _SystemThreadingThread;
             }
@@ -4316,7 +4316,7 @@ public static partial class AspNet80
             {
                 if (_SystemThreadingThreadPool is null)
                 {
-                    _SystemThreadingThreadPool = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingThreadPool).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (aspnet80)");
+                    _SystemThreadingThreadPool = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Threading.ThreadPool")).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (aspnet80)");
                 }
                 return _SystemThreadingThreadPool;
             }
@@ -4333,7 +4333,7 @@ public static partial class AspNet80
             {
                 if (_SystemThreadingTimer is null)
                 {
-                    _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (aspnet80)");
+                    _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Threading.Timer")).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (aspnet80)");
                 }
                 return _SystemThreadingTimer;
             }
@@ -4350,7 +4350,7 @@ public static partial class AspNet80
             {
                 if (_SystemTransactions is null)
                 {
-                    _SystemTransactions = AssemblyMetadata.CreateFromImage(Resources.SystemTransactions).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (aspnet80)");
+                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (aspnet80)");
                 }
                 return _SystemTransactions;
             }
@@ -4367,7 +4367,7 @@ public static partial class AspNet80
             {
                 if (_SystemTransactionsLocal is null)
                 {
-                    _SystemTransactionsLocal = AssemblyMetadata.CreateFromImage(Resources.SystemTransactionsLocal).GetReference(filePath: "System.Transactions.Local.dll", display: "System.Transactions.Local (aspnet80)");
+                    _SystemTransactionsLocal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Transactions.Local")).GetReference(filePath: "System.Transactions.Local.dll", display: "System.Transactions.Local (aspnet80)");
                 }
                 return _SystemTransactionsLocal;
             }
@@ -4384,7 +4384,7 @@ public static partial class AspNet80
             {
                 if (_SystemValueTuple is null)
                 {
-                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (aspnet80)");
+                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.ValueTuple")).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (aspnet80)");
                 }
                 return _SystemValueTuple;
             }
@@ -4401,7 +4401,7 @@ public static partial class AspNet80
             {
                 if (_SystemWeb is null)
                 {
-                    _SystemWeb = AssemblyMetadata.CreateFromImage(Resources.SystemWeb).GetReference(filePath: "System.Web.dll", display: "System.Web (aspnet80)");
+                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (aspnet80)");
                 }
                 return _SystemWeb;
             }
@@ -4418,7 +4418,7 @@ public static partial class AspNet80
             {
                 if (_SystemWebHttpUtility is null)
                 {
-                    _SystemWebHttpUtility = AssemblyMetadata.CreateFromImage(Resources.SystemWebHttpUtility).GetReference(filePath: "System.Web.HttpUtility.dll", display: "System.Web.HttpUtility (aspnet80)");
+                    _SystemWebHttpUtility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Web.HttpUtility")).GetReference(filePath: "System.Web.HttpUtility.dll", display: "System.Web.HttpUtility (aspnet80)");
                 }
                 return _SystemWebHttpUtility;
             }
@@ -4435,7 +4435,7 @@ public static partial class AspNet80
             {
                 if (_SystemWindows is null)
                 {
-                    _SystemWindows = AssemblyMetadata.CreateFromImage(Resources.SystemWindows).GetReference(filePath: "System.Windows.dll", display: "System.Windows (aspnet80)");
+                    _SystemWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Windows")).GetReference(filePath: "System.Windows.dll", display: "System.Windows (aspnet80)");
                 }
                 return _SystemWindows;
             }
@@ -4452,7 +4452,7 @@ public static partial class AspNet80
             {
                 if (_SystemXml is null)
                 {
-                    _SystemXml = AssemblyMetadata.CreateFromImage(Resources.SystemXml).GetReference(filePath: "System.Xml.dll", display: "System.Xml (aspnet80)");
+                    _SystemXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Xml")).GetReference(filePath: "System.Xml.dll", display: "System.Xml (aspnet80)");
                 }
                 return _SystemXml;
             }
@@ -4469,7 +4469,7 @@ public static partial class AspNet80
             {
                 if (_SystemXmlLinq is null)
                 {
-                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(Resources.SystemXmlLinq).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (aspnet80)");
+                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Xml.Linq")).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (aspnet80)");
                 }
                 return _SystemXmlLinq;
             }
@@ -4486,7 +4486,7 @@ public static partial class AspNet80
             {
                 if (_SystemXmlReaderWriter is null)
                 {
-                    _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (aspnet80)");
+                    _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Xml.ReaderWriter")).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (aspnet80)");
                 }
                 return _SystemXmlReaderWriter;
             }
@@ -4503,7 +4503,7 @@ public static partial class AspNet80
             {
                 if (_SystemXmlSerialization is null)
                 {
-                    _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(Resources.SystemXmlSerialization).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (aspnet80)");
+                    _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Xml.Serialization")).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (aspnet80)");
                 }
                 return _SystemXmlSerialization;
             }
@@ -4520,7 +4520,7 @@ public static partial class AspNet80
             {
                 if (_SystemXmlXDocument is null)
                 {
-                    _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (aspnet80)");
+                    _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Xml.XDocument")).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (aspnet80)");
                 }
                 return _SystemXmlXDocument;
             }
@@ -4537,7 +4537,7 @@ public static partial class AspNet80
             {
                 if (_SystemXmlXmlDocument is null)
                 {
-                    _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlDocument).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (aspnet80)");
+                    _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Xml.XmlDocument")).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (aspnet80)");
                 }
                 return _SystemXmlXmlDocument;
             }
@@ -4554,7 +4554,7 @@ public static partial class AspNet80
             {
                 if (_SystemXmlXmlSerializer is null)
                 {
-                    _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlSerializer).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (aspnet80)");
+                    _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Xml.XmlSerializer")).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (aspnet80)");
                 }
                 return _SystemXmlXmlSerializer;
             }
@@ -4571,7 +4571,7 @@ public static partial class AspNet80
             {
                 if (_SystemXmlXPath is null)
                 {
-                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPath).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (aspnet80)");
+                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Xml.XPath")).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (aspnet80)");
                 }
                 return _SystemXmlXPath;
             }
@@ -4588,7 +4588,7 @@ public static partial class AspNet80
             {
                 if (_SystemXmlXPathXDocument is null)
                 {
-                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPathXDocument).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (aspnet80)");
+                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (aspnet80)");
                 }
                 return _SystemXmlXPathXDocument;
             }
@@ -4605,7 +4605,7 @@ public static partial class AspNet80
             {
                 if (_WindowsBase is null)
                 {
-                    _WindowsBase = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (aspnet80)");
+                    _WindowsBase = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.WindowsBase")).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (aspnet80)");
                 }
                 return _WindowsBase;
             }
@@ -4622,7 +4622,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreAntiforgery is null)
                 {
-                    _MicrosoftAspNetCoreAntiforgery = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAntiforgery).GetReference(filePath: "Microsoft.AspNetCore.Antiforgery.dll", display: "Microsoft.AspNetCore.Antiforgery (aspnet80)");
+                    _MicrosoftAspNetCoreAntiforgery = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Antiforgery")).GetReference(filePath: "Microsoft.AspNetCore.Antiforgery.dll", display: "Microsoft.AspNetCore.Antiforgery (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreAntiforgery;
             }
@@ -4639,7 +4639,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreAuthenticationAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreAuthenticationAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthenticationAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Abstractions.dll", display: "Microsoft.AspNetCore.Authentication.Abstractions (aspnet80)");
+                    _MicrosoftAspNetCoreAuthenticationAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Authentication.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Abstractions.dll", display: "Microsoft.AspNetCore.Authentication.Abstractions (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreAuthenticationAbstractions;
             }
@@ -4656,7 +4656,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreAuthenticationBearerToken is null)
                 {
-                    _MicrosoftAspNetCoreAuthenticationBearerToken = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthenticationBearerToken).GetReference(filePath: "Microsoft.AspNetCore.Authentication.BearerToken.dll", display: "Microsoft.AspNetCore.Authentication.BearerToken (aspnet80)");
+                    _MicrosoftAspNetCoreAuthenticationBearerToken = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Authentication.BearerToken")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.BearerToken.dll", display: "Microsoft.AspNetCore.Authentication.BearerToken (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreAuthenticationBearerToken;
             }
@@ -4673,7 +4673,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreAuthenticationCookies is null)
                 {
-                    _MicrosoftAspNetCoreAuthenticationCookies = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthenticationCookies).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Cookies.dll", display: "Microsoft.AspNetCore.Authentication.Cookies (aspnet80)");
+                    _MicrosoftAspNetCoreAuthenticationCookies = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Authentication.Cookies")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Cookies.dll", display: "Microsoft.AspNetCore.Authentication.Cookies (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreAuthenticationCookies;
             }
@@ -4690,7 +4690,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreAuthenticationCore is null)
                 {
-                    _MicrosoftAspNetCoreAuthenticationCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthenticationCore).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Core.dll", display: "Microsoft.AspNetCore.Authentication.Core (aspnet80)");
+                    _MicrosoftAspNetCoreAuthenticationCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Authentication.Core")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Core.dll", display: "Microsoft.AspNetCore.Authentication.Core (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreAuthenticationCore;
             }
@@ -4707,7 +4707,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreAuthentication is null)
                 {
-                    _MicrosoftAspNetCoreAuthentication = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthentication).GetReference(filePath: "Microsoft.AspNetCore.Authentication.dll", display: "Microsoft.AspNetCore.Authentication (aspnet80)");
+                    _MicrosoftAspNetCoreAuthentication = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Authentication")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.dll", display: "Microsoft.AspNetCore.Authentication (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreAuthentication;
             }
@@ -4724,7 +4724,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreAuthenticationOAuth is null)
                 {
-                    _MicrosoftAspNetCoreAuthenticationOAuth = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthenticationOAuth).GetReference(filePath: "Microsoft.AspNetCore.Authentication.OAuth.dll", display: "Microsoft.AspNetCore.Authentication.OAuth (aspnet80)");
+                    _MicrosoftAspNetCoreAuthenticationOAuth = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Authentication.OAuth")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.OAuth.dll", display: "Microsoft.AspNetCore.Authentication.OAuth (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreAuthenticationOAuth;
             }
@@ -4741,7 +4741,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreAuthorization is null)
                 {
-                    _MicrosoftAspNetCoreAuthorization = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthorization).GetReference(filePath: "Microsoft.AspNetCore.Authorization.dll", display: "Microsoft.AspNetCore.Authorization (aspnet80)");
+                    _MicrosoftAspNetCoreAuthorization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Authorization")).GetReference(filePath: "Microsoft.AspNetCore.Authorization.dll", display: "Microsoft.AspNetCore.Authorization (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreAuthorization;
             }
@@ -4758,7 +4758,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreAuthorizationPolicy is null)
                 {
-                    _MicrosoftAspNetCoreAuthorizationPolicy = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreAuthorizationPolicy).GetReference(filePath: "Microsoft.AspNetCore.Authorization.Policy.dll", display: "Microsoft.AspNetCore.Authorization.Policy (aspnet80)");
+                    _MicrosoftAspNetCoreAuthorizationPolicy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Authorization.Policy")).GetReference(filePath: "Microsoft.AspNetCore.Authorization.Policy.dll", display: "Microsoft.AspNetCore.Authorization.Policy (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreAuthorizationPolicy;
             }
@@ -4775,7 +4775,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreComponentsAuthorization is null)
                 {
-                    _MicrosoftAspNetCoreComponentsAuthorization = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreComponentsAuthorization).GetReference(filePath: "Microsoft.AspNetCore.Components.Authorization.dll", display: "Microsoft.AspNetCore.Components.Authorization (aspnet80)");
+                    _MicrosoftAspNetCoreComponentsAuthorization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Components.Authorization")).GetReference(filePath: "Microsoft.AspNetCore.Components.Authorization.dll", display: "Microsoft.AspNetCore.Components.Authorization (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreComponentsAuthorization;
             }
@@ -4792,7 +4792,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreComponents is null)
                 {
-                    _MicrosoftAspNetCoreComponents = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreComponents).GetReference(filePath: "Microsoft.AspNetCore.Components.dll", display: "Microsoft.AspNetCore.Components (aspnet80)");
+                    _MicrosoftAspNetCoreComponents = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Components")).GetReference(filePath: "Microsoft.AspNetCore.Components.dll", display: "Microsoft.AspNetCore.Components (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreComponents;
             }
@@ -4809,7 +4809,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreComponentsEndpoints is null)
                 {
-                    _MicrosoftAspNetCoreComponentsEndpoints = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreComponentsEndpoints).GetReference(filePath: "Microsoft.AspNetCore.Components.Endpoints.dll", display: "Microsoft.AspNetCore.Components.Endpoints (aspnet80)");
+                    _MicrosoftAspNetCoreComponentsEndpoints = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Components.Endpoints")).GetReference(filePath: "Microsoft.AspNetCore.Components.Endpoints.dll", display: "Microsoft.AspNetCore.Components.Endpoints (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreComponentsEndpoints;
             }
@@ -4826,7 +4826,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreComponentsForms is null)
                 {
-                    _MicrosoftAspNetCoreComponentsForms = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreComponentsForms).GetReference(filePath: "Microsoft.AspNetCore.Components.Forms.dll", display: "Microsoft.AspNetCore.Components.Forms (aspnet80)");
+                    _MicrosoftAspNetCoreComponentsForms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Components.Forms")).GetReference(filePath: "Microsoft.AspNetCore.Components.Forms.dll", display: "Microsoft.AspNetCore.Components.Forms (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreComponentsForms;
             }
@@ -4843,7 +4843,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreComponentsServer is null)
                 {
-                    _MicrosoftAspNetCoreComponentsServer = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreComponentsServer).GetReference(filePath: "Microsoft.AspNetCore.Components.Server.dll", display: "Microsoft.AspNetCore.Components.Server (aspnet80)");
+                    _MicrosoftAspNetCoreComponentsServer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Components.Server")).GetReference(filePath: "Microsoft.AspNetCore.Components.Server.dll", display: "Microsoft.AspNetCore.Components.Server (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreComponentsServer;
             }
@@ -4860,7 +4860,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreComponentsWeb is null)
                 {
-                    _MicrosoftAspNetCoreComponentsWeb = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreComponentsWeb).GetReference(filePath: "Microsoft.AspNetCore.Components.Web.dll", display: "Microsoft.AspNetCore.Components.Web (aspnet80)");
+                    _MicrosoftAspNetCoreComponentsWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Components.Web")).GetReference(filePath: "Microsoft.AspNetCore.Components.Web.dll", display: "Microsoft.AspNetCore.Components.Web (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreComponentsWeb;
             }
@@ -4877,7 +4877,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreConnectionsAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreConnectionsAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreConnectionsAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Connections.Abstractions.dll", display: "Microsoft.AspNetCore.Connections.Abstractions (aspnet80)");
+                    _MicrosoftAspNetCoreConnectionsAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Connections.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Connections.Abstractions.dll", display: "Microsoft.AspNetCore.Connections.Abstractions (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreConnectionsAbstractions;
             }
@@ -4894,7 +4894,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreCookiePolicy is null)
                 {
-                    _MicrosoftAspNetCoreCookiePolicy = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreCookiePolicy).GetReference(filePath: "Microsoft.AspNetCore.CookiePolicy.dll", display: "Microsoft.AspNetCore.CookiePolicy (aspnet80)");
+                    _MicrosoftAspNetCoreCookiePolicy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.CookiePolicy")).GetReference(filePath: "Microsoft.AspNetCore.CookiePolicy.dll", display: "Microsoft.AspNetCore.CookiePolicy (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreCookiePolicy;
             }
@@ -4911,7 +4911,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreCors is null)
                 {
-                    _MicrosoftAspNetCoreCors = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreCors).GetReference(filePath: "Microsoft.AspNetCore.Cors.dll", display: "Microsoft.AspNetCore.Cors (aspnet80)");
+                    _MicrosoftAspNetCoreCors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Cors")).GetReference(filePath: "Microsoft.AspNetCore.Cors.dll", display: "Microsoft.AspNetCore.Cors (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreCors;
             }
@@ -4928,7 +4928,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreCryptographyInternal is null)
                 {
-                    _MicrosoftAspNetCoreCryptographyInternal = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreCryptographyInternal).GetReference(filePath: "Microsoft.AspNetCore.Cryptography.Internal.dll", display: "Microsoft.AspNetCore.Cryptography.Internal (aspnet80)");
+                    _MicrosoftAspNetCoreCryptographyInternal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Cryptography.Internal")).GetReference(filePath: "Microsoft.AspNetCore.Cryptography.Internal.dll", display: "Microsoft.AspNetCore.Cryptography.Internal (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreCryptographyInternal;
             }
@@ -4945,7 +4945,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreCryptographyKeyDerivation is null)
                 {
-                    _MicrosoftAspNetCoreCryptographyKeyDerivation = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreCryptographyKeyDerivation).GetReference(filePath: "Microsoft.AspNetCore.Cryptography.KeyDerivation.dll", display: "Microsoft.AspNetCore.Cryptography.KeyDerivation (aspnet80)");
+                    _MicrosoftAspNetCoreCryptographyKeyDerivation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Cryptography.KeyDerivation")).GetReference(filePath: "Microsoft.AspNetCore.Cryptography.KeyDerivation.dll", display: "Microsoft.AspNetCore.Cryptography.KeyDerivation (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreCryptographyKeyDerivation;
             }
@@ -4962,7 +4962,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreDataProtectionAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreDataProtectionAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreDataProtectionAbstractions).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.Abstractions.dll", display: "Microsoft.AspNetCore.DataProtection.Abstractions (aspnet80)");
+                    _MicrosoftAspNetCoreDataProtectionAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.DataProtection.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.Abstractions.dll", display: "Microsoft.AspNetCore.DataProtection.Abstractions (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreDataProtectionAbstractions;
             }
@@ -4979,7 +4979,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreDataProtection is null)
                 {
-                    _MicrosoftAspNetCoreDataProtection = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreDataProtection).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.dll", display: "Microsoft.AspNetCore.DataProtection (aspnet80)");
+                    _MicrosoftAspNetCoreDataProtection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.DataProtection")).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.dll", display: "Microsoft.AspNetCore.DataProtection (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreDataProtection;
             }
@@ -4996,7 +4996,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreDataProtectionExtensions is null)
                 {
-                    _MicrosoftAspNetCoreDataProtectionExtensions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreDataProtectionExtensions).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.Extensions.dll", display: "Microsoft.AspNetCore.DataProtection.Extensions (aspnet80)");
+                    _MicrosoftAspNetCoreDataProtectionExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.DataProtection.Extensions")).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.Extensions.dll", display: "Microsoft.AspNetCore.DataProtection.Extensions (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreDataProtectionExtensions;
             }
@@ -5013,7 +5013,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreDiagnosticsAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreDiagnosticsAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreDiagnosticsAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.Abstractions.dll", display: "Microsoft.AspNetCore.Diagnostics.Abstractions (aspnet80)");
+                    _MicrosoftAspNetCoreDiagnosticsAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Diagnostics.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.Abstractions.dll", display: "Microsoft.AspNetCore.Diagnostics.Abstractions (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreDiagnosticsAbstractions;
             }
@@ -5030,7 +5030,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreDiagnostics is null)
                 {
-                    _MicrosoftAspNetCoreDiagnostics = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreDiagnostics).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.dll", display: "Microsoft.AspNetCore.Diagnostics (aspnet80)");
+                    _MicrosoftAspNetCoreDiagnostics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Diagnostics")).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.dll", display: "Microsoft.AspNetCore.Diagnostics (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreDiagnostics;
             }
@@ -5047,7 +5047,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreDiagnosticsHealthChecks is null)
                 {
-                    _MicrosoftAspNetCoreDiagnosticsHealthChecks = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreDiagnosticsHealthChecks).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.HealthChecks.dll", display: "Microsoft.AspNetCore.Diagnostics.HealthChecks (aspnet80)");
+                    _MicrosoftAspNetCoreDiagnosticsHealthChecks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Diagnostics.HealthChecks")).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.HealthChecks.dll", display: "Microsoft.AspNetCore.Diagnostics.HealthChecks (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreDiagnosticsHealthChecks;
             }
@@ -5064,7 +5064,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCore is null)
                 {
-                    _MicrosoftAspNetCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCore).GetReference(filePath: "Microsoft.AspNetCore.dll", display: "Microsoft.AspNetCore (aspnet80)");
+                    _MicrosoftAspNetCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore")).GetReference(filePath: "Microsoft.AspNetCore.dll", display: "Microsoft.AspNetCore (aspnet80)");
                 }
                 return _MicrosoftAspNetCore;
             }
@@ -5081,7 +5081,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHostFiltering is null)
                 {
-                    _MicrosoftAspNetCoreHostFiltering = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHostFiltering).GetReference(filePath: "Microsoft.AspNetCore.HostFiltering.dll", display: "Microsoft.AspNetCore.HostFiltering (aspnet80)");
+                    _MicrosoftAspNetCoreHostFiltering = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.HostFiltering")).GetReference(filePath: "Microsoft.AspNetCore.HostFiltering.dll", display: "Microsoft.AspNetCore.HostFiltering (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHostFiltering;
             }
@@ -5098,7 +5098,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHostingAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreHostingAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHostingAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Hosting.Abstractions.dll", display: "Microsoft.AspNetCore.Hosting.Abstractions (aspnet80)");
+                    _MicrosoftAspNetCoreHostingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Hosting.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Hosting.Abstractions.dll", display: "Microsoft.AspNetCore.Hosting.Abstractions (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHostingAbstractions;
             }
@@ -5115,7 +5115,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHosting is null)
                 {
-                    _MicrosoftAspNetCoreHosting = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHosting).GetReference(filePath: "Microsoft.AspNetCore.Hosting.dll", display: "Microsoft.AspNetCore.Hosting (aspnet80)");
+                    _MicrosoftAspNetCoreHosting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Hosting")).GetReference(filePath: "Microsoft.AspNetCore.Hosting.dll", display: "Microsoft.AspNetCore.Hosting (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHosting;
             }
@@ -5132,7 +5132,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHostingServerAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreHostingServerAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHostingServerAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Hosting.Server.Abstractions.dll", display: "Microsoft.AspNetCore.Hosting.Server.Abstractions (aspnet80)");
+                    _MicrosoftAspNetCoreHostingServerAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Hosting.Server.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Hosting.Server.Abstractions.dll", display: "Microsoft.AspNetCore.Hosting.Server.Abstractions (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHostingServerAbstractions;
             }
@@ -5149,7 +5149,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHtmlAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreHtmlAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHtmlAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Html.Abstractions.dll", display: "Microsoft.AspNetCore.Html.Abstractions (aspnet80)");
+                    _MicrosoftAspNetCoreHtmlAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Html.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Html.Abstractions.dll", display: "Microsoft.AspNetCore.Html.Abstractions (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHtmlAbstractions;
             }
@@ -5166,7 +5166,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHttpAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreHttpAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Http.Abstractions.dll", display: "Microsoft.AspNetCore.Http.Abstractions (aspnet80)");
+                    _MicrosoftAspNetCoreHttpAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Http.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Http.Abstractions.dll", display: "Microsoft.AspNetCore.Http.Abstractions (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHttpAbstractions;
             }
@@ -5183,7 +5183,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHttpConnectionsCommon is null)
                 {
-                    _MicrosoftAspNetCoreHttpConnectionsCommon = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpConnectionsCommon).GetReference(filePath: "Microsoft.AspNetCore.Http.Connections.Common.dll", display: "Microsoft.AspNetCore.Http.Connections.Common (aspnet80)");
+                    _MicrosoftAspNetCoreHttpConnectionsCommon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Http.Connections.Common")).GetReference(filePath: "Microsoft.AspNetCore.Http.Connections.Common.dll", display: "Microsoft.AspNetCore.Http.Connections.Common (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHttpConnectionsCommon;
             }
@@ -5200,7 +5200,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHttpConnections is null)
                 {
-                    _MicrosoftAspNetCoreHttpConnections = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpConnections).GetReference(filePath: "Microsoft.AspNetCore.Http.Connections.dll", display: "Microsoft.AspNetCore.Http.Connections (aspnet80)");
+                    _MicrosoftAspNetCoreHttpConnections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Http.Connections")).GetReference(filePath: "Microsoft.AspNetCore.Http.Connections.dll", display: "Microsoft.AspNetCore.Http.Connections (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHttpConnections;
             }
@@ -5217,7 +5217,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHttp is null)
                 {
-                    _MicrosoftAspNetCoreHttp = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttp).GetReference(filePath: "Microsoft.AspNetCore.Http.dll", display: "Microsoft.AspNetCore.Http (aspnet80)");
+                    _MicrosoftAspNetCoreHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Http")).GetReference(filePath: "Microsoft.AspNetCore.Http.dll", display: "Microsoft.AspNetCore.Http (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHttp;
             }
@@ -5234,7 +5234,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHttpExtensions is null)
                 {
-                    _MicrosoftAspNetCoreHttpExtensions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpExtensions).GetReference(filePath: "Microsoft.AspNetCore.Http.Extensions.dll", display: "Microsoft.AspNetCore.Http.Extensions (aspnet80)");
+                    _MicrosoftAspNetCoreHttpExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Http.Extensions")).GetReference(filePath: "Microsoft.AspNetCore.Http.Extensions.dll", display: "Microsoft.AspNetCore.Http.Extensions (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHttpExtensions;
             }
@@ -5251,7 +5251,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHttpFeatures is null)
                 {
-                    _MicrosoftAspNetCoreHttpFeatures = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpFeatures).GetReference(filePath: "Microsoft.AspNetCore.Http.Features.dll", display: "Microsoft.AspNetCore.Http.Features (aspnet80)");
+                    _MicrosoftAspNetCoreHttpFeatures = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Http.Features")).GetReference(filePath: "Microsoft.AspNetCore.Http.Features.dll", display: "Microsoft.AspNetCore.Http.Features (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHttpFeatures;
             }
@@ -5268,7 +5268,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHttpResults is null)
                 {
-                    _MicrosoftAspNetCoreHttpResults = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpResults).GetReference(filePath: "Microsoft.AspNetCore.Http.Results.dll", display: "Microsoft.AspNetCore.Http.Results (aspnet80)");
+                    _MicrosoftAspNetCoreHttpResults = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Http.Results")).GetReference(filePath: "Microsoft.AspNetCore.Http.Results.dll", display: "Microsoft.AspNetCore.Http.Results (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHttpResults;
             }
@@ -5285,7 +5285,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHttpLogging is null)
                 {
-                    _MicrosoftAspNetCoreHttpLogging = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpLogging).GetReference(filePath: "Microsoft.AspNetCore.HttpLogging.dll", display: "Microsoft.AspNetCore.HttpLogging (aspnet80)");
+                    _MicrosoftAspNetCoreHttpLogging = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.HttpLogging")).GetReference(filePath: "Microsoft.AspNetCore.HttpLogging.dll", display: "Microsoft.AspNetCore.HttpLogging (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHttpLogging;
             }
@@ -5302,7 +5302,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHttpOverrides is null)
                 {
-                    _MicrosoftAspNetCoreHttpOverrides = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpOverrides).GetReference(filePath: "Microsoft.AspNetCore.HttpOverrides.dll", display: "Microsoft.AspNetCore.HttpOverrides (aspnet80)");
+                    _MicrosoftAspNetCoreHttpOverrides = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.HttpOverrides")).GetReference(filePath: "Microsoft.AspNetCore.HttpOverrides.dll", display: "Microsoft.AspNetCore.HttpOverrides (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHttpOverrides;
             }
@@ -5319,7 +5319,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreHttpsPolicy is null)
                 {
-                    _MicrosoftAspNetCoreHttpsPolicy = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreHttpsPolicy).GetReference(filePath: "Microsoft.AspNetCore.HttpsPolicy.dll", display: "Microsoft.AspNetCore.HttpsPolicy (aspnet80)");
+                    _MicrosoftAspNetCoreHttpsPolicy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.HttpsPolicy")).GetReference(filePath: "Microsoft.AspNetCore.HttpsPolicy.dll", display: "Microsoft.AspNetCore.HttpsPolicy (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreHttpsPolicy;
             }
@@ -5336,7 +5336,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreIdentity is null)
                 {
-                    _MicrosoftAspNetCoreIdentity = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreIdentity).GetReference(filePath: "Microsoft.AspNetCore.Identity.dll", display: "Microsoft.AspNetCore.Identity (aspnet80)");
+                    _MicrosoftAspNetCoreIdentity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Identity")).GetReference(filePath: "Microsoft.AspNetCore.Identity.dll", display: "Microsoft.AspNetCore.Identity (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreIdentity;
             }
@@ -5353,7 +5353,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreLocalization is null)
                 {
-                    _MicrosoftAspNetCoreLocalization = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreLocalization).GetReference(filePath: "Microsoft.AspNetCore.Localization.dll", display: "Microsoft.AspNetCore.Localization (aspnet80)");
+                    _MicrosoftAspNetCoreLocalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Localization")).GetReference(filePath: "Microsoft.AspNetCore.Localization.dll", display: "Microsoft.AspNetCore.Localization (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreLocalization;
             }
@@ -5370,7 +5370,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreLocalizationRouting is null)
                 {
-                    _MicrosoftAspNetCoreLocalizationRouting = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreLocalizationRouting).GetReference(filePath: "Microsoft.AspNetCore.Localization.Routing.dll", display: "Microsoft.AspNetCore.Localization.Routing (aspnet80)");
+                    _MicrosoftAspNetCoreLocalizationRouting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Localization.Routing")).GetReference(filePath: "Microsoft.AspNetCore.Localization.Routing.dll", display: "Microsoft.AspNetCore.Localization.Routing (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreLocalizationRouting;
             }
@@ -5387,7 +5387,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreMetadata is null)
                 {
-                    _MicrosoftAspNetCoreMetadata = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMetadata).GetReference(filePath: "Microsoft.AspNetCore.Metadata.dll", display: "Microsoft.AspNetCore.Metadata (aspnet80)");
+                    _MicrosoftAspNetCoreMetadata = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Metadata")).GetReference(filePath: "Microsoft.AspNetCore.Metadata.dll", display: "Microsoft.AspNetCore.Metadata (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreMetadata;
             }
@@ -5404,7 +5404,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreMvcAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreMvcAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Abstractions.dll", display: "Microsoft.AspNetCore.Mvc.Abstractions (aspnet80)");
+                    _MicrosoftAspNetCoreMvcAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Mvc.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Abstractions.dll", display: "Microsoft.AspNetCore.Mvc.Abstractions (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreMvcAbstractions;
             }
@@ -5421,7 +5421,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreMvcApiExplorer is null)
                 {
-                    _MicrosoftAspNetCoreMvcApiExplorer = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcApiExplorer).GetReference(filePath: "Microsoft.AspNetCore.Mvc.ApiExplorer.dll", display: "Microsoft.AspNetCore.Mvc.ApiExplorer (aspnet80)");
+                    _MicrosoftAspNetCoreMvcApiExplorer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Mvc.ApiExplorer")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.ApiExplorer.dll", display: "Microsoft.AspNetCore.Mvc.ApiExplorer (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreMvcApiExplorer;
             }
@@ -5438,7 +5438,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreMvcCore is null)
                 {
-                    _MicrosoftAspNetCoreMvcCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcCore).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Core.dll", display: "Microsoft.AspNetCore.Mvc.Core (aspnet80)");
+                    _MicrosoftAspNetCoreMvcCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Mvc.Core")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Core.dll", display: "Microsoft.AspNetCore.Mvc.Core (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreMvcCore;
             }
@@ -5455,7 +5455,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreMvcCors is null)
                 {
-                    _MicrosoftAspNetCoreMvcCors = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcCors).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Cors.dll", display: "Microsoft.AspNetCore.Mvc.Cors (aspnet80)");
+                    _MicrosoftAspNetCoreMvcCors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Mvc.Cors")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Cors.dll", display: "Microsoft.AspNetCore.Mvc.Cors (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreMvcCors;
             }
@@ -5472,7 +5472,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreMvcDataAnnotations is null)
                 {
-                    _MicrosoftAspNetCoreMvcDataAnnotations = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcDataAnnotations).GetReference(filePath: "Microsoft.AspNetCore.Mvc.DataAnnotations.dll", display: "Microsoft.AspNetCore.Mvc.DataAnnotations (aspnet80)");
+                    _MicrosoftAspNetCoreMvcDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Mvc.DataAnnotations")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.DataAnnotations.dll", display: "Microsoft.AspNetCore.Mvc.DataAnnotations (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreMvcDataAnnotations;
             }
@@ -5489,7 +5489,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreMvc is null)
                 {
-                    _MicrosoftAspNetCoreMvc = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvc).GetReference(filePath: "Microsoft.AspNetCore.Mvc.dll", display: "Microsoft.AspNetCore.Mvc (aspnet80)");
+                    _MicrosoftAspNetCoreMvc = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Mvc")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.dll", display: "Microsoft.AspNetCore.Mvc (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreMvc;
             }
@@ -5506,7 +5506,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreMvcFormattersJson is null)
                 {
-                    _MicrosoftAspNetCoreMvcFormattersJson = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcFormattersJson).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Formatters.Json.dll", display: "Microsoft.AspNetCore.Mvc.Formatters.Json (aspnet80)");
+                    _MicrosoftAspNetCoreMvcFormattersJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Mvc.Formatters.Json")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Formatters.Json.dll", display: "Microsoft.AspNetCore.Mvc.Formatters.Json (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreMvcFormattersJson;
             }
@@ -5523,7 +5523,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreMvcFormattersXml is null)
                 {
-                    _MicrosoftAspNetCoreMvcFormattersXml = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcFormattersXml).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Formatters.Xml.dll", display: "Microsoft.AspNetCore.Mvc.Formatters.Xml (aspnet80)");
+                    _MicrosoftAspNetCoreMvcFormattersXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Mvc.Formatters.Xml")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Formatters.Xml.dll", display: "Microsoft.AspNetCore.Mvc.Formatters.Xml (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreMvcFormattersXml;
             }
@@ -5540,7 +5540,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreMvcLocalization is null)
                 {
-                    _MicrosoftAspNetCoreMvcLocalization = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcLocalization).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Localization.dll", display: "Microsoft.AspNetCore.Mvc.Localization (aspnet80)");
+                    _MicrosoftAspNetCoreMvcLocalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Mvc.Localization")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Localization.dll", display: "Microsoft.AspNetCore.Mvc.Localization (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreMvcLocalization;
             }
@@ -5557,7 +5557,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreMvcRazor is null)
                 {
-                    _MicrosoftAspNetCoreMvcRazor = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcRazor).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Razor.dll", display: "Microsoft.AspNetCore.Mvc.Razor (aspnet80)");
+                    _MicrosoftAspNetCoreMvcRazor = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Mvc.Razor")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Razor.dll", display: "Microsoft.AspNetCore.Mvc.Razor (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreMvcRazor;
             }
@@ -5574,7 +5574,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreMvcRazorPages is null)
                 {
-                    _MicrosoftAspNetCoreMvcRazorPages = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcRazorPages).GetReference(filePath: "Microsoft.AspNetCore.Mvc.RazorPages.dll", display: "Microsoft.AspNetCore.Mvc.RazorPages (aspnet80)");
+                    _MicrosoftAspNetCoreMvcRazorPages = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Mvc.RazorPages")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.RazorPages.dll", display: "Microsoft.AspNetCore.Mvc.RazorPages (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreMvcRazorPages;
             }
@@ -5591,7 +5591,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreMvcTagHelpers is null)
                 {
-                    _MicrosoftAspNetCoreMvcTagHelpers = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcTagHelpers).GetReference(filePath: "Microsoft.AspNetCore.Mvc.TagHelpers.dll", display: "Microsoft.AspNetCore.Mvc.TagHelpers (aspnet80)");
+                    _MicrosoftAspNetCoreMvcTagHelpers = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Mvc.TagHelpers")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.TagHelpers.dll", display: "Microsoft.AspNetCore.Mvc.TagHelpers (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreMvcTagHelpers;
             }
@@ -5608,7 +5608,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreMvcViewFeatures is null)
                 {
-                    _MicrosoftAspNetCoreMvcViewFeatures = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreMvcViewFeatures).GetReference(filePath: "Microsoft.AspNetCore.Mvc.ViewFeatures.dll", display: "Microsoft.AspNetCore.Mvc.ViewFeatures (aspnet80)");
+                    _MicrosoftAspNetCoreMvcViewFeatures = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Mvc.ViewFeatures")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.ViewFeatures.dll", display: "Microsoft.AspNetCore.Mvc.ViewFeatures (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreMvcViewFeatures;
             }
@@ -5625,7 +5625,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreOutputCaching is null)
                 {
-                    _MicrosoftAspNetCoreOutputCaching = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreOutputCaching).GetReference(filePath: "Microsoft.AspNetCore.OutputCaching.dll", display: "Microsoft.AspNetCore.OutputCaching (aspnet80)");
+                    _MicrosoftAspNetCoreOutputCaching = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.OutputCaching")).GetReference(filePath: "Microsoft.AspNetCore.OutputCaching.dll", display: "Microsoft.AspNetCore.OutputCaching (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreOutputCaching;
             }
@@ -5642,7 +5642,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreRateLimiting is null)
                 {
-                    _MicrosoftAspNetCoreRateLimiting = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreRateLimiting).GetReference(filePath: "Microsoft.AspNetCore.RateLimiting.dll", display: "Microsoft.AspNetCore.RateLimiting (aspnet80)");
+                    _MicrosoftAspNetCoreRateLimiting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.RateLimiting")).GetReference(filePath: "Microsoft.AspNetCore.RateLimiting.dll", display: "Microsoft.AspNetCore.RateLimiting (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreRateLimiting;
             }
@@ -5659,7 +5659,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreRazor is null)
                 {
-                    _MicrosoftAspNetCoreRazor = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreRazor).GetReference(filePath: "Microsoft.AspNetCore.Razor.dll", display: "Microsoft.AspNetCore.Razor (aspnet80)");
+                    _MicrosoftAspNetCoreRazor = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Razor")).GetReference(filePath: "Microsoft.AspNetCore.Razor.dll", display: "Microsoft.AspNetCore.Razor (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreRazor;
             }
@@ -5676,7 +5676,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreRazorRuntime is null)
                 {
-                    _MicrosoftAspNetCoreRazorRuntime = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreRazorRuntime).GetReference(filePath: "Microsoft.AspNetCore.Razor.Runtime.dll", display: "Microsoft.AspNetCore.Razor.Runtime (aspnet80)");
+                    _MicrosoftAspNetCoreRazorRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Razor.Runtime")).GetReference(filePath: "Microsoft.AspNetCore.Razor.Runtime.dll", display: "Microsoft.AspNetCore.Razor.Runtime (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreRazorRuntime;
             }
@@ -5693,7 +5693,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreRequestDecompression is null)
                 {
-                    _MicrosoftAspNetCoreRequestDecompression = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreRequestDecompression).GetReference(filePath: "Microsoft.AspNetCore.RequestDecompression.dll", display: "Microsoft.AspNetCore.RequestDecompression (aspnet80)");
+                    _MicrosoftAspNetCoreRequestDecompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.RequestDecompression")).GetReference(filePath: "Microsoft.AspNetCore.RequestDecompression.dll", display: "Microsoft.AspNetCore.RequestDecompression (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreRequestDecompression;
             }
@@ -5710,7 +5710,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreResponseCachingAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreResponseCachingAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreResponseCachingAbstractions).GetReference(filePath: "Microsoft.AspNetCore.ResponseCaching.Abstractions.dll", display: "Microsoft.AspNetCore.ResponseCaching.Abstractions (aspnet80)");
+                    _MicrosoftAspNetCoreResponseCachingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.ResponseCaching.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.ResponseCaching.Abstractions.dll", display: "Microsoft.AspNetCore.ResponseCaching.Abstractions (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreResponseCachingAbstractions;
             }
@@ -5727,7 +5727,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreResponseCaching is null)
                 {
-                    _MicrosoftAspNetCoreResponseCaching = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreResponseCaching).GetReference(filePath: "Microsoft.AspNetCore.ResponseCaching.dll", display: "Microsoft.AspNetCore.ResponseCaching (aspnet80)");
+                    _MicrosoftAspNetCoreResponseCaching = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.ResponseCaching")).GetReference(filePath: "Microsoft.AspNetCore.ResponseCaching.dll", display: "Microsoft.AspNetCore.ResponseCaching (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreResponseCaching;
             }
@@ -5744,7 +5744,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreResponseCompression is null)
                 {
-                    _MicrosoftAspNetCoreResponseCompression = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreResponseCompression).GetReference(filePath: "Microsoft.AspNetCore.ResponseCompression.dll", display: "Microsoft.AspNetCore.ResponseCompression (aspnet80)");
+                    _MicrosoftAspNetCoreResponseCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.ResponseCompression")).GetReference(filePath: "Microsoft.AspNetCore.ResponseCompression.dll", display: "Microsoft.AspNetCore.ResponseCompression (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreResponseCompression;
             }
@@ -5761,7 +5761,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreRewrite is null)
                 {
-                    _MicrosoftAspNetCoreRewrite = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreRewrite).GetReference(filePath: "Microsoft.AspNetCore.Rewrite.dll", display: "Microsoft.AspNetCore.Rewrite (aspnet80)");
+                    _MicrosoftAspNetCoreRewrite = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Rewrite")).GetReference(filePath: "Microsoft.AspNetCore.Rewrite.dll", display: "Microsoft.AspNetCore.Rewrite (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreRewrite;
             }
@@ -5778,7 +5778,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreRoutingAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreRoutingAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreRoutingAbstractions).GetReference(filePath: "Microsoft.AspNetCore.Routing.Abstractions.dll", display: "Microsoft.AspNetCore.Routing.Abstractions (aspnet80)");
+                    _MicrosoftAspNetCoreRoutingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Routing.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Routing.Abstractions.dll", display: "Microsoft.AspNetCore.Routing.Abstractions (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreRoutingAbstractions;
             }
@@ -5795,7 +5795,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreRouting is null)
                 {
-                    _MicrosoftAspNetCoreRouting = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreRouting).GetReference(filePath: "Microsoft.AspNetCore.Routing.dll", display: "Microsoft.AspNetCore.Routing (aspnet80)");
+                    _MicrosoftAspNetCoreRouting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Routing")).GetReference(filePath: "Microsoft.AspNetCore.Routing.dll", display: "Microsoft.AspNetCore.Routing (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreRouting;
             }
@@ -5812,7 +5812,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreServerHttpSys is null)
                 {
-                    _MicrosoftAspNetCoreServerHttpSys = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerHttpSys).GetReference(filePath: "Microsoft.AspNetCore.Server.HttpSys.dll", display: "Microsoft.AspNetCore.Server.HttpSys (aspnet80)");
+                    _MicrosoftAspNetCoreServerHttpSys = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Server.HttpSys")).GetReference(filePath: "Microsoft.AspNetCore.Server.HttpSys.dll", display: "Microsoft.AspNetCore.Server.HttpSys (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreServerHttpSys;
             }
@@ -5829,7 +5829,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreServerIIS is null)
                 {
-                    _MicrosoftAspNetCoreServerIIS = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerIIS).GetReference(filePath: "Microsoft.AspNetCore.Server.IIS.dll", display: "Microsoft.AspNetCore.Server.IIS (aspnet80)");
+                    _MicrosoftAspNetCoreServerIIS = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Server.IIS")).GetReference(filePath: "Microsoft.AspNetCore.Server.IIS.dll", display: "Microsoft.AspNetCore.Server.IIS (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreServerIIS;
             }
@@ -5846,7 +5846,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreServerIISIntegration is null)
                 {
-                    _MicrosoftAspNetCoreServerIISIntegration = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerIISIntegration).GetReference(filePath: "Microsoft.AspNetCore.Server.IISIntegration.dll", display: "Microsoft.AspNetCore.Server.IISIntegration (aspnet80)");
+                    _MicrosoftAspNetCoreServerIISIntegration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Server.IISIntegration")).GetReference(filePath: "Microsoft.AspNetCore.Server.IISIntegration.dll", display: "Microsoft.AspNetCore.Server.IISIntegration (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreServerIISIntegration;
             }
@@ -5863,7 +5863,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreServerKestrelCore is null)
                 {
-                    _MicrosoftAspNetCoreServerKestrelCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerKestrelCore).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Core.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Core (aspnet80)");
+                    _MicrosoftAspNetCoreServerKestrelCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Server.Kestrel.Core")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Core.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Core (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreServerKestrelCore;
             }
@@ -5880,7 +5880,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreServerKestrel is null)
                 {
-                    _MicrosoftAspNetCoreServerKestrel = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerKestrel).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.dll", display: "Microsoft.AspNetCore.Server.Kestrel (aspnet80)");
+                    _MicrosoftAspNetCoreServerKestrel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Server.Kestrel")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.dll", display: "Microsoft.AspNetCore.Server.Kestrel (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreServerKestrel;
             }
@@ -5897,7 +5897,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreServerKestrelTransportNamedPipes is null)
                 {
-                    _MicrosoftAspNetCoreServerKestrelTransportNamedPipes = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerKestrelTransportNamedPipes).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes (aspnet80)");
+                    _MicrosoftAspNetCoreServerKestrelTransportNamedPipes = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreServerKestrelTransportNamedPipes;
             }
@@ -5914,7 +5914,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreServerKestrelTransportQuic is null)
                 {
-                    _MicrosoftAspNetCoreServerKestrelTransportQuic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerKestrelTransportQuic).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.Quic (aspnet80)");
+                    _MicrosoftAspNetCoreServerKestrelTransportQuic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Server.Kestrel.Transport.Quic")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.Quic (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreServerKestrelTransportQuic;
             }
@@ -5931,7 +5931,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreServerKestrelTransportSockets is null)
                 {
-                    _MicrosoftAspNetCoreServerKestrelTransportSockets = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreServerKestrelTransportSockets).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets (aspnet80)");
+                    _MicrosoftAspNetCoreServerKestrelTransportSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreServerKestrelTransportSockets;
             }
@@ -5948,7 +5948,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreSession is null)
                 {
-                    _MicrosoftAspNetCoreSession = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreSession).GetReference(filePath: "Microsoft.AspNetCore.Session.dll", display: "Microsoft.AspNetCore.Session (aspnet80)");
+                    _MicrosoftAspNetCoreSession = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.Session")).GetReference(filePath: "Microsoft.AspNetCore.Session.dll", display: "Microsoft.AspNetCore.Session (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreSession;
             }
@@ -5965,7 +5965,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreSignalRCommon is null)
                 {
-                    _MicrosoftAspNetCoreSignalRCommon = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreSignalRCommon).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Common.dll", display: "Microsoft.AspNetCore.SignalR.Common (aspnet80)");
+                    _MicrosoftAspNetCoreSignalRCommon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.SignalR.Common")).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Common.dll", display: "Microsoft.AspNetCore.SignalR.Common (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreSignalRCommon;
             }
@@ -5982,7 +5982,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreSignalRCore is null)
                 {
-                    _MicrosoftAspNetCoreSignalRCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreSignalRCore).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Core.dll", display: "Microsoft.AspNetCore.SignalR.Core (aspnet80)");
+                    _MicrosoftAspNetCoreSignalRCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.SignalR.Core")).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Core.dll", display: "Microsoft.AspNetCore.SignalR.Core (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreSignalRCore;
             }
@@ -5999,7 +5999,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreSignalR is null)
                 {
-                    _MicrosoftAspNetCoreSignalR = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreSignalR).GetReference(filePath: "Microsoft.AspNetCore.SignalR.dll", display: "Microsoft.AspNetCore.SignalR (aspnet80)");
+                    _MicrosoftAspNetCoreSignalR = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.SignalR")).GetReference(filePath: "Microsoft.AspNetCore.SignalR.dll", display: "Microsoft.AspNetCore.SignalR (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreSignalR;
             }
@@ -6016,7 +6016,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreSignalRProtocolsJson is null)
                 {
-                    _MicrosoftAspNetCoreSignalRProtocolsJson = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreSignalRProtocolsJson).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Protocols.Json.dll", display: "Microsoft.AspNetCore.SignalR.Protocols.Json (aspnet80)");
+                    _MicrosoftAspNetCoreSignalRProtocolsJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.SignalR.Protocols.Json")).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Protocols.Json.dll", display: "Microsoft.AspNetCore.SignalR.Protocols.Json (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreSignalRProtocolsJson;
             }
@@ -6033,7 +6033,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreStaticFiles is null)
                 {
-                    _MicrosoftAspNetCoreStaticFiles = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreStaticFiles).GetReference(filePath: "Microsoft.AspNetCore.StaticFiles.dll", display: "Microsoft.AspNetCore.StaticFiles (aspnet80)");
+                    _MicrosoftAspNetCoreStaticFiles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.StaticFiles")).GetReference(filePath: "Microsoft.AspNetCore.StaticFiles.dll", display: "Microsoft.AspNetCore.StaticFiles (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreStaticFiles;
             }
@@ -6050,7 +6050,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreWebSockets is null)
                 {
-                    _MicrosoftAspNetCoreWebSockets = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreWebSockets).GetReference(filePath: "Microsoft.AspNetCore.WebSockets.dll", display: "Microsoft.AspNetCore.WebSockets (aspnet80)");
+                    _MicrosoftAspNetCoreWebSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.WebSockets")).GetReference(filePath: "Microsoft.AspNetCore.WebSockets.dll", display: "Microsoft.AspNetCore.WebSockets (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreWebSockets;
             }
@@ -6067,7 +6067,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftAspNetCoreWebUtilities is null)
                 {
-                    _MicrosoftAspNetCoreWebUtilities = AssemblyMetadata.CreateFromImage(Resources.MicrosoftAspNetCoreWebUtilities).GetReference(filePath: "Microsoft.AspNetCore.WebUtilities.dll", display: "Microsoft.AspNetCore.WebUtilities (aspnet80)");
+                    _MicrosoftAspNetCoreWebUtilities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.AspNetCore.WebUtilities")).GetReference(filePath: "Microsoft.AspNetCore.WebUtilities.dll", display: "Microsoft.AspNetCore.WebUtilities (aspnet80)");
                 }
                 return _MicrosoftAspNetCoreWebUtilities;
             }
@@ -6084,7 +6084,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsCachingAbstractions is null)
                 {
-                    _MicrosoftExtensionsCachingAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsCachingAbstractions).GetReference(filePath: "Microsoft.Extensions.Caching.Abstractions.dll", display: "Microsoft.Extensions.Caching.Abstractions (aspnet80)");
+                    _MicrosoftExtensionsCachingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Caching.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Caching.Abstractions.dll", display: "Microsoft.Extensions.Caching.Abstractions (aspnet80)");
                 }
                 return _MicrosoftExtensionsCachingAbstractions;
             }
@@ -6101,7 +6101,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsCachingMemory is null)
                 {
-                    _MicrosoftExtensionsCachingMemory = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsCachingMemory).GetReference(filePath: "Microsoft.Extensions.Caching.Memory.dll", display: "Microsoft.Extensions.Caching.Memory (aspnet80)");
+                    _MicrosoftExtensionsCachingMemory = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Caching.Memory")).GetReference(filePath: "Microsoft.Extensions.Caching.Memory.dll", display: "Microsoft.Extensions.Caching.Memory (aspnet80)");
                 }
                 return _MicrosoftExtensionsCachingMemory;
             }
@@ -6118,7 +6118,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsConfigurationAbstractions is null)
                 {
-                    _MicrosoftExtensionsConfigurationAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationAbstractions).GetReference(filePath: "Microsoft.Extensions.Configuration.Abstractions.dll", display: "Microsoft.Extensions.Configuration.Abstractions (aspnet80)");
+                    _MicrosoftExtensionsConfigurationAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Configuration.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Configuration.Abstractions.dll", display: "Microsoft.Extensions.Configuration.Abstractions (aspnet80)");
                 }
                 return _MicrosoftExtensionsConfigurationAbstractions;
             }
@@ -6135,7 +6135,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsConfigurationBinder is null)
                 {
-                    _MicrosoftExtensionsConfigurationBinder = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationBinder).GetReference(filePath: "Microsoft.Extensions.Configuration.Binder.dll", display: "Microsoft.Extensions.Configuration.Binder (aspnet80)");
+                    _MicrosoftExtensionsConfigurationBinder = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Configuration.Binder")).GetReference(filePath: "Microsoft.Extensions.Configuration.Binder.dll", display: "Microsoft.Extensions.Configuration.Binder (aspnet80)");
                 }
                 return _MicrosoftExtensionsConfigurationBinder;
             }
@@ -6152,7 +6152,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsConfigurationCommandLine is null)
                 {
-                    _MicrosoftExtensionsConfigurationCommandLine = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationCommandLine).GetReference(filePath: "Microsoft.Extensions.Configuration.CommandLine.dll", display: "Microsoft.Extensions.Configuration.CommandLine (aspnet80)");
+                    _MicrosoftExtensionsConfigurationCommandLine = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Configuration.CommandLine")).GetReference(filePath: "Microsoft.Extensions.Configuration.CommandLine.dll", display: "Microsoft.Extensions.Configuration.CommandLine (aspnet80)");
                 }
                 return _MicrosoftExtensionsConfigurationCommandLine;
             }
@@ -6169,7 +6169,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsConfiguration is null)
                 {
-                    _MicrosoftExtensionsConfiguration = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfiguration).GetReference(filePath: "Microsoft.Extensions.Configuration.dll", display: "Microsoft.Extensions.Configuration (aspnet80)");
+                    _MicrosoftExtensionsConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Configuration")).GetReference(filePath: "Microsoft.Extensions.Configuration.dll", display: "Microsoft.Extensions.Configuration (aspnet80)");
                 }
                 return _MicrosoftExtensionsConfiguration;
             }
@@ -6186,7 +6186,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsConfigurationEnvironmentVariables is null)
                 {
-                    _MicrosoftExtensionsConfigurationEnvironmentVariables = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationEnvironmentVariables).GetReference(filePath: "Microsoft.Extensions.Configuration.EnvironmentVariables.dll", display: "Microsoft.Extensions.Configuration.EnvironmentVariables (aspnet80)");
+                    _MicrosoftExtensionsConfigurationEnvironmentVariables = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Configuration.EnvironmentVariables")).GetReference(filePath: "Microsoft.Extensions.Configuration.EnvironmentVariables.dll", display: "Microsoft.Extensions.Configuration.EnvironmentVariables (aspnet80)");
                 }
                 return _MicrosoftExtensionsConfigurationEnvironmentVariables;
             }
@@ -6203,7 +6203,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsConfigurationFileExtensions is null)
                 {
-                    _MicrosoftExtensionsConfigurationFileExtensions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationFileExtensions).GetReference(filePath: "Microsoft.Extensions.Configuration.FileExtensions.dll", display: "Microsoft.Extensions.Configuration.FileExtensions (aspnet80)");
+                    _MicrosoftExtensionsConfigurationFileExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Configuration.FileExtensions")).GetReference(filePath: "Microsoft.Extensions.Configuration.FileExtensions.dll", display: "Microsoft.Extensions.Configuration.FileExtensions (aspnet80)");
                 }
                 return _MicrosoftExtensionsConfigurationFileExtensions;
             }
@@ -6220,7 +6220,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsConfigurationIni is null)
                 {
-                    _MicrosoftExtensionsConfigurationIni = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationIni).GetReference(filePath: "Microsoft.Extensions.Configuration.Ini.dll", display: "Microsoft.Extensions.Configuration.Ini (aspnet80)");
+                    _MicrosoftExtensionsConfigurationIni = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Configuration.Ini")).GetReference(filePath: "Microsoft.Extensions.Configuration.Ini.dll", display: "Microsoft.Extensions.Configuration.Ini (aspnet80)");
                 }
                 return _MicrosoftExtensionsConfigurationIni;
             }
@@ -6237,7 +6237,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsConfigurationJson is null)
                 {
-                    _MicrosoftExtensionsConfigurationJson = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationJson).GetReference(filePath: "Microsoft.Extensions.Configuration.Json.dll", display: "Microsoft.Extensions.Configuration.Json (aspnet80)");
+                    _MicrosoftExtensionsConfigurationJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Configuration.Json")).GetReference(filePath: "Microsoft.Extensions.Configuration.Json.dll", display: "Microsoft.Extensions.Configuration.Json (aspnet80)");
                 }
                 return _MicrosoftExtensionsConfigurationJson;
             }
@@ -6254,7 +6254,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsConfigurationKeyPerFile is null)
                 {
-                    _MicrosoftExtensionsConfigurationKeyPerFile = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationKeyPerFile).GetReference(filePath: "Microsoft.Extensions.Configuration.KeyPerFile.dll", display: "Microsoft.Extensions.Configuration.KeyPerFile (aspnet80)");
+                    _MicrosoftExtensionsConfigurationKeyPerFile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Configuration.KeyPerFile")).GetReference(filePath: "Microsoft.Extensions.Configuration.KeyPerFile.dll", display: "Microsoft.Extensions.Configuration.KeyPerFile (aspnet80)");
                 }
                 return _MicrosoftExtensionsConfigurationKeyPerFile;
             }
@@ -6271,7 +6271,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsConfigurationUserSecrets is null)
                 {
-                    _MicrosoftExtensionsConfigurationUserSecrets = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationUserSecrets).GetReference(filePath: "Microsoft.Extensions.Configuration.UserSecrets.dll", display: "Microsoft.Extensions.Configuration.UserSecrets (aspnet80)");
+                    _MicrosoftExtensionsConfigurationUserSecrets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Configuration.UserSecrets")).GetReference(filePath: "Microsoft.Extensions.Configuration.UserSecrets.dll", display: "Microsoft.Extensions.Configuration.UserSecrets (aspnet80)");
                 }
                 return _MicrosoftExtensionsConfigurationUserSecrets;
             }
@@ -6288,7 +6288,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsConfigurationXml is null)
                 {
-                    _MicrosoftExtensionsConfigurationXml = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsConfigurationXml).GetReference(filePath: "Microsoft.Extensions.Configuration.Xml.dll", display: "Microsoft.Extensions.Configuration.Xml (aspnet80)");
+                    _MicrosoftExtensionsConfigurationXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Configuration.Xml")).GetReference(filePath: "Microsoft.Extensions.Configuration.Xml.dll", display: "Microsoft.Extensions.Configuration.Xml (aspnet80)");
                 }
                 return _MicrosoftExtensionsConfigurationXml;
             }
@@ -6305,7 +6305,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsDependencyInjectionAbstractions is null)
                 {
-                    _MicrosoftExtensionsDependencyInjectionAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsDependencyInjectionAbstractions).GetReference(filePath: "Microsoft.Extensions.DependencyInjection.Abstractions.dll", display: "Microsoft.Extensions.DependencyInjection.Abstractions (aspnet80)");
+                    _MicrosoftExtensionsDependencyInjectionAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.DependencyInjection.Abstractions")).GetReference(filePath: "Microsoft.Extensions.DependencyInjection.Abstractions.dll", display: "Microsoft.Extensions.DependencyInjection.Abstractions (aspnet80)");
                 }
                 return _MicrosoftExtensionsDependencyInjectionAbstractions;
             }
@@ -6322,7 +6322,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsDependencyInjection is null)
                 {
-                    _MicrosoftExtensionsDependencyInjection = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsDependencyInjection).GetReference(filePath: "Microsoft.Extensions.DependencyInjection.dll", display: "Microsoft.Extensions.DependencyInjection (aspnet80)");
+                    _MicrosoftExtensionsDependencyInjection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.DependencyInjection")).GetReference(filePath: "Microsoft.Extensions.DependencyInjection.dll", display: "Microsoft.Extensions.DependencyInjection (aspnet80)");
                 }
                 return _MicrosoftExtensionsDependencyInjection;
             }
@@ -6339,7 +6339,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsDiagnosticsAbstractions is null)
                 {
-                    _MicrosoftExtensionsDiagnosticsAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsDiagnosticsAbstractions).GetReference(filePath: "Microsoft.Extensions.Diagnostics.Abstractions.dll", display: "Microsoft.Extensions.Diagnostics.Abstractions (aspnet80)");
+                    _MicrosoftExtensionsDiagnosticsAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Diagnostics.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Diagnostics.Abstractions.dll", display: "Microsoft.Extensions.Diagnostics.Abstractions (aspnet80)");
                 }
                 return _MicrosoftExtensionsDiagnosticsAbstractions;
             }
@@ -6356,7 +6356,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsDiagnostics is null)
                 {
-                    _MicrosoftExtensionsDiagnostics = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsDiagnostics).GetReference(filePath: "Microsoft.Extensions.Diagnostics.dll", display: "Microsoft.Extensions.Diagnostics (aspnet80)");
+                    _MicrosoftExtensionsDiagnostics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Diagnostics")).GetReference(filePath: "Microsoft.Extensions.Diagnostics.dll", display: "Microsoft.Extensions.Diagnostics (aspnet80)");
                 }
                 return _MicrosoftExtensionsDiagnostics;
             }
@@ -6373,7 +6373,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsDiagnosticsHealthChecksAbstractions is null)
                 {
-                    _MicrosoftExtensionsDiagnosticsHealthChecksAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsDiagnosticsHealthChecksAbstractions).GetReference(filePath: "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll", display: "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions (aspnet80)");
+                    _MicrosoftExtensionsDiagnosticsHealthChecksAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll", display: "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions (aspnet80)");
                 }
                 return _MicrosoftExtensionsDiagnosticsHealthChecksAbstractions;
             }
@@ -6390,7 +6390,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsDiagnosticsHealthChecks is null)
                 {
-                    _MicrosoftExtensionsDiagnosticsHealthChecks = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsDiagnosticsHealthChecks).GetReference(filePath: "Microsoft.Extensions.Diagnostics.HealthChecks.dll", display: "Microsoft.Extensions.Diagnostics.HealthChecks (aspnet80)");
+                    _MicrosoftExtensionsDiagnosticsHealthChecks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Diagnostics.HealthChecks")).GetReference(filePath: "Microsoft.Extensions.Diagnostics.HealthChecks.dll", display: "Microsoft.Extensions.Diagnostics.HealthChecks (aspnet80)");
                 }
                 return _MicrosoftExtensionsDiagnosticsHealthChecks;
             }
@@ -6407,7 +6407,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsFeatures is null)
                 {
-                    _MicrosoftExtensionsFeatures = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsFeatures).GetReference(filePath: "Microsoft.Extensions.Features.dll", display: "Microsoft.Extensions.Features (aspnet80)");
+                    _MicrosoftExtensionsFeatures = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Features")).GetReference(filePath: "Microsoft.Extensions.Features.dll", display: "Microsoft.Extensions.Features (aspnet80)");
                 }
                 return _MicrosoftExtensionsFeatures;
             }
@@ -6424,7 +6424,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsFileProvidersAbstractions is null)
                 {
-                    _MicrosoftExtensionsFileProvidersAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsFileProvidersAbstractions).GetReference(filePath: "Microsoft.Extensions.FileProviders.Abstractions.dll", display: "Microsoft.Extensions.FileProviders.Abstractions (aspnet80)");
+                    _MicrosoftExtensionsFileProvidersAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.FileProviders.Abstractions")).GetReference(filePath: "Microsoft.Extensions.FileProviders.Abstractions.dll", display: "Microsoft.Extensions.FileProviders.Abstractions (aspnet80)");
                 }
                 return _MicrosoftExtensionsFileProvidersAbstractions;
             }
@@ -6441,7 +6441,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsFileProvidersComposite is null)
                 {
-                    _MicrosoftExtensionsFileProvidersComposite = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsFileProvidersComposite).GetReference(filePath: "Microsoft.Extensions.FileProviders.Composite.dll", display: "Microsoft.Extensions.FileProviders.Composite (aspnet80)");
+                    _MicrosoftExtensionsFileProvidersComposite = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.FileProviders.Composite")).GetReference(filePath: "Microsoft.Extensions.FileProviders.Composite.dll", display: "Microsoft.Extensions.FileProviders.Composite (aspnet80)");
                 }
                 return _MicrosoftExtensionsFileProvidersComposite;
             }
@@ -6458,7 +6458,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsFileProvidersEmbedded is null)
                 {
-                    _MicrosoftExtensionsFileProvidersEmbedded = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsFileProvidersEmbedded).GetReference(filePath: "Microsoft.Extensions.FileProviders.Embedded.dll", display: "Microsoft.Extensions.FileProviders.Embedded (aspnet80)");
+                    _MicrosoftExtensionsFileProvidersEmbedded = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.FileProviders.Embedded")).GetReference(filePath: "Microsoft.Extensions.FileProviders.Embedded.dll", display: "Microsoft.Extensions.FileProviders.Embedded (aspnet80)");
                 }
                 return _MicrosoftExtensionsFileProvidersEmbedded;
             }
@@ -6475,7 +6475,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsFileProvidersPhysical is null)
                 {
-                    _MicrosoftExtensionsFileProvidersPhysical = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsFileProvidersPhysical).GetReference(filePath: "Microsoft.Extensions.FileProviders.Physical.dll", display: "Microsoft.Extensions.FileProviders.Physical (aspnet80)");
+                    _MicrosoftExtensionsFileProvidersPhysical = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.FileProviders.Physical")).GetReference(filePath: "Microsoft.Extensions.FileProviders.Physical.dll", display: "Microsoft.Extensions.FileProviders.Physical (aspnet80)");
                 }
                 return _MicrosoftExtensionsFileProvidersPhysical;
             }
@@ -6492,7 +6492,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsFileSystemGlobbing is null)
                 {
-                    _MicrosoftExtensionsFileSystemGlobbing = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsFileSystemGlobbing).GetReference(filePath: "Microsoft.Extensions.FileSystemGlobbing.dll", display: "Microsoft.Extensions.FileSystemGlobbing (aspnet80)");
+                    _MicrosoftExtensionsFileSystemGlobbing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.FileSystemGlobbing")).GetReference(filePath: "Microsoft.Extensions.FileSystemGlobbing.dll", display: "Microsoft.Extensions.FileSystemGlobbing (aspnet80)");
                 }
                 return _MicrosoftExtensionsFileSystemGlobbing;
             }
@@ -6509,7 +6509,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsHostingAbstractions is null)
                 {
-                    _MicrosoftExtensionsHostingAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsHostingAbstractions).GetReference(filePath: "Microsoft.Extensions.Hosting.Abstractions.dll", display: "Microsoft.Extensions.Hosting.Abstractions (aspnet80)");
+                    _MicrosoftExtensionsHostingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Hosting.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Hosting.Abstractions.dll", display: "Microsoft.Extensions.Hosting.Abstractions (aspnet80)");
                 }
                 return _MicrosoftExtensionsHostingAbstractions;
             }
@@ -6526,7 +6526,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsHosting is null)
                 {
-                    _MicrosoftExtensionsHosting = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsHosting).GetReference(filePath: "Microsoft.Extensions.Hosting.dll", display: "Microsoft.Extensions.Hosting (aspnet80)");
+                    _MicrosoftExtensionsHosting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Hosting")).GetReference(filePath: "Microsoft.Extensions.Hosting.dll", display: "Microsoft.Extensions.Hosting (aspnet80)");
                 }
                 return _MicrosoftExtensionsHosting;
             }
@@ -6543,7 +6543,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsHttp is null)
                 {
-                    _MicrosoftExtensionsHttp = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsHttp).GetReference(filePath: "Microsoft.Extensions.Http.dll", display: "Microsoft.Extensions.Http (aspnet80)");
+                    _MicrosoftExtensionsHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Http")).GetReference(filePath: "Microsoft.Extensions.Http.dll", display: "Microsoft.Extensions.Http (aspnet80)");
                 }
                 return _MicrosoftExtensionsHttp;
             }
@@ -6560,7 +6560,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsIdentityCore is null)
                 {
-                    _MicrosoftExtensionsIdentityCore = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsIdentityCore).GetReference(filePath: "Microsoft.Extensions.Identity.Core.dll", display: "Microsoft.Extensions.Identity.Core (aspnet80)");
+                    _MicrosoftExtensionsIdentityCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Identity.Core")).GetReference(filePath: "Microsoft.Extensions.Identity.Core.dll", display: "Microsoft.Extensions.Identity.Core (aspnet80)");
                 }
                 return _MicrosoftExtensionsIdentityCore;
             }
@@ -6577,7 +6577,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsIdentityStores is null)
                 {
-                    _MicrosoftExtensionsIdentityStores = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsIdentityStores).GetReference(filePath: "Microsoft.Extensions.Identity.Stores.dll", display: "Microsoft.Extensions.Identity.Stores (aspnet80)");
+                    _MicrosoftExtensionsIdentityStores = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Identity.Stores")).GetReference(filePath: "Microsoft.Extensions.Identity.Stores.dll", display: "Microsoft.Extensions.Identity.Stores (aspnet80)");
                 }
                 return _MicrosoftExtensionsIdentityStores;
             }
@@ -6594,7 +6594,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsLocalizationAbstractions is null)
                 {
-                    _MicrosoftExtensionsLocalizationAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLocalizationAbstractions).GetReference(filePath: "Microsoft.Extensions.Localization.Abstractions.dll", display: "Microsoft.Extensions.Localization.Abstractions (aspnet80)");
+                    _MicrosoftExtensionsLocalizationAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Localization.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Localization.Abstractions.dll", display: "Microsoft.Extensions.Localization.Abstractions (aspnet80)");
                 }
                 return _MicrosoftExtensionsLocalizationAbstractions;
             }
@@ -6611,7 +6611,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsLocalization is null)
                 {
-                    _MicrosoftExtensionsLocalization = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLocalization).GetReference(filePath: "Microsoft.Extensions.Localization.dll", display: "Microsoft.Extensions.Localization (aspnet80)");
+                    _MicrosoftExtensionsLocalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Localization")).GetReference(filePath: "Microsoft.Extensions.Localization.dll", display: "Microsoft.Extensions.Localization (aspnet80)");
                 }
                 return _MicrosoftExtensionsLocalization;
             }
@@ -6628,7 +6628,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsLoggingAbstractions is null)
                 {
-                    _MicrosoftExtensionsLoggingAbstractions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLoggingAbstractions).GetReference(filePath: "Microsoft.Extensions.Logging.Abstractions.dll", display: "Microsoft.Extensions.Logging.Abstractions (aspnet80)");
+                    _MicrosoftExtensionsLoggingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Logging.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Logging.Abstractions.dll", display: "Microsoft.Extensions.Logging.Abstractions (aspnet80)");
                 }
                 return _MicrosoftExtensionsLoggingAbstractions;
             }
@@ -6645,7 +6645,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsLoggingConfiguration is null)
                 {
-                    _MicrosoftExtensionsLoggingConfiguration = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLoggingConfiguration).GetReference(filePath: "Microsoft.Extensions.Logging.Configuration.dll", display: "Microsoft.Extensions.Logging.Configuration (aspnet80)");
+                    _MicrosoftExtensionsLoggingConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Logging.Configuration")).GetReference(filePath: "Microsoft.Extensions.Logging.Configuration.dll", display: "Microsoft.Extensions.Logging.Configuration (aspnet80)");
                 }
                 return _MicrosoftExtensionsLoggingConfiguration;
             }
@@ -6662,7 +6662,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsLoggingConsole is null)
                 {
-                    _MicrosoftExtensionsLoggingConsole = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLoggingConsole).GetReference(filePath: "Microsoft.Extensions.Logging.Console.dll", display: "Microsoft.Extensions.Logging.Console (aspnet80)");
+                    _MicrosoftExtensionsLoggingConsole = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Logging.Console")).GetReference(filePath: "Microsoft.Extensions.Logging.Console.dll", display: "Microsoft.Extensions.Logging.Console (aspnet80)");
                 }
                 return _MicrosoftExtensionsLoggingConsole;
             }
@@ -6679,7 +6679,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsLoggingDebug is null)
                 {
-                    _MicrosoftExtensionsLoggingDebug = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLoggingDebug).GetReference(filePath: "Microsoft.Extensions.Logging.Debug.dll", display: "Microsoft.Extensions.Logging.Debug (aspnet80)");
+                    _MicrosoftExtensionsLoggingDebug = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Logging.Debug")).GetReference(filePath: "Microsoft.Extensions.Logging.Debug.dll", display: "Microsoft.Extensions.Logging.Debug (aspnet80)");
                 }
                 return _MicrosoftExtensionsLoggingDebug;
             }
@@ -6696,7 +6696,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsLogging is null)
                 {
-                    _MicrosoftExtensionsLogging = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLogging).GetReference(filePath: "Microsoft.Extensions.Logging.dll", display: "Microsoft.Extensions.Logging (aspnet80)");
+                    _MicrosoftExtensionsLogging = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Logging")).GetReference(filePath: "Microsoft.Extensions.Logging.dll", display: "Microsoft.Extensions.Logging (aspnet80)");
                 }
                 return _MicrosoftExtensionsLogging;
             }
@@ -6713,7 +6713,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsLoggingEventLog is null)
                 {
-                    _MicrosoftExtensionsLoggingEventLog = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLoggingEventLog).GetReference(filePath: "Microsoft.Extensions.Logging.EventLog.dll", display: "Microsoft.Extensions.Logging.EventLog (aspnet80)");
+                    _MicrosoftExtensionsLoggingEventLog = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Logging.EventLog")).GetReference(filePath: "Microsoft.Extensions.Logging.EventLog.dll", display: "Microsoft.Extensions.Logging.EventLog (aspnet80)");
                 }
                 return _MicrosoftExtensionsLoggingEventLog;
             }
@@ -6730,7 +6730,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsLoggingEventSource is null)
                 {
-                    _MicrosoftExtensionsLoggingEventSource = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLoggingEventSource).GetReference(filePath: "Microsoft.Extensions.Logging.EventSource.dll", display: "Microsoft.Extensions.Logging.EventSource (aspnet80)");
+                    _MicrosoftExtensionsLoggingEventSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Logging.EventSource")).GetReference(filePath: "Microsoft.Extensions.Logging.EventSource.dll", display: "Microsoft.Extensions.Logging.EventSource (aspnet80)");
                 }
                 return _MicrosoftExtensionsLoggingEventSource;
             }
@@ -6747,7 +6747,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsLoggingTraceSource is null)
                 {
-                    _MicrosoftExtensionsLoggingTraceSource = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsLoggingTraceSource).GetReference(filePath: "Microsoft.Extensions.Logging.TraceSource.dll", display: "Microsoft.Extensions.Logging.TraceSource (aspnet80)");
+                    _MicrosoftExtensionsLoggingTraceSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Logging.TraceSource")).GetReference(filePath: "Microsoft.Extensions.Logging.TraceSource.dll", display: "Microsoft.Extensions.Logging.TraceSource (aspnet80)");
                 }
                 return _MicrosoftExtensionsLoggingTraceSource;
             }
@@ -6764,7 +6764,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsObjectPool is null)
                 {
-                    _MicrosoftExtensionsObjectPool = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsObjectPool).GetReference(filePath: "Microsoft.Extensions.ObjectPool.dll", display: "Microsoft.Extensions.ObjectPool (aspnet80)");
+                    _MicrosoftExtensionsObjectPool = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.ObjectPool")).GetReference(filePath: "Microsoft.Extensions.ObjectPool.dll", display: "Microsoft.Extensions.ObjectPool (aspnet80)");
                 }
                 return _MicrosoftExtensionsObjectPool;
             }
@@ -6781,7 +6781,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsOptionsConfigurationExtensions is null)
                 {
-                    _MicrosoftExtensionsOptionsConfigurationExtensions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsOptionsConfigurationExtensions).GetReference(filePath: "Microsoft.Extensions.Options.ConfigurationExtensions.dll", display: "Microsoft.Extensions.Options.ConfigurationExtensions (aspnet80)");
+                    _MicrosoftExtensionsOptionsConfigurationExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Options.ConfigurationExtensions")).GetReference(filePath: "Microsoft.Extensions.Options.ConfigurationExtensions.dll", display: "Microsoft.Extensions.Options.ConfigurationExtensions (aspnet80)");
                 }
                 return _MicrosoftExtensionsOptionsConfigurationExtensions;
             }
@@ -6798,7 +6798,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsOptionsDataAnnotations is null)
                 {
-                    _MicrosoftExtensionsOptionsDataAnnotations = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsOptionsDataAnnotations).GetReference(filePath: "Microsoft.Extensions.Options.DataAnnotations.dll", display: "Microsoft.Extensions.Options.DataAnnotations (aspnet80)");
+                    _MicrosoftExtensionsOptionsDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Options.DataAnnotations")).GetReference(filePath: "Microsoft.Extensions.Options.DataAnnotations.dll", display: "Microsoft.Extensions.Options.DataAnnotations (aspnet80)");
                 }
                 return _MicrosoftExtensionsOptionsDataAnnotations;
             }
@@ -6815,7 +6815,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsOptions is null)
                 {
-                    _MicrosoftExtensionsOptions = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsOptions).GetReference(filePath: "Microsoft.Extensions.Options.dll", display: "Microsoft.Extensions.Options (aspnet80)");
+                    _MicrosoftExtensionsOptions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Options")).GetReference(filePath: "Microsoft.Extensions.Options.dll", display: "Microsoft.Extensions.Options (aspnet80)");
                 }
                 return _MicrosoftExtensionsOptions;
             }
@@ -6832,7 +6832,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsPrimitives is null)
                 {
-                    _MicrosoftExtensionsPrimitives = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsPrimitives).GetReference(filePath: "Microsoft.Extensions.Primitives.dll", display: "Microsoft.Extensions.Primitives (aspnet80)");
+                    _MicrosoftExtensionsPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.Primitives")).GetReference(filePath: "Microsoft.Extensions.Primitives.dll", display: "Microsoft.Extensions.Primitives (aspnet80)");
                 }
                 return _MicrosoftExtensionsPrimitives;
             }
@@ -6849,7 +6849,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftExtensionsWebEncoders is null)
                 {
-                    _MicrosoftExtensionsWebEncoders = AssemblyMetadata.CreateFromImage(Resources.MicrosoftExtensionsWebEncoders).GetReference(filePath: "Microsoft.Extensions.WebEncoders.dll", display: "Microsoft.Extensions.WebEncoders (aspnet80)");
+                    _MicrosoftExtensionsWebEncoders = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Extensions.WebEncoders")).GetReference(filePath: "Microsoft.Extensions.WebEncoders.dll", display: "Microsoft.Extensions.WebEncoders (aspnet80)");
                 }
                 return _MicrosoftExtensionsWebEncoders;
             }
@@ -6866,7 +6866,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftJSInterop is null)
                 {
-                    _MicrosoftJSInterop = AssemblyMetadata.CreateFromImage(Resources.MicrosoftJSInterop).GetReference(filePath: "Microsoft.JSInterop.dll", display: "Microsoft.JSInterop (aspnet80)");
+                    _MicrosoftJSInterop = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.JSInterop")).GetReference(filePath: "Microsoft.JSInterop.dll", display: "Microsoft.JSInterop (aspnet80)");
                 }
                 return _MicrosoftJSInterop;
             }
@@ -6883,7 +6883,7 @@ public static partial class AspNet80
             {
                 if (_MicrosoftNetHttpHeaders is null)
                 {
-                    _MicrosoftNetHttpHeaders = AssemblyMetadata.CreateFromImage(Resources.MicrosoftNetHttpHeaders).GetReference(filePath: "Microsoft.Net.Http.Headers.dll", display: "Microsoft.Net.Http.Headers (aspnet80)");
+                    _MicrosoftNetHttpHeaders = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.Microsoft.Net.Http.Headers")).GetReference(filePath: "Microsoft.Net.Http.Headers.dll", display: "Microsoft.Net.Http.Headers (aspnet80)");
                 }
                 return _MicrosoftNetHttpHeaders;
             }
@@ -6900,7 +6900,7 @@ public static partial class AspNet80
             {
                 if (_SystemDiagnosticsEventLog is null)
                 {
-                    _SystemDiagnosticsEventLog = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsEventLog).GetReference(filePath: "System.Diagnostics.EventLog.dll", display: "System.Diagnostics.EventLog (aspnet80)");
+                    _SystemDiagnosticsEventLog = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Diagnostics.EventLog")).GetReference(filePath: "System.Diagnostics.EventLog.dll", display: "System.Diagnostics.EventLog (aspnet80)");
                 }
                 return _SystemDiagnosticsEventLog;
             }
@@ -6917,7 +6917,7 @@ public static partial class AspNet80
             {
                 if (_SystemIOPipelines is null)
                 {
-                    _SystemIOPipelines = AssemblyMetadata.CreateFromImage(Resources.SystemIOPipelines).GetReference(filePath: "System.IO.Pipelines.dll", display: "System.IO.Pipelines (aspnet80)");
+                    _SystemIOPipelines = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.IO.Pipelines")).GetReference(filePath: "System.IO.Pipelines.dll", display: "System.IO.Pipelines (aspnet80)");
                 }
                 return _SystemIOPipelines;
             }
@@ -6934,7 +6934,7 @@ public static partial class AspNet80
             {
                 if (_SystemSecurityCryptographyXml is null)
                 {
-                    _SystemSecurityCryptographyXml = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyXml).GetReference(filePath: "System.Security.Cryptography.Xml.dll", display: "System.Security.Cryptography.Xml (aspnet80)");
+                    _SystemSecurityCryptographyXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Security.Cryptography.Xml")).GetReference(filePath: "System.Security.Cryptography.Xml.dll", display: "System.Security.Cryptography.Xml (aspnet80)");
                 }
                 return _SystemSecurityCryptographyXml;
             }
@@ -6951,7 +6951,7 @@ public static partial class AspNet80
             {
                 if (_SystemThreadingRateLimiting is null)
                 {
-                    _SystemThreadingRateLimiting = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingRateLimiting).GetReference(filePath: "System.Threading.RateLimiting.dll", display: "System.Threading.RateLimiting (aspnet80)");
+                    _SystemThreadingRateLimiting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet80.System.Threading.RateLimiting")).GetReference(filePath: "System.Threading.RateLimiting.dll", display: "System.Threading.RateLimiting (aspnet80)");
                 }
                 return _SystemThreadingRateLimiting;
             }

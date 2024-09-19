@@ -1,13 +1,15 @@
 using System;
+using System.Collections.Immutable;
 using System.IO;
 using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace Basic.Reference.Assemblies
 {
     internal static class ResourceLoader
     {
-        private static Stream GetResourceStream(string name)
+        internal static Stream GetResourceStream(string name)
         {
             var assembly = typeof(ResourceLoader).GetTypeInfo().Assembly;
 
@@ -20,21 +22,22 @@ namespace Basic.Reference.Assemblies
             return stream;
         }
 
-        private static byte[] GetResourceBlob(string name)
+        internal static byte[] GetResourceBlob(string name)
         {
-            using (var stream = GetResourceStream(name))
-            {
-                var bytes = new byte[stream.Length];
-                using (var memoryStream = new MemoryStream(bytes))
-                {
-                    stream.CopyTo(memoryStream);
-                }
-
-                return bytes;
-            }
+            using var stream = GetResourceStream(name);
+            var bytes = new byte[stream.Length];
+            using var memoryStream = new MemoryStream(bytes);
+            stream.CopyTo(memoryStream);
+            return bytes;
         }
 
-        public static byte[] GetOrCreateResource(ref byte[]? resource, string name)
+        internal static ImmutableArray<byte> GetResourceBlobAsImmutable(string name)
+        {
+            var blob = GetResourceBlob(name);
+            return ImmutableCollectionsMarshal.AsImmutableArray(blob);
+        }
+
+        internal static byte[] GetOrCreateResource(ref byte[]? resource, string name)
         {
             if (resource == null)
             {
@@ -44,17 +47,13 @@ namespace Basic.Reference.Assemblies
             return resource;
         }
 
-        public static string GetOrCreateResource(ref string resource, string name)
+        internal static string GetOrCreateResource(ref string resource, string name)
         {
             if (resource == null)
             {
-                using (var stream = GetResourceStream(name))
-                {
-                    using (var streamReader = new StreamReader(stream, Encoding.UTF8, detectEncodingFromByteOrderMarks: true))
-                    {
-                        resource = streamReader.ReadToEnd();
-                    }
-                }
+                using var stream = GetResourceStream(name);
+                using var streamReader = new StreamReader(stream, Encoding.UTF8, detectEncodingFromByteOrderMarks: true);
+                resource = streamReader.ReadToEnd();
             }
 
             return resource;

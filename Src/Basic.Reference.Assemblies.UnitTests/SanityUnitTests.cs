@@ -203,4 +203,12 @@ static void Main()
         var actual = CompilationUtil.CompileAndRun(source, nameof(RunTuple), references);
         Assert.Equal("(1, 2)", actual);
     }
+
+    [Fact]
+    public void LoadAll()
+    {
+        Net461.References.All.ToList();
+        Net40.References.All.ToList();
+        Net70.References.All.ToList();
+    }
 }

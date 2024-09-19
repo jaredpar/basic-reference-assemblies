@@ -327,7 +327,7 @@ public static partial class Net60Windows
             {
                 if (_Accessibility is null)
                 {
-                    _Accessibility = AssemblyMetadata.CreateFromImage(Resources.Accessibility).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net60windows)");
+                    _Accessibility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.Accessibility")).GetReference(filePath: "Accessibility.dll", display: "Accessibility (net60windows)");
                 }
                 return _Accessibility;
             }
@@ -344,7 +344,7 @@ public static partial class Net60Windows
             {
                 if (_MicrosoftVisualBasic is null)
                 {
-                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasic).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net60windows)");
+                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net60windows)");
                 }
                 return _MicrosoftVisualBasic;
             }
@@ -361,7 +361,7 @@ public static partial class Net60Windows
             {
                 if (_MicrosoftVisualBasicForms is null)
                 {
-                    _MicrosoftVisualBasicForms = AssemblyMetadata.CreateFromImage(Resources.MicrosoftVisualBasicForms).GetReference(filePath: "Microsoft.VisualBasic.Forms.dll", display: "Microsoft.VisualBasic.Forms (net60windows)");
+                    _MicrosoftVisualBasicForms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.Microsoft.VisualBasic.Forms")).GetReference(filePath: "Microsoft.VisualBasic.Forms.dll", display: "Microsoft.VisualBasic.Forms (net60windows)");
                 }
                 return _MicrosoftVisualBasicForms;
             }
@@ -378,7 +378,7 @@ public static partial class Net60Windows
             {
                 if (_MicrosoftWin32RegistryAccessControl is null)
                 {
-                    _MicrosoftWin32RegistryAccessControl = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32RegistryAccessControl).GetReference(filePath: "Microsoft.Win32.Registry.AccessControl.dll", display: "Microsoft.Win32.Registry.AccessControl (net60windows)");
+                    _MicrosoftWin32RegistryAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.Microsoft.Win32.Registry.AccessControl")).GetReference(filePath: "Microsoft.Win32.Registry.AccessControl.dll", display: "Microsoft.Win32.Registry.AccessControl (net60windows)");
                 }
                 return _MicrosoftWin32RegistryAccessControl;
             }
@@ -395,7 +395,7 @@ public static partial class Net60Windows
             {
                 if (_MicrosoftWin32SystemEvents is null)
                 {
-                    _MicrosoftWin32SystemEvents = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32SystemEvents).GetReference(filePath: "Microsoft.Win32.SystemEvents.dll", display: "Microsoft.Win32.SystemEvents (net60windows)");
+                    _MicrosoftWin32SystemEvents = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.Microsoft.Win32.SystemEvents")).GetReference(filePath: "Microsoft.Win32.SystemEvents.dll", display: "Microsoft.Win32.SystemEvents (net60windows)");
                 }
                 return _MicrosoftWin32SystemEvents;
             }
@@ -412,7 +412,7 @@ public static partial class Net60Windows
             {
                 if (_PresentationCore is null)
                 {
-                    _PresentationCore = AssemblyMetadata.CreateFromImage(Resources.PresentationCore).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net60windows)");
+                    _PresentationCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.PresentationCore")).GetReference(filePath: "PresentationCore.dll", display: "PresentationCore (net60windows)");
                 }
                 return _PresentationCore;
             }
@@ -429,7 +429,7 @@ public static partial class Net60Windows
             {
                 if (_PresentationFrameworkAero is null)
                 {
-                    _PresentationFrameworkAero = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net60windows)");
+                    _PresentationFrameworkAero = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.PresentationFramework.Aero")).GetReference(filePath: "PresentationFramework.Aero.dll", display: "PresentationFramework.Aero (net60windows)");
                 }
                 return _PresentationFrameworkAero;
             }
@@ -446,7 +446,7 @@ public static partial class Net60Windows
             {
                 if (_PresentationFrameworkAero2 is null)
                 {
-                    _PresentationFrameworkAero2 = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAero2).GetReference(filePath: "PresentationFramework.Aero2.dll", display: "PresentationFramework.Aero2 (net60windows)");
+                    _PresentationFrameworkAero2 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.PresentationFramework.Aero2")).GetReference(filePath: "PresentationFramework.Aero2.dll", display: "PresentationFramework.Aero2 (net60windows)");
                 }
                 return _PresentationFrameworkAero2;
             }
@@ -463,7 +463,7 @@ public static partial class Net60Windows
             {
                 if (_PresentationFrameworkAeroLite is null)
                 {
-                    _PresentationFrameworkAeroLite = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkAeroLite).GetReference(filePath: "PresentationFramework.AeroLite.dll", display: "PresentationFramework.AeroLite (net60windows)");
+                    _PresentationFrameworkAeroLite = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.PresentationFramework.AeroLite")).GetReference(filePath: "PresentationFramework.AeroLite.dll", display: "PresentationFramework.AeroLite (net60windows)");
                 }
                 return _PresentationFrameworkAeroLite;
             }
@@ -480,7 +480,7 @@ public static partial class Net60Windows
             {
                 if (_PresentationFrameworkClassic is null)
                 {
-                    _PresentationFrameworkClassic = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkClassic).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net60windows)");
+                    _PresentationFrameworkClassic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.PresentationFramework.Classic")).GetReference(filePath: "PresentationFramework.Classic.dll", display: "PresentationFramework.Classic (net60windows)");
                 }
                 return _PresentationFrameworkClassic;
             }
@@ -497,7 +497,7 @@ public static partial class Net60Windows
             {
                 if (_PresentationFramework is null)
                 {
-                    _PresentationFramework = AssemblyMetadata.CreateFromImage(Resources.PresentationFramework).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net60windows)");
+                    _PresentationFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.PresentationFramework")).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net60windows)");
                 }
                 return _PresentationFramework;
             }
@@ -514,7 +514,7 @@ public static partial class Net60Windows
             {
                 if (_PresentationFrameworkLuna is null)
                 {
-                    _PresentationFrameworkLuna = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkLuna).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net60windows)");
+                    _PresentationFrameworkLuna = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.PresentationFramework.Luna")).GetReference(filePath: "PresentationFramework.Luna.dll", display: "PresentationFramework.Luna (net60windows)");
                 }
                 return _PresentationFrameworkLuna;
             }
@@ -531,7 +531,7 @@ public static partial class Net60Windows
             {
                 if (_PresentationFrameworkRoyale is null)
                 {
-                    _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(Resources.PresentationFrameworkRoyale).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net60windows)");
+                    _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.PresentationFramework.Royale")).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net60windows)");
                 }
                 return _PresentationFrameworkRoyale;
             }
@@ -548,7 +548,7 @@ public static partial class Net60Windows
             {
                 if (_PresentationUI is null)
                 {
-                    _PresentationUI = AssemblyMetadata.CreateFromImage(Resources.PresentationUI).GetReference(filePath: "PresentationUI.dll", display: "PresentationUI (net60windows)");
+                    _PresentationUI = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.PresentationUI")).GetReference(filePath: "PresentationUI.dll", display: "PresentationUI (net60windows)");
                 }
                 return _PresentationUI;
             }
@@ -565,7 +565,7 @@ public static partial class Net60Windows
             {
                 if (_ReachFramework is null)
                 {
-                    _ReachFramework = AssemblyMetadata.CreateFromImage(Resources.ReachFramework).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net60windows)");
+                    _ReachFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.ReachFramework")).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net60windows)");
                 }
                 return _ReachFramework;
             }
@@ -582,7 +582,7 @@ public static partial class Net60Windows
             {
                 if (_SystemCodeDom is null)
                 {
-                    _SystemCodeDom = AssemblyMetadata.CreateFromImage(Resources.SystemCodeDom).GetReference(filePath: "System.CodeDom.dll", display: "System.CodeDom (net60windows)");
+                    _SystemCodeDom = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.CodeDom")).GetReference(filePath: "System.CodeDom.dll", display: "System.CodeDom (net60windows)");
                 }
                 return _SystemCodeDom;
             }
@@ -599,7 +599,7 @@ public static partial class Net60Windows
             {
                 if (_SystemConfigurationConfigurationManager is null)
                 {
-                    _SystemConfigurationConfigurationManager = AssemblyMetadata.CreateFromImage(Resources.SystemConfigurationConfigurationManager).GetReference(filePath: "System.Configuration.ConfigurationManager.dll", display: "System.Configuration.ConfigurationManager (net60windows)");
+                    _SystemConfigurationConfigurationManager = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Configuration.ConfigurationManager")).GetReference(filePath: "System.Configuration.ConfigurationManager.dll", display: "System.Configuration.ConfigurationManager (net60windows)");
                 }
                 return _SystemConfigurationConfigurationManager;
             }
@@ -616,7 +616,7 @@ public static partial class Net60Windows
             {
                 if (_SystemDesign is null)
                 {
-                    _SystemDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDesign).GetReference(filePath: "System.Design.dll", display: "System.Design (net60windows)");
+                    _SystemDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Design")).GetReference(filePath: "System.Design.dll", display: "System.Design (net60windows)");
                 }
                 return _SystemDesign;
             }
@@ -633,7 +633,7 @@ public static partial class Net60Windows
             {
                 if (_SystemDiagnosticsEventLog is null)
                 {
-                    _SystemDiagnosticsEventLog = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsEventLog).GetReference(filePath: "System.Diagnostics.EventLog.dll", display: "System.Diagnostics.EventLog (net60windows)");
+                    _SystemDiagnosticsEventLog = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Diagnostics.EventLog")).GetReference(filePath: "System.Diagnostics.EventLog.dll", display: "System.Diagnostics.EventLog (net60windows)");
                 }
                 return _SystemDiagnosticsEventLog;
             }
@@ -650,7 +650,7 @@ public static partial class Net60Windows
             {
                 if (_SystemDiagnosticsPerformanceCounter is null)
                 {
-                    _SystemDiagnosticsPerformanceCounter = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsPerformanceCounter).GetReference(filePath: "System.Diagnostics.PerformanceCounter.dll", display: "System.Diagnostics.PerformanceCounter (net60windows)");
+                    _SystemDiagnosticsPerformanceCounter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Diagnostics.PerformanceCounter")).GetReference(filePath: "System.Diagnostics.PerformanceCounter.dll", display: "System.Diagnostics.PerformanceCounter (net60windows)");
                 }
                 return _SystemDiagnosticsPerformanceCounter;
             }
@@ -667,7 +667,7 @@ public static partial class Net60Windows
             {
                 if (_SystemDirectoryServices is null)
                 {
-                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(Resources.SystemDirectoryServices).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net60windows)");
+                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.DirectoryServices")).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net60windows)");
                 }
                 return _SystemDirectoryServices;
             }
@@ -684,7 +684,7 @@ public static partial class Net60Windows
             {
                 if (_SystemDrawingCommon is null)
                 {
-                    _SystemDrawingCommon = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingCommon).GetReference(filePath: "System.Drawing.Common.dll", display: "System.Drawing.Common (net60windows)");
+                    _SystemDrawingCommon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Drawing.Common")).GetReference(filePath: "System.Drawing.Common.dll", display: "System.Drawing.Common (net60windows)");
                 }
                 return _SystemDrawingCommon;
             }
@@ -701,7 +701,7 @@ public static partial class Net60Windows
             {
                 if (_SystemDrawingDesign is null)
                 {
-                    _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(Resources.SystemDrawingDesign).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net60windows)");
+                    _SystemDrawingDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Drawing.Design")).GetReference(filePath: "System.Drawing.Design.dll", display: "System.Drawing.Design (net60windows)");
                 }
                 return _SystemDrawingDesign;
             }
@@ -718,7 +718,7 @@ public static partial class Net60Windows
             {
                 if (_SystemDrawing is null)
                 {
-                    _SystemDrawing = AssemblyMetadata.CreateFromImage(Resources.SystemDrawing).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net60windows)");
+                    _SystemDrawing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Drawing")).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net60windows)");
                 }
                 return _SystemDrawing;
             }
@@ -735,7 +735,7 @@ public static partial class Net60Windows
             {
                 if (_SystemIOPackaging is null)
                 {
-                    _SystemIOPackaging = AssemblyMetadata.CreateFromImage(Resources.SystemIOPackaging).GetReference(filePath: "System.IO.Packaging.dll", display: "System.IO.Packaging (net60windows)");
+                    _SystemIOPackaging = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.IO.Packaging")).GetReference(filePath: "System.IO.Packaging.dll", display: "System.IO.Packaging (net60windows)");
                 }
                 return _SystemIOPackaging;
             }
@@ -752,7 +752,7 @@ public static partial class Net60Windows
             {
                 if (_SystemPrinting is null)
                 {
-                    _SystemPrinting = AssemblyMetadata.CreateFromImage(Resources.SystemPrinting).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net60windows)");
+                    _SystemPrinting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Printing")).GetReference(filePath: "System.Printing.dll", display: "System.Printing (net60windows)");
                 }
                 return _SystemPrinting;
             }
@@ -769,7 +769,7 @@ public static partial class Net60Windows
             {
                 if (_SystemResourcesExtensions is null)
                 {
-                    _SystemResourcesExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesExtensions).GetReference(filePath: "System.Resources.Extensions.dll", display: "System.Resources.Extensions (net60windows)");
+                    _SystemResourcesExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Resources.Extensions")).GetReference(filePath: "System.Resources.Extensions.dll", display: "System.Resources.Extensions (net60windows)");
                 }
                 return _SystemResourcesExtensions;
             }
@@ -786,7 +786,7 @@ public static partial class Net60Windows
             {
                 if (_SystemSecurityCryptographyPkcs is null)
                 {
-                    _SystemSecurityCryptographyPkcs = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPkcs).GetReference(filePath: "System.Security.Cryptography.Pkcs.dll", display: "System.Security.Cryptography.Pkcs (net60windows)");
+                    _SystemSecurityCryptographyPkcs = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Security.Cryptography.Pkcs")).GetReference(filePath: "System.Security.Cryptography.Pkcs.dll", display: "System.Security.Cryptography.Pkcs (net60windows)");
                 }
                 return _SystemSecurityCryptographyPkcs;
             }
@@ -803,7 +803,7 @@ public static partial class Net60Windows
             {
                 if (_SystemSecurityCryptographyProtectedData is null)
                 {
-                    _SystemSecurityCryptographyProtectedData = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyProtectedData).GetReference(filePath: "System.Security.Cryptography.ProtectedData.dll", display: "System.Security.Cryptography.ProtectedData (net60windows)");
+                    _SystemSecurityCryptographyProtectedData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Security.Cryptography.ProtectedData")).GetReference(filePath: "System.Security.Cryptography.ProtectedData.dll", display: "System.Security.Cryptography.ProtectedData (net60windows)");
                 }
                 return _SystemSecurityCryptographyProtectedData;
             }
@@ -820,7 +820,7 @@ public static partial class Net60Windows
             {
                 if (_SystemSecurityCryptographyXml is null)
                 {
-                    _SystemSecurityCryptographyXml = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyXml).GetReference(filePath: "System.Security.Cryptography.Xml.dll", display: "System.Security.Cryptography.Xml (net60windows)");
+                    _SystemSecurityCryptographyXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Security.Cryptography.Xml")).GetReference(filePath: "System.Security.Cryptography.Xml.dll", display: "System.Security.Cryptography.Xml (net60windows)");
                 }
                 return _SystemSecurityCryptographyXml;
             }
@@ -837,7 +837,7 @@ public static partial class Net60Windows
             {
                 if (_SystemSecurityPermissions is null)
                 {
-                    _SystemSecurityPermissions = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPermissions).GetReference(filePath: "System.Security.Permissions.dll", display: "System.Security.Permissions (net60windows)");
+                    _SystemSecurityPermissions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Security.Permissions")).GetReference(filePath: "System.Security.Permissions.dll", display: "System.Security.Permissions (net60windows)");
                 }
                 return _SystemSecurityPermissions;
             }
@@ -854,7 +854,7 @@ public static partial class Net60Windows
             {
                 if (_SystemThreadingAccessControl is null)
                 {
-                    _SystemThreadingAccessControl = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingAccessControl).GetReference(filePath: "System.Threading.AccessControl.dll", display: "System.Threading.AccessControl (net60windows)");
+                    _SystemThreadingAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Threading.AccessControl")).GetReference(filePath: "System.Threading.AccessControl.dll", display: "System.Threading.AccessControl (net60windows)");
                 }
                 return _SystemThreadingAccessControl;
             }
@@ -871,7 +871,7 @@ public static partial class Net60Windows
             {
                 if (_SystemWindowsControlsRibbon is null)
                 {
-                    _SystemWindowsControlsRibbon = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsControlsRibbon).GetReference(filePath: "System.Windows.Controls.Ribbon.dll", display: "System.Windows.Controls.Ribbon (net60windows)");
+                    _SystemWindowsControlsRibbon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Windows.Controls.Ribbon")).GetReference(filePath: "System.Windows.Controls.Ribbon.dll", display: "System.Windows.Controls.Ribbon (net60windows)");
                 }
                 return _SystemWindowsControlsRibbon;
             }
@@ -888,7 +888,7 @@ public static partial class Net60Windows
             {
                 if (_SystemWindowsExtensions is null)
                 {
-                    _SystemWindowsExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsExtensions).GetReference(filePath: "System.Windows.Extensions.dll", display: "System.Windows.Extensions (net60windows)");
+                    _SystemWindowsExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Windows.Extensions")).GetReference(filePath: "System.Windows.Extensions.dll", display: "System.Windows.Extensions (net60windows)");
                 }
                 return _SystemWindowsExtensions;
             }
@@ -905,7 +905,7 @@ public static partial class Net60Windows
             {
                 if (_SystemWindowsFormsDesign is null)
                 {
-                    _SystemWindowsFormsDesign = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDesign).GetReference(filePath: "System.Windows.Forms.Design.dll", display: "System.Windows.Forms.Design (net60windows)");
+                    _SystemWindowsFormsDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Windows.Forms.Design")).GetReference(filePath: "System.Windows.Forms.Design.dll", display: "System.Windows.Forms.Design (net60windows)");
                 }
                 return _SystemWindowsFormsDesign;
             }
@@ -922,7 +922,7 @@ public static partial class Net60Windows
             {
                 if (_SystemWindowsFormsDesignEditors is null)
                 {
-                    _SystemWindowsFormsDesignEditors = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsDesignEditors).GetReference(filePath: "System.Windows.Forms.Design.Editors.dll", display: "System.Windows.Forms.Design.Editors (net60windows)");
+                    _SystemWindowsFormsDesignEditors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Windows.Forms.Design.Editors")).GetReference(filePath: "System.Windows.Forms.Design.Editors.dll", display: "System.Windows.Forms.Design.Editors (net60windows)");
                 }
                 return _SystemWindowsFormsDesignEditors;
             }
@@ -939,7 +939,7 @@ public static partial class Net60Windows
             {
                 if (_SystemWindowsForms is null)
                 {
-                    _SystemWindowsForms = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsForms).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net60windows)");
+                    _SystemWindowsForms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Windows.Forms")).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net60windows)");
                 }
                 return _SystemWindowsForms;
             }
@@ -956,7 +956,7 @@ public static partial class Net60Windows
             {
                 if (_SystemWindowsFormsPrimitives is null)
                 {
-                    _SystemWindowsFormsPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsFormsPrimitives).GetReference(filePath: "System.Windows.Forms.Primitives.dll", display: "System.Windows.Forms.Primitives (net60windows)");
+                    _SystemWindowsFormsPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Windows.Forms.Primitives")).GetReference(filePath: "System.Windows.Forms.Primitives.dll", display: "System.Windows.Forms.Primitives (net60windows)");
                 }
                 return _SystemWindowsFormsPrimitives;
             }
@@ -973,7 +973,7 @@ public static partial class Net60Windows
             {
                 if (_SystemWindowsInputManipulations is null)
                 {
-                    _SystemWindowsInputManipulations = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsInputManipulations).GetReference(filePath: "System.Windows.Input.Manipulations.dll", display: "System.Windows.Input.Manipulations (net60windows)");
+                    _SystemWindowsInputManipulations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Windows.Input.Manipulations")).GetReference(filePath: "System.Windows.Input.Manipulations.dll", display: "System.Windows.Input.Manipulations (net60windows)");
                 }
                 return _SystemWindowsInputManipulations;
             }
@@ -990,7 +990,7 @@ public static partial class Net60Windows
             {
                 if (_SystemWindowsPresentation is null)
                 {
-                    _SystemWindowsPresentation = AssemblyMetadata.CreateFromImage(Resources.SystemWindowsPresentation).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net60windows)");
+                    _SystemWindowsPresentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Windows.Presentation")).GetReference(filePath: "System.Windows.Presentation.dll", display: "System.Windows.Presentation (net60windows)");
                 }
                 return _SystemWindowsPresentation;
             }
@@ -1007,7 +1007,7 @@ public static partial class Net60Windows
             {
                 if (_SystemXaml is null)
                 {
-                    _SystemXaml = AssemblyMetadata.CreateFromImage(Resources.SystemXaml).GetReference(filePath: "System.Xaml.dll", display: "System.Xaml (net60windows)");
+                    _SystemXaml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.System.Xaml")).GetReference(filePath: "System.Xaml.dll", display: "System.Xaml (net60windows)");
                 }
                 return _SystemXaml;
             }
@@ -1024,7 +1024,7 @@ public static partial class Net60Windows
             {
                 if (_UIAutomationClient is null)
                 {
-                    _UIAutomationClient = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClient).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net60windows)");
+                    _UIAutomationClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.UIAutomationClient")).GetReference(filePath: "UIAutomationClient.dll", display: "UIAutomationClient (net60windows)");
                 }
                 return _UIAutomationClient;
             }
@@ -1041,7 +1041,7 @@ public static partial class Net60Windows
             {
                 if (_UIAutomationClientSideProviders is null)
                 {
-                    _UIAutomationClientSideProviders = AssemblyMetadata.CreateFromImage(Resources.UIAutomationClientSideProviders).GetReference(filePath: "UIAutomationClientSideProviders.dll", display: "UIAutomationClientSideProviders (net60windows)");
+                    _UIAutomationClientSideProviders = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.UIAutomationClientSideProviders")).GetReference(filePath: "UIAutomationClientSideProviders.dll", display: "UIAutomationClientSideProviders (net60windows)");
                 }
                 return _UIAutomationClientSideProviders;
             }
@@ -1058,7 +1058,7 @@ public static partial class Net60Windows
             {
                 if (_UIAutomationProvider is null)
                 {
-                    _UIAutomationProvider = AssemblyMetadata.CreateFromImage(Resources.UIAutomationProvider).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net60windows)");
+                    _UIAutomationProvider = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.UIAutomationProvider")).GetReference(filePath: "UIAutomationProvider.dll", display: "UIAutomationProvider (net60windows)");
                 }
                 return _UIAutomationProvider;
             }
@@ -1075,7 +1075,7 @@ public static partial class Net60Windows
             {
                 if (_UIAutomationTypes is null)
                 {
-                    _UIAutomationTypes = AssemblyMetadata.CreateFromImage(Resources.UIAutomationTypes).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net60windows)");
+                    _UIAutomationTypes = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.UIAutomationTypes")).GetReference(filePath: "UIAutomationTypes.dll", display: "UIAutomationTypes (net60windows)");
                 }
                 return _UIAutomationTypes;
             }
@@ -1092,7 +1092,7 @@ public static partial class Net60Windows
             {
                 if (_WindowsBase is null)
                 {
-                    _WindowsBase = AssemblyMetadata.CreateFromImage(Resources.WindowsBase).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net60windows)");
+                    _WindowsBase = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.WindowsBase")).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net60windows)");
                 }
                 return _WindowsBase;
             }
@@ -1109,7 +1109,7 @@ public static partial class Net60Windows
             {
                 if (_WindowsFormsIntegration is null)
                 {
-                    _WindowsFormsIntegration = AssemblyMetadata.CreateFromImage(Resources.WindowsFormsIntegration).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net60windows)");
+                    _WindowsFormsIntegration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net60windows.WindowsFormsIntegration")).GetReference(filePath: "WindowsFormsIntegration.dll", display: "WindowsFormsIntegration (net60windows)");
                 }
                 return _WindowsFormsIntegration;
             }

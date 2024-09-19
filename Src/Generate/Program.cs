@@ -478,7 +478,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
                             {
                                 if ({{fieldName}} is null)
                                 {
-                                    {{fieldName}} = AssemblyMetadata.CreateFromImage(Resources.{{propName}}).GetReference(filePath: "{{dllName}}", display: "{{dll}} ({{lowerName}})");
+                                    {{fieldName}} = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("{{logicalName}}")).GetReference(filePath: "{{dllName}}", display: "{{dll}} ({{lowerName}})");
                                 }
                                 return {{fieldName}};
                             }

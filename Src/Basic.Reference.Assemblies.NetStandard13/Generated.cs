@@ -393,7 +393,7 @@ public static partial class NetStandard13
             {
                 if (_MicrosoftWin32Primitives is null)
                 {
-                    _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(Resources.MicrosoftWin32Primitives).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (netstandard13)");
+                    _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.Microsoft.Win32.Primitives")).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (netstandard13)");
                 }
                 return _MicrosoftWin32Primitives;
             }
@@ -410,7 +410,7 @@ public static partial class NetStandard13
             {
                 if (_SystemAppContext is null)
                 {
-                    _SystemAppContext = AssemblyMetadata.CreateFromImage(Resources.SystemAppContext).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (netstandard13)");
+                    _SystemAppContext = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.AppContext")).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (netstandard13)");
                 }
                 return _SystemAppContext;
             }
@@ -427,7 +427,7 @@ public static partial class NetStandard13
             {
                 if (_SystemCollectionsConcurrent is null)
                 {
-                    _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(Resources.SystemCollectionsConcurrent).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (netstandard13)");
+                    _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Collections.Concurrent")).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (netstandard13)");
                 }
                 return _SystemCollectionsConcurrent;
             }
@@ -444,7 +444,7 @@ public static partial class NetStandard13
             {
                 if (_SystemCollections is null)
                 {
-                    _SystemCollections = AssemblyMetadata.CreateFromImage(Resources.SystemCollections).GetReference(filePath: "System.Collections.dll", display: "System.Collections (netstandard13)");
+                    _SystemCollections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Collections")).GetReference(filePath: "System.Collections.dll", display: "System.Collections (netstandard13)");
                 }
                 return _SystemCollections;
             }
@@ -461,7 +461,7 @@ public static partial class NetStandard13
             {
                 if (_SystemConsole is null)
                 {
-                    _SystemConsole = AssemblyMetadata.CreateFromImage(Resources.SystemConsole).GetReference(filePath: "System.Console.dll", display: "System.Console (netstandard13)");
+                    _SystemConsole = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Console")).GetReference(filePath: "System.Console.dll", display: "System.Console (netstandard13)");
                 }
                 return _SystemConsole;
             }
@@ -478,7 +478,7 @@ public static partial class NetStandard13
             {
                 if (_SystemDiagnosticsDebug is null)
                 {
-                    _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsDebug).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (netstandard13)");
+                    _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Diagnostics.Debug")).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (netstandard13)");
                 }
                 return _SystemDiagnosticsDebug;
             }
@@ -495,7 +495,7 @@ public static partial class NetStandard13
             {
                 if (_SystemDiagnosticsFileVersionInfo is null)
                 {
-                    _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsFileVersionInfo).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (netstandard13)");
+                    _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Diagnostics.FileVersionInfo")).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (netstandard13)");
                 }
                 return _SystemDiagnosticsFileVersionInfo;
             }
@@ -512,7 +512,7 @@ public static partial class NetStandard13
             {
                 if (_SystemDiagnosticsProcess is null)
                 {
-                    _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsProcess).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (netstandard13)");
+                    _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Diagnostics.Process")).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (netstandard13)");
                 }
                 return _SystemDiagnosticsProcess;
             }
@@ -529,7 +529,7 @@ public static partial class NetStandard13
             {
                 if (_SystemDiagnosticsTools is null)
                 {
-                    _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTools).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (netstandard13)");
+                    _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Diagnostics.Tools")).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (netstandard13)");
                 }
                 return _SystemDiagnosticsTools;
             }
@@ -546,7 +546,7 @@ public static partial class NetStandard13
             {
                 if (_SystemDiagnosticsTracing is null)
                 {
-                    _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(Resources.SystemDiagnosticsTracing).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (netstandard13)");
+                    _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Diagnostics.Tracing")).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (netstandard13)");
                 }
                 return _SystemDiagnosticsTracing;
             }
@@ -563,7 +563,7 @@ public static partial class NetStandard13
             {
                 if (_SystemGlobalizationCalendars is null)
                 {
-                    _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalizationCalendars).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (netstandard13)");
+                    _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Globalization.Calendars")).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (netstandard13)");
                 }
                 return _SystemGlobalizationCalendars;
             }
@@ -580,7 +580,7 @@ public static partial class NetStandard13
             {
                 if (_SystemGlobalization is null)
                 {
-                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(Resources.SystemGlobalization).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (netstandard13)");
+                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Globalization")).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (netstandard13)");
                 }
                 return _SystemGlobalization;
             }
@@ -597,7 +597,7 @@ public static partial class NetStandard13
             {
                 if (_SystemIOCompression is null)
                 {
-                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompression).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (netstandard13)");
+                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (netstandard13)");
                 }
                 return _SystemIOCompression;
             }
@@ -614,7 +614,7 @@ public static partial class NetStandard13
             {
                 if (_SystemIOCompressionZipFile is null)
                 {
-                    _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(Resources.SystemIOCompressionZipFile).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (netstandard13)");
+                    _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.IO.Compression.ZipFile")).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (netstandard13)");
                 }
                 return _SystemIOCompressionZipFile;
             }
@@ -631,7 +631,7 @@ public static partial class NetStandard13
             {
                 if (_SystemIO is null)
                 {
-                    _SystemIO = AssemblyMetadata.CreateFromImage(Resources.SystemIO).GetReference(filePath: "System.IO.dll", display: "System.IO (netstandard13)");
+                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (netstandard13)");
                 }
                 return _SystemIO;
             }
@@ -648,7 +648,7 @@ public static partial class NetStandard13
             {
                 if (_SystemIOFileSystem is null)
                 {
-                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystem).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (netstandard13)");
+                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.IO.FileSystem")).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (netstandard13)");
                 }
                 return _SystemIOFileSystem;
             }
@@ -665,7 +665,7 @@ public static partial class NetStandard13
             {
                 if (_SystemIOFileSystemPrimitives is null)
                 {
-                    _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemIOFileSystemPrimitives).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (netstandard13)");
+                    _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.IO.FileSystem.Primitives")).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (netstandard13)");
                 }
                 return _SystemIOFileSystemPrimitives;
             }
@@ -682,7 +682,7 @@ public static partial class NetStandard13
             {
                 if (_SystemLinq is null)
                 {
-                    _SystemLinq = AssemblyMetadata.CreateFromImage(Resources.SystemLinq).GetReference(filePath: "System.Linq.dll", display: "System.Linq (netstandard13)");
+                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (netstandard13)");
                 }
                 return _SystemLinq;
             }
@@ -699,7 +699,7 @@ public static partial class NetStandard13
             {
                 if (_SystemLinqExpressions is null)
                 {
-                    _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemLinqExpressions).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (netstandard13)");
+                    _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Linq.Expressions")).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (netstandard13)");
                 }
                 return _SystemLinqExpressions;
             }
@@ -716,7 +716,7 @@ public static partial class NetStandard13
             {
                 if (_SystemNetHttp is null)
                 {
-                    _SystemNetHttp = AssemblyMetadata.CreateFromImage(Resources.SystemNetHttp).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (netstandard13)");
+                    _SystemNetHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Net.Http")).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (netstandard13)");
                 }
                 return _SystemNetHttp;
             }
@@ -733,7 +733,7 @@ public static partial class NetStandard13
             {
                 if (_SystemNetPrimitives is null)
                 {
-                    _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemNetPrimitives).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (netstandard13)");
+                    _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Net.Primitives")).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (netstandard13)");
                 }
                 return _SystemNetPrimitives;
             }
@@ -750,7 +750,7 @@ public static partial class NetStandard13
             {
                 if (_SystemNetSecurity is null)
                 {
-                    _SystemNetSecurity = AssemblyMetadata.CreateFromImage(Resources.SystemNetSecurity).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (netstandard13)");
+                    _SystemNetSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Net.Security")).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (netstandard13)");
                 }
                 return _SystemNetSecurity;
             }
@@ -767,7 +767,7 @@ public static partial class NetStandard13
             {
                 if (_SystemNetSockets is null)
                 {
-                    _SystemNetSockets = AssemblyMetadata.CreateFromImage(Resources.SystemNetSockets).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (netstandard13)");
+                    _SystemNetSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Net.Sockets")).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (netstandard13)");
                 }
                 return _SystemNetSockets;
             }
@@ -784,7 +784,7 @@ public static partial class NetStandard13
             {
                 if (_SystemObjectModel is null)
                 {
-                    _SystemObjectModel = AssemblyMetadata.CreateFromImage(Resources.SystemObjectModel).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (netstandard13)");
+                    _SystemObjectModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.ObjectModel")).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (netstandard13)");
                 }
                 return _SystemObjectModel;
             }
@@ -801,7 +801,7 @@ public static partial class NetStandard13
             {
                 if (_SystemReflection is null)
                 {
-                    _SystemReflection = AssemblyMetadata.CreateFromImage(Resources.SystemReflection).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (netstandard13)");
+                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (netstandard13)");
                 }
                 return _SystemReflection;
             }
@@ -818,7 +818,7 @@ public static partial class NetStandard13
             {
                 if (_SystemReflectionExtensions is null)
                 {
-                    _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionExtensions).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (netstandard13)");
+                    _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Reflection.Extensions")).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (netstandard13)");
                 }
                 return _SystemReflectionExtensions;
             }
@@ -835,7 +835,7 @@ public static partial class NetStandard13
             {
                 if (_SystemReflectionPrimitives is null)
                 {
-                    _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemReflectionPrimitives).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (netstandard13)");
+                    _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Reflection.Primitives")).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (netstandard13)");
                 }
                 return _SystemReflectionPrimitives;
             }
@@ -852,7 +852,7 @@ public static partial class NetStandard13
             {
                 if (_SystemResourcesResourceManager is null)
                 {
-                    _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(Resources.SystemResourcesResourceManager).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (netstandard13)");
+                    _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Resources.ResourceManager")).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (netstandard13)");
                 }
                 return _SystemResourcesResourceManager;
             }
@@ -869,7 +869,7 @@ public static partial class NetStandard13
             {
                 if (_SystemRuntime is null)
                 {
-                    _SystemRuntime = AssemblyMetadata.CreateFromImage(Resources.SystemRuntime).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (netstandard13)");
+                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (netstandard13)");
                 }
                 return _SystemRuntime;
             }
@@ -886,7 +886,7 @@ public static partial class NetStandard13
             {
                 if (_SystemRuntimeExtensions is null)
                 {
-                    _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeExtensions).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (netstandard13)");
+                    _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Runtime.Extensions")).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (netstandard13)");
                 }
                 return _SystemRuntimeExtensions;
             }
@@ -903,7 +903,7 @@ public static partial class NetStandard13
             {
                 if (_SystemRuntimeHandles is null)
                 {
-                    _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeHandles).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (netstandard13)");
+                    _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Runtime.Handles")).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (netstandard13)");
                 }
                 return _SystemRuntimeHandles;
             }
@@ -920,7 +920,7 @@ public static partial class NetStandard13
             {
                 if (_SystemRuntimeInteropServices is null)
                 {
-                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServices).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (netstandard13)");
+                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (netstandard13)");
                 }
                 return _SystemRuntimeInteropServices;
             }
@@ -937,7 +937,7 @@ public static partial class NetStandard13
             {
                 if (_SystemRuntimeInteropServicesRuntimeInformation is null)
                 {
-                    _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeInteropServicesRuntimeInformation).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (netstandard13)");
+                    _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Runtime.InteropServices.RuntimeInformation")).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (netstandard13)");
                 }
                 return _SystemRuntimeInteropServicesRuntimeInformation;
             }
@@ -954,7 +954,7 @@ public static partial class NetStandard13
             {
                 if (_SystemRuntimeNumerics is null)
                 {
-                    _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeNumerics).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (netstandard13)");
+                    _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Runtime.Numerics")).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (netstandard13)");
                 }
                 return _SystemRuntimeNumerics;
             }
@@ -971,7 +971,7 @@ public static partial class NetStandard13
             {
                 if (_SystemRuntimeSerializationPrimitives is null)
                 {
-                    _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemRuntimeSerializationPrimitives).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (netstandard13)");
+                    _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Runtime.Serialization.Primitives")).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (netstandard13)");
                 }
                 return _SystemRuntimeSerializationPrimitives;
             }
@@ -988,7 +988,7 @@ public static partial class NetStandard13
             {
                 if (_SystemSecurityAccessControl is null)
                 {
-                    _SystemSecurityAccessControl = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityAccessControl).GetReference(filePath: "System.Security.AccessControl.dll", display: "System.Security.AccessControl (netstandard13)");
+                    _SystemSecurityAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Security.AccessControl")).GetReference(filePath: "System.Security.AccessControl.dll", display: "System.Security.AccessControl (netstandard13)");
                 }
                 return _SystemSecurityAccessControl;
             }
@@ -1005,7 +1005,7 @@ public static partial class NetStandard13
             {
                 if (_SystemSecurityClaims is null)
                 {
-                    _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityClaims).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (netstandard13)");
+                    _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Security.Claims")).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (netstandard13)");
                 }
                 return _SystemSecurityClaims;
             }
@@ -1022,7 +1022,7 @@ public static partial class NetStandard13
             {
                 if (_SystemSecurityCryptographyAlgorithms is null)
                 {
-                    _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyAlgorithms).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (netstandard13)");
+                    _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Security.Cryptography.Algorithms")).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (netstandard13)");
                 }
                 return _SystemSecurityCryptographyAlgorithms;
             }
@@ -1039,7 +1039,7 @@ public static partial class NetStandard13
             {
                 if (_SystemSecurityCryptographyCsp is null)
                 {
-                    _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyCsp).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (netstandard13)");
+                    _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Security.Cryptography.Csp")).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (netstandard13)");
                 }
                 return _SystemSecurityCryptographyCsp;
             }
@@ -1056,7 +1056,7 @@ public static partial class NetStandard13
             {
                 if (_SystemSecurityCryptographyEncoding is null)
                 {
-                    _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyEncoding).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (netstandard13)");
+                    _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Security.Cryptography.Encoding")).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (netstandard13)");
                 }
                 return _SystemSecurityCryptographyEncoding;
             }
@@ -1073,7 +1073,7 @@ public static partial class NetStandard13
             {
                 if (_SystemSecurityCryptographyPrimitives is null)
                 {
-                    _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyPrimitives).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (netstandard13)");
+                    _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Security.Cryptography.Primitives")).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (netstandard13)");
                 }
                 return _SystemSecurityCryptographyPrimitives;
             }
@@ -1090,7 +1090,7 @@ public static partial class NetStandard13
             {
                 if (_SystemSecurityCryptographyX509Certificates is null)
                 {
-                    _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityCryptographyX509Certificates).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (netstandard13)");
+                    _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Security.Cryptography.X509Certificates")).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (netstandard13)");
                 }
                 return _SystemSecurityCryptographyX509Certificates;
             }
@@ -1107,7 +1107,7 @@ public static partial class NetStandard13
             {
                 if (_SystemSecurityPrincipal is null)
                 {
-                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipal).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (netstandard13)");
+                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Security.Principal")).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (netstandard13)");
                 }
                 return _SystemSecurityPrincipal;
             }
@@ -1124,7 +1124,7 @@ public static partial class NetStandard13
             {
                 if (_SystemSecurityPrincipalWindows is null)
                 {
-                    _SystemSecurityPrincipalWindows = AssemblyMetadata.CreateFromImage(Resources.SystemSecurityPrincipalWindows).GetReference(filePath: "System.Security.Principal.Windows.dll", display: "System.Security.Principal.Windows (netstandard13)");
+                    _SystemSecurityPrincipalWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Security.Principal.Windows")).GetReference(filePath: "System.Security.Principal.Windows.dll", display: "System.Security.Principal.Windows (netstandard13)");
                 }
                 return _SystemSecurityPrincipalWindows;
             }
@@ -1141,7 +1141,7 @@ public static partial class NetStandard13
             {
                 if (_SystemTextEncodingCodePages is null)
                 {
-                    _SystemTextEncodingCodePages = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingCodePages).GetReference(filePath: "System.Text.Encoding.CodePages.dll", display: "System.Text.Encoding.CodePages (netstandard13)");
+                    _SystemTextEncodingCodePages = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Text.Encoding.CodePages")).GetReference(filePath: "System.Text.Encoding.CodePages.dll", display: "System.Text.Encoding.CodePages (netstandard13)");
                 }
                 return _SystemTextEncodingCodePages;
             }
@@ -1158,7 +1158,7 @@ public static partial class NetStandard13
             {
                 if (_SystemTextEncoding is null)
                 {
-                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncoding).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (netstandard13)");
+                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Text.Encoding")).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (netstandard13)");
                 }
                 return _SystemTextEncoding;
             }
@@ -1175,7 +1175,7 @@ public static partial class NetStandard13
             {
                 if (_SystemTextEncodingExtensions is null)
                 {
-                    _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemTextEncodingExtensions).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (netstandard13)");
+                    _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Text.Encoding.Extensions")).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (netstandard13)");
                 }
                 return _SystemTextEncodingExtensions;
             }
@@ -1192,7 +1192,7 @@ public static partial class NetStandard13
             {
                 if (_SystemTextRegularExpressions is null)
                 {
-                    _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(Resources.SystemTextRegularExpressions).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (netstandard13)");
+                    _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Text.RegularExpressions")).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (netstandard13)");
                 }
                 return _SystemTextRegularExpressions;
             }
@@ -1209,7 +1209,7 @@ public static partial class NetStandard13
             {
                 if (_SystemThreading is null)
                 {
-                    _SystemThreading = AssemblyMetadata.CreateFromImage(Resources.SystemThreading).GetReference(filePath: "System.Threading.dll", display: "System.Threading (netstandard13)");
+                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (netstandard13)");
                 }
                 return _SystemThreading;
             }
@@ -1226,7 +1226,7 @@ public static partial class NetStandard13
             {
                 if (_SystemThreadingTasks is null)
                 {
-                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasks).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (netstandard13)");
+                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Threading.Tasks")).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (netstandard13)");
                 }
                 return _SystemThreadingTasks;
             }
@@ -1243,7 +1243,7 @@ public static partial class NetStandard13
             {
                 if (_SystemThreadingTasksExtensions is null)
                 {
-                    _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTasksExtensions).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (netstandard13)");
+                    _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Threading.Tasks.Extensions")).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (netstandard13)");
                 }
                 return _SystemThreadingTasksExtensions;
             }
@@ -1260,7 +1260,7 @@ public static partial class NetStandard13
             {
                 if (_SystemThreadingTimer is null)
                 {
-                    _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(Resources.SystemThreadingTimer).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (netstandard13)");
+                    _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Threading.Timer")).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (netstandard13)");
                 }
                 return _SystemThreadingTimer;
             }
@@ -1277,7 +1277,7 @@ public static partial class NetStandard13
             {
                 if (_SystemValueTuple is null)
                 {
-                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(Resources.SystemValueTuple).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (netstandard13)");
+                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.ValueTuple")).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (netstandard13)");
                 }
                 return _SystemValueTuple;
             }
@@ -1294,7 +1294,7 @@ public static partial class NetStandard13
             {
                 if (_SystemXmlReaderWriter is null)
                 {
-                    _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(Resources.SystemXmlReaderWriter).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (netstandard13)");
+                    _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Xml.ReaderWriter")).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (netstandard13)");
                 }
                 return _SystemXmlReaderWriter;
             }
@@ -1311,7 +1311,7 @@ public static partial class NetStandard13
             {
                 if (_SystemXmlXDocument is null)
                 {
-                    _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXDocument).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (netstandard13)");
+                    _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Xml.XDocument")).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (netstandard13)");
                 }
                 return _SystemXmlXDocument;
             }
@@ -1328,7 +1328,7 @@ public static partial class NetStandard13
             {
                 if (_SystemXmlXmlDocument is null)
                 {
-                    _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXmlDocument).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (netstandard13)");
+                    _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Xml.XmlDocument")).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (netstandard13)");
                 }
                 return _SystemXmlXmlDocument;
             }
@@ -1345,7 +1345,7 @@ public static partial class NetStandard13
             {
                 if (_SystemXmlXPath is null)
                 {
-                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPath).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (netstandard13)");
+                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Xml.XPath")).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (netstandard13)");
                 }
                 return _SystemXmlXPath;
             }
@@ -1362,7 +1362,7 @@ public static partial class NetStandard13
             {
                 if (_SystemXmlXPathXDocument is null)
                 {
-                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(Resources.SystemXmlXPathXDocument).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (netstandard13)");
+                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (netstandard13)");
                 }
                 return _SystemXmlXPathXDocument;
             }

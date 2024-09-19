@@ -10,6 +10,7 @@
     <SignAssembly>true</SignAssembly>
     <SuppressNETCoreSdkPreviewMessage>true</SuppressNETCoreSdkPreviewMessage>
     <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)Key.snk</AssemblyOriginatorKeyFile>
+    <RoslynVersion>4.11.0</RoslynVersion>
 
     <!-- NuGet Properties -->
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
