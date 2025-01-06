@@ -104,7 +104,7 @@ void AspNet80()
 
 void AspNet90()
 {
-    var content = GetGeneratedContent("AspNet90", [@"microsoft.netcore.app.ref\9.0.0\ref\net9.0", @"microsoft.aspnetcore.app.ref\9.0.0-preview.6.24328.4\ref\net9.0"]);
+    var content = GetGeneratedContent("AspNet90", [@"microsoft.netcore.app.ref\9.0.0\ref\net9.0", @"microsoft.aspnetcore.app.ref\9.0.0\ref\net9.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.AspNet90");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
