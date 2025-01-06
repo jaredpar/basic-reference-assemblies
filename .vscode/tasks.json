@@ -19,20 +19,18 @@
             },
         },
         {            
-            "label": "build generate",
+            "label": "run generate",
             "command": "dotnet",
             "type": "process",
             "args": [
-                "build",
-                "${workspaceFolder}/Src/Generate/Generate.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary",
-                "/tl:off"
+                "run",
+                "--project",
+                "${workspaceFolder}/Src/Generate/Generate.csproj"
             ],
             "problemMatcher": "$msCompile",
             "group": {
-                "kind": "build",
-                "isDefault": true
+                "kind": "none",
+                "isDefault": false
             },
         }
     ]

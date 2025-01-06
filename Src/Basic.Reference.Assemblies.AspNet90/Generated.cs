@@ -835,692 +835,692 @@ public static partial class AspNet90
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Antiforgery.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAntiforgery => new ReferenceInfo("Microsoft.AspNetCore.Antiforgery.dll", Resources.MicrosoftAspNetCoreAntiforgery, AspNet90.References.MicrosoftAspNetCoreAntiforgery, global::System.Guid.Parse("8487f3bf-b76c-41f8-a67b-b251e13a0eef"));
+        public static ReferenceInfo MicrosoftAspNetCoreAntiforgery => new ReferenceInfo("Microsoft.AspNetCore.Antiforgery.dll", Resources.MicrosoftAspNetCoreAntiforgery, AspNet90.References.MicrosoftAspNetCoreAntiforgery, global::System.Guid.Parse("d5518aa7-ef2f-4049-9be0-a45778b476a8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authentication.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Authentication.Abstractions.dll", Resources.MicrosoftAspNetCoreAuthenticationAbstractions, AspNet90.References.MicrosoftAspNetCoreAuthenticationAbstractions, global::System.Guid.Parse("6eca02c2-33ce-4725-9777-aa9f1c682b43"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Authentication.Abstractions.dll", Resources.MicrosoftAspNetCoreAuthenticationAbstractions, AspNet90.References.MicrosoftAspNetCoreAuthenticationAbstractions, global::System.Guid.Parse("a19f3c12-8077-4b36-acff-4aa0bbc529e4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authentication.BearerToken.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationBearerToken => new ReferenceInfo("Microsoft.AspNetCore.Authentication.BearerToken.dll", Resources.MicrosoftAspNetCoreAuthenticationBearerToken, AspNet90.References.MicrosoftAspNetCoreAuthenticationBearerToken, global::System.Guid.Parse("1bdd278c-3490-4730-9d73-8a08316cbba7"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationBearerToken => new ReferenceInfo("Microsoft.AspNetCore.Authentication.BearerToken.dll", Resources.MicrosoftAspNetCoreAuthenticationBearerToken, AspNet90.References.MicrosoftAspNetCoreAuthenticationBearerToken, global::System.Guid.Parse("4a0bc809-f0a8-41d3-afc8-06567b30b347"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authentication.Cookies.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationCookies => new ReferenceInfo("Microsoft.AspNetCore.Authentication.Cookies.dll", Resources.MicrosoftAspNetCoreAuthenticationCookies, AspNet90.References.MicrosoftAspNetCoreAuthenticationCookies, global::System.Guid.Parse("e4f1fb18-0ba3-4b89-add6-111e8ffa33ae"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationCookies => new ReferenceInfo("Microsoft.AspNetCore.Authentication.Cookies.dll", Resources.MicrosoftAspNetCoreAuthenticationCookies, AspNet90.References.MicrosoftAspNetCoreAuthenticationCookies, global::System.Guid.Parse("b4356d27-ccd8-423f-bd99-d23e3b984339"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authentication.Core.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationCore => new ReferenceInfo("Microsoft.AspNetCore.Authentication.Core.dll", Resources.MicrosoftAspNetCoreAuthenticationCore, AspNet90.References.MicrosoftAspNetCoreAuthenticationCore, global::System.Guid.Parse("4d2bbb73-3681-4356-8ee9-1f97202d2b53"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationCore => new ReferenceInfo("Microsoft.AspNetCore.Authentication.Core.dll", Resources.MicrosoftAspNetCoreAuthenticationCore, AspNet90.References.MicrosoftAspNetCoreAuthenticationCore, global::System.Guid.Parse("602db80e-c22f-4cad-b127-739210837125"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authentication.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthentication => new ReferenceInfo("Microsoft.AspNetCore.Authentication.dll", Resources.MicrosoftAspNetCoreAuthentication, AspNet90.References.MicrosoftAspNetCoreAuthentication, global::System.Guid.Parse("7414f05f-29a0-40a8-8bb5-7ff357baa320"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthentication => new ReferenceInfo("Microsoft.AspNetCore.Authentication.dll", Resources.MicrosoftAspNetCoreAuthentication, AspNet90.References.MicrosoftAspNetCoreAuthentication, global::System.Guid.Parse("5922c11f-a824-4617-b724-1bcb5747c3a1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authentication.OAuth.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationOAuth => new ReferenceInfo("Microsoft.AspNetCore.Authentication.OAuth.dll", Resources.MicrosoftAspNetCoreAuthenticationOAuth, AspNet90.References.MicrosoftAspNetCoreAuthenticationOAuth, global::System.Guid.Parse("a204f61b-a73d-45d7-949c-8b9e7b5cf92d"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationOAuth => new ReferenceInfo("Microsoft.AspNetCore.Authentication.OAuth.dll", Resources.MicrosoftAspNetCoreAuthenticationOAuth, AspNet90.References.MicrosoftAspNetCoreAuthenticationOAuth, global::System.Guid.Parse("20934635-07d4-4f3d-ac6b-58a405d6ec21"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authorization.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthorization => new ReferenceInfo("Microsoft.AspNetCore.Authorization.dll", Resources.MicrosoftAspNetCoreAuthorization, AspNet90.References.MicrosoftAspNetCoreAuthorization, global::System.Guid.Parse("fb4bd14e-1b91-44c7-8238-3a7cca9c893c"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthorization => new ReferenceInfo("Microsoft.AspNetCore.Authorization.dll", Resources.MicrosoftAspNetCoreAuthorization, AspNet90.References.MicrosoftAspNetCoreAuthorization, global::System.Guid.Parse("a7cc12ef-af6e-4352-a319-2bceee75b0e9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authorization.Policy.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthorizationPolicy => new ReferenceInfo("Microsoft.AspNetCore.Authorization.Policy.dll", Resources.MicrosoftAspNetCoreAuthorizationPolicy, AspNet90.References.MicrosoftAspNetCoreAuthorizationPolicy, global::System.Guid.Parse("97d81eea-5547-4a7d-8653-5c75aa5f16f9"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthorizationPolicy => new ReferenceInfo("Microsoft.AspNetCore.Authorization.Policy.dll", Resources.MicrosoftAspNetCoreAuthorizationPolicy, AspNet90.References.MicrosoftAspNetCoreAuthorizationPolicy, global::System.Guid.Parse("161d6e37-e4d3-4c4c-ae43-8d07b820a52f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Components.Authorization.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreComponentsAuthorization => new ReferenceInfo("Microsoft.AspNetCore.Components.Authorization.dll", Resources.MicrosoftAspNetCoreComponentsAuthorization, AspNet90.References.MicrosoftAspNetCoreComponentsAuthorization, global::System.Guid.Parse("cd057061-8812-47fa-b6a2-e29529b99c4a"));
+        public static ReferenceInfo MicrosoftAspNetCoreComponentsAuthorization => new ReferenceInfo("Microsoft.AspNetCore.Components.Authorization.dll", Resources.MicrosoftAspNetCoreComponentsAuthorization, AspNet90.References.MicrosoftAspNetCoreComponentsAuthorization, global::System.Guid.Parse("1597be5f-c5d8-4238-925c-f93622127459"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Components.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreComponents => new ReferenceInfo("Microsoft.AspNetCore.Components.dll", Resources.MicrosoftAspNetCoreComponents, AspNet90.References.MicrosoftAspNetCoreComponents, global::System.Guid.Parse("cfbee685-5ec8-49bd-a360-f0298356a9b7"));
+        public static ReferenceInfo MicrosoftAspNetCoreComponents => new ReferenceInfo("Microsoft.AspNetCore.Components.dll", Resources.MicrosoftAspNetCoreComponents, AspNet90.References.MicrosoftAspNetCoreComponents, global::System.Guid.Parse("b530f0cf-603a-4e1d-bc31-a8a6f73e9a7a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Components.Endpoints.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreComponentsEndpoints => new ReferenceInfo("Microsoft.AspNetCore.Components.Endpoints.dll", Resources.MicrosoftAspNetCoreComponentsEndpoints, AspNet90.References.MicrosoftAspNetCoreComponentsEndpoints, global::System.Guid.Parse("bc494f62-4331-4cba-9b27-85ac65ec931b"));
+        public static ReferenceInfo MicrosoftAspNetCoreComponentsEndpoints => new ReferenceInfo("Microsoft.AspNetCore.Components.Endpoints.dll", Resources.MicrosoftAspNetCoreComponentsEndpoints, AspNet90.References.MicrosoftAspNetCoreComponentsEndpoints, global::System.Guid.Parse("809eeb07-fd71-4426-9124-cca14c771aac"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Components.Forms.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreComponentsForms => new ReferenceInfo("Microsoft.AspNetCore.Components.Forms.dll", Resources.MicrosoftAspNetCoreComponentsForms, AspNet90.References.MicrosoftAspNetCoreComponentsForms, global::System.Guid.Parse("5215d470-6e55-4f51-ab4f-1ec67c1b0a73"));
+        public static ReferenceInfo MicrosoftAspNetCoreComponentsForms => new ReferenceInfo("Microsoft.AspNetCore.Components.Forms.dll", Resources.MicrosoftAspNetCoreComponentsForms, AspNet90.References.MicrosoftAspNetCoreComponentsForms, global::System.Guid.Parse("87456b96-464e-45d9-950b-31f7849ed267"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Components.Server.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreComponentsServer => new ReferenceInfo("Microsoft.AspNetCore.Components.Server.dll", Resources.MicrosoftAspNetCoreComponentsServer, AspNet90.References.MicrosoftAspNetCoreComponentsServer, global::System.Guid.Parse("83358cf2-ca10-4968-b33d-443494e4fabf"));
+        public static ReferenceInfo MicrosoftAspNetCoreComponentsServer => new ReferenceInfo("Microsoft.AspNetCore.Components.Server.dll", Resources.MicrosoftAspNetCoreComponentsServer, AspNet90.References.MicrosoftAspNetCoreComponentsServer, global::System.Guid.Parse("7132da58-a16c-42ba-9300-91c29aee9a3d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Components.Web.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreComponentsWeb => new ReferenceInfo("Microsoft.AspNetCore.Components.Web.dll", Resources.MicrosoftAspNetCoreComponentsWeb, AspNet90.References.MicrosoftAspNetCoreComponentsWeb, global::System.Guid.Parse("7eafe9a9-98f9-428f-b3c7-098a349f89dc"));
+        public static ReferenceInfo MicrosoftAspNetCoreComponentsWeb => new ReferenceInfo("Microsoft.AspNetCore.Components.Web.dll", Resources.MicrosoftAspNetCoreComponentsWeb, AspNet90.References.MicrosoftAspNetCoreComponentsWeb, global::System.Guid.Parse("56d60760-c22a-4fb6-9b6f-550316c5f103"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Connections.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreConnectionsAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Connections.Abstractions.dll", Resources.MicrosoftAspNetCoreConnectionsAbstractions, AspNet90.References.MicrosoftAspNetCoreConnectionsAbstractions, global::System.Guid.Parse("2a3e6496-1caa-490f-a20c-fe946188ea06"));
+        public static ReferenceInfo MicrosoftAspNetCoreConnectionsAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Connections.Abstractions.dll", Resources.MicrosoftAspNetCoreConnectionsAbstractions, AspNet90.References.MicrosoftAspNetCoreConnectionsAbstractions, global::System.Guid.Parse("208274e3-45f8-4a16-b889-f0d532dcc279"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.CookiePolicy.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreCookiePolicy => new ReferenceInfo("Microsoft.AspNetCore.CookiePolicy.dll", Resources.MicrosoftAspNetCoreCookiePolicy, AspNet90.References.MicrosoftAspNetCoreCookiePolicy, global::System.Guid.Parse("c0d1269a-3948-46da-b305-8eddb50b3e24"));
+        public static ReferenceInfo MicrosoftAspNetCoreCookiePolicy => new ReferenceInfo("Microsoft.AspNetCore.CookiePolicy.dll", Resources.MicrosoftAspNetCoreCookiePolicy, AspNet90.References.MicrosoftAspNetCoreCookiePolicy, global::System.Guid.Parse("0526a3d8-11e2-47b6-ae8a-ba53ce36ed4e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Cors.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreCors => new ReferenceInfo("Microsoft.AspNetCore.Cors.dll", Resources.MicrosoftAspNetCoreCors, AspNet90.References.MicrosoftAspNetCoreCors, global::System.Guid.Parse("37e5b43f-e7dc-46bc-9f8d-aa0ca71e9bf4"));
+        public static ReferenceInfo MicrosoftAspNetCoreCors => new ReferenceInfo("Microsoft.AspNetCore.Cors.dll", Resources.MicrosoftAspNetCoreCors, AspNet90.References.MicrosoftAspNetCoreCors, global::System.Guid.Parse("27626b0c-5c34-47f8-8b6b-73375baaa0d5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Cryptography.Internal.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreCryptographyInternal => new ReferenceInfo("Microsoft.AspNetCore.Cryptography.Internal.dll", Resources.MicrosoftAspNetCoreCryptographyInternal, AspNet90.References.MicrosoftAspNetCoreCryptographyInternal, global::System.Guid.Parse("93f18896-2e04-42f4-93cc-43d007751fdd"));
+        public static ReferenceInfo MicrosoftAspNetCoreCryptographyInternal => new ReferenceInfo("Microsoft.AspNetCore.Cryptography.Internal.dll", Resources.MicrosoftAspNetCoreCryptographyInternal, AspNet90.References.MicrosoftAspNetCoreCryptographyInternal, global::System.Guid.Parse("86bf9da6-dad6-45a7-bb35-aaa03cffafa6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreCryptographyKeyDerivation => new ReferenceInfo("Microsoft.AspNetCore.Cryptography.KeyDerivation.dll", Resources.MicrosoftAspNetCoreCryptographyKeyDerivation, AspNet90.References.MicrosoftAspNetCoreCryptographyKeyDerivation, global::System.Guid.Parse("b76dd3f7-3ef8-43c8-b1ce-0a8e16f95311"));
+        public static ReferenceInfo MicrosoftAspNetCoreCryptographyKeyDerivation => new ReferenceInfo("Microsoft.AspNetCore.Cryptography.KeyDerivation.dll", Resources.MicrosoftAspNetCoreCryptographyKeyDerivation, AspNet90.References.MicrosoftAspNetCoreCryptographyKeyDerivation, global::System.Guid.Parse("ba965a35-4c88-4a5f-a632-40bc166c6ea9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.DataProtection.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreDataProtectionAbstractions => new ReferenceInfo("Microsoft.AspNetCore.DataProtection.Abstractions.dll", Resources.MicrosoftAspNetCoreDataProtectionAbstractions, AspNet90.References.MicrosoftAspNetCoreDataProtectionAbstractions, global::System.Guid.Parse("2915e52e-f904-463b-bd16-d06558105921"));
+        public static ReferenceInfo MicrosoftAspNetCoreDataProtectionAbstractions => new ReferenceInfo("Microsoft.AspNetCore.DataProtection.Abstractions.dll", Resources.MicrosoftAspNetCoreDataProtectionAbstractions, AspNet90.References.MicrosoftAspNetCoreDataProtectionAbstractions, global::System.Guid.Parse("653cf26c-4a95-4584-be31-80e195cc5fdf"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.DataProtection.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreDataProtection => new ReferenceInfo("Microsoft.AspNetCore.DataProtection.dll", Resources.MicrosoftAspNetCoreDataProtection, AspNet90.References.MicrosoftAspNetCoreDataProtection, global::System.Guid.Parse("614e7d63-ce5d-401d-8b31-aab2bb0c26fb"));
+        public static ReferenceInfo MicrosoftAspNetCoreDataProtection => new ReferenceInfo("Microsoft.AspNetCore.DataProtection.dll", Resources.MicrosoftAspNetCoreDataProtection, AspNet90.References.MicrosoftAspNetCoreDataProtection, global::System.Guid.Parse("d23ff403-d570-48f4-93f7-1efdc1a346b2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.DataProtection.Extensions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreDataProtectionExtensions => new ReferenceInfo("Microsoft.AspNetCore.DataProtection.Extensions.dll", Resources.MicrosoftAspNetCoreDataProtectionExtensions, AspNet90.References.MicrosoftAspNetCoreDataProtectionExtensions, global::System.Guid.Parse("21374b4a-0661-4a3d-a3bd-29857e4b9b49"));
+        public static ReferenceInfo MicrosoftAspNetCoreDataProtectionExtensions => new ReferenceInfo("Microsoft.AspNetCore.DataProtection.Extensions.dll", Resources.MicrosoftAspNetCoreDataProtectionExtensions, AspNet90.References.MicrosoftAspNetCoreDataProtectionExtensions, global::System.Guid.Parse("86cfc0d7-5e93-44a8-9130-e6c6aaf41398"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Diagnostics.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreDiagnosticsAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Diagnostics.Abstractions.dll", Resources.MicrosoftAspNetCoreDiagnosticsAbstractions, AspNet90.References.MicrosoftAspNetCoreDiagnosticsAbstractions, global::System.Guid.Parse("6276b620-4745-4c70-bf0d-2dcee78e8dfd"));
+        public static ReferenceInfo MicrosoftAspNetCoreDiagnosticsAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Diagnostics.Abstractions.dll", Resources.MicrosoftAspNetCoreDiagnosticsAbstractions, AspNet90.References.MicrosoftAspNetCoreDiagnosticsAbstractions, global::System.Guid.Parse("4f794efc-a354-4214-9287-32237e966052"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Diagnostics.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreDiagnostics => new ReferenceInfo("Microsoft.AspNetCore.Diagnostics.dll", Resources.MicrosoftAspNetCoreDiagnostics, AspNet90.References.MicrosoftAspNetCoreDiagnostics, global::System.Guid.Parse("64f43343-fe77-4551-b38b-fea2ca97f146"));
+        public static ReferenceInfo MicrosoftAspNetCoreDiagnostics => new ReferenceInfo("Microsoft.AspNetCore.Diagnostics.dll", Resources.MicrosoftAspNetCoreDiagnostics, AspNet90.References.MicrosoftAspNetCoreDiagnostics, global::System.Guid.Parse("dfeec2a6-b013-4aba-9011-1883bc857669"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreDiagnosticsHealthChecks => new ReferenceInfo("Microsoft.AspNetCore.Diagnostics.HealthChecks.dll", Resources.MicrosoftAspNetCoreDiagnosticsHealthChecks, AspNet90.References.MicrosoftAspNetCoreDiagnosticsHealthChecks, global::System.Guid.Parse("27b29684-e47d-4306-aa28-ae42cfb476ac"));
+        public static ReferenceInfo MicrosoftAspNetCoreDiagnosticsHealthChecks => new ReferenceInfo("Microsoft.AspNetCore.Diagnostics.HealthChecks.dll", Resources.MicrosoftAspNetCoreDiagnosticsHealthChecks, AspNet90.References.MicrosoftAspNetCoreDiagnosticsHealthChecks, global::System.Guid.Parse("f24f3b22-5725-4f94-bac8-4f8f5c522dfa"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCore => new ReferenceInfo("Microsoft.AspNetCore.dll", Resources.MicrosoftAspNetCore, AspNet90.References.MicrosoftAspNetCore, global::System.Guid.Parse("082b7f73-e12c-4efa-bb5a-41aa81fa9812"));
+        public static ReferenceInfo MicrosoftAspNetCore => new ReferenceInfo("Microsoft.AspNetCore.dll", Resources.MicrosoftAspNetCore, AspNet90.References.MicrosoftAspNetCore, global::System.Guid.Parse("d70c8a27-08e7-482b-a87d-24b13a4c1e53"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.HostFiltering.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHostFiltering => new ReferenceInfo("Microsoft.AspNetCore.HostFiltering.dll", Resources.MicrosoftAspNetCoreHostFiltering, AspNet90.References.MicrosoftAspNetCoreHostFiltering, global::System.Guid.Parse("1ee4a0fa-85cc-449a-bb9b-1c751c888c1a"));
+        public static ReferenceInfo MicrosoftAspNetCoreHostFiltering => new ReferenceInfo("Microsoft.AspNetCore.HostFiltering.dll", Resources.MicrosoftAspNetCoreHostFiltering, AspNet90.References.MicrosoftAspNetCoreHostFiltering, global::System.Guid.Parse("53869bb3-57b7-4f6b-8e99-798a755233ba"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Hosting.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHostingAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Hosting.Abstractions.dll", Resources.MicrosoftAspNetCoreHostingAbstractions, AspNet90.References.MicrosoftAspNetCoreHostingAbstractions, global::System.Guid.Parse("cb46ab99-7574-4220-819c-f394bb9863b9"));
+        public static ReferenceInfo MicrosoftAspNetCoreHostingAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Hosting.Abstractions.dll", Resources.MicrosoftAspNetCoreHostingAbstractions, AspNet90.References.MicrosoftAspNetCoreHostingAbstractions, global::System.Guid.Parse("2a614e81-642e-47ac-bb6c-877a9331048d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Hosting.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHosting => new ReferenceInfo("Microsoft.AspNetCore.Hosting.dll", Resources.MicrosoftAspNetCoreHosting, AspNet90.References.MicrosoftAspNetCoreHosting, global::System.Guid.Parse("e88c36e0-1f04-4d66-b686-ad2e3e35a3d3"));
+        public static ReferenceInfo MicrosoftAspNetCoreHosting => new ReferenceInfo("Microsoft.AspNetCore.Hosting.dll", Resources.MicrosoftAspNetCoreHosting, AspNet90.References.MicrosoftAspNetCoreHosting, global::System.Guid.Parse("34dabd2a-3a1b-425a-910b-494eb0e7f32f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHostingServerAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Hosting.Server.Abstractions.dll", Resources.MicrosoftAspNetCoreHostingServerAbstractions, AspNet90.References.MicrosoftAspNetCoreHostingServerAbstractions, global::System.Guid.Parse("ff3470b0-6c3a-4dcb-97fb-5d0f03605e9c"));
+        public static ReferenceInfo MicrosoftAspNetCoreHostingServerAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Hosting.Server.Abstractions.dll", Resources.MicrosoftAspNetCoreHostingServerAbstractions, AspNet90.References.MicrosoftAspNetCoreHostingServerAbstractions, global::System.Guid.Parse("c1fcc7d6-a9ef-4234-a994-aedaf870fabd"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Html.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHtmlAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Html.Abstractions.dll", Resources.MicrosoftAspNetCoreHtmlAbstractions, AspNet90.References.MicrosoftAspNetCoreHtmlAbstractions, global::System.Guid.Parse("de950f2d-0a87-440d-bed7-8cbcc9c9adff"));
+        public static ReferenceInfo MicrosoftAspNetCoreHtmlAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Html.Abstractions.dll", Resources.MicrosoftAspNetCoreHtmlAbstractions, AspNet90.References.MicrosoftAspNetCoreHtmlAbstractions, global::System.Guid.Parse("33930bc4-7f93-44e2-ac3b-825b9e22a93a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Http.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Http.Abstractions.dll", Resources.MicrosoftAspNetCoreHttpAbstractions, AspNet90.References.MicrosoftAspNetCoreHttpAbstractions, global::System.Guid.Parse("62d1bab1-11dc-48a7-aedd-3348fd8a53a6"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Http.Abstractions.dll", Resources.MicrosoftAspNetCoreHttpAbstractions, AspNet90.References.MicrosoftAspNetCoreHttpAbstractions, global::System.Guid.Parse("ffe2316f-f538-4e50-9f40-c7c4feb5727a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Http.Connections.Common.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpConnectionsCommon => new ReferenceInfo("Microsoft.AspNetCore.Http.Connections.Common.dll", Resources.MicrosoftAspNetCoreHttpConnectionsCommon, AspNet90.References.MicrosoftAspNetCoreHttpConnectionsCommon, global::System.Guid.Parse("45dc84ed-bd79-4562-9298-6b055fa12696"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpConnectionsCommon => new ReferenceInfo("Microsoft.AspNetCore.Http.Connections.Common.dll", Resources.MicrosoftAspNetCoreHttpConnectionsCommon, AspNet90.References.MicrosoftAspNetCoreHttpConnectionsCommon, global::System.Guid.Parse("b9a02481-aea5-4c14-9ca4-6c59db74d8ce"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Http.Connections.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpConnections => new ReferenceInfo("Microsoft.AspNetCore.Http.Connections.dll", Resources.MicrosoftAspNetCoreHttpConnections, AspNet90.References.MicrosoftAspNetCoreHttpConnections, global::System.Guid.Parse("1b1afcc4-55bc-4ff7-9003-f58b4a20b376"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpConnections => new ReferenceInfo("Microsoft.AspNetCore.Http.Connections.dll", Resources.MicrosoftAspNetCoreHttpConnections, AspNet90.References.MicrosoftAspNetCoreHttpConnections, global::System.Guid.Parse("7d762a34-0d1d-465f-8398-a54f0bb92b86"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Http.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttp => new ReferenceInfo("Microsoft.AspNetCore.Http.dll", Resources.MicrosoftAspNetCoreHttp, AspNet90.References.MicrosoftAspNetCoreHttp, global::System.Guid.Parse("643ca42f-38ff-4be5-b874-f4738b20aaa9"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttp => new ReferenceInfo("Microsoft.AspNetCore.Http.dll", Resources.MicrosoftAspNetCoreHttp, AspNet90.References.MicrosoftAspNetCoreHttp, global::System.Guid.Parse("8d0d8b4c-5c72-40ce-ba53-387718e8ef3d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Http.Extensions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpExtensions => new ReferenceInfo("Microsoft.AspNetCore.Http.Extensions.dll", Resources.MicrosoftAspNetCoreHttpExtensions, AspNet90.References.MicrosoftAspNetCoreHttpExtensions, global::System.Guid.Parse("42877fc2-a86f-4fff-8407-7c0e6fead95e"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpExtensions => new ReferenceInfo("Microsoft.AspNetCore.Http.Extensions.dll", Resources.MicrosoftAspNetCoreHttpExtensions, AspNet90.References.MicrosoftAspNetCoreHttpExtensions, global::System.Guid.Parse("35265184-a044-4c8e-963f-5874934ba4d3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Http.Features.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpFeatures => new ReferenceInfo("Microsoft.AspNetCore.Http.Features.dll", Resources.MicrosoftAspNetCoreHttpFeatures, AspNet90.References.MicrosoftAspNetCoreHttpFeatures, global::System.Guid.Parse("823c8fc7-e86b-4dba-9240-9f9201719a97"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpFeatures => new ReferenceInfo("Microsoft.AspNetCore.Http.Features.dll", Resources.MicrosoftAspNetCoreHttpFeatures, AspNet90.References.MicrosoftAspNetCoreHttpFeatures, global::System.Guid.Parse("1e867a4a-7f8e-4206-a118-db262297f3b7"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Http.Results.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpResults => new ReferenceInfo("Microsoft.AspNetCore.Http.Results.dll", Resources.MicrosoftAspNetCoreHttpResults, AspNet90.References.MicrosoftAspNetCoreHttpResults, global::System.Guid.Parse("b480e6fd-e61d-4462-952e-c3afbef435a6"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpResults => new ReferenceInfo("Microsoft.AspNetCore.Http.Results.dll", Resources.MicrosoftAspNetCoreHttpResults, AspNet90.References.MicrosoftAspNetCoreHttpResults, global::System.Guid.Parse("5e4cd12e-6842-406e-ac20-1ede5698a64e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.HttpLogging.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpLogging => new ReferenceInfo("Microsoft.AspNetCore.HttpLogging.dll", Resources.MicrosoftAspNetCoreHttpLogging, AspNet90.References.MicrosoftAspNetCoreHttpLogging, global::System.Guid.Parse("5e74de55-de5c-4685-ba3b-37fd4ea3066c"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpLogging => new ReferenceInfo("Microsoft.AspNetCore.HttpLogging.dll", Resources.MicrosoftAspNetCoreHttpLogging, AspNet90.References.MicrosoftAspNetCoreHttpLogging, global::System.Guid.Parse("2cde212b-4341-4c38-b6a0-00f0dded0a78"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.HttpOverrides.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpOverrides => new ReferenceInfo("Microsoft.AspNetCore.HttpOverrides.dll", Resources.MicrosoftAspNetCoreHttpOverrides, AspNet90.References.MicrosoftAspNetCoreHttpOverrides, global::System.Guid.Parse("052ecd68-0b09-4dbf-926d-b631e6f65d7d"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpOverrides => new ReferenceInfo("Microsoft.AspNetCore.HttpOverrides.dll", Resources.MicrosoftAspNetCoreHttpOverrides, AspNet90.References.MicrosoftAspNetCoreHttpOverrides, global::System.Guid.Parse("0468540b-2fa1-4c76-b3fc-915a57f2ead7"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.HttpsPolicy.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpsPolicy => new ReferenceInfo("Microsoft.AspNetCore.HttpsPolicy.dll", Resources.MicrosoftAspNetCoreHttpsPolicy, AspNet90.References.MicrosoftAspNetCoreHttpsPolicy, global::System.Guid.Parse("eed0b04f-253a-4c76-a362-6fd204efce79"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpsPolicy => new ReferenceInfo("Microsoft.AspNetCore.HttpsPolicy.dll", Resources.MicrosoftAspNetCoreHttpsPolicy, AspNet90.References.MicrosoftAspNetCoreHttpsPolicy, global::System.Guid.Parse("cada973c-b0e8-4585-86ab-146757ec9d13"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Identity.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreIdentity => new ReferenceInfo("Microsoft.AspNetCore.Identity.dll", Resources.MicrosoftAspNetCoreIdentity, AspNet90.References.MicrosoftAspNetCoreIdentity, global::System.Guid.Parse("f60b739f-d590-4b9e-9e5e-705404182100"));
+        public static ReferenceInfo MicrosoftAspNetCoreIdentity => new ReferenceInfo("Microsoft.AspNetCore.Identity.dll", Resources.MicrosoftAspNetCoreIdentity, AspNet90.References.MicrosoftAspNetCoreIdentity, global::System.Guid.Parse("f7e773b3-fdd2-4b39-aecd-d162299a5d53"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Localization.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreLocalization => new ReferenceInfo("Microsoft.AspNetCore.Localization.dll", Resources.MicrosoftAspNetCoreLocalization, AspNet90.References.MicrosoftAspNetCoreLocalization, global::System.Guid.Parse("6ba48bda-a245-4680-ad62-5420a1ef7d8c"));
+        public static ReferenceInfo MicrosoftAspNetCoreLocalization => new ReferenceInfo("Microsoft.AspNetCore.Localization.dll", Resources.MicrosoftAspNetCoreLocalization, AspNet90.References.MicrosoftAspNetCoreLocalization, global::System.Guid.Parse("3b2d7043-5b30-4c3e-ade6-b49c9ec02fcf"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Localization.Routing.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreLocalizationRouting => new ReferenceInfo("Microsoft.AspNetCore.Localization.Routing.dll", Resources.MicrosoftAspNetCoreLocalizationRouting, AspNet90.References.MicrosoftAspNetCoreLocalizationRouting, global::System.Guid.Parse("331a70c2-a56a-411d-a8b4-08bad0efd1c8"));
+        public static ReferenceInfo MicrosoftAspNetCoreLocalizationRouting => new ReferenceInfo("Microsoft.AspNetCore.Localization.Routing.dll", Resources.MicrosoftAspNetCoreLocalizationRouting, AspNet90.References.MicrosoftAspNetCoreLocalizationRouting, global::System.Guid.Parse("a31323a7-ba0f-44a8-8c46-a16d4b5cc938"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Metadata.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMetadata => new ReferenceInfo("Microsoft.AspNetCore.Metadata.dll", Resources.MicrosoftAspNetCoreMetadata, AspNet90.References.MicrosoftAspNetCoreMetadata, global::System.Guid.Parse("2efb077f-1276-43ca-8082-d90b1e47d268"));
+        public static ReferenceInfo MicrosoftAspNetCoreMetadata => new ReferenceInfo("Microsoft.AspNetCore.Metadata.dll", Resources.MicrosoftAspNetCoreMetadata, AspNet90.References.MicrosoftAspNetCoreMetadata, global::System.Guid.Parse("13c8adc0-373f-45c7-9577-3b65c3e8cff3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Abstractions.dll", Resources.MicrosoftAspNetCoreMvcAbstractions, AspNet90.References.MicrosoftAspNetCoreMvcAbstractions, global::System.Guid.Parse("cd7459b6-945d-4ce6-ad71-83e91b3fc56c"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Abstractions.dll", Resources.MicrosoftAspNetCoreMvcAbstractions, AspNet90.References.MicrosoftAspNetCoreMvcAbstractions, global::System.Guid.Parse("311c256f-eab9-4083-a8d9-0a616729f938"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.ApiExplorer.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcApiExplorer => new ReferenceInfo("Microsoft.AspNetCore.Mvc.ApiExplorer.dll", Resources.MicrosoftAspNetCoreMvcApiExplorer, AspNet90.References.MicrosoftAspNetCoreMvcApiExplorer, global::System.Guid.Parse("81875d3f-7ddc-406d-bc19-6589d868b38c"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcApiExplorer => new ReferenceInfo("Microsoft.AspNetCore.Mvc.ApiExplorer.dll", Resources.MicrosoftAspNetCoreMvcApiExplorer, AspNet90.References.MicrosoftAspNetCoreMvcApiExplorer, global::System.Guid.Parse("7556fa32-0cf0-46f7-972f-686cd3b3072c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.Core.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcCore => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Core.dll", Resources.MicrosoftAspNetCoreMvcCore, AspNet90.References.MicrosoftAspNetCoreMvcCore, global::System.Guid.Parse("528fa28b-6150-498c-b246-743da2dbe2f1"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcCore => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Core.dll", Resources.MicrosoftAspNetCoreMvcCore, AspNet90.References.MicrosoftAspNetCoreMvcCore, global::System.Guid.Parse("91a77de7-f65f-459e-a135-487f07db34fe"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.Cors.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcCors => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Cors.dll", Resources.MicrosoftAspNetCoreMvcCors, AspNet90.References.MicrosoftAspNetCoreMvcCors, global::System.Guid.Parse("fb87c09c-fc48-41ba-87c0-a3657e4fe749"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcCors => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Cors.dll", Resources.MicrosoftAspNetCoreMvcCors, AspNet90.References.MicrosoftAspNetCoreMvcCors, global::System.Guid.Parse("063c70dd-7e2e-47b0-b49f-e87f792a3df4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.DataAnnotations.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcDataAnnotations => new ReferenceInfo("Microsoft.AspNetCore.Mvc.DataAnnotations.dll", Resources.MicrosoftAspNetCoreMvcDataAnnotations, AspNet90.References.MicrosoftAspNetCoreMvcDataAnnotations, global::System.Guid.Parse("5520e727-8ebe-4887-934f-7e2dfe4b0b66"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcDataAnnotations => new ReferenceInfo("Microsoft.AspNetCore.Mvc.DataAnnotations.dll", Resources.MicrosoftAspNetCoreMvcDataAnnotations, AspNet90.References.MicrosoftAspNetCoreMvcDataAnnotations, global::System.Guid.Parse("f4f8ba0a-7939-46c5-9ef1-0b697300fb99"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvc => new ReferenceInfo("Microsoft.AspNetCore.Mvc.dll", Resources.MicrosoftAspNetCoreMvc, AspNet90.References.MicrosoftAspNetCoreMvc, global::System.Guid.Parse("5ce6e93f-f889-4610-b950-c3e0571c1e68"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvc => new ReferenceInfo("Microsoft.AspNetCore.Mvc.dll", Resources.MicrosoftAspNetCoreMvc, AspNet90.References.MicrosoftAspNetCoreMvc, global::System.Guid.Parse("66ddecde-29b5-46ce-9874-245a160c27ae"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.Formatters.Json.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcFormattersJson => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Formatters.Json.dll", Resources.MicrosoftAspNetCoreMvcFormattersJson, AspNet90.References.MicrosoftAspNetCoreMvcFormattersJson, global::System.Guid.Parse("f68f76dd-91a8-4398-86d9-06b8eff291cb"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcFormattersJson => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Formatters.Json.dll", Resources.MicrosoftAspNetCoreMvcFormattersJson, AspNet90.References.MicrosoftAspNetCoreMvcFormattersJson, global::System.Guid.Parse("d52d4074-046f-47a7-8dfb-d1a7f2bff84f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcFormattersXml => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Formatters.Xml.dll", Resources.MicrosoftAspNetCoreMvcFormattersXml, AspNet90.References.MicrosoftAspNetCoreMvcFormattersXml, global::System.Guid.Parse("a3a7e1b2-5f57-4344-b594-70435a37f66c"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcFormattersXml => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Formatters.Xml.dll", Resources.MicrosoftAspNetCoreMvcFormattersXml, AspNet90.References.MicrosoftAspNetCoreMvcFormattersXml, global::System.Guid.Parse("254f210d-609a-418f-8a11-6d37315bf44f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.Localization.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcLocalization => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Localization.dll", Resources.MicrosoftAspNetCoreMvcLocalization, AspNet90.References.MicrosoftAspNetCoreMvcLocalization, global::System.Guid.Parse("c8a6eacf-b0bc-438b-a02f-b2c3827fbd6e"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcLocalization => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Localization.dll", Resources.MicrosoftAspNetCoreMvcLocalization, AspNet90.References.MicrosoftAspNetCoreMvcLocalization, global::System.Guid.Parse("93abf05b-4264-4d67-a163-63f5e3063436"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.Razor.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcRazor => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Razor.dll", Resources.MicrosoftAspNetCoreMvcRazor, AspNet90.References.MicrosoftAspNetCoreMvcRazor, global::System.Guid.Parse("44ba718c-111f-44c8-aef8-52114b9a9b17"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcRazor => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Razor.dll", Resources.MicrosoftAspNetCoreMvcRazor, AspNet90.References.MicrosoftAspNetCoreMvcRazor, global::System.Guid.Parse("aeb6a59f-0162-4488-b04b-f8e74aa71f1e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.RazorPages.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcRazorPages => new ReferenceInfo("Microsoft.AspNetCore.Mvc.RazorPages.dll", Resources.MicrosoftAspNetCoreMvcRazorPages, AspNet90.References.MicrosoftAspNetCoreMvcRazorPages, global::System.Guid.Parse("dde1383e-f0c4-4b03-b5d7-f456be9e4aa3"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcRazorPages => new ReferenceInfo("Microsoft.AspNetCore.Mvc.RazorPages.dll", Resources.MicrosoftAspNetCoreMvcRazorPages, AspNet90.References.MicrosoftAspNetCoreMvcRazorPages, global::System.Guid.Parse("3d61c600-feed-4918-ad8f-c7b3d7cf1351"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.TagHelpers.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcTagHelpers => new ReferenceInfo("Microsoft.AspNetCore.Mvc.TagHelpers.dll", Resources.MicrosoftAspNetCoreMvcTagHelpers, AspNet90.References.MicrosoftAspNetCoreMvcTagHelpers, global::System.Guid.Parse("c8872a40-268e-4b81-92e2-eedd0dbfd58d"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcTagHelpers => new ReferenceInfo("Microsoft.AspNetCore.Mvc.TagHelpers.dll", Resources.MicrosoftAspNetCoreMvcTagHelpers, AspNet90.References.MicrosoftAspNetCoreMvcTagHelpers, global::System.Guid.Parse("5d8cf858-19de-4a57-b46c-a30931827d8b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.ViewFeatures.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcViewFeatures => new ReferenceInfo("Microsoft.AspNetCore.Mvc.ViewFeatures.dll", Resources.MicrosoftAspNetCoreMvcViewFeatures, AspNet90.References.MicrosoftAspNetCoreMvcViewFeatures, global::System.Guid.Parse("0618c720-5b50-430e-bcd4-ed5eb5033704"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcViewFeatures => new ReferenceInfo("Microsoft.AspNetCore.Mvc.ViewFeatures.dll", Resources.MicrosoftAspNetCoreMvcViewFeatures, AspNet90.References.MicrosoftAspNetCoreMvcViewFeatures, global::System.Guid.Parse("5ad6d1d2-30da-49d6-95e3-29f87bb49d15"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.OutputCaching.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreOutputCaching => new ReferenceInfo("Microsoft.AspNetCore.OutputCaching.dll", Resources.MicrosoftAspNetCoreOutputCaching, AspNet90.References.MicrosoftAspNetCoreOutputCaching, global::System.Guid.Parse("4cef4463-5f07-4f71-b20b-41cf83669d7c"));
+        public static ReferenceInfo MicrosoftAspNetCoreOutputCaching => new ReferenceInfo("Microsoft.AspNetCore.OutputCaching.dll", Resources.MicrosoftAspNetCoreOutputCaching, AspNet90.References.MicrosoftAspNetCoreOutputCaching, global::System.Guid.Parse("d0dbb4e2-837d-4eb5-a9c5-ef83927ac276"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.RateLimiting.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreRateLimiting => new ReferenceInfo("Microsoft.AspNetCore.RateLimiting.dll", Resources.MicrosoftAspNetCoreRateLimiting, AspNet90.References.MicrosoftAspNetCoreRateLimiting, global::System.Guid.Parse("c22a8e1b-8d5c-4e85-8b7b-a0c1d17f1e49"));
+        public static ReferenceInfo MicrosoftAspNetCoreRateLimiting => new ReferenceInfo("Microsoft.AspNetCore.RateLimiting.dll", Resources.MicrosoftAspNetCoreRateLimiting, AspNet90.References.MicrosoftAspNetCoreRateLimiting, global::System.Guid.Parse("56e0431c-a26e-4933-aa35-485a3dd4e770"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Razor.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreRazor => new ReferenceInfo("Microsoft.AspNetCore.Razor.dll", Resources.MicrosoftAspNetCoreRazor, AspNet90.References.MicrosoftAspNetCoreRazor, global::System.Guid.Parse("b3eeb307-a9e9-4a26-85f3-beff9f310c82"));
+        public static ReferenceInfo MicrosoftAspNetCoreRazor => new ReferenceInfo("Microsoft.AspNetCore.Razor.dll", Resources.MicrosoftAspNetCoreRazor, AspNet90.References.MicrosoftAspNetCoreRazor, global::System.Guid.Parse("21572127-c651-40a9-826b-a91538e9b928"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Razor.Runtime.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreRazorRuntime => new ReferenceInfo("Microsoft.AspNetCore.Razor.Runtime.dll", Resources.MicrosoftAspNetCoreRazorRuntime, AspNet90.References.MicrosoftAspNetCoreRazorRuntime, global::System.Guid.Parse("bc94a623-015f-4ba3-8108-a1e5e9c9f4d8"));
+        public static ReferenceInfo MicrosoftAspNetCoreRazorRuntime => new ReferenceInfo("Microsoft.AspNetCore.Razor.Runtime.dll", Resources.MicrosoftAspNetCoreRazorRuntime, AspNet90.References.MicrosoftAspNetCoreRazorRuntime, global::System.Guid.Parse("e99e7764-30f5-4071-b377-ccadb6024090"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.RequestDecompression.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreRequestDecompression => new ReferenceInfo("Microsoft.AspNetCore.RequestDecompression.dll", Resources.MicrosoftAspNetCoreRequestDecompression, AspNet90.References.MicrosoftAspNetCoreRequestDecompression, global::System.Guid.Parse("99313e83-ac8d-4134-89de-9df89468e08e"));
+        public static ReferenceInfo MicrosoftAspNetCoreRequestDecompression => new ReferenceInfo("Microsoft.AspNetCore.RequestDecompression.dll", Resources.MicrosoftAspNetCoreRequestDecompression, AspNet90.References.MicrosoftAspNetCoreRequestDecompression, global::System.Guid.Parse("14c25fdc-4ce8-497a-adcd-a1ccf3b79b94"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreResponseCachingAbstractions => new ReferenceInfo("Microsoft.AspNetCore.ResponseCaching.Abstractions.dll", Resources.MicrosoftAspNetCoreResponseCachingAbstractions, AspNet90.References.MicrosoftAspNetCoreResponseCachingAbstractions, global::System.Guid.Parse("60ad78c9-5bbc-42eb-b4af-2c364bf45aa2"));
+        public static ReferenceInfo MicrosoftAspNetCoreResponseCachingAbstractions => new ReferenceInfo("Microsoft.AspNetCore.ResponseCaching.Abstractions.dll", Resources.MicrosoftAspNetCoreResponseCachingAbstractions, AspNet90.References.MicrosoftAspNetCoreResponseCachingAbstractions, global::System.Guid.Parse("ff7e1a51-3699-4bc1-b6e2-c9ec3f51ee62"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.ResponseCaching.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreResponseCaching => new ReferenceInfo("Microsoft.AspNetCore.ResponseCaching.dll", Resources.MicrosoftAspNetCoreResponseCaching, AspNet90.References.MicrosoftAspNetCoreResponseCaching, global::System.Guid.Parse("7e9409ee-fb39-4c73-998b-6282d895a336"));
+        public static ReferenceInfo MicrosoftAspNetCoreResponseCaching => new ReferenceInfo("Microsoft.AspNetCore.ResponseCaching.dll", Resources.MicrosoftAspNetCoreResponseCaching, AspNet90.References.MicrosoftAspNetCoreResponseCaching, global::System.Guid.Parse("2c258031-4b33-49ea-92b4-958989d46d86"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.ResponseCompression.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreResponseCompression => new ReferenceInfo("Microsoft.AspNetCore.ResponseCompression.dll", Resources.MicrosoftAspNetCoreResponseCompression, AspNet90.References.MicrosoftAspNetCoreResponseCompression, global::System.Guid.Parse("7a53ff58-56f7-4a0f-8e33-556f774d567e"));
+        public static ReferenceInfo MicrosoftAspNetCoreResponseCompression => new ReferenceInfo("Microsoft.AspNetCore.ResponseCompression.dll", Resources.MicrosoftAspNetCoreResponseCompression, AspNet90.References.MicrosoftAspNetCoreResponseCompression, global::System.Guid.Parse("12212e6c-e087-4a28-bc32-ac2e73f8477e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Rewrite.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreRewrite => new ReferenceInfo("Microsoft.AspNetCore.Rewrite.dll", Resources.MicrosoftAspNetCoreRewrite, AspNet90.References.MicrosoftAspNetCoreRewrite, global::System.Guid.Parse("8fc98857-e363-426b-ba3e-784aae9a5e6d"));
+        public static ReferenceInfo MicrosoftAspNetCoreRewrite => new ReferenceInfo("Microsoft.AspNetCore.Rewrite.dll", Resources.MicrosoftAspNetCoreRewrite, AspNet90.References.MicrosoftAspNetCoreRewrite, global::System.Guid.Parse("57d1e825-6967-407f-add4-fd7bce00962f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Routing.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreRoutingAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Routing.Abstractions.dll", Resources.MicrosoftAspNetCoreRoutingAbstractions, AspNet90.References.MicrosoftAspNetCoreRoutingAbstractions, global::System.Guid.Parse("60879e38-9a85-4cff-a008-d428a94e4417"));
+        public static ReferenceInfo MicrosoftAspNetCoreRoutingAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Routing.Abstractions.dll", Resources.MicrosoftAspNetCoreRoutingAbstractions, AspNet90.References.MicrosoftAspNetCoreRoutingAbstractions, global::System.Guid.Parse("6999d779-bd46-4257-8e96-b249901eba26"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Routing.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreRouting => new ReferenceInfo("Microsoft.AspNetCore.Routing.dll", Resources.MicrosoftAspNetCoreRouting, AspNet90.References.MicrosoftAspNetCoreRouting, global::System.Guid.Parse("10f0859d-5839-40d5-a10f-58f08b2b05c6"));
+        public static ReferenceInfo MicrosoftAspNetCoreRouting => new ReferenceInfo("Microsoft.AspNetCore.Routing.dll", Resources.MicrosoftAspNetCoreRouting, AspNet90.References.MicrosoftAspNetCoreRouting, global::System.Guid.Parse("4ed87c45-892b-4452-8815-af8744c19b96"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.HttpSys.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerHttpSys => new ReferenceInfo("Microsoft.AspNetCore.Server.HttpSys.dll", Resources.MicrosoftAspNetCoreServerHttpSys, AspNet90.References.MicrosoftAspNetCoreServerHttpSys, global::System.Guid.Parse("842595aa-2611-4542-8e79-a5857c42e2d3"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerHttpSys => new ReferenceInfo("Microsoft.AspNetCore.Server.HttpSys.dll", Resources.MicrosoftAspNetCoreServerHttpSys, AspNet90.References.MicrosoftAspNetCoreServerHttpSys, global::System.Guid.Parse("a3cdfbd5-93d3-441d-a7b9-2288229398c6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.IIS.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerIIS => new ReferenceInfo("Microsoft.AspNetCore.Server.IIS.dll", Resources.MicrosoftAspNetCoreServerIIS, AspNet90.References.MicrosoftAspNetCoreServerIIS, global::System.Guid.Parse("d8531a56-e736-45b6-b80f-8a0a3b026e7e"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerIIS => new ReferenceInfo("Microsoft.AspNetCore.Server.IIS.dll", Resources.MicrosoftAspNetCoreServerIIS, AspNet90.References.MicrosoftAspNetCoreServerIIS, global::System.Guid.Parse("5c3a0012-39f1-4368-be56-89fc6ab21402"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.IISIntegration.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerIISIntegration => new ReferenceInfo("Microsoft.AspNetCore.Server.IISIntegration.dll", Resources.MicrosoftAspNetCoreServerIISIntegration, AspNet90.References.MicrosoftAspNetCoreServerIISIntegration, global::System.Guid.Parse("f97a0a9a-e5bb-4a28-899b-49ee9327f938"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerIISIntegration => new ReferenceInfo("Microsoft.AspNetCore.Server.IISIntegration.dll", Resources.MicrosoftAspNetCoreServerIISIntegration, AspNet90.References.MicrosoftAspNetCoreServerIISIntegration, global::System.Guid.Parse("5003fced-d9df-445d-916b-16ca655f45a4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.Kestrel.Core.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelCore => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Core.dll", Resources.MicrosoftAspNetCoreServerKestrelCore, AspNet90.References.MicrosoftAspNetCoreServerKestrelCore, global::System.Guid.Parse("2d7d4a50-dc0b-4016-86e8-3a25bcf3b652"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelCore => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Core.dll", Resources.MicrosoftAspNetCoreServerKestrelCore, AspNet90.References.MicrosoftAspNetCoreServerKestrelCore, global::System.Guid.Parse("a66916f2-ab5a-485e-9a38-d39a553c560a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.Kestrel.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerKestrel => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.dll", Resources.MicrosoftAspNetCoreServerKestrel, AspNet90.References.MicrosoftAspNetCoreServerKestrel, global::System.Guid.Parse("8ee2d8d8-9975-47ca-a3f3-88a948aac5f7"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerKestrel => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.dll", Resources.MicrosoftAspNetCoreServerKestrel, AspNet90.References.MicrosoftAspNetCoreServerKestrel, global::System.Guid.Parse("a4be7e38-1e75-4c61-984b-728dadf18ce9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelTransportNamedPipes => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll", Resources.MicrosoftAspNetCoreServerKestrelTransportNamedPipes, AspNet90.References.MicrosoftAspNetCoreServerKestrelTransportNamedPipes, global::System.Guid.Parse("44d2ebbc-a97b-4e23-a474-e77f6fbcaf57"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelTransportNamedPipes => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll", Resources.MicrosoftAspNetCoreServerKestrelTransportNamedPipes, AspNet90.References.MicrosoftAspNetCoreServerKestrelTransportNamedPipes, global::System.Guid.Parse("27cff47b-8364-4730-abfb-5ec2d35b6f3b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelTransportQuic => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll", Resources.MicrosoftAspNetCoreServerKestrelTransportQuic, AspNet90.References.MicrosoftAspNetCoreServerKestrelTransportQuic, global::System.Guid.Parse("26592b8d-804a-4419-844e-3307f94098df"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelTransportQuic => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll", Resources.MicrosoftAspNetCoreServerKestrelTransportQuic, AspNet90.References.MicrosoftAspNetCoreServerKestrelTransportQuic, global::System.Guid.Parse("591e8fa2-4bc6-4394-b341-79b3a3936969"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelTransportSockets => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll", Resources.MicrosoftAspNetCoreServerKestrelTransportSockets, AspNet90.References.MicrosoftAspNetCoreServerKestrelTransportSockets, global::System.Guid.Parse("5ed0a8c8-e28a-4c94-bed6-4a6c632276e4"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelTransportSockets => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll", Resources.MicrosoftAspNetCoreServerKestrelTransportSockets, AspNet90.References.MicrosoftAspNetCoreServerKestrelTransportSockets, global::System.Guid.Parse("36f6e58f-324d-4650-b069-af8219274fb9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Session.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreSession => new ReferenceInfo("Microsoft.AspNetCore.Session.dll", Resources.MicrosoftAspNetCoreSession, AspNet90.References.MicrosoftAspNetCoreSession, global::System.Guid.Parse("51e91bce-f0a4-464c-a129-5830a8f4cac9"));
+        public static ReferenceInfo MicrosoftAspNetCoreSession => new ReferenceInfo("Microsoft.AspNetCore.Session.dll", Resources.MicrosoftAspNetCoreSession, AspNet90.References.MicrosoftAspNetCoreSession, global::System.Guid.Parse("2fe4e680-438c-4fc3-876d-7fbd48b50326"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.SignalR.Common.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreSignalRCommon => new ReferenceInfo("Microsoft.AspNetCore.SignalR.Common.dll", Resources.MicrosoftAspNetCoreSignalRCommon, AspNet90.References.MicrosoftAspNetCoreSignalRCommon, global::System.Guid.Parse("f58f3691-770c-4ad3-b04d-a5e120c71dd9"));
+        public static ReferenceInfo MicrosoftAspNetCoreSignalRCommon => new ReferenceInfo("Microsoft.AspNetCore.SignalR.Common.dll", Resources.MicrosoftAspNetCoreSignalRCommon, AspNet90.References.MicrosoftAspNetCoreSignalRCommon, global::System.Guid.Parse("c32b1f95-f6ac-48d2-afc6-9316c35eb2ce"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.SignalR.Core.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreSignalRCore => new ReferenceInfo("Microsoft.AspNetCore.SignalR.Core.dll", Resources.MicrosoftAspNetCoreSignalRCore, AspNet90.References.MicrosoftAspNetCoreSignalRCore, global::System.Guid.Parse("cdef1bbb-37af-4946-823f-84fec587b25d"));
+        public static ReferenceInfo MicrosoftAspNetCoreSignalRCore => new ReferenceInfo("Microsoft.AspNetCore.SignalR.Core.dll", Resources.MicrosoftAspNetCoreSignalRCore, AspNet90.References.MicrosoftAspNetCoreSignalRCore, global::System.Guid.Parse("98278895-6731-4313-9efb-76e0a44eef24"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.SignalR.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreSignalR => new ReferenceInfo("Microsoft.AspNetCore.SignalR.dll", Resources.MicrosoftAspNetCoreSignalR, AspNet90.References.MicrosoftAspNetCoreSignalR, global::System.Guid.Parse("f15ab593-b20e-4c37-aa97-ea8c42150c2f"));
+        public static ReferenceInfo MicrosoftAspNetCoreSignalR => new ReferenceInfo("Microsoft.AspNetCore.SignalR.dll", Resources.MicrosoftAspNetCoreSignalR, AspNet90.References.MicrosoftAspNetCoreSignalR, global::System.Guid.Parse("b8989c7a-67da-4d7a-8a15-b7877d3eae78"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.SignalR.Protocols.Json.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreSignalRProtocolsJson => new ReferenceInfo("Microsoft.AspNetCore.SignalR.Protocols.Json.dll", Resources.MicrosoftAspNetCoreSignalRProtocolsJson, AspNet90.References.MicrosoftAspNetCoreSignalRProtocolsJson, global::System.Guid.Parse("34ffc7fe-fa3e-43c7-9dcc-d489f3560a40"));
+        public static ReferenceInfo MicrosoftAspNetCoreSignalRProtocolsJson => new ReferenceInfo("Microsoft.AspNetCore.SignalR.Protocols.Json.dll", Resources.MicrosoftAspNetCoreSignalRProtocolsJson, AspNet90.References.MicrosoftAspNetCoreSignalRProtocolsJson, global::System.Guid.Parse("3e7447b7-66ee-408d-9d89-0d31b0f8756b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.StaticAssets.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreStaticAssets => new ReferenceInfo("Microsoft.AspNetCore.StaticAssets.dll", Resources.MicrosoftAspNetCoreStaticAssets, AspNet90.References.MicrosoftAspNetCoreStaticAssets, global::System.Guid.Parse("33924162-5c78-46cd-afc5-e65d632394e8"));
+        public static ReferenceInfo MicrosoftAspNetCoreStaticAssets => new ReferenceInfo("Microsoft.AspNetCore.StaticAssets.dll", Resources.MicrosoftAspNetCoreStaticAssets, AspNet90.References.MicrosoftAspNetCoreStaticAssets, global::System.Guid.Parse("4d44a40b-ab9a-4420-aa79-b2b347c25c83"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.StaticFiles.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreStaticFiles => new ReferenceInfo("Microsoft.AspNetCore.StaticFiles.dll", Resources.MicrosoftAspNetCoreStaticFiles, AspNet90.References.MicrosoftAspNetCoreStaticFiles, global::System.Guid.Parse("7df0180e-f0c1-4b2f-a056-5638921eaf61"));
+        public static ReferenceInfo MicrosoftAspNetCoreStaticFiles => new ReferenceInfo("Microsoft.AspNetCore.StaticFiles.dll", Resources.MicrosoftAspNetCoreStaticFiles, AspNet90.References.MicrosoftAspNetCoreStaticFiles, global::System.Guid.Parse("ce279e9e-d8db-433f-bee6-bdcc11fb8b0f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.WebSockets.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreWebSockets => new ReferenceInfo("Microsoft.AspNetCore.WebSockets.dll", Resources.MicrosoftAspNetCoreWebSockets, AspNet90.References.MicrosoftAspNetCoreWebSockets, global::System.Guid.Parse("e792c9b7-1b13-42e8-93c5-c5398b59d8ba"));
+        public static ReferenceInfo MicrosoftAspNetCoreWebSockets => new ReferenceInfo("Microsoft.AspNetCore.WebSockets.dll", Resources.MicrosoftAspNetCoreWebSockets, AspNet90.References.MicrosoftAspNetCoreWebSockets, global::System.Guid.Parse("9a9a164f-e2ea-4765-86f6-a9e0aa562ef1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.WebUtilities.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreWebUtilities => new ReferenceInfo("Microsoft.AspNetCore.WebUtilities.dll", Resources.MicrosoftAspNetCoreWebUtilities, AspNet90.References.MicrosoftAspNetCoreWebUtilities, global::System.Guid.Parse("681d2e5d-8296-42c3-bdc4-ddfa027a549b"));
+        public static ReferenceInfo MicrosoftAspNetCoreWebUtilities => new ReferenceInfo("Microsoft.AspNetCore.WebUtilities.dll", Resources.MicrosoftAspNetCoreWebUtilities, AspNet90.References.MicrosoftAspNetCoreWebUtilities, global::System.Guid.Parse("8f96fed7-b61a-4ad3-b57e-380d95aea772"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Caching.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsCachingAbstractions => new ReferenceInfo("Microsoft.Extensions.Caching.Abstractions.dll", Resources.MicrosoftExtensionsCachingAbstractions, AspNet90.References.MicrosoftExtensionsCachingAbstractions, global::System.Guid.Parse("df43284f-2857-4ac0-a7c9-51468cc22bb7"));
+        public static ReferenceInfo MicrosoftExtensionsCachingAbstractions => new ReferenceInfo("Microsoft.Extensions.Caching.Abstractions.dll", Resources.MicrosoftExtensionsCachingAbstractions, AspNet90.References.MicrosoftExtensionsCachingAbstractions, global::System.Guid.Parse("a577842b-84df-4e3f-913a-00cdcd5a4173"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Caching.Memory.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsCachingMemory => new ReferenceInfo("Microsoft.Extensions.Caching.Memory.dll", Resources.MicrosoftExtensionsCachingMemory, AspNet90.References.MicrosoftExtensionsCachingMemory, global::System.Guid.Parse("0c2f8ba9-589e-4668-b951-e8335f64eeb5"));
+        public static ReferenceInfo MicrosoftExtensionsCachingMemory => new ReferenceInfo("Microsoft.Extensions.Caching.Memory.dll", Resources.MicrosoftExtensionsCachingMemory, AspNet90.References.MicrosoftExtensionsCachingMemory, global::System.Guid.Parse("5b92b657-a1f9-499c-a34e-1a9e71255d87"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationAbstractions => new ReferenceInfo("Microsoft.Extensions.Configuration.Abstractions.dll", Resources.MicrosoftExtensionsConfigurationAbstractions, AspNet90.References.MicrosoftExtensionsConfigurationAbstractions, global::System.Guid.Parse("6d90eaeb-e5bd-4975-8fa6-2e017b6a49a2"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationAbstractions => new ReferenceInfo("Microsoft.Extensions.Configuration.Abstractions.dll", Resources.MicrosoftExtensionsConfigurationAbstractions, AspNet90.References.MicrosoftExtensionsConfigurationAbstractions, global::System.Guid.Parse("dd716b87-e55f-4db6-8fbf-03d105057dd4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.Binder.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationBinder => new ReferenceInfo("Microsoft.Extensions.Configuration.Binder.dll", Resources.MicrosoftExtensionsConfigurationBinder, AspNet90.References.MicrosoftExtensionsConfigurationBinder, global::System.Guid.Parse("ccb02556-a496-4438-b45a-052a4593ea87"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationBinder => new ReferenceInfo("Microsoft.Extensions.Configuration.Binder.dll", Resources.MicrosoftExtensionsConfigurationBinder, AspNet90.References.MicrosoftExtensionsConfigurationBinder, global::System.Guid.Parse("3e9b24ae-3ac5-40aa-bf46-fe2de5bd4f43"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.CommandLine.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationCommandLine => new ReferenceInfo("Microsoft.Extensions.Configuration.CommandLine.dll", Resources.MicrosoftExtensionsConfigurationCommandLine, AspNet90.References.MicrosoftExtensionsConfigurationCommandLine, global::System.Guid.Parse("1c396046-5925-42b8-a446-08ecfdb515df"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationCommandLine => new ReferenceInfo("Microsoft.Extensions.Configuration.CommandLine.dll", Resources.MicrosoftExtensionsConfigurationCommandLine, AspNet90.References.MicrosoftExtensionsConfigurationCommandLine, global::System.Guid.Parse("f37fd659-ac96-489b-b959-4241c65619c8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfiguration => new ReferenceInfo("Microsoft.Extensions.Configuration.dll", Resources.MicrosoftExtensionsConfiguration, AspNet90.References.MicrosoftExtensionsConfiguration, global::System.Guid.Parse("d86b3b4c-cfd1-4f18-980c-6c80586fac80"));
+        public static ReferenceInfo MicrosoftExtensionsConfiguration => new ReferenceInfo("Microsoft.Extensions.Configuration.dll", Resources.MicrosoftExtensionsConfiguration, AspNet90.References.MicrosoftExtensionsConfiguration, global::System.Guid.Parse("6cab1fa8-5cb4-47f2-bfc9-095baa1e199e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.EnvironmentVariables.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationEnvironmentVariables => new ReferenceInfo("Microsoft.Extensions.Configuration.EnvironmentVariables.dll", Resources.MicrosoftExtensionsConfigurationEnvironmentVariables, AspNet90.References.MicrosoftExtensionsConfigurationEnvironmentVariables, global::System.Guid.Parse("90a82322-0884-4651-b5d8-65758e8d75d7"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationEnvironmentVariables => new ReferenceInfo("Microsoft.Extensions.Configuration.EnvironmentVariables.dll", Resources.MicrosoftExtensionsConfigurationEnvironmentVariables, AspNet90.References.MicrosoftExtensionsConfigurationEnvironmentVariables, global::System.Guid.Parse("d04432c9-417f-4f58-8fa6-8c7dea43eee9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.FileExtensions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationFileExtensions => new ReferenceInfo("Microsoft.Extensions.Configuration.FileExtensions.dll", Resources.MicrosoftExtensionsConfigurationFileExtensions, AspNet90.References.MicrosoftExtensionsConfigurationFileExtensions, global::System.Guid.Parse("8596b6bb-5689-49ec-92e2-11cbac4727dc"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationFileExtensions => new ReferenceInfo("Microsoft.Extensions.Configuration.FileExtensions.dll", Resources.MicrosoftExtensionsConfigurationFileExtensions, AspNet90.References.MicrosoftExtensionsConfigurationFileExtensions, global::System.Guid.Parse("be6843ac-b2a7-4261-8075-b27dacee9ef5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.Ini.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationIni => new ReferenceInfo("Microsoft.Extensions.Configuration.Ini.dll", Resources.MicrosoftExtensionsConfigurationIni, AspNet90.References.MicrosoftExtensionsConfigurationIni, global::System.Guid.Parse("df181e52-335b-4e8d-88a5-9e25a8fe9eab"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationIni => new ReferenceInfo("Microsoft.Extensions.Configuration.Ini.dll", Resources.MicrosoftExtensionsConfigurationIni, AspNet90.References.MicrosoftExtensionsConfigurationIni, global::System.Guid.Parse("a9658345-aa10-40c7-a42f-d7b3495fa495"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.Json.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationJson => new ReferenceInfo("Microsoft.Extensions.Configuration.Json.dll", Resources.MicrosoftExtensionsConfigurationJson, AspNet90.References.MicrosoftExtensionsConfigurationJson, global::System.Guid.Parse("a9842abd-60ce-4c67-aea7-f0387bd35c82"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationJson => new ReferenceInfo("Microsoft.Extensions.Configuration.Json.dll", Resources.MicrosoftExtensionsConfigurationJson, AspNet90.References.MicrosoftExtensionsConfigurationJson, global::System.Guid.Parse("2762b4f4-a091-4bb6-8959-ef51473322f6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.KeyPerFile.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationKeyPerFile => new ReferenceInfo("Microsoft.Extensions.Configuration.KeyPerFile.dll", Resources.MicrosoftExtensionsConfigurationKeyPerFile, AspNet90.References.MicrosoftExtensionsConfigurationKeyPerFile, global::System.Guid.Parse("4b6a4bb4-b35c-4482-9f95-788b386e6e56"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationKeyPerFile => new ReferenceInfo("Microsoft.Extensions.Configuration.KeyPerFile.dll", Resources.MicrosoftExtensionsConfigurationKeyPerFile, AspNet90.References.MicrosoftExtensionsConfigurationKeyPerFile, global::System.Guid.Parse("c5864c01-2c66-48a8-8f96-f55c69446699"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.UserSecrets.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationUserSecrets => new ReferenceInfo("Microsoft.Extensions.Configuration.UserSecrets.dll", Resources.MicrosoftExtensionsConfigurationUserSecrets, AspNet90.References.MicrosoftExtensionsConfigurationUserSecrets, global::System.Guid.Parse("ea4f5f0a-3b8b-4cef-8422-10c6c67339e0"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationUserSecrets => new ReferenceInfo("Microsoft.Extensions.Configuration.UserSecrets.dll", Resources.MicrosoftExtensionsConfigurationUserSecrets, AspNet90.References.MicrosoftExtensionsConfigurationUserSecrets, global::System.Guid.Parse("269765e6-1a2c-4b5d-a816-ec697499b867"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.Xml.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationXml => new ReferenceInfo("Microsoft.Extensions.Configuration.Xml.dll", Resources.MicrosoftExtensionsConfigurationXml, AspNet90.References.MicrosoftExtensionsConfigurationXml, global::System.Guid.Parse("33e346d7-c890-4a69-9c79-3b901907afd1"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationXml => new ReferenceInfo("Microsoft.Extensions.Configuration.Xml.dll", Resources.MicrosoftExtensionsConfigurationXml, AspNet90.References.MicrosoftExtensionsConfigurationXml, global::System.Guid.Parse("22b03b43-72ca-491d-bcce-5b1b47a0020f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.DependencyInjection.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsDependencyInjectionAbstractions => new ReferenceInfo("Microsoft.Extensions.DependencyInjection.Abstractions.dll", Resources.MicrosoftExtensionsDependencyInjectionAbstractions, AspNet90.References.MicrosoftExtensionsDependencyInjectionAbstractions, global::System.Guid.Parse("6605c8cd-9c11-4ba9-946c-0d3498ee70f6"));
+        public static ReferenceInfo MicrosoftExtensionsDependencyInjectionAbstractions => new ReferenceInfo("Microsoft.Extensions.DependencyInjection.Abstractions.dll", Resources.MicrosoftExtensionsDependencyInjectionAbstractions, AspNet90.References.MicrosoftExtensionsDependencyInjectionAbstractions, global::System.Guid.Parse("0969da3f-14d2-4d85-9ecb-580bf936f4e0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.DependencyInjection.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsDependencyInjection => new ReferenceInfo("Microsoft.Extensions.DependencyInjection.dll", Resources.MicrosoftExtensionsDependencyInjection, AspNet90.References.MicrosoftExtensionsDependencyInjection, global::System.Guid.Parse("0579d2b5-52a6-4f52-b460-916b063e52ee"));
+        public static ReferenceInfo MicrosoftExtensionsDependencyInjection => new ReferenceInfo("Microsoft.Extensions.DependencyInjection.dll", Resources.MicrosoftExtensionsDependencyInjection, AspNet90.References.MicrosoftExtensionsDependencyInjection, global::System.Guid.Parse("bed8c5fc-dd96-46a1-9d90-594c67d063a9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Diagnostics.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsDiagnosticsAbstractions => new ReferenceInfo("Microsoft.Extensions.Diagnostics.Abstractions.dll", Resources.MicrosoftExtensionsDiagnosticsAbstractions, AspNet90.References.MicrosoftExtensionsDiagnosticsAbstractions, global::System.Guid.Parse("1fcd1cea-0ec5-4a8e-a698-6e2483529725"));
+        public static ReferenceInfo MicrosoftExtensionsDiagnosticsAbstractions => new ReferenceInfo("Microsoft.Extensions.Diagnostics.Abstractions.dll", Resources.MicrosoftExtensionsDiagnosticsAbstractions, AspNet90.References.MicrosoftExtensionsDiagnosticsAbstractions, global::System.Guid.Parse("389cb562-0d21-45fa-b4a2-57293fdf5663"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Diagnostics.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsDiagnostics => new ReferenceInfo("Microsoft.Extensions.Diagnostics.dll", Resources.MicrosoftExtensionsDiagnostics, AspNet90.References.MicrosoftExtensionsDiagnostics, global::System.Guid.Parse("32e41a6b-bd4b-406b-bfed-0b45963f5c51"));
+        public static ReferenceInfo MicrosoftExtensionsDiagnostics => new ReferenceInfo("Microsoft.Extensions.Diagnostics.dll", Resources.MicrosoftExtensionsDiagnostics, AspNet90.References.MicrosoftExtensionsDiagnostics, global::System.Guid.Parse("568fc67f-918d-4b4e-9ac4-61732cee9f57"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsDiagnosticsHealthChecksAbstractions => new ReferenceInfo("Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll", Resources.MicrosoftExtensionsDiagnosticsHealthChecksAbstractions, AspNet90.References.MicrosoftExtensionsDiagnosticsHealthChecksAbstractions, global::System.Guid.Parse("132c4c84-fabc-4cf3-a39f-f08acc94ea69"));
+        public static ReferenceInfo MicrosoftExtensionsDiagnosticsHealthChecksAbstractions => new ReferenceInfo("Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll", Resources.MicrosoftExtensionsDiagnosticsHealthChecksAbstractions, AspNet90.References.MicrosoftExtensionsDiagnosticsHealthChecksAbstractions, global::System.Guid.Parse("84d0653c-3f7c-495b-ab0b-eff63739a99f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Diagnostics.HealthChecks.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsDiagnosticsHealthChecks => new ReferenceInfo("Microsoft.Extensions.Diagnostics.HealthChecks.dll", Resources.MicrosoftExtensionsDiagnosticsHealthChecks, AspNet90.References.MicrosoftExtensionsDiagnosticsHealthChecks, global::System.Guid.Parse("37d14fde-3fad-47c9-b608-4fd69b74fca7"));
+        public static ReferenceInfo MicrosoftExtensionsDiagnosticsHealthChecks => new ReferenceInfo("Microsoft.Extensions.Diagnostics.HealthChecks.dll", Resources.MicrosoftExtensionsDiagnosticsHealthChecks, AspNet90.References.MicrosoftExtensionsDiagnosticsHealthChecks, global::System.Guid.Parse("88f48b46-5b64-4821-be39-bab0175f19ed"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Features.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsFeatures => new ReferenceInfo("Microsoft.Extensions.Features.dll", Resources.MicrosoftExtensionsFeatures, AspNet90.References.MicrosoftExtensionsFeatures, global::System.Guid.Parse("4652e8ed-9d09-4b37-a9f4-7f4c55c68d0c"));
+        public static ReferenceInfo MicrosoftExtensionsFeatures => new ReferenceInfo("Microsoft.Extensions.Features.dll", Resources.MicrosoftExtensionsFeatures, AspNet90.References.MicrosoftExtensionsFeatures, global::System.Guid.Parse("e041d54f-7cb8-468b-91bb-413fcc03effa"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.FileProviders.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsFileProvidersAbstractions => new ReferenceInfo("Microsoft.Extensions.FileProviders.Abstractions.dll", Resources.MicrosoftExtensionsFileProvidersAbstractions, AspNet90.References.MicrosoftExtensionsFileProvidersAbstractions, global::System.Guid.Parse("60272171-d398-43f3-a742-5fb02757bcd5"));
+        public static ReferenceInfo MicrosoftExtensionsFileProvidersAbstractions => new ReferenceInfo("Microsoft.Extensions.FileProviders.Abstractions.dll", Resources.MicrosoftExtensionsFileProvidersAbstractions, AspNet90.References.MicrosoftExtensionsFileProvidersAbstractions, global::System.Guid.Parse("f11c6098-e72e-42ea-8faf-3d5a94659cb0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.FileProviders.Composite.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsFileProvidersComposite => new ReferenceInfo("Microsoft.Extensions.FileProviders.Composite.dll", Resources.MicrosoftExtensionsFileProvidersComposite, AspNet90.References.MicrosoftExtensionsFileProvidersComposite, global::System.Guid.Parse("18265b3b-f516-4d4c-83f7-8e295e45a8a4"));
+        public static ReferenceInfo MicrosoftExtensionsFileProvidersComposite => new ReferenceInfo("Microsoft.Extensions.FileProviders.Composite.dll", Resources.MicrosoftExtensionsFileProvidersComposite, AspNet90.References.MicrosoftExtensionsFileProvidersComposite, global::System.Guid.Parse("cb1c9102-ee47-4d75-87ba-f673f6b817c7"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.FileProviders.Embedded.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsFileProvidersEmbedded => new ReferenceInfo("Microsoft.Extensions.FileProviders.Embedded.dll", Resources.MicrosoftExtensionsFileProvidersEmbedded, AspNet90.References.MicrosoftExtensionsFileProvidersEmbedded, global::System.Guid.Parse("71525b49-93bd-4d93-8fbc-6cbdc2371797"));
+        public static ReferenceInfo MicrosoftExtensionsFileProvidersEmbedded => new ReferenceInfo("Microsoft.Extensions.FileProviders.Embedded.dll", Resources.MicrosoftExtensionsFileProvidersEmbedded, AspNet90.References.MicrosoftExtensionsFileProvidersEmbedded, global::System.Guid.Parse("5a156bf7-8c41-478a-b476-745e4fe514a8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.FileProviders.Physical.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsFileProvidersPhysical => new ReferenceInfo("Microsoft.Extensions.FileProviders.Physical.dll", Resources.MicrosoftExtensionsFileProvidersPhysical, AspNet90.References.MicrosoftExtensionsFileProvidersPhysical, global::System.Guid.Parse("2cc0697b-d202-4181-bd95-f382e6ff3659"));
+        public static ReferenceInfo MicrosoftExtensionsFileProvidersPhysical => new ReferenceInfo("Microsoft.Extensions.FileProviders.Physical.dll", Resources.MicrosoftExtensionsFileProvidersPhysical, AspNet90.References.MicrosoftExtensionsFileProvidersPhysical, global::System.Guid.Parse("507fdefb-d2e0-4150-8e64-c18e5e57312a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.FileSystemGlobbing.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsFileSystemGlobbing => new ReferenceInfo("Microsoft.Extensions.FileSystemGlobbing.dll", Resources.MicrosoftExtensionsFileSystemGlobbing, AspNet90.References.MicrosoftExtensionsFileSystemGlobbing, global::System.Guid.Parse("e5ac70f4-9f79-4377-a8c8-e36c732e64f1"));
+        public static ReferenceInfo MicrosoftExtensionsFileSystemGlobbing => new ReferenceInfo("Microsoft.Extensions.FileSystemGlobbing.dll", Resources.MicrosoftExtensionsFileSystemGlobbing, AspNet90.References.MicrosoftExtensionsFileSystemGlobbing, global::System.Guid.Parse("f7e5c7ef-7808-405f-8bc7-3b3749a93144"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Hosting.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsHostingAbstractions => new ReferenceInfo("Microsoft.Extensions.Hosting.Abstractions.dll", Resources.MicrosoftExtensionsHostingAbstractions, AspNet90.References.MicrosoftExtensionsHostingAbstractions, global::System.Guid.Parse("6b07d754-9c48-4433-9942-51842df9c83e"));
+        public static ReferenceInfo MicrosoftExtensionsHostingAbstractions => new ReferenceInfo("Microsoft.Extensions.Hosting.Abstractions.dll", Resources.MicrosoftExtensionsHostingAbstractions, AspNet90.References.MicrosoftExtensionsHostingAbstractions, global::System.Guid.Parse("5f69bc6a-447c-4d11-bb42-2a1247dfa59e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Hosting.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsHosting => new ReferenceInfo("Microsoft.Extensions.Hosting.dll", Resources.MicrosoftExtensionsHosting, AspNet90.References.MicrosoftExtensionsHosting, global::System.Guid.Parse("d3fc638a-cd9b-47f8-ad68-8d5e90e2fabb"));
+        public static ReferenceInfo MicrosoftExtensionsHosting => new ReferenceInfo("Microsoft.Extensions.Hosting.dll", Resources.MicrosoftExtensionsHosting, AspNet90.References.MicrosoftExtensionsHosting, global::System.Guid.Parse("1ba08cf6-0441-46a4-a132-6d40bc8b41a8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Http.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsHttp => new ReferenceInfo("Microsoft.Extensions.Http.dll", Resources.MicrosoftExtensionsHttp, AspNet90.References.MicrosoftExtensionsHttp, global::System.Guid.Parse("40d35f1b-d653-40d3-9764-f210ae0f2369"));
+        public static ReferenceInfo MicrosoftExtensionsHttp => new ReferenceInfo("Microsoft.Extensions.Http.dll", Resources.MicrosoftExtensionsHttp, AspNet90.References.MicrosoftExtensionsHttp, global::System.Guid.Parse("e43f8c63-d83d-4d03-98d7-0e7acc9e164c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Identity.Core.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsIdentityCore => new ReferenceInfo("Microsoft.Extensions.Identity.Core.dll", Resources.MicrosoftExtensionsIdentityCore, AspNet90.References.MicrosoftExtensionsIdentityCore, global::System.Guid.Parse("28d5488f-9fbd-4c39-ba74-59a9fe071bc0"));
+        public static ReferenceInfo MicrosoftExtensionsIdentityCore => new ReferenceInfo("Microsoft.Extensions.Identity.Core.dll", Resources.MicrosoftExtensionsIdentityCore, AspNet90.References.MicrosoftExtensionsIdentityCore, global::System.Guid.Parse("46f164f6-cf0e-4d4a-936b-75d2117225fb"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Identity.Stores.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsIdentityStores => new ReferenceInfo("Microsoft.Extensions.Identity.Stores.dll", Resources.MicrosoftExtensionsIdentityStores, AspNet90.References.MicrosoftExtensionsIdentityStores, global::System.Guid.Parse("68517723-9a6a-4fd0-bbfb-91515a7e46bf"));
+        public static ReferenceInfo MicrosoftExtensionsIdentityStores => new ReferenceInfo("Microsoft.Extensions.Identity.Stores.dll", Resources.MicrosoftExtensionsIdentityStores, AspNet90.References.MicrosoftExtensionsIdentityStores, global::System.Guid.Parse("6d5eeb43-3f8b-4db2-bbd6-59eb5ea13866"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Localization.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLocalizationAbstractions => new ReferenceInfo("Microsoft.Extensions.Localization.Abstractions.dll", Resources.MicrosoftExtensionsLocalizationAbstractions, AspNet90.References.MicrosoftExtensionsLocalizationAbstractions, global::System.Guid.Parse("2fbc4778-7b65-4754-aae1-cdff3cdd5421"));
+        public static ReferenceInfo MicrosoftExtensionsLocalizationAbstractions => new ReferenceInfo("Microsoft.Extensions.Localization.Abstractions.dll", Resources.MicrosoftExtensionsLocalizationAbstractions, AspNet90.References.MicrosoftExtensionsLocalizationAbstractions, global::System.Guid.Parse("467dbd5f-74f5-42c6-aaf5-39c30af2b9ec"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Localization.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLocalization => new ReferenceInfo("Microsoft.Extensions.Localization.dll", Resources.MicrosoftExtensionsLocalization, AspNet90.References.MicrosoftExtensionsLocalization, global::System.Guid.Parse("f5c1db46-aee9-46e6-a89d-b09a7f10f34d"));
+        public static ReferenceInfo MicrosoftExtensionsLocalization => new ReferenceInfo("Microsoft.Extensions.Localization.dll", Resources.MicrosoftExtensionsLocalization, AspNet90.References.MicrosoftExtensionsLocalization, global::System.Guid.Parse("88f1c321-06f6-4249-88b1-ea2681ad7d39"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLoggingAbstractions => new ReferenceInfo("Microsoft.Extensions.Logging.Abstractions.dll", Resources.MicrosoftExtensionsLoggingAbstractions, AspNet90.References.MicrosoftExtensionsLoggingAbstractions, global::System.Guid.Parse("7282cdcb-5053-44c4-a706-6fba4bcd2483"));
+        public static ReferenceInfo MicrosoftExtensionsLoggingAbstractions => new ReferenceInfo("Microsoft.Extensions.Logging.Abstractions.dll", Resources.MicrosoftExtensionsLoggingAbstractions, AspNet90.References.MicrosoftExtensionsLoggingAbstractions, global::System.Guid.Parse("5cc1aa9a-66e8-431e-97b8-47b04210c289"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.Configuration.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLoggingConfiguration => new ReferenceInfo("Microsoft.Extensions.Logging.Configuration.dll", Resources.MicrosoftExtensionsLoggingConfiguration, AspNet90.References.MicrosoftExtensionsLoggingConfiguration, global::System.Guid.Parse("42fe553a-42c5-4243-b723-83752d696ab1"));
+        public static ReferenceInfo MicrosoftExtensionsLoggingConfiguration => new ReferenceInfo("Microsoft.Extensions.Logging.Configuration.dll", Resources.MicrosoftExtensionsLoggingConfiguration, AspNet90.References.MicrosoftExtensionsLoggingConfiguration, global::System.Guid.Parse("2e9c855d-48b9-451d-b301-11e385057b66"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.Console.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLoggingConsole => new ReferenceInfo("Microsoft.Extensions.Logging.Console.dll", Resources.MicrosoftExtensionsLoggingConsole, AspNet90.References.MicrosoftExtensionsLoggingConsole, global::System.Guid.Parse("705457e4-886f-41a7-887d-9aeeb0d5afdd"));
+        public static ReferenceInfo MicrosoftExtensionsLoggingConsole => new ReferenceInfo("Microsoft.Extensions.Logging.Console.dll", Resources.MicrosoftExtensionsLoggingConsole, AspNet90.References.MicrosoftExtensionsLoggingConsole, global::System.Guid.Parse("37e6db68-a6c9-4be6-a7f1-597b2e187235"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.Debug.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLoggingDebug => new ReferenceInfo("Microsoft.Extensions.Logging.Debug.dll", Resources.MicrosoftExtensionsLoggingDebug, AspNet90.References.MicrosoftExtensionsLoggingDebug, global::System.Guid.Parse("a1fc0d47-5c72-4195-8bfc-7dd4789b3078"));
+        public static ReferenceInfo MicrosoftExtensionsLoggingDebug => new ReferenceInfo("Microsoft.Extensions.Logging.Debug.dll", Resources.MicrosoftExtensionsLoggingDebug, AspNet90.References.MicrosoftExtensionsLoggingDebug, global::System.Guid.Parse("ada52fb8-f3dd-46bc-b60f-39f2cb0b2fb3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLogging => new ReferenceInfo("Microsoft.Extensions.Logging.dll", Resources.MicrosoftExtensionsLogging, AspNet90.References.MicrosoftExtensionsLogging, global::System.Guid.Parse("8225a4e7-6115-4b24-964f-a78f72f6a3ab"));
+        public static ReferenceInfo MicrosoftExtensionsLogging => new ReferenceInfo("Microsoft.Extensions.Logging.dll", Resources.MicrosoftExtensionsLogging, AspNet90.References.MicrosoftExtensionsLogging, global::System.Guid.Parse("a69a82b3-968e-4edb-aa30-a9d27fc8cfc8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.EventLog.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLoggingEventLog => new ReferenceInfo("Microsoft.Extensions.Logging.EventLog.dll", Resources.MicrosoftExtensionsLoggingEventLog, AspNet90.References.MicrosoftExtensionsLoggingEventLog, global::System.Guid.Parse("6ee86ff2-d4dc-4e97-bdb8-87e72f58dbdd"));
+        public static ReferenceInfo MicrosoftExtensionsLoggingEventLog => new ReferenceInfo("Microsoft.Extensions.Logging.EventLog.dll", Resources.MicrosoftExtensionsLoggingEventLog, AspNet90.References.MicrosoftExtensionsLoggingEventLog, global::System.Guid.Parse("b0fc0b02-2bd2-486a-8170-e50a90e1b8de"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.EventSource.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLoggingEventSource => new ReferenceInfo("Microsoft.Extensions.Logging.EventSource.dll", Resources.MicrosoftExtensionsLoggingEventSource, AspNet90.References.MicrosoftExtensionsLoggingEventSource, global::System.Guid.Parse("9bf77858-55a9-4a70-a37b-011217d5fee7"));
+        public static ReferenceInfo MicrosoftExtensionsLoggingEventSource => new ReferenceInfo("Microsoft.Extensions.Logging.EventSource.dll", Resources.MicrosoftExtensionsLoggingEventSource, AspNet90.References.MicrosoftExtensionsLoggingEventSource, global::System.Guid.Parse("a34b24b7-7015-4a20-a871-c449eca9e119"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.TraceSource.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLoggingTraceSource => new ReferenceInfo("Microsoft.Extensions.Logging.TraceSource.dll", Resources.MicrosoftExtensionsLoggingTraceSource, AspNet90.References.MicrosoftExtensionsLoggingTraceSource, global::System.Guid.Parse("6a7a2297-78cf-4f8f-a05e-db89794ba19e"));
+        public static ReferenceInfo MicrosoftExtensionsLoggingTraceSource => new ReferenceInfo("Microsoft.Extensions.Logging.TraceSource.dll", Resources.MicrosoftExtensionsLoggingTraceSource, AspNet90.References.MicrosoftExtensionsLoggingTraceSource, global::System.Guid.Parse("4c3f3ed7-19a1-45df-b1ee-cae5815704b6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.ObjectPool.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsObjectPool => new ReferenceInfo("Microsoft.Extensions.ObjectPool.dll", Resources.MicrosoftExtensionsObjectPool, AspNet90.References.MicrosoftExtensionsObjectPool, global::System.Guid.Parse("edb1f68c-c974-4f59-8644-449fc5591d92"));
+        public static ReferenceInfo MicrosoftExtensionsObjectPool => new ReferenceInfo("Microsoft.Extensions.ObjectPool.dll", Resources.MicrosoftExtensionsObjectPool, AspNet90.References.MicrosoftExtensionsObjectPool, global::System.Guid.Parse("244fdc08-3c48-4054-b428-3097935f36da"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Options.ConfigurationExtensions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsOptionsConfigurationExtensions => new ReferenceInfo("Microsoft.Extensions.Options.ConfigurationExtensions.dll", Resources.MicrosoftExtensionsOptionsConfigurationExtensions, AspNet90.References.MicrosoftExtensionsOptionsConfigurationExtensions, global::System.Guid.Parse("71995899-9613-4757-87a7-5e47b4f936ba"));
+        public static ReferenceInfo MicrosoftExtensionsOptionsConfigurationExtensions => new ReferenceInfo("Microsoft.Extensions.Options.ConfigurationExtensions.dll", Resources.MicrosoftExtensionsOptionsConfigurationExtensions, AspNet90.References.MicrosoftExtensionsOptionsConfigurationExtensions, global::System.Guid.Parse("7f129c58-d50d-4509-8ff4-8df7b7ed9e10"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Options.DataAnnotations.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsOptionsDataAnnotations => new ReferenceInfo("Microsoft.Extensions.Options.DataAnnotations.dll", Resources.MicrosoftExtensionsOptionsDataAnnotations, AspNet90.References.MicrosoftExtensionsOptionsDataAnnotations, global::System.Guid.Parse("e15b664c-cf92-46d1-92f8-2a5a555470a0"));
+        public static ReferenceInfo MicrosoftExtensionsOptionsDataAnnotations => new ReferenceInfo("Microsoft.Extensions.Options.DataAnnotations.dll", Resources.MicrosoftExtensionsOptionsDataAnnotations, AspNet90.References.MicrosoftExtensionsOptionsDataAnnotations, global::System.Guid.Parse("7c0f7142-d6a9-454d-bc71-98f39fe47395"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Options.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsOptions => new ReferenceInfo("Microsoft.Extensions.Options.dll", Resources.MicrosoftExtensionsOptions, AspNet90.References.MicrosoftExtensionsOptions, global::System.Guid.Parse("4fa3ca87-f2e1-4f53-a9e4-b7122ee5d22b"));
+        public static ReferenceInfo MicrosoftExtensionsOptions => new ReferenceInfo("Microsoft.Extensions.Options.dll", Resources.MicrosoftExtensionsOptions, AspNet90.References.MicrosoftExtensionsOptions, global::System.Guid.Parse("54fdf35c-4b65-437c-9015-e1da220421d0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Primitives.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsPrimitives => new ReferenceInfo("Microsoft.Extensions.Primitives.dll", Resources.MicrosoftExtensionsPrimitives, AspNet90.References.MicrosoftExtensionsPrimitives, global::System.Guid.Parse("5b0dd42c-5f2e-4838-936c-2b21efdf7273"));
+        public static ReferenceInfo MicrosoftExtensionsPrimitives => new ReferenceInfo("Microsoft.Extensions.Primitives.dll", Resources.MicrosoftExtensionsPrimitives, AspNet90.References.MicrosoftExtensionsPrimitives, global::System.Guid.Parse("09f279fc-6e41-40f7-af92-bf35947020c8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.WebEncoders.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsWebEncoders => new ReferenceInfo("Microsoft.Extensions.WebEncoders.dll", Resources.MicrosoftExtensionsWebEncoders, AspNet90.References.MicrosoftExtensionsWebEncoders, global::System.Guid.Parse("e6a9463d-79c6-4efc-8616-8c132a9a09e3"));
+        public static ReferenceInfo MicrosoftExtensionsWebEncoders => new ReferenceInfo("Microsoft.Extensions.WebEncoders.dll", Resources.MicrosoftExtensionsWebEncoders, AspNet90.References.MicrosoftExtensionsWebEncoders, global::System.Guid.Parse("03143a28-474f-4b56-bb52-8d1317d4debf"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.JSInterop.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftJSInterop => new ReferenceInfo("Microsoft.JSInterop.dll", Resources.MicrosoftJSInterop, AspNet90.References.MicrosoftJSInterop, global::System.Guid.Parse("b63414d3-3ca7-48b2-97fc-7fff8683f941"));
+        public static ReferenceInfo MicrosoftJSInterop => new ReferenceInfo("Microsoft.JSInterop.dll", Resources.MicrosoftJSInterop, AspNet90.References.MicrosoftJSInterop, global::System.Guid.Parse("8df57e88-d772-4051-a463-07a4a6796515"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Net.Http.Headers.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftNetHttpHeaders => new ReferenceInfo("Microsoft.Net.Http.Headers.dll", Resources.MicrosoftNetHttpHeaders, AspNet90.References.MicrosoftNetHttpHeaders, global::System.Guid.Parse("b634544c-7316-417d-b6a8-345d384026be"));
+        public static ReferenceInfo MicrosoftNetHttpHeaders => new ReferenceInfo("Microsoft.Net.Http.Headers.dll", Resources.MicrosoftNetHttpHeaders, AspNet90.References.MicrosoftNetHttpHeaders, global::System.Guid.Parse("7e4b29da-5851-4815-bebe-4ba9c87353d7"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.EventLog.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsEventLog => new ReferenceInfo("System.Diagnostics.EventLog.dll", Resources.SystemDiagnosticsEventLog, AspNet90.References.SystemDiagnosticsEventLog, global::System.Guid.Parse("015231e8-d969-4c9f-81ea-10f939dde36e"));
+        public static ReferenceInfo SystemDiagnosticsEventLog => new ReferenceInfo("System.Diagnostics.EventLog.dll", Resources.SystemDiagnosticsEventLog, AspNet90.References.SystemDiagnosticsEventLog, global::System.Guid.Parse("5e386e41-a165-4037-81e5-0340f54a0784"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Xml.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyXml => new ReferenceInfo("System.Security.Cryptography.Xml.dll", Resources.SystemSecurityCryptographyXml, AspNet90.References.SystemSecurityCryptographyXml, global::System.Guid.Parse("9519b593-f0a2-4477-8b36-09aa0c3d583f"));
+        public static ReferenceInfo SystemSecurityCryptographyXml => new ReferenceInfo("System.Security.Cryptography.Xml.dll", Resources.SystemSecurityCryptographyXml, AspNet90.References.SystemSecurityCryptographyXml, global::System.Guid.Parse("121857a1-ac7b-4092-92f3-3a7c8e4bc858"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.RateLimiting.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingRateLimiting => new ReferenceInfo("System.Threading.RateLimiting.dll", Resources.SystemThreadingRateLimiting, AspNet90.References.SystemThreadingRateLimiting, global::System.Guid.Parse("e94e90b5-34e7-46d0-a45e-0d534fcc09cc"));
+        public static ReferenceInfo SystemThreadingRateLimiting => new ReferenceInfo("System.Threading.RateLimiting.dll", Resources.SystemThreadingRateLimiting, AspNet90.References.SystemThreadingRateLimiting, global::System.Guid.Parse("75f967d2-ae5f-4dbf-a25c-2a75edc85309"));
         private static ImmutableArray<ReferenceInfo> _all;
         public static ImmutableArray<ReferenceInfo> All
         {
