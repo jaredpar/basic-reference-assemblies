@@ -19,6 +19,7 @@ Net90();
 Net100();
 AspNet80();
 AspNet90();
+AspNet100();
 NetStandard13();
 NetStandard20();
 Net20();
@@ -98,7 +99,7 @@ void Net90()
 
 void Net100()
 {
-    var content = GetGeneratedContent("Net10", [@"microsoft.netcore.app.ref\10.0.0-preview.4.25258.110\ref\net10.0"]);
+    var content = GetGeneratedContent("Net100", [@"microsoft.netcore.app.ref\10.0.0-preview.4.25258.110\ref\net10.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net100");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -116,6 +117,15 @@ void AspNet90()
 {
     var content = GetGeneratedContent("AspNet90", [@"microsoft.netcore.app.ref\9.0.0\ref\net9.0", @"microsoft.aspnetcore.app.ref\9.0.0\ref\net9.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.AspNet90");
+    File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
+    File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
+}
+
+
+void AspNet100()
+{
+    var content = GetGeneratedContent("AspNet100", [@"microsoft.netcore.app.ref\10.0.0-preview.4.25258.110\ref\net10.0", @"microsoft.aspnetcore.app.ref\10.0.0-preview.4.25258.110\ref\net10.0"]);
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.AspNet100");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -579,7 +589,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
 
 static (string CodeContent, string TargetsContent) GetGeneratedContent(string name, string[] packagePaths, string[]? extraPackagePaths = null)
 {
-    var nugetPackageRoot = Environment.GetEnvironmentVariable("NUGET_PACKAGES");
+    var nugetPackageRoot =  Environment.GetEnvironmentVariable("NUGET_PACKAGES");
     if (string.IsNullOrEmpty(nugetPackageRoot))
     {
         nugetPackageRoot = Path.Combine(Environment.GetEnvironmentVariable("USERPROFILE")!, ".nuget", "packages");
