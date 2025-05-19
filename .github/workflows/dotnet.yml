@@ -35,14 +35,14 @@ jobs:
         run: dotnet test --framework net8.0 --no-build --verbosity normal
 
       - name: Upload Binary Log 
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: binary-log
           path: msbuild.binlog
         
       - name: Upload Packages
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: nuget-packages
