@@ -16,6 +16,7 @@ Net70();
 Net80();
 Net80Windows();
 Net90();
+Net100();
 AspNet80();
 AspNet90();
 NetStandard13();
@@ -90,6 +91,15 @@ void Net90()
 {
     var content = GetGeneratedContent("Net90", [@"microsoft.netcore.app.ref\9.0.0\ref\net9.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net90");
+    File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
+    File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
+}
+
+
+void Net100()
+{
+    var content = GetGeneratedContent("Net10", [@"microsoft.netcore.app.ref\10.0.0-preview.4.25258.110\ref\net10.0"]);
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net100");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
