@@ -16,8 +16,10 @@ Net70();
 Net80();
 Net80Windows();
 Net90();
+Net100();
 AspNet80();
 AspNet90();
+AspNet100();
 NetStandard13();
 NetStandard20();
 Net20();
@@ -29,7 +31,7 @@ CombinedReferenceInfo();
 
 void NetCoreApp31()
 {
-    var content = GetGeneratedContent("NetCoreApp31", [@"microsoft.netcore.app.ref\3.1.0\ref\netcoreapp3.1"]);
+    var content = GetGeneratedContent("NetCoreApp31", [@"microsoft.netcore.app.ref/3.1.0/ref/netcoreapp3.1"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.NetCoreApp31");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -37,7 +39,7 @@ void NetCoreApp31()
 
 void Net50()
 {
-    var content = GetGeneratedContent("Net50", [@"microsoft.netcore.app.ref\5.0.0\ref\net5.0"]);
+    var content = GetGeneratedContent("Net50", [@"microsoft.netcore.app.ref/5.0.0/ref/net5.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net50");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -45,7 +47,7 @@ void Net50()
 
 void Net60()
 {
-    var content = GetGeneratedContent("Net60", [@"microsoft.netcore.app.ref\6.0.27\ref\net6.0"]);
+    var content = GetGeneratedContent("Net60", [@"microsoft.netcore.app.ref/6.0.27/ref/net6.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net60");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -53,7 +55,7 @@ void Net60()
 
 void Net60Windows()
 {
-    var content = GetGeneratedContent("Net60Windows", [@"microsoft.windowsdesktop.app.ref\6.0.27\ref\net6.0"]);
+    var content = GetGeneratedContent("Net60Windows", [@"microsoft.windowsdesktop.app.ref/6.0.27/ref/net6.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net60Windows");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -61,7 +63,7 @@ void Net60Windows()
 
 void Net70()
 {
-    var content = GetGeneratedContent("Net70", [@"microsoft.netcore.app.ref\7.0.16\ref\net7.0"]);
+    var content = GetGeneratedContent("Net70", [@"microsoft.netcore.app.ref/7.0.16/ref/net7.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net70");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -69,7 +71,7 @@ void Net70()
 
 void Net80()
 {
-    var content = GetGeneratedContent("Net80", [@"microsoft.netcore.app.ref\8.0.3\ref\net8.0"]);
+    var content = GetGeneratedContent("Net80", [@"microsoft.netcore.app.ref/8.0.3/ref/net8.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net80");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -80,7 +82,7 @@ void Net80()
 
 void Net80Windows()
 {
-    var content = GetGeneratedContent("Net80Windows", [@"microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0"]);
+    var content = GetGeneratedContent("Net80Windows", [@"microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net80Windows");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -88,15 +90,24 @@ void Net80Windows()
 
 void Net90()
 {
-    var content = GetGeneratedContent("Net90", [@"microsoft.netcore.app.ref\9.0.0\ref\net9.0"]);
+    var content = GetGeneratedContent("Net90", [@"microsoft.netcore.app.ref/9.0.0/ref/net9.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net90");
+    File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
+    File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
+}
+
+
+void Net100()
+{
+    var content = GetGeneratedContent("Net100", [@"microsoft.netcore.app.ref/10.0.0-preview.4.25258.110/ref/net10.0"]);
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net100");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
 
 void AspNet80()
 {
-    var content = GetGeneratedContent("AspNet80", [@"microsoft.netcore.app.ref\8.0.3\ref\net8.0", @"microsoft.aspnetcore.app.ref\8.0.3\ref\net8.0"]);
+    var content = GetGeneratedContent("AspNet80", [@"microsoft.netcore.app.ref/8.0.3/ref/net8.0", @"microsoft.aspnetcore.app.ref/8.0.3/ref/net8.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.AspNet80");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -104,8 +115,17 @@ void AspNet80()
 
 void AspNet90()
 {
-    var content = GetGeneratedContent("AspNet90", [@"microsoft.netcore.app.ref\9.0.0\ref\net9.0", @"microsoft.aspnetcore.app.ref\9.0.0\ref\net9.0"]);
+    var content = GetGeneratedContent("AspNet90", [@"microsoft.netcore.app.ref/9.0.0/ref/net9.0", @"microsoft.aspnetcore.app.ref/9.0.0/ref/net9.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.AspNet90");
+    File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
+    File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
+}
+
+
+void AspNet100()
+{
+    var content = GetGeneratedContent("AspNet100", [@"microsoft.netcore.app.ref/10.0.0-preview.4.25258.110/ref/net10.0", @"microsoft.aspnetcore.app.ref/10.0.0-preview.4.25258.110/ref/net10.0"]);
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.AspNet100");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -125,11 +145,11 @@ void NetStandard20()
 {
     var content = GetGeneratedContent(
         "NetStandard20",
-        [@"netstandard.library\2.0.3\build\netstandard2.0\ref"],
+        [@"netstandard.library/2.0.3/build/netstandard2.0/ref"],
         [
-            @"microsoft.csharp\4.7.0\ref\netstandard2.0",
-            @"microsoft.visualbasic\10.3.0\ref\netstandard2.0",
-            @"system.threading.tasks.extensions\4.5.4\lib\netstandard2.0"]);
+            @"microsoft.csharp/4.7.0/ref/netstandard2.0",
+            @"microsoft.visualbasic/10.3.0/ref/netstandard2.0",
+            @"system.threading.tasks.extensions/4.5.4/lib/netstandard2.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.NetStandard20");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -139,7 +159,7 @@ void NetStandard20()
 
 void Net20()
 {
-    var content = GetGeneratedContent("Net20", [@"microsoft.netframework.referenceassemblies.net20\1.0.3\build\.NETFramework\v2.0"]);
+    var content = GetGeneratedContent("Net20", [@"microsoft.netframework.referenceassemblies.net20/1.0.3/build/.NETFramework/v2.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net20");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -147,7 +167,7 @@ void Net20()
 
 void Net40()
 {
-    var content = GetGeneratedContent("Net40", [@"microsoft.netframework.referenceassemblies.net40\1.0.3\build\.NETFramework\v4.0"]);
+    var content = GetGeneratedContent("Net40", [@"microsoft.netframework.referenceassemblies.net40/1.0.3/build/.NETFramework/v4.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net40");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -155,7 +175,7 @@ void Net40()
 
 void Net35()
 {
-    var content = GetGeneratedContent("Net35", [@"microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5"]);
+    var content = GetGeneratedContent("Net35", [@"microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net35");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -165,10 +185,10 @@ void Net461()
 {
     var content = GetGeneratedContent(
         "Net461",
-        [@"microsoft.netframework.referenceassemblies.net461\1.0.3\build\.NETFramework\v4.6.1"],
+        [@"microsoft.netframework.referenceassemblies.net461/1.0.3/build/.NETFramework/v4.6.1"],
         [
-            @"system.threading.tasks.extensions\4.5.4\lib\net461",
-            @"system.valuetuple\4.5.0\lib\net461"
+            @"system.threading.tasks.extensions/4.5.4/lib/net461",
+            @"system.valuetuple/4.5.0/lib/net461"
         ]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net461");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
@@ -177,7 +197,7 @@ void Net461()
 
 void Net472()
 {
-    var content = GetGeneratedContent("Net472", [@"microsoft.netframework.referenceassemblies.net472\1.0.3\build\.NETFramework\v4.7.2"]);
+    var content = GetGeneratedContent("Net472", [@"microsoft.netframework.referenceassemblies.net472/1.0.3/build/.NETFramework/v4.7.2"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net472");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
