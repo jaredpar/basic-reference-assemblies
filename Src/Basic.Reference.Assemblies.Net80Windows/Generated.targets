@@ -1,190 +1,190 @@
 <Project>
     <ItemGroup>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\Accessibility.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\Accessibility.dll" WithCulture="false">
             <LogicalName>net80windows.Accessibility</LogicalName>
             <Link>Resources\net80windows\Accessibility.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\Microsoft.VisualBasic.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\Microsoft.VisualBasic.dll" WithCulture="false">
             <LogicalName>net80windows.Microsoft.VisualBasic</LogicalName>
             <Link>Resources\net80windows\Microsoft.VisualBasic.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\Microsoft.VisualBasic.Forms.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\Microsoft.VisualBasic.Forms.dll" WithCulture="false">
             <LogicalName>net80windows.Microsoft.VisualBasic.Forms</LogicalName>
             <Link>Resources\net80windows\Microsoft.VisualBasic.Forms.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\Microsoft.Win32.Registry.AccessControl.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\Microsoft.Win32.Registry.AccessControl.dll" WithCulture="false">
             <LogicalName>net80windows.Microsoft.Win32.Registry.AccessControl</LogicalName>
             <Link>Resources\net80windows\Microsoft.Win32.Registry.AccessControl.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\Microsoft.Win32.SystemEvents.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\Microsoft.Win32.SystemEvents.dll" WithCulture="false">
             <LogicalName>net80windows.Microsoft.Win32.SystemEvents</LogicalName>
             <Link>Resources\net80windows\Microsoft.Win32.SystemEvents.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\PresentationCore.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\PresentationCore.dll" WithCulture="false">
             <LogicalName>net80windows.PresentationCore</LogicalName>
             <Link>Resources\net80windows\PresentationCore.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\PresentationFramework.Aero.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\PresentationFramework.Aero.dll" WithCulture="false">
             <LogicalName>net80windows.PresentationFramework.Aero</LogicalName>
             <Link>Resources\net80windows\PresentationFramework.Aero.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\PresentationFramework.Aero2.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\PresentationFramework.Aero2.dll" WithCulture="false">
             <LogicalName>net80windows.PresentationFramework.Aero2</LogicalName>
             <Link>Resources\net80windows\PresentationFramework.Aero2.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\PresentationFramework.AeroLite.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\PresentationFramework.AeroLite.dll" WithCulture="false">
             <LogicalName>net80windows.PresentationFramework.AeroLite</LogicalName>
             <Link>Resources\net80windows\PresentationFramework.AeroLite.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\PresentationFramework.Classic.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\PresentationFramework.Classic.dll" WithCulture="false">
             <LogicalName>net80windows.PresentationFramework.Classic</LogicalName>
             <Link>Resources\net80windows\PresentationFramework.Classic.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\PresentationFramework.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\PresentationFramework.dll" WithCulture="false">
             <LogicalName>net80windows.PresentationFramework</LogicalName>
             <Link>Resources\net80windows\PresentationFramework.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\PresentationFramework.Luna.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\PresentationFramework.Luna.dll" WithCulture="false">
             <LogicalName>net80windows.PresentationFramework.Luna</LogicalName>
             <Link>Resources\net80windows\PresentationFramework.Luna.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\PresentationFramework.Royale.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\PresentationFramework.Royale.dll" WithCulture="false">
             <LogicalName>net80windows.PresentationFramework.Royale</LogicalName>
             <Link>Resources\net80windows\PresentationFramework.Royale.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\PresentationUI.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\PresentationUI.dll" WithCulture="false">
             <LogicalName>net80windows.PresentationUI</LogicalName>
             <Link>Resources\net80windows\PresentationUI.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\ReachFramework.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\ReachFramework.dll" WithCulture="false">
             <LogicalName>net80windows.ReachFramework</LogicalName>
             <Link>Resources\net80windows\ReachFramework.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.CodeDom.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.CodeDom.dll" WithCulture="false">
             <LogicalName>net80windows.System.CodeDom</LogicalName>
             <Link>Resources\net80windows\System.CodeDom.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Configuration.ConfigurationManager.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Configuration.ConfigurationManager.dll" WithCulture="false">
             <LogicalName>net80windows.System.Configuration.ConfigurationManager</LogicalName>
             <Link>Resources\net80windows\System.Configuration.ConfigurationManager.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Design.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Design.dll" WithCulture="false">
             <LogicalName>net80windows.System.Design</LogicalName>
             <Link>Resources\net80windows\System.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Diagnostics.EventLog.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Diagnostics.EventLog.dll" WithCulture="false">
             <LogicalName>net80windows.System.Diagnostics.EventLog</LogicalName>
             <Link>Resources\net80windows\System.Diagnostics.EventLog.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Diagnostics.PerformanceCounter.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Diagnostics.PerformanceCounter.dll" WithCulture="false">
             <LogicalName>net80windows.System.Diagnostics.PerformanceCounter</LogicalName>
             <Link>Resources\net80windows\System.Diagnostics.PerformanceCounter.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.DirectoryServices.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.DirectoryServices.dll" WithCulture="false">
             <LogicalName>net80windows.System.DirectoryServices</LogicalName>
             <Link>Resources\net80windows\System.DirectoryServices.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Drawing.Common.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Drawing.Common.dll" WithCulture="false">
             <LogicalName>net80windows.System.Drawing.Common</LogicalName>
             <Link>Resources\net80windows\System.Drawing.Common.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Drawing.Design.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Drawing.Design.dll" WithCulture="false">
             <LogicalName>net80windows.System.Drawing.Design</LogicalName>
             <Link>Resources\net80windows\System.Drawing.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Drawing.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Drawing.dll" WithCulture="false">
             <LogicalName>net80windows.System.Drawing</LogicalName>
             <Link>Resources\net80windows\System.Drawing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.IO.Packaging.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.IO.Packaging.dll" WithCulture="false">
             <LogicalName>net80windows.System.IO.Packaging</LogicalName>
             <Link>Resources\net80windows\System.IO.Packaging.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Printing.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Printing.dll" WithCulture="false">
             <LogicalName>net80windows.System.Printing</LogicalName>
             <Link>Resources\net80windows\System.Printing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Resources.Extensions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Resources.Extensions.dll" WithCulture="false">
             <LogicalName>net80windows.System.Resources.Extensions</LogicalName>
             <Link>Resources\net80windows\System.Resources.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Security.Cryptography.Pkcs.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Security.Cryptography.Pkcs.dll" WithCulture="false">
             <LogicalName>net80windows.System.Security.Cryptography.Pkcs</LogicalName>
             <Link>Resources\net80windows\System.Security.Cryptography.Pkcs.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Security.Cryptography.ProtectedData.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Security.Cryptography.ProtectedData.dll" WithCulture="false">
             <LogicalName>net80windows.System.Security.Cryptography.ProtectedData</LogicalName>
             <Link>Resources\net80windows\System.Security.Cryptography.ProtectedData.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Security.Cryptography.Xml.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Security.Cryptography.Xml.dll" WithCulture="false">
             <LogicalName>net80windows.System.Security.Cryptography.Xml</LogicalName>
             <Link>Resources\net80windows\System.Security.Cryptography.Xml.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Security.Permissions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Security.Permissions.dll" WithCulture="false">
             <LogicalName>net80windows.System.Security.Permissions</LogicalName>
             <Link>Resources\net80windows\System.Security.Permissions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Threading.AccessControl.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Threading.AccessControl.dll" WithCulture="false">
             <LogicalName>net80windows.System.Threading.AccessControl</LogicalName>
             <Link>Resources\net80windows\System.Threading.AccessControl.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Windows.Controls.Ribbon.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Windows.Controls.Ribbon.dll" WithCulture="false">
             <LogicalName>net80windows.System.Windows.Controls.Ribbon</LogicalName>
             <Link>Resources\net80windows\System.Windows.Controls.Ribbon.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Windows.Extensions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Windows.Extensions.dll" WithCulture="false">
             <LogicalName>net80windows.System.Windows.Extensions</LogicalName>
             <Link>Resources\net80windows\System.Windows.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Windows.Forms.Design.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Windows.Forms.Design.dll" WithCulture="false">
             <LogicalName>net80windows.System.Windows.Forms.Design</LogicalName>
             <Link>Resources\net80windows\System.Windows.Forms.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Windows.Forms.Design.Editors.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Windows.Forms.Design.Editors.dll" WithCulture="false">
             <LogicalName>net80windows.System.Windows.Forms.Design.Editors</LogicalName>
             <Link>Resources\net80windows\System.Windows.Forms.Design.Editors.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Windows.Forms.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Windows.Forms.dll" WithCulture="false">
             <LogicalName>net80windows.System.Windows.Forms</LogicalName>
             <Link>Resources\net80windows\System.Windows.Forms.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Windows.Forms.Primitives.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Windows.Forms.Primitives.dll" WithCulture="false">
             <LogicalName>net80windows.System.Windows.Forms.Primitives</LogicalName>
             <Link>Resources\net80windows\System.Windows.Forms.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Windows.Input.Manipulations.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Windows.Input.Manipulations.dll" WithCulture="false">
             <LogicalName>net80windows.System.Windows.Input.Manipulations</LogicalName>
             <Link>Resources\net80windows\System.Windows.Input.Manipulations.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Windows.Presentation.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Windows.Presentation.dll" WithCulture="false">
             <LogicalName>net80windows.System.Windows.Presentation</LogicalName>
             <Link>Resources\net80windows\System.Windows.Presentation.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\System.Xaml.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\System.Xaml.dll" WithCulture="false">
             <LogicalName>net80windows.System.Xaml</LogicalName>
             <Link>Resources\net80windows\System.Xaml.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\UIAutomationClient.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\UIAutomationClient.dll" WithCulture="false">
             <LogicalName>net80windows.UIAutomationClient</LogicalName>
             <Link>Resources\net80windows\UIAutomationClient.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\UIAutomationClientSideProviders.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\UIAutomationClientSideProviders.dll" WithCulture="false">
             <LogicalName>net80windows.UIAutomationClientSideProviders</LogicalName>
             <Link>Resources\net80windows\UIAutomationClientSideProviders.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\UIAutomationProvider.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\UIAutomationProvider.dll" WithCulture="false">
             <LogicalName>net80windows.UIAutomationProvider</LogicalName>
             <Link>Resources\net80windows\UIAutomationProvider.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\UIAutomationTypes.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\UIAutomationTypes.dll" WithCulture="false">
             <LogicalName>net80windows.UIAutomationTypes</LogicalName>
             <Link>Resources\net80windows\UIAutomationTypes.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\WindowsBase.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\WindowsBase.dll" WithCulture="false">
             <LogicalName>net80windows.WindowsBase</LogicalName>
             <Link>Resources\net80windows\WindowsBase.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref\8.0.8\ref\net8.0\WindowsFormsIntegration.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.windowsdesktop.app.ref/8.0.8/ref/net8.0\WindowsFormsIntegration.dll" WithCulture="false">
             <LogicalName>net80windows.WindowsFormsIntegration</LogicalName>
             <Link>Resources\net80windows\WindowsFormsIntegration.dll</Link>
         </EmbeddedResource>

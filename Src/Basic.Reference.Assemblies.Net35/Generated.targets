@@ -1,410 +1,410 @@
 <Project>
     <ItemGroup>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Accessibility.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Accessibility.dll" WithCulture="false">
             <LogicalName>net35.Accessibility</LogicalName>
             <Link>Resources\net35\Accessibility.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\AspNetMMCExt.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\AspNetMMCExt.dll" WithCulture="false">
             <LogicalName>net35.AspNetMMCExt</LogicalName>
             <Link>Resources\net35\AspNetMMCExt.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\cscompmgd.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\cscompmgd.dll" WithCulture="false">
             <LogicalName>net35.cscompmgd</LogicalName>
             <Link>Resources\net35\cscompmgd.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\CustomMarshalers.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\CustomMarshalers.dll" WithCulture="false">
             <LogicalName>net35.CustomMarshalers</LogicalName>
             <Link>Resources\net35\CustomMarshalers.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\IEExecRemote.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\IEExecRemote.dll" WithCulture="false">
             <LogicalName>net35.IEExecRemote</LogicalName>
             <Link>Resources\net35\IEExecRemote.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\IEHost.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\IEHost.dll" WithCulture="false">
             <LogicalName>net35.IEHost</LogicalName>
             <Link>Resources\net35\IEHost.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\IIEHost.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\IIEHost.dll" WithCulture="false">
             <LogicalName>net35.IIEHost</LogicalName>
             <Link>Resources\net35\IIEHost.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\ISymWrapper.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\ISymWrapper.dll" WithCulture="false">
             <LogicalName>net35.ISymWrapper</LogicalName>
             <Link>Resources\net35\ISymWrapper.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.Build.Conversion.v3.5.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.Build.Conversion.v3.5.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.Build.Conversion.v3.5</LogicalName>
             <Link>Resources\net35\Microsoft.Build.Conversion.v3.5.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.Build.Engine.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.Build.Engine.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.Build.Engine</LogicalName>
             <Link>Resources\net35\Microsoft.Build.Engine.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.Build.Framework.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.Build.Framework.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.Build.Framework</LogicalName>
             <Link>Resources\net35\Microsoft.Build.Framework.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.Build.Tasks.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.Build.Tasks.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.Build.Tasks</LogicalName>
             <Link>Resources\net35\Microsoft.Build.Tasks.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.Build.Utilities.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.Build.Utilities.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.Build.Utilities</LogicalName>
             <Link>Resources\net35\Microsoft.Build.Utilities.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.Build.Utilities.v3.5.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.Build.Utilities.v3.5.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.Build.Utilities.v3.5</LogicalName>
             <Link>Resources\net35\Microsoft.Build.Utilities.v3.5.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.JScript.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.JScript.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.JScript</LogicalName>
             <Link>Resources\net35\Microsoft.JScript.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.VisualBasic.Compatibility.Data.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.VisualBasic.Compatibility.Data.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.VisualBasic.Compatibility.Data</LogicalName>
             <Link>Resources\net35\Microsoft.VisualBasic.Compatibility.Data.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.VisualBasic.Compatibility.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.VisualBasic.Compatibility.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.VisualBasic.Compatibility</LogicalName>
             <Link>Resources\net35\Microsoft.VisualBasic.Compatibility.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.VisualBasic.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.VisualBasic.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.VisualBasic</LogicalName>
             <Link>Resources\net35\Microsoft.VisualBasic.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.VisualBasic.Vsa.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.VisualBasic.Vsa.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.VisualBasic.Vsa</LogicalName>
             <Link>Resources\net35\Microsoft.VisualBasic.Vsa.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.VisualC.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.VisualC.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.VisualC</LogicalName>
             <Link>Resources\net35\Microsoft.VisualC.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.VisualC.STLCLR.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.VisualC.STLCLR.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.VisualC.STLCLR</LogicalName>
             <Link>Resources\net35\Microsoft.VisualC.STLCLR.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.Vsa.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.Vsa.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.Vsa</LogicalName>
             <Link>Resources\net35\Microsoft.Vsa.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft.Vsa.Vb.CodeDOMProcessor.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft.Vsa.Vb.CodeDOMProcessor.dll" WithCulture="false">
             <LogicalName>net35.Microsoft.Vsa.Vb.CodeDOMProcessor</LogicalName>
             <Link>Resources\net35\Microsoft.Vsa.Vb.CodeDOMProcessor.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\Microsoft_VsaVb.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\Microsoft_VsaVb.dll" WithCulture="false">
             <LogicalName>net35.Microsoft_VsaVb</LogicalName>
             <Link>Resources\net35\Microsoft_VsaVb.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\mscorlib.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\mscorlib.dll" WithCulture="false">
             <LogicalName>net35.mscorlib</LogicalName>
             <Link>Resources\net35\mscorlib.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\PresentationBuildTasks.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\PresentationBuildTasks.dll" WithCulture="false">
             <LogicalName>net35.PresentationBuildTasks</LogicalName>
             <Link>Resources\net35\PresentationBuildTasks.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\PresentationCore.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\PresentationCore.dll" WithCulture="false">
             <LogicalName>net35.PresentationCore</LogicalName>
             <Link>Resources\net35\PresentationCore.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\PresentationFramework.Aero.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\PresentationFramework.Aero.dll" WithCulture="false">
             <LogicalName>net35.PresentationFramework.Aero</LogicalName>
             <Link>Resources\net35\PresentationFramework.Aero.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\PresentationFramework.Classic.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\PresentationFramework.Classic.dll" WithCulture="false">
             <LogicalName>net35.PresentationFramework.Classic</LogicalName>
             <Link>Resources\net35\PresentationFramework.Classic.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\PresentationFramework.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\PresentationFramework.dll" WithCulture="false">
             <LogicalName>net35.PresentationFramework</LogicalName>
             <Link>Resources\net35\PresentationFramework.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\PresentationFramework.Luna.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\PresentationFramework.Luna.dll" WithCulture="false">
             <LogicalName>net35.PresentationFramework.Luna</LogicalName>
             <Link>Resources\net35\PresentationFramework.Luna.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\PresentationFramework.Royale.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\PresentationFramework.Royale.dll" WithCulture="false">
             <LogicalName>net35.PresentationFramework.Royale</LogicalName>
             <Link>Resources\net35\PresentationFramework.Royale.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\ReachFramework.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\ReachFramework.dll" WithCulture="false">
             <LogicalName>net35.ReachFramework</LogicalName>
             <Link>Resources\net35\ReachFramework.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\sysglobl.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\sysglobl.dll" WithCulture="false">
             <LogicalName>net35.sysglobl</LogicalName>
             <Link>Resources\net35\sysglobl.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.AddIn.Contract.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.AddIn.Contract.dll" WithCulture="false">
             <LogicalName>net35.System.AddIn.Contract</LogicalName>
             <Link>Resources\net35\System.AddIn.Contract.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.AddIn.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.AddIn.dll" WithCulture="false">
             <LogicalName>net35.System.AddIn</LogicalName>
             <Link>Resources\net35\System.AddIn.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.ComponentModel.DataAnnotations.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.ComponentModel.DataAnnotations.dll" WithCulture="false">
             <LogicalName>net35.System.ComponentModel.DataAnnotations</LogicalName>
             <Link>Resources\net35\System.ComponentModel.DataAnnotations.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Configuration.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Configuration.dll" WithCulture="false">
             <LogicalName>net35.System.Configuration</LogicalName>
             <Link>Resources\net35\System.Configuration.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Configuration.Install.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Configuration.Install.dll" WithCulture="false">
             <LogicalName>net35.System.Configuration.Install</LogicalName>
             <Link>Resources\net35\System.Configuration.Install.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Core.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Core.dll" WithCulture="false">
             <LogicalName>net35.System.Core</LogicalName>
             <Link>Resources\net35\System.Core.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Data.DataSetExtensions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Data.DataSetExtensions.dll" WithCulture="false">
             <LogicalName>net35.System.Data.DataSetExtensions</LogicalName>
             <Link>Resources\net35\System.Data.DataSetExtensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Data.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Data.dll" WithCulture="false">
             <LogicalName>net35.System.Data</LogicalName>
             <Link>Resources\net35\System.Data.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Data.Entity.Design.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Data.Entity.Design.dll" WithCulture="false">
             <LogicalName>net35.System.Data.Entity.Design</LogicalName>
             <Link>Resources\net35\System.Data.Entity.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Data.Entity.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Data.Entity.dll" WithCulture="false">
             <LogicalName>net35.System.Data.Entity</LogicalName>
             <Link>Resources\net35\System.Data.Entity.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Data.Linq.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Data.Linq.dll" WithCulture="false">
             <LogicalName>net35.System.Data.Linq</LogicalName>
             <Link>Resources\net35\System.Data.Linq.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Data.OracleClient.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Data.OracleClient.dll" WithCulture="false">
             <LogicalName>net35.System.Data.OracleClient</LogicalName>
             <Link>Resources\net35\System.Data.OracleClient.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Data.Services.Client.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Data.Services.Client.dll" WithCulture="false">
             <LogicalName>net35.System.Data.Services.Client</LogicalName>
             <Link>Resources\net35\System.Data.Services.Client.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Data.Services.Design.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Data.Services.Design.dll" WithCulture="false">
             <LogicalName>net35.System.Data.Services.Design</LogicalName>
             <Link>Resources\net35\System.Data.Services.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Data.Services.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Data.Services.dll" WithCulture="false">
             <LogicalName>net35.System.Data.Services</LogicalName>
             <Link>Resources\net35\System.Data.Services.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Data.SqlXml.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Data.SqlXml.dll" WithCulture="false">
             <LogicalName>net35.System.Data.SqlXml</LogicalName>
             <Link>Resources\net35\System.Data.SqlXml.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Deployment.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Deployment.dll" WithCulture="false">
             <LogicalName>net35.System.Deployment</LogicalName>
             <Link>Resources\net35\System.Deployment.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Design.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Design.dll" WithCulture="false">
             <LogicalName>net35.System.Design</LogicalName>
             <Link>Resources\net35\System.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.DirectoryServices.AccountManagement.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.DirectoryServices.AccountManagement.dll" WithCulture="false">
             <LogicalName>net35.System.DirectoryServices.AccountManagement</LogicalName>
             <Link>Resources\net35\System.DirectoryServices.AccountManagement.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.DirectoryServices.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.DirectoryServices.dll" WithCulture="false">
             <LogicalName>net35.System.DirectoryServices</LogicalName>
             <Link>Resources\net35\System.DirectoryServices.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.DirectoryServices.Protocols.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.DirectoryServices.Protocols.dll" WithCulture="false">
             <LogicalName>net35.System.DirectoryServices.Protocols</LogicalName>
             <Link>Resources\net35\System.DirectoryServices.Protocols.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.dll" WithCulture="false">
             <LogicalName>net35.System</LogicalName>
             <Link>Resources\net35\System.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Drawing.Design.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Drawing.Design.dll" WithCulture="false">
             <LogicalName>net35.System.Drawing.Design</LogicalName>
             <Link>Resources\net35\System.Drawing.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Drawing.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Drawing.dll" WithCulture="false">
             <LogicalName>net35.System.Drawing</LogicalName>
             <Link>Resources\net35\System.Drawing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.EnterpriseServices.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.EnterpriseServices.dll" WithCulture="false">
             <LogicalName>net35.System.EnterpriseServices</LogicalName>
             <Link>Resources\net35\System.EnterpriseServices.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.IdentityModel.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.IdentityModel.dll" WithCulture="false">
             <LogicalName>net35.System.IdentityModel</LogicalName>
             <Link>Resources\net35\System.IdentityModel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.IdentityModel.Selectors.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.IdentityModel.Selectors.dll" WithCulture="false">
             <LogicalName>net35.System.IdentityModel.Selectors</LogicalName>
             <Link>Resources\net35\System.IdentityModel.Selectors.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.IO.Log.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.IO.Log.dll" WithCulture="false">
             <LogicalName>net35.System.IO.Log</LogicalName>
             <Link>Resources\net35\System.IO.Log.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Management.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Management.dll" WithCulture="false">
             <LogicalName>net35.System.Management</LogicalName>
             <Link>Resources\net35\System.Management.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Management.Instrumentation.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Management.Instrumentation.dll" WithCulture="false">
             <LogicalName>net35.System.Management.Instrumentation</LogicalName>
             <Link>Resources\net35\System.Management.Instrumentation.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Messaging.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Messaging.dll" WithCulture="false">
             <LogicalName>net35.System.Messaging</LogicalName>
             <Link>Resources\net35\System.Messaging.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Net.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Net.dll" WithCulture="false">
             <LogicalName>net35.System.Net</LogicalName>
             <Link>Resources\net35\System.Net.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Printing.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Printing.dll" WithCulture="false">
             <LogicalName>net35.System.Printing</LogicalName>
             <Link>Resources\net35\System.Printing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Runtime.Remoting.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Runtime.Remoting.dll" WithCulture="false">
             <LogicalName>net35.System.Runtime.Remoting</LogicalName>
             <Link>Resources\net35\System.Runtime.Remoting.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Runtime.Serialization.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Runtime.Serialization.dll" WithCulture="false">
             <LogicalName>net35.System.Runtime.Serialization</LogicalName>
             <Link>Resources\net35\System.Runtime.Serialization.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Runtime.Serialization.Formatters.Soap.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Runtime.Serialization.Formatters.Soap.dll" WithCulture="false">
             <LogicalName>net35.System.Runtime.Serialization.Formatters.Soap</LogicalName>
             <Link>Resources\net35\System.Runtime.Serialization.Formatters.Soap.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Security.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Security.dll" WithCulture="false">
             <LogicalName>net35.System.Security</LogicalName>
             <Link>Resources\net35\System.Security.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.ServiceModel.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.ServiceModel.dll" WithCulture="false">
             <LogicalName>net35.System.ServiceModel</LogicalName>
             <Link>Resources\net35\System.ServiceModel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.ServiceModel.Web.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.ServiceModel.Web.dll" WithCulture="false">
             <LogicalName>net35.System.ServiceModel.Web</LogicalName>
             <Link>Resources\net35\System.ServiceModel.Web.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.ServiceProcess.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.ServiceProcess.dll" WithCulture="false">
             <LogicalName>net35.System.ServiceProcess</LogicalName>
             <Link>Resources\net35\System.ServiceProcess.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Speech.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Speech.dll" WithCulture="false">
             <LogicalName>net35.System.Speech</LogicalName>
             <Link>Resources\net35\System.Speech.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Transactions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Transactions.dll" WithCulture="false">
             <LogicalName>net35.System.Transactions</LogicalName>
             <Link>Resources\net35\System.Transactions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Web.Abstractions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Web.Abstractions.dll" WithCulture="false">
             <LogicalName>net35.System.Web.Abstractions</LogicalName>
             <Link>Resources\net35\System.Web.Abstractions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Web.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Web.dll" WithCulture="false">
             <LogicalName>net35.System.Web</LogicalName>
             <Link>Resources\net35\System.Web.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Web.DynamicData.Design.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Web.DynamicData.Design.dll" WithCulture="false">
             <LogicalName>net35.System.Web.DynamicData.Design</LogicalName>
             <Link>Resources\net35\System.Web.DynamicData.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Web.DynamicData.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Web.DynamicData.dll" WithCulture="false">
             <LogicalName>net35.System.Web.DynamicData</LogicalName>
             <Link>Resources\net35\System.Web.DynamicData.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Web.Entity.Design.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Web.Entity.Design.dll" WithCulture="false">
             <LogicalName>net35.System.Web.Entity.Design</LogicalName>
             <Link>Resources\net35\System.Web.Entity.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Web.Entity.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Web.Entity.dll" WithCulture="false">
             <LogicalName>net35.System.Web.Entity</LogicalName>
             <Link>Resources\net35\System.Web.Entity.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Web.Extensions.Design.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Web.Extensions.Design.dll" WithCulture="false">
             <LogicalName>net35.System.Web.Extensions.Design</LogicalName>
             <Link>Resources\net35\System.Web.Extensions.Design.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Web.Extensions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Web.Extensions.dll" WithCulture="false">
             <LogicalName>net35.System.Web.Extensions</LogicalName>
             <Link>Resources\net35\System.Web.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Web.Mobile.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Web.Mobile.dll" WithCulture="false">
             <LogicalName>net35.System.Web.Mobile</LogicalName>
             <Link>Resources\net35\System.Web.Mobile.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Web.RegularExpressions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Web.RegularExpressions.dll" WithCulture="false">
             <LogicalName>net35.System.Web.RegularExpressions</LogicalName>
             <Link>Resources\net35\System.Web.RegularExpressions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Web.Routing.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Web.Routing.dll" WithCulture="false">
             <LogicalName>net35.System.Web.Routing</LogicalName>
             <Link>Resources\net35\System.Web.Routing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Web.Services.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Web.Services.dll" WithCulture="false">
             <LogicalName>net35.System.Web.Services</LogicalName>
             <Link>Resources\net35\System.Web.Services.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Windows.Forms.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Windows.Forms.dll" WithCulture="false">
             <LogicalName>net35.System.Windows.Forms</LogicalName>
             <Link>Resources\net35\System.Windows.Forms.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Windows.Presentation.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Windows.Presentation.dll" WithCulture="false">
             <LogicalName>net35.System.Windows.Presentation</LogicalName>
             <Link>Resources\net35\System.Windows.Presentation.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Workflow.Activities.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Workflow.Activities.dll" WithCulture="false">
             <LogicalName>net35.System.Workflow.Activities</LogicalName>
             <Link>Resources\net35\System.Workflow.Activities.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Workflow.ComponentModel.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Workflow.ComponentModel.dll" WithCulture="false">
             <LogicalName>net35.System.Workflow.ComponentModel</LogicalName>
             <Link>Resources\net35\System.Workflow.ComponentModel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Workflow.Runtime.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Workflow.Runtime.dll" WithCulture="false">
             <LogicalName>net35.System.Workflow.Runtime</LogicalName>
             <Link>Resources\net35\System.Workflow.Runtime.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.WorkflowServices.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.WorkflowServices.dll" WithCulture="false">
             <LogicalName>net35.System.WorkflowServices</LogicalName>
             <Link>Resources\net35\System.WorkflowServices.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Xml.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Xml.dll" WithCulture="false">
             <LogicalName>net35.System.Xml</LogicalName>
             <Link>Resources\net35\System.Xml.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\System.Xml.Linq.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\System.Xml.Linq.dll" WithCulture="false">
             <LogicalName>net35.System.Xml.Linq</LogicalName>
             <Link>Resources\net35\System.Xml.Linq.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\UIAutomationClient.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\UIAutomationClient.dll" WithCulture="false">
             <LogicalName>net35.UIAutomationClient</LogicalName>
             <Link>Resources\net35\UIAutomationClient.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\UIAutomationClientsideProviders.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\UIAutomationClientsideProviders.dll" WithCulture="false">
             <LogicalName>net35.UIAutomationClientsideProviders</LogicalName>
             <Link>Resources\net35\UIAutomationClientsideProviders.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\UIAutomationProvider.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\UIAutomationProvider.dll" WithCulture="false">
             <LogicalName>net35.UIAutomationProvider</LogicalName>
             <Link>Resources\net35\UIAutomationProvider.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\UIAutomationTypes.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\UIAutomationTypes.dll" WithCulture="false">
             <LogicalName>net35.UIAutomationTypes</LogicalName>
             <Link>Resources\net35\UIAutomationTypes.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\WindowsBase.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\WindowsBase.dll" WithCulture="false">
             <LogicalName>net35.WindowsBase</LogicalName>
             <Link>Resources\net35\WindowsBase.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35\1.0.3\build\.NETFramework\v3.5\WindowsFormsIntegration.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netframework.referenceassemblies.net35/1.0.3/build/.NETFramework/v3.5\WindowsFormsIntegration.dll" WithCulture="false">
             <LogicalName>net35.WindowsFormsIntegration</LogicalName>
             <Link>Resources\net35\WindowsFormsIntegration.dll</Link>
         </EmbeddedResource>

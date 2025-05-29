@@ -24,9 +24,6 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore
 
-      - name: Run Generator
-        run: dotnet run --project Src/Generate/
-
       - name: Build
         run: dotnet build --no-restore -bl
 

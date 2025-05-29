@@ -7,7 +7,7 @@ using System.Linq;
 using Microsoft.CodeAnalysis;
 
 namespace Basic.Reference.Assemblies;
-public static partial class AspNet90
+public static partial class AspNet100
 {
     public static class ReferenceInfos
     {
@@ -15,1512 +15,1522 @@ public static partial class AspNet90
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.CSharp.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftCSharp => new ReferenceInfo("Microsoft.CSharp.dll", Resources.MicrosoftCSharp, AspNet90.References.MicrosoftCSharp, global::System.Guid.Parse("59d5c5aa-21d8-4184-8801-e8fa4cae7ab6"));
+        public static ReferenceInfo MicrosoftCSharp => new ReferenceInfo("Microsoft.CSharp.dll", Resources.MicrosoftCSharp, AspNet100.References.MicrosoftCSharp, global::System.Guid.Parse("a01be337-bbcd-45e1-a69f-c2cbb9b90323"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.Core.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftVisualBasicCore => new ReferenceInfo("Microsoft.VisualBasic.Core.dll", Resources.MicrosoftVisualBasicCore, AspNet90.References.MicrosoftVisualBasicCore, global::System.Guid.Parse("7393c2b8-e20d-45c7-83a6-d506dadcfb58"));
+        public static ReferenceInfo MicrosoftVisualBasicCore => new ReferenceInfo("Microsoft.VisualBasic.Core.dll", Resources.MicrosoftVisualBasicCore, AspNet100.References.MicrosoftVisualBasicCore, global::System.Guid.Parse("e1310f6e-0bb3-4990-9f0f-eac9821f5553"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftVisualBasic => new ReferenceInfo("Microsoft.VisualBasic.dll", Resources.MicrosoftVisualBasic, AspNet90.References.MicrosoftVisualBasic, global::System.Guid.Parse("5fdf4026-bcd3-4d35-94fc-6a8a744d52d0"));
+        public static ReferenceInfo MicrosoftVisualBasic => new ReferenceInfo("Microsoft.VisualBasic.dll", Resources.MicrosoftVisualBasic, AspNet100.References.MicrosoftVisualBasic, global::System.Guid.Parse("247817d0-f1a4-4e4d-9e59-c9b89d7f30ff"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Win32.Primitives.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftWin32Primitives => new ReferenceInfo("Microsoft.Win32.Primitives.dll", Resources.MicrosoftWin32Primitives, AspNet90.References.MicrosoftWin32Primitives, global::System.Guid.Parse("c151fd1b-2b75-46d1-9a2e-697286d900dc"));
+        public static ReferenceInfo MicrosoftWin32Primitives => new ReferenceInfo("Microsoft.Win32.Primitives.dll", Resources.MicrosoftWin32Primitives, AspNet100.References.MicrosoftWin32Primitives, global::System.Guid.Parse("0872b640-d73a-48b8-ad08-fb9abcf675aa"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Win32.Registry.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftWin32Registry => new ReferenceInfo("Microsoft.Win32.Registry.dll", Resources.MicrosoftWin32Registry, AspNet90.References.MicrosoftWin32Registry, global::System.Guid.Parse("f43e7da3-213c-4bed-98b4-21f899f1a41d"));
+        public static ReferenceInfo MicrosoftWin32Registry => new ReferenceInfo("Microsoft.Win32.Registry.dll", Resources.MicrosoftWin32Registry, AspNet100.References.MicrosoftWin32Registry, global::System.Guid.Parse("747261c1-2193-481c-8a34-32bd8b2afe11"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for mscorlib.dll
         /// </summary>
-        public static ReferenceInfo mscorlib => new ReferenceInfo("mscorlib.dll", Resources.mscorlib, AspNet90.References.mscorlib, global::System.Guid.Parse("1c6b895a-648a-4a9d-8e87-bcd9cf4018c1"));
+        public static ReferenceInfo mscorlib => new ReferenceInfo("mscorlib.dll", Resources.mscorlib, AspNet100.References.mscorlib, global::System.Guid.Parse("6ea6e3b4-9452-4b20-80d7-76b02ac68d69"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for netstandard.dll
         /// </summary>
-        public static ReferenceInfo netstandard => new ReferenceInfo("netstandard.dll", Resources.netstandard, AspNet90.References.netstandard, global::System.Guid.Parse("6291998e-e3f6-4164-8774-d0434deceb2d"));
+        public static ReferenceInfo netstandard => new ReferenceInfo("netstandard.dll", Resources.netstandard, AspNet100.References.netstandard, global::System.Guid.Parse("dfbd144a-e582-43e1-897a-ac9297310600"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.AppContext.dll
         /// </summary>
-        public static ReferenceInfo SystemAppContext => new ReferenceInfo("System.AppContext.dll", Resources.SystemAppContext, AspNet90.References.SystemAppContext, global::System.Guid.Parse("d8212879-580f-43b3-8d74-d9dc3a2b4f1b"));
+        public static ReferenceInfo SystemAppContext => new ReferenceInfo("System.AppContext.dll", Resources.SystemAppContext, AspNet100.References.SystemAppContext, global::System.Guid.Parse("7861ecb3-f3a4-4e5d-903e-5db6fde3f49f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Buffers.dll
         /// </summary>
-        public static ReferenceInfo SystemBuffers => new ReferenceInfo("System.Buffers.dll", Resources.SystemBuffers, AspNet90.References.SystemBuffers, global::System.Guid.Parse("52255cf9-e0fd-40e0-ab52-10a336b8251c"));
+        public static ReferenceInfo SystemBuffers => new ReferenceInfo("System.Buffers.dll", Resources.SystemBuffers, AspNet100.References.SystemBuffers, global::System.Guid.Parse("f1e8030f-038e-425d-9308-c70eb48055b2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Collections.Concurrent.dll
         /// </summary>
-        public static ReferenceInfo SystemCollectionsConcurrent => new ReferenceInfo("System.Collections.Concurrent.dll", Resources.SystemCollectionsConcurrent, AspNet90.References.SystemCollectionsConcurrent, global::System.Guid.Parse("7e5e080f-b6ee-4d7c-8be9-15b1efa45205"));
+        public static ReferenceInfo SystemCollectionsConcurrent => new ReferenceInfo("System.Collections.Concurrent.dll", Resources.SystemCollectionsConcurrent, AspNet100.References.SystemCollectionsConcurrent, global::System.Guid.Parse("a7ac8f71-ae0d-487b-9420-e159ce84c63b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Collections.dll
         /// </summary>
-        public static ReferenceInfo SystemCollections => new ReferenceInfo("System.Collections.dll", Resources.SystemCollections, AspNet90.References.SystemCollections, global::System.Guid.Parse("0e9f52f8-d78c-4d16-a0c8-acc4bea76e8a"));
+        public static ReferenceInfo SystemCollections => new ReferenceInfo("System.Collections.dll", Resources.SystemCollections, AspNet100.References.SystemCollections, global::System.Guid.Parse("bddcefea-de87-4aea-89a2-90e549cc8d4d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Collections.Immutable.dll
         /// </summary>
-        public static ReferenceInfo SystemCollectionsImmutable => new ReferenceInfo("System.Collections.Immutable.dll", Resources.SystemCollectionsImmutable, AspNet90.References.SystemCollectionsImmutable, global::System.Guid.Parse("203c4fca-5aa4-4c78-9a81-002bd1f48fe7"));
+        public static ReferenceInfo SystemCollectionsImmutable => new ReferenceInfo("System.Collections.Immutable.dll", Resources.SystemCollectionsImmutable, AspNet100.References.SystemCollectionsImmutable, global::System.Guid.Parse("45d99322-820e-4367-befa-71e7bf219d2d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Collections.NonGeneric.dll
         /// </summary>
-        public static ReferenceInfo SystemCollectionsNonGeneric => new ReferenceInfo("System.Collections.NonGeneric.dll", Resources.SystemCollectionsNonGeneric, AspNet90.References.SystemCollectionsNonGeneric, global::System.Guid.Parse("a00181a4-efac-4423-b248-4070baa81dcb"));
+        public static ReferenceInfo SystemCollectionsNonGeneric => new ReferenceInfo("System.Collections.NonGeneric.dll", Resources.SystemCollectionsNonGeneric, AspNet100.References.SystemCollectionsNonGeneric, global::System.Guid.Parse("05fdd0c9-227d-4426-a99c-32dba7845f0c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Collections.Specialized.dll
         /// </summary>
-        public static ReferenceInfo SystemCollectionsSpecialized => new ReferenceInfo("System.Collections.Specialized.dll", Resources.SystemCollectionsSpecialized, AspNet90.References.SystemCollectionsSpecialized, global::System.Guid.Parse("9cdc72cc-fe2e-4130-b79f-9ef03bf980e6"));
+        public static ReferenceInfo SystemCollectionsSpecialized => new ReferenceInfo("System.Collections.Specialized.dll", Resources.SystemCollectionsSpecialized, AspNet100.References.SystemCollectionsSpecialized, global::System.Guid.Parse("7067bed8-497a-4bd2-9401-f18b7d62dc46"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.Annotations.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModelAnnotations => new ReferenceInfo("System.ComponentModel.Annotations.dll", Resources.SystemComponentModelAnnotations, AspNet90.References.SystemComponentModelAnnotations, global::System.Guid.Parse("97ae1cbb-22dd-4a0d-b14b-8f6e04d819c5"));
+        public static ReferenceInfo SystemComponentModelAnnotations => new ReferenceInfo("System.ComponentModel.Annotations.dll", Resources.SystemComponentModelAnnotations, AspNet100.References.SystemComponentModelAnnotations, global::System.Guid.Parse("d6a9e3ae-06b4-4ce7-8ea9-ef4eba5c30f6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.DataAnnotations.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModelDataAnnotations => new ReferenceInfo("System.ComponentModel.DataAnnotations.dll", Resources.SystemComponentModelDataAnnotations, AspNet90.References.SystemComponentModelDataAnnotations, global::System.Guid.Parse("03695ca4-604d-423e-ab1a-2c01f6344463"));
+        public static ReferenceInfo SystemComponentModelDataAnnotations => new ReferenceInfo("System.ComponentModel.DataAnnotations.dll", Resources.SystemComponentModelDataAnnotations, AspNet100.References.SystemComponentModelDataAnnotations, global::System.Guid.Parse("8b55a282-ad7e-4bca-911c-7d5bbd03cdf7"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModel => new ReferenceInfo("System.ComponentModel.dll", Resources.SystemComponentModel, AspNet90.References.SystemComponentModel, global::System.Guid.Parse("cabfb8bc-1a4e-4c15-8077-6d0d00defc36"));
+        public static ReferenceInfo SystemComponentModel => new ReferenceInfo("System.ComponentModel.dll", Resources.SystemComponentModel, AspNet100.References.SystemComponentModel, global::System.Guid.Parse("a6003976-b6c9-48de-83c8-b69b01d80505"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.EventBasedAsync.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModelEventBasedAsync => new ReferenceInfo("System.ComponentModel.EventBasedAsync.dll", Resources.SystemComponentModelEventBasedAsync, AspNet90.References.SystemComponentModelEventBasedAsync, global::System.Guid.Parse("93039088-1402-47e9-88ff-0d548a0c1df9"));
+        public static ReferenceInfo SystemComponentModelEventBasedAsync => new ReferenceInfo("System.ComponentModel.EventBasedAsync.dll", Resources.SystemComponentModelEventBasedAsync, AspNet100.References.SystemComponentModelEventBasedAsync, global::System.Guid.Parse("d9ffacae-5749-45c6-a7b0-f4830b1d7398"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModelPrimitives => new ReferenceInfo("System.ComponentModel.Primitives.dll", Resources.SystemComponentModelPrimitives, AspNet90.References.SystemComponentModelPrimitives, global::System.Guid.Parse("6cd52a08-3bc8-4ce6-87a8-14d760ceea88"));
+        public static ReferenceInfo SystemComponentModelPrimitives => new ReferenceInfo("System.ComponentModel.Primitives.dll", Resources.SystemComponentModelPrimitives, AspNet100.References.SystemComponentModelPrimitives, global::System.Guid.Parse("93202aa6-6cb5-4b1f-9d0e-c54cbf439e12"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.TypeConverter.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModelTypeConverter => new ReferenceInfo("System.ComponentModel.TypeConverter.dll", Resources.SystemComponentModelTypeConverter, AspNet90.References.SystemComponentModelTypeConverter, global::System.Guid.Parse("c06e9220-9d99-4c97-856e-40f79cb079d1"));
+        public static ReferenceInfo SystemComponentModelTypeConverter => new ReferenceInfo("System.ComponentModel.TypeConverter.dll", Resources.SystemComponentModelTypeConverter, AspNet100.References.SystemComponentModelTypeConverter, global::System.Guid.Parse("c0cbcc49-66df-410e-8fce-472becce2eb9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Configuration.dll
         /// </summary>
-        public static ReferenceInfo SystemConfiguration => new ReferenceInfo("System.Configuration.dll", Resources.SystemConfiguration, AspNet90.References.SystemConfiguration, global::System.Guid.Parse("31368206-c4c9-4cce-a062-33e74d15a63a"));
+        public static ReferenceInfo SystemConfiguration => new ReferenceInfo("System.Configuration.dll", Resources.SystemConfiguration, AspNet100.References.SystemConfiguration, global::System.Guid.Parse("5e341035-818a-4b91-b472-9516d8729be0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Console.dll
         /// </summary>
-        public static ReferenceInfo SystemConsole => new ReferenceInfo("System.Console.dll", Resources.SystemConsole, AspNet90.References.SystemConsole, global::System.Guid.Parse("786956ec-934b-4be2-9db8-09750edc9dec"));
+        public static ReferenceInfo SystemConsole => new ReferenceInfo("System.Console.dll", Resources.SystemConsole, AspNet100.References.SystemConsole, global::System.Guid.Parse("efc5f9c3-4a41-4b69-8235-fd3fd0e80bac"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Core.dll
         /// </summary>
-        public static ReferenceInfo SystemCore => new ReferenceInfo("System.Core.dll", Resources.SystemCore, AspNet90.References.SystemCore, global::System.Guid.Parse("4eb2efd0-d2a5-4349-aacf-fec45bdb9899"));
+        public static ReferenceInfo SystemCore => new ReferenceInfo("System.Core.dll", Resources.SystemCore, AspNet100.References.SystemCore, global::System.Guid.Parse("59087356-b596-4746-b429-32a0b1bebaf6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Data.Common.dll
         /// </summary>
-        public static ReferenceInfo SystemDataCommon => new ReferenceInfo("System.Data.Common.dll", Resources.SystemDataCommon, AspNet90.References.SystemDataCommon, global::System.Guid.Parse("e2406361-c242-4337-9f5b-4210fff957fe"));
+        public static ReferenceInfo SystemDataCommon => new ReferenceInfo("System.Data.Common.dll", Resources.SystemDataCommon, AspNet100.References.SystemDataCommon, global::System.Guid.Parse("3a79fcbc-20d8-413e-af46-4d3d000ad340"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Data.DataSetExtensions.dll
         /// </summary>
-        public static ReferenceInfo SystemDataDataSetExtensions => new ReferenceInfo("System.Data.DataSetExtensions.dll", Resources.SystemDataDataSetExtensions, AspNet90.References.SystemDataDataSetExtensions, global::System.Guid.Parse("c139b6b3-e5ca-4249-97ce-c5b4f42acd08"));
+        public static ReferenceInfo SystemDataDataSetExtensions => new ReferenceInfo("System.Data.DataSetExtensions.dll", Resources.SystemDataDataSetExtensions, AspNet100.References.SystemDataDataSetExtensions, global::System.Guid.Parse("abb42700-a6c9-4a70-8a19-14383f13fbd9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Data.dll
         /// </summary>
-        public static ReferenceInfo SystemData => new ReferenceInfo("System.Data.dll", Resources.SystemData, AspNet90.References.SystemData, global::System.Guid.Parse("7d483f5f-802e-428d-9993-e6d9cbde07d4"));
+        public static ReferenceInfo SystemData => new ReferenceInfo("System.Data.dll", Resources.SystemData, AspNet100.References.SystemData, global::System.Guid.Parse("89a524f1-3766-4256-85fc-240adc64a25a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Contracts.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsContracts => new ReferenceInfo("System.Diagnostics.Contracts.dll", Resources.SystemDiagnosticsContracts, AspNet90.References.SystemDiagnosticsContracts, global::System.Guid.Parse("498e7bf9-12fe-4071-b177-7812f6c28895"));
+        public static ReferenceInfo SystemDiagnosticsContracts => new ReferenceInfo("System.Diagnostics.Contracts.dll", Resources.SystemDiagnosticsContracts, AspNet100.References.SystemDiagnosticsContracts, global::System.Guid.Parse("89e52919-5b29-45f8-b5c6-c1f979cfc4fb"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Debug.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsDebug => new ReferenceInfo("System.Diagnostics.Debug.dll", Resources.SystemDiagnosticsDebug, AspNet90.References.SystemDiagnosticsDebug, global::System.Guid.Parse("6d45d01a-8ea4-4281-a3e8-e008091569d9"));
+        public static ReferenceInfo SystemDiagnosticsDebug => new ReferenceInfo("System.Diagnostics.Debug.dll", Resources.SystemDiagnosticsDebug, AspNet100.References.SystemDiagnosticsDebug, global::System.Guid.Parse("16da7ce5-c81c-4a82-9827-5bd008562b98"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.DiagnosticSource.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsDiagnosticSource => new ReferenceInfo("System.Diagnostics.DiagnosticSource.dll", Resources.SystemDiagnosticsDiagnosticSource, AspNet90.References.SystemDiagnosticsDiagnosticSource, global::System.Guid.Parse("91a92ebb-62e2-4d1a-9ae1-6c65c447907c"));
+        public static ReferenceInfo SystemDiagnosticsDiagnosticSource => new ReferenceInfo("System.Diagnostics.DiagnosticSource.dll", Resources.SystemDiagnosticsDiagnosticSource, AspNet100.References.SystemDiagnosticsDiagnosticSource, global::System.Guid.Parse("7e7dc90d-5a90-4fcd-9267-44e0f19ad4c4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.FileVersionInfo.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsFileVersionInfo => new ReferenceInfo("System.Diagnostics.FileVersionInfo.dll", Resources.SystemDiagnosticsFileVersionInfo, AspNet90.References.SystemDiagnosticsFileVersionInfo, global::System.Guid.Parse("1f42025c-ac76-4e36-b742-2e3fad73ab5c"));
+        public static ReferenceInfo SystemDiagnosticsFileVersionInfo => new ReferenceInfo("System.Diagnostics.FileVersionInfo.dll", Resources.SystemDiagnosticsFileVersionInfo, AspNet100.References.SystemDiagnosticsFileVersionInfo, global::System.Guid.Parse("f47b7d88-036a-4957-b5f2-9827d995b802"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Process.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsProcess => new ReferenceInfo("System.Diagnostics.Process.dll", Resources.SystemDiagnosticsProcess, AspNet90.References.SystemDiagnosticsProcess, global::System.Guid.Parse("3cbf9e0d-61dd-486e-9740-0a5a563cd021"));
+        public static ReferenceInfo SystemDiagnosticsProcess => new ReferenceInfo("System.Diagnostics.Process.dll", Resources.SystemDiagnosticsProcess, AspNet100.References.SystemDiagnosticsProcess, global::System.Guid.Parse("385cd1bf-6a6a-4949-9f28-ac63802ae4e4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.StackTrace.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsStackTrace => new ReferenceInfo("System.Diagnostics.StackTrace.dll", Resources.SystemDiagnosticsStackTrace, AspNet90.References.SystemDiagnosticsStackTrace, global::System.Guid.Parse("2a7357d4-2dd8-49c4-b314-6714102436ea"));
+        public static ReferenceInfo SystemDiagnosticsStackTrace => new ReferenceInfo("System.Diagnostics.StackTrace.dll", Resources.SystemDiagnosticsStackTrace, AspNet100.References.SystemDiagnosticsStackTrace, global::System.Guid.Parse("129b4ff3-afd5-417c-8d1f-c6dfe34570ce"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.TextWriterTraceListener.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsTextWriterTraceListener => new ReferenceInfo("System.Diagnostics.TextWriterTraceListener.dll", Resources.SystemDiagnosticsTextWriterTraceListener, AspNet90.References.SystemDiagnosticsTextWriterTraceListener, global::System.Guid.Parse("0f07d796-3c89-45e4-afd6-d06bd478ddaf"));
+        public static ReferenceInfo SystemDiagnosticsTextWriterTraceListener => new ReferenceInfo("System.Diagnostics.TextWriterTraceListener.dll", Resources.SystemDiagnosticsTextWriterTraceListener, AspNet100.References.SystemDiagnosticsTextWriterTraceListener, global::System.Guid.Parse("1c86bee3-f154-4244-aa13-8926c346cf14"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Tools.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsTools => new ReferenceInfo("System.Diagnostics.Tools.dll", Resources.SystemDiagnosticsTools, AspNet90.References.SystemDiagnosticsTools, global::System.Guid.Parse("5ded8562-b6da-4130-a107-da06ca1f6ffc"));
+        public static ReferenceInfo SystemDiagnosticsTools => new ReferenceInfo("System.Diagnostics.Tools.dll", Resources.SystemDiagnosticsTools, AspNet100.References.SystemDiagnosticsTools, global::System.Guid.Parse("209726fa-db47-4885-ad8e-f8f1709a5e45"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.TraceSource.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsTraceSource => new ReferenceInfo("System.Diagnostics.TraceSource.dll", Resources.SystemDiagnosticsTraceSource, AspNet90.References.SystemDiagnosticsTraceSource, global::System.Guid.Parse("49062f49-0b32-45aa-bb83-e1b7e46bd8fe"));
+        public static ReferenceInfo SystemDiagnosticsTraceSource => new ReferenceInfo("System.Diagnostics.TraceSource.dll", Resources.SystemDiagnosticsTraceSource, AspNet100.References.SystemDiagnosticsTraceSource, global::System.Guid.Parse("25debc85-e57c-4af5-bb7a-220da9e27b58"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Tracing.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsTracing => new ReferenceInfo("System.Diagnostics.Tracing.dll", Resources.SystemDiagnosticsTracing, AspNet90.References.SystemDiagnosticsTracing, global::System.Guid.Parse("9d1cbe75-460a-46a1-b836-f821b402f87f"));
+        public static ReferenceInfo SystemDiagnosticsTracing => new ReferenceInfo("System.Diagnostics.Tracing.dll", Resources.SystemDiagnosticsTracing, AspNet100.References.SystemDiagnosticsTracing, global::System.Guid.Parse("b0ea961c-9d2f-47c8-bf5c-58da1524bbb5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.dll
         /// </summary>
-        public static ReferenceInfo System => new ReferenceInfo("System.dll", Resources.System, AspNet90.References.System, global::System.Guid.Parse("3977a5f9-ed9c-4aed-8a90-d530f219feda"));
+        public static ReferenceInfo System => new ReferenceInfo("System.dll", Resources.System, AspNet100.References.System, global::System.Guid.Parse("cee329b2-6dae-4525-bd38-7db85ce93da3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Drawing.dll
         /// </summary>
-        public static ReferenceInfo SystemDrawing => new ReferenceInfo("System.Drawing.dll", Resources.SystemDrawing, AspNet90.References.SystemDrawing, global::System.Guid.Parse("5f099ffa-a6a1-457c-b47f-6360f6a5fb45"));
+        public static ReferenceInfo SystemDrawing => new ReferenceInfo("System.Drawing.dll", Resources.SystemDrawing, AspNet100.References.SystemDrawing, global::System.Guid.Parse("953e7c93-dee3-42af-8f0f-e96f5f39c734"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Drawing.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemDrawingPrimitives => new ReferenceInfo("System.Drawing.Primitives.dll", Resources.SystemDrawingPrimitives, AspNet90.References.SystemDrawingPrimitives, global::System.Guid.Parse("facdd775-21e8-4b1c-9ff5-0053fe1497e2"));
+        public static ReferenceInfo SystemDrawingPrimitives => new ReferenceInfo("System.Drawing.Primitives.dll", Resources.SystemDrawingPrimitives, AspNet100.References.SystemDrawingPrimitives, global::System.Guid.Parse("cee14835-a934-491a-b134-0c98671651fd"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Dynamic.Runtime.dll
         /// </summary>
-        public static ReferenceInfo SystemDynamicRuntime => new ReferenceInfo("System.Dynamic.Runtime.dll", Resources.SystemDynamicRuntime, AspNet90.References.SystemDynamicRuntime, global::System.Guid.Parse("668095b2-cc9d-4b84-b1ea-6a3e0964e0a7"));
+        public static ReferenceInfo SystemDynamicRuntime => new ReferenceInfo("System.Dynamic.Runtime.dll", Resources.SystemDynamicRuntime, AspNet100.References.SystemDynamicRuntime, global::System.Guid.Parse("ee68cfb4-65dd-4848-bf4f-03af045f37dd"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Formats.Asn1.dll
         /// </summary>
-        public static ReferenceInfo SystemFormatsAsn1 => new ReferenceInfo("System.Formats.Asn1.dll", Resources.SystemFormatsAsn1, AspNet90.References.SystemFormatsAsn1, global::System.Guid.Parse("27dffe6e-8441-41e3-8dcc-f2671fefcd97"));
+        public static ReferenceInfo SystemFormatsAsn1 => new ReferenceInfo("System.Formats.Asn1.dll", Resources.SystemFormatsAsn1, AspNet100.References.SystemFormatsAsn1, global::System.Guid.Parse("a0cdf1e7-6ba5-4830-b2e9-9738df7493f9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Formats.Tar.dll
         /// </summary>
-        public static ReferenceInfo SystemFormatsTar => new ReferenceInfo("System.Formats.Tar.dll", Resources.SystemFormatsTar, AspNet90.References.SystemFormatsTar, global::System.Guid.Parse("4cec1306-9c3c-491c-91f3-9ebb4b7f83cc"));
+        public static ReferenceInfo SystemFormatsTar => new ReferenceInfo("System.Formats.Tar.dll", Resources.SystemFormatsTar, AspNet100.References.SystemFormatsTar, global::System.Guid.Parse("1b1dfa13-18e0-4c1f-a312-92d1244c8107"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Globalization.Calendars.dll
         /// </summary>
-        public static ReferenceInfo SystemGlobalizationCalendars => new ReferenceInfo("System.Globalization.Calendars.dll", Resources.SystemGlobalizationCalendars, AspNet90.References.SystemGlobalizationCalendars, global::System.Guid.Parse("a0c4a9e0-b729-469c-95ad-49518e3a67a3"));
+        public static ReferenceInfo SystemGlobalizationCalendars => new ReferenceInfo("System.Globalization.Calendars.dll", Resources.SystemGlobalizationCalendars, AspNet100.References.SystemGlobalizationCalendars, global::System.Guid.Parse("4b8f28e7-f24e-4c52-a412-9e2bb0212efd"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Globalization.dll
         /// </summary>
-        public static ReferenceInfo SystemGlobalization => new ReferenceInfo("System.Globalization.dll", Resources.SystemGlobalization, AspNet90.References.SystemGlobalization, global::System.Guid.Parse("93ef8b7a-c542-458e-b90c-fe82f4d0826f"));
+        public static ReferenceInfo SystemGlobalization => new ReferenceInfo("System.Globalization.dll", Resources.SystemGlobalization, AspNet100.References.SystemGlobalization, global::System.Guid.Parse("9dc8bb74-722e-4a59-83bc-2c97d8b40037"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Globalization.Extensions.dll
         /// </summary>
-        public static ReferenceInfo SystemGlobalizationExtensions => new ReferenceInfo("System.Globalization.Extensions.dll", Resources.SystemGlobalizationExtensions, AspNet90.References.SystemGlobalizationExtensions, global::System.Guid.Parse("f863aca8-e884-449e-8d0d-9a06cbe44430"));
+        public static ReferenceInfo SystemGlobalizationExtensions => new ReferenceInfo("System.Globalization.Extensions.dll", Resources.SystemGlobalizationExtensions, AspNet100.References.SystemGlobalizationExtensions, global::System.Guid.Parse("ec5b3c10-56d8-45af-bce1-422f1ab83f40"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Compression.Brotli.dll
         /// </summary>
-        public static ReferenceInfo SystemIOCompressionBrotli => new ReferenceInfo("System.IO.Compression.Brotli.dll", Resources.SystemIOCompressionBrotli, AspNet90.References.SystemIOCompressionBrotli, global::System.Guid.Parse("769e46ac-202e-4eb7-895e-b0d5f794fee0"));
+        public static ReferenceInfo SystemIOCompressionBrotli => new ReferenceInfo("System.IO.Compression.Brotli.dll", Resources.SystemIOCompressionBrotli, AspNet100.References.SystemIOCompressionBrotli, global::System.Guid.Parse("d5417985-7de2-45ba-94df-3528ddb6a8f1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Compression.dll
         /// </summary>
-        public static ReferenceInfo SystemIOCompression => new ReferenceInfo("System.IO.Compression.dll", Resources.SystemIOCompression, AspNet90.References.SystemIOCompression, global::System.Guid.Parse("7f553084-7f73-4884-8de0-ad969b5a6d80"));
+        public static ReferenceInfo SystemIOCompression => new ReferenceInfo("System.IO.Compression.dll", Resources.SystemIOCompression, AspNet100.References.SystemIOCompression, global::System.Guid.Parse("c44fde25-d685-40bb-8533-7024b7bcc919"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Compression.FileSystem.dll
         /// </summary>
-        public static ReferenceInfo SystemIOCompressionFileSystem => new ReferenceInfo("System.IO.Compression.FileSystem.dll", Resources.SystemIOCompressionFileSystem, AspNet90.References.SystemIOCompressionFileSystem, global::System.Guid.Parse("90530c5a-a105-4184-983e-19434fe77fcd"));
+        public static ReferenceInfo SystemIOCompressionFileSystem => new ReferenceInfo("System.IO.Compression.FileSystem.dll", Resources.SystemIOCompressionFileSystem, AspNet100.References.SystemIOCompressionFileSystem, global::System.Guid.Parse("e3de04c3-b71e-4681-90e9-091c701b7cdb"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Compression.ZipFile.dll
         /// </summary>
-        public static ReferenceInfo SystemIOCompressionZipFile => new ReferenceInfo("System.IO.Compression.ZipFile.dll", Resources.SystemIOCompressionZipFile, AspNet90.References.SystemIOCompressionZipFile, global::System.Guid.Parse("4635f59a-5305-4d23-a171-b53f3ef61a0d"));
+        public static ReferenceInfo SystemIOCompressionZipFile => new ReferenceInfo("System.IO.Compression.ZipFile.dll", Resources.SystemIOCompressionZipFile, AspNet100.References.SystemIOCompressionZipFile, global::System.Guid.Parse("605d071e-f3eb-405c-96ab-62a034899aa3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.dll
         /// </summary>
-        public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO, AspNet90.References.SystemIO, global::System.Guid.Parse("80e2d764-8a6b-4635-80b6-3d4f3587e2d5"));
+        public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO, AspNet100.References.SystemIO, global::System.Guid.Parse("e853cd42-5854-4d78-8543-67b7029cbca7"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.AccessControl.dll
         /// </summary>
-        public static ReferenceInfo SystemIOFileSystemAccessControl => new ReferenceInfo("System.IO.FileSystem.AccessControl.dll", Resources.SystemIOFileSystemAccessControl, AspNet90.References.SystemIOFileSystemAccessControl, global::System.Guid.Parse("adc12694-1436-4aff-a5d7-a416a5464ba6"));
+        public static ReferenceInfo SystemIOFileSystemAccessControl => new ReferenceInfo("System.IO.FileSystem.AccessControl.dll", Resources.SystemIOFileSystemAccessControl, AspNet100.References.SystemIOFileSystemAccessControl, global::System.Guid.Parse("bccb0f0c-2e5d-4291-9dd4-9ab101fc57f8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.dll
         /// </summary>
-        public static ReferenceInfo SystemIOFileSystem => new ReferenceInfo("System.IO.FileSystem.dll", Resources.SystemIOFileSystem, AspNet90.References.SystemIOFileSystem, global::System.Guid.Parse("36da671e-cb5e-450b-81ed-adcbfe4652ca"));
+        public static ReferenceInfo SystemIOFileSystem => new ReferenceInfo("System.IO.FileSystem.dll", Resources.SystemIOFileSystem, AspNet100.References.SystemIOFileSystem, global::System.Guid.Parse("341d38ae-80bb-4404-a224-e3eeac9a7a41"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.DriveInfo.dll
         /// </summary>
-        public static ReferenceInfo SystemIOFileSystemDriveInfo => new ReferenceInfo("System.IO.FileSystem.DriveInfo.dll", Resources.SystemIOFileSystemDriveInfo, AspNet90.References.SystemIOFileSystemDriveInfo, global::System.Guid.Parse("9d8d4efd-240a-4f24-8200-6d252290c0e8"));
+        public static ReferenceInfo SystemIOFileSystemDriveInfo => new ReferenceInfo("System.IO.FileSystem.DriveInfo.dll", Resources.SystemIOFileSystemDriveInfo, AspNet100.References.SystemIOFileSystemDriveInfo, global::System.Guid.Parse("77556c52-5162-4f4a-aa50-7db856c95c49"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemIOFileSystemPrimitives => new ReferenceInfo("System.IO.FileSystem.Primitives.dll", Resources.SystemIOFileSystemPrimitives, AspNet90.References.SystemIOFileSystemPrimitives, global::System.Guid.Parse("2eee6734-d7c9-4d3c-9b57-14d9e063dd88"));
+        public static ReferenceInfo SystemIOFileSystemPrimitives => new ReferenceInfo("System.IO.FileSystem.Primitives.dll", Resources.SystemIOFileSystemPrimitives, AspNet100.References.SystemIOFileSystemPrimitives, global::System.Guid.Parse("65e81aba-049c-4c02-9797-a4c8b2c0fb9e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.Watcher.dll
         /// </summary>
-        public static ReferenceInfo SystemIOFileSystemWatcher => new ReferenceInfo("System.IO.FileSystem.Watcher.dll", Resources.SystemIOFileSystemWatcher, AspNet90.References.SystemIOFileSystemWatcher, global::System.Guid.Parse("38ed706f-6905-4b52-aed5-8824044dbbba"));
+        public static ReferenceInfo SystemIOFileSystemWatcher => new ReferenceInfo("System.IO.FileSystem.Watcher.dll", Resources.SystemIOFileSystemWatcher, AspNet100.References.SystemIOFileSystemWatcher, global::System.Guid.Parse("b6ef4225-3040-4c70-9aa3-dd4dd67eebca"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.IsolatedStorage.dll
         /// </summary>
-        public static ReferenceInfo SystemIOIsolatedStorage => new ReferenceInfo("System.IO.IsolatedStorage.dll", Resources.SystemIOIsolatedStorage, AspNet90.References.SystemIOIsolatedStorage, global::System.Guid.Parse("50338776-8d80-410c-84d9-752c85ccf333"));
+        public static ReferenceInfo SystemIOIsolatedStorage => new ReferenceInfo("System.IO.IsolatedStorage.dll", Resources.SystemIOIsolatedStorage, AspNet100.References.SystemIOIsolatedStorage, global::System.Guid.Parse("67ec6c38-f108-4b3a-8724-fc23f1783189"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.MemoryMappedFiles.dll
         /// </summary>
-        public static ReferenceInfo SystemIOMemoryMappedFiles => new ReferenceInfo("System.IO.MemoryMappedFiles.dll", Resources.SystemIOMemoryMappedFiles, AspNet90.References.SystemIOMemoryMappedFiles, global::System.Guid.Parse("99339aab-36dc-4f82-8d3e-22bc78383019"));
+        public static ReferenceInfo SystemIOMemoryMappedFiles => new ReferenceInfo("System.IO.MemoryMappedFiles.dll", Resources.SystemIOMemoryMappedFiles, AspNet100.References.SystemIOMemoryMappedFiles, global::System.Guid.Parse("4470fbb2-fa1c-4f53-ad37-a9696ce744f1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Pipelines.dll
         /// </summary>
-        public static ReferenceInfo SystemIOPipelines => new ReferenceInfo("System.IO.Pipelines.dll", Resources.SystemIOPipelines, AspNet90.References.SystemIOPipelines, global::System.Guid.Parse("634721a4-f3f9-4113-8a36-fc22e61b997c"));
+        public static ReferenceInfo SystemIOPipelines => new ReferenceInfo("System.IO.Pipelines.dll", Resources.SystemIOPipelines, AspNet100.References.SystemIOPipelines, global::System.Guid.Parse("3180fbbc-e6d0-41e3-891c-645cb014acf9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Pipes.AccessControl.dll
         /// </summary>
-        public static ReferenceInfo SystemIOPipesAccessControl => new ReferenceInfo("System.IO.Pipes.AccessControl.dll", Resources.SystemIOPipesAccessControl, AspNet90.References.SystemIOPipesAccessControl, global::System.Guid.Parse("b94bd792-5007-4e48-8bce-c8123b19d2d9"));
+        public static ReferenceInfo SystemIOPipesAccessControl => new ReferenceInfo("System.IO.Pipes.AccessControl.dll", Resources.SystemIOPipesAccessControl, AspNet100.References.SystemIOPipesAccessControl, global::System.Guid.Parse("511d3601-8dfa-405c-8031-6efeb35051be"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Pipes.dll
         /// </summary>
-        public static ReferenceInfo SystemIOPipes => new ReferenceInfo("System.IO.Pipes.dll", Resources.SystemIOPipes, AspNet90.References.SystemIOPipes, global::System.Guid.Parse("23133763-f3a7-4217-a84d-da13f6f425ff"));
+        public static ReferenceInfo SystemIOPipes => new ReferenceInfo("System.IO.Pipes.dll", Resources.SystemIOPipes, AspNet100.References.SystemIOPipes, global::System.Guid.Parse("a8c8a137-1734-4829-8a3e-d19f8f9e130c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.UnmanagedMemoryStream.dll
         /// </summary>
-        public static ReferenceInfo SystemIOUnmanagedMemoryStream => new ReferenceInfo("System.IO.UnmanagedMemoryStream.dll", Resources.SystemIOUnmanagedMemoryStream, AspNet90.References.SystemIOUnmanagedMemoryStream, global::System.Guid.Parse("02a1e350-ef4a-47a3-99cb-a4b31774c9b9"));
+        public static ReferenceInfo SystemIOUnmanagedMemoryStream => new ReferenceInfo("System.IO.UnmanagedMemoryStream.dll", Resources.SystemIOUnmanagedMemoryStream, AspNet100.References.SystemIOUnmanagedMemoryStream, global::System.Guid.Parse("197301be-3e00-4bf3-99e9-bf467228732b"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Linq.AsyncEnumerable.dll
+        /// </summary>
+        public static ReferenceInfo SystemLinqAsyncEnumerable => new ReferenceInfo("System.Linq.AsyncEnumerable.dll", Resources.SystemLinqAsyncEnumerable, AspNet100.References.SystemLinqAsyncEnumerable, global::System.Guid.Parse("817a3c5f-e52f-4661-addc-425b295acdec"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Linq.dll
         /// </summary>
-        public static ReferenceInfo SystemLinq => new ReferenceInfo("System.Linq.dll", Resources.SystemLinq, AspNet90.References.SystemLinq, global::System.Guid.Parse("4401b83f-2853-4be6-b660-f8077bb60959"));
+        public static ReferenceInfo SystemLinq => new ReferenceInfo("System.Linq.dll", Resources.SystemLinq, AspNet100.References.SystemLinq, global::System.Guid.Parse("f737d49c-fe03-46dd-80e1-11462cb46e57"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Linq.Expressions.dll
         /// </summary>
-        public static ReferenceInfo SystemLinqExpressions => new ReferenceInfo("System.Linq.Expressions.dll", Resources.SystemLinqExpressions, AspNet90.References.SystemLinqExpressions, global::System.Guid.Parse("473dfd44-4094-4955-a7a6-33aa53dc51d4"));
+        public static ReferenceInfo SystemLinqExpressions => new ReferenceInfo("System.Linq.Expressions.dll", Resources.SystemLinqExpressions, AspNet100.References.SystemLinqExpressions, global::System.Guid.Parse("48026d02-6fb0-46b7-8ea6-1fc8ff3a551a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Linq.Parallel.dll
         /// </summary>
-        public static ReferenceInfo SystemLinqParallel => new ReferenceInfo("System.Linq.Parallel.dll", Resources.SystemLinqParallel, AspNet90.References.SystemLinqParallel, global::System.Guid.Parse("9520692e-eadb-41c4-9439-b66402ae669b"));
+        public static ReferenceInfo SystemLinqParallel => new ReferenceInfo("System.Linq.Parallel.dll", Resources.SystemLinqParallel, AspNet100.References.SystemLinqParallel, global::System.Guid.Parse("a2f9fe8c-a939-43e8-adeb-dfd0970825f4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Linq.Queryable.dll
         /// </summary>
-        public static ReferenceInfo SystemLinqQueryable => new ReferenceInfo("System.Linq.Queryable.dll", Resources.SystemLinqQueryable, AspNet90.References.SystemLinqQueryable, global::System.Guid.Parse("5e7d7575-8fc0-4e47-ac1e-685a86647331"));
+        public static ReferenceInfo SystemLinqQueryable => new ReferenceInfo("System.Linq.Queryable.dll", Resources.SystemLinqQueryable, AspNet100.References.SystemLinqQueryable, global::System.Guid.Parse("289e0569-1cfe-4242-b632-e25c0ba9a117"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Memory.dll
         /// </summary>
-        public static ReferenceInfo SystemMemory => new ReferenceInfo("System.Memory.dll", Resources.SystemMemory, AspNet90.References.SystemMemory, global::System.Guid.Parse("9c78d05c-9a3d-406f-890d-440edf63bc25"));
+        public static ReferenceInfo SystemMemory => new ReferenceInfo("System.Memory.dll", Resources.SystemMemory, AspNet100.References.SystemMemory, global::System.Guid.Parse("5b513a29-7885-40e6-8f52-5fc165785006"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.dll
         /// </summary>
-        public static ReferenceInfo SystemNet => new ReferenceInfo("System.Net.dll", Resources.SystemNet, AspNet90.References.SystemNet, global::System.Guid.Parse("cdf9146d-1b30-469b-a5af-07b555b2b4f1"));
+        public static ReferenceInfo SystemNet => new ReferenceInfo("System.Net.dll", Resources.SystemNet, AspNet100.References.SystemNet, global::System.Guid.Parse("97c9a037-1edb-4101-ad68-e0b83f0abdc9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Http.dll
         /// </summary>
-        public static ReferenceInfo SystemNetHttp => new ReferenceInfo("System.Net.Http.dll", Resources.SystemNetHttp, AspNet90.References.SystemNetHttp, global::System.Guid.Parse("8ed2c701-3009-4e15-8887-ccf482a6fc26"));
+        public static ReferenceInfo SystemNetHttp => new ReferenceInfo("System.Net.Http.dll", Resources.SystemNetHttp, AspNet100.References.SystemNetHttp, global::System.Guid.Parse("54965fa7-9a15-4794-a48f-fe741d67cf2e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Http.Json.dll
         /// </summary>
-        public static ReferenceInfo SystemNetHttpJson => new ReferenceInfo("System.Net.Http.Json.dll", Resources.SystemNetHttpJson, AspNet90.References.SystemNetHttpJson, global::System.Guid.Parse("0dabc388-2181-4174-ad26-bcf28ee96b47"));
+        public static ReferenceInfo SystemNetHttpJson => new ReferenceInfo("System.Net.Http.Json.dll", Resources.SystemNetHttpJson, AspNet100.References.SystemNetHttpJson, global::System.Guid.Parse("e1de9474-4717-4e4d-8522-d299b6db3d30"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.HttpListener.dll
         /// </summary>
-        public static ReferenceInfo SystemNetHttpListener => new ReferenceInfo("System.Net.HttpListener.dll", Resources.SystemNetHttpListener, AspNet90.References.SystemNetHttpListener, global::System.Guid.Parse("22741ca4-593d-4e14-9af5-e4b540cb98c2"));
+        public static ReferenceInfo SystemNetHttpListener => new ReferenceInfo("System.Net.HttpListener.dll", Resources.SystemNetHttpListener, AspNet100.References.SystemNetHttpListener, global::System.Guid.Parse("74dfcdc1-bc84-4680-a0e9-d2f904168ee0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Mail.dll
         /// </summary>
-        public static ReferenceInfo SystemNetMail => new ReferenceInfo("System.Net.Mail.dll", Resources.SystemNetMail, AspNet90.References.SystemNetMail, global::System.Guid.Parse("948204a2-c86d-4761-95dc-d0ab9506f02d"));
+        public static ReferenceInfo SystemNetMail => new ReferenceInfo("System.Net.Mail.dll", Resources.SystemNetMail, AspNet100.References.SystemNetMail, global::System.Guid.Parse("72eafcea-7221-4613-a6ea-0e5f39d8478d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.NameResolution.dll
         /// </summary>
-        public static ReferenceInfo SystemNetNameResolution => new ReferenceInfo("System.Net.NameResolution.dll", Resources.SystemNetNameResolution, AspNet90.References.SystemNetNameResolution, global::System.Guid.Parse("587180a2-4493-4d42-a0c8-94183464ff40"));
+        public static ReferenceInfo SystemNetNameResolution => new ReferenceInfo("System.Net.NameResolution.dll", Resources.SystemNetNameResolution, AspNet100.References.SystemNetNameResolution, global::System.Guid.Parse("0bf5220e-1d56-48a0-acea-e8f5e51d0863"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.NetworkInformation.dll
         /// </summary>
-        public static ReferenceInfo SystemNetNetworkInformation => new ReferenceInfo("System.Net.NetworkInformation.dll", Resources.SystemNetNetworkInformation, AspNet90.References.SystemNetNetworkInformation, global::System.Guid.Parse("5c8c481f-31ca-42ee-a197-ea5d11c413e2"));
+        public static ReferenceInfo SystemNetNetworkInformation => new ReferenceInfo("System.Net.NetworkInformation.dll", Resources.SystemNetNetworkInformation, AspNet100.References.SystemNetNetworkInformation, global::System.Guid.Parse("e189f1be-6a50-494b-a98b-575eac3921f4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Ping.dll
         /// </summary>
-        public static ReferenceInfo SystemNetPing => new ReferenceInfo("System.Net.Ping.dll", Resources.SystemNetPing, AspNet90.References.SystemNetPing, global::System.Guid.Parse("f8feec40-be64-4bb5-bf50-47cd54c75d68"));
+        public static ReferenceInfo SystemNetPing => new ReferenceInfo("System.Net.Ping.dll", Resources.SystemNetPing, AspNet100.References.SystemNetPing, global::System.Guid.Parse("57037749-b6e1-4ed3-a575-784e4f03fa6b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemNetPrimitives => new ReferenceInfo("System.Net.Primitives.dll", Resources.SystemNetPrimitives, AspNet90.References.SystemNetPrimitives, global::System.Guid.Parse("39bb0e70-4422-4978-a9e6-fcc29a2356ff"));
+        public static ReferenceInfo SystemNetPrimitives => new ReferenceInfo("System.Net.Primitives.dll", Resources.SystemNetPrimitives, AspNet100.References.SystemNetPrimitives, global::System.Guid.Parse("5d7f7e76-853c-4d57-be86-31006872081d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Quic.dll
         /// </summary>
-        public static ReferenceInfo SystemNetQuic => new ReferenceInfo("System.Net.Quic.dll", Resources.SystemNetQuic, AspNet90.References.SystemNetQuic, global::System.Guid.Parse("a5da9e4e-cef1-430c-ac34-f3a1f1618aa7"));
+        public static ReferenceInfo SystemNetQuic => new ReferenceInfo("System.Net.Quic.dll", Resources.SystemNetQuic, AspNet100.References.SystemNetQuic, global::System.Guid.Parse("a8dae3ae-c659-41d4-9de8-4fd11966dd62"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Requests.dll
         /// </summary>
-        public static ReferenceInfo SystemNetRequests => new ReferenceInfo("System.Net.Requests.dll", Resources.SystemNetRequests, AspNet90.References.SystemNetRequests, global::System.Guid.Parse("a5674b6f-a6e2-4cfd-a793-bba201cfdc89"));
+        public static ReferenceInfo SystemNetRequests => new ReferenceInfo("System.Net.Requests.dll", Resources.SystemNetRequests, AspNet100.References.SystemNetRequests, global::System.Guid.Parse("32f574bc-a047-43df-9465-0e2f114d6653"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Security.dll
         /// </summary>
-        public static ReferenceInfo SystemNetSecurity => new ReferenceInfo("System.Net.Security.dll", Resources.SystemNetSecurity, AspNet90.References.SystemNetSecurity, global::System.Guid.Parse("7da0e715-58a9-438f-9430-938cb3a3a80f"));
+        public static ReferenceInfo SystemNetSecurity => new ReferenceInfo("System.Net.Security.dll", Resources.SystemNetSecurity, AspNet100.References.SystemNetSecurity, global::System.Guid.Parse("092e84a0-d234-4a5f-81a2-bd86e5635da2"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Net.ServerSentEvents.dll
+        /// </summary>
+        public static ReferenceInfo SystemNetServerSentEvents => new ReferenceInfo("System.Net.ServerSentEvents.dll", Resources.SystemNetServerSentEvents, AspNet100.References.SystemNetServerSentEvents, global::System.Guid.Parse("94d989a3-dc56-4c0f-815b-64518c0b34d4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.ServicePoint.dll
         /// </summary>
-        public static ReferenceInfo SystemNetServicePoint => new ReferenceInfo("System.Net.ServicePoint.dll", Resources.SystemNetServicePoint, AspNet90.References.SystemNetServicePoint, global::System.Guid.Parse("942d682b-add6-4d37-8ea3-021619317daf"));
+        public static ReferenceInfo SystemNetServicePoint => new ReferenceInfo("System.Net.ServicePoint.dll", Resources.SystemNetServicePoint, AspNet100.References.SystemNetServicePoint, global::System.Guid.Parse("bd9bed79-d903-4fee-8e63-247a6a5c5367"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Sockets.dll
         /// </summary>
-        public static ReferenceInfo SystemNetSockets => new ReferenceInfo("System.Net.Sockets.dll", Resources.SystemNetSockets, AspNet90.References.SystemNetSockets, global::System.Guid.Parse("94cb87f3-2c31-452b-b0c5-1eae356ec6ef"));
+        public static ReferenceInfo SystemNetSockets => new ReferenceInfo("System.Net.Sockets.dll", Resources.SystemNetSockets, AspNet100.References.SystemNetSockets, global::System.Guid.Parse("dee627e9-e3db-41eb-a954-dbc5c216121f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.WebClient.dll
         /// </summary>
-        public static ReferenceInfo SystemNetWebClient => new ReferenceInfo("System.Net.WebClient.dll", Resources.SystemNetWebClient, AspNet90.References.SystemNetWebClient, global::System.Guid.Parse("d43ed906-e6be-4d31-ad8b-c3f9979415f7"));
+        public static ReferenceInfo SystemNetWebClient => new ReferenceInfo("System.Net.WebClient.dll", Resources.SystemNetWebClient, AspNet100.References.SystemNetWebClient, global::System.Guid.Parse("734dae74-05c4-49b6-8c13-55c14e693435"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.WebHeaderCollection.dll
         /// </summary>
-        public static ReferenceInfo SystemNetWebHeaderCollection => new ReferenceInfo("System.Net.WebHeaderCollection.dll", Resources.SystemNetWebHeaderCollection, AspNet90.References.SystemNetWebHeaderCollection, global::System.Guid.Parse("a5627a13-b062-48c8-879e-2394c8698767"));
+        public static ReferenceInfo SystemNetWebHeaderCollection => new ReferenceInfo("System.Net.WebHeaderCollection.dll", Resources.SystemNetWebHeaderCollection, AspNet100.References.SystemNetWebHeaderCollection, global::System.Guid.Parse("de320f04-498e-4516-ab12-317987b2f207"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.WebProxy.dll
         /// </summary>
-        public static ReferenceInfo SystemNetWebProxy => new ReferenceInfo("System.Net.WebProxy.dll", Resources.SystemNetWebProxy, AspNet90.References.SystemNetWebProxy, global::System.Guid.Parse("580233b2-9269-45ed-942a-3e621d65b3ae"));
+        public static ReferenceInfo SystemNetWebProxy => new ReferenceInfo("System.Net.WebProxy.dll", Resources.SystemNetWebProxy, AspNet100.References.SystemNetWebProxy, global::System.Guid.Parse("89c9d95b-05ab-44de-8eec-a2d321b9d03e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.WebSockets.Client.dll
         /// </summary>
-        public static ReferenceInfo SystemNetWebSocketsClient => new ReferenceInfo("System.Net.WebSockets.Client.dll", Resources.SystemNetWebSocketsClient, AspNet90.References.SystemNetWebSocketsClient, global::System.Guid.Parse("9a94739b-bd14-4c80-98ac-6d6c9f7ec0aa"));
+        public static ReferenceInfo SystemNetWebSocketsClient => new ReferenceInfo("System.Net.WebSockets.Client.dll", Resources.SystemNetWebSocketsClient, AspNet100.References.SystemNetWebSocketsClient, global::System.Guid.Parse("d50e8b69-bf1a-4380-82f8-6a2bb678b939"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.WebSockets.dll
         /// </summary>
-        public static ReferenceInfo SystemNetWebSockets => new ReferenceInfo("System.Net.WebSockets.dll", Resources.SystemNetWebSockets, AspNet90.References.SystemNetWebSockets, global::System.Guid.Parse("834a027e-6fe6-46a1-9193-5c1af4636883"));
+        public static ReferenceInfo SystemNetWebSockets => new ReferenceInfo("System.Net.WebSockets.dll", Resources.SystemNetWebSockets, AspNet100.References.SystemNetWebSockets, global::System.Guid.Parse("428e7b84-6e3e-40a8-845b-9a92127b1b2e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Numerics.dll
         /// </summary>
-        public static ReferenceInfo SystemNumerics => new ReferenceInfo("System.Numerics.dll", Resources.SystemNumerics, AspNet90.References.SystemNumerics, global::System.Guid.Parse("8109db46-ad59-4703-b5eb-ac53027d67d9"));
+        public static ReferenceInfo SystemNumerics => new ReferenceInfo("System.Numerics.dll", Resources.SystemNumerics, AspNet100.References.SystemNumerics, global::System.Guid.Parse("f41dad1e-d476-4827-b1ad-919b1f864fd3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Numerics.Vectors.dll
         /// </summary>
-        public static ReferenceInfo SystemNumericsVectors => new ReferenceInfo("System.Numerics.Vectors.dll", Resources.SystemNumericsVectors, AspNet90.References.SystemNumericsVectors, global::System.Guid.Parse("827adbc4-7177-4c64-a6a9-3658a5d3010e"));
+        public static ReferenceInfo SystemNumericsVectors => new ReferenceInfo("System.Numerics.Vectors.dll", Resources.SystemNumericsVectors, AspNet100.References.SystemNumericsVectors, global::System.Guid.Parse("12addf70-0a7e-4551-b205-df91b3b6cc31"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ObjectModel.dll
         /// </summary>
-        public static ReferenceInfo SystemObjectModel => new ReferenceInfo("System.ObjectModel.dll", Resources.SystemObjectModel, AspNet90.References.SystemObjectModel, global::System.Guid.Parse("b6bc8651-5ef0-409f-83b4-7d7c1bb27eec"));
+        public static ReferenceInfo SystemObjectModel => new ReferenceInfo("System.ObjectModel.dll", Resources.SystemObjectModel, AspNet100.References.SystemObjectModel, global::System.Guid.Parse("1b979553-a548-40b8-930a-9ed61a26294f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.DispatchProxy.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionDispatchProxy => new ReferenceInfo("System.Reflection.DispatchProxy.dll", Resources.SystemReflectionDispatchProxy, AspNet90.References.SystemReflectionDispatchProxy, global::System.Guid.Parse("c861d503-03de-45ce-89d4-46b5f8731bfc"));
+        public static ReferenceInfo SystemReflectionDispatchProxy => new ReferenceInfo("System.Reflection.DispatchProxy.dll", Resources.SystemReflectionDispatchProxy, AspNet100.References.SystemReflectionDispatchProxy, global::System.Guid.Parse("c947968f-fb31-4216-b435-bf54c3386fc1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.dll
         /// </summary>
-        public static ReferenceInfo SystemReflection => new ReferenceInfo("System.Reflection.dll", Resources.SystemReflection, AspNet90.References.SystemReflection, global::System.Guid.Parse("d78d016a-2d2f-450f-a780-af0126583899"));
+        public static ReferenceInfo SystemReflection => new ReferenceInfo("System.Reflection.dll", Resources.SystemReflection, AspNet100.References.SystemReflection, global::System.Guid.Parse("23778364-5f13-4c5d-bac3-8485d44e53b5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionEmit => new ReferenceInfo("System.Reflection.Emit.dll", Resources.SystemReflectionEmit, AspNet90.References.SystemReflectionEmit, global::System.Guid.Parse("40541be0-2bea-4e25-b75a-0e758f2e1d64"));
+        public static ReferenceInfo SystemReflectionEmit => new ReferenceInfo("System.Reflection.Emit.dll", Resources.SystemReflectionEmit, AspNet100.References.SystemReflectionEmit, global::System.Guid.Parse("8db61608-2c8e-4ed3-8b91-9d923c03173c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.ILGeneration.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionEmitILGeneration => new ReferenceInfo("System.Reflection.Emit.ILGeneration.dll", Resources.SystemReflectionEmitILGeneration, AspNet90.References.SystemReflectionEmitILGeneration, global::System.Guid.Parse("4f2cd109-2ace-4fca-b778-67bea7e57d6d"));
+        public static ReferenceInfo SystemReflectionEmitILGeneration => new ReferenceInfo("System.Reflection.Emit.ILGeneration.dll", Resources.SystemReflectionEmitILGeneration, AspNet100.References.SystemReflectionEmitILGeneration, global::System.Guid.Parse("be3e404d-fe89-40fa-b4d5-22ff83714589"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.Lightweight.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionEmitLightweight => new ReferenceInfo("System.Reflection.Emit.Lightweight.dll", Resources.SystemReflectionEmitLightweight, AspNet90.References.SystemReflectionEmitLightweight, global::System.Guid.Parse("0a973423-d21a-4a9c-8061-320bb5d17fd9"));
+        public static ReferenceInfo SystemReflectionEmitLightweight => new ReferenceInfo("System.Reflection.Emit.Lightweight.dll", Resources.SystemReflectionEmitLightweight, AspNet100.References.SystemReflectionEmitLightweight, global::System.Guid.Parse("0eb30963-46f0-4a31-b76d-83c16d22ee20"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Extensions.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionExtensions => new ReferenceInfo("System.Reflection.Extensions.dll", Resources.SystemReflectionExtensions, AspNet90.References.SystemReflectionExtensions, global::System.Guid.Parse("88fe74a5-0905-456e-8aa5-24fea335f346"));
+        public static ReferenceInfo SystemReflectionExtensions => new ReferenceInfo("System.Reflection.Extensions.dll", Resources.SystemReflectionExtensions, AspNet100.References.SystemReflectionExtensions, global::System.Guid.Parse("d312259f-f1f8-4ae0-a218-c21bdb895fd1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Metadata.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionMetadata => new ReferenceInfo("System.Reflection.Metadata.dll", Resources.SystemReflectionMetadata, AspNet90.References.SystemReflectionMetadata, global::System.Guid.Parse("aef1c6ce-3290-45f6-b6de-b28433397a04"));
+        public static ReferenceInfo SystemReflectionMetadata => new ReferenceInfo("System.Reflection.Metadata.dll", Resources.SystemReflectionMetadata, AspNet100.References.SystemReflectionMetadata, global::System.Guid.Parse("ea67139d-6657-40a7-a044-05b0ea7e8acd"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionPrimitives => new ReferenceInfo("System.Reflection.Primitives.dll", Resources.SystemReflectionPrimitives, AspNet90.References.SystemReflectionPrimitives, global::System.Guid.Parse("49ced5e0-a5bd-4b4e-8cd8-cdb8bd849e55"));
+        public static ReferenceInfo SystemReflectionPrimitives => new ReferenceInfo("System.Reflection.Primitives.dll", Resources.SystemReflectionPrimitives, AspNet100.References.SystemReflectionPrimitives, global::System.Guid.Parse("8358b914-36c0-460a-a11e-8df49068b1c5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.TypeExtensions.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionTypeExtensions => new ReferenceInfo("System.Reflection.TypeExtensions.dll", Resources.SystemReflectionTypeExtensions, AspNet90.References.SystemReflectionTypeExtensions, global::System.Guid.Parse("5e0a87bf-9ac4-491d-831f-42fc3a58f7ec"));
+        public static ReferenceInfo SystemReflectionTypeExtensions => new ReferenceInfo("System.Reflection.TypeExtensions.dll", Resources.SystemReflectionTypeExtensions, AspNet100.References.SystemReflectionTypeExtensions, global::System.Guid.Parse("05670cdd-5619-4d18-9786-1967cef62f7b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Resources.Reader.dll
         /// </summary>
-        public static ReferenceInfo SystemResourcesReader => new ReferenceInfo("System.Resources.Reader.dll", Resources.SystemResourcesReader, AspNet90.References.SystemResourcesReader, global::System.Guid.Parse("860db9da-490e-4c67-8051-874ac9f6a97f"));
+        public static ReferenceInfo SystemResourcesReader => new ReferenceInfo("System.Resources.Reader.dll", Resources.SystemResourcesReader, AspNet100.References.SystemResourcesReader, global::System.Guid.Parse("9ab63608-4362-4c48-bd70-92ea02375e94"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Resources.ResourceManager.dll
         /// </summary>
-        public static ReferenceInfo SystemResourcesResourceManager => new ReferenceInfo("System.Resources.ResourceManager.dll", Resources.SystemResourcesResourceManager, AspNet90.References.SystemResourcesResourceManager, global::System.Guid.Parse("bf4f8444-b0c4-4dda-89f1-f5dbc874e753"));
+        public static ReferenceInfo SystemResourcesResourceManager => new ReferenceInfo("System.Resources.ResourceManager.dll", Resources.SystemResourcesResourceManager, AspNet100.References.SystemResourcesResourceManager, global::System.Guid.Parse("2014bf89-8acb-47fa-b073-fb4b3cee2a29"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Resources.Writer.dll
         /// </summary>
-        public static ReferenceInfo SystemResourcesWriter => new ReferenceInfo("System.Resources.Writer.dll", Resources.SystemResourcesWriter, AspNet90.References.SystemResourcesWriter, global::System.Guid.Parse("bec8a22e-0c9a-4a7e-9df2-700417f98e1d"));
+        public static ReferenceInfo SystemResourcesWriter => new ReferenceInfo("System.Resources.Writer.dll", Resources.SystemResourcesWriter, AspNet100.References.SystemResourcesWriter, global::System.Guid.Parse("dedf258b-431d-4f1e-9879-6ce8fdb6033d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.CompilerServices.Unsafe.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeCompilerServicesUnsafe => new ReferenceInfo("System.Runtime.CompilerServices.Unsafe.dll", Resources.SystemRuntimeCompilerServicesUnsafe, AspNet90.References.SystemRuntimeCompilerServicesUnsafe, global::System.Guid.Parse("f6027126-896d-4a06-a348-f86ee2a25559"));
+        public static ReferenceInfo SystemRuntimeCompilerServicesUnsafe => new ReferenceInfo("System.Runtime.CompilerServices.Unsafe.dll", Resources.SystemRuntimeCompilerServicesUnsafe, AspNet100.References.SystemRuntimeCompilerServicesUnsafe, global::System.Guid.Parse("7cf354e8-c8b8-4ec9-9feb-0d3c45414377"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.CompilerServices.VisualC.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeCompilerServicesVisualC => new ReferenceInfo("System.Runtime.CompilerServices.VisualC.dll", Resources.SystemRuntimeCompilerServicesVisualC, AspNet90.References.SystemRuntimeCompilerServicesVisualC, global::System.Guid.Parse("52e79d11-0d1f-47a5-bc05-b6f459d2a9ba"));
+        public static ReferenceInfo SystemRuntimeCompilerServicesVisualC => new ReferenceInfo("System.Runtime.CompilerServices.VisualC.dll", Resources.SystemRuntimeCompilerServicesVisualC, AspNet100.References.SystemRuntimeCompilerServicesVisualC, global::System.Guid.Parse("39abf4b0-4db6-4074-a9ba-7896f1481f15"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntime => new ReferenceInfo("System.Runtime.dll", Resources.SystemRuntime, AspNet90.References.SystemRuntime, global::System.Guid.Parse("49b542d5-0038-47c6-936c-2416e1ff0b56"));
+        public static ReferenceInfo SystemRuntime => new ReferenceInfo("System.Runtime.dll", Resources.SystemRuntime, AspNet100.References.SystemRuntime, global::System.Guid.Parse("1bc77b39-c226-40ab-8932-53bfb0d43396"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Extensions.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeExtensions => new ReferenceInfo("System.Runtime.Extensions.dll", Resources.SystemRuntimeExtensions, AspNet90.References.SystemRuntimeExtensions, global::System.Guid.Parse("dc36206b-7114-4a12-a9e5-5a920057b546"));
+        public static ReferenceInfo SystemRuntimeExtensions => new ReferenceInfo("System.Runtime.Extensions.dll", Resources.SystemRuntimeExtensions, AspNet100.References.SystemRuntimeExtensions, global::System.Guid.Parse("32af7f3e-d778-4241-8289-40650399fc30"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Handles.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeHandles => new ReferenceInfo("System.Runtime.Handles.dll", Resources.SystemRuntimeHandles, AspNet90.References.SystemRuntimeHandles, global::System.Guid.Parse("f33d689e-a747-48e3-b538-b61f885d6b70"));
+        public static ReferenceInfo SystemRuntimeHandles => new ReferenceInfo("System.Runtime.Handles.dll", Resources.SystemRuntimeHandles, AspNet100.References.SystemRuntimeHandles, global::System.Guid.Parse("bc366347-253e-4c63-aa9f-980451dc2cf3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices, AspNet90.References.SystemRuntimeInteropServices, global::System.Guid.Parse("94a656e9-116e-484b-80e6-5883f809377f"));
+        public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices, AspNet100.References.SystemRuntimeInteropServices, global::System.Guid.Parse("561c3910-03dd-47ef-b227-20952c107584"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.JavaScript.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeInteropServicesJavaScript => new ReferenceInfo("System.Runtime.InteropServices.JavaScript.dll", Resources.SystemRuntimeInteropServicesJavaScript, AspNet90.References.SystemRuntimeInteropServicesJavaScript, global::System.Guid.Parse("5cf05ad7-1e57-4d21-b308-84e67fcf25b8"));
+        public static ReferenceInfo SystemRuntimeInteropServicesJavaScript => new ReferenceInfo("System.Runtime.InteropServices.JavaScript.dll", Resources.SystemRuntimeInteropServicesJavaScript, AspNet100.References.SystemRuntimeInteropServicesJavaScript, global::System.Guid.Parse("3e45d81f-c94d-462e-88da-00b188e03a18"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.RuntimeInformation.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeInteropServicesRuntimeInformation => new ReferenceInfo("System.Runtime.InteropServices.RuntimeInformation.dll", Resources.SystemRuntimeInteropServicesRuntimeInformation, AspNet90.References.SystemRuntimeInteropServicesRuntimeInformation, global::System.Guid.Parse("9095a0f6-c0b7-4ce0-ad76-b9ccec4c85c7"));
+        public static ReferenceInfo SystemRuntimeInteropServicesRuntimeInformation => new ReferenceInfo("System.Runtime.InteropServices.RuntimeInformation.dll", Resources.SystemRuntimeInteropServicesRuntimeInformation, AspNet100.References.SystemRuntimeInteropServicesRuntimeInformation, global::System.Guid.Parse("f05c6907-2b12-47a9-b514-9d616742575f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Intrinsics.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeIntrinsics => new ReferenceInfo("System.Runtime.Intrinsics.dll", Resources.SystemRuntimeIntrinsics, AspNet90.References.SystemRuntimeIntrinsics, global::System.Guid.Parse("2d4eea65-35c0-485f-a99b-c695d7874881"));
+        public static ReferenceInfo SystemRuntimeIntrinsics => new ReferenceInfo("System.Runtime.Intrinsics.dll", Resources.SystemRuntimeIntrinsics, AspNet100.References.SystemRuntimeIntrinsics, global::System.Guid.Parse("7fe35a7f-7aee-4c1d-bcf5-30f01fbcde67"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Loader.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeLoader => new ReferenceInfo("System.Runtime.Loader.dll", Resources.SystemRuntimeLoader, AspNet90.References.SystemRuntimeLoader, global::System.Guid.Parse("d0eca4bc-a50e-4e45-9ffd-2648d4b35e9f"));
+        public static ReferenceInfo SystemRuntimeLoader => new ReferenceInfo("System.Runtime.Loader.dll", Resources.SystemRuntimeLoader, AspNet100.References.SystemRuntimeLoader, global::System.Guid.Parse("126d5046-cbb4-4c53-91a3-2247bd3a8203"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Numerics.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeNumerics => new ReferenceInfo("System.Runtime.Numerics.dll", Resources.SystemRuntimeNumerics, AspNet90.References.SystemRuntimeNumerics, global::System.Guid.Parse("a4ae02d4-7267-4b2f-95ec-041430087368"));
+        public static ReferenceInfo SystemRuntimeNumerics => new ReferenceInfo("System.Runtime.Numerics.dll", Resources.SystemRuntimeNumerics, AspNet100.References.SystemRuntimeNumerics, global::System.Guid.Parse("a87a3c07-b9fd-4717-8812-fd8d42bf67ae"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeSerialization => new ReferenceInfo("System.Runtime.Serialization.dll", Resources.SystemRuntimeSerialization, AspNet90.References.SystemRuntimeSerialization, global::System.Guid.Parse("0adc6d38-6cc7-4c88-9a59-c76fc750e3c0"));
+        public static ReferenceInfo SystemRuntimeSerialization => new ReferenceInfo("System.Runtime.Serialization.dll", Resources.SystemRuntimeSerialization, AspNet100.References.SystemRuntimeSerialization, global::System.Guid.Parse("50156cf9-2c0f-4988-9973-26628e830fcf"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Formatters.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeSerializationFormatters => new ReferenceInfo("System.Runtime.Serialization.Formatters.dll", Resources.SystemRuntimeSerializationFormatters, AspNet90.References.SystemRuntimeSerializationFormatters, global::System.Guid.Parse("2379ef2c-7a27-45a9-97f6-7b802223240a"));
+        public static ReferenceInfo SystemRuntimeSerializationFormatters => new ReferenceInfo("System.Runtime.Serialization.Formatters.dll", Resources.SystemRuntimeSerializationFormatters, AspNet100.References.SystemRuntimeSerializationFormatters, global::System.Guid.Parse("6c1c086b-9f92-48ab-86e3-90662184b8ec"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Json.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeSerializationJson => new ReferenceInfo("System.Runtime.Serialization.Json.dll", Resources.SystemRuntimeSerializationJson, AspNet90.References.SystemRuntimeSerializationJson, global::System.Guid.Parse("e0a84081-07d0-41fa-ae9b-fb324412c81c"));
+        public static ReferenceInfo SystemRuntimeSerializationJson => new ReferenceInfo("System.Runtime.Serialization.Json.dll", Resources.SystemRuntimeSerializationJson, AspNet100.References.SystemRuntimeSerializationJson, global::System.Guid.Parse("1e0d02ea-cc39-4717-b1e7-b9566b307396"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeSerializationPrimitives => new ReferenceInfo("System.Runtime.Serialization.Primitives.dll", Resources.SystemRuntimeSerializationPrimitives, AspNet90.References.SystemRuntimeSerializationPrimitives, global::System.Guid.Parse("8d7b75f1-a57f-4fc0-bad9-692725614d59"));
+        public static ReferenceInfo SystemRuntimeSerializationPrimitives => new ReferenceInfo("System.Runtime.Serialization.Primitives.dll", Resources.SystemRuntimeSerializationPrimitives, AspNet100.References.SystemRuntimeSerializationPrimitives, global::System.Guid.Parse("14355cfe-7d30-4cf0-89e9-61be1e3df70b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Xml.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeSerializationXml => new ReferenceInfo("System.Runtime.Serialization.Xml.dll", Resources.SystemRuntimeSerializationXml, AspNet90.References.SystemRuntimeSerializationXml, global::System.Guid.Parse("ea6676ef-2404-463c-9373-db3d649f17f2"));
+        public static ReferenceInfo SystemRuntimeSerializationXml => new ReferenceInfo("System.Runtime.Serialization.Xml.dll", Resources.SystemRuntimeSerializationXml, AspNet100.References.SystemRuntimeSerializationXml, global::System.Guid.Parse("901e3d4b-6cfc-47ac-93d5-f225ca47bf3c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.AccessControl.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityAccessControl => new ReferenceInfo("System.Security.AccessControl.dll", Resources.SystemSecurityAccessControl, AspNet90.References.SystemSecurityAccessControl, global::System.Guid.Parse("3e228e95-70fc-4a30-944e-e36e22801c9b"));
+        public static ReferenceInfo SystemSecurityAccessControl => new ReferenceInfo("System.Security.AccessControl.dll", Resources.SystemSecurityAccessControl, AspNet100.References.SystemSecurityAccessControl, global::System.Guid.Parse("5815c639-c7a1-4d57-8b8b-af7e74571190"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Claims.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityClaims => new ReferenceInfo("System.Security.Claims.dll", Resources.SystemSecurityClaims, AspNet90.References.SystemSecurityClaims, global::System.Guid.Parse("fdb91aa8-1819-4e2e-a493-2df37becceae"));
+        public static ReferenceInfo SystemSecurityClaims => new ReferenceInfo("System.Security.Claims.dll", Resources.SystemSecurityClaims, AspNet100.References.SystemSecurityClaims, global::System.Guid.Parse("64b76405-4e43-4ee0-bfe2-c9eddcd29eb5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Algorithms.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyAlgorithms => new ReferenceInfo("System.Security.Cryptography.Algorithms.dll", Resources.SystemSecurityCryptographyAlgorithms, AspNet90.References.SystemSecurityCryptographyAlgorithms, global::System.Guid.Parse("bb6a6536-288d-4b94-9c58-2746baae2924"));
+        public static ReferenceInfo SystemSecurityCryptographyAlgorithms => new ReferenceInfo("System.Security.Cryptography.Algorithms.dll", Resources.SystemSecurityCryptographyAlgorithms, AspNet100.References.SystemSecurityCryptographyAlgorithms, global::System.Guid.Parse("20402436-9d51-426a-9e0a-b3a131dcbd2d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Cng.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyCng => new ReferenceInfo("System.Security.Cryptography.Cng.dll", Resources.SystemSecurityCryptographyCng, AspNet90.References.SystemSecurityCryptographyCng, global::System.Guid.Parse("8d341aac-e867-4727-b2bd-76a56134852e"));
+        public static ReferenceInfo SystemSecurityCryptographyCng => new ReferenceInfo("System.Security.Cryptography.Cng.dll", Resources.SystemSecurityCryptographyCng, AspNet100.References.SystemSecurityCryptographyCng, global::System.Guid.Parse("ac7d748a-fbbd-41dc-8b3c-f3b0a2500f27"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Csp.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyCsp => new ReferenceInfo("System.Security.Cryptography.Csp.dll", Resources.SystemSecurityCryptographyCsp, AspNet90.References.SystemSecurityCryptographyCsp, global::System.Guid.Parse("871b6ff6-8346-400b-90fe-3cfea0a9c061"));
+        public static ReferenceInfo SystemSecurityCryptographyCsp => new ReferenceInfo("System.Security.Cryptography.Csp.dll", Resources.SystemSecurityCryptographyCsp, AspNet100.References.SystemSecurityCryptographyCsp, global::System.Guid.Parse("6e57ca76-12fa-4e56-b697-1e19f88142fa"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptography => new ReferenceInfo("System.Security.Cryptography.dll", Resources.SystemSecurityCryptography, AspNet90.References.SystemSecurityCryptography, global::System.Guid.Parse("a22f3982-de69-48fb-b526-476c598794c8"));
+        public static ReferenceInfo SystemSecurityCryptography => new ReferenceInfo("System.Security.Cryptography.dll", Resources.SystemSecurityCryptography, AspNet100.References.SystemSecurityCryptography, global::System.Guid.Parse("f1a04828-a2c0-4888-b5c6-2972237c8177"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Encoding.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyEncoding => new ReferenceInfo("System.Security.Cryptography.Encoding.dll", Resources.SystemSecurityCryptographyEncoding, AspNet90.References.SystemSecurityCryptographyEncoding, global::System.Guid.Parse("c75029ae-a08f-4972-8005-09ed41245da7"));
+        public static ReferenceInfo SystemSecurityCryptographyEncoding => new ReferenceInfo("System.Security.Cryptography.Encoding.dll", Resources.SystemSecurityCryptographyEncoding, AspNet100.References.SystemSecurityCryptographyEncoding, global::System.Guid.Parse("50970e21-ebb0-443f-955a-ad3a70b749f8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.OpenSsl.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyOpenSsl => new ReferenceInfo("System.Security.Cryptography.OpenSsl.dll", Resources.SystemSecurityCryptographyOpenSsl, AspNet90.References.SystemSecurityCryptographyOpenSsl, global::System.Guid.Parse("1b834e1d-0d6a-406d-995f-3052a775966a"));
+        public static ReferenceInfo SystemSecurityCryptographyOpenSsl => new ReferenceInfo("System.Security.Cryptography.OpenSsl.dll", Resources.SystemSecurityCryptographyOpenSsl, AspNet100.References.SystemSecurityCryptographyOpenSsl, global::System.Guid.Parse("cf573e52-ce50-4ddb-ad4a-a374bba05b90"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyPrimitives => new ReferenceInfo("System.Security.Cryptography.Primitives.dll", Resources.SystemSecurityCryptographyPrimitives, AspNet90.References.SystemSecurityCryptographyPrimitives, global::System.Guid.Parse("60910360-f34c-4358-acbe-c4668ee97763"));
+        public static ReferenceInfo SystemSecurityCryptographyPrimitives => new ReferenceInfo("System.Security.Cryptography.Primitives.dll", Resources.SystemSecurityCryptographyPrimitives, AspNet100.References.SystemSecurityCryptographyPrimitives, global::System.Guid.Parse("ec85152d-a51d-4236-a71d-81c79a336f75"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.X509Certificates.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyX509Certificates => new ReferenceInfo("System.Security.Cryptography.X509Certificates.dll", Resources.SystemSecurityCryptographyX509Certificates, AspNet90.References.SystemSecurityCryptographyX509Certificates, global::System.Guid.Parse("a1988379-df39-4679-94fe-be0fbfe82af4"));
+        public static ReferenceInfo SystemSecurityCryptographyX509Certificates => new ReferenceInfo("System.Security.Cryptography.X509Certificates.dll", Resources.SystemSecurityCryptographyX509Certificates, AspNet100.References.SystemSecurityCryptographyX509Certificates, global::System.Guid.Parse("cdabc670-23fa-4109-8f23-f89e1f33ccc7"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurity => new ReferenceInfo("System.Security.dll", Resources.SystemSecurity, AspNet90.References.SystemSecurity, global::System.Guid.Parse("deaaa1a8-6e43-406a-a76f-2fd012069811"));
+        public static ReferenceInfo SystemSecurity => new ReferenceInfo("System.Security.dll", Resources.SystemSecurity, AspNet100.References.SystemSecurity, global::System.Guid.Parse("9cbba70b-f426-4c70-b4c7-76e443ef8820"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Principal.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityPrincipal => new ReferenceInfo("System.Security.Principal.dll", Resources.SystemSecurityPrincipal, AspNet90.References.SystemSecurityPrincipal, global::System.Guid.Parse("ccccfc3b-b9c9-4d62-9464-70c6e48c04c9"));
+        public static ReferenceInfo SystemSecurityPrincipal => new ReferenceInfo("System.Security.Principal.dll", Resources.SystemSecurityPrincipal, AspNet100.References.SystemSecurityPrincipal, global::System.Guid.Parse("b46def3f-7722-4fcb-ab3b-3ae8ac2eeaf9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Principal.Windows.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityPrincipalWindows => new ReferenceInfo("System.Security.Principal.Windows.dll", Resources.SystemSecurityPrincipalWindows, AspNet90.References.SystemSecurityPrincipalWindows, global::System.Guid.Parse("1923bda9-1c57-4135-9292-51db72c9a558"));
+        public static ReferenceInfo SystemSecurityPrincipalWindows => new ReferenceInfo("System.Security.Principal.Windows.dll", Resources.SystemSecurityPrincipalWindows, AspNet100.References.SystemSecurityPrincipalWindows, global::System.Guid.Parse("e29e3a8d-72c1-487b-ab13-ab15d0fa360d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.SecureString.dll
         /// </summary>
-        public static ReferenceInfo SystemSecuritySecureString => new ReferenceInfo("System.Security.SecureString.dll", Resources.SystemSecuritySecureString, AspNet90.References.SystemSecuritySecureString, global::System.Guid.Parse("6249e486-0a27-4a36-8269-aafc684dc998"));
+        public static ReferenceInfo SystemSecuritySecureString => new ReferenceInfo("System.Security.SecureString.dll", Resources.SystemSecuritySecureString, AspNet100.References.SystemSecuritySecureString, global::System.Guid.Parse("1fb6ce65-120c-4b67-b246-afa9ae49108b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ServiceModel.Web.dll
         /// </summary>
-        public static ReferenceInfo SystemServiceModelWeb => new ReferenceInfo("System.ServiceModel.Web.dll", Resources.SystemServiceModelWeb, AspNet90.References.SystemServiceModelWeb, global::System.Guid.Parse("1389fe94-0a0c-46f3-a77a-2d5936abbe5d"));
+        public static ReferenceInfo SystemServiceModelWeb => new ReferenceInfo("System.ServiceModel.Web.dll", Resources.SystemServiceModelWeb, AspNet100.References.SystemServiceModelWeb, global::System.Guid.Parse("172d4ffe-697e-46e1-8bba-8a80c393161e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ServiceProcess.dll
         /// </summary>
-        public static ReferenceInfo SystemServiceProcess => new ReferenceInfo("System.ServiceProcess.dll", Resources.SystemServiceProcess, AspNet90.References.SystemServiceProcess, global::System.Guid.Parse("5416eb99-6ec8-4e6c-8330-fc0e764680d8"));
+        public static ReferenceInfo SystemServiceProcess => new ReferenceInfo("System.ServiceProcess.dll", Resources.SystemServiceProcess, AspNet100.References.SystemServiceProcess, global::System.Guid.Parse("4a96f9ea-d9bd-4507-843b-7e8fa481342b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.CodePages.dll
         /// </summary>
-        public static ReferenceInfo SystemTextEncodingCodePages => new ReferenceInfo("System.Text.Encoding.CodePages.dll", Resources.SystemTextEncodingCodePages, AspNet90.References.SystemTextEncodingCodePages, global::System.Guid.Parse("23938989-da91-4c44-926e-fe692bb95899"));
+        public static ReferenceInfo SystemTextEncodingCodePages => new ReferenceInfo("System.Text.Encoding.CodePages.dll", Resources.SystemTextEncodingCodePages, AspNet100.References.SystemTextEncodingCodePages, global::System.Guid.Parse("f3d0b3db-29db-40d1-a41d-5f3c62b89f77"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.dll
         /// </summary>
-        public static ReferenceInfo SystemTextEncoding => new ReferenceInfo("System.Text.Encoding.dll", Resources.SystemTextEncoding, AspNet90.References.SystemTextEncoding, global::System.Guid.Parse("9d1c8421-dfef-497f-bfbc-e2a3fa03c097"));
+        public static ReferenceInfo SystemTextEncoding => new ReferenceInfo("System.Text.Encoding.dll", Resources.SystemTextEncoding, AspNet100.References.SystemTextEncoding, global::System.Guid.Parse("39177ded-baa0-4f52-b2db-0f0dd144f212"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.Extensions.dll
         /// </summary>
-        public static ReferenceInfo SystemTextEncodingExtensions => new ReferenceInfo("System.Text.Encoding.Extensions.dll", Resources.SystemTextEncodingExtensions, AspNet90.References.SystemTextEncodingExtensions, global::System.Guid.Parse("cb6e1f9f-7843-44a9-bd2a-34328cc035fa"));
+        public static ReferenceInfo SystemTextEncodingExtensions => new ReferenceInfo("System.Text.Encoding.Extensions.dll", Resources.SystemTextEncodingExtensions, AspNet100.References.SystemTextEncodingExtensions, global::System.Guid.Parse("92d52709-25d8-4aa5-8539-985779630497"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encodings.Web.dll
         /// </summary>
-        public static ReferenceInfo SystemTextEncodingsWeb => new ReferenceInfo("System.Text.Encodings.Web.dll", Resources.SystemTextEncodingsWeb, AspNet90.References.SystemTextEncodingsWeb, global::System.Guid.Parse("4ffb5f10-31c1-404c-a7bf-46e7a3910a3a"));
+        public static ReferenceInfo SystemTextEncodingsWeb => new ReferenceInfo("System.Text.Encodings.Web.dll", Resources.SystemTextEncodingsWeb, AspNet100.References.SystemTextEncodingsWeb, global::System.Guid.Parse("552f3b55-1f84-47ca-8e2d-b8c9fcdd9a16"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Json.dll
         /// </summary>
-        public static ReferenceInfo SystemTextJson => new ReferenceInfo("System.Text.Json.dll", Resources.SystemTextJson, AspNet90.References.SystemTextJson, global::System.Guid.Parse("c9e383dc-7aca-4f99-bb51-11fe1caf1194"));
+        public static ReferenceInfo SystemTextJson => new ReferenceInfo("System.Text.Json.dll", Resources.SystemTextJson, AspNet100.References.SystemTextJson, global::System.Guid.Parse("972d0aab-3805-4150-845d-91c743968ed4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.RegularExpressions.dll
         /// </summary>
-        public static ReferenceInfo SystemTextRegularExpressions => new ReferenceInfo("System.Text.RegularExpressions.dll", Resources.SystemTextRegularExpressions, AspNet90.References.SystemTextRegularExpressions, global::System.Guid.Parse("61c2d5df-022d-4d2f-8a8a-7afd83305701"));
+        public static ReferenceInfo SystemTextRegularExpressions => new ReferenceInfo("System.Text.RegularExpressions.dll", Resources.SystemTextRegularExpressions, AspNet100.References.SystemTextRegularExpressions, global::System.Guid.Parse("f3876171-6ccb-4b06-9c0c-62c6a6c181f2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Channels.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingChannels => new ReferenceInfo("System.Threading.Channels.dll", Resources.SystemThreadingChannels, AspNet90.References.SystemThreadingChannels, global::System.Guid.Parse("b17d29d9-c35a-4fe6-912b-67c5154f4bb0"));
+        public static ReferenceInfo SystemThreadingChannels => new ReferenceInfo("System.Threading.Channels.dll", Resources.SystemThreadingChannels, AspNet100.References.SystemThreadingChannels, global::System.Guid.Parse("b770d2ea-b9da-422f-865f-0d14a6a3e232"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.dll
         /// </summary>
-        public static ReferenceInfo SystemThreading => new ReferenceInfo("System.Threading.dll", Resources.SystemThreading, AspNet90.References.SystemThreading, global::System.Guid.Parse("f0c1ed84-9469-455c-a9ee-2ed241ffbaa7"));
+        public static ReferenceInfo SystemThreading => new ReferenceInfo("System.Threading.dll", Resources.SystemThreading, AspNet100.References.SystemThreading, global::System.Guid.Parse("5a44128f-8d1c-4f0c-a943-c35374253618"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Overlapped.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingOverlapped => new ReferenceInfo("System.Threading.Overlapped.dll", Resources.SystemThreadingOverlapped, AspNet90.References.SystemThreadingOverlapped, global::System.Guid.Parse("ac9f5489-4e03-45f2-b541-01583957c58c"));
+        public static ReferenceInfo SystemThreadingOverlapped => new ReferenceInfo("System.Threading.Overlapped.dll", Resources.SystemThreadingOverlapped, AspNet100.References.SystemThreadingOverlapped, global::System.Guid.Parse("50f2aea6-c8f6-417d-94c7-c5ba2781fdc3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Dataflow.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingTasksDataflow => new ReferenceInfo("System.Threading.Tasks.Dataflow.dll", Resources.SystemThreadingTasksDataflow, AspNet90.References.SystemThreadingTasksDataflow, global::System.Guid.Parse("20129c67-182a-4f20-9c98-81e92c4e44b3"));
+        public static ReferenceInfo SystemThreadingTasksDataflow => new ReferenceInfo("System.Threading.Tasks.Dataflow.dll", Resources.SystemThreadingTasksDataflow, AspNet100.References.SystemThreadingTasksDataflow, global::System.Guid.Parse("a8d8e643-0e9c-44a3-8e93-cbb95374bcd3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingTasks => new ReferenceInfo("System.Threading.Tasks.dll", Resources.SystemThreadingTasks, AspNet90.References.SystemThreadingTasks, global::System.Guid.Parse("4f2c54a6-1313-4644-9695-99f32ea8201b"));
+        public static ReferenceInfo SystemThreadingTasks => new ReferenceInfo("System.Threading.Tasks.dll", Resources.SystemThreadingTasks, AspNet100.References.SystemThreadingTasks, global::System.Guid.Parse("1226eeb9-3161-4388-901e-ab2e65635245"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Extensions.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingTasksExtensions => new ReferenceInfo("System.Threading.Tasks.Extensions.dll", Resources.SystemThreadingTasksExtensions, AspNet90.References.SystemThreadingTasksExtensions, global::System.Guid.Parse("df76a5c0-eff9-4d3b-a6f4-6e48a9cf8b25"));
+        public static ReferenceInfo SystemThreadingTasksExtensions => new ReferenceInfo("System.Threading.Tasks.Extensions.dll", Resources.SystemThreadingTasksExtensions, AspNet100.References.SystemThreadingTasksExtensions, global::System.Guid.Parse("475f8767-7b91-43ce-b1d9-6d287ac6d49d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Parallel.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingTasksParallel => new ReferenceInfo("System.Threading.Tasks.Parallel.dll", Resources.SystemThreadingTasksParallel, AspNet90.References.SystemThreadingTasksParallel, global::System.Guid.Parse("d5c9ebd4-7246-44bb-8272-40061a17cff8"));
+        public static ReferenceInfo SystemThreadingTasksParallel => new ReferenceInfo("System.Threading.Tasks.Parallel.dll", Resources.SystemThreadingTasksParallel, AspNet100.References.SystemThreadingTasksParallel, global::System.Guid.Parse("131121d4-6fe0-43f7-b5d2-ac9536aa56b6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Thread.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingThread => new ReferenceInfo("System.Threading.Thread.dll", Resources.SystemThreadingThread, AspNet90.References.SystemThreadingThread, global::System.Guid.Parse("a65a6bc2-1911-4148-8a89-54922dee6c06"));
+        public static ReferenceInfo SystemThreadingThread => new ReferenceInfo("System.Threading.Thread.dll", Resources.SystemThreadingThread, AspNet100.References.SystemThreadingThread, global::System.Guid.Parse("5df151f2-b8e5-4842-80a7-0670233fa7f1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.ThreadPool.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingThreadPool => new ReferenceInfo("System.Threading.ThreadPool.dll", Resources.SystemThreadingThreadPool, AspNet90.References.SystemThreadingThreadPool, global::System.Guid.Parse("ad6b14dd-cf3d-4abd-a1a3-1c679284673c"));
+        public static ReferenceInfo SystemThreadingThreadPool => new ReferenceInfo("System.Threading.ThreadPool.dll", Resources.SystemThreadingThreadPool, AspNet100.References.SystemThreadingThreadPool, global::System.Guid.Parse("c4397e04-6688-4ec8-8c73-305936164892"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Timer.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingTimer => new ReferenceInfo("System.Threading.Timer.dll", Resources.SystemThreadingTimer, AspNet90.References.SystemThreadingTimer, global::System.Guid.Parse("7367be03-6a60-49d1-8f76-e5647a3a4f4d"));
+        public static ReferenceInfo SystemThreadingTimer => new ReferenceInfo("System.Threading.Timer.dll", Resources.SystemThreadingTimer, AspNet100.References.SystemThreadingTimer, global::System.Guid.Parse("d4bcb178-9a0c-430d-a0d8-40b67acd8a8b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Transactions.dll
         /// </summary>
-        public static ReferenceInfo SystemTransactions => new ReferenceInfo("System.Transactions.dll", Resources.SystemTransactions, AspNet90.References.SystemTransactions, global::System.Guid.Parse("94080a81-7506-44db-81d0-e11708d42beb"));
+        public static ReferenceInfo SystemTransactions => new ReferenceInfo("System.Transactions.dll", Resources.SystemTransactions, AspNet100.References.SystemTransactions, global::System.Guid.Parse("6c7ddb46-e345-482a-8ad4-db068abbeb9d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Transactions.Local.dll
         /// </summary>
-        public static ReferenceInfo SystemTransactionsLocal => new ReferenceInfo("System.Transactions.Local.dll", Resources.SystemTransactionsLocal, AspNet90.References.SystemTransactionsLocal, global::System.Guid.Parse("92190889-e4f4-46f6-9703-89b1978a8664"));
+        public static ReferenceInfo SystemTransactionsLocal => new ReferenceInfo("System.Transactions.Local.dll", Resources.SystemTransactionsLocal, AspNet100.References.SystemTransactionsLocal, global::System.Guid.Parse("04998118-eb86-4551-983f-8262cffab774"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ValueTuple.dll
         /// </summary>
-        public static ReferenceInfo SystemValueTuple => new ReferenceInfo("System.ValueTuple.dll", Resources.SystemValueTuple, AspNet90.References.SystemValueTuple, global::System.Guid.Parse("98ca2134-7dc7-4b47-99e5-48c2b9246f85"));
+        public static ReferenceInfo SystemValueTuple => new ReferenceInfo("System.ValueTuple.dll", Resources.SystemValueTuple, AspNet100.References.SystemValueTuple, global::System.Guid.Parse("5cfe1d0f-de9e-45c9-bae9-a037c993e101"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Web.dll
         /// </summary>
-        public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, AspNet90.References.SystemWeb, global::System.Guid.Parse("06d730af-b88c-41db-b425-776e22a94cc1"));
+        public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, AspNet100.References.SystemWeb, global::System.Guid.Parse("a1609d81-acd4-43d6-8812-3b9ad18bcf4c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Web.HttpUtility.dll
         /// </summary>
-        public static ReferenceInfo SystemWebHttpUtility => new ReferenceInfo("System.Web.HttpUtility.dll", Resources.SystemWebHttpUtility, AspNet90.References.SystemWebHttpUtility, global::System.Guid.Parse("c69ba051-65a5-4397-838a-bdb17fb9c71a"));
+        public static ReferenceInfo SystemWebHttpUtility => new ReferenceInfo("System.Web.HttpUtility.dll", Resources.SystemWebHttpUtility, AspNet100.References.SystemWebHttpUtility, global::System.Guid.Parse("60276ebd-fdc3-4296-9b6b-ac5eda27639b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Windows.dll
         /// </summary>
-        public static ReferenceInfo SystemWindows => new ReferenceInfo("System.Windows.dll", Resources.SystemWindows, AspNet90.References.SystemWindows, global::System.Guid.Parse("b8da6509-bda4-423b-8e78-8b366cb15c88"));
+        public static ReferenceInfo SystemWindows => new ReferenceInfo("System.Windows.dll", Resources.SystemWindows, AspNet100.References.SystemWindows, global::System.Guid.Parse("2329f9f9-b3bc-4f65-8225-0b48103a10d8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.dll
         /// </summary>
-        public static ReferenceInfo SystemXml => new ReferenceInfo("System.Xml.dll", Resources.SystemXml, AspNet90.References.SystemXml, global::System.Guid.Parse("a49fa3f4-9f9b-4191-8330-a48bcd5625d6"));
+        public static ReferenceInfo SystemXml => new ReferenceInfo("System.Xml.dll", Resources.SystemXml, AspNet100.References.SystemXml, global::System.Guid.Parse("8a750aba-8be0-484a-89e2-17e278e7a0de"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.Linq.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlLinq => new ReferenceInfo("System.Xml.Linq.dll", Resources.SystemXmlLinq, AspNet90.References.SystemXmlLinq, global::System.Guid.Parse("cbc7391c-4d7e-4346-b86a-72a3067db604"));
+        public static ReferenceInfo SystemXmlLinq => new ReferenceInfo("System.Xml.Linq.dll", Resources.SystemXmlLinq, AspNet100.References.SystemXmlLinq, global::System.Guid.Parse("a37654da-82ec-43db-8d69-860806c85714"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.ReaderWriter.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlReaderWriter => new ReferenceInfo("System.Xml.ReaderWriter.dll", Resources.SystemXmlReaderWriter, AspNet90.References.SystemXmlReaderWriter, global::System.Guid.Parse("488f57b3-c2bd-4eab-b720-786961d28020"));
+        public static ReferenceInfo SystemXmlReaderWriter => new ReferenceInfo("System.Xml.ReaderWriter.dll", Resources.SystemXmlReaderWriter, AspNet100.References.SystemXmlReaderWriter, global::System.Guid.Parse("eb3f3824-fcf5-49fd-9864-8a549e717fb5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.Serialization.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlSerialization => new ReferenceInfo("System.Xml.Serialization.dll", Resources.SystemXmlSerialization, AspNet90.References.SystemXmlSerialization, global::System.Guid.Parse("796af0ad-002f-4772-a554-af463db9fe7c"));
+        public static ReferenceInfo SystemXmlSerialization => new ReferenceInfo("System.Xml.Serialization.dll", Resources.SystemXmlSerialization, AspNet100.References.SystemXmlSerialization, global::System.Guid.Parse("b3415f79-aa61-493b-8dcf-e455070a9856"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XDocument.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXDocument => new ReferenceInfo("System.Xml.XDocument.dll", Resources.SystemXmlXDocument, AspNet90.References.SystemXmlXDocument, global::System.Guid.Parse("02695430-631e-416a-a2ba-7f952081f8a1"));
+        public static ReferenceInfo SystemXmlXDocument => new ReferenceInfo("System.Xml.XDocument.dll", Resources.SystemXmlXDocument, AspNet100.References.SystemXmlXDocument, global::System.Guid.Parse("80267454-b7ea-437b-a767-02e231c1dce7"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XmlDocument.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXmlDocument => new ReferenceInfo("System.Xml.XmlDocument.dll", Resources.SystemXmlXmlDocument, AspNet90.References.SystemXmlXmlDocument, global::System.Guid.Parse("d371b4a8-7144-4c80-8ac9-b3ae80440cc9"));
+        public static ReferenceInfo SystemXmlXmlDocument => new ReferenceInfo("System.Xml.XmlDocument.dll", Resources.SystemXmlXmlDocument, AspNet100.References.SystemXmlXmlDocument, global::System.Guid.Parse("aca3993b-93f3-49ed-b499-cef21d2242af"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XmlSerializer.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXmlSerializer => new ReferenceInfo("System.Xml.XmlSerializer.dll", Resources.SystemXmlXmlSerializer, AspNet90.References.SystemXmlXmlSerializer, global::System.Guid.Parse("d45a417d-444f-4b53-8aaf-3f840e49779f"));
+        public static ReferenceInfo SystemXmlXmlSerializer => new ReferenceInfo("System.Xml.XmlSerializer.dll", Resources.SystemXmlXmlSerializer, AspNet100.References.SystemXmlXmlSerializer, global::System.Guid.Parse("bebe6b32-8a95-44a5-99c9-a132f1dbfa12"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, AspNet90.References.SystemXmlXPath, global::System.Guid.Parse("928d6dfb-c982-4bc6-86b8-26fa12492e53"));
+        public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, AspNet100.References.SystemXmlXPath, global::System.Guid.Parse("a4390b18-b292-484e-b482-c26c794d0120"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.XDocument.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, AspNet90.References.SystemXmlXPathXDocument, global::System.Guid.Parse("2205c021-5b38-46da-80b4-8ae5c59436f7"));
+        public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, AspNet100.References.SystemXmlXPathXDocument, global::System.Guid.Parse("edb2f33c-cc5c-4072-914c-c40fa295a1df"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for WindowsBase.dll
         /// </summary>
-        public static ReferenceInfo WindowsBase => new ReferenceInfo("WindowsBase.dll", Resources.WindowsBase, AspNet90.References.WindowsBase, global::System.Guid.Parse("d41258d5-ac57-4fd8-a31f-8f98c90f6929"));
+        public static ReferenceInfo WindowsBase => new ReferenceInfo("WindowsBase.dll", Resources.WindowsBase, AspNet100.References.WindowsBase, global::System.Guid.Parse("5525a652-6b31-44ff-85e3-7eea0b36fa3b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Antiforgery.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAntiforgery => new ReferenceInfo("Microsoft.AspNetCore.Antiforgery.dll", Resources.MicrosoftAspNetCoreAntiforgery, AspNet90.References.MicrosoftAspNetCoreAntiforgery, global::System.Guid.Parse("d5518aa7-ef2f-4049-9be0-a45778b476a8"));
+        public static ReferenceInfo MicrosoftAspNetCoreAntiforgery => new ReferenceInfo("Microsoft.AspNetCore.Antiforgery.dll", Resources.MicrosoftAspNetCoreAntiforgery, AspNet100.References.MicrosoftAspNetCoreAntiforgery, global::System.Guid.Parse("d09c81de-c651-439f-8f63-03f0e5acb827"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authentication.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Authentication.Abstractions.dll", Resources.MicrosoftAspNetCoreAuthenticationAbstractions, AspNet90.References.MicrosoftAspNetCoreAuthenticationAbstractions, global::System.Guid.Parse("a19f3c12-8077-4b36-acff-4aa0bbc529e4"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Authentication.Abstractions.dll", Resources.MicrosoftAspNetCoreAuthenticationAbstractions, AspNet100.References.MicrosoftAspNetCoreAuthenticationAbstractions, global::System.Guid.Parse("bc8818d3-7ddf-4178-ab41-cfe9f47d8d3d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authentication.BearerToken.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationBearerToken => new ReferenceInfo("Microsoft.AspNetCore.Authentication.BearerToken.dll", Resources.MicrosoftAspNetCoreAuthenticationBearerToken, AspNet90.References.MicrosoftAspNetCoreAuthenticationBearerToken, global::System.Guid.Parse("4a0bc809-f0a8-41d3-afc8-06567b30b347"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationBearerToken => new ReferenceInfo("Microsoft.AspNetCore.Authentication.BearerToken.dll", Resources.MicrosoftAspNetCoreAuthenticationBearerToken, AspNet100.References.MicrosoftAspNetCoreAuthenticationBearerToken, global::System.Guid.Parse("4a7c1531-1f97-47fa-a7b8-eed0ea038241"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authentication.Cookies.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationCookies => new ReferenceInfo("Microsoft.AspNetCore.Authentication.Cookies.dll", Resources.MicrosoftAspNetCoreAuthenticationCookies, AspNet90.References.MicrosoftAspNetCoreAuthenticationCookies, global::System.Guid.Parse("b4356d27-ccd8-423f-bd99-d23e3b984339"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationCookies => new ReferenceInfo("Microsoft.AspNetCore.Authentication.Cookies.dll", Resources.MicrosoftAspNetCoreAuthenticationCookies, AspNet100.References.MicrosoftAspNetCoreAuthenticationCookies, global::System.Guid.Parse("75676e20-ae2c-4c2b-829d-7ad1a476d8ba"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authentication.Core.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationCore => new ReferenceInfo("Microsoft.AspNetCore.Authentication.Core.dll", Resources.MicrosoftAspNetCoreAuthenticationCore, AspNet90.References.MicrosoftAspNetCoreAuthenticationCore, global::System.Guid.Parse("602db80e-c22f-4cad-b127-739210837125"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationCore => new ReferenceInfo("Microsoft.AspNetCore.Authentication.Core.dll", Resources.MicrosoftAspNetCoreAuthenticationCore, AspNet100.References.MicrosoftAspNetCoreAuthenticationCore, global::System.Guid.Parse("3b96dd76-3855-4e2a-9f26-53eba51f6063"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authentication.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthentication => new ReferenceInfo("Microsoft.AspNetCore.Authentication.dll", Resources.MicrosoftAspNetCoreAuthentication, AspNet90.References.MicrosoftAspNetCoreAuthentication, global::System.Guid.Parse("5922c11f-a824-4617-b724-1bcb5747c3a1"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthentication => new ReferenceInfo("Microsoft.AspNetCore.Authentication.dll", Resources.MicrosoftAspNetCoreAuthentication, AspNet100.References.MicrosoftAspNetCoreAuthentication, global::System.Guid.Parse("c5006eb9-ddad-4226-ba1c-c13df7784b94"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authentication.OAuth.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationOAuth => new ReferenceInfo("Microsoft.AspNetCore.Authentication.OAuth.dll", Resources.MicrosoftAspNetCoreAuthenticationOAuth, AspNet90.References.MicrosoftAspNetCoreAuthenticationOAuth, global::System.Guid.Parse("20934635-07d4-4f3d-ac6b-58a405d6ec21"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthenticationOAuth => new ReferenceInfo("Microsoft.AspNetCore.Authentication.OAuth.dll", Resources.MicrosoftAspNetCoreAuthenticationOAuth, AspNet100.References.MicrosoftAspNetCoreAuthenticationOAuth, global::System.Guid.Parse("db4dd3c1-a2d6-4054-b103-5dadacdcdb67"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authorization.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthorization => new ReferenceInfo("Microsoft.AspNetCore.Authorization.dll", Resources.MicrosoftAspNetCoreAuthorization, AspNet90.References.MicrosoftAspNetCoreAuthorization, global::System.Guid.Parse("a7cc12ef-af6e-4352-a319-2bceee75b0e9"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthorization => new ReferenceInfo("Microsoft.AspNetCore.Authorization.dll", Resources.MicrosoftAspNetCoreAuthorization, AspNet100.References.MicrosoftAspNetCoreAuthorization, global::System.Guid.Parse("423092f3-69b6-477c-8bd2-b7eabd59ba27"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Authorization.Policy.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreAuthorizationPolicy => new ReferenceInfo("Microsoft.AspNetCore.Authorization.Policy.dll", Resources.MicrosoftAspNetCoreAuthorizationPolicy, AspNet90.References.MicrosoftAspNetCoreAuthorizationPolicy, global::System.Guid.Parse("161d6e37-e4d3-4c4c-ae43-8d07b820a52f"));
+        public static ReferenceInfo MicrosoftAspNetCoreAuthorizationPolicy => new ReferenceInfo("Microsoft.AspNetCore.Authorization.Policy.dll", Resources.MicrosoftAspNetCoreAuthorizationPolicy, AspNet100.References.MicrosoftAspNetCoreAuthorizationPolicy, global::System.Guid.Parse("5b31e718-7821-4935-80d6-d49093142242"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Components.Authorization.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreComponentsAuthorization => new ReferenceInfo("Microsoft.AspNetCore.Components.Authorization.dll", Resources.MicrosoftAspNetCoreComponentsAuthorization, AspNet90.References.MicrosoftAspNetCoreComponentsAuthorization, global::System.Guid.Parse("1597be5f-c5d8-4238-925c-f93622127459"));
+        public static ReferenceInfo MicrosoftAspNetCoreComponentsAuthorization => new ReferenceInfo("Microsoft.AspNetCore.Components.Authorization.dll", Resources.MicrosoftAspNetCoreComponentsAuthorization, AspNet100.References.MicrosoftAspNetCoreComponentsAuthorization, global::System.Guid.Parse("5fa2b77c-665e-4f4f-93ab-15e5444f50ec"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Components.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreComponents => new ReferenceInfo("Microsoft.AspNetCore.Components.dll", Resources.MicrosoftAspNetCoreComponents, AspNet90.References.MicrosoftAspNetCoreComponents, global::System.Guid.Parse("b530f0cf-603a-4e1d-bc31-a8a6f73e9a7a"));
+        public static ReferenceInfo MicrosoftAspNetCoreComponents => new ReferenceInfo("Microsoft.AspNetCore.Components.dll", Resources.MicrosoftAspNetCoreComponents, AspNet100.References.MicrosoftAspNetCoreComponents, global::System.Guid.Parse("a7f90a43-f71d-469f-b2a3-b76fd07cdf2f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Components.Endpoints.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreComponentsEndpoints => new ReferenceInfo("Microsoft.AspNetCore.Components.Endpoints.dll", Resources.MicrosoftAspNetCoreComponentsEndpoints, AspNet90.References.MicrosoftAspNetCoreComponentsEndpoints, global::System.Guid.Parse("809eeb07-fd71-4426-9124-cca14c771aac"));
+        public static ReferenceInfo MicrosoftAspNetCoreComponentsEndpoints => new ReferenceInfo("Microsoft.AspNetCore.Components.Endpoints.dll", Resources.MicrosoftAspNetCoreComponentsEndpoints, AspNet100.References.MicrosoftAspNetCoreComponentsEndpoints, global::System.Guid.Parse("0d3ef4e0-7ebf-49c7-8f7f-cb2d8c1c14a6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Components.Forms.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreComponentsForms => new ReferenceInfo("Microsoft.AspNetCore.Components.Forms.dll", Resources.MicrosoftAspNetCoreComponentsForms, AspNet90.References.MicrosoftAspNetCoreComponentsForms, global::System.Guid.Parse("87456b96-464e-45d9-950b-31f7849ed267"));
+        public static ReferenceInfo MicrosoftAspNetCoreComponentsForms => new ReferenceInfo("Microsoft.AspNetCore.Components.Forms.dll", Resources.MicrosoftAspNetCoreComponentsForms, AspNet100.References.MicrosoftAspNetCoreComponentsForms, global::System.Guid.Parse("fca1677e-f135-4777-82f9-7ff0f7952507"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Components.Server.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreComponentsServer => new ReferenceInfo("Microsoft.AspNetCore.Components.Server.dll", Resources.MicrosoftAspNetCoreComponentsServer, AspNet90.References.MicrosoftAspNetCoreComponentsServer, global::System.Guid.Parse("7132da58-a16c-42ba-9300-91c29aee9a3d"));
+        public static ReferenceInfo MicrosoftAspNetCoreComponentsServer => new ReferenceInfo("Microsoft.AspNetCore.Components.Server.dll", Resources.MicrosoftAspNetCoreComponentsServer, AspNet100.References.MicrosoftAspNetCoreComponentsServer, global::System.Guid.Parse("b75504e3-5b07-4f41-bc55-b304ec17913e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Components.Web.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreComponentsWeb => new ReferenceInfo("Microsoft.AspNetCore.Components.Web.dll", Resources.MicrosoftAspNetCoreComponentsWeb, AspNet90.References.MicrosoftAspNetCoreComponentsWeb, global::System.Guid.Parse("56d60760-c22a-4fb6-9b6f-550316c5f103"));
+        public static ReferenceInfo MicrosoftAspNetCoreComponentsWeb => new ReferenceInfo("Microsoft.AspNetCore.Components.Web.dll", Resources.MicrosoftAspNetCoreComponentsWeb, AspNet100.References.MicrosoftAspNetCoreComponentsWeb, global::System.Guid.Parse("0d62695d-d7b6-4709-a849-6bdb80dbbe2e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Connections.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreConnectionsAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Connections.Abstractions.dll", Resources.MicrosoftAspNetCoreConnectionsAbstractions, AspNet90.References.MicrosoftAspNetCoreConnectionsAbstractions, global::System.Guid.Parse("208274e3-45f8-4a16-b889-f0d532dcc279"));
+        public static ReferenceInfo MicrosoftAspNetCoreConnectionsAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Connections.Abstractions.dll", Resources.MicrosoftAspNetCoreConnectionsAbstractions, AspNet100.References.MicrosoftAspNetCoreConnectionsAbstractions, global::System.Guid.Parse("dedd6484-926c-43f9-a415-8a7bff83f3d0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.CookiePolicy.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreCookiePolicy => new ReferenceInfo("Microsoft.AspNetCore.CookiePolicy.dll", Resources.MicrosoftAspNetCoreCookiePolicy, AspNet90.References.MicrosoftAspNetCoreCookiePolicy, global::System.Guid.Parse("0526a3d8-11e2-47b6-ae8a-ba53ce36ed4e"));
+        public static ReferenceInfo MicrosoftAspNetCoreCookiePolicy => new ReferenceInfo("Microsoft.AspNetCore.CookiePolicy.dll", Resources.MicrosoftAspNetCoreCookiePolicy, AspNet100.References.MicrosoftAspNetCoreCookiePolicy, global::System.Guid.Parse("e35dfd53-f8fa-45ec-8318-112f479fe0c4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Cors.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreCors => new ReferenceInfo("Microsoft.AspNetCore.Cors.dll", Resources.MicrosoftAspNetCoreCors, AspNet90.References.MicrosoftAspNetCoreCors, global::System.Guid.Parse("27626b0c-5c34-47f8-8b6b-73375baaa0d5"));
+        public static ReferenceInfo MicrosoftAspNetCoreCors => new ReferenceInfo("Microsoft.AspNetCore.Cors.dll", Resources.MicrosoftAspNetCoreCors, AspNet100.References.MicrosoftAspNetCoreCors, global::System.Guid.Parse("f897ca08-9028-4536-a3f2-6691f3b2cad9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Cryptography.Internal.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreCryptographyInternal => new ReferenceInfo("Microsoft.AspNetCore.Cryptography.Internal.dll", Resources.MicrosoftAspNetCoreCryptographyInternal, AspNet90.References.MicrosoftAspNetCoreCryptographyInternal, global::System.Guid.Parse("86bf9da6-dad6-45a7-bb35-aaa03cffafa6"));
+        public static ReferenceInfo MicrosoftAspNetCoreCryptographyInternal => new ReferenceInfo("Microsoft.AspNetCore.Cryptography.Internal.dll", Resources.MicrosoftAspNetCoreCryptographyInternal, AspNet100.References.MicrosoftAspNetCoreCryptographyInternal, global::System.Guid.Parse("b15fb0dc-111f-4ab3-94af-23c289a496d9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreCryptographyKeyDerivation => new ReferenceInfo("Microsoft.AspNetCore.Cryptography.KeyDerivation.dll", Resources.MicrosoftAspNetCoreCryptographyKeyDerivation, AspNet90.References.MicrosoftAspNetCoreCryptographyKeyDerivation, global::System.Guid.Parse("ba965a35-4c88-4a5f-a632-40bc166c6ea9"));
+        public static ReferenceInfo MicrosoftAspNetCoreCryptographyKeyDerivation => new ReferenceInfo("Microsoft.AspNetCore.Cryptography.KeyDerivation.dll", Resources.MicrosoftAspNetCoreCryptographyKeyDerivation, AspNet100.References.MicrosoftAspNetCoreCryptographyKeyDerivation, global::System.Guid.Parse("b45e2de3-6125-4d7b-925e-fa960e0e2951"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.DataProtection.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreDataProtectionAbstractions => new ReferenceInfo("Microsoft.AspNetCore.DataProtection.Abstractions.dll", Resources.MicrosoftAspNetCoreDataProtectionAbstractions, AspNet90.References.MicrosoftAspNetCoreDataProtectionAbstractions, global::System.Guid.Parse("653cf26c-4a95-4584-be31-80e195cc5fdf"));
+        public static ReferenceInfo MicrosoftAspNetCoreDataProtectionAbstractions => new ReferenceInfo("Microsoft.AspNetCore.DataProtection.Abstractions.dll", Resources.MicrosoftAspNetCoreDataProtectionAbstractions, AspNet100.References.MicrosoftAspNetCoreDataProtectionAbstractions, global::System.Guid.Parse("7af78139-a1cd-4578-ada2-d536409c7e47"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.DataProtection.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreDataProtection => new ReferenceInfo("Microsoft.AspNetCore.DataProtection.dll", Resources.MicrosoftAspNetCoreDataProtection, AspNet90.References.MicrosoftAspNetCoreDataProtection, global::System.Guid.Parse("d23ff403-d570-48f4-93f7-1efdc1a346b2"));
+        public static ReferenceInfo MicrosoftAspNetCoreDataProtection => new ReferenceInfo("Microsoft.AspNetCore.DataProtection.dll", Resources.MicrosoftAspNetCoreDataProtection, AspNet100.References.MicrosoftAspNetCoreDataProtection, global::System.Guid.Parse("7cf6d003-5758-49fe-8100-aac37e597069"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.DataProtection.Extensions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreDataProtectionExtensions => new ReferenceInfo("Microsoft.AspNetCore.DataProtection.Extensions.dll", Resources.MicrosoftAspNetCoreDataProtectionExtensions, AspNet90.References.MicrosoftAspNetCoreDataProtectionExtensions, global::System.Guid.Parse("86cfc0d7-5e93-44a8-9130-e6c6aaf41398"));
+        public static ReferenceInfo MicrosoftAspNetCoreDataProtectionExtensions => new ReferenceInfo("Microsoft.AspNetCore.DataProtection.Extensions.dll", Resources.MicrosoftAspNetCoreDataProtectionExtensions, AspNet100.References.MicrosoftAspNetCoreDataProtectionExtensions, global::System.Guid.Parse("86c8cab0-fccc-44b7-9dfd-6f32a50d3470"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Diagnostics.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreDiagnosticsAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Diagnostics.Abstractions.dll", Resources.MicrosoftAspNetCoreDiagnosticsAbstractions, AspNet90.References.MicrosoftAspNetCoreDiagnosticsAbstractions, global::System.Guid.Parse("4f794efc-a354-4214-9287-32237e966052"));
+        public static ReferenceInfo MicrosoftAspNetCoreDiagnosticsAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Diagnostics.Abstractions.dll", Resources.MicrosoftAspNetCoreDiagnosticsAbstractions, AspNet100.References.MicrosoftAspNetCoreDiagnosticsAbstractions, global::System.Guid.Parse("c15e61f5-3867-451e-9e38-fe61b8a69558"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Diagnostics.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreDiagnostics => new ReferenceInfo("Microsoft.AspNetCore.Diagnostics.dll", Resources.MicrosoftAspNetCoreDiagnostics, AspNet90.References.MicrosoftAspNetCoreDiagnostics, global::System.Guid.Parse("dfeec2a6-b013-4aba-9011-1883bc857669"));
+        public static ReferenceInfo MicrosoftAspNetCoreDiagnostics => new ReferenceInfo("Microsoft.AspNetCore.Diagnostics.dll", Resources.MicrosoftAspNetCoreDiagnostics, AspNet100.References.MicrosoftAspNetCoreDiagnostics, global::System.Guid.Parse("94cfae2f-1f9c-4a5f-a4dc-15186b63d443"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreDiagnosticsHealthChecks => new ReferenceInfo("Microsoft.AspNetCore.Diagnostics.HealthChecks.dll", Resources.MicrosoftAspNetCoreDiagnosticsHealthChecks, AspNet90.References.MicrosoftAspNetCoreDiagnosticsHealthChecks, global::System.Guid.Parse("f24f3b22-5725-4f94-bac8-4f8f5c522dfa"));
+        public static ReferenceInfo MicrosoftAspNetCoreDiagnosticsHealthChecks => new ReferenceInfo("Microsoft.AspNetCore.Diagnostics.HealthChecks.dll", Resources.MicrosoftAspNetCoreDiagnosticsHealthChecks, AspNet100.References.MicrosoftAspNetCoreDiagnosticsHealthChecks, global::System.Guid.Parse("9cba196f-091e-447a-be44-4f332e556bf8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCore => new ReferenceInfo("Microsoft.AspNetCore.dll", Resources.MicrosoftAspNetCore, AspNet90.References.MicrosoftAspNetCore, global::System.Guid.Parse("d70c8a27-08e7-482b-a87d-24b13a4c1e53"));
+        public static ReferenceInfo MicrosoftAspNetCore => new ReferenceInfo("Microsoft.AspNetCore.dll", Resources.MicrosoftAspNetCore, AspNet100.References.MicrosoftAspNetCore, global::System.Guid.Parse("45dfe609-9f51-40f9-8264-fa2ab1aa9a87"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.HostFiltering.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHostFiltering => new ReferenceInfo("Microsoft.AspNetCore.HostFiltering.dll", Resources.MicrosoftAspNetCoreHostFiltering, AspNet90.References.MicrosoftAspNetCoreHostFiltering, global::System.Guid.Parse("53869bb3-57b7-4f6b-8e99-798a755233ba"));
+        public static ReferenceInfo MicrosoftAspNetCoreHostFiltering => new ReferenceInfo("Microsoft.AspNetCore.HostFiltering.dll", Resources.MicrosoftAspNetCoreHostFiltering, AspNet100.References.MicrosoftAspNetCoreHostFiltering, global::System.Guid.Parse("2389ca2d-5ffe-4423-822c-5da07a804cf9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Hosting.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHostingAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Hosting.Abstractions.dll", Resources.MicrosoftAspNetCoreHostingAbstractions, AspNet90.References.MicrosoftAspNetCoreHostingAbstractions, global::System.Guid.Parse("2a614e81-642e-47ac-bb6c-877a9331048d"));
+        public static ReferenceInfo MicrosoftAspNetCoreHostingAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Hosting.Abstractions.dll", Resources.MicrosoftAspNetCoreHostingAbstractions, AspNet100.References.MicrosoftAspNetCoreHostingAbstractions, global::System.Guid.Parse("d3fd15b1-2ee3-42b8-8cfb-9f080d6ef808"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Hosting.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHosting => new ReferenceInfo("Microsoft.AspNetCore.Hosting.dll", Resources.MicrosoftAspNetCoreHosting, AspNet90.References.MicrosoftAspNetCoreHosting, global::System.Guid.Parse("34dabd2a-3a1b-425a-910b-494eb0e7f32f"));
+        public static ReferenceInfo MicrosoftAspNetCoreHosting => new ReferenceInfo("Microsoft.AspNetCore.Hosting.dll", Resources.MicrosoftAspNetCoreHosting, AspNet100.References.MicrosoftAspNetCoreHosting, global::System.Guid.Parse("6713e6e5-0b75-4df8-8dcd-cb0d2487251e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHostingServerAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Hosting.Server.Abstractions.dll", Resources.MicrosoftAspNetCoreHostingServerAbstractions, AspNet90.References.MicrosoftAspNetCoreHostingServerAbstractions, global::System.Guid.Parse("c1fcc7d6-a9ef-4234-a994-aedaf870fabd"));
+        public static ReferenceInfo MicrosoftAspNetCoreHostingServerAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Hosting.Server.Abstractions.dll", Resources.MicrosoftAspNetCoreHostingServerAbstractions, AspNet100.References.MicrosoftAspNetCoreHostingServerAbstractions, global::System.Guid.Parse("be4a940d-d337-4357-b5e6-06ba3378a4ec"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Html.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHtmlAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Html.Abstractions.dll", Resources.MicrosoftAspNetCoreHtmlAbstractions, AspNet90.References.MicrosoftAspNetCoreHtmlAbstractions, global::System.Guid.Parse("33930bc4-7f93-44e2-ac3b-825b9e22a93a"));
+        public static ReferenceInfo MicrosoftAspNetCoreHtmlAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Html.Abstractions.dll", Resources.MicrosoftAspNetCoreHtmlAbstractions, AspNet100.References.MicrosoftAspNetCoreHtmlAbstractions, global::System.Guid.Parse("44d8d0b1-f31d-45cb-9576-503ff41e20ab"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Http.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Http.Abstractions.dll", Resources.MicrosoftAspNetCoreHttpAbstractions, AspNet90.References.MicrosoftAspNetCoreHttpAbstractions, global::System.Guid.Parse("ffe2316f-f538-4e50-9f40-c7c4feb5727a"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Http.Abstractions.dll", Resources.MicrosoftAspNetCoreHttpAbstractions, AspNet100.References.MicrosoftAspNetCoreHttpAbstractions, global::System.Guid.Parse("6f581088-c29d-48f7-9f52-2adc5b75c1d4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Http.Connections.Common.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpConnectionsCommon => new ReferenceInfo("Microsoft.AspNetCore.Http.Connections.Common.dll", Resources.MicrosoftAspNetCoreHttpConnectionsCommon, AspNet90.References.MicrosoftAspNetCoreHttpConnectionsCommon, global::System.Guid.Parse("b9a02481-aea5-4c14-9ca4-6c59db74d8ce"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpConnectionsCommon => new ReferenceInfo("Microsoft.AspNetCore.Http.Connections.Common.dll", Resources.MicrosoftAspNetCoreHttpConnectionsCommon, AspNet100.References.MicrosoftAspNetCoreHttpConnectionsCommon, global::System.Guid.Parse("1bda395f-9858-49a1-9667-141415139eca"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Http.Connections.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpConnections => new ReferenceInfo("Microsoft.AspNetCore.Http.Connections.dll", Resources.MicrosoftAspNetCoreHttpConnections, AspNet90.References.MicrosoftAspNetCoreHttpConnections, global::System.Guid.Parse("7d762a34-0d1d-465f-8398-a54f0bb92b86"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpConnections => new ReferenceInfo("Microsoft.AspNetCore.Http.Connections.dll", Resources.MicrosoftAspNetCoreHttpConnections, AspNet100.References.MicrosoftAspNetCoreHttpConnections, global::System.Guid.Parse("93775488-0cc4-4ce5-9332-47f58fa4b9d8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Http.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttp => new ReferenceInfo("Microsoft.AspNetCore.Http.dll", Resources.MicrosoftAspNetCoreHttp, AspNet90.References.MicrosoftAspNetCoreHttp, global::System.Guid.Parse("8d0d8b4c-5c72-40ce-ba53-387718e8ef3d"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttp => new ReferenceInfo("Microsoft.AspNetCore.Http.dll", Resources.MicrosoftAspNetCoreHttp, AspNet100.References.MicrosoftAspNetCoreHttp, global::System.Guid.Parse("920d0768-30bd-4193-9cb5-a2978d8e3892"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Http.Extensions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpExtensions => new ReferenceInfo("Microsoft.AspNetCore.Http.Extensions.dll", Resources.MicrosoftAspNetCoreHttpExtensions, AspNet90.References.MicrosoftAspNetCoreHttpExtensions, global::System.Guid.Parse("35265184-a044-4c8e-963f-5874934ba4d3"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpExtensions => new ReferenceInfo("Microsoft.AspNetCore.Http.Extensions.dll", Resources.MicrosoftAspNetCoreHttpExtensions, AspNet100.References.MicrosoftAspNetCoreHttpExtensions, global::System.Guid.Parse("b7d4296f-1c08-437c-90ab-bee3c295d052"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Http.Features.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpFeatures => new ReferenceInfo("Microsoft.AspNetCore.Http.Features.dll", Resources.MicrosoftAspNetCoreHttpFeatures, AspNet90.References.MicrosoftAspNetCoreHttpFeatures, global::System.Guid.Parse("1e867a4a-7f8e-4206-a118-db262297f3b7"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpFeatures => new ReferenceInfo("Microsoft.AspNetCore.Http.Features.dll", Resources.MicrosoftAspNetCoreHttpFeatures, AspNet100.References.MicrosoftAspNetCoreHttpFeatures, global::System.Guid.Parse("95972ab1-8ca2-4a4f-8112-a3a6e6a70d32"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Http.Results.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpResults => new ReferenceInfo("Microsoft.AspNetCore.Http.Results.dll", Resources.MicrosoftAspNetCoreHttpResults, AspNet90.References.MicrosoftAspNetCoreHttpResults, global::System.Guid.Parse("5e4cd12e-6842-406e-ac20-1ede5698a64e"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpResults => new ReferenceInfo("Microsoft.AspNetCore.Http.Results.dll", Resources.MicrosoftAspNetCoreHttpResults, AspNet100.References.MicrosoftAspNetCoreHttpResults, global::System.Guid.Parse("24118864-eec3-4bcb-bddf-eb3f2e112b83"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.HttpLogging.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpLogging => new ReferenceInfo("Microsoft.AspNetCore.HttpLogging.dll", Resources.MicrosoftAspNetCoreHttpLogging, AspNet90.References.MicrosoftAspNetCoreHttpLogging, global::System.Guid.Parse("2cde212b-4341-4c38-b6a0-00f0dded0a78"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpLogging => new ReferenceInfo("Microsoft.AspNetCore.HttpLogging.dll", Resources.MicrosoftAspNetCoreHttpLogging, AspNet100.References.MicrosoftAspNetCoreHttpLogging, global::System.Guid.Parse("c4aadc00-749b-49c3-96af-1792f248eef2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.HttpOverrides.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpOverrides => new ReferenceInfo("Microsoft.AspNetCore.HttpOverrides.dll", Resources.MicrosoftAspNetCoreHttpOverrides, AspNet90.References.MicrosoftAspNetCoreHttpOverrides, global::System.Guid.Parse("0468540b-2fa1-4c76-b3fc-915a57f2ead7"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpOverrides => new ReferenceInfo("Microsoft.AspNetCore.HttpOverrides.dll", Resources.MicrosoftAspNetCoreHttpOverrides, AspNet100.References.MicrosoftAspNetCoreHttpOverrides, global::System.Guid.Parse("fac8829f-6e8e-48f4-b625-3bfa619fb756"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.HttpsPolicy.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreHttpsPolicy => new ReferenceInfo("Microsoft.AspNetCore.HttpsPolicy.dll", Resources.MicrosoftAspNetCoreHttpsPolicy, AspNet90.References.MicrosoftAspNetCoreHttpsPolicy, global::System.Guid.Parse("cada973c-b0e8-4585-86ab-146757ec9d13"));
+        public static ReferenceInfo MicrosoftAspNetCoreHttpsPolicy => new ReferenceInfo("Microsoft.AspNetCore.HttpsPolicy.dll", Resources.MicrosoftAspNetCoreHttpsPolicy, AspNet100.References.MicrosoftAspNetCoreHttpsPolicy, global::System.Guid.Parse("3321b97c-4711-4b36-982f-bcb7dbd05851"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Identity.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreIdentity => new ReferenceInfo("Microsoft.AspNetCore.Identity.dll", Resources.MicrosoftAspNetCoreIdentity, AspNet90.References.MicrosoftAspNetCoreIdentity, global::System.Guid.Parse("f7e773b3-fdd2-4b39-aecd-d162299a5d53"));
+        public static ReferenceInfo MicrosoftAspNetCoreIdentity => new ReferenceInfo("Microsoft.AspNetCore.Identity.dll", Resources.MicrosoftAspNetCoreIdentity, AspNet100.References.MicrosoftAspNetCoreIdentity, global::System.Guid.Parse("b8d2107f-e395-46c8-ba1e-fbd179335aba"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Localization.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreLocalization => new ReferenceInfo("Microsoft.AspNetCore.Localization.dll", Resources.MicrosoftAspNetCoreLocalization, AspNet90.References.MicrosoftAspNetCoreLocalization, global::System.Guid.Parse("3b2d7043-5b30-4c3e-ade6-b49c9ec02fcf"));
+        public static ReferenceInfo MicrosoftAspNetCoreLocalization => new ReferenceInfo("Microsoft.AspNetCore.Localization.dll", Resources.MicrosoftAspNetCoreLocalization, AspNet100.References.MicrosoftAspNetCoreLocalization, global::System.Guid.Parse("f8489040-0079-428e-880d-b693c13dd94b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Localization.Routing.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreLocalizationRouting => new ReferenceInfo("Microsoft.AspNetCore.Localization.Routing.dll", Resources.MicrosoftAspNetCoreLocalizationRouting, AspNet90.References.MicrosoftAspNetCoreLocalizationRouting, global::System.Guid.Parse("a31323a7-ba0f-44a8-8c46-a16d4b5cc938"));
+        public static ReferenceInfo MicrosoftAspNetCoreLocalizationRouting => new ReferenceInfo("Microsoft.AspNetCore.Localization.Routing.dll", Resources.MicrosoftAspNetCoreLocalizationRouting, AspNet100.References.MicrosoftAspNetCoreLocalizationRouting, global::System.Guid.Parse("8e204dcc-2b68-4077-b8f3-bc47730e3d2a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Metadata.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMetadata => new ReferenceInfo("Microsoft.AspNetCore.Metadata.dll", Resources.MicrosoftAspNetCoreMetadata, AspNet90.References.MicrosoftAspNetCoreMetadata, global::System.Guid.Parse("13c8adc0-373f-45c7-9577-3b65c3e8cff3"));
+        public static ReferenceInfo MicrosoftAspNetCoreMetadata => new ReferenceInfo("Microsoft.AspNetCore.Metadata.dll", Resources.MicrosoftAspNetCoreMetadata, AspNet100.References.MicrosoftAspNetCoreMetadata, global::System.Guid.Parse("c069a2a7-de75-4eaf-bb48-9e238b145626"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Abstractions.dll", Resources.MicrosoftAspNetCoreMvcAbstractions, AspNet90.References.MicrosoftAspNetCoreMvcAbstractions, global::System.Guid.Parse("311c256f-eab9-4083-a8d9-0a616729f938"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Abstractions.dll", Resources.MicrosoftAspNetCoreMvcAbstractions, AspNet100.References.MicrosoftAspNetCoreMvcAbstractions, global::System.Guid.Parse("62ad6ad0-b430-48d8-ad16-ad27808a6793"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.ApiExplorer.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcApiExplorer => new ReferenceInfo("Microsoft.AspNetCore.Mvc.ApiExplorer.dll", Resources.MicrosoftAspNetCoreMvcApiExplorer, AspNet90.References.MicrosoftAspNetCoreMvcApiExplorer, global::System.Guid.Parse("7556fa32-0cf0-46f7-972f-686cd3b3072c"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcApiExplorer => new ReferenceInfo("Microsoft.AspNetCore.Mvc.ApiExplorer.dll", Resources.MicrosoftAspNetCoreMvcApiExplorer, AspNet100.References.MicrosoftAspNetCoreMvcApiExplorer, global::System.Guid.Parse("ebe49013-b4a8-440b-be4d-fe7177aaf431"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.Core.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcCore => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Core.dll", Resources.MicrosoftAspNetCoreMvcCore, AspNet90.References.MicrosoftAspNetCoreMvcCore, global::System.Guid.Parse("91a77de7-f65f-459e-a135-487f07db34fe"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcCore => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Core.dll", Resources.MicrosoftAspNetCoreMvcCore, AspNet100.References.MicrosoftAspNetCoreMvcCore, global::System.Guid.Parse("46d09b97-1fa6-4540-bc15-72ef5f0eb3ad"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.Cors.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcCors => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Cors.dll", Resources.MicrosoftAspNetCoreMvcCors, AspNet90.References.MicrosoftAspNetCoreMvcCors, global::System.Guid.Parse("063c70dd-7e2e-47b0-b49f-e87f792a3df4"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcCors => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Cors.dll", Resources.MicrosoftAspNetCoreMvcCors, AspNet100.References.MicrosoftAspNetCoreMvcCors, global::System.Guid.Parse("d0c045df-d46c-4610-8392-7b1d23e80106"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.DataAnnotations.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcDataAnnotations => new ReferenceInfo("Microsoft.AspNetCore.Mvc.DataAnnotations.dll", Resources.MicrosoftAspNetCoreMvcDataAnnotations, AspNet90.References.MicrosoftAspNetCoreMvcDataAnnotations, global::System.Guid.Parse("f4f8ba0a-7939-46c5-9ef1-0b697300fb99"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcDataAnnotations => new ReferenceInfo("Microsoft.AspNetCore.Mvc.DataAnnotations.dll", Resources.MicrosoftAspNetCoreMvcDataAnnotations, AspNet100.References.MicrosoftAspNetCoreMvcDataAnnotations, global::System.Guid.Parse("eff4af5c-6b18-426f-84fc-199fde78c650"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvc => new ReferenceInfo("Microsoft.AspNetCore.Mvc.dll", Resources.MicrosoftAspNetCoreMvc, AspNet90.References.MicrosoftAspNetCoreMvc, global::System.Guid.Parse("66ddecde-29b5-46ce-9874-245a160c27ae"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvc => new ReferenceInfo("Microsoft.AspNetCore.Mvc.dll", Resources.MicrosoftAspNetCoreMvc, AspNet100.References.MicrosoftAspNetCoreMvc, global::System.Guid.Parse("3632ba3f-4cee-4563-94b2-a7a5702eeb25"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.Formatters.Json.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcFormattersJson => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Formatters.Json.dll", Resources.MicrosoftAspNetCoreMvcFormattersJson, AspNet90.References.MicrosoftAspNetCoreMvcFormattersJson, global::System.Guid.Parse("d52d4074-046f-47a7-8dfb-d1a7f2bff84f"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcFormattersJson => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Formatters.Json.dll", Resources.MicrosoftAspNetCoreMvcFormattersJson, AspNet100.References.MicrosoftAspNetCoreMvcFormattersJson, global::System.Guid.Parse("b4ef6e98-4bb5-4428-a086-1d704340e31e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcFormattersXml => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Formatters.Xml.dll", Resources.MicrosoftAspNetCoreMvcFormattersXml, AspNet90.References.MicrosoftAspNetCoreMvcFormattersXml, global::System.Guid.Parse("254f210d-609a-418f-8a11-6d37315bf44f"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcFormattersXml => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Formatters.Xml.dll", Resources.MicrosoftAspNetCoreMvcFormattersXml, AspNet100.References.MicrosoftAspNetCoreMvcFormattersXml, global::System.Guid.Parse("e8fc4503-0142-4eb3-b772-d52d59323bb5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.Localization.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcLocalization => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Localization.dll", Resources.MicrosoftAspNetCoreMvcLocalization, AspNet90.References.MicrosoftAspNetCoreMvcLocalization, global::System.Guid.Parse("93abf05b-4264-4d67-a163-63f5e3063436"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcLocalization => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Localization.dll", Resources.MicrosoftAspNetCoreMvcLocalization, AspNet100.References.MicrosoftAspNetCoreMvcLocalization, global::System.Guid.Parse("017867a6-2737-462a-818c-1a9d9b062106"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.Razor.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcRazor => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Razor.dll", Resources.MicrosoftAspNetCoreMvcRazor, AspNet90.References.MicrosoftAspNetCoreMvcRazor, global::System.Guid.Parse("aeb6a59f-0162-4488-b04b-f8e74aa71f1e"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcRazor => new ReferenceInfo("Microsoft.AspNetCore.Mvc.Razor.dll", Resources.MicrosoftAspNetCoreMvcRazor, AspNet100.References.MicrosoftAspNetCoreMvcRazor, global::System.Guid.Parse("8578a012-b531-4277-b7d9-f72a01fade10"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.RazorPages.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcRazorPages => new ReferenceInfo("Microsoft.AspNetCore.Mvc.RazorPages.dll", Resources.MicrosoftAspNetCoreMvcRazorPages, AspNet90.References.MicrosoftAspNetCoreMvcRazorPages, global::System.Guid.Parse("3d61c600-feed-4918-ad8f-c7b3d7cf1351"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcRazorPages => new ReferenceInfo("Microsoft.AspNetCore.Mvc.RazorPages.dll", Resources.MicrosoftAspNetCoreMvcRazorPages, AspNet100.References.MicrosoftAspNetCoreMvcRazorPages, global::System.Guid.Parse("23003f09-bf3e-4ced-9b20-4d48c4e5d0c8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.TagHelpers.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcTagHelpers => new ReferenceInfo("Microsoft.AspNetCore.Mvc.TagHelpers.dll", Resources.MicrosoftAspNetCoreMvcTagHelpers, AspNet90.References.MicrosoftAspNetCoreMvcTagHelpers, global::System.Guid.Parse("5d8cf858-19de-4a57-b46c-a30931827d8b"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcTagHelpers => new ReferenceInfo("Microsoft.AspNetCore.Mvc.TagHelpers.dll", Resources.MicrosoftAspNetCoreMvcTagHelpers, AspNet100.References.MicrosoftAspNetCoreMvcTagHelpers, global::System.Guid.Parse("9dda2eb6-503a-4440-aaab-60d60061fec0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Mvc.ViewFeatures.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreMvcViewFeatures => new ReferenceInfo("Microsoft.AspNetCore.Mvc.ViewFeatures.dll", Resources.MicrosoftAspNetCoreMvcViewFeatures, AspNet90.References.MicrosoftAspNetCoreMvcViewFeatures, global::System.Guid.Parse("5ad6d1d2-30da-49d6-95e3-29f87bb49d15"));
+        public static ReferenceInfo MicrosoftAspNetCoreMvcViewFeatures => new ReferenceInfo("Microsoft.AspNetCore.Mvc.ViewFeatures.dll", Resources.MicrosoftAspNetCoreMvcViewFeatures, AspNet100.References.MicrosoftAspNetCoreMvcViewFeatures, global::System.Guid.Parse("47fdf3e4-11e6-4874-a8ca-a5f84e71e888"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.OutputCaching.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreOutputCaching => new ReferenceInfo("Microsoft.AspNetCore.OutputCaching.dll", Resources.MicrosoftAspNetCoreOutputCaching, AspNet90.References.MicrosoftAspNetCoreOutputCaching, global::System.Guid.Parse("d0dbb4e2-837d-4eb5-a9c5-ef83927ac276"));
+        public static ReferenceInfo MicrosoftAspNetCoreOutputCaching => new ReferenceInfo("Microsoft.AspNetCore.OutputCaching.dll", Resources.MicrosoftAspNetCoreOutputCaching, AspNet100.References.MicrosoftAspNetCoreOutputCaching, global::System.Guid.Parse("e43d9bbc-8170-46dc-9da2-8bfb9599d80a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.RateLimiting.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreRateLimiting => new ReferenceInfo("Microsoft.AspNetCore.RateLimiting.dll", Resources.MicrosoftAspNetCoreRateLimiting, AspNet90.References.MicrosoftAspNetCoreRateLimiting, global::System.Guid.Parse("56e0431c-a26e-4933-aa35-485a3dd4e770"));
+        public static ReferenceInfo MicrosoftAspNetCoreRateLimiting => new ReferenceInfo("Microsoft.AspNetCore.RateLimiting.dll", Resources.MicrosoftAspNetCoreRateLimiting, AspNet100.References.MicrosoftAspNetCoreRateLimiting, global::System.Guid.Parse("258c6813-32dd-41d6-9e84-db0aa16f44ad"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Razor.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreRazor => new ReferenceInfo("Microsoft.AspNetCore.Razor.dll", Resources.MicrosoftAspNetCoreRazor, AspNet90.References.MicrosoftAspNetCoreRazor, global::System.Guid.Parse("21572127-c651-40a9-826b-a91538e9b928"));
+        public static ReferenceInfo MicrosoftAspNetCoreRazor => new ReferenceInfo("Microsoft.AspNetCore.Razor.dll", Resources.MicrosoftAspNetCoreRazor, AspNet100.References.MicrosoftAspNetCoreRazor, global::System.Guid.Parse("f1645cc4-692d-4bcb-9d41-3de1d0b3b8b8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Razor.Runtime.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreRazorRuntime => new ReferenceInfo("Microsoft.AspNetCore.Razor.Runtime.dll", Resources.MicrosoftAspNetCoreRazorRuntime, AspNet90.References.MicrosoftAspNetCoreRazorRuntime, global::System.Guid.Parse("e99e7764-30f5-4071-b377-ccadb6024090"));
+        public static ReferenceInfo MicrosoftAspNetCoreRazorRuntime => new ReferenceInfo("Microsoft.AspNetCore.Razor.Runtime.dll", Resources.MicrosoftAspNetCoreRazorRuntime, AspNet100.References.MicrosoftAspNetCoreRazorRuntime, global::System.Guid.Parse("82b914de-0f81-4462-af79-3259f0215653"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.RequestDecompression.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreRequestDecompression => new ReferenceInfo("Microsoft.AspNetCore.RequestDecompression.dll", Resources.MicrosoftAspNetCoreRequestDecompression, AspNet90.References.MicrosoftAspNetCoreRequestDecompression, global::System.Guid.Parse("14c25fdc-4ce8-497a-adcd-a1ccf3b79b94"));
+        public static ReferenceInfo MicrosoftAspNetCoreRequestDecompression => new ReferenceInfo("Microsoft.AspNetCore.RequestDecompression.dll", Resources.MicrosoftAspNetCoreRequestDecompression, AspNet100.References.MicrosoftAspNetCoreRequestDecompression, global::System.Guid.Parse("c0f3b599-4877-4e71-b778-fe59fef60e08"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreResponseCachingAbstractions => new ReferenceInfo("Microsoft.AspNetCore.ResponseCaching.Abstractions.dll", Resources.MicrosoftAspNetCoreResponseCachingAbstractions, AspNet90.References.MicrosoftAspNetCoreResponseCachingAbstractions, global::System.Guid.Parse("ff7e1a51-3699-4bc1-b6e2-c9ec3f51ee62"));
+        public static ReferenceInfo MicrosoftAspNetCoreResponseCachingAbstractions => new ReferenceInfo("Microsoft.AspNetCore.ResponseCaching.Abstractions.dll", Resources.MicrosoftAspNetCoreResponseCachingAbstractions, AspNet100.References.MicrosoftAspNetCoreResponseCachingAbstractions, global::System.Guid.Parse("f01ccde1-7d08-4bf7-8bf9-304ec67318f7"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.ResponseCaching.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreResponseCaching => new ReferenceInfo("Microsoft.AspNetCore.ResponseCaching.dll", Resources.MicrosoftAspNetCoreResponseCaching, AspNet90.References.MicrosoftAspNetCoreResponseCaching, global::System.Guid.Parse("2c258031-4b33-49ea-92b4-958989d46d86"));
+        public static ReferenceInfo MicrosoftAspNetCoreResponseCaching => new ReferenceInfo("Microsoft.AspNetCore.ResponseCaching.dll", Resources.MicrosoftAspNetCoreResponseCaching, AspNet100.References.MicrosoftAspNetCoreResponseCaching, global::System.Guid.Parse("c6b777e2-69dd-45bf-8ba3-6cbdeab19b58"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.ResponseCompression.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreResponseCompression => new ReferenceInfo("Microsoft.AspNetCore.ResponseCompression.dll", Resources.MicrosoftAspNetCoreResponseCompression, AspNet90.References.MicrosoftAspNetCoreResponseCompression, global::System.Guid.Parse("12212e6c-e087-4a28-bc32-ac2e73f8477e"));
+        public static ReferenceInfo MicrosoftAspNetCoreResponseCompression => new ReferenceInfo("Microsoft.AspNetCore.ResponseCompression.dll", Resources.MicrosoftAspNetCoreResponseCompression, AspNet100.References.MicrosoftAspNetCoreResponseCompression, global::System.Guid.Parse("7a01053a-ea33-4add-88cb-0de71e32efac"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Rewrite.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreRewrite => new ReferenceInfo("Microsoft.AspNetCore.Rewrite.dll", Resources.MicrosoftAspNetCoreRewrite, AspNet90.References.MicrosoftAspNetCoreRewrite, global::System.Guid.Parse("57d1e825-6967-407f-add4-fd7bce00962f"));
+        public static ReferenceInfo MicrosoftAspNetCoreRewrite => new ReferenceInfo("Microsoft.AspNetCore.Rewrite.dll", Resources.MicrosoftAspNetCoreRewrite, AspNet100.References.MicrosoftAspNetCoreRewrite, global::System.Guid.Parse("d5e84518-dda6-4186-a795-79ef02978179"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Routing.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreRoutingAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Routing.Abstractions.dll", Resources.MicrosoftAspNetCoreRoutingAbstractions, AspNet90.References.MicrosoftAspNetCoreRoutingAbstractions, global::System.Guid.Parse("6999d779-bd46-4257-8e96-b249901eba26"));
+        public static ReferenceInfo MicrosoftAspNetCoreRoutingAbstractions => new ReferenceInfo("Microsoft.AspNetCore.Routing.Abstractions.dll", Resources.MicrosoftAspNetCoreRoutingAbstractions, AspNet100.References.MicrosoftAspNetCoreRoutingAbstractions, global::System.Guid.Parse("656bee86-23d8-4d99-86f7-4776bec932ce"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Routing.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreRouting => new ReferenceInfo("Microsoft.AspNetCore.Routing.dll", Resources.MicrosoftAspNetCoreRouting, AspNet90.References.MicrosoftAspNetCoreRouting, global::System.Guid.Parse("4ed87c45-892b-4452-8815-af8744c19b96"));
+        public static ReferenceInfo MicrosoftAspNetCoreRouting => new ReferenceInfo("Microsoft.AspNetCore.Routing.dll", Resources.MicrosoftAspNetCoreRouting, AspNet100.References.MicrosoftAspNetCoreRouting, global::System.Guid.Parse("a8f95263-af98-40a2-bb60-31403304c18e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.HttpSys.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerHttpSys => new ReferenceInfo("Microsoft.AspNetCore.Server.HttpSys.dll", Resources.MicrosoftAspNetCoreServerHttpSys, AspNet90.References.MicrosoftAspNetCoreServerHttpSys, global::System.Guid.Parse("a3cdfbd5-93d3-441d-a7b9-2288229398c6"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerHttpSys => new ReferenceInfo("Microsoft.AspNetCore.Server.HttpSys.dll", Resources.MicrosoftAspNetCoreServerHttpSys, AspNet100.References.MicrosoftAspNetCoreServerHttpSys, global::System.Guid.Parse("8041e198-cef0-4562-b8e1-217dff2ff326"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.IIS.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerIIS => new ReferenceInfo("Microsoft.AspNetCore.Server.IIS.dll", Resources.MicrosoftAspNetCoreServerIIS, AspNet90.References.MicrosoftAspNetCoreServerIIS, global::System.Guid.Parse("5c3a0012-39f1-4368-be56-89fc6ab21402"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerIIS => new ReferenceInfo("Microsoft.AspNetCore.Server.IIS.dll", Resources.MicrosoftAspNetCoreServerIIS, AspNet100.References.MicrosoftAspNetCoreServerIIS, global::System.Guid.Parse("411dd10f-70e0-41bc-ab0a-259563bdc979"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.IISIntegration.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerIISIntegration => new ReferenceInfo("Microsoft.AspNetCore.Server.IISIntegration.dll", Resources.MicrosoftAspNetCoreServerIISIntegration, AspNet90.References.MicrosoftAspNetCoreServerIISIntegration, global::System.Guid.Parse("5003fced-d9df-445d-916b-16ca655f45a4"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerIISIntegration => new ReferenceInfo("Microsoft.AspNetCore.Server.IISIntegration.dll", Resources.MicrosoftAspNetCoreServerIISIntegration, AspNet100.References.MicrosoftAspNetCoreServerIISIntegration, global::System.Guid.Parse("f44a903a-ab8d-46a6-b19b-91dab5bf97e5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.Kestrel.Core.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelCore => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Core.dll", Resources.MicrosoftAspNetCoreServerKestrelCore, AspNet90.References.MicrosoftAspNetCoreServerKestrelCore, global::System.Guid.Parse("a66916f2-ab5a-485e-9a38-d39a553c560a"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelCore => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Core.dll", Resources.MicrosoftAspNetCoreServerKestrelCore, AspNet100.References.MicrosoftAspNetCoreServerKestrelCore, global::System.Guid.Parse("b9d157ee-4dd8-4c31-961a-b27e22853945"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.Kestrel.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerKestrel => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.dll", Resources.MicrosoftAspNetCoreServerKestrel, AspNet90.References.MicrosoftAspNetCoreServerKestrel, global::System.Guid.Parse("a4be7e38-1e75-4c61-984b-728dadf18ce9"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerKestrel => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.dll", Resources.MicrosoftAspNetCoreServerKestrel, AspNet100.References.MicrosoftAspNetCoreServerKestrel, global::System.Guid.Parse("e9830985-df71-493c-825e-58d12ca0d842"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelTransportNamedPipes => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll", Resources.MicrosoftAspNetCoreServerKestrelTransportNamedPipes, AspNet90.References.MicrosoftAspNetCoreServerKestrelTransportNamedPipes, global::System.Guid.Parse("27cff47b-8364-4730-abfb-5ec2d35b6f3b"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelTransportNamedPipes => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll", Resources.MicrosoftAspNetCoreServerKestrelTransportNamedPipes, AspNet100.References.MicrosoftAspNetCoreServerKestrelTransportNamedPipes, global::System.Guid.Parse("a8db4fee-dbb0-4a3a-8eed-f2db8f42a0e2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelTransportQuic => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll", Resources.MicrosoftAspNetCoreServerKestrelTransportQuic, AspNet90.References.MicrosoftAspNetCoreServerKestrelTransportQuic, global::System.Guid.Parse("591e8fa2-4bc6-4394-b341-79b3a3936969"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelTransportQuic => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll", Resources.MicrosoftAspNetCoreServerKestrelTransportQuic, AspNet100.References.MicrosoftAspNetCoreServerKestrelTransportQuic, global::System.Guid.Parse("3dcf9aad-8d43-4dc4-9710-9e3f13495332"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelTransportSockets => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll", Resources.MicrosoftAspNetCoreServerKestrelTransportSockets, AspNet90.References.MicrosoftAspNetCoreServerKestrelTransportSockets, global::System.Guid.Parse("36f6e58f-324d-4650-b069-af8219274fb9"));
+        public static ReferenceInfo MicrosoftAspNetCoreServerKestrelTransportSockets => new ReferenceInfo("Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll", Resources.MicrosoftAspNetCoreServerKestrelTransportSockets, AspNet100.References.MicrosoftAspNetCoreServerKestrelTransportSockets, global::System.Guid.Parse("2de5eb52-d2d1-4a4c-aaf3-68bc30de4f4f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.Session.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreSession => new ReferenceInfo("Microsoft.AspNetCore.Session.dll", Resources.MicrosoftAspNetCoreSession, AspNet90.References.MicrosoftAspNetCoreSession, global::System.Guid.Parse("2fe4e680-438c-4fc3-876d-7fbd48b50326"));
+        public static ReferenceInfo MicrosoftAspNetCoreSession => new ReferenceInfo("Microsoft.AspNetCore.Session.dll", Resources.MicrosoftAspNetCoreSession, AspNet100.References.MicrosoftAspNetCoreSession, global::System.Guid.Parse("0502ca02-43b5-441a-8a38-08d149cda37f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.SignalR.Common.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreSignalRCommon => new ReferenceInfo("Microsoft.AspNetCore.SignalR.Common.dll", Resources.MicrosoftAspNetCoreSignalRCommon, AspNet90.References.MicrosoftAspNetCoreSignalRCommon, global::System.Guid.Parse("c32b1f95-f6ac-48d2-afc6-9316c35eb2ce"));
+        public static ReferenceInfo MicrosoftAspNetCoreSignalRCommon => new ReferenceInfo("Microsoft.AspNetCore.SignalR.Common.dll", Resources.MicrosoftAspNetCoreSignalRCommon, AspNet100.References.MicrosoftAspNetCoreSignalRCommon, global::System.Guid.Parse("4a778529-a832-4420-aa33-63b6168a03ac"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.SignalR.Core.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreSignalRCore => new ReferenceInfo("Microsoft.AspNetCore.SignalR.Core.dll", Resources.MicrosoftAspNetCoreSignalRCore, AspNet90.References.MicrosoftAspNetCoreSignalRCore, global::System.Guid.Parse("98278895-6731-4313-9efb-76e0a44eef24"));
+        public static ReferenceInfo MicrosoftAspNetCoreSignalRCore => new ReferenceInfo("Microsoft.AspNetCore.SignalR.Core.dll", Resources.MicrosoftAspNetCoreSignalRCore, AspNet100.References.MicrosoftAspNetCoreSignalRCore, global::System.Guid.Parse("2dfb8ec6-e6be-4334-990e-a0c79eb0e4d7"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.SignalR.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreSignalR => new ReferenceInfo("Microsoft.AspNetCore.SignalR.dll", Resources.MicrosoftAspNetCoreSignalR, AspNet90.References.MicrosoftAspNetCoreSignalR, global::System.Guid.Parse("b8989c7a-67da-4d7a-8a15-b7877d3eae78"));
+        public static ReferenceInfo MicrosoftAspNetCoreSignalR => new ReferenceInfo("Microsoft.AspNetCore.SignalR.dll", Resources.MicrosoftAspNetCoreSignalR, AspNet100.References.MicrosoftAspNetCoreSignalR, global::System.Guid.Parse("c4f4b224-30a3-49f8-a045-a8ea3f803681"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.SignalR.Protocols.Json.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreSignalRProtocolsJson => new ReferenceInfo("Microsoft.AspNetCore.SignalR.Protocols.Json.dll", Resources.MicrosoftAspNetCoreSignalRProtocolsJson, AspNet90.References.MicrosoftAspNetCoreSignalRProtocolsJson, global::System.Guid.Parse("3e7447b7-66ee-408d-9d89-0d31b0f8756b"));
+        public static ReferenceInfo MicrosoftAspNetCoreSignalRProtocolsJson => new ReferenceInfo("Microsoft.AspNetCore.SignalR.Protocols.Json.dll", Resources.MicrosoftAspNetCoreSignalRProtocolsJson, AspNet100.References.MicrosoftAspNetCoreSignalRProtocolsJson, global::System.Guid.Parse("d083a17f-bb9c-4ca9-aadb-a614c80d7dbc"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.StaticAssets.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreStaticAssets => new ReferenceInfo("Microsoft.AspNetCore.StaticAssets.dll", Resources.MicrosoftAspNetCoreStaticAssets, AspNet90.References.MicrosoftAspNetCoreStaticAssets, global::System.Guid.Parse("4d44a40b-ab9a-4420-aa79-b2b347c25c83"));
+        public static ReferenceInfo MicrosoftAspNetCoreStaticAssets => new ReferenceInfo("Microsoft.AspNetCore.StaticAssets.dll", Resources.MicrosoftAspNetCoreStaticAssets, AspNet100.References.MicrosoftAspNetCoreStaticAssets, global::System.Guid.Parse("5ab241c2-1c3f-421b-95b6-dac4ece25a3b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.StaticFiles.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreStaticFiles => new ReferenceInfo("Microsoft.AspNetCore.StaticFiles.dll", Resources.MicrosoftAspNetCoreStaticFiles, AspNet90.References.MicrosoftAspNetCoreStaticFiles, global::System.Guid.Parse("ce279e9e-d8db-433f-bee6-bdcc11fb8b0f"));
+        public static ReferenceInfo MicrosoftAspNetCoreStaticFiles => new ReferenceInfo("Microsoft.AspNetCore.StaticFiles.dll", Resources.MicrosoftAspNetCoreStaticFiles, AspNet100.References.MicrosoftAspNetCoreStaticFiles, global::System.Guid.Parse("3cd7b42f-b10f-4c33-9688-7c965c70edd6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.WebSockets.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreWebSockets => new ReferenceInfo("Microsoft.AspNetCore.WebSockets.dll", Resources.MicrosoftAspNetCoreWebSockets, AspNet90.References.MicrosoftAspNetCoreWebSockets, global::System.Guid.Parse("9a9a164f-e2ea-4765-86f6-a9e0aa562ef1"));
+        public static ReferenceInfo MicrosoftAspNetCoreWebSockets => new ReferenceInfo("Microsoft.AspNetCore.WebSockets.dll", Resources.MicrosoftAspNetCoreWebSockets, AspNet100.References.MicrosoftAspNetCoreWebSockets, global::System.Guid.Parse("f2b319da-63fd-4e1b-bacb-65649262f33b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.AspNetCore.WebUtilities.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftAspNetCoreWebUtilities => new ReferenceInfo("Microsoft.AspNetCore.WebUtilities.dll", Resources.MicrosoftAspNetCoreWebUtilities, AspNet90.References.MicrosoftAspNetCoreWebUtilities, global::System.Guid.Parse("8f96fed7-b61a-4ad3-b57e-380d95aea772"));
+        public static ReferenceInfo MicrosoftAspNetCoreWebUtilities => new ReferenceInfo("Microsoft.AspNetCore.WebUtilities.dll", Resources.MicrosoftAspNetCoreWebUtilities, AspNet100.References.MicrosoftAspNetCoreWebUtilities, global::System.Guid.Parse("aecaea98-b417-4503-9c39-2ac0006509f8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Caching.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsCachingAbstractions => new ReferenceInfo("Microsoft.Extensions.Caching.Abstractions.dll", Resources.MicrosoftExtensionsCachingAbstractions, AspNet90.References.MicrosoftExtensionsCachingAbstractions, global::System.Guid.Parse("a577842b-84df-4e3f-913a-00cdcd5a4173"));
+        public static ReferenceInfo MicrosoftExtensionsCachingAbstractions => new ReferenceInfo("Microsoft.Extensions.Caching.Abstractions.dll", Resources.MicrosoftExtensionsCachingAbstractions, AspNet100.References.MicrosoftExtensionsCachingAbstractions, global::System.Guid.Parse("8adf6598-8f08-4b8a-a71d-c50e8642d2db"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Caching.Memory.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsCachingMemory => new ReferenceInfo("Microsoft.Extensions.Caching.Memory.dll", Resources.MicrosoftExtensionsCachingMemory, AspNet90.References.MicrosoftExtensionsCachingMemory, global::System.Guid.Parse("5b92b657-a1f9-499c-a34e-1a9e71255d87"));
+        public static ReferenceInfo MicrosoftExtensionsCachingMemory => new ReferenceInfo("Microsoft.Extensions.Caching.Memory.dll", Resources.MicrosoftExtensionsCachingMemory, AspNet100.References.MicrosoftExtensionsCachingMemory, global::System.Guid.Parse("3e41d696-dc1c-44a6-8cbd-b2850999a08d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationAbstractions => new ReferenceInfo("Microsoft.Extensions.Configuration.Abstractions.dll", Resources.MicrosoftExtensionsConfigurationAbstractions, AspNet90.References.MicrosoftExtensionsConfigurationAbstractions, global::System.Guid.Parse("dd716b87-e55f-4db6-8fbf-03d105057dd4"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationAbstractions => new ReferenceInfo("Microsoft.Extensions.Configuration.Abstractions.dll", Resources.MicrosoftExtensionsConfigurationAbstractions, AspNet100.References.MicrosoftExtensionsConfigurationAbstractions, global::System.Guid.Parse("927c416e-64c2-4abf-a56c-c3f5ae210cb5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.Binder.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationBinder => new ReferenceInfo("Microsoft.Extensions.Configuration.Binder.dll", Resources.MicrosoftExtensionsConfigurationBinder, AspNet90.References.MicrosoftExtensionsConfigurationBinder, global::System.Guid.Parse("3e9b24ae-3ac5-40aa-bf46-fe2de5bd4f43"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationBinder => new ReferenceInfo("Microsoft.Extensions.Configuration.Binder.dll", Resources.MicrosoftExtensionsConfigurationBinder, AspNet100.References.MicrosoftExtensionsConfigurationBinder, global::System.Guid.Parse("7ceb3e26-45f6-4593-9a10-65aad058b046"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.CommandLine.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationCommandLine => new ReferenceInfo("Microsoft.Extensions.Configuration.CommandLine.dll", Resources.MicrosoftExtensionsConfigurationCommandLine, AspNet90.References.MicrosoftExtensionsConfigurationCommandLine, global::System.Guid.Parse("f37fd659-ac96-489b-b959-4241c65619c8"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationCommandLine => new ReferenceInfo("Microsoft.Extensions.Configuration.CommandLine.dll", Resources.MicrosoftExtensionsConfigurationCommandLine, AspNet100.References.MicrosoftExtensionsConfigurationCommandLine, global::System.Guid.Parse("d43db258-b74f-40b1-8096-bf698e1b7d32"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfiguration => new ReferenceInfo("Microsoft.Extensions.Configuration.dll", Resources.MicrosoftExtensionsConfiguration, AspNet90.References.MicrosoftExtensionsConfiguration, global::System.Guid.Parse("6cab1fa8-5cb4-47f2-bfc9-095baa1e199e"));
+        public static ReferenceInfo MicrosoftExtensionsConfiguration => new ReferenceInfo("Microsoft.Extensions.Configuration.dll", Resources.MicrosoftExtensionsConfiguration, AspNet100.References.MicrosoftExtensionsConfiguration, global::System.Guid.Parse("e8b78b91-c311-455f-9dfa-15f026aee0c0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.EnvironmentVariables.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationEnvironmentVariables => new ReferenceInfo("Microsoft.Extensions.Configuration.EnvironmentVariables.dll", Resources.MicrosoftExtensionsConfigurationEnvironmentVariables, AspNet90.References.MicrosoftExtensionsConfigurationEnvironmentVariables, global::System.Guid.Parse("d04432c9-417f-4f58-8fa6-8c7dea43eee9"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationEnvironmentVariables => new ReferenceInfo("Microsoft.Extensions.Configuration.EnvironmentVariables.dll", Resources.MicrosoftExtensionsConfigurationEnvironmentVariables, AspNet100.References.MicrosoftExtensionsConfigurationEnvironmentVariables, global::System.Guid.Parse("c91c693a-75fe-44b9-8069-1ca385426a06"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.FileExtensions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationFileExtensions => new ReferenceInfo("Microsoft.Extensions.Configuration.FileExtensions.dll", Resources.MicrosoftExtensionsConfigurationFileExtensions, AspNet90.References.MicrosoftExtensionsConfigurationFileExtensions, global::System.Guid.Parse("be6843ac-b2a7-4261-8075-b27dacee9ef5"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationFileExtensions => new ReferenceInfo("Microsoft.Extensions.Configuration.FileExtensions.dll", Resources.MicrosoftExtensionsConfigurationFileExtensions, AspNet100.References.MicrosoftExtensionsConfigurationFileExtensions, global::System.Guid.Parse("e54bb404-2114-423d-a3ac-85f09a55b1e5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.Ini.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationIni => new ReferenceInfo("Microsoft.Extensions.Configuration.Ini.dll", Resources.MicrosoftExtensionsConfigurationIni, AspNet90.References.MicrosoftExtensionsConfigurationIni, global::System.Guid.Parse("a9658345-aa10-40c7-a42f-d7b3495fa495"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationIni => new ReferenceInfo("Microsoft.Extensions.Configuration.Ini.dll", Resources.MicrosoftExtensionsConfigurationIni, AspNet100.References.MicrosoftExtensionsConfigurationIni, global::System.Guid.Parse("96bcec45-225c-4147-9a65-fe3748182ff8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.Json.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationJson => new ReferenceInfo("Microsoft.Extensions.Configuration.Json.dll", Resources.MicrosoftExtensionsConfigurationJson, AspNet90.References.MicrosoftExtensionsConfigurationJson, global::System.Guid.Parse("2762b4f4-a091-4bb6-8959-ef51473322f6"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationJson => new ReferenceInfo("Microsoft.Extensions.Configuration.Json.dll", Resources.MicrosoftExtensionsConfigurationJson, AspNet100.References.MicrosoftExtensionsConfigurationJson, global::System.Guid.Parse("970eaa43-eee7-4901-b062-48b617b215a2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.KeyPerFile.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationKeyPerFile => new ReferenceInfo("Microsoft.Extensions.Configuration.KeyPerFile.dll", Resources.MicrosoftExtensionsConfigurationKeyPerFile, AspNet90.References.MicrosoftExtensionsConfigurationKeyPerFile, global::System.Guid.Parse("c5864c01-2c66-48a8-8f96-f55c69446699"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationKeyPerFile => new ReferenceInfo("Microsoft.Extensions.Configuration.KeyPerFile.dll", Resources.MicrosoftExtensionsConfigurationKeyPerFile, AspNet100.References.MicrosoftExtensionsConfigurationKeyPerFile, global::System.Guid.Parse("337b6782-889e-4c83-bc7f-21bbcc28aba4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.UserSecrets.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationUserSecrets => new ReferenceInfo("Microsoft.Extensions.Configuration.UserSecrets.dll", Resources.MicrosoftExtensionsConfigurationUserSecrets, AspNet90.References.MicrosoftExtensionsConfigurationUserSecrets, global::System.Guid.Parse("269765e6-1a2c-4b5d-a816-ec697499b867"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationUserSecrets => new ReferenceInfo("Microsoft.Extensions.Configuration.UserSecrets.dll", Resources.MicrosoftExtensionsConfigurationUserSecrets, AspNet100.References.MicrosoftExtensionsConfigurationUserSecrets, global::System.Guid.Parse("5b833ec8-313f-410b-91f7-b24411d5419d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Configuration.Xml.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsConfigurationXml => new ReferenceInfo("Microsoft.Extensions.Configuration.Xml.dll", Resources.MicrosoftExtensionsConfigurationXml, AspNet90.References.MicrosoftExtensionsConfigurationXml, global::System.Guid.Parse("22b03b43-72ca-491d-bcce-5b1b47a0020f"));
+        public static ReferenceInfo MicrosoftExtensionsConfigurationXml => new ReferenceInfo("Microsoft.Extensions.Configuration.Xml.dll", Resources.MicrosoftExtensionsConfigurationXml, AspNet100.References.MicrosoftExtensionsConfigurationXml, global::System.Guid.Parse("bd64b144-7c2f-4c29-9e05-663f9897dc1a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.DependencyInjection.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsDependencyInjectionAbstractions => new ReferenceInfo("Microsoft.Extensions.DependencyInjection.Abstractions.dll", Resources.MicrosoftExtensionsDependencyInjectionAbstractions, AspNet90.References.MicrosoftExtensionsDependencyInjectionAbstractions, global::System.Guid.Parse("0969da3f-14d2-4d85-9ecb-580bf936f4e0"));
+        public static ReferenceInfo MicrosoftExtensionsDependencyInjectionAbstractions => new ReferenceInfo("Microsoft.Extensions.DependencyInjection.Abstractions.dll", Resources.MicrosoftExtensionsDependencyInjectionAbstractions, AspNet100.References.MicrosoftExtensionsDependencyInjectionAbstractions, global::System.Guid.Parse("0c8a1d92-e734-4361-ace1-bbda421d7858"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.DependencyInjection.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsDependencyInjection => new ReferenceInfo("Microsoft.Extensions.DependencyInjection.dll", Resources.MicrosoftExtensionsDependencyInjection, AspNet90.References.MicrosoftExtensionsDependencyInjection, global::System.Guid.Parse("bed8c5fc-dd96-46a1-9d90-594c67d063a9"));
+        public static ReferenceInfo MicrosoftExtensionsDependencyInjection => new ReferenceInfo("Microsoft.Extensions.DependencyInjection.dll", Resources.MicrosoftExtensionsDependencyInjection, AspNet100.References.MicrosoftExtensionsDependencyInjection, global::System.Guid.Parse("b615046b-0994-4fba-af5d-9b1dd4ed1d8f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Diagnostics.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsDiagnosticsAbstractions => new ReferenceInfo("Microsoft.Extensions.Diagnostics.Abstractions.dll", Resources.MicrosoftExtensionsDiagnosticsAbstractions, AspNet90.References.MicrosoftExtensionsDiagnosticsAbstractions, global::System.Guid.Parse("389cb562-0d21-45fa-b4a2-57293fdf5663"));
+        public static ReferenceInfo MicrosoftExtensionsDiagnosticsAbstractions => new ReferenceInfo("Microsoft.Extensions.Diagnostics.Abstractions.dll", Resources.MicrosoftExtensionsDiagnosticsAbstractions, AspNet100.References.MicrosoftExtensionsDiagnosticsAbstractions, global::System.Guid.Parse("9dfbf836-d589-416e-9701-24f89f6d1436"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Diagnostics.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsDiagnostics => new ReferenceInfo("Microsoft.Extensions.Diagnostics.dll", Resources.MicrosoftExtensionsDiagnostics, AspNet90.References.MicrosoftExtensionsDiagnostics, global::System.Guid.Parse("568fc67f-918d-4b4e-9ac4-61732cee9f57"));
+        public static ReferenceInfo MicrosoftExtensionsDiagnostics => new ReferenceInfo("Microsoft.Extensions.Diagnostics.dll", Resources.MicrosoftExtensionsDiagnostics, AspNet100.References.MicrosoftExtensionsDiagnostics, global::System.Guid.Parse("6ca95f96-38e3-4faa-b8d5-609321c8a3bb"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsDiagnosticsHealthChecksAbstractions => new ReferenceInfo("Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll", Resources.MicrosoftExtensionsDiagnosticsHealthChecksAbstractions, AspNet90.References.MicrosoftExtensionsDiagnosticsHealthChecksAbstractions, global::System.Guid.Parse("84d0653c-3f7c-495b-ab0b-eff63739a99f"));
+        public static ReferenceInfo MicrosoftExtensionsDiagnosticsHealthChecksAbstractions => new ReferenceInfo("Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll", Resources.MicrosoftExtensionsDiagnosticsHealthChecksAbstractions, AspNet100.References.MicrosoftExtensionsDiagnosticsHealthChecksAbstractions, global::System.Guid.Parse("6868ee83-7511-475d-9640-4a4c6c36eff1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Diagnostics.HealthChecks.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsDiagnosticsHealthChecks => new ReferenceInfo("Microsoft.Extensions.Diagnostics.HealthChecks.dll", Resources.MicrosoftExtensionsDiagnosticsHealthChecks, AspNet90.References.MicrosoftExtensionsDiagnosticsHealthChecks, global::System.Guid.Parse("88f48b46-5b64-4821-be39-bab0175f19ed"));
+        public static ReferenceInfo MicrosoftExtensionsDiagnosticsHealthChecks => new ReferenceInfo("Microsoft.Extensions.Diagnostics.HealthChecks.dll", Resources.MicrosoftExtensionsDiagnosticsHealthChecks, AspNet100.References.MicrosoftExtensionsDiagnosticsHealthChecks, global::System.Guid.Parse("509acc0e-9f5e-4e37-9dd8-5308154c81e1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Features.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsFeatures => new ReferenceInfo("Microsoft.Extensions.Features.dll", Resources.MicrosoftExtensionsFeatures, AspNet90.References.MicrosoftExtensionsFeatures, global::System.Guid.Parse("e041d54f-7cb8-468b-91bb-413fcc03effa"));
+        public static ReferenceInfo MicrosoftExtensionsFeatures => new ReferenceInfo("Microsoft.Extensions.Features.dll", Resources.MicrosoftExtensionsFeatures, AspNet100.References.MicrosoftExtensionsFeatures, global::System.Guid.Parse("02803bf3-c741-44e4-ac87-436f74c5c869"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.FileProviders.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsFileProvidersAbstractions => new ReferenceInfo("Microsoft.Extensions.FileProviders.Abstractions.dll", Resources.MicrosoftExtensionsFileProvidersAbstractions, AspNet90.References.MicrosoftExtensionsFileProvidersAbstractions, global::System.Guid.Parse("f11c6098-e72e-42ea-8faf-3d5a94659cb0"));
+        public static ReferenceInfo MicrosoftExtensionsFileProvidersAbstractions => new ReferenceInfo("Microsoft.Extensions.FileProviders.Abstractions.dll", Resources.MicrosoftExtensionsFileProvidersAbstractions, AspNet100.References.MicrosoftExtensionsFileProvidersAbstractions, global::System.Guid.Parse("e8ff9310-885e-4faf-b1b3-31931f319a55"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.FileProviders.Composite.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsFileProvidersComposite => new ReferenceInfo("Microsoft.Extensions.FileProviders.Composite.dll", Resources.MicrosoftExtensionsFileProvidersComposite, AspNet90.References.MicrosoftExtensionsFileProvidersComposite, global::System.Guid.Parse("cb1c9102-ee47-4d75-87ba-f673f6b817c7"));
+        public static ReferenceInfo MicrosoftExtensionsFileProvidersComposite => new ReferenceInfo("Microsoft.Extensions.FileProviders.Composite.dll", Resources.MicrosoftExtensionsFileProvidersComposite, AspNet100.References.MicrosoftExtensionsFileProvidersComposite, global::System.Guid.Parse("2e361703-1c75-4c85-8d04-41a2417c41ca"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.FileProviders.Embedded.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsFileProvidersEmbedded => new ReferenceInfo("Microsoft.Extensions.FileProviders.Embedded.dll", Resources.MicrosoftExtensionsFileProvidersEmbedded, AspNet90.References.MicrosoftExtensionsFileProvidersEmbedded, global::System.Guid.Parse("5a156bf7-8c41-478a-b476-745e4fe514a8"));
+        public static ReferenceInfo MicrosoftExtensionsFileProvidersEmbedded => new ReferenceInfo("Microsoft.Extensions.FileProviders.Embedded.dll", Resources.MicrosoftExtensionsFileProvidersEmbedded, AspNet100.References.MicrosoftExtensionsFileProvidersEmbedded, global::System.Guid.Parse("e652722d-e311-41df-adae-78395307c2a3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.FileProviders.Physical.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsFileProvidersPhysical => new ReferenceInfo("Microsoft.Extensions.FileProviders.Physical.dll", Resources.MicrosoftExtensionsFileProvidersPhysical, AspNet90.References.MicrosoftExtensionsFileProvidersPhysical, global::System.Guid.Parse("507fdefb-d2e0-4150-8e64-c18e5e57312a"));
+        public static ReferenceInfo MicrosoftExtensionsFileProvidersPhysical => new ReferenceInfo("Microsoft.Extensions.FileProviders.Physical.dll", Resources.MicrosoftExtensionsFileProvidersPhysical, AspNet100.References.MicrosoftExtensionsFileProvidersPhysical, global::System.Guid.Parse("fd623a58-2fd4-444f-840e-672365547f01"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.FileSystemGlobbing.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsFileSystemGlobbing => new ReferenceInfo("Microsoft.Extensions.FileSystemGlobbing.dll", Resources.MicrosoftExtensionsFileSystemGlobbing, AspNet90.References.MicrosoftExtensionsFileSystemGlobbing, global::System.Guid.Parse("f7e5c7ef-7808-405f-8bc7-3b3749a93144"));
+        public static ReferenceInfo MicrosoftExtensionsFileSystemGlobbing => new ReferenceInfo("Microsoft.Extensions.FileSystemGlobbing.dll", Resources.MicrosoftExtensionsFileSystemGlobbing, AspNet100.References.MicrosoftExtensionsFileSystemGlobbing, global::System.Guid.Parse("68fc54e7-35c2-4524-93b5-d6ba145f4d00"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Hosting.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsHostingAbstractions => new ReferenceInfo("Microsoft.Extensions.Hosting.Abstractions.dll", Resources.MicrosoftExtensionsHostingAbstractions, AspNet90.References.MicrosoftExtensionsHostingAbstractions, global::System.Guid.Parse("5f69bc6a-447c-4d11-bb42-2a1247dfa59e"));
+        public static ReferenceInfo MicrosoftExtensionsHostingAbstractions => new ReferenceInfo("Microsoft.Extensions.Hosting.Abstractions.dll", Resources.MicrosoftExtensionsHostingAbstractions, AspNet100.References.MicrosoftExtensionsHostingAbstractions, global::System.Guid.Parse("5df06a13-d007-4f3e-b443-6ac538540f26"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Hosting.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsHosting => new ReferenceInfo("Microsoft.Extensions.Hosting.dll", Resources.MicrosoftExtensionsHosting, AspNet90.References.MicrosoftExtensionsHosting, global::System.Guid.Parse("1ba08cf6-0441-46a4-a132-6d40bc8b41a8"));
+        public static ReferenceInfo MicrosoftExtensionsHosting => new ReferenceInfo("Microsoft.Extensions.Hosting.dll", Resources.MicrosoftExtensionsHosting, AspNet100.References.MicrosoftExtensionsHosting, global::System.Guid.Parse("fe754885-0f13-47fe-b0a0-ca26f2c2272a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Http.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsHttp => new ReferenceInfo("Microsoft.Extensions.Http.dll", Resources.MicrosoftExtensionsHttp, AspNet90.References.MicrosoftExtensionsHttp, global::System.Guid.Parse("e43f8c63-d83d-4d03-98d7-0e7acc9e164c"));
+        public static ReferenceInfo MicrosoftExtensionsHttp => new ReferenceInfo("Microsoft.Extensions.Http.dll", Resources.MicrosoftExtensionsHttp, AspNet100.References.MicrosoftExtensionsHttp, global::System.Guid.Parse("ba252d0e-9612-49f5-8817-01c36bbb2ae8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Identity.Core.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsIdentityCore => new ReferenceInfo("Microsoft.Extensions.Identity.Core.dll", Resources.MicrosoftExtensionsIdentityCore, AspNet90.References.MicrosoftExtensionsIdentityCore, global::System.Guid.Parse("46f164f6-cf0e-4d4a-936b-75d2117225fb"));
+        public static ReferenceInfo MicrosoftExtensionsIdentityCore => new ReferenceInfo("Microsoft.Extensions.Identity.Core.dll", Resources.MicrosoftExtensionsIdentityCore, AspNet100.References.MicrosoftExtensionsIdentityCore, global::System.Guid.Parse("347f3a81-6439-47f1-b158-f9efa26f5862"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Identity.Stores.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsIdentityStores => new ReferenceInfo("Microsoft.Extensions.Identity.Stores.dll", Resources.MicrosoftExtensionsIdentityStores, AspNet90.References.MicrosoftExtensionsIdentityStores, global::System.Guid.Parse("6d5eeb43-3f8b-4db2-bbd6-59eb5ea13866"));
+        public static ReferenceInfo MicrosoftExtensionsIdentityStores => new ReferenceInfo("Microsoft.Extensions.Identity.Stores.dll", Resources.MicrosoftExtensionsIdentityStores, AspNet100.References.MicrosoftExtensionsIdentityStores, global::System.Guid.Parse("492ee94e-094c-4d56-915f-a5b001598c94"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Localization.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLocalizationAbstractions => new ReferenceInfo("Microsoft.Extensions.Localization.Abstractions.dll", Resources.MicrosoftExtensionsLocalizationAbstractions, AspNet90.References.MicrosoftExtensionsLocalizationAbstractions, global::System.Guid.Parse("467dbd5f-74f5-42c6-aaf5-39c30af2b9ec"));
+        public static ReferenceInfo MicrosoftExtensionsLocalizationAbstractions => new ReferenceInfo("Microsoft.Extensions.Localization.Abstractions.dll", Resources.MicrosoftExtensionsLocalizationAbstractions, AspNet100.References.MicrosoftExtensionsLocalizationAbstractions, global::System.Guid.Parse("48358002-860e-4cf7-aa35-3b9ee35c7ff9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Localization.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLocalization => new ReferenceInfo("Microsoft.Extensions.Localization.dll", Resources.MicrosoftExtensionsLocalization, AspNet90.References.MicrosoftExtensionsLocalization, global::System.Guid.Parse("88f1c321-06f6-4249-88b1-ea2681ad7d39"));
+        public static ReferenceInfo MicrosoftExtensionsLocalization => new ReferenceInfo("Microsoft.Extensions.Localization.dll", Resources.MicrosoftExtensionsLocalization, AspNet100.References.MicrosoftExtensionsLocalization, global::System.Guid.Parse("73f37dd0-c9b0-4548-918d-810327d3ed73"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.Abstractions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLoggingAbstractions => new ReferenceInfo("Microsoft.Extensions.Logging.Abstractions.dll", Resources.MicrosoftExtensionsLoggingAbstractions, AspNet90.References.MicrosoftExtensionsLoggingAbstractions, global::System.Guid.Parse("5cc1aa9a-66e8-431e-97b8-47b04210c289"));
+        public static ReferenceInfo MicrosoftExtensionsLoggingAbstractions => new ReferenceInfo("Microsoft.Extensions.Logging.Abstractions.dll", Resources.MicrosoftExtensionsLoggingAbstractions, AspNet100.References.MicrosoftExtensionsLoggingAbstractions, global::System.Guid.Parse("46648ed1-062f-46e9-ad86-ba468518fbd9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.Configuration.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLoggingConfiguration => new ReferenceInfo("Microsoft.Extensions.Logging.Configuration.dll", Resources.MicrosoftExtensionsLoggingConfiguration, AspNet90.References.MicrosoftExtensionsLoggingConfiguration, global::System.Guid.Parse("2e9c855d-48b9-451d-b301-11e385057b66"));
+        public static ReferenceInfo MicrosoftExtensionsLoggingConfiguration => new ReferenceInfo("Microsoft.Extensions.Logging.Configuration.dll", Resources.MicrosoftExtensionsLoggingConfiguration, AspNet100.References.MicrosoftExtensionsLoggingConfiguration, global::System.Guid.Parse("c63cae53-b201-4b86-a7dd-8c82a8e4a6a3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.Console.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLoggingConsole => new ReferenceInfo("Microsoft.Extensions.Logging.Console.dll", Resources.MicrosoftExtensionsLoggingConsole, AspNet90.References.MicrosoftExtensionsLoggingConsole, global::System.Guid.Parse("37e6db68-a6c9-4be6-a7f1-597b2e187235"));
+        public static ReferenceInfo MicrosoftExtensionsLoggingConsole => new ReferenceInfo("Microsoft.Extensions.Logging.Console.dll", Resources.MicrosoftExtensionsLoggingConsole, AspNet100.References.MicrosoftExtensionsLoggingConsole, global::System.Guid.Parse("c520ece0-f866-4395-80f4-425413553296"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.Debug.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLoggingDebug => new ReferenceInfo("Microsoft.Extensions.Logging.Debug.dll", Resources.MicrosoftExtensionsLoggingDebug, AspNet90.References.MicrosoftExtensionsLoggingDebug, global::System.Guid.Parse("ada52fb8-f3dd-46bc-b60f-39f2cb0b2fb3"));
+        public static ReferenceInfo MicrosoftExtensionsLoggingDebug => new ReferenceInfo("Microsoft.Extensions.Logging.Debug.dll", Resources.MicrosoftExtensionsLoggingDebug, AspNet100.References.MicrosoftExtensionsLoggingDebug, global::System.Guid.Parse("8667f592-46a9-416c-bf81-60839cc74661"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLogging => new ReferenceInfo("Microsoft.Extensions.Logging.dll", Resources.MicrosoftExtensionsLogging, AspNet90.References.MicrosoftExtensionsLogging, global::System.Guid.Parse("a69a82b3-968e-4edb-aa30-a9d27fc8cfc8"));
+        public static ReferenceInfo MicrosoftExtensionsLogging => new ReferenceInfo("Microsoft.Extensions.Logging.dll", Resources.MicrosoftExtensionsLogging, AspNet100.References.MicrosoftExtensionsLogging, global::System.Guid.Parse("840e931d-24cc-47b7-9730-85aa1aad10b3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.EventLog.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLoggingEventLog => new ReferenceInfo("Microsoft.Extensions.Logging.EventLog.dll", Resources.MicrosoftExtensionsLoggingEventLog, AspNet90.References.MicrosoftExtensionsLoggingEventLog, global::System.Guid.Parse("b0fc0b02-2bd2-486a-8170-e50a90e1b8de"));
+        public static ReferenceInfo MicrosoftExtensionsLoggingEventLog => new ReferenceInfo("Microsoft.Extensions.Logging.EventLog.dll", Resources.MicrosoftExtensionsLoggingEventLog, AspNet100.References.MicrosoftExtensionsLoggingEventLog, global::System.Guid.Parse("5edd2e59-45c6-4c27-ab28-e9ee1f19f915"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.EventSource.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLoggingEventSource => new ReferenceInfo("Microsoft.Extensions.Logging.EventSource.dll", Resources.MicrosoftExtensionsLoggingEventSource, AspNet90.References.MicrosoftExtensionsLoggingEventSource, global::System.Guid.Parse("a34b24b7-7015-4a20-a871-c449eca9e119"));
+        public static ReferenceInfo MicrosoftExtensionsLoggingEventSource => new ReferenceInfo("Microsoft.Extensions.Logging.EventSource.dll", Resources.MicrosoftExtensionsLoggingEventSource, AspNet100.References.MicrosoftExtensionsLoggingEventSource, global::System.Guid.Parse("428e2af2-746c-4c61-ad2b-ed35a2fd4712"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Logging.TraceSource.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsLoggingTraceSource => new ReferenceInfo("Microsoft.Extensions.Logging.TraceSource.dll", Resources.MicrosoftExtensionsLoggingTraceSource, AspNet90.References.MicrosoftExtensionsLoggingTraceSource, global::System.Guid.Parse("4c3f3ed7-19a1-45df-b1ee-cae5815704b6"));
+        public static ReferenceInfo MicrosoftExtensionsLoggingTraceSource => new ReferenceInfo("Microsoft.Extensions.Logging.TraceSource.dll", Resources.MicrosoftExtensionsLoggingTraceSource, AspNet100.References.MicrosoftExtensionsLoggingTraceSource, global::System.Guid.Parse("e9918449-cbf9-48b1-8eac-2d9123e69a27"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.ObjectPool.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsObjectPool => new ReferenceInfo("Microsoft.Extensions.ObjectPool.dll", Resources.MicrosoftExtensionsObjectPool, AspNet90.References.MicrosoftExtensionsObjectPool, global::System.Guid.Parse("244fdc08-3c48-4054-b428-3097935f36da"));
+        public static ReferenceInfo MicrosoftExtensionsObjectPool => new ReferenceInfo("Microsoft.Extensions.ObjectPool.dll", Resources.MicrosoftExtensionsObjectPool, AspNet100.References.MicrosoftExtensionsObjectPool, global::System.Guid.Parse("2259f2df-21cd-4799-a893-26c8ce5c0b35"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Options.ConfigurationExtensions.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsOptionsConfigurationExtensions => new ReferenceInfo("Microsoft.Extensions.Options.ConfigurationExtensions.dll", Resources.MicrosoftExtensionsOptionsConfigurationExtensions, AspNet90.References.MicrosoftExtensionsOptionsConfigurationExtensions, global::System.Guid.Parse("7f129c58-d50d-4509-8ff4-8df7b7ed9e10"));
+        public static ReferenceInfo MicrosoftExtensionsOptionsConfigurationExtensions => new ReferenceInfo("Microsoft.Extensions.Options.ConfigurationExtensions.dll", Resources.MicrosoftExtensionsOptionsConfigurationExtensions, AspNet100.References.MicrosoftExtensionsOptionsConfigurationExtensions, global::System.Guid.Parse("4d4b2425-1fa8-4a27-910c-0847c1060ec0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Options.DataAnnotations.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsOptionsDataAnnotations => new ReferenceInfo("Microsoft.Extensions.Options.DataAnnotations.dll", Resources.MicrosoftExtensionsOptionsDataAnnotations, AspNet90.References.MicrosoftExtensionsOptionsDataAnnotations, global::System.Guid.Parse("7c0f7142-d6a9-454d-bc71-98f39fe47395"));
+        public static ReferenceInfo MicrosoftExtensionsOptionsDataAnnotations => new ReferenceInfo("Microsoft.Extensions.Options.DataAnnotations.dll", Resources.MicrosoftExtensionsOptionsDataAnnotations, AspNet100.References.MicrosoftExtensionsOptionsDataAnnotations, global::System.Guid.Parse("da13551c-70f1-4476-9f29-dffc584f25f2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Options.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsOptions => new ReferenceInfo("Microsoft.Extensions.Options.dll", Resources.MicrosoftExtensionsOptions, AspNet90.References.MicrosoftExtensionsOptions, global::System.Guid.Parse("54fdf35c-4b65-437c-9015-e1da220421d0"));
+        public static ReferenceInfo MicrosoftExtensionsOptions => new ReferenceInfo("Microsoft.Extensions.Options.dll", Resources.MicrosoftExtensionsOptions, AspNet100.References.MicrosoftExtensionsOptions, global::System.Guid.Parse("be14c407-fb4b-4cf7-930b-c0c895912d6d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.Primitives.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsPrimitives => new ReferenceInfo("Microsoft.Extensions.Primitives.dll", Resources.MicrosoftExtensionsPrimitives, AspNet90.References.MicrosoftExtensionsPrimitives, global::System.Guid.Parse("09f279fc-6e41-40f7-af92-bf35947020c8"));
+        public static ReferenceInfo MicrosoftExtensionsPrimitives => new ReferenceInfo("Microsoft.Extensions.Primitives.dll", Resources.MicrosoftExtensionsPrimitives, AspNet100.References.MicrosoftExtensionsPrimitives, global::System.Guid.Parse("323cf07f-5a7f-4d8e-a1b7-ef5c257d5c12"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Extensions.WebEncoders.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftExtensionsWebEncoders => new ReferenceInfo("Microsoft.Extensions.WebEncoders.dll", Resources.MicrosoftExtensionsWebEncoders, AspNet90.References.MicrosoftExtensionsWebEncoders, global::System.Guid.Parse("03143a28-474f-4b56-bb52-8d1317d4debf"));
+        public static ReferenceInfo MicrosoftExtensionsWebEncoders => new ReferenceInfo("Microsoft.Extensions.WebEncoders.dll", Resources.MicrosoftExtensionsWebEncoders, AspNet100.References.MicrosoftExtensionsWebEncoders, global::System.Guid.Parse("697c88f1-7a1d-48fb-b4ef-beb0b98240c6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.JSInterop.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftJSInterop => new ReferenceInfo("Microsoft.JSInterop.dll", Resources.MicrosoftJSInterop, AspNet90.References.MicrosoftJSInterop, global::System.Guid.Parse("8df57e88-d772-4051-a463-07a4a6796515"));
+        public static ReferenceInfo MicrosoftJSInterop => new ReferenceInfo("Microsoft.JSInterop.dll", Resources.MicrosoftJSInterop, AspNet100.References.MicrosoftJSInterop, global::System.Guid.Parse("c60f76ca-3e6c-49b1-b732-206f15282250"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Net.Http.Headers.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftNetHttpHeaders => new ReferenceInfo("Microsoft.Net.Http.Headers.dll", Resources.MicrosoftNetHttpHeaders, AspNet90.References.MicrosoftNetHttpHeaders, global::System.Guid.Parse("7e4b29da-5851-4815-bebe-4ba9c87353d7"));
+        public static ReferenceInfo MicrosoftNetHttpHeaders => new ReferenceInfo("Microsoft.Net.Http.Headers.dll", Resources.MicrosoftNetHttpHeaders, AspNet100.References.MicrosoftNetHttpHeaders, global::System.Guid.Parse("8698e1c2-aef2-42d8-9c45-d4aa6ccaf431"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.EventLog.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsEventLog => new ReferenceInfo("System.Diagnostics.EventLog.dll", Resources.SystemDiagnosticsEventLog, AspNet90.References.SystemDiagnosticsEventLog, global::System.Guid.Parse("5e386e41-a165-4037-81e5-0340f54a0784"));
+        public static ReferenceInfo SystemDiagnosticsEventLog => new ReferenceInfo("System.Diagnostics.EventLog.dll", Resources.SystemDiagnosticsEventLog, AspNet100.References.SystemDiagnosticsEventLog, global::System.Guid.Parse("2dedd047-4118-46c3-bc11-06e7aa359d5c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Xml.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyXml => new ReferenceInfo("System.Security.Cryptography.Xml.dll", Resources.SystemSecurityCryptographyXml, AspNet90.References.SystemSecurityCryptographyXml, global::System.Guid.Parse("121857a1-ac7b-4092-92f3-3a7c8e4bc858"));
+        public static ReferenceInfo SystemSecurityCryptographyXml => new ReferenceInfo("System.Security.Cryptography.Xml.dll", Resources.SystemSecurityCryptographyXml, AspNet100.References.SystemSecurityCryptographyXml, global::System.Guid.Parse("c7167b8a-f9fa-4220-8a81-b52c15e22420"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.RateLimiting.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingRateLimiting => new ReferenceInfo("System.Threading.RateLimiting.dll", Resources.SystemThreadingRateLimiting, AspNet90.References.SystemThreadingRateLimiting, global::System.Guid.Parse("75f967d2-ae5f-4dbf-a25c-2a75edc85309"));
+        public static ReferenceInfo SystemThreadingRateLimiting => new ReferenceInfo("System.Threading.RateLimiting.dll", Resources.SystemThreadingRateLimiting, AspNet100.References.SystemThreadingRateLimiting, global::System.Guid.Parse("18a01f03-485b-4c95-83f1-918e41882b44"));
         private static ImmutableArray<ReferenceInfo> _all;
         public static ImmutableArray<ReferenceInfo> All
         {
@@ -1591,6 +1601,7 @@ public static partial class AspNet90
                         SystemIOPipesAccessControl,
                         SystemIOPipes,
                         SystemIOUnmanagedMemoryStream,
+                        SystemLinqAsyncEnumerable,
                         SystemLinq,
                         SystemLinqExpressions,
                         SystemLinqParallel,
@@ -1608,6 +1619,7 @@ public static partial class AspNet90
                         SystemNetQuic,
                         SystemNetRequests,
                         SystemNetSecurity,
+                        SystemNetServerSentEvents,
                         SystemNetServicePoint,
                         SystemNetSockets,
                         SystemNetWebClient,
@@ -1842,7 +1854,7 @@ public static partial class AspNet90
     }
 }
 
-public static partial class AspNet90
+public static partial class AspNet100
 {
     public static class References
     {
@@ -1857,7 +1869,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftCSharp is null)
                 {
-                    _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.CSharp")).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (aspnet90)");
+                    _MicrosoftCSharp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.CSharp")).GetReference(filePath: "Microsoft.CSharp.dll", display: "Microsoft.CSharp (aspnet100)");
                 }
                 return _MicrosoftCSharp;
             }
@@ -1874,7 +1886,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftVisualBasicCore is null)
                 {
-                    _MicrosoftVisualBasicCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.VisualBasic.Core")).GetReference(filePath: "Microsoft.VisualBasic.Core.dll", display: "Microsoft.VisualBasic.Core (aspnet90)");
+                    _MicrosoftVisualBasicCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.VisualBasic.Core")).GetReference(filePath: "Microsoft.VisualBasic.Core.dll", display: "Microsoft.VisualBasic.Core (aspnet100)");
                 }
                 return _MicrosoftVisualBasicCore;
             }
@@ -1891,7 +1903,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftVisualBasic is null)
                 {
-                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (aspnet90)");
+                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (aspnet100)");
                 }
                 return _MicrosoftVisualBasic;
             }
@@ -1908,7 +1920,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftWin32Primitives is null)
                 {
-                    _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Win32.Primitives")).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (aspnet90)");
+                    _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Win32.Primitives")).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (aspnet100)");
                 }
                 return _MicrosoftWin32Primitives;
             }
@@ -1925,7 +1937,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftWin32Registry is null)
                 {
-                    _MicrosoftWin32Registry = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Win32.Registry")).GetReference(filePath: "Microsoft.Win32.Registry.dll", display: "Microsoft.Win32.Registry (aspnet90)");
+                    _MicrosoftWin32Registry = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Win32.Registry")).GetReference(filePath: "Microsoft.Win32.Registry.dll", display: "Microsoft.Win32.Registry (aspnet100)");
                 }
                 return _MicrosoftWin32Registry;
             }
@@ -1942,7 +1954,7 @@ public static partial class AspNet90
             {
                 if (_mscorlib is null)
                 {
-                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (aspnet90)");
+                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (aspnet100)");
                 }
                 return _mscorlib;
             }
@@ -1959,7 +1971,7 @@ public static partial class AspNet90
             {
                 if (_netstandard is null)
                 {
-                    _netstandard = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.netstandard")).GetReference(filePath: "netstandard.dll", display: "netstandard (aspnet90)");
+                    _netstandard = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.netstandard")).GetReference(filePath: "netstandard.dll", display: "netstandard (aspnet100)");
                 }
                 return _netstandard;
             }
@@ -1976,7 +1988,7 @@ public static partial class AspNet90
             {
                 if (_SystemAppContext is null)
                 {
-                    _SystemAppContext = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.AppContext")).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (aspnet90)");
+                    _SystemAppContext = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.AppContext")).GetReference(filePath: "System.AppContext.dll", display: "System.AppContext (aspnet100)");
                 }
                 return _SystemAppContext;
             }
@@ -1993,7 +2005,7 @@ public static partial class AspNet90
             {
                 if (_SystemBuffers is null)
                 {
-                    _SystemBuffers = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Buffers")).GetReference(filePath: "System.Buffers.dll", display: "System.Buffers (aspnet90)");
+                    _SystemBuffers = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Buffers")).GetReference(filePath: "System.Buffers.dll", display: "System.Buffers (aspnet100)");
                 }
                 return _SystemBuffers;
             }
@@ -2010,7 +2022,7 @@ public static partial class AspNet90
             {
                 if (_SystemCollectionsConcurrent is null)
                 {
-                    _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Collections.Concurrent")).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (aspnet90)");
+                    _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Collections.Concurrent")).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (aspnet100)");
                 }
                 return _SystemCollectionsConcurrent;
             }
@@ -2027,7 +2039,7 @@ public static partial class AspNet90
             {
                 if (_SystemCollections is null)
                 {
-                    _SystemCollections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Collections")).GetReference(filePath: "System.Collections.dll", display: "System.Collections (aspnet90)");
+                    _SystemCollections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Collections")).GetReference(filePath: "System.Collections.dll", display: "System.Collections (aspnet100)");
                 }
                 return _SystemCollections;
             }
@@ -2044,7 +2056,7 @@ public static partial class AspNet90
             {
                 if (_SystemCollectionsImmutable is null)
                 {
-                    _SystemCollectionsImmutable = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Collections.Immutable")).GetReference(filePath: "System.Collections.Immutable.dll", display: "System.Collections.Immutable (aspnet90)");
+                    _SystemCollectionsImmutable = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Collections.Immutable")).GetReference(filePath: "System.Collections.Immutable.dll", display: "System.Collections.Immutable (aspnet100)");
                 }
                 return _SystemCollectionsImmutable;
             }
@@ -2061,7 +2073,7 @@ public static partial class AspNet90
             {
                 if (_SystemCollectionsNonGeneric is null)
                 {
-                    _SystemCollectionsNonGeneric = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Collections.NonGeneric")).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (aspnet90)");
+                    _SystemCollectionsNonGeneric = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Collections.NonGeneric")).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (aspnet100)");
                 }
                 return _SystemCollectionsNonGeneric;
             }
@@ -2078,7 +2090,7 @@ public static partial class AspNet90
             {
                 if (_SystemCollectionsSpecialized is null)
                 {
-                    _SystemCollectionsSpecialized = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Collections.Specialized")).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (aspnet90)");
+                    _SystemCollectionsSpecialized = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Collections.Specialized")).GetReference(filePath: "System.Collections.Specialized.dll", display: "System.Collections.Specialized (aspnet100)");
                 }
                 return _SystemCollectionsSpecialized;
             }
@@ -2095,7 +2107,7 @@ public static partial class AspNet90
             {
                 if (_SystemComponentModelAnnotations is null)
                 {
-                    _SystemComponentModelAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.ComponentModel.Annotations")).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (aspnet90)");
+                    _SystemComponentModelAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.ComponentModel.Annotations")).GetReference(filePath: "System.ComponentModel.Annotations.dll", display: "System.ComponentModel.Annotations (aspnet100)");
                 }
                 return _SystemComponentModelAnnotations;
             }
@@ -2112,7 +2124,7 @@ public static partial class AspNet90
             {
                 if (_SystemComponentModelDataAnnotations is null)
                 {
-                    _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.ComponentModel.DataAnnotations")).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (aspnet90)");
+                    _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.ComponentModel.DataAnnotations")).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (aspnet100)");
                 }
                 return _SystemComponentModelDataAnnotations;
             }
@@ -2129,7 +2141,7 @@ public static partial class AspNet90
             {
                 if (_SystemComponentModel is null)
                 {
-                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.ComponentModel")).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (aspnet90)");
+                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.ComponentModel")).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (aspnet100)");
                 }
                 return _SystemComponentModel;
             }
@@ -2146,7 +2158,7 @@ public static partial class AspNet90
             {
                 if (_SystemComponentModelEventBasedAsync is null)
                 {
-                    _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.ComponentModel.EventBasedAsync")).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (aspnet90)");
+                    _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.ComponentModel.EventBasedAsync")).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (aspnet100)");
                 }
                 return _SystemComponentModelEventBasedAsync;
             }
@@ -2163,7 +2175,7 @@ public static partial class AspNet90
             {
                 if (_SystemComponentModelPrimitives is null)
                 {
-                    _SystemComponentModelPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.ComponentModel.Primitives")).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (aspnet90)");
+                    _SystemComponentModelPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.ComponentModel.Primitives")).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (aspnet100)");
                 }
                 return _SystemComponentModelPrimitives;
             }
@@ -2180,7 +2192,7 @@ public static partial class AspNet90
             {
                 if (_SystemComponentModelTypeConverter is null)
                 {
-                    _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.ComponentModel.TypeConverter")).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (aspnet90)");
+                    _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.ComponentModel.TypeConverter")).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (aspnet100)");
                 }
                 return _SystemComponentModelTypeConverter;
             }
@@ -2197,7 +2209,7 @@ public static partial class AspNet90
             {
                 if (_SystemConfiguration is null)
                 {
-                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Configuration")).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (aspnet90)");
+                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Configuration")).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (aspnet100)");
                 }
                 return _SystemConfiguration;
             }
@@ -2214,7 +2226,7 @@ public static partial class AspNet90
             {
                 if (_SystemConsole is null)
                 {
-                    _SystemConsole = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Console")).GetReference(filePath: "System.Console.dll", display: "System.Console (aspnet90)");
+                    _SystemConsole = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Console")).GetReference(filePath: "System.Console.dll", display: "System.Console (aspnet100)");
                 }
                 return _SystemConsole;
             }
@@ -2231,7 +2243,7 @@ public static partial class AspNet90
             {
                 if (_SystemCore is null)
                 {
-                    _SystemCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Core")).GetReference(filePath: "System.Core.dll", display: "System.Core (aspnet90)");
+                    _SystemCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Core")).GetReference(filePath: "System.Core.dll", display: "System.Core (aspnet100)");
                 }
                 return _SystemCore;
             }
@@ -2248,7 +2260,7 @@ public static partial class AspNet90
             {
                 if (_SystemDataCommon is null)
                 {
-                    _SystemDataCommon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Data.Common")).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (aspnet90)");
+                    _SystemDataCommon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Data.Common")).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (aspnet100)");
                 }
                 return _SystemDataCommon;
             }
@@ -2265,7 +2277,7 @@ public static partial class AspNet90
             {
                 if (_SystemDataDataSetExtensions is null)
                 {
-                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Data.DataSetExtensions")).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (aspnet90)");
+                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Data.DataSetExtensions")).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (aspnet100)");
                 }
                 return _SystemDataDataSetExtensions;
             }
@@ -2282,7 +2294,7 @@ public static partial class AspNet90
             {
                 if (_SystemData is null)
                 {
-                    _SystemData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Data")).GetReference(filePath: "System.Data.dll", display: "System.Data (aspnet90)");
+                    _SystemData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Data")).GetReference(filePath: "System.Data.dll", display: "System.Data (aspnet100)");
                 }
                 return _SystemData;
             }
@@ -2299,7 +2311,7 @@ public static partial class AspNet90
             {
                 if (_SystemDiagnosticsContracts is null)
                 {
-                    _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Diagnostics.Contracts")).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (aspnet90)");
+                    _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Diagnostics.Contracts")).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (aspnet100)");
                 }
                 return _SystemDiagnosticsContracts;
             }
@@ -2316,7 +2328,7 @@ public static partial class AspNet90
             {
                 if (_SystemDiagnosticsDebug is null)
                 {
-                    _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Diagnostics.Debug")).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (aspnet90)");
+                    _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Diagnostics.Debug")).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (aspnet100)");
                 }
                 return _SystemDiagnosticsDebug;
             }
@@ -2333,7 +2345,7 @@ public static partial class AspNet90
             {
                 if (_SystemDiagnosticsDiagnosticSource is null)
                 {
-                    _SystemDiagnosticsDiagnosticSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Diagnostics.DiagnosticSource")).GetReference(filePath: "System.Diagnostics.DiagnosticSource.dll", display: "System.Diagnostics.DiagnosticSource (aspnet90)");
+                    _SystemDiagnosticsDiagnosticSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Diagnostics.DiagnosticSource")).GetReference(filePath: "System.Diagnostics.DiagnosticSource.dll", display: "System.Diagnostics.DiagnosticSource (aspnet100)");
                 }
                 return _SystemDiagnosticsDiagnosticSource;
             }
@@ -2350,7 +2362,7 @@ public static partial class AspNet90
             {
                 if (_SystemDiagnosticsFileVersionInfo is null)
                 {
-                    _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Diagnostics.FileVersionInfo")).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (aspnet90)");
+                    _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Diagnostics.FileVersionInfo")).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (aspnet100)");
                 }
                 return _SystemDiagnosticsFileVersionInfo;
             }
@@ -2367,7 +2379,7 @@ public static partial class AspNet90
             {
                 if (_SystemDiagnosticsProcess is null)
                 {
-                    _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Diagnostics.Process")).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (aspnet90)");
+                    _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Diagnostics.Process")).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (aspnet100)");
                 }
                 return _SystemDiagnosticsProcess;
             }
@@ -2384,7 +2396,7 @@ public static partial class AspNet90
             {
                 if (_SystemDiagnosticsStackTrace is null)
                 {
-                    _SystemDiagnosticsStackTrace = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Diagnostics.StackTrace")).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (aspnet90)");
+                    _SystemDiagnosticsStackTrace = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Diagnostics.StackTrace")).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (aspnet100)");
                 }
                 return _SystemDiagnosticsStackTrace;
             }
@@ -2401,7 +2413,7 @@ public static partial class AspNet90
             {
                 if (_SystemDiagnosticsTextWriterTraceListener is null)
                 {
-                    _SystemDiagnosticsTextWriterTraceListener = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Diagnostics.TextWriterTraceListener")).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (aspnet90)");
+                    _SystemDiagnosticsTextWriterTraceListener = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Diagnostics.TextWriterTraceListener")).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (aspnet100)");
                 }
                 return _SystemDiagnosticsTextWriterTraceListener;
             }
@@ -2418,7 +2430,7 @@ public static partial class AspNet90
             {
                 if (_SystemDiagnosticsTools is null)
                 {
-                    _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Diagnostics.Tools")).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (aspnet90)");
+                    _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Diagnostics.Tools")).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (aspnet100)");
                 }
                 return _SystemDiagnosticsTools;
             }
@@ -2435,7 +2447,7 @@ public static partial class AspNet90
             {
                 if (_SystemDiagnosticsTraceSource is null)
                 {
-                    _SystemDiagnosticsTraceSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Diagnostics.TraceSource")).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (aspnet90)");
+                    _SystemDiagnosticsTraceSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Diagnostics.TraceSource")).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (aspnet100)");
                 }
                 return _SystemDiagnosticsTraceSource;
             }
@@ -2452,7 +2464,7 @@ public static partial class AspNet90
             {
                 if (_SystemDiagnosticsTracing is null)
                 {
-                    _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Diagnostics.Tracing")).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (aspnet90)");
+                    _SystemDiagnosticsTracing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Diagnostics.Tracing")).GetReference(filePath: "System.Diagnostics.Tracing.dll", display: "System.Diagnostics.Tracing (aspnet100)");
                 }
                 return _SystemDiagnosticsTracing;
             }
@@ -2469,7 +2481,7 @@ public static partial class AspNet90
             {
                 if (_System is null)
                 {
-                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System")).GetReference(filePath: "System.dll", display: "System (aspnet90)");
+                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System")).GetReference(filePath: "System.dll", display: "System (aspnet100)");
                 }
                 return _System;
             }
@@ -2486,7 +2498,7 @@ public static partial class AspNet90
             {
                 if (_SystemDrawing is null)
                 {
-                    _SystemDrawing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Drawing")).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (aspnet90)");
+                    _SystemDrawing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Drawing")).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (aspnet100)");
                 }
                 return _SystemDrawing;
             }
@@ -2503,7 +2515,7 @@ public static partial class AspNet90
             {
                 if (_SystemDrawingPrimitives is null)
                 {
-                    _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Drawing.Primitives")).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (aspnet90)");
+                    _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Drawing.Primitives")).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (aspnet100)");
                 }
                 return _SystemDrawingPrimitives;
             }
@@ -2520,7 +2532,7 @@ public static partial class AspNet90
             {
                 if (_SystemDynamicRuntime is null)
                 {
-                    _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Dynamic.Runtime")).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (aspnet90)");
+                    _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Dynamic.Runtime")).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (aspnet100)");
                 }
                 return _SystemDynamicRuntime;
             }
@@ -2537,7 +2549,7 @@ public static partial class AspNet90
             {
                 if (_SystemFormatsAsn1 is null)
                 {
-                    _SystemFormatsAsn1 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Formats.Asn1")).GetReference(filePath: "System.Formats.Asn1.dll", display: "System.Formats.Asn1 (aspnet90)");
+                    _SystemFormatsAsn1 = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Formats.Asn1")).GetReference(filePath: "System.Formats.Asn1.dll", display: "System.Formats.Asn1 (aspnet100)");
                 }
                 return _SystemFormatsAsn1;
             }
@@ -2554,7 +2566,7 @@ public static partial class AspNet90
             {
                 if (_SystemFormatsTar is null)
                 {
-                    _SystemFormatsTar = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Formats.Tar")).GetReference(filePath: "System.Formats.Tar.dll", display: "System.Formats.Tar (aspnet90)");
+                    _SystemFormatsTar = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Formats.Tar")).GetReference(filePath: "System.Formats.Tar.dll", display: "System.Formats.Tar (aspnet100)");
                 }
                 return _SystemFormatsTar;
             }
@@ -2571,7 +2583,7 @@ public static partial class AspNet90
             {
                 if (_SystemGlobalizationCalendars is null)
                 {
-                    _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Globalization.Calendars")).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (aspnet90)");
+                    _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Globalization.Calendars")).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (aspnet100)");
                 }
                 return _SystemGlobalizationCalendars;
             }
@@ -2588,7 +2600,7 @@ public static partial class AspNet90
             {
                 if (_SystemGlobalization is null)
                 {
-                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Globalization")).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (aspnet90)");
+                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Globalization")).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (aspnet100)");
                 }
                 return _SystemGlobalization;
             }
@@ -2605,7 +2617,7 @@ public static partial class AspNet90
             {
                 if (_SystemGlobalizationExtensions is null)
                 {
-                    _SystemGlobalizationExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Globalization.Extensions")).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (aspnet90)");
+                    _SystemGlobalizationExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Globalization.Extensions")).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (aspnet100)");
                 }
                 return _SystemGlobalizationExtensions;
             }
@@ -2622,7 +2634,7 @@ public static partial class AspNet90
             {
                 if (_SystemIOCompressionBrotli is null)
                 {
-                    _SystemIOCompressionBrotli = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.Compression.Brotli")).GetReference(filePath: "System.IO.Compression.Brotli.dll", display: "System.IO.Compression.Brotli (aspnet90)");
+                    _SystemIOCompressionBrotli = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.Compression.Brotli")).GetReference(filePath: "System.IO.Compression.Brotli.dll", display: "System.IO.Compression.Brotli (aspnet100)");
                 }
                 return _SystemIOCompressionBrotli;
             }
@@ -2639,7 +2651,7 @@ public static partial class AspNet90
             {
                 if (_SystemIOCompression is null)
                 {
-                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (aspnet90)");
+                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (aspnet100)");
                 }
                 return _SystemIOCompression;
             }
@@ -2656,7 +2668,7 @@ public static partial class AspNet90
             {
                 if (_SystemIOCompressionFileSystem is null)
                 {
-                    _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.Compression.FileSystem")).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (aspnet90)");
+                    _SystemIOCompressionFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.Compression.FileSystem")).GetReference(filePath: "System.IO.Compression.FileSystem.dll", display: "System.IO.Compression.FileSystem (aspnet100)");
                 }
                 return _SystemIOCompressionFileSystem;
             }
@@ -2673,7 +2685,7 @@ public static partial class AspNet90
             {
                 if (_SystemIOCompressionZipFile is null)
                 {
-                    _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.Compression.ZipFile")).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (aspnet90)");
+                    _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.Compression.ZipFile")).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (aspnet100)");
                 }
                 return _SystemIOCompressionZipFile;
             }
@@ -2690,7 +2702,7 @@ public static partial class AspNet90
             {
                 if (_SystemIO is null)
                 {
-                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (aspnet90)");
+                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (aspnet100)");
                 }
                 return _SystemIO;
             }
@@ -2707,7 +2719,7 @@ public static partial class AspNet90
             {
                 if (_SystemIOFileSystemAccessControl is null)
                 {
-                    _SystemIOFileSystemAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.FileSystem.AccessControl")).GetReference(filePath: "System.IO.FileSystem.AccessControl.dll", display: "System.IO.FileSystem.AccessControl (aspnet90)");
+                    _SystemIOFileSystemAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.FileSystem.AccessControl")).GetReference(filePath: "System.IO.FileSystem.AccessControl.dll", display: "System.IO.FileSystem.AccessControl (aspnet100)");
                 }
                 return _SystemIOFileSystemAccessControl;
             }
@@ -2724,7 +2736,7 @@ public static partial class AspNet90
             {
                 if (_SystemIOFileSystem is null)
                 {
-                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.FileSystem")).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (aspnet90)");
+                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.FileSystem")).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (aspnet100)");
                 }
                 return _SystemIOFileSystem;
             }
@@ -2741,7 +2753,7 @@ public static partial class AspNet90
             {
                 if (_SystemIOFileSystemDriveInfo is null)
                 {
-                    _SystemIOFileSystemDriveInfo = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.FileSystem.DriveInfo")).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (aspnet90)");
+                    _SystemIOFileSystemDriveInfo = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.FileSystem.DriveInfo")).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (aspnet100)");
                 }
                 return _SystemIOFileSystemDriveInfo;
             }
@@ -2758,7 +2770,7 @@ public static partial class AspNet90
             {
                 if (_SystemIOFileSystemPrimitives is null)
                 {
-                    _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.FileSystem.Primitives")).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (aspnet90)");
+                    _SystemIOFileSystemPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.FileSystem.Primitives")).GetReference(filePath: "System.IO.FileSystem.Primitives.dll", display: "System.IO.FileSystem.Primitives (aspnet100)");
                 }
                 return _SystemIOFileSystemPrimitives;
             }
@@ -2775,7 +2787,7 @@ public static partial class AspNet90
             {
                 if (_SystemIOFileSystemWatcher is null)
                 {
-                    _SystemIOFileSystemWatcher = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.FileSystem.Watcher")).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (aspnet90)");
+                    _SystemIOFileSystemWatcher = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.FileSystem.Watcher")).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (aspnet100)");
                 }
                 return _SystemIOFileSystemWatcher;
             }
@@ -2792,7 +2804,7 @@ public static partial class AspNet90
             {
                 if (_SystemIOIsolatedStorage is null)
                 {
-                    _SystemIOIsolatedStorage = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.IsolatedStorage")).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (aspnet90)");
+                    _SystemIOIsolatedStorage = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.IsolatedStorage")).GetReference(filePath: "System.IO.IsolatedStorage.dll", display: "System.IO.IsolatedStorage (aspnet100)");
                 }
                 return _SystemIOIsolatedStorage;
             }
@@ -2809,7 +2821,7 @@ public static partial class AspNet90
             {
                 if (_SystemIOMemoryMappedFiles is null)
                 {
-                    _SystemIOMemoryMappedFiles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.MemoryMappedFiles")).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (aspnet90)");
+                    _SystemIOMemoryMappedFiles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.MemoryMappedFiles")).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (aspnet100)");
                 }
                 return _SystemIOMemoryMappedFiles;
             }
@@ -2826,7 +2838,7 @@ public static partial class AspNet90
             {
                 if (_SystemIOPipelines is null)
                 {
-                    _SystemIOPipelines = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.Pipelines")).GetReference(filePath: "System.IO.Pipelines.dll", display: "System.IO.Pipelines (aspnet90)");
+                    _SystemIOPipelines = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.Pipelines")).GetReference(filePath: "System.IO.Pipelines.dll", display: "System.IO.Pipelines (aspnet100)");
                 }
                 return _SystemIOPipelines;
             }
@@ -2843,7 +2855,7 @@ public static partial class AspNet90
             {
                 if (_SystemIOPipesAccessControl is null)
                 {
-                    _SystemIOPipesAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.Pipes.AccessControl")).GetReference(filePath: "System.IO.Pipes.AccessControl.dll", display: "System.IO.Pipes.AccessControl (aspnet90)");
+                    _SystemIOPipesAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.Pipes.AccessControl")).GetReference(filePath: "System.IO.Pipes.AccessControl.dll", display: "System.IO.Pipes.AccessControl (aspnet100)");
                 }
                 return _SystemIOPipesAccessControl;
             }
@@ -2860,7 +2872,7 @@ public static partial class AspNet90
             {
                 if (_SystemIOPipes is null)
                 {
-                    _SystemIOPipes = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.Pipes")).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (aspnet90)");
+                    _SystemIOPipes = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.Pipes")).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (aspnet100)");
                 }
                 return _SystemIOPipes;
             }
@@ -2877,9 +2889,26 @@ public static partial class AspNet90
             {
                 if (_SystemIOUnmanagedMemoryStream is null)
                 {
-                    _SystemIOUnmanagedMemoryStream = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.IO.UnmanagedMemoryStream")).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (aspnet90)");
+                    _SystemIOUnmanagedMemoryStream = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.IO.UnmanagedMemoryStream")).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (aspnet100)");
                 }
                 return _SystemIOUnmanagedMemoryStream;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemLinqAsyncEnumerable;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Linq.AsyncEnumerable.dll
+        /// </summary>
+        public static PortableExecutableReference SystemLinqAsyncEnumerable
+        {
+            get
+            {
+                if (_SystemLinqAsyncEnumerable is null)
+                {
+                    _SystemLinqAsyncEnumerable = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Linq.AsyncEnumerable")).GetReference(filePath: "System.Linq.AsyncEnumerable.dll", display: "System.Linq.AsyncEnumerable (aspnet100)");
+                }
+                return _SystemLinqAsyncEnumerable;
             }
         }
 
@@ -2894,7 +2923,7 @@ public static partial class AspNet90
             {
                 if (_SystemLinq is null)
                 {
-                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (aspnet90)");
+                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (aspnet100)");
                 }
                 return _SystemLinq;
             }
@@ -2911,7 +2940,7 @@ public static partial class AspNet90
             {
                 if (_SystemLinqExpressions is null)
                 {
-                    _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Linq.Expressions")).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (aspnet90)");
+                    _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Linq.Expressions")).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (aspnet100)");
                 }
                 return _SystemLinqExpressions;
             }
@@ -2928,7 +2957,7 @@ public static partial class AspNet90
             {
                 if (_SystemLinqParallel is null)
                 {
-                    _SystemLinqParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Linq.Parallel")).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (aspnet90)");
+                    _SystemLinqParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Linq.Parallel")).GetReference(filePath: "System.Linq.Parallel.dll", display: "System.Linq.Parallel (aspnet100)");
                 }
                 return _SystemLinqParallel;
             }
@@ -2945,7 +2974,7 @@ public static partial class AspNet90
             {
                 if (_SystemLinqQueryable is null)
                 {
-                    _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Linq.Queryable")).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (aspnet90)");
+                    _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Linq.Queryable")).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (aspnet100)");
                 }
                 return _SystemLinqQueryable;
             }
@@ -2962,7 +2991,7 @@ public static partial class AspNet90
             {
                 if (_SystemMemory is null)
                 {
-                    _SystemMemory = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Memory")).GetReference(filePath: "System.Memory.dll", display: "System.Memory (aspnet90)");
+                    _SystemMemory = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Memory")).GetReference(filePath: "System.Memory.dll", display: "System.Memory (aspnet100)");
                 }
                 return _SystemMemory;
             }
@@ -2979,7 +3008,7 @@ public static partial class AspNet90
             {
                 if (_SystemNet is null)
                 {
-                    _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (aspnet90)");
+                    _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (aspnet100)");
                 }
                 return _SystemNet;
             }
@@ -2996,7 +3025,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetHttp is null)
                 {
-                    _SystemNetHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.Http")).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (aspnet90)");
+                    _SystemNetHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.Http")).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (aspnet100)");
                 }
                 return _SystemNetHttp;
             }
@@ -3013,7 +3042,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetHttpJson is null)
                 {
-                    _SystemNetHttpJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.Http.Json")).GetReference(filePath: "System.Net.Http.Json.dll", display: "System.Net.Http.Json (aspnet90)");
+                    _SystemNetHttpJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.Http.Json")).GetReference(filePath: "System.Net.Http.Json.dll", display: "System.Net.Http.Json (aspnet100)");
                 }
                 return _SystemNetHttpJson;
             }
@@ -3030,7 +3059,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetHttpListener is null)
                 {
-                    _SystemNetHttpListener = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.HttpListener")).GetReference(filePath: "System.Net.HttpListener.dll", display: "System.Net.HttpListener (aspnet90)");
+                    _SystemNetHttpListener = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.HttpListener")).GetReference(filePath: "System.Net.HttpListener.dll", display: "System.Net.HttpListener (aspnet100)");
                 }
                 return _SystemNetHttpListener;
             }
@@ -3047,7 +3076,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetMail is null)
                 {
-                    _SystemNetMail = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.Mail")).GetReference(filePath: "System.Net.Mail.dll", display: "System.Net.Mail (aspnet90)");
+                    _SystemNetMail = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.Mail")).GetReference(filePath: "System.Net.Mail.dll", display: "System.Net.Mail (aspnet100)");
                 }
                 return _SystemNetMail;
             }
@@ -3064,7 +3093,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetNameResolution is null)
                 {
-                    _SystemNetNameResolution = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.NameResolution")).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (aspnet90)");
+                    _SystemNetNameResolution = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.NameResolution")).GetReference(filePath: "System.Net.NameResolution.dll", display: "System.Net.NameResolution (aspnet100)");
                 }
                 return _SystemNetNameResolution;
             }
@@ -3081,7 +3110,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetNetworkInformation is null)
                 {
-                    _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.NetworkInformation")).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (aspnet90)");
+                    _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.NetworkInformation")).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (aspnet100)");
                 }
                 return _SystemNetNetworkInformation;
             }
@@ -3098,7 +3127,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetPing is null)
                 {
-                    _SystemNetPing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.Ping")).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (aspnet90)");
+                    _SystemNetPing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.Ping")).GetReference(filePath: "System.Net.Ping.dll", display: "System.Net.Ping (aspnet100)");
                 }
                 return _SystemNetPing;
             }
@@ -3115,7 +3144,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetPrimitives is null)
                 {
-                    _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.Primitives")).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (aspnet90)");
+                    _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.Primitives")).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (aspnet100)");
                 }
                 return _SystemNetPrimitives;
             }
@@ -3132,7 +3161,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetQuic is null)
                 {
-                    _SystemNetQuic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.Quic")).GetReference(filePath: "System.Net.Quic.dll", display: "System.Net.Quic (aspnet90)");
+                    _SystemNetQuic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.Quic")).GetReference(filePath: "System.Net.Quic.dll", display: "System.Net.Quic (aspnet100)");
                 }
                 return _SystemNetQuic;
             }
@@ -3149,7 +3178,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetRequests is null)
                 {
-                    _SystemNetRequests = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.Requests")).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (aspnet90)");
+                    _SystemNetRequests = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.Requests")).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (aspnet100)");
                 }
                 return _SystemNetRequests;
             }
@@ -3166,9 +3195,26 @@ public static partial class AspNet90
             {
                 if (_SystemNetSecurity is null)
                 {
-                    _SystemNetSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.Security")).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (aspnet90)");
+                    _SystemNetSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.Security")).GetReference(filePath: "System.Net.Security.dll", display: "System.Net.Security (aspnet100)");
                 }
                 return _SystemNetSecurity;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemNetServerSentEvents;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Net.ServerSentEvents.dll
+        /// </summary>
+        public static PortableExecutableReference SystemNetServerSentEvents
+        {
+            get
+            {
+                if (_SystemNetServerSentEvents is null)
+                {
+                    _SystemNetServerSentEvents = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.ServerSentEvents")).GetReference(filePath: "System.Net.ServerSentEvents.dll", display: "System.Net.ServerSentEvents (aspnet100)");
+                }
+                return _SystemNetServerSentEvents;
             }
         }
 
@@ -3183,7 +3229,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetServicePoint is null)
                 {
-                    _SystemNetServicePoint = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.ServicePoint")).GetReference(filePath: "System.Net.ServicePoint.dll", display: "System.Net.ServicePoint (aspnet90)");
+                    _SystemNetServicePoint = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.ServicePoint")).GetReference(filePath: "System.Net.ServicePoint.dll", display: "System.Net.ServicePoint (aspnet100)");
                 }
                 return _SystemNetServicePoint;
             }
@@ -3200,7 +3246,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetSockets is null)
                 {
-                    _SystemNetSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.Sockets")).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (aspnet90)");
+                    _SystemNetSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.Sockets")).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (aspnet100)");
                 }
                 return _SystemNetSockets;
             }
@@ -3217,7 +3263,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetWebClient is null)
                 {
-                    _SystemNetWebClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.WebClient")).GetReference(filePath: "System.Net.WebClient.dll", display: "System.Net.WebClient (aspnet90)");
+                    _SystemNetWebClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.WebClient")).GetReference(filePath: "System.Net.WebClient.dll", display: "System.Net.WebClient (aspnet100)");
                 }
                 return _SystemNetWebClient;
             }
@@ -3234,7 +3280,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetWebHeaderCollection is null)
                 {
-                    _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.WebHeaderCollection")).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (aspnet90)");
+                    _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.WebHeaderCollection")).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (aspnet100)");
                 }
                 return _SystemNetWebHeaderCollection;
             }
@@ -3251,7 +3297,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetWebProxy is null)
                 {
-                    _SystemNetWebProxy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.WebProxy")).GetReference(filePath: "System.Net.WebProxy.dll", display: "System.Net.WebProxy (aspnet90)");
+                    _SystemNetWebProxy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.WebProxy")).GetReference(filePath: "System.Net.WebProxy.dll", display: "System.Net.WebProxy (aspnet100)");
                 }
                 return _SystemNetWebProxy;
             }
@@ -3268,7 +3314,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetWebSocketsClient is null)
                 {
-                    _SystemNetWebSocketsClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.WebSockets.Client")).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (aspnet90)");
+                    _SystemNetWebSocketsClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.WebSockets.Client")).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (aspnet100)");
                 }
                 return _SystemNetWebSocketsClient;
             }
@@ -3285,7 +3331,7 @@ public static partial class AspNet90
             {
                 if (_SystemNetWebSockets is null)
                 {
-                    _SystemNetWebSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Net.WebSockets")).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (aspnet90)");
+                    _SystemNetWebSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Net.WebSockets")).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (aspnet100)");
                 }
                 return _SystemNetWebSockets;
             }
@@ -3302,7 +3348,7 @@ public static partial class AspNet90
             {
                 if (_SystemNumerics is null)
                 {
-                    _SystemNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Numerics")).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (aspnet90)");
+                    _SystemNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Numerics")).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (aspnet100)");
                 }
                 return _SystemNumerics;
             }
@@ -3319,7 +3365,7 @@ public static partial class AspNet90
             {
                 if (_SystemNumericsVectors is null)
                 {
-                    _SystemNumericsVectors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Numerics.Vectors")).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (aspnet90)");
+                    _SystemNumericsVectors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Numerics.Vectors")).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (aspnet100)");
                 }
                 return _SystemNumericsVectors;
             }
@@ -3336,7 +3382,7 @@ public static partial class AspNet90
             {
                 if (_SystemObjectModel is null)
                 {
-                    _SystemObjectModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.ObjectModel")).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (aspnet90)");
+                    _SystemObjectModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.ObjectModel")).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (aspnet100)");
                 }
                 return _SystemObjectModel;
             }
@@ -3353,7 +3399,7 @@ public static partial class AspNet90
             {
                 if (_SystemReflectionDispatchProxy is null)
                 {
-                    _SystemReflectionDispatchProxy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Reflection.DispatchProxy")).GetReference(filePath: "System.Reflection.DispatchProxy.dll", display: "System.Reflection.DispatchProxy (aspnet90)");
+                    _SystemReflectionDispatchProxy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Reflection.DispatchProxy")).GetReference(filePath: "System.Reflection.DispatchProxy.dll", display: "System.Reflection.DispatchProxy (aspnet100)");
                 }
                 return _SystemReflectionDispatchProxy;
             }
@@ -3370,7 +3416,7 @@ public static partial class AspNet90
             {
                 if (_SystemReflection is null)
                 {
-                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (aspnet90)");
+                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (aspnet100)");
                 }
                 return _SystemReflection;
             }
@@ -3387,7 +3433,7 @@ public static partial class AspNet90
             {
                 if (_SystemReflectionEmit is null)
                 {
-                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Reflection.Emit")).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (aspnet90)");
+                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Reflection.Emit")).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (aspnet100)");
                 }
                 return _SystemReflectionEmit;
             }
@@ -3404,7 +3450,7 @@ public static partial class AspNet90
             {
                 if (_SystemReflectionEmitILGeneration is null)
                 {
-                    _SystemReflectionEmitILGeneration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Reflection.Emit.ILGeneration")).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (aspnet90)");
+                    _SystemReflectionEmitILGeneration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Reflection.Emit.ILGeneration")).GetReference(filePath: "System.Reflection.Emit.ILGeneration.dll", display: "System.Reflection.Emit.ILGeneration (aspnet100)");
                 }
                 return _SystemReflectionEmitILGeneration;
             }
@@ -3421,7 +3467,7 @@ public static partial class AspNet90
             {
                 if (_SystemReflectionEmitLightweight is null)
                 {
-                    _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Reflection.Emit.Lightweight")).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (aspnet90)");
+                    _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Reflection.Emit.Lightweight")).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (aspnet100)");
                 }
                 return _SystemReflectionEmitLightweight;
             }
@@ -3438,7 +3484,7 @@ public static partial class AspNet90
             {
                 if (_SystemReflectionExtensions is null)
                 {
-                    _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Reflection.Extensions")).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (aspnet90)");
+                    _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Reflection.Extensions")).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (aspnet100)");
                 }
                 return _SystemReflectionExtensions;
             }
@@ -3455,7 +3501,7 @@ public static partial class AspNet90
             {
                 if (_SystemReflectionMetadata is null)
                 {
-                    _SystemReflectionMetadata = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Reflection.Metadata")).GetReference(filePath: "System.Reflection.Metadata.dll", display: "System.Reflection.Metadata (aspnet90)");
+                    _SystemReflectionMetadata = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Reflection.Metadata")).GetReference(filePath: "System.Reflection.Metadata.dll", display: "System.Reflection.Metadata (aspnet100)");
                 }
                 return _SystemReflectionMetadata;
             }
@@ -3472,7 +3518,7 @@ public static partial class AspNet90
             {
                 if (_SystemReflectionPrimitives is null)
                 {
-                    _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Reflection.Primitives")).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (aspnet90)");
+                    _SystemReflectionPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Reflection.Primitives")).GetReference(filePath: "System.Reflection.Primitives.dll", display: "System.Reflection.Primitives (aspnet100)");
                 }
                 return _SystemReflectionPrimitives;
             }
@@ -3489,7 +3535,7 @@ public static partial class AspNet90
             {
                 if (_SystemReflectionTypeExtensions is null)
                 {
-                    _SystemReflectionTypeExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Reflection.TypeExtensions")).GetReference(filePath: "System.Reflection.TypeExtensions.dll", display: "System.Reflection.TypeExtensions (aspnet90)");
+                    _SystemReflectionTypeExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Reflection.TypeExtensions")).GetReference(filePath: "System.Reflection.TypeExtensions.dll", display: "System.Reflection.TypeExtensions (aspnet100)");
                 }
                 return _SystemReflectionTypeExtensions;
             }
@@ -3506,7 +3552,7 @@ public static partial class AspNet90
             {
                 if (_SystemResourcesReader is null)
                 {
-                    _SystemResourcesReader = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Resources.Reader")).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (aspnet90)");
+                    _SystemResourcesReader = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Resources.Reader")).GetReference(filePath: "System.Resources.Reader.dll", display: "System.Resources.Reader (aspnet100)");
                 }
                 return _SystemResourcesReader;
             }
@@ -3523,7 +3569,7 @@ public static partial class AspNet90
             {
                 if (_SystemResourcesResourceManager is null)
                 {
-                    _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Resources.ResourceManager")).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (aspnet90)");
+                    _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Resources.ResourceManager")).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (aspnet100)");
                 }
                 return _SystemResourcesResourceManager;
             }
@@ -3540,7 +3586,7 @@ public static partial class AspNet90
             {
                 if (_SystemResourcesWriter is null)
                 {
-                    _SystemResourcesWriter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Resources.Writer")).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (aspnet90)");
+                    _SystemResourcesWriter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Resources.Writer")).GetReference(filePath: "System.Resources.Writer.dll", display: "System.Resources.Writer (aspnet100)");
                 }
                 return _SystemResourcesWriter;
             }
@@ -3557,7 +3603,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeCompilerServicesUnsafe is null)
                 {
-                    _SystemRuntimeCompilerServicesUnsafe = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.CompilerServices.Unsafe")).GetReference(filePath: "System.Runtime.CompilerServices.Unsafe.dll", display: "System.Runtime.CompilerServices.Unsafe (aspnet90)");
+                    _SystemRuntimeCompilerServicesUnsafe = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.CompilerServices.Unsafe")).GetReference(filePath: "System.Runtime.CompilerServices.Unsafe.dll", display: "System.Runtime.CompilerServices.Unsafe (aspnet100)");
                 }
                 return _SystemRuntimeCompilerServicesUnsafe;
             }
@@ -3574,7 +3620,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeCompilerServicesVisualC is null)
                 {
-                    _SystemRuntimeCompilerServicesVisualC = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.CompilerServices.VisualC")).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (aspnet90)");
+                    _SystemRuntimeCompilerServicesVisualC = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.CompilerServices.VisualC")).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (aspnet100)");
                 }
                 return _SystemRuntimeCompilerServicesVisualC;
             }
@@ -3591,7 +3637,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntime is null)
                 {
-                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (aspnet90)");
+                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (aspnet100)");
                 }
                 return _SystemRuntime;
             }
@@ -3608,7 +3654,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeExtensions is null)
                 {
-                    _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.Extensions")).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (aspnet90)");
+                    _SystemRuntimeExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.Extensions")).GetReference(filePath: "System.Runtime.Extensions.dll", display: "System.Runtime.Extensions (aspnet100)");
                 }
                 return _SystemRuntimeExtensions;
             }
@@ -3625,7 +3671,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeHandles is null)
                 {
-                    _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.Handles")).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (aspnet90)");
+                    _SystemRuntimeHandles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.Handles")).GetReference(filePath: "System.Runtime.Handles.dll", display: "System.Runtime.Handles (aspnet100)");
                 }
                 return _SystemRuntimeHandles;
             }
@@ -3642,7 +3688,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeInteropServices is null)
                 {
-                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (aspnet90)");
+                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (aspnet100)");
                 }
                 return _SystemRuntimeInteropServices;
             }
@@ -3659,7 +3705,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeInteropServicesJavaScript is null)
                 {
-                    _SystemRuntimeInteropServicesJavaScript = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.InteropServices.JavaScript")).GetReference(filePath: "System.Runtime.InteropServices.JavaScript.dll", display: "System.Runtime.InteropServices.JavaScript (aspnet90)");
+                    _SystemRuntimeInteropServicesJavaScript = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.InteropServices.JavaScript")).GetReference(filePath: "System.Runtime.InteropServices.JavaScript.dll", display: "System.Runtime.InteropServices.JavaScript (aspnet100)");
                 }
                 return _SystemRuntimeInteropServicesJavaScript;
             }
@@ -3676,7 +3722,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeInteropServicesRuntimeInformation is null)
                 {
-                    _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.InteropServices.RuntimeInformation")).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (aspnet90)");
+                    _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.InteropServices.RuntimeInformation")).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (aspnet100)");
                 }
                 return _SystemRuntimeInteropServicesRuntimeInformation;
             }
@@ -3693,7 +3739,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeIntrinsics is null)
                 {
-                    _SystemRuntimeIntrinsics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.Intrinsics")).GetReference(filePath: "System.Runtime.Intrinsics.dll", display: "System.Runtime.Intrinsics (aspnet90)");
+                    _SystemRuntimeIntrinsics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.Intrinsics")).GetReference(filePath: "System.Runtime.Intrinsics.dll", display: "System.Runtime.Intrinsics (aspnet100)");
                 }
                 return _SystemRuntimeIntrinsics;
             }
@@ -3710,7 +3756,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeLoader is null)
                 {
-                    _SystemRuntimeLoader = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.Loader")).GetReference(filePath: "System.Runtime.Loader.dll", display: "System.Runtime.Loader (aspnet90)");
+                    _SystemRuntimeLoader = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.Loader")).GetReference(filePath: "System.Runtime.Loader.dll", display: "System.Runtime.Loader (aspnet100)");
                 }
                 return _SystemRuntimeLoader;
             }
@@ -3727,7 +3773,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeNumerics is null)
                 {
-                    _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.Numerics")).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (aspnet90)");
+                    _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.Numerics")).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (aspnet100)");
                 }
                 return _SystemRuntimeNumerics;
             }
@@ -3744,7 +3790,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeSerialization is null)
                 {
-                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (aspnet90)");
+                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (aspnet100)");
                 }
                 return _SystemRuntimeSerialization;
             }
@@ -3761,7 +3807,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeSerializationFormatters is null)
                 {
-                    _SystemRuntimeSerializationFormatters = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.Serialization.Formatters")).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (aspnet90)");
+                    _SystemRuntimeSerializationFormatters = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.Serialization.Formatters")).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (aspnet100)");
                 }
                 return _SystemRuntimeSerializationFormatters;
             }
@@ -3778,7 +3824,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeSerializationJson is null)
                 {
-                    _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.Serialization.Json")).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (aspnet90)");
+                    _SystemRuntimeSerializationJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.Serialization.Json")).GetReference(filePath: "System.Runtime.Serialization.Json.dll", display: "System.Runtime.Serialization.Json (aspnet100)");
                 }
                 return _SystemRuntimeSerializationJson;
             }
@@ -3795,7 +3841,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeSerializationPrimitives is null)
                 {
-                    _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.Serialization.Primitives")).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (aspnet90)");
+                    _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.Serialization.Primitives")).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (aspnet100)");
                 }
                 return _SystemRuntimeSerializationPrimitives;
             }
@@ -3812,7 +3858,7 @@ public static partial class AspNet90
             {
                 if (_SystemRuntimeSerializationXml is null)
                 {
-                    _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Runtime.Serialization.Xml")).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (aspnet90)");
+                    _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Runtime.Serialization.Xml")).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (aspnet100)");
                 }
                 return _SystemRuntimeSerializationXml;
             }
@@ -3829,7 +3875,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecurityAccessControl is null)
                 {
-                    _SystemSecurityAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security.AccessControl")).GetReference(filePath: "System.Security.AccessControl.dll", display: "System.Security.AccessControl (aspnet90)");
+                    _SystemSecurityAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security.AccessControl")).GetReference(filePath: "System.Security.AccessControl.dll", display: "System.Security.AccessControl (aspnet100)");
                 }
                 return _SystemSecurityAccessControl;
             }
@@ -3846,7 +3892,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecurityClaims is null)
                 {
-                    _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security.Claims")).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (aspnet90)");
+                    _SystemSecurityClaims = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security.Claims")).GetReference(filePath: "System.Security.Claims.dll", display: "System.Security.Claims (aspnet100)");
                 }
                 return _SystemSecurityClaims;
             }
@@ -3863,7 +3909,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecurityCryptographyAlgorithms is null)
                 {
-                    _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security.Cryptography.Algorithms")).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (aspnet90)");
+                    _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security.Cryptography.Algorithms")).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (aspnet100)");
                 }
                 return _SystemSecurityCryptographyAlgorithms;
             }
@@ -3880,7 +3926,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecurityCryptographyCng is null)
                 {
-                    _SystemSecurityCryptographyCng = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security.Cryptography.Cng")).GetReference(filePath: "System.Security.Cryptography.Cng.dll", display: "System.Security.Cryptography.Cng (aspnet90)");
+                    _SystemSecurityCryptographyCng = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security.Cryptography.Cng")).GetReference(filePath: "System.Security.Cryptography.Cng.dll", display: "System.Security.Cryptography.Cng (aspnet100)");
                 }
                 return _SystemSecurityCryptographyCng;
             }
@@ -3897,7 +3943,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecurityCryptographyCsp is null)
                 {
-                    _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security.Cryptography.Csp")).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (aspnet90)");
+                    _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security.Cryptography.Csp")).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (aspnet100)");
                 }
                 return _SystemSecurityCryptographyCsp;
             }
@@ -3914,7 +3960,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecurityCryptography is null)
                 {
-                    _SystemSecurityCryptography = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security.Cryptography")).GetReference(filePath: "System.Security.Cryptography.dll", display: "System.Security.Cryptography (aspnet90)");
+                    _SystemSecurityCryptography = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security.Cryptography")).GetReference(filePath: "System.Security.Cryptography.dll", display: "System.Security.Cryptography (aspnet100)");
                 }
                 return _SystemSecurityCryptography;
             }
@@ -3931,7 +3977,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecurityCryptographyEncoding is null)
                 {
-                    _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security.Cryptography.Encoding")).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (aspnet90)");
+                    _SystemSecurityCryptographyEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security.Cryptography.Encoding")).GetReference(filePath: "System.Security.Cryptography.Encoding.dll", display: "System.Security.Cryptography.Encoding (aspnet100)");
                 }
                 return _SystemSecurityCryptographyEncoding;
             }
@@ -3948,7 +3994,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecurityCryptographyOpenSsl is null)
                 {
-                    _SystemSecurityCryptographyOpenSsl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security.Cryptography.OpenSsl")).GetReference(filePath: "System.Security.Cryptography.OpenSsl.dll", display: "System.Security.Cryptography.OpenSsl (aspnet90)");
+                    _SystemSecurityCryptographyOpenSsl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security.Cryptography.OpenSsl")).GetReference(filePath: "System.Security.Cryptography.OpenSsl.dll", display: "System.Security.Cryptography.OpenSsl (aspnet100)");
                 }
                 return _SystemSecurityCryptographyOpenSsl;
             }
@@ -3965,7 +4011,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecurityCryptographyPrimitives is null)
                 {
-                    _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security.Cryptography.Primitives")).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (aspnet90)");
+                    _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security.Cryptography.Primitives")).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (aspnet100)");
                 }
                 return _SystemSecurityCryptographyPrimitives;
             }
@@ -3982,7 +4028,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecurityCryptographyX509Certificates is null)
                 {
-                    _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security.Cryptography.X509Certificates")).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (aspnet90)");
+                    _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security.Cryptography.X509Certificates")).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (aspnet100)");
                 }
                 return _SystemSecurityCryptographyX509Certificates;
             }
@@ -3999,7 +4045,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecurity is null)
                 {
-                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (aspnet90)");
+                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (aspnet100)");
                 }
                 return _SystemSecurity;
             }
@@ -4016,7 +4062,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecurityPrincipal is null)
                 {
-                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security.Principal")).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (aspnet90)");
+                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security.Principal")).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (aspnet100)");
                 }
                 return _SystemSecurityPrincipal;
             }
@@ -4033,7 +4079,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecurityPrincipalWindows is null)
                 {
-                    _SystemSecurityPrincipalWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security.Principal.Windows")).GetReference(filePath: "System.Security.Principal.Windows.dll", display: "System.Security.Principal.Windows (aspnet90)");
+                    _SystemSecurityPrincipalWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security.Principal.Windows")).GetReference(filePath: "System.Security.Principal.Windows.dll", display: "System.Security.Principal.Windows (aspnet100)");
                 }
                 return _SystemSecurityPrincipalWindows;
             }
@@ -4050,7 +4096,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecuritySecureString is null)
                 {
-                    _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security.SecureString")).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (aspnet90)");
+                    _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security.SecureString")).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (aspnet100)");
                 }
                 return _SystemSecuritySecureString;
             }
@@ -4067,7 +4113,7 @@ public static partial class AspNet90
             {
                 if (_SystemServiceModelWeb is null)
                 {
-                    _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.ServiceModel.Web")).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (aspnet90)");
+                    _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.ServiceModel.Web")).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (aspnet100)");
                 }
                 return _SystemServiceModelWeb;
             }
@@ -4084,7 +4130,7 @@ public static partial class AspNet90
             {
                 if (_SystemServiceProcess is null)
                 {
-                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.ServiceProcess")).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (aspnet90)");
+                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.ServiceProcess")).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (aspnet100)");
                 }
                 return _SystemServiceProcess;
             }
@@ -4101,7 +4147,7 @@ public static partial class AspNet90
             {
                 if (_SystemTextEncodingCodePages is null)
                 {
-                    _SystemTextEncodingCodePages = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Text.Encoding.CodePages")).GetReference(filePath: "System.Text.Encoding.CodePages.dll", display: "System.Text.Encoding.CodePages (aspnet90)");
+                    _SystemTextEncodingCodePages = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Text.Encoding.CodePages")).GetReference(filePath: "System.Text.Encoding.CodePages.dll", display: "System.Text.Encoding.CodePages (aspnet100)");
                 }
                 return _SystemTextEncodingCodePages;
             }
@@ -4118,7 +4164,7 @@ public static partial class AspNet90
             {
                 if (_SystemTextEncoding is null)
                 {
-                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Text.Encoding")).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (aspnet90)");
+                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Text.Encoding")).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (aspnet100)");
                 }
                 return _SystemTextEncoding;
             }
@@ -4135,7 +4181,7 @@ public static partial class AspNet90
             {
                 if (_SystemTextEncodingExtensions is null)
                 {
-                    _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Text.Encoding.Extensions")).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (aspnet90)");
+                    _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Text.Encoding.Extensions")).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (aspnet100)");
                 }
                 return _SystemTextEncodingExtensions;
             }
@@ -4152,7 +4198,7 @@ public static partial class AspNet90
             {
                 if (_SystemTextEncodingsWeb is null)
                 {
-                    _SystemTextEncodingsWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Text.Encodings.Web")).GetReference(filePath: "System.Text.Encodings.Web.dll", display: "System.Text.Encodings.Web (aspnet90)");
+                    _SystemTextEncodingsWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Text.Encodings.Web")).GetReference(filePath: "System.Text.Encodings.Web.dll", display: "System.Text.Encodings.Web (aspnet100)");
                 }
                 return _SystemTextEncodingsWeb;
             }
@@ -4169,7 +4215,7 @@ public static partial class AspNet90
             {
                 if (_SystemTextJson is null)
                 {
-                    _SystemTextJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Text.Json")).GetReference(filePath: "System.Text.Json.dll", display: "System.Text.Json (aspnet90)");
+                    _SystemTextJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Text.Json")).GetReference(filePath: "System.Text.Json.dll", display: "System.Text.Json (aspnet100)");
                 }
                 return _SystemTextJson;
             }
@@ -4186,7 +4232,7 @@ public static partial class AspNet90
             {
                 if (_SystemTextRegularExpressions is null)
                 {
-                    _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Text.RegularExpressions")).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (aspnet90)");
+                    _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Text.RegularExpressions")).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (aspnet100)");
                 }
                 return _SystemTextRegularExpressions;
             }
@@ -4203,7 +4249,7 @@ public static partial class AspNet90
             {
                 if (_SystemThreadingChannels is null)
                 {
-                    _SystemThreadingChannels = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Threading.Channels")).GetReference(filePath: "System.Threading.Channels.dll", display: "System.Threading.Channels (aspnet90)");
+                    _SystemThreadingChannels = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Threading.Channels")).GetReference(filePath: "System.Threading.Channels.dll", display: "System.Threading.Channels (aspnet100)");
                 }
                 return _SystemThreadingChannels;
             }
@@ -4220,7 +4266,7 @@ public static partial class AspNet90
             {
                 if (_SystemThreading is null)
                 {
-                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (aspnet90)");
+                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (aspnet100)");
                 }
                 return _SystemThreading;
             }
@@ -4237,7 +4283,7 @@ public static partial class AspNet90
             {
                 if (_SystemThreadingOverlapped is null)
                 {
-                    _SystemThreadingOverlapped = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Threading.Overlapped")).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (aspnet90)");
+                    _SystemThreadingOverlapped = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Threading.Overlapped")).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (aspnet100)");
                 }
                 return _SystemThreadingOverlapped;
             }
@@ -4254,7 +4300,7 @@ public static partial class AspNet90
             {
                 if (_SystemThreadingTasksDataflow is null)
                 {
-                    _SystemThreadingTasksDataflow = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Threading.Tasks.Dataflow")).GetReference(filePath: "System.Threading.Tasks.Dataflow.dll", display: "System.Threading.Tasks.Dataflow (aspnet90)");
+                    _SystemThreadingTasksDataflow = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Threading.Tasks.Dataflow")).GetReference(filePath: "System.Threading.Tasks.Dataflow.dll", display: "System.Threading.Tasks.Dataflow (aspnet100)");
                 }
                 return _SystemThreadingTasksDataflow;
             }
@@ -4271,7 +4317,7 @@ public static partial class AspNet90
             {
                 if (_SystemThreadingTasks is null)
                 {
-                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Threading.Tasks")).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (aspnet90)");
+                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Threading.Tasks")).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (aspnet100)");
                 }
                 return _SystemThreadingTasks;
             }
@@ -4288,7 +4334,7 @@ public static partial class AspNet90
             {
                 if (_SystemThreadingTasksExtensions is null)
                 {
-                    _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Threading.Tasks.Extensions")).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (aspnet90)");
+                    _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Threading.Tasks.Extensions")).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (aspnet100)");
                 }
                 return _SystemThreadingTasksExtensions;
             }
@@ -4305,7 +4351,7 @@ public static partial class AspNet90
             {
                 if (_SystemThreadingTasksParallel is null)
                 {
-                    _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Threading.Tasks.Parallel")).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (aspnet90)");
+                    _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Threading.Tasks.Parallel")).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (aspnet100)");
                 }
                 return _SystemThreadingTasksParallel;
             }
@@ -4322,7 +4368,7 @@ public static partial class AspNet90
             {
                 if (_SystemThreadingThread is null)
                 {
-                    _SystemThreadingThread = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Threading.Thread")).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (aspnet90)");
+                    _SystemThreadingThread = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Threading.Thread")).GetReference(filePath: "System.Threading.Thread.dll", display: "System.Threading.Thread (aspnet100)");
                 }
                 return _SystemThreadingThread;
             }
@@ -4339,7 +4385,7 @@ public static partial class AspNet90
             {
                 if (_SystemThreadingThreadPool is null)
                 {
-                    _SystemThreadingThreadPool = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Threading.ThreadPool")).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (aspnet90)");
+                    _SystemThreadingThreadPool = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Threading.ThreadPool")).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (aspnet100)");
                 }
                 return _SystemThreadingThreadPool;
             }
@@ -4356,7 +4402,7 @@ public static partial class AspNet90
             {
                 if (_SystemThreadingTimer is null)
                 {
-                    _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Threading.Timer")).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (aspnet90)");
+                    _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Threading.Timer")).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (aspnet100)");
                 }
                 return _SystemThreadingTimer;
             }
@@ -4373,7 +4419,7 @@ public static partial class AspNet90
             {
                 if (_SystemTransactions is null)
                 {
-                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (aspnet90)");
+                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (aspnet100)");
                 }
                 return _SystemTransactions;
             }
@@ -4390,7 +4436,7 @@ public static partial class AspNet90
             {
                 if (_SystemTransactionsLocal is null)
                 {
-                    _SystemTransactionsLocal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Transactions.Local")).GetReference(filePath: "System.Transactions.Local.dll", display: "System.Transactions.Local (aspnet90)");
+                    _SystemTransactionsLocal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Transactions.Local")).GetReference(filePath: "System.Transactions.Local.dll", display: "System.Transactions.Local (aspnet100)");
                 }
                 return _SystemTransactionsLocal;
             }
@@ -4407,7 +4453,7 @@ public static partial class AspNet90
             {
                 if (_SystemValueTuple is null)
                 {
-                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.ValueTuple")).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (aspnet90)");
+                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.ValueTuple")).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (aspnet100)");
                 }
                 return _SystemValueTuple;
             }
@@ -4424,7 +4470,7 @@ public static partial class AspNet90
             {
                 if (_SystemWeb is null)
                 {
-                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (aspnet90)");
+                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (aspnet100)");
                 }
                 return _SystemWeb;
             }
@@ -4441,7 +4487,7 @@ public static partial class AspNet90
             {
                 if (_SystemWebHttpUtility is null)
                 {
-                    _SystemWebHttpUtility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Web.HttpUtility")).GetReference(filePath: "System.Web.HttpUtility.dll", display: "System.Web.HttpUtility (aspnet90)");
+                    _SystemWebHttpUtility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Web.HttpUtility")).GetReference(filePath: "System.Web.HttpUtility.dll", display: "System.Web.HttpUtility (aspnet100)");
                 }
                 return _SystemWebHttpUtility;
             }
@@ -4458,7 +4504,7 @@ public static partial class AspNet90
             {
                 if (_SystemWindows is null)
                 {
-                    _SystemWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Windows")).GetReference(filePath: "System.Windows.dll", display: "System.Windows (aspnet90)");
+                    _SystemWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Windows")).GetReference(filePath: "System.Windows.dll", display: "System.Windows (aspnet100)");
                 }
                 return _SystemWindows;
             }
@@ -4475,7 +4521,7 @@ public static partial class AspNet90
             {
                 if (_SystemXml is null)
                 {
-                    _SystemXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Xml")).GetReference(filePath: "System.Xml.dll", display: "System.Xml (aspnet90)");
+                    _SystemXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Xml")).GetReference(filePath: "System.Xml.dll", display: "System.Xml (aspnet100)");
                 }
                 return _SystemXml;
             }
@@ -4492,7 +4538,7 @@ public static partial class AspNet90
             {
                 if (_SystemXmlLinq is null)
                 {
-                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Xml.Linq")).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (aspnet90)");
+                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Xml.Linq")).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (aspnet100)");
                 }
                 return _SystemXmlLinq;
             }
@@ -4509,7 +4555,7 @@ public static partial class AspNet90
             {
                 if (_SystemXmlReaderWriter is null)
                 {
-                    _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Xml.ReaderWriter")).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (aspnet90)");
+                    _SystemXmlReaderWriter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Xml.ReaderWriter")).GetReference(filePath: "System.Xml.ReaderWriter.dll", display: "System.Xml.ReaderWriter (aspnet100)");
                 }
                 return _SystemXmlReaderWriter;
             }
@@ -4526,7 +4572,7 @@ public static partial class AspNet90
             {
                 if (_SystemXmlSerialization is null)
                 {
-                    _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Xml.Serialization")).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (aspnet90)");
+                    _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Xml.Serialization")).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (aspnet100)");
                 }
                 return _SystemXmlSerialization;
             }
@@ -4543,7 +4589,7 @@ public static partial class AspNet90
             {
                 if (_SystemXmlXDocument is null)
                 {
-                    _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Xml.XDocument")).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (aspnet90)");
+                    _SystemXmlXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Xml.XDocument")).GetReference(filePath: "System.Xml.XDocument.dll", display: "System.Xml.XDocument (aspnet100)");
                 }
                 return _SystemXmlXDocument;
             }
@@ -4560,7 +4606,7 @@ public static partial class AspNet90
             {
                 if (_SystemXmlXmlDocument is null)
                 {
-                    _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Xml.XmlDocument")).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (aspnet90)");
+                    _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Xml.XmlDocument")).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (aspnet100)");
                 }
                 return _SystemXmlXmlDocument;
             }
@@ -4577,7 +4623,7 @@ public static partial class AspNet90
             {
                 if (_SystemXmlXmlSerializer is null)
                 {
-                    _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Xml.XmlSerializer")).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (aspnet90)");
+                    _SystemXmlXmlSerializer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Xml.XmlSerializer")).GetReference(filePath: "System.Xml.XmlSerializer.dll", display: "System.Xml.XmlSerializer (aspnet100)");
                 }
                 return _SystemXmlXmlSerializer;
             }
@@ -4594,7 +4640,7 @@ public static partial class AspNet90
             {
                 if (_SystemXmlXPath is null)
                 {
-                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Xml.XPath")).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (aspnet90)");
+                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Xml.XPath")).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (aspnet100)");
                 }
                 return _SystemXmlXPath;
             }
@@ -4611,7 +4657,7 @@ public static partial class AspNet90
             {
                 if (_SystemXmlXPathXDocument is null)
                 {
-                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (aspnet90)");
+                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (aspnet100)");
                 }
                 return _SystemXmlXPathXDocument;
             }
@@ -4628,7 +4674,7 @@ public static partial class AspNet90
             {
                 if (_WindowsBase is null)
                 {
-                    _WindowsBase = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.WindowsBase")).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (aspnet90)");
+                    _WindowsBase = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.WindowsBase")).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (aspnet100)");
                 }
                 return _WindowsBase;
             }
@@ -4645,7 +4691,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreAntiforgery is null)
                 {
-                    _MicrosoftAspNetCoreAntiforgery = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Antiforgery")).GetReference(filePath: "Microsoft.AspNetCore.Antiforgery.dll", display: "Microsoft.AspNetCore.Antiforgery (aspnet90)");
+                    _MicrosoftAspNetCoreAntiforgery = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Antiforgery")).GetReference(filePath: "Microsoft.AspNetCore.Antiforgery.dll", display: "Microsoft.AspNetCore.Antiforgery (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreAntiforgery;
             }
@@ -4662,7 +4708,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreAuthenticationAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreAuthenticationAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Authentication.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Abstractions.dll", display: "Microsoft.AspNetCore.Authentication.Abstractions (aspnet90)");
+                    _MicrosoftAspNetCoreAuthenticationAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Authentication.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Abstractions.dll", display: "Microsoft.AspNetCore.Authentication.Abstractions (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreAuthenticationAbstractions;
             }
@@ -4679,7 +4725,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreAuthenticationBearerToken is null)
                 {
-                    _MicrosoftAspNetCoreAuthenticationBearerToken = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Authentication.BearerToken")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.BearerToken.dll", display: "Microsoft.AspNetCore.Authentication.BearerToken (aspnet90)");
+                    _MicrosoftAspNetCoreAuthenticationBearerToken = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Authentication.BearerToken")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.BearerToken.dll", display: "Microsoft.AspNetCore.Authentication.BearerToken (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreAuthenticationBearerToken;
             }
@@ -4696,7 +4742,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreAuthenticationCookies is null)
                 {
-                    _MicrosoftAspNetCoreAuthenticationCookies = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Authentication.Cookies")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Cookies.dll", display: "Microsoft.AspNetCore.Authentication.Cookies (aspnet90)");
+                    _MicrosoftAspNetCoreAuthenticationCookies = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Authentication.Cookies")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Cookies.dll", display: "Microsoft.AspNetCore.Authentication.Cookies (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreAuthenticationCookies;
             }
@@ -4713,7 +4759,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreAuthenticationCore is null)
                 {
-                    _MicrosoftAspNetCoreAuthenticationCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Authentication.Core")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Core.dll", display: "Microsoft.AspNetCore.Authentication.Core (aspnet90)");
+                    _MicrosoftAspNetCoreAuthenticationCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Authentication.Core")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.Core.dll", display: "Microsoft.AspNetCore.Authentication.Core (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreAuthenticationCore;
             }
@@ -4730,7 +4776,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreAuthentication is null)
                 {
-                    _MicrosoftAspNetCoreAuthentication = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Authentication")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.dll", display: "Microsoft.AspNetCore.Authentication (aspnet90)");
+                    _MicrosoftAspNetCoreAuthentication = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Authentication")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.dll", display: "Microsoft.AspNetCore.Authentication (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreAuthentication;
             }
@@ -4747,7 +4793,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreAuthenticationOAuth is null)
                 {
-                    _MicrosoftAspNetCoreAuthenticationOAuth = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Authentication.OAuth")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.OAuth.dll", display: "Microsoft.AspNetCore.Authentication.OAuth (aspnet90)");
+                    _MicrosoftAspNetCoreAuthenticationOAuth = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Authentication.OAuth")).GetReference(filePath: "Microsoft.AspNetCore.Authentication.OAuth.dll", display: "Microsoft.AspNetCore.Authentication.OAuth (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreAuthenticationOAuth;
             }
@@ -4764,7 +4810,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreAuthorization is null)
                 {
-                    _MicrosoftAspNetCoreAuthorization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Authorization")).GetReference(filePath: "Microsoft.AspNetCore.Authorization.dll", display: "Microsoft.AspNetCore.Authorization (aspnet90)");
+                    _MicrosoftAspNetCoreAuthorization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Authorization")).GetReference(filePath: "Microsoft.AspNetCore.Authorization.dll", display: "Microsoft.AspNetCore.Authorization (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreAuthorization;
             }
@@ -4781,7 +4827,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreAuthorizationPolicy is null)
                 {
-                    _MicrosoftAspNetCoreAuthorizationPolicy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Authorization.Policy")).GetReference(filePath: "Microsoft.AspNetCore.Authorization.Policy.dll", display: "Microsoft.AspNetCore.Authorization.Policy (aspnet90)");
+                    _MicrosoftAspNetCoreAuthorizationPolicy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Authorization.Policy")).GetReference(filePath: "Microsoft.AspNetCore.Authorization.Policy.dll", display: "Microsoft.AspNetCore.Authorization.Policy (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreAuthorizationPolicy;
             }
@@ -4798,7 +4844,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreComponentsAuthorization is null)
                 {
-                    _MicrosoftAspNetCoreComponentsAuthorization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Components.Authorization")).GetReference(filePath: "Microsoft.AspNetCore.Components.Authorization.dll", display: "Microsoft.AspNetCore.Components.Authorization (aspnet90)");
+                    _MicrosoftAspNetCoreComponentsAuthorization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Components.Authorization")).GetReference(filePath: "Microsoft.AspNetCore.Components.Authorization.dll", display: "Microsoft.AspNetCore.Components.Authorization (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreComponentsAuthorization;
             }
@@ -4815,7 +4861,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreComponents is null)
                 {
-                    _MicrosoftAspNetCoreComponents = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Components")).GetReference(filePath: "Microsoft.AspNetCore.Components.dll", display: "Microsoft.AspNetCore.Components (aspnet90)");
+                    _MicrosoftAspNetCoreComponents = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Components")).GetReference(filePath: "Microsoft.AspNetCore.Components.dll", display: "Microsoft.AspNetCore.Components (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreComponents;
             }
@@ -4832,7 +4878,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreComponentsEndpoints is null)
                 {
-                    _MicrosoftAspNetCoreComponentsEndpoints = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Components.Endpoints")).GetReference(filePath: "Microsoft.AspNetCore.Components.Endpoints.dll", display: "Microsoft.AspNetCore.Components.Endpoints (aspnet90)");
+                    _MicrosoftAspNetCoreComponentsEndpoints = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Components.Endpoints")).GetReference(filePath: "Microsoft.AspNetCore.Components.Endpoints.dll", display: "Microsoft.AspNetCore.Components.Endpoints (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreComponentsEndpoints;
             }
@@ -4849,7 +4895,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreComponentsForms is null)
                 {
-                    _MicrosoftAspNetCoreComponentsForms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Components.Forms")).GetReference(filePath: "Microsoft.AspNetCore.Components.Forms.dll", display: "Microsoft.AspNetCore.Components.Forms (aspnet90)");
+                    _MicrosoftAspNetCoreComponentsForms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Components.Forms")).GetReference(filePath: "Microsoft.AspNetCore.Components.Forms.dll", display: "Microsoft.AspNetCore.Components.Forms (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreComponentsForms;
             }
@@ -4866,7 +4912,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreComponentsServer is null)
                 {
-                    _MicrosoftAspNetCoreComponentsServer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Components.Server")).GetReference(filePath: "Microsoft.AspNetCore.Components.Server.dll", display: "Microsoft.AspNetCore.Components.Server (aspnet90)");
+                    _MicrosoftAspNetCoreComponentsServer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Components.Server")).GetReference(filePath: "Microsoft.AspNetCore.Components.Server.dll", display: "Microsoft.AspNetCore.Components.Server (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreComponentsServer;
             }
@@ -4883,7 +4929,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreComponentsWeb is null)
                 {
-                    _MicrosoftAspNetCoreComponentsWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Components.Web")).GetReference(filePath: "Microsoft.AspNetCore.Components.Web.dll", display: "Microsoft.AspNetCore.Components.Web (aspnet90)");
+                    _MicrosoftAspNetCoreComponentsWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Components.Web")).GetReference(filePath: "Microsoft.AspNetCore.Components.Web.dll", display: "Microsoft.AspNetCore.Components.Web (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreComponentsWeb;
             }
@@ -4900,7 +4946,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreConnectionsAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreConnectionsAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Connections.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Connections.Abstractions.dll", display: "Microsoft.AspNetCore.Connections.Abstractions (aspnet90)");
+                    _MicrosoftAspNetCoreConnectionsAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Connections.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Connections.Abstractions.dll", display: "Microsoft.AspNetCore.Connections.Abstractions (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreConnectionsAbstractions;
             }
@@ -4917,7 +4963,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreCookiePolicy is null)
                 {
-                    _MicrosoftAspNetCoreCookiePolicy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.CookiePolicy")).GetReference(filePath: "Microsoft.AspNetCore.CookiePolicy.dll", display: "Microsoft.AspNetCore.CookiePolicy (aspnet90)");
+                    _MicrosoftAspNetCoreCookiePolicy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.CookiePolicy")).GetReference(filePath: "Microsoft.AspNetCore.CookiePolicy.dll", display: "Microsoft.AspNetCore.CookiePolicy (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreCookiePolicy;
             }
@@ -4934,7 +4980,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreCors is null)
                 {
-                    _MicrosoftAspNetCoreCors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Cors")).GetReference(filePath: "Microsoft.AspNetCore.Cors.dll", display: "Microsoft.AspNetCore.Cors (aspnet90)");
+                    _MicrosoftAspNetCoreCors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Cors")).GetReference(filePath: "Microsoft.AspNetCore.Cors.dll", display: "Microsoft.AspNetCore.Cors (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreCors;
             }
@@ -4951,7 +4997,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreCryptographyInternal is null)
                 {
-                    _MicrosoftAspNetCoreCryptographyInternal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Cryptography.Internal")).GetReference(filePath: "Microsoft.AspNetCore.Cryptography.Internal.dll", display: "Microsoft.AspNetCore.Cryptography.Internal (aspnet90)");
+                    _MicrosoftAspNetCoreCryptographyInternal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Cryptography.Internal")).GetReference(filePath: "Microsoft.AspNetCore.Cryptography.Internal.dll", display: "Microsoft.AspNetCore.Cryptography.Internal (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreCryptographyInternal;
             }
@@ -4968,7 +5014,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreCryptographyKeyDerivation is null)
                 {
-                    _MicrosoftAspNetCoreCryptographyKeyDerivation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Cryptography.KeyDerivation")).GetReference(filePath: "Microsoft.AspNetCore.Cryptography.KeyDerivation.dll", display: "Microsoft.AspNetCore.Cryptography.KeyDerivation (aspnet90)");
+                    _MicrosoftAspNetCoreCryptographyKeyDerivation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Cryptography.KeyDerivation")).GetReference(filePath: "Microsoft.AspNetCore.Cryptography.KeyDerivation.dll", display: "Microsoft.AspNetCore.Cryptography.KeyDerivation (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreCryptographyKeyDerivation;
             }
@@ -4985,7 +5031,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreDataProtectionAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreDataProtectionAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.DataProtection.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.Abstractions.dll", display: "Microsoft.AspNetCore.DataProtection.Abstractions (aspnet90)");
+                    _MicrosoftAspNetCoreDataProtectionAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.DataProtection.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.Abstractions.dll", display: "Microsoft.AspNetCore.DataProtection.Abstractions (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreDataProtectionAbstractions;
             }
@@ -5002,7 +5048,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreDataProtection is null)
                 {
-                    _MicrosoftAspNetCoreDataProtection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.DataProtection")).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.dll", display: "Microsoft.AspNetCore.DataProtection (aspnet90)");
+                    _MicrosoftAspNetCoreDataProtection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.DataProtection")).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.dll", display: "Microsoft.AspNetCore.DataProtection (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreDataProtection;
             }
@@ -5019,7 +5065,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreDataProtectionExtensions is null)
                 {
-                    _MicrosoftAspNetCoreDataProtectionExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.DataProtection.Extensions")).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.Extensions.dll", display: "Microsoft.AspNetCore.DataProtection.Extensions (aspnet90)");
+                    _MicrosoftAspNetCoreDataProtectionExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.DataProtection.Extensions")).GetReference(filePath: "Microsoft.AspNetCore.DataProtection.Extensions.dll", display: "Microsoft.AspNetCore.DataProtection.Extensions (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreDataProtectionExtensions;
             }
@@ -5036,7 +5082,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreDiagnosticsAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreDiagnosticsAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Diagnostics.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.Abstractions.dll", display: "Microsoft.AspNetCore.Diagnostics.Abstractions (aspnet90)");
+                    _MicrosoftAspNetCoreDiagnosticsAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Diagnostics.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.Abstractions.dll", display: "Microsoft.AspNetCore.Diagnostics.Abstractions (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreDiagnosticsAbstractions;
             }
@@ -5053,7 +5099,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreDiagnostics is null)
                 {
-                    _MicrosoftAspNetCoreDiagnostics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Diagnostics")).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.dll", display: "Microsoft.AspNetCore.Diagnostics (aspnet90)");
+                    _MicrosoftAspNetCoreDiagnostics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Diagnostics")).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.dll", display: "Microsoft.AspNetCore.Diagnostics (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreDiagnostics;
             }
@@ -5070,7 +5116,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreDiagnosticsHealthChecks is null)
                 {
-                    _MicrosoftAspNetCoreDiagnosticsHealthChecks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Diagnostics.HealthChecks")).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.HealthChecks.dll", display: "Microsoft.AspNetCore.Diagnostics.HealthChecks (aspnet90)");
+                    _MicrosoftAspNetCoreDiagnosticsHealthChecks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Diagnostics.HealthChecks")).GetReference(filePath: "Microsoft.AspNetCore.Diagnostics.HealthChecks.dll", display: "Microsoft.AspNetCore.Diagnostics.HealthChecks (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreDiagnosticsHealthChecks;
             }
@@ -5087,7 +5133,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCore is null)
                 {
-                    _MicrosoftAspNetCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore")).GetReference(filePath: "Microsoft.AspNetCore.dll", display: "Microsoft.AspNetCore (aspnet90)");
+                    _MicrosoftAspNetCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore")).GetReference(filePath: "Microsoft.AspNetCore.dll", display: "Microsoft.AspNetCore (aspnet100)");
                 }
                 return _MicrosoftAspNetCore;
             }
@@ -5104,7 +5150,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHostFiltering is null)
                 {
-                    _MicrosoftAspNetCoreHostFiltering = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.HostFiltering")).GetReference(filePath: "Microsoft.AspNetCore.HostFiltering.dll", display: "Microsoft.AspNetCore.HostFiltering (aspnet90)");
+                    _MicrosoftAspNetCoreHostFiltering = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.HostFiltering")).GetReference(filePath: "Microsoft.AspNetCore.HostFiltering.dll", display: "Microsoft.AspNetCore.HostFiltering (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHostFiltering;
             }
@@ -5121,7 +5167,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHostingAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreHostingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Hosting.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Hosting.Abstractions.dll", display: "Microsoft.AspNetCore.Hosting.Abstractions (aspnet90)");
+                    _MicrosoftAspNetCoreHostingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Hosting.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Hosting.Abstractions.dll", display: "Microsoft.AspNetCore.Hosting.Abstractions (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHostingAbstractions;
             }
@@ -5138,7 +5184,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHosting is null)
                 {
-                    _MicrosoftAspNetCoreHosting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Hosting")).GetReference(filePath: "Microsoft.AspNetCore.Hosting.dll", display: "Microsoft.AspNetCore.Hosting (aspnet90)");
+                    _MicrosoftAspNetCoreHosting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Hosting")).GetReference(filePath: "Microsoft.AspNetCore.Hosting.dll", display: "Microsoft.AspNetCore.Hosting (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHosting;
             }
@@ -5155,7 +5201,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHostingServerAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreHostingServerAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Hosting.Server.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Hosting.Server.Abstractions.dll", display: "Microsoft.AspNetCore.Hosting.Server.Abstractions (aspnet90)");
+                    _MicrosoftAspNetCoreHostingServerAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Hosting.Server.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Hosting.Server.Abstractions.dll", display: "Microsoft.AspNetCore.Hosting.Server.Abstractions (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHostingServerAbstractions;
             }
@@ -5172,7 +5218,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHtmlAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreHtmlAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Html.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Html.Abstractions.dll", display: "Microsoft.AspNetCore.Html.Abstractions (aspnet90)");
+                    _MicrosoftAspNetCoreHtmlAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Html.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Html.Abstractions.dll", display: "Microsoft.AspNetCore.Html.Abstractions (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHtmlAbstractions;
             }
@@ -5189,7 +5235,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHttpAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreHttpAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Http.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Http.Abstractions.dll", display: "Microsoft.AspNetCore.Http.Abstractions (aspnet90)");
+                    _MicrosoftAspNetCoreHttpAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Http.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Http.Abstractions.dll", display: "Microsoft.AspNetCore.Http.Abstractions (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHttpAbstractions;
             }
@@ -5206,7 +5252,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHttpConnectionsCommon is null)
                 {
-                    _MicrosoftAspNetCoreHttpConnectionsCommon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Http.Connections.Common")).GetReference(filePath: "Microsoft.AspNetCore.Http.Connections.Common.dll", display: "Microsoft.AspNetCore.Http.Connections.Common (aspnet90)");
+                    _MicrosoftAspNetCoreHttpConnectionsCommon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Http.Connections.Common")).GetReference(filePath: "Microsoft.AspNetCore.Http.Connections.Common.dll", display: "Microsoft.AspNetCore.Http.Connections.Common (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHttpConnectionsCommon;
             }
@@ -5223,7 +5269,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHttpConnections is null)
                 {
-                    _MicrosoftAspNetCoreHttpConnections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Http.Connections")).GetReference(filePath: "Microsoft.AspNetCore.Http.Connections.dll", display: "Microsoft.AspNetCore.Http.Connections (aspnet90)");
+                    _MicrosoftAspNetCoreHttpConnections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Http.Connections")).GetReference(filePath: "Microsoft.AspNetCore.Http.Connections.dll", display: "Microsoft.AspNetCore.Http.Connections (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHttpConnections;
             }
@@ -5240,7 +5286,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHttp is null)
                 {
-                    _MicrosoftAspNetCoreHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Http")).GetReference(filePath: "Microsoft.AspNetCore.Http.dll", display: "Microsoft.AspNetCore.Http (aspnet90)");
+                    _MicrosoftAspNetCoreHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Http")).GetReference(filePath: "Microsoft.AspNetCore.Http.dll", display: "Microsoft.AspNetCore.Http (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHttp;
             }
@@ -5257,7 +5303,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHttpExtensions is null)
                 {
-                    _MicrosoftAspNetCoreHttpExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Http.Extensions")).GetReference(filePath: "Microsoft.AspNetCore.Http.Extensions.dll", display: "Microsoft.AspNetCore.Http.Extensions (aspnet90)");
+                    _MicrosoftAspNetCoreHttpExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Http.Extensions")).GetReference(filePath: "Microsoft.AspNetCore.Http.Extensions.dll", display: "Microsoft.AspNetCore.Http.Extensions (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHttpExtensions;
             }
@@ -5274,7 +5320,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHttpFeatures is null)
                 {
-                    _MicrosoftAspNetCoreHttpFeatures = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Http.Features")).GetReference(filePath: "Microsoft.AspNetCore.Http.Features.dll", display: "Microsoft.AspNetCore.Http.Features (aspnet90)");
+                    _MicrosoftAspNetCoreHttpFeatures = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Http.Features")).GetReference(filePath: "Microsoft.AspNetCore.Http.Features.dll", display: "Microsoft.AspNetCore.Http.Features (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHttpFeatures;
             }
@@ -5291,7 +5337,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHttpResults is null)
                 {
-                    _MicrosoftAspNetCoreHttpResults = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Http.Results")).GetReference(filePath: "Microsoft.AspNetCore.Http.Results.dll", display: "Microsoft.AspNetCore.Http.Results (aspnet90)");
+                    _MicrosoftAspNetCoreHttpResults = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Http.Results")).GetReference(filePath: "Microsoft.AspNetCore.Http.Results.dll", display: "Microsoft.AspNetCore.Http.Results (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHttpResults;
             }
@@ -5308,7 +5354,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHttpLogging is null)
                 {
-                    _MicrosoftAspNetCoreHttpLogging = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.HttpLogging")).GetReference(filePath: "Microsoft.AspNetCore.HttpLogging.dll", display: "Microsoft.AspNetCore.HttpLogging (aspnet90)");
+                    _MicrosoftAspNetCoreHttpLogging = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.HttpLogging")).GetReference(filePath: "Microsoft.AspNetCore.HttpLogging.dll", display: "Microsoft.AspNetCore.HttpLogging (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHttpLogging;
             }
@@ -5325,7 +5371,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHttpOverrides is null)
                 {
-                    _MicrosoftAspNetCoreHttpOverrides = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.HttpOverrides")).GetReference(filePath: "Microsoft.AspNetCore.HttpOverrides.dll", display: "Microsoft.AspNetCore.HttpOverrides (aspnet90)");
+                    _MicrosoftAspNetCoreHttpOverrides = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.HttpOverrides")).GetReference(filePath: "Microsoft.AspNetCore.HttpOverrides.dll", display: "Microsoft.AspNetCore.HttpOverrides (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHttpOverrides;
             }
@@ -5342,7 +5388,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreHttpsPolicy is null)
                 {
-                    _MicrosoftAspNetCoreHttpsPolicy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.HttpsPolicy")).GetReference(filePath: "Microsoft.AspNetCore.HttpsPolicy.dll", display: "Microsoft.AspNetCore.HttpsPolicy (aspnet90)");
+                    _MicrosoftAspNetCoreHttpsPolicy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.HttpsPolicy")).GetReference(filePath: "Microsoft.AspNetCore.HttpsPolicy.dll", display: "Microsoft.AspNetCore.HttpsPolicy (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreHttpsPolicy;
             }
@@ -5359,7 +5405,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreIdentity is null)
                 {
-                    _MicrosoftAspNetCoreIdentity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Identity")).GetReference(filePath: "Microsoft.AspNetCore.Identity.dll", display: "Microsoft.AspNetCore.Identity (aspnet90)");
+                    _MicrosoftAspNetCoreIdentity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Identity")).GetReference(filePath: "Microsoft.AspNetCore.Identity.dll", display: "Microsoft.AspNetCore.Identity (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreIdentity;
             }
@@ -5376,7 +5422,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreLocalization is null)
                 {
-                    _MicrosoftAspNetCoreLocalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Localization")).GetReference(filePath: "Microsoft.AspNetCore.Localization.dll", display: "Microsoft.AspNetCore.Localization (aspnet90)");
+                    _MicrosoftAspNetCoreLocalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Localization")).GetReference(filePath: "Microsoft.AspNetCore.Localization.dll", display: "Microsoft.AspNetCore.Localization (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreLocalization;
             }
@@ -5393,7 +5439,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreLocalizationRouting is null)
                 {
-                    _MicrosoftAspNetCoreLocalizationRouting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Localization.Routing")).GetReference(filePath: "Microsoft.AspNetCore.Localization.Routing.dll", display: "Microsoft.AspNetCore.Localization.Routing (aspnet90)");
+                    _MicrosoftAspNetCoreLocalizationRouting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Localization.Routing")).GetReference(filePath: "Microsoft.AspNetCore.Localization.Routing.dll", display: "Microsoft.AspNetCore.Localization.Routing (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreLocalizationRouting;
             }
@@ -5410,7 +5456,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreMetadata is null)
                 {
-                    _MicrosoftAspNetCoreMetadata = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Metadata")).GetReference(filePath: "Microsoft.AspNetCore.Metadata.dll", display: "Microsoft.AspNetCore.Metadata (aspnet90)");
+                    _MicrosoftAspNetCoreMetadata = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Metadata")).GetReference(filePath: "Microsoft.AspNetCore.Metadata.dll", display: "Microsoft.AspNetCore.Metadata (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreMetadata;
             }
@@ -5427,7 +5473,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreMvcAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreMvcAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Mvc.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Abstractions.dll", display: "Microsoft.AspNetCore.Mvc.Abstractions (aspnet90)");
+                    _MicrosoftAspNetCoreMvcAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Mvc.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Abstractions.dll", display: "Microsoft.AspNetCore.Mvc.Abstractions (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreMvcAbstractions;
             }
@@ -5444,7 +5490,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreMvcApiExplorer is null)
                 {
-                    _MicrosoftAspNetCoreMvcApiExplorer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Mvc.ApiExplorer")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.ApiExplorer.dll", display: "Microsoft.AspNetCore.Mvc.ApiExplorer (aspnet90)");
+                    _MicrosoftAspNetCoreMvcApiExplorer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Mvc.ApiExplorer")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.ApiExplorer.dll", display: "Microsoft.AspNetCore.Mvc.ApiExplorer (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreMvcApiExplorer;
             }
@@ -5461,7 +5507,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreMvcCore is null)
                 {
-                    _MicrosoftAspNetCoreMvcCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Mvc.Core")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Core.dll", display: "Microsoft.AspNetCore.Mvc.Core (aspnet90)");
+                    _MicrosoftAspNetCoreMvcCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Mvc.Core")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Core.dll", display: "Microsoft.AspNetCore.Mvc.Core (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreMvcCore;
             }
@@ -5478,7 +5524,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreMvcCors is null)
                 {
-                    _MicrosoftAspNetCoreMvcCors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Mvc.Cors")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Cors.dll", display: "Microsoft.AspNetCore.Mvc.Cors (aspnet90)");
+                    _MicrosoftAspNetCoreMvcCors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Mvc.Cors")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Cors.dll", display: "Microsoft.AspNetCore.Mvc.Cors (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreMvcCors;
             }
@@ -5495,7 +5541,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreMvcDataAnnotations is null)
                 {
-                    _MicrosoftAspNetCoreMvcDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Mvc.DataAnnotations")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.DataAnnotations.dll", display: "Microsoft.AspNetCore.Mvc.DataAnnotations (aspnet90)");
+                    _MicrosoftAspNetCoreMvcDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Mvc.DataAnnotations")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.DataAnnotations.dll", display: "Microsoft.AspNetCore.Mvc.DataAnnotations (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreMvcDataAnnotations;
             }
@@ -5512,7 +5558,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreMvc is null)
                 {
-                    _MicrosoftAspNetCoreMvc = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Mvc")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.dll", display: "Microsoft.AspNetCore.Mvc (aspnet90)");
+                    _MicrosoftAspNetCoreMvc = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Mvc")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.dll", display: "Microsoft.AspNetCore.Mvc (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreMvc;
             }
@@ -5529,7 +5575,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreMvcFormattersJson is null)
                 {
-                    _MicrosoftAspNetCoreMvcFormattersJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Mvc.Formatters.Json")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Formatters.Json.dll", display: "Microsoft.AspNetCore.Mvc.Formatters.Json (aspnet90)");
+                    _MicrosoftAspNetCoreMvcFormattersJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Mvc.Formatters.Json")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Formatters.Json.dll", display: "Microsoft.AspNetCore.Mvc.Formatters.Json (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreMvcFormattersJson;
             }
@@ -5546,7 +5592,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreMvcFormattersXml is null)
                 {
-                    _MicrosoftAspNetCoreMvcFormattersXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Mvc.Formatters.Xml")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Formatters.Xml.dll", display: "Microsoft.AspNetCore.Mvc.Formatters.Xml (aspnet90)");
+                    _MicrosoftAspNetCoreMvcFormattersXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Mvc.Formatters.Xml")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Formatters.Xml.dll", display: "Microsoft.AspNetCore.Mvc.Formatters.Xml (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreMvcFormattersXml;
             }
@@ -5563,7 +5609,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreMvcLocalization is null)
                 {
-                    _MicrosoftAspNetCoreMvcLocalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Mvc.Localization")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Localization.dll", display: "Microsoft.AspNetCore.Mvc.Localization (aspnet90)");
+                    _MicrosoftAspNetCoreMvcLocalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Mvc.Localization")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Localization.dll", display: "Microsoft.AspNetCore.Mvc.Localization (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreMvcLocalization;
             }
@@ -5580,7 +5626,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreMvcRazor is null)
                 {
-                    _MicrosoftAspNetCoreMvcRazor = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Mvc.Razor")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Razor.dll", display: "Microsoft.AspNetCore.Mvc.Razor (aspnet90)");
+                    _MicrosoftAspNetCoreMvcRazor = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Mvc.Razor")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.Razor.dll", display: "Microsoft.AspNetCore.Mvc.Razor (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreMvcRazor;
             }
@@ -5597,7 +5643,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreMvcRazorPages is null)
                 {
-                    _MicrosoftAspNetCoreMvcRazorPages = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Mvc.RazorPages")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.RazorPages.dll", display: "Microsoft.AspNetCore.Mvc.RazorPages (aspnet90)");
+                    _MicrosoftAspNetCoreMvcRazorPages = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Mvc.RazorPages")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.RazorPages.dll", display: "Microsoft.AspNetCore.Mvc.RazorPages (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreMvcRazorPages;
             }
@@ -5614,7 +5660,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreMvcTagHelpers is null)
                 {
-                    _MicrosoftAspNetCoreMvcTagHelpers = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Mvc.TagHelpers")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.TagHelpers.dll", display: "Microsoft.AspNetCore.Mvc.TagHelpers (aspnet90)");
+                    _MicrosoftAspNetCoreMvcTagHelpers = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Mvc.TagHelpers")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.TagHelpers.dll", display: "Microsoft.AspNetCore.Mvc.TagHelpers (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreMvcTagHelpers;
             }
@@ -5631,7 +5677,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreMvcViewFeatures is null)
                 {
-                    _MicrosoftAspNetCoreMvcViewFeatures = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Mvc.ViewFeatures")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.ViewFeatures.dll", display: "Microsoft.AspNetCore.Mvc.ViewFeatures (aspnet90)");
+                    _MicrosoftAspNetCoreMvcViewFeatures = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Mvc.ViewFeatures")).GetReference(filePath: "Microsoft.AspNetCore.Mvc.ViewFeatures.dll", display: "Microsoft.AspNetCore.Mvc.ViewFeatures (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreMvcViewFeatures;
             }
@@ -5648,7 +5694,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreOutputCaching is null)
                 {
-                    _MicrosoftAspNetCoreOutputCaching = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.OutputCaching")).GetReference(filePath: "Microsoft.AspNetCore.OutputCaching.dll", display: "Microsoft.AspNetCore.OutputCaching (aspnet90)");
+                    _MicrosoftAspNetCoreOutputCaching = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.OutputCaching")).GetReference(filePath: "Microsoft.AspNetCore.OutputCaching.dll", display: "Microsoft.AspNetCore.OutputCaching (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreOutputCaching;
             }
@@ -5665,7 +5711,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreRateLimiting is null)
                 {
-                    _MicrosoftAspNetCoreRateLimiting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.RateLimiting")).GetReference(filePath: "Microsoft.AspNetCore.RateLimiting.dll", display: "Microsoft.AspNetCore.RateLimiting (aspnet90)");
+                    _MicrosoftAspNetCoreRateLimiting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.RateLimiting")).GetReference(filePath: "Microsoft.AspNetCore.RateLimiting.dll", display: "Microsoft.AspNetCore.RateLimiting (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreRateLimiting;
             }
@@ -5682,7 +5728,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreRazor is null)
                 {
-                    _MicrosoftAspNetCoreRazor = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Razor")).GetReference(filePath: "Microsoft.AspNetCore.Razor.dll", display: "Microsoft.AspNetCore.Razor (aspnet90)");
+                    _MicrosoftAspNetCoreRazor = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Razor")).GetReference(filePath: "Microsoft.AspNetCore.Razor.dll", display: "Microsoft.AspNetCore.Razor (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreRazor;
             }
@@ -5699,7 +5745,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreRazorRuntime is null)
                 {
-                    _MicrosoftAspNetCoreRazorRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Razor.Runtime")).GetReference(filePath: "Microsoft.AspNetCore.Razor.Runtime.dll", display: "Microsoft.AspNetCore.Razor.Runtime (aspnet90)");
+                    _MicrosoftAspNetCoreRazorRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Razor.Runtime")).GetReference(filePath: "Microsoft.AspNetCore.Razor.Runtime.dll", display: "Microsoft.AspNetCore.Razor.Runtime (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreRazorRuntime;
             }
@@ -5716,7 +5762,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreRequestDecompression is null)
                 {
-                    _MicrosoftAspNetCoreRequestDecompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.RequestDecompression")).GetReference(filePath: "Microsoft.AspNetCore.RequestDecompression.dll", display: "Microsoft.AspNetCore.RequestDecompression (aspnet90)");
+                    _MicrosoftAspNetCoreRequestDecompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.RequestDecompression")).GetReference(filePath: "Microsoft.AspNetCore.RequestDecompression.dll", display: "Microsoft.AspNetCore.RequestDecompression (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreRequestDecompression;
             }
@@ -5733,7 +5779,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreResponseCachingAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreResponseCachingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.ResponseCaching.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.ResponseCaching.Abstractions.dll", display: "Microsoft.AspNetCore.ResponseCaching.Abstractions (aspnet90)");
+                    _MicrosoftAspNetCoreResponseCachingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.ResponseCaching.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.ResponseCaching.Abstractions.dll", display: "Microsoft.AspNetCore.ResponseCaching.Abstractions (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreResponseCachingAbstractions;
             }
@@ -5750,7 +5796,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreResponseCaching is null)
                 {
-                    _MicrosoftAspNetCoreResponseCaching = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.ResponseCaching")).GetReference(filePath: "Microsoft.AspNetCore.ResponseCaching.dll", display: "Microsoft.AspNetCore.ResponseCaching (aspnet90)");
+                    _MicrosoftAspNetCoreResponseCaching = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.ResponseCaching")).GetReference(filePath: "Microsoft.AspNetCore.ResponseCaching.dll", display: "Microsoft.AspNetCore.ResponseCaching (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreResponseCaching;
             }
@@ -5767,7 +5813,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreResponseCompression is null)
                 {
-                    _MicrosoftAspNetCoreResponseCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.ResponseCompression")).GetReference(filePath: "Microsoft.AspNetCore.ResponseCompression.dll", display: "Microsoft.AspNetCore.ResponseCompression (aspnet90)");
+                    _MicrosoftAspNetCoreResponseCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.ResponseCompression")).GetReference(filePath: "Microsoft.AspNetCore.ResponseCompression.dll", display: "Microsoft.AspNetCore.ResponseCompression (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreResponseCompression;
             }
@@ -5784,7 +5830,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreRewrite is null)
                 {
-                    _MicrosoftAspNetCoreRewrite = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Rewrite")).GetReference(filePath: "Microsoft.AspNetCore.Rewrite.dll", display: "Microsoft.AspNetCore.Rewrite (aspnet90)");
+                    _MicrosoftAspNetCoreRewrite = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Rewrite")).GetReference(filePath: "Microsoft.AspNetCore.Rewrite.dll", display: "Microsoft.AspNetCore.Rewrite (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreRewrite;
             }
@@ -5801,7 +5847,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreRoutingAbstractions is null)
                 {
-                    _MicrosoftAspNetCoreRoutingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Routing.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Routing.Abstractions.dll", display: "Microsoft.AspNetCore.Routing.Abstractions (aspnet90)");
+                    _MicrosoftAspNetCoreRoutingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Routing.Abstractions")).GetReference(filePath: "Microsoft.AspNetCore.Routing.Abstractions.dll", display: "Microsoft.AspNetCore.Routing.Abstractions (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreRoutingAbstractions;
             }
@@ -5818,7 +5864,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreRouting is null)
                 {
-                    _MicrosoftAspNetCoreRouting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Routing")).GetReference(filePath: "Microsoft.AspNetCore.Routing.dll", display: "Microsoft.AspNetCore.Routing (aspnet90)");
+                    _MicrosoftAspNetCoreRouting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Routing")).GetReference(filePath: "Microsoft.AspNetCore.Routing.dll", display: "Microsoft.AspNetCore.Routing (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreRouting;
             }
@@ -5835,7 +5881,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreServerHttpSys is null)
                 {
-                    _MicrosoftAspNetCoreServerHttpSys = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Server.HttpSys")).GetReference(filePath: "Microsoft.AspNetCore.Server.HttpSys.dll", display: "Microsoft.AspNetCore.Server.HttpSys (aspnet90)");
+                    _MicrosoftAspNetCoreServerHttpSys = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Server.HttpSys")).GetReference(filePath: "Microsoft.AspNetCore.Server.HttpSys.dll", display: "Microsoft.AspNetCore.Server.HttpSys (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreServerHttpSys;
             }
@@ -5852,7 +5898,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreServerIIS is null)
                 {
-                    _MicrosoftAspNetCoreServerIIS = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Server.IIS")).GetReference(filePath: "Microsoft.AspNetCore.Server.IIS.dll", display: "Microsoft.AspNetCore.Server.IIS (aspnet90)");
+                    _MicrosoftAspNetCoreServerIIS = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Server.IIS")).GetReference(filePath: "Microsoft.AspNetCore.Server.IIS.dll", display: "Microsoft.AspNetCore.Server.IIS (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreServerIIS;
             }
@@ -5869,7 +5915,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreServerIISIntegration is null)
                 {
-                    _MicrosoftAspNetCoreServerIISIntegration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Server.IISIntegration")).GetReference(filePath: "Microsoft.AspNetCore.Server.IISIntegration.dll", display: "Microsoft.AspNetCore.Server.IISIntegration (aspnet90)");
+                    _MicrosoftAspNetCoreServerIISIntegration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Server.IISIntegration")).GetReference(filePath: "Microsoft.AspNetCore.Server.IISIntegration.dll", display: "Microsoft.AspNetCore.Server.IISIntegration (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreServerIISIntegration;
             }
@@ -5886,7 +5932,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreServerKestrelCore is null)
                 {
-                    _MicrosoftAspNetCoreServerKestrelCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Server.Kestrel.Core")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Core.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Core (aspnet90)");
+                    _MicrosoftAspNetCoreServerKestrelCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Server.Kestrel.Core")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Core.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Core (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreServerKestrelCore;
             }
@@ -5903,7 +5949,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreServerKestrel is null)
                 {
-                    _MicrosoftAspNetCoreServerKestrel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Server.Kestrel")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.dll", display: "Microsoft.AspNetCore.Server.Kestrel (aspnet90)");
+                    _MicrosoftAspNetCoreServerKestrel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Server.Kestrel")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.dll", display: "Microsoft.AspNetCore.Server.Kestrel (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreServerKestrel;
             }
@@ -5920,7 +5966,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreServerKestrelTransportNamedPipes is null)
                 {
-                    _MicrosoftAspNetCoreServerKestrelTransportNamedPipes = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes (aspnet90)");
+                    _MicrosoftAspNetCoreServerKestrelTransportNamedPipes = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreServerKestrelTransportNamedPipes;
             }
@@ -5937,7 +5983,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreServerKestrelTransportQuic is null)
                 {
-                    _MicrosoftAspNetCoreServerKestrelTransportQuic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Server.Kestrel.Transport.Quic")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.Quic (aspnet90)");
+                    _MicrosoftAspNetCoreServerKestrelTransportQuic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Server.Kestrel.Transport.Quic")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.Quic (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreServerKestrelTransportQuic;
             }
@@ -5954,7 +6000,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreServerKestrelTransportSockets is null)
                 {
-                    _MicrosoftAspNetCoreServerKestrelTransportSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets (aspnet90)");
+                    _MicrosoftAspNetCoreServerKestrelTransportSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets")).GetReference(filePath: "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll", display: "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreServerKestrelTransportSockets;
             }
@@ -5971,7 +6017,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreSession is null)
                 {
-                    _MicrosoftAspNetCoreSession = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.Session")).GetReference(filePath: "Microsoft.AspNetCore.Session.dll", display: "Microsoft.AspNetCore.Session (aspnet90)");
+                    _MicrosoftAspNetCoreSession = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.Session")).GetReference(filePath: "Microsoft.AspNetCore.Session.dll", display: "Microsoft.AspNetCore.Session (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreSession;
             }
@@ -5988,7 +6034,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreSignalRCommon is null)
                 {
-                    _MicrosoftAspNetCoreSignalRCommon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.SignalR.Common")).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Common.dll", display: "Microsoft.AspNetCore.SignalR.Common (aspnet90)");
+                    _MicrosoftAspNetCoreSignalRCommon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.SignalR.Common")).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Common.dll", display: "Microsoft.AspNetCore.SignalR.Common (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreSignalRCommon;
             }
@@ -6005,7 +6051,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreSignalRCore is null)
                 {
-                    _MicrosoftAspNetCoreSignalRCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.SignalR.Core")).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Core.dll", display: "Microsoft.AspNetCore.SignalR.Core (aspnet90)");
+                    _MicrosoftAspNetCoreSignalRCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.SignalR.Core")).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Core.dll", display: "Microsoft.AspNetCore.SignalR.Core (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreSignalRCore;
             }
@@ -6022,7 +6068,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreSignalR is null)
                 {
-                    _MicrosoftAspNetCoreSignalR = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.SignalR")).GetReference(filePath: "Microsoft.AspNetCore.SignalR.dll", display: "Microsoft.AspNetCore.SignalR (aspnet90)");
+                    _MicrosoftAspNetCoreSignalR = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.SignalR")).GetReference(filePath: "Microsoft.AspNetCore.SignalR.dll", display: "Microsoft.AspNetCore.SignalR (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreSignalR;
             }
@@ -6039,7 +6085,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreSignalRProtocolsJson is null)
                 {
-                    _MicrosoftAspNetCoreSignalRProtocolsJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.SignalR.Protocols.Json")).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Protocols.Json.dll", display: "Microsoft.AspNetCore.SignalR.Protocols.Json (aspnet90)");
+                    _MicrosoftAspNetCoreSignalRProtocolsJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.SignalR.Protocols.Json")).GetReference(filePath: "Microsoft.AspNetCore.SignalR.Protocols.Json.dll", display: "Microsoft.AspNetCore.SignalR.Protocols.Json (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreSignalRProtocolsJson;
             }
@@ -6056,7 +6102,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreStaticAssets is null)
                 {
-                    _MicrosoftAspNetCoreStaticAssets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.StaticAssets")).GetReference(filePath: "Microsoft.AspNetCore.StaticAssets.dll", display: "Microsoft.AspNetCore.StaticAssets (aspnet90)");
+                    _MicrosoftAspNetCoreStaticAssets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.StaticAssets")).GetReference(filePath: "Microsoft.AspNetCore.StaticAssets.dll", display: "Microsoft.AspNetCore.StaticAssets (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreStaticAssets;
             }
@@ -6073,7 +6119,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreStaticFiles is null)
                 {
-                    _MicrosoftAspNetCoreStaticFiles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.StaticFiles")).GetReference(filePath: "Microsoft.AspNetCore.StaticFiles.dll", display: "Microsoft.AspNetCore.StaticFiles (aspnet90)");
+                    _MicrosoftAspNetCoreStaticFiles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.StaticFiles")).GetReference(filePath: "Microsoft.AspNetCore.StaticFiles.dll", display: "Microsoft.AspNetCore.StaticFiles (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreStaticFiles;
             }
@@ -6090,7 +6136,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreWebSockets is null)
                 {
-                    _MicrosoftAspNetCoreWebSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.WebSockets")).GetReference(filePath: "Microsoft.AspNetCore.WebSockets.dll", display: "Microsoft.AspNetCore.WebSockets (aspnet90)");
+                    _MicrosoftAspNetCoreWebSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.WebSockets")).GetReference(filePath: "Microsoft.AspNetCore.WebSockets.dll", display: "Microsoft.AspNetCore.WebSockets (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreWebSockets;
             }
@@ -6107,7 +6153,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftAspNetCoreWebUtilities is null)
                 {
-                    _MicrosoftAspNetCoreWebUtilities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.AspNetCore.WebUtilities")).GetReference(filePath: "Microsoft.AspNetCore.WebUtilities.dll", display: "Microsoft.AspNetCore.WebUtilities (aspnet90)");
+                    _MicrosoftAspNetCoreWebUtilities = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.AspNetCore.WebUtilities")).GetReference(filePath: "Microsoft.AspNetCore.WebUtilities.dll", display: "Microsoft.AspNetCore.WebUtilities (aspnet100)");
                 }
                 return _MicrosoftAspNetCoreWebUtilities;
             }
@@ -6124,7 +6170,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsCachingAbstractions is null)
                 {
-                    _MicrosoftExtensionsCachingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Caching.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Caching.Abstractions.dll", display: "Microsoft.Extensions.Caching.Abstractions (aspnet90)");
+                    _MicrosoftExtensionsCachingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Caching.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Caching.Abstractions.dll", display: "Microsoft.Extensions.Caching.Abstractions (aspnet100)");
                 }
                 return _MicrosoftExtensionsCachingAbstractions;
             }
@@ -6141,7 +6187,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsCachingMemory is null)
                 {
-                    _MicrosoftExtensionsCachingMemory = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Caching.Memory")).GetReference(filePath: "Microsoft.Extensions.Caching.Memory.dll", display: "Microsoft.Extensions.Caching.Memory (aspnet90)");
+                    _MicrosoftExtensionsCachingMemory = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Caching.Memory")).GetReference(filePath: "Microsoft.Extensions.Caching.Memory.dll", display: "Microsoft.Extensions.Caching.Memory (aspnet100)");
                 }
                 return _MicrosoftExtensionsCachingMemory;
             }
@@ -6158,7 +6204,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsConfigurationAbstractions is null)
                 {
-                    _MicrosoftExtensionsConfigurationAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Configuration.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Configuration.Abstractions.dll", display: "Microsoft.Extensions.Configuration.Abstractions (aspnet90)");
+                    _MicrosoftExtensionsConfigurationAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Configuration.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Configuration.Abstractions.dll", display: "Microsoft.Extensions.Configuration.Abstractions (aspnet100)");
                 }
                 return _MicrosoftExtensionsConfigurationAbstractions;
             }
@@ -6175,7 +6221,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsConfigurationBinder is null)
                 {
-                    _MicrosoftExtensionsConfigurationBinder = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Configuration.Binder")).GetReference(filePath: "Microsoft.Extensions.Configuration.Binder.dll", display: "Microsoft.Extensions.Configuration.Binder (aspnet90)");
+                    _MicrosoftExtensionsConfigurationBinder = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Configuration.Binder")).GetReference(filePath: "Microsoft.Extensions.Configuration.Binder.dll", display: "Microsoft.Extensions.Configuration.Binder (aspnet100)");
                 }
                 return _MicrosoftExtensionsConfigurationBinder;
             }
@@ -6192,7 +6238,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsConfigurationCommandLine is null)
                 {
-                    _MicrosoftExtensionsConfigurationCommandLine = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Configuration.CommandLine")).GetReference(filePath: "Microsoft.Extensions.Configuration.CommandLine.dll", display: "Microsoft.Extensions.Configuration.CommandLine (aspnet90)");
+                    _MicrosoftExtensionsConfigurationCommandLine = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Configuration.CommandLine")).GetReference(filePath: "Microsoft.Extensions.Configuration.CommandLine.dll", display: "Microsoft.Extensions.Configuration.CommandLine (aspnet100)");
                 }
                 return _MicrosoftExtensionsConfigurationCommandLine;
             }
@@ -6209,7 +6255,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsConfiguration is null)
                 {
-                    _MicrosoftExtensionsConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Configuration")).GetReference(filePath: "Microsoft.Extensions.Configuration.dll", display: "Microsoft.Extensions.Configuration (aspnet90)");
+                    _MicrosoftExtensionsConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Configuration")).GetReference(filePath: "Microsoft.Extensions.Configuration.dll", display: "Microsoft.Extensions.Configuration (aspnet100)");
                 }
                 return _MicrosoftExtensionsConfiguration;
             }
@@ -6226,7 +6272,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsConfigurationEnvironmentVariables is null)
                 {
-                    _MicrosoftExtensionsConfigurationEnvironmentVariables = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Configuration.EnvironmentVariables")).GetReference(filePath: "Microsoft.Extensions.Configuration.EnvironmentVariables.dll", display: "Microsoft.Extensions.Configuration.EnvironmentVariables (aspnet90)");
+                    _MicrosoftExtensionsConfigurationEnvironmentVariables = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Configuration.EnvironmentVariables")).GetReference(filePath: "Microsoft.Extensions.Configuration.EnvironmentVariables.dll", display: "Microsoft.Extensions.Configuration.EnvironmentVariables (aspnet100)");
                 }
                 return _MicrosoftExtensionsConfigurationEnvironmentVariables;
             }
@@ -6243,7 +6289,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsConfigurationFileExtensions is null)
                 {
-                    _MicrosoftExtensionsConfigurationFileExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Configuration.FileExtensions")).GetReference(filePath: "Microsoft.Extensions.Configuration.FileExtensions.dll", display: "Microsoft.Extensions.Configuration.FileExtensions (aspnet90)");
+                    _MicrosoftExtensionsConfigurationFileExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Configuration.FileExtensions")).GetReference(filePath: "Microsoft.Extensions.Configuration.FileExtensions.dll", display: "Microsoft.Extensions.Configuration.FileExtensions (aspnet100)");
                 }
                 return _MicrosoftExtensionsConfigurationFileExtensions;
             }
@@ -6260,7 +6306,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsConfigurationIni is null)
                 {
-                    _MicrosoftExtensionsConfigurationIni = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Configuration.Ini")).GetReference(filePath: "Microsoft.Extensions.Configuration.Ini.dll", display: "Microsoft.Extensions.Configuration.Ini (aspnet90)");
+                    _MicrosoftExtensionsConfigurationIni = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Configuration.Ini")).GetReference(filePath: "Microsoft.Extensions.Configuration.Ini.dll", display: "Microsoft.Extensions.Configuration.Ini (aspnet100)");
                 }
                 return _MicrosoftExtensionsConfigurationIni;
             }
@@ -6277,7 +6323,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsConfigurationJson is null)
                 {
-                    _MicrosoftExtensionsConfigurationJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Configuration.Json")).GetReference(filePath: "Microsoft.Extensions.Configuration.Json.dll", display: "Microsoft.Extensions.Configuration.Json (aspnet90)");
+                    _MicrosoftExtensionsConfigurationJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Configuration.Json")).GetReference(filePath: "Microsoft.Extensions.Configuration.Json.dll", display: "Microsoft.Extensions.Configuration.Json (aspnet100)");
                 }
                 return _MicrosoftExtensionsConfigurationJson;
             }
@@ -6294,7 +6340,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsConfigurationKeyPerFile is null)
                 {
-                    _MicrosoftExtensionsConfigurationKeyPerFile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Configuration.KeyPerFile")).GetReference(filePath: "Microsoft.Extensions.Configuration.KeyPerFile.dll", display: "Microsoft.Extensions.Configuration.KeyPerFile (aspnet90)");
+                    _MicrosoftExtensionsConfigurationKeyPerFile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Configuration.KeyPerFile")).GetReference(filePath: "Microsoft.Extensions.Configuration.KeyPerFile.dll", display: "Microsoft.Extensions.Configuration.KeyPerFile (aspnet100)");
                 }
                 return _MicrosoftExtensionsConfigurationKeyPerFile;
             }
@@ -6311,7 +6357,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsConfigurationUserSecrets is null)
                 {
-                    _MicrosoftExtensionsConfigurationUserSecrets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Configuration.UserSecrets")).GetReference(filePath: "Microsoft.Extensions.Configuration.UserSecrets.dll", display: "Microsoft.Extensions.Configuration.UserSecrets (aspnet90)");
+                    _MicrosoftExtensionsConfigurationUserSecrets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Configuration.UserSecrets")).GetReference(filePath: "Microsoft.Extensions.Configuration.UserSecrets.dll", display: "Microsoft.Extensions.Configuration.UserSecrets (aspnet100)");
                 }
                 return _MicrosoftExtensionsConfigurationUserSecrets;
             }
@@ -6328,7 +6374,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsConfigurationXml is null)
                 {
-                    _MicrosoftExtensionsConfigurationXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Configuration.Xml")).GetReference(filePath: "Microsoft.Extensions.Configuration.Xml.dll", display: "Microsoft.Extensions.Configuration.Xml (aspnet90)");
+                    _MicrosoftExtensionsConfigurationXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Configuration.Xml")).GetReference(filePath: "Microsoft.Extensions.Configuration.Xml.dll", display: "Microsoft.Extensions.Configuration.Xml (aspnet100)");
                 }
                 return _MicrosoftExtensionsConfigurationXml;
             }
@@ -6345,7 +6391,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsDependencyInjectionAbstractions is null)
                 {
-                    _MicrosoftExtensionsDependencyInjectionAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.DependencyInjection.Abstractions")).GetReference(filePath: "Microsoft.Extensions.DependencyInjection.Abstractions.dll", display: "Microsoft.Extensions.DependencyInjection.Abstractions (aspnet90)");
+                    _MicrosoftExtensionsDependencyInjectionAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.DependencyInjection.Abstractions")).GetReference(filePath: "Microsoft.Extensions.DependencyInjection.Abstractions.dll", display: "Microsoft.Extensions.DependencyInjection.Abstractions (aspnet100)");
                 }
                 return _MicrosoftExtensionsDependencyInjectionAbstractions;
             }
@@ -6362,7 +6408,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsDependencyInjection is null)
                 {
-                    _MicrosoftExtensionsDependencyInjection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.DependencyInjection")).GetReference(filePath: "Microsoft.Extensions.DependencyInjection.dll", display: "Microsoft.Extensions.DependencyInjection (aspnet90)");
+                    _MicrosoftExtensionsDependencyInjection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.DependencyInjection")).GetReference(filePath: "Microsoft.Extensions.DependencyInjection.dll", display: "Microsoft.Extensions.DependencyInjection (aspnet100)");
                 }
                 return _MicrosoftExtensionsDependencyInjection;
             }
@@ -6379,7 +6425,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsDiagnosticsAbstractions is null)
                 {
-                    _MicrosoftExtensionsDiagnosticsAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Diagnostics.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Diagnostics.Abstractions.dll", display: "Microsoft.Extensions.Diagnostics.Abstractions (aspnet90)");
+                    _MicrosoftExtensionsDiagnosticsAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Diagnostics.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Diagnostics.Abstractions.dll", display: "Microsoft.Extensions.Diagnostics.Abstractions (aspnet100)");
                 }
                 return _MicrosoftExtensionsDiagnosticsAbstractions;
             }
@@ -6396,7 +6442,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsDiagnostics is null)
                 {
-                    _MicrosoftExtensionsDiagnostics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Diagnostics")).GetReference(filePath: "Microsoft.Extensions.Diagnostics.dll", display: "Microsoft.Extensions.Diagnostics (aspnet90)");
+                    _MicrosoftExtensionsDiagnostics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Diagnostics")).GetReference(filePath: "Microsoft.Extensions.Diagnostics.dll", display: "Microsoft.Extensions.Diagnostics (aspnet100)");
                 }
                 return _MicrosoftExtensionsDiagnostics;
             }
@@ -6413,7 +6459,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsDiagnosticsHealthChecksAbstractions is null)
                 {
-                    _MicrosoftExtensionsDiagnosticsHealthChecksAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll", display: "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions (aspnet90)");
+                    _MicrosoftExtensionsDiagnosticsHealthChecksAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll", display: "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions (aspnet100)");
                 }
                 return _MicrosoftExtensionsDiagnosticsHealthChecksAbstractions;
             }
@@ -6430,7 +6476,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsDiagnosticsHealthChecks is null)
                 {
-                    _MicrosoftExtensionsDiagnosticsHealthChecks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Diagnostics.HealthChecks")).GetReference(filePath: "Microsoft.Extensions.Diagnostics.HealthChecks.dll", display: "Microsoft.Extensions.Diagnostics.HealthChecks (aspnet90)");
+                    _MicrosoftExtensionsDiagnosticsHealthChecks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Diagnostics.HealthChecks")).GetReference(filePath: "Microsoft.Extensions.Diagnostics.HealthChecks.dll", display: "Microsoft.Extensions.Diagnostics.HealthChecks (aspnet100)");
                 }
                 return _MicrosoftExtensionsDiagnosticsHealthChecks;
             }
@@ -6447,7 +6493,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsFeatures is null)
                 {
-                    _MicrosoftExtensionsFeatures = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Features")).GetReference(filePath: "Microsoft.Extensions.Features.dll", display: "Microsoft.Extensions.Features (aspnet90)");
+                    _MicrosoftExtensionsFeatures = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Features")).GetReference(filePath: "Microsoft.Extensions.Features.dll", display: "Microsoft.Extensions.Features (aspnet100)");
                 }
                 return _MicrosoftExtensionsFeatures;
             }
@@ -6464,7 +6510,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsFileProvidersAbstractions is null)
                 {
-                    _MicrosoftExtensionsFileProvidersAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.FileProviders.Abstractions")).GetReference(filePath: "Microsoft.Extensions.FileProviders.Abstractions.dll", display: "Microsoft.Extensions.FileProviders.Abstractions (aspnet90)");
+                    _MicrosoftExtensionsFileProvidersAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.FileProviders.Abstractions")).GetReference(filePath: "Microsoft.Extensions.FileProviders.Abstractions.dll", display: "Microsoft.Extensions.FileProviders.Abstractions (aspnet100)");
                 }
                 return _MicrosoftExtensionsFileProvidersAbstractions;
             }
@@ -6481,7 +6527,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsFileProvidersComposite is null)
                 {
-                    _MicrosoftExtensionsFileProvidersComposite = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.FileProviders.Composite")).GetReference(filePath: "Microsoft.Extensions.FileProviders.Composite.dll", display: "Microsoft.Extensions.FileProviders.Composite (aspnet90)");
+                    _MicrosoftExtensionsFileProvidersComposite = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.FileProviders.Composite")).GetReference(filePath: "Microsoft.Extensions.FileProviders.Composite.dll", display: "Microsoft.Extensions.FileProviders.Composite (aspnet100)");
                 }
                 return _MicrosoftExtensionsFileProvidersComposite;
             }
@@ -6498,7 +6544,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsFileProvidersEmbedded is null)
                 {
-                    _MicrosoftExtensionsFileProvidersEmbedded = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.FileProviders.Embedded")).GetReference(filePath: "Microsoft.Extensions.FileProviders.Embedded.dll", display: "Microsoft.Extensions.FileProviders.Embedded (aspnet90)");
+                    _MicrosoftExtensionsFileProvidersEmbedded = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.FileProviders.Embedded")).GetReference(filePath: "Microsoft.Extensions.FileProviders.Embedded.dll", display: "Microsoft.Extensions.FileProviders.Embedded (aspnet100)");
                 }
                 return _MicrosoftExtensionsFileProvidersEmbedded;
             }
@@ -6515,7 +6561,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsFileProvidersPhysical is null)
                 {
-                    _MicrosoftExtensionsFileProvidersPhysical = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.FileProviders.Physical")).GetReference(filePath: "Microsoft.Extensions.FileProviders.Physical.dll", display: "Microsoft.Extensions.FileProviders.Physical (aspnet90)");
+                    _MicrosoftExtensionsFileProvidersPhysical = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.FileProviders.Physical")).GetReference(filePath: "Microsoft.Extensions.FileProviders.Physical.dll", display: "Microsoft.Extensions.FileProviders.Physical (aspnet100)");
                 }
                 return _MicrosoftExtensionsFileProvidersPhysical;
             }
@@ -6532,7 +6578,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsFileSystemGlobbing is null)
                 {
-                    _MicrosoftExtensionsFileSystemGlobbing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.FileSystemGlobbing")).GetReference(filePath: "Microsoft.Extensions.FileSystemGlobbing.dll", display: "Microsoft.Extensions.FileSystemGlobbing (aspnet90)");
+                    _MicrosoftExtensionsFileSystemGlobbing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.FileSystemGlobbing")).GetReference(filePath: "Microsoft.Extensions.FileSystemGlobbing.dll", display: "Microsoft.Extensions.FileSystemGlobbing (aspnet100)");
                 }
                 return _MicrosoftExtensionsFileSystemGlobbing;
             }
@@ -6549,7 +6595,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsHostingAbstractions is null)
                 {
-                    _MicrosoftExtensionsHostingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Hosting.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Hosting.Abstractions.dll", display: "Microsoft.Extensions.Hosting.Abstractions (aspnet90)");
+                    _MicrosoftExtensionsHostingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Hosting.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Hosting.Abstractions.dll", display: "Microsoft.Extensions.Hosting.Abstractions (aspnet100)");
                 }
                 return _MicrosoftExtensionsHostingAbstractions;
             }
@@ -6566,7 +6612,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsHosting is null)
                 {
-                    _MicrosoftExtensionsHosting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Hosting")).GetReference(filePath: "Microsoft.Extensions.Hosting.dll", display: "Microsoft.Extensions.Hosting (aspnet90)");
+                    _MicrosoftExtensionsHosting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Hosting")).GetReference(filePath: "Microsoft.Extensions.Hosting.dll", display: "Microsoft.Extensions.Hosting (aspnet100)");
                 }
                 return _MicrosoftExtensionsHosting;
             }
@@ -6583,7 +6629,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsHttp is null)
                 {
-                    _MicrosoftExtensionsHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Http")).GetReference(filePath: "Microsoft.Extensions.Http.dll", display: "Microsoft.Extensions.Http (aspnet90)");
+                    _MicrosoftExtensionsHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Http")).GetReference(filePath: "Microsoft.Extensions.Http.dll", display: "Microsoft.Extensions.Http (aspnet100)");
                 }
                 return _MicrosoftExtensionsHttp;
             }
@@ -6600,7 +6646,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsIdentityCore is null)
                 {
-                    _MicrosoftExtensionsIdentityCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Identity.Core")).GetReference(filePath: "Microsoft.Extensions.Identity.Core.dll", display: "Microsoft.Extensions.Identity.Core (aspnet90)");
+                    _MicrosoftExtensionsIdentityCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Identity.Core")).GetReference(filePath: "Microsoft.Extensions.Identity.Core.dll", display: "Microsoft.Extensions.Identity.Core (aspnet100)");
                 }
                 return _MicrosoftExtensionsIdentityCore;
             }
@@ -6617,7 +6663,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsIdentityStores is null)
                 {
-                    _MicrosoftExtensionsIdentityStores = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Identity.Stores")).GetReference(filePath: "Microsoft.Extensions.Identity.Stores.dll", display: "Microsoft.Extensions.Identity.Stores (aspnet90)");
+                    _MicrosoftExtensionsIdentityStores = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Identity.Stores")).GetReference(filePath: "Microsoft.Extensions.Identity.Stores.dll", display: "Microsoft.Extensions.Identity.Stores (aspnet100)");
                 }
                 return _MicrosoftExtensionsIdentityStores;
             }
@@ -6634,7 +6680,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsLocalizationAbstractions is null)
                 {
-                    _MicrosoftExtensionsLocalizationAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Localization.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Localization.Abstractions.dll", display: "Microsoft.Extensions.Localization.Abstractions (aspnet90)");
+                    _MicrosoftExtensionsLocalizationAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Localization.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Localization.Abstractions.dll", display: "Microsoft.Extensions.Localization.Abstractions (aspnet100)");
                 }
                 return _MicrosoftExtensionsLocalizationAbstractions;
             }
@@ -6651,7 +6697,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsLocalization is null)
                 {
-                    _MicrosoftExtensionsLocalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Localization")).GetReference(filePath: "Microsoft.Extensions.Localization.dll", display: "Microsoft.Extensions.Localization (aspnet90)");
+                    _MicrosoftExtensionsLocalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Localization")).GetReference(filePath: "Microsoft.Extensions.Localization.dll", display: "Microsoft.Extensions.Localization (aspnet100)");
                 }
                 return _MicrosoftExtensionsLocalization;
             }
@@ -6668,7 +6714,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsLoggingAbstractions is null)
                 {
-                    _MicrosoftExtensionsLoggingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Logging.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Logging.Abstractions.dll", display: "Microsoft.Extensions.Logging.Abstractions (aspnet90)");
+                    _MicrosoftExtensionsLoggingAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Logging.Abstractions")).GetReference(filePath: "Microsoft.Extensions.Logging.Abstractions.dll", display: "Microsoft.Extensions.Logging.Abstractions (aspnet100)");
                 }
                 return _MicrosoftExtensionsLoggingAbstractions;
             }
@@ -6685,7 +6731,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsLoggingConfiguration is null)
                 {
-                    _MicrosoftExtensionsLoggingConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Logging.Configuration")).GetReference(filePath: "Microsoft.Extensions.Logging.Configuration.dll", display: "Microsoft.Extensions.Logging.Configuration (aspnet90)");
+                    _MicrosoftExtensionsLoggingConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Logging.Configuration")).GetReference(filePath: "Microsoft.Extensions.Logging.Configuration.dll", display: "Microsoft.Extensions.Logging.Configuration (aspnet100)");
                 }
                 return _MicrosoftExtensionsLoggingConfiguration;
             }
@@ -6702,7 +6748,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsLoggingConsole is null)
                 {
-                    _MicrosoftExtensionsLoggingConsole = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Logging.Console")).GetReference(filePath: "Microsoft.Extensions.Logging.Console.dll", display: "Microsoft.Extensions.Logging.Console (aspnet90)");
+                    _MicrosoftExtensionsLoggingConsole = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Logging.Console")).GetReference(filePath: "Microsoft.Extensions.Logging.Console.dll", display: "Microsoft.Extensions.Logging.Console (aspnet100)");
                 }
                 return _MicrosoftExtensionsLoggingConsole;
             }
@@ -6719,7 +6765,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsLoggingDebug is null)
                 {
-                    _MicrosoftExtensionsLoggingDebug = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Logging.Debug")).GetReference(filePath: "Microsoft.Extensions.Logging.Debug.dll", display: "Microsoft.Extensions.Logging.Debug (aspnet90)");
+                    _MicrosoftExtensionsLoggingDebug = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Logging.Debug")).GetReference(filePath: "Microsoft.Extensions.Logging.Debug.dll", display: "Microsoft.Extensions.Logging.Debug (aspnet100)");
                 }
                 return _MicrosoftExtensionsLoggingDebug;
             }
@@ -6736,7 +6782,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsLogging is null)
                 {
-                    _MicrosoftExtensionsLogging = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Logging")).GetReference(filePath: "Microsoft.Extensions.Logging.dll", display: "Microsoft.Extensions.Logging (aspnet90)");
+                    _MicrosoftExtensionsLogging = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Logging")).GetReference(filePath: "Microsoft.Extensions.Logging.dll", display: "Microsoft.Extensions.Logging (aspnet100)");
                 }
                 return _MicrosoftExtensionsLogging;
             }
@@ -6753,7 +6799,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsLoggingEventLog is null)
                 {
-                    _MicrosoftExtensionsLoggingEventLog = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Logging.EventLog")).GetReference(filePath: "Microsoft.Extensions.Logging.EventLog.dll", display: "Microsoft.Extensions.Logging.EventLog (aspnet90)");
+                    _MicrosoftExtensionsLoggingEventLog = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Logging.EventLog")).GetReference(filePath: "Microsoft.Extensions.Logging.EventLog.dll", display: "Microsoft.Extensions.Logging.EventLog (aspnet100)");
                 }
                 return _MicrosoftExtensionsLoggingEventLog;
             }
@@ -6770,7 +6816,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsLoggingEventSource is null)
                 {
-                    _MicrosoftExtensionsLoggingEventSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Logging.EventSource")).GetReference(filePath: "Microsoft.Extensions.Logging.EventSource.dll", display: "Microsoft.Extensions.Logging.EventSource (aspnet90)");
+                    _MicrosoftExtensionsLoggingEventSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Logging.EventSource")).GetReference(filePath: "Microsoft.Extensions.Logging.EventSource.dll", display: "Microsoft.Extensions.Logging.EventSource (aspnet100)");
                 }
                 return _MicrosoftExtensionsLoggingEventSource;
             }
@@ -6787,7 +6833,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsLoggingTraceSource is null)
                 {
-                    _MicrosoftExtensionsLoggingTraceSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Logging.TraceSource")).GetReference(filePath: "Microsoft.Extensions.Logging.TraceSource.dll", display: "Microsoft.Extensions.Logging.TraceSource (aspnet90)");
+                    _MicrosoftExtensionsLoggingTraceSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Logging.TraceSource")).GetReference(filePath: "Microsoft.Extensions.Logging.TraceSource.dll", display: "Microsoft.Extensions.Logging.TraceSource (aspnet100)");
                 }
                 return _MicrosoftExtensionsLoggingTraceSource;
             }
@@ -6804,7 +6850,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsObjectPool is null)
                 {
-                    _MicrosoftExtensionsObjectPool = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.ObjectPool")).GetReference(filePath: "Microsoft.Extensions.ObjectPool.dll", display: "Microsoft.Extensions.ObjectPool (aspnet90)");
+                    _MicrosoftExtensionsObjectPool = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.ObjectPool")).GetReference(filePath: "Microsoft.Extensions.ObjectPool.dll", display: "Microsoft.Extensions.ObjectPool (aspnet100)");
                 }
                 return _MicrosoftExtensionsObjectPool;
             }
@@ -6821,7 +6867,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsOptionsConfigurationExtensions is null)
                 {
-                    _MicrosoftExtensionsOptionsConfigurationExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Options.ConfigurationExtensions")).GetReference(filePath: "Microsoft.Extensions.Options.ConfigurationExtensions.dll", display: "Microsoft.Extensions.Options.ConfigurationExtensions (aspnet90)");
+                    _MicrosoftExtensionsOptionsConfigurationExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Options.ConfigurationExtensions")).GetReference(filePath: "Microsoft.Extensions.Options.ConfigurationExtensions.dll", display: "Microsoft.Extensions.Options.ConfigurationExtensions (aspnet100)");
                 }
                 return _MicrosoftExtensionsOptionsConfigurationExtensions;
             }
@@ -6838,7 +6884,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsOptionsDataAnnotations is null)
                 {
-                    _MicrosoftExtensionsOptionsDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Options.DataAnnotations")).GetReference(filePath: "Microsoft.Extensions.Options.DataAnnotations.dll", display: "Microsoft.Extensions.Options.DataAnnotations (aspnet90)");
+                    _MicrosoftExtensionsOptionsDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Options.DataAnnotations")).GetReference(filePath: "Microsoft.Extensions.Options.DataAnnotations.dll", display: "Microsoft.Extensions.Options.DataAnnotations (aspnet100)");
                 }
                 return _MicrosoftExtensionsOptionsDataAnnotations;
             }
@@ -6855,7 +6901,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsOptions is null)
                 {
-                    _MicrosoftExtensionsOptions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Options")).GetReference(filePath: "Microsoft.Extensions.Options.dll", display: "Microsoft.Extensions.Options (aspnet90)");
+                    _MicrosoftExtensionsOptions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Options")).GetReference(filePath: "Microsoft.Extensions.Options.dll", display: "Microsoft.Extensions.Options (aspnet100)");
                 }
                 return _MicrosoftExtensionsOptions;
             }
@@ -6872,7 +6918,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsPrimitives is null)
                 {
-                    _MicrosoftExtensionsPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.Primitives")).GetReference(filePath: "Microsoft.Extensions.Primitives.dll", display: "Microsoft.Extensions.Primitives (aspnet90)");
+                    _MicrosoftExtensionsPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.Primitives")).GetReference(filePath: "Microsoft.Extensions.Primitives.dll", display: "Microsoft.Extensions.Primitives (aspnet100)");
                 }
                 return _MicrosoftExtensionsPrimitives;
             }
@@ -6889,7 +6935,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftExtensionsWebEncoders is null)
                 {
-                    _MicrosoftExtensionsWebEncoders = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Extensions.WebEncoders")).GetReference(filePath: "Microsoft.Extensions.WebEncoders.dll", display: "Microsoft.Extensions.WebEncoders (aspnet90)");
+                    _MicrosoftExtensionsWebEncoders = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Extensions.WebEncoders")).GetReference(filePath: "Microsoft.Extensions.WebEncoders.dll", display: "Microsoft.Extensions.WebEncoders (aspnet100)");
                 }
                 return _MicrosoftExtensionsWebEncoders;
             }
@@ -6906,7 +6952,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftJSInterop is null)
                 {
-                    _MicrosoftJSInterop = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.JSInterop")).GetReference(filePath: "Microsoft.JSInterop.dll", display: "Microsoft.JSInterop (aspnet90)");
+                    _MicrosoftJSInterop = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.JSInterop")).GetReference(filePath: "Microsoft.JSInterop.dll", display: "Microsoft.JSInterop (aspnet100)");
                 }
                 return _MicrosoftJSInterop;
             }
@@ -6923,7 +6969,7 @@ public static partial class AspNet90
             {
                 if (_MicrosoftNetHttpHeaders is null)
                 {
-                    _MicrosoftNetHttpHeaders = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.Microsoft.Net.Http.Headers")).GetReference(filePath: "Microsoft.Net.Http.Headers.dll", display: "Microsoft.Net.Http.Headers (aspnet90)");
+                    _MicrosoftNetHttpHeaders = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.Microsoft.Net.Http.Headers")).GetReference(filePath: "Microsoft.Net.Http.Headers.dll", display: "Microsoft.Net.Http.Headers (aspnet100)");
                 }
                 return _MicrosoftNetHttpHeaders;
             }
@@ -6940,7 +6986,7 @@ public static partial class AspNet90
             {
                 if (_SystemDiagnosticsEventLog is null)
                 {
-                    _SystemDiagnosticsEventLog = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Diagnostics.EventLog")).GetReference(filePath: "System.Diagnostics.EventLog.dll", display: "System.Diagnostics.EventLog (aspnet90)");
+                    _SystemDiagnosticsEventLog = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Diagnostics.EventLog")).GetReference(filePath: "System.Diagnostics.EventLog.dll", display: "System.Diagnostics.EventLog (aspnet100)");
                 }
                 return _SystemDiagnosticsEventLog;
             }
@@ -6957,7 +7003,7 @@ public static partial class AspNet90
             {
                 if (_SystemSecurityCryptographyXml is null)
                 {
-                    _SystemSecurityCryptographyXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Security.Cryptography.Xml")).GetReference(filePath: "System.Security.Cryptography.Xml.dll", display: "System.Security.Cryptography.Xml (aspnet90)");
+                    _SystemSecurityCryptographyXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Security.Cryptography.Xml")).GetReference(filePath: "System.Security.Cryptography.Xml.dll", display: "System.Security.Cryptography.Xml (aspnet100)");
                 }
                 return _SystemSecurityCryptographyXml;
             }
@@ -6974,7 +7020,7 @@ public static partial class AspNet90
             {
                 if (_SystemThreadingRateLimiting is null)
                 {
-                    _SystemThreadingRateLimiting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet90.System.Threading.RateLimiting")).GetReference(filePath: "System.Threading.RateLimiting.dll", display: "System.Threading.RateLimiting (aspnet90)");
+                    _SystemThreadingRateLimiting = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("aspnet100.System.Threading.RateLimiting")).GetReference(filePath: "System.Threading.RateLimiting.dll", display: "System.Threading.RateLimiting (aspnet100)");
                 }
                 return _SystemThreadingRateLimiting;
             }
@@ -7050,6 +7096,7 @@ public static partial class AspNet90
                         SystemIOPipesAccessControl,
                         SystemIOPipes,
                         SystemIOUnmanagedMemoryStream,
+                        SystemLinqAsyncEnumerable,
                         SystemLinq,
                         SystemLinqExpressions,
                         SystemLinqParallel,
@@ -7067,6 +7114,7 @@ public static partial class AspNet90
                         SystemNetQuic,
                         SystemNetRequests,
                         SystemNetSecurity,
+                        SystemNetServerSentEvents,
                         SystemNetServicePoint,
                         SystemNetSockets,
                         SystemNetWebClient,
@@ -7299,1820 +7347,1832 @@ public static partial class AspNet90
     }
 }
 
-public static partial class AspNet90
+public static partial class AspNet100
 {
     public static class Resources
     {
         /// <summary>
         /// The image bytes for Microsoft.CSharp.dll
         /// </summary>
-        public static byte[] MicrosoftCSharp => ResourceLoader.GetOrCreateResource(ref _MicrosoftCSharp, "aspnet90.Microsoft.CSharp");
+        public static byte[] MicrosoftCSharp => ResourceLoader.GetOrCreateResource(ref _MicrosoftCSharp, "aspnet100.Microsoft.CSharp");
         private static byte[]? _MicrosoftCSharp;
 
         /// <summary>
         /// The image bytes for Microsoft.VisualBasic.Core.dll
         /// </summary>
-        public static byte[] MicrosoftVisualBasicCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicCore, "aspnet90.Microsoft.VisualBasic.Core");
+        public static byte[] MicrosoftVisualBasicCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicCore, "aspnet100.Microsoft.VisualBasic.Core");
         private static byte[]? _MicrosoftVisualBasicCore;
 
         /// <summary>
         /// The image bytes for Microsoft.VisualBasic.dll
         /// </summary>
-        public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "aspnet90.Microsoft.VisualBasic");
+        public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "aspnet100.Microsoft.VisualBasic");
         private static byte[]? _MicrosoftVisualBasic;
 
         /// <summary>
         /// The image bytes for Microsoft.Win32.Primitives.dll
         /// </summary>
-        public static byte[] MicrosoftWin32Primitives => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32Primitives, "aspnet90.Microsoft.Win32.Primitives");
+        public static byte[] MicrosoftWin32Primitives => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32Primitives, "aspnet100.Microsoft.Win32.Primitives");
         private static byte[]? _MicrosoftWin32Primitives;
 
         /// <summary>
         /// The image bytes for Microsoft.Win32.Registry.dll
         /// </summary>
-        public static byte[] MicrosoftWin32Registry => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32Registry, "aspnet90.Microsoft.Win32.Registry");
+        public static byte[] MicrosoftWin32Registry => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32Registry, "aspnet100.Microsoft.Win32.Registry");
         private static byte[]? _MicrosoftWin32Registry;
 
         /// <summary>
         /// The image bytes for mscorlib.dll
         /// </summary>
-        public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "aspnet90.mscorlib");
+        public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "aspnet100.mscorlib");
         private static byte[]? _mscorlib;
 
         /// <summary>
         /// The image bytes for netstandard.dll
         /// </summary>
-        public static byte[] netstandard => ResourceLoader.GetOrCreateResource(ref _netstandard, "aspnet90.netstandard");
+        public static byte[] netstandard => ResourceLoader.GetOrCreateResource(ref _netstandard, "aspnet100.netstandard");
         private static byte[]? _netstandard;
 
         /// <summary>
         /// The image bytes for System.AppContext.dll
         /// </summary>
-        public static byte[] SystemAppContext => ResourceLoader.GetOrCreateResource(ref _SystemAppContext, "aspnet90.System.AppContext");
+        public static byte[] SystemAppContext => ResourceLoader.GetOrCreateResource(ref _SystemAppContext, "aspnet100.System.AppContext");
         private static byte[]? _SystemAppContext;
 
         /// <summary>
         /// The image bytes for System.Buffers.dll
         /// </summary>
-        public static byte[] SystemBuffers => ResourceLoader.GetOrCreateResource(ref _SystemBuffers, "aspnet90.System.Buffers");
+        public static byte[] SystemBuffers => ResourceLoader.GetOrCreateResource(ref _SystemBuffers, "aspnet100.System.Buffers");
         private static byte[]? _SystemBuffers;
 
         /// <summary>
         /// The image bytes for System.Collections.Concurrent.dll
         /// </summary>
-        public static byte[] SystemCollectionsConcurrent => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsConcurrent, "aspnet90.System.Collections.Concurrent");
+        public static byte[] SystemCollectionsConcurrent => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsConcurrent, "aspnet100.System.Collections.Concurrent");
         private static byte[]? _SystemCollectionsConcurrent;
 
         /// <summary>
         /// The image bytes for System.Collections.dll
         /// </summary>
-        public static byte[] SystemCollections => ResourceLoader.GetOrCreateResource(ref _SystemCollections, "aspnet90.System.Collections");
+        public static byte[] SystemCollections => ResourceLoader.GetOrCreateResource(ref _SystemCollections, "aspnet100.System.Collections");
         private static byte[]? _SystemCollections;
 
         /// <summary>
         /// The image bytes for System.Collections.Immutable.dll
         /// </summary>
-        public static byte[] SystemCollectionsImmutable => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsImmutable, "aspnet90.System.Collections.Immutable");
+        public static byte[] SystemCollectionsImmutable => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsImmutable, "aspnet100.System.Collections.Immutable");
         private static byte[]? _SystemCollectionsImmutable;
 
         /// <summary>
         /// The image bytes for System.Collections.NonGeneric.dll
         /// </summary>
-        public static byte[] SystemCollectionsNonGeneric => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsNonGeneric, "aspnet90.System.Collections.NonGeneric");
+        public static byte[] SystemCollectionsNonGeneric => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsNonGeneric, "aspnet100.System.Collections.NonGeneric");
         private static byte[]? _SystemCollectionsNonGeneric;
 
         /// <summary>
         /// The image bytes for System.Collections.Specialized.dll
         /// </summary>
-        public static byte[] SystemCollectionsSpecialized => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsSpecialized, "aspnet90.System.Collections.Specialized");
+        public static byte[] SystemCollectionsSpecialized => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsSpecialized, "aspnet100.System.Collections.Specialized");
         private static byte[]? _SystemCollectionsSpecialized;
 
         /// <summary>
         /// The image bytes for System.ComponentModel.Annotations.dll
         /// </summary>
-        public static byte[] SystemComponentModelAnnotations => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelAnnotations, "aspnet90.System.ComponentModel.Annotations");
+        public static byte[] SystemComponentModelAnnotations => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelAnnotations, "aspnet100.System.ComponentModel.Annotations");
         private static byte[]? _SystemComponentModelAnnotations;
 
         /// <summary>
         /// The image bytes for System.ComponentModel.DataAnnotations.dll
         /// </summary>
-        public static byte[] SystemComponentModelDataAnnotations => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelDataAnnotations, "aspnet90.System.ComponentModel.DataAnnotations");
+        public static byte[] SystemComponentModelDataAnnotations => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelDataAnnotations, "aspnet100.System.ComponentModel.DataAnnotations");
         private static byte[]? _SystemComponentModelDataAnnotations;
 
         /// <summary>
         /// The image bytes for System.ComponentModel.dll
         /// </summary>
-        public static byte[] SystemComponentModel => ResourceLoader.GetOrCreateResource(ref _SystemComponentModel, "aspnet90.System.ComponentModel");
+        public static byte[] SystemComponentModel => ResourceLoader.GetOrCreateResource(ref _SystemComponentModel, "aspnet100.System.ComponentModel");
         private static byte[]? _SystemComponentModel;
 
         /// <summary>
         /// The image bytes for System.ComponentModel.EventBasedAsync.dll
         /// </summary>
-        public static byte[] SystemComponentModelEventBasedAsync => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelEventBasedAsync, "aspnet90.System.ComponentModel.EventBasedAsync");
+        public static byte[] SystemComponentModelEventBasedAsync => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelEventBasedAsync, "aspnet100.System.ComponentModel.EventBasedAsync");
         private static byte[]? _SystemComponentModelEventBasedAsync;
 
         /// <summary>
         /// The image bytes for System.ComponentModel.Primitives.dll
         /// </summary>
-        public static byte[] SystemComponentModelPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelPrimitives, "aspnet90.System.ComponentModel.Primitives");
+        public static byte[] SystemComponentModelPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelPrimitives, "aspnet100.System.ComponentModel.Primitives");
         private static byte[]? _SystemComponentModelPrimitives;
 
         /// <summary>
         /// The image bytes for System.ComponentModel.TypeConverter.dll
         /// </summary>
-        public static byte[] SystemComponentModelTypeConverter => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelTypeConverter, "aspnet90.System.ComponentModel.TypeConverter");
+        public static byte[] SystemComponentModelTypeConverter => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelTypeConverter, "aspnet100.System.ComponentModel.TypeConverter");
         private static byte[]? _SystemComponentModelTypeConverter;
 
         /// <summary>
         /// The image bytes for System.Configuration.dll
         /// </summary>
-        public static byte[] SystemConfiguration => ResourceLoader.GetOrCreateResource(ref _SystemConfiguration, "aspnet90.System.Configuration");
+        public static byte[] SystemConfiguration => ResourceLoader.GetOrCreateResource(ref _SystemConfiguration, "aspnet100.System.Configuration");
         private static byte[]? _SystemConfiguration;
 
         /// <summary>
         /// The image bytes for System.Console.dll
         /// </summary>
-        public static byte[] SystemConsole => ResourceLoader.GetOrCreateResource(ref _SystemConsole, "aspnet90.System.Console");
+        public static byte[] SystemConsole => ResourceLoader.GetOrCreateResource(ref _SystemConsole, "aspnet100.System.Console");
         private static byte[]? _SystemConsole;
 
         /// <summary>
         /// The image bytes for System.Core.dll
         /// </summary>
-        public static byte[] SystemCore => ResourceLoader.GetOrCreateResource(ref _SystemCore, "aspnet90.System.Core");
+        public static byte[] SystemCore => ResourceLoader.GetOrCreateResource(ref _SystemCore, "aspnet100.System.Core");
         private static byte[]? _SystemCore;
 
         /// <summary>
         /// The image bytes for System.Data.Common.dll
         /// </summary>
-        public static byte[] SystemDataCommon => ResourceLoader.GetOrCreateResource(ref _SystemDataCommon, "aspnet90.System.Data.Common");
+        public static byte[] SystemDataCommon => ResourceLoader.GetOrCreateResource(ref _SystemDataCommon, "aspnet100.System.Data.Common");
         private static byte[]? _SystemDataCommon;
 
         /// <summary>
         /// The image bytes for System.Data.DataSetExtensions.dll
         /// </summary>
-        public static byte[] SystemDataDataSetExtensions => ResourceLoader.GetOrCreateResource(ref _SystemDataDataSetExtensions, "aspnet90.System.Data.DataSetExtensions");
+        public static byte[] SystemDataDataSetExtensions => ResourceLoader.GetOrCreateResource(ref _SystemDataDataSetExtensions, "aspnet100.System.Data.DataSetExtensions");
         private static byte[]? _SystemDataDataSetExtensions;
 
         /// <summary>
         /// The image bytes for System.Data.dll
         /// </summary>
-        public static byte[] SystemData => ResourceLoader.GetOrCreateResource(ref _SystemData, "aspnet90.System.Data");
+        public static byte[] SystemData => ResourceLoader.GetOrCreateResource(ref _SystemData, "aspnet100.System.Data");
         private static byte[]? _SystemData;
 
         /// <summary>
         /// The image bytes for System.Diagnostics.Contracts.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsContracts => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsContracts, "aspnet90.System.Diagnostics.Contracts");
+        public static byte[] SystemDiagnosticsContracts => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsContracts, "aspnet100.System.Diagnostics.Contracts");
         private static byte[]? _SystemDiagnosticsContracts;
 
         /// <summary>
         /// The image bytes for System.Diagnostics.Debug.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsDebug => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsDebug, "aspnet90.System.Diagnostics.Debug");
+        public static byte[] SystemDiagnosticsDebug => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsDebug, "aspnet100.System.Diagnostics.Debug");
         private static byte[]? _SystemDiagnosticsDebug;
 
         /// <summary>
         /// The image bytes for System.Diagnostics.DiagnosticSource.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsDiagnosticSource => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsDiagnosticSource, "aspnet90.System.Diagnostics.DiagnosticSource");
+        public static byte[] SystemDiagnosticsDiagnosticSource => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsDiagnosticSource, "aspnet100.System.Diagnostics.DiagnosticSource");
         private static byte[]? _SystemDiagnosticsDiagnosticSource;
 
         /// <summary>
         /// The image bytes for System.Diagnostics.FileVersionInfo.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsFileVersionInfo => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsFileVersionInfo, "aspnet90.System.Diagnostics.FileVersionInfo");
+        public static byte[] SystemDiagnosticsFileVersionInfo => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsFileVersionInfo, "aspnet100.System.Diagnostics.FileVersionInfo");
         private static byte[]? _SystemDiagnosticsFileVersionInfo;
 
         /// <summary>
         /// The image bytes for System.Diagnostics.Process.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsProcess => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsProcess, "aspnet90.System.Diagnostics.Process");
+        public static byte[] SystemDiagnosticsProcess => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsProcess, "aspnet100.System.Diagnostics.Process");
         private static byte[]? _SystemDiagnosticsProcess;
 
         /// <summary>
         /// The image bytes for System.Diagnostics.StackTrace.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsStackTrace => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsStackTrace, "aspnet90.System.Diagnostics.StackTrace");
+        public static byte[] SystemDiagnosticsStackTrace => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsStackTrace, "aspnet100.System.Diagnostics.StackTrace");
         private static byte[]? _SystemDiagnosticsStackTrace;
 
         /// <summary>
         /// The image bytes for System.Diagnostics.TextWriterTraceListener.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsTextWriterTraceListener => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTextWriterTraceListener, "aspnet90.System.Diagnostics.TextWriterTraceListener");
+        public static byte[] SystemDiagnosticsTextWriterTraceListener => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTextWriterTraceListener, "aspnet100.System.Diagnostics.TextWriterTraceListener");
         private static byte[]? _SystemDiagnosticsTextWriterTraceListener;
 
         /// <summary>
         /// The image bytes for System.Diagnostics.Tools.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsTools => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTools, "aspnet90.System.Diagnostics.Tools");
+        public static byte[] SystemDiagnosticsTools => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTools, "aspnet100.System.Diagnostics.Tools");
         private static byte[]? _SystemDiagnosticsTools;
 
         /// <summary>
         /// The image bytes for System.Diagnostics.TraceSource.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsTraceSource => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTraceSource, "aspnet90.System.Diagnostics.TraceSource");
+        public static byte[] SystemDiagnosticsTraceSource => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTraceSource, "aspnet100.System.Diagnostics.TraceSource");
         private static byte[]? _SystemDiagnosticsTraceSource;
 
         /// <summary>
         /// The image bytes for System.Diagnostics.Tracing.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsTracing => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTracing, "aspnet90.System.Diagnostics.Tracing");
+        public static byte[] SystemDiagnosticsTracing => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTracing, "aspnet100.System.Diagnostics.Tracing");
         private static byte[]? _SystemDiagnosticsTracing;
 
         /// <summary>
         /// The image bytes for System.dll
         /// </summary>
-        public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "aspnet90.System");
+        public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "aspnet100.System");
         private static byte[]? _System;
 
         /// <summary>
         /// The image bytes for System.Drawing.dll
         /// </summary>
-        public static byte[] SystemDrawing => ResourceLoader.GetOrCreateResource(ref _SystemDrawing, "aspnet90.System.Drawing");
+        public static byte[] SystemDrawing => ResourceLoader.GetOrCreateResource(ref _SystemDrawing, "aspnet100.System.Drawing");
         private static byte[]? _SystemDrawing;
 
         /// <summary>
         /// The image bytes for System.Drawing.Primitives.dll
         /// </summary>
-        public static byte[] SystemDrawingPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemDrawingPrimitives, "aspnet90.System.Drawing.Primitives");
+        public static byte[] SystemDrawingPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemDrawingPrimitives, "aspnet100.System.Drawing.Primitives");
         private static byte[]? _SystemDrawingPrimitives;
 
         /// <summary>
         /// The image bytes for System.Dynamic.Runtime.dll
         /// </summary>
-        public static byte[] SystemDynamicRuntime => ResourceLoader.GetOrCreateResource(ref _SystemDynamicRuntime, "aspnet90.System.Dynamic.Runtime");
+        public static byte[] SystemDynamicRuntime => ResourceLoader.GetOrCreateResource(ref _SystemDynamicRuntime, "aspnet100.System.Dynamic.Runtime");
         private static byte[]? _SystemDynamicRuntime;
 
         /// <summary>
         /// The image bytes for System.Formats.Asn1.dll
         /// </summary>
-        public static byte[] SystemFormatsAsn1 => ResourceLoader.GetOrCreateResource(ref _SystemFormatsAsn1, "aspnet90.System.Formats.Asn1");
+        public static byte[] SystemFormatsAsn1 => ResourceLoader.GetOrCreateResource(ref _SystemFormatsAsn1, "aspnet100.System.Formats.Asn1");
         private static byte[]? _SystemFormatsAsn1;
 
         /// <summary>
         /// The image bytes for System.Formats.Tar.dll
         /// </summary>
-        public static byte[] SystemFormatsTar => ResourceLoader.GetOrCreateResource(ref _SystemFormatsTar, "aspnet90.System.Formats.Tar");
+        public static byte[] SystemFormatsTar => ResourceLoader.GetOrCreateResource(ref _SystemFormatsTar, "aspnet100.System.Formats.Tar");
         private static byte[]? _SystemFormatsTar;
 
         /// <summary>
         /// The image bytes for System.Globalization.Calendars.dll
         /// </summary>
-        public static byte[] SystemGlobalizationCalendars => ResourceLoader.GetOrCreateResource(ref _SystemGlobalizationCalendars, "aspnet90.System.Globalization.Calendars");
+        public static byte[] SystemGlobalizationCalendars => ResourceLoader.GetOrCreateResource(ref _SystemGlobalizationCalendars, "aspnet100.System.Globalization.Calendars");
         private static byte[]? _SystemGlobalizationCalendars;
 
         /// <summary>
         /// The image bytes for System.Globalization.dll
         /// </summary>
-        public static byte[] SystemGlobalization => ResourceLoader.GetOrCreateResource(ref _SystemGlobalization, "aspnet90.System.Globalization");
+        public static byte[] SystemGlobalization => ResourceLoader.GetOrCreateResource(ref _SystemGlobalization, "aspnet100.System.Globalization");
         private static byte[]? _SystemGlobalization;
 
         /// <summary>
         /// The image bytes for System.Globalization.Extensions.dll
         /// </summary>
-        public static byte[] SystemGlobalizationExtensions => ResourceLoader.GetOrCreateResource(ref _SystemGlobalizationExtensions, "aspnet90.System.Globalization.Extensions");
+        public static byte[] SystemGlobalizationExtensions => ResourceLoader.GetOrCreateResource(ref _SystemGlobalizationExtensions, "aspnet100.System.Globalization.Extensions");
         private static byte[]? _SystemGlobalizationExtensions;
 
         /// <summary>
         /// The image bytes for System.IO.Compression.Brotli.dll
         /// </summary>
-        public static byte[] SystemIOCompressionBrotli => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionBrotli, "aspnet90.System.IO.Compression.Brotli");
+        public static byte[] SystemIOCompressionBrotli => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionBrotli, "aspnet100.System.IO.Compression.Brotli");
         private static byte[]? _SystemIOCompressionBrotli;
 
         /// <summary>
         /// The image bytes for System.IO.Compression.dll
         /// </summary>
-        public static byte[] SystemIOCompression => ResourceLoader.GetOrCreateResource(ref _SystemIOCompression, "aspnet90.System.IO.Compression");
+        public static byte[] SystemIOCompression => ResourceLoader.GetOrCreateResource(ref _SystemIOCompression, "aspnet100.System.IO.Compression");
         private static byte[]? _SystemIOCompression;
 
         /// <summary>
         /// The image bytes for System.IO.Compression.FileSystem.dll
         /// </summary>
-        public static byte[] SystemIOCompressionFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionFileSystem, "aspnet90.System.IO.Compression.FileSystem");
+        public static byte[] SystemIOCompressionFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionFileSystem, "aspnet100.System.IO.Compression.FileSystem");
         private static byte[]? _SystemIOCompressionFileSystem;
 
         /// <summary>
         /// The image bytes for System.IO.Compression.ZipFile.dll
         /// </summary>
-        public static byte[] SystemIOCompressionZipFile => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionZipFile, "aspnet90.System.IO.Compression.ZipFile");
+        public static byte[] SystemIOCompressionZipFile => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionZipFile, "aspnet100.System.IO.Compression.ZipFile");
         private static byte[]? _SystemIOCompressionZipFile;
 
         /// <summary>
         /// The image bytes for System.IO.dll
         /// </summary>
-        public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "aspnet90.System.IO");
+        public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "aspnet100.System.IO");
         private static byte[]? _SystemIO;
 
         /// <summary>
         /// The image bytes for System.IO.FileSystem.AccessControl.dll
         /// </summary>
-        public static byte[] SystemIOFileSystemAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemAccessControl, "aspnet90.System.IO.FileSystem.AccessControl");
+        public static byte[] SystemIOFileSystemAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemAccessControl, "aspnet100.System.IO.FileSystem.AccessControl");
         private static byte[]? _SystemIOFileSystemAccessControl;
 
         /// <summary>
         /// The image bytes for System.IO.FileSystem.dll
         /// </summary>
-        public static byte[] SystemIOFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystem, "aspnet90.System.IO.FileSystem");
+        public static byte[] SystemIOFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystem, "aspnet100.System.IO.FileSystem");
         private static byte[]? _SystemIOFileSystem;
 
         /// <summary>
         /// The image bytes for System.IO.FileSystem.DriveInfo.dll
         /// </summary>
-        public static byte[] SystemIOFileSystemDriveInfo => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemDriveInfo, "aspnet90.System.IO.FileSystem.DriveInfo");
+        public static byte[] SystemIOFileSystemDriveInfo => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemDriveInfo, "aspnet100.System.IO.FileSystem.DriveInfo");
         private static byte[]? _SystemIOFileSystemDriveInfo;
 
         /// <summary>
         /// The image bytes for System.IO.FileSystem.Primitives.dll
         /// </summary>
-        public static byte[] SystemIOFileSystemPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemPrimitives, "aspnet90.System.IO.FileSystem.Primitives");
+        public static byte[] SystemIOFileSystemPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemPrimitives, "aspnet100.System.IO.FileSystem.Primitives");
         private static byte[]? _SystemIOFileSystemPrimitives;
 
         /// <summary>
         /// The image bytes for System.IO.FileSystem.Watcher.dll
         /// </summary>
-        public static byte[] SystemIOFileSystemWatcher => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemWatcher, "aspnet90.System.IO.FileSystem.Watcher");
+        public static byte[] SystemIOFileSystemWatcher => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemWatcher, "aspnet100.System.IO.FileSystem.Watcher");
         private static byte[]? _SystemIOFileSystemWatcher;
 
         /// <summary>
         /// The image bytes for System.IO.IsolatedStorage.dll
         /// </summary>
-        public static byte[] SystemIOIsolatedStorage => ResourceLoader.GetOrCreateResource(ref _SystemIOIsolatedStorage, "aspnet90.System.IO.IsolatedStorage");
+        public static byte[] SystemIOIsolatedStorage => ResourceLoader.GetOrCreateResource(ref _SystemIOIsolatedStorage, "aspnet100.System.IO.IsolatedStorage");
         private static byte[]? _SystemIOIsolatedStorage;
 
         /// <summary>
         /// The image bytes for System.IO.MemoryMappedFiles.dll
         /// </summary>
-        public static byte[] SystemIOMemoryMappedFiles => ResourceLoader.GetOrCreateResource(ref _SystemIOMemoryMappedFiles, "aspnet90.System.IO.MemoryMappedFiles");
+        public static byte[] SystemIOMemoryMappedFiles => ResourceLoader.GetOrCreateResource(ref _SystemIOMemoryMappedFiles, "aspnet100.System.IO.MemoryMappedFiles");
         private static byte[]? _SystemIOMemoryMappedFiles;
 
         /// <summary>
         /// The image bytes for System.IO.Pipelines.dll
         /// </summary>
-        public static byte[] SystemIOPipelines => ResourceLoader.GetOrCreateResource(ref _SystemIOPipelines, "aspnet90.System.IO.Pipelines");
+        public static byte[] SystemIOPipelines => ResourceLoader.GetOrCreateResource(ref _SystemIOPipelines, "aspnet100.System.IO.Pipelines");
         private static byte[]? _SystemIOPipelines;
 
         /// <summary>
         /// The image bytes for System.IO.Pipes.AccessControl.dll
         /// </summary>
-        public static byte[] SystemIOPipesAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemIOPipesAccessControl, "aspnet90.System.IO.Pipes.AccessControl");
+        public static byte[] SystemIOPipesAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemIOPipesAccessControl, "aspnet100.System.IO.Pipes.AccessControl");
         private static byte[]? _SystemIOPipesAccessControl;
 
         /// <summary>
         /// The image bytes for System.IO.Pipes.dll
         /// </summary>
-        public static byte[] SystemIOPipes => ResourceLoader.GetOrCreateResource(ref _SystemIOPipes, "aspnet90.System.IO.Pipes");
+        public static byte[] SystemIOPipes => ResourceLoader.GetOrCreateResource(ref _SystemIOPipes, "aspnet100.System.IO.Pipes");
         private static byte[]? _SystemIOPipes;
 
         /// <summary>
         /// The image bytes for System.IO.UnmanagedMemoryStream.dll
         /// </summary>
-        public static byte[] SystemIOUnmanagedMemoryStream => ResourceLoader.GetOrCreateResource(ref _SystemIOUnmanagedMemoryStream, "aspnet90.System.IO.UnmanagedMemoryStream");
+        public static byte[] SystemIOUnmanagedMemoryStream => ResourceLoader.GetOrCreateResource(ref _SystemIOUnmanagedMemoryStream, "aspnet100.System.IO.UnmanagedMemoryStream");
         private static byte[]? _SystemIOUnmanagedMemoryStream;
+
+        /// <summary>
+        /// The image bytes for System.Linq.AsyncEnumerable.dll
+        /// </summary>
+        public static byte[] SystemLinqAsyncEnumerable => ResourceLoader.GetOrCreateResource(ref _SystemLinqAsyncEnumerable, "aspnet100.System.Linq.AsyncEnumerable");
+        private static byte[]? _SystemLinqAsyncEnumerable;
 
         /// <summary>
         /// The image bytes for System.Linq.dll
         /// </summary>
-        public static byte[] SystemLinq => ResourceLoader.GetOrCreateResource(ref _SystemLinq, "aspnet90.System.Linq");
+        public static byte[] SystemLinq => ResourceLoader.GetOrCreateResource(ref _SystemLinq, "aspnet100.System.Linq");
         private static byte[]? _SystemLinq;
 
         /// <summary>
         /// The image bytes for System.Linq.Expressions.dll
         /// </summary>
-        public static byte[] SystemLinqExpressions => ResourceLoader.GetOrCreateResource(ref _SystemLinqExpressions, "aspnet90.System.Linq.Expressions");
+        public static byte[] SystemLinqExpressions => ResourceLoader.GetOrCreateResource(ref _SystemLinqExpressions, "aspnet100.System.Linq.Expressions");
         private static byte[]? _SystemLinqExpressions;
 
         /// <summary>
         /// The image bytes for System.Linq.Parallel.dll
         /// </summary>
-        public static byte[] SystemLinqParallel => ResourceLoader.GetOrCreateResource(ref _SystemLinqParallel, "aspnet90.System.Linq.Parallel");
+        public static byte[] SystemLinqParallel => ResourceLoader.GetOrCreateResource(ref _SystemLinqParallel, "aspnet100.System.Linq.Parallel");
         private static byte[]? _SystemLinqParallel;
 
         /// <summary>
         /// The image bytes for System.Linq.Queryable.dll
         /// </summary>
-        public static byte[] SystemLinqQueryable => ResourceLoader.GetOrCreateResource(ref _SystemLinqQueryable, "aspnet90.System.Linq.Queryable");
+        public static byte[] SystemLinqQueryable => ResourceLoader.GetOrCreateResource(ref _SystemLinqQueryable, "aspnet100.System.Linq.Queryable");
         private static byte[]? _SystemLinqQueryable;
 
         /// <summary>
         /// The image bytes for System.Memory.dll
         /// </summary>
-        public static byte[] SystemMemory => ResourceLoader.GetOrCreateResource(ref _SystemMemory, "aspnet90.System.Memory");
+        public static byte[] SystemMemory => ResourceLoader.GetOrCreateResource(ref _SystemMemory, "aspnet100.System.Memory");
         private static byte[]? _SystemMemory;
 
         /// <summary>
         /// The image bytes for System.Net.dll
         /// </summary>
-        public static byte[] SystemNet => ResourceLoader.GetOrCreateResource(ref _SystemNet, "aspnet90.System.Net");
+        public static byte[] SystemNet => ResourceLoader.GetOrCreateResource(ref _SystemNet, "aspnet100.System.Net");
         private static byte[]? _SystemNet;
 
         /// <summary>
         /// The image bytes for System.Net.Http.dll
         /// </summary>
-        public static byte[] SystemNetHttp => ResourceLoader.GetOrCreateResource(ref _SystemNetHttp, "aspnet90.System.Net.Http");
+        public static byte[] SystemNetHttp => ResourceLoader.GetOrCreateResource(ref _SystemNetHttp, "aspnet100.System.Net.Http");
         private static byte[]? _SystemNetHttp;
 
         /// <summary>
         /// The image bytes for System.Net.Http.Json.dll
         /// </summary>
-        public static byte[] SystemNetHttpJson => ResourceLoader.GetOrCreateResource(ref _SystemNetHttpJson, "aspnet90.System.Net.Http.Json");
+        public static byte[] SystemNetHttpJson => ResourceLoader.GetOrCreateResource(ref _SystemNetHttpJson, "aspnet100.System.Net.Http.Json");
         private static byte[]? _SystemNetHttpJson;
 
         /// <summary>
         /// The image bytes for System.Net.HttpListener.dll
         /// </summary>
-        public static byte[] SystemNetHttpListener => ResourceLoader.GetOrCreateResource(ref _SystemNetHttpListener, "aspnet90.System.Net.HttpListener");
+        public static byte[] SystemNetHttpListener => ResourceLoader.GetOrCreateResource(ref _SystemNetHttpListener, "aspnet100.System.Net.HttpListener");
         private static byte[]? _SystemNetHttpListener;
 
         /// <summary>
         /// The image bytes for System.Net.Mail.dll
         /// </summary>
-        public static byte[] SystemNetMail => ResourceLoader.GetOrCreateResource(ref _SystemNetMail, "aspnet90.System.Net.Mail");
+        public static byte[] SystemNetMail => ResourceLoader.GetOrCreateResource(ref _SystemNetMail, "aspnet100.System.Net.Mail");
         private static byte[]? _SystemNetMail;
 
         /// <summary>
         /// The image bytes for System.Net.NameResolution.dll
         /// </summary>
-        public static byte[] SystemNetNameResolution => ResourceLoader.GetOrCreateResource(ref _SystemNetNameResolution, "aspnet90.System.Net.NameResolution");
+        public static byte[] SystemNetNameResolution => ResourceLoader.GetOrCreateResource(ref _SystemNetNameResolution, "aspnet100.System.Net.NameResolution");
         private static byte[]? _SystemNetNameResolution;
 
         /// <summary>
         /// The image bytes for System.Net.NetworkInformation.dll
         /// </summary>
-        public static byte[] SystemNetNetworkInformation => ResourceLoader.GetOrCreateResource(ref _SystemNetNetworkInformation, "aspnet90.System.Net.NetworkInformation");
+        public static byte[] SystemNetNetworkInformation => ResourceLoader.GetOrCreateResource(ref _SystemNetNetworkInformation, "aspnet100.System.Net.NetworkInformation");
         private static byte[]? _SystemNetNetworkInformation;
 
         /// <summary>
         /// The image bytes for System.Net.Ping.dll
         /// </summary>
-        public static byte[] SystemNetPing => ResourceLoader.GetOrCreateResource(ref _SystemNetPing, "aspnet90.System.Net.Ping");
+        public static byte[] SystemNetPing => ResourceLoader.GetOrCreateResource(ref _SystemNetPing, "aspnet100.System.Net.Ping");
         private static byte[]? _SystemNetPing;
 
         /// <summary>
         /// The image bytes for System.Net.Primitives.dll
         /// </summary>
-        public static byte[] SystemNetPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemNetPrimitives, "aspnet90.System.Net.Primitives");
+        public static byte[] SystemNetPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemNetPrimitives, "aspnet100.System.Net.Primitives");
         private static byte[]? _SystemNetPrimitives;
 
         /// <summary>
         /// The image bytes for System.Net.Quic.dll
         /// </summary>
-        public static byte[] SystemNetQuic => ResourceLoader.GetOrCreateResource(ref _SystemNetQuic, "aspnet90.System.Net.Quic");
+        public static byte[] SystemNetQuic => ResourceLoader.GetOrCreateResource(ref _SystemNetQuic, "aspnet100.System.Net.Quic");
         private static byte[]? _SystemNetQuic;
 
         /// <summary>
         /// The image bytes for System.Net.Requests.dll
         /// </summary>
-        public static byte[] SystemNetRequests => ResourceLoader.GetOrCreateResource(ref _SystemNetRequests, "aspnet90.System.Net.Requests");
+        public static byte[] SystemNetRequests => ResourceLoader.GetOrCreateResource(ref _SystemNetRequests, "aspnet100.System.Net.Requests");
         private static byte[]? _SystemNetRequests;
 
         /// <summary>
         /// The image bytes for System.Net.Security.dll
         /// </summary>
-        public static byte[] SystemNetSecurity => ResourceLoader.GetOrCreateResource(ref _SystemNetSecurity, "aspnet90.System.Net.Security");
+        public static byte[] SystemNetSecurity => ResourceLoader.GetOrCreateResource(ref _SystemNetSecurity, "aspnet100.System.Net.Security");
         private static byte[]? _SystemNetSecurity;
+
+        /// <summary>
+        /// The image bytes for System.Net.ServerSentEvents.dll
+        /// </summary>
+        public static byte[] SystemNetServerSentEvents => ResourceLoader.GetOrCreateResource(ref _SystemNetServerSentEvents, "aspnet100.System.Net.ServerSentEvents");
+        private static byte[]? _SystemNetServerSentEvents;
 
         /// <summary>
         /// The image bytes for System.Net.ServicePoint.dll
         /// </summary>
-        public static byte[] SystemNetServicePoint => ResourceLoader.GetOrCreateResource(ref _SystemNetServicePoint, "aspnet90.System.Net.ServicePoint");
+        public static byte[] SystemNetServicePoint => ResourceLoader.GetOrCreateResource(ref _SystemNetServicePoint, "aspnet100.System.Net.ServicePoint");
         private static byte[]? _SystemNetServicePoint;
 
         /// <summary>
         /// The image bytes for System.Net.Sockets.dll
         /// </summary>
-        public static byte[] SystemNetSockets => ResourceLoader.GetOrCreateResource(ref _SystemNetSockets, "aspnet90.System.Net.Sockets");
+        public static byte[] SystemNetSockets => ResourceLoader.GetOrCreateResource(ref _SystemNetSockets, "aspnet100.System.Net.Sockets");
         private static byte[]? _SystemNetSockets;
 
         /// <summary>
         /// The image bytes for System.Net.WebClient.dll
         /// </summary>
-        public static byte[] SystemNetWebClient => ResourceLoader.GetOrCreateResource(ref _SystemNetWebClient, "aspnet90.System.Net.WebClient");
+        public static byte[] SystemNetWebClient => ResourceLoader.GetOrCreateResource(ref _SystemNetWebClient, "aspnet100.System.Net.WebClient");
         private static byte[]? _SystemNetWebClient;
 
         /// <summary>
         /// The image bytes for System.Net.WebHeaderCollection.dll
         /// </summary>
-        public static byte[] SystemNetWebHeaderCollection => ResourceLoader.GetOrCreateResource(ref _SystemNetWebHeaderCollection, "aspnet90.System.Net.WebHeaderCollection");
+        public static byte[] SystemNetWebHeaderCollection => ResourceLoader.GetOrCreateResource(ref _SystemNetWebHeaderCollection, "aspnet100.System.Net.WebHeaderCollection");
         private static byte[]? _SystemNetWebHeaderCollection;
 
         /// <summary>
         /// The image bytes for System.Net.WebProxy.dll
         /// </summary>
-        public static byte[] SystemNetWebProxy => ResourceLoader.GetOrCreateResource(ref _SystemNetWebProxy, "aspnet90.System.Net.WebProxy");
+        public static byte[] SystemNetWebProxy => ResourceLoader.GetOrCreateResource(ref _SystemNetWebProxy, "aspnet100.System.Net.WebProxy");
         private static byte[]? _SystemNetWebProxy;
 
         /// <summary>
         /// The image bytes for System.Net.WebSockets.Client.dll
         /// </summary>
-        public static byte[] SystemNetWebSocketsClient => ResourceLoader.GetOrCreateResource(ref _SystemNetWebSocketsClient, "aspnet90.System.Net.WebSockets.Client");
+        public static byte[] SystemNetWebSocketsClient => ResourceLoader.GetOrCreateResource(ref _SystemNetWebSocketsClient, "aspnet100.System.Net.WebSockets.Client");
         private static byte[]? _SystemNetWebSocketsClient;
 
         /// <summary>
         /// The image bytes for System.Net.WebSockets.dll
         /// </summary>
-        public static byte[] SystemNetWebSockets => ResourceLoader.GetOrCreateResource(ref _SystemNetWebSockets, "aspnet90.System.Net.WebSockets");
+        public static byte[] SystemNetWebSockets => ResourceLoader.GetOrCreateResource(ref _SystemNetWebSockets, "aspnet100.System.Net.WebSockets");
         private static byte[]? _SystemNetWebSockets;
 
         /// <summary>
         /// The image bytes for System.Numerics.dll
         /// </summary>
-        public static byte[] SystemNumerics => ResourceLoader.GetOrCreateResource(ref _SystemNumerics, "aspnet90.System.Numerics");
+        public static byte[] SystemNumerics => ResourceLoader.GetOrCreateResource(ref _SystemNumerics, "aspnet100.System.Numerics");
         private static byte[]? _SystemNumerics;
 
         /// <summary>
         /// The image bytes for System.Numerics.Vectors.dll
         /// </summary>
-        public static byte[] SystemNumericsVectors => ResourceLoader.GetOrCreateResource(ref _SystemNumericsVectors, "aspnet90.System.Numerics.Vectors");
+        public static byte[] SystemNumericsVectors => ResourceLoader.GetOrCreateResource(ref _SystemNumericsVectors, "aspnet100.System.Numerics.Vectors");
         private static byte[]? _SystemNumericsVectors;
 
         /// <summary>
         /// The image bytes for System.ObjectModel.dll
         /// </summary>
-        public static byte[] SystemObjectModel => ResourceLoader.GetOrCreateResource(ref _SystemObjectModel, "aspnet90.System.ObjectModel");
+        public static byte[] SystemObjectModel => ResourceLoader.GetOrCreateResource(ref _SystemObjectModel, "aspnet100.System.ObjectModel");
         private static byte[]? _SystemObjectModel;
 
         /// <summary>
         /// The image bytes for System.Reflection.DispatchProxy.dll
         /// </summary>
-        public static byte[] SystemReflectionDispatchProxy => ResourceLoader.GetOrCreateResource(ref _SystemReflectionDispatchProxy, "aspnet90.System.Reflection.DispatchProxy");
+        public static byte[] SystemReflectionDispatchProxy => ResourceLoader.GetOrCreateResource(ref _SystemReflectionDispatchProxy, "aspnet100.System.Reflection.DispatchProxy");
         private static byte[]? _SystemReflectionDispatchProxy;
 
         /// <summary>
         /// The image bytes for System.Reflection.dll
         /// </summary>
-        public static byte[] SystemReflection => ResourceLoader.GetOrCreateResource(ref _SystemReflection, "aspnet90.System.Reflection");
+        public static byte[] SystemReflection => ResourceLoader.GetOrCreateResource(ref _SystemReflection, "aspnet100.System.Reflection");
         private static byte[]? _SystemReflection;
 
         /// <summary>
         /// The image bytes for System.Reflection.Emit.dll
         /// </summary>
-        public static byte[] SystemReflectionEmit => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmit, "aspnet90.System.Reflection.Emit");
+        public static byte[] SystemReflectionEmit => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmit, "aspnet100.System.Reflection.Emit");
         private static byte[]? _SystemReflectionEmit;
 
         /// <summary>
         /// The image bytes for System.Reflection.Emit.ILGeneration.dll
         /// </summary>
-        public static byte[] SystemReflectionEmitILGeneration => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmitILGeneration, "aspnet90.System.Reflection.Emit.ILGeneration");
+        public static byte[] SystemReflectionEmitILGeneration => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmitILGeneration, "aspnet100.System.Reflection.Emit.ILGeneration");
         private static byte[]? _SystemReflectionEmitILGeneration;
 
         /// <summary>
         /// The image bytes for System.Reflection.Emit.Lightweight.dll
         /// </summary>
-        public static byte[] SystemReflectionEmitLightweight => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmitLightweight, "aspnet90.System.Reflection.Emit.Lightweight");
+        public static byte[] SystemReflectionEmitLightweight => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmitLightweight, "aspnet100.System.Reflection.Emit.Lightweight");
         private static byte[]? _SystemReflectionEmitLightweight;
 
         /// <summary>
         /// The image bytes for System.Reflection.Extensions.dll
         /// </summary>
-        public static byte[] SystemReflectionExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionExtensions, "aspnet90.System.Reflection.Extensions");
+        public static byte[] SystemReflectionExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionExtensions, "aspnet100.System.Reflection.Extensions");
         private static byte[]? _SystemReflectionExtensions;
 
         /// <summary>
         /// The image bytes for System.Reflection.Metadata.dll
         /// </summary>
-        public static byte[] SystemReflectionMetadata => ResourceLoader.GetOrCreateResource(ref _SystemReflectionMetadata, "aspnet90.System.Reflection.Metadata");
+        public static byte[] SystemReflectionMetadata => ResourceLoader.GetOrCreateResource(ref _SystemReflectionMetadata, "aspnet100.System.Reflection.Metadata");
         private static byte[]? _SystemReflectionMetadata;
 
         /// <summary>
         /// The image bytes for System.Reflection.Primitives.dll
         /// </summary>
-        public static byte[] SystemReflectionPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemReflectionPrimitives, "aspnet90.System.Reflection.Primitives");
+        public static byte[] SystemReflectionPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemReflectionPrimitives, "aspnet100.System.Reflection.Primitives");
         private static byte[]? _SystemReflectionPrimitives;
 
         /// <summary>
         /// The image bytes for System.Reflection.TypeExtensions.dll
         /// </summary>
-        public static byte[] SystemReflectionTypeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionTypeExtensions, "aspnet90.System.Reflection.TypeExtensions");
+        public static byte[] SystemReflectionTypeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionTypeExtensions, "aspnet100.System.Reflection.TypeExtensions");
         private static byte[]? _SystemReflectionTypeExtensions;
 
         /// <summary>
         /// The image bytes for System.Resources.Reader.dll
         /// </summary>
-        public static byte[] SystemResourcesReader => ResourceLoader.GetOrCreateResource(ref _SystemResourcesReader, "aspnet90.System.Resources.Reader");
+        public static byte[] SystemResourcesReader => ResourceLoader.GetOrCreateResource(ref _SystemResourcesReader, "aspnet100.System.Resources.Reader");
         private static byte[]? _SystemResourcesReader;
 
         /// <summary>
         /// The image bytes for System.Resources.ResourceManager.dll
         /// </summary>
-        public static byte[] SystemResourcesResourceManager => ResourceLoader.GetOrCreateResource(ref _SystemResourcesResourceManager, "aspnet90.System.Resources.ResourceManager");
+        public static byte[] SystemResourcesResourceManager => ResourceLoader.GetOrCreateResource(ref _SystemResourcesResourceManager, "aspnet100.System.Resources.ResourceManager");
         private static byte[]? _SystemResourcesResourceManager;
 
         /// <summary>
         /// The image bytes for System.Resources.Writer.dll
         /// </summary>
-        public static byte[] SystemResourcesWriter => ResourceLoader.GetOrCreateResource(ref _SystemResourcesWriter, "aspnet90.System.Resources.Writer");
+        public static byte[] SystemResourcesWriter => ResourceLoader.GetOrCreateResource(ref _SystemResourcesWriter, "aspnet100.System.Resources.Writer");
         private static byte[]? _SystemResourcesWriter;
 
         /// <summary>
         /// The image bytes for System.Runtime.CompilerServices.Unsafe.dll
         /// </summary>
-        public static byte[] SystemRuntimeCompilerServicesUnsafe => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeCompilerServicesUnsafe, "aspnet90.System.Runtime.CompilerServices.Unsafe");
+        public static byte[] SystemRuntimeCompilerServicesUnsafe => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeCompilerServicesUnsafe, "aspnet100.System.Runtime.CompilerServices.Unsafe");
         private static byte[]? _SystemRuntimeCompilerServicesUnsafe;
 
         /// <summary>
         /// The image bytes for System.Runtime.CompilerServices.VisualC.dll
         /// </summary>
-        public static byte[] SystemRuntimeCompilerServicesVisualC => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeCompilerServicesVisualC, "aspnet90.System.Runtime.CompilerServices.VisualC");
+        public static byte[] SystemRuntimeCompilerServicesVisualC => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeCompilerServicesVisualC, "aspnet100.System.Runtime.CompilerServices.VisualC");
         private static byte[]? _SystemRuntimeCompilerServicesVisualC;
 
         /// <summary>
         /// The image bytes for System.Runtime.dll
         /// </summary>
-        public static byte[] SystemRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntime, "aspnet90.System.Runtime");
+        public static byte[] SystemRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntime, "aspnet100.System.Runtime");
         private static byte[]? _SystemRuntime;
 
         /// <summary>
         /// The image bytes for System.Runtime.Extensions.dll
         /// </summary>
-        public static byte[] SystemRuntimeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeExtensions, "aspnet90.System.Runtime.Extensions");
+        public static byte[] SystemRuntimeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeExtensions, "aspnet100.System.Runtime.Extensions");
         private static byte[]? _SystemRuntimeExtensions;
 
         /// <summary>
         /// The image bytes for System.Runtime.Handles.dll
         /// </summary>
-        public static byte[] SystemRuntimeHandles => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeHandles, "aspnet90.System.Runtime.Handles");
+        public static byte[] SystemRuntimeHandles => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeHandles, "aspnet100.System.Runtime.Handles");
         private static byte[]? _SystemRuntimeHandles;
 
         /// <summary>
         /// The image bytes for System.Runtime.InteropServices.dll
         /// </summary>
-        public static byte[] SystemRuntimeInteropServices => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServices, "aspnet90.System.Runtime.InteropServices");
+        public static byte[] SystemRuntimeInteropServices => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServices, "aspnet100.System.Runtime.InteropServices");
         private static byte[]? _SystemRuntimeInteropServices;
 
         /// <summary>
         /// The image bytes for System.Runtime.InteropServices.JavaScript.dll
         /// </summary>
-        public static byte[] SystemRuntimeInteropServicesJavaScript => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesJavaScript, "aspnet90.System.Runtime.InteropServices.JavaScript");
+        public static byte[] SystemRuntimeInteropServicesJavaScript => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesJavaScript, "aspnet100.System.Runtime.InteropServices.JavaScript");
         private static byte[]? _SystemRuntimeInteropServicesJavaScript;
 
         /// <summary>
         /// The image bytes for System.Runtime.InteropServices.RuntimeInformation.dll
         /// </summary>
-        public static byte[] SystemRuntimeInteropServicesRuntimeInformation => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesRuntimeInformation, "aspnet90.System.Runtime.InteropServices.RuntimeInformation");
+        public static byte[] SystemRuntimeInteropServicesRuntimeInformation => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesRuntimeInformation, "aspnet100.System.Runtime.InteropServices.RuntimeInformation");
         private static byte[]? _SystemRuntimeInteropServicesRuntimeInformation;
 
         /// <summary>
         /// The image bytes for System.Runtime.Intrinsics.dll
         /// </summary>
-        public static byte[] SystemRuntimeIntrinsics => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeIntrinsics, "aspnet90.System.Runtime.Intrinsics");
+        public static byte[] SystemRuntimeIntrinsics => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeIntrinsics, "aspnet100.System.Runtime.Intrinsics");
         private static byte[]? _SystemRuntimeIntrinsics;
 
         /// <summary>
         /// The image bytes for System.Runtime.Loader.dll
         /// </summary>
-        public static byte[] SystemRuntimeLoader => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeLoader, "aspnet90.System.Runtime.Loader");
+        public static byte[] SystemRuntimeLoader => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeLoader, "aspnet100.System.Runtime.Loader");
         private static byte[]? _SystemRuntimeLoader;
 
         /// <summary>
         /// The image bytes for System.Runtime.Numerics.dll
         /// </summary>
-        public static byte[] SystemRuntimeNumerics => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeNumerics, "aspnet90.System.Runtime.Numerics");
+        public static byte[] SystemRuntimeNumerics => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeNumerics, "aspnet100.System.Runtime.Numerics");
         private static byte[]? _SystemRuntimeNumerics;
 
         /// <summary>
         /// The image bytes for System.Runtime.Serialization.dll
         /// </summary>
-        public static byte[] SystemRuntimeSerialization => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerialization, "aspnet90.System.Runtime.Serialization");
+        public static byte[] SystemRuntimeSerialization => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerialization, "aspnet100.System.Runtime.Serialization");
         private static byte[]? _SystemRuntimeSerialization;
 
         /// <summary>
         /// The image bytes for System.Runtime.Serialization.Formatters.dll
         /// </summary>
-        public static byte[] SystemRuntimeSerializationFormatters => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationFormatters, "aspnet90.System.Runtime.Serialization.Formatters");
+        public static byte[] SystemRuntimeSerializationFormatters => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationFormatters, "aspnet100.System.Runtime.Serialization.Formatters");
         private static byte[]? _SystemRuntimeSerializationFormatters;
 
         /// <summary>
         /// The image bytes for System.Runtime.Serialization.Json.dll
         /// </summary>
-        public static byte[] SystemRuntimeSerializationJson => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationJson, "aspnet90.System.Runtime.Serialization.Json");
+        public static byte[] SystemRuntimeSerializationJson => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationJson, "aspnet100.System.Runtime.Serialization.Json");
         private static byte[]? _SystemRuntimeSerializationJson;
 
         /// <summary>
         /// The image bytes for System.Runtime.Serialization.Primitives.dll
         /// </summary>
-        public static byte[] SystemRuntimeSerializationPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationPrimitives, "aspnet90.System.Runtime.Serialization.Primitives");
+        public static byte[] SystemRuntimeSerializationPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationPrimitives, "aspnet100.System.Runtime.Serialization.Primitives");
         private static byte[]? _SystemRuntimeSerializationPrimitives;
 
         /// <summary>
         /// The image bytes for System.Runtime.Serialization.Xml.dll
         /// </summary>
-        public static byte[] SystemRuntimeSerializationXml => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationXml, "aspnet90.System.Runtime.Serialization.Xml");
+        public static byte[] SystemRuntimeSerializationXml => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationXml, "aspnet100.System.Runtime.Serialization.Xml");
         private static byte[]? _SystemRuntimeSerializationXml;
 
         /// <summary>
         /// The image bytes for System.Security.AccessControl.dll
         /// </summary>
-        public static byte[] SystemSecurityAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemSecurityAccessControl, "aspnet90.System.Security.AccessControl");
+        public static byte[] SystemSecurityAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemSecurityAccessControl, "aspnet100.System.Security.AccessControl");
         private static byte[]? _SystemSecurityAccessControl;
 
         /// <summary>
         /// The image bytes for System.Security.Claims.dll
         /// </summary>
-        public static byte[] SystemSecurityClaims => ResourceLoader.GetOrCreateResource(ref _SystemSecurityClaims, "aspnet90.System.Security.Claims");
+        public static byte[] SystemSecurityClaims => ResourceLoader.GetOrCreateResource(ref _SystemSecurityClaims, "aspnet100.System.Security.Claims");
         private static byte[]? _SystemSecurityClaims;
 
         /// <summary>
         /// The image bytes for System.Security.Cryptography.Algorithms.dll
         /// </summary>
-        public static byte[] SystemSecurityCryptographyAlgorithms => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyAlgorithms, "aspnet90.System.Security.Cryptography.Algorithms");
+        public static byte[] SystemSecurityCryptographyAlgorithms => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyAlgorithms, "aspnet100.System.Security.Cryptography.Algorithms");
         private static byte[]? _SystemSecurityCryptographyAlgorithms;
 
         /// <summary>
         /// The image bytes for System.Security.Cryptography.Cng.dll
         /// </summary>
-        public static byte[] SystemSecurityCryptographyCng => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyCng, "aspnet90.System.Security.Cryptography.Cng");
+        public static byte[] SystemSecurityCryptographyCng => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyCng, "aspnet100.System.Security.Cryptography.Cng");
         private static byte[]? _SystemSecurityCryptographyCng;
 
         /// <summary>
         /// The image bytes for System.Security.Cryptography.Csp.dll
         /// </summary>
-        public static byte[] SystemSecurityCryptographyCsp => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyCsp, "aspnet90.System.Security.Cryptography.Csp");
+        public static byte[] SystemSecurityCryptographyCsp => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyCsp, "aspnet100.System.Security.Cryptography.Csp");
         private static byte[]? _SystemSecurityCryptographyCsp;
 
         /// <summary>
         /// The image bytes for System.Security.Cryptography.dll
         /// </summary>
-        public static byte[] SystemSecurityCryptography => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptography, "aspnet90.System.Security.Cryptography");
+        public static byte[] SystemSecurityCryptography => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptography, "aspnet100.System.Security.Cryptography");
         private static byte[]? _SystemSecurityCryptography;
 
         /// <summary>
         /// The image bytes for System.Security.Cryptography.Encoding.dll
         /// </summary>
-        public static byte[] SystemSecurityCryptographyEncoding => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyEncoding, "aspnet90.System.Security.Cryptography.Encoding");
+        public static byte[] SystemSecurityCryptographyEncoding => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyEncoding, "aspnet100.System.Security.Cryptography.Encoding");
         private static byte[]? _SystemSecurityCryptographyEncoding;
 
         /// <summary>
         /// The image bytes for System.Security.Cryptography.OpenSsl.dll
         /// </summary>
-        public static byte[] SystemSecurityCryptographyOpenSsl => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyOpenSsl, "aspnet90.System.Security.Cryptography.OpenSsl");
+        public static byte[] SystemSecurityCryptographyOpenSsl => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyOpenSsl, "aspnet100.System.Security.Cryptography.OpenSsl");
         private static byte[]? _SystemSecurityCryptographyOpenSsl;
 
         /// <summary>
         /// The image bytes for System.Security.Cryptography.Primitives.dll
         /// </summary>
-        public static byte[] SystemSecurityCryptographyPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyPrimitives, "aspnet90.System.Security.Cryptography.Primitives");
+        public static byte[] SystemSecurityCryptographyPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyPrimitives, "aspnet100.System.Security.Cryptography.Primitives");
         private static byte[]? _SystemSecurityCryptographyPrimitives;
 
         /// <summary>
         /// The image bytes for System.Security.Cryptography.X509Certificates.dll
         /// </summary>
-        public static byte[] SystemSecurityCryptographyX509Certificates => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyX509Certificates, "aspnet90.System.Security.Cryptography.X509Certificates");
+        public static byte[] SystemSecurityCryptographyX509Certificates => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyX509Certificates, "aspnet100.System.Security.Cryptography.X509Certificates");
         private static byte[]? _SystemSecurityCryptographyX509Certificates;
 
         /// <summary>
         /// The image bytes for System.Security.dll
         /// </summary>
-        public static byte[] SystemSecurity => ResourceLoader.GetOrCreateResource(ref _SystemSecurity, "aspnet90.System.Security");
+        public static byte[] SystemSecurity => ResourceLoader.GetOrCreateResource(ref _SystemSecurity, "aspnet100.System.Security");
         private static byte[]? _SystemSecurity;
 
         /// <summary>
         /// The image bytes for System.Security.Principal.dll
         /// </summary>
-        public static byte[] SystemSecurityPrincipal => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipal, "aspnet90.System.Security.Principal");
+        public static byte[] SystemSecurityPrincipal => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipal, "aspnet100.System.Security.Principal");
         private static byte[]? _SystemSecurityPrincipal;
 
         /// <summary>
         /// The image bytes for System.Security.Principal.Windows.dll
         /// </summary>
-        public static byte[] SystemSecurityPrincipalWindows => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipalWindows, "aspnet90.System.Security.Principal.Windows");
+        public static byte[] SystemSecurityPrincipalWindows => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipalWindows, "aspnet100.System.Security.Principal.Windows");
         private static byte[]? _SystemSecurityPrincipalWindows;
 
         /// <summary>
         /// The image bytes for System.Security.SecureString.dll
         /// </summary>
-        public static byte[] SystemSecuritySecureString => ResourceLoader.GetOrCreateResource(ref _SystemSecuritySecureString, "aspnet90.System.Security.SecureString");
+        public static byte[] SystemSecuritySecureString => ResourceLoader.GetOrCreateResource(ref _SystemSecuritySecureString, "aspnet100.System.Security.SecureString");
         private static byte[]? _SystemSecuritySecureString;
 
         /// <summary>
         /// The image bytes for System.ServiceModel.Web.dll
         /// </summary>
-        public static byte[] SystemServiceModelWeb => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelWeb, "aspnet90.System.ServiceModel.Web");
+        public static byte[] SystemServiceModelWeb => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelWeb, "aspnet100.System.ServiceModel.Web");
         private static byte[]? _SystemServiceModelWeb;
 
         /// <summary>
         /// The image bytes for System.ServiceProcess.dll
         /// </summary>
-        public static byte[] SystemServiceProcess => ResourceLoader.GetOrCreateResource(ref _SystemServiceProcess, "aspnet90.System.ServiceProcess");
+        public static byte[] SystemServiceProcess => ResourceLoader.GetOrCreateResource(ref _SystemServiceProcess, "aspnet100.System.ServiceProcess");
         private static byte[]? _SystemServiceProcess;
 
         /// <summary>
         /// The image bytes for System.Text.Encoding.CodePages.dll
         /// </summary>
-        public static byte[] SystemTextEncodingCodePages => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingCodePages, "aspnet90.System.Text.Encoding.CodePages");
+        public static byte[] SystemTextEncodingCodePages => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingCodePages, "aspnet100.System.Text.Encoding.CodePages");
         private static byte[]? _SystemTextEncodingCodePages;
 
         /// <summary>
         /// The image bytes for System.Text.Encoding.dll
         /// </summary>
-        public static byte[] SystemTextEncoding => ResourceLoader.GetOrCreateResource(ref _SystemTextEncoding, "aspnet90.System.Text.Encoding");
+        public static byte[] SystemTextEncoding => ResourceLoader.GetOrCreateResource(ref _SystemTextEncoding, "aspnet100.System.Text.Encoding");
         private static byte[]? _SystemTextEncoding;
 
         /// <summary>
         /// The image bytes for System.Text.Encoding.Extensions.dll
         /// </summary>
-        public static byte[] SystemTextEncodingExtensions => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingExtensions, "aspnet90.System.Text.Encoding.Extensions");
+        public static byte[] SystemTextEncodingExtensions => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingExtensions, "aspnet100.System.Text.Encoding.Extensions");
         private static byte[]? _SystemTextEncodingExtensions;
 
         /// <summary>
         /// The image bytes for System.Text.Encodings.Web.dll
         /// </summary>
-        public static byte[] SystemTextEncodingsWeb => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingsWeb, "aspnet90.System.Text.Encodings.Web");
+        public static byte[] SystemTextEncodingsWeb => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingsWeb, "aspnet100.System.Text.Encodings.Web");
         private static byte[]? _SystemTextEncodingsWeb;
 
         /// <summary>
         /// The image bytes for System.Text.Json.dll
         /// </summary>
-        public static byte[] SystemTextJson => ResourceLoader.GetOrCreateResource(ref _SystemTextJson, "aspnet90.System.Text.Json");
+        public static byte[] SystemTextJson => ResourceLoader.GetOrCreateResource(ref _SystemTextJson, "aspnet100.System.Text.Json");
         private static byte[]? _SystemTextJson;
 
         /// <summary>
         /// The image bytes for System.Text.RegularExpressions.dll
         /// </summary>
-        public static byte[] SystemTextRegularExpressions => ResourceLoader.GetOrCreateResource(ref _SystemTextRegularExpressions, "aspnet90.System.Text.RegularExpressions");
+        public static byte[] SystemTextRegularExpressions => ResourceLoader.GetOrCreateResource(ref _SystemTextRegularExpressions, "aspnet100.System.Text.RegularExpressions");
         private static byte[]? _SystemTextRegularExpressions;
 
         /// <summary>
         /// The image bytes for System.Threading.Channels.dll
         /// </summary>
-        public static byte[] SystemThreadingChannels => ResourceLoader.GetOrCreateResource(ref _SystemThreadingChannels, "aspnet90.System.Threading.Channels");
+        public static byte[] SystemThreadingChannels => ResourceLoader.GetOrCreateResource(ref _SystemThreadingChannels, "aspnet100.System.Threading.Channels");
         private static byte[]? _SystemThreadingChannels;
 
         /// <summary>
         /// The image bytes for System.Threading.dll
         /// </summary>
-        public static byte[] SystemThreading => ResourceLoader.GetOrCreateResource(ref _SystemThreading, "aspnet90.System.Threading");
+        public static byte[] SystemThreading => ResourceLoader.GetOrCreateResource(ref _SystemThreading, "aspnet100.System.Threading");
         private static byte[]? _SystemThreading;
 
         /// <summary>
         /// The image bytes for System.Threading.Overlapped.dll
         /// </summary>
-        public static byte[] SystemThreadingOverlapped => ResourceLoader.GetOrCreateResource(ref _SystemThreadingOverlapped, "aspnet90.System.Threading.Overlapped");
+        public static byte[] SystemThreadingOverlapped => ResourceLoader.GetOrCreateResource(ref _SystemThreadingOverlapped, "aspnet100.System.Threading.Overlapped");
         private static byte[]? _SystemThreadingOverlapped;
 
         /// <summary>
         /// The image bytes for System.Threading.Tasks.Dataflow.dll
         /// </summary>
-        public static byte[] SystemThreadingTasksDataflow => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksDataflow, "aspnet90.System.Threading.Tasks.Dataflow");
+        public static byte[] SystemThreadingTasksDataflow => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksDataflow, "aspnet100.System.Threading.Tasks.Dataflow");
         private static byte[]? _SystemThreadingTasksDataflow;
 
         /// <summary>
         /// The image bytes for System.Threading.Tasks.dll
         /// </summary>
-        public static byte[] SystemThreadingTasks => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasks, "aspnet90.System.Threading.Tasks");
+        public static byte[] SystemThreadingTasks => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasks, "aspnet100.System.Threading.Tasks");
         private static byte[]? _SystemThreadingTasks;
 
         /// <summary>
         /// The image bytes for System.Threading.Tasks.Extensions.dll
         /// </summary>
-        public static byte[] SystemThreadingTasksExtensions => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksExtensions, "aspnet90.System.Threading.Tasks.Extensions");
+        public static byte[] SystemThreadingTasksExtensions => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksExtensions, "aspnet100.System.Threading.Tasks.Extensions");
         private static byte[]? _SystemThreadingTasksExtensions;
 
         /// <summary>
         /// The image bytes for System.Threading.Tasks.Parallel.dll
         /// </summary>
-        public static byte[] SystemThreadingTasksParallel => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksParallel, "aspnet90.System.Threading.Tasks.Parallel");
+        public static byte[] SystemThreadingTasksParallel => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksParallel, "aspnet100.System.Threading.Tasks.Parallel");
         private static byte[]? _SystemThreadingTasksParallel;
 
         /// <summary>
         /// The image bytes for System.Threading.Thread.dll
         /// </summary>
-        public static byte[] SystemThreadingThread => ResourceLoader.GetOrCreateResource(ref _SystemThreadingThread, "aspnet90.System.Threading.Thread");
+        public static byte[] SystemThreadingThread => ResourceLoader.GetOrCreateResource(ref _SystemThreadingThread, "aspnet100.System.Threading.Thread");
         private static byte[]? _SystemThreadingThread;
 
         /// <summary>
         /// The image bytes for System.Threading.ThreadPool.dll
         /// </summary>
-        public static byte[] SystemThreadingThreadPool => ResourceLoader.GetOrCreateResource(ref _SystemThreadingThreadPool, "aspnet90.System.Threading.ThreadPool");
+        public static byte[] SystemThreadingThreadPool => ResourceLoader.GetOrCreateResource(ref _SystemThreadingThreadPool, "aspnet100.System.Threading.ThreadPool");
         private static byte[]? _SystemThreadingThreadPool;
 
         /// <summary>
         /// The image bytes for System.Threading.Timer.dll
         /// </summary>
-        public static byte[] SystemThreadingTimer => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTimer, "aspnet90.System.Threading.Timer");
+        public static byte[] SystemThreadingTimer => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTimer, "aspnet100.System.Threading.Timer");
         private static byte[]? _SystemThreadingTimer;
 
         /// <summary>
         /// The image bytes for System.Transactions.dll
         /// </summary>
-        public static byte[] SystemTransactions => ResourceLoader.GetOrCreateResource(ref _SystemTransactions, "aspnet90.System.Transactions");
+        public static byte[] SystemTransactions => ResourceLoader.GetOrCreateResource(ref _SystemTransactions, "aspnet100.System.Transactions");
         private static byte[]? _SystemTransactions;
 
         /// <summary>
         /// The image bytes for System.Transactions.Local.dll
         /// </summary>
-        public static byte[] SystemTransactionsLocal => ResourceLoader.GetOrCreateResource(ref _SystemTransactionsLocal, "aspnet90.System.Transactions.Local");
+        public static byte[] SystemTransactionsLocal => ResourceLoader.GetOrCreateResource(ref _SystemTransactionsLocal, "aspnet100.System.Transactions.Local");
         private static byte[]? _SystemTransactionsLocal;
 
         /// <summary>
         /// The image bytes for System.ValueTuple.dll
         /// </summary>
-        public static byte[] SystemValueTuple => ResourceLoader.GetOrCreateResource(ref _SystemValueTuple, "aspnet90.System.ValueTuple");
+        public static byte[] SystemValueTuple => ResourceLoader.GetOrCreateResource(ref _SystemValueTuple, "aspnet100.System.ValueTuple");
         private static byte[]? _SystemValueTuple;
 
         /// <summary>
         /// The image bytes for System.Web.dll
         /// </summary>
-        public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "aspnet90.System.Web");
+        public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "aspnet100.System.Web");
         private static byte[]? _SystemWeb;
 
         /// <summary>
         /// The image bytes for System.Web.HttpUtility.dll
         /// </summary>
-        public static byte[] SystemWebHttpUtility => ResourceLoader.GetOrCreateResource(ref _SystemWebHttpUtility, "aspnet90.System.Web.HttpUtility");
+        public static byte[] SystemWebHttpUtility => ResourceLoader.GetOrCreateResource(ref _SystemWebHttpUtility, "aspnet100.System.Web.HttpUtility");
         private static byte[]? _SystemWebHttpUtility;
 
         /// <summary>
         /// The image bytes for System.Windows.dll
         /// </summary>
-        public static byte[] SystemWindows => ResourceLoader.GetOrCreateResource(ref _SystemWindows, "aspnet90.System.Windows");
+        public static byte[] SystemWindows => ResourceLoader.GetOrCreateResource(ref _SystemWindows, "aspnet100.System.Windows");
         private static byte[]? _SystemWindows;
 
         /// <summary>
         /// The image bytes for System.Xml.dll
         /// </summary>
-        public static byte[] SystemXml => ResourceLoader.GetOrCreateResource(ref _SystemXml, "aspnet90.System.Xml");
+        public static byte[] SystemXml => ResourceLoader.GetOrCreateResource(ref _SystemXml, "aspnet100.System.Xml");
         private static byte[]? _SystemXml;
 
         /// <summary>
         /// The image bytes for System.Xml.Linq.dll
         /// </summary>
-        public static byte[] SystemXmlLinq => ResourceLoader.GetOrCreateResource(ref _SystemXmlLinq, "aspnet90.System.Xml.Linq");
+        public static byte[] SystemXmlLinq => ResourceLoader.GetOrCreateResource(ref _SystemXmlLinq, "aspnet100.System.Xml.Linq");
         private static byte[]? _SystemXmlLinq;
 
         /// <summary>
         /// The image bytes for System.Xml.ReaderWriter.dll
         /// </summary>
-        public static byte[] SystemXmlReaderWriter => ResourceLoader.GetOrCreateResource(ref _SystemXmlReaderWriter, "aspnet90.System.Xml.ReaderWriter");
+        public static byte[] SystemXmlReaderWriter => ResourceLoader.GetOrCreateResource(ref _SystemXmlReaderWriter, "aspnet100.System.Xml.ReaderWriter");
         private static byte[]? _SystemXmlReaderWriter;
 
         /// <summary>
         /// The image bytes for System.Xml.Serialization.dll
         /// </summary>
-        public static byte[] SystemXmlSerialization => ResourceLoader.GetOrCreateResource(ref _SystemXmlSerialization, "aspnet90.System.Xml.Serialization");
+        public static byte[] SystemXmlSerialization => ResourceLoader.GetOrCreateResource(ref _SystemXmlSerialization, "aspnet100.System.Xml.Serialization");
         private static byte[]? _SystemXmlSerialization;
 
         /// <summary>
         /// The image bytes for System.Xml.XDocument.dll
         /// </summary>
-        public static byte[] SystemXmlXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXDocument, "aspnet90.System.Xml.XDocument");
+        public static byte[] SystemXmlXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXDocument, "aspnet100.System.Xml.XDocument");
         private static byte[]? _SystemXmlXDocument;
 
         /// <summary>
         /// The image bytes for System.Xml.XmlDocument.dll
         /// </summary>
-        public static byte[] SystemXmlXmlDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlDocument, "aspnet90.System.Xml.XmlDocument");
+        public static byte[] SystemXmlXmlDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlDocument, "aspnet100.System.Xml.XmlDocument");
         private static byte[]? _SystemXmlXmlDocument;
 
         /// <summary>
         /// The image bytes for System.Xml.XmlSerializer.dll
         /// </summary>
-        public static byte[] SystemXmlXmlSerializer => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlSerializer, "aspnet90.System.Xml.XmlSerializer");
+        public static byte[] SystemXmlXmlSerializer => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlSerializer, "aspnet100.System.Xml.XmlSerializer");
         private static byte[]? _SystemXmlXmlSerializer;
 
         /// <summary>
         /// The image bytes for System.Xml.XPath.dll
         /// </summary>
-        public static byte[] SystemXmlXPath => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPath, "aspnet90.System.Xml.XPath");
+        public static byte[] SystemXmlXPath => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPath, "aspnet100.System.Xml.XPath");
         private static byte[]? _SystemXmlXPath;
 
         /// <summary>
         /// The image bytes for System.Xml.XPath.XDocument.dll
         /// </summary>
-        public static byte[] SystemXmlXPathXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPathXDocument, "aspnet90.System.Xml.XPath.XDocument");
+        public static byte[] SystemXmlXPathXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPathXDocument, "aspnet100.System.Xml.XPath.XDocument");
         private static byte[]? _SystemXmlXPathXDocument;
 
         /// <summary>
         /// The image bytes for WindowsBase.dll
         /// </summary>
-        public static byte[] WindowsBase => ResourceLoader.GetOrCreateResource(ref _WindowsBase, "aspnet90.WindowsBase");
+        public static byte[] WindowsBase => ResourceLoader.GetOrCreateResource(ref _WindowsBase, "aspnet100.WindowsBase");
         private static byte[]? _WindowsBase;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Antiforgery.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreAntiforgery => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAntiforgery, "aspnet90.Microsoft.AspNetCore.Antiforgery");
+        public static byte[] MicrosoftAspNetCoreAntiforgery => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAntiforgery, "aspnet100.Microsoft.AspNetCore.Antiforgery");
         private static byte[]? _MicrosoftAspNetCoreAntiforgery;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Authentication.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreAuthenticationAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationAbstractions, "aspnet90.Microsoft.AspNetCore.Authentication.Abstractions");
+        public static byte[] MicrosoftAspNetCoreAuthenticationAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationAbstractions, "aspnet100.Microsoft.AspNetCore.Authentication.Abstractions");
         private static byte[]? _MicrosoftAspNetCoreAuthenticationAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Authentication.BearerToken.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreAuthenticationBearerToken => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationBearerToken, "aspnet90.Microsoft.AspNetCore.Authentication.BearerToken");
+        public static byte[] MicrosoftAspNetCoreAuthenticationBearerToken => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationBearerToken, "aspnet100.Microsoft.AspNetCore.Authentication.BearerToken");
         private static byte[]? _MicrosoftAspNetCoreAuthenticationBearerToken;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Authentication.Cookies.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreAuthenticationCookies => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationCookies, "aspnet90.Microsoft.AspNetCore.Authentication.Cookies");
+        public static byte[] MicrosoftAspNetCoreAuthenticationCookies => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationCookies, "aspnet100.Microsoft.AspNetCore.Authentication.Cookies");
         private static byte[]? _MicrosoftAspNetCoreAuthenticationCookies;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Authentication.Core.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreAuthenticationCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationCore, "aspnet90.Microsoft.AspNetCore.Authentication.Core");
+        public static byte[] MicrosoftAspNetCoreAuthenticationCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationCore, "aspnet100.Microsoft.AspNetCore.Authentication.Core");
         private static byte[]? _MicrosoftAspNetCoreAuthenticationCore;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Authentication.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreAuthentication => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthentication, "aspnet90.Microsoft.AspNetCore.Authentication");
+        public static byte[] MicrosoftAspNetCoreAuthentication => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthentication, "aspnet100.Microsoft.AspNetCore.Authentication");
         private static byte[]? _MicrosoftAspNetCoreAuthentication;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Authentication.OAuth.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreAuthenticationOAuth => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationOAuth, "aspnet90.Microsoft.AspNetCore.Authentication.OAuth");
+        public static byte[] MicrosoftAspNetCoreAuthenticationOAuth => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthenticationOAuth, "aspnet100.Microsoft.AspNetCore.Authentication.OAuth");
         private static byte[]? _MicrosoftAspNetCoreAuthenticationOAuth;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Authorization.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreAuthorization => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthorization, "aspnet90.Microsoft.AspNetCore.Authorization");
+        public static byte[] MicrosoftAspNetCoreAuthorization => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthorization, "aspnet100.Microsoft.AspNetCore.Authorization");
         private static byte[]? _MicrosoftAspNetCoreAuthorization;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Authorization.Policy.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreAuthorizationPolicy => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthorizationPolicy, "aspnet90.Microsoft.AspNetCore.Authorization.Policy");
+        public static byte[] MicrosoftAspNetCoreAuthorizationPolicy => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreAuthorizationPolicy, "aspnet100.Microsoft.AspNetCore.Authorization.Policy");
         private static byte[]? _MicrosoftAspNetCoreAuthorizationPolicy;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Components.Authorization.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreComponentsAuthorization => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsAuthorization, "aspnet90.Microsoft.AspNetCore.Components.Authorization");
+        public static byte[] MicrosoftAspNetCoreComponentsAuthorization => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsAuthorization, "aspnet100.Microsoft.AspNetCore.Components.Authorization");
         private static byte[]? _MicrosoftAspNetCoreComponentsAuthorization;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Components.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreComponents => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponents, "aspnet90.Microsoft.AspNetCore.Components");
+        public static byte[] MicrosoftAspNetCoreComponents => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponents, "aspnet100.Microsoft.AspNetCore.Components");
         private static byte[]? _MicrosoftAspNetCoreComponents;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Components.Endpoints.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreComponentsEndpoints => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsEndpoints, "aspnet90.Microsoft.AspNetCore.Components.Endpoints");
+        public static byte[] MicrosoftAspNetCoreComponentsEndpoints => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsEndpoints, "aspnet100.Microsoft.AspNetCore.Components.Endpoints");
         private static byte[]? _MicrosoftAspNetCoreComponentsEndpoints;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Components.Forms.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreComponentsForms => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsForms, "aspnet90.Microsoft.AspNetCore.Components.Forms");
+        public static byte[] MicrosoftAspNetCoreComponentsForms => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsForms, "aspnet100.Microsoft.AspNetCore.Components.Forms");
         private static byte[]? _MicrosoftAspNetCoreComponentsForms;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Components.Server.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreComponentsServer => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsServer, "aspnet90.Microsoft.AspNetCore.Components.Server");
+        public static byte[] MicrosoftAspNetCoreComponentsServer => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsServer, "aspnet100.Microsoft.AspNetCore.Components.Server");
         private static byte[]? _MicrosoftAspNetCoreComponentsServer;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Components.Web.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreComponentsWeb => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsWeb, "aspnet90.Microsoft.AspNetCore.Components.Web");
+        public static byte[] MicrosoftAspNetCoreComponentsWeb => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreComponentsWeb, "aspnet100.Microsoft.AspNetCore.Components.Web");
         private static byte[]? _MicrosoftAspNetCoreComponentsWeb;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Connections.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreConnectionsAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreConnectionsAbstractions, "aspnet90.Microsoft.AspNetCore.Connections.Abstractions");
+        public static byte[] MicrosoftAspNetCoreConnectionsAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreConnectionsAbstractions, "aspnet100.Microsoft.AspNetCore.Connections.Abstractions");
         private static byte[]? _MicrosoftAspNetCoreConnectionsAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.CookiePolicy.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreCookiePolicy => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreCookiePolicy, "aspnet90.Microsoft.AspNetCore.CookiePolicy");
+        public static byte[] MicrosoftAspNetCoreCookiePolicy => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreCookiePolicy, "aspnet100.Microsoft.AspNetCore.CookiePolicy");
         private static byte[]? _MicrosoftAspNetCoreCookiePolicy;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Cors.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreCors => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreCors, "aspnet90.Microsoft.AspNetCore.Cors");
+        public static byte[] MicrosoftAspNetCoreCors => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreCors, "aspnet100.Microsoft.AspNetCore.Cors");
         private static byte[]? _MicrosoftAspNetCoreCors;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Cryptography.Internal.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreCryptographyInternal => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreCryptographyInternal, "aspnet90.Microsoft.AspNetCore.Cryptography.Internal");
+        public static byte[] MicrosoftAspNetCoreCryptographyInternal => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreCryptographyInternal, "aspnet100.Microsoft.AspNetCore.Cryptography.Internal");
         private static byte[]? _MicrosoftAspNetCoreCryptographyInternal;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreCryptographyKeyDerivation => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreCryptographyKeyDerivation, "aspnet90.Microsoft.AspNetCore.Cryptography.KeyDerivation");
+        public static byte[] MicrosoftAspNetCoreCryptographyKeyDerivation => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreCryptographyKeyDerivation, "aspnet100.Microsoft.AspNetCore.Cryptography.KeyDerivation");
         private static byte[]? _MicrosoftAspNetCoreCryptographyKeyDerivation;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.DataProtection.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreDataProtectionAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDataProtectionAbstractions, "aspnet90.Microsoft.AspNetCore.DataProtection.Abstractions");
+        public static byte[] MicrosoftAspNetCoreDataProtectionAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDataProtectionAbstractions, "aspnet100.Microsoft.AspNetCore.DataProtection.Abstractions");
         private static byte[]? _MicrosoftAspNetCoreDataProtectionAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.DataProtection.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreDataProtection => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDataProtection, "aspnet90.Microsoft.AspNetCore.DataProtection");
+        public static byte[] MicrosoftAspNetCoreDataProtection => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDataProtection, "aspnet100.Microsoft.AspNetCore.DataProtection");
         private static byte[]? _MicrosoftAspNetCoreDataProtection;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.DataProtection.Extensions.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreDataProtectionExtensions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDataProtectionExtensions, "aspnet90.Microsoft.AspNetCore.DataProtection.Extensions");
+        public static byte[] MicrosoftAspNetCoreDataProtectionExtensions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDataProtectionExtensions, "aspnet100.Microsoft.AspNetCore.DataProtection.Extensions");
         private static byte[]? _MicrosoftAspNetCoreDataProtectionExtensions;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Diagnostics.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreDiagnosticsAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDiagnosticsAbstractions, "aspnet90.Microsoft.AspNetCore.Diagnostics.Abstractions");
+        public static byte[] MicrosoftAspNetCoreDiagnosticsAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDiagnosticsAbstractions, "aspnet100.Microsoft.AspNetCore.Diagnostics.Abstractions");
         private static byte[]? _MicrosoftAspNetCoreDiagnosticsAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Diagnostics.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreDiagnostics => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDiagnostics, "aspnet90.Microsoft.AspNetCore.Diagnostics");
+        public static byte[] MicrosoftAspNetCoreDiagnostics => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDiagnostics, "aspnet100.Microsoft.AspNetCore.Diagnostics");
         private static byte[]? _MicrosoftAspNetCoreDiagnostics;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreDiagnosticsHealthChecks => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDiagnosticsHealthChecks, "aspnet90.Microsoft.AspNetCore.Diagnostics.HealthChecks");
+        public static byte[] MicrosoftAspNetCoreDiagnosticsHealthChecks => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreDiagnosticsHealthChecks, "aspnet100.Microsoft.AspNetCore.Diagnostics.HealthChecks");
         private static byte[]? _MicrosoftAspNetCoreDiagnosticsHealthChecks;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCore, "aspnet90.Microsoft.AspNetCore");
+        public static byte[] MicrosoftAspNetCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCore, "aspnet100.Microsoft.AspNetCore");
         private static byte[]? _MicrosoftAspNetCore;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.HostFiltering.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHostFiltering => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHostFiltering, "aspnet90.Microsoft.AspNetCore.HostFiltering");
+        public static byte[] MicrosoftAspNetCoreHostFiltering => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHostFiltering, "aspnet100.Microsoft.AspNetCore.HostFiltering");
         private static byte[]? _MicrosoftAspNetCoreHostFiltering;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Hosting.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHostingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHostingAbstractions, "aspnet90.Microsoft.AspNetCore.Hosting.Abstractions");
+        public static byte[] MicrosoftAspNetCoreHostingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHostingAbstractions, "aspnet100.Microsoft.AspNetCore.Hosting.Abstractions");
         private static byte[]? _MicrosoftAspNetCoreHostingAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Hosting.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHosting => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHosting, "aspnet90.Microsoft.AspNetCore.Hosting");
+        public static byte[] MicrosoftAspNetCoreHosting => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHosting, "aspnet100.Microsoft.AspNetCore.Hosting");
         private static byte[]? _MicrosoftAspNetCoreHosting;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHostingServerAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHostingServerAbstractions, "aspnet90.Microsoft.AspNetCore.Hosting.Server.Abstractions");
+        public static byte[] MicrosoftAspNetCoreHostingServerAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHostingServerAbstractions, "aspnet100.Microsoft.AspNetCore.Hosting.Server.Abstractions");
         private static byte[]? _MicrosoftAspNetCoreHostingServerAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Html.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHtmlAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHtmlAbstractions, "aspnet90.Microsoft.AspNetCore.Html.Abstractions");
+        public static byte[] MicrosoftAspNetCoreHtmlAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHtmlAbstractions, "aspnet100.Microsoft.AspNetCore.Html.Abstractions");
         private static byte[]? _MicrosoftAspNetCoreHtmlAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Http.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHttpAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpAbstractions, "aspnet90.Microsoft.AspNetCore.Http.Abstractions");
+        public static byte[] MicrosoftAspNetCoreHttpAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpAbstractions, "aspnet100.Microsoft.AspNetCore.Http.Abstractions");
         private static byte[]? _MicrosoftAspNetCoreHttpAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Http.Connections.Common.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHttpConnectionsCommon => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpConnectionsCommon, "aspnet90.Microsoft.AspNetCore.Http.Connections.Common");
+        public static byte[] MicrosoftAspNetCoreHttpConnectionsCommon => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpConnectionsCommon, "aspnet100.Microsoft.AspNetCore.Http.Connections.Common");
         private static byte[]? _MicrosoftAspNetCoreHttpConnectionsCommon;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Http.Connections.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHttpConnections => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpConnections, "aspnet90.Microsoft.AspNetCore.Http.Connections");
+        public static byte[] MicrosoftAspNetCoreHttpConnections => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpConnections, "aspnet100.Microsoft.AspNetCore.Http.Connections");
         private static byte[]? _MicrosoftAspNetCoreHttpConnections;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Http.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHttp => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttp, "aspnet90.Microsoft.AspNetCore.Http");
+        public static byte[] MicrosoftAspNetCoreHttp => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttp, "aspnet100.Microsoft.AspNetCore.Http");
         private static byte[]? _MicrosoftAspNetCoreHttp;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Http.Extensions.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHttpExtensions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpExtensions, "aspnet90.Microsoft.AspNetCore.Http.Extensions");
+        public static byte[] MicrosoftAspNetCoreHttpExtensions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpExtensions, "aspnet100.Microsoft.AspNetCore.Http.Extensions");
         private static byte[]? _MicrosoftAspNetCoreHttpExtensions;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Http.Features.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHttpFeatures => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpFeatures, "aspnet90.Microsoft.AspNetCore.Http.Features");
+        public static byte[] MicrosoftAspNetCoreHttpFeatures => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpFeatures, "aspnet100.Microsoft.AspNetCore.Http.Features");
         private static byte[]? _MicrosoftAspNetCoreHttpFeatures;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Http.Results.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHttpResults => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpResults, "aspnet90.Microsoft.AspNetCore.Http.Results");
+        public static byte[] MicrosoftAspNetCoreHttpResults => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpResults, "aspnet100.Microsoft.AspNetCore.Http.Results");
         private static byte[]? _MicrosoftAspNetCoreHttpResults;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.HttpLogging.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHttpLogging => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpLogging, "aspnet90.Microsoft.AspNetCore.HttpLogging");
+        public static byte[] MicrosoftAspNetCoreHttpLogging => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpLogging, "aspnet100.Microsoft.AspNetCore.HttpLogging");
         private static byte[]? _MicrosoftAspNetCoreHttpLogging;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.HttpOverrides.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHttpOverrides => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpOverrides, "aspnet90.Microsoft.AspNetCore.HttpOverrides");
+        public static byte[] MicrosoftAspNetCoreHttpOverrides => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpOverrides, "aspnet100.Microsoft.AspNetCore.HttpOverrides");
         private static byte[]? _MicrosoftAspNetCoreHttpOverrides;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.HttpsPolicy.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreHttpsPolicy => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpsPolicy, "aspnet90.Microsoft.AspNetCore.HttpsPolicy");
+        public static byte[] MicrosoftAspNetCoreHttpsPolicy => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreHttpsPolicy, "aspnet100.Microsoft.AspNetCore.HttpsPolicy");
         private static byte[]? _MicrosoftAspNetCoreHttpsPolicy;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Identity.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreIdentity => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreIdentity, "aspnet90.Microsoft.AspNetCore.Identity");
+        public static byte[] MicrosoftAspNetCoreIdentity => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreIdentity, "aspnet100.Microsoft.AspNetCore.Identity");
         private static byte[]? _MicrosoftAspNetCoreIdentity;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Localization.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreLocalization => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreLocalization, "aspnet90.Microsoft.AspNetCore.Localization");
+        public static byte[] MicrosoftAspNetCoreLocalization => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreLocalization, "aspnet100.Microsoft.AspNetCore.Localization");
         private static byte[]? _MicrosoftAspNetCoreLocalization;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Localization.Routing.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreLocalizationRouting => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreLocalizationRouting, "aspnet90.Microsoft.AspNetCore.Localization.Routing");
+        public static byte[] MicrosoftAspNetCoreLocalizationRouting => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreLocalizationRouting, "aspnet100.Microsoft.AspNetCore.Localization.Routing");
         private static byte[]? _MicrosoftAspNetCoreLocalizationRouting;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Metadata.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreMetadata => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMetadata, "aspnet90.Microsoft.AspNetCore.Metadata");
+        public static byte[] MicrosoftAspNetCoreMetadata => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMetadata, "aspnet100.Microsoft.AspNetCore.Metadata");
         private static byte[]? _MicrosoftAspNetCoreMetadata;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Mvc.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreMvcAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcAbstractions, "aspnet90.Microsoft.AspNetCore.Mvc.Abstractions");
+        public static byte[] MicrosoftAspNetCoreMvcAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcAbstractions, "aspnet100.Microsoft.AspNetCore.Mvc.Abstractions");
         private static byte[]? _MicrosoftAspNetCoreMvcAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Mvc.ApiExplorer.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreMvcApiExplorer => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcApiExplorer, "aspnet90.Microsoft.AspNetCore.Mvc.ApiExplorer");
+        public static byte[] MicrosoftAspNetCoreMvcApiExplorer => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcApiExplorer, "aspnet100.Microsoft.AspNetCore.Mvc.ApiExplorer");
         private static byte[]? _MicrosoftAspNetCoreMvcApiExplorer;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Mvc.Core.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreMvcCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcCore, "aspnet90.Microsoft.AspNetCore.Mvc.Core");
+        public static byte[] MicrosoftAspNetCoreMvcCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcCore, "aspnet100.Microsoft.AspNetCore.Mvc.Core");
         private static byte[]? _MicrosoftAspNetCoreMvcCore;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Mvc.Cors.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreMvcCors => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcCors, "aspnet90.Microsoft.AspNetCore.Mvc.Cors");
+        public static byte[] MicrosoftAspNetCoreMvcCors => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcCors, "aspnet100.Microsoft.AspNetCore.Mvc.Cors");
         private static byte[]? _MicrosoftAspNetCoreMvcCors;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Mvc.DataAnnotations.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreMvcDataAnnotations => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcDataAnnotations, "aspnet90.Microsoft.AspNetCore.Mvc.DataAnnotations");
+        public static byte[] MicrosoftAspNetCoreMvcDataAnnotations => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcDataAnnotations, "aspnet100.Microsoft.AspNetCore.Mvc.DataAnnotations");
         private static byte[]? _MicrosoftAspNetCoreMvcDataAnnotations;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Mvc.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreMvc => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvc, "aspnet90.Microsoft.AspNetCore.Mvc");
+        public static byte[] MicrosoftAspNetCoreMvc => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvc, "aspnet100.Microsoft.AspNetCore.Mvc");
         private static byte[]? _MicrosoftAspNetCoreMvc;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Mvc.Formatters.Json.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreMvcFormattersJson => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcFormattersJson, "aspnet90.Microsoft.AspNetCore.Mvc.Formatters.Json");
+        public static byte[] MicrosoftAspNetCoreMvcFormattersJson => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcFormattersJson, "aspnet100.Microsoft.AspNetCore.Mvc.Formatters.Json");
         private static byte[]? _MicrosoftAspNetCoreMvcFormattersJson;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreMvcFormattersXml => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcFormattersXml, "aspnet90.Microsoft.AspNetCore.Mvc.Formatters.Xml");
+        public static byte[] MicrosoftAspNetCoreMvcFormattersXml => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcFormattersXml, "aspnet100.Microsoft.AspNetCore.Mvc.Formatters.Xml");
         private static byte[]? _MicrosoftAspNetCoreMvcFormattersXml;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Mvc.Localization.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreMvcLocalization => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcLocalization, "aspnet90.Microsoft.AspNetCore.Mvc.Localization");
+        public static byte[] MicrosoftAspNetCoreMvcLocalization => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcLocalization, "aspnet100.Microsoft.AspNetCore.Mvc.Localization");
         private static byte[]? _MicrosoftAspNetCoreMvcLocalization;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Mvc.Razor.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreMvcRazor => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcRazor, "aspnet90.Microsoft.AspNetCore.Mvc.Razor");
+        public static byte[] MicrosoftAspNetCoreMvcRazor => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcRazor, "aspnet100.Microsoft.AspNetCore.Mvc.Razor");
         private static byte[]? _MicrosoftAspNetCoreMvcRazor;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Mvc.RazorPages.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreMvcRazorPages => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcRazorPages, "aspnet90.Microsoft.AspNetCore.Mvc.RazorPages");
+        public static byte[] MicrosoftAspNetCoreMvcRazorPages => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcRazorPages, "aspnet100.Microsoft.AspNetCore.Mvc.RazorPages");
         private static byte[]? _MicrosoftAspNetCoreMvcRazorPages;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Mvc.TagHelpers.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreMvcTagHelpers => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcTagHelpers, "aspnet90.Microsoft.AspNetCore.Mvc.TagHelpers");
+        public static byte[] MicrosoftAspNetCoreMvcTagHelpers => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcTagHelpers, "aspnet100.Microsoft.AspNetCore.Mvc.TagHelpers");
         private static byte[]? _MicrosoftAspNetCoreMvcTagHelpers;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Mvc.ViewFeatures.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreMvcViewFeatures => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcViewFeatures, "aspnet90.Microsoft.AspNetCore.Mvc.ViewFeatures");
+        public static byte[] MicrosoftAspNetCoreMvcViewFeatures => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreMvcViewFeatures, "aspnet100.Microsoft.AspNetCore.Mvc.ViewFeatures");
         private static byte[]? _MicrosoftAspNetCoreMvcViewFeatures;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.OutputCaching.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreOutputCaching => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreOutputCaching, "aspnet90.Microsoft.AspNetCore.OutputCaching");
+        public static byte[] MicrosoftAspNetCoreOutputCaching => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreOutputCaching, "aspnet100.Microsoft.AspNetCore.OutputCaching");
         private static byte[]? _MicrosoftAspNetCoreOutputCaching;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.RateLimiting.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreRateLimiting => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRateLimiting, "aspnet90.Microsoft.AspNetCore.RateLimiting");
+        public static byte[] MicrosoftAspNetCoreRateLimiting => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRateLimiting, "aspnet100.Microsoft.AspNetCore.RateLimiting");
         private static byte[]? _MicrosoftAspNetCoreRateLimiting;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Razor.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreRazor => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRazor, "aspnet90.Microsoft.AspNetCore.Razor");
+        public static byte[] MicrosoftAspNetCoreRazor => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRazor, "aspnet100.Microsoft.AspNetCore.Razor");
         private static byte[]? _MicrosoftAspNetCoreRazor;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Razor.Runtime.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreRazorRuntime => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRazorRuntime, "aspnet90.Microsoft.AspNetCore.Razor.Runtime");
+        public static byte[] MicrosoftAspNetCoreRazorRuntime => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRazorRuntime, "aspnet100.Microsoft.AspNetCore.Razor.Runtime");
         private static byte[]? _MicrosoftAspNetCoreRazorRuntime;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.RequestDecompression.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreRequestDecompression => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRequestDecompression, "aspnet90.Microsoft.AspNetCore.RequestDecompression");
+        public static byte[] MicrosoftAspNetCoreRequestDecompression => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRequestDecompression, "aspnet100.Microsoft.AspNetCore.RequestDecompression");
         private static byte[]? _MicrosoftAspNetCoreRequestDecompression;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreResponseCachingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreResponseCachingAbstractions, "aspnet90.Microsoft.AspNetCore.ResponseCaching.Abstractions");
+        public static byte[] MicrosoftAspNetCoreResponseCachingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreResponseCachingAbstractions, "aspnet100.Microsoft.AspNetCore.ResponseCaching.Abstractions");
         private static byte[]? _MicrosoftAspNetCoreResponseCachingAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.ResponseCaching.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreResponseCaching => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreResponseCaching, "aspnet90.Microsoft.AspNetCore.ResponseCaching");
+        public static byte[] MicrosoftAspNetCoreResponseCaching => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreResponseCaching, "aspnet100.Microsoft.AspNetCore.ResponseCaching");
         private static byte[]? _MicrosoftAspNetCoreResponseCaching;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.ResponseCompression.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreResponseCompression => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreResponseCompression, "aspnet90.Microsoft.AspNetCore.ResponseCompression");
+        public static byte[] MicrosoftAspNetCoreResponseCompression => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreResponseCompression, "aspnet100.Microsoft.AspNetCore.ResponseCompression");
         private static byte[]? _MicrosoftAspNetCoreResponseCompression;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Rewrite.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreRewrite => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRewrite, "aspnet90.Microsoft.AspNetCore.Rewrite");
+        public static byte[] MicrosoftAspNetCoreRewrite => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRewrite, "aspnet100.Microsoft.AspNetCore.Rewrite");
         private static byte[]? _MicrosoftAspNetCoreRewrite;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Routing.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreRoutingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRoutingAbstractions, "aspnet90.Microsoft.AspNetCore.Routing.Abstractions");
+        public static byte[] MicrosoftAspNetCoreRoutingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRoutingAbstractions, "aspnet100.Microsoft.AspNetCore.Routing.Abstractions");
         private static byte[]? _MicrosoftAspNetCoreRoutingAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Routing.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreRouting => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRouting, "aspnet90.Microsoft.AspNetCore.Routing");
+        public static byte[] MicrosoftAspNetCoreRouting => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreRouting, "aspnet100.Microsoft.AspNetCore.Routing");
         private static byte[]? _MicrosoftAspNetCoreRouting;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Server.HttpSys.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreServerHttpSys => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerHttpSys, "aspnet90.Microsoft.AspNetCore.Server.HttpSys");
+        public static byte[] MicrosoftAspNetCoreServerHttpSys => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerHttpSys, "aspnet100.Microsoft.AspNetCore.Server.HttpSys");
         private static byte[]? _MicrosoftAspNetCoreServerHttpSys;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Server.IIS.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreServerIIS => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerIIS, "aspnet90.Microsoft.AspNetCore.Server.IIS");
+        public static byte[] MicrosoftAspNetCoreServerIIS => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerIIS, "aspnet100.Microsoft.AspNetCore.Server.IIS");
         private static byte[]? _MicrosoftAspNetCoreServerIIS;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Server.IISIntegration.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreServerIISIntegration => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerIISIntegration, "aspnet90.Microsoft.AspNetCore.Server.IISIntegration");
+        public static byte[] MicrosoftAspNetCoreServerIISIntegration => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerIISIntegration, "aspnet100.Microsoft.AspNetCore.Server.IISIntegration");
         private static byte[]? _MicrosoftAspNetCoreServerIISIntegration;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Server.Kestrel.Core.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreServerKestrelCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrelCore, "aspnet90.Microsoft.AspNetCore.Server.Kestrel.Core");
+        public static byte[] MicrosoftAspNetCoreServerKestrelCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrelCore, "aspnet100.Microsoft.AspNetCore.Server.Kestrel.Core");
         private static byte[]? _MicrosoftAspNetCoreServerKestrelCore;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Server.Kestrel.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreServerKestrel => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrel, "aspnet90.Microsoft.AspNetCore.Server.Kestrel");
+        public static byte[] MicrosoftAspNetCoreServerKestrel => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrel, "aspnet100.Microsoft.AspNetCore.Server.Kestrel");
         private static byte[]? _MicrosoftAspNetCoreServerKestrel;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreServerKestrelTransportNamedPipes => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrelTransportNamedPipes, "aspnet90.Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes");
+        public static byte[] MicrosoftAspNetCoreServerKestrelTransportNamedPipes => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrelTransportNamedPipes, "aspnet100.Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes");
         private static byte[]? _MicrosoftAspNetCoreServerKestrelTransportNamedPipes;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreServerKestrelTransportQuic => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrelTransportQuic, "aspnet90.Microsoft.AspNetCore.Server.Kestrel.Transport.Quic");
+        public static byte[] MicrosoftAspNetCoreServerKestrelTransportQuic => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrelTransportQuic, "aspnet100.Microsoft.AspNetCore.Server.Kestrel.Transport.Quic");
         private static byte[]? _MicrosoftAspNetCoreServerKestrelTransportQuic;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreServerKestrelTransportSockets => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrelTransportSockets, "aspnet90.Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets");
+        public static byte[] MicrosoftAspNetCoreServerKestrelTransportSockets => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreServerKestrelTransportSockets, "aspnet100.Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets");
         private static byte[]? _MicrosoftAspNetCoreServerKestrelTransportSockets;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.Session.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreSession => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSession, "aspnet90.Microsoft.AspNetCore.Session");
+        public static byte[] MicrosoftAspNetCoreSession => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSession, "aspnet100.Microsoft.AspNetCore.Session");
         private static byte[]? _MicrosoftAspNetCoreSession;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.SignalR.Common.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreSignalRCommon => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSignalRCommon, "aspnet90.Microsoft.AspNetCore.SignalR.Common");
+        public static byte[] MicrosoftAspNetCoreSignalRCommon => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSignalRCommon, "aspnet100.Microsoft.AspNetCore.SignalR.Common");
         private static byte[]? _MicrosoftAspNetCoreSignalRCommon;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.SignalR.Core.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreSignalRCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSignalRCore, "aspnet90.Microsoft.AspNetCore.SignalR.Core");
+        public static byte[] MicrosoftAspNetCoreSignalRCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSignalRCore, "aspnet100.Microsoft.AspNetCore.SignalR.Core");
         private static byte[]? _MicrosoftAspNetCoreSignalRCore;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.SignalR.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreSignalR => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSignalR, "aspnet90.Microsoft.AspNetCore.SignalR");
+        public static byte[] MicrosoftAspNetCoreSignalR => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSignalR, "aspnet100.Microsoft.AspNetCore.SignalR");
         private static byte[]? _MicrosoftAspNetCoreSignalR;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.SignalR.Protocols.Json.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreSignalRProtocolsJson => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSignalRProtocolsJson, "aspnet90.Microsoft.AspNetCore.SignalR.Protocols.Json");
+        public static byte[] MicrosoftAspNetCoreSignalRProtocolsJson => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreSignalRProtocolsJson, "aspnet100.Microsoft.AspNetCore.SignalR.Protocols.Json");
         private static byte[]? _MicrosoftAspNetCoreSignalRProtocolsJson;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.StaticAssets.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreStaticAssets => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreStaticAssets, "aspnet90.Microsoft.AspNetCore.StaticAssets");
+        public static byte[] MicrosoftAspNetCoreStaticAssets => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreStaticAssets, "aspnet100.Microsoft.AspNetCore.StaticAssets");
         private static byte[]? _MicrosoftAspNetCoreStaticAssets;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.StaticFiles.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreStaticFiles => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreStaticFiles, "aspnet90.Microsoft.AspNetCore.StaticFiles");
+        public static byte[] MicrosoftAspNetCoreStaticFiles => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreStaticFiles, "aspnet100.Microsoft.AspNetCore.StaticFiles");
         private static byte[]? _MicrosoftAspNetCoreStaticFiles;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.WebSockets.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreWebSockets => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreWebSockets, "aspnet90.Microsoft.AspNetCore.WebSockets");
+        public static byte[] MicrosoftAspNetCoreWebSockets => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreWebSockets, "aspnet100.Microsoft.AspNetCore.WebSockets");
         private static byte[]? _MicrosoftAspNetCoreWebSockets;
 
         /// <summary>
         /// The image bytes for Microsoft.AspNetCore.WebUtilities.dll
         /// </summary>
-        public static byte[] MicrosoftAspNetCoreWebUtilities => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreWebUtilities, "aspnet90.Microsoft.AspNetCore.WebUtilities");
+        public static byte[] MicrosoftAspNetCoreWebUtilities => ResourceLoader.GetOrCreateResource(ref _MicrosoftAspNetCoreWebUtilities, "aspnet100.Microsoft.AspNetCore.WebUtilities");
         private static byte[]? _MicrosoftAspNetCoreWebUtilities;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Caching.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsCachingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsCachingAbstractions, "aspnet90.Microsoft.Extensions.Caching.Abstractions");
+        public static byte[] MicrosoftExtensionsCachingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsCachingAbstractions, "aspnet100.Microsoft.Extensions.Caching.Abstractions");
         private static byte[]? _MicrosoftExtensionsCachingAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Caching.Memory.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsCachingMemory => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsCachingMemory, "aspnet90.Microsoft.Extensions.Caching.Memory");
+        public static byte[] MicrosoftExtensionsCachingMemory => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsCachingMemory, "aspnet100.Microsoft.Extensions.Caching.Memory");
         private static byte[]? _MicrosoftExtensionsCachingMemory;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Configuration.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsConfigurationAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationAbstractions, "aspnet90.Microsoft.Extensions.Configuration.Abstractions");
+        public static byte[] MicrosoftExtensionsConfigurationAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationAbstractions, "aspnet100.Microsoft.Extensions.Configuration.Abstractions");
         private static byte[]? _MicrosoftExtensionsConfigurationAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Configuration.Binder.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsConfigurationBinder => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationBinder, "aspnet90.Microsoft.Extensions.Configuration.Binder");
+        public static byte[] MicrosoftExtensionsConfigurationBinder => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationBinder, "aspnet100.Microsoft.Extensions.Configuration.Binder");
         private static byte[]? _MicrosoftExtensionsConfigurationBinder;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Configuration.CommandLine.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsConfigurationCommandLine => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationCommandLine, "aspnet90.Microsoft.Extensions.Configuration.CommandLine");
+        public static byte[] MicrosoftExtensionsConfigurationCommandLine => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationCommandLine, "aspnet100.Microsoft.Extensions.Configuration.CommandLine");
         private static byte[]? _MicrosoftExtensionsConfigurationCommandLine;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Configuration.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsConfiguration => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfiguration, "aspnet90.Microsoft.Extensions.Configuration");
+        public static byte[] MicrosoftExtensionsConfiguration => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfiguration, "aspnet100.Microsoft.Extensions.Configuration");
         private static byte[]? _MicrosoftExtensionsConfiguration;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Configuration.EnvironmentVariables.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsConfigurationEnvironmentVariables => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationEnvironmentVariables, "aspnet90.Microsoft.Extensions.Configuration.EnvironmentVariables");
+        public static byte[] MicrosoftExtensionsConfigurationEnvironmentVariables => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationEnvironmentVariables, "aspnet100.Microsoft.Extensions.Configuration.EnvironmentVariables");
         private static byte[]? _MicrosoftExtensionsConfigurationEnvironmentVariables;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Configuration.FileExtensions.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsConfigurationFileExtensions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationFileExtensions, "aspnet90.Microsoft.Extensions.Configuration.FileExtensions");
+        public static byte[] MicrosoftExtensionsConfigurationFileExtensions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationFileExtensions, "aspnet100.Microsoft.Extensions.Configuration.FileExtensions");
         private static byte[]? _MicrosoftExtensionsConfigurationFileExtensions;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Configuration.Ini.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsConfigurationIni => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationIni, "aspnet90.Microsoft.Extensions.Configuration.Ini");
+        public static byte[] MicrosoftExtensionsConfigurationIni => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationIni, "aspnet100.Microsoft.Extensions.Configuration.Ini");
         private static byte[]? _MicrosoftExtensionsConfigurationIni;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Configuration.Json.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsConfigurationJson => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationJson, "aspnet90.Microsoft.Extensions.Configuration.Json");
+        public static byte[] MicrosoftExtensionsConfigurationJson => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationJson, "aspnet100.Microsoft.Extensions.Configuration.Json");
         private static byte[]? _MicrosoftExtensionsConfigurationJson;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Configuration.KeyPerFile.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsConfigurationKeyPerFile => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationKeyPerFile, "aspnet90.Microsoft.Extensions.Configuration.KeyPerFile");
+        public static byte[] MicrosoftExtensionsConfigurationKeyPerFile => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationKeyPerFile, "aspnet100.Microsoft.Extensions.Configuration.KeyPerFile");
         private static byte[]? _MicrosoftExtensionsConfigurationKeyPerFile;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Configuration.UserSecrets.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsConfigurationUserSecrets => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationUserSecrets, "aspnet90.Microsoft.Extensions.Configuration.UserSecrets");
+        public static byte[] MicrosoftExtensionsConfigurationUserSecrets => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationUserSecrets, "aspnet100.Microsoft.Extensions.Configuration.UserSecrets");
         private static byte[]? _MicrosoftExtensionsConfigurationUserSecrets;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Configuration.Xml.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsConfigurationXml => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationXml, "aspnet90.Microsoft.Extensions.Configuration.Xml");
+        public static byte[] MicrosoftExtensionsConfigurationXml => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsConfigurationXml, "aspnet100.Microsoft.Extensions.Configuration.Xml");
         private static byte[]? _MicrosoftExtensionsConfigurationXml;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.DependencyInjection.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsDependencyInjectionAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDependencyInjectionAbstractions, "aspnet90.Microsoft.Extensions.DependencyInjection.Abstractions");
+        public static byte[] MicrosoftExtensionsDependencyInjectionAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDependencyInjectionAbstractions, "aspnet100.Microsoft.Extensions.DependencyInjection.Abstractions");
         private static byte[]? _MicrosoftExtensionsDependencyInjectionAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.DependencyInjection.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsDependencyInjection => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDependencyInjection, "aspnet90.Microsoft.Extensions.DependencyInjection");
+        public static byte[] MicrosoftExtensionsDependencyInjection => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDependencyInjection, "aspnet100.Microsoft.Extensions.DependencyInjection");
         private static byte[]? _MicrosoftExtensionsDependencyInjection;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Diagnostics.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsDiagnosticsAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDiagnosticsAbstractions, "aspnet90.Microsoft.Extensions.Diagnostics.Abstractions");
+        public static byte[] MicrosoftExtensionsDiagnosticsAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDiagnosticsAbstractions, "aspnet100.Microsoft.Extensions.Diagnostics.Abstractions");
         private static byte[]? _MicrosoftExtensionsDiagnosticsAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Diagnostics.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsDiagnostics => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDiagnostics, "aspnet90.Microsoft.Extensions.Diagnostics");
+        public static byte[] MicrosoftExtensionsDiagnostics => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDiagnostics, "aspnet100.Microsoft.Extensions.Diagnostics");
         private static byte[]? _MicrosoftExtensionsDiagnostics;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsDiagnosticsHealthChecksAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDiagnosticsHealthChecksAbstractions, "aspnet90.Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions");
+        public static byte[] MicrosoftExtensionsDiagnosticsHealthChecksAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDiagnosticsHealthChecksAbstractions, "aspnet100.Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions");
         private static byte[]? _MicrosoftExtensionsDiagnosticsHealthChecksAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Diagnostics.HealthChecks.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsDiagnosticsHealthChecks => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDiagnosticsHealthChecks, "aspnet90.Microsoft.Extensions.Diagnostics.HealthChecks");
+        public static byte[] MicrosoftExtensionsDiagnosticsHealthChecks => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsDiagnosticsHealthChecks, "aspnet100.Microsoft.Extensions.Diagnostics.HealthChecks");
         private static byte[]? _MicrosoftExtensionsDiagnosticsHealthChecks;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Features.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsFeatures => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFeatures, "aspnet90.Microsoft.Extensions.Features");
+        public static byte[] MicrosoftExtensionsFeatures => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFeatures, "aspnet100.Microsoft.Extensions.Features");
         private static byte[]? _MicrosoftExtensionsFeatures;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.FileProviders.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsFileProvidersAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileProvidersAbstractions, "aspnet90.Microsoft.Extensions.FileProviders.Abstractions");
+        public static byte[] MicrosoftExtensionsFileProvidersAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileProvidersAbstractions, "aspnet100.Microsoft.Extensions.FileProviders.Abstractions");
         private static byte[]? _MicrosoftExtensionsFileProvidersAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.FileProviders.Composite.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsFileProvidersComposite => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileProvidersComposite, "aspnet90.Microsoft.Extensions.FileProviders.Composite");
+        public static byte[] MicrosoftExtensionsFileProvidersComposite => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileProvidersComposite, "aspnet100.Microsoft.Extensions.FileProviders.Composite");
         private static byte[]? _MicrosoftExtensionsFileProvidersComposite;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.FileProviders.Embedded.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsFileProvidersEmbedded => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileProvidersEmbedded, "aspnet90.Microsoft.Extensions.FileProviders.Embedded");
+        public static byte[] MicrosoftExtensionsFileProvidersEmbedded => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileProvidersEmbedded, "aspnet100.Microsoft.Extensions.FileProviders.Embedded");
         private static byte[]? _MicrosoftExtensionsFileProvidersEmbedded;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.FileProviders.Physical.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsFileProvidersPhysical => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileProvidersPhysical, "aspnet90.Microsoft.Extensions.FileProviders.Physical");
+        public static byte[] MicrosoftExtensionsFileProvidersPhysical => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileProvidersPhysical, "aspnet100.Microsoft.Extensions.FileProviders.Physical");
         private static byte[]? _MicrosoftExtensionsFileProvidersPhysical;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.FileSystemGlobbing.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsFileSystemGlobbing => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileSystemGlobbing, "aspnet90.Microsoft.Extensions.FileSystemGlobbing");
+        public static byte[] MicrosoftExtensionsFileSystemGlobbing => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsFileSystemGlobbing, "aspnet100.Microsoft.Extensions.FileSystemGlobbing");
         private static byte[]? _MicrosoftExtensionsFileSystemGlobbing;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Hosting.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsHostingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsHostingAbstractions, "aspnet90.Microsoft.Extensions.Hosting.Abstractions");
+        public static byte[] MicrosoftExtensionsHostingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsHostingAbstractions, "aspnet100.Microsoft.Extensions.Hosting.Abstractions");
         private static byte[]? _MicrosoftExtensionsHostingAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Hosting.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsHosting => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsHosting, "aspnet90.Microsoft.Extensions.Hosting");
+        public static byte[] MicrosoftExtensionsHosting => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsHosting, "aspnet100.Microsoft.Extensions.Hosting");
         private static byte[]? _MicrosoftExtensionsHosting;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Http.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsHttp => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsHttp, "aspnet90.Microsoft.Extensions.Http");
+        public static byte[] MicrosoftExtensionsHttp => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsHttp, "aspnet100.Microsoft.Extensions.Http");
         private static byte[]? _MicrosoftExtensionsHttp;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Identity.Core.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsIdentityCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsIdentityCore, "aspnet90.Microsoft.Extensions.Identity.Core");
+        public static byte[] MicrosoftExtensionsIdentityCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsIdentityCore, "aspnet100.Microsoft.Extensions.Identity.Core");
         private static byte[]? _MicrosoftExtensionsIdentityCore;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Identity.Stores.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsIdentityStores => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsIdentityStores, "aspnet90.Microsoft.Extensions.Identity.Stores");
+        public static byte[] MicrosoftExtensionsIdentityStores => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsIdentityStores, "aspnet100.Microsoft.Extensions.Identity.Stores");
         private static byte[]? _MicrosoftExtensionsIdentityStores;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Localization.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsLocalizationAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLocalizationAbstractions, "aspnet90.Microsoft.Extensions.Localization.Abstractions");
+        public static byte[] MicrosoftExtensionsLocalizationAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLocalizationAbstractions, "aspnet100.Microsoft.Extensions.Localization.Abstractions");
         private static byte[]? _MicrosoftExtensionsLocalizationAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Localization.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsLocalization => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLocalization, "aspnet90.Microsoft.Extensions.Localization");
+        public static byte[] MicrosoftExtensionsLocalization => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLocalization, "aspnet100.Microsoft.Extensions.Localization");
         private static byte[]? _MicrosoftExtensionsLocalization;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Logging.Abstractions.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsLoggingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingAbstractions, "aspnet90.Microsoft.Extensions.Logging.Abstractions");
+        public static byte[] MicrosoftExtensionsLoggingAbstractions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingAbstractions, "aspnet100.Microsoft.Extensions.Logging.Abstractions");
         private static byte[]? _MicrosoftExtensionsLoggingAbstractions;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Logging.Configuration.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsLoggingConfiguration => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingConfiguration, "aspnet90.Microsoft.Extensions.Logging.Configuration");
+        public static byte[] MicrosoftExtensionsLoggingConfiguration => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingConfiguration, "aspnet100.Microsoft.Extensions.Logging.Configuration");
         private static byte[]? _MicrosoftExtensionsLoggingConfiguration;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Logging.Console.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsLoggingConsole => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingConsole, "aspnet90.Microsoft.Extensions.Logging.Console");
+        public static byte[] MicrosoftExtensionsLoggingConsole => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingConsole, "aspnet100.Microsoft.Extensions.Logging.Console");
         private static byte[]? _MicrosoftExtensionsLoggingConsole;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Logging.Debug.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsLoggingDebug => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingDebug, "aspnet90.Microsoft.Extensions.Logging.Debug");
+        public static byte[] MicrosoftExtensionsLoggingDebug => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingDebug, "aspnet100.Microsoft.Extensions.Logging.Debug");
         private static byte[]? _MicrosoftExtensionsLoggingDebug;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Logging.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsLogging => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLogging, "aspnet90.Microsoft.Extensions.Logging");
+        public static byte[] MicrosoftExtensionsLogging => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLogging, "aspnet100.Microsoft.Extensions.Logging");
         private static byte[]? _MicrosoftExtensionsLogging;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Logging.EventLog.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsLoggingEventLog => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingEventLog, "aspnet90.Microsoft.Extensions.Logging.EventLog");
+        public static byte[] MicrosoftExtensionsLoggingEventLog => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingEventLog, "aspnet100.Microsoft.Extensions.Logging.EventLog");
         private static byte[]? _MicrosoftExtensionsLoggingEventLog;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Logging.EventSource.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsLoggingEventSource => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingEventSource, "aspnet90.Microsoft.Extensions.Logging.EventSource");
+        public static byte[] MicrosoftExtensionsLoggingEventSource => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingEventSource, "aspnet100.Microsoft.Extensions.Logging.EventSource");
         private static byte[]? _MicrosoftExtensionsLoggingEventSource;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Logging.TraceSource.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsLoggingTraceSource => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingTraceSource, "aspnet90.Microsoft.Extensions.Logging.TraceSource");
+        public static byte[] MicrosoftExtensionsLoggingTraceSource => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsLoggingTraceSource, "aspnet100.Microsoft.Extensions.Logging.TraceSource");
         private static byte[]? _MicrosoftExtensionsLoggingTraceSource;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.ObjectPool.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsObjectPool => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsObjectPool, "aspnet90.Microsoft.Extensions.ObjectPool");
+        public static byte[] MicrosoftExtensionsObjectPool => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsObjectPool, "aspnet100.Microsoft.Extensions.ObjectPool");
         private static byte[]? _MicrosoftExtensionsObjectPool;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Options.ConfigurationExtensions.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsOptionsConfigurationExtensions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsOptionsConfigurationExtensions, "aspnet90.Microsoft.Extensions.Options.ConfigurationExtensions");
+        public static byte[] MicrosoftExtensionsOptionsConfigurationExtensions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsOptionsConfigurationExtensions, "aspnet100.Microsoft.Extensions.Options.ConfigurationExtensions");
         private static byte[]? _MicrosoftExtensionsOptionsConfigurationExtensions;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Options.DataAnnotations.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsOptionsDataAnnotations => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsOptionsDataAnnotations, "aspnet90.Microsoft.Extensions.Options.DataAnnotations");
+        public static byte[] MicrosoftExtensionsOptionsDataAnnotations => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsOptionsDataAnnotations, "aspnet100.Microsoft.Extensions.Options.DataAnnotations");
         private static byte[]? _MicrosoftExtensionsOptionsDataAnnotations;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Options.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsOptions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsOptions, "aspnet90.Microsoft.Extensions.Options");
+        public static byte[] MicrosoftExtensionsOptions => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsOptions, "aspnet100.Microsoft.Extensions.Options");
         private static byte[]? _MicrosoftExtensionsOptions;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.Primitives.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsPrimitives => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsPrimitives, "aspnet90.Microsoft.Extensions.Primitives");
+        public static byte[] MicrosoftExtensionsPrimitives => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsPrimitives, "aspnet100.Microsoft.Extensions.Primitives");
         private static byte[]? _MicrosoftExtensionsPrimitives;
 
         /// <summary>
         /// The image bytes for Microsoft.Extensions.WebEncoders.dll
         /// </summary>
-        public static byte[] MicrosoftExtensionsWebEncoders => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsWebEncoders, "aspnet90.Microsoft.Extensions.WebEncoders");
+        public static byte[] MicrosoftExtensionsWebEncoders => ResourceLoader.GetOrCreateResource(ref _MicrosoftExtensionsWebEncoders, "aspnet100.Microsoft.Extensions.WebEncoders");
         private static byte[]? _MicrosoftExtensionsWebEncoders;
 
         /// <summary>
         /// The image bytes for Microsoft.JSInterop.dll
         /// </summary>
-        public static byte[] MicrosoftJSInterop => ResourceLoader.GetOrCreateResource(ref _MicrosoftJSInterop, "aspnet90.Microsoft.JSInterop");
+        public static byte[] MicrosoftJSInterop => ResourceLoader.GetOrCreateResource(ref _MicrosoftJSInterop, "aspnet100.Microsoft.JSInterop");
         private static byte[]? _MicrosoftJSInterop;
 
         /// <summary>
         /// The image bytes for Microsoft.Net.Http.Headers.dll
         /// </summary>
-        public static byte[] MicrosoftNetHttpHeaders => ResourceLoader.GetOrCreateResource(ref _MicrosoftNetHttpHeaders, "aspnet90.Microsoft.Net.Http.Headers");
+        public static byte[] MicrosoftNetHttpHeaders => ResourceLoader.GetOrCreateResource(ref _MicrosoftNetHttpHeaders, "aspnet100.Microsoft.Net.Http.Headers");
         private static byte[]? _MicrosoftNetHttpHeaders;
 
         /// <summary>
         /// The image bytes for System.Diagnostics.EventLog.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsEventLog => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsEventLog, "aspnet90.System.Diagnostics.EventLog");
+        public static byte[] SystemDiagnosticsEventLog => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsEventLog, "aspnet100.System.Diagnostics.EventLog");
         private static byte[]? _SystemDiagnosticsEventLog;
 
         /// <summary>
         /// The image bytes for System.Security.Cryptography.Xml.dll
         /// </summary>
-        public static byte[] SystemSecurityCryptographyXml => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyXml, "aspnet90.System.Security.Cryptography.Xml");
+        public static byte[] SystemSecurityCryptographyXml => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyXml, "aspnet100.System.Security.Cryptography.Xml");
         private static byte[]? _SystemSecurityCryptographyXml;
 
         /// <summary>
         /// The image bytes for System.Threading.RateLimiting.dll
         /// </summary>
-        public static byte[] SystemThreadingRateLimiting => ResourceLoader.GetOrCreateResource(ref _SystemThreadingRateLimiting, "aspnet90.System.Threading.RateLimiting");
+        public static byte[] SystemThreadingRateLimiting => ResourceLoader.GetOrCreateResource(ref _SystemThreadingRateLimiting, "aspnet100.System.Threading.RateLimiting");
         private static byte[]? _SystemThreadingRateLimiting;
 
 
@@ -9120,7 +9180,7 @@ public static partial class AspNet90
 }
 
 #if !BASIC_REFERENCE_ASSEMBLIES_COMBINED
-    public static partial class AspNet90
+    public static partial class AspNet100
     {
 
         /// <summary>

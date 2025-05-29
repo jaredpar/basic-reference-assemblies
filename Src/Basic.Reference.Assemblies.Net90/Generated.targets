@@ -1,658 +1,658 @@
 <Project>
     <ItemGroup>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\Microsoft.CSharp.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\Microsoft.CSharp.dll" WithCulture="false">
             <LogicalName>net90.Microsoft.CSharp</LogicalName>
             <Link>Resources\net90\Microsoft.CSharp.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\Microsoft.VisualBasic.Core.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\Microsoft.VisualBasic.Core.dll" WithCulture="false">
             <LogicalName>net90.Microsoft.VisualBasic.Core</LogicalName>
             <Link>Resources\net90\Microsoft.VisualBasic.Core.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\Microsoft.VisualBasic.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\Microsoft.VisualBasic.dll" WithCulture="false">
             <LogicalName>net90.Microsoft.VisualBasic</LogicalName>
             <Link>Resources\net90\Microsoft.VisualBasic.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\Microsoft.Win32.Primitives.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\Microsoft.Win32.Primitives.dll" WithCulture="false">
             <LogicalName>net90.Microsoft.Win32.Primitives</LogicalName>
             <Link>Resources\net90\Microsoft.Win32.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\Microsoft.Win32.Registry.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\Microsoft.Win32.Registry.dll" WithCulture="false">
             <LogicalName>net90.Microsoft.Win32.Registry</LogicalName>
             <Link>Resources\net90\Microsoft.Win32.Registry.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\mscorlib.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\mscorlib.dll" WithCulture="false">
             <LogicalName>net90.mscorlib</LogicalName>
             <Link>Resources\net90\mscorlib.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\netstandard.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\netstandard.dll" WithCulture="false">
             <LogicalName>net90.netstandard</LogicalName>
             <Link>Resources\net90\netstandard.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.AppContext.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.AppContext.dll" WithCulture="false">
             <LogicalName>net90.System.AppContext</LogicalName>
             <Link>Resources\net90\System.AppContext.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Buffers.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Buffers.dll" WithCulture="false">
             <LogicalName>net90.System.Buffers</LogicalName>
             <Link>Resources\net90\System.Buffers.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Collections.Concurrent.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Collections.Concurrent.dll" WithCulture="false">
             <LogicalName>net90.System.Collections.Concurrent</LogicalName>
             <Link>Resources\net90\System.Collections.Concurrent.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Collections.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Collections.dll" WithCulture="false">
             <LogicalName>net90.System.Collections</LogicalName>
             <Link>Resources\net90\System.Collections.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Collections.Immutable.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Collections.Immutable.dll" WithCulture="false">
             <LogicalName>net90.System.Collections.Immutable</LogicalName>
             <Link>Resources\net90\System.Collections.Immutable.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Collections.NonGeneric.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Collections.NonGeneric.dll" WithCulture="false">
             <LogicalName>net90.System.Collections.NonGeneric</LogicalName>
             <Link>Resources\net90\System.Collections.NonGeneric.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Collections.Specialized.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Collections.Specialized.dll" WithCulture="false">
             <LogicalName>net90.System.Collections.Specialized</LogicalName>
             <Link>Resources\net90\System.Collections.Specialized.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.ComponentModel.Annotations.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.ComponentModel.Annotations.dll" WithCulture="false">
             <LogicalName>net90.System.ComponentModel.Annotations</LogicalName>
             <Link>Resources\net90\System.ComponentModel.Annotations.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.ComponentModel.DataAnnotations.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.ComponentModel.DataAnnotations.dll" WithCulture="false">
             <LogicalName>net90.System.ComponentModel.DataAnnotations</LogicalName>
             <Link>Resources\net90\System.ComponentModel.DataAnnotations.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.ComponentModel.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.ComponentModel.dll" WithCulture="false">
             <LogicalName>net90.System.ComponentModel</LogicalName>
             <Link>Resources\net90\System.ComponentModel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.ComponentModel.EventBasedAsync.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.ComponentModel.EventBasedAsync.dll" WithCulture="false">
             <LogicalName>net90.System.ComponentModel.EventBasedAsync</LogicalName>
             <Link>Resources\net90\System.ComponentModel.EventBasedAsync.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.ComponentModel.Primitives.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.ComponentModel.Primitives.dll" WithCulture="false">
             <LogicalName>net90.System.ComponentModel.Primitives</LogicalName>
             <Link>Resources\net90\System.ComponentModel.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.ComponentModel.TypeConverter.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.ComponentModel.TypeConverter.dll" WithCulture="false">
             <LogicalName>net90.System.ComponentModel.TypeConverter</LogicalName>
             <Link>Resources\net90\System.ComponentModel.TypeConverter.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Configuration.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Configuration.dll" WithCulture="false">
             <LogicalName>net90.System.Configuration</LogicalName>
             <Link>Resources\net90\System.Configuration.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Console.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Console.dll" WithCulture="false">
             <LogicalName>net90.System.Console</LogicalName>
             <Link>Resources\net90\System.Console.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Core.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Core.dll" WithCulture="false">
             <LogicalName>net90.System.Core</LogicalName>
             <Link>Resources\net90\System.Core.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Data.Common.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Data.Common.dll" WithCulture="false">
             <LogicalName>net90.System.Data.Common</LogicalName>
             <Link>Resources\net90\System.Data.Common.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Data.DataSetExtensions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Data.DataSetExtensions.dll" WithCulture="false">
             <LogicalName>net90.System.Data.DataSetExtensions</LogicalName>
             <Link>Resources\net90\System.Data.DataSetExtensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Data.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Data.dll" WithCulture="false">
             <LogicalName>net90.System.Data</LogicalName>
             <Link>Resources\net90\System.Data.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Diagnostics.Contracts.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Diagnostics.Contracts.dll" WithCulture="false">
             <LogicalName>net90.System.Diagnostics.Contracts</LogicalName>
             <Link>Resources\net90\System.Diagnostics.Contracts.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Diagnostics.Debug.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Diagnostics.Debug.dll" WithCulture="false">
             <LogicalName>net90.System.Diagnostics.Debug</LogicalName>
             <Link>Resources\net90\System.Diagnostics.Debug.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Diagnostics.DiagnosticSource.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Diagnostics.DiagnosticSource.dll" WithCulture="false">
             <LogicalName>net90.System.Diagnostics.DiagnosticSource</LogicalName>
             <Link>Resources\net90\System.Diagnostics.DiagnosticSource.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Diagnostics.FileVersionInfo.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Diagnostics.FileVersionInfo.dll" WithCulture="false">
             <LogicalName>net90.System.Diagnostics.FileVersionInfo</LogicalName>
             <Link>Resources\net90\System.Diagnostics.FileVersionInfo.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Diagnostics.Process.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Diagnostics.Process.dll" WithCulture="false">
             <LogicalName>net90.System.Diagnostics.Process</LogicalName>
             <Link>Resources\net90\System.Diagnostics.Process.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Diagnostics.StackTrace.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Diagnostics.StackTrace.dll" WithCulture="false">
             <LogicalName>net90.System.Diagnostics.StackTrace</LogicalName>
             <Link>Resources\net90\System.Diagnostics.StackTrace.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Diagnostics.TextWriterTraceListener.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Diagnostics.TextWriterTraceListener.dll" WithCulture="false">
             <LogicalName>net90.System.Diagnostics.TextWriterTraceListener</LogicalName>
             <Link>Resources\net90\System.Diagnostics.TextWriterTraceListener.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Diagnostics.Tools.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Diagnostics.Tools.dll" WithCulture="false">
             <LogicalName>net90.System.Diagnostics.Tools</LogicalName>
             <Link>Resources\net90\System.Diagnostics.Tools.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Diagnostics.TraceSource.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Diagnostics.TraceSource.dll" WithCulture="false">
             <LogicalName>net90.System.Diagnostics.TraceSource</LogicalName>
             <Link>Resources\net90\System.Diagnostics.TraceSource.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Diagnostics.Tracing.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Diagnostics.Tracing.dll" WithCulture="false">
             <LogicalName>net90.System.Diagnostics.Tracing</LogicalName>
             <Link>Resources\net90\System.Diagnostics.Tracing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.dll" WithCulture="false">
             <LogicalName>net90.System</LogicalName>
             <Link>Resources\net90\System.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Drawing.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Drawing.dll" WithCulture="false">
             <LogicalName>net90.System.Drawing</LogicalName>
             <Link>Resources\net90\System.Drawing.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Drawing.Primitives.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Drawing.Primitives.dll" WithCulture="false">
             <LogicalName>net90.System.Drawing.Primitives</LogicalName>
             <Link>Resources\net90\System.Drawing.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Dynamic.Runtime.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Dynamic.Runtime.dll" WithCulture="false">
             <LogicalName>net90.System.Dynamic.Runtime</LogicalName>
             <Link>Resources\net90\System.Dynamic.Runtime.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Formats.Asn1.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Formats.Asn1.dll" WithCulture="false">
             <LogicalName>net90.System.Formats.Asn1</LogicalName>
             <Link>Resources\net90\System.Formats.Asn1.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Formats.Tar.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Formats.Tar.dll" WithCulture="false">
             <LogicalName>net90.System.Formats.Tar</LogicalName>
             <Link>Resources\net90\System.Formats.Tar.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Globalization.Calendars.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Globalization.Calendars.dll" WithCulture="false">
             <LogicalName>net90.System.Globalization.Calendars</LogicalName>
             <Link>Resources\net90\System.Globalization.Calendars.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Globalization.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Globalization.dll" WithCulture="false">
             <LogicalName>net90.System.Globalization</LogicalName>
             <Link>Resources\net90\System.Globalization.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Globalization.Extensions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Globalization.Extensions.dll" WithCulture="false">
             <LogicalName>net90.System.Globalization.Extensions</LogicalName>
             <Link>Resources\net90\System.Globalization.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.Compression.Brotli.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.Compression.Brotli.dll" WithCulture="false">
             <LogicalName>net90.System.IO.Compression.Brotli</LogicalName>
             <Link>Resources\net90\System.IO.Compression.Brotli.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.Compression.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.Compression.dll" WithCulture="false">
             <LogicalName>net90.System.IO.Compression</LogicalName>
             <Link>Resources\net90\System.IO.Compression.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.Compression.FileSystem.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.Compression.FileSystem.dll" WithCulture="false">
             <LogicalName>net90.System.IO.Compression.FileSystem</LogicalName>
             <Link>Resources\net90\System.IO.Compression.FileSystem.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.Compression.ZipFile.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.Compression.ZipFile.dll" WithCulture="false">
             <LogicalName>net90.System.IO.Compression.ZipFile</LogicalName>
             <Link>Resources\net90\System.IO.Compression.ZipFile.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.dll" WithCulture="false">
             <LogicalName>net90.System.IO</LogicalName>
             <Link>Resources\net90\System.IO.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.FileSystem.AccessControl.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.FileSystem.AccessControl.dll" WithCulture="false">
             <LogicalName>net90.System.IO.FileSystem.AccessControl</LogicalName>
             <Link>Resources\net90\System.IO.FileSystem.AccessControl.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.FileSystem.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.FileSystem.dll" WithCulture="false">
             <LogicalName>net90.System.IO.FileSystem</LogicalName>
             <Link>Resources\net90\System.IO.FileSystem.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.FileSystem.DriveInfo.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.FileSystem.DriveInfo.dll" WithCulture="false">
             <LogicalName>net90.System.IO.FileSystem.DriveInfo</LogicalName>
             <Link>Resources\net90\System.IO.FileSystem.DriveInfo.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.FileSystem.Primitives.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.FileSystem.Primitives.dll" WithCulture="false">
             <LogicalName>net90.System.IO.FileSystem.Primitives</LogicalName>
             <Link>Resources\net90\System.IO.FileSystem.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.FileSystem.Watcher.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.FileSystem.Watcher.dll" WithCulture="false">
             <LogicalName>net90.System.IO.FileSystem.Watcher</LogicalName>
             <Link>Resources\net90\System.IO.FileSystem.Watcher.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.IsolatedStorage.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.IsolatedStorage.dll" WithCulture="false">
             <LogicalName>net90.System.IO.IsolatedStorage</LogicalName>
             <Link>Resources\net90\System.IO.IsolatedStorage.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.MemoryMappedFiles.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.MemoryMappedFiles.dll" WithCulture="false">
             <LogicalName>net90.System.IO.MemoryMappedFiles</LogicalName>
             <Link>Resources\net90\System.IO.MemoryMappedFiles.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.Pipelines.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.Pipelines.dll" WithCulture="false">
             <LogicalName>net90.System.IO.Pipelines</LogicalName>
             <Link>Resources\net90\System.IO.Pipelines.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.Pipes.AccessControl.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.Pipes.AccessControl.dll" WithCulture="false">
             <LogicalName>net90.System.IO.Pipes.AccessControl</LogicalName>
             <Link>Resources\net90\System.IO.Pipes.AccessControl.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.Pipes.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.Pipes.dll" WithCulture="false">
             <LogicalName>net90.System.IO.Pipes</LogicalName>
             <Link>Resources\net90\System.IO.Pipes.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.IO.UnmanagedMemoryStream.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.IO.UnmanagedMemoryStream.dll" WithCulture="false">
             <LogicalName>net90.System.IO.UnmanagedMemoryStream</LogicalName>
             <Link>Resources\net90\System.IO.UnmanagedMemoryStream.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Linq.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Linq.dll" WithCulture="false">
             <LogicalName>net90.System.Linq</LogicalName>
             <Link>Resources\net90\System.Linq.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Linq.Expressions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Linq.Expressions.dll" WithCulture="false">
             <LogicalName>net90.System.Linq.Expressions</LogicalName>
             <Link>Resources\net90\System.Linq.Expressions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Linq.Parallel.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Linq.Parallel.dll" WithCulture="false">
             <LogicalName>net90.System.Linq.Parallel</LogicalName>
             <Link>Resources\net90\System.Linq.Parallel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Linq.Queryable.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Linq.Queryable.dll" WithCulture="false">
             <LogicalName>net90.System.Linq.Queryable</LogicalName>
             <Link>Resources\net90\System.Linq.Queryable.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Memory.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Memory.dll" WithCulture="false">
             <LogicalName>net90.System.Memory</LogicalName>
             <Link>Resources\net90\System.Memory.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.dll" WithCulture="false">
             <LogicalName>net90.System.Net</LogicalName>
             <Link>Resources\net90\System.Net.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.Http.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.Http.dll" WithCulture="false">
             <LogicalName>net90.System.Net.Http</LogicalName>
             <Link>Resources\net90\System.Net.Http.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.Http.Json.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.Http.Json.dll" WithCulture="false">
             <LogicalName>net90.System.Net.Http.Json</LogicalName>
             <Link>Resources\net90\System.Net.Http.Json.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.HttpListener.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.HttpListener.dll" WithCulture="false">
             <LogicalName>net90.System.Net.HttpListener</LogicalName>
             <Link>Resources\net90\System.Net.HttpListener.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.Mail.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.Mail.dll" WithCulture="false">
             <LogicalName>net90.System.Net.Mail</LogicalName>
             <Link>Resources\net90\System.Net.Mail.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.NameResolution.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.NameResolution.dll" WithCulture="false">
             <LogicalName>net90.System.Net.NameResolution</LogicalName>
             <Link>Resources\net90\System.Net.NameResolution.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.NetworkInformation.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.NetworkInformation.dll" WithCulture="false">
             <LogicalName>net90.System.Net.NetworkInformation</LogicalName>
             <Link>Resources\net90\System.Net.NetworkInformation.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.Ping.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.Ping.dll" WithCulture="false">
             <LogicalName>net90.System.Net.Ping</LogicalName>
             <Link>Resources\net90\System.Net.Ping.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.Primitives.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.Primitives.dll" WithCulture="false">
             <LogicalName>net90.System.Net.Primitives</LogicalName>
             <Link>Resources\net90\System.Net.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.Quic.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.Quic.dll" WithCulture="false">
             <LogicalName>net90.System.Net.Quic</LogicalName>
             <Link>Resources\net90\System.Net.Quic.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.Requests.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.Requests.dll" WithCulture="false">
             <LogicalName>net90.System.Net.Requests</LogicalName>
             <Link>Resources\net90\System.Net.Requests.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.Security.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.Security.dll" WithCulture="false">
             <LogicalName>net90.System.Net.Security</LogicalName>
             <Link>Resources\net90\System.Net.Security.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.ServicePoint.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.ServicePoint.dll" WithCulture="false">
             <LogicalName>net90.System.Net.ServicePoint</LogicalName>
             <Link>Resources\net90\System.Net.ServicePoint.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.Sockets.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.Sockets.dll" WithCulture="false">
             <LogicalName>net90.System.Net.Sockets</LogicalName>
             <Link>Resources\net90\System.Net.Sockets.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.WebClient.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.WebClient.dll" WithCulture="false">
             <LogicalName>net90.System.Net.WebClient</LogicalName>
             <Link>Resources\net90\System.Net.WebClient.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.WebHeaderCollection.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.WebHeaderCollection.dll" WithCulture="false">
             <LogicalName>net90.System.Net.WebHeaderCollection</LogicalName>
             <Link>Resources\net90\System.Net.WebHeaderCollection.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.WebProxy.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.WebProxy.dll" WithCulture="false">
             <LogicalName>net90.System.Net.WebProxy</LogicalName>
             <Link>Resources\net90\System.Net.WebProxy.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.WebSockets.Client.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.WebSockets.Client.dll" WithCulture="false">
             <LogicalName>net90.System.Net.WebSockets.Client</LogicalName>
             <Link>Resources\net90\System.Net.WebSockets.Client.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Net.WebSockets.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Net.WebSockets.dll" WithCulture="false">
             <LogicalName>net90.System.Net.WebSockets</LogicalName>
             <Link>Resources\net90\System.Net.WebSockets.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Numerics.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Numerics.dll" WithCulture="false">
             <LogicalName>net90.System.Numerics</LogicalName>
             <Link>Resources\net90\System.Numerics.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Numerics.Vectors.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Numerics.Vectors.dll" WithCulture="false">
             <LogicalName>net90.System.Numerics.Vectors</LogicalName>
             <Link>Resources\net90\System.Numerics.Vectors.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.ObjectModel.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.ObjectModel.dll" WithCulture="false">
             <LogicalName>net90.System.ObjectModel</LogicalName>
             <Link>Resources\net90\System.ObjectModel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Reflection.DispatchProxy.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Reflection.DispatchProxy.dll" WithCulture="false">
             <LogicalName>net90.System.Reflection.DispatchProxy</LogicalName>
             <Link>Resources\net90\System.Reflection.DispatchProxy.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Reflection.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Reflection.dll" WithCulture="false">
             <LogicalName>net90.System.Reflection</LogicalName>
             <Link>Resources\net90\System.Reflection.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Reflection.Emit.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Reflection.Emit.dll" WithCulture="false">
             <LogicalName>net90.System.Reflection.Emit</LogicalName>
             <Link>Resources\net90\System.Reflection.Emit.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Reflection.Emit.ILGeneration.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Reflection.Emit.ILGeneration.dll" WithCulture="false">
             <LogicalName>net90.System.Reflection.Emit.ILGeneration</LogicalName>
             <Link>Resources\net90\System.Reflection.Emit.ILGeneration.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Reflection.Emit.Lightweight.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Reflection.Emit.Lightweight.dll" WithCulture="false">
             <LogicalName>net90.System.Reflection.Emit.Lightweight</LogicalName>
             <Link>Resources\net90\System.Reflection.Emit.Lightweight.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Reflection.Extensions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Reflection.Extensions.dll" WithCulture="false">
             <LogicalName>net90.System.Reflection.Extensions</LogicalName>
             <Link>Resources\net90\System.Reflection.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Reflection.Metadata.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Reflection.Metadata.dll" WithCulture="false">
             <LogicalName>net90.System.Reflection.Metadata</LogicalName>
             <Link>Resources\net90\System.Reflection.Metadata.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Reflection.Primitives.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Reflection.Primitives.dll" WithCulture="false">
             <LogicalName>net90.System.Reflection.Primitives</LogicalName>
             <Link>Resources\net90\System.Reflection.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Reflection.TypeExtensions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Reflection.TypeExtensions.dll" WithCulture="false">
             <LogicalName>net90.System.Reflection.TypeExtensions</LogicalName>
             <Link>Resources\net90\System.Reflection.TypeExtensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Resources.Reader.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Resources.Reader.dll" WithCulture="false">
             <LogicalName>net90.System.Resources.Reader</LogicalName>
             <Link>Resources\net90\System.Resources.Reader.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Resources.ResourceManager.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Resources.ResourceManager.dll" WithCulture="false">
             <LogicalName>net90.System.Resources.ResourceManager</LogicalName>
             <Link>Resources\net90\System.Resources.ResourceManager.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Resources.Writer.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Resources.Writer.dll" WithCulture="false">
             <LogicalName>net90.System.Resources.Writer</LogicalName>
             <Link>Resources\net90\System.Resources.Writer.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.CompilerServices.Unsafe.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.CompilerServices.Unsafe.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.CompilerServices.Unsafe</LogicalName>
             <Link>Resources\net90\System.Runtime.CompilerServices.Unsafe.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.CompilerServices.VisualC.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.CompilerServices.VisualC.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.CompilerServices.VisualC</LogicalName>
             <Link>Resources\net90\System.Runtime.CompilerServices.VisualC.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime</LogicalName>
             <Link>Resources\net90\System.Runtime.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.Extensions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.Extensions.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.Extensions</LogicalName>
             <Link>Resources\net90\System.Runtime.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.Handles.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.Handles.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.Handles</LogicalName>
             <Link>Resources\net90\System.Runtime.Handles.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.InteropServices.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.InteropServices.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.InteropServices</LogicalName>
             <Link>Resources\net90\System.Runtime.InteropServices.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.InteropServices.JavaScript.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.InteropServices.JavaScript.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.InteropServices.JavaScript</LogicalName>
             <Link>Resources\net90\System.Runtime.InteropServices.JavaScript.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.InteropServices.RuntimeInformation.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.InteropServices.RuntimeInformation.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.InteropServices.RuntimeInformation</LogicalName>
             <Link>Resources\net90\System.Runtime.InteropServices.RuntimeInformation.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.Intrinsics.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.Intrinsics.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.Intrinsics</LogicalName>
             <Link>Resources\net90\System.Runtime.Intrinsics.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.Loader.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.Loader.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.Loader</LogicalName>
             <Link>Resources\net90\System.Runtime.Loader.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.Numerics.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.Numerics.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.Numerics</LogicalName>
             <Link>Resources\net90\System.Runtime.Numerics.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.Serialization.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.Serialization.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.Serialization</LogicalName>
             <Link>Resources\net90\System.Runtime.Serialization.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.Serialization.Formatters.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.Serialization.Formatters.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.Serialization.Formatters</LogicalName>
             <Link>Resources\net90\System.Runtime.Serialization.Formatters.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.Serialization.Json.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.Serialization.Json.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.Serialization.Json</LogicalName>
             <Link>Resources\net90\System.Runtime.Serialization.Json.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.Serialization.Primitives.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.Serialization.Primitives.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.Serialization.Primitives</LogicalName>
             <Link>Resources\net90\System.Runtime.Serialization.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Runtime.Serialization.Xml.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Runtime.Serialization.Xml.dll" WithCulture="false">
             <LogicalName>net90.System.Runtime.Serialization.Xml</LogicalName>
             <Link>Resources\net90\System.Runtime.Serialization.Xml.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Security.AccessControl.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Security.AccessControl.dll" WithCulture="false">
             <LogicalName>net90.System.Security.AccessControl</LogicalName>
             <Link>Resources\net90\System.Security.AccessControl.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Security.Claims.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Security.Claims.dll" WithCulture="false">
             <LogicalName>net90.System.Security.Claims</LogicalName>
             <Link>Resources\net90\System.Security.Claims.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Security.Cryptography.Algorithms.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Security.Cryptography.Algorithms.dll" WithCulture="false">
             <LogicalName>net90.System.Security.Cryptography.Algorithms</LogicalName>
             <Link>Resources\net90\System.Security.Cryptography.Algorithms.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Security.Cryptography.Cng.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Security.Cryptography.Cng.dll" WithCulture="false">
             <LogicalName>net90.System.Security.Cryptography.Cng</LogicalName>
             <Link>Resources\net90\System.Security.Cryptography.Cng.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Security.Cryptography.Csp.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Security.Cryptography.Csp.dll" WithCulture="false">
             <LogicalName>net90.System.Security.Cryptography.Csp</LogicalName>
             <Link>Resources\net90\System.Security.Cryptography.Csp.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Security.Cryptography.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Security.Cryptography.dll" WithCulture="false">
             <LogicalName>net90.System.Security.Cryptography</LogicalName>
             <Link>Resources\net90\System.Security.Cryptography.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Security.Cryptography.Encoding.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Security.Cryptography.Encoding.dll" WithCulture="false">
             <LogicalName>net90.System.Security.Cryptography.Encoding</LogicalName>
             <Link>Resources\net90\System.Security.Cryptography.Encoding.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Security.Cryptography.OpenSsl.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Security.Cryptography.OpenSsl.dll" WithCulture="false">
             <LogicalName>net90.System.Security.Cryptography.OpenSsl</LogicalName>
             <Link>Resources\net90\System.Security.Cryptography.OpenSsl.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Security.Cryptography.Primitives.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Security.Cryptography.Primitives.dll" WithCulture="false">
             <LogicalName>net90.System.Security.Cryptography.Primitives</LogicalName>
             <Link>Resources\net90\System.Security.Cryptography.Primitives.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Security.Cryptography.X509Certificates.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Security.Cryptography.X509Certificates.dll" WithCulture="false">
             <LogicalName>net90.System.Security.Cryptography.X509Certificates</LogicalName>
             <Link>Resources\net90\System.Security.Cryptography.X509Certificates.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Security.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Security.dll" WithCulture="false">
             <LogicalName>net90.System.Security</LogicalName>
             <Link>Resources\net90\System.Security.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Security.Principal.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Security.Principal.dll" WithCulture="false">
             <LogicalName>net90.System.Security.Principal</LogicalName>
             <Link>Resources\net90\System.Security.Principal.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Security.Principal.Windows.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Security.Principal.Windows.dll" WithCulture="false">
             <LogicalName>net90.System.Security.Principal.Windows</LogicalName>
             <Link>Resources\net90\System.Security.Principal.Windows.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Security.SecureString.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Security.SecureString.dll" WithCulture="false">
             <LogicalName>net90.System.Security.SecureString</LogicalName>
             <Link>Resources\net90\System.Security.SecureString.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.ServiceModel.Web.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.ServiceModel.Web.dll" WithCulture="false">
             <LogicalName>net90.System.ServiceModel.Web</LogicalName>
             <Link>Resources\net90\System.ServiceModel.Web.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.ServiceProcess.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.ServiceProcess.dll" WithCulture="false">
             <LogicalName>net90.System.ServiceProcess</LogicalName>
             <Link>Resources\net90\System.ServiceProcess.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Text.Encoding.CodePages.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Text.Encoding.CodePages.dll" WithCulture="false">
             <LogicalName>net90.System.Text.Encoding.CodePages</LogicalName>
             <Link>Resources\net90\System.Text.Encoding.CodePages.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Text.Encoding.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Text.Encoding.dll" WithCulture="false">
             <LogicalName>net90.System.Text.Encoding</LogicalName>
             <Link>Resources\net90\System.Text.Encoding.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Text.Encoding.Extensions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Text.Encoding.Extensions.dll" WithCulture="false">
             <LogicalName>net90.System.Text.Encoding.Extensions</LogicalName>
             <Link>Resources\net90\System.Text.Encoding.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Text.Encodings.Web.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Text.Encodings.Web.dll" WithCulture="false">
             <LogicalName>net90.System.Text.Encodings.Web</LogicalName>
             <Link>Resources\net90\System.Text.Encodings.Web.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Text.Json.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Text.Json.dll" WithCulture="false">
             <LogicalName>net90.System.Text.Json</LogicalName>
             <Link>Resources\net90\System.Text.Json.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Text.RegularExpressions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Text.RegularExpressions.dll" WithCulture="false">
             <LogicalName>net90.System.Text.RegularExpressions</LogicalName>
             <Link>Resources\net90\System.Text.RegularExpressions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Threading.Channels.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Threading.Channels.dll" WithCulture="false">
             <LogicalName>net90.System.Threading.Channels</LogicalName>
             <Link>Resources\net90\System.Threading.Channels.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Threading.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Threading.dll" WithCulture="false">
             <LogicalName>net90.System.Threading</LogicalName>
             <Link>Resources\net90\System.Threading.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Threading.Overlapped.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Threading.Overlapped.dll" WithCulture="false">
             <LogicalName>net90.System.Threading.Overlapped</LogicalName>
             <Link>Resources\net90\System.Threading.Overlapped.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Threading.Tasks.Dataflow.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Threading.Tasks.Dataflow.dll" WithCulture="false">
             <LogicalName>net90.System.Threading.Tasks.Dataflow</LogicalName>
             <Link>Resources\net90\System.Threading.Tasks.Dataflow.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Threading.Tasks.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Threading.Tasks.dll" WithCulture="false">
             <LogicalName>net90.System.Threading.Tasks</LogicalName>
             <Link>Resources\net90\System.Threading.Tasks.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Threading.Tasks.Extensions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Threading.Tasks.Extensions.dll" WithCulture="false">
             <LogicalName>net90.System.Threading.Tasks.Extensions</LogicalName>
             <Link>Resources\net90\System.Threading.Tasks.Extensions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Threading.Tasks.Parallel.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Threading.Tasks.Parallel.dll" WithCulture="false">
             <LogicalName>net90.System.Threading.Tasks.Parallel</LogicalName>
             <Link>Resources\net90\System.Threading.Tasks.Parallel.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Threading.Thread.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Threading.Thread.dll" WithCulture="false">
             <LogicalName>net90.System.Threading.Thread</LogicalName>
             <Link>Resources\net90\System.Threading.Thread.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Threading.ThreadPool.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Threading.ThreadPool.dll" WithCulture="false">
             <LogicalName>net90.System.Threading.ThreadPool</LogicalName>
             <Link>Resources\net90\System.Threading.ThreadPool.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Threading.Timer.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Threading.Timer.dll" WithCulture="false">
             <LogicalName>net90.System.Threading.Timer</LogicalName>
             <Link>Resources\net90\System.Threading.Timer.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Transactions.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Transactions.dll" WithCulture="false">
             <LogicalName>net90.System.Transactions</LogicalName>
             <Link>Resources\net90\System.Transactions.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Transactions.Local.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Transactions.Local.dll" WithCulture="false">
             <LogicalName>net90.System.Transactions.Local</LogicalName>
             <Link>Resources\net90\System.Transactions.Local.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.ValueTuple.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.ValueTuple.dll" WithCulture="false">
             <LogicalName>net90.System.ValueTuple</LogicalName>
             <Link>Resources\net90\System.ValueTuple.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Web.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Web.dll" WithCulture="false">
             <LogicalName>net90.System.Web</LogicalName>
             <Link>Resources\net90\System.Web.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Web.HttpUtility.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Web.HttpUtility.dll" WithCulture="false">
             <LogicalName>net90.System.Web.HttpUtility</LogicalName>
             <Link>Resources\net90\System.Web.HttpUtility.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Windows.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Windows.dll" WithCulture="false">
             <LogicalName>net90.System.Windows</LogicalName>
             <Link>Resources\net90\System.Windows.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Xml.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Xml.dll" WithCulture="false">
             <LogicalName>net90.System.Xml</LogicalName>
             <Link>Resources\net90\System.Xml.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Xml.Linq.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Xml.Linq.dll" WithCulture="false">
             <LogicalName>net90.System.Xml.Linq</LogicalName>
             <Link>Resources\net90\System.Xml.Linq.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Xml.ReaderWriter.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Xml.ReaderWriter.dll" WithCulture="false">
             <LogicalName>net90.System.Xml.ReaderWriter</LogicalName>
             <Link>Resources\net90\System.Xml.ReaderWriter.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Xml.Serialization.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Xml.Serialization.dll" WithCulture="false">
             <LogicalName>net90.System.Xml.Serialization</LogicalName>
             <Link>Resources\net90\System.Xml.Serialization.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Xml.XDocument.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Xml.XDocument.dll" WithCulture="false">
             <LogicalName>net90.System.Xml.XDocument</LogicalName>
             <Link>Resources\net90\System.Xml.XDocument.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Xml.XmlDocument.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Xml.XmlDocument.dll" WithCulture="false">
             <LogicalName>net90.System.Xml.XmlDocument</LogicalName>
             <Link>Resources\net90\System.Xml.XmlDocument.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Xml.XmlSerializer.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Xml.XmlSerializer.dll" WithCulture="false">
             <LogicalName>net90.System.Xml.XmlSerializer</LogicalName>
             <Link>Resources\net90\System.Xml.XmlSerializer.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Xml.XPath.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Xml.XPath.dll" WithCulture="false">
             <LogicalName>net90.System.Xml.XPath</LogicalName>
             <Link>Resources\net90\System.Xml.XPath.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\System.Xml.XPath.XDocument.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\System.Xml.XPath.XDocument.dll" WithCulture="false">
             <LogicalName>net90.System.Xml.XPath.XDocument</LogicalName>
             <Link>Resources\net90\System.Xml.XPath.XDocument.dll</Link>
         </EmbeddedResource>
-        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref\9.0.0\ref\net9.0\WindowsBase.dll" WithCulture="false">
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.ref/9.0.0/ref/net9.0\WindowsBase.dll" WithCulture="false">
             <LogicalName>net90.WindowsBase</LogicalName>
             <Link>Resources\net90\WindowsBase.dll</Link>
         </EmbeddedResource>
