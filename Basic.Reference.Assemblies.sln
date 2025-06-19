@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.AspNet100", "Src\Basic.Reference.Assemblies.AspNet100\Basic.Reference.Assemblies.AspNet100.csproj", "{4C5A0446-FADA-479E-8863-1D0D56A35DC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Reference.Assemblies.NetStandard21", "Src\Basic.Reference.Assemblies.NetStandard21\Basic.Reference.Assemblies.NetStandard21.csproj", "{46BF463C-F68B-D1E3-FD2D-5F9F6439AF99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -321,6 +323,18 @@ Global
 		{4C5A0446-FADA-479E-8863-1D0D56A35DC4}.Release|x64.Build.0 = Release|Any CPU
 		{4C5A0446-FADA-479E-8863-1D0D56A35DC4}.Release|x86.ActiveCfg = Release|Any CPU
 		{4C5A0446-FADA-479E-8863-1D0D56A35DC4}.Release|x86.Build.0 = Release|Any CPU
+		{46BF463C-F68B-D1E3-FD2D-5F9F6439AF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BF463C-F68B-D1E3-FD2D-5F9F6439AF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BF463C-F68B-D1E3-FD2D-5F9F6439AF99}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{46BF463C-F68B-D1E3-FD2D-5F9F6439AF99}.Debug|x64.Build.0 = Debug|Any CPU
+		{46BF463C-F68B-D1E3-FD2D-5F9F6439AF99}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{46BF463C-F68B-D1E3-FD2D-5F9F6439AF99}.Debug|x86.Build.0 = Debug|Any CPU
+		{46BF463C-F68B-D1E3-FD2D-5F9F6439AF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BF463C-F68B-D1E3-FD2D-5F9F6439AF99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46BF463C-F68B-D1E3-FD2D-5F9F6439AF99}.Release|x64.ActiveCfg = Release|Any CPU
+		{46BF463C-F68B-D1E3-FD2D-5F9F6439AF99}.Release|x64.Build.0 = Release|Any CPU
+		{46BF463C-F68B-D1E3-FD2D-5F9F6439AF99}.Release|x86.ActiveCfg = Release|Any CPU
+		{46BF463C-F68B-D1E3-FD2D-5F9F6439AF99}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
