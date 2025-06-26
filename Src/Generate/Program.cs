@@ -22,6 +22,7 @@ AspNet90();
 AspNet100();
 NetStandard13();
 NetStandard20();
+NetStandard21();
 Net20();
 Net35();
 Net40();
@@ -155,6 +156,19 @@ void NetStandard20()
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
     File.WriteAllText(Path.Combine(combinedDir, "Generated.NetStandard20.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(combinedDir, "Generated.NetStandard20.targets"), content.TargetsContent, encoding);
+}
+
+void NetStandard21()
+{
+    var content = GetGeneratedContent(
+        "NetStandard21",
+        [@"netstandard.library.ref/2.1.0/ref/netstandard2.1"],
+        [
+            @"microsoft.csharp/4.7.0/ref/netstandard2.0",
+            @"microsoft.visualbasic/10.3.0/ref/netstandard2.0"]);
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.NetStandard21");
+    File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
+    File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
 
 void Net20()
