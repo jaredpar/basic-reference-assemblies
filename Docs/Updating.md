@@ -36,7 +36,7 @@ void Net70()
 }
 ```
 
-Open the Basic.Reference.Assemblies.sln file in Visual Studio. Use `Add Existing Project` to include `Basic.Reference.Assemblies.Net70.csproj` in the solution. Then open `Basic.Reference.Assemblies.csproj` and ensure the new Generated targets are imported
+Open the Basic.Reference.Assemblies.slnx file in Visual Studio. Use `Add Existing Project` to include `Basic.Reference.Assemblies.Net70.csproj` in the solution. Then open `Basic.Reference.Assemblies.csproj` and ensure the new Generated targets are imported
 
 ```xml
   <Import Project="Generated.Net70.targets" />

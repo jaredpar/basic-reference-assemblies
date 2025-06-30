@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Basic.Reference.Assemblies.sln",
+                "${workspaceFolder}/Basic.Reference.Assemblies.slnx",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary",
                 "/tl:off"

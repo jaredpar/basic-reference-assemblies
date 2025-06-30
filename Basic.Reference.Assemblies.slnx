@@ -1,0 +1,30 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Src/Basic.Reference.Assemblies.AspNet100/Basic.Reference.Assemblies.AspNet100.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.AspNet80/Basic.Reference.Assemblies.AspNet80.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.AspNet90/Basic.Reference.Assemblies.AspNet90.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net100/Basic.Reference.Assemblies.Net100.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net20/Basic.Reference.Assemblies.Net20.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net35/Basic.Reference.Assemblies.Net35.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net40/Basic.Reference.Assemblies.Net40.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net461/Basic.Reference.Assemblies.Net461.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net472/Basic.Reference.Assemblies.Net472.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net50/Basic.Reference.Assemblies.Net50.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net60/Basic.Reference.Assemblies.Net60.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net60Windows/Basic.Reference.Assemblies.Net60Windows.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net70/Basic.Reference.Assemblies.Net70.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net80/Basic.Reference.Assemblies.Net80.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net80Windows/Basic.Reference.Assemblies.Net80Windows.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net90/Basic.Reference.Assemblies.Net90.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.NetCoreApp31/Basic.Reference.Assemblies.NetCoreApp31.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.NetStandard13/Basic.Reference.Assemblies.NetStandard13.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.NetStandard20/Basic.Reference.Assemblies.NetStandard20.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.NetStandard21/Basic.Reference.Assemblies.NetStandard21.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.UnitTests/Basic.Reference.Assemblies.UnitTests.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies/Basic.Reference.Assemblies.csproj" />
+  <Project Path="Src/Generate/Generate.csproj" />
+</Solution>
