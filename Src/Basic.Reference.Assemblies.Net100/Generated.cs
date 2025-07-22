@@ -15,832 +15,832 @@ public static partial class Net100
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.CSharp.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftCSharp => new ReferenceInfo("Microsoft.CSharp.dll", Resources.MicrosoftCSharp, Net100.References.MicrosoftCSharp, global::System.Guid.Parse("a01be337-bbcd-45e1-a69f-c2cbb9b90323"));
+        public static ReferenceInfo MicrosoftCSharp => new ReferenceInfo("Microsoft.CSharp.dll", Resources.MicrosoftCSharp, Net100.References.MicrosoftCSharp, global::System.Guid.Parse("d9aba9b6-e40d-4561-9521-9ce28d666292"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.Core.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftVisualBasicCore => new ReferenceInfo("Microsoft.VisualBasic.Core.dll", Resources.MicrosoftVisualBasicCore, Net100.References.MicrosoftVisualBasicCore, global::System.Guid.Parse("e1310f6e-0bb3-4990-9f0f-eac9821f5553"));
+        public static ReferenceInfo MicrosoftVisualBasicCore => new ReferenceInfo("Microsoft.VisualBasic.Core.dll", Resources.MicrosoftVisualBasicCore, Net100.References.MicrosoftVisualBasicCore, global::System.Guid.Parse("09bf2928-cbf1-4471-a34a-834245fb51fb"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftVisualBasic => new ReferenceInfo("Microsoft.VisualBasic.dll", Resources.MicrosoftVisualBasic, Net100.References.MicrosoftVisualBasic, global::System.Guid.Parse("247817d0-f1a4-4e4d-9e59-c9b89d7f30ff"));
+        public static ReferenceInfo MicrosoftVisualBasic => new ReferenceInfo("Microsoft.VisualBasic.dll", Resources.MicrosoftVisualBasic, Net100.References.MicrosoftVisualBasic, global::System.Guid.Parse("ead82bf2-ea68-4041-bf3c-9acf31312161"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Win32.Primitives.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftWin32Primitives => new ReferenceInfo("Microsoft.Win32.Primitives.dll", Resources.MicrosoftWin32Primitives, Net100.References.MicrosoftWin32Primitives, global::System.Guid.Parse("0872b640-d73a-48b8-ad08-fb9abcf675aa"));
+        public static ReferenceInfo MicrosoftWin32Primitives => new ReferenceInfo("Microsoft.Win32.Primitives.dll", Resources.MicrosoftWin32Primitives, Net100.References.MicrosoftWin32Primitives, global::System.Guid.Parse("c2acd62b-9113-4cc2-9a1f-cbf302849aa0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Win32.Registry.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftWin32Registry => new ReferenceInfo("Microsoft.Win32.Registry.dll", Resources.MicrosoftWin32Registry, Net100.References.MicrosoftWin32Registry, global::System.Guid.Parse("747261c1-2193-481c-8a34-32bd8b2afe11"));
+        public static ReferenceInfo MicrosoftWin32Registry => new ReferenceInfo("Microsoft.Win32.Registry.dll", Resources.MicrosoftWin32Registry, Net100.References.MicrosoftWin32Registry, global::System.Guid.Parse("1f85a7f9-5309-45d5-adc6-44ff88de4b5e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for mscorlib.dll
         /// </summary>
-        public static ReferenceInfo mscorlib => new ReferenceInfo("mscorlib.dll", Resources.mscorlib, Net100.References.mscorlib, global::System.Guid.Parse("6ea6e3b4-9452-4b20-80d7-76b02ac68d69"));
+        public static ReferenceInfo mscorlib => new ReferenceInfo("mscorlib.dll", Resources.mscorlib, Net100.References.mscorlib, global::System.Guid.Parse("ce7be865-4bbe-4034-bef9-6bcb9b0b9e63"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for netstandard.dll
         /// </summary>
-        public static ReferenceInfo netstandard => new ReferenceInfo("netstandard.dll", Resources.netstandard, Net100.References.netstandard, global::System.Guid.Parse("dfbd144a-e582-43e1-897a-ac9297310600"));
+        public static ReferenceInfo netstandard => new ReferenceInfo("netstandard.dll", Resources.netstandard, Net100.References.netstandard, global::System.Guid.Parse("ee2c1322-8e5b-491c-9026-ac1242e0ad3f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.AppContext.dll
         /// </summary>
-        public static ReferenceInfo SystemAppContext => new ReferenceInfo("System.AppContext.dll", Resources.SystemAppContext, Net100.References.SystemAppContext, global::System.Guid.Parse("7861ecb3-f3a4-4e5d-903e-5db6fde3f49f"));
+        public static ReferenceInfo SystemAppContext => new ReferenceInfo("System.AppContext.dll", Resources.SystemAppContext, Net100.References.SystemAppContext, global::System.Guid.Parse("361d9660-677b-47cb-a79f-16742c482db2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Buffers.dll
         /// </summary>
-        public static ReferenceInfo SystemBuffers => new ReferenceInfo("System.Buffers.dll", Resources.SystemBuffers, Net100.References.SystemBuffers, global::System.Guid.Parse("f1e8030f-038e-425d-9308-c70eb48055b2"));
+        public static ReferenceInfo SystemBuffers => new ReferenceInfo("System.Buffers.dll", Resources.SystemBuffers, Net100.References.SystemBuffers, global::System.Guid.Parse("8e9b6816-4520-4af8-8896-a2eb513b4e27"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Collections.Concurrent.dll
         /// </summary>
-        public static ReferenceInfo SystemCollectionsConcurrent => new ReferenceInfo("System.Collections.Concurrent.dll", Resources.SystemCollectionsConcurrent, Net100.References.SystemCollectionsConcurrent, global::System.Guid.Parse("a7ac8f71-ae0d-487b-9420-e159ce84c63b"));
+        public static ReferenceInfo SystemCollectionsConcurrent => new ReferenceInfo("System.Collections.Concurrent.dll", Resources.SystemCollectionsConcurrent, Net100.References.SystemCollectionsConcurrent, global::System.Guid.Parse("9e54f309-a3eb-4982-b176-7ccd2f989f1b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Collections.dll
         /// </summary>
-        public static ReferenceInfo SystemCollections => new ReferenceInfo("System.Collections.dll", Resources.SystemCollections, Net100.References.SystemCollections, global::System.Guid.Parse("bddcefea-de87-4aea-89a2-90e549cc8d4d"));
+        public static ReferenceInfo SystemCollections => new ReferenceInfo("System.Collections.dll", Resources.SystemCollections, Net100.References.SystemCollections, global::System.Guid.Parse("974f4b25-2fe0-4725-8b73-607f824c1cfd"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Collections.Immutable.dll
         /// </summary>
-        public static ReferenceInfo SystemCollectionsImmutable => new ReferenceInfo("System.Collections.Immutable.dll", Resources.SystemCollectionsImmutable, Net100.References.SystemCollectionsImmutable, global::System.Guid.Parse("45d99322-820e-4367-befa-71e7bf219d2d"));
+        public static ReferenceInfo SystemCollectionsImmutable => new ReferenceInfo("System.Collections.Immutable.dll", Resources.SystemCollectionsImmutable, Net100.References.SystemCollectionsImmutable, global::System.Guid.Parse("f0bf5295-4b02-4153-b279-05d9a9ead8ba"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Collections.NonGeneric.dll
         /// </summary>
-        public static ReferenceInfo SystemCollectionsNonGeneric => new ReferenceInfo("System.Collections.NonGeneric.dll", Resources.SystemCollectionsNonGeneric, Net100.References.SystemCollectionsNonGeneric, global::System.Guid.Parse("05fdd0c9-227d-4426-a99c-32dba7845f0c"));
+        public static ReferenceInfo SystemCollectionsNonGeneric => new ReferenceInfo("System.Collections.NonGeneric.dll", Resources.SystemCollectionsNonGeneric, Net100.References.SystemCollectionsNonGeneric, global::System.Guid.Parse("281cc7fc-0ee8-4619-901e-666aaa2c620b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Collections.Specialized.dll
         /// </summary>
-        public static ReferenceInfo SystemCollectionsSpecialized => new ReferenceInfo("System.Collections.Specialized.dll", Resources.SystemCollectionsSpecialized, Net100.References.SystemCollectionsSpecialized, global::System.Guid.Parse("7067bed8-497a-4bd2-9401-f18b7d62dc46"));
+        public static ReferenceInfo SystemCollectionsSpecialized => new ReferenceInfo("System.Collections.Specialized.dll", Resources.SystemCollectionsSpecialized, Net100.References.SystemCollectionsSpecialized, global::System.Guid.Parse("c6cdbbbf-d5c5-4687-b48e-06c4f7ec80bd"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.Annotations.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModelAnnotations => new ReferenceInfo("System.ComponentModel.Annotations.dll", Resources.SystemComponentModelAnnotations, Net100.References.SystemComponentModelAnnotations, global::System.Guid.Parse("d6a9e3ae-06b4-4ce7-8ea9-ef4eba5c30f6"));
+        public static ReferenceInfo SystemComponentModelAnnotations => new ReferenceInfo("System.ComponentModel.Annotations.dll", Resources.SystemComponentModelAnnotations, Net100.References.SystemComponentModelAnnotations, global::System.Guid.Parse("76cfaddd-0e04-4afb-acdd-3873076bfa8d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.DataAnnotations.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModelDataAnnotations => new ReferenceInfo("System.ComponentModel.DataAnnotations.dll", Resources.SystemComponentModelDataAnnotations, Net100.References.SystemComponentModelDataAnnotations, global::System.Guid.Parse("8b55a282-ad7e-4bca-911c-7d5bbd03cdf7"));
+        public static ReferenceInfo SystemComponentModelDataAnnotations => new ReferenceInfo("System.ComponentModel.DataAnnotations.dll", Resources.SystemComponentModelDataAnnotations, Net100.References.SystemComponentModelDataAnnotations, global::System.Guid.Parse("31a3453f-e0fe-4d0d-8bca-0f46da821321"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModel => new ReferenceInfo("System.ComponentModel.dll", Resources.SystemComponentModel, Net100.References.SystemComponentModel, global::System.Guid.Parse("a6003976-b6c9-48de-83c8-b69b01d80505"));
+        public static ReferenceInfo SystemComponentModel => new ReferenceInfo("System.ComponentModel.dll", Resources.SystemComponentModel, Net100.References.SystemComponentModel, global::System.Guid.Parse("4cfb4f41-b620-4f4a-af0a-bfcf1e72d009"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.EventBasedAsync.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModelEventBasedAsync => new ReferenceInfo("System.ComponentModel.EventBasedAsync.dll", Resources.SystemComponentModelEventBasedAsync, Net100.References.SystemComponentModelEventBasedAsync, global::System.Guid.Parse("d9ffacae-5749-45c6-a7b0-f4830b1d7398"));
+        public static ReferenceInfo SystemComponentModelEventBasedAsync => new ReferenceInfo("System.ComponentModel.EventBasedAsync.dll", Resources.SystemComponentModelEventBasedAsync, Net100.References.SystemComponentModelEventBasedAsync, global::System.Guid.Parse("70414903-5fbc-4c8c-bf0e-97420d7dd726"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModelPrimitives => new ReferenceInfo("System.ComponentModel.Primitives.dll", Resources.SystemComponentModelPrimitives, Net100.References.SystemComponentModelPrimitives, global::System.Guid.Parse("93202aa6-6cb5-4b1f-9d0e-c54cbf439e12"));
+        public static ReferenceInfo SystemComponentModelPrimitives => new ReferenceInfo("System.ComponentModel.Primitives.dll", Resources.SystemComponentModelPrimitives, Net100.References.SystemComponentModelPrimitives, global::System.Guid.Parse("fcc0ebb8-2f1b-40fe-86ca-3914b5b93934"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.TypeConverter.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModelTypeConverter => new ReferenceInfo("System.ComponentModel.TypeConverter.dll", Resources.SystemComponentModelTypeConverter, Net100.References.SystemComponentModelTypeConverter, global::System.Guid.Parse("c0cbcc49-66df-410e-8fce-472becce2eb9"));
+        public static ReferenceInfo SystemComponentModelTypeConverter => new ReferenceInfo("System.ComponentModel.TypeConverter.dll", Resources.SystemComponentModelTypeConverter, Net100.References.SystemComponentModelTypeConverter, global::System.Guid.Parse("6f8f4f14-349e-43b6-829a-2fde55c7b2da"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Configuration.dll
         /// </summary>
-        public static ReferenceInfo SystemConfiguration => new ReferenceInfo("System.Configuration.dll", Resources.SystemConfiguration, Net100.References.SystemConfiguration, global::System.Guid.Parse("5e341035-818a-4b91-b472-9516d8729be0"));
+        public static ReferenceInfo SystemConfiguration => new ReferenceInfo("System.Configuration.dll", Resources.SystemConfiguration, Net100.References.SystemConfiguration, global::System.Guid.Parse("b8ddd3c6-082e-4f82-a2c6-f15d83f64785"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Console.dll
         /// </summary>
-        public static ReferenceInfo SystemConsole => new ReferenceInfo("System.Console.dll", Resources.SystemConsole, Net100.References.SystemConsole, global::System.Guid.Parse("efc5f9c3-4a41-4b69-8235-fd3fd0e80bac"));
+        public static ReferenceInfo SystemConsole => new ReferenceInfo("System.Console.dll", Resources.SystemConsole, Net100.References.SystemConsole, global::System.Guid.Parse("8d5a251e-f95e-4b52-9d90-c72161061592"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Core.dll
         /// </summary>
-        public static ReferenceInfo SystemCore => new ReferenceInfo("System.Core.dll", Resources.SystemCore, Net100.References.SystemCore, global::System.Guid.Parse("59087356-b596-4746-b429-32a0b1bebaf6"));
+        public static ReferenceInfo SystemCore => new ReferenceInfo("System.Core.dll", Resources.SystemCore, Net100.References.SystemCore, global::System.Guid.Parse("b82b803e-5aec-4789-a8f6-07a08858fbaa"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Data.Common.dll
         /// </summary>
-        public static ReferenceInfo SystemDataCommon => new ReferenceInfo("System.Data.Common.dll", Resources.SystemDataCommon, Net100.References.SystemDataCommon, global::System.Guid.Parse("3a79fcbc-20d8-413e-af46-4d3d000ad340"));
+        public static ReferenceInfo SystemDataCommon => new ReferenceInfo("System.Data.Common.dll", Resources.SystemDataCommon, Net100.References.SystemDataCommon, global::System.Guid.Parse("a6562f4a-ab26-4e07-ae50-1ad7f4b0ced0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Data.DataSetExtensions.dll
         /// </summary>
-        public static ReferenceInfo SystemDataDataSetExtensions => new ReferenceInfo("System.Data.DataSetExtensions.dll", Resources.SystemDataDataSetExtensions, Net100.References.SystemDataDataSetExtensions, global::System.Guid.Parse("abb42700-a6c9-4a70-8a19-14383f13fbd9"));
+        public static ReferenceInfo SystemDataDataSetExtensions => new ReferenceInfo("System.Data.DataSetExtensions.dll", Resources.SystemDataDataSetExtensions, Net100.References.SystemDataDataSetExtensions, global::System.Guid.Parse("007bdf62-65eb-46d8-9925-24bb96b4ab5f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Data.dll
         /// </summary>
-        public static ReferenceInfo SystemData => new ReferenceInfo("System.Data.dll", Resources.SystemData, Net100.References.SystemData, global::System.Guid.Parse("89a524f1-3766-4256-85fc-240adc64a25a"));
+        public static ReferenceInfo SystemData => new ReferenceInfo("System.Data.dll", Resources.SystemData, Net100.References.SystemData, global::System.Guid.Parse("a250cc8b-74d4-4691-8ea2-d8c2cbe472d3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Contracts.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsContracts => new ReferenceInfo("System.Diagnostics.Contracts.dll", Resources.SystemDiagnosticsContracts, Net100.References.SystemDiagnosticsContracts, global::System.Guid.Parse("89e52919-5b29-45f8-b5c6-c1f979cfc4fb"));
+        public static ReferenceInfo SystemDiagnosticsContracts => new ReferenceInfo("System.Diagnostics.Contracts.dll", Resources.SystemDiagnosticsContracts, Net100.References.SystemDiagnosticsContracts, global::System.Guid.Parse("727cb8a0-fd18-40f1-a34b-7afac13a0154"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Debug.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsDebug => new ReferenceInfo("System.Diagnostics.Debug.dll", Resources.SystemDiagnosticsDebug, Net100.References.SystemDiagnosticsDebug, global::System.Guid.Parse("16da7ce5-c81c-4a82-9827-5bd008562b98"));
+        public static ReferenceInfo SystemDiagnosticsDebug => new ReferenceInfo("System.Diagnostics.Debug.dll", Resources.SystemDiagnosticsDebug, Net100.References.SystemDiagnosticsDebug, global::System.Guid.Parse("6097ccb6-723e-40a6-acd1-5d442e370527"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.DiagnosticSource.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsDiagnosticSource => new ReferenceInfo("System.Diagnostics.DiagnosticSource.dll", Resources.SystemDiagnosticsDiagnosticSource, Net100.References.SystemDiagnosticsDiagnosticSource, global::System.Guid.Parse("7e7dc90d-5a90-4fcd-9267-44e0f19ad4c4"));
+        public static ReferenceInfo SystemDiagnosticsDiagnosticSource => new ReferenceInfo("System.Diagnostics.DiagnosticSource.dll", Resources.SystemDiagnosticsDiagnosticSource, Net100.References.SystemDiagnosticsDiagnosticSource, global::System.Guid.Parse("e345c291-1dd2-4b0a-969b-0c1f90ba85d8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.FileVersionInfo.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsFileVersionInfo => new ReferenceInfo("System.Diagnostics.FileVersionInfo.dll", Resources.SystemDiagnosticsFileVersionInfo, Net100.References.SystemDiagnosticsFileVersionInfo, global::System.Guid.Parse("f47b7d88-036a-4957-b5f2-9827d995b802"));
+        public static ReferenceInfo SystemDiagnosticsFileVersionInfo => new ReferenceInfo("System.Diagnostics.FileVersionInfo.dll", Resources.SystemDiagnosticsFileVersionInfo, Net100.References.SystemDiagnosticsFileVersionInfo, global::System.Guid.Parse("3236187b-7c61-439c-a517-6b8cc0370658"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Process.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsProcess => new ReferenceInfo("System.Diagnostics.Process.dll", Resources.SystemDiagnosticsProcess, Net100.References.SystemDiagnosticsProcess, global::System.Guid.Parse("385cd1bf-6a6a-4949-9f28-ac63802ae4e4"));
+        public static ReferenceInfo SystemDiagnosticsProcess => new ReferenceInfo("System.Diagnostics.Process.dll", Resources.SystemDiagnosticsProcess, Net100.References.SystemDiagnosticsProcess, global::System.Guid.Parse("b64ec2be-1379-4f8e-9398-c44a5e1138fe"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.StackTrace.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsStackTrace => new ReferenceInfo("System.Diagnostics.StackTrace.dll", Resources.SystemDiagnosticsStackTrace, Net100.References.SystemDiagnosticsStackTrace, global::System.Guid.Parse("129b4ff3-afd5-417c-8d1f-c6dfe34570ce"));
+        public static ReferenceInfo SystemDiagnosticsStackTrace => new ReferenceInfo("System.Diagnostics.StackTrace.dll", Resources.SystemDiagnosticsStackTrace, Net100.References.SystemDiagnosticsStackTrace, global::System.Guid.Parse("6456a103-c189-48b8-973a-ae4d75923e7d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.TextWriterTraceListener.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsTextWriterTraceListener => new ReferenceInfo("System.Diagnostics.TextWriterTraceListener.dll", Resources.SystemDiagnosticsTextWriterTraceListener, Net100.References.SystemDiagnosticsTextWriterTraceListener, global::System.Guid.Parse("1c86bee3-f154-4244-aa13-8926c346cf14"));
+        public static ReferenceInfo SystemDiagnosticsTextWriterTraceListener => new ReferenceInfo("System.Diagnostics.TextWriterTraceListener.dll", Resources.SystemDiagnosticsTextWriterTraceListener, Net100.References.SystemDiagnosticsTextWriterTraceListener, global::System.Guid.Parse("b1ae75f8-642e-4d15-bb8d-61ead84fbd4b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Tools.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsTools => new ReferenceInfo("System.Diagnostics.Tools.dll", Resources.SystemDiagnosticsTools, Net100.References.SystemDiagnosticsTools, global::System.Guid.Parse("209726fa-db47-4885-ad8e-f8f1709a5e45"));
+        public static ReferenceInfo SystemDiagnosticsTools => new ReferenceInfo("System.Diagnostics.Tools.dll", Resources.SystemDiagnosticsTools, Net100.References.SystemDiagnosticsTools, global::System.Guid.Parse("6ae5ba1d-2c49-45e3-9f57-bef585080779"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.TraceSource.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsTraceSource => new ReferenceInfo("System.Diagnostics.TraceSource.dll", Resources.SystemDiagnosticsTraceSource, Net100.References.SystemDiagnosticsTraceSource, global::System.Guid.Parse("25debc85-e57c-4af5-bb7a-220da9e27b58"));
+        public static ReferenceInfo SystemDiagnosticsTraceSource => new ReferenceInfo("System.Diagnostics.TraceSource.dll", Resources.SystemDiagnosticsTraceSource, Net100.References.SystemDiagnosticsTraceSource, global::System.Guid.Parse("089ac21a-a30a-4581-a501-4833dbb9c768"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Tracing.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsTracing => new ReferenceInfo("System.Diagnostics.Tracing.dll", Resources.SystemDiagnosticsTracing, Net100.References.SystemDiagnosticsTracing, global::System.Guid.Parse("b0ea961c-9d2f-47c8-bf5c-58da1524bbb5"));
+        public static ReferenceInfo SystemDiagnosticsTracing => new ReferenceInfo("System.Diagnostics.Tracing.dll", Resources.SystemDiagnosticsTracing, Net100.References.SystemDiagnosticsTracing, global::System.Guid.Parse("75775db7-d297-4182-b9f1-7368e0f7bd12"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.dll
         /// </summary>
-        public static ReferenceInfo System => new ReferenceInfo("System.dll", Resources.System, Net100.References.System, global::System.Guid.Parse("cee329b2-6dae-4525-bd38-7db85ce93da3"));
+        public static ReferenceInfo System => new ReferenceInfo("System.dll", Resources.System, Net100.References.System, global::System.Guid.Parse("136c2798-dc04-4025-a738-3eb466fdd97f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Drawing.dll
         /// </summary>
-        public static ReferenceInfo SystemDrawing => new ReferenceInfo("System.Drawing.dll", Resources.SystemDrawing, Net100.References.SystemDrawing, global::System.Guid.Parse("953e7c93-dee3-42af-8f0f-e96f5f39c734"));
+        public static ReferenceInfo SystemDrawing => new ReferenceInfo("System.Drawing.dll", Resources.SystemDrawing, Net100.References.SystemDrawing, global::System.Guid.Parse("4cdea232-b325-4997-af84-b07eabfd5c46"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Drawing.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemDrawingPrimitives => new ReferenceInfo("System.Drawing.Primitives.dll", Resources.SystemDrawingPrimitives, Net100.References.SystemDrawingPrimitives, global::System.Guid.Parse("cee14835-a934-491a-b134-0c98671651fd"));
+        public static ReferenceInfo SystemDrawingPrimitives => new ReferenceInfo("System.Drawing.Primitives.dll", Resources.SystemDrawingPrimitives, Net100.References.SystemDrawingPrimitives, global::System.Guid.Parse("31f1324b-6d5d-48e7-9481-d1f26428aad5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Dynamic.Runtime.dll
         /// </summary>
-        public static ReferenceInfo SystemDynamicRuntime => new ReferenceInfo("System.Dynamic.Runtime.dll", Resources.SystemDynamicRuntime, Net100.References.SystemDynamicRuntime, global::System.Guid.Parse("ee68cfb4-65dd-4848-bf4f-03af045f37dd"));
+        public static ReferenceInfo SystemDynamicRuntime => new ReferenceInfo("System.Dynamic.Runtime.dll", Resources.SystemDynamicRuntime, Net100.References.SystemDynamicRuntime, global::System.Guid.Parse("d822324b-f2d2-4abb-8e1d-08df3a05ac82"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Formats.Asn1.dll
         /// </summary>
-        public static ReferenceInfo SystemFormatsAsn1 => new ReferenceInfo("System.Formats.Asn1.dll", Resources.SystemFormatsAsn1, Net100.References.SystemFormatsAsn1, global::System.Guid.Parse("a0cdf1e7-6ba5-4830-b2e9-9738df7493f9"));
+        public static ReferenceInfo SystemFormatsAsn1 => new ReferenceInfo("System.Formats.Asn1.dll", Resources.SystemFormatsAsn1, Net100.References.SystemFormatsAsn1, global::System.Guid.Parse("c29c66ed-03b4-4966-819c-0be65f18cac1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Formats.Tar.dll
         /// </summary>
-        public static ReferenceInfo SystemFormatsTar => new ReferenceInfo("System.Formats.Tar.dll", Resources.SystemFormatsTar, Net100.References.SystemFormatsTar, global::System.Guid.Parse("1b1dfa13-18e0-4c1f-a312-92d1244c8107"));
+        public static ReferenceInfo SystemFormatsTar => new ReferenceInfo("System.Formats.Tar.dll", Resources.SystemFormatsTar, Net100.References.SystemFormatsTar, global::System.Guid.Parse("b9b073cd-e230-46cf-9066-0fd218d2bd16"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Globalization.Calendars.dll
         /// </summary>
-        public static ReferenceInfo SystemGlobalizationCalendars => new ReferenceInfo("System.Globalization.Calendars.dll", Resources.SystemGlobalizationCalendars, Net100.References.SystemGlobalizationCalendars, global::System.Guid.Parse("4b8f28e7-f24e-4c52-a412-9e2bb0212efd"));
+        public static ReferenceInfo SystemGlobalizationCalendars => new ReferenceInfo("System.Globalization.Calendars.dll", Resources.SystemGlobalizationCalendars, Net100.References.SystemGlobalizationCalendars, global::System.Guid.Parse("35dbaec9-0d06-4d01-8770-0d73394826cd"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Globalization.dll
         /// </summary>
-        public static ReferenceInfo SystemGlobalization => new ReferenceInfo("System.Globalization.dll", Resources.SystemGlobalization, Net100.References.SystemGlobalization, global::System.Guid.Parse("9dc8bb74-722e-4a59-83bc-2c97d8b40037"));
+        public static ReferenceInfo SystemGlobalization => new ReferenceInfo("System.Globalization.dll", Resources.SystemGlobalization, Net100.References.SystemGlobalization, global::System.Guid.Parse("af0555fd-1a31-40a8-bd80-14356d7d99f3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Globalization.Extensions.dll
         /// </summary>
-        public static ReferenceInfo SystemGlobalizationExtensions => new ReferenceInfo("System.Globalization.Extensions.dll", Resources.SystemGlobalizationExtensions, Net100.References.SystemGlobalizationExtensions, global::System.Guid.Parse("ec5b3c10-56d8-45af-bce1-422f1ab83f40"));
+        public static ReferenceInfo SystemGlobalizationExtensions => new ReferenceInfo("System.Globalization.Extensions.dll", Resources.SystemGlobalizationExtensions, Net100.References.SystemGlobalizationExtensions, global::System.Guid.Parse("e544dd0f-35e1-47a9-9785-d2f25e067242"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Compression.Brotli.dll
         /// </summary>
-        public static ReferenceInfo SystemIOCompressionBrotli => new ReferenceInfo("System.IO.Compression.Brotli.dll", Resources.SystemIOCompressionBrotli, Net100.References.SystemIOCompressionBrotli, global::System.Guid.Parse("d5417985-7de2-45ba-94df-3528ddb6a8f1"));
+        public static ReferenceInfo SystemIOCompressionBrotli => new ReferenceInfo("System.IO.Compression.Brotli.dll", Resources.SystemIOCompressionBrotli, Net100.References.SystemIOCompressionBrotli, global::System.Guid.Parse("f66f0042-ce70-46c1-bfbd-0fbbf156d91e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Compression.dll
         /// </summary>
-        public static ReferenceInfo SystemIOCompression => new ReferenceInfo("System.IO.Compression.dll", Resources.SystemIOCompression, Net100.References.SystemIOCompression, global::System.Guid.Parse("c44fde25-d685-40bb-8533-7024b7bcc919"));
+        public static ReferenceInfo SystemIOCompression => new ReferenceInfo("System.IO.Compression.dll", Resources.SystemIOCompression, Net100.References.SystemIOCompression, global::System.Guid.Parse("4535c9b2-318d-4c4b-9f41-e246b2c1be96"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Compression.FileSystem.dll
         /// </summary>
-        public static ReferenceInfo SystemIOCompressionFileSystem => new ReferenceInfo("System.IO.Compression.FileSystem.dll", Resources.SystemIOCompressionFileSystem, Net100.References.SystemIOCompressionFileSystem, global::System.Guid.Parse("e3de04c3-b71e-4681-90e9-091c701b7cdb"));
+        public static ReferenceInfo SystemIOCompressionFileSystem => new ReferenceInfo("System.IO.Compression.FileSystem.dll", Resources.SystemIOCompressionFileSystem, Net100.References.SystemIOCompressionFileSystem, global::System.Guid.Parse("75465504-90e6-42f7-a80b-dacb33cc62be"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Compression.ZipFile.dll
         /// </summary>
-        public static ReferenceInfo SystemIOCompressionZipFile => new ReferenceInfo("System.IO.Compression.ZipFile.dll", Resources.SystemIOCompressionZipFile, Net100.References.SystemIOCompressionZipFile, global::System.Guid.Parse("605d071e-f3eb-405c-96ab-62a034899aa3"));
+        public static ReferenceInfo SystemIOCompressionZipFile => new ReferenceInfo("System.IO.Compression.ZipFile.dll", Resources.SystemIOCompressionZipFile, Net100.References.SystemIOCompressionZipFile, global::System.Guid.Parse("d8f49c1d-a91c-42de-a57c-80ec92fb2b64"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.dll
         /// </summary>
-        public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO, Net100.References.SystemIO, global::System.Guid.Parse("e853cd42-5854-4d78-8543-67b7029cbca7"));
+        public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO, Net100.References.SystemIO, global::System.Guid.Parse("92bff44e-eb10-44e0-93ba-d78f1efe3833"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.AccessControl.dll
         /// </summary>
-        public static ReferenceInfo SystemIOFileSystemAccessControl => new ReferenceInfo("System.IO.FileSystem.AccessControl.dll", Resources.SystemIOFileSystemAccessControl, Net100.References.SystemIOFileSystemAccessControl, global::System.Guid.Parse("bccb0f0c-2e5d-4291-9dd4-9ab101fc57f8"));
+        public static ReferenceInfo SystemIOFileSystemAccessControl => new ReferenceInfo("System.IO.FileSystem.AccessControl.dll", Resources.SystemIOFileSystemAccessControl, Net100.References.SystemIOFileSystemAccessControl, global::System.Guid.Parse("20c21373-c682-4037-bc3c-bd23621cfe9b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.dll
         /// </summary>
-        public static ReferenceInfo SystemIOFileSystem => new ReferenceInfo("System.IO.FileSystem.dll", Resources.SystemIOFileSystem, Net100.References.SystemIOFileSystem, global::System.Guid.Parse("341d38ae-80bb-4404-a224-e3eeac9a7a41"));
+        public static ReferenceInfo SystemIOFileSystem => new ReferenceInfo("System.IO.FileSystem.dll", Resources.SystemIOFileSystem, Net100.References.SystemIOFileSystem, global::System.Guid.Parse("703ea99e-bef0-4767-8075-f0c039477b6e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.DriveInfo.dll
         /// </summary>
-        public static ReferenceInfo SystemIOFileSystemDriveInfo => new ReferenceInfo("System.IO.FileSystem.DriveInfo.dll", Resources.SystemIOFileSystemDriveInfo, Net100.References.SystemIOFileSystemDriveInfo, global::System.Guid.Parse("77556c52-5162-4f4a-aa50-7db856c95c49"));
+        public static ReferenceInfo SystemIOFileSystemDriveInfo => new ReferenceInfo("System.IO.FileSystem.DriveInfo.dll", Resources.SystemIOFileSystemDriveInfo, Net100.References.SystemIOFileSystemDriveInfo, global::System.Guid.Parse("09b404df-50a4-47e1-a79f-51ce3604f02c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemIOFileSystemPrimitives => new ReferenceInfo("System.IO.FileSystem.Primitives.dll", Resources.SystemIOFileSystemPrimitives, Net100.References.SystemIOFileSystemPrimitives, global::System.Guid.Parse("65e81aba-049c-4c02-9797-a4c8b2c0fb9e"));
+        public static ReferenceInfo SystemIOFileSystemPrimitives => new ReferenceInfo("System.IO.FileSystem.Primitives.dll", Resources.SystemIOFileSystemPrimitives, Net100.References.SystemIOFileSystemPrimitives, global::System.Guid.Parse("d9c4b690-a5ff-4da9-8d0f-780411ba6f7b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.Watcher.dll
         /// </summary>
-        public static ReferenceInfo SystemIOFileSystemWatcher => new ReferenceInfo("System.IO.FileSystem.Watcher.dll", Resources.SystemIOFileSystemWatcher, Net100.References.SystemIOFileSystemWatcher, global::System.Guid.Parse("b6ef4225-3040-4c70-9aa3-dd4dd67eebca"));
+        public static ReferenceInfo SystemIOFileSystemWatcher => new ReferenceInfo("System.IO.FileSystem.Watcher.dll", Resources.SystemIOFileSystemWatcher, Net100.References.SystemIOFileSystemWatcher, global::System.Guid.Parse("35344743-3384-47f5-8742-a57caeec119d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.IsolatedStorage.dll
         /// </summary>
-        public static ReferenceInfo SystemIOIsolatedStorage => new ReferenceInfo("System.IO.IsolatedStorage.dll", Resources.SystemIOIsolatedStorage, Net100.References.SystemIOIsolatedStorage, global::System.Guid.Parse("67ec6c38-f108-4b3a-8724-fc23f1783189"));
+        public static ReferenceInfo SystemIOIsolatedStorage => new ReferenceInfo("System.IO.IsolatedStorage.dll", Resources.SystemIOIsolatedStorage, Net100.References.SystemIOIsolatedStorage, global::System.Guid.Parse("66ac2377-e964-4790-a120-30c0d98369bc"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.MemoryMappedFiles.dll
         /// </summary>
-        public static ReferenceInfo SystemIOMemoryMappedFiles => new ReferenceInfo("System.IO.MemoryMappedFiles.dll", Resources.SystemIOMemoryMappedFiles, Net100.References.SystemIOMemoryMappedFiles, global::System.Guid.Parse("4470fbb2-fa1c-4f53-ad37-a9696ce744f1"));
+        public static ReferenceInfo SystemIOMemoryMappedFiles => new ReferenceInfo("System.IO.MemoryMappedFiles.dll", Resources.SystemIOMemoryMappedFiles, Net100.References.SystemIOMemoryMappedFiles, global::System.Guid.Parse("1bade4f7-c390-4b80-8c4c-196c347de4fb"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Pipelines.dll
         /// </summary>
-        public static ReferenceInfo SystemIOPipelines => new ReferenceInfo("System.IO.Pipelines.dll", Resources.SystemIOPipelines, Net100.References.SystemIOPipelines, global::System.Guid.Parse("3180fbbc-e6d0-41e3-891c-645cb014acf9"));
+        public static ReferenceInfo SystemIOPipelines => new ReferenceInfo("System.IO.Pipelines.dll", Resources.SystemIOPipelines, Net100.References.SystemIOPipelines, global::System.Guid.Parse("a6e8a34c-364a-4862-bbdd-86d6bc18af87"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Pipes.AccessControl.dll
         /// </summary>
-        public static ReferenceInfo SystemIOPipesAccessControl => new ReferenceInfo("System.IO.Pipes.AccessControl.dll", Resources.SystemIOPipesAccessControl, Net100.References.SystemIOPipesAccessControl, global::System.Guid.Parse("511d3601-8dfa-405c-8031-6efeb35051be"));
+        public static ReferenceInfo SystemIOPipesAccessControl => new ReferenceInfo("System.IO.Pipes.AccessControl.dll", Resources.SystemIOPipesAccessControl, Net100.References.SystemIOPipesAccessControl, global::System.Guid.Parse("a08d2960-57eb-4e10-870c-0691d2ead3cc"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Pipes.dll
         /// </summary>
-        public static ReferenceInfo SystemIOPipes => new ReferenceInfo("System.IO.Pipes.dll", Resources.SystemIOPipes, Net100.References.SystemIOPipes, global::System.Guid.Parse("a8c8a137-1734-4829-8a3e-d19f8f9e130c"));
+        public static ReferenceInfo SystemIOPipes => new ReferenceInfo("System.IO.Pipes.dll", Resources.SystemIOPipes, Net100.References.SystemIOPipes, global::System.Guid.Parse("520990e6-0187-4c73-a9cd-783b199a9353"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.UnmanagedMemoryStream.dll
         /// </summary>
-        public static ReferenceInfo SystemIOUnmanagedMemoryStream => new ReferenceInfo("System.IO.UnmanagedMemoryStream.dll", Resources.SystemIOUnmanagedMemoryStream, Net100.References.SystemIOUnmanagedMemoryStream, global::System.Guid.Parse("197301be-3e00-4bf3-99e9-bf467228732b"));
+        public static ReferenceInfo SystemIOUnmanagedMemoryStream => new ReferenceInfo("System.IO.UnmanagedMemoryStream.dll", Resources.SystemIOUnmanagedMemoryStream, Net100.References.SystemIOUnmanagedMemoryStream, global::System.Guid.Parse("0a1d733a-596c-4c38-92c7-8d9992bd53af"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Linq.AsyncEnumerable.dll
         /// </summary>
-        public static ReferenceInfo SystemLinqAsyncEnumerable => new ReferenceInfo("System.Linq.AsyncEnumerable.dll", Resources.SystemLinqAsyncEnumerable, Net100.References.SystemLinqAsyncEnumerable, global::System.Guid.Parse("817a3c5f-e52f-4661-addc-425b295acdec"));
+        public static ReferenceInfo SystemLinqAsyncEnumerable => new ReferenceInfo("System.Linq.AsyncEnumerable.dll", Resources.SystemLinqAsyncEnumerable, Net100.References.SystemLinqAsyncEnumerable, global::System.Guid.Parse("3715be8f-ffa9-4cf4-a40a-63b61624cb9d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Linq.dll
         /// </summary>
-        public static ReferenceInfo SystemLinq => new ReferenceInfo("System.Linq.dll", Resources.SystemLinq, Net100.References.SystemLinq, global::System.Guid.Parse("f737d49c-fe03-46dd-80e1-11462cb46e57"));
+        public static ReferenceInfo SystemLinq => new ReferenceInfo("System.Linq.dll", Resources.SystemLinq, Net100.References.SystemLinq, global::System.Guid.Parse("a7a66a5a-a75d-437a-9209-6466eaf8230a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Linq.Expressions.dll
         /// </summary>
-        public static ReferenceInfo SystemLinqExpressions => new ReferenceInfo("System.Linq.Expressions.dll", Resources.SystemLinqExpressions, Net100.References.SystemLinqExpressions, global::System.Guid.Parse("48026d02-6fb0-46b7-8ea6-1fc8ff3a551a"));
+        public static ReferenceInfo SystemLinqExpressions => new ReferenceInfo("System.Linq.Expressions.dll", Resources.SystemLinqExpressions, Net100.References.SystemLinqExpressions, global::System.Guid.Parse("5eb8175f-e915-493f-94f9-e47d2aa8ae79"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Linq.Parallel.dll
         /// </summary>
-        public static ReferenceInfo SystemLinqParallel => new ReferenceInfo("System.Linq.Parallel.dll", Resources.SystemLinqParallel, Net100.References.SystemLinqParallel, global::System.Guid.Parse("a2f9fe8c-a939-43e8-adeb-dfd0970825f4"));
+        public static ReferenceInfo SystemLinqParallel => new ReferenceInfo("System.Linq.Parallel.dll", Resources.SystemLinqParallel, Net100.References.SystemLinqParallel, global::System.Guid.Parse("8a1a16c1-672f-480a-97b0-08606a737f06"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Linq.Queryable.dll
         /// </summary>
-        public static ReferenceInfo SystemLinqQueryable => new ReferenceInfo("System.Linq.Queryable.dll", Resources.SystemLinqQueryable, Net100.References.SystemLinqQueryable, global::System.Guid.Parse("289e0569-1cfe-4242-b632-e25c0ba9a117"));
+        public static ReferenceInfo SystemLinqQueryable => new ReferenceInfo("System.Linq.Queryable.dll", Resources.SystemLinqQueryable, Net100.References.SystemLinqQueryable, global::System.Guid.Parse("6a2c4ab1-35b7-41a9-9934-9a3e3ad6c770"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Memory.dll
         /// </summary>
-        public static ReferenceInfo SystemMemory => new ReferenceInfo("System.Memory.dll", Resources.SystemMemory, Net100.References.SystemMemory, global::System.Guid.Parse("5b513a29-7885-40e6-8f52-5fc165785006"));
+        public static ReferenceInfo SystemMemory => new ReferenceInfo("System.Memory.dll", Resources.SystemMemory, Net100.References.SystemMemory, global::System.Guid.Parse("c00a4b7f-4849-429f-96e3-e88a485ad10f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.dll
         /// </summary>
-        public static ReferenceInfo SystemNet => new ReferenceInfo("System.Net.dll", Resources.SystemNet, Net100.References.SystemNet, global::System.Guid.Parse("97c9a037-1edb-4101-ad68-e0b83f0abdc9"));
+        public static ReferenceInfo SystemNet => new ReferenceInfo("System.Net.dll", Resources.SystemNet, Net100.References.SystemNet, global::System.Guid.Parse("d3390a91-7461-47d3-8a6e-0a26d67b5776"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Http.dll
         /// </summary>
-        public static ReferenceInfo SystemNetHttp => new ReferenceInfo("System.Net.Http.dll", Resources.SystemNetHttp, Net100.References.SystemNetHttp, global::System.Guid.Parse("54965fa7-9a15-4794-a48f-fe741d67cf2e"));
+        public static ReferenceInfo SystemNetHttp => new ReferenceInfo("System.Net.Http.dll", Resources.SystemNetHttp, Net100.References.SystemNetHttp, global::System.Guid.Parse("153342d3-20f9-4ea3-a3bd-6154e5b36a3f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Http.Json.dll
         /// </summary>
-        public static ReferenceInfo SystemNetHttpJson => new ReferenceInfo("System.Net.Http.Json.dll", Resources.SystemNetHttpJson, Net100.References.SystemNetHttpJson, global::System.Guid.Parse("e1de9474-4717-4e4d-8522-d299b6db3d30"));
+        public static ReferenceInfo SystemNetHttpJson => new ReferenceInfo("System.Net.Http.Json.dll", Resources.SystemNetHttpJson, Net100.References.SystemNetHttpJson, global::System.Guid.Parse("adc2c3ed-3c6c-4591-b3b9-ede951a5899c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.HttpListener.dll
         /// </summary>
-        public static ReferenceInfo SystemNetHttpListener => new ReferenceInfo("System.Net.HttpListener.dll", Resources.SystemNetHttpListener, Net100.References.SystemNetHttpListener, global::System.Guid.Parse("74dfcdc1-bc84-4680-a0e9-d2f904168ee0"));
+        public static ReferenceInfo SystemNetHttpListener => new ReferenceInfo("System.Net.HttpListener.dll", Resources.SystemNetHttpListener, Net100.References.SystemNetHttpListener, global::System.Guid.Parse("45d28eb4-012e-4e83-b922-62e669252fa5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Mail.dll
         /// </summary>
-        public static ReferenceInfo SystemNetMail => new ReferenceInfo("System.Net.Mail.dll", Resources.SystemNetMail, Net100.References.SystemNetMail, global::System.Guid.Parse("72eafcea-7221-4613-a6ea-0e5f39d8478d"));
+        public static ReferenceInfo SystemNetMail => new ReferenceInfo("System.Net.Mail.dll", Resources.SystemNetMail, Net100.References.SystemNetMail, global::System.Guid.Parse("d6600f19-9dc3-4d88-826e-3b38a41ba618"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.NameResolution.dll
         /// </summary>
-        public static ReferenceInfo SystemNetNameResolution => new ReferenceInfo("System.Net.NameResolution.dll", Resources.SystemNetNameResolution, Net100.References.SystemNetNameResolution, global::System.Guid.Parse("0bf5220e-1d56-48a0-acea-e8f5e51d0863"));
+        public static ReferenceInfo SystemNetNameResolution => new ReferenceInfo("System.Net.NameResolution.dll", Resources.SystemNetNameResolution, Net100.References.SystemNetNameResolution, global::System.Guid.Parse("0408a2e1-b1c8-41a0-9f8c-0b1051f76a75"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.NetworkInformation.dll
         /// </summary>
-        public static ReferenceInfo SystemNetNetworkInformation => new ReferenceInfo("System.Net.NetworkInformation.dll", Resources.SystemNetNetworkInformation, Net100.References.SystemNetNetworkInformation, global::System.Guid.Parse("e189f1be-6a50-494b-a98b-575eac3921f4"));
+        public static ReferenceInfo SystemNetNetworkInformation => new ReferenceInfo("System.Net.NetworkInformation.dll", Resources.SystemNetNetworkInformation, Net100.References.SystemNetNetworkInformation, global::System.Guid.Parse("e3b03856-b9f4-4ec4-8c18-d74102dab363"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Ping.dll
         /// </summary>
-        public static ReferenceInfo SystemNetPing => new ReferenceInfo("System.Net.Ping.dll", Resources.SystemNetPing, Net100.References.SystemNetPing, global::System.Guid.Parse("57037749-b6e1-4ed3-a575-784e4f03fa6b"));
+        public static ReferenceInfo SystemNetPing => new ReferenceInfo("System.Net.Ping.dll", Resources.SystemNetPing, Net100.References.SystemNetPing, global::System.Guid.Parse("a503edd2-7922-4c69-bb4f-9a734988df9d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemNetPrimitives => new ReferenceInfo("System.Net.Primitives.dll", Resources.SystemNetPrimitives, Net100.References.SystemNetPrimitives, global::System.Guid.Parse("5d7f7e76-853c-4d57-be86-31006872081d"));
+        public static ReferenceInfo SystemNetPrimitives => new ReferenceInfo("System.Net.Primitives.dll", Resources.SystemNetPrimitives, Net100.References.SystemNetPrimitives, global::System.Guid.Parse("1f680ac1-f52f-471b-91ae-3860884f04a6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Quic.dll
         /// </summary>
-        public static ReferenceInfo SystemNetQuic => new ReferenceInfo("System.Net.Quic.dll", Resources.SystemNetQuic, Net100.References.SystemNetQuic, global::System.Guid.Parse("a8dae3ae-c659-41d4-9de8-4fd11966dd62"));
+        public static ReferenceInfo SystemNetQuic => new ReferenceInfo("System.Net.Quic.dll", Resources.SystemNetQuic, Net100.References.SystemNetQuic, global::System.Guid.Parse("0476972e-0527-455a-812b-4e4d3b64f23e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Requests.dll
         /// </summary>
-        public static ReferenceInfo SystemNetRequests => new ReferenceInfo("System.Net.Requests.dll", Resources.SystemNetRequests, Net100.References.SystemNetRequests, global::System.Guid.Parse("32f574bc-a047-43df-9465-0e2f114d6653"));
+        public static ReferenceInfo SystemNetRequests => new ReferenceInfo("System.Net.Requests.dll", Resources.SystemNetRequests, Net100.References.SystemNetRequests, global::System.Guid.Parse("b64b0f77-2f97-48be-b331-75809e37845f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Security.dll
         /// </summary>
-        public static ReferenceInfo SystemNetSecurity => new ReferenceInfo("System.Net.Security.dll", Resources.SystemNetSecurity, Net100.References.SystemNetSecurity, global::System.Guid.Parse("092e84a0-d234-4a5f-81a2-bd86e5635da2"));
+        public static ReferenceInfo SystemNetSecurity => new ReferenceInfo("System.Net.Security.dll", Resources.SystemNetSecurity, Net100.References.SystemNetSecurity, global::System.Guid.Parse("be8316bb-3aac-4cdf-bec9-b37b885f9075"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.ServerSentEvents.dll
         /// </summary>
-        public static ReferenceInfo SystemNetServerSentEvents => new ReferenceInfo("System.Net.ServerSentEvents.dll", Resources.SystemNetServerSentEvents, Net100.References.SystemNetServerSentEvents, global::System.Guid.Parse("94d989a3-dc56-4c0f-815b-64518c0b34d4"));
+        public static ReferenceInfo SystemNetServerSentEvents => new ReferenceInfo("System.Net.ServerSentEvents.dll", Resources.SystemNetServerSentEvents, Net100.References.SystemNetServerSentEvents, global::System.Guid.Parse("65a8e1bf-311a-4840-a988-f5a4669e698a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.ServicePoint.dll
         /// </summary>
-        public static ReferenceInfo SystemNetServicePoint => new ReferenceInfo("System.Net.ServicePoint.dll", Resources.SystemNetServicePoint, Net100.References.SystemNetServicePoint, global::System.Guid.Parse("bd9bed79-d903-4fee-8e63-247a6a5c5367"));
+        public static ReferenceInfo SystemNetServicePoint => new ReferenceInfo("System.Net.ServicePoint.dll", Resources.SystemNetServicePoint, Net100.References.SystemNetServicePoint, global::System.Guid.Parse("e5a92877-1193-420b-9370-6d8cb3ec82ab"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Sockets.dll
         /// </summary>
-        public static ReferenceInfo SystemNetSockets => new ReferenceInfo("System.Net.Sockets.dll", Resources.SystemNetSockets, Net100.References.SystemNetSockets, global::System.Guid.Parse("dee627e9-e3db-41eb-a954-dbc5c216121f"));
+        public static ReferenceInfo SystemNetSockets => new ReferenceInfo("System.Net.Sockets.dll", Resources.SystemNetSockets, Net100.References.SystemNetSockets, global::System.Guid.Parse("de4c2004-b461-4636-96e5-628bd7ec4597"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.WebClient.dll
         /// </summary>
-        public static ReferenceInfo SystemNetWebClient => new ReferenceInfo("System.Net.WebClient.dll", Resources.SystemNetWebClient, Net100.References.SystemNetWebClient, global::System.Guid.Parse("734dae74-05c4-49b6-8c13-55c14e693435"));
+        public static ReferenceInfo SystemNetWebClient => new ReferenceInfo("System.Net.WebClient.dll", Resources.SystemNetWebClient, Net100.References.SystemNetWebClient, global::System.Guid.Parse("992f8768-e47d-49b2-b2df-1d3eca8eb883"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.WebHeaderCollection.dll
         /// </summary>
-        public static ReferenceInfo SystemNetWebHeaderCollection => new ReferenceInfo("System.Net.WebHeaderCollection.dll", Resources.SystemNetWebHeaderCollection, Net100.References.SystemNetWebHeaderCollection, global::System.Guid.Parse("de320f04-498e-4516-ab12-317987b2f207"));
+        public static ReferenceInfo SystemNetWebHeaderCollection => new ReferenceInfo("System.Net.WebHeaderCollection.dll", Resources.SystemNetWebHeaderCollection, Net100.References.SystemNetWebHeaderCollection, global::System.Guid.Parse("47d0dee7-f63a-46a6-af8f-29b05c5b75cf"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.WebProxy.dll
         /// </summary>
-        public static ReferenceInfo SystemNetWebProxy => new ReferenceInfo("System.Net.WebProxy.dll", Resources.SystemNetWebProxy, Net100.References.SystemNetWebProxy, global::System.Guid.Parse("89c9d95b-05ab-44de-8eec-a2d321b9d03e"));
+        public static ReferenceInfo SystemNetWebProxy => new ReferenceInfo("System.Net.WebProxy.dll", Resources.SystemNetWebProxy, Net100.References.SystemNetWebProxy, global::System.Guid.Parse("fd1d7cf1-7639-4895-b4e1-74cb4185d906"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.WebSockets.Client.dll
         /// </summary>
-        public static ReferenceInfo SystemNetWebSocketsClient => new ReferenceInfo("System.Net.WebSockets.Client.dll", Resources.SystemNetWebSocketsClient, Net100.References.SystemNetWebSocketsClient, global::System.Guid.Parse("d50e8b69-bf1a-4380-82f8-6a2bb678b939"));
+        public static ReferenceInfo SystemNetWebSocketsClient => new ReferenceInfo("System.Net.WebSockets.Client.dll", Resources.SystemNetWebSocketsClient, Net100.References.SystemNetWebSocketsClient, global::System.Guid.Parse("3f5fa37f-6335-4801-ac9c-382d03a3de87"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.WebSockets.dll
         /// </summary>
-        public static ReferenceInfo SystemNetWebSockets => new ReferenceInfo("System.Net.WebSockets.dll", Resources.SystemNetWebSockets, Net100.References.SystemNetWebSockets, global::System.Guid.Parse("428e7b84-6e3e-40a8-845b-9a92127b1b2e"));
+        public static ReferenceInfo SystemNetWebSockets => new ReferenceInfo("System.Net.WebSockets.dll", Resources.SystemNetWebSockets, Net100.References.SystemNetWebSockets, global::System.Guid.Parse("8c3c91da-9c13-4162-9c6f-ca688628c3e5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Numerics.dll
         /// </summary>
-        public static ReferenceInfo SystemNumerics => new ReferenceInfo("System.Numerics.dll", Resources.SystemNumerics, Net100.References.SystemNumerics, global::System.Guid.Parse("f41dad1e-d476-4827-b1ad-919b1f864fd3"));
+        public static ReferenceInfo SystemNumerics => new ReferenceInfo("System.Numerics.dll", Resources.SystemNumerics, Net100.References.SystemNumerics, global::System.Guid.Parse("949695c4-65f9-464b-9d8e-891bf4c3b80c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Numerics.Vectors.dll
         /// </summary>
-        public static ReferenceInfo SystemNumericsVectors => new ReferenceInfo("System.Numerics.Vectors.dll", Resources.SystemNumericsVectors, Net100.References.SystemNumericsVectors, global::System.Guid.Parse("12addf70-0a7e-4551-b205-df91b3b6cc31"));
+        public static ReferenceInfo SystemNumericsVectors => new ReferenceInfo("System.Numerics.Vectors.dll", Resources.SystemNumericsVectors, Net100.References.SystemNumericsVectors, global::System.Guid.Parse("7dbc7f8c-683b-4805-9251-270aa18b4151"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ObjectModel.dll
         /// </summary>
-        public static ReferenceInfo SystemObjectModel => new ReferenceInfo("System.ObjectModel.dll", Resources.SystemObjectModel, Net100.References.SystemObjectModel, global::System.Guid.Parse("1b979553-a548-40b8-930a-9ed61a26294f"));
+        public static ReferenceInfo SystemObjectModel => new ReferenceInfo("System.ObjectModel.dll", Resources.SystemObjectModel, Net100.References.SystemObjectModel, global::System.Guid.Parse("45b594d0-4d35-43eb-b2a2-202678cf91a3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.DispatchProxy.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionDispatchProxy => new ReferenceInfo("System.Reflection.DispatchProxy.dll", Resources.SystemReflectionDispatchProxy, Net100.References.SystemReflectionDispatchProxy, global::System.Guid.Parse("c947968f-fb31-4216-b435-bf54c3386fc1"));
+        public static ReferenceInfo SystemReflectionDispatchProxy => new ReferenceInfo("System.Reflection.DispatchProxy.dll", Resources.SystemReflectionDispatchProxy, Net100.References.SystemReflectionDispatchProxy, global::System.Guid.Parse("ac86fbf8-15a2-4348-b720-8433db1240e8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.dll
         /// </summary>
-        public static ReferenceInfo SystemReflection => new ReferenceInfo("System.Reflection.dll", Resources.SystemReflection, Net100.References.SystemReflection, global::System.Guid.Parse("23778364-5f13-4c5d-bac3-8485d44e53b5"));
+        public static ReferenceInfo SystemReflection => new ReferenceInfo("System.Reflection.dll", Resources.SystemReflection, Net100.References.SystemReflection, global::System.Guid.Parse("07d6e794-f54b-45c9-893b-b335ff411041"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionEmit => new ReferenceInfo("System.Reflection.Emit.dll", Resources.SystemReflectionEmit, Net100.References.SystemReflectionEmit, global::System.Guid.Parse("8db61608-2c8e-4ed3-8b91-9d923c03173c"));
+        public static ReferenceInfo SystemReflectionEmit => new ReferenceInfo("System.Reflection.Emit.dll", Resources.SystemReflectionEmit, Net100.References.SystemReflectionEmit, global::System.Guid.Parse("22a8ba51-8326-44c2-8a99-6aa99d414dde"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.ILGeneration.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionEmitILGeneration => new ReferenceInfo("System.Reflection.Emit.ILGeneration.dll", Resources.SystemReflectionEmitILGeneration, Net100.References.SystemReflectionEmitILGeneration, global::System.Guid.Parse("be3e404d-fe89-40fa-b4d5-22ff83714589"));
+        public static ReferenceInfo SystemReflectionEmitILGeneration => new ReferenceInfo("System.Reflection.Emit.ILGeneration.dll", Resources.SystemReflectionEmitILGeneration, Net100.References.SystemReflectionEmitILGeneration, global::System.Guid.Parse("590b83b8-5f0d-48e4-8350-a45d2cfa35bb"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.Lightweight.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionEmitLightweight => new ReferenceInfo("System.Reflection.Emit.Lightweight.dll", Resources.SystemReflectionEmitLightweight, Net100.References.SystemReflectionEmitLightweight, global::System.Guid.Parse("0eb30963-46f0-4a31-b76d-83c16d22ee20"));
+        public static ReferenceInfo SystemReflectionEmitLightweight => new ReferenceInfo("System.Reflection.Emit.Lightweight.dll", Resources.SystemReflectionEmitLightweight, Net100.References.SystemReflectionEmitLightweight, global::System.Guid.Parse("829b8bd3-d987-43b0-8907-3e6c3ccd1b87"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Extensions.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionExtensions => new ReferenceInfo("System.Reflection.Extensions.dll", Resources.SystemReflectionExtensions, Net100.References.SystemReflectionExtensions, global::System.Guid.Parse("d312259f-f1f8-4ae0-a218-c21bdb895fd1"));
+        public static ReferenceInfo SystemReflectionExtensions => new ReferenceInfo("System.Reflection.Extensions.dll", Resources.SystemReflectionExtensions, Net100.References.SystemReflectionExtensions, global::System.Guid.Parse("dd257c05-da6e-4b14-99ca-47c00e2d9807"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Metadata.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionMetadata => new ReferenceInfo("System.Reflection.Metadata.dll", Resources.SystemReflectionMetadata, Net100.References.SystemReflectionMetadata, global::System.Guid.Parse("ea67139d-6657-40a7-a044-05b0ea7e8acd"));
+        public static ReferenceInfo SystemReflectionMetadata => new ReferenceInfo("System.Reflection.Metadata.dll", Resources.SystemReflectionMetadata, Net100.References.SystemReflectionMetadata, global::System.Guid.Parse("8cf97d58-7baf-4721-aa2d-d60a1e8f109d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionPrimitives => new ReferenceInfo("System.Reflection.Primitives.dll", Resources.SystemReflectionPrimitives, Net100.References.SystemReflectionPrimitives, global::System.Guid.Parse("8358b914-36c0-460a-a11e-8df49068b1c5"));
+        public static ReferenceInfo SystemReflectionPrimitives => new ReferenceInfo("System.Reflection.Primitives.dll", Resources.SystemReflectionPrimitives, Net100.References.SystemReflectionPrimitives, global::System.Guid.Parse("703fee5d-c3a6-4bc5-a19d-7d94f00c2cdb"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.TypeExtensions.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionTypeExtensions => new ReferenceInfo("System.Reflection.TypeExtensions.dll", Resources.SystemReflectionTypeExtensions, Net100.References.SystemReflectionTypeExtensions, global::System.Guid.Parse("05670cdd-5619-4d18-9786-1967cef62f7b"));
+        public static ReferenceInfo SystemReflectionTypeExtensions => new ReferenceInfo("System.Reflection.TypeExtensions.dll", Resources.SystemReflectionTypeExtensions, Net100.References.SystemReflectionTypeExtensions, global::System.Guid.Parse("60db4d17-8a09-48de-9733-008eb72ef515"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Resources.Reader.dll
         /// </summary>
-        public static ReferenceInfo SystemResourcesReader => new ReferenceInfo("System.Resources.Reader.dll", Resources.SystemResourcesReader, Net100.References.SystemResourcesReader, global::System.Guid.Parse("9ab63608-4362-4c48-bd70-92ea02375e94"));
+        public static ReferenceInfo SystemResourcesReader => new ReferenceInfo("System.Resources.Reader.dll", Resources.SystemResourcesReader, Net100.References.SystemResourcesReader, global::System.Guid.Parse("6387072b-e08d-4900-9779-527b8230a286"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Resources.ResourceManager.dll
         /// </summary>
-        public static ReferenceInfo SystemResourcesResourceManager => new ReferenceInfo("System.Resources.ResourceManager.dll", Resources.SystemResourcesResourceManager, Net100.References.SystemResourcesResourceManager, global::System.Guid.Parse("2014bf89-8acb-47fa-b073-fb4b3cee2a29"));
+        public static ReferenceInfo SystemResourcesResourceManager => new ReferenceInfo("System.Resources.ResourceManager.dll", Resources.SystemResourcesResourceManager, Net100.References.SystemResourcesResourceManager, global::System.Guid.Parse("824d4cdb-77e7-4956-a947-fddf0462354a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Resources.Writer.dll
         /// </summary>
-        public static ReferenceInfo SystemResourcesWriter => new ReferenceInfo("System.Resources.Writer.dll", Resources.SystemResourcesWriter, Net100.References.SystemResourcesWriter, global::System.Guid.Parse("dedf258b-431d-4f1e-9879-6ce8fdb6033d"));
+        public static ReferenceInfo SystemResourcesWriter => new ReferenceInfo("System.Resources.Writer.dll", Resources.SystemResourcesWriter, Net100.References.SystemResourcesWriter, global::System.Guid.Parse("fcc5da93-6f2c-42d7-bdfb-0a4b5e754162"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.CompilerServices.Unsafe.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeCompilerServicesUnsafe => new ReferenceInfo("System.Runtime.CompilerServices.Unsafe.dll", Resources.SystemRuntimeCompilerServicesUnsafe, Net100.References.SystemRuntimeCompilerServicesUnsafe, global::System.Guid.Parse("7cf354e8-c8b8-4ec9-9feb-0d3c45414377"));
+        public static ReferenceInfo SystemRuntimeCompilerServicesUnsafe => new ReferenceInfo("System.Runtime.CompilerServices.Unsafe.dll", Resources.SystemRuntimeCompilerServicesUnsafe, Net100.References.SystemRuntimeCompilerServicesUnsafe, global::System.Guid.Parse("8e2d2a96-7abb-4b33-9742-4e0d72d3c623"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.CompilerServices.VisualC.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeCompilerServicesVisualC => new ReferenceInfo("System.Runtime.CompilerServices.VisualC.dll", Resources.SystemRuntimeCompilerServicesVisualC, Net100.References.SystemRuntimeCompilerServicesVisualC, global::System.Guid.Parse("39abf4b0-4db6-4074-a9ba-7896f1481f15"));
+        public static ReferenceInfo SystemRuntimeCompilerServicesVisualC => new ReferenceInfo("System.Runtime.CompilerServices.VisualC.dll", Resources.SystemRuntimeCompilerServicesVisualC, Net100.References.SystemRuntimeCompilerServicesVisualC, global::System.Guid.Parse("2df4feea-d7e9-49b0-beb9-f1935821f3dc"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntime => new ReferenceInfo("System.Runtime.dll", Resources.SystemRuntime, Net100.References.SystemRuntime, global::System.Guid.Parse("1bc77b39-c226-40ab-8932-53bfb0d43396"));
+        public static ReferenceInfo SystemRuntime => new ReferenceInfo("System.Runtime.dll", Resources.SystemRuntime, Net100.References.SystemRuntime, global::System.Guid.Parse("8f65f33e-2f7e-44a4-bc6a-7dd25fa98845"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Extensions.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeExtensions => new ReferenceInfo("System.Runtime.Extensions.dll", Resources.SystemRuntimeExtensions, Net100.References.SystemRuntimeExtensions, global::System.Guid.Parse("32af7f3e-d778-4241-8289-40650399fc30"));
+        public static ReferenceInfo SystemRuntimeExtensions => new ReferenceInfo("System.Runtime.Extensions.dll", Resources.SystemRuntimeExtensions, Net100.References.SystemRuntimeExtensions, global::System.Guid.Parse("a59031b5-dba2-4742-9c29-8d39e77fae80"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Handles.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeHandles => new ReferenceInfo("System.Runtime.Handles.dll", Resources.SystemRuntimeHandles, Net100.References.SystemRuntimeHandles, global::System.Guid.Parse("bc366347-253e-4c63-aa9f-980451dc2cf3"));
+        public static ReferenceInfo SystemRuntimeHandles => new ReferenceInfo("System.Runtime.Handles.dll", Resources.SystemRuntimeHandles, Net100.References.SystemRuntimeHandles, global::System.Guid.Parse("0884e3d6-6141-4337-9cc5-48c4ed32de6b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices, Net100.References.SystemRuntimeInteropServices, global::System.Guid.Parse("561c3910-03dd-47ef-b227-20952c107584"));
+        public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices, Net100.References.SystemRuntimeInteropServices, global::System.Guid.Parse("3d013422-e62d-4b8d-a650-410c4b75583e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.JavaScript.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeInteropServicesJavaScript => new ReferenceInfo("System.Runtime.InteropServices.JavaScript.dll", Resources.SystemRuntimeInteropServicesJavaScript, Net100.References.SystemRuntimeInteropServicesJavaScript, global::System.Guid.Parse("3e45d81f-c94d-462e-88da-00b188e03a18"));
+        public static ReferenceInfo SystemRuntimeInteropServicesJavaScript => new ReferenceInfo("System.Runtime.InteropServices.JavaScript.dll", Resources.SystemRuntimeInteropServicesJavaScript, Net100.References.SystemRuntimeInteropServicesJavaScript, global::System.Guid.Parse("820c3868-3153-4ff7-9a68-197e028d0d85"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.RuntimeInformation.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeInteropServicesRuntimeInformation => new ReferenceInfo("System.Runtime.InteropServices.RuntimeInformation.dll", Resources.SystemRuntimeInteropServicesRuntimeInformation, Net100.References.SystemRuntimeInteropServicesRuntimeInformation, global::System.Guid.Parse("f05c6907-2b12-47a9-b514-9d616742575f"));
+        public static ReferenceInfo SystemRuntimeInteropServicesRuntimeInformation => new ReferenceInfo("System.Runtime.InteropServices.RuntimeInformation.dll", Resources.SystemRuntimeInteropServicesRuntimeInformation, Net100.References.SystemRuntimeInteropServicesRuntimeInformation, global::System.Guid.Parse("c52d7446-e675-4d0e-ad64-8534a9de38be"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Intrinsics.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeIntrinsics => new ReferenceInfo("System.Runtime.Intrinsics.dll", Resources.SystemRuntimeIntrinsics, Net100.References.SystemRuntimeIntrinsics, global::System.Guid.Parse("7fe35a7f-7aee-4c1d-bcf5-30f01fbcde67"));
+        public static ReferenceInfo SystemRuntimeIntrinsics => new ReferenceInfo("System.Runtime.Intrinsics.dll", Resources.SystemRuntimeIntrinsics, Net100.References.SystemRuntimeIntrinsics, global::System.Guid.Parse("0c90fd31-24d1-4b20-87f4-acf3cc394715"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Loader.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeLoader => new ReferenceInfo("System.Runtime.Loader.dll", Resources.SystemRuntimeLoader, Net100.References.SystemRuntimeLoader, global::System.Guid.Parse("126d5046-cbb4-4c53-91a3-2247bd3a8203"));
+        public static ReferenceInfo SystemRuntimeLoader => new ReferenceInfo("System.Runtime.Loader.dll", Resources.SystemRuntimeLoader, Net100.References.SystemRuntimeLoader, global::System.Guid.Parse("bf04f2c7-a3b5-425d-9d5a-3b4fa6ce602f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Numerics.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeNumerics => new ReferenceInfo("System.Runtime.Numerics.dll", Resources.SystemRuntimeNumerics, Net100.References.SystemRuntimeNumerics, global::System.Guid.Parse("a87a3c07-b9fd-4717-8812-fd8d42bf67ae"));
+        public static ReferenceInfo SystemRuntimeNumerics => new ReferenceInfo("System.Runtime.Numerics.dll", Resources.SystemRuntimeNumerics, Net100.References.SystemRuntimeNumerics, global::System.Guid.Parse("daae3366-047e-490f-8350-f978a6cdc881"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeSerialization => new ReferenceInfo("System.Runtime.Serialization.dll", Resources.SystemRuntimeSerialization, Net100.References.SystemRuntimeSerialization, global::System.Guid.Parse("50156cf9-2c0f-4988-9973-26628e830fcf"));
+        public static ReferenceInfo SystemRuntimeSerialization => new ReferenceInfo("System.Runtime.Serialization.dll", Resources.SystemRuntimeSerialization, Net100.References.SystemRuntimeSerialization, global::System.Guid.Parse("6cacce52-3b5a-487b-a5bc-2cbd8676bf49"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Formatters.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeSerializationFormatters => new ReferenceInfo("System.Runtime.Serialization.Formatters.dll", Resources.SystemRuntimeSerializationFormatters, Net100.References.SystemRuntimeSerializationFormatters, global::System.Guid.Parse("6c1c086b-9f92-48ab-86e3-90662184b8ec"));
+        public static ReferenceInfo SystemRuntimeSerializationFormatters => new ReferenceInfo("System.Runtime.Serialization.Formatters.dll", Resources.SystemRuntimeSerializationFormatters, Net100.References.SystemRuntimeSerializationFormatters, global::System.Guid.Parse("fecdc49a-e192-473e-b843-84c3ed82a2d2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Json.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeSerializationJson => new ReferenceInfo("System.Runtime.Serialization.Json.dll", Resources.SystemRuntimeSerializationJson, Net100.References.SystemRuntimeSerializationJson, global::System.Guid.Parse("1e0d02ea-cc39-4717-b1e7-b9566b307396"));
+        public static ReferenceInfo SystemRuntimeSerializationJson => new ReferenceInfo("System.Runtime.Serialization.Json.dll", Resources.SystemRuntimeSerializationJson, Net100.References.SystemRuntimeSerializationJson, global::System.Guid.Parse("16a29d04-a6f0-4680-8234-3f81653bcdec"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeSerializationPrimitives => new ReferenceInfo("System.Runtime.Serialization.Primitives.dll", Resources.SystemRuntimeSerializationPrimitives, Net100.References.SystemRuntimeSerializationPrimitives, global::System.Guid.Parse("14355cfe-7d30-4cf0-89e9-61be1e3df70b"));
+        public static ReferenceInfo SystemRuntimeSerializationPrimitives => new ReferenceInfo("System.Runtime.Serialization.Primitives.dll", Resources.SystemRuntimeSerializationPrimitives, Net100.References.SystemRuntimeSerializationPrimitives, global::System.Guid.Parse("80b298f0-96a3-403c-9299-b76551ee0956"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Xml.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeSerializationXml => new ReferenceInfo("System.Runtime.Serialization.Xml.dll", Resources.SystemRuntimeSerializationXml, Net100.References.SystemRuntimeSerializationXml, global::System.Guid.Parse("901e3d4b-6cfc-47ac-93d5-f225ca47bf3c"));
+        public static ReferenceInfo SystemRuntimeSerializationXml => new ReferenceInfo("System.Runtime.Serialization.Xml.dll", Resources.SystemRuntimeSerializationXml, Net100.References.SystemRuntimeSerializationXml, global::System.Guid.Parse("596720ea-507d-4d68-8456-c104e83d5cc4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.AccessControl.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityAccessControl => new ReferenceInfo("System.Security.AccessControl.dll", Resources.SystemSecurityAccessControl, Net100.References.SystemSecurityAccessControl, global::System.Guid.Parse("5815c639-c7a1-4d57-8b8b-af7e74571190"));
+        public static ReferenceInfo SystemSecurityAccessControl => new ReferenceInfo("System.Security.AccessControl.dll", Resources.SystemSecurityAccessControl, Net100.References.SystemSecurityAccessControl, global::System.Guid.Parse("5c547ceb-173b-4c84-a04a-be6d39fc71b1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Claims.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityClaims => new ReferenceInfo("System.Security.Claims.dll", Resources.SystemSecurityClaims, Net100.References.SystemSecurityClaims, global::System.Guid.Parse("64b76405-4e43-4ee0-bfe2-c9eddcd29eb5"));
+        public static ReferenceInfo SystemSecurityClaims => new ReferenceInfo("System.Security.Claims.dll", Resources.SystemSecurityClaims, Net100.References.SystemSecurityClaims, global::System.Guid.Parse("823d8843-1407-4bc8-8686-748b2691f4c6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Algorithms.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyAlgorithms => new ReferenceInfo("System.Security.Cryptography.Algorithms.dll", Resources.SystemSecurityCryptographyAlgorithms, Net100.References.SystemSecurityCryptographyAlgorithms, global::System.Guid.Parse("20402436-9d51-426a-9e0a-b3a131dcbd2d"));
+        public static ReferenceInfo SystemSecurityCryptographyAlgorithms => new ReferenceInfo("System.Security.Cryptography.Algorithms.dll", Resources.SystemSecurityCryptographyAlgorithms, Net100.References.SystemSecurityCryptographyAlgorithms, global::System.Guid.Parse("949d340a-5cf6-4f9d-86a0-c9cdd27cbb32"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Cng.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyCng => new ReferenceInfo("System.Security.Cryptography.Cng.dll", Resources.SystemSecurityCryptographyCng, Net100.References.SystemSecurityCryptographyCng, global::System.Guid.Parse("ac7d748a-fbbd-41dc-8b3c-f3b0a2500f27"));
+        public static ReferenceInfo SystemSecurityCryptographyCng => new ReferenceInfo("System.Security.Cryptography.Cng.dll", Resources.SystemSecurityCryptographyCng, Net100.References.SystemSecurityCryptographyCng, global::System.Guid.Parse("2795215b-5412-45b3-9438-bb03cc8e924e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Csp.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyCsp => new ReferenceInfo("System.Security.Cryptography.Csp.dll", Resources.SystemSecurityCryptographyCsp, Net100.References.SystemSecurityCryptographyCsp, global::System.Guid.Parse("6e57ca76-12fa-4e56-b697-1e19f88142fa"));
+        public static ReferenceInfo SystemSecurityCryptographyCsp => new ReferenceInfo("System.Security.Cryptography.Csp.dll", Resources.SystemSecurityCryptographyCsp, Net100.References.SystemSecurityCryptographyCsp, global::System.Guid.Parse("c72c6abc-81a4-4bb6-8aca-6c73f87587b8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptography => new ReferenceInfo("System.Security.Cryptography.dll", Resources.SystemSecurityCryptography, Net100.References.SystemSecurityCryptography, global::System.Guid.Parse("f1a04828-a2c0-4888-b5c6-2972237c8177"));
+        public static ReferenceInfo SystemSecurityCryptography => new ReferenceInfo("System.Security.Cryptography.dll", Resources.SystemSecurityCryptography, Net100.References.SystemSecurityCryptography, global::System.Guid.Parse("5a666f8d-7e88-489c-afba-9dec075ce3a1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Encoding.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyEncoding => new ReferenceInfo("System.Security.Cryptography.Encoding.dll", Resources.SystemSecurityCryptographyEncoding, Net100.References.SystemSecurityCryptographyEncoding, global::System.Guid.Parse("50970e21-ebb0-443f-955a-ad3a70b749f8"));
+        public static ReferenceInfo SystemSecurityCryptographyEncoding => new ReferenceInfo("System.Security.Cryptography.Encoding.dll", Resources.SystemSecurityCryptographyEncoding, Net100.References.SystemSecurityCryptographyEncoding, global::System.Guid.Parse("1ab72114-aa7e-476a-a681-879400ff5af6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.OpenSsl.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyOpenSsl => new ReferenceInfo("System.Security.Cryptography.OpenSsl.dll", Resources.SystemSecurityCryptographyOpenSsl, Net100.References.SystemSecurityCryptographyOpenSsl, global::System.Guid.Parse("cf573e52-ce50-4ddb-ad4a-a374bba05b90"));
+        public static ReferenceInfo SystemSecurityCryptographyOpenSsl => new ReferenceInfo("System.Security.Cryptography.OpenSsl.dll", Resources.SystemSecurityCryptographyOpenSsl, Net100.References.SystemSecurityCryptographyOpenSsl, global::System.Guid.Parse("faab32f4-1a89-44c6-af4e-5f8d0baefb4e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyPrimitives => new ReferenceInfo("System.Security.Cryptography.Primitives.dll", Resources.SystemSecurityCryptographyPrimitives, Net100.References.SystemSecurityCryptographyPrimitives, global::System.Guid.Parse("ec85152d-a51d-4236-a71d-81c79a336f75"));
+        public static ReferenceInfo SystemSecurityCryptographyPrimitives => new ReferenceInfo("System.Security.Cryptography.Primitives.dll", Resources.SystemSecurityCryptographyPrimitives, Net100.References.SystemSecurityCryptographyPrimitives, global::System.Guid.Parse("cda0bbf3-c23a-4b68-ae9e-bd41b88a1135"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.X509Certificates.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyX509Certificates => new ReferenceInfo("System.Security.Cryptography.X509Certificates.dll", Resources.SystemSecurityCryptographyX509Certificates, Net100.References.SystemSecurityCryptographyX509Certificates, global::System.Guid.Parse("cdabc670-23fa-4109-8f23-f89e1f33ccc7"));
+        public static ReferenceInfo SystemSecurityCryptographyX509Certificates => new ReferenceInfo("System.Security.Cryptography.X509Certificates.dll", Resources.SystemSecurityCryptographyX509Certificates, Net100.References.SystemSecurityCryptographyX509Certificates, global::System.Guid.Parse("66bc72d8-7289-4b3c-9df3-5a22d02dd397"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurity => new ReferenceInfo("System.Security.dll", Resources.SystemSecurity, Net100.References.SystemSecurity, global::System.Guid.Parse("9cbba70b-f426-4c70-b4c7-76e443ef8820"));
+        public static ReferenceInfo SystemSecurity => new ReferenceInfo("System.Security.dll", Resources.SystemSecurity, Net100.References.SystemSecurity, global::System.Guid.Parse("2266738f-67d0-4261-99d4-7aeb2ed3bf38"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Principal.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityPrincipal => new ReferenceInfo("System.Security.Principal.dll", Resources.SystemSecurityPrincipal, Net100.References.SystemSecurityPrincipal, global::System.Guid.Parse("b46def3f-7722-4fcb-ab3b-3ae8ac2eeaf9"));
+        public static ReferenceInfo SystemSecurityPrincipal => new ReferenceInfo("System.Security.Principal.dll", Resources.SystemSecurityPrincipal, Net100.References.SystemSecurityPrincipal, global::System.Guid.Parse("ccc37628-553f-4c51-9246-232f6049547d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Principal.Windows.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityPrincipalWindows => new ReferenceInfo("System.Security.Principal.Windows.dll", Resources.SystemSecurityPrincipalWindows, Net100.References.SystemSecurityPrincipalWindows, global::System.Guid.Parse("e29e3a8d-72c1-487b-ab13-ab15d0fa360d"));
+        public static ReferenceInfo SystemSecurityPrincipalWindows => new ReferenceInfo("System.Security.Principal.Windows.dll", Resources.SystemSecurityPrincipalWindows, Net100.References.SystemSecurityPrincipalWindows, global::System.Guid.Parse("572156a9-5f12-4e96-9207-dc989970dc5f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.SecureString.dll
         /// </summary>
-        public static ReferenceInfo SystemSecuritySecureString => new ReferenceInfo("System.Security.SecureString.dll", Resources.SystemSecuritySecureString, Net100.References.SystemSecuritySecureString, global::System.Guid.Parse("1fb6ce65-120c-4b67-b246-afa9ae49108b"));
+        public static ReferenceInfo SystemSecuritySecureString => new ReferenceInfo("System.Security.SecureString.dll", Resources.SystemSecuritySecureString, Net100.References.SystemSecuritySecureString, global::System.Guid.Parse("6b2bc07b-82be-4bc4-afc2-7a83172ae819"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ServiceModel.Web.dll
         /// </summary>
-        public static ReferenceInfo SystemServiceModelWeb => new ReferenceInfo("System.ServiceModel.Web.dll", Resources.SystemServiceModelWeb, Net100.References.SystemServiceModelWeb, global::System.Guid.Parse("172d4ffe-697e-46e1-8bba-8a80c393161e"));
+        public static ReferenceInfo SystemServiceModelWeb => new ReferenceInfo("System.ServiceModel.Web.dll", Resources.SystemServiceModelWeb, Net100.References.SystemServiceModelWeb, global::System.Guid.Parse("ecb1e0b6-b32d-468c-b9dc-a4d1c96726f9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ServiceProcess.dll
         /// </summary>
-        public static ReferenceInfo SystemServiceProcess => new ReferenceInfo("System.ServiceProcess.dll", Resources.SystemServiceProcess, Net100.References.SystemServiceProcess, global::System.Guid.Parse("4a96f9ea-d9bd-4507-843b-7e8fa481342b"));
+        public static ReferenceInfo SystemServiceProcess => new ReferenceInfo("System.ServiceProcess.dll", Resources.SystemServiceProcess, Net100.References.SystemServiceProcess, global::System.Guid.Parse("ba9bd176-390c-4410-a385-746d7c5eb742"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.CodePages.dll
         /// </summary>
-        public static ReferenceInfo SystemTextEncodingCodePages => new ReferenceInfo("System.Text.Encoding.CodePages.dll", Resources.SystemTextEncodingCodePages, Net100.References.SystemTextEncodingCodePages, global::System.Guid.Parse("f3d0b3db-29db-40d1-a41d-5f3c62b89f77"));
+        public static ReferenceInfo SystemTextEncodingCodePages => new ReferenceInfo("System.Text.Encoding.CodePages.dll", Resources.SystemTextEncodingCodePages, Net100.References.SystemTextEncodingCodePages, global::System.Guid.Parse("55cd5cc3-d21c-4b3e-850c-1e50f5a577fc"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.dll
         /// </summary>
-        public static ReferenceInfo SystemTextEncoding => new ReferenceInfo("System.Text.Encoding.dll", Resources.SystemTextEncoding, Net100.References.SystemTextEncoding, global::System.Guid.Parse("39177ded-baa0-4f52-b2db-0f0dd144f212"));
+        public static ReferenceInfo SystemTextEncoding => new ReferenceInfo("System.Text.Encoding.dll", Resources.SystemTextEncoding, Net100.References.SystemTextEncoding, global::System.Guid.Parse("b0dc2116-49a7-4c96-8fde-e37a15c2e061"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.Extensions.dll
         /// </summary>
-        public static ReferenceInfo SystemTextEncodingExtensions => new ReferenceInfo("System.Text.Encoding.Extensions.dll", Resources.SystemTextEncodingExtensions, Net100.References.SystemTextEncodingExtensions, global::System.Guid.Parse("92d52709-25d8-4aa5-8539-985779630497"));
+        public static ReferenceInfo SystemTextEncodingExtensions => new ReferenceInfo("System.Text.Encoding.Extensions.dll", Resources.SystemTextEncodingExtensions, Net100.References.SystemTextEncodingExtensions, global::System.Guid.Parse("8c1c8297-48a2-4eb0-941a-9ceac3e14499"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encodings.Web.dll
         /// </summary>
-        public static ReferenceInfo SystemTextEncodingsWeb => new ReferenceInfo("System.Text.Encodings.Web.dll", Resources.SystemTextEncodingsWeb, Net100.References.SystemTextEncodingsWeb, global::System.Guid.Parse("552f3b55-1f84-47ca-8e2d-b8c9fcdd9a16"));
+        public static ReferenceInfo SystemTextEncodingsWeb => new ReferenceInfo("System.Text.Encodings.Web.dll", Resources.SystemTextEncodingsWeb, Net100.References.SystemTextEncodingsWeb, global::System.Guid.Parse("639e8b62-79f5-4ad9-a296-9d173b0a8e84"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Json.dll
         /// </summary>
-        public static ReferenceInfo SystemTextJson => new ReferenceInfo("System.Text.Json.dll", Resources.SystemTextJson, Net100.References.SystemTextJson, global::System.Guid.Parse("972d0aab-3805-4150-845d-91c743968ed4"));
+        public static ReferenceInfo SystemTextJson => new ReferenceInfo("System.Text.Json.dll", Resources.SystemTextJson, Net100.References.SystemTextJson, global::System.Guid.Parse("1c033733-6f2b-475f-b67d-98116d1082c7"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.RegularExpressions.dll
         /// </summary>
-        public static ReferenceInfo SystemTextRegularExpressions => new ReferenceInfo("System.Text.RegularExpressions.dll", Resources.SystemTextRegularExpressions, Net100.References.SystemTextRegularExpressions, global::System.Guid.Parse("f3876171-6ccb-4b06-9c0c-62c6a6c181f2"));
+        public static ReferenceInfo SystemTextRegularExpressions => new ReferenceInfo("System.Text.RegularExpressions.dll", Resources.SystemTextRegularExpressions, Net100.References.SystemTextRegularExpressions, global::System.Guid.Parse("a22995b9-21c7-4e6d-b0dc-ca291623060e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Channels.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingChannels => new ReferenceInfo("System.Threading.Channels.dll", Resources.SystemThreadingChannels, Net100.References.SystemThreadingChannels, global::System.Guid.Parse("b770d2ea-b9da-422f-865f-0d14a6a3e232"));
+        public static ReferenceInfo SystemThreadingChannels => new ReferenceInfo("System.Threading.Channels.dll", Resources.SystemThreadingChannels, Net100.References.SystemThreadingChannels, global::System.Guid.Parse("fc84a38d-f7d8-41cd-8c80-038453d26786"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.dll
         /// </summary>
-        public static ReferenceInfo SystemThreading => new ReferenceInfo("System.Threading.dll", Resources.SystemThreading, Net100.References.SystemThreading, global::System.Guid.Parse("5a44128f-8d1c-4f0c-a943-c35374253618"));
+        public static ReferenceInfo SystemThreading => new ReferenceInfo("System.Threading.dll", Resources.SystemThreading, Net100.References.SystemThreading, global::System.Guid.Parse("80681a8f-c152-414d-9086-d5432c3ec816"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Overlapped.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingOverlapped => new ReferenceInfo("System.Threading.Overlapped.dll", Resources.SystemThreadingOverlapped, Net100.References.SystemThreadingOverlapped, global::System.Guid.Parse("50f2aea6-c8f6-417d-94c7-c5ba2781fdc3"));
+        public static ReferenceInfo SystemThreadingOverlapped => new ReferenceInfo("System.Threading.Overlapped.dll", Resources.SystemThreadingOverlapped, Net100.References.SystemThreadingOverlapped, global::System.Guid.Parse("eb545f33-a2e9-484d-b3f5-e56bae16efa3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Dataflow.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingTasksDataflow => new ReferenceInfo("System.Threading.Tasks.Dataflow.dll", Resources.SystemThreadingTasksDataflow, Net100.References.SystemThreadingTasksDataflow, global::System.Guid.Parse("a8d8e643-0e9c-44a3-8e93-cbb95374bcd3"));
+        public static ReferenceInfo SystemThreadingTasksDataflow => new ReferenceInfo("System.Threading.Tasks.Dataflow.dll", Resources.SystemThreadingTasksDataflow, Net100.References.SystemThreadingTasksDataflow, global::System.Guid.Parse("18d041e3-05c3-4b86-8524-e650d6af7b11"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingTasks => new ReferenceInfo("System.Threading.Tasks.dll", Resources.SystemThreadingTasks, Net100.References.SystemThreadingTasks, global::System.Guid.Parse("1226eeb9-3161-4388-901e-ab2e65635245"));
+        public static ReferenceInfo SystemThreadingTasks => new ReferenceInfo("System.Threading.Tasks.dll", Resources.SystemThreadingTasks, Net100.References.SystemThreadingTasks, global::System.Guid.Parse("9cda4e80-063d-476c-98f1-4b47f0ac8cad"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Extensions.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingTasksExtensions => new ReferenceInfo("System.Threading.Tasks.Extensions.dll", Resources.SystemThreadingTasksExtensions, Net100.References.SystemThreadingTasksExtensions, global::System.Guid.Parse("475f8767-7b91-43ce-b1d9-6d287ac6d49d"));
+        public static ReferenceInfo SystemThreadingTasksExtensions => new ReferenceInfo("System.Threading.Tasks.Extensions.dll", Resources.SystemThreadingTasksExtensions, Net100.References.SystemThreadingTasksExtensions, global::System.Guid.Parse("0f40942b-797f-4d41-89c8-fc0d7b060233"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Parallel.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingTasksParallel => new ReferenceInfo("System.Threading.Tasks.Parallel.dll", Resources.SystemThreadingTasksParallel, Net100.References.SystemThreadingTasksParallel, global::System.Guid.Parse("131121d4-6fe0-43f7-b5d2-ac9536aa56b6"));
+        public static ReferenceInfo SystemThreadingTasksParallel => new ReferenceInfo("System.Threading.Tasks.Parallel.dll", Resources.SystemThreadingTasksParallel, Net100.References.SystemThreadingTasksParallel, global::System.Guid.Parse("50c24c27-3e21-48a1-a435-5f71eaca24dc"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Thread.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingThread => new ReferenceInfo("System.Threading.Thread.dll", Resources.SystemThreadingThread, Net100.References.SystemThreadingThread, global::System.Guid.Parse("5df151f2-b8e5-4842-80a7-0670233fa7f1"));
+        public static ReferenceInfo SystemThreadingThread => new ReferenceInfo("System.Threading.Thread.dll", Resources.SystemThreadingThread, Net100.References.SystemThreadingThread, global::System.Guid.Parse("55f7ca60-a6a6-48f6-9952-04f05e6e4b22"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.ThreadPool.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingThreadPool => new ReferenceInfo("System.Threading.ThreadPool.dll", Resources.SystemThreadingThreadPool, Net100.References.SystemThreadingThreadPool, global::System.Guid.Parse("c4397e04-6688-4ec8-8c73-305936164892"));
+        public static ReferenceInfo SystemThreadingThreadPool => new ReferenceInfo("System.Threading.ThreadPool.dll", Resources.SystemThreadingThreadPool, Net100.References.SystemThreadingThreadPool, global::System.Guid.Parse("583c113c-1a9b-4814-b414-4327cb548fac"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Timer.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingTimer => new ReferenceInfo("System.Threading.Timer.dll", Resources.SystemThreadingTimer, Net100.References.SystemThreadingTimer, global::System.Guid.Parse("d4bcb178-9a0c-430d-a0d8-40b67acd8a8b"));
+        public static ReferenceInfo SystemThreadingTimer => new ReferenceInfo("System.Threading.Timer.dll", Resources.SystemThreadingTimer, Net100.References.SystemThreadingTimer, global::System.Guid.Parse("90572738-52e0-4a9f-88a7-5368f81af61f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Transactions.dll
         /// </summary>
-        public static ReferenceInfo SystemTransactions => new ReferenceInfo("System.Transactions.dll", Resources.SystemTransactions, Net100.References.SystemTransactions, global::System.Guid.Parse("6c7ddb46-e345-482a-8ad4-db068abbeb9d"));
+        public static ReferenceInfo SystemTransactions => new ReferenceInfo("System.Transactions.dll", Resources.SystemTransactions, Net100.References.SystemTransactions, global::System.Guid.Parse("ee4d2b48-faf3-4c76-92f4-16e547f34ee3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Transactions.Local.dll
         /// </summary>
-        public static ReferenceInfo SystemTransactionsLocal => new ReferenceInfo("System.Transactions.Local.dll", Resources.SystemTransactionsLocal, Net100.References.SystemTransactionsLocal, global::System.Guid.Parse("04998118-eb86-4551-983f-8262cffab774"));
+        public static ReferenceInfo SystemTransactionsLocal => new ReferenceInfo("System.Transactions.Local.dll", Resources.SystemTransactionsLocal, Net100.References.SystemTransactionsLocal, global::System.Guid.Parse("34ef8c57-3580-4f45-b110-0d5b1c36361a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ValueTuple.dll
         /// </summary>
-        public static ReferenceInfo SystemValueTuple => new ReferenceInfo("System.ValueTuple.dll", Resources.SystemValueTuple, Net100.References.SystemValueTuple, global::System.Guid.Parse("5cfe1d0f-de9e-45c9-bae9-a037c993e101"));
+        public static ReferenceInfo SystemValueTuple => new ReferenceInfo("System.ValueTuple.dll", Resources.SystemValueTuple, Net100.References.SystemValueTuple, global::System.Guid.Parse("a5ab14e3-9fcb-4a8a-8b90-c7e9114d4651"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Web.dll
         /// </summary>
-        public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, Net100.References.SystemWeb, global::System.Guid.Parse("a1609d81-acd4-43d6-8812-3b9ad18bcf4c"));
+        public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, Net100.References.SystemWeb, global::System.Guid.Parse("28388899-7d7c-40e3-b7ea-73270c57893a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Web.HttpUtility.dll
         /// </summary>
-        public static ReferenceInfo SystemWebHttpUtility => new ReferenceInfo("System.Web.HttpUtility.dll", Resources.SystemWebHttpUtility, Net100.References.SystemWebHttpUtility, global::System.Guid.Parse("60276ebd-fdc3-4296-9b6b-ac5eda27639b"));
+        public static ReferenceInfo SystemWebHttpUtility => new ReferenceInfo("System.Web.HttpUtility.dll", Resources.SystemWebHttpUtility, Net100.References.SystemWebHttpUtility, global::System.Guid.Parse("41de5979-f05c-4d2e-9164-23a1c79f1649"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Windows.dll
         /// </summary>
-        public static ReferenceInfo SystemWindows => new ReferenceInfo("System.Windows.dll", Resources.SystemWindows, Net100.References.SystemWindows, global::System.Guid.Parse("2329f9f9-b3bc-4f65-8225-0b48103a10d8"));
+        public static ReferenceInfo SystemWindows => new ReferenceInfo("System.Windows.dll", Resources.SystemWindows, Net100.References.SystemWindows, global::System.Guid.Parse("07684ec1-65c7-42c1-9586-354f886afc5d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.dll
         /// </summary>
-        public static ReferenceInfo SystemXml => new ReferenceInfo("System.Xml.dll", Resources.SystemXml, Net100.References.SystemXml, global::System.Guid.Parse("8a750aba-8be0-484a-89e2-17e278e7a0de"));
+        public static ReferenceInfo SystemXml => new ReferenceInfo("System.Xml.dll", Resources.SystemXml, Net100.References.SystemXml, global::System.Guid.Parse("ac89d52f-c5ff-4dc6-9f80-a892b89a7d06"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.Linq.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlLinq => new ReferenceInfo("System.Xml.Linq.dll", Resources.SystemXmlLinq, Net100.References.SystemXmlLinq, global::System.Guid.Parse("a37654da-82ec-43db-8d69-860806c85714"));
+        public static ReferenceInfo SystemXmlLinq => new ReferenceInfo("System.Xml.Linq.dll", Resources.SystemXmlLinq, Net100.References.SystemXmlLinq, global::System.Guid.Parse("2d225095-a08f-4368-a0d3-732ba20b1ab1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.ReaderWriter.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlReaderWriter => new ReferenceInfo("System.Xml.ReaderWriter.dll", Resources.SystemXmlReaderWriter, Net100.References.SystemXmlReaderWriter, global::System.Guid.Parse("eb3f3824-fcf5-49fd-9864-8a549e717fb5"));
+        public static ReferenceInfo SystemXmlReaderWriter => new ReferenceInfo("System.Xml.ReaderWriter.dll", Resources.SystemXmlReaderWriter, Net100.References.SystemXmlReaderWriter, global::System.Guid.Parse("fadf9cc3-8fd5-4176-ab55-67f0535a0eec"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.Serialization.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlSerialization => new ReferenceInfo("System.Xml.Serialization.dll", Resources.SystemXmlSerialization, Net100.References.SystemXmlSerialization, global::System.Guid.Parse("b3415f79-aa61-493b-8dcf-e455070a9856"));
+        public static ReferenceInfo SystemXmlSerialization => new ReferenceInfo("System.Xml.Serialization.dll", Resources.SystemXmlSerialization, Net100.References.SystemXmlSerialization, global::System.Guid.Parse("bba9b60b-971c-4f4c-9c31-8e0d75d49376"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XDocument.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXDocument => new ReferenceInfo("System.Xml.XDocument.dll", Resources.SystemXmlXDocument, Net100.References.SystemXmlXDocument, global::System.Guid.Parse("80267454-b7ea-437b-a767-02e231c1dce7"));
+        public static ReferenceInfo SystemXmlXDocument => new ReferenceInfo("System.Xml.XDocument.dll", Resources.SystemXmlXDocument, Net100.References.SystemXmlXDocument, global::System.Guid.Parse("297dbd95-a537-430f-bcaa-15f8de19b987"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XmlDocument.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXmlDocument => new ReferenceInfo("System.Xml.XmlDocument.dll", Resources.SystemXmlXmlDocument, Net100.References.SystemXmlXmlDocument, global::System.Guid.Parse("aca3993b-93f3-49ed-b499-cef21d2242af"));
+        public static ReferenceInfo SystemXmlXmlDocument => new ReferenceInfo("System.Xml.XmlDocument.dll", Resources.SystemXmlXmlDocument, Net100.References.SystemXmlXmlDocument, global::System.Guid.Parse("83947d62-4438-4f26-9bba-899a1769890a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XmlSerializer.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXmlSerializer => new ReferenceInfo("System.Xml.XmlSerializer.dll", Resources.SystemXmlXmlSerializer, Net100.References.SystemXmlXmlSerializer, global::System.Guid.Parse("bebe6b32-8a95-44a5-99c9-a132f1dbfa12"));
+        public static ReferenceInfo SystemXmlXmlSerializer => new ReferenceInfo("System.Xml.XmlSerializer.dll", Resources.SystemXmlXmlSerializer, Net100.References.SystemXmlXmlSerializer, global::System.Guid.Parse("05b45989-d2e2-410a-b489-dc0c7356227d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, Net100.References.SystemXmlXPath, global::System.Guid.Parse("a4390b18-b292-484e-b482-c26c794d0120"));
+        public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, Net100.References.SystemXmlXPath, global::System.Guid.Parse("70d17751-a5a5-4630-b507-7bf632363cba"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.XDocument.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, Net100.References.SystemXmlXPathXDocument, global::System.Guid.Parse("edb2f33c-cc5c-4072-914c-c40fa295a1df"));
+        public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, Net100.References.SystemXmlXPathXDocument, global::System.Guid.Parse("4228acab-2290-4213-b938-2cad6e361114"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for WindowsBase.dll
         /// </summary>
-        public static ReferenceInfo WindowsBase => new ReferenceInfo("WindowsBase.dll", Resources.WindowsBase, Net100.References.WindowsBase, global::System.Guid.Parse("5525a652-6b31-44ff-85e3-7eea0b36fa3b"));
+        public static ReferenceInfo WindowsBase => new ReferenceInfo("WindowsBase.dll", Resources.WindowsBase, Net100.References.WindowsBase, global::System.Guid.Parse("90501b3d-11e9-47c6-b53e-67253139a034"));
         private static ImmutableArray<ReferenceInfo> _all;
         public static ImmutableArray<ReferenceInfo> All
         {
