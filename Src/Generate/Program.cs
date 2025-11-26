@@ -100,7 +100,7 @@ void Net90()
 
 void Net100()
 {
-    var content = GetGeneratedContent("Net100", [@"microsoft.netcore.app.ref/10.0.0-preview.6.25358.103/ref/net10.0"]);
+    var content = GetGeneratedContent("Net100", [@"microsoft.netcore.app.ref/10.0.0/ref/net10.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net100");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -125,7 +125,7 @@ void AspNet90()
 
 void AspNet100()
 {
-    var content = GetGeneratedContent("AspNet100", [@"microsoft.netcore.app.ref/10.0.0-preview.6.25358.103/ref/net10.0", @"microsoft.aspnetcore.app.ref/10.0.0-preview.6.25358.103/ref/net10.0"]);
+    var content = GetGeneratedContent("AspNet100", [@"microsoft.netcore.app.ref/10.0.0/ref/net10.0", @"microsoft.aspnetcore.app.ref/10.0.0/ref/net10.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.AspNet100");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
