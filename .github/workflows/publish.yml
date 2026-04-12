@@ -1,46 +1,47 @@
 name: Publish NuGet Packages
-on: 
-  workflow_dispatch:
-    inputs:
-      version:
-        description: 'Package Version'     
-        required: true
-        type: string
-        default: ''
-      publish:
-        description: 'Publish Packages'
-        required: true
-        type: boolean
-        default: true
+on:
+  push:
+    branches: [ main ]
 
 jobs:
   publish:
     name: Publish NuGet 
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Compute Next Version
+        id: version
+        run: |
+          latest=$(git tag --list 'v*' --sort=-version:refname | head -n 1)
+          if [ -z "$latest" ]; then
+            next="1.0.0"
+          else
+            version="${latest#v}"
+            major=$(echo "$version" | cut -d. -f1)
+            minor=$(echo "$version" | cut -d. -f2)
+            patch=$(echo "$version" | cut -d. -f3)
+            next="${major}.${minor}.$((patch + 1))"
+          fi
+          echo "version=${next}" >> "$GITHUB_OUTPUT"
+
       - name: Setup .NET
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 9.0.x
 
       - name: Pack Solution
-        run: dotnet pack -p:PackageOutputPath="${GITHUB_WORKSPACE}/packages" -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ github.event.inputs.version }}" -c Release 
+        run: dotnet pack -p:PackageOutputPath="${GITHUB_WORKSPACE}/packages" -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ steps.version.outputs.version }}" -c Release 
 
       - name: Publish NuPkg Files
-        if: ${{ github.event.inputs.publish }}
         run: dotnet nuget push "$GITHUB_WORKSPACE/packages/*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json 
 
       - name: Create Tag and Release
-        if: ${{ github.event.inputs.publish }}
-        id: create_release
-        uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-        with:
-          tag_name: v${{ github.event.inputs.version }}
-          release_name: Release v${{ github.event.inputs.version }}
-          body: |
-            Create release ${{ github.event.inputs.version }}
-          draft: false
-          prerelease: false
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "v${{ steps.version.outputs.version }}" \
+            --title "Release v${{ steps.version.outputs.version }}" \
+            --notes "Create release ${{ steps.version.outputs.version }}"
