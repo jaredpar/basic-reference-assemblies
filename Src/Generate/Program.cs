@@ -17,9 +17,11 @@ Net80();
 Net80Windows();
 Net90();
 Net100();
+Net110();
 AspNet80();
 AspNet90();
 AspNet100();
+AspNet110();
 NetStandard13();
 NetStandard20();
 NetStandard21();
@@ -106,6 +108,14 @@ void Net100()
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
 
+void Net110()
+{
+    var content = GetGeneratedContent("Net110", [@"microsoft.netcore.app.ref/11.0.0-preview.2.26159.112/ref/net11.0"]);
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net110");
+    File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
+    File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
+}
+
 void AspNet80()
 {
     var content = GetGeneratedContent("AspNet80", [@"microsoft.netcore.app.ref/8.0.3/ref/net8.0", @"microsoft.aspnetcore.app.ref/8.0.3/ref/net8.0"]);
@@ -127,6 +137,14 @@ void AspNet100()
 {
     var content = GetGeneratedContent("AspNet100", [@"microsoft.netcore.app.ref/10.0.0/ref/net10.0", @"microsoft.aspnetcore.app.ref/10.0.0/ref/net10.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.AspNet100");
+    File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
+    File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
+}
+
+void AspNet110()
+{
+    var content = GetGeneratedContent("AspNet110", [@"microsoft.netcore.app.ref/11.0.0-preview.2.26159.112/ref/net11.0", @"microsoft.aspnetcore.app.ref/11.0.0-preview.2.26159.112/ref/net11.0"]);
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.AspNet110");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -460,7 +478,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         string targetsPrefix,
         string refName,
         StringBuilder targetsContent,
-        StringBuilder resourcesContent, 
+        StringBuilder resourcesContent,
         StringBuilder refContent,
         StringBuilder refInfoContent)
     {
@@ -610,7 +628,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContent(string na
     }
 
     var realPackagePaths = packagePaths.Select(x => Path.Combine(nugetPackageRoot, x)).ToArray();
-    var realExtraPackagePaths = extraPackagePaths is not null 
+    var realExtraPackagePaths = extraPackagePaths is not null
         ? extraPackagePaths.Select(x => Path.Combine(nugetPackageRoot, x)).ToArray()
         : [];
     return GetGeneratedContentCore(name, realPackagePaths, realExtraPackagePaths, nugetPackageRoot, "$(NuGetPackageRoot)");

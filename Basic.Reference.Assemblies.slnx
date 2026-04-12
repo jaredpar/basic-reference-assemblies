@@ -5,9 +5,11 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="Src/Basic.Reference.Assemblies.AspNet100/Basic.Reference.Assemblies.AspNet100.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.AspNet110/Basic.Reference.Assemblies.AspNet110.csproj" />
   <Project Path="Src/Basic.Reference.Assemblies.AspNet80/Basic.Reference.Assemblies.AspNet80.csproj" />
   <Project Path="Src/Basic.Reference.Assemblies.AspNet90/Basic.Reference.Assemblies.AspNet90.csproj" />
   <Project Path="Src/Basic.Reference.Assemblies.Net100/Basic.Reference.Assemblies.Net100.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net110/Basic.Reference.Assemblies.Net110.csproj" />
   <Project Path="Src/Basic.Reference.Assemblies.Net20/Basic.Reference.Assemblies.Net20.csproj" />
   <Project Path="Src/Basic.Reference.Assemblies.Net35/Basic.Reference.Assemblies.Net35.csproj" />
   <Project Path="Src/Basic.Reference.Assemblies.Net40/Basic.Reference.Assemblies.Net40.csproj" />
