@@ -2,6 +2,13 @@ name: Publish NuGet Packages
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Package Version (leave blank to auto-increment patch)'
+        required: false
+        type: string
+        default: ''
 
 jobs:
   publish:
@@ -15,15 +22,19 @@ jobs:
       - name: Compute Next Version
         id: version
         run: |
-          latest=$(git tag --list 'v*' --sort=-version:refname | head -n 1)
-          if [ -z "$latest" ]; then
-            next="1.0.0"
+          if [ -n "${{ github.event.inputs.version }}" ]; then
+            next="${{ github.event.inputs.version }}"
           else
-            version="${latest#v}"
-            major=$(echo "$version" | cut -d. -f1)
-            minor=$(echo "$version" | cut -d. -f2)
-            patch=$(echo "$version" | cut -d. -f3)
-            next="${major}.${minor}.$((patch + 1))"
+            latest=$(git tag --list 'v*' --sort=-version:refname | head -n 1)
+            if [ -z "$latest" ]; then
+              next="1.0.0"
+            else
+              version="${latest#v}"
+              major=$(echo "$version" | cut -d. -f1)
+              minor=$(echo "$version" | cut -d. -f2)
+              patch=$(echo "$version" | cut -d. -f3)
+              next="${major}.${minor}.$((patch + 1))"
+            fi
           fi
           echo "version=${next}" >> "$GITHUB_OUTPUT"
 
