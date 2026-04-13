@@ -1,19 +1,23 @@
 name: Publish NuGet Packages
 on:
-  push:
-    branches: [ main ]
   workflow_dispatch:
     inputs:
       version:
-        description: 'Package Version (leave blank to auto-increment patch)'
-        required: false
-        type: string
+        description: 'Package Version'
+        required: true
         default: ''
+  workflow_run:
+    workflows: ["Code Validation"]
+    branches: [main]
+    types: [completed]
 
 jobs:
   publish:
     name: Publish NuGet 
     runs-on: ubuntu-latest
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
     steps:
       - uses: actions/checkout@v4
         with:
@@ -22,8 +26,8 @@ jobs:
       - name: Compute Next Version
         id: version
         run: |
-          if [ -n "${{ github.event.inputs.version }}" ]; then
-            next="${{ github.event.inputs.version }}"
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "version=${{ github.event.inputs.version }}" >> "$GITHUB_OUTPUT"
           else
             latest=$(git tag --list 'v*' --sort=-version:refname | head -n 1)
             if [ -z "$latest" ]; then
@@ -35,8 +39,8 @@ jobs:
               patch=$(echo "$version" | cut -d. -f3)
               next="${major}.${minor}.$((patch + 1))"
             fi
+            echo "version=${next}" >> "$GITHUB_OUTPUT"
           fi
-          echo "version=${next}" >> "$GITHUB_OUTPUT"
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
