@@ -17,7 +17,7 @@ Net80();
 Net80Windows();
 Net90();
 Net100();
-Net100Web();
+Net100Wasm();
 Net110();
 AspNet80();
 AspNet90();
@@ -109,16 +109,15 @@ void Net100()
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
 
-void Net100Web()
+void Net100Wasm()
 {
-    var content = GetGeneratedContent("Net100Web", [@"microsoft.netcore.app.ref/10.0.0/ref/net10.0"]);
-    
-    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net100.Web");
+    var content = GetGeneratedContent("Net100Wasm", [@"microsoft.netcore.app.runtime.mono.browser-wasm/10.0.7/runtimes/browser-wasm/lib/net10.0"]);
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net100.Wasm");
     Directory.CreateDirectory(targetDir);
-
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
+
 
 void Net110()
 {
