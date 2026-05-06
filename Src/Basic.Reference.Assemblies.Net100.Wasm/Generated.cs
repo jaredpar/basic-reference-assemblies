@@ -12,7 +12,7 @@ public static partial class Net100Wasm
     public static class ReferenceInfos
     {
 
-        /// <summary>
+        /// <summary> public static PortableExecutableReference
         /// The <see cref="ReferenceInfo"/> for Microsoft.CSharp.dll
         /// </summary>
         public static ReferenceInfo MicrosoftCSharp => new ReferenceInfo("Microsoft.CSharp.dll", Resources.MicrosoftCSharp, Net100Wasm.References.MicrosoftCSharp, global::System.Guid.Parse("0404a7f9-d0b6-464f-818f-9f31901a0a77"));
@@ -866,6 +866,11 @@ public static partial class Net100Wasm
         /// The <see cref="ReferenceInfo"/> for WindowsBase.dll
         /// </summary>
         public static ReferenceInfo WindowsBase => new ReferenceInfo("WindowsBase.dll", Resources.WindowsBase, Net100Wasm.References.WindowsBase, global::System.Guid.Parse("3027fed6-c421-472c-a6a8-01f9d595c2b5"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Private.CoreLib.dll
+        /// </summary>
+        public static ReferenceInfo SystemPrivateCoreLib => new ReferenceInfo("System.Private.CoreLib.dll", Resources.SystemPrivateCoreLib, Net100Wasm.References.SystemPrivateCoreLib, global::System.Guid.Parse("c753f951-c756-43d9-bdfa-bb945e38b5c1"));
         private static ImmutableArray<ReferenceInfo> _all;
         public static ImmutableArray<ReferenceInfo> All
         {
@@ -1046,6 +1051,7 @@ public static partial class Net100Wasm
                         SystemXmlXPath,
                         SystemXmlXPathXDocument,
                         WindowsBase,
+                        SystemPrivateCoreLib,
                     ];
                 }
                 return _all;
@@ -3967,6 +3973,23 @@ public static partial class Net100Wasm
             }
         }
 
+        private static PortableExecutableReference? _SystemPrivateCoreLib;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Private.CoreLib.dll
+        /// </summary>
+        public static PortableExecutableReference SystemPrivateCoreLib
+        {
+            get
+            {
+                if (_SystemPrivateCoreLib is null)
+                {
+                    _SystemPrivateCoreLib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Private.CoreLib")).GetReference(filePath: "System.Private.CoreLib.dll", display: "System.Private.CoreLib (net100wasm)");
+                }
+                return _SystemPrivateCoreLib;
+            }
+        }
+
         private static ImmutableArray<PortableExecutableReference> _all;
         public static ImmutableArray<PortableExecutableReference> All
         {
@@ -4147,6 +4170,7 @@ public static partial class Net100Wasm
                         SystemXmlXPath,
                         SystemXmlXPathXDocument,
                         WindowsBase,
+                        SystemPrivateCoreLib,
                     ];
                 }
                 return _all;
@@ -5184,6 +5208,12 @@ public static partial class Net100Wasm
         /// </summary>
         public static byte[] WindowsBase => ResourceLoader.GetOrCreateResource(ref _WindowsBase, "net100wasm.WindowsBase");
         private static byte[]? _WindowsBase;
+
+        /// <summary>
+        /// The image bytes for System.Private.CoreLib.dll
+        /// </summary>
+        public static byte[] SystemPrivateCoreLib => ResourceLoader.GetOrCreateResource(ref _SystemPrivateCoreLib, "net100wasm.System.Private.CoreLib");
+        private static byte[]? _SystemPrivateCoreLib;
 
 
     }

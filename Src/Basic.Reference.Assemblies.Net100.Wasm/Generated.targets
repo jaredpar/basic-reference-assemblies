@@ -684,5 +684,9 @@
             <LogicalName>net100wasm.WindowsBase</LogicalName>
             <Link>Resources\net100wasm\WindowsBase.dll</Link>
         </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)\microsoft.netcore.app.runtime.mono.browser-wasm\10.0.7\runtimes\browser-wasm\native\System.Private.CoreLib.dll" WithCulture="false">
+            <LogicalName>net100wasm.System.Private.CoreLib</LogicalName>
+            <Link>Resources\net100wasm\System.Private.CoreLib.dll</Link>
+        </EmbeddedResource>
     </ItemGroup>
 </Project>
