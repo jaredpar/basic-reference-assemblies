@@ -6,8 +6,6 @@
 
   <ItemGroup>
     <PackageDownload Include="Microsoft.NETCore.App.Runtime.Mono.browser-wasm" Version="[10.0.7]" />
-    
-    <ProjectReference Include="..\Basic.Reference.Assemblies\Basic.Reference.Assemblies.csproj" />
   </ItemGroup>
 
   <Import Project="Generated.targets" />

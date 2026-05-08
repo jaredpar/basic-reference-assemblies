@@ -118,7 +118,6 @@ void Net100Wasm()
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
 
-
 void Net110()
 {
     var content = GetGeneratedContent("Net110", [@"microsoft.netcore.app.ref/11.0.0-preview.3.26207.106/ref/net11.0"]);
@@ -380,33 +379,33 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
 {
     var targetsContent = new StringBuilder();
     targetsContent.AppendLine("""
-                              <Project>
-                                  <ItemGroup>
-                              """);
+        <Project>
+            <ItemGroup>
+        """);
 
     var resourcesContent = new StringBuilder();
     resourcesContent.AppendLine($$"""
-                                  public static partial class {{name}}
-                                  {
-                                      public static class Resources
-                                      {
-                                  """);
+          public static partial class {{name}}
+        {
+            public static class Resources
+            {
+        """);
 
     var refContent = new StringBuilder();
     refContent.AppendLine($$"""
-                            public static partial class {{name}}
-                            {
-                                public static class References
-                                {
-                            """);
+        public static partial class {{name}}
+        {
+            public static class References
+            {
+        """);
 
     var refInfoContent = new StringBuilder();
     refInfoContent.AppendLine($$"""
-                                public static partial class {{name}}
-                                {
-                                    public static class ReferenceInfos
-                                    {
-                                """);
+        public static partial class {{name}}
+        {
+            public static class ReferenceInfos
+            {
+        """);
 
     ProcessDlls(
         name,
@@ -421,16 +420,16 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
 
     var codeContent = new StringBuilder();
     codeContent.AppendLine($$"""
-                             // This is a generated file, please edit Src\Generate\Program.cs to change the contents
+        // This is a generated file, please edit Src\Generate\Program.cs to change the contents
 
-                             using System;
-                             using System.Collections.Generic;
-                             using System.Collections.Immutable;
-                             using System.Linq;
-                             using Microsoft.CodeAnalysis;
+        using System;
+        using System.Collections.Generic;
+        using System.Collections.Immutable;
+        using System.Linq;
+        using Microsoft.CodeAnalysis;
 
-                             namespace Basic.Reference.Assemblies;
-                             """);
+        namespace Basic.Reference.Assemblies;
+        """);
 
     codeContent.AppendLine(refInfoContent.ToString());
     codeContent.AppendLine(refContent.ToString());
@@ -439,19 +438,19 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
     {
         var extraRefContent = new StringBuilder();
         extraRefContent.AppendLine($$"""
-                                     public static partial class {{name}}
-                                     {
-                                         public static class ExtraReferences
-                                         {
-                                     """);
+            public static partial class {{name}}
+            {
+                public static class ExtraReferences
+                {
+            """);
 
         var extraRefInfoContent = new StringBuilder();
         extraRefInfoContent.AppendLine($$"""
-                                         public static partial class {{name}}
-                                         {
-                                             public static class ExtraReferenceInfos
-                                             {
-                                         """);
+            public static partial class {{name}}
+            {
+                public static class ExtraReferenceInfos
+                {
+            """);
 
         ProcessDlls(
             name,
@@ -469,17 +468,17 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
 
     resourcesContent.AppendLine("""
 
-                                    }
-                                }
-                                """);
+            }
+        }
+        """);
 
     codeContent.AppendLine(resourcesContent.ToString());
     codeContent.AppendLine(GetReferenceInfo(name));
 
     targetsContent.AppendLine("""
-                                  </ItemGroup>
-                              </Project>
-                              """);
+            </ItemGroup>
+         </Project>
+        """);
 
     return (codeContent.ToString(), targetsContent.ToString());
 
@@ -504,104 +503,104 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
             var dllResourcePath = Path.Join(targetsPrefix, dllInfo.RelativeFilePath);
 
             targetsContent.AppendLine($$"""
-                                                <EmbeddedResource Include="{{dllResourcePath}}" WithCulture="false">
-                                                    <LogicalName>{{logicalName}}</LogicalName>
-                                                    <Link>Resources\{{lowerName}}\{{dllName}}</Link>
-                                                </EmbeddedResource>
-                                        """);
+                        <EmbeddedResource Include="{{dllResourcePath}}" WithCulture="false">
+                            <LogicalName>{{logicalName}}</LogicalName>
+                            <Link>Resources\{{lowerName}}\{{dllName}}</Link>
+                        </EmbeddedResource>
+                """);
 
             var propName = dll.Replace(".", "");
             allPropNames.Add(propName);
             var fieldName = $"_{propName}";
             resourcesContent.AppendLine($$"""
-                                                  /// <summary>
-                                                  /// The image bytes for {{dllName}}
-                                                  /// </summary>
-                                                  public static byte[] {{propName}} => ResourceLoader.GetOrCreateResource(ref {{fieldName}}, "{{logicalName}}");
-                                                  private static byte[]? {{fieldName}};
+                        /// <summary>
+                        /// The image bytes for {{dllName}}
+                        /// </summary>
+                        public static byte[] {{propName}} => ResourceLoader.GetOrCreateResource(ref {{fieldName}}, "{{logicalName}}");
+                        private static byte[]? {{fieldName}};
 
-                                          """);
+                """);
 
             refInfoContent.AppendLine($$"""
 
-                                                /// <summary>
-                                                /// The <see cref="ReferenceInfo"/> for {{dllName}}
-                                                /// </summary>
-                                                public static ReferenceInfo {{propName}} => new ReferenceInfo("{{dllName}}", Resources.{{propName}}, {{name}}.{{refName}}.{{propName}}, global::System.Guid.Parse("{{dllInfo.Mvid}}"));
-                                        """);
+                        /// <summary>
+                        /// The <see cref="ReferenceInfo"/> for {{dllName}}
+                        /// </summary>
+                        public static ReferenceInfo {{propName}} => new ReferenceInfo("{{dllName}}", Resources.{{propName}}, {{name}}.{{refName}}.{{propName}}, global::System.Guid.Parse("{{dllInfo.Mvid}}"));
+                """);
 
             refContent.AppendLine($$"""
-                                            private static PortableExecutableReference? {{fieldName}};
+                        private static PortableExecutableReference? {{fieldName}};
 
-                                            /// <summary>
-                                            /// The <see cref="PortableExecutableReference"/> for {{dllName}}
-                                            /// </summary>
-                                            public static PortableExecutableReference {{propName}}
-                                            {
-                                                get
-                                                {
-                                                    if ({{fieldName}} is null)
-                                                    {
-                                                        {{fieldName}} = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("{{logicalName}}")).GetReference(filePath: "{{dllName}}", display: "{{dll}} ({{lowerName}})");
-                                                    }
-                                                    return {{fieldName}};
-                                                }
-                                            }
+                        /// <summary>
+                        /// The <see cref="PortableExecutableReference"/> for {{dllName}}
+                        /// </summary>
+                        public static PortableExecutableReference {{propName}}
+                        {
+                            get
+                            {
+                                if ({{fieldName}} is null)
+                                {
+                                    {{fieldName}} = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("{{logicalName}}")).GetReference(filePath: "{{dllName}}", display: "{{dll}} ({{lowerName}})");
+                                }
+                                return {{fieldName}};
+                            }
+                        }
 
-                                    """);
+                """);
         }
 
         refInfoContent.AppendLine("""
-                                          private static ImmutableArray<ReferenceInfo> _all;
-                                          public static ImmutableArray<ReferenceInfo> All
-                                          {
-                                              get
-                                              {
-                                                  if (_all.IsDefault)
-                                                  {
-                                                      _all =
-                                                      [
-                                  """);
+                    private static ImmutableArray<ReferenceInfo> _all;
+                    public static ImmutableArray<ReferenceInfo> All
+                    {
+                        get
+                        {
+                            if (_all.IsDefault)
+                            {
+                                _all =
+                                [
+            """);
 
         refContent.AppendLine("""
-                                      private static ImmutableArray<PortableExecutableReference> _all;
-                                      public static ImmutableArray<PortableExecutableReference> All
-                                      {
-                                          get
-                                          {
-                                              if (_all.IsDefault)
-                                              {
-                                                  _all =
-                                                  [
-                              """);
+                    private static ImmutableArray<PortableExecutableReference> _all;
+                    public static ImmutableArray<PortableExecutableReference> All
+                    {
+                        get
+                        {
+                            if (_all.IsDefault)
+                            {
+                                _all =
+                                [
+            """);
 
         foreach (var propName in allPropNames)
         {
-            refInfoContent.AppendLine($"                        {propName},");
-            refContent.AppendLine($"                        {propName},");
+        refInfoContent.AppendLine($"                        {propName},");
+        refContent.AppendLine($"                        {propName},");
         }
 
         refContent.AppendLine("""
-                                                  ];
-                                              }
-                                              return _all;
-                                          }
-                                      }
-                                  }
-                              }
-                              """);
+                                ];
+                            }
+                            return _all;
+                        }
+                    }
+                }
+            }
+            """);
 
         refInfoContent.AppendLine("""
-                                                      ];
-                                                  }
-                                                  return _all;
-                                              }
-                                          }
+                                ];
+                            }
+                            return _all;
+                        }
+                    }
 
-                                          public static IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> AllValues => All.Select(x => x.AsTuple());
-                                      }
-                                  }
-                                  """);
+                    public static IEnumerable<(string FileName, byte[] ImageBytes, PortableExecutableReference Reference, Guid Mvid)> AllValues => All.Select(x => x.AsTuple());
+                }
+            }
+            """);
     }
 }
 
