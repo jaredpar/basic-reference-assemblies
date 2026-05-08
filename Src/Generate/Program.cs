@@ -374,8 +374,7 @@ static string GetReferenceInfo(string containingTypeName) => $$"""
     #endif
     """;
 
-static (string CodeContent, string TargetsContent) GetGeneratedContentCore(string name, string[] packagePaths,
-    string[] extraPackagePaths, string packagePrefix, string targetsPrefix)
+static (string CodeContent, string TargetsContent) GetGeneratedContentCore(string name, string[] packagePaths, string[] extraPackagePaths, string packagePrefix, string targetsPrefix)
 {
     var targetsContent = new StringBuilder();
     targetsContent.AppendLine("""
@@ -385,7 +384,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
 
     var resourcesContent = new StringBuilder();
     resourcesContent.AppendLine($$"""
-          public static partial class {{name}}
+        public static partial class {{name}}
         {
             public static class Resources
             {
@@ -477,7 +476,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
 
     targetsContent.AppendLine("""
             </ItemGroup>
-         </Project>
+        </Project>
         """);
 
     return (codeContent.ToString(), targetsContent.ToString());
