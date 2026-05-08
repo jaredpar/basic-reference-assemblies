@@ -1,3 +1,5 @@
+extern alias Net100Wasm;
+
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using System;
@@ -7,6 +9,8 @@ using System.Linq;
 using Xunit;
 using Xunit.Abstractions;
 using Xunit.Sdk;
+
+using Net100WasmAssembly = Net100Wasm::Basic.Reference.Assemblies.Net100Wasm;
 
 namespace Basic.Reference.Assemblies.UnitTests;
 
@@ -121,6 +125,7 @@ static void Main()
         Assert.NotEmpty(NetStandard13.References.All);
         Assert.NotEmpty(Net461.References.All);
         Assert.NotEmpty(Net472.References.All);
+        Assert.NotEmpty(Net100WasmAssembly.References.All);
     }
 
     [Fact]
@@ -210,5 +215,6 @@ static void Main()
         Net461.References.All.ToList();
         Net40.References.All.ToList();
         Net70.References.All.ToList();
+        Net100WasmAssembly.References.All.ToList();
     }
 }

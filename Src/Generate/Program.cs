@@ -17,6 +17,7 @@ Net80();
 Net80Windows();
 Net90();
 Net100();
+Net100Wasm();
 Net110();
 AspNet80();
 AspNet90();
@@ -104,6 +105,15 @@ void Net100()
 {
     var content = GetGeneratedContent("Net100", [@"microsoft.netcore.app.ref/10.0.0/ref/net10.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net100");
+    File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
+    File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
+}
+
+void Net100Wasm()
+{
+    var content = GetGeneratedContent("Net100Wasm", [@"microsoft.netcore.app.runtime.mono.browser-wasm/10.0.7/runtimes/browser-wasm/lib/net10.0"]);
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net100.Wasm");
+    Directory.CreateDirectory(targetDir);
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
@@ -591,31 +601,42 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
             }
             """);
     }
+}
 
-    static IEnumerable<(string FilePath, string RelativeFilePath, Guid Mvid)> FindDlls(string[] packagePaths, string packagePrefix)
+static IEnumerable<(string FilePath, string RelativeFilePath, Guid Mvid)> FindDlls(string[] packagePaths, string packagePrefix)
+{
+    var dllPaths = new List<string>();
+    foreach (var packagePath in packagePaths)
     {
-        var dllPaths = new List<string>();
-        foreach (var packagePath in packagePaths)
+        dllPaths.AddRange(Directory.GetFiles(packagePath, "*.dll"));
+            
+        var facadesPath = Path.Combine(packagePath, "Facades");
+        if (Directory.Exists(facadesPath))
         {
-            dllPaths.AddRange(Directory.GetFiles(packagePath, "*.dll"));
-            var facadesPath = Path.Combine(packagePath, "Facades");
-            if (Directory.Exists(facadesPath))
+            dllPaths.AddRange(Directory.GetFiles(facadesPath, "*.dll"));
+        }
+            
+        var nativePath = Path.GetFullPath(Path.Combine(packagePath, "..", "..", "native"));
+        if (Directory.Exists(nativePath))
+        {
+            var coreLibPath = Path.Combine(nativePath, "System.Private.CoreLib.dll");
+            if (File.Exists(coreLibPath) && !dllPaths.Contains(coreLibPath))
             {
-                dllPaths.AddRange(Directory.GetFiles(facadesPath, "*.dll"));
+                dllPaths.Add(coreLibPath);
             }
         }
+    }
 
-        var allPropNames = new List<string>();
-        foreach (var dllPath in dllPaths)
+    var allPropNames = new List<string>();
+    foreach (var dllPath in dllPaths)
+    {
+        if (GetMvid(dllPath) is not var (mvid, isAssembly) || !isAssembly)
         {
-            if (GetMvid(dllPath) is not var (mvid, isAssembly) || !isAssembly)
-            {
-                continue;
-            }
-
-            var relativeFilePath = dllPath.Substring(packagePrefix.Length);
-            yield return (dllPath, relativeFilePath, mvid);
+            continue;
         }
+            
+        var relativeFilePath = dllPath.Substring(packagePrefix.Length);
+        yield return (dllPath, relativeFilePath, mvid);
     }
 }
 
