@@ -120,7 +120,7 @@ void Net100Wasm()
 
 void Net110()
 {
-    var content = GetGeneratedContent("Net110", [@"microsoft.netcore.app.ref/11.0.0-preview.3.26207.106/ref/net11.0"]);
+    var content = GetGeneratedContent("Net110", [@"microsoft.netcore.app.ref/11.0.0-preview.4.26230.115/ref/net11.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net110");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -153,7 +153,7 @@ void AspNet100()
 
 void AspNet110()
 {
-    var content = GetGeneratedContent("AspNet110", [@"microsoft.netcore.app.ref/11.0.0-preview.3.26207.106/ref/net11.0", @"microsoft.aspnetcore.app.ref/11.0.0-preview.3.26207.106/ref/net11.0"]);
+    var content = GetGeneratedContent("AspNet110", [@"microsoft.netcore.app.ref/11.0.0-preview.4.26230.115/ref/net11.0", @"microsoft.aspnetcore.app.ref/11.0.0-preview.4.26230.115/ref/net11.0"]);
     var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.AspNet110");
     File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
@@ -609,13 +609,13 @@ static IEnumerable<(string FilePath, string RelativeFilePath, Guid Mvid)> FindDl
     foreach (var packagePath in packagePaths)
     {
         dllPaths.AddRange(Directory.GetFiles(packagePath, "*.dll"));
-            
+
         var facadesPath = Path.Combine(packagePath, "Facades");
         if (Directory.Exists(facadesPath))
         {
             dllPaths.AddRange(Directory.GetFiles(facadesPath, "*.dll"));
         }
-            
+
         var nativePath = Path.GetFullPath(Path.Combine(packagePath, "..", "..", "native"));
         if (Directory.Exists(nativePath))
         {
@@ -634,7 +634,7 @@ static IEnumerable<(string FilePath, string RelativeFilePath, Guid Mvid)> FindDl
         {
             continue;
         }
-            
+
         var relativeFilePath = dllPath.Substring(packagePrefix.Length);
         yield return (dllPath, relativeFilePath, mvid);
     }
