@@ -4,7 +4,7 @@
 
 Getting reference assemblies to use with a `Compilation` is challenging because they are only shipped with development tools. In order to use them in a library, the developer must do the heavy lifting of packaging them up as resources in their library and unpacking them at runtime.
 
-The [Basic.Reference.Assemblies](https://www.nuget.org/packages/Basic.Reference.Assemblies/) library takes care of this heavy lifting and provides reference assemblies for `net8.0`, `netstandard2.0` and `net472` target frameworks. These can be easily integrated into the existing Roslyn APIs.
+The [Basic.Reference.Assemblies](https://www.nuget.org/packages/Basic.Reference.Assemblies/) library takes care of this heavy lifting and provides reference assemblies for `net10.0`, `netstandard2.0` and `net472` target frameworks. These can be easily integrated into the existing Roslyn APIs.
 
 ## Usage Examples
 
