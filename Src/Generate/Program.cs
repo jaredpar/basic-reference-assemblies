@@ -637,7 +637,7 @@ static IEnumerable<(string FilePath, string RelativeFilePath, Guid Mvid)> FindDl
 
         var relativeFilePath = dllPath.Substring(packagePrefix.Length);
         // Normalize path separators so sorting is consistent across OS
-        relativeFilePath = relativeFilePath.Replace('\\', '/');
+        relativeFilePath = relativeFilePath.Replace('\\', '/').TrimStart('/');
         results.Add((dllPath, relativeFilePath, mvid));
     }
 
