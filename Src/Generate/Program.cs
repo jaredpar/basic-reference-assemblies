@@ -645,7 +645,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContent(string na
     var nugetPackageRoot = Environment.GetEnvironmentVariable("NUGET_PACKAGES");
     if (string.IsNullOrEmpty(nugetPackageRoot))
     {
-        nugetPackageRoot = Path.Combine(Environment.GetEnvironmentVariable("USERPROFILE")!, ".nuget", "packages");
+        nugetPackageRoot = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), ".nuget", "packages");
     }
 
     var realPackagePaths = packagePaths.Select(x => Path.Combine(nugetPackageRoot, x)).ToArray();
