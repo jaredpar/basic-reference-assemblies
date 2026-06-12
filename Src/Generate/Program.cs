@@ -627,7 +627,7 @@ static IEnumerable<(string FilePath, string RelativeFilePath, Guid Mvid)> FindDl
         }
     }
 
-    var allPropNames = new List<string>();
+    var results = new List<(string FilePath, string RelativeFilePath, Guid Mvid)>();
     foreach (var dllPath in dllPaths)
     {
         if (GetMvid(dllPath) is not var (mvid, isAssembly) || !isAssembly)
@@ -636,8 +636,13 @@ static IEnumerable<(string FilePath, string RelativeFilePath, Guid Mvid)> FindDl
         }
 
         var relativeFilePath = dllPath.Substring(packagePrefix.Length);
-        yield return (dllPath, relativeFilePath, mvid);
+        // Normalize path separators so sorting is consistent across OS
+        relativeFilePath = relativeFilePath.Replace('\\', '/');
+        results.Add((dllPath, relativeFilePath, mvid));
     }
+
+    results.Sort((x, y) => string.Compare(x.RelativeFilePath, y.RelativeFilePath, StringComparison.Ordinal));
+    return results;
 }
 
 static (string CodeContent, string TargetsContent) GetGeneratedContent(string name, string[] packagePaths, string[]? extraPackagePaths = null)

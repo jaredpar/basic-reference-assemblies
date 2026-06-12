@@ -18,14 +18,14 @@ public static partial class Net80Windows
         public static ReferenceInfo Accessibility => new ReferenceInfo("Accessibility.dll", Resources.Accessibility, Net80Windows.References.Accessibility, global::System.Guid.Parse("b838a6e0-4988-409d-8283-ce9e05381d24"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.dll
-        /// </summary>
-        public static ReferenceInfo MicrosoftVisualBasic => new ReferenceInfo("Microsoft.VisualBasic.dll", Resources.MicrosoftVisualBasic, Net80Windows.References.MicrosoftVisualBasic, global::System.Guid.Parse("1c0276b8-2804-4538-8185-9b5ea6c2f33c"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.Forms.dll
         /// </summary>
         public static ReferenceInfo MicrosoftVisualBasicForms => new ReferenceInfo("Microsoft.VisualBasic.Forms.dll", Resources.MicrosoftVisualBasicForms, Net80Windows.References.MicrosoftVisualBasicForms, global::System.Guid.Parse("c71e510a-446c-48ca-bece-8da8c711f7d3"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.dll
+        /// </summary>
+        public static ReferenceInfo MicrosoftVisualBasic => new ReferenceInfo("Microsoft.VisualBasic.dll", Resources.MicrosoftVisualBasic, Net80Windows.References.MicrosoftVisualBasic, global::System.Guid.Parse("1c0276b8-2804-4538-8185-9b5ea6c2f33c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Win32.Registry.AccessControl.dll
@@ -63,11 +63,6 @@ public static partial class Net80Windows
         public static ReferenceInfo PresentationFrameworkClassic => new ReferenceInfo("PresentationFramework.Classic.dll", Resources.PresentationFrameworkClassic, Net80Windows.References.PresentationFrameworkClassic, global::System.Guid.Parse("ffee0b5d-ffc3-4507-8ec2-b3f61a119967"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for PresentationFramework.dll
-        /// </summary>
-        public static ReferenceInfo PresentationFramework => new ReferenceInfo("PresentationFramework.dll", Resources.PresentationFramework, Net80Windows.References.PresentationFramework, global::System.Guid.Parse("061819fb-8d8d-4d16-90ad-ca96cd0fb94e"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for PresentationFramework.Luna.dll
         /// </summary>
         public static ReferenceInfo PresentationFrameworkLuna => new ReferenceInfo("PresentationFramework.Luna.dll", Resources.PresentationFrameworkLuna, Net80Windows.References.PresentationFrameworkLuna, global::System.Guid.Parse("3d023c05-04e1-4b10-b247-075b4510461c"));
@@ -76,6 +71,11 @@ public static partial class Net80Windows
         /// The <see cref="ReferenceInfo"/> for PresentationFramework.Royale.dll
         /// </summary>
         public static ReferenceInfo PresentationFrameworkRoyale => new ReferenceInfo("PresentationFramework.Royale.dll", Resources.PresentationFrameworkRoyale, Net80Windows.References.PresentationFrameworkRoyale, global::System.Guid.Parse("5c533038-bbee-4cb2-a9e1-b53cf6471f8c"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for PresentationFramework.dll
+        /// </summary>
+        public static ReferenceInfo PresentationFramework => new ReferenceInfo("PresentationFramework.dll", Resources.PresentationFramework, Net80Windows.References.PresentationFramework, global::System.Guid.Parse("061819fb-8d8d-4d16-90ad-ca96cd0fb94e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for PresentationUI.dll
@@ -183,24 +183,24 @@ public static partial class Net80Windows
         public static ReferenceInfo SystemWindowsExtensions => new ReferenceInfo("System.Windows.Extensions.dll", Resources.SystemWindowsExtensions, Net80Windows.References.SystemWindowsExtensions, global::System.Guid.Parse("e92f7e94-06a3-4dc0-9a75-43804de23ef0"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Windows.Forms.Design.dll
-        /// </summary>
-        public static ReferenceInfo SystemWindowsFormsDesign => new ReferenceInfo("System.Windows.Forms.Design.dll", Resources.SystemWindowsFormsDesign, Net80Windows.References.SystemWindowsFormsDesign, global::System.Guid.Parse("2cc9a8b6-71fa-4839-8111-ca940e16475b"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Windows.Forms.Design.Editors.dll
         /// </summary>
         public static ReferenceInfo SystemWindowsFormsDesignEditors => new ReferenceInfo("System.Windows.Forms.Design.Editors.dll", Resources.SystemWindowsFormsDesignEditors, Net80Windows.References.SystemWindowsFormsDesignEditors, global::System.Guid.Parse("ec7e5fce-a1ed-45d6-8281-9c714a685b3e"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Windows.Forms.dll
+        /// The <see cref="ReferenceInfo"/> for System.Windows.Forms.Design.dll
         /// </summary>
-        public static ReferenceInfo SystemWindowsForms => new ReferenceInfo("System.Windows.Forms.dll", Resources.SystemWindowsForms, Net80Windows.References.SystemWindowsForms, global::System.Guid.Parse("da13156e-3361-4641-b133-be5f57bf6c76"));
+        public static ReferenceInfo SystemWindowsFormsDesign => new ReferenceInfo("System.Windows.Forms.Design.dll", Resources.SystemWindowsFormsDesign, Net80Windows.References.SystemWindowsFormsDesign, global::System.Guid.Parse("2cc9a8b6-71fa-4839-8111-ca940e16475b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Windows.Forms.Primitives.dll
         /// </summary>
         public static ReferenceInfo SystemWindowsFormsPrimitives => new ReferenceInfo("System.Windows.Forms.Primitives.dll", Resources.SystemWindowsFormsPrimitives, Net80Windows.References.SystemWindowsFormsPrimitives, global::System.Guid.Parse("328a0b42-565d-4ef3-a5a3-4a93fe600872"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Windows.Forms.dll
+        /// </summary>
+        public static ReferenceInfo SystemWindowsForms => new ReferenceInfo("System.Windows.Forms.dll", Resources.SystemWindowsForms, Net80Windows.References.SystemWindowsForms, global::System.Guid.Parse("da13156e-3361-4641-b133-be5f57bf6c76"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Windows.Input.Manipulations.dll
@@ -256,8 +256,8 @@ public static partial class Net80Windows
                     _all =
                     [
                         Accessibility,
-                        MicrosoftVisualBasic,
                         MicrosoftVisualBasicForms,
+                        MicrosoftVisualBasic,
                         MicrosoftWin32RegistryAccessControl,
                         MicrosoftWin32SystemEvents,
                         PresentationCore,
@@ -265,9 +265,9 @@ public static partial class Net80Windows
                         PresentationFrameworkAero2,
                         PresentationFrameworkAeroLite,
                         PresentationFrameworkClassic,
-                        PresentationFramework,
                         PresentationFrameworkLuna,
                         PresentationFrameworkRoyale,
+                        PresentationFramework,
                         PresentationUI,
                         ReachFramework,
                         SystemCodeDom,
@@ -289,10 +289,10 @@ public static partial class Net80Windows
                         SystemThreadingAccessControl,
                         SystemWindowsControlsRibbon,
                         SystemWindowsExtensions,
-                        SystemWindowsFormsDesign,
                         SystemWindowsFormsDesignEditors,
-                        SystemWindowsForms,
+                        SystemWindowsFormsDesign,
                         SystemWindowsFormsPrimitives,
+                        SystemWindowsForms,
                         SystemWindowsInputManipulations,
                         SystemWindowsPresentation,
                         SystemXaml,
@@ -333,23 +333,6 @@ public static partial class Net80Windows
             }
         }
 
-        private static PortableExecutableReference? _MicrosoftVisualBasic;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for Microsoft.VisualBasic.dll
-        /// </summary>
-        public static PortableExecutableReference MicrosoftVisualBasic
-        {
-            get
-            {
-                if (_MicrosoftVisualBasic is null)
-                {
-                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80windows.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net80windows)");
-                }
-                return _MicrosoftVisualBasic;
-            }
-        }
-
         private static PortableExecutableReference? _MicrosoftVisualBasicForms;
 
         /// <summary>
@@ -364,6 +347,23 @@ public static partial class Net80Windows
                     _MicrosoftVisualBasicForms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80windows.Microsoft.VisualBasic.Forms")).GetReference(filePath: "Microsoft.VisualBasic.Forms.dll", display: "Microsoft.VisualBasic.Forms (net80windows)");
                 }
                 return _MicrosoftVisualBasicForms;
+            }
+        }
+
+        private static PortableExecutableReference? _MicrosoftVisualBasic;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for Microsoft.VisualBasic.dll
+        /// </summary>
+        public static PortableExecutableReference MicrosoftVisualBasic
+        {
+            get
+            {
+                if (_MicrosoftVisualBasic is null)
+                {
+                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80windows.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net80windows)");
+                }
+                return _MicrosoftVisualBasic;
             }
         }
 
@@ -486,23 +486,6 @@ public static partial class Net80Windows
             }
         }
 
-        private static PortableExecutableReference? _PresentationFramework;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for PresentationFramework.dll
-        /// </summary>
-        public static PortableExecutableReference PresentationFramework
-        {
-            get
-            {
-                if (_PresentationFramework is null)
-                {
-                    _PresentationFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80windows.PresentationFramework")).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net80windows)");
-                }
-                return _PresentationFramework;
-            }
-        }
-
         private static PortableExecutableReference? _PresentationFrameworkLuna;
 
         /// <summary>
@@ -534,6 +517,23 @@ public static partial class Net80Windows
                     _PresentationFrameworkRoyale = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80windows.PresentationFramework.Royale")).GetReference(filePath: "PresentationFramework.Royale.dll", display: "PresentationFramework.Royale (net80windows)");
                 }
                 return _PresentationFrameworkRoyale;
+            }
+        }
+
+        private static PortableExecutableReference? _PresentationFramework;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for PresentationFramework.dll
+        /// </summary>
+        public static PortableExecutableReference PresentationFramework
+        {
+            get
+            {
+                if (_PresentationFramework is null)
+                {
+                    _PresentationFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80windows.PresentationFramework")).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net80windows)");
+                }
+                return _PresentationFramework;
             }
         }
 
@@ -894,23 +894,6 @@ public static partial class Net80Windows
             }
         }
 
-        private static PortableExecutableReference? _SystemWindowsFormsDesign;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Windows.Forms.Design.dll
-        /// </summary>
-        public static PortableExecutableReference SystemWindowsFormsDesign
-        {
-            get
-            {
-                if (_SystemWindowsFormsDesign is null)
-                {
-                    _SystemWindowsFormsDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80windows.System.Windows.Forms.Design")).GetReference(filePath: "System.Windows.Forms.Design.dll", display: "System.Windows.Forms.Design (net80windows)");
-                }
-                return _SystemWindowsFormsDesign;
-            }
-        }
-
         private static PortableExecutableReference? _SystemWindowsFormsDesignEditors;
 
         /// <summary>
@@ -928,20 +911,20 @@ public static partial class Net80Windows
             }
         }
 
-        private static PortableExecutableReference? _SystemWindowsForms;
+        private static PortableExecutableReference? _SystemWindowsFormsDesign;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Windows.Forms.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Windows.Forms.Design.dll
         /// </summary>
-        public static PortableExecutableReference SystemWindowsForms
+        public static PortableExecutableReference SystemWindowsFormsDesign
         {
             get
             {
-                if (_SystemWindowsForms is null)
+                if (_SystemWindowsFormsDesign is null)
                 {
-                    _SystemWindowsForms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80windows.System.Windows.Forms")).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net80windows)");
+                    _SystemWindowsFormsDesign = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80windows.System.Windows.Forms.Design")).GetReference(filePath: "System.Windows.Forms.Design.dll", display: "System.Windows.Forms.Design (net80windows)");
                 }
-                return _SystemWindowsForms;
+                return _SystemWindowsFormsDesign;
             }
         }
 
@@ -959,6 +942,23 @@ public static partial class Net80Windows
                     _SystemWindowsFormsPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80windows.System.Windows.Forms.Primitives")).GetReference(filePath: "System.Windows.Forms.Primitives.dll", display: "System.Windows.Forms.Primitives (net80windows)");
                 }
                 return _SystemWindowsFormsPrimitives;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemWindowsForms;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Windows.Forms.dll
+        /// </summary>
+        public static PortableExecutableReference SystemWindowsForms
+        {
+            get
+            {
+                if (_SystemWindowsForms is null)
+                {
+                    _SystemWindowsForms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80windows.System.Windows.Forms")).GetReference(filePath: "System.Windows.Forms.dll", display: "System.Windows.Forms (net80windows)");
+                }
+                return _SystemWindowsForms;
             }
         }
 
@@ -1125,8 +1125,8 @@ public static partial class Net80Windows
                     _all =
                     [
                         Accessibility,
-                        MicrosoftVisualBasic,
                         MicrosoftVisualBasicForms,
+                        MicrosoftVisualBasic,
                         MicrosoftWin32RegistryAccessControl,
                         MicrosoftWin32SystemEvents,
                         PresentationCore,
@@ -1134,9 +1134,9 @@ public static partial class Net80Windows
                         PresentationFrameworkAero2,
                         PresentationFrameworkAeroLite,
                         PresentationFrameworkClassic,
-                        PresentationFramework,
                         PresentationFrameworkLuna,
                         PresentationFrameworkRoyale,
+                        PresentationFramework,
                         PresentationUI,
                         ReachFramework,
                         SystemCodeDom,
@@ -1158,10 +1158,10 @@ public static partial class Net80Windows
                         SystemThreadingAccessControl,
                         SystemWindowsControlsRibbon,
                         SystemWindowsExtensions,
-                        SystemWindowsFormsDesign,
                         SystemWindowsFormsDesignEditors,
-                        SystemWindowsForms,
+                        SystemWindowsFormsDesign,
                         SystemWindowsFormsPrimitives,
+                        SystemWindowsForms,
                         SystemWindowsInputManipulations,
                         SystemWindowsPresentation,
                         SystemXaml,
@@ -1190,16 +1190,16 @@ public static partial class Net80Windows
         private static byte[]? _Accessibility;
 
         /// <summary>
-        /// The image bytes for Microsoft.VisualBasic.dll
-        /// </summary>
-        public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "net80windows.Microsoft.VisualBasic");
-        private static byte[]? _MicrosoftVisualBasic;
-
-        /// <summary>
         /// The image bytes for Microsoft.VisualBasic.Forms.dll
         /// </summary>
         public static byte[] MicrosoftVisualBasicForms => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicForms, "net80windows.Microsoft.VisualBasic.Forms");
         private static byte[]? _MicrosoftVisualBasicForms;
+
+        /// <summary>
+        /// The image bytes for Microsoft.VisualBasic.dll
+        /// </summary>
+        public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "net80windows.Microsoft.VisualBasic");
+        private static byte[]? _MicrosoftVisualBasic;
 
         /// <summary>
         /// The image bytes for Microsoft.Win32.Registry.AccessControl.dll
@@ -1244,12 +1244,6 @@ public static partial class Net80Windows
         private static byte[]? _PresentationFrameworkClassic;
 
         /// <summary>
-        /// The image bytes for PresentationFramework.dll
-        /// </summary>
-        public static byte[] PresentationFramework => ResourceLoader.GetOrCreateResource(ref _PresentationFramework, "net80windows.PresentationFramework");
-        private static byte[]? _PresentationFramework;
-
-        /// <summary>
         /// The image bytes for PresentationFramework.Luna.dll
         /// </summary>
         public static byte[] PresentationFrameworkLuna => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkLuna, "net80windows.PresentationFramework.Luna");
@@ -1260,6 +1254,12 @@ public static partial class Net80Windows
         /// </summary>
         public static byte[] PresentationFrameworkRoyale => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkRoyale, "net80windows.PresentationFramework.Royale");
         private static byte[]? _PresentationFrameworkRoyale;
+
+        /// <summary>
+        /// The image bytes for PresentationFramework.dll
+        /// </summary>
+        public static byte[] PresentationFramework => ResourceLoader.GetOrCreateResource(ref _PresentationFramework, "net80windows.PresentationFramework");
+        private static byte[]? _PresentationFramework;
 
         /// <summary>
         /// The image bytes for PresentationUI.dll
@@ -1388,28 +1388,28 @@ public static partial class Net80Windows
         private static byte[]? _SystemWindowsExtensions;
 
         /// <summary>
-        /// The image bytes for System.Windows.Forms.Design.dll
-        /// </summary>
-        public static byte[] SystemWindowsFormsDesign => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsDesign, "net80windows.System.Windows.Forms.Design");
-        private static byte[]? _SystemWindowsFormsDesign;
-
-        /// <summary>
         /// The image bytes for System.Windows.Forms.Design.Editors.dll
         /// </summary>
         public static byte[] SystemWindowsFormsDesignEditors => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsDesignEditors, "net80windows.System.Windows.Forms.Design.Editors");
         private static byte[]? _SystemWindowsFormsDesignEditors;
 
         /// <summary>
-        /// The image bytes for System.Windows.Forms.dll
+        /// The image bytes for System.Windows.Forms.Design.dll
         /// </summary>
-        public static byte[] SystemWindowsForms => ResourceLoader.GetOrCreateResource(ref _SystemWindowsForms, "net80windows.System.Windows.Forms");
-        private static byte[]? _SystemWindowsForms;
+        public static byte[] SystemWindowsFormsDesign => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsDesign, "net80windows.System.Windows.Forms.Design");
+        private static byte[]? _SystemWindowsFormsDesign;
 
         /// <summary>
         /// The image bytes for System.Windows.Forms.Primitives.dll
         /// </summary>
         public static byte[] SystemWindowsFormsPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemWindowsFormsPrimitives, "net80windows.System.Windows.Forms.Primitives");
         private static byte[]? _SystemWindowsFormsPrimitives;
+
+        /// <summary>
+        /// The image bytes for System.Windows.Forms.dll
+        /// </summary>
+        public static byte[] SystemWindowsForms => ResourceLoader.GetOrCreateResource(ref _SystemWindowsForms, "net80windows.System.Windows.Forms");
+        private static byte[]? _SystemWindowsForms;
 
         /// <summary>
         /// The image bytes for System.Windows.Input.Manipulations.dll
