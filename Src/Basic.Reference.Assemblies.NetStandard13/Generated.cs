@@ -73,24 +73,14 @@ public static partial class NetStandard13
         public static ReferenceInfo SystemGlobalization => new ReferenceInfo("System.Globalization.dll", Resources.SystemGlobalization, NetStandard13.References.SystemGlobalization, global::System.Guid.Parse("06c11906-82a8-4972-bae8-af7ef83ea233"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.Compression.dll
-        /// </summary>
-        public static ReferenceInfo SystemIOCompression => new ReferenceInfo("System.IO.Compression.dll", Resources.SystemIOCompression, NetStandard13.References.SystemIOCompression, global::System.Guid.Parse("2fb7b844-10bc-4023-b29a-2d341b010ef8"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Compression.ZipFile.dll
         /// </summary>
         public static ReferenceInfo SystemIOCompressionZipFile => new ReferenceInfo("System.IO.Compression.ZipFile.dll", Resources.SystemIOCompressionZipFile, NetStandard13.References.SystemIOCompressionZipFile, global::System.Guid.Parse("695c61db-fdaa-4175-8e71-7100064387a9"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.dll
+        /// The <see cref="ReferenceInfo"/> for System.IO.Compression.dll
         /// </summary>
-        public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO, NetStandard13.References.SystemIO, global::System.Guid.Parse("ab3c28ef-24cb-4f4e-970e-019e5553fbb0"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.dll
-        /// </summary>
-        public static ReferenceInfo SystemIOFileSystem => new ReferenceInfo("System.IO.FileSystem.dll", Resources.SystemIOFileSystem, NetStandard13.References.SystemIOFileSystem, global::System.Guid.Parse("26348140-43db-4e00-ae0a-51657fb5c45c"));
+        public static ReferenceInfo SystemIOCompression => new ReferenceInfo("System.IO.Compression.dll", Resources.SystemIOCompression, NetStandard13.References.SystemIOCompression, global::System.Guid.Parse("2fb7b844-10bc-4023-b29a-2d341b010ef8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.Primitives.dll
@@ -98,14 +88,24 @@ public static partial class NetStandard13
         public static ReferenceInfo SystemIOFileSystemPrimitives => new ReferenceInfo("System.IO.FileSystem.Primitives.dll", Resources.SystemIOFileSystemPrimitives, NetStandard13.References.SystemIOFileSystemPrimitives, global::System.Guid.Parse("df0b3070-4314-4f90-ad3b-82dd59401b69"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Linq.dll
+        /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.dll
         /// </summary>
-        public static ReferenceInfo SystemLinq => new ReferenceInfo("System.Linq.dll", Resources.SystemLinq, NetStandard13.References.SystemLinq, global::System.Guid.Parse("ffb4cff3-b953-4068-bdca-0d5540a1af15"));
+        public static ReferenceInfo SystemIOFileSystem => new ReferenceInfo("System.IO.FileSystem.dll", Resources.SystemIOFileSystem, NetStandard13.References.SystemIOFileSystem, global::System.Guid.Parse("26348140-43db-4e00-ae0a-51657fb5c45c"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.IO.dll
+        /// </summary>
+        public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO, NetStandard13.References.SystemIO, global::System.Guid.Parse("ab3c28ef-24cb-4f4e-970e-019e5553fbb0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Linq.Expressions.dll
         /// </summary>
         public static ReferenceInfo SystemLinqExpressions => new ReferenceInfo("System.Linq.Expressions.dll", Resources.SystemLinqExpressions, NetStandard13.References.SystemLinqExpressions, global::System.Guid.Parse("d4a258f5-7d30-42d4-9dd5-02d03bcd2c70"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Linq.dll
+        /// </summary>
+        public static ReferenceInfo SystemLinq => new ReferenceInfo("System.Linq.dll", Resources.SystemLinq, NetStandard13.References.SystemLinq, global::System.Guid.Parse("ffb4cff3-b953-4068-bdca-0d5540a1af15"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Http.dll
@@ -133,11 +133,6 @@ public static partial class NetStandard13
         public static ReferenceInfo SystemObjectModel => new ReferenceInfo("System.ObjectModel.dll", Resources.SystemObjectModel, NetStandard13.References.SystemObjectModel, global::System.Guid.Parse("51121eca-cdba-447b-ad8d-e4c15c657d8b"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Reflection.dll
-        /// </summary>
-        public static ReferenceInfo SystemReflection => new ReferenceInfo("System.Reflection.dll", Resources.SystemReflection, NetStandard13.References.SystemReflection, global::System.Guid.Parse("b0a5aef5-d59c-41ab-88a8-070188f91a13"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Extensions.dll
         /// </summary>
         public static ReferenceInfo SystemReflectionExtensions => new ReferenceInfo("System.Reflection.Extensions.dll", Resources.SystemReflectionExtensions, NetStandard13.References.SystemReflectionExtensions, global::System.Guid.Parse("b7aae18d-6dd7-4990-a235-bf75351f1a63"));
@@ -148,14 +143,14 @@ public static partial class NetStandard13
         public static ReferenceInfo SystemReflectionPrimitives => new ReferenceInfo("System.Reflection.Primitives.dll", Resources.SystemReflectionPrimitives, NetStandard13.References.SystemReflectionPrimitives, global::System.Guid.Parse("a2b25b9d-8988-406a-bd71-936b443bf573"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Reflection.dll
+        /// </summary>
+        public static ReferenceInfo SystemReflection => new ReferenceInfo("System.Reflection.dll", Resources.SystemReflection, NetStandard13.References.SystemReflection, global::System.Guid.Parse("b0a5aef5-d59c-41ab-88a8-070188f91a13"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Resources.ResourceManager.dll
         /// </summary>
         public static ReferenceInfo SystemResourcesResourceManager => new ReferenceInfo("System.Resources.ResourceManager.dll", Resources.SystemResourcesResourceManager, NetStandard13.References.SystemResourcesResourceManager, global::System.Guid.Parse("a9fd769c-937a-4979-8f26-b481d0495e52"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.dll
-        /// </summary>
-        public static ReferenceInfo SystemRuntime => new ReferenceInfo("System.Runtime.dll", Resources.SystemRuntime, NetStandard13.References.SystemRuntime, global::System.Guid.Parse("f201d1db-e2f2-400f-9b76-4a51bfc9793e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Extensions.dll
@@ -168,14 +163,14 @@ public static partial class NetStandard13
         public static ReferenceInfo SystemRuntimeHandles => new ReferenceInfo("System.Runtime.Handles.dll", Resources.SystemRuntimeHandles, NetStandard13.References.SystemRuntimeHandles, global::System.Guid.Parse("98aa6ed2-21ab-4579-9b4a-c2447c21b86b"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.dll
-        /// </summary>
-        public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices, NetStandard13.References.SystemRuntimeInteropServices, global::System.Guid.Parse("510cc175-e4e2-4dc0-be80-b25809b81c59"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.RuntimeInformation.dll
         /// </summary>
         public static ReferenceInfo SystemRuntimeInteropServicesRuntimeInformation => new ReferenceInfo("System.Runtime.InteropServices.RuntimeInformation.dll", Resources.SystemRuntimeInteropServicesRuntimeInformation, NetStandard13.References.SystemRuntimeInteropServicesRuntimeInformation, global::System.Guid.Parse("5a827bea-b951-49b4-8379-e11f81f4539f"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.dll
+        /// </summary>
+        public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices, NetStandard13.References.SystemRuntimeInteropServices, global::System.Guid.Parse("510cc175-e4e2-4dc0-be80-b25809b81c59"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Numerics.dll
@@ -186,6 +181,11 @@ public static partial class NetStandard13
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Primitives.dll
         /// </summary>
         public static ReferenceInfo SystemRuntimeSerializationPrimitives => new ReferenceInfo("System.Runtime.Serialization.Primitives.dll", Resources.SystemRuntimeSerializationPrimitives, NetStandard13.References.SystemRuntimeSerializationPrimitives, global::System.Guid.Parse("81488324-7349-452a-8e77-8ef65b7bec21"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Runtime.dll
+        /// </summary>
+        public static ReferenceInfo SystemRuntime => new ReferenceInfo("System.Runtime.dll", Resources.SystemRuntime, NetStandard13.References.SystemRuntime, global::System.Guid.Parse("f201d1db-e2f2-400f-9b76-4a51bfc9793e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.AccessControl.dll
@@ -223,14 +223,14 @@ public static partial class NetStandard13
         public static ReferenceInfo SystemSecurityCryptographyX509Certificates => new ReferenceInfo("System.Security.Cryptography.X509Certificates.dll", Resources.SystemSecurityCryptographyX509Certificates, NetStandard13.References.SystemSecurityCryptographyX509Certificates, global::System.Guid.Parse("10aa0cf3-a59a-4593-be7c-c3ddc318f1ed"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Security.Principal.dll
-        /// </summary>
-        public static ReferenceInfo SystemSecurityPrincipal => new ReferenceInfo("System.Security.Principal.dll", Resources.SystemSecurityPrincipal, NetStandard13.References.SystemSecurityPrincipal, global::System.Guid.Parse("02fad2c2-6b10-48c6-846c-7b7a9f990535"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Principal.Windows.dll
         /// </summary>
         public static ReferenceInfo SystemSecurityPrincipalWindows => new ReferenceInfo("System.Security.Principal.Windows.dll", Resources.SystemSecurityPrincipalWindows, NetStandard13.References.SystemSecurityPrincipalWindows, global::System.Guid.Parse("8b99a2b7-c51c-4953-aff3-1cf550d7de17"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Security.Principal.dll
+        /// </summary>
+        public static ReferenceInfo SystemSecurityPrincipal => new ReferenceInfo("System.Security.Principal.dll", Resources.SystemSecurityPrincipal, NetStandard13.References.SystemSecurityPrincipal, global::System.Guid.Parse("02fad2c2-6b10-48c6-846c-7b7a9f990535"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.CodePages.dll
@@ -238,14 +238,14 @@ public static partial class NetStandard13
         public static ReferenceInfo SystemTextEncodingCodePages => new ReferenceInfo("System.Text.Encoding.CodePages.dll", Resources.SystemTextEncodingCodePages, NetStandard13.References.SystemTextEncodingCodePages, global::System.Guid.Parse("6960315b-683e-48ee-a2f1-233ad5bd257c"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.dll
-        /// </summary>
-        public static ReferenceInfo SystemTextEncoding => new ReferenceInfo("System.Text.Encoding.dll", Resources.SystemTextEncoding, NetStandard13.References.SystemTextEncoding, global::System.Guid.Parse("d61d3c6a-065f-47ae-a9b1-b08d925e5d21"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.Extensions.dll
         /// </summary>
         public static ReferenceInfo SystemTextEncodingExtensions => new ReferenceInfo("System.Text.Encoding.Extensions.dll", Resources.SystemTextEncodingExtensions, NetStandard13.References.SystemTextEncodingExtensions, global::System.Guid.Parse("d81d26f6-c2ee-4509-851a-356917648f68"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.dll
+        /// </summary>
+        public static ReferenceInfo SystemTextEncoding => new ReferenceInfo("System.Text.Encoding.dll", Resources.SystemTextEncoding, NetStandard13.References.SystemTextEncoding, global::System.Guid.Parse("d61d3c6a-065f-47ae-a9b1-b08d925e5d21"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.RegularExpressions.dll
@@ -253,9 +253,9 @@ public static partial class NetStandard13
         public static ReferenceInfo SystemTextRegularExpressions => new ReferenceInfo("System.Text.RegularExpressions.dll", Resources.SystemTextRegularExpressions, NetStandard13.References.SystemTextRegularExpressions, global::System.Guid.Parse("594e4a83-e0e4-4460-ba32-4176fa3fa297"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Threading.dll
+        /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Extensions.dll
         /// </summary>
-        public static ReferenceInfo SystemThreading => new ReferenceInfo("System.Threading.dll", Resources.SystemThreading, NetStandard13.References.SystemThreading, global::System.Guid.Parse("8dbb97bb-f082-4474-b8d9-12a5ccaba4a0"));
+        public static ReferenceInfo SystemThreadingTasksExtensions => new ReferenceInfo("System.Threading.Tasks.Extensions.dll", Resources.SystemThreadingTasksExtensions, NetStandard13.References.SystemThreadingTasksExtensions, global::System.Guid.Parse("a0fea094-3f98-4048-a442-056f03888c06"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.dll
@@ -263,14 +263,14 @@ public static partial class NetStandard13
         public static ReferenceInfo SystemThreadingTasks => new ReferenceInfo("System.Threading.Tasks.dll", Resources.SystemThreadingTasks, NetStandard13.References.SystemThreadingTasks, global::System.Guid.Parse("7cb17adc-0ab1-454d-9bc7-41833f50eb29"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Extensions.dll
-        /// </summary>
-        public static ReferenceInfo SystemThreadingTasksExtensions => new ReferenceInfo("System.Threading.Tasks.Extensions.dll", Resources.SystemThreadingTasksExtensions, NetStandard13.References.SystemThreadingTasksExtensions, global::System.Guid.Parse("a0fea094-3f98-4048-a442-056f03888c06"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Timer.dll
         /// </summary>
         public static ReferenceInfo SystemThreadingTimer => new ReferenceInfo("System.Threading.Timer.dll", Resources.SystemThreadingTimer, NetStandard13.References.SystemThreadingTimer, global::System.Guid.Parse("12fd61ad-53a9-4e3b-a56c-311506c8cc8f"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Threading.dll
+        /// </summary>
+        public static ReferenceInfo SystemThreading => new ReferenceInfo("System.Threading.dll", Resources.SystemThreading, NetStandard13.References.SystemThreading, global::System.Guid.Parse("8dbb97bb-f082-4474-b8d9-12a5ccaba4a0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ValueTuple.dll
@@ -288,9 +288,9 @@ public static partial class NetStandard13
         public static ReferenceInfo SystemXmlXDocument => new ReferenceInfo("System.Xml.XDocument.dll", Resources.SystemXmlXDocument, NetStandard13.References.SystemXmlXDocument, global::System.Guid.Parse("8af61d14-77f6-4ab5-95c0-2fca40d335fc"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Xml.XmlDocument.dll
+        /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.XDocument.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXmlDocument => new ReferenceInfo("System.Xml.XmlDocument.dll", Resources.SystemXmlXmlDocument, NetStandard13.References.SystemXmlXmlDocument, global::System.Guid.Parse("81149fa8-556a-481a-834e-aa005d7a54ce"));
+        public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, NetStandard13.References.SystemXmlXPathXDocument, global::System.Guid.Parse("0b548ee4-66b2-4dc7-8b7a-578fede05d0d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.dll
@@ -298,9 +298,9 @@ public static partial class NetStandard13
         public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, NetStandard13.References.SystemXmlXPath, global::System.Guid.Parse("27062bf2-498a-439b-b8af-4e1cdcdfdb7e"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.XDocument.dll
+        /// The <see cref="ReferenceInfo"/> for System.Xml.XmlDocument.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, NetStandard13.References.SystemXmlXPathXDocument, global::System.Guid.Parse("0b548ee4-66b2-4dc7-8b7a-578fede05d0d"));
+        public static ReferenceInfo SystemXmlXmlDocument => new ReferenceInfo("System.Xml.XmlDocument.dll", Resources.SystemXmlXmlDocument, NetStandard13.References.SystemXmlXmlDocument, global::System.Guid.Parse("81149fa8-556a-481a-834e-aa005d7a54ce"));
         private static ImmutableArray<ReferenceInfo> _all;
         public static ImmutableArray<ReferenceInfo> All
         {
@@ -322,29 +322,29 @@ public static partial class NetStandard13
                         SystemDiagnosticsTracing,
                         SystemGlobalizationCalendars,
                         SystemGlobalization,
-                        SystemIOCompression,
                         SystemIOCompressionZipFile,
-                        SystemIO,
-                        SystemIOFileSystem,
+                        SystemIOCompression,
                         SystemIOFileSystemPrimitives,
-                        SystemLinq,
+                        SystemIOFileSystem,
+                        SystemIO,
                         SystemLinqExpressions,
+                        SystemLinq,
                         SystemNetHttp,
                         SystemNetPrimitives,
                         SystemNetSecurity,
                         SystemNetSockets,
                         SystemObjectModel,
-                        SystemReflection,
                         SystemReflectionExtensions,
                         SystemReflectionPrimitives,
+                        SystemReflection,
                         SystemResourcesResourceManager,
-                        SystemRuntime,
                         SystemRuntimeExtensions,
                         SystemRuntimeHandles,
-                        SystemRuntimeInteropServices,
                         SystemRuntimeInteropServicesRuntimeInformation,
+                        SystemRuntimeInteropServices,
                         SystemRuntimeNumerics,
                         SystemRuntimeSerializationPrimitives,
+                        SystemRuntime,
                         SystemSecurityAccessControl,
                         SystemSecurityClaims,
                         SystemSecurityCryptographyAlgorithms,
@@ -352,22 +352,22 @@ public static partial class NetStandard13
                         SystemSecurityCryptographyEncoding,
                         SystemSecurityCryptographyPrimitives,
                         SystemSecurityCryptographyX509Certificates,
-                        SystemSecurityPrincipal,
                         SystemSecurityPrincipalWindows,
+                        SystemSecurityPrincipal,
                         SystemTextEncodingCodePages,
-                        SystemTextEncoding,
                         SystemTextEncodingExtensions,
+                        SystemTextEncoding,
                         SystemTextRegularExpressions,
-                        SystemThreading,
-                        SystemThreadingTasks,
                         SystemThreadingTasksExtensions,
+                        SystemThreadingTasks,
                         SystemThreadingTimer,
+                        SystemThreading,
                         SystemValueTuple,
                         SystemXmlReaderWriter,
                         SystemXmlXDocument,
-                        SystemXmlXmlDocument,
-                        SystemXmlXPath,
                         SystemXmlXPathXDocument,
+                        SystemXmlXPath,
+                        SystemXmlXmlDocument,
                     ];
                 }
                 return _all;
@@ -586,23 +586,6 @@ public static partial class NetStandard13
             }
         }
 
-        private static PortableExecutableReference? _SystemIOCompression;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.Compression.dll
-        /// </summary>
-        public static PortableExecutableReference SystemIOCompression
-        {
-            get
-            {
-                if (_SystemIOCompression is null)
-                {
-                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (netstandard13)");
-                }
-                return _SystemIOCompression;
-            }
-        }
-
         private static PortableExecutableReference? _SystemIOCompressionZipFile;
 
         /// <summary>
@@ -620,37 +603,20 @@ public static partial class NetStandard13
             }
         }
 
-        private static PortableExecutableReference? _SystemIO;
+        private static PortableExecutableReference? _SystemIOCompression;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.dll
+        /// The <see cref="PortableExecutableReference"/> for System.IO.Compression.dll
         /// </summary>
-        public static PortableExecutableReference SystemIO
+        public static PortableExecutableReference SystemIOCompression
         {
             get
             {
-                if (_SystemIO is null)
+                if (_SystemIOCompression is null)
                 {
-                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (netstandard13)");
+                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (netstandard13)");
                 }
-                return _SystemIO;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemIOFileSystem;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.FileSystem.dll
-        /// </summary>
-        public static PortableExecutableReference SystemIOFileSystem
-        {
-            get
-            {
-                if (_SystemIOFileSystem is null)
-                {
-                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.IO.FileSystem")).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (netstandard13)");
-                }
-                return _SystemIOFileSystem;
+                return _SystemIOCompression;
             }
         }
 
@@ -671,20 +637,37 @@ public static partial class NetStandard13
             }
         }
 
-        private static PortableExecutableReference? _SystemLinq;
+        private static PortableExecutableReference? _SystemIOFileSystem;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Linq.dll
+        /// The <see cref="PortableExecutableReference"/> for System.IO.FileSystem.dll
         /// </summary>
-        public static PortableExecutableReference SystemLinq
+        public static PortableExecutableReference SystemIOFileSystem
         {
             get
             {
-                if (_SystemLinq is null)
+                if (_SystemIOFileSystem is null)
                 {
-                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (netstandard13)");
+                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.IO.FileSystem")).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (netstandard13)");
                 }
-                return _SystemLinq;
+                return _SystemIOFileSystem;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemIO;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.IO.dll
+        /// </summary>
+        public static PortableExecutableReference SystemIO
+        {
+            get
+            {
+                if (_SystemIO is null)
+                {
+                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (netstandard13)");
+                }
+                return _SystemIO;
             }
         }
 
@@ -702,6 +685,23 @@ public static partial class NetStandard13
                     _SystemLinqExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Linq.Expressions")).GetReference(filePath: "System.Linq.Expressions.dll", display: "System.Linq.Expressions (netstandard13)");
                 }
                 return _SystemLinqExpressions;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemLinq;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Linq.dll
+        /// </summary>
+        public static PortableExecutableReference SystemLinq
+        {
+            get
+            {
+                if (_SystemLinq is null)
+                {
+                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (netstandard13)");
+                }
+                return _SystemLinq;
             }
         }
 
@@ -790,23 +790,6 @@ public static partial class NetStandard13
             }
         }
 
-        private static PortableExecutableReference? _SystemReflection;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Reflection.dll
-        /// </summary>
-        public static PortableExecutableReference SystemReflection
-        {
-            get
-            {
-                if (_SystemReflection is null)
-                {
-                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (netstandard13)");
-                }
-                return _SystemReflection;
-            }
-        }
-
         private static PortableExecutableReference? _SystemReflectionExtensions;
 
         /// <summary>
@@ -841,6 +824,23 @@ public static partial class NetStandard13
             }
         }
 
+        private static PortableExecutableReference? _SystemReflection;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Reflection.dll
+        /// </summary>
+        public static PortableExecutableReference SystemReflection
+        {
+            get
+            {
+                if (_SystemReflection is null)
+                {
+                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (netstandard13)");
+                }
+                return _SystemReflection;
+            }
+        }
+
         private static PortableExecutableReference? _SystemResourcesResourceManager;
 
         /// <summary>
@@ -855,23 +855,6 @@ public static partial class NetStandard13
                     _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Resources.ResourceManager")).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (netstandard13)");
                 }
                 return _SystemResourcesResourceManager;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemRuntime;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.dll
-        /// </summary>
-        public static PortableExecutableReference SystemRuntime
-        {
-            get
-            {
-                if (_SystemRuntime is null)
-                {
-                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (netstandard13)");
-                }
-                return _SystemRuntime;
             }
         }
 
@@ -909,23 +892,6 @@ public static partial class NetStandard13
             }
         }
 
-        private static PortableExecutableReference? _SystemRuntimeInteropServices;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.InteropServices.dll
-        /// </summary>
-        public static PortableExecutableReference SystemRuntimeInteropServices
-        {
-            get
-            {
-                if (_SystemRuntimeInteropServices is null)
-                {
-                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (netstandard13)");
-                }
-                return _SystemRuntimeInteropServices;
-            }
-        }
-
         private static PortableExecutableReference? _SystemRuntimeInteropServicesRuntimeInformation;
 
         /// <summary>
@@ -940,6 +906,23 @@ public static partial class NetStandard13
                     _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Runtime.InteropServices.RuntimeInformation")).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (netstandard13)");
                 }
                 return _SystemRuntimeInteropServicesRuntimeInformation;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemRuntimeInteropServices;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.InteropServices.dll
+        /// </summary>
+        public static PortableExecutableReference SystemRuntimeInteropServices
+        {
+            get
+            {
+                if (_SystemRuntimeInteropServices is null)
+                {
+                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (netstandard13)");
+                }
+                return _SystemRuntimeInteropServices;
             }
         }
 
@@ -974,6 +957,23 @@ public static partial class NetStandard13
                     _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Runtime.Serialization.Primitives")).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (netstandard13)");
                 }
                 return _SystemRuntimeSerializationPrimitives;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemRuntime;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.dll
+        /// </summary>
+        public static PortableExecutableReference SystemRuntime
+        {
+            get
+            {
+                if (_SystemRuntime is null)
+                {
+                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (netstandard13)");
+                }
+                return _SystemRuntime;
             }
         }
 
@@ -1096,23 +1096,6 @@ public static partial class NetStandard13
             }
         }
 
-        private static PortableExecutableReference? _SystemSecurityPrincipal;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Security.Principal.dll
-        /// </summary>
-        public static PortableExecutableReference SystemSecurityPrincipal
-        {
-            get
-            {
-                if (_SystemSecurityPrincipal is null)
-                {
-                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Security.Principal")).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (netstandard13)");
-                }
-                return _SystemSecurityPrincipal;
-            }
-        }
-
         private static PortableExecutableReference? _SystemSecurityPrincipalWindows;
 
         /// <summary>
@@ -1127,6 +1110,23 @@ public static partial class NetStandard13
                     _SystemSecurityPrincipalWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Security.Principal.Windows")).GetReference(filePath: "System.Security.Principal.Windows.dll", display: "System.Security.Principal.Windows (netstandard13)");
                 }
                 return _SystemSecurityPrincipalWindows;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemSecurityPrincipal;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Security.Principal.dll
+        /// </summary>
+        public static PortableExecutableReference SystemSecurityPrincipal
+        {
+            get
+            {
+                if (_SystemSecurityPrincipal is null)
+                {
+                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Security.Principal")).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (netstandard13)");
+                }
+                return _SystemSecurityPrincipal;
             }
         }
 
@@ -1147,23 +1147,6 @@ public static partial class NetStandard13
             }
         }
 
-        private static PortableExecutableReference? _SystemTextEncoding;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Text.Encoding.dll
-        /// </summary>
-        public static PortableExecutableReference SystemTextEncoding
-        {
-            get
-            {
-                if (_SystemTextEncoding is null)
-                {
-                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Text.Encoding")).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (netstandard13)");
-                }
-                return _SystemTextEncoding;
-            }
-        }
-
         private static PortableExecutableReference? _SystemTextEncodingExtensions;
 
         /// <summary>
@@ -1178,6 +1161,23 @@ public static partial class NetStandard13
                     _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Text.Encoding.Extensions")).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (netstandard13)");
                 }
                 return _SystemTextEncodingExtensions;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemTextEncoding;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Text.Encoding.dll
+        /// </summary>
+        public static PortableExecutableReference SystemTextEncoding
+        {
+            get
+            {
+                if (_SystemTextEncoding is null)
+                {
+                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Text.Encoding")).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (netstandard13)");
+                }
+                return _SystemTextEncoding;
             }
         }
 
@@ -1198,20 +1198,20 @@ public static partial class NetStandard13
             }
         }
 
-        private static PortableExecutableReference? _SystemThreading;
+        private static PortableExecutableReference? _SystemThreadingTasksExtensions;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Threading.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Threading.Tasks.Extensions.dll
         /// </summary>
-        public static PortableExecutableReference SystemThreading
+        public static PortableExecutableReference SystemThreadingTasksExtensions
         {
             get
             {
-                if (_SystemThreading is null)
+                if (_SystemThreadingTasksExtensions is null)
                 {
-                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (netstandard13)");
+                    _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Threading.Tasks.Extensions")).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (netstandard13)");
                 }
-                return _SystemThreading;
+                return _SystemThreadingTasksExtensions;
             }
         }
 
@@ -1232,23 +1232,6 @@ public static partial class NetStandard13
             }
         }
 
-        private static PortableExecutableReference? _SystemThreadingTasksExtensions;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Threading.Tasks.Extensions.dll
-        /// </summary>
-        public static PortableExecutableReference SystemThreadingTasksExtensions
-        {
-            get
-            {
-                if (_SystemThreadingTasksExtensions is null)
-                {
-                    _SystemThreadingTasksExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Threading.Tasks.Extensions")).GetReference(filePath: "System.Threading.Tasks.Extensions.dll", display: "System.Threading.Tasks.Extensions (netstandard13)");
-                }
-                return _SystemThreadingTasksExtensions;
-            }
-        }
-
         private static PortableExecutableReference? _SystemThreadingTimer;
 
         /// <summary>
@@ -1263,6 +1246,23 @@ public static partial class NetStandard13
                     _SystemThreadingTimer = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Threading.Timer")).GetReference(filePath: "System.Threading.Timer.dll", display: "System.Threading.Timer (netstandard13)");
                 }
                 return _SystemThreadingTimer;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemThreading;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Threading.dll
+        /// </summary>
+        public static PortableExecutableReference SystemThreading
+        {
+            get
+            {
+                if (_SystemThreading is null)
+                {
+                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (netstandard13)");
+                }
+                return _SystemThreading;
             }
         }
 
@@ -1317,20 +1317,20 @@ public static partial class NetStandard13
             }
         }
 
-        private static PortableExecutableReference? _SystemXmlXmlDocument;
+        private static PortableExecutableReference? _SystemXmlXPathXDocument;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Xml.XmlDocument.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.XDocument.dll
         /// </summary>
-        public static PortableExecutableReference SystemXmlXmlDocument
+        public static PortableExecutableReference SystemXmlXPathXDocument
         {
             get
             {
-                if (_SystemXmlXmlDocument is null)
+                if (_SystemXmlXPathXDocument is null)
                 {
-                    _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Xml.XmlDocument")).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (netstandard13)");
+                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (netstandard13)");
                 }
-                return _SystemXmlXmlDocument;
+                return _SystemXmlXPathXDocument;
             }
         }
 
@@ -1351,20 +1351,20 @@ public static partial class NetStandard13
             }
         }
 
-        private static PortableExecutableReference? _SystemXmlXPathXDocument;
+        private static PortableExecutableReference? _SystemXmlXmlDocument;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.XDocument.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.XmlDocument.dll
         /// </summary>
-        public static PortableExecutableReference SystemXmlXPathXDocument
+        public static PortableExecutableReference SystemXmlXmlDocument
         {
             get
             {
-                if (_SystemXmlXPathXDocument is null)
+                if (_SystemXmlXmlDocument is null)
                 {
-                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (netstandard13)");
+                    _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard13.System.Xml.XmlDocument")).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (netstandard13)");
                 }
-                return _SystemXmlXPathXDocument;
+                return _SystemXmlXmlDocument;
             }
         }
 
@@ -1389,29 +1389,29 @@ public static partial class NetStandard13
                         SystemDiagnosticsTracing,
                         SystemGlobalizationCalendars,
                         SystemGlobalization,
-                        SystemIOCompression,
                         SystemIOCompressionZipFile,
-                        SystemIO,
-                        SystemIOFileSystem,
+                        SystemIOCompression,
                         SystemIOFileSystemPrimitives,
-                        SystemLinq,
+                        SystemIOFileSystem,
+                        SystemIO,
                         SystemLinqExpressions,
+                        SystemLinq,
                         SystemNetHttp,
                         SystemNetPrimitives,
                         SystemNetSecurity,
                         SystemNetSockets,
                         SystemObjectModel,
-                        SystemReflection,
                         SystemReflectionExtensions,
                         SystemReflectionPrimitives,
+                        SystemReflection,
                         SystemResourcesResourceManager,
-                        SystemRuntime,
                         SystemRuntimeExtensions,
                         SystemRuntimeHandles,
-                        SystemRuntimeInteropServices,
                         SystemRuntimeInteropServicesRuntimeInformation,
+                        SystemRuntimeInteropServices,
                         SystemRuntimeNumerics,
                         SystemRuntimeSerializationPrimitives,
+                        SystemRuntime,
                         SystemSecurityAccessControl,
                         SystemSecurityClaims,
                         SystemSecurityCryptographyAlgorithms,
@@ -1419,22 +1419,22 @@ public static partial class NetStandard13
                         SystemSecurityCryptographyEncoding,
                         SystemSecurityCryptographyPrimitives,
                         SystemSecurityCryptographyX509Certificates,
-                        SystemSecurityPrincipal,
                         SystemSecurityPrincipalWindows,
+                        SystemSecurityPrincipal,
                         SystemTextEncodingCodePages,
-                        SystemTextEncoding,
                         SystemTextEncodingExtensions,
+                        SystemTextEncoding,
                         SystemTextRegularExpressions,
-                        SystemThreading,
-                        SystemThreadingTasks,
                         SystemThreadingTasksExtensions,
+                        SystemThreadingTasks,
                         SystemThreadingTimer,
+                        SystemThreading,
                         SystemValueTuple,
                         SystemXmlReaderWriter,
                         SystemXmlXDocument,
-                        SystemXmlXmlDocument,
-                        SystemXmlXPath,
                         SystemXmlXPathXDocument,
+                        SystemXmlXPath,
+                        SystemXmlXmlDocument,
                     ];
                 }
                 return _all;
@@ -1520,28 +1520,16 @@ public static partial class NetStandard13
         private static byte[]? _SystemGlobalization;
 
         /// <summary>
-        /// The image bytes for System.IO.Compression.dll
-        /// </summary>
-        public static byte[] SystemIOCompression => ResourceLoader.GetOrCreateResource(ref _SystemIOCompression, "netstandard13.System.IO.Compression");
-        private static byte[]? _SystemIOCompression;
-
-        /// <summary>
         /// The image bytes for System.IO.Compression.ZipFile.dll
         /// </summary>
         public static byte[] SystemIOCompressionZipFile => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionZipFile, "netstandard13.System.IO.Compression.ZipFile");
         private static byte[]? _SystemIOCompressionZipFile;
 
         /// <summary>
-        /// The image bytes for System.IO.dll
+        /// The image bytes for System.IO.Compression.dll
         /// </summary>
-        public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "netstandard13.System.IO");
-        private static byte[]? _SystemIO;
-
-        /// <summary>
-        /// The image bytes for System.IO.FileSystem.dll
-        /// </summary>
-        public static byte[] SystemIOFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystem, "netstandard13.System.IO.FileSystem");
-        private static byte[]? _SystemIOFileSystem;
+        public static byte[] SystemIOCompression => ResourceLoader.GetOrCreateResource(ref _SystemIOCompression, "netstandard13.System.IO.Compression");
+        private static byte[]? _SystemIOCompression;
 
         /// <summary>
         /// The image bytes for System.IO.FileSystem.Primitives.dll
@@ -1550,16 +1538,28 @@ public static partial class NetStandard13
         private static byte[]? _SystemIOFileSystemPrimitives;
 
         /// <summary>
-        /// The image bytes for System.Linq.dll
+        /// The image bytes for System.IO.FileSystem.dll
         /// </summary>
-        public static byte[] SystemLinq => ResourceLoader.GetOrCreateResource(ref _SystemLinq, "netstandard13.System.Linq");
-        private static byte[]? _SystemLinq;
+        public static byte[] SystemIOFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystem, "netstandard13.System.IO.FileSystem");
+        private static byte[]? _SystemIOFileSystem;
+
+        /// <summary>
+        /// The image bytes for System.IO.dll
+        /// </summary>
+        public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "netstandard13.System.IO");
+        private static byte[]? _SystemIO;
 
         /// <summary>
         /// The image bytes for System.Linq.Expressions.dll
         /// </summary>
         public static byte[] SystemLinqExpressions => ResourceLoader.GetOrCreateResource(ref _SystemLinqExpressions, "netstandard13.System.Linq.Expressions");
         private static byte[]? _SystemLinqExpressions;
+
+        /// <summary>
+        /// The image bytes for System.Linq.dll
+        /// </summary>
+        public static byte[] SystemLinq => ResourceLoader.GetOrCreateResource(ref _SystemLinq, "netstandard13.System.Linq");
+        private static byte[]? _SystemLinq;
 
         /// <summary>
         /// The image bytes for System.Net.Http.dll
@@ -1592,12 +1592,6 @@ public static partial class NetStandard13
         private static byte[]? _SystemObjectModel;
 
         /// <summary>
-        /// The image bytes for System.Reflection.dll
-        /// </summary>
-        public static byte[] SystemReflection => ResourceLoader.GetOrCreateResource(ref _SystemReflection, "netstandard13.System.Reflection");
-        private static byte[]? _SystemReflection;
-
-        /// <summary>
         /// The image bytes for System.Reflection.Extensions.dll
         /// </summary>
         public static byte[] SystemReflectionExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionExtensions, "netstandard13.System.Reflection.Extensions");
@@ -1610,16 +1604,16 @@ public static partial class NetStandard13
         private static byte[]? _SystemReflectionPrimitives;
 
         /// <summary>
+        /// The image bytes for System.Reflection.dll
+        /// </summary>
+        public static byte[] SystemReflection => ResourceLoader.GetOrCreateResource(ref _SystemReflection, "netstandard13.System.Reflection");
+        private static byte[]? _SystemReflection;
+
+        /// <summary>
         /// The image bytes for System.Resources.ResourceManager.dll
         /// </summary>
         public static byte[] SystemResourcesResourceManager => ResourceLoader.GetOrCreateResource(ref _SystemResourcesResourceManager, "netstandard13.System.Resources.ResourceManager");
         private static byte[]? _SystemResourcesResourceManager;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.dll
-        /// </summary>
-        public static byte[] SystemRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntime, "netstandard13.System.Runtime");
-        private static byte[]? _SystemRuntime;
 
         /// <summary>
         /// The image bytes for System.Runtime.Extensions.dll
@@ -1634,16 +1628,16 @@ public static partial class NetStandard13
         private static byte[]? _SystemRuntimeHandles;
 
         /// <summary>
-        /// The image bytes for System.Runtime.InteropServices.dll
-        /// </summary>
-        public static byte[] SystemRuntimeInteropServices => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServices, "netstandard13.System.Runtime.InteropServices");
-        private static byte[]? _SystemRuntimeInteropServices;
-
-        /// <summary>
         /// The image bytes for System.Runtime.InteropServices.RuntimeInformation.dll
         /// </summary>
         public static byte[] SystemRuntimeInteropServicesRuntimeInformation => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesRuntimeInformation, "netstandard13.System.Runtime.InteropServices.RuntimeInformation");
         private static byte[]? _SystemRuntimeInteropServicesRuntimeInformation;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.InteropServices.dll
+        /// </summary>
+        public static byte[] SystemRuntimeInteropServices => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServices, "netstandard13.System.Runtime.InteropServices");
+        private static byte[]? _SystemRuntimeInteropServices;
 
         /// <summary>
         /// The image bytes for System.Runtime.Numerics.dll
@@ -1656,6 +1650,12 @@ public static partial class NetStandard13
         /// </summary>
         public static byte[] SystemRuntimeSerializationPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationPrimitives, "netstandard13.System.Runtime.Serialization.Primitives");
         private static byte[]? _SystemRuntimeSerializationPrimitives;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.dll
+        /// </summary>
+        public static byte[] SystemRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntime, "netstandard13.System.Runtime");
+        private static byte[]? _SystemRuntime;
 
         /// <summary>
         /// The image bytes for System.Security.AccessControl.dll
@@ -1700,16 +1700,16 @@ public static partial class NetStandard13
         private static byte[]? _SystemSecurityCryptographyX509Certificates;
 
         /// <summary>
-        /// The image bytes for System.Security.Principal.dll
-        /// </summary>
-        public static byte[] SystemSecurityPrincipal => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipal, "netstandard13.System.Security.Principal");
-        private static byte[]? _SystemSecurityPrincipal;
-
-        /// <summary>
         /// The image bytes for System.Security.Principal.Windows.dll
         /// </summary>
         public static byte[] SystemSecurityPrincipalWindows => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipalWindows, "netstandard13.System.Security.Principal.Windows");
         private static byte[]? _SystemSecurityPrincipalWindows;
+
+        /// <summary>
+        /// The image bytes for System.Security.Principal.dll
+        /// </summary>
+        public static byte[] SystemSecurityPrincipal => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipal, "netstandard13.System.Security.Principal");
+        private static byte[]? _SystemSecurityPrincipal;
 
         /// <summary>
         /// The image bytes for System.Text.Encoding.CodePages.dll
@@ -1718,16 +1718,16 @@ public static partial class NetStandard13
         private static byte[]? _SystemTextEncodingCodePages;
 
         /// <summary>
-        /// The image bytes for System.Text.Encoding.dll
-        /// </summary>
-        public static byte[] SystemTextEncoding => ResourceLoader.GetOrCreateResource(ref _SystemTextEncoding, "netstandard13.System.Text.Encoding");
-        private static byte[]? _SystemTextEncoding;
-
-        /// <summary>
         /// The image bytes for System.Text.Encoding.Extensions.dll
         /// </summary>
         public static byte[] SystemTextEncodingExtensions => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingExtensions, "netstandard13.System.Text.Encoding.Extensions");
         private static byte[]? _SystemTextEncodingExtensions;
+
+        /// <summary>
+        /// The image bytes for System.Text.Encoding.dll
+        /// </summary>
+        public static byte[] SystemTextEncoding => ResourceLoader.GetOrCreateResource(ref _SystemTextEncoding, "netstandard13.System.Text.Encoding");
+        private static byte[]? _SystemTextEncoding;
 
         /// <summary>
         /// The image bytes for System.Text.RegularExpressions.dll
@@ -1736,10 +1736,10 @@ public static partial class NetStandard13
         private static byte[]? _SystemTextRegularExpressions;
 
         /// <summary>
-        /// The image bytes for System.Threading.dll
+        /// The image bytes for System.Threading.Tasks.Extensions.dll
         /// </summary>
-        public static byte[] SystemThreading => ResourceLoader.GetOrCreateResource(ref _SystemThreading, "netstandard13.System.Threading");
-        private static byte[]? _SystemThreading;
+        public static byte[] SystemThreadingTasksExtensions => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksExtensions, "netstandard13.System.Threading.Tasks.Extensions");
+        private static byte[]? _SystemThreadingTasksExtensions;
 
         /// <summary>
         /// The image bytes for System.Threading.Tasks.dll
@@ -1748,16 +1748,16 @@ public static partial class NetStandard13
         private static byte[]? _SystemThreadingTasks;
 
         /// <summary>
-        /// The image bytes for System.Threading.Tasks.Extensions.dll
-        /// </summary>
-        public static byte[] SystemThreadingTasksExtensions => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksExtensions, "netstandard13.System.Threading.Tasks.Extensions");
-        private static byte[]? _SystemThreadingTasksExtensions;
-
-        /// <summary>
         /// The image bytes for System.Threading.Timer.dll
         /// </summary>
         public static byte[] SystemThreadingTimer => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTimer, "netstandard13.System.Threading.Timer");
         private static byte[]? _SystemThreadingTimer;
+
+        /// <summary>
+        /// The image bytes for System.Threading.dll
+        /// </summary>
+        public static byte[] SystemThreading => ResourceLoader.GetOrCreateResource(ref _SystemThreading, "netstandard13.System.Threading");
+        private static byte[]? _SystemThreading;
 
         /// <summary>
         /// The image bytes for System.ValueTuple.dll
@@ -1778,10 +1778,10 @@ public static partial class NetStandard13
         private static byte[]? _SystemXmlXDocument;
 
         /// <summary>
-        /// The image bytes for System.Xml.XmlDocument.dll
+        /// The image bytes for System.Xml.XPath.XDocument.dll
         /// </summary>
-        public static byte[] SystemXmlXmlDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlDocument, "netstandard13.System.Xml.XmlDocument");
-        private static byte[]? _SystemXmlXmlDocument;
+        public static byte[] SystemXmlXPathXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPathXDocument, "netstandard13.System.Xml.XPath.XDocument");
+        private static byte[]? _SystemXmlXPathXDocument;
 
         /// <summary>
         /// The image bytes for System.Xml.XPath.dll
@@ -1790,10 +1790,10 @@ public static partial class NetStandard13
         private static byte[]? _SystemXmlXPath;
 
         /// <summary>
-        /// The image bytes for System.Xml.XPath.XDocument.dll
+        /// The image bytes for System.Xml.XmlDocument.dll
         /// </summary>
-        public static byte[] SystemXmlXPathXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPathXDocument, "netstandard13.System.Xml.XPath.XDocument");
-        private static byte[]? _SystemXmlXPathXDocument;
+        public static byte[] SystemXmlXmlDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlDocument, "netstandard13.System.Xml.XmlDocument");
+        private static byte[]? _SystemXmlXmlDocument;
 
 
     }

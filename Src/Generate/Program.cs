@@ -326,6 +326,8 @@ string GetSrcPath(string[] args)
     throw new Exception("Could not find workspace path");
 }
 
+static string NormalizeLineEndings(string text) => text.ReplaceLineEndings("\n");
+
 static (Guid Mvid, bool IsAssembly)? GetMvid(string filePath)
 {
     try
@@ -479,7 +481,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         </Project>
         """);
 
-    return (codeContent.ToString(), targetsContent.ToString());
+    return (NormalizeLineEndings(codeContent.ToString()), NormalizeLineEndings(targetsContent.ToString()));
 
     void ProcessDlls(
         string name,
@@ -499,7 +501,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
             var dllName = Path.GetFileName(dllInfo.FilePath)!;
             var dll = Path.GetFileNameWithoutExtension(dllName);
             var logicalName = $"{lowerName}.{dll}";
-            var dllResourcePath = Path.Join(targetsPrefix, dllInfo.RelativeFilePath);
+            var dllResourcePath = $"{targetsPrefix}/{dllInfo.RelativeFilePath}";
 
             targetsContent.AppendLine($$"""
                         <EmbeddedResource Include="{{dllResourcePath}}" WithCulture="false">
@@ -627,7 +629,7 @@ static IEnumerable<(string FilePath, string RelativeFilePath, Guid Mvid)> FindDl
         }
     }
 
-    var allPropNames = new List<string>();
+    var results = new List<(string FilePath, string RelativeFilePath, Guid Mvid)>();
     foreach (var dllPath in dllPaths)
     {
         if (GetMvid(dllPath) is not var (mvid, isAssembly) || !isAssembly)
@@ -636,8 +638,13 @@ static IEnumerable<(string FilePath, string RelativeFilePath, Guid Mvid)> FindDl
         }
 
         var relativeFilePath = dllPath.Substring(packagePrefix.Length);
-        yield return (dllPath, relativeFilePath, mvid);
+        // Normalize path separators so sorting is consistent across OS
+        relativeFilePath = relativeFilePath.Replace('\\', '/').TrimStart('/');
+        results.Add((dllPath, relativeFilePath, mvid));
     }
+
+    results.Sort((x, y) => string.Compare(x.RelativeFilePath, y.RelativeFilePath, StringComparison.Ordinal));
+    return results;
 }
 
 static (string CodeContent, string TargetsContent) GetGeneratedContent(string name, string[] packagePaths, string[]? extraPackagePaths = null)
