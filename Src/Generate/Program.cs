@@ -499,7 +499,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
             var dllName = Path.GetFileName(dllInfo.FilePath)!;
             var dll = Path.GetFileNameWithoutExtension(dllName);
             var logicalName = $"{lowerName}.{dll}";
-            var dllResourcePath = Path.Join(targetsPrefix, dllInfo.RelativeFilePath);
+            var dllResourcePath = $"{targetsPrefix}/{dllInfo.RelativeFilePath}";
 
             targetsContent.AppendLine($$"""
                         <EmbeddedResource Include="{{dllResourcePath}}" WithCulture="false">
