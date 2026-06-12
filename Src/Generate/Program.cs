@@ -326,6 +326,8 @@ string GetSrcPath(string[] args)
     throw new Exception("Could not find workspace path");
 }
 
+static string NormalizeLineEndings(string text) => text.ReplaceLineEndings("\n");
+
 static (Guid Mvid, bool IsAssembly)? GetMvid(string filePath)
 {
     try
@@ -479,7 +481,7 @@ static (string CodeContent, string TargetsContent) GetGeneratedContentCore(strin
         </Project>
         """);
 
-    return (codeContent.ToString(), targetsContent.ToString());
+    return (NormalizeLineEndings(codeContent.ToString()), NormalizeLineEndings(targetsContent.ToString()));
 
     void ProcessDlls(
         string name,
