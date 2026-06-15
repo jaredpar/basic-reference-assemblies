@@ -35,17 +35,17 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Contracts.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsContracts => new ReferenceInfo("System.Diagnostics.Contracts.dll", Resources.SystemDiagnosticsContracts, Net80.References.SystemDiagnosticsContracts, global::System.Guid.Parse("e4de5cc2-b40b-42e2-ad88-83693e21c6ff"));
+        public static ReferenceInfo MicrosoftWin32Registry => new ReferenceInfo("Microsoft.Win32.Registry.dll", Resources.MicrosoftWin32Registry, Net80.References.MicrosoftWin32Registry, global::System.Guid.Parse("664bcf64-903d-4bb3-b50c-8590bdcd315d"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.ComponentModel.TypeConverter.dll
+        /// The <see cref="ReferenceInfo"/> for mscorlib.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModelTypeConverter => new ReferenceInfo("System.ComponentModel.TypeConverter.dll", Resources.SystemComponentModelTypeConverter, Net80.References.SystemComponentModelTypeConverter, global::System.Guid.Parse("a5415ff5-bfad-48f8-918c-c4f8d0086c30"));
+        public static ReferenceInfo mscorlib => new ReferenceInfo("mscorlib.dll", Resources.mscorlib, Net80.References.mscorlib, global::System.Guid.Parse("f0e529cf-f5c6-4539-866c-2ab5067573df"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.OpenSsl.dll
+        /// The <see cref="ReferenceInfo"/> for netstandard.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyOpenSsl => new ReferenceInfo("System.Security.Cryptography.OpenSsl.dll", Resources.SystemSecurityCryptographyOpenSsl, Net80.References.SystemSecurityCryptographyOpenSsl, global::System.Guid.Parse("70568e6b-19a7-481a-8197-fd310e881a09"));
+        public static ReferenceInfo netstandard => new ReferenceInfo("netstandard.dll", Resources.netstandard, Net80.References.netstandard, global::System.Guid.Parse("73975047-df9f-4d84-8c06-441f21598a37"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Metadata.dll
@@ -60,12 +60,12 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.DiagnosticSource.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsDiagnosticSource => new ReferenceInfo("System.Diagnostics.DiagnosticSource.dll", Resources.SystemDiagnosticsDiagnosticSource, Net80.References.SystemDiagnosticsDiagnosticSource, global::System.Guid.Parse("160fabf3-0844-498e-8f49-ad26ede453b0"));
+        public static ReferenceInfo SystemCollectionsConcurrent => new ReferenceInfo("System.Collections.Concurrent.dll", Resources.SystemCollectionsConcurrent, Net80.References.SystemCollectionsConcurrent, global::System.Guid.Parse("291d7283-b119-4c71-9322-c41420697367"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Primitives.dll
+        /// The <see cref="ReferenceInfo"/> for System.Collections.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyPrimitives => new ReferenceInfo("System.Security.Cryptography.Primitives.dll", Resources.SystemSecurityCryptographyPrimitives, Net80.References.SystemSecurityCryptographyPrimitives, global::System.Guid.Parse("9527864b-bbfd-4f77-b488-ce23009b3837"));
+        public static ReferenceInfo SystemCollections => new ReferenceInfo("System.Collections.dll", Resources.SystemCollections, Net80.References.SystemCollections, global::System.Guid.Parse("025c20a3-1bfc-406c-ad80-2d0bdf2a577c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Win32.Primitives.dll
@@ -80,7 +80,7 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.MemoryMappedFiles.dll
         /// </summary>
-        public static ReferenceInfo SystemIOMemoryMappedFiles => new ReferenceInfo("System.IO.MemoryMappedFiles.dll", Resources.SystemIOMemoryMappedFiles, Net80.References.SystemIOMemoryMappedFiles, global::System.Guid.Parse("6d4fe732-3bda-44be-9e75-94b28cb03f96"));
+        public static ReferenceInfo SystemCollectionsSpecialized => new ReferenceInfo("System.Collections.Specialized.dll", Resources.SystemCollectionsSpecialized, Net80.References.SystemCollectionsSpecialized, global::System.Guid.Parse("fd17dd87-52ef-4094-a21e-a68d00473cd3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Core.dll
@@ -90,12 +90,12 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Formatters.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeSerializationFormatters => new ReferenceInfo("System.Runtime.Serialization.Formatters.dll", Resources.SystemRuntimeSerializationFormatters, Net80.References.SystemRuntimeSerializationFormatters, global::System.Guid.Parse("7d229daa-fe47-4c77-8703-85f587e6a0fd"));
+        public static ReferenceInfo SystemComponentModelDataAnnotations => new ReferenceInfo("System.ComponentModel.DataAnnotations.dll", Resources.SystemComponentModelDataAnnotations, Net80.References.SystemComponentModelDataAnnotations, global::System.Guid.Parse("c8fbd488-f175-4808-9f57-7d485b829f2c"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Resources.ResourceManager.dll
+        /// The <see cref="ReferenceInfo"/> for System.ComponentModel.dll
         /// </summary>
-        public static ReferenceInfo SystemResourcesResourceManager => new ReferenceInfo("System.Resources.ResourceManager.dll", Resources.SystemResourcesResourceManager, Net80.References.SystemResourcesResourceManager, global::System.Guid.Parse("8de58b02-5c0b-4be0-a74e-0028fb8f80e1"));
+        public static ReferenceInfo SystemComponentModel => new ReferenceInfo("System.ComponentModel.dll", Resources.SystemComponentModel, Net80.References.SystemComponentModel, global::System.Guid.Parse("7a15f7cf-d2a6-43f2-a1a4-59065c9aa9ab"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Overlapped.dll
@@ -110,7 +110,7 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.dll
         /// </summary>
-        public static ReferenceInfo SystemNet => new ReferenceInfo("System.Net.dll", Resources.SystemNet, Net80.References.SystemNet, global::System.Guid.Parse("f0efdf6e-a60a-4b5f-8715-1564598a1951"));
+        public static ReferenceInfo SystemComponentModelTypeConverter => new ReferenceInfo("System.ComponentModel.TypeConverter.dll", Resources.SystemComponentModelTypeConverter, Net80.References.SystemComponentModelTypeConverter, global::System.Guid.Parse("a5415ff5-bfad-48f8-918c-c4f8d0086c30"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ObjectModel.dll
@@ -193,19 +193,19 @@ public static partial class Net80
         public static ReferenceInfo SystemDrawing => new ReferenceInfo("System.Drawing.dll", Resources.SystemDrawing, Net80.References.SystemDrawing, global::System.Guid.Parse("f87f3ff6-e523-466f-bc96-a2d56bc3df93"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.CompilerServices.Unsafe.dll
+        /// The <see cref="ReferenceInfo"/> for System.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeCompilerServicesUnsafe => new ReferenceInfo("System.Runtime.CompilerServices.Unsafe.dll", Resources.SystemRuntimeCompilerServicesUnsafe, Net80.References.SystemRuntimeCompilerServicesUnsafe, global::System.Guid.Parse("3dff1309-ccf8-47a5-9701-b5ce1cee6886"));
+        public static ReferenceInfo System => new ReferenceInfo("System.dll", Resources.System, Net80.References.System, global::System.Guid.Parse("1d5d03b6-b929-48ba-be80-5ded5cc26d7c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Tracing.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsTracing => new ReferenceInfo("System.Diagnostics.Tracing.dll", Resources.SystemDiagnosticsTracing, Net80.References.SystemDiagnosticsTracing, global::System.Guid.Parse("bf290b8d-de36-4927-8bf0-5e44b57622c8"));
+        public static ReferenceInfo SystemDrawing => new ReferenceInfo("System.Drawing.dll", Resources.SystemDrawing, Net80.References.SystemDrawing, global::System.Guid.Parse("f87f3ff6-e523-466f-bc96-a2d56bc3df93"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Data.DataSetExtensions.dll
+        /// The <see cref="ReferenceInfo"/> for System.Drawing.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemDataDataSetExtensions => new ReferenceInfo("System.Data.DataSetExtensions.dll", Resources.SystemDataDataSetExtensions, Net80.References.SystemDataDataSetExtensions, global::System.Guid.Parse("b744d1d2-3a42-47f9-8d87-526c2debfe7f"));
+        public static ReferenceInfo SystemDrawingPrimitives => new ReferenceInfo("System.Drawing.Primitives.dll", Resources.SystemDrawingPrimitives, Net80.References.SystemDrawingPrimitives, global::System.Guid.Parse("2442ebdd-5d18-414c-8a0f-63bfee2a813f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.WebSockets.dll
@@ -228,24 +228,24 @@ public static partial class Net80
         public static ReferenceInfo SystemDiagnosticsTraceSource => new ReferenceInfo("System.Diagnostics.TraceSource.dll", Resources.SystemDiagnosticsTraceSource, Net80.References.SystemDiagnosticsTraceSource, global::System.Guid.Parse("c2a81bf9-a284-402a-b914-7f3f772d1f9c"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.Core.dll
+        /// The <see cref="ReferenceInfo"/> for System.Globalization.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftVisualBasicCore => new ReferenceInfo("Microsoft.VisualBasic.Core.dll", Resources.MicrosoftVisualBasicCore, Net80.References.MicrosoftVisualBasicCore, global::System.Guid.Parse("e221b97c-a04f-48ae-a7e1-9b488ff04fc2"));
+        public static ReferenceInfo SystemGlobalization => new ReferenceInfo("System.Globalization.dll", Resources.SystemGlobalization, Net80.References.SystemGlobalization, global::System.Guid.Parse("fd64f1ee-ac16-4128-869c-4eb142eaa31f"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.Loader.dll
+        /// The <see cref="ReferenceInfo"/> for System.Globalization.Extensions.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeLoader => new ReferenceInfo("System.Runtime.Loader.dll", Resources.SystemRuntimeLoader, Net80.References.SystemRuntimeLoader, global::System.Guid.Parse("aca99f31-280b-4705-943a-528d003d29e2"));
+        public static ReferenceInfo SystemGlobalizationExtensions => new ReferenceInfo("System.Globalization.Extensions.dll", Resources.SystemGlobalizationExtensions, Net80.References.SystemGlobalizationExtensions, global::System.Guid.Parse("2317d0f5-f08d-4501-bf0f-791c0fe821e6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.Serialization.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlSerialization => new ReferenceInfo("System.Xml.Serialization.dll", Resources.SystemXmlSerialization, Net80.References.SystemXmlSerialization, global::System.Guid.Parse("8dd845e8-8f0e-4a13-aa8c-d26648319854"));
+        public static ReferenceInfo SystemIOCompressionBrotli => new ReferenceInfo("System.IO.Compression.Brotli.dll", Resources.SystemIOCompressionBrotli, Net80.References.SystemIOCompressionBrotli, global::System.Guid.Parse("fca988a6-6fb6-4abe-a740-1d8f78ea3e6b"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.dll
+        /// The <see cref="ReferenceInfo"/> for System.IO.Compression.dll
         /// </summary>
-        public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO, Net80.References.SystemIO, global::System.Guid.Parse("60094e67-b352-4ee0-b5a4-0bce988a0129"));
+        public static ReferenceInfo SystemIOCompression => new ReferenceInfo("System.IO.Compression.dll", Resources.SystemIOCompression, Net80.References.SystemIOCompression, global::System.Guid.Parse("6427cefe-5352-4f73-b449-c86b0dfb8cc1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.FileVersionInfo.dll
@@ -258,19 +258,19 @@ public static partial class Net80
         public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices, Net80.References.SystemRuntimeInteropServices, global::System.Guid.Parse("c710117f-47f7-4e05-91f0-724bf6cc1a82"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Parallel.dll
+        /// The <see cref="ReferenceInfo"/> for System.IO.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingTasksParallel => new ReferenceInfo("System.Threading.Tasks.Parallel.dll", Resources.SystemThreadingTasksParallel, Net80.References.SystemThreadingTasksParallel, global::System.Guid.Parse("59b90047-76ab-4a10-8072-8eee060facb4"));
+        public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO, Net80.References.SystemIO, global::System.Guid.Parse("60094e67-b352-4ee0-b5a4-0bce988a0129"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Sockets.dll
         /// </summary>
-        public static ReferenceInfo SystemNetSockets => new ReferenceInfo("System.Net.Sockets.dll", Resources.SystemNetSockets, Net80.References.SystemNetSockets, global::System.Guid.Parse("842e15bd-f049-4485-82ed-c68519b29b42"));
+        public static ReferenceInfo SystemIOFileSystemAccessControl => new ReferenceInfo("System.IO.FileSystem.AccessControl.dll", Resources.SystemIOFileSystemAccessControl, Net80.References.SystemIOFileSystemAccessControl, global::System.Guid.Parse("3e6f08db-36de-4df8-8d53-012cc6b3f65f"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.ValueTuple.dll
+        /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.dll
         /// </summary>
-        public static ReferenceInfo SystemValueTuple => new ReferenceInfo("System.ValueTuple.dll", Resources.SystemValueTuple, Net80.References.SystemValueTuple, global::System.Guid.Parse("10a8c713-4e7c-4384-83c7-0cbdc89c405c"));
+        public static ReferenceInfo SystemIOFileSystem => new ReferenceInfo("System.IO.FileSystem.dll", Resources.SystemIOFileSystem, Net80.References.SystemIOFileSystem, global::System.Guid.Parse("87cbd5ee-51d3-4631-a21b-00b7e8cd46e1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.RuntimeInformation.dll
@@ -285,7 +285,7 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.ServicePoint.dll
         /// </summary>
-        public static ReferenceInfo SystemNetServicePoint => new ReferenceInfo("System.Net.ServicePoint.dll", Resources.SystemNetServicePoint, Net80.References.SystemNetServicePoint, global::System.Guid.Parse("db314154-b6d3-46d6-8af9-8dd3daa44c2a"));
+        public static ReferenceInfo SystemIOFileSystemWatcher => new ReferenceInfo("System.IO.FileSystem.Watcher.dll", Resources.SystemIOFileSystemWatcher, Net80.References.SystemIOFileSystemWatcher, global::System.Guid.Parse("9bf488f1-0f26-41c0-b00e-c6c2deece328"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.CodePages.dll
@@ -313,9 +313,9 @@ public static partial class Net80
         public static ReferenceInfo SystemReflectionEmit => new ReferenceInfo("System.Reflection.Emit.dll", Resources.SystemReflectionEmit, Net80.References.SystemReflectionEmit, global::System.Guid.Parse("6338bc65-00e8-49b6-8092-7447a5c44226"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Net.NetworkInformation.dll
+        /// The <see cref="ReferenceInfo"/> for System.Linq.dll
         /// </summary>
-        public static ReferenceInfo SystemNetNetworkInformation => new ReferenceInfo("System.Net.NetworkInformation.dll", Resources.SystemNetNetworkInformation, Net80.References.SystemNetNetworkInformation, global::System.Guid.Parse("18096c73-79f6-49ab-8249-fdafc4fe1b49"));
+        public static ReferenceInfo SystemLinq => new ReferenceInfo("System.Linq.dll", Resources.SystemLinq, Net80.References.SystemLinq, global::System.Guid.Parse("f57fb333-2777-45de-af65-8663a14d2a8f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.ILGeneration.dll
@@ -330,7 +330,7 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModelPrimitives => new ReferenceInfo("System.ComponentModel.Primitives.dll", Resources.SystemComponentModelPrimitives, Net80.References.SystemComponentModelPrimitives, global::System.Guid.Parse("5b49da2e-9a9e-4802-90b6-0e6f292d7a68"));
+        public static ReferenceInfo SystemLinqQueryable => new ReferenceInfo("System.Linq.Queryable.dll", Resources.SystemLinqQueryable, Net80.References.SystemLinqQueryable, global::System.Guid.Parse("74f3f974-0060-488c-bc3d-129ea75c76c0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.DataAnnotations.dll
@@ -338,19 +338,19 @@ public static partial class Net80
         public static ReferenceInfo SystemComponentModelDataAnnotations => new ReferenceInfo("System.ComponentModel.DataAnnotations.dll", Resources.SystemComponentModelDataAnnotations, Net80.References.SystemComponentModelDataAnnotations, global::System.Guid.Parse("c8fbd488-f175-4808-9f57-7d485b829f2c"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.CompilerServices.VisualC.dll
+        /// The <see cref="ReferenceInfo"/> for System.Net.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeCompilerServicesVisualC => new ReferenceInfo("System.Runtime.CompilerServices.VisualC.dll", Resources.SystemRuntimeCompilerServicesVisualC, Net80.References.SystemRuntimeCompilerServicesVisualC, global::System.Guid.Parse("5b7b7255-3c7e-48c6-b7e3-913e56b39c08"));
+        public static ReferenceInfo SystemNet => new ReferenceInfo("System.Net.dll", Resources.SystemNet, Net80.References.SystemNet, global::System.Guid.Parse("f0efdf6e-a60a-4b5f-8715-1564598a1951"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Debug.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsDebug => new ReferenceInfo("System.Diagnostics.Debug.dll", Resources.SystemDiagnosticsDebug, Net80.References.SystemDiagnosticsDebug, global::System.Guid.Parse("01ca8db5-696d-419a-903c-f61625819b3c"));
+        public static ReferenceInfo SystemNetHttp => new ReferenceInfo("System.Net.Http.dll", Resources.SystemNetHttp, Net80.References.SystemNetHttp, global::System.Guid.Parse("fc413c19-c0e5-469e-8eab-2e73b385b6ec"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Buffers.dll
+        /// The <see cref="ReferenceInfo"/> for System.Net.Http.Json.dll
         /// </summary>
-        public static ReferenceInfo SystemBuffers => new ReferenceInfo("System.Buffers.dll", Resources.SystemBuffers, Net80.References.SystemBuffers, global::System.Guid.Parse("a8d67a4d-0d20-4c1c-8cc4-0607020c100d"));
+        public static ReferenceInfo SystemNetHttpJson => new ReferenceInfo("System.Net.Http.Json.dll", Resources.SystemNetHttpJson, Net80.References.SystemNetHttpJson, global::System.Guid.Parse("13b72175-76bb-4609-b8fd-400396f81e2f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Collections.NonGeneric.dll
@@ -433,14 +433,14 @@ public static partial class Net80
         public static ReferenceInfo SystemSecurityPrincipal => new ReferenceInfo("System.Security.Principal.dll", Resources.SystemSecurityPrincipal, Net80.References.SystemSecurityPrincipal, global::System.Guid.Parse("50894a08-4aa4-4a7f-b01c-d0ff6c78dde6"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.ServiceProcess.dll
+        /// The <see cref="ReferenceInfo"/> for System.Numerics.dll
         /// </summary>
-        public static ReferenceInfo SystemServiceProcess => new ReferenceInfo("System.ServiceProcess.dll", Resources.SystemServiceProcess, Net80.References.SystemServiceProcess, global::System.Guid.Parse("3fd562c9-4903-4e61-97a7-94a05caefc64"));
+        public static ReferenceInfo SystemNumerics => new ReferenceInfo("System.Numerics.dll", Resources.SystemNumerics, Net80.References.SystemNumerics, global::System.Guid.Parse("61794a33-1318-4396-9853-5520a85fdb70"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Linq.Queryable.dll
         /// </summary>
-        public static ReferenceInfo SystemLinqQueryable => new ReferenceInfo("System.Linq.Queryable.dll", Resources.SystemLinqQueryable, Net80.References.SystemLinqQueryable, global::System.Guid.Parse("74f3f974-0060-488c-bc3d-129ea75c76c0"));
+        public static ReferenceInfo SystemNumericsVectors => new ReferenceInfo("System.Numerics.Vectors.dll", Resources.SystemNumericsVectors, Net80.References.SystemNumericsVectors, global::System.Guid.Parse("bc660e00-453e-453e-84f8-95babf2e4957"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Memory.dll
@@ -450,17 +450,17 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XDocument.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXDocument => new ReferenceInfo("System.Xml.XDocument.dll", Resources.SystemXmlXDocument, Net80.References.SystemXmlXDocument, global::System.Guid.Parse("1c990131-a3f5-4915-a738-a38c3377b8cb"));
+        public static ReferenceInfo SystemReflectionDispatchProxy => new ReferenceInfo("System.Reflection.DispatchProxy.dll", Resources.SystemReflectionDispatchProxy, Net80.References.SystemReflectionDispatchProxy, global::System.Guid.Parse("3f18f8de-cd44-4910-896b-c15850a66c88"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Collections.dll
+        /// The <see cref="ReferenceInfo"/> for System.Reflection.dll
         /// </summary>
-        public static ReferenceInfo SystemCollections => new ReferenceInfo("System.Collections.dll", Resources.SystemCollections, Net80.References.SystemCollections, global::System.Guid.Parse("025c20a3-1bfc-406c-ad80-2d0bdf2a577c"));
+        public static ReferenceInfo SystemReflection => new ReferenceInfo("System.Reflection.dll", Resources.SystemReflection, Net80.References.SystemReflection, global::System.Guid.Parse("4bae5f4b-4bf2-433d-ab44-eb2a3c72c711"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Web.HttpUtility.dll
+        /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.dll
         /// </summary>
-        public static ReferenceInfo SystemWebHttpUtility => new ReferenceInfo("System.Web.HttpUtility.dll", Resources.SystemWebHttpUtility, Net80.References.SystemWebHttpUtility, global::System.Guid.Parse("21cb7f17-8a6f-4b6f-8ea4-841d1b534bf4"));
+        public static ReferenceInfo SystemReflectionEmit => new ReferenceInfo("System.Reflection.Emit.dll", Resources.SystemReflectionEmit, Net80.References.SystemReflectionEmit, global::System.Guid.Parse("6338bc65-00e8-49b6-8092-7447a5c44226"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.dll
@@ -470,7 +470,7 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Dataflow.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingTasksDataflow => new ReferenceInfo("System.Threading.Tasks.Dataflow.dll", Resources.SystemThreadingTasksDataflow, Net80.References.SystemThreadingTasksDataflow, global::System.Guid.Parse("f6eb07ca-cc82-4726-a21b-15a99b7fd721"));
+        public static ReferenceInfo SystemReflectionEmitLightweight => new ReferenceInfo("System.Reflection.Emit.Lightweight.dll", Resources.SystemReflectionEmitLightweight, Net80.References.SystemReflectionEmitLightweight, global::System.Guid.Parse("b9cae7f9-eb39-4ca2-80c1-9ed3a46657d1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Ping.dll
@@ -490,7 +490,7 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.WebClient.dll
         /// </summary>
-        public static ReferenceInfo SystemNetWebClient => new ReferenceInfo("System.Net.WebClient.dll", Resources.SystemNetWebClient, Net80.References.SystemNetWebClient, global::System.Guid.Parse("ce6050f2-4fe0-414d-87e2-6ca0ac3d2654"));
+        public static ReferenceInfo SystemReflectionTypeExtensions => new ReferenceInfo("System.Reflection.TypeExtensions.dll", Resources.SystemReflectionTypeExtensions, Net80.References.SystemReflectionTypeExtensions, global::System.Guid.Parse("6f7c262b-6ec8-4d5c-b190-be8083e416e1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.dll
@@ -515,12 +515,12 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.AccessControl.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityAccessControl => new ReferenceInfo("System.Security.AccessControl.dll", Resources.SystemSecurityAccessControl, Net80.References.SystemSecurityAccessControl, global::System.Guid.Parse("9126c089-4ce3-4112-80a1-43f8887f6c56"));
+        public static ReferenceInfo SystemRuntimeCompilerServicesVisualC => new ReferenceInfo("System.Runtime.CompilerServices.VisualC.dll", Resources.SystemRuntimeCompilerServicesVisualC, Net80.References.SystemRuntimeCompilerServicesVisualC, global::System.Guid.Parse("5b7b7255-3c7e-48c6-b7e3-913e56b39c08"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.DriveInfo.dll
+        /// The <see cref="ReferenceInfo"/> for System.Runtime.dll
         /// </summary>
-        public static ReferenceInfo SystemIOFileSystemDriveInfo => new ReferenceInfo("System.IO.FileSystem.DriveInfo.dll", Resources.SystemIOFileSystemDriveInfo, Net80.References.SystemIOFileSystemDriveInfo, global::System.Guid.Parse("7eec11db-9261-4cc6-b365-8bcca3e02628"));
+        public static ReferenceInfo SystemRuntime => new ReferenceInfo("System.Runtime.dll", Resources.SystemRuntime, Net80.References.SystemRuntime, global::System.Guid.Parse("397ede25-24f6-48b5-be6d-15c241d327e6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Http.Json.dll
@@ -530,12 +530,12 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.dll
         /// </summary>
-        public static ReferenceInfo SystemReflection => new ReferenceInfo("System.Reflection.dll", Resources.SystemReflection, Net80.References.SystemReflection, global::System.Guid.Parse("4bae5f4b-4bf2-433d-ab44-eb2a3c72c711"));
+        public static ReferenceInfo SystemRuntimeHandles => new ReferenceInfo("System.Runtime.Handles.dll", Resources.SystemRuntimeHandles, Net80.References.SystemRuntimeHandles, global::System.Guid.Parse("122dcb5c-4dc4-4738-a5f7-65a404045201"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Numerics.Vectors.dll
+        /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.dll
         /// </summary>
-        public static ReferenceInfo SystemNumericsVectors => new ReferenceInfo("System.Numerics.Vectors.dll", Resources.SystemNumericsVectors, Net80.References.SystemNumericsVectors, global::System.Guid.Parse("bc660e00-453e-453e-84f8-95babf2e4957"));
+        public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices, Net80.References.SystemRuntimeInteropServices, global::System.Guid.Parse("c710117f-47f7-4e05-91f0-724bf6cc1a82"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ServiceModel.Web.dll
@@ -545,7 +545,7 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.EventBasedAsync.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModelEventBasedAsync => new ReferenceInfo("System.ComponentModel.EventBasedAsync.dll", Resources.SystemComponentModelEventBasedAsync, Net80.References.SystemComponentModelEventBasedAsync, global::System.Guid.Parse("d90370ff-ce21-4f83-84b2-8bc8f0eda270"));
+        public static ReferenceInfo SystemRuntimeInteropServicesRuntimeInformation => new ReferenceInfo("System.Runtime.InteropServices.RuntimeInformation.dll", Resources.SystemRuntimeInteropServicesRuntimeInformation, Net80.References.SystemRuntimeInteropServicesRuntimeInformation, global::System.Guid.Parse("5cbf62d8-18a6-47a7-aa84-444163054581"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.dll
@@ -560,12 +560,12 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Primitives.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionPrimitives => new ReferenceInfo("System.Reflection.Primitives.dll", Resources.SystemReflectionPrimitives, Net80.References.SystemReflectionPrimitives, global::System.Guid.Parse("c9dd3ec2-1146-4446-ac75-ae19647ac45c"));
+        public static ReferenceInfo SystemRuntimeNumerics => new ReferenceInfo("System.Runtime.Numerics.dll", Resources.SystemRuntimeNumerics, Net80.References.SystemRuntimeNumerics, global::System.Guid.Parse("3fbb8415-4eb7-4f8f-bf7d-10f2c916edb1"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for netstandard.dll
+        /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.dll
         /// </summary>
-        public static ReferenceInfo netstandard => new ReferenceInfo("netstandard.dll", Resources.netstandard, Net80.References.netstandard, global::System.Guid.Parse("73975047-df9f-4d84-8c06-441f21598a37"));
+        public static ReferenceInfo SystemRuntimeSerialization => new ReferenceInfo("System.Runtime.Serialization.dll", Resources.SystemRuntimeSerialization, Net80.References.SystemRuntimeSerialization, global::System.Guid.Parse("fe26f9d4-a614-4014-b79d-a3f3b01442b6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Globalization.Extensions.dll
@@ -585,7 +585,7 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Cng.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyCng => new ReferenceInfo("System.Security.Cryptography.Cng.dll", Resources.SystemSecurityCryptographyCng, Net80.References.SystemSecurityCryptographyCng, global::System.Guid.Parse("ad530968-d555-4b8d-8df0-7c96fe4b6143"));
+        public static ReferenceInfo SystemRuntimeSerializationXml => new ReferenceInfo("System.Runtime.Serialization.Xml.dll", Resources.SystemRuntimeSerializationXml, Net80.References.SystemRuntimeSerializationXml, global::System.Guid.Parse("e4880330-5f88-4067-915d-7351cf175ff8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Extensions.dll
@@ -610,12 +610,12 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.IsolatedStorage.dll
         /// </summary>
-        public static ReferenceInfo SystemIOIsolatedStorage => new ReferenceInfo("System.IO.IsolatedStorage.dll", Resources.SystemIOIsolatedStorage, Net80.References.SystemIOIsolatedStorage, global::System.Guid.Parse("e6fecca8-5434-4788-be5b-c32b6f4dd492"));
+        public static ReferenceInfo SystemSecurityCryptographyCsp => new ReferenceInfo("System.Security.Cryptography.Csp.dll", Resources.SystemSecurityCryptographyCsp, Net80.References.SystemSecurityCryptographyCsp, global::System.Guid.Parse("4b2506cc-23b4-4866-9bae-de585c583451"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Globalization.dll
+        /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.dll
         /// </summary>
-        public static ReferenceInfo SystemGlobalization => new ReferenceInfo("System.Globalization.dll", Resources.SystemGlobalization, Net80.References.SystemGlobalization, global::System.Guid.Parse("fd64f1ee-ac16-4128-869c-4eb142eaa31f"));
+        public static ReferenceInfo SystemSecurityCryptography => new ReferenceInfo("System.Security.Cryptography.dll", Resources.SystemSecurityCryptography, Net80.References.SystemSecurityCryptography, global::System.Guid.Parse("b636a9d3-8686-4351-9340-7530d6fd345e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Claims.dll
@@ -638,24 +638,24 @@ public static partial class Net80
         public static ReferenceInfo SystemConsole => new ReferenceInfo("System.Console.dll", Resources.SystemConsole, Net80.References.SystemConsole, global::System.Guid.Parse("1e2a572d-ac79-4893-a169-87a4e0a8c06c"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for mscorlib.dll
+        /// The <see cref="ReferenceInfo"/> for System.Security.dll
         /// </summary>
-        public static ReferenceInfo mscorlib => new ReferenceInfo("mscorlib.dll", Resources.mscorlib, Net80.References.mscorlib, global::System.Guid.Parse("f0e529cf-f5c6-4539-866c-2ab5067573df"));
+        public static ReferenceInfo SystemSecurity => new ReferenceInfo("System.Security.dll", Resources.SystemSecurity, Net80.References.SystemSecurity, global::System.Guid.Parse("8b1e3de3-8e8e-4a5d-b6eb-5f8bf6b0e701"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Net.WebHeaderCollection.dll
+        /// The <see cref="ReferenceInfo"/> for System.Security.Principal.dll
         /// </summary>
-        public static ReferenceInfo SystemNetWebHeaderCollection => new ReferenceInfo("System.Net.WebHeaderCollection.dll", Resources.SystemNetWebHeaderCollection, Net80.References.SystemNetWebHeaderCollection, global::System.Guid.Parse("4a30a45b-7a5a-4d95-8b8f-30da161846a6"));
+        public static ReferenceInfo SystemSecurityPrincipal => new ReferenceInfo("System.Security.Principal.dll", Resources.SystemSecurityPrincipal, Net80.References.SystemSecurityPrincipal, global::System.Guid.Parse("50894a08-4aa4-4a7f-b01c-d0ff6c78dde6"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.XDocument.dll
+        /// The <see cref="ReferenceInfo"/> for System.Security.Principal.Windows.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, Net80.References.SystemXmlXPathXDocument, global::System.Guid.Parse("fe5bb2e5-62d8-4014-96b0-74163ff4f9c0"));
+        public static ReferenceInfo SystemSecurityPrincipalWindows => new ReferenceInfo("System.Security.Principal.Windows.dll", Resources.SystemSecurityPrincipalWindows, Net80.References.SystemSecurityPrincipalWindows, global::System.Guid.Parse("77bc8fa9-a69e-4532-a2df-9e344b8dc31e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.dll
         /// </summary>
-        public static ReferenceInfo SystemComponentModel => new ReferenceInfo("System.ComponentModel.dll", Resources.SystemComponentModel, Net80.References.SystemComponentModel, global::System.Guid.Parse("7a15f7cf-d2a6-43f2-a1a4-59065c9aa9ab"));
+        public static ReferenceInfo SystemSecuritySecureString => new ReferenceInfo("System.Security.SecureString.dll", Resources.SystemSecuritySecureString, Net80.References.SystemSecuritySecureString, global::System.Guid.Parse("a6727ca0-1dcd-4382-9a56-b50159204b7e"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Numerics.dll
@@ -673,14 +673,14 @@ public static partial class Net80
         public static ReferenceInfo SystemLinqExpressions => new ReferenceInfo("System.Linq.Expressions.dll", Resources.SystemLinqExpressions, Net80.References.SystemLinqExpressions, global::System.Guid.Parse("3038e8fe-2dd2-4863-b910-19d171703c69"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.dll
+        /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingTasks => new ReferenceInfo("System.Threading.Tasks.dll", Resources.SystemThreadingTasks, Net80.References.SystemThreadingTasks, global::System.Guid.Parse("df618ef1-6c2d-4ed8-af00-284e98b3681f"));
+        public static ReferenceInfo SystemTextEncoding => new ReferenceInfo("System.Text.Encoding.dll", Resources.SystemTextEncoding, Net80.References.SystemTextEncoding, global::System.Guid.Parse("75c28f71-6596-4826-9815-58e3d0fe520e"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Xml.Linq.dll
+        /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.Extensions.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlLinq => new ReferenceInfo("System.Xml.Linq.dll", Resources.SystemXmlLinq, Net80.References.SystemXmlLinq, global::System.Guid.Parse("358c243f-97b8-418d-9f47-627a0d3ca43f"));
+        public static ReferenceInfo SystemTextEncodingExtensions => new ReferenceInfo("System.Text.Encoding.Extensions.dll", Resources.SystemTextEncodingExtensions, Net80.References.SystemTextEncodingExtensions, global::System.Guid.Parse("74f95d39-90c8-41b1-87a5-e1f064f08971"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.dll
@@ -700,12 +700,12 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Intrinsics.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeIntrinsics => new ReferenceInfo("System.Runtime.Intrinsics.dll", Resources.SystemRuntimeIntrinsics, Net80.References.SystemRuntimeIntrinsics, global::System.Guid.Parse("b5787cee-8bc2-4866-83ca-99fad3b71cb9"));
+        public static ReferenceInfo SystemThreadingChannels => new ReferenceInfo("System.Threading.Channels.dll", Resources.SystemThreadingChannels, Net80.References.SystemThreadingChannels, global::System.Guid.Parse("64257dcb-3dd3-4340-8979-478fcb3f8b0d"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Data.Common.dll
+        /// The <see cref="ReferenceInfo"/> for System.Threading.dll
         /// </summary>
-        public static ReferenceInfo SystemDataCommon => new ReferenceInfo("System.Data.Common.dll", Resources.SystemDataCommon, Net80.References.SystemDataCommon, global::System.Guid.Parse("efb166ec-50c3-49cc-94b9-ad0bc5d1b1ac"));
+        public static ReferenceInfo SystemThreading => new ReferenceInfo("System.Threading.dll", Resources.SystemThreading, Net80.References.SystemThreading, global::System.Guid.Parse("98b5509a-c4bc-4ab6-be29-de159b90923f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.Watcher.dll
@@ -715,12 +715,12 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.AppContext.dll
         /// </summary>
-        public static ReferenceInfo SystemAppContext => new ReferenceInfo("System.AppContext.dll", Resources.SystemAppContext, Net80.References.SystemAppContext, global::System.Guid.Parse("5288d9eb-6a6a-43d0-a8fa-f7148b3c874a"));
+        public static ReferenceInfo SystemThreadingTasksDataflow => new ReferenceInfo("System.Threading.Tasks.Dataflow.dll", Resources.SystemThreadingTasksDataflow, Net80.References.SystemThreadingTasksDataflow, global::System.Guid.Parse("f6eb07ca-cc82-4726-a21b-15a99b7fd721"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Security.dll
+        /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurity => new ReferenceInfo("System.Security.dll", Resources.SystemSecurity, Net80.References.SystemSecurity, global::System.Guid.Parse("8b1e3de3-8e8e-4a5d-b6eb-5f8bf6b0e701"));
+        public static ReferenceInfo SystemThreadingTasks => new ReferenceInfo("System.Threading.Tasks.dll", Resources.SystemThreadingTasks, Net80.References.SystemThreadingTasks, global::System.Guid.Parse("df618ef1-6c2d-4ed8-af00-284e98b3681f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Json.dll
@@ -730,7 +730,7 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Quic.dll
         /// </summary>
-        public static ReferenceInfo SystemNetQuic => new ReferenceInfo("System.Net.Quic.dll", Resources.SystemNetQuic, Net80.References.SystemNetQuic, global::System.Guid.Parse("ca53bdf3-2831-4e07-9a06-e256066d6b4d"));
+        public static ReferenceInfo SystemThreadingTasksParallel => new ReferenceInfo("System.Threading.Tasks.Parallel.dll", Resources.SystemThreadingTasksParallel, Net80.References.SystemThreadingTasksParallel, global::System.Guid.Parse("59b90047-76ab-4a10-8072-8eee060facb4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Handles.dll
@@ -748,9 +748,9 @@ public static partial class Net80
         public static ReferenceInfo SystemLinqParallel => new ReferenceInfo("System.Linq.Parallel.dll", Resources.SystemLinqParallel, Net80.References.SystemLinqParallel, global::System.Guid.Parse("40ef3072-0df4-44ce-9e68-9c21bfb60291"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Threading.Channels.dll
+        /// The <see cref="ReferenceInfo"/> for System.Transactions.dll
         /// </summary>
-        public static ReferenceInfo SystemThreadingChannels => new ReferenceInfo("System.Threading.Channels.dll", Resources.SystemThreadingChannels, Net80.References.SystemThreadingChannels, global::System.Guid.Parse("64257dcb-3dd3-4340-8979-478fcb3f8b0d"));
+        public static ReferenceInfo SystemTransactions => new ReferenceInfo("System.Transactions.dll", Resources.SystemTransactions, Net80.References.SystemTransactions, global::System.Guid.Parse("496991c3-4161-4807-a474-5e6b7b50898f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Web.dll
@@ -758,14 +758,14 @@ public static partial class Net80
         public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, Net80.References.SystemWeb, global::System.Guid.Parse("c22515bd-da28-4ac2-a953-756ba54a8c0d"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.Numerics.dll
+        /// The <see cref="ReferenceInfo"/> for System.ValueTuple.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeNumerics => new ReferenceInfo("System.Runtime.Numerics.dll", Resources.SystemRuntimeNumerics, Net80.References.SystemRuntimeNumerics, global::System.Guid.Parse("3fbb8415-4eb7-4f8f-bf7d-10f2c916edb1"));
+        public static ReferenceInfo SystemValueTuple => new ReferenceInfo("System.ValueTuple.dll", Resources.SystemValueTuple, Net80.References.SystemValueTuple, global::System.Guid.Parse("10a8c713-4e7c-4384-83c7-0cbdc89c405c"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Xml.XmlDocument.dll
+        /// The <see cref="ReferenceInfo"/> for System.Web.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXmlDocument => new ReferenceInfo("System.Xml.XmlDocument.dll", Resources.SystemXmlXmlDocument, Net80.References.SystemXmlXmlDocument, global::System.Guid.Parse("2d8ec65b-8b64-4b27-a2c7-ade9329a2c77"));
+        public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, Net80.References.SystemWeb, global::System.Guid.Parse("c22515bd-da28-4ac2-a953-756ba54a8c0d"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XmlSerializer.dll
@@ -773,14 +773,14 @@ public static partial class Net80
         public static ReferenceInfo SystemXmlXmlSerializer => new ReferenceInfo("System.Xml.XmlSerializer.dll", Resources.SystemXmlXmlSerializer, Net80.References.SystemXmlXmlSerializer, global::System.Guid.Parse("59755038-bd4f-4311-b7b5-ccbc7d7ee286"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Reflection.TypeExtensions.dll
+        /// The <see cref="ReferenceInfo"/> for System.Windows.dll
         /// </summary>
-        public static ReferenceInfo SystemReflectionTypeExtensions => new ReferenceInfo("System.Reflection.TypeExtensions.dll", Resources.SystemReflectionTypeExtensions, Net80.References.SystemReflectionTypeExtensions, global::System.Guid.Parse("6f7c262b-6ec8-4d5c-b190-be8083e416e1"));
+        public static ReferenceInfo SystemWindows => new ReferenceInfo("System.Windows.dll", Resources.SystemWindows, Net80.References.SystemWindows, global::System.Guid.Parse("20c91fa1-8a5e-444c-8276-cc0d22014e07"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.UnmanagedMemoryStream.dll
+        /// The <see cref="ReferenceInfo"/> for System.Xml.dll
         /// </summary>
-        public static ReferenceInfo SystemIOUnmanagedMemoryStream => new ReferenceInfo("System.IO.UnmanagedMemoryStream.dll", Resources.SystemIOUnmanagedMemoryStream, Net80.References.SystemIOUnmanagedMemoryStream, global::System.Guid.Parse("7206d7ef-58cd-476b-9bbc-bca7cae03cdb"));
+        public static ReferenceInfo SystemXml => new ReferenceInfo("System.Xml.dll", Resources.SystemXml, Net80.References.SystemXml, global::System.Guid.Parse("ae454a43-19d4-418a-9257-4241df156904"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.NameResolution.dll
@@ -800,7 +800,7 @@ public static partial class Net80
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Collections.Concurrent.dll
         /// </summary>
-        public static ReferenceInfo SystemCollectionsConcurrent => new ReferenceInfo("System.Collections.Concurrent.dll", Resources.SystemCollectionsConcurrent, Net80.References.SystemCollectionsConcurrent, global::System.Guid.Parse("291d7283-b119-4c71-9322-c41420697367"));
+        public static ReferenceInfo SystemXmlXDocument => new ReferenceInfo("System.Xml.XDocument.dll", Resources.SystemXmlXDocument, Net80.References.SystemXmlXDocument, global::System.Guid.Parse("1c990131-a3f5-4915-a738-a38c3377b8cb"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Encoding.dll
@@ -813,19 +813,19 @@ public static partial class Net80
         public static ReferenceInfo SystemTransactionsLocal => new ReferenceInfo("System.Transactions.Local.dll", Resources.SystemTransactionsLocal, Net80.References.SystemTransactionsLocal, global::System.Guid.Parse("c6332a06-1af7-4d75-baaf-d18f9b525c6a"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.Pipes.dll
+        /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.dll
         /// </summary>
-        public static ReferenceInfo SystemIOPipes => new ReferenceInfo("System.IO.Pipes.dll", Resources.SystemIOPipes, Net80.References.SystemIOPipes, global::System.Guid.Parse("df36582c-389c-44ad-9083-5694fc8dd162"));
+        public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, Net80.References.SystemXmlXPath, global::System.Guid.Parse("567f8bde-a77d-469e-b590-27b30302703b"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Windows.dll
+        /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.XDocument.dll
         /// </summary>
-        public static ReferenceInfo SystemWindows => new ReferenceInfo("System.Windows.dll", Resources.SystemWindows, Net80.References.SystemWindows, global::System.Guid.Parse("20c91fa1-8a5e-444c-8276-cc0d22014e07"));
+        public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, Net80.References.SystemXmlXPathXDocument, global::System.Guid.Parse("fe5bb2e5-62d8-4014-96b0-74163ff4f9c0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Xml.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeSerializationXml => new ReferenceInfo("System.Runtime.Serialization.Xml.dll", Resources.SystemRuntimeSerializationXml, Net80.References.SystemRuntimeSerializationXml, global::System.Guid.Parse("e4880330-5f88-4067-915d-7351cf175ff8"));
+        public static ReferenceInfo WindowsBase => new ReferenceInfo("WindowsBase.dll", Resources.WindowsBase, Net80.References.WindowsBase, global::System.Guid.Parse("f5f6bf26-77be-410b-a0fb-c8ca4924fa33"));
         private static ImmutableArray<ReferenceInfo> _all;
         public static ImmutableArray<ReferenceInfo> All
         {
@@ -835,169 +835,172 @@ public static partial class Net80
                 {
                     _all =
                     [
-                        System,
-                        SystemIOCompressionBrotli,
-                        SystemThreadingThread,
-                        SystemSecurityCryptography,
+                        MicrosoftCSharp,
+                        MicrosoftVisualBasicCore,
+                        MicrosoftVisualBasic,
+                        MicrosoftWin32Primitives,
+                        MicrosoftWin32Registry,
+                        mscorlib,
+                        netstandard,
+                        SystemAppContext,
+                        SystemBuffers,
+                        SystemCollectionsConcurrent,
+                        SystemCollections,
+                        SystemCollectionsImmutable,
+                        SystemCollectionsNonGeneric,
+                        SystemCollectionsSpecialized,
+                        SystemComponentModelAnnotations,
+                        SystemComponentModelDataAnnotations,
+                        SystemComponentModel,
+                        SystemComponentModelEventBasedAsync,
+                        SystemComponentModelPrimitives,
+                        SystemComponentModelTypeConverter,
+                        SystemConfiguration,
+                        SystemConsole,
+                        SystemCore,
+                        SystemDataCommon,
+                        SystemDataDataSetExtensions,
+                        SystemData,
                         SystemDiagnosticsContracts,
                         SystemComponentModelTypeConverter,
                         SystemSecurityCryptographyOpenSsl,
                         SystemReflectionMetadata,
                         SystemFormatsAsn1,
                         SystemDiagnosticsDiagnosticSource,
-                        SystemSecurityCryptographyPrimitives,
-                        MicrosoftWin32Primitives,
-                        SystemDrawingPrimitives,
-                        SystemIOMemoryMappedFiles,
-                        SystemCore,
-                        SystemRuntimeSerializationFormatters,
-                        SystemResourcesResourceManager,
-                        SystemThreadingOverlapped,
-                        SystemNetHttpListener,
-                        SystemNet,
-                        SystemObjectModel,
-                        SystemDiagnosticsTextWriterTraceListener,
-                        SystemSecurityCryptographyCsp,
-                        MicrosoftCSharp,
-                        SystemNetWebSocketsClient,
-                        SystemThreadingTimer,
-                        SystemReflectionEmitLightweight,
-                        SystemFormatsTar,
-                        SystemDynamicRuntime,
-                        SystemSecurityCryptographyAlgorithms,
-                        WindowsBase,
-                        SystemNetWebProxy,
-                        SystemConfiguration,
-                        SystemDiagnosticsTools,
-                        SystemIOPipesAccessControl,
-                        SystemDrawing,
-                        SystemRuntimeCompilerServicesUnsafe,
-                        SystemDiagnosticsTracing,
-                        SystemDataDataSetExtensions,
-                        SystemNetWebSockets,
-                        SystemTextJson,
-                        SystemReflectionDispatchProxy,
-                        SystemDiagnosticsTraceSource,
-                        MicrosoftVisualBasicCore,
-                        SystemRuntimeLoader,
-                        SystemXmlSerialization,
-                        SystemIO,
                         SystemDiagnosticsFileVersionInfo,
-                        SystemRuntimeInteropServices,
-                        SystemThreadingTasksParallel,
-                        SystemNetSockets,
-                        SystemValueTuple,
-                        SystemRuntimeInteropServicesRuntimeInformation,
-                        SystemSecurityCryptographyX509Certificates,
-                        SystemNetServicePoint,
-                        SystemTextEncodingCodePages,
-                        SystemIOCompression,
-                        SystemReflectionExtensions,
-                        SystemRuntimeSerialization,
-                        SystemReflectionEmit,
-                        SystemNetNetworkInformation,
-                        SystemReflectionEmitILGeneration,
                         SystemDiagnosticsProcess,
-                        SystemComponentModelPrimitives,
-                        SystemComponentModelDataAnnotations,
-                        SystemRuntimeCompilerServicesVisualC,
-                        SystemDiagnosticsDebug,
-                        SystemBuffers,
-                        SystemCollectionsNonGeneric,
-                        SystemThreading,
-                        SystemIOCompressionZipFile,
-                        SystemXmlReaderWriter,
-                        SystemTextRegularExpressions,
-                        MicrosoftVisualBasic,
-                        SystemComponentModelAnnotations,
-                        SystemNetRequests,
-                        SystemGlobalizationCalendars,
-                        SystemCollectionsImmutable,
-                        SystemRuntimeSerializationPrimitives,
-                        SystemTextEncodingExtensions,
                         SystemDiagnosticsStackTrace,
-                        SystemNetPrimitives,
-                        SystemSecuritySecureString,
-                        SystemSecurityPrincipal,
-                        SystemServiceProcess,
+                        SystemDiagnosticsTextWriterTraceListener,
+                        SystemDiagnosticsTools,
+                        SystemDiagnosticsTraceSource,
+                        SystemDiagnosticsTracing,
+                        System,
+                        SystemDrawing,
+                        SystemDrawingPrimitives,
+                        SystemDynamicRuntime,
+                        SystemFormatsAsn1,
+                        SystemFormatsTar,
+                        SystemGlobalizationCalendars,
+                        SystemGlobalization,
+                        SystemGlobalizationExtensions,
+                        SystemIOCompressionBrotli,
+                        SystemIOCompression,
+                        SystemIOCompressionFileSystem,
+                        SystemIOCompressionZipFile,
+                        SystemIO,
+                        SystemIOFileSystemAccessControl,
+                        SystemIOFileSystem,
+                        SystemIOFileSystemDriveInfo,
+                        SystemIOFileSystemPrimitives,
+                        SystemIOFileSystemWatcher,
+                        SystemIOIsolatedStorage,
+                        SystemIOMemoryMappedFiles,
+                        SystemIOPipesAccessControl,
+                        SystemIOPipes,
+                        SystemIOUnmanagedMemoryStream,
+                        SystemLinq,
+                        SystemLinqExpressions,
+                        SystemLinqParallel,
                         SystemLinqQueryable,
                         SystemMemory,
-                        SystemXmlXDocument,
-                        SystemCollections,
-                        SystemWebHttpUtility,
-                        SystemRuntime,
-                        SystemThreadingTasksDataflow,
-                        SystemNetPing,
-                        SystemIOFileSystemAccessControl,
-                        SystemCollectionsSpecialized,
-                        SystemNetWebClient,
-                        SystemTextEncoding,
-                        SystemResourcesReader,
-                        SystemData,
-                        SystemNetMail,
-                        SystemSecurityAccessControl,
-                        SystemIOFileSystemDriveInfo,
+                        SystemNet,
+                        SystemNetHttp,
                         SystemNetHttpJson,
-                        SystemReflection,
-                        SystemNumericsVectors,
-                        SystemServiceModelWeb,
-                        SystemComponentModelEventBasedAsync,
-                        SystemXmlXPath,
-                        SystemSecurityPrincipalWindows,
-                        SystemReflectionPrimitives,
-                        netstandard,
-                        SystemGlobalizationExtensions,
-                        SystemNetSecurity,
-                        SystemIOFileSystemPrimitives,
-                        SystemSecurityCryptographyCng,
-                        SystemRuntimeExtensions,
-                        SystemXml,
-                        SystemIOCompressionFileSystem,
-                        SystemResourcesWriter,
-                        SystemIOIsolatedStorage,
-                        SystemGlobalization,
-                        SystemSecurityClaims,
-                        SystemThreadingThreadPool,
-                        SystemTextEncodingsWeb,
-                        SystemConsole,
-                        mscorlib,
-                        SystemNetWebHeaderCollection,
-                        SystemXmlXPathXDocument,
-                        SystemComponentModel,
-                        SystemNumerics,
-                        SystemThreadingTasksExtensions,
-                        SystemLinqExpressions,
-                        SystemThreadingTasks,
-                        SystemXmlLinq,
-                        SystemIOFileSystem,
-                        MicrosoftWin32Registry,
-                        SystemLinq,
-                        SystemRuntimeIntrinsics,
-                        SystemDataCommon,
-                        SystemIOFileSystemWatcher,
-                        SystemAppContext,
-                        SystemSecurity,
-                        SystemRuntimeSerializationJson,
+                        SystemNetHttpListener,
+                        SystemNetMail,
+                        SystemNetNameResolution,
+                        SystemNetNetworkInformation,
+                        SystemNetPing,
+                        SystemNetPrimitives,
                         SystemNetQuic,
+                        SystemNetRequests,
+                        SystemNetSecurity,
+                        SystemNetServicePoint,
+                        SystemNetSockets,
+                        SystemNetWebClient,
+                        SystemNetWebHeaderCollection,
+                        SystemNetWebProxy,
+                        SystemNetWebSocketsClient,
+                        SystemNetWebSockets,
+                        SystemNumerics,
+                        SystemNumericsVectors,
+                        SystemObjectModel,
+                        SystemReflectionDispatchProxy,
+                        SystemReflection,
+                        SystemReflectionEmit,
+                        SystemReflectionEmitILGeneration,
+                        SystemReflectionEmitLightweight,
+                        SystemReflectionExtensions,
+                        SystemReflectionMetadata,
+                        SystemReflectionPrimitives,
+                        SystemReflectionTypeExtensions,
+                        SystemResourcesReader,
+                        SystemResourcesResourceManager,
+                        SystemResourcesWriter,
+                        SystemRuntimeCompilerServicesUnsafe,
+                        SystemRuntimeCompilerServicesVisualC,
+                        SystemRuntime,
+                        SystemRuntimeExtensions,
                         SystemRuntimeHandles,
+                        SystemRuntimeInteropServices,
                         SystemRuntimeInteropServicesJavaScript,
-                        SystemLinqParallel,
-                        SystemThreadingChannels,
-                        SystemWeb,
+                        SystemRuntimeInteropServicesRuntimeInformation,
+                        SystemRuntimeIntrinsics,
+                        SystemRuntimeLoader,
                         SystemRuntimeNumerics,
+                        SystemRuntimeSerialization,
+                        SystemRuntimeSerializationFormatters,
+                        SystemRuntimeSerializationJson,
+                        SystemRuntimeSerializationPrimitives,
+                        SystemRuntimeSerializationXml,
+                        SystemSecurityAccessControl,
+                        SystemSecurityClaims,
+                        SystemSecurityCryptographyAlgorithms,
+                        SystemSecurityCryptographyCng,
+                        SystemSecurityCryptographyCsp,
+                        SystemSecurityCryptography,
+                        SystemSecurityCryptographyEncoding,
+                        SystemSecurityCryptographyOpenSsl,
+                        SystemSecurityCryptographyPrimitives,
+                        SystemSecurityCryptographyX509Certificates,
+                        SystemSecurity,
+                        SystemSecurityPrincipal,
+                        SystemSecurityPrincipalWindows,
+                        SystemSecuritySecureString,
+                        SystemServiceModelWeb,
+                        SystemServiceProcess,
+                        SystemTextEncodingCodePages,
+                        SystemTextEncoding,
+                        SystemTextEncodingExtensions,
+                        SystemTextEncodingsWeb,
+                        SystemTextJson,
+                        SystemTextRegularExpressions,
+                        SystemThreadingChannels,
+                        SystemThreading,
+                        SystemThreadingOverlapped,
+                        SystemThreadingTasksDataflow,
+                        SystemThreadingTasks,
+                        SystemThreadingTasksExtensions,
+                        SystemThreadingTasksParallel,
+                        SystemThreadingThread,
+                        SystemThreadingThreadPool,
+                        SystemThreadingTimer,
+                        SystemTransactions,
+                        SystemTransactionsLocal,
+                        SystemValueTuple,
+                        SystemWeb,
+                        SystemWebHttpUtility,
+                        SystemWindows,
+                        SystemXml,
+                        SystemXmlLinq,
+                        SystemXmlReaderWriter,
+                        SystemXmlSerialization,
+                        SystemXmlXDocument,
                         SystemXmlXmlDocument,
                         SystemXmlXmlSerializer,
-                        SystemReflectionTypeExtensions,
-                        SystemIOUnmanagedMemoryStream,
-                        SystemNetNameResolution,
-                        SystemTransactions,
-                        SystemNetHttp,
-                        SystemCollectionsConcurrent,
-                        SystemSecurityCryptographyEncoding,
-                        SystemTransactionsLocal,
-                        SystemIOPipes,
-                        SystemWindows,
-                        SystemRuntimeSerializationXml,
+                        SystemXmlXPath,
+                        SystemXmlXPathXDocument,
+                        WindowsBase,
                     ];
                 }
                 return _all;
@@ -1097,37 +1100,37 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemComponentModelTypeConverter;
+        private static PortableExecutableReference? _mscorlib;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.ComponentModel.TypeConverter.dll
+        /// The <see cref="PortableExecutableReference"/> for mscorlib.dll
         /// </summary>
-        public static PortableExecutableReference SystemComponentModelTypeConverter
+        public static PortableExecutableReference mscorlib
         {
             get
             {
-                if (_SystemComponentModelTypeConverter is null)
+                if (_mscorlib is null)
                 {
-                    _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.ComponentModel.TypeConverter")).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (net80)");
+                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net80)");
                 }
-                return _SystemComponentModelTypeConverter;
+                return _mscorlib;
             }
         }
 
-        private static PortableExecutableReference? _SystemSecurityCryptographyOpenSsl;
+        private static PortableExecutableReference? _netstandard;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Security.Cryptography.OpenSsl.dll
+        /// The <see cref="PortableExecutableReference"/> for netstandard.dll
         /// </summary>
-        public static PortableExecutableReference SystemSecurityCryptographyOpenSsl
+        public static PortableExecutableReference netstandard
         {
             get
             {
-                if (_SystemSecurityCryptographyOpenSsl is null)
+                if (_netstandard is null)
                 {
-                    _SystemSecurityCryptographyOpenSsl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Security.Cryptography.OpenSsl")).GetReference(filePath: "System.Security.Cryptography.OpenSsl.dll", display: "System.Security.Cryptography.OpenSsl (net80)");
+                    _netstandard = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.netstandard")).GetReference(filePath: "netstandard.dll", display: "netstandard (net80)");
                 }
-                return _SystemSecurityCryptographyOpenSsl;
+                return _netstandard;
             }
         }
 
@@ -1182,20 +1185,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemSecurityCryptographyPrimitives;
+        private static PortableExecutableReference? _SystemCollections;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Security.Cryptography.Primitives.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Collections.dll
         /// </summary>
-        public static PortableExecutableReference SystemSecurityCryptographyPrimitives
+        public static PortableExecutableReference SystemCollections
         {
             get
             {
-                if (_SystemSecurityCryptographyPrimitives is null)
+                if (_SystemCollections is null)
                 {
-                    _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Security.Cryptography.Primitives")).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (net80)");
+                    _SystemCollections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Collections")).GetReference(filePath: "System.Collections.dll", display: "System.Collections (net80)");
                 }
-                return _SystemSecurityCryptographyPrimitives;
+                return _SystemCollections;
             }
         }
 
@@ -1250,6 +1253,23 @@ public static partial class Net80
             }
         }
 
+        private static PortableExecutableReference? _SystemCollections;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Collections.dll
+        /// </summary>
+        public static PortableExecutableReference SystemCollections
+        {
+            get
+            {
+                if (_SystemCollections is null)
+                {
+                    _SystemCollections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Collections")).GetReference(filePath: "System.Collections.dll", display: "System.Collections (net80)");
+                }
+                return _SystemCollections;
+            }
+        }
+
         private static PortableExecutableReference? _SystemCore;
 
         /// <summary>
@@ -1284,20 +1304,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemResourcesResourceManager;
+        private static PortableExecutableReference? _SystemComponentModel;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Resources.ResourceManager.dll
+        /// The <see cref="PortableExecutableReference"/> for System.ComponentModel.dll
         /// </summary>
-        public static PortableExecutableReference SystemResourcesResourceManager
+        public static PortableExecutableReference SystemComponentModel
         {
             get
             {
-                if (_SystemResourcesResourceManager is null)
+                if (_SystemComponentModel is null)
                 {
-                    _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Resources.ResourceManager")).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (net80)");
+                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.ComponentModel")).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (net80)");
                 }
-                return _SystemResourcesResourceManager;
+                return _SystemComponentModel;
             }
         }
 
@@ -1349,6 +1369,23 @@ public static partial class Net80
                     _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (net80)");
                 }
                 return _SystemNet;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemComponentModel;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.ComponentModel.dll
+        /// </summary>
+        public static PortableExecutableReference SystemComponentModel
+        {
+            get
+            {
+                if (_SystemComponentModel is null)
+                {
+                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.ComponentModel")).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (net80)");
+                }
+                return _SystemComponentModel;
             }
         }
 
@@ -1624,20 +1661,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemRuntimeCompilerServicesUnsafe;
+        private static PortableExecutableReference? _System;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.CompilerServices.Unsafe.dll
+        /// The <see cref="PortableExecutableReference"/> for System.dll
         /// </summary>
-        public static PortableExecutableReference SystemRuntimeCompilerServicesUnsafe
+        public static PortableExecutableReference System
         {
             get
             {
-                if (_SystemRuntimeCompilerServicesUnsafe is null)
+                if (_System is null)
                 {
-                    _SystemRuntimeCompilerServicesUnsafe = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Runtime.CompilerServices.Unsafe")).GetReference(filePath: "System.Runtime.CompilerServices.Unsafe.dll", display: "System.Runtime.CompilerServices.Unsafe (net80)");
+                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System")).GetReference(filePath: "System.dll", display: "System (net80)");
                 }
-                return _SystemRuntimeCompilerServicesUnsafe;
+                return _System;
             }
         }
 
@@ -1658,20 +1695,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemDataDataSetExtensions;
+        private static PortableExecutableReference? _SystemDrawingPrimitives;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Data.DataSetExtensions.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Drawing.Primitives.dll
         /// </summary>
-        public static PortableExecutableReference SystemDataDataSetExtensions
+        public static PortableExecutableReference SystemDrawingPrimitives
         {
             get
             {
-                if (_SystemDataDataSetExtensions is null)
+                if (_SystemDrawingPrimitives is null)
                 {
-                    _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Data.DataSetExtensions")).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net80)");
+                    _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Drawing.Primitives")).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (net80)");
                 }
-                return _SystemDataDataSetExtensions;
+                return _SystemDrawingPrimitives;
             }
         }
 
@@ -1743,37 +1780,37 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _MicrosoftVisualBasicCore;
+        private static PortableExecutableReference? _SystemGlobalization;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for Microsoft.VisualBasic.Core.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Globalization.dll
         /// </summary>
-        public static PortableExecutableReference MicrosoftVisualBasicCore
+        public static PortableExecutableReference SystemGlobalization
         {
             get
             {
-                if (_MicrosoftVisualBasicCore is null)
+                if (_SystemGlobalization is null)
                 {
-                    _MicrosoftVisualBasicCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.Microsoft.VisualBasic.Core")).GetReference(filePath: "Microsoft.VisualBasic.Core.dll", display: "Microsoft.VisualBasic.Core (net80)");
+                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Globalization")).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (net80)");
                 }
-                return _MicrosoftVisualBasicCore;
+                return _SystemGlobalization;
             }
         }
 
-        private static PortableExecutableReference? _SystemRuntimeLoader;
+        private static PortableExecutableReference? _SystemGlobalizationExtensions;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.Loader.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Globalization.Extensions.dll
         /// </summary>
-        public static PortableExecutableReference SystemRuntimeLoader
+        public static PortableExecutableReference SystemGlobalizationExtensions
         {
             get
             {
-                if (_SystemRuntimeLoader is null)
+                if (_SystemGlobalizationExtensions is null)
                 {
-                    _SystemRuntimeLoader = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Runtime.Loader")).GetReference(filePath: "System.Runtime.Loader.dll", display: "System.Runtime.Loader (net80)");
+                    _SystemGlobalizationExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Globalization.Extensions")).GetReference(filePath: "System.Globalization.Extensions.dll", display: "System.Globalization.Extensions (net80)");
                 }
-                return _SystemRuntimeLoader;
+                return _SystemGlobalizationExtensions;
             }
         }
 
@@ -1794,20 +1831,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemIO;
+        private static PortableExecutableReference? _SystemIOCompression;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.dll
+        /// The <see cref="PortableExecutableReference"/> for System.IO.Compression.dll
         /// </summary>
-        public static PortableExecutableReference SystemIO
+        public static PortableExecutableReference SystemIOCompression
         {
             get
             {
-                if (_SystemIO is null)
+                if (_SystemIOCompression is null)
                 {
-                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (net80)");
+                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (net80)");
                 }
-                return _SystemIO;
+                return _SystemIOCompression;
             }
         }
 
@@ -1845,20 +1882,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemThreadingTasksParallel;
+        private static PortableExecutableReference? _SystemIO;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Threading.Tasks.Parallel.dll
+        /// The <see cref="PortableExecutableReference"/> for System.IO.dll
         /// </summary>
-        public static PortableExecutableReference SystemThreadingTasksParallel
+        public static PortableExecutableReference SystemIO
         {
             get
             {
-                if (_SystemThreadingTasksParallel is null)
+                if (_SystemIO is null)
                 {
-                    _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Threading.Tasks.Parallel")).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (net80)");
+                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (net80)");
                 }
-                return _SystemThreadingTasksParallel;
+                return _SystemIO;
             }
         }
 
@@ -1879,20 +1916,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemValueTuple;
+        private static PortableExecutableReference? _SystemIOFileSystem;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.ValueTuple.dll
+        /// The <see cref="PortableExecutableReference"/> for System.IO.FileSystem.dll
         /// </summary>
-        public static PortableExecutableReference SystemValueTuple
+        public static PortableExecutableReference SystemIOFileSystem
         {
             get
             {
-                if (_SystemValueTuple is null)
+                if (_SystemIOFileSystem is null)
                 {
-                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.ValueTuple")).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (net80)");
+                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.IO.FileSystem")).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (net80)");
                 }
-                return _SystemValueTuple;
+                return _SystemIOFileSystem;
             }
         }
 
@@ -1944,6 +1981,23 @@ public static partial class Net80
                     _SystemNetServicePoint = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Net.ServicePoint")).GetReference(filePath: "System.Net.ServicePoint.dll", display: "System.Net.ServicePoint (net80)");
                 }
                 return _SystemNetServicePoint;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemIOFileSystem;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.IO.FileSystem.dll
+        /// </summary>
+        public static PortableExecutableReference SystemIOFileSystem
+        {
+            get
+            {
+                if (_SystemIOFileSystem is null)
+                {
+                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.IO.FileSystem")).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (net80)");
+                }
+                return _SystemIOFileSystem;
             }
         }
 
@@ -2032,20 +2086,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemNetNetworkInformation;
+        private static PortableExecutableReference? _SystemLinq;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Net.NetworkInformation.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Linq.dll
         /// </summary>
-        public static PortableExecutableReference SystemNetNetworkInformation
+        public static PortableExecutableReference SystemLinq
         {
             get
             {
-                if (_SystemNetNetworkInformation is null)
+                if (_SystemLinq is null)
                 {
-                    _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Net.NetworkInformation")).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (net80)");
+                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (net80)");
                 }
-                return _SystemNetNetworkInformation;
+                return _SystemLinq;
             }
         }
 
@@ -2100,6 +2154,23 @@ public static partial class Net80
             }
         }
 
+        private static PortableExecutableReference? _SystemLinq;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Linq.dll
+        /// </summary>
+        public static PortableExecutableReference SystemLinq
+        {
+            get
+            {
+                if (_SystemLinq is null)
+                {
+                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (net80)");
+                }
+                return _SystemLinq;
+            }
+        }
+
         private static PortableExecutableReference? _SystemComponentModelDataAnnotations;
 
         /// <summary>
@@ -2117,20 +2188,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemRuntimeCompilerServicesVisualC;
+        private static PortableExecutableReference? _SystemNet;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.CompilerServices.VisualC.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Net.dll
         /// </summary>
-        public static PortableExecutableReference SystemRuntimeCompilerServicesVisualC
+        public static PortableExecutableReference SystemNet
         {
             get
             {
-                if (_SystemRuntimeCompilerServicesVisualC is null)
+                if (_SystemNet is null)
                 {
-                    _SystemRuntimeCompilerServicesVisualC = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Runtime.CompilerServices.VisualC")).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (net80)");
+                    _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (net80)");
                 }
-                return _SystemRuntimeCompilerServicesVisualC;
+                return _SystemNet;
             }
         }
 
@@ -2151,20 +2222,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemBuffers;
+        private static PortableExecutableReference? _SystemNetHttpJson;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Buffers.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Net.Http.Json.dll
         /// </summary>
-        public static PortableExecutableReference SystemBuffers
+        public static PortableExecutableReference SystemNetHttpJson
         {
             get
             {
-                if (_SystemBuffers is null)
+                if (_SystemNetHttpJson is null)
                 {
-                    _SystemBuffers = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Buffers")).GetReference(filePath: "System.Buffers.dll", display: "System.Buffers (net80)");
+                    _SystemNetHttpJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Net.Http.Json")).GetReference(filePath: "System.Net.Http.Json.dll", display: "System.Net.Http.Json (net80)");
                 }
-                return _SystemBuffers;
+                return _SystemNetHttpJson;
             }
         }
 
@@ -2440,20 +2511,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemServiceProcess;
+        private static PortableExecutableReference? _SystemNumerics;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.ServiceProcess.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Numerics.dll
         /// </summary>
-        public static PortableExecutableReference SystemServiceProcess
+        public static PortableExecutableReference SystemNumerics
         {
             get
             {
-                if (_SystemServiceProcess is null)
+                if (_SystemNumerics is null)
                 {
-                    _SystemServiceProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.ServiceProcess")).GetReference(filePath: "System.ServiceProcess.dll", display: "System.ServiceProcess (net80)");
+                    _SystemNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Numerics")).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net80)");
                 }
-                return _SystemServiceProcess;
+                return _SystemNumerics;
             }
         }
 
@@ -2471,6 +2542,23 @@ public static partial class Net80
                     _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Linq.Queryable")).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (net80)");
                 }
                 return _SystemLinqQueryable;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemNumerics;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Numerics.dll
+        /// </summary>
+        public static PortableExecutableReference SystemNumerics
+        {
+            get
+            {
+                if (_SystemNumerics is null)
+                {
+                    _SystemNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Numerics")).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net80)");
+                }
+                return _SystemNumerics;
             }
         }
 
@@ -2508,37 +2596,37 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemCollections;
+        private static PortableExecutableReference? _SystemReflection;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Collections.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Reflection.dll
         /// </summary>
-        public static PortableExecutableReference SystemCollections
+        public static PortableExecutableReference SystemReflection
         {
             get
             {
-                if (_SystemCollections is null)
+                if (_SystemReflection is null)
                 {
-                    _SystemCollections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Collections")).GetReference(filePath: "System.Collections.dll", display: "System.Collections (net80)");
+                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (net80)");
                 }
-                return _SystemCollections;
+                return _SystemReflection;
             }
         }
 
-        private static PortableExecutableReference? _SystemWebHttpUtility;
+        private static PortableExecutableReference? _SystemReflectionEmit;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Web.HttpUtility.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Reflection.Emit.dll
         /// </summary>
-        public static PortableExecutableReference SystemWebHttpUtility
+        public static PortableExecutableReference SystemReflectionEmit
         {
             get
             {
-                if (_SystemWebHttpUtility is null)
+                if (_SystemReflectionEmit is null)
                 {
-                    _SystemWebHttpUtility = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Web.HttpUtility")).GetReference(filePath: "System.Web.HttpUtility.dll", display: "System.Web.HttpUtility (net80)");
+                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Reflection.Emit")).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (net80)");
                 }
-                return _SystemWebHttpUtility;
+                return _SystemReflectionEmit;
             }
         }
 
@@ -2573,6 +2661,23 @@ public static partial class Net80
                     _SystemThreadingTasksDataflow = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Threading.Tasks.Dataflow")).GetReference(filePath: "System.Threading.Tasks.Dataflow.dll", display: "System.Threading.Tasks.Dataflow (net80)");
                 }
                 return _SystemThreadingTasksDataflow;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemReflectionEmit;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Reflection.Emit.dll
+        /// </summary>
+        public static PortableExecutableReference SystemReflectionEmit
+        {
+            get
+            {
+                if (_SystemReflectionEmit is null)
+                {
+                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Reflection.Emit")).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (net80)");
+                }
+                return _SystemReflectionEmit;
             }
         }
 
@@ -2641,6 +2746,23 @@ public static partial class Net80
                     _SystemNetWebClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Net.WebClient")).GetReference(filePath: "System.Net.WebClient.dll", display: "System.Net.WebClient (net80)");
                 }
                 return _SystemNetWebClient;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemReflection;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Reflection.dll
+        /// </summary>
+        public static PortableExecutableReference SystemReflection
+        {
+            get
+            {
+                if (_SystemReflection is null)
+                {
+                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (net80)");
+                }
+                return _SystemReflection;
             }
         }
 
@@ -2729,20 +2851,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemIOFileSystemDriveInfo;
+        private static PortableExecutableReference? _SystemRuntime;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.FileSystem.DriveInfo.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.dll
         /// </summary>
-        public static PortableExecutableReference SystemIOFileSystemDriveInfo
+        public static PortableExecutableReference SystemRuntime
         {
             get
             {
-                if (_SystemIOFileSystemDriveInfo is null)
+                if (_SystemRuntime is null)
                 {
-                    _SystemIOFileSystemDriveInfo = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.IO.FileSystem.DriveInfo")).GetReference(filePath: "System.IO.FileSystem.DriveInfo.dll", display: "System.IO.FileSystem.DriveInfo (net80)");
+                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (net80)");
                 }
-                return _SystemIOFileSystemDriveInfo;
+                return _SystemRuntime;
             }
         }
 
@@ -2780,20 +2902,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemNumericsVectors;
+        private static PortableExecutableReference? _SystemRuntimeInteropServices;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Numerics.Vectors.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.InteropServices.dll
         /// </summary>
-        public static PortableExecutableReference SystemNumericsVectors
+        public static PortableExecutableReference SystemRuntimeInteropServices
         {
             get
             {
-                if (_SystemNumericsVectors is null)
+                if (_SystemRuntimeInteropServices is null)
                 {
-                    _SystemNumericsVectors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Numerics.Vectors")).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (net80)");
+                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (net80)");
                 }
-                return _SystemNumericsVectors;
+                return _SystemRuntimeInteropServices;
             }
         }
 
@@ -2828,6 +2950,23 @@ public static partial class Net80
                     _SystemComponentModelEventBasedAsync = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.ComponentModel.EventBasedAsync")).GetReference(filePath: "System.ComponentModel.EventBasedAsync.dll", display: "System.ComponentModel.EventBasedAsync (net80)");
                 }
                 return _SystemComponentModelEventBasedAsync;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemRuntimeInteropServices;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.InteropServices.dll
+        /// </summary>
+        public static PortableExecutableReference SystemRuntimeInteropServices
+        {
+            get
+            {
+                if (_SystemRuntimeInteropServices is null)
+                {
+                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (net80)");
+                }
+                return _SystemRuntimeInteropServices;
             }
         }
 
@@ -2882,20 +3021,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _netstandard;
+        private static PortableExecutableReference? _SystemRuntimeSerialization;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for netstandard.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.Serialization.dll
         /// </summary>
-        public static PortableExecutableReference netstandard
+        public static PortableExecutableReference SystemRuntimeSerialization
         {
             get
             {
-                if (_netstandard is null)
+                if (_SystemRuntimeSerialization is null)
                 {
-                    _netstandard = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.netstandard")).GetReference(filePath: "netstandard.dll", display: "netstandard (net80)");
+                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net80)");
                 }
-                return _netstandard;
+                return _SystemRuntimeSerialization;
             }
         }
 
@@ -2964,6 +3103,40 @@ public static partial class Net80
                     _SystemSecurityCryptographyCng = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Security.Cryptography.Cng")).GetReference(filePath: "System.Security.Cryptography.Cng.dll", display: "System.Security.Cryptography.Cng (net80)");
                 }
                 return _SystemSecurityCryptographyCng;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemRuntimeSerialization;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.Serialization.dll
+        /// </summary>
+        public static PortableExecutableReference SystemRuntimeSerialization
+        {
+            get
+            {
+                if (_SystemRuntimeSerialization is null)
+                {
+                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net80)");
+                }
+                return _SystemRuntimeSerialization;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemRuntime;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.dll
+        /// </summary>
+        public static PortableExecutableReference SystemRuntime
+        {
+            get
+            {
+                if (_SystemRuntime is null)
+                {
+                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (net80)");
+                }
+                return _SystemRuntime;
             }
         }
 
@@ -3052,20 +3225,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemGlobalization;
+        private static PortableExecutableReference? _SystemSecurityCryptography;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Globalization.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Security.Cryptography.dll
         /// </summary>
-        public static PortableExecutableReference SystemGlobalization
+        public static PortableExecutableReference SystemSecurityCryptography
         {
             get
             {
-                if (_SystemGlobalization is null)
+                if (_SystemSecurityCryptography is null)
                 {
-                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Globalization")).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (net80)");
+                    _SystemSecurityCryptography = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Security.Cryptography")).GetReference(filePath: "System.Security.Cryptography.dll", display: "System.Security.Cryptography (net80)");
                 }
-                return _SystemGlobalization;
+                return _SystemSecurityCryptography;
             }
         }
 
@@ -3137,54 +3310,54 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _mscorlib;
+        private static PortableExecutableReference? _SystemSecurity;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for mscorlib.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Security.dll
         /// </summary>
-        public static PortableExecutableReference mscorlib
+        public static PortableExecutableReference SystemSecurity
         {
             get
             {
-                if (_mscorlib is null)
+                if (_SystemSecurity is null)
                 {
-                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net80)");
+                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (net80)");
                 }
-                return _mscorlib;
+                return _SystemSecurity;
             }
         }
 
-        private static PortableExecutableReference? _SystemNetWebHeaderCollection;
+        private static PortableExecutableReference? _SystemSecurityPrincipal;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Net.WebHeaderCollection.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Security.Principal.dll
         /// </summary>
-        public static PortableExecutableReference SystemNetWebHeaderCollection
+        public static PortableExecutableReference SystemSecurityPrincipal
         {
             get
             {
-                if (_SystemNetWebHeaderCollection is null)
+                if (_SystemSecurityPrincipal is null)
                 {
-                    _SystemNetWebHeaderCollection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Net.WebHeaderCollection")).GetReference(filePath: "System.Net.WebHeaderCollection.dll", display: "System.Net.WebHeaderCollection (net80)");
+                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Security.Principal")).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (net80)");
                 }
-                return _SystemNetWebHeaderCollection;
+                return _SystemSecurityPrincipal;
             }
         }
 
-        private static PortableExecutableReference? _SystemXmlXPathXDocument;
+        private static PortableExecutableReference? _SystemSecurityPrincipalWindows;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.XDocument.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Security.Principal.Windows.dll
         /// </summary>
-        public static PortableExecutableReference SystemXmlXPathXDocument
+        public static PortableExecutableReference SystemSecurityPrincipalWindows
         {
             get
             {
-                if (_SystemXmlXPathXDocument is null)
+                if (_SystemSecurityPrincipalWindows is null)
                 {
-                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (net80)");
+                    _SystemSecurityPrincipalWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Security.Principal.Windows")).GetReference(filePath: "System.Security.Principal.Windows.dll", display: "System.Security.Principal.Windows (net80)");
                 }
-                return _SystemXmlXPathXDocument;
+                return _SystemSecurityPrincipalWindows;
             }
         }
 
@@ -3202,6 +3375,23 @@ public static partial class Net80
                     _SystemComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.ComponentModel")).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (net80)");
                 }
                 return _SystemComponentModel;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemSecurity;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Security.dll
+        /// </summary>
+        public static PortableExecutableReference SystemSecurity
+        {
+            get
+            {
+                if (_SystemSecurity is null)
+                {
+                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (net80)");
+                }
+                return _SystemSecurity;
             }
         }
 
@@ -3256,37 +3446,37 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemThreadingTasks;
+        private static PortableExecutableReference? _SystemTextEncoding;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Threading.Tasks.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Text.Encoding.dll
         /// </summary>
-        public static PortableExecutableReference SystemThreadingTasks
+        public static PortableExecutableReference SystemTextEncoding
         {
             get
             {
-                if (_SystemThreadingTasks is null)
+                if (_SystemTextEncoding is null)
                 {
-                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Threading.Tasks")).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (net80)");
+                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Text.Encoding")).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (net80)");
                 }
-                return _SystemThreadingTasks;
+                return _SystemTextEncoding;
             }
         }
 
-        private static PortableExecutableReference? _SystemXmlLinq;
+        private static PortableExecutableReference? _SystemTextEncodingExtensions;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Xml.Linq.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Text.Encoding.Extensions.dll
         /// </summary>
-        public static PortableExecutableReference SystemXmlLinq
+        public static PortableExecutableReference SystemTextEncodingExtensions
         {
             get
             {
-                if (_SystemXmlLinq is null)
+                if (_SystemTextEncodingExtensions is null)
                 {
-                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Xml.Linq")).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net80)");
+                    _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Text.Encoding.Extensions")).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (net80)");
                 }
-                return _SystemXmlLinq;
+                return _SystemTextEncodingExtensions;
             }
         }
 
@@ -3358,20 +3548,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemDataCommon;
+        private static PortableExecutableReference? _SystemThreading;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Data.Common.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Threading.dll
         /// </summary>
-        public static PortableExecutableReference SystemDataCommon
+        public static PortableExecutableReference SystemThreading
         {
             get
             {
-                if (_SystemDataCommon is null)
+                if (_SystemThreading is null)
                 {
-                    _SystemDataCommon = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Data.Common")).GetReference(filePath: "System.Data.Common.dll", display: "System.Data.Common (net80)");
+                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (net80)");
                 }
-                return _SystemDataCommon;
+                return _SystemThreading;
             }
         }
 
@@ -3409,20 +3599,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemSecurity;
+        private static PortableExecutableReference? _SystemThreadingTasks;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Security.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Threading.Tasks.dll
         /// </summary>
-        public static PortableExecutableReference SystemSecurity
+        public static PortableExecutableReference SystemThreadingTasks
         {
             get
             {
-                if (_SystemSecurity is null)
+                if (_SystemThreadingTasks is null)
                 {
-                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (net80)");
+                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Threading.Tasks")).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (net80)");
                 }
-                return _SystemSecurity;
+                return _SystemThreadingTasks;
             }
         }
 
@@ -3457,6 +3647,23 @@ public static partial class Net80
                     _SystemNetQuic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Net.Quic")).GetReference(filePath: "System.Net.Quic.dll", display: "System.Net.Quic (net80)");
                 }
                 return _SystemNetQuic;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemThreadingTasks;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Threading.Tasks.dll
+        /// </summary>
+        public static PortableExecutableReference SystemThreadingTasks
+        {
+            get
+            {
+                if (_SystemThreadingTasks is null)
+                {
+                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Threading.Tasks")).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (net80)");
+                }
+                return _SystemThreadingTasks;
             }
         }
 
@@ -3511,20 +3718,20 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemThreadingChannels;
+        private static PortableExecutableReference? _SystemTransactions;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Threading.Channels.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Transactions.dll
         /// </summary>
-        public static PortableExecutableReference SystemThreadingChannels
+        public static PortableExecutableReference SystemTransactions
         {
             get
             {
-                if (_SystemThreadingChannels is null)
+                if (_SystemTransactions is null)
                 {
-                    _SystemThreadingChannels = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Threading.Channels")).GetReference(filePath: "System.Threading.Channels.dll", display: "System.Threading.Channels (net80)");
+                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net80)");
                 }
-                return _SystemThreadingChannels;
+                return _SystemTransactions;
             }
         }
 
@@ -3545,37 +3752,37 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemRuntimeNumerics;
+        private static PortableExecutableReference? _SystemValueTuple;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.Numerics.dll
+        /// The <see cref="PortableExecutableReference"/> for System.ValueTuple.dll
         /// </summary>
-        public static PortableExecutableReference SystemRuntimeNumerics
+        public static PortableExecutableReference SystemValueTuple
         {
             get
             {
-                if (_SystemRuntimeNumerics is null)
+                if (_SystemValueTuple is null)
                 {
-                    _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Runtime.Numerics")).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (net80)");
+                    _SystemValueTuple = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.ValueTuple")).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (net80)");
                 }
-                return _SystemRuntimeNumerics;
+                return _SystemValueTuple;
             }
         }
 
-        private static PortableExecutableReference? _SystemXmlXmlDocument;
+        private static PortableExecutableReference? _SystemWeb;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Xml.XmlDocument.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Web.dll
         /// </summary>
-        public static PortableExecutableReference SystemXmlXmlDocument
+        public static PortableExecutableReference SystemWeb
         {
             get
             {
-                if (_SystemXmlXmlDocument is null)
+                if (_SystemWeb is null)
                 {
-                    _SystemXmlXmlDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Xml.XmlDocument")).GetReference(filePath: "System.Xml.XmlDocument.dll", display: "System.Xml.XmlDocument (net80)");
+                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (net80)");
                 }
-                return _SystemXmlXmlDocument;
+                return _SystemWeb;
             }
         }
 
@@ -3596,37 +3803,37 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemReflectionTypeExtensions;
+        private static PortableExecutableReference? _SystemWindows;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Reflection.TypeExtensions.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Windows.dll
         /// </summary>
-        public static PortableExecutableReference SystemReflectionTypeExtensions
+        public static PortableExecutableReference SystemWindows
         {
             get
             {
-                if (_SystemReflectionTypeExtensions is null)
+                if (_SystemWindows is null)
                 {
-                    _SystemReflectionTypeExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Reflection.TypeExtensions")).GetReference(filePath: "System.Reflection.TypeExtensions.dll", display: "System.Reflection.TypeExtensions (net80)");
+                    _SystemWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Windows")).GetReference(filePath: "System.Windows.dll", display: "System.Windows (net80)");
                 }
-                return _SystemReflectionTypeExtensions;
+                return _SystemWindows;
             }
         }
 
-        private static PortableExecutableReference? _SystemIOUnmanagedMemoryStream;
+        private static PortableExecutableReference? _SystemXml;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.UnmanagedMemoryStream.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.dll
         /// </summary>
-        public static PortableExecutableReference SystemIOUnmanagedMemoryStream
+        public static PortableExecutableReference SystemXml
         {
             get
             {
-                if (_SystemIOUnmanagedMemoryStream is null)
+                if (_SystemXml is null)
                 {
-                    _SystemIOUnmanagedMemoryStream = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.IO.UnmanagedMemoryStream")).GetReference(filePath: "System.IO.UnmanagedMemoryStream.dll", display: "System.IO.UnmanagedMemoryStream (net80)");
+                    _SystemXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Xml")).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net80)");
                 }
-                return _SystemIOUnmanagedMemoryStream;
+                return _SystemXml;
             }
         }
 
@@ -3698,6 +3905,40 @@ public static partial class Net80
             }
         }
 
+        private static PortableExecutableReference? _SystemXmlXPathXDocument;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.XDocument.dll
+        /// </summary>
+        public static PortableExecutableReference SystemXmlXPathXDocument
+        {
+            get
+            {
+                if (_SystemXmlXPathXDocument is null)
+                {
+                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (net80)");
+                }
+                return _SystemXmlXPathXDocument;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemXmlXPath;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.dll
+        /// </summary>
+        public static PortableExecutableReference SystemXmlXPath
+        {
+            get
+            {
+                if (_SystemXmlXPath is null)
+                {
+                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Xml.XPath")).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (net80)");
+                }
+                return _SystemXmlXPath;
+            }
+        }
+
         private static PortableExecutableReference? _SystemSecurityCryptographyEncoding;
 
         /// <summary>
@@ -3732,37 +3973,37 @@ public static partial class Net80
             }
         }
 
-        private static PortableExecutableReference? _SystemIOPipes;
+        private static PortableExecutableReference? _SystemXmlXPath;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.Pipes.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.dll
         /// </summary>
-        public static PortableExecutableReference SystemIOPipes
+        public static PortableExecutableReference SystemXmlXPath
         {
             get
             {
-                if (_SystemIOPipes is null)
+                if (_SystemXmlXPath is null)
                 {
-                    _SystemIOPipes = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.IO.Pipes")).GetReference(filePath: "System.IO.Pipes.dll", display: "System.IO.Pipes (net80)");
+                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Xml.XPath")).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (net80)");
                 }
-                return _SystemIOPipes;
+                return _SystemXmlXPath;
             }
         }
 
-        private static PortableExecutableReference? _SystemWindows;
+        private static PortableExecutableReference? _SystemXmlXPathXDocument;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Windows.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.XDocument.dll
         /// </summary>
-        public static PortableExecutableReference SystemWindows
+        public static PortableExecutableReference SystemXmlXPathXDocument
         {
             get
             {
-                if (_SystemWindows is null)
+                if (_SystemXmlXPathXDocument is null)
                 {
-                    _SystemWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Windows")).GetReference(filePath: "System.Windows.dll", display: "System.Windows (net80)");
+                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (net80)");
                 }
-                return _SystemWindows;
+                return _SystemXmlXPathXDocument;
             }
         }
 
@@ -3783,6 +4024,40 @@ public static partial class Net80
             }
         }
 
+        private static PortableExecutableReference? _mscorlib;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for mscorlib.dll
+        /// </summary>
+        public static PortableExecutableReference mscorlib
+        {
+            get
+            {
+                if (_mscorlib is null)
+                {
+                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net80)");
+                }
+                return _mscorlib;
+            }
+        }
+
+        private static PortableExecutableReference? _netstandard;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for netstandard.dll
+        /// </summary>
+        public static PortableExecutableReference netstandard
+        {
+            get
+            {
+                if (_netstandard is null)
+                {
+                    _netstandard = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net80.netstandard")).GetReference(filePath: "netstandard.dll", display: "netstandard (net80)");
+                }
+                return _netstandard;
+            }
+        }
+
         private static ImmutableArray<PortableExecutableReference> _all;
         public static ImmutableArray<PortableExecutableReference> All
         {
@@ -3792,169 +4067,172 @@ public static partial class Net80
                 {
                     _all =
                     [
-                        System,
-                        SystemIOCompressionBrotli,
-                        SystemThreadingThread,
-                        SystemSecurityCryptography,
+                        MicrosoftCSharp,
+                        MicrosoftVisualBasicCore,
+                        MicrosoftVisualBasic,
+                        MicrosoftWin32Primitives,
+                        MicrosoftWin32Registry,
+                        mscorlib,
+                        netstandard,
+                        SystemAppContext,
+                        SystemBuffers,
+                        SystemCollectionsConcurrent,
+                        SystemCollections,
+                        SystemCollectionsImmutable,
+                        SystemCollectionsNonGeneric,
+                        SystemCollectionsSpecialized,
+                        SystemComponentModelAnnotations,
+                        SystemComponentModelDataAnnotations,
+                        SystemComponentModel,
+                        SystemComponentModelEventBasedAsync,
+                        SystemComponentModelPrimitives,
+                        SystemComponentModelTypeConverter,
+                        SystemConfiguration,
+                        SystemConsole,
+                        SystemCore,
+                        SystemDataCommon,
+                        SystemDataDataSetExtensions,
+                        SystemData,
                         SystemDiagnosticsContracts,
                         SystemComponentModelTypeConverter,
                         SystemSecurityCryptographyOpenSsl,
                         SystemReflectionMetadata,
                         SystemFormatsAsn1,
                         SystemDiagnosticsDiagnosticSource,
-                        SystemSecurityCryptographyPrimitives,
-                        MicrosoftWin32Primitives,
-                        SystemDrawingPrimitives,
-                        SystemIOMemoryMappedFiles,
-                        SystemCore,
-                        SystemRuntimeSerializationFormatters,
-                        SystemResourcesResourceManager,
-                        SystemThreadingOverlapped,
-                        SystemNetHttpListener,
-                        SystemNet,
-                        SystemObjectModel,
-                        SystemDiagnosticsTextWriterTraceListener,
-                        SystemSecurityCryptographyCsp,
-                        MicrosoftCSharp,
-                        SystemNetWebSocketsClient,
-                        SystemThreadingTimer,
-                        SystemReflectionEmitLightweight,
-                        SystemFormatsTar,
-                        SystemDynamicRuntime,
-                        SystemSecurityCryptographyAlgorithms,
-                        WindowsBase,
-                        SystemNetWebProxy,
-                        SystemConfiguration,
-                        SystemDiagnosticsTools,
-                        SystemIOPipesAccessControl,
-                        SystemDrawing,
-                        SystemRuntimeCompilerServicesUnsafe,
-                        SystemDiagnosticsTracing,
-                        SystemDataDataSetExtensions,
-                        SystemNetWebSockets,
-                        SystemTextJson,
-                        SystemReflectionDispatchProxy,
-                        SystemDiagnosticsTraceSource,
-                        MicrosoftVisualBasicCore,
-                        SystemRuntimeLoader,
-                        SystemXmlSerialization,
-                        SystemIO,
                         SystemDiagnosticsFileVersionInfo,
-                        SystemRuntimeInteropServices,
-                        SystemThreadingTasksParallel,
-                        SystemNetSockets,
-                        SystemValueTuple,
-                        SystemRuntimeInteropServicesRuntimeInformation,
-                        SystemSecurityCryptographyX509Certificates,
-                        SystemNetServicePoint,
-                        SystemTextEncodingCodePages,
-                        SystemIOCompression,
-                        SystemReflectionExtensions,
-                        SystemRuntimeSerialization,
-                        SystemReflectionEmit,
-                        SystemNetNetworkInformation,
-                        SystemReflectionEmitILGeneration,
                         SystemDiagnosticsProcess,
-                        SystemComponentModelPrimitives,
-                        SystemComponentModelDataAnnotations,
-                        SystemRuntimeCompilerServicesVisualC,
-                        SystemDiagnosticsDebug,
-                        SystemBuffers,
-                        SystemCollectionsNonGeneric,
-                        SystemThreading,
-                        SystemIOCompressionZipFile,
-                        SystemXmlReaderWriter,
-                        SystemTextRegularExpressions,
-                        MicrosoftVisualBasic,
-                        SystemComponentModelAnnotations,
-                        SystemNetRequests,
-                        SystemGlobalizationCalendars,
-                        SystemCollectionsImmutable,
-                        SystemRuntimeSerializationPrimitives,
-                        SystemTextEncodingExtensions,
                         SystemDiagnosticsStackTrace,
-                        SystemNetPrimitives,
-                        SystemSecuritySecureString,
-                        SystemSecurityPrincipal,
-                        SystemServiceProcess,
+                        SystemDiagnosticsTextWriterTraceListener,
+                        SystemDiagnosticsTools,
+                        SystemDiagnosticsTraceSource,
+                        SystemDiagnosticsTracing,
+                        System,
+                        SystemDrawing,
+                        SystemDrawingPrimitives,
+                        SystemDynamicRuntime,
+                        SystemFormatsAsn1,
+                        SystemFormatsTar,
+                        SystemGlobalizationCalendars,
+                        SystemGlobalization,
+                        SystemGlobalizationExtensions,
+                        SystemIOCompressionBrotli,
+                        SystemIOCompression,
+                        SystemIOCompressionFileSystem,
+                        SystemIOCompressionZipFile,
+                        SystemIO,
+                        SystemIOFileSystemAccessControl,
+                        SystemIOFileSystem,
+                        SystemIOFileSystemDriveInfo,
+                        SystemIOFileSystemPrimitives,
+                        SystemIOFileSystemWatcher,
+                        SystemIOIsolatedStorage,
+                        SystemIOMemoryMappedFiles,
+                        SystemIOPipesAccessControl,
+                        SystemIOPipes,
+                        SystemIOUnmanagedMemoryStream,
+                        SystemLinq,
+                        SystemLinqExpressions,
+                        SystemLinqParallel,
                         SystemLinqQueryable,
                         SystemMemory,
-                        SystemXmlXDocument,
-                        SystemCollections,
-                        SystemWebHttpUtility,
-                        SystemRuntime,
-                        SystemThreadingTasksDataflow,
-                        SystemNetPing,
-                        SystemIOFileSystemAccessControl,
-                        SystemCollectionsSpecialized,
-                        SystemNetWebClient,
-                        SystemTextEncoding,
-                        SystemResourcesReader,
-                        SystemData,
-                        SystemNetMail,
-                        SystemSecurityAccessControl,
-                        SystemIOFileSystemDriveInfo,
+                        SystemNet,
+                        SystemNetHttp,
                         SystemNetHttpJson,
-                        SystemReflection,
-                        SystemNumericsVectors,
-                        SystemServiceModelWeb,
-                        SystemComponentModelEventBasedAsync,
-                        SystemXmlXPath,
-                        SystemSecurityPrincipalWindows,
-                        SystemReflectionPrimitives,
-                        netstandard,
-                        SystemGlobalizationExtensions,
-                        SystemNetSecurity,
-                        SystemIOFileSystemPrimitives,
-                        SystemSecurityCryptographyCng,
-                        SystemRuntimeExtensions,
-                        SystemXml,
-                        SystemIOCompressionFileSystem,
-                        SystemResourcesWriter,
-                        SystemIOIsolatedStorage,
-                        SystemGlobalization,
-                        SystemSecurityClaims,
-                        SystemThreadingThreadPool,
-                        SystemTextEncodingsWeb,
-                        SystemConsole,
-                        mscorlib,
-                        SystemNetWebHeaderCollection,
-                        SystemXmlXPathXDocument,
-                        SystemComponentModel,
-                        SystemNumerics,
-                        SystemThreadingTasksExtensions,
-                        SystemLinqExpressions,
-                        SystemThreadingTasks,
-                        SystemXmlLinq,
-                        SystemIOFileSystem,
-                        MicrosoftWin32Registry,
-                        SystemLinq,
-                        SystemRuntimeIntrinsics,
-                        SystemDataCommon,
-                        SystemIOFileSystemWatcher,
-                        SystemAppContext,
-                        SystemSecurity,
-                        SystemRuntimeSerializationJson,
+                        SystemNetHttpListener,
+                        SystemNetMail,
+                        SystemNetNameResolution,
+                        SystemNetNetworkInformation,
+                        SystemNetPing,
+                        SystemNetPrimitives,
                         SystemNetQuic,
+                        SystemNetRequests,
+                        SystemNetSecurity,
+                        SystemNetServicePoint,
+                        SystemNetSockets,
+                        SystemNetWebClient,
+                        SystemNetWebHeaderCollection,
+                        SystemNetWebProxy,
+                        SystemNetWebSocketsClient,
+                        SystemNetWebSockets,
+                        SystemNumerics,
+                        SystemNumericsVectors,
+                        SystemObjectModel,
+                        SystemReflectionDispatchProxy,
+                        SystemReflection,
+                        SystemReflectionEmit,
+                        SystemReflectionEmitILGeneration,
+                        SystemReflectionEmitLightweight,
+                        SystemReflectionExtensions,
+                        SystemReflectionMetadata,
+                        SystemReflectionPrimitives,
+                        SystemReflectionTypeExtensions,
+                        SystemResourcesReader,
+                        SystemResourcesResourceManager,
+                        SystemResourcesWriter,
+                        SystemRuntimeCompilerServicesUnsafe,
+                        SystemRuntimeCompilerServicesVisualC,
+                        SystemRuntime,
+                        SystemRuntimeExtensions,
                         SystemRuntimeHandles,
+                        SystemRuntimeInteropServices,
                         SystemRuntimeInteropServicesJavaScript,
-                        SystemLinqParallel,
-                        SystemThreadingChannels,
-                        SystemWeb,
+                        SystemRuntimeInteropServicesRuntimeInformation,
+                        SystemRuntimeIntrinsics,
+                        SystemRuntimeLoader,
                         SystemRuntimeNumerics,
+                        SystemRuntimeSerialization,
+                        SystemRuntimeSerializationFormatters,
+                        SystemRuntimeSerializationJson,
+                        SystemRuntimeSerializationPrimitives,
+                        SystemRuntimeSerializationXml,
+                        SystemSecurityAccessControl,
+                        SystemSecurityClaims,
+                        SystemSecurityCryptographyAlgorithms,
+                        SystemSecurityCryptographyCng,
+                        SystemSecurityCryptographyCsp,
+                        SystemSecurityCryptography,
+                        SystemSecurityCryptographyEncoding,
+                        SystemSecurityCryptographyOpenSsl,
+                        SystemSecurityCryptographyPrimitives,
+                        SystemSecurityCryptographyX509Certificates,
+                        SystemSecurity,
+                        SystemSecurityPrincipal,
+                        SystemSecurityPrincipalWindows,
+                        SystemSecuritySecureString,
+                        SystemServiceModelWeb,
+                        SystemServiceProcess,
+                        SystemTextEncodingCodePages,
+                        SystemTextEncoding,
+                        SystemTextEncodingExtensions,
+                        SystemTextEncodingsWeb,
+                        SystemTextJson,
+                        SystemTextRegularExpressions,
+                        SystemThreadingChannels,
+                        SystemThreading,
+                        SystemThreadingOverlapped,
+                        SystemThreadingTasksDataflow,
+                        SystemThreadingTasks,
+                        SystemThreadingTasksExtensions,
+                        SystemThreadingTasksParallel,
+                        SystemThreadingThread,
+                        SystemThreadingThreadPool,
+                        SystemThreadingTimer,
+                        SystemTransactions,
+                        SystemTransactionsLocal,
+                        SystemValueTuple,
+                        SystemWeb,
+                        SystemWebHttpUtility,
+                        SystemWindows,
+                        SystemXml,
+                        SystemXmlLinq,
+                        SystemXmlReaderWriter,
+                        SystemXmlSerialization,
+                        SystemXmlXDocument,
                         SystemXmlXmlDocument,
                         SystemXmlXmlSerializer,
-                        SystemReflectionTypeExtensions,
-                        SystemIOUnmanagedMemoryStream,
-                        SystemNetNameResolution,
-                        SystemTransactions,
-                        SystemNetHttp,
-                        SystemCollectionsConcurrent,
-                        SystemSecurityCryptographyEncoding,
-                        SystemTransactionsLocal,
-                        SystemIOPipes,
-                        SystemWindows,
-                        SystemRuntimeSerializationXml,
+                        SystemXmlXPath,
+                        SystemXmlXPathXDocument,
+                        WindowsBase,
                     ];
                 }
                 return _all;
@@ -3994,20 +4272,20 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Diagnostics.Contracts.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsContracts => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsContracts, "net80.System.Diagnostics.Contracts");
-        private static byte[]? _SystemDiagnosticsContracts;
+        public static byte[] MicrosoftWin32Registry => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32Registry, "net80.Microsoft.Win32.Registry");
+        private static byte[]? _MicrosoftWin32Registry;
 
         /// <summary>
-        /// The image bytes for System.ComponentModel.TypeConverter.dll
+        /// The image bytes for mscorlib.dll
         /// </summary>
-        public static byte[] SystemComponentModelTypeConverter => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelTypeConverter, "net80.System.ComponentModel.TypeConverter");
-        private static byte[]? _SystemComponentModelTypeConverter;
+        public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "net80.mscorlib");
+        private static byte[]? _mscorlib;
 
         /// <summary>
-        /// The image bytes for System.Security.Cryptography.OpenSsl.dll
+        /// The image bytes for netstandard.dll
         /// </summary>
-        public static byte[] SystemSecurityCryptographyOpenSsl => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyOpenSsl, "net80.System.Security.Cryptography.OpenSsl");
-        private static byte[]? _SystemSecurityCryptographyOpenSsl;
+        public static byte[] netstandard => ResourceLoader.GetOrCreateResource(ref _netstandard, "net80.netstandard");
+        private static byte[]? _netstandard;
 
         /// <summary>
         /// The image bytes for System.Reflection.Metadata.dll
@@ -4024,14 +4302,14 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Diagnostics.DiagnosticSource.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsDiagnosticSource => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsDiagnosticSource, "net80.System.Diagnostics.DiagnosticSource");
-        private static byte[]? _SystemDiagnosticsDiagnosticSource;
+        public static byte[] SystemCollectionsConcurrent => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsConcurrent, "net80.System.Collections.Concurrent");
+        private static byte[]? _SystemCollectionsConcurrent;
 
         /// <summary>
-        /// The image bytes for System.Security.Cryptography.Primitives.dll
+        /// The image bytes for System.Collections.dll
         /// </summary>
-        public static byte[] SystemSecurityCryptographyPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyPrimitives, "net80.System.Security.Cryptography.Primitives");
-        private static byte[]? _SystemSecurityCryptographyPrimitives;
+        public static byte[] SystemCollections => ResourceLoader.GetOrCreateResource(ref _SystemCollections, "net80.System.Collections");
+        private static byte[]? _SystemCollections;
 
         /// <summary>
         /// The image bytes for Microsoft.Win32.Primitives.dll
@@ -4048,8 +4326,8 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.IO.MemoryMappedFiles.dll
         /// </summary>
-        public static byte[] SystemIOMemoryMappedFiles => ResourceLoader.GetOrCreateResource(ref _SystemIOMemoryMappedFiles, "net80.System.IO.MemoryMappedFiles");
-        private static byte[]? _SystemIOMemoryMappedFiles;
+        public static byte[] SystemCollectionsSpecialized => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsSpecialized, "net80.System.Collections.Specialized");
+        private static byte[]? _SystemCollectionsSpecialized;
 
         /// <summary>
         /// The image bytes for System.Core.dll
@@ -4060,14 +4338,14 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Runtime.Serialization.Formatters.dll
         /// </summary>
-        public static byte[] SystemRuntimeSerializationFormatters => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationFormatters, "net80.System.Runtime.Serialization.Formatters");
-        private static byte[]? _SystemRuntimeSerializationFormatters;
+        public static byte[] SystemComponentModelDataAnnotations => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelDataAnnotations, "net80.System.ComponentModel.DataAnnotations");
+        private static byte[]? _SystemComponentModelDataAnnotations;
 
         /// <summary>
-        /// The image bytes for System.Resources.ResourceManager.dll
+        /// The image bytes for System.ComponentModel.dll
         /// </summary>
-        public static byte[] SystemResourcesResourceManager => ResourceLoader.GetOrCreateResource(ref _SystemResourcesResourceManager, "net80.System.Resources.ResourceManager");
-        private static byte[]? _SystemResourcesResourceManager;
+        public static byte[] SystemComponentModel => ResourceLoader.GetOrCreateResource(ref _SystemComponentModel, "net80.System.ComponentModel");
+        private static byte[]? _SystemComponentModel;
 
         /// <summary>
         /// The image bytes for System.Threading.Overlapped.dll
@@ -4084,8 +4362,8 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Net.dll
         /// </summary>
-        public static byte[] SystemNet => ResourceLoader.GetOrCreateResource(ref _SystemNet, "net80.System.Net");
-        private static byte[]? _SystemNet;
+        public static byte[] SystemComponentModelTypeConverter => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelTypeConverter, "net80.System.ComponentModel.TypeConverter");
+        private static byte[]? _SystemComponentModelTypeConverter;
 
         /// <summary>
         /// The image bytes for System.ObjectModel.dll
@@ -4184,22 +4462,22 @@ public static partial class Net80
         private static byte[]? _SystemDrawing;
 
         /// <summary>
-        /// The image bytes for System.Runtime.CompilerServices.Unsafe.dll
+        /// The image bytes for System.dll
         /// </summary>
-        public static byte[] SystemRuntimeCompilerServicesUnsafe => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeCompilerServicesUnsafe, "net80.System.Runtime.CompilerServices.Unsafe");
-        private static byte[]? _SystemRuntimeCompilerServicesUnsafe;
+        public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "net80.System");
+        private static byte[]? _System;
 
         /// <summary>
         /// The image bytes for System.Diagnostics.Tracing.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsTracing => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTracing, "net80.System.Diagnostics.Tracing");
-        private static byte[]? _SystemDiagnosticsTracing;
+        public static byte[] SystemDrawing => ResourceLoader.GetOrCreateResource(ref _SystemDrawing, "net80.System.Drawing");
+        private static byte[]? _SystemDrawing;
 
         /// <summary>
-        /// The image bytes for System.Data.DataSetExtensions.dll
+        /// The image bytes for System.Drawing.Primitives.dll
         /// </summary>
-        public static byte[] SystemDataDataSetExtensions => ResourceLoader.GetOrCreateResource(ref _SystemDataDataSetExtensions, "net80.System.Data.DataSetExtensions");
-        private static byte[]? _SystemDataDataSetExtensions;
+        public static byte[] SystemDrawingPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemDrawingPrimitives, "net80.System.Drawing.Primitives");
+        private static byte[]? _SystemDrawingPrimitives;
 
         /// <summary>
         /// The image bytes for System.Net.WebSockets.dll
@@ -4222,32 +4500,32 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Diagnostics.TraceSource.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsTraceSource => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTraceSource, "net80.System.Diagnostics.TraceSource");
-        private static byte[]? _SystemDiagnosticsTraceSource;
+        public static byte[] SystemGlobalizationCalendars => ResourceLoader.GetOrCreateResource(ref _SystemGlobalizationCalendars, "net80.System.Globalization.Calendars");
+        private static byte[]? _SystemGlobalizationCalendars;
 
         /// <summary>
-        /// The image bytes for Microsoft.VisualBasic.Core.dll
+        /// The image bytes for System.Globalization.dll
         /// </summary>
-        public static byte[] MicrosoftVisualBasicCore => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicCore, "net80.Microsoft.VisualBasic.Core");
-        private static byte[]? _MicrosoftVisualBasicCore;
+        public static byte[] SystemGlobalization => ResourceLoader.GetOrCreateResource(ref _SystemGlobalization, "net80.System.Globalization");
+        private static byte[]? _SystemGlobalization;
 
         /// <summary>
         /// The image bytes for System.Runtime.Loader.dll
         /// </summary>
-        public static byte[] SystemRuntimeLoader => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeLoader, "net80.System.Runtime.Loader");
-        private static byte[]? _SystemRuntimeLoader;
+        public static byte[] SystemGlobalizationExtensions => ResourceLoader.GetOrCreateResource(ref _SystemGlobalizationExtensions, "net80.System.Globalization.Extensions");
+        private static byte[]? _SystemGlobalizationExtensions;
 
         /// <summary>
         /// The image bytes for System.Xml.Serialization.dll
         /// </summary>
-        public static byte[] SystemXmlSerialization => ResourceLoader.GetOrCreateResource(ref _SystemXmlSerialization, "net80.System.Xml.Serialization");
-        private static byte[]? _SystemXmlSerialization;
+        public static byte[] SystemIOCompressionBrotli => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionBrotli, "net80.System.IO.Compression.Brotli");
+        private static byte[]? _SystemIOCompressionBrotli;
 
         /// <summary>
-        /// The image bytes for System.IO.dll
+        /// The image bytes for System.IO.Compression.dll
         /// </summary>
-        public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "net80.System.IO");
-        private static byte[]? _SystemIO;
+        public static byte[] SystemIOCompression => ResourceLoader.GetOrCreateResource(ref _SystemIOCompression, "net80.System.IO.Compression");
+        private static byte[]? _SystemIOCompression;
 
         /// <summary>
         /// The image bytes for System.Diagnostics.FileVersionInfo.dll
@@ -4262,22 +4540,22 @@ public static partial class Net80
         private static byte[]? _SystemRuntimeInteropServices;
 
         /// <summary>
-        /// The image bytes for System.Threading.Tasks.Parallel.dll
+        /// The image bytes for System.IO.dll
         /// </summary>
-        public static byte[] SystemThreadingTasksParallel => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksParallel, "net80.System.Threading.Tasks.Parallel");
-        private static byte[]? _SystemThreadingTasksParallel;
+        public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "net80.System.IO");
+        private static byte[]? _SystemIO;
 
         /// <summary>
         /// The image bytes for System.Net.Sockets.dll
         /// </summary>
-        public static byte[] SystemNetSockets => ResourceLoader.GetOrCreateResource(ref _SystemNetSockets, "net80.System.Net.Sockets");
-        private static byte[]? _SystemNetSockets;
+        public static byte[] SystemIOFileSystemAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemAccessControl, "net80.System.IO.FileSystem.AccessControl");
+        private static byte[]? _SystemIOFileSystemAccessControl;
 
         /// <summary>
-        /// The image bytes for System.ValueTuple.dll
+        /// The image bytes for System.IO.FileSystem.dll
         /// </summary>
-        public static byte[] SystemValueTuple => ResourceLoader.GetOrCreateResource(ref _SystemValueTuple, "net80.System.ValueTuple");
-        private static byte[]? _SystemValueTuple;
+        public static byte[] SystemIOFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystem, "net80.System.IO.FileSystem");
+        private static byte[]? _SystemIOFileSystem;
 
         /// <summary>
         /// The image bytes for System.Runtime.InteropServices.RuntimeInformation.dll
@@ -4294,8 +4572,8 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Net.ServicePoint.dll
         /// </summary>
-        public static byte[] SystemNetServicePoint => ResourceLoader.GetOrCreateResource(ref _SystemNetServicePoint, "net80.System.Net.ServicePoint");
-        private static byte[]? _SystemNetServicePoint;
+        public static byte[] SystemIOFileSystemWatcher => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemWatcher, "net80.System.IO.FileSystem.Watcher");
+        private static byte[]? _SystemIOFileSystemWatcher;
 
         /// <summary>
         /// The image bytes for System.Text.Encoding.CodePages.dll
@@ -4328,10 +4606,10 @@ public static partial class Net80
         private static byte[]? _SystemReflectionEmit;
 
         /// <summary>
-        /// The image bytes for System.Net.NetworkInformation.dll
+        /// The image bytes for System.Linq.dll
         /// </summary>
-        public static byte[] SystemNetNetworkInformation => ResourceLoader.GetOrCreateResource(ref _SystemNetNetworkInformation, "net80.System.Net.NetworkInformation");
-        private static byte[]? _SystemNetNetworkInformation;
+        public static byte[] SystemLinq => ResourceLoader.GetOrCreateResource(ref _SystemLinq, "net80.System.Linq");
+        private static byte[]? _SystemLinq;
 
         /// <summary>
         /// The image bytes for System.Reflection.Emit.ILGeneration.dll
@@ -4348,8 +4626,8 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.ComponentModel.Primitives.dll
         /// </summary>
-        public static byte[] SystemComponentModelPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelPrimitives, "net80.System.ComponentModel.Primitives");
-        private static byte[]? _SystemComponentModelPrimitives;
+        public static byte[] SystemLinqQueryable => ResourceLoader.GetOrCreateResource(ref _SystemLinqQueryable, "net80.System.Linq.Queryable");
+        private static byte[]? _SystemLinqQueryable;
 
         /// <summary>
         /// The image bytes for System.ComponentModel.DataAnnotations.dll
@@ -4358,22 +4636,22 @@ public static partial class Net80
         private static byte[]? _SystemComponentModelDataAnnotations;
 
         /// <summary>
-        /// The image bytes for System.Runtime.CompilerServices.VisualC.dll
+        /// The image bytes for System.Net.dll
         /// </summary>
-        public static byte[] SystemRuntimeCompilerServicesVisualC => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeCompilerServicesVisualC, "net80.System.Runtime.CompilerServices.VisualC");
-        private static byte[]? _SystemRuntimeCompilerServicesVisualC;
+        public static byte[] SystemNet => ResourceLoader.GetOrCreateResource(ref _SystemNet, "net80.System.Net");
+        private static byte[]? _SystemNet;
 
         /// <summary>
         /// The image bytes for System.Diagnostics.Debug.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsDebug => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsDebug, "net80.System.Diagnostics.Debug");
-        private static byte[]? _SystemDiagnosticsDebug;
+        public static byte[] SystemNetHttp => ResourceLoader.GetOrCreateResource(ref _SystemNetHttp, "net80.System.Net.Http");
+        private static byte[]? _SystemNetHttp;
 
         /// <summary>
-        /// The image bytes for System.Buffers.dll
+        /// The image bytes for System.Net.Http.Json.dll
         /// </summary>
-        public static byte[] SystemBuffers => ResourceLoader.GetOrCreateResource(ref _SystemBuffers, "net80.System.Buffers");
-        private static byte[]? _SystemBuffers;
+        public static byte[] SystemNetHttpJson => ResourceLoader.GetOrCreateResource(ref _SystemNetHttpJson, "net80.System.Net.Http.Json");
+        private static byte[]? _SystemNetHttpJson;
 
         /// <summary>
         /// The image bytes for System.Collections.NonGeneric.dll
@@ -4472,16 +4750,16 @@ public static partial class Net80
         private static byte[]? _SystemSecurityPrincipal;
 
         /// <summary>
-        /// The image bytes for System.ServiceProcess.dll
+        /// The image bytes for System.Numerics.dll
         /// </summary>
-        public static byte[] SystemServiceProcess => ResourceLoader.GetOrCreateResource(ref _SystemServiceProcess, "net80.System.ServiceProcess");
-        private static byte[]? _SystemServiceProcess;
+        public static byte[] SystemNumerics => ResourceLoader.GetOrCreateResource(ref _SystemNumerics, "net80.System.Numerics");
+        private static byte[]? _SystemNumerics;
 
         /// <summary>
         /// The image bytes for System.Linq.Queryable.dll
         /// </summary>
-        public static byte[] SystemLinqQueryable => ResourceLoader.GetOrCreateResource(ref _SystemLinqQueryable, "net80.System.Linq.Queryable");
-        private static byte[]? _SystemLinqQueryable;
+        public static byte[] SystemNumericsVectors => ResourceLoader.GetOrCreateResource(ref _SystemNumericsVectors, "net80.System.Numerics.Vectors");
+        private static byte[]? _SystemNumericsVectors;
 
         /// <summary>
         /// The image bytes for System.Memory.dll
@@ -4492,20 +4770,20 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Xml.XDocument.dll
         /// </summary>
-        public static byte[] SystemXmlXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXDocument, "net80.System.Xml.XDocument");
-        private static byte[]? _SystemXmlXDocument;
+        public static byte[] SystemReflectionDispatchProxy => ResourceLoader.GetOrCreateResource(ref _SystemReflectionDispatchProxy, "net80.System.Reflection.DispatchProxy");
+        private static byte[]? _SystemReflectionDispatchProxy;
 
         /// <summary>
-        /// The image bytes for System.Collections.dll
+        /// The image bytes for System.Reflection.dll
         /// </summary>
-        public static byte[] SystemCollections => ResourceLoader.GetOrCreateResource(ref _SystemCollections, "net80.System.Collections");
-        private static byte[]? _SystemCollections;
+        public static byte[] SystemReflection => ResourceLoader.GetOrCreateResource(ref _SystemReflection, "net80.System.Reflection");
+        private static byte[]? _SystemReflection;
 
         /// <summary>
-        /// The image bytes for System.Web.HttpUtility.dll
+        /// The image bytes for System.Reflection.Emit.dll
         /// </summary>
-        public static byte[] SystemWebHttpUtility => ResourceLoader.GetOrCreateResource(ref _SystemWebHttpUtility, "net80.System.Web.HttpUtility");
-        private static byte[]? _SystemWebHttpUtility;
+        public static byte[] SystemReflectionEmit => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmit, "net80.System.Reflection.Emit");
+        private static byte[]? _SystemReflectionEmit;
 
         /// <summary>
         /// The image bytes for System.Runtime.dll
@@ -4516,8 +4794,8 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Threading.Tasks.Dataflow.dll
         /// </summary>
-        public static byte[] SystemThreadingTasksDataflow => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksDataflow, "net80.System.Threading.Tasks.Dataflow");
-        private static byte[]? _SystemThreadingTasksDataflow;
+        public static byte[] SystemReflectionEmitLightweight => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmitLightweight, "net80.System.Reflection.Emit.Lightweight");
+        private static byte[]? _SystemReflectionEmitLightweight;
 
         /// <summary>
         /// The image bytes for System.Net.Ping.dll
@@ -4540,14 +4818,8 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Net.WebClient.dll
         /// </summary>
-        public static byte[] SystemNetWebClient => ResourceLoader.GetOrCreateResource(ref _SystemNetWebClient, "net80.System.Net.WebClient");
-        private static byte[]? _SystemNetWebClient;
-
-        /// <summary>
-        /// The image bytes for System.Text.Encoding.dll
-        /// </summary>
-        public static byte[] SystemTextEncoding => ResourceLoader.GetOrCreateResource(ref _SystemTextEncoding, "net80.System.Text.Encoding");
-        private static byte[]? _SystemTextEncoding;
+        public static byte[] SystemReflectionTypeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionTypeExtensions, "net80.System.Reflection.TypeExtensions");
+        private static byte[]? _SystemReflectionTypeExtensions;
 
         /// <summary>
         /// The image bytes for System.Resources.Reader.dll
@@ -4576,14 +4848,14 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.IO.FileSystem.DriveInfo.dll
         /// </summary>
-        public static byte[] SystemIOFileSystemDriveInfo => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemDriveInfo, "net80.System.IO.FileSystem.DriveInfo");
-        private static byte[]? _SystemIOFileSystemDriveInfo;
+        public static byte[] SystemRuntimeCompilerServicesVisualC => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeCompilerServicesVisualC, "net80.System.Runtime.CompilerServices.VisualC");
+        private static byte[]? _SystemRuntimeCompilerServicesVisualC;
 
         /// <summary>
-        /// The image bytes for System.Net.Http.Json.dll
+        /// The image bytes for System.Runtime.dll
         /// </summary>
-        public static byte[] SystemNetHttpJson => ResourceLoader.GetOrCreateResource(ref _SystemNetHttpJson, "net80.System.Net.Http.Json");
-        private static byte[]? _SystemNetHttpJson;
+        public static byte[] SystemRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntime, "net80.System.Runtime");
+        private static byte[]? _SystemRuntime;
 
         /// <summary>
         /// The image bytes for System.Reflection.dll
@@ -4594,14 +4866,14 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Numerics.Vectors.dll
         /// </summary>
-        public static byte[] SystemNumericsVectors => ResourceLoader.GetOrCreateResource(ref _SystemNumericsVectors, "net80.System.Numerics.Vectors");
-        private static byte[]? _SystemNumericsVectors;
+        public static byte[] SystemRuntimeHandles => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeHandles, "net80.System.Runtime.Handles");
+        private static byte[]? _SystemRuntimeHandles;
 
         /// <summary>
-        /// The image bytes for System.ServiceModel.Web.dll
+        /// The image bytes for System.Runtime.InteropServices.dll
         /// </summary>
-        public static byte[] SystemServiceModelWeb => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelWeb, "net80.System.ServiceModel.Web");
-        private static byte[]? _SystemServiceModelWeb;
+        public static byte[] SystemRuntimeInteropServices => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServices, "net80.System.Runtime.InteropServices");
+        private static byte[]? _SystemRuntimeInteropServices;
 
         /// <summary>
         /// The image bytes for System.ComponentModel.EventBasedAsync.dll
@@ -4612,8 +4884,8 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Xml.XPath.dll
         /// </summary>
-        public static byte[] SystemXmlXPath => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPath, "net80.System.Xml.XPath");
-        private static byte[]? _SystemXmlXPath;
+        public static byte[] SystemRuntimeInteropServicesRuntimeInformation => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesRuntimeInformation, "net80.System.Runtime.InteropServices.RuntimeInformation");
+        private static byte[]? _SystemRuntimeInteropServicesRuntimeInformation;
 
         /// <summary>
         /// The image bytes for System.Security.Principal.Windows.dll
@@ -4630,14 +4902,14 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for netstandard.dll
         /// </summary>
-        public static byte[] netstandard => ResourceLoader.GetOrCreateResource(ref _netstandard, "net80.netstandard");
-        private static byte[]? _netstandard;
+        public static byte[] SystemRuntimeNumerics => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeNumerics, "net80.System.Runtime.Numerics");
+        private static byte[]? _SystemRuntimeNumerics;
 
         /// <summary>
-        /// The image bytes for System.Globalization.Extensions.dll
+        /// The image bytes for System.Runtime.Serialization.dll
         /// </summary>
-        public static byte[] SystemGlobalizationExtensions => ResourceLoader.GetOrCreateResource(ref _SystemGlobalizationExtensions, "net80.System.Globalization.Extensions");
-        private static byte[]? _SystemGlobalizationExtensions;
+        public static byte[] SystemRuntimeSerialization => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerialization, "net80.System.Runtime.Serialization");
+        private static byte[]? _SystemRuntimeSerialization;
 
         /// <summary>
         /// The image bytes for System.Net.Security.dll
@@ -4660,8 +4932,8 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Runtime.Extensions.dll
         /// </summary>
-        public static byte[] SystemRuntimeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeExtensions, "net80.System.Runtime.Extensions");
-        private static byte[]? _SystemRuntimeExtensions;
+        public static byte[] SystemRuntimeSerializationXml => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationXml, "net80.System.Runtime.Serialization.Xml");
+        private static byte[]? _SystemRuntimeSerializationXml;
 
         /// <summary>
         /// The image bytes for System.Xml.dll
@@ -4690,14 +4962,14 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Globalization.dll
         /// </summary>
-        public static byte[] SystemGlobalization => ResourceLoader.GetOrCreateResource(ref _SystemGlobalization, "net80.System.Globalization");
-        private static byte[]? _SystemGlobalization;
+        public static byte[] SystemSecurityCryptographyCsp => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyCsp, "net80.System.Security.Cryptography.Csp");
+        private static byte[]? _SystemSecurityCryptographyCsp;
 
         /// <summary>
-        /// The image bytes for System.Security.Claims.dll
+        /// The image bytes for System.Security.Cryptography.dll
         /// </summary>
-        public static byte[] SystemSecurityClaims => ResourceLoader.GetOrCreateResource(ref _SystemSecurityClaims, "net80.System.Security.Claims");
-        private static byte[]? _SystemSecurityClaims;
+        public static byte[] SystemSecurityCryptography => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptography, "net80.System.Security.Cryptography");
+        private static byte[]? _SystemSecurityCryptography;
 
         /// <summary>
         /// The image bytes for System.Threading.ThreadPool.dll
@@ -4724,28 +4996,28 @@ public static partial class Net80
         private static byte[]? _mscorlib;
 
         /// <summary>
-        /// The image bytes for System.Net.WebHeaderCollection.dll
+        /// The image bytes for System.Security.dll
         /// </summary>
-        public static byte[] SystemNetWebHeaderCollection => ResourceLoader.GetOrCreateResource(ref _SystemNetWebHeaderCollection, "net80.System.Net.WebHeaderCollection");
-        private static byte[]? _SystemNetWebHeaderCollection;
+        public static byte[] SystemSecurity => ResourceLoader.GetOrCreateResource(ref _SystemSecurity, "net80.System.Security");
+        private static byte[]? _SystemSecurity;
 
         /// <summary>
-        /// The image bytes for System.Xml.XPath.XDocument.dll
+        /// The image bytes for System.Security.Principal.dll
         /// </summary>
-        public static byte[] SystemXmlXPathXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPathXDocument, "net80.System.Xml.XPath.XDocument");
-        private static byte[]? _SystemXmlXPathXDocument;
+        public static byte[] SystemSecurityPrincipal => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipal, "net80.System.Security.Principal");
+        private static byte[]? _SystemSecurityPrincipal;
 
         /// <summary>
         /// The image bytes for System.ComponentModel.dll
         /// </summary>
-        public static byte[] SystemComponentModel => ResourceLoader.GetOrCreateResource(ref _SystemComponentModel, "net80.System.ComponentModel");
-        private static byte[]? _SystemComponentModel;
+        public static byte[] SystemSecurityPrincipalWindows => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipalWindows, "net80.System.Security.Principal.Windows");
+        private static byte[]? _SystemSecurityPrincipalWindows;
 
         /// <summary>
         /// The image bytes for System.Numerics.dll
         /// </summary>
-        public static byte[] SystemNumerics => ResourceLoader.GetOrCreateResource(ref _SystemNumerics, "net80.System.Numerics");
-        private static byte[]? _SystemNumerics;
+        public static byte[] SystemSecuritySecureString => ResourceLoader.GetOrCreateResource(ref _SystemSecuritySecureString, "net80.System.Security.SecureString");
+        private static byte[]? _SystemSecuritySecureString;
 
         /// <summary>
         /// The image bytes for System.Threading.Tasks.Extensions.dll
@@ -4762,20 +5034,20 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Threading.Tasks.dll
         /// </summary>
-        public static byte[] SystemThreadingTasks => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasks, "net80.System.Threading.Tasks");
-        private static byte[]? _SystemThreadingTasks;
+        public static byte[] SystemTextEncodingCodePages => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingCodePages, "net80.System.Text.Encoding.CodePages");
+        private static byte[]? _SystemTextEncodingCodePages;
 
         /// <summary>
-        /// The image bytes for System.Xml.Linq.dll
+        /// The image bytes for System.Text.Encoding.dll
         /// </summary>
-        public static byte[] SystemXmlLinq => ResourceLoader.GetOrCreateResource(ref _SystemXmlLinq, "net80.System.Xml.Linq");
-        private static byte[]? _SystemXmlLinq;
+        public static byte[] SystemTextEncoding => ResourceLoader.GetOrCreateResource(ref _SystemTextEncoding, "net80.System.Text.Encoding");
+        private static byte[]? _SystemTextEncoding;
 
         /// <summary>
         /// The image bytes for System.IO.FileSystem.dll
         /// </summary>
-        public static byte[] SystemIOFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystem, "net80.System.IO.FileSystem");
-        private static byte[]? _SystemIOFileSystem;
+        public static byte[] SystemTextEncodingExtensions => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingExtensions, "net80.System.Text.Encoding.Extensions");
+        private static byte[]? _SystemTextEncodingExtensions;
 
         /// <summary>
         /// The image bytes for Microsoft.Win32.Registry.dll
@@ -4798,14 +5070,14 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Data.Common.dll
         /// </summary>
-        public static byte[] SystemDataCommon => ResourceLoader.GetOrCreateResource(ref _SystemDataCommon, "net80.System.Data.Common");
-        private static byte[]? _SystemDataCommon;
+        public static byte[] SystemThreadingChannels => ResourceLoader.GetOrCreateResource(ref _SystemThreadingChannels, "net80.System.Threading.Channels");
+        private static byte[]? _SystemThreadingChannels;
 
         /// <summary>
-        /// The image bytes for System.IO.FileSystem.Watcher.dll
+        /// The image bytes for System.Threading.dll
         /// </summary>
-        public static byte[] SystemIOFileSystemWatcher => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemWatcher, "net80.System.IO.FileSystem.Watcher");
-        private static byte[]? _SystemIOFileSystemWatcher;
+        public static byte[] SystemThreading => ResourceLoader.GetOrCreateResource(ref _SystemThreading, "net80.System.Threading");
+        private static byte[]? _SystemThreading;
 
         /// <summary>
         /// The image bytes for System.AppContext.dll
@@ -4816,14 +5088,14 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Security.dll
         /// </summary>
-        public static byte[] SystemSecurity => ResourceLoader.GetOrCreateResource(ref _SystemSecurity, "net80.System.Security");
-        private static byte[]? _SystemSecurity;
+        public static byte[] SystemThreadingTasksDataflow => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksDataflow, "net80.System.Threading.Tasks.Dataflow");
+        private static byte[]? _SystemThreadingTasksDataflow;
 
         /// <summary>
-        /// The image bytes for System.Runtime.Serialization.Json.dll
+        /// The image bytes for System.Threading.Tasks.dll
         /// </summary>
-        public static byte[] SystemRuntimeSerializationJson => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationJson, "net80.System.Runtime.Serialization.Json");
-        private static byte[]? _SystemRuntimeSerializationJson;
+        public static byte[] SystemThreadingTasks => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasks, "net80.System.Threading.Tasks");
+        private static byte[]? _SystemThreadingTasks;
 
         /// <summary>
         /// The image bytes for System.Net.Quic.dll
@@ -4834,8 +5106,8 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Runtime.Handles.dll
         /// </summary>
-        public static byte[] SystemRuntimeHandles => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeHandles, "net80.System.Runtime.Handles");
-        private static byte[]? _SystemRuntimeHandles;
+        public static byte[] SystemThreadingTasksParallel => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksParallel, "net80.System.Threading.Tasks.Parallel");
+        private static byte[]? _SystemThreadingTasksParallel;
 
         /// <summary>
         /// The image bytes for System.Runtime.InteropServices.JavaScript.dll
@@ -4856,46 +5128,46 @@ public static partial class Net80
         private static byte[]? _SystemThreadingChannels;
 
         /// <summary>
+        /// The image bytes for System.Transactions.dll
+        /// </summary>
+        public static byte[] SystemTransactions => ResourceLoader.GetOrCreateResource(ref _SystemTransactions, "net80.System.Transactions");
+        private static byte[]? _SystemTransactions;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.Numerics.dll
+        /// </summary>
+        public static byte[] SystemTransactionsLocal => ResourceLoader.GetOrCreateResource(ref _SystemTransactionsLocal, "net80.System.Transactions.Local");
+        private static byte[]? _SystemTransactionsLocal;
+
+        /// <summary>
+        /// The image bytes for System.Xml.XmlDocument.dll
+        /// </summary>
+        public static byte[] SystemValueTuple => ResourceLoader.GetOrCreateResource(ref _SystemValueTuple, "net80.System.ValueTuple");
+        private static byte[]? _SystemValueTuple;
+
+        /// <summary>
         /// The image bytes for System.Web.dll
         /// </summary>
         public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "net80.System.Web");
         private static byte[]? _SystemWeb;
 
         /// <summary>
-        /// The image bytes for System.Runtime.Numerics.dll
-        /// </summary>
-        public static byte[] SystemRuntimeNumerics => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeNumerics, "net80.System.Runtime.Numerics");
-        private static byte[]? _SystemRuntimeNumerics;
-
-        /// <summary>
-        /// The image bytes for System.Xml.XmlDocument.dll
-        /// </summary>
-        public static byte[] SystemXmlXmlDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlDocument, "net80.System.Xml.XmlDocument");
-        private static byte[]? _SystemXmlXmlDocument;
-
-        /// <summary>
-        /// The image bytes for System.Xml.XmlSerializer.dll
-        /// </summary>
-        public static byte[] SystemXmlXmlSerializer => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlSerializer, "net80.System.Xml.XmlSerializer");
-        private static byte[]? _SystemXmlXmlSerializer;
-
-        /// <summary>
         /// The image bytes for System.Reflection.TypeExtensions.dll
         /// </summary>
-        public static byte[] SystemReflectionTypeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionTypeExtensions, "net80.System.Reflection.TypeExtensions");
-        private static byte[]? _SystemReflectionTypeExtensions;
+        public static byte[] SystemWebHttpUtility => ResourceLoader.GetOrCreateResource(ref _SystemWebHttpUtility, "net80.System.Web.HttpUtility");
+        private static byte[]? _SystemWebHttpUtility;
 
         /// <summary>
         /// The image bytes for System.IO.UnmanagedMemoryStream.dll
         /// </summary>
-        public static byte[] SystemIOUnmanagedMemoryStream => ResourceLoader.GetOrCreateResource(ref _SystemIOUnmanagedMemoryStream, "net80.System.IO.UnmanagedMemoryStream");
-        private static byte[]? _SystemIOUnmanagedMemoryStream;
+        public static byte[] SystemWindows => ResourceLoader.GetOrCreateResource(ref _SystemWindows, "net80.System.Windows");
+        private static byte[]? _SystemWindows;
 
         /// <summary>
-        /// The image bytes for System.Net.NameResolution.dll
+        /// The image bytes for System.Xml.dll
         /// </summary>
-        public static byte[] SystemNetNameResolution => ResourceLoader.GetOrCreateResource(ref _SystemNetNameResolution, "net80.System.Net.NameResolution");
-        private static byte[]? _SystemNetNameResolution;
+        public static byte[] SystemXml => ResourceLoader.GetOrCreateResource(ref _SystemXml, "net80.System.Xml");
+        private static byte[]? _SystemXml;
 
         /// <summary>
         /// The image bytes for System.Transactions.dll
@@ -4918,8 +5190,8 @@ public static partial class Net80
         /// <summary>
         /// The image bytes for System.Security.Cryptography.Encoding.dll
         /// </summary>
-        public static byte[] SystemSecurityCryptographyEncoding => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyEncoding, "net80.System.Security.Cryptography.Encoding");
-        private static byte[]? _SystemSecurityCryptographyEncoding;
+        public static byte[] SystemXmlXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXDocument, "net80.System.Xml.XDocument");
+        private static byte[]? _SystemXmlXDocument;
 
         /// <summary>
         /// The image bytes for System.Transactions.Local.dll
@@ -4934,16 +5206,34 @@ public static partial class Net80
         private static byte[]? _SystemIOPipes;
 
         /// <summary>
-        /// The image bytes for System.Windows.dll
+        /// The image bytes for System.Xml.XPath.dll
         /// </summary>
-        public static byte[] SystemWindows => ResourceLoader.GetOrCreateResource(ref _SystemWindows, "net80.System.Windows");
-        private static byte[]? _SystemWindows;
+        public static byte[] SystemXmlXPath => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPath, "net80.System.Xml.XPath");
+        private static byte[]? _SystemXmlXPath;
 
         /// <summary>
-        /// The image bytes for System.Runtime.Serialization.Xml.dll
+        /// The image bytes for System.Xml.XPath.XDocument.dll
         /// </summary>
-        public static byte[] SystemRuntimeSerializationXml => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationXml, "net80.System.Runtime.Serialization.Xml");
-        private static byte[]? _SystemRuntimeSerializationXml;
+        public static byte[] SystemXmlXPathXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPathXDocument, "net80.System.Xml.XPath.XDocument");
+        private static byte[]? _SystemXmlXPathXDocument;
+
+        /// <summary>
+        /// The image bytes for WindowsBase.dll
+        /// </summary>
+        public static byte[] WindowsBase => ResourceLoader.GetOrCreateResource(ref _WindowsBase, "net80.WindowsBase");
+        private static byte[]? _WindowsBase;
+
+        /// <summary>
+        /// The image bytes for mscorlib.dll
+        /// </summary>
+        public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "net80.mscorlib");
+        private static byte[]? _mscorlib;
+
+        /// <summary>
+        /// The image bytes for netstandard.dll
+        /// </summary>
+        public static byte[] netstandard => ResourceLoader.GetOrCreateResource(ref _netstandard, "net80.netstandard");
+        private static byte[]? _netstandard;
 
 
     }
