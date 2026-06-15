@@ -12,7 +12,7 @@ public static partial class Net100Wasm
     public static class ReferenceInfos
     {
 
-        /// <summary> public static PortableExecutableReference
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.CSharp.dll
         /// </summary>
         public static ReferenceInfo MicrosoftCSharp => new ReferenceInfo("Microsoft.CSharp.dll", Resources.MicrosoftCSharp, Net100Wasm.References.MicrosoftCSharp, global::System.Guid.Parse("0404a7f9-d0b6-464f-818f-9f31901a0a77"));
@@ -38,16 +38,6 @@ public static partial class Net100Wasm
         public static ReferenceInfo MicrosoftWin32Registry => new ReferenceInfo("Microsoft.Win32.Registry.dll", Resources.MicrosoftWin32Registry, Net100Wasm.References.MicrosoftWin32Registry, global::System.Guid.Parse("e913984b-725d-4db1-a8d2-2e187fd4b0b9"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for mscorlib.dll
-        /// </summary>
-        public static ReferenceInfo mscorlib => new ReferenceInfo("mscorlib.dll", Resources.mscorlib, Net100Wasm.References.mscorlib, global::System.Guid.Parse("341f8709-51c3-4e54-8200-2d7e600ab460"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for netstandard.dll
-        /// </summary>
-        public static ReferenceInfo netstandard => new ReferenceInfo("netstandard.dll", Resources.netstandard, Net100Wasm.References.netstandard, global::System.Guid.Parse("82073b99-4b47-45c9-80bf-748e360f6b94"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.AppContext.dll
         /// </summary>
         public static ReferenceInfo SystemAppContext => new ReferenceInfo("System.AppContext.dll", Resources.SystemAppContext, Net100Wasm.References.SystemAppContext, global::System.Guid.Parse("381c9663-21cd-4c5b-814a-2b2b0b8727f4"));
@@ -61,11 +51,6 @@ public static partial class Net100Wasm
         /// The <see cref="ReferenceInfo"/> for System.Collections.Concurrent.dll
         /// </summary>
         public static ReferenceInfo SystemCollectionsConcurrent => new ReferenceInfo("System.Collections.Concurrent.dll", Resources.SystemCollectionsConcurrent, Net100Wasm.References.SystemCollectionsConcurrent, global::System.Guid.Parse("27f4472b-a290-43ef-acc1-ed1564c7443c"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Collections.dll
-        /// </summary>
-        public static ReferenceInfo SystemCollections => new ReferenceInfo("System.Collections.dll", Resources.SystemCollections, Net100Wasm.References.SystemCollections, global::System.Guid.Parse("66f82c24-c0ab-46c3-8c20-363a4df6fb0b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Collections.Immutable.dll
@@ -83,6 +68,11 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemCollectionsSpecialized => new ReferenceInfo("System.Collections.Specialized.dll", Resources.SystemCollectionsSpecialized, Net100Wasm.References.SystemCollectionsSpecialized, global::System.Guid.Parse("ec0fcfd4-1439-48cd-a2d4-1429feba75f4"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Collections.dll
+        /// </summary>
+        public static ReferenceInfo SystemCollections => new ReferenceInfo("System.Collections.dll", Resources.SystemCollections, Net100Wasm.References.SystemCollections, global::System.Guid.Parse("66f82c24-c0ab-46c3-8c20-363a4df6fb0b"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.Annotations.dll
         /// </summary>
         public static ReferenceInfo SystemComponentModelAnnotations => new ReferenceInfo("System.ComponentModel.Annotations.dll", Resources.SystemComponentModelAnnotations, Net100Wasm.References.SystemComponentModelAnnotations, global::System.Guid.Parse("72733bd0-8f2f-4d5e-8d5a-51c0ba5e12ca"));
@@ -91,11 +81,6 @@ public static partial class Net100Wasm
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.DataAnnotations.dll
         /// </summary>
         public static ReferenceInfo SystemComponentModelDataAnnotations => new ReferenceInfo("System.ComponentModel.DataAnnotations.dll", Resources.SystemComponentModelDataAnnotations, Net100Wasm.References.SystemComponentModelDataAnnotations, global::System.Guid.Parse("8f07f3e6-a523-40a9-93e8-f5ea2f48bf28"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.ComponentModel.dll
-        /// </summary>
-        public static ReferenceInfo SystemComponentModel => new ReferenceInfo("System.ComponentModel.dll", Resources.SystemComponentModel, Net100Wasm.References.SystemComponentModel, global::System.Guid.Parse("ced335d1-679b-4ba7-acfe-465decdb57c0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.EventBasedAsync.dll
@@ -111,6 +96,11 @@ public static partial class Net100Wasm
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.TypeConverter.dll
         /// </summary>
         public static ReferenceInfo SystemComponentModelTypeConverter => new ReferenceInfo("System.ComponentModel.TypeConverter.dll", Resources.SystemComponentModelTypeConverter, Net100Wasm.References.SystemComponentModelTypeConverter, global::System.Guid.Parse("ae437876-ae0a-4a8c-9ce4-d61da8a2b88e"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.ComponentModel.dll
+        /// </summary>
+        public static ReferenceInfo SystemComponentModel => new ReferenceInfo("System.ComponentModel.dll", Resources.SystemComponentModel, Net100Wasm.References.SystemComponentModel, global::System.Guid.Parse("ced335d1-679b-4ba7-acfe-465decdb57c0"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Configuration.dll
@@ -193,19 +183,14 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemDiagnosticsTracing => new ReferenceInfo("System.Diagnostics.Tracing.dll", Resources.SystemDiagnosticsTracing, Net100Wasm.References.SystemDiagnosticsTracing, global::System.Guid.Parse("2c4d43b5-e13d-4415-9175-5e57a9a1a501"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.dll
+        /// The <see cref="ReferenceInfo"/> for System.Drawing.Primitives.dll
         /// </summary>
-        public static ReferenceInfo System => new ReferenceInfo("System.dll", Resources.System, Net100Wasm.References.System, global::System.Guid.Parse("4b1b85f8-1bf5-4ad7-b7c8-abb8c9927139"));
+        public static ReferenceInfo SystemDrawingPrimitives => new ReferenceInfo("System.Drawing.Primitives.dll", Resources.SystemDrawingPrimitives, Net100Wasm.References.SystemDrawingPrimitives, global::System.Guid.Parse("a246ca06-d7da-4f42-9e93-ef26729d665c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Drawing.dll
         /// </summary>
         public static ReferenceInfo SystemDrawing => new ReferenceInfo("System.Drawing.dll", Resources.SystemDrawing, Net100Wasm.References.SystemDrawing, global::System.Guid.Parse("d890658d-db25-4a97-befc-34515733fded"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Drawing.Primitives.dll
-        /// </summary>
-        public static ReferenceInfo SystemDrawingPrimitives => new ReferenceInfo("System.Drawing.Primitives.dll", Resources.SystemDrawingPrimitives, Net100Wasm.References.SystemDrawingPrimitives, global::System.Guid.Parse("a246ca06-d7da-4f42-9e93-ef26729d665c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Dynamic.Runtime.dll
@@ -228,24 +213,19 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemGlobalizationCalendars => new ReferenceInfo("System.Globalization.Calendars.dll", Resources.SystemGlobalizationCalendars, Net100Wasm.References.SystemGlobalizationCalendars, global::System.Guid.Parse("d2420add-cb42-4aaf-8420-ca166a98d880"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Globalization.dll
-        /// </summary>
-        public static ReferenceInfo SystemGlobalization => new ReferenceInfo("System.Globalization.dll", Resources.SystemGlobalization, Net100Wasm.References.SystemGlobalization, global::System.Guid.Parse("e84b3145-69d6-4b7e-8fb2-6367c64a823c"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Globalization.Extensions.dll
         /// </summary>
         public static ReferenceInfo SystemGlobalizationExtensions => new ReferenceInfo("System.Globalization.Extensions.dll", Resources.SystemGlobalizationExtensions, Net100Wasm.References.SystemGlobalizationExtensions, global::System.Guid.Parse("98dbe060-ea87-40ec-99dc-edecd188c7e6"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Globalization.dll
+        /// </summary>
+        public static ReferenceInfo SystemGlobalization => new ReferenceInfo("System.Globalization.dll", Resources.SystemGlobalization, Net100Wasm.References.SystemGlobalization, global::System.Guid.Parse("e84b3145-69d6-4b7e-8fb2-6367c64a823c"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Compression.Brotli.dll
         /// </summary>
         public static ReferenceInfo SystemIOCompressionBrotli => new ReferenceInfo("System.IO.Compression.Brotli.dll", Resources.SystemIOCompressionBrotli, Net100Wasm.References.SystemIOCompressionBrotli, global::System.Guid.Parse("a5e0dcf0-e098-4a92-9dd6-4a7db1322365"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.Compression.dll
-        /// </summary>
-        public static ReferenceInfo SystemIOCompression => new ReferenceInfo("System.IO.Compression.dll", Resources.SystemIOCompression, Net100Wasm.References.SystemIOCompression, global::System.Guid.Parse("24ffb0fb-6b55-4220-a000-7872687e40a8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Compression.FileSystem.dll
@@ -258,19 +238,14 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemIOCompressionZipFile => new ReferenceInfo("System.IO.Compression.ZipFile.dll", Resources.SystemIOCompressionZipFile, Net100Wasm.References.SystemIOCompressionZipFile, global::System.Guid.Parse("a0b5d3d4-0ae0-47ae-a418-eb01baf192a9"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.dll
+        /// The <see cref="ReferenceInfo"/> for System.IO.Compression.dll
         /// </summary>
-        public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO, Net100Wasm.References.SystemIO, global::System.Guid.Parse("cea42916-aed0-4fc6-8c3a-ff8852e59470"));
+        public static ReferenceInfo SystemIOCompression => new ReferenceInfo("System.IO.Compression.dll", Resources.SystemIOCompression, Net100Wasm.References.SystemIOCompression, global::System.Guid.Parse("24ffb0fb-6b55-4220-a000-7872687e40a8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.AccessControl.dll
         /// </summary>
         public static ReferenceInfo SystemIOFileSystemAccessControl => new ReferenceInfo("System.IO.FileSystem.AccessControl.dll", Resources.SystemIOFileSystemAccessControl, Net100Wasm.References.SystemIOFileSystemAccessControl, global::System.Guid.Parse("c1580611-38e6-4218-8923-e08d87fcc53a"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.dll
-        /// </summary>
-        public static ReferenceInfo SystemIOFileSystem => new ReferenceInfo("System.IO.FileSystem.dll", Resources.SystemIOFileSystem, Net100Wasm.References.SystemIOFileSystem, global::System.Guid.Parse("684047b9-e256-49e3-919a-0fd9a195d035"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.DriveInfo.dll
@@ -286,6 +261,11 @@ public static partial class Net100Wasm
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.Watcher.dll
         /// </summary>
         public static ReferenceInfo SystemIOFileSystemWatcher => new ReferenceInfo("System.IO.FileSystem.Watcher.dll", Resources.SystemIOFileSystemWatcher, Net100Wasm.References.SystemIOFileSystemWatcher, global::System.Guid.Parse("a8d78060-cca7-4261-aee2-710da66120f4"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.dll
+        /// </summary>
+        public static ReferenceInfo SystemIOFileSystem => new ReferenceInfo("System.IO.FileSystem.dll", Resources.SystemIOFileSystem, Net100Wasm.References.SystemIOFileSystem, global::System.Guid.Parse("684047b9-e256-49e3-919a-0fd9a195d035"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.IsolatedStorage.dll
@@ -318,14 +298,14 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemIOUnmanagedMemoryStream => new ReferenceInfo("System.IO.UnmanagedMemoryStream.dll", Resources.SystemIOUnmanagedMemoryStream, Net100Wasm.References.SystemIOUnmanagedMemoryStream, global::System.Guid.Parse("bfb77410-ffd8-429e-8d38-b7b8ae48c13c"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.IO.dll
+        /// </summary>
+        public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO, Net100Wasm.References.SystemIO, global::System.Guid.Parse("cea42916-aed0-4fc6-8c3a-ff8852e59470"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Linq.AsyncEnumerable.dll
         /// </summary>
         public static ReferenceInfo SystemLinqAsyncEnumerable => new ReferenceInfo("System.Linq.AsyncEnumerable.dll", Resources.SystemLinqAsyncEnumerable, Net100Wasm.References.SystemLinqAsyncEnumerable, global::System.Guid.Parse("a0a6014d-a397-43fd-ba4e-5945a6d3f256"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Linq.dll
-        /// </summary>
-        public static ReferenceInfo SystemLinq => new ReferenceInfo("System.Linq.dll", Resources.SystemLinq, Net100Wasm.References.SystemLinq, global::System.Guid.Parse("a170771b-3433-4151-b0bc-ce9e1cf20e01"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Linq.Expressions.dll
@@ -343,24 +323,24 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemLinqQueryable => new ReferenceInfo("System.Linq.Queryable.dll", Resources.SystemLinqQueryable, Net100Wasm.References.SystemLinqQueryable, global::System.Guid.Parse("f27e8256-a804-4821-a5b5-20f2fb9a84c2"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Linq.dll
+        /// </summary>
+        public static ReferenceInfo SystemLinq => new ReferenceInfo("System.Linq.dll", Resources.SystemLinq, Net100Wasm.References.SystemLinq, global::System.Guid.Parse("a170771b-3433-4151-b0bc-ce9e1cf20e01"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Memory.dll
         /// </summary>
         public static ReferenceInfo SystemMemory => new ReferenceInfo("System.Memory.dll", Resources.SystemMemory, Net100Wasm.References.SystemMemory, global::System.Guid.Parse("8b39451a-9028-4db9-9e06-ba86e3672b0b"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Net.dll
+        /// The <see cref="ReferenceInfo"/> for System.Net.Http.Json.dll
         /// </summary>
-        public static ReferenceInfo SystemNet => new ReferenceInfo("System.Net.dll", Resources.SystemNet, Net100Wasm.References.SystemNet, global::System.Guid.Parse("d3868e01-7667-4a96-980c-bfe25694d213"));
+        public static ReferenceInfo SystemNetHttpJson => new ReferenceInfo("System.Net.Http.Json.dll", Resources.SystemNetHttpJson, Net100Wasm.References.SystemNetHttpJson, global::System.Guid.Parse("166808c4-54d3-492c-8a62-03b715ce4593"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Http.dll
         /// </summary>
         public static ReferenceInfo SystemNetHttp => new ReferenceInfo("System.Net.Http.dll", Resources.SystemNetHttp, Net100Wasm.References.SystemNetHttp, global::System.Guid.Parse("6af093a6-a48e-4d3c-b6dc-2deb81ac8653"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Net.Http.Json.dll
-        /// </summary>
-        public static ReferenceInfo SystemNetHttpJson => new ReferenceInfo("System.Net.Http.Json.dll", Resources.SystemNetHttpJson, Net100Wasm.References.SystemNetHttpJson, global::System.Guid.Parse("166808c4-54d3-492c-8a62-03b715ce4593"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.HttpListener.dll
@@ -448,14 +428,19 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemNetWebSockets => new ReferenceInfo("System.Net.WebSockets.dll", Resources.SystemNetWebSockets, Net100Wasm.References.SystemNetWebSockets, global::System.Guid.Parse("e6847b71-cca8-49ed-9c80-64457e06f167"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Numerics.dll
+        /// The <see cref="ReferenceInfo"/> for System.Net.dll
         /// </summary>
-        public static ReferenceInfo SystemNumerics => new ReferenceInfo("System.Numerics.dll", Resources.SystemNumerics, Net100Wasm.References.SystemNumerics, global::System.Guid.Parse("94e1913c-6858-466c-a6b8-2e5091c9de52"));
+        public static ReferenceInfo SystemNet => new ReferenceInfo("System.Net.dll", Resources.SystemNet, Net100Wasm.References.SystemNet, global::System.Guid.Parse("d3868e01-7667-4a96-980c-bfe25694d213"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Numerics.Vectors.dll
         /// </summary>
         public static ReferenceInfo SystemNumericsVectors => new ReferenceInfo("System.Numerics.Vectors.dll", Resources.SystemNumericsVectors, Net100Wasm.References.SystemNumericsVectors, global::System.Guid.Parse("f278abdf-072a-4ead-91b5-93965439e976"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Numerics.dll
+        /// </summary>
+        public static ReferenceInfo SystemNumerics => new ReferenceInfo("System.Numerics.dll", Resources.SystemNumerics, Net100Wasm.References.SystemNumerics, global::System.Guid.Parse("94e1913c-6858-466c-a6b8-2e5091c9de52"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ObjectModel.dll
@@ -473,29 +458,19 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemPrivateUri => new ReferenceInfo("System.Private.Uri.dll", Resources.SystemPrivateUri, Net100Wasm.References.SystemPrivateUri, global::System.Guid.Parse("194127a4-2643-4a57-a334-4c6e6ae5cb07"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Private.Xml.dll
-        /// </summary>
-        public static ReferenceInfo SystemPrivateXml => new ReferenceInfo("System.Private.Xml.dll", Resources.SystemPrivateXml, Net100Wasm.References.SystemPrivateXml, global::System.Guid.Parse("119ba91b-cced-428b-963b-18475527223e"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Private.Xml.Linq.dll
         /// </summary>
         public static ReferenceInfo SystemPrivateXmlLinq => new ReferenceInfo("System.Private.Xml.Linq.dll", Resources.SystemPrivateXmlLinq, Net100Wasm.References.SystemPrivateXmlLinq, global::System.Guid.Parse("1ee44afd-bef2-4b35-89ec-73e64d1ab398"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Private.Xml.dll
+        /// </summary>
+        public static ReferenceInfo SystemPrivateXml => new ReferenceInfo("System.Private.Xml.dll", Resources.SystemPrivateXml, Net100Wasm.References.SystemPrivateXml, global::System.Guid.Parse("119ba91b-cced-428b-963b-18475527223e"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.DispatchProxy.dll
         /// </summary>
         public static ReferenceInfo SystemReflectionDispatchProxy => new ReferenceInfo("System.Reflection.DispatchProxy.dll", Resources.SystemReflectionDispatchProxy, Net100Wasm.References.SystemReflectionDispatchProxy, global::System.Guid.Parse("50470b56-311b-497e-9f5d-79cc4360a2e9"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Reflection.dll
-        /// </summary>
-        public static ReferenceInfo SystemReflection => new ReferenceInfo("System.Reflection.dll", Resources.SystemReflection, Net100Wasm.References.SystemReflection, global::System.Guid.Parse("1c41dbd5-f1ef-4769-a968-5c4f02e873b6"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.dll
-        /// </summary>
-        public static ReferenceInfo SystemReflectionEmit => new ReferenceInfo("System.Reflection.Emit.dll", Resources.SystemReflectionEmit, Net100Wasm.References.SystemReflectionEmit, global::System.Guid.Parse("6adcf238-8085-4af1-a74f-fbb888bbc6aa"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.ILGeneration.dll
@@ -506,6 +481,11 @@ public static partial class Net100Wasm
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.Lightweight.dll
         /// </summary>
         public static ReferenceInfo SystemReflectionEmitLightweight => new ReferenceInfo("System.Reflection.Emit.Lightweight.dll", Resources.SystemReflectionEmitLightweight, Net100Wasm.References.SystemReflectionEmitLightweight, global::System.Guid.Parse("3c5510cf-9ecf-4acb-b78c-675fd12e5306"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.dll
+        /// </summary>
+        public static ReferenceInfo SystemReflectionEmit => new ReferenceInfo("System.Reflection.Emit.dll", Resources.SystemReflectionEmit, Net100Wasm.References.SystemReflectionEmit, global::System.Guid.Parse("6adcf238-8085-4af1-a74f-fbb888bbc6aa"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Extensions.dll
@@ -526,6 +506,11 @@ public static partial class Net100Wasm
         /// The <see cref="ReferenceInfo"/> for System.Reflection.TypeExtensions.dll
         /// </summary>
         public static ReferenceInfo SystemReflectionTypeExtensions => new ReferenceInfo("System.Reflection.TypeExtensions.dll", Resources.SystemReflectionTypeExtensions, Net100Wasm.References.SystemReflectionTypeExtensions, global::System.Guid.Parse("dba77d3c-c2cf-4240-8543-7718b2e53ed5"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Reflection.dll
+        /// </summary>
+        public static ReferenceInfo SystemReflection => new ReferenceInfo("System.Reflection.dll", Resources.SystemReflection, Net100Wasm.References.SystemReflection, global::System.Guid.Parse("1c41dbd5-f1ef-4769-a968-5c4f02e873b6"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Resources.Reader.dll
@@ -553,11 +538,6 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemRuntimeCompilerServicesVisualC => new ReferenceInfo("System.Runtime.CompilerServices.VisualC.dll", Resources.SystemRuntimeCompilerServicesVisualC, Net100Wasm.References.SystemRuntimeCompilerServicesVisualC, global::System.Guid.Parse("c34404ba-cf4c-41c8-b1a8-9786af1fada8"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.dll
-        /// </summary>
-        public static ReferenceInfo SystemRuntime => new ReferenceInfo("System.Runtime.dll", Resources.SystemRuntime, Net100Wasm.References.SystemRuntime, global::System.Guid.Parse("cc327627-2988-4b36-b256-bb5d7e82f2f2"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Extensions.dll
         /// </summary>
         public static ReferenceInfo SystemRuntimeExtensions => new ReferenceInfo("System.Runtime.Extensions.dll", Resources.SystemRuntimeExtensions, Net100Wasm.References.SystemRuntimeExtensions, global::System.Guid.Parse("fdf67f98-0bbf-4de1-a735-b714ffeea977"));
@@ -568,11 +548,6 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemRuntimeHandles => new ReferenceInfo("System.Runtime.Handles.dll", Resources.SystemRuntimeHandles, Net100Wasm.References.SystemRuntimeHandles, global::System.Guid.Parse("1e8ff36a-537c-4639-9e50-63d91e1da97f"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.dll
-        /// </summary>
-        public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices, Net100Wasm.References.SystemRuntimeInteropServices, global::System.Guid.Parse("60f648b1-1a0d-4158-b240-608b419abfe4"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.JavaScript.dll
         /// </summary>
         public static ReferenceInfo SystemRuntimeInteropServicesJavaScript => new ReferenceInfo("System.Runtime.InteropServices.JavaScript.dll", Resources.SystemRuntimeInteropServicesJavaScript, Net100Wasm.References.SystemRuntimeInteropServicesJavaScript, global::System.Guid.Parse("c5e83268-a2ff-44af-9bdc-3e3a71b9326d"));
@@ -581,6 +556,11 @@ public static partial class Net100Wasm
         /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.RuntimeInformation.dll
         /// </summary>
         public static ReferenceInfo SystemRuntimeInteropServicesRuntimeInformation => new ReferenceInfo("System.Runtime.InteropServices.RuntimeInformation.dll", Resources.SystemRuntimeInteropServicesRuntimeInformation, Net100Wasm.References.SystemRuntimeInteropServicesRuntimeInformation, global::System.Guid.Parse("7a899d64-c2be-481f-8851-3ce8dd205260"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.dll
+        /// </summary>
+        public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices, Net100Wasm.References.SystemRuntimeInteropServices, global::System.Guid.Parse("60f648b1-1a0d-4158-b240-608b419abfe4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Intrinsics.dll
@@ -596,11 +576,6 @@ public static partial class Net100Wasm
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Numerics.dll
         /// </summary>
         public static ReferenceInfo SystemRuntimeNumerics => new ReferenceInfo("System.Runtime.Numerics.dll", Resources.SystemRuntimeNumerics, Net100Wasm.References.SystemRuntimeNumerics, global::System.Guid.Parse("bbc1112b-0921-47e0-9eb5-d86d83d6548a"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.dll
-        /// </summary>
-        public static ReferenceInfo SystemRuntimeSerialization => new ReferenceInfo("System.Runtime.Serialization.dll", Resources.SystemRuntimeSerialization, Net100Wasm.References.SystemRuntimeSerialization, global::System.Guid.Parse("3465a2d8-5a5e-4e3f-b5b5-1c2b768dea94"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Formatters.dll
@@ -621,6 +596,16 @@ public static partial class Net100Wasm
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Xml.dll
         /// </summary>
         public static ReferenceInfo SystemRuntimeSerializationXml => new ReferenceInfo("System.Runtime.Serialization.Xml.dll", Resources.SystemRuntimeSerializationXml, Net100Wasm.References.SystemRuntimeSerializationXml, global::System.Guid.Parse("e2225de1-9a92-4f83-bf0f-d0cf3ce6e0b6"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.dll
+        /// </summary>
+        public static ReferenceInfo SystemRuntimeSerialization => new ReferenceInfo("System.Runtime.Serialization.dll", Resources.SystemRuntimeSerialization, Net100Wasm.References.SystemRuntimeSerialization, global::System.Guid.Parse("3465a2d8-5a5e-4e3f-b5b5-1c2b768dea94"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Runtime.dll
+        /// </summary>
+        public static ReferenceInfo SystemRuntime => new ReferenceInfo("System.Runtime.dll", Resources.SystemRuntime, Net100Wasm.References.SystemRuntime, global::System.Guid.Parse("cc327627-2988-4b36-b256-bb5d7e82f2f2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.AccessControl.dll
@@ -648,11 +633,6 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemSecurityCryptographyCsp => new ReferenceInfo("System.Security.Cryptography.Csp.dll", Resources.SystemSecurityCryptographyCsp, Net100Wasm.References.SystemSecurityCryptographyCsp, global::System.Guid.Parse("55e1aba0-8af6-4c38-b514-025cad6309e5"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.dll
-        /// </summary>
-        public static ReferenceInfo SystemSecurityCryptography => new ReferenceInfo("System.Security.Cryptography.dll", Resources.SystemSecurityCryptography, Net100Wasm.References.SystemSecurityCryptography, global::System.Guid.Parse("bf068ae5-e6c9-4dcf-acc9-30393a3fa0f4"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Encoding.dll
         /// </summary>
         public static ReferenceInfo SystemSecurityCryptographyEncoding => new ReferenceInfo("System.Security.Cryptography.Encoding.dll", Resources.SystemSecurityCryptographyEncoding, Net100Wasm.References.SystemSecurityCryptographyEncoding, global::System.Guid.Parse("d5a7597e-5ed5-4a35-a7ba-383877db7891"));
@@ -673,14 +653,9 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemSecurityCryptographyX509Certificates => new ReferenceInfo("System.Security.Cryptography.X509Certificates.dll", Resources.SystemSecurityCryptographyX509Certificates, Net100Wasm.References.SystemSecurityCryptographyX509Certificates, global::System.Guid.Parse("ac68f864-f4ef-4222-833e-61add07ebdaa"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Security.dll
+        /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurity => new ReferenceInfo("System.Security.dll", Resources.SystemSecurity, Net100Wasm.References.SystemSecurity, global::System.Guid.Parse("90a52940-b308-463e-8924-50aac49304d2"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Security.Principal.dll
-        /// </summary>
-        public static ReferenceInfo SystemSecurityPrincipal => new ReferenceInfo("System.Security.Principal.dll", Resources.SystemSecurityPrincipal, Net100Wasm.References.SystemSecurityPrincipal, global::System.Guid.Parse("360c2a3d-bd62-4991-8f11-884b3f040836"));
+        public static ReferenceInfo SystemSecurityCryptography => new ReferenceInfo("System.Security.Cryptography.dll", Resources.SystemSecurityCryptography, Net100Wasm.References.SystemSecurityCryptography, global::System.Guid.Parse("bf068ae5-e6c9-4dcf-acc9-30393a3fa0f4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Principal.Windows.dll
@@ -688,9 +663,19 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemSecurityPrincipalWindows => new ReferenceInfo("System.Security.Principal.Windows.dll", Resources.SystemSecurityPrincipalWindows, Net100Wasm.References.SystemSecurityPrincipalWindows, global::System.Guid.Parse("4c3cd9cf-334b-495b-a1d2-932408b439c1"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Security.Principal.dll
+        /// </summary>
+        public static ReferenceInfo SystemSecurityPrincipal => new ReferenceInfo("System.Security.Principal.dll", Resources.SystemSecurityPrincipal, Net100Wasm.References.SystemSecurityPrincipal, global::System.Guid.Parse("360c2a3d-bd62-4991-8f11-884b3f040836"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.SecureString.dll
         /// </summary>
         public static ReferenceInfo SystemSecuritySecureString => new ReferenceInfo("System.Security.SecureString.dll", Resources.SystemSecuritySecureString, Net100Wasm.References.SystemSecuritySecureString, global::System.Guid.Parse("21bccb90-3486-44b6-85c2-22e583f9b34b"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Security.dll
+        /// </summary>
+        public static ReferenceInfo SystemSecurity => new ReferenceInfo("System.Security.dll", Resources.SystemSecurity, Net100Wasm.References.SystemSecurity, global::System.Guid.Parse("90a52940-b308-463e-8924-50aac49304d2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ServiceModel.Web.dll
@@ -708,14 +693,14 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemTextEncodingCodePages => new ReferenceInfo("System.Text.Encoding.CodePages.dll", Resources.SystemTextEncodingCodePages, Net100Wasm.References.SystemTextEncodingCodePages, global::System.Guid.Parse("fe420cd3-d49d-46a6-b3d2-d06da15f4a5e"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.dll
-        /// </summary>
-        public static ReferenceInfo SystemTextEncoding => new ReferenceInfo("System.Text.Encoding.dll", Resources.SystemTextEncoding, Net100Wasm.References.SystemTextEncoding, global::System.Guid.Parse("7b085616-225b-448d-965f-086cc7086183"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.Extensions.dll
         /// </summary>
         public static ReferenceInfo SystemTextEncodingExtensions => new ReferenceInfo("System.Text.Encoding.Extensions.dll", Resources.SystemTextEncodingExtensions, Net100Wasm.References.SystemTextEncodingExtensions, global::System.Guid.Parse("fbd30ea4-eb83-46c3-aab0-810c13d30747"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.dll
+        /// </summary>
+        public static ReferenceInfo SystemTextEncoding => new ReferenceInfo("System.Text.Encoding.dll", Resources.SystemTextEncoding, Net100Wasm.References.SystemTextEncoding, global::System.Guid.Parse("7b085616-225b-448d-965f-086cc7086183"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encodings.Web.dll
@@ -743,11 +728,6 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemThreadingChannels => new ReferenceInfo("System.Threading.Channels.dll", Resources.SystemThreadingChannels, Net100Wasm.References.SystemThreadingChannels, global::System.Guid.Parse("f61bfafe-7a56-42b2-bd75-2f0c0825de0f"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Threading.dll
-        /// </summary>
-        public static ReferenceInfo SystemThreading => new ReferenceInfo("System.Threading.dll", Resources.SystemThreading, Net100Wasm.References.SystemThreading, global::System.Guid.Parse("f7728c13-ad35-41e5-98f1-86e2d4d71b07"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Overlapped.dll
         /// </summary>
         public static ReferenceInfo SystemThreadingOverlapped => new ReferenceInfo("System.Threading.Overlapped.dll", Resources.SystemThreadingOverlapped, Net100Wasm.References.SystemThreadingOverlapped, global::System.Guid.Parse("bbdbfb0a-afba-48b1-9a08-e6bc0ed7dc8b"));
@@ -758,11 +738,6 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemThreadingTasksDataflow => new ReferenceInfo("System.Threading.Tasks.Dataflow.dll", Resources.SystemThreadingTasksDataflow, Net100Wasm.References.SystemThreadingTasksDataflow, global::System.Guid.Parse("416d1ad8-419a-4a0d-b0fe-ebc120f97136"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.dll
-        /// </summary>
-        public static ReferenceInfo SystemThreadingTasks => new ReferenceInfo("System.Threading.Tasks.dll", Resources.SystemThreadingTasks, Net100Wasm.References.SystemThreadingTasks, global::System.Guid.Parse("e7677b73-32bd-4191-86bd-5248474ffe22"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Extensions.dll
         /// </summary>
         public static ReferenceInfo SystemThreadingTasksExtensions => new ReferenceInfo("System.Threading.Tasks.Extensions.dll", Resources.SystemThreadingTasksExtensions, Net100Wasm.References.SystemThreadingTasksExtensions, global::System.Guid.Parse("3a0da6f3-66cb-42a1-98ae-ec9fde003a94"));
@@ -771,6 +746,11 @@ public static partial class Net100Wasm
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Parallel.dll
         /// </summary>
         public static ReferenceInfo SystemThreadingTasksParallel => new ReferenceInfo("System.Threading.Tasks.Parallel.dll", Resources.SystemThreadingTasksParallel, Net100Wasm.References.SystemThreadingTasksParallel, global::System.Guid.Parse("60bf6e56-4c48-49ca-b305-2fbcb181615e"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.dll
+        /// </summary>
+        public static ReferenceInfo SystemThreadingTasks => new ReferenceInfo("System.Threading.Tasks.dll", Resources.SystemThreadingTasks, Net100Wasm.References.SystemThreadingTasks, global::System.Guid.Parse("e7677b73-32bd-4191-86bd-5248474ffe22"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Thread.dll
@@ -788,9 +768,9 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemThreadingTimer => new ReferenceInfo("System.Threading.Timer.dll", Resources.SystemThreadingTimer, Net100Wasm.References.SystemThreadingTimer, global::System.Guid.Parse("f525e9bd-cc07-4098-b0d5-5dc68d303cd0"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Transactions.dll
+        /// The <see cref="ReferenceInfo"/> for System.Threading.dll
         /// </summary>
-        public static ReferenceInfo SystemTransactions => new ReferenceInfo("System.Transactions.dll", Resources.SystemTransactions, Net100Wasm.References.SystemTransactions, global::System.Guid.Parse("c7536864-b345-484a-8a1a-5fda5da5ef4c"));
+        public static ReferenceInfo SystemThreading => new ReferenceInfo("System.Threading.dll", Resources.SystemThreading, Net100Wasm.References.SystemThreading, global::System.Guid.Parse("f7728c13-ad35-41e5-98f1-86e2d4d71b07"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Transactions.Local.dll
@@ -798,14 +778,14 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemTransactionsLocal => new ReferenceInfo("System.Transactions.Local.dll", Resources.SystemTransactionsLocal, Net100Wasm.References.SystemTransactionsLocal, global::System.Guid.Parse("34d5727b-a0b5-4ad2-8265-ab7d3a2aa5b9"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Transactions.dll
+        /// </summary>
+        public static ReferenceInfo SystemTransactions => new ReferenceInfo("System.Transactions.dll", Resources.SystemTransactions, Net100Wasm.References.SystemTransactions, global::System.Guid.Parse("c7536864-b345-484a-8a1a-5fda5da5ef4c"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ValueTuple.dll
         /// </summary>
         public static ReferenceInfo SystemValueTuple => new ReferenceInfo("System.ValueTuple.dll", Resources.SystemValueTuple, Net100Wasm.References.SystemValueTuple, global::System.Guid.Parse("a9df873b-f6e6-4201-956f-93893d2b83d7"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Web.dll
-        /// </summary>
-        public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, Net100Wasm.References.SystemWeb, global::System.Guid.Parse("8c32bd64-462e-4012-b208-353e71229da8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Web.HttpUtility.dll
@@ -813,14 +793,14 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemWebHttpUtility => new ReferenceInfo("System.Web.HttpUtility.dll", Resources.SystemWebHttpUtility, Net100Wasm.References.SystemWebHttpUtility, global::System.Guid.Parse("43873eaf-1b93-4306-9820-0dd70e899e84"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Web.dll
+        /// </summary>
+        public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, Net100Wasm.References.SystemWeb, global::System.Guid.Parse("8c32bd64-462e-4012-b208-353e71229da8"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Windows.dll
         /// </summary>
         public static ReferenceInfo SystemWindows => new ReferenceInfo("System.Windows.dll", Resources.SystemWindows, Net100Wasm.References.SystemWindows, global::System.Guid.Parse("05f6b2a5-f161-412e-a99f-3770f178a571"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Xml.dll
-        /// </summary>
-        public static ReferenceInfo SystemXml => new ReferenceInfo("System.Xml.dll", Resources.SystemXml, Net100Wasm.References.SystemXml, global::System.Guid.Parse("40129c7f-daf5-4b6d-94d0-7c704f3d1e0b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.Linq.dll
@@ -843,6 +823,16 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemXmlXDocument => new ReferenceInfo("System.Xml.XDocument.dll", Resources.SystemXmlXDocument, Net100Wasm.References.SystemXmlXDocument, global::System.Guid.Parse("884b0635-e010-4bc5-8c84-5bd5cee60564"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.XDocument.dll
+        /// </summary>
+        public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, Net100Wasm.References.SystemXmlXPathXDocument, global::System.Guid.Parse("196fd57e-b18f-41fc-a1bb-7199e9109ae1"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.dll
+        /// </summary>
+        public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, Net100Wasm.References.SystemXmlXPath, global::System.Guid.Parse("7c2eb2b8-d54b-4959-ac29-a0f4616b6491"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XmlDocument.dll
         /// </summary>
         public static ReferenceInfo SystemXmlXmlDocument => new ReferenceInfo("System.Xml.XmlDocument.dll", Resources.SystemXmlXmlDocument, Net100Wasm.References.SystemXmlXmlDocument, global::System.Guid.Parse("982a504a-2673-4998-9af4-c3b633b28c63"));
@@ -853,19 +843,29 @@ public static partial class Net100Wasm
         public static ReferenceInfo SystemXmlXmlSerializer => new ReferenceInfo("System.Xml.XmlSerializer.dll", Resources.SystemXmlXmlSerializer, Net100Wasm.References.SystemXmlXmlSerializer, global::System.Guid.Parse("76258eea-35de-4012-9d5c-b4bf64308bc8"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.dll
+        /// The <see cref="ReferenceInfo"/> for System.Xml.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, Net100Wasm.References.SystemXmlXPath, global::System.Guid.Parse("7c2eb2b8-d54b-4959-ac29-a0f4616b6491"));
+        public static ReferenceInfo SystemXml => new ReferenceInfo("System.Xml.dll", Resources.SystemXml, Net100Wasm.References.SystemXml, global::System.Guid.Parse("40129c7f-daf5-4b6d-94d0-7c704f3d1e0b"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.XDocument.dll
+        /// The <see cref="ReferenceInfo"/> for System.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, Net100Wasm.References.SystemXmlXPathXDocument, global::System.Guid.Parse("196fd57e-b18f-41fc-a1bb-7199e9109ae1"));
+        public static ReferenceInfo System => new ReferenceInfo("System.dll", Resources.System, Net100Wasm.References.System, global::System.Guid.Parse("4b1b85f8-1bf5-4ad7-b7c8-abb8c9927139"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for WindowsBase.dll
         /// </summary>
         public static ReferenceInfo WindowsBase => new ReferenceInfo("WindowsBase.dll", Resources.WindowsBase, Net100Wasm.References.WindowsBase, global::System.Guid.Parse("3027fed6-c421-472c-a6a8-01f9d595c2b5"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for mscorlib.dll
+        /// </summary>
+        public static ReferenceInfo mscorlib => new ReferenceInfo("mscorlib.dll", Resources.mscorlib, Net100Wasm.References.mscorlib, global::System.Guid.Parse("341f8709-51c3-4e54-8200-2d7e600ab460"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for netstandard.dll
+        /// </summary>
+        public static ReferenceInfo netstandard => new ReferenceInfo("netstandard.dll", Resources.netstandard, Net100Wasm.References.netstandard, global::System.Guid.Parse("82073b99-4b47-45c9-80bf-748e360f6b94"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Private.CoreLib.dll
@@ -885,21 +885,19 @@ public static partial class Net100Wasm
                         MicrosoftVisualBasic,
                         MicrosoftWin32Primitives,
                         MicrosoftWin32Registry,
-                        mscorlib,
-                        netstandard,
                         SystemAppContext,
                         SystemBuffers,
                         SystemCollectionsConcurrent,
-                        SystemCollections,
                         SystemCollectionsImmutable,
                         SystemCollectionsNonGeneric,
                         SystemCollectionsSpecialized,
+                        SystemCollections,
                         SystemComponentModelAnnotations,
                         SystemComponentModelDataAnnotations,
-                        SystemComponentModel,
                         SystemComponentModelEventBasedAsync,
                         SystemComponentModelPrimitives,
                         SystemComponentModelTypeConverter,
+                        SystemComponentModel,
                         SystemConfiguration,
                         SystemConsole,
                         SystemCore,
@@ -916,40 +914,38 @@ public static partial class Net100Wasm
                         SystemDiagnosticsTools,
                         SystemDiagnosticsTraceSource,
                         SystemDiagnosticsTracing,
-                        System,
-                        SystemDrawing,
                         SystemDrawingPrimitives,
+                        SystemDrawing,
                         SystemDynamicRuntime,
                         SystemFormatsAsn1,
                         SystemFormatsTar,
                         SystemGlobalizationCalendars,
-                        SystemGlobalization,
                         SystemGlobalizationExtensions,
+                        SystemGlobalization,
                         SystemIOCompressionBrotli,
-                        SystemIOCompression,
                         SystemIOCompressionFileSystem,
                         SystemIOCompressionZipFile,
-                        SystemIO,
+                        SystemIOCompression,
                         SystemIOFileSystemAccessControl,
-                        SystemIOFileSystem,
                         SystemIOFileSystemDriveInfo,
                         SystemIOFileSystemPrimitives,
                         SystemIOFileSystemWatcher,
+                        SystemIOFileSystem,
                         SystemIOIsolatedStorage,
                         SystemIOMemoryMappedFiles,
                         SystemIOPipelines,
                         SystemIOPipesAccessControl,
                         SystemIOPipes,
                         SystemIOUnmanagedMemoryStream,
+                        SystemIO,
                         SystemLinqAsyncEnumerable,
-                        SystemLinq,
                         SystemLinqExpressions,
                         SystemLinqParallel,
                         SystemLinqQueryable,
+                        SystemLinq,
                         SystemMemory,
-                        SystemNet,
-                        SystemNetHttp,
                         SystemNetHttpJson,
+                        SystemNetHttp,
                         SystemNetHttpListener,
                         SystemNetMail,
                         SystemNetNameResolution,
@@ -967,90 +963,94 @@ public static partial class Net100Wasm
                         SystemNetWebProxy,
                         SystemNetWebSocketsClient,
                         SystemNetWebSockets,
-                        SystemNumerics,
+                        SystemNet,
                         SystemNumericsVectors,
+                        SystemNumerics,
                         SystemObjectModel,
                         SystemPrivateDataContractSerialization,
                         SystemPrivateUri,
-                        SystemPrivateXml,
                         SystemPrivateXmlLinq,
+                        SystemPrivateXml,
                         SystemReflectionDispatchProxy,
-                        SystemReflection,
-                        SystemReflectionEmit,
                         SystemReflectionEmitILGeneration,
                         SystemReflectionEmitLightweight,
+                        SystemReflectionEmit,
                         SystemReflectionExtensions,
                         SystemReflectionMetadata,
                         SystemReflectionPrimitives,
                         SystemReflectionTypeExtensions,
+                        SystemReflection,
                         SystemResourcesReader,
                         SystemResourcesResourceManager,
                         SystemResourcesWriter,
                         SystemRuntimeCompilerServicesUnsafe,
                         SystemRuntimeCompilerServicesVisualC,
-                        SystemRuntime,
                         SystemRuntimeExtensions,
                         SystemRuntimeHandles,
-                        SystemRuntimeInteropServices,
                         SystemRuntimeInteropServicesJavaScript,
                         SystemRuntimeInteropServicesRuntimeInformation,
+                        SystemRuntimeInteropServices,
                         SystemRuntimeIntrinsics,
                         SystemRuntimeLoader,
                         SystemRuntimeNumerics,
-                        SystemRuntimeSerialization,
                         SystemRuntimeSerializationFormatters,
                         SystemRuntimeSerializationJson,
                         SystemRuntimeSerializationPrimitives,
                         SystemRuntimeSerializationXml,
+                        SystemRuntimeSerialization,
+                        SystemRuntime,
                         SystemSecurityAccessControl,
                         SystemSecurityClaims,
                         SystemSecurityCryptographyAlgorithms,
                         SystemSecurityCryptographyCng,
                         SystemSecurityCryptographyCsp,
-                        SystemSecurityCryptography,
                         SystemSecurityCryptographyEncoding,
                         SystemSecurityCryptographyOpenSsl,
                         SystemSecurityCryptographyPrimitives,
                         SystemSecurityCryptographyX509Certificates,
-                        SystemSecurity,
-                        SystemSecurityPrincipal,
+                        SystemSecurityCryptography,
                         SystemSecurityPrincipalWindows,
+                        SystemSecurityPrincipal,
                         SystemSecuritySecureString,
+                        SystemSecurity,
                         SystemServiceModelWeb,
                         SystemServiceProcess,
                         SystemTextEncodingCodePages,
-                        SystemTextEncoding,
                         SystemTextEncodingExtensions,
+                        SystemTextEncoding,
                         SystemTextEncodingsWeb,
                         SystemTextJson,
                         SystemTextRegularExpressions,
                         SystemThreadingAccessControl,
                         SystemThreadingChannels,
-                        SystemThreading,
                         SystemThreadingOverlapped,
                         SystemThreadingTasksDataflow,
-                        SystemThreadingTasks,
                         SystemThreadingTasksExtensions,
                         SystemThreadingTasksParallel,
+                        SystemThreadingTasks,
                         SystemThreadingThread,
                         SystemThreadingThreadPool,
                         SystemThreadingTimer,
-                        SystemTransactions,
+                        SystemThreading,
                         SystemTransactionsLocal,
+                        SystemTransactions,
                         SystemValueTuple,
-                        SystemWeb,
                         SystemWebHttpUtility,
+                        SystemWeb,
                         SystemWindows,
-                        SystemXml,
                         SystemXmlLinq,
                         SystemXmlReaderWriter,
                         SystemXmlSerialization,
                         SystemXmlXDocument,
+                        SystemXmlXPathXDocument,
+                        SystemXmlXPath,
                         SystemXmlXmlDocument,
                         SystemXmlXmlSerializer,
-                        SystemXmlXPath,
-                        SystemXmlXPathXDocument,
+                        SystemXml,
+                        System,
                         WindowsBase,
+                        mscorlib,
+                        netstandard,
                         SystemPrivateCoreLib,
                     ];
                 }
@@ -1151,40 +1151,6 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _mscorlib;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for mscorlib.dll
-        /// </summary>
-        public static PortableExecutableReference mscorlib
-        {
-            get
-            {
-                if (_mscorlib is null)
-                {
-                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net100wasm)");
-                }
-                return _mscorlib;
-            }
-        }
-
-        private static PortableExecutableReference? _netstandard;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for netstandard.dll
-        /// </summary>
-        public static PortableExecutableReference netstandard
-        {
-            get
-            {
-                if (_netstandard is null)
-                {
-                    _netstandard = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.netstandard")).GetReference(filePath: "netstandard.dll", display: "netstandard (net100wasm)");
-                }
-                return _netstandard;
-            }
-        }
-
         private static PortableExecutableReference? _SystemAppContext;
 
         /// <summary>
@@ -1233,23 +1199,6 @@ public static partial class Net100Wasm
                     _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Collections.Concurrent")).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (net100wasm)");
                 }
                 return _SystemCollectionsConcurrent;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemCollections;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Collections.dll
-        /// </summary>
-        public static PortableExecutableReference SystemCollections
-        {
-            get
-            {
-                if (_SystemCollections is null)
-                {
-                    _SystemCollections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Collections")).GetReference(filePath: "System.Collections.dll", display: "System.Collections (net100wasm)");
-                }
-                return _SystemCollections;
             }
         }
 
@@ -1304,6 +1253,23 @@ public static partial class Net100Wasm
             }
         }
 
+        private static PortableExecutableReference? _SystemCollections;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Collections.dll
+        /// </summary>
+        public static PortableExecutableReference SystemCollections
+        {
+            get
+            {
+                if (_SystemCollections is null)
+                {
+                    _SystemCollections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Collections")).GetReference(filePath: "System.Collections.dll", display: "System.Collections (net100wasm)");
+                }
+                return _SystemCollections;
+            }
+        }
+
         private static PortableExecutableReference? _SystemComponentModelAnnotations;
 
         /// <summary>
@@ -1335,23 +1301,6 @@ public static partial class Net100Wasm
                     _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.ComponentModel.DataAnnotations")).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (net100wasm)");
                 }
                 return _SystemComponentModelDataAnnotations;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemComponentModel;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.ComponentModel.dll
-        /// </summary>
-        public static PortableExecutableReference SystemComponentModel
-        {
-            get
-            {
-                if (_SystemComponentModel is null)
-                {
-                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.ComponentModel")).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (net100wasm)");
-                }
-                return _SystemComponentModel;
             }
         }
 
@@ -1403,6 +1352,23 @@ public static partial class Net100Wasm
                     _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.ComponentModel.TypeConverter")).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (net100wasm)");
                 }
                 return _SystemComponentModelTypeConverter;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemComponentModel;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.ComponentModel.dll
+        /// </summary>
+        public static PortableExecutableReference SystemComponentModel
+        {
+            get
+            {
+                if (_SystemComponentModel is null)
+                {
+                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.ComponentModel")).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (net100wasm)");
+                }
+                return _SystemComponentModel;
             }
         }
 
@@ -1678,20 +1644,20 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _System;
+        private static PortableExecutableReference? _SystemDrawingPrimitives;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Drawing.Primitives.dll
         /// </summary>
-        public static PortableExecutableReference System
+        public static PortableExecutableReference SystemDrawingPrimitives
         {
             get
             {
-                if (_System is null)
+                if (_SystemDrawingPrimitives is null)
                 {
-                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System")).GetReference(filePath: "System.dll", display: "System (net100wasm)");
+                    _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Drawing.Primitives")).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (net100wasm)");
                 }
-                return _System;
+                return _SystemDrawingPrimitives;
             }
         }
 
@@ -1709,23 +1675,6 @@ public static partial class Net100Wasm
                     _SystemDrawing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Drawing")).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (net100wasm)");
                 }
                 return _SystemDrawing;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemDrawingPrimitives;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Drawing.Primitives.dll
-        /// </summary>
-        public static PortableExecutableReference SystemDrawingPrimitives
-        {
-            get
-            {
-                if (_SystemDrawingPrimitives is null)
-                {
-                    _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Drawing.Primitives")).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (net100wasm)");
-                }
-                return _SystemDrawingPrimitives;
             }
         }
 
@@ -1797,23 +1746,6 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _SystemGlobalization;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Globalization.dll
-        /// </summary>
-        public static PortableExecutableReference SystemGlobalization
-        {
-            get
-            {
-                if (_SystemGlobalization is null)
-                {
-                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Globalization")).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (net100wasm)");
-                }
-                return _SystemGlobalization;
-            }
-        }
-
         private static PortableExecutableReference? _SystemGlobalizationExtensions;
 
         /// <summary>
@@ -1831,6 +1763,23 @@ public static partial class Net100Wasm
             }
         }
 
+        private static PortableExecutableReference? _SystemGlobalization;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Globalization.dll
+        /// </summary>
+        public static PortableExecutableReference SystemGlobalization
+        {
+            get
+            {
+                if (_SystemGlobalization is null)
+                {
+                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Globalization")).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (net100wasm)");
+                }
+                return _SystemGlobalization;
+            }
+        }
+
         private static PortableExecutableReference? _SystemIOCompressionBrotli;
 
         /// <summary>
@@ -1845,23 +1794,6 @@ public static partial class Net100Wasm
                     _SystemIOCompressionBrotli = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.IO.Compression.Brotli")).GetReference(filePath: "System.IO.Compression.Brotli.dll", display: "System.IO.Compression.Brotli (net100wasm)");
                 }
                 return _SystemIOCompressionBrotli;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemIOCompression;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.Compression.dll
-        /// </summary>
-        public static PortableExecutableReference SystemIOCompression
-        {
-            get
-            {
-                if (_SystemIOCompression is null)
-                {
-                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (net100wasm)");
-                }
-                return _SystemIOCompression;
             }
         }
 
@@ -1899,20 +1831,20 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _SystemIO;
+        private static PortableExecutableReference? _SystemIOCompression;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.dll
+        /// The <see cref="PortableExecutableReference"/> for System.IO.Compression.dll
         /// </summary>
-        public static PortableExecutableReference SystemIO
+        public static PortableExecutableReference SystemIOCompression
         {
             get
             {
-                if (_SystemIO is null)
+                if (_SystemIOCompression is null)
                 {
-                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (net100wasm)");
+                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (net100wasm)");
                 }
-                return _SystemIO;
+                return _SystemIOCompression;
             }
         }
 
@@ -1930,23 +1862,6 @@ public static partial class Net100Wasm
                     _SystemIOFileSystemAccessControl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.IO.FileSystem.AccessControl")).GetReference(filePath: "System.IO.FileSystem.AccessControl.dll", display: "System.IO.FileSystem.AccessControl (net100wasm)");
                 }
                 return _SystemIOFileSystemAccessControl;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemIOFileSystem;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.FileSystem.dll
-        /// </summary>
-        public static PortableExecutableReference SystemIOFileSystem
-        {
-            get
-            {
-                if (_SystemIOFileSystem is null)
-                {
-                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.IO.FileSystem")).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (net100wasm)");
-                }
-                return _SystemIOFileSystem;
             }
         }
 
@@ -1998,6 +1913,23 @@ public static partial class Net100Wasm
                     _SystemIOFileSystemWatcher = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.IO.FileSystem.Watcher")).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (net100wasm)");
                 }
                 return _SystemIOFileSystemWatcher;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemIOFileSystem;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.IO.FileSystem.dll
+        /// </summary>
+        public static PortableExecutableReference SystemIOFileSystem
+        {
+            get
+            {
+                if (_SystemIOFileSystem is null)
+                {
+                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.IO.FileSystem")).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (net100wasm)");
+                }
+                return _SystemIOFileSystem;
             }
         }
 
@@ -2103,6 +2035,23 @@ public static partial class Net100Wasm
             }
         }
 
+        private static PortableExecutableReference? _SystemIO;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.IO.dll
+        /// </summary>
+        public static PortableExecutableReference SystemIO
+        {
+            get
+            {
+                if (_SystemIO is null)
+                {
+                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (net100wasm)");
+                }
+                return _SystemIO;
+            }
+        }
+
         private static PortableExecutableReference? _SystemLinqAsyncEnumerable;
 
         /// <summary>
@@ -2117,23 +2066,6 @@ public static partial class Net100Wasm
                     _SystemLinqAsyncEnumerable = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Linq.AsyncEnumerable")).GetReference(filePath: "System.Linq.AsyncEnumerable.dll", display: "System.Linq.AsyncEnumerable (net100wasm)");
                 }
                 return _SystemLinqAsyncEnumerable;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemLinq;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Linq.dll
-        /// </summary>
-        public static PortableExecutableReference SystemLinq
-        {
-            get
-            {
-                if (_SystemLinq is null)
-                {
-                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (net100wasm)");
-                }
-                return _SystemLinq;
             }
         }
 
@@ -2188,6 +2120,23 @@ public static partial class Net100Wasm
             }
         }
 
+        private static PortableExecutableReference? _SystemLinq;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Linq.dll
+        /// </summary>
+        public static PortableExecutableReference SystemLinq
+        {
+            get
+            {
+                if (_SystemLinq is null)
+                {
+                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (net100wasm)");
+                }
+                return _SystemLinq;
+            }
+        }
+
         private static PortableExecutableReference? _SystemMemory;
 
         /// <summary>
@@ -2205,20 +2154,20 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _SystemNet;
+        private static PortableExecutableReference? _SystemNetHttpJson;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Net.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Net.Http.Json.dll
         /// </summary>
-        public static PortableExecutableReference SystemNet
+        public static PortableExecutableReference SystemNetHttpJson
         {
             get
             {
-                if (_SystemNet is null)
+                if (_SystemNetHttpJson is null)
                 {
-                    _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (net100wasm)");
+                    _SystemNetHttpJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Net.Http.Json")).GetReference(filePath: "System.Net.Http.Json.dll", display: "System.Net.Http.Json (net100wasm)");
                 }
-                return _SystemNet;
+                return _SystemNetHttpJson;
             }
         }
 
@@ -2236,23 +2185,6 @@ public static partial class Net100Wasm
                     _SystemNetHttp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Net.Http")).GetReference(filePath: "System.Net.Http.dll", display: "System.Net.Http (net100wasm)");
                 }
                 return _SystemNetHttp;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemNetHttpJson;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Net.Http.Json.dll
-        /// </summary>
-        public static PortableExecutableReference SystemNetHttpJson
-        {
-            get
-            {
-                if (_SystemNetHttpJson is null)
-                {
-                    _SystemNetHttpJson = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Net.Http.Json")).GetReference(filePath: "System.Net.Http.Json.dll", display: "System.Net.Http.Json (net100wasm)");
-                }
-                return _SystemNetHttpJson;
             }
         }
 
@@ -2545,20 +2477,20 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _SystemNumerics;
+        private static PortableExecutableReference? _SystemNet;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Numerics.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Net.dll
         /// </summary>
-        public static PortableExecutableReference SystemNumerics
+        public static PortableExecutableReference SystemNet
         {
             get
             {
-                if (_SystemNumerics is null)
+                if (_SystemNet is null)
                 {
-                    _SystemNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Numerics")).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net100wasm)");
+                    _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (net100wasm)");
                 }
-                return _SystemNumerics;
+                return _SystemNet;
             }
         }
 
@@ -2576,6 +2508,23 @@ public static partial class Net100Wasm
                     _SystemNumericsVectors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Numerics.Vectors")).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (net100wasm)");
                 }
                 return _SystemNumericsVectors;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemNumerics;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Numerics.dll
+        /// </summary>
+        public static PortableExecutableReference SystemNumerics
+        {
+            get
+            {
+                if (_SystemNumerics is null)
+                {
+                    _SystemNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Numerics")).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (net100wasm)");
+                }
+                return _SystemNumerics;
             }
         }
 
@@ -2630,23 +2579,6 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _SystemPrivateXml;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Private.Xml.dll
-        /// </summary>
-        public static PortableExecutableReference SystemPrivateXml
-        {
-            get
-            {
-                if (_SystemPrivateXml is null)
-                {
-                    _SystemPrivateXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Private.Xml")).GetReference(filePath: "System.Private.Xml.dll", display: "System.Private.Xml (net100wasm)");
-                }
-                return _SystemPrivateXml;
-            }
-        }
-
         private static PortableExecutableReference? _SystemPrivateXmlLinq;
 
         /// <summary>
@@ -2664,6 +2596,23 @@ public static partial class Net100Wasm
             }
         }
 
+        private static PortableExecutableReference? _SystemPrivateXml;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Private.Xml.dll
+        /// </summary>
+        public static PortableExecutableReference SystemPrivateXml
+        {
+            get
+            {
+                if (_SystemPrivateXml is null)
+                {
+                    _SystemPrivateXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Private.Xml")).GetReference(filePath: "System.Private.Xml.dll", display: "System.Private.Xml (net100wasm)");
+                }
+                return _SystemPrivateXml;
+            }
+        }
+
         private static PortableExecutableReference? _SystemReflectionDispatchProxy;
 
         /// <summary>
@@ -2678,40 +2627,6 @@ public static partial class Net100Wasm
                     _SystemReflectionDispatchProxy = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Reflection.DispatchProxy")).GetReference(filePath: "System.Reflection.DispatchProxy.dll", display: "System.Reflection.DispatchProxy (net100wasm)");
                 }
                 return _SystemReflectionDispatchProxy;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemReflection;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Reflection.dll
-        /// </summary>
-        public static PortableExecutableReference SystemReflection
-        {
-            get
-            {
-                if (_SystemReflection is null)
-                {
-                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (net100wasm)");
-                }
-                return _SystemReflection;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemReflectionEmit;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Reflection.Emit.dll
-        /// </summary>
-        public static PortableExecutableReference SystemReflectionEmit
-        {
-            get
-            {
-                if (_SystemReflectionEmit is null)
-                {
-                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Reflection.Emit")).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (net100wasm)");
-                }
-                return _SystemReflectionEmit;
             }
         }
 
@@ -2746,6 +2661,23 @@ public static partial class Net100Wasm
                     _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Reflection.Emit.Lightweight")).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (net100wasm)");
                 }
                 return _SystemReflectionEmitLightweight;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemReflectionEmit;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Reflection.Emit.dll
+        /// </summary>
+        public static PortableExecutableReference SystemReflectionEmit
+        {
+            get
+            {
+                if (_SystemReflectionEmit is null)
+                {
+                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Reflection.Emit")).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (net100wasm)");
+                }
+                return _SystemReflectionEmit;
             }
         }
 
@@ -2814,6 +2746,23 @@ public static partial class Net100Wasm
                     _SystemReflectionTypeExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Reflection.TypeExtensions")).GetReference(filePath: "System.Reflection.TypeExtensions.dll", display: "System.Reflection.TypeExtensions (net100wasm)");
                 }
                 return _SystemReflectionTypeExtensions;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemReflection;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Reflection.dll
+        /// </summary>
+        public static PortableExecutableReference SystemReflection
+        {
+            get
+            {
+                if (_SystemReflection is null)
+                {
+                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (net100wasm)");
+                }
+                return _SystemReflection;
             }
         }
 
@@ -2902,23 +2851,6 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _SystemRuntime;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.dll
-        /// </summary>
-        public static PortableExecutableReference SystemRuntime
-        {
-            get
-            {
-                if (_SystemRuntime is null)
-                {
-                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (net100wasm)");
-                }
-                return _SystemRuntime;
-            }
-        }
-
         private static PortableExecutableReference? _SystemRuntimeExtensions;
 
         /// <summary>
@@ -2953,23 +2885,6 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _SystemRuntimeInteropServices;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.InteropServices.dll
-        /// </summary>
-        public static PortableExecutableReference SystemRuntimeInteropServices
-        {
-            get
-            {
-                if (_SystemRuntimeInteropServices is null)
-                {
-                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (net100wasm)");
-                }
-                return _SystemRuntimeInteropServices;
-            }
-        }
-
         private static PortableExecutableReference? _SystemRuntimeInteropServicesJavaScript;
 
         /// <summary>
@@ -3001,6 +2916,23 @@ public static partial class Net100Wasm
                     _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Runtime.InteropServices.RuntimeInformation")).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (net100wasm)");
                 }
                 return _SystemRuntimeInteropServicesRuntimeInformation;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemRuntimeInteropServices;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.InteropServices.dll
+        /// </summary>
+        public static PortableExecutableReference SystemRuntimeInteropServices
+        {
+            get
+            {
+                if (_SystemRuntimeInteropServices is null)
+                {
+                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (net100wasm)");
+                }
+                return _SystemRuntimeInteropServices;
             }
         }
 
@@ -3052,23 +2984,6 @@ public static partial class Net100Wasm
                     _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Runtime.Numerics")).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (net100wasm)");
                 }
                 return _SystemRuntimeNumerics;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemRuntimeSerialization;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.Serialization.dll
-        /// </summary>
-        public static PortableExecutableReference SystemRuntimeSerialization
-        {
-            get
-            {
-                if (_SystemRuntimeSerialization is null)
-                {
-                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net100wasm)");
-                }
-                return _SystemRuntimeSerialization;
             }
         }
 
@@ -3137,6 +3052,40 @@ public static partial class Net100Wasm
                     _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Runtime.Serialization.Xml")).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (net100wasm)");
                 }
                 return _SystemRuntimeSerializationXml;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemRuntimeSerialization;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.Serialization.dll
+        /// </summary>
+        public static PortableExecutableReference SystemRuntimeSerialization
+        {
+            get
+            {
+                if (_SystemRuntimeSerialization is null)
+                {
+                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net100wasm)");
+                }
+                return _SystemRuntimeSerialization;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemRuntime;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.dll
+        /// </summary>
+        public static PortableExecutableReference SystemRuntime
+        {
+            get
+            {
+                if (_SystemRuntime is null)
+                {
+                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (net100wasm)");
+                }
+                return _SystemRuntime;
             }
         }
 
@@ -3225,23 +3174,6 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _SystemSecurityCryptography;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Security.Cryptography.dll
-        /// </summary>
-        public static PortableExecutableReference SystemSecurityCryptography
-        {
-            get
-            {
-                if (_SystemSecurityCryptography is null)
-                {
-                    _SystemSecurityCryptography = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Security.Cryptography")).GetReference(filePath: "System.Security.Cryptography.dll", display: "System.Security.Cryptography (net100wasm)");
-                }
-                return _SystemSecurityCryptography;
-            }
-        }
-
         private static PortableExecutableReference? _SystemSecurityCryptographyEncoding;
 
         /// <summary>
@@ -3310,37 +3242,20 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _SystemSecurity;
+        private static PortableExecutableReference? _SystemSecurityCryptography;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Security.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Security.Cryptography.dll
         /// </summary>
-        public static PortableExecutableReference SystemSecurity
+        public static PortableExecutableReference SystemSecurityCryptography
         {
             get
             {
-                if (_SystemSecurity is null)
+                if (_SystemSecurityCryptography is null)
                 {
-                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (net100wasm)");
+                    _SystemSecurityCryptography = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Security.Cryptography")).GetReference(filePath: "System.Security.Cryptography.dll", display: "System.Security.Cryptography (net100wasm)");
                 }
-                return _SystemSecurity;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemSecurityPrincipal;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Security.Principal.dll
-        /// </summary>
-        public static PortableExecutableReference SystemSecurityPrincipal
-        {
-            get
-            {
-                if (_SystemSecurityPrincipal is null)
-                {
-                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Security.Principal")).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (net100wasm)");
-                }
-                return _SystemSecurityPrincipal;
+                return _SystemSecurityCryptography;
             }
         }
 
@@ -3361,6 +3276,23 @@ public static partial class Net100Wasm
             }
         }
 
+        private static PortableExecutableReference? _SystemSecurityPrincipal;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Security.Principal.dll
+        /// </summary>
+        public static PortableExecutableReference SystemSecurityPrincipal
+        {
+            get
+            {
+                if (_SystemSecurityPrincipal is null)
+                {
+                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Security.Principal")).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (net100wasm)");
+                }
+                return _SystemSecurityPrincipal;
+            }
+        }
+
         private static PortableExecutableReference? _SystemSecuritySecureString;
 
         /// <summary>
@@ -3375,6 +3307,23 @@ public static partial class Net100Wasm
                     _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Security.SecureString")).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (net100wasm)");
                 }
                 return _SystemSecuritySecureString;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemSecurity;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Security.dll
+        /// </summary>
+        public static PortableExecutableReference SystemSecurity
+        {
+            get
+            {
+                if (_SystemSecurity is null)
+                {
+                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (net100wasm)");
+                }
+                return _SystemSecurity;
             }
         }
 
@@ -3429,23 +3378,6 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _SystemTextEncoding;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Text.Encoding.dll
-        /// </summary>
-        public static PortableExecutableReference SystemTextEncoding
-        {
-            get
-            {
-                if (_SystemTextEncoding is null)
-                {
-                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Text.Encoding")).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (net100wasm)");
-                }
-                return _SystemTextEncoding;
-            }
-        }
-
         private static PortableExecutableReference? _SystemTextEncodingExtensions;
 
         /// <summary>
@@ -3460,6 +3392,23 @@ public static partial class Net100Wasm
                     _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Text.Encoding.Extensions")).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (net100wasm)");
                 }
                 return _SystemTextEncodingExtensions;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemTextEncoding;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Text.Encoding.dll
+        /// </summary>
+        public static PortableExecutableReference SystemTextEncoding
+        {
+            get
+            {
+                if (_SystemTextEncoding is null)
+                {
+                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Text.Encoding")).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (net100wasm)");
+                }
+                return _SystemTextEncoding;
             }
         }
 
@@ -3548,23 +3497,6 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _SystemThreading;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Threading.dll
-        /// </summary>
-        public static PortableExecutableReference SystemThreading
-        {
-            get
-            {
-                if (_SystemThreading is null)
-                {
-                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (net100wasm)");
-                }
-                return _SystemThreading;
-            }
-        }
-
         private static PortableExecutableReference? _SystemThreadingOverlapped;
 
         /// <summary>
@@ -3599,23 +3531,6 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _SystemThreadingTasks;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Threading.Tasks.dll
-        /// </summary>
-        public static PortableExecutableReference SystemThreadingTasks
-        {
-            get
-            {
-                if (_SystemThreadingTasks is null)
-                {
-                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Threading.Tasks")).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (net100wasm)");
-                }
-                return _SystemThreadingTasks;
-            }
-        }
-
         private static PortableExecutableReference? _SystemThreadingTasksExtensions;
 
         /// <summary>
@@ -3647,6 +3562,23 @@ public static partial class Net100Wasm
                     _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Threading.Tasks.Parallel")).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (net100wasm)");
                 }
                 return _SystemThreadingTasksParallel;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemThreadingTasks;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Threading.Tasks.dll
+        /// </summary>
+        public static PortableExecutableReference SystemThreadingTasks
+        {
+            get
+            {
+                if (_SystemThreadingTasks is null)
+                {
+                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Threading.Tasks")).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (net100wasm)");
+                }
+                return _SystemThreadingTasks;
             }
         }
 
@@ -3701,20 +3633,20 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _SystemTransactions;
+        private static PortableExecutableReference? _SystemThreading;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Transactions.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Threading.dll
         /// </summary>
-        public static PortableExecutableReference SystemTransactions
+        public static PortableExecutableReference SystemThreading
         {
             get
             {
-                if (_SystemTransactions is null)
+                if (_SystemThreading is null)
                 {
-                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net100wasm)");
+                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (net100wasm)");
                 }
-                return _SystemTransactions;
+                return _SystemThreading;
             }
         }
 
@@ -3735,6 +3667,23 @@ public static partial class Net100Wasm
             }
         }
 
+        private static PortableExecutableReference? _SystemTransactions;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Transactions.dll
+        /// </summary>
+        public static PortableExecutableReference SystemTransactions
+        {
+            get
+            {
+                if (_SystemTransactions is null)
+                {
+                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (net100wasm)");
+                }
+                return _SystemTransactions;
+            }
+        }
+
         private static PortableExecutableReference? _SystemValueTuple;
 
         /// <summary>
@@ -3749,23 +3698,6 @@ public static partial class Net100Wasm
                     _SystemValueTuple = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.ValueTuple")).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (net100wasm)");
                 }
                 return _SystemValueTuple;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemWeb;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Web.dll
-        /// </summary>
-        public static PortableExecutableReference SystemWeb
-        {
-            get
-            {
-                if (_SystemWeb is null)
-                {
-                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (net100wasm)");
-                }
-                return _SystemWeb;
             }
         }
 
@@ -3786,6 +3718,23 @@ public static partial class Net100Wasm
             }
         }
 
+        private static PortableExecutableReference? _SystemWeb;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Web.dll
+        /// </summary>
+        public static PortableExecutableReference SystemWeb
+        {
+            get
+            {
+                if (_SystemWeb is null)
+                {
+                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (net100wasm)");
+                }
+                return _SystemWeb;
+            }
+        }
+
         private static PortableExecutableReference? _SystemWindows;
 
         /// <summary>
@@ -3800,23 +3749,6 @@ public static partial class Net100Wasm
                     _SystemWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Windows")).GetReference(filePath: "System.Windows.dll", display: "System.Windows (net100wasm)");
                 }
                 return _SystemWindows;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemXml;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Xml.dll
-        /// </summary>
-        public static PortableExecutableReference SystemXml
-        {
-            get
-            {
-                if (_SystemXml is null)
-                {
-                    _SystemXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Xml")).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net100wasm)");
-                }
-                return _SystemXml;
             }
         }
 
@@ -3888,6 +3820,40 @@ public static partial class Net100Wasm
             }
         }
 
+        private static PortableExecutableReference? _SystemXmlXPathXDocument;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.XDocument.dll
+        /// </summary>
+        public static PortableExecutableReference SystemXmlXPathXDocument
+        {
+            get
+            {
+                if (_SystemXmlXPathXDocument is null)
+                {
+                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (net100wasm)");
+                }
+                return _SystemXmlXPathXDocument;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemXmlXPath;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.dll
+        /// </summary>
+        public static PortableExecutableReference SystemXmlXPath
+        {
+            get
+            {
+                if (_SystemXmlXPath is null)
+                {
+                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Xml.XPath")).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (net100wasm)");
+                }
+                return _SystemXmlXPath;
+            }
+        }
+
         private static PortableExecutableReference? _SystemXmlXmlDocument;
 
         /// <summary>
@@ -3922,37 +3888,37 @@ public static partial class Net100Wasm
             }
         }
 
-        private static PortableExecutableReference? _SystemXmlXPath;
+        private static PortableExecutableReference? _SystemXml;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.dll
         /// </summary>
-        public static PortableExecutableReference SystemXmlXPath
+        public static PortableExecutableReference SystemXml
         {
             get
             {
-                if (_SystemXmlXPath is null)
+                if (_SystemXml is null)
                 {
-                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Xml.XPath")).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (net100wasm)");
+                    _SystemXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Xml")).GetReference(filePath: "System.Xml.dll", display: "System.Xml (net100wasm)");
                 }
-                return _SystemXmlXPath;
+                return _SystemXml;
             }
         }
 
-        private static PortableExecutableReference? _SystemXmlXPathXDocument;
+        private static PortableExecutableReference? _System;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.XDocument.dll
+        /// The <see cref="PortableExecutableReference"/> for System.dll
         /// </summary>
-        public static PortableExecutableReference SystemXmlXPathXDocument
+        public static PortableExecutableReference System
         {
             get
             {
-                if (_SystemXmlXPathXDocument is null)
+                if (_System is null)
                 {
-                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (net100wasm)");
+                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.System")).GetReference(filePath: "System.dll", display: "System (net100wasm)");
                 }
-                return _SystemXmlXPathXDocument;
+                return _System;
             }
         }
 
@@ -3970,6 +3936,40 @@ public static partial class Net100Wasm
                     _WindowsBase = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.WindowsBase")).GetReference(filePath: "WindowsBase.dll", display: "WindowsBase (net100wasm)");
                 }
                 return _WindowsBase;
+            }
+        }
+
+        private static PortableExecutableReference? _mscorlib;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for mscorlib.dll
+        /// </summary>
+        public static PortableExecutableReference mscorlib
+        {
+            get
+            {
+                if (_mscorlib is null)
+                {
+                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net100wasm)");
+                }
+                return _mscorlib;
+            }
+        }
+
+        private static PortableExecutableReference? _netstandard;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for netstandard.dll
+        /// </summary>
+        public static PortableExecutableReference netstandard
+        {
+            get
+            {
+                if (_netstandard is null)
+                {
+                    _netstandard = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net100wasm.netstandard")).GetReference(filePath: "netstandard.dll", display: "netstandard (net100wasm)");
+                }
+                return _netstandard;
             }
         }
 
@@ -4004,21 +4004,19 @@ public static partial class Net100Wasm
                         MicrosoftVisualBasic,
                         MicrosoftWin32Primitives,
                         MicrosoftWin32Registry,
-                        mscorlib,
-                        netstandard,
                         SystemAppContext,
                         SystemBuffers,
                         SystemCollectionsConcurrent,
-                        SystemCollections,
                         SystemCollectionsImmutable,
                         SystemCollectionsNonGeneric,
                         SystemCollectionsSpecialized,
+                        SystemCollections,
                         SystemComponentModelAnnotations,
                         SystemComponentModelDataAnnotations,
-                        SystemComponentModel,
                         SystemComponentModelEventBasedAsync,
                         SystemComponentModelPrimitives,
                         SystemComponentModelTypeConverter,
+                        SystemComponentModel,
                         SystemConfiguration,
                         SystemConsole,
                         SystemCore,
@@ -4035,40 +4033,38 @@ public static partial class Net100Wasm
                         SystemDiagnosticsTools,
                         SystemDiagnosticsTraceSource,
                         SystemDiagnosticsTracing,
-                        System,
-                        SystemDrawing,
                         SystemDrawingPrimitives,
+                        SystemDrawing,
                         SystemDynamicRuntime,
                         SystemFormatsAsn1,
                         SystemFormatsTar,
                         SystemGlobalizationCalendars,
-                        SystemGlobalization,
                         SystemGlobalizationExtensions,
+                        SystemGlobalization,
                         SystemIOCompressionBrotli,
-                        SystemIOCompression,
                         SystemIOCompressionFileSystem,
                         SystemIOCompressionZipFile,
-                        SystemIO,
+                        SystemIOCompression,
                         SystemIOFileSystemAccessControl,
-                        SystemIOFileSystem,
                         SystemIOFileSystemDriveInfo,
                         SystemIOFileSystemPrimitives,
                         SystemIOFileSystemWatcher,
+                        SystemIOFileSystem,
                         SystemIOIsolatedStorage,
                         SystemIOMemoryMappedFiles,
                         SystemIOPipelines,
                         SystemIOPipesAccessControl,
                         SystemIOPipes,
                         SystemIOUnmanagedMemoryStream,
+                        SystemIO,
                         SystemLinqAsyncEnumerable,
-                        SystemLinq,
                         SystemLinqExpressions,
                         SystemLinqParallel,
                         SystemLinqQueryable,
+                        SystemLinq,
                         SystemMemory,
-                        SystemNet,
-                        SystemNetHttp,
                         SystemNetHttpJson,
+                        SystemNetHttp,
                         SystemNetHttpListener,
                         SystemNetMail,
                         SystemNetNameResolution,
@@ -4086,90 +4082,94 @@ public static partial class Net100Wasm
                         SystemNetWebProxy,
                         SystemNetWebSocketsClient,
                         SystemNetWebSockets,
-                        SystemNumerics,
+                        SystemNet,
                         SystemNumericsVectors,
+                        SystemNumerics,
                         SystemObjectModel,
                         SystemPrivateDataContractSerialization,
                         SystemPrivateUri,
-                        SystemPrivateXml,
                         SystemPrivateXmlLinq,
+                        SystemPrivateXml,
                         SystemReflectionDispatchProxy,
-                        SystemReflection,
-                        SystemReflectionEmit,
                         SystemReflectionEmitILGeneration,
                         SystemReflectionEmitLightweight,
+                        SystemReflectionEmit,
                         SystemReflectionExtensions,
                         SystemReflectionMetadata,
                         SystemReflectionPrimitives,
                         SystemReflectionTypeExtensions,
+                        SystemReflection,
                         SystemResourcesReader,
                         SystemResourcesResourceManager,
                         SystemResourcesWriter,
                         SystemRuntimeCompilerServicesUnsafe,
                         SystemRuntimeCompilerServicesVisualC,
-                        SystemRuntime,
                         SystemRuntimeExtensions,
                         SystemRuntimeHandles,
-                        SystemRuntimeInteropServices,
                         SystemRuntimeInteropServicesJavaScript,
                         SystemRuntimeInteropServicesRuntimeInformation,
+                        SystemRuntimeInteropServices,
                         SystemRuntimeIntrinsics,
                         SystemRuntimeLoader,
                         SystemRuntimeNumerics,
-                        SystemRuntimeSerialization,
                         SystemRuntimeSerializationFormatters,
                         SystemRuntimeSerializationJson,
                         SystemRuntimeSerializationPrimitives,
                         SystemRuntimeSerializationXml,
+                        SystemRuntimeSerialization,
+                        SystemRuntime,
                         SystemSecurityAccessControl,
                         SystemSecurityClaims,
                         SystemSecurityCryptographyAlgorithms,
                         SystemSecurityCryptographyCng,
                         SystemSecurityCryptographyCsp,
-                        SystemSecurityCryptography,
                         SystemSecurityCryptographyEncoding,
                         SystemSecurityCryptographyOpenSsl,
                         SystemSecurityCryptographyPrimitives,
                         SystemSecurityCryptographyX509Certificates,
-                        SystemSecurity,
-                        SystemSecurityPrincipal,
+                        SystemSecurityCryptography,
                         SystemSecurityPrincipalWindows,
+                        SystemSecurityPrincipal,
                         SystemSecuritySecureString,
+                        SystemSecurity,
                         SystemServiceModelWeb,
                         SystemServiceProcess,
                         SystemTextEncodingCodePages,
-                        SystemTextEncoding,
                         SystemTextEncodingExtensions,
+                        SystemTextEncoding,
                         SystemTextEncodingsWeb,
                         SystemTextJson,
                         SystemTextRegularExpressions,
                         SystemThreadingAccessControl,
                         SystemThreadingChannels,
-                        SystemThreading,
                         SystemThreadingOverlapped,
                         SystemThreadingTasksDataflow,
-                        SystemThreadingTasks,
                         SystemThreadingTasksExtensions,
                         SystemThreadingTasksParallel,
+                        SystemThreadingTasks,
                         SystemThreadingThread,
                         SystemThreadingThreadPool,
                         SystemThreadingTimer,
-                        SystemTransactions,
+                        SystemThreading,
                         SystemTransactionsLocal,
+                        SystemTransactions,
                         SystemValueTuple,
-                        SystemWeb,
                         SystemWebHttpUtility,
+                        SystemWeb,
                         SystemWindows,
-                        SystemXml,
                         SystemXmlLinq,
                         SystemXmlReaderWriter,
                         SystemXmlSerialization,
                         SystemXmlXDocument,
+                        SystemXmlXPathXDocument,
+                        SystemXmlXPath,
                         SystemXmlXmlDocument,
                         SystemXmlXmlSerializer,
-                        SystemXmlXPath,
-                        SystemXmlXPathXDocument,
+                        SystemXml,
+                        System,
                         WindowsBase,
+                        mscorlib,
+                        netstandard,
                         SystemPrivateCoreLib,
                     ];
                 }
@@ -4214,18 +4214,6 @@ public static partial class Net100Wasm
         private static byte[]? _MicrosoftWin32Registry;
 
         /// <summary>
-        /// The image bytes for mscorlib.dll
-        /// </summary>
-        public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "net100wasm.mscorlib");
-        private static byte[]? _mscorlib;
-
-        /// <summary>
-        /// The image bytes for netstandard.dll
-        /// </summary>
-        public static byte[] netstandard => ResourceLoader.GetOrCreateResource(ref _netstandard, "net100wasm.netstandard");
-        private static byte[]? _netstandard;
-
-        /// <summary>
         /// The image bytes for System.AppContext.dll
         /// </summary>
         public static byte[] SystemAppContext => ResourceLoader.GetOrCreateResource(ref _SystemAppContext, "net100wasm.System.AppContext");
@@ -4242,12 +4230,6 @@ public static partial class Net100Wasm
         /// </summary>
         public static byte[] SystemCollectionsConcurrent => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsConcurrent, "net100wasm.System.Collections.Concurrent");
         private static byte[]? _SystemCollectionsConcurrent;
-
-        /// <summary>
-        /// The image bytes for System.Collections.dll
-        /// </summary>
-        public static byte[] SystemCollections => ResourceLoader.GetOrCreateResource(ref _SystemCollections, "net100wasm.System.Collections");
-        private static byte[]? _SystemCollections;
 
         /// <summary>
         /// The image bytes for System.Collections.Immutable.dll
@@ -4268,6 +4250,12 @@ public static partial class Net100Wasm
         private static byte[]? _SystemCollectionsSpecialized;
 
         /// <summary>
+        /// The image bytes for System.Collections.dll
+        /// </summary>
+        public static byte[] SystemCollections => ResourceLoader.GetOrCreateResource(ref _SystemCollections, "net100wasm.System.Collections");
+        private static byte[]? _SystemCollections;
+
+        /// <summary>
         /// The image bytes for System.ComponentModel.Annotations.dll
         /// </summary>
         public static byte[] SystemComponentModelAnnotations => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelAnnotations, "net100wasm.System.ComponentModel.Annotations");
@@ -4278,12 +4266,6 @@ public static partial class Net100Wasm
         /// </summary>
         public static byte[] SystemComponentModelDataAnnotations => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelDataAnnotations, "net100wasm.System.ComponentModel.DataAnnotations");
         private static byte[]? _SystemComponentModelDataAnnotations;
-
-        /// <summary>
-        /// The image bytes for System.ComponentModel.dll
-        /// </summary>
-        public static byte[] SystemComponentModel => ResourceLoader.GetOrCreateResource(ref _SystemComponentModel, "net100wasm.System.ComponentModel");
-        private static byte[]? _SystemComponentModel;
 
         /// <summary>
         /// The image bytes for System.ComponentModel.EventBasedAsync.dll
@@ -4302,6 +4284,12 @@ public static partial class Net100Wasm
         /// </summary>
         public static byte[] SystemComponentModelTypeConverter => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelTypeConverter, "net100wasm.System.ComponentModel.TypeConverter");
         private static byte[]? _SystemComponentModelTypeConverter;
+
+        /// <summary>
+        /// The image bytes for System.ComponentModel.dll
+        /// </summary>
+        public static byte[] SystemComponentModel => ResourceLoader.GetOrCreateResource(ref _SystemComponentModel, "net100wasm.System.ComponentModel");
+        private static byte[]? _SystemComponentModel;
 
         /// <summary>
         /// The image bytes for System.Configuration.dll
@@ -4400,22 +4388,16 @@ public static partial class Net100Wasm
         private static byte[]? _SystemDiagnosticsTracing;
 
         /// <summary>
-        /// The image bytes for System.dll
+        /// The image bytes for System.Drawing.Primitives.dll
         /// </summary>
-        public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "net100wasm.System");
-        private static byte[]? _System;
+        public static byte[] SystemDrawingPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemDrawingPrimitives, "net100wasm.System.Drawing.Primitives");
+        private static byte[]? _SystemDrawingPrimitives;
 
         /// <summary>
         /// The image bytes for System.Drawing.dll
         /// </summary>
         public static byte[] SystemDrawing => ResourceLoader.GetOrCreateResource(ref _SystemDrawing, "net100wasm.System.Drawing");
         private static byte[]? _SystemDrawing;
-
-        /// <summary>
-        /// The image bytes for System.Drawing.Primitives.dll
-        /// </summary>
-        public static byte[] SystemDrawingPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemDrawingPrimitives, "net100wasm.System.Drawing.Primitives");
-        private static byte[]? _SystemDrawingPrimitives;
 
         /// <summary>
         /// The image bytes for System.Dynamic.Runtime.dll
@@ -4442,28 +4424,22 @@ public static partial class Net100Wasm
         private static byte[]? _SystemGlobalizationCalendars;
 
         /// <summary>
-        /// The image bytes for System.Globalization.dll
-        /// </summary>
-        public static byte[] SystemGlobalization => ResourceLoader.GetOrCreateResource(ref _SystemGlobalization, "net100wasm.System.Globalization");
-        private static byte[]? _SystemGlobalization;
-
-        /// <summary>
         /// The image bytes for System.Globalization.Extensions.dll
         /// </summary>
         public static byte[] SystemGlobalizationExtensions => ResourceLoader.GetOrCreateResource(ref _SystemGlobalizationExtensions, "net100wasm.System.Globalization.Extensions");
         private static byte[]? _SystemGlobalizationExtensions;
 
         /// <summary>
+        /// The image bytes for System.Globalization.dll
+        /// </summary>
+        public static byte[] SystemGlobalization => ResourceLoader.GetOrCreateResource(ref _SystemGlobalization, "net100wasm.System.Globalization");
+        private static byte[]? _SystemGlobalization;
+
+        /// <summary>
         /// The image bytes for System.IO.Compression.Brotli.dll
         /// </summary>
         public static byte[] SystemIOCompressionBrotli => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionBrotli, "net100wasm.System.IO.Compression.Brotli");
         private static byte[]? _SystemIOCompressionBrotli;
-
-        /// <summary>
-        /// The image bytes for System.IO.Compression.dll
-        /// </summary>
-        public static byte[] SystemIOCompression => ResourceLoader.GetOrCreateResource(ref _SystemIOCompression, "net100wasm.System.IO.Compression");
-        private static byte[]? _SystemIOCompression;
 
         /// <summary>
         /// The image bytes for System.IO.Compression.FileSystem.dll
@@ -4478,22 +4454,16 @@ public static partial class Net100Wasm
         private static byte[]? _SystemIOCompressionZipFile;
 
         /// <summary>
-        /// The image bytes for System.IO.dll
+        /// The image bytes for System.IO.Compression.dll
         /// </summary>
-        public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "net100wasm.System.IO");
-        private static byte[]? _SystemIO;
+        public static byte[] SystemIOCompression => ResourceLoader.GetOrCreateResource(ref _SystemIOCompression, "net100wasm.System.IO.Compression");
+        private static byte[]? _SystemIOCompression;
 
         /// <summary>
         /// The image bytes for System.IO.FileSystem.AccessControl.dll
         /// </summary>
         public static byte[] SystemIOFileSystemAccessControl => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemAccessControl, "net100wasm.System.IO.FileSystem.AccessControl");
         private static byte[]? _SystemIOFileSystemAccessControl;
-
-        /// <summary>
-        /// The image bytes for System.IO.FileSystem.dll
-        /// </summary>
-        public static byte[] SystemIOFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystem, "net100wasm.System.IO.FileSystem");
-        private static byte[]? _SystemIOFileSystem;
 
         /// <summary>
         /// The image bytes for System.IO.FileSystem.DriveInfo.dll
@@ -4512,6 +4482,12 @@ public static partial class Net100Wasm
         /// </summary>
         public static byte[] SystemIOFileSystemWatcher => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemWatcher, "net100wasm.System.IO.FileSystem.Watcher");
         private static byte[]? _SystemIOFileSystemWatcher;
+
+        /// <summary>
+        /// The image bytes for System.IO.FileSystem.dll
+        /// </summary>
+        public static byte[] SystemIOFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystem, "net100wasm.System.IO.FileSystem");
+        private static byte[]? _SystemIOFileSystem;
 
         /// <summary>
         /// The image bytes for System.IO.IsolatedStorage.dll
@@ -4550,16 +4526,16 @@ public static partial class Net100Wasm
         private static byte[]? _SystemIOUnmanagedMemoryStream;
 
         /// <summary>
+        /// The image bytes for System.IO.dll
+        /// </summary>
+        public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "net100wasm.System.IO");
+        private static byte[]? _SystemIO;
+
+        /// <summary>
         /// The image bytes for System.Linq.AsyncEnumerable.dll
         /// </summary>
         public static byte[] SystemLinqAsyncEnumerable => ResourceLoader.GetOrCreateResource(ref _SystemLinqAsyncEnumerable, "net100wasm.System.Linq.AsyncEnumerable");
         private static byte[]? _SystemLinqAsyncEnumerable;
-
-        /// <summary>
-        /// The image bytes for System.Linq.dll
-        /// </summary>
-        public static byte[] SystemLinq => ResourceLoader.GetOrCreateResource(ref _SystemLinq, "net100wasm.System.Linq");
-        private static byte[]? _SystemLinq;
 
         /// <summary>
         /// The image bytes for System.Linq.Expressions.dll
@@ -4580,28 +4556,28 @@ public static partial class Net100Wasm
         private static byte[]? _SystemLinqQueryable;
 
         /// <summary>
+        /// The image bytes for System.Linq.dll
+        /// </summary>
+        public static byte[] SystemLinq => ResourceLoader.GetOrCreateResource(ref _SystemLinq, "net100wasm.System.Linq");
+        private static byte[]? _SystemLinq;
+
+        /// <summary>
         /// The image bytes for System.Memory.dll
         /// </summary>
         public static byte[] SystemMemory => ResourceLoader.GetOrCreateResource(ref _SystemMemory, "net100wasm.System.Memory");
         private static byte[]? _SystemMemory;
 
         /// <summary>
-        /// The image bytes for System.Net.dll
+        /// The image bytes for System.Net.Http.Json.dll
         /// </summary>
-        public static byte[] SystemNet => ResourceLoader.GetOrCreateResource(ref _SystemNet, "net100wasm.System.Net");
-        private static byte[]? _SystemNet;
+        public static byte[] SystemNetHttpJson => ResourceLoader.GetOrCreateResource(ref _SystemNetHttpJson, "net100wasm.System.Net.Http.Json");
+        private static byte[]? _SystemNetHttpJson;
 
         /// <summary>
         /// The image bytes for System.Net.Http.dll
         /// </summary>
         public static byte[] SystemNetHttp => ResourceLoader.GetOrCreateResource(ref _SystemNetHttp, "net100wasm.System.Net.Http");
         private static byte[]? _SystemNetHttp;
-
-        /// <summary>
-        /// The image bytes for System.Net.Http.Json.dll
-        /// </summary>
-        public static byte[] SystemNetHttpJson => ResourceLoader.GetOrCreateResource(ref _SystemNetHttpJson, "net100wasm.System.Net.Http.Json");
-        private static byte[]? _SystemNetHttpJson;
 
         /// <summary>
         /// The image bytes for System.Net.HttpListener.dll
@@ -4706,16 +4682,22 @@ public static partial class Net100Wasm
         private static byte[]? _SystemNetWebSockets;
 
         /// <summary>
-        /// The image bytes for System.Numerics.dll
+        /// The image bytes for System.Net.dll
         /// </summary>
-        public static byte[] SystemNumerics => ResourceLoader.GetOrCreateResource(ref _SystemNumerics, "net100wasm.System.Numerics");
-        private static byte[]? _SystemNumerics;
+        public static byte[] SystemNet => ResourceLoader.GetOrCreateResource(ref _SystemNet, "net100wasm.System.Net");
+        private static byte[]? _SystemNet;
 
         /// <summary>
         /// The image bytes for System.Numerics.Vectors.dll
         /// </summary>
         public static byte[] SystemNumericsVectors => ResourceLoader.GetOrCreateResource(ref _SystemNumericsVectors, "net100wasm.System.Numerics.Vectors");
         private static byte[]? _SystemNumericsVectors;
+
+        /// <summary>
+        /// The image bytes for System.Numerics.dll
+        /// </summary>
+        public static byte[] SystemNumerics => ResourceLoader.GetOrCreateResource(ref _SystemNumerics, "net100wasm.System.Numerics");
+        private static byte[]? _SystemNumerics;
 
         /// <summary>
         /// The image bytes for System.ObjectModel.dll
@@ -4736,34 +4718,22 @@ public static partial class Net100Wasm
         private static byte[]? _SystemPrivateUri;
 
         /// <summary>
-        /// The image bytes for System.Private.Xml.dll
-        /// </summary>
-        public static byte[] SystemPrivateXml => ResourceLoader.GetOrCreateResource(ref _SystemPrivateXml, "net100wasm.System.Private.Xml");
-        private static byte[]? _SystemPrivateXml;
-
-        /// <summary>
         /// The image bytes for System.Private.Xml.Linq.dll
         /// </summary>
         public static byte[] SystemPrivateXmlLinq => ResourceLoader.GetOrCreateResource(ref _SystemPrivateXmlLinq, "net100wasm.System.Private.Xml.Linq");
         private static byte[]? _SystemPrivateXmlLinq;
 
         /// <summary>
+        /// The image bytes for System.Private.Xml.dll
+        /// </summary>
+        public static byte[] SystemPrivateXml => ResourceLoader.GetOrCreateResource(ref _SystemPrivateXml, "net100wasm.System.Private.Xml");
+        private static byte[]? _SystemPrivateXml;
+
+        /// <summary>
         /// The image bytes for System.Reflection.DispatchProxy.dll
         /// </summary>
         public static byte[] SystemReflectionDispatchProxy => ResourceLoader.GetOrCreateResource(ref _SystemReflectionDispatchProxy, "net100wasm.System.Reflection.DispatchProxy");
         private static byte[]? _SystemReflectionDispatchProxy;
-
-        /// <summary>
-        /// The image bytes for System.Reflection.dll
-        /// </summary>
-        public static byte[] SystemReflection => ResourceLoader.GetOrCreateResource(ref _SystemReflection, "net100wasm.System.Reflection");
-        private static byte[]? _SystemReflection;
-
-        /// <summary>
-        /// The image bytes for System.Reflection.Emit.dll
-        /// </summary>
-        public static byte[] SystemReflectionEmit => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmit, "net100wasm.System.Reflection.Emit");
-        private static byte[]? _SystemReflectionEmit;
 
         /// <summary>
         /// The image bytes for System.Reflection.Emit.ILGeneration.dll
@@ -4776,6 +4746,12 @@ public static partial class Net100Wasm
         /// </summary>
         public static byte[] SystemReflectionEmitLightweight => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmitLightweight, "net100wasm.System.Reflection.Emit.Lightweight");
         private static byte[]? _SystemReflectionEmitLightweight;
+
+        /// <summary>
+        /// The image bytes for System.Reflection.Emit.dll
+        /// </summary>
+        public static byte[] SystemReflectionEmit => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmit, "net100wasm.System.Reflection.Emit");
+        private static byte[]? _SystemReflectionEmit;
 
         /// <summary>
         /// The image bytes for System.Reflection.Extensions.dll
@@ -4800,6 +4776,12 @@ public static partial class Net100Wasm
         /// </summary>
         public static byte[] SystemReflectionTypeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionTypeExtensions, "net100wasm.System.Reflection.TypeExtensions");
         private static byte[]? _SystemReflectionTypeExtensions;
+
+        /// <summary>
+        /// The image bytes for System.Reflection.dll
+        /// </summary>
+        public static byte[] SystemReflection => ResourceLoader.GetOrCreateResource(ref _SystemReflection, "net100wasm.System.Reflection");
+        private static byte[]? _SystemReflection;
 
         /// <summary>
         /// The image bytes for System.Resources.Reader.dll
@@ -4832,12 +4814,6 @@ public static partial class Net100Wasm
         private static byte[]? _SystemRuntimeCompilerServicesVisualC;
 
         /// <summary>
-        /// The image bytes for System.Runtime.dll
-        /// </summary>
-        public static byte[] SystemRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntime, "net100wasm.System.Runtime");
-        private static byte[]? _SystemRuntime;
-
-        /// <summary>
         /// The image bytes for System.Runtime.Extensions.dll
         /// </summary>
         public static byte[] SystemRuntimeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeExtensions, "net100wasm.System.Runtime.Extensions");
@@ -4850,12 +4826,6 @@ public static partial class Net100Wasm
         private static byte[]? _SystemRuntimeHandles;
 
         /// <summary>
-        /// The image bytes for System.Runtime.InteropServices.dll
-        /// </summary>
-        public static byte[] SystemRuntimeInteropServices => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServices, "net100wasm.System.Runtime.InteropServices");
-        private static byte[]? _SystemRuntimeInteropServices;
-
-        /// <summary>
         /// The image bytes for System.Runtime.InteropServices.JavaScript.dll
         /// </summary>
         public static byte[] SystemRuntimeInteropServicesJavaScript => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesJavaScript, "net100wasm.System.Runtime.InteropServices.JavaScript");
@@ -4866,6 +4836,12 @@ public static partial class Net100Wasm
         /// </summary>
         public static byte[] SystemRuntimeInteropServicesRuntimeInformation => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesRuntimeInformation, "net100wasm.System.Runtime.InteropServices.RuntimeInformation");
         private static byte[]? _SystemRuntimeInteropServicesRuntimeInformation;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.InteropServices.dll
+        /// </summary>
+        public static byte[] SystemRuntimeInteropServices => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServices, "net100wasm.System.Runtime.InteropServices");
+        private static byte[]? _SystemRuntimeInteropServices;
 
         /// <summary>
         /// The image bytes for System.Runtime.Intrinsics.dll
@@ -4884,12 +4860,6 @@ public static partial class Net100Wasm
         /// </summary>
         public static byte[] SystemRuntimeNumerics => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeNumerics, "net100wasm.System.Runtime.Numerics");
         private static byte[]? _SystemRuntimeNumerics;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.Serialization.dll
-        /// </summary>
-        public static byte[] SystemRuntimeSerialization => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerialization, "net100wasm.System.Runtime.Serialization");
-        private static byte[]? _SystemRuntimeSerialization;
 
         /// <summary>
         /// The image bytes for System.Runtime.Serialization.Formatters.dll
@@ -4914,6 +4884,18 @@ public static partial class Net100Wasm
         /// </summary>
         public static byte[] SystemRuntimeSerializationXml => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationXml, "net100wasm.System.Runtime.Serialization.Xml");
         private static byte[]? _SystemRuntimeSerializationXml;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.Serialization.dll
+        /// </summary>
+        public static byte[] SystemRuntimeSerialization => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerialization, "net100wasm.System.Runtime.Serialization");
+        private static byte[]? _SystemRuntimeSerialization;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.dll
+        /// </summary>
+        public static byte[] SystemRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntime, "net100wasm.System.Runtime");
+        private static byte[]? _SystemRuntime;
 
         /// <summary>
         /// The image bytes for System.Security.AccessControl.dll
@@ -4946,12 +4928,6 @@ public static partial class Net100Wasm
         private static byte[]? _SystemSecurityCryptographyCsp;
 
         /// <summary>
-        /// The image bytes for System.Security.Cryptography.dll
-        /// </summary>
-        public static byte[] SystemSecurityCryptography => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptography, "net100wasm.System.Security.Cryptography");
-        private static byte[]? _SystemSecurityCryptography;
-
-        /// <summary>
         /// The image bytes for System.Security.Cryptography.Encoding.dll
         /// </summary>
         public static byte[] SystemSecurityCryptographyEncoding => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyEncoding, "net100wasm.System.Security.Cryptography.Encoding");
@@ -4976,16 +4952,10 @@ public static partial class Net100Wasm
         private static byte[]? _SystemSecurityCryptographyX509Certificates;
 
         /// <summary>
-        /// The image bytes for System.Security.dll
+        /// The image bytes for System.Security.Cryptography.dll
         /// </summary>
-        public static byte[] SystemSecurity => ResourceLoader.GetOrCreateResource(ref _SystemSecurity, "net100wasm.System.Security");
-        private static byte[]? _SystemSecurity;
-
-        /// <summary>
-        /// The image bytes for System.Security.Principal.dll
-        /// </summary>
-        public static byte[] SystemSecurityPrincipal => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipal, "net100wasm.System.Security.Principal");
-        private static byte[]? _SystemSecurityPrincipal;
+        public static byte[] SystemSecurityCryptography => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptography, "net100wasm.System.Security.Cryptography");
+        private static byte[]? _SystemSecurityCryptography;
 
         /// <summary>
         /// The image bytes for System.Security.Principal.Windows.dll
@@ -4994,10 +4964,22 @@ public static partial class Net100Wasm
         private static byte[]? _SystemSecurityPrincipalWindows;
 
         /// <summary>
+        /// The image bytes for System.Security.Principal.dll
+        /// </summary>
+        public static byte[] SystemSecurityPrincipal => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipal, "net100wasm.System.Security.Principal");
+        private static byte[]? _SystemSecurityPrincipal;
+
+        /// <summary>
         /// The image bytes for System.Security.SecureString.dll
         /// </summary>
         public static byte[] SystemSecuritySecureString => ResourceLoader.GetOrCreateResource(ref _SystemSecuritySecureString, "net100wasm.System.Security.SecureString");
         private static byte[]? _SystemSecuritySecureString;
+
+        /// <summary>
+        /// The image bytes for System.Security.dll
+        /// </summary>
+        public static byte[] SystemSecurity => ResourceLoader.GetOrCreateResource(ref _SystemSecurity, "net100wasm.System.Security");
+        private static byte[]? _SystemSecurity;
 
         /// <summary>
         /// The image bytes for System.ServiceModel.Web.dll
@@ -5018,16 +5000,16 @@ public static partial class Net100Wasm
         private static byte[]? _SystemTextEncodingCodePages;
 
         /// <summary>
-        /// The image bytes for System.Text.Encoding.dll
-        /// </summary>
-        public static byte[] SystemTextEncoding => ResourceLoader.GetOrCreateResource(ref _SystemTextEncoding, "net100wasm.System.Text.Encoding");
-        private static byte[]? _SystemTextEncoding;
-
-        /// <summary>
         /// The image bytes for System.Text.Encoding.Extensions.dll
         /// </summary>
         public static byte[] SystemTextEncodingExtensions => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingExtensions, "net100wasm.System.Text.Encoding.Extensions");
         private static byte[]? _SystemTextEncodingExtensions;
+
+        /// <summary>
+        /// The image bytes for System.Text.Encoding.dll
+        /// </summary>
+        public static byte[] SystemTextEncoding => ResourceLoader.GetOrCreateResource(ref _SystemTextEncoding, "net100wasm.System.Text.Encoding");
+        private static byte[]? _SystemTextEncoding;
 
         /// <summary>
         /// The image bytes for System.Text.Encodings.Web.dll
@@ -5060,12 +5042,6 @@ public static partial class Net100Wasm
         private static byte[]? _SystemThreadingChannels;
 
         /// <summary>
-        /// The image bytes for System.Threading.dll
-        /// </summary>
-        public static byte[] SystemThreading => ResourceLoader.GetOrCreateResource(ref _SystemThreading, "net100wasm.System.Threading");
-        private static byte[]? _SystemThreading;
-
-        /// <summary>
         /// The image bytes for System.Threading.Overlapped.dll
         /// </summary>
         public static byte[] SystemThreadingOverlapped => ResourceLoader.GetOrCreateResource(ref _SystemThreadingOverlapped, "net100wasm.System.Threading.Overlapped");
@@ -5078,12 +5054,6 @@ public static partial class Net100Wasm
         private static byte[]? _SystemThreadingTasksDataflow;
 
         /// <summary>
-        /// The image bytes for System.Threading.Tasks.dll
-        /// </summary>
-        public static byte[] SystemThreadingTasks => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasks, "net100wasm.System.Threading.Tasks");
-        private static byte[]? _SystemThreadingTasks;
-
-        /// <summary>
         /// The image bytes for System.Threading.Tasks.Extensions.dll
         /// </summary>
         public static byte[] SystemThreadingTasksExtensions => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksExtensions, "net100wasm.System.Threading.Tasks.Extensions");
@@ -5094,6 +5064,12 @@ public static partial class Net100Wasm
         /// </summary>
         public static byte[] SystemThreadingTasksParallel => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksParallel, "net100wasm.System.Threading.Tasks.Parallel");
         private static byte[]? _SystemThreadingTasksParallel;
+
+        /// <summary>
+        /// The image bytes for System.Threading.Tasks.dll
+        /// </summary>
+        public static byte[] SystemThreadingTasks => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasks, "net100wasm.System.Threading.Tasks");
+        private static byte[]? _SystemThreadingTasks;
 
         /// <summary>
         /// The image bytes for System.Threading.Thread.dll
@@ -5114,10 +5090,10 @@ public static partial class Net100Wasm
         private static byte[]? _SystemThreadingTimer;
 
         /// <summary>
-        /// The image bytes for System.Transactions.dll
+        /// The image bytes for System.Threading.dll
         /// </summary>
-        public static byte[] SystemTransactions => ResourceLoader.GetOrCreateResource(ref _SystemTransactions, "net100wasm.System.Transactions");
-        private static byte[]? _SystemTransactions;
+        public static byte[] SystemThreading => ResourceLoader.GetOrCreateResource(ref _SystemThreading, "net100wasm.System.Threading");
+        private static byte[]? _SystemThreading;
 
         /// <summary>
         /// The image bytes for System.Transactions.Local.dll
@@ -5126,16 +5102,16 @@ public static partial class Net100Wasm
         private static byte[]? _SystemTransactionsLocal;
 
         /// <summary>
+        /// The image bytes for System.Transactions.dll
+        /// </summary>
+        public static byte[] SystemTransactions => ResourceLoader.GetOrCreateResource(ref _SystemTransactions, "net100wasm.System.Transactions");
+        private static byte[]? _SystemTransactions;
+
+        /// <summary>
         /// The image bytes for System.ValueTuple.dll
         /// </summary>
         public static byte[] SystemValueTuple => ResourceLoader.GetOrCreateResource(ref _SystemValueTuple, "net100wasm.System.ValueTuple");
         private static byte[]? _SystemValueTuple;
-
-        /// <summary>
-        /// The image bytes for System.Web.dll
-        /// </summary>
-        public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "net100wasm.System.Web");
-        private static byte[]? _SystemWeb;
 
         /// <summary>
         /// The image bytes for System.Web.HttpUtility.dll
@@ -5144,16 +5120,16 @@ public static partial class Net100Wasm
         private static byte[]? _SystemWebHttpUtility;
 
         /// <summary>
+        /// The image bytes for System.Web.dll
+        /// </summary>
+        public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "net100wasm.System.Web");
+        private static byte[]? _SystemWeb;
+
+        /// <summary>
         /// The image bytes for System.Windows.dll
         /// </summary>
         public static byte[] SystemWindows => ResourceLoader.GetOrCreateResource(ref _SystemWindows, "net100wasm.System.Windows");
         private static byte[]? _SystemWindows;
-
-        /// <summary>
-        /// The image bytes for System.Xml.dll
-        /// </summary>
-        public static byte[] SystemXml => ResourceLoader.GetOrCreateResource(ref _SystemXml, "net100wasm.System.Xml");
-        private static byte[]? _SystemXml;
 
         /// <summary>
         /// The image bytes for System.Xml.Linq.dll
@@ -5180,6 +5156,18 @@ public static partial class Net100Wasm
         private static byte[]? _SystemXmlXDocument;
 
         /// <summary>
+        /// The image bytes for System.Xml.XPath.XDocument.dll
+        /// </summary>
+        public static byte[] SystemXmlXPathXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPathXDocument, "net100wasm.System.Xml.XPath.XDocument");
+        private static byte[]? _SystemXmlXPathXDocument;
+
+        /// <summary>
+        /// The image bytes for System.Xml.XPath.dll
+        /// </summary>
+        public static byte[] SystemXmlXPath => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPath, "net100wasm.System.Xml.XPath");
+        private static byte[]? _SystemXmlXPath;
+
+        /// <summary>
         /// The image bytes for System.Xml.XmlDocument.dll
         /// </summary>
         public static byte[] SystemXmlXmlDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlDocument, "net100wasm.System.Xml.XmlDocument");
@@ -5192,22 +5180,34 @@ public static partial class Net100Wasm
         private static byte[]? _SystemXmlXmlSerializer;
 
         /// <summary>
-        /// The image bytes for System.Xml.XPath.dll
+        /// The image bytes for System.Xml.dll
         /// </summary>
-        public static byte[] SystemXmlXPath => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPath, "net100wasm.System.Xml.XPath");
-        private static byte[]? _SystemXmlXPath;
+        public static byte[] SystemXml => ResourceLoader.GetOrCreateResource(ref _SystemXml, "net100wasm.System.Xml");
+        private static byte[]? _SystemXml;
 
         /// <summary>
-        /// The image bytes for System.Xml.XPath.XDocument.dll
+        /// The image bytes for System.dll
         /// </summary>
-        public static byte[] SystemXmlXPathXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPathXDocument, "net100wasm.System.Xml.XPath.XDocument");
-        private static byte[]? _SystemXmlXPathXDocument;
+        public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "net100wasm.System");
+        private static byte[]? _System;
 
         /// <summary>
         /// The image bytes for WindowsBase.dll
         /// </summary>
         public static byte[] WindowsBase => ResourceLoader.GetOrCreateResource(ref _WindowsBase, "net100wasm.WindowsBase");
         private static byte[]? _WindowsBase;
+
+        /// <summary>
+        /// The image bytes for mscorlib.dll
+        /// </summary>
+        public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "net100wasm.mscorlib");
+        private static byte[]? _mscorlib;
+
+        /// <summary>
+        /// The image bytes for netstandard.dll
+        /// </summary>
+        public static byte[] netstandard => ResourceLoader.GetOrCreateResource(ref _netstandard, "net100wasm.netstandard");
+        private static byte[]? _netstandard;
 
         /// <summary>
         /// The image bytes for System.Private.CoreLib.dll

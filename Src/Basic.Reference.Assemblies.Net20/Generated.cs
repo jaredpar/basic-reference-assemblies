@@ -23,11 +23,6 @@ public static partial class Net20
         public static ReferenceInfo AspNetMMCExt => new ReferenceInfo("AspNetMMCExt.dll", Resources.AspNetMMCExt, Net20.References.AspNetMMCExt, global::System.Guid.Parse("02516558-dd3b-4d52-8044-932c92249709"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for cscompmgd.dll
-        /// </summary>
-        public static ReferenceInfo cscompmgd => new ReferenceInfo("cscompmgd.dll", Resources.cscompmgd, Net20.References.cscompmgd, global::System.Guid.Parse("dea8ed4d-de6a-4e0d-b2ca-d4ca55b60f59"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for CustomMarshalers.dll
         /// </summary>
         public static ReferenceInfo CustomMarshalers => new ReferenceInfo("CustomMarshalers.dll", Resources.CustomMarshalers, Net20.References.CustomMarshalers, global::System.Guid.Parse("a0dd71d8-45fa-4ac7-8ee9-078588faa29c"));
@@ -88,14 +83,14 @@ public static partial class Net20
         public static ReferenceInfo MicrosoftVisualBasicCompatibility => new ReferenceInfo("Microsoft.VisualBasic.Compatibility.dll", Resources.MicrosoftVisualBasicCompatibility, Net20.References.MicrosoftVisualBasicCompatibility, global::System.Guid.Parse("b22a5c10-3d52-4029-9bb7-c0f69849eea0"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.dll
-        /// </summary>
-        public static ReferenceInfo MicrosoftVisualBasic => new ReferenceInfo("Microsoft.VisualBasic.dll", Resources.MicrosoftVisualBasic, Net20.References.MicrosoftVisualBasic, global::System.Guid.Parse("ef293da8-f2e5-468d-ad40-816c38465e72"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.Vsa.dll
         /// </summary>
         public static ReferenceInfo MicrosoftVisualBasicVsa => new ReferenceInfo("Microsoft.VisualBasic.Vsa.dll", Resources.MicrosoftVisualBasicVsa, Net20.References.MicrosoftVisualBasicVsa, global::System.Guid.Parse("0f074f2d-7043-4932-b7e7-11ff61216ed5"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.dll
+        /// </summary>
+        public static ReferenceInfo MicrosoftVisualBasic => new ReferenceInfo("Microsoft.VisualBasic.dll", Resources.MicrosoftVisualBasic, Net20.References.MicrosoftVisualBasic, global::System.Guid.Parse("ef293da8-f2e5-468d-ad40-816c38465e72"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.VisualC.dll
@@ -103,14 +98,14 @@ public static partial class Net20
         public static ReferenceInfo MicrosoftVisualC => new ReferenceInfo("Microsoft.VisualC.dll", Resources.MicrosoftVisualC, Net20.References.MicrosoftVisualC, global::System.Guid.Parse("ab850ffe-3ee4-4b05-b7eb-787402c89e2b"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for Microsoft.Vsa.dll
-        /// </summary>
-        public static ReferenceInfo MicrosoftVsa => new ReferenceInfo("Microsoft.Vsa.dll", Resources.MicrosoftVsa, Net20.References.MicrosoftVsa, global::System.Guid.Parse("ea65db04-742c-43b0-aec1-3e14c1e1b1f2"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Vsa.Vb.CodeDOMProcessor.dll
         /// </summary>
         public static ReferenceInfo MicrosoftVsaVbCodeDOMProcessor => new ReferenceInfo("Microsoft.Vsa.Vb.CodeDOMProcessor.dll", Resources.MicrosoftVsaVbCodeDOMProcessor, Net20.References.MicrosoftVsaVbCodeDOMProcessor, global::System.Guid.Parse("24ce8589-bea4-4635-b20f-e559b6bb42dd"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for Microsoft.Vsa.dll
+        /// </summary>
+        public static ReferenceInfo MicrosoftVsa => new ReferenceInfo("Microsoft.Vsa.dll", Resources.MicrosoftVsa, Net20.References.MicrosoftVsa, global::System.Guid.Parse("ea65db04-742c-43b0-aec1-3e14c1e1b1f2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft_VsaVb.dll
@@ -118,29 +113,14 @@ public static partial class Net20
         public static ReferenceInfo Microsoft_VsaVb => new ReferenceInfo("Microsoft_VsaVb.dll", Resources.Microsoft_VsaVb, Net20.References.Microsoft_VsaVb, global::System.Guid.Parse("edcead0d-f6ec-48cb-9dbf-e1de2b0f3911"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for mscorlib.dll
-        /// </summary>
-        public static ReferenceInfo mscorlib => new ReferenceInfo("mscorlib.dll", Resources.mscorlib, Net20.References.mscorlib, global::System.Guid.Parse("c28a86ac-9899-4084-a29d-1009e48b7ad8"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for sysglobl.dll
-        /// </summary>
-        public static ReferenceInfo sysglobl => new ReferenceInfo("sysglobl.dll", Resources.sysglobl, Net20.References.sysglobl, global::System.Guid.Parse("b42493d9-0943-46d3-9f2e-35820ab0dda4"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Configuration.dll
-        /// </summary>
-        public static ReferenceInfo SystemConfiguration => new ReferenceInfo("System.Configuration.dll", Resources.SystemConfiguration, Net20.References.SystemConfiguration, global::System.Guid.Parse("dc65cb6e-6c21-4a2e-ab41-b45e830b07b2"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Configuration.Install.dll
         /// </summary>
         public static ReferenceInfo SystemConfigurationInstall => new ReferenceInfo("System.Configuration.Install.dll", Resources.SystemConfigurationInstall, Net20.References.SystemConfigurationInstall, global::System.Guid.Parse("bf98b925-89bf-4880-acec-a09c2dc49207"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Data.dll
+        /// The <see cref="ReferenceInfo"/> for System.Configuration.dll
         /// </summary>
-        public static ReferenceInfo SystemData => new ReferenceInfo("System.Data.dll", Resources.SystemData, Net20.References.SystemData, global::System.Guid.Parse("71c83da2-b121-45f8-bc99-4fdc019a2af2"));
+        public static ReferenceInfo SystemConfiguration => new ReferenceInfo("System.Configuration.dll", Resources.SystemConfiguration, Net20.References.SystemConfiguration, global::System.Guid.Parse("dc65cb6e-6c21-4a2e-ab41-b45e830b07b2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Data.OracleClient.dll
@@ -153,6 +133,11 @@ public static partial class Net20
         public static ReferenceInfo SystemDataSqlXml => new ReferenceInfo("System.Data.SqlXml.dll", Resources.SystemDataSqlXml, Net20.References.SystemDataSqlXml, global::System.Guid.Parse("a5889030-e4fd-4920-bc75-054c588ca9cd"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Data.dll
+        /// </summary>
+        public static ReferenceInfo SystemData => new ReferenceInfo("System.Data.dll", Resources.SystemData, Net20.References.SystemData, global::System.Guid.Parse("71c83da2-b121-45f8-bc99-4fdc019a2af2"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Deployment.dll
         /// </summary>
         public static ReferenceInfo SystemDeployment => new ReferenceInfo("System.Deployment.dll", Resources.SystemDeployment, Net20.References.SystemDeployment, global::System.Guid.Parse("2679849b-1094-4c61-8ff4-c7c409f381da"));
@@ -163,19 +148,14 @@ public static partial class Net20
         public static ReferenceInfo SystemDesign => new ReferenceInfo("System.Design.dll", Resources.SystemDesign, Net20.References.SystemDesign, global::System.Guid.Parse("4dadced2-88d4-4201-9e8f-7bca4b840335"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.DirectoryServices.dll
-        /// </summary>
-        public static ReferenceInfo SystemDirectoryServices => new ReferenceInfo("System.DirectoryServices.dll", Resources.SystemDirectoryServices, Net20.References.SystemDirectoryServices, global::System.Guid.Parse("45f02b40-074a-4c3a-8be2-395b6b6c8ddb"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.DirectoryServices.Protocols.dll
         /// </summary>
         public static ReferenceInfo SystemDirectoryServicesProtocols => new ReferenceInfo("System.DirectoryServices.Protocols.dll", Resources.SystemDirectoryServicesProtocols, Net20.References.SystemDirectoryServicesProtocols, global::System.Guid.Parse("1ce43ead-cae9-487d-b2ad-7e5d11e54d75"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.dll
+        /// The <see cref="ReferenceInfo"/> for System.DirectoryServices.dll
         /// </summary>
-        public static ReferenceInfo System => new ReferenceInfo("System.dll", Resources.System, Net20.References.System, global::System.Guid.Parse("ae0ee58d-2eb9-4874-9124-adc3b456c262"));
+        public static ReferenceInfo SystemDirectoryServices => new ReferenceInfo("System.DirectoryServices.dll", Resources.SystemDirectoryServices, Net20.References.SystemDirectoryServices, global::System.Guid.Parse("45f02b40-074a-4c3a-8be2-395b6b6c8ddb"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Drawing.Design.dll
@@ -228,11 +208,6 @@ public static partial class Net20
         public static ReferenceInfo SystemTransactions => new ReferenceInfo("System.Transactions.dll", Resources.SystemTransactions, Net20.References.SystemTransactions, global::System.Guid.Parse("3d85bd89-ff68-466f-b254-c23582a2cd2b"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Web.dll
-        /// </summary>
-        public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, Net20.References.SystemWeb, global::System.Guid.Parse("5c9bf923-1bf1-4965-a83e-39497a0aa550"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Web.Mobile.dll
         /// </summary>
         public static ReferenceInfo SystemWebMobile => new ReferenceInfo("System.Web.Mobile.dll", Resources.SystemWebMobile, Net20.References.SystemWebMobile, global::System.Guid.Parse("a682290c-7d3c-463a-b2fb-ac09c82027d2"));
@@ -248,6 +223,11 @@ public static partial class Net20
         public static ReferenceInfo SystemWebServices => new ReferenceInfo("System.Web.Services.dll", Resources.SystemWebServices, Net20.References.SystemWebServices, global::System.Guid.Parse("b8ca874d-9236-4c8f-854d-d5bdb186ce69"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Web.dll
+        /// </summary>
+        public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, Net20.References.SystemWeb, global::System.Guid.Parse("5c9bf923-1bf1-4965-a83e-39497a0aa550"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Windows.Forms.dll
         /// </summary>
         public static ReferenceInfo SystemWindowsForms => new ReferenceInfo("System.Windows.Forms.dll", Resources.SystemWindowsForms, Net20.References.SystemWindowsForms, global::System.Guid.Parse("6f35ac57-7eb4-469d-992c-df19f25598fa"));
@@ -256,6 +236,26 @@ public static partial class Net20
         /// The <see cref="ReferenceInfo"/> for System.Xml.dll
         /// </summary>
         public static ReferenceInfo SystemXml => new ReferenceInfo("System.Xml.dll", Resources.SystemXml, Net20.References.SystemXml, global::System.Guid.Parse("6ff059a9-08a8-4aa4-97c4-d0f6845b508a"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.dll
+        /// </summary>
+        public static ReferenceInfo System => new ReferenceInfo("System.dll", Resources.System, Net20.References.System, global::System.Guid.Parse("ae0ee58d-2eb9-4874-9124-adc3b456c262"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for cscompmgd.dll
+        /// </summary>
+        public static ReferenceInfo cscompmgd => new ReferenceInfo("cscompmgd.dll", Resources.cscompmgd, Net20.References.cscompmgd, global::System.Guid.Parse("dea8ed4d-de6a-4e0d-b2ca-d4ca55b60f59"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for mscorlib.dll
+        /// </summary>
+        public static ReferenceInfo mscorlib => new ReferenceInfo("mscorlib.dll", Resources.mscorlib, Net20.References.mscorlib, global::System.Guid.Parse("c28a86ac-9899-4084-a29d-1009e48b7ad8"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for sysglobl.dll
+        /// </summary>
+        public static ReferenceInfo sysglobl => new ReferenceInfo("sysglobl.dll", Resources.sysglobl, Net20.References.sysglobl, global::System.Guid.Parse("b42493d9-0943-46d3-9f2e-35820ab0dda4"));
         private static ImmutableArray<ReferenceInfo> _all;
         public static ImmutableArray<ReferenceInfo> All
         {
@@ -267,7 +267,6 @@ public static partial class Net20
                     [
                         Accessibility,
                         AspNetMMCExt,
-                        cscompmgd,
                         CustomMarshalers,
                         IEExecRemote,
                         IEHost,
@@ -280,24 +279,21 @@ public static partial class Net20
                         MicrosoftJScript,
                         MicrosoftVisualBasicCompatibilityData,
                         MicrosoftVisualBasicCompatibility,
-                        MicrosoftVisualBasic,
                         MicrosoftVisualBasicVsa,
+                        MicrosoftVisualBasic,
                         MicrosoftVisualC,
-                        MicrosoftVsa,
                         MicrosoftVsaVbCodeDOMProcessor,
+                        MicrosoftVsa,
                         Microsoft_VsaVb,
-                        mscorlib,
-                        sysglobl,
-                        SystemConfiguration,
                         SystemConfigurationInstall,
-                        SystemData,
+                        SystemConfiguration,
                         SystemDataOracleClient,
                         SystemDataSqlXml,
+                        SystemData,
                         SystemDeployment,
                         SystemDesign,
-                        SystemDirectoryServices,
                         SystemDirectoryServicesProtocols,
-                        System,
+                        SystemDirectoryServices,
                         SystemDrawingDesign,
                         SystemDrawing,
                         SystemEnterpriseServices,
@@ -308,12 +304,16 @@ public static partial class Net20
                         SystemSecurity,
                         SystemServiceProcess,
                         SystemTransactions,
-                        SystemWeb,
                         SystemWebMobile,
                         SystemWebRegularExpressions,
                         SystemWebServices,
+                        SystemWeb,
                         SystemWindowsForms,
                         SystemXml,
+                        System,
+                        cscompmgd,
+                        mscorlib,
+                        sysglobl,
                     ];
                 }
                 return _all;
@@ -359,23 +359,6 @@ public static partial class Net20
                     _AspNetMMCExt = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.AspNetMMCExt")).GetReference(filePath: "AspNetMMCExt.dll", display: "AspNetMMCExt (net20)");
                 }
                 return _AspNetMMCExt;
-            }
-        }
-
-        private static PortableExecutableReference? _cscompmgd;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for cscompmgd.dll
-        /// </summary>
-        public static PortableExecutableReference cscompmgd
-        {
-            get
-            {
-                if (_cscompmgd is null)
-                {
-                    _cscompmgd = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.cscompmgd")).GetReference(filePath: "cscompmgd.dll", display: "cscompmgd (net20)");
-                }
-                return _cscompmgd;
             }
         }
 
@@ -583,23 +566,6 @@ public static partial class Net20
             }
         }
 
-        private static PortableExecutableReference? _MicrosoftVisualBasic;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for Microsoft.VisualBasic.dll
-        /// </summary>
-        public static PortableExecutableReference MicrosoftVisualBasic
-        {
-            get
-            {
-                if (_MicrosoftVisualBasic is null)
-                {
-                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net20)");
-                }
-                return _MicrosoftVisualBasic;
-            }
-        }
-
         private static PortableExecutableReference? _MicrosoftVisualBasicVsa;
 
         /// <summary>
@@ -614,6 +580,23 @@ public static partial class Net20
                     _MicrosoftVisualBasicVsa = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.VisualBasic.Vsa")).GetReference(filePath: "Microsoft.VisualBasic.Vsa.dll", display: "Microsoft.VisualBasic.Vsa (net20)");
                 }
                 return _MicrosoftVisualBasicVsa;
+            }
+        }
+
+        private static PortableExecutableReference? _MicrosoftVisualBasic;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for Microsoft.VisualBasic.dll
+        /// </summary>
+        public static PortableExecutableReference MicrosoftVisualBasic
+        {
+            get
+            {
+                if (_MicrosoftVisualBasic is null)
+                {
+                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net20)");
+                }
+                return _MicrosoftVisualBasic;
             }
         }
 
@@ -634,23 +617,6 @@ public static partial class Net20
             }
         }
 
-        private static PortableExecutableReference? _MicrosoftVsa;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for Microsoft.Vsa.dll
-        /// </summary>
-        public static PortableExecutableReference MicrosoftVsa
-        {
-            get
-            {
-                if (_MicrosoftVsa is null)
-                {
-                    _MicrosoftVsa = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.Vsa")).GetReference(filePath: "Microsoft.Vsa.dll", display: "Microsoft.Vsa (net20)");
-                }
-                return _MicrosoftVsa;
-            }
-        }
-
         private static PortableExecutableReference? _MicrosoftVsaVbCodeDOMProcessor;
 
         /// <summary>
@@ -665,6 +631,23 @@ public static partial class Net20
                     _MicrosoftVsaVbCodeDOMProcessor = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.Vsa.Vb.CodeDOMProcessor")).GetReference(filePath: "Microsoft.Vsa.Vb.CodeDOMProcessor.dll", display: "Microsoft.Vsa.Vb.CodeDOMProcessor (net20)");
                 }
                 return _MicrosoftVsaVbCodeDOMProcessor;
+            }
+        }
+
+        private static PortableExecutableReference? _MicrosoftVsa;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for Microsoft.Vsa.dll
+        /// </summary>
+        public static PortableExecutableReference MicrosoftVsa
+        {
+            get
+            {
+                if (_MicrosoftVsa is null)
+                {
+                    _MicrosoftVsa = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.Microsoft.Vsa")).GetReference(filePath: "Microsoft.Vsa.dll", display: "Microsoft.Vsa (net20)");
+                }
+                return _MicrosoftVsa;
             }
         }
 
@@ -685,57 +668,6 @@ public static partial class Net20
             }
         }
 
-        private static PortableExecutableReference? _mscorlib;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for mscorlib.dll
-        /// </summary>
-        public static PortableExecutableReference mscorlib
-        {
-            get
-            {
-                if (_mscorlib is null)
-                {
-                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net20)");
-                }
-                return _mscorlib;
-            }
-        }
-
-        private static PortableExecutableReference? _sysglobl;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for sysglobl.dll
-        /// </summary>
-        public static PortableExecutableReference sysglobl
-        {
-            get
-            {
-                if (_sysglobl is null)
-                {
-                    _sysglobl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.sysglobl")).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net20)");
-                }
-                return _sysglobl;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemConfiguration;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Configuration.dll
-        /// </summary>
-        public static PortableExecutableReference SystemConfiguration
-        {
-            get
-            {
-                if (_SystemConfiguration is null)
-                {
-                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Configuration")).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net20)");
-                }
-                return _SystemConfiguration;
-            }
-        }
-
         private static PortableExecutableReference? _SystemConfigurationInstall;
 
         /// <summary>
@@ -753,20 +685,20 @@ public static partial class Net20
             }
         }
 
-        private static PortableExecutableReference? _SystemData;
+        private static PortableExecutableReference? _SystemConfiguration;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Data.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Configuration.dll
         /// </summary>
-        public static PortableExecutableReference SystemData
+        public static PortableExecutableReference SystemConfiguration
         {
             get
             {
-                if (_SystemData is null)
+                if (_SystemConfiguration is null)
                 {
-                    _SystemData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Data")).GetReference(filePath: "System.Data.dll", display: "System.Data (net20)");
+                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Configuration")).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net20)");
                 }
-                return _SystemData;
+                return _SystemConfiguration;
             }
         }
 
@@ -804,6 +736,23 @@ public static partial class Net20
             }
         }
 
+        private static PortableExecutableReference? _SystemData;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Data.dll
+        /// </summary>
+        public static PortableExecutableReference SystemData
+        {
+            get
+            {
+                if (_SystemData is null)
+                {
+                    _SystemData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Data")).GetReference(filePath: "System.Data.dll", display: "System.Data (net20)");
+                }
+                return _SystemData;
+            }
+        }
+
         private static PortableExecutableReference? _SystemDeployment;
 
         /// <summary>
@@ -838,23 +787,6 @@ public static partial class Net20
             }
         }
 
-        private static PortableExecutableReference? _SystemDirectoryServices;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.DirectoryServices.dll
-        /// </summary>
-        public static PortableExecutableReference SystemDirectoryServices
-        {
-            get
-            {
-                if (_SystemDirectoryServices is null)
-                {
-                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.DirectoryServices")).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net20)");
-                }
-                return _SystemDirectoryServices;
-            }
-        }
-
         private static PortableExecutableReference? _SystemDirectoryServicesProtocols;
 
         /// <summary>
@@ -872,20 +804,20 @@ public static partial class Net20
             }
         }
 
-        private static PortableExecutableReference? _System;
+        private static PortableExecutableReference? _SystemDirectoryServices;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.dll
+        /// The <see cref="PortableExecutableReference"/> for System.DirectoryServices.dll
         /// </summary>
-        public static PortableExecutableReference System
+        public static PortableExecutableReference SystemDirectoryServices
         {
             get
             {
-                if (_System is null)
+                if (_SystemDirectoryServices is null)
                 {
-                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System")).GetReference(filePath: "System.dll", display: "System (net20)");
+                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.DirectoryServices")).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net20)");
                 }
-                return _System;
+                return _SystemDirectoryServices;
             }
         }
 
@@ -1059,23 +991,6 @@ public static partial class Net20
             }
         }
 
-        private static PortableExecutableReference? _SystemWeb;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Web.dll
-        /// </summary>
-        public static PortableExecutableReference SystemWeb
-        {
-            get
-            {
-                if (_SystemWeb is null)
-                {
-                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (net20)");
-                }
-                return _SystemWeb;
-            }
-        }
-
         private static PortableExecutableReference? _SystemWebMobile;
 
         /// <summary>
@@ -1127,6 +1042,23 @@ public static partial class Net20
             }
         }
 
+        private static PortableExecutableReference? _SystemWeb;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Web.dll
+        /// </summary>
+        public static PortableExecutableReference SystemWeb
+        {
+            get
+            {
+                if (_SystemWeb is null)
+                {
+                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (net20)");
+                }
+                return _SystemWeb;
+            }
+        }
+
         private static PortableExecutableReference? _SystemWindowsForms;
 
         /// <summary>
@@ -1161,6 +1093,74 @@ public static partial class Net20
             }
         }
 
+        private static PortableExecutableReference? _System;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.dll
+        /// </summary>
+        public static PortableExecutableReference System
+        {
+            get
+            {
+                if (_System is null)
+                {
+                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.System")).GetReference(filePath: "System.dll", display: "System (net20)");
+                }
+                return _System;
+            }
+        }
+
+        private static PortableExecutableReference? _cscompmgd;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for cscompmgd.dll
+        /// </summary>
+        public static PortableExecutableReference cscompmgd
+        {
+            get
+            {
+                if (_cscompmgd is null)
+                {
+                    _cscompmgd = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.cscompmgd")).GetReference(filePath: "cscompmgd.dll", display: "cscompmgd (net20)");
+                }
+                return _cscompmgd;
+            }
+        }
+
+        private static PortableExecutableReference? _mscorlib;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for mscorlib.dll
+        /// </summary>
+        public static PortableExecutableReference mscorlib
+        {
+            get
+            {
+                if (_mscorlib is null)
+                {
+                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net20)");
+                }
+                return _mscorlib;
+            }
+        }
+
+        private static PortableExecutableReference? _sysglobl;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for sysglobl.dll
+        /// </summary>
+        public static PortableExecutableReference sysglobl
+        {
+            get
+            {
+                if (_sysglobl is null)
+                {
+                    _sysglobl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net20.sysglobl")).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net20)");
+                }
+                return _sysglobl;
+            }
+        }
+
         private static ImmutableArray<PortableExecutableReference> _all;
         public static ImmutableArray<PortableExecutableReference> All
         {
@@ -1172,7 +1172,6 @@ public static partial class Net20
                     [
                         Accessibility,
                         AspNetMMCExt,
-                        cscompmgd,
                         CustomMarshalers,
                         IEExecRemote,
                         IEHost,
@@ -1185,24 +1184,21 @@ public static partial class Net20
                         MicrosoftJScript,
                         MicrosoftVisualBasicCompatibilityData,
                         MicrosoftVisualBasicCompatibility,
-                        MicrosoftVisualBasic,
                         MicrosoftVisualBasicVsa,
+                        MicrosoftVisualBasic,
                         MicrosoftVisualC,
-                        MicrosoftVsa,
                         MicrosoftVsaVbCodeDOMProcessor,
+                        MicrosoftVsa,
                         Microsoft_VsaVb,
-                        mscorlib,
-                        sysglobl,
-                        SystemConfiguration,
                         SystemConfigurationInstall,
-                        SystemData,
+                        SystemConfiguration,
                         SystemDataOracleClient,
                         SystemDataSqlXml,
+                        SystemData,
                         SystemDeployment,
                         SystemDesign,
-                        SystemDirectoryServices,
                         SystemDirectoryServicesProtocols,
-                        System,
+                        SystemDirectoryServices,
                         SystemDrawingDesign,
                         SystemDrawing,
                         SystemEnterpriseServices,
@@ -1213,12 +1209,16 @@ public static partial class Net20
                         SystemSecurity,
                         SystemServiceProcess,
                         SystemTransactions,
-                        SystemWeb,
                         SystemWebMobile,
                         SystemWebRegularExpressions,
                         SystemWebServices,
+                        SystemWeb,
                         SystemWindowsForms,
                         SystemXml,
+                        System,
+                        cscompmgd,
+                        mscorlib,
+                        sysglobl,
                     ];
                 }
                 return _all;
@@ -1242,12 +1242,6 @@ public static partial class Net20
         /// </summary>
         public static byte[] AspNetMMCExt => ResourceLoader.GetOrCreateResource(ref _AspNetMMCExt, "net20.AspNetMMCExt");
         private static byte[]? _AspNetMMCExt;
-
-        /// <summary>
-        /// The image bytes for cscompmgd.dll
-        /// </summary>
-        public static byte[] cscompmgd => ResourceLoader.GetOrCreateResource(ref _cscompmgd, "net20.cscompmgd");
-        private static byte[]? _cscompmgd;
 
         /// <summary>
         /// The image bytes for CustomMarshalers.dll
@@ -1322,16 +1316,16 @@ public static partial class Net20
         private static byte[]? _MicrosoftVisualBasicCompatibility;
 
         /// <summary>
-        /// The image bytes for Microsoft.VisualBasic.dll
-        /// </summary>
-        public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "net20.Microsoft.VisualBasic");
-        private static byte[]? _MicrosoftVisualBasic;
-
-        /// <summary>
         /// The image bytes for Microsoft.VisualBasic.Vsa.dll
         /// </summary>
         public static byte[] MicrosoftVisualBasicVsa => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicVsa, "net20.Microsoft.VisualBasic.Vsa");
         private static byte[]? _MicrosoftVisualBasicVsa;
+
+        /// <summary>
+        /// The image bytes for Microsoft.VisualBasic.dll
+        /// </summary>
+        public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "net20.Microsoft.VisualBasic");
+        private static byte[]? _MicrosoftVisualBasic;
 
         /// <summary>
         /// The image bytes for Microsoft.VisualC.dll
@@ -1340,16 +1334,16 @@ public static partial class Net20
         private static byte[]? _MicrosoftVisualC;
 
         /// <summary>
-        /// The image bytes for Microsoft.Vsa.dll
-        /// </summary>
-        public static byte[] MicrosoftVsa => ResourceLoader.GetOrCreateResource(ref _MicrosoftVsa, "net20.Microsoft.Vsa");
-        private static byte[]? _MicrosoftVsa;
-
-        /// <summary>
         /// The image bytes for Microsoft.Vsa.Vb.CodeDOMProcessor.dll
         /// </summary>
         public static byte[] MicrosoftVsaVbCodeDOMProcessor => ResourceLoader.GetOrCreateResource(ref _MicrosoftVsaVbCodeDOMProcessor, "net20.Microsoft.Vsa.Vb.CodeDOMProcessor");
         private static byte[]? _MicrosoftVsaVbCodeDOMProcessor;
+
+        /// <summary>
+        /// The image bytes for Microsoft.Vsa.dll
+        /// </summary>
+        public static byte[] MicrosoftVsa => ResourceLoader.GetOrCreateResource(ref _MicrosoftVsa, "net20.Microsoft.Vsa");
+        private static byte[]? _MicrosoftVsa;
 
         /// <summary>
         /// The image bytes for Microsoft_VsaVb.dll
@@ -1358,34 +1352,16 @@ public static partial class Net20
         private static byte[]? _Microsoft_VsaVb;
 
         /// <summary>
-        /// The image bytes for mscorlib.dll
-        /// </summary>
-        public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "net20.mscorlib");
-        private static byte[]? _mscorlib;
-
-        /// <summary>
-        /// The image bytes for sysglobl.dll
-        /// </summary>
-        public static byte[] sysglobl => ResourceLoader.GetOrCreateResource(ref _sysglobl, "net20.sysglobl");
-        private static byte[]? _sysglobl;
-
-        /// <summary>
-        /// The image bytes for System.Configuration.dll
-        /// </summary>
-        public static byte[] SystemConfiguration => ResourceLoader.GetOrCreateResource(ref _SystemConfiguration, "net20.System.Configuration");
-        private static byte[]? _SystemConfiguration;
-
-        /// <summary>
         /// The image bytes for System.Configuration.Install.dll
         /// </summary>
         public static byte[] SystemConfigurationInstall => ResourceLoader.GetOrCreateResource(ref _SystemConfigurationInstall, "net20.System.Configuration.Install");
         private static byte[]? _SystemConfigurationInstall;
 
         /// <summary>
-        /// The image bytes for System.Data.dll
+        /// The image bytes for System.Configuration.dll
         /// </summary>
-        public static byte[] SystemData => ResourceLoader.GetOrCreateResource(ref _SystemData, "net20.System.Data");
-        private static byte[]? _SystemData;
+        public static byte[] SystemConfiguration => ResourceLoader.GetOrCreateResource(ref _SystemConfiguration, "net20.System.Configuration");
+        private static byte[]? _SystemConfiguration;
 
         /// <summary>
         /// The image bytes for System.Data.OracleClient.dll
@@ -1400,6 +1376,12 @@ public static partial class Net20
         private static byte[]? _SystemDataSqlXml;
 
         /// <summary>
+        /// The image bytes for System.Data.dll
+        /// </summary>
+        public static byte[] SystemData => ResourceLoader.GetOrCreateResource(ref _SystemData, "net20.System.Data");
+        private static byte[]? _SystemData;
+
+        /// <summary>
         /// The image bytes for System.Deployment.dll
         /// </summary>
         public static byte[] SystemDeployment => ResourceLoader.GetOrCreateResource(ref _SystemDeployment, "net20.System.Deployment");
@@ -1412,22 +1394,16 @@ public static partial class Net20
         private static byte[]? _SystemDesign;
 
         /// <summary>
-        /// The image bytes for System.DirectoryServices.dll
-        /// </summary>
-        public static byte[] SystemDirectoryServices => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServices, "net20.System.DirectoryServices");
-        private static byte[]? _SystemDirectoryServices;
-
-        /// <summary>
         /// The image bytes for System.DirectoryServices.Protocols.dll
         /// </summary>
         public static byte[] SystemDirectoryServicesProtocols => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServicesProtocols, "net20.System.DirectoryServices.Protocols");
         private static byte[]? _SystemDirectoryServicesProtocols;
 
         /// <summary>
-        /// The image bytes for System.dll
+        /// The image bytes for System.DirectoryServices.dll
         /// </summary>
-        public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "net20.System");
-        private static byte[]? _System;
+        public static byte[] SystemDirectoryServices => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServices, "net20.System.DirectoryServices");
+        private static byte[]? _SystemDirectoryServices;
 
         /// <summary>
         /// The image bytes for System.Drawing.Design.dll
@@ -1490,12 +1466,6 @@ public static partial class Net20
         private static byte[]? _SystemTransactions;
 
         /// <summary>
-        /// The image bytes for System.Web.dll
-        /// </summary>
-        public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "net20.System.Web");
-        private static byte[]? _SystemWeb;
-
-        /// <summary>
         /// The image bytes for System.Web.Mobile.dll
         /// </summary>
         public static byte[] SystemWebMobile => ResourceLoader.GetOrCreateResource(ref _SystemWebMobile, "net20.System.Web.Mobile");
@@ -1514,6 +1484,12 @@ public static partial class Net20
         private static byte[]? _SystemWebServices;
 
         /// <summary>
+        /// The image bytes for System.Web.dll
+        /// </summary>
+        public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "net20.System.Web");
+        private static byte[]? _SystemWeb;
+
+        /// <summary>
         /// The image bytes for System.Windows.Forms.dll
         /// </summary>
         public static byte[] SystemWindowsForms => ResourceLoader.GetOrCreateResource(ref _SystemWindowsForms, "net20.System.Windows.Forms");
@@ -1524,6 +1500,30 @@ public static partial class Net20
         /// </summary>
         public static byte[] SystemXml => ResourceLoader.GetOrCreateResource(ref _SystemXml, "net20.System.Xml");
         private static byte[]? _SystemXml;
+
+        /// <summary>
+        /// The image bytes for System.dll
+        /// </summary>
+        public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "net20.System");
+        private static byte[]? _System;
+
+        /// <summary>
+        /// The image bytes for cscompmgd.dll
+        /// </summary>
+        public static byte[] cscompmgd => ResourceLoader.GetOrCreateResource(ref _cscompmgd, "net20.cscompmgd");
+        private static byte[]? _cscompmgd;
+
+        /// <summary>
+        /// The image bytes for mscorlib.dll
+        /// </summary>
+        public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "net20.mscorlib");
+        private static byte[]? _mscorlib;
+
+        /// <summary>
+        /// The image bytes for sysglobl.dll
+        /// </summary>
+        public static byte[] sysglobl => ResourceLoader.GetOrCreateResource(ref _sysglobl, "net20.sysglobl");
+        private static byte[]? _sysglobl;
 
 
     }

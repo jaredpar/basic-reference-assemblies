@@ -33,16 +33,6 @@ public static partial class NetCoreApp31
         public static ReferenceInfo MicrosoftWin32Primitives => new ReferenceInfo("Microsoft.Win32.Primitives.dll", Resources.MicrosoftWin32Primitives, NetCoreApp31.References.MicrosoftWin32Primitives, global::System.Guid.Parse("c0bff24e-6c4a-4f09-b7ff-e0f74d944f12"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for mscorlib.dll
-        /// </summary>
-        public static ReferenceInfo mscorlib => new ReferenceInfo("mscorlib.dll", Resources.mscorlib, NetCoreApp31.References.mscorlib, global::System.Guid.Parse("04c625d2-7b3b-4dfc-9ed8-666de09d068a"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for netstandard.dll
-        /// </summary>
-        public static ReferenceInfo netstandard => new ReferenceInfo("netstandard.dll", Resources.netstandard, NetCoreApp31.References.netstandard, global::System.Guid.Parse("f5657313-4617-421e-b939-be06b8737d9c"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.AppContext.dll
         /// </summary>
         public static ReferenceInfo SystemAppContext => new ReferenceInfo("System.AppContext.dll", Resources.SystemAppContext, NetCoreApp31.References.SystemAppContext, global::System.Guid.Parse("3e952934-46d4-4220-91fe-428b080423db"));
@@ -56,11 +46,6 @@ public static partial class NetCoreApp31
         /// The <see cref="ReferenceInfo"/> for System.Collections.Concurrent.dll
         /// </summary>
         public static ReferenceInfo SystemCollectionsConcurrent => new ReferenceInfo("System.Collections.Concurrent.dll", Resources.SystemCollectionsConcurrent, NetCoreApp31.References.SystemCollectionsConcurrent, global::System.Guid.Parse("f305d295-6eb5-4d9d-8504-9289600fc33d"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Collections.dll
-        /// </summary>
-        public static ReferenceInfo SystemCollections => new ReferenceInfo("System.Collections.dll", Resources.SystemCollections, NetCoreApp31.References.SystemCollections, global::System.Guid.Parse("623ad323-590b-41e0-b4a1-ccb8f3313607"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Collections.Immutable.dll
@@ -78,6 +63,11 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemCollectionsSpecialized => new ReferenceInfo("System.Collections.Specialized.dll", Resources.SystemCollectionsSpecialized, NetCoreApp31.References.SystemCollectionsSpecialized, global::System.Guid.Parse("7976bb55-530b-41c8-a623-3a9b4b36e0a5"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Collections.dll
+        /// </summary>
+        public static ReferenceInfo SystemCollections => new ReferenceInfo("System.Collections.dll", Resources.SystemCollections, NetCoreApp31.References.SystemCollections, global::System.Guid.Parse("623ad323-590b-41e0-b4a1-ccb8f3313607"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.Annotations.dll
         /// </summary>
         public static ReferenceInfo SystemComponentModelAnnotations => new ReferenceInfo("System.ComponentModel.Annotations.dll", Resources.SystemComponentModelAnnotations, NetCoreApp31.References.SystemComponentModelAnnotations, global::System.Guid.Parse("ec5df661-6214-42f0-aaea-3c48cc6bdb12"));
@@ -86,11 +76,6 @@ public static partial class NetCoreApp31
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.DataAnnotations.dll
         /// </summary>
         public static ReferenceInfo SystemComponentModelDataAnnotations => new ReferenceInfo("System.ComponentModel.DataAnnotations.dll", Resources.SystemComponentModelDataAnnotations, NetCoreApp31.References.SystemComponentModelDataAnnotations, global::System.Guid.Parse("ce31cb76-5594-4f47-a627-02471edeeb77"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.ComponentModel.dll
-        /// </summary>
-        public static ReferenceInfo SystemComponentModel => new ReferenceInfo("System.ComponentModel.dll", Resources.SystemComponentModel, NetCoreApp31.References.SystemComponentModel, global::System.Guid.Parse("95710035-0394-41ea-bc64-c886e87de08c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.EventBasedAsync.dll
@@ -106,6 +91,11 @@ public static partial class NetCoreApp31
         /// The <see cref="ReferenceInfo"/> for System.ComponentModel.TypeConverter.dll
         /// </summary>
         public static ReferenceInfo SystemComponentModelTypeConverter => new ReferenceInfo("System.ComponentModel.TypeConverter.dll", Resources.SystemComponentModelTypeConverter, NetCoreApp31.References.SystemComponentModelTypeConverter, global::System.Guid.Parse("22701207-8a36-40cb-8bdf-80f6c523d338"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.ComponentModel.dll
+        /// </summary>
+        public static ReferenceInfo SystemComponentModel => new ReferenceInfo("System.ComponentModel.dll", Resources.SystemComponentModel, NetCoreApp31.References.SystemComponentModel, global::System.Guid.Parse("95710035-0394-41ea-bc64-c886e87de08c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Configuration.dll
@@ -188,19 +178,14 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemDiagnosticsTracing => new ReferenceInfo("System.Diagnostics.Tracing.dll", Resources.SystemDiagnosticsTracing, NetCoreApp31.References.SystemDiagnosticsTracing, global::System.Guid.Parse("807a4592-2aeb-4ac4-b0f2-878b5e36c26f"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.dll
+        /// The <see cref="ReferenceInfo"/> for System.Drawing.Primitives.dll
         /// </summary>
-        public static ReferenceInfo System => new ReferenceInfo("System.dll", Resources.System, NetCoreApp31.References.System, global::System.Guid.Parse("820b8e78-5b12-475d-a6b5-8d555c72249f"));
+        public static ReferenceInfo SystemDrawingPrimitives => new ReferenceInfo("System.Drawing.Primitives.dll", Resources.SystemDrawingPrimitives, NetCoreApp31.References.SystemDrawingPrimitives, global::System.Guid.Parse("b60a8a05-4410-469c-be85-7a8d0e8ba0a3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Drawing.dll
         /// </summary>
         public static ReferenceInfo SystemDrawing => new ReferenceInfo("System.Drawing.dll", Resources.SystemDrawing, NetCoreApp31.References.SystemDrawing, global::System.Guid.Parse("44c719ea-e3f8-49f4-a744-b218a363b2a6"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Drawing.Primitives.dll
-        /// </summary>
-        public static ReferenceInfo SystemDrawingPrimitives => new ReferenceInfo("System.Drawing.Primitives.dll", Resources.SystemDrawingPrimitives, NetCoreApp31.References.SystemDrawingPrimitives, global::System.Guid.Parse("b60a8a05-4410-469c-be85-7a8d0e8ba0a3"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Dynamic.Runtime.dll
@@ -213,24 +198,19 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemGlobalizationCalendars => new ReferenceInfo("System.Globalization.Calendars.dll", Resources.SystemGlobalizationCalendars, NetCoreApp31.References.SystemGlobalizationCalendars, global::System.Guid.Parse("bd71965a-dfde-404e-9725-afefe2774300"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Globalization.dll
-        /// </summary>
-        public static ReferenceInfo SystemGlobalization => new ReferenceInfo("System.Globalization.dll", Resources.SystemGlobalization, NetCoreApp31.References.SystemGlobalization, global::System.Guid.Parse("70d1059c-18da-47b1-852b-adee7a24e20f"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Globalization.Extensions.dll
         /// </summary>
         public static ReferenceInfo SystemGlobalizationExtensions => new ReferenceInfo("System.Globalization.Extensions.dll", Resources.SystemGlobalizationExtensions, NetCoreApp31.References.SystemGlobalizationExtensions, global::System.Guid.Parse("7b93b7cf-87f0-44b5-a4d6-b57472c4a090"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Globalization.dll
+        /// </summary>
+        public static ReferenceInfo SystemGlobalization => new ReferenceInfo("System.Globalization.dll", Resources.SystemGlobalization, NetCoreApp31.References.SystemGlobalization, global::System.Guid.Parse("70d1059c-18da-47b1-852b-adee7a24e20f"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Compression.Brotli.dll
         /// </summary>
         public static ReferenceInfo SystemIOCompressionBrotli => new ReferenceInfo("System.IO.Compression.Brotli.dll", Resources.SystemIOCompressionBrotli, NetCoreApp31.References.SystemIOCompressionBrotli, global::System.Guid.Parse("ad7a1575-619b-4b9c-b0c2-09307f191bc0"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.Compression.dll
-        /// </summary>
-        public static ReferenceInfo SystemIOCompression => new ReferenceInfo("System.IO.Compression.dll", Resources.SystemIOCompression, NetCoreApp31.References.SystemIOCompression, global::System.Guid.Parse("55b32970-2d34-4e80-9351-63d586fbce7f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.Compression.FileSystem.dll
@@ -243,14 +223,9 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemIOCompressionZipFile => new ReferenceInfo("System.IO.Compression.ZipFile.dll", Resources.SystemIOCompressionZipFile, NetCoreApp31.References.SystemIOCompressionZipFile, global::System.Guid.Parse("05a93404-403f-4c09-b16b-9f7ee129f647"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.dll
+        /// The <see cref="ReferenceInfo"/> for System.IO.Compression.dll
         /// </summary>
-        public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO, NetCoreApp31.References.SystemIO, global::System.Guid.Parse("2977b54b-6a9f-48c3-a753-d43d9ff8f6c5"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.dll
-        /// </summary>
-        public static ReferenceInfo SystemIOFileSystem => new ReferenceInfo("System.IO.FileSystem.dll", Resources.SystemIOFileSystem, NetCoreApp31.References.SystemIOFileSystem, global::System.Guid.Parse("024801c1-5b92-409b-8fa4-2fa2fbdf04a9"));
+        public static ReferenceInfo SystemIOCompression => new ReferenceInfo("System.IO.Compression.dll", Resources.SystemIOCompression, NetCoreApp31.References.SystemIOCompression, global::System.Guid.Parse("55b32970-2d34-4e80-9351-63d586fbce7f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.DriveInfo.dll
@@ -266,6 +241,11 @@ public static partial class NetCoreApp31
         /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.Watcher.dll
         /// </summary>
         public static ReferenceInfo SystemIOFileSystemWatcher => new ReferenceInfo("System.IO.FileSystem.Watcher.dll", Resources.SystemIOFileSystemWatcher, NetCoreApp31.References.SystemIOFileSystemWatcher, global::System.Guid.Parse("d7e3c36e-2845-4d74-8ddb-2cb18dc59c44"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.IO.FileSystem.dll
+        /// </summary>
+        public static ReferenceInfo SystemIOFileSystem => new ReferenceInfo("System.IO.FileSystem.dll", Resources.SystemIOFileSystem, NetCoreApp31.References.SystemIOFileSystem, global::System.Guid.Parse("024801c1-5b92-409b-8fa4-2fa2fbdf04a9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IO.IsolatedStorage.dll
@@ -288,9 +268,9 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemIOUnmanagedMemoryStream => new ReferenceInfo("System.IO.UnmanagedMemoryStream.dll", Resources.SystemIOUnmanagedMemoryStream, NetCoreApp31.References.SystemIOUnmanagedMemoryStream, global::System.Guid.Parse("a66bfb2e-8940-4abc-9cf1-cbbce2cfca40"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Linq.dll
+        /// The <see cref="ReferenceInfo"/> for System.IO.dll
         /// </summary>
-        public static ReferenceInfo SystemLinq => new ReferenceInfo("System.Linq.dll", Resources.SystemLinq, NetCoreApp31.References.SystemLinq, global::System.Guid.Parse("95d243c5-2044-4a19-8315-833738f9b02c"));
+        public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO, NetCoreApp31.References.SystemIO, global::System.Guid.Parse("2977b54b-6a9f-48c3-a753-d43d9ff8f6c5"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Linq.Expressions.dll
@@ -308,14 +288,14 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemLinqQueryable => new ReferenceInfo("System.Linq.Queryable.dll", Resources.SystemLinqQueryable, NetCoreApp31.References.SystemLinqQueryable, global::System.Guid.Parse("105535ff-664d-4668-93d4-d26497df8ba2"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Linq.dll
+        /// </summary>
+        public static ReferenceInfo SystemLinq => new ReferenceInfo("System.Linq.dll", Resources.SystemLinq, NetCoreApp31.References.SystemLinq, global::System.Guid.Parse("95d243c5-2044-4a19-8315-833738f9b02c"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Memory.dll
         /// </summary>
         public static ReferenceInfo SystemMemory => new ReferenceInfo("System.Memory.dll", Resources.SystemMemory, NetCoreApp31.References.SystemMemory, global::System.Guid.Parse("d8349761-3957-40af-a655-2fd86fa11e57"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Net.dll
-        /// </summary>
-        public static ReferenceInfo SystemNet => new ReferenceInfo("System.Net.dll", Resources.SystemNet, NetCoreApp31.References.SystemNet, global::System.Guid.Parse("9f17903e-758e-4b88-8682-ab1373c216ef"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Net.Http.dll
@@ -398,14 +378,19 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemNetWebSockets => new ReferenceInfo("System.Net.WebSockets.dll", Resources.SystemNetWebSockets, NetCoreApp31.References.SystemNetWebSockets, global::System.Guid.Parse("9cb4cf7d-32f5-4cf8-b7f4-aaddc666b803"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Numerics.dll
+        /// The <see cref="ReferenceInfo"/> for System.Net.dll
         /// </summary>
-        public static ReferenceInfo SystemNumerics => new ReferenceInfo("System.Numerics.dll", Resources.SystemNumerics, NetCoreApp31.References.SystemNumerics, global::System.Guid.Parse("d823eafd-08a6-485a-b40c-4d4d7722d6d9"));
+        public static ReferenceInfo SystemNet => new ReferenceInfo("System.Net.dll", Resources.SystemNet, NetCoreApp31.References.SystemNet, global::System.Guid.Parse("9f17903e-758e-4b88-8682-ab1373c216ef"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Numerics.Vectors.dll
         /// </summary>
         public static ReferenceInfo SystemNumericsVectors => new ReferenceInfo("System.Numerics.Vectors.dll", Resources.SystemNumericsVectors, NetCoreApp31.References.SystemNumericsVectors, global::System.Guid.Parse("e7bb2acd-e6b7-41c6-bbdb-5f1b098bdb2e"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Numerics.dll
+        /// </summary>
+        public static ReferenceInfo SystemNumerics => new ReferenceInfo("System.Numerics.dll", Resources.SystemNumerics, NetCoreApp31.References.SystemNumerics, global::System.Guid.Parse("d823eafd-08a6-485a-b40c-4d4d7722d6d9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ObjectModel.dll
@@ -418,16 +403,6 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemReflectionDispatchProxy => new ReferenceInfo("System.Reflection.DispatchProxy.dll", Resources.SystemReflectionDispatchProxy, NetCoreApp31.References.SystemReflectionDispatchProxy, global::System.Guid.Parse("70be1e48-ba86-4bc5-a3a9-fd0f58439db5"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Reflection.dll
-        /// </summary>
-        public static ReferenceInfo SystemReflection => new ReferenceInfo("System.Reflection.dll", Resources.SystemReflection, NetCoreApp31.References.SystemReflection, global::System.Guid.Parse("a83e1916-3e72-46f2-beb1-ed35f99af398"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.dll
-        /// </summary>
-        public static ReferenceInfo SystemReflectionEmit => new ReferenceInfo("System.Reflection.Emit.dll", Resources.SystemReflectionEmit, NetCoreApp31.References.SystemReflectionEmit, global::System.Guid.Parse("a34c8723-2678-40c3-a101-05ea8527f529"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.ILGeneration.dll
         /// </summary>
         public static ReferenceInfo SystemReflectionEmitILGeneration => new ReferenceInfo("System.Reflection.Emit.ILGeneration.dll", Resources.SystemReflectionEmitILGeneration, NetCoreApp31.References.SystemReflectionEmitILGeneration, global::System.Guid.Parse("3ab3643c-c73d-46d2-b835-3a134f35eb01"));
@@ -436,6 +411,11 @@ public static partial class NetCoreApp31
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.Lightweight.dll
         /// </summary>
         public static ReferenceInfo SystemReflectionEmitLightweight => new ReferenceInfo("System.Reflection.Emit.Lightweight.dll", Resources.SystemReflectionEmitLightweight, NetCoreApp31.References.SystemReflectionEmitLightweight, global::System.Guid.Parse("4b4792a9-c505-4fc5-b5bc-a9a9da58dd41"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Reflection.Emit.dll
+        /// </summary>
+        public static ReferenceInfo SystemReflectionEmit => new ReferenceInfo("System.Reflection.Emit.dll", Resources.SystemReflectionEmit, NetCoreApp31.References.SystemReflectionEmit, global::System.Guid.Parse("a34c8723-2678-40c3-a101-05ea8527f529"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Reflection.Extensions.dll
@@ -456,6 +436,11 @@ public static partial class NetCoreApp31
         /// The <see cref="ReferenceInfo"/> for System.Reflection.TypeExtensions.dll
         /// </summary>
         public static ReferenceInfo SystemReflectionTypeExtensions => new ReferenceInfo("System.Reflection.TypeExtensions.dll", Resources.SystemReflectionTypeExtensions, NetCoreApp31.References.SystemReflectionTypeExtensions, global::System.Guid.Parse("30c1f7ac-130a-485a-af68-6d07825ed74a"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Reflection.dll
+        /// </summary>
+        public static ReferenceInfo SystemReflection => new ReferenceInfo("System.Reflection.dll", Resources.SystemReflection, NetCoreApp31.References.SystemReflection, global::System.Guid.Parse("a83e1916-3e72-46f2-beb1-ed35f99af398"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Resources.Reader.dll
@@ -483,11 +468,6 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemRuntimeCompilerServicesVisualC => new ReferenceInfo("System.Runtime.CompilerServices.VisualC.dll", Resources.SystemRuntimeCompilerServicesVisualC, NetCoreApp31.References.SystemRuntimeCompilerServicesVisualC, global::System.Guid.Parse("71a19984-d7c2-4ad7-b429-12af04e908eb"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.dll
-        /// </summary>
-        public static ReferenceInfo SystemRuntime => new ReferenceInfo("System.Runtime.dll", Resources.SystemRuntime, NetCoreApp31.References.SystemRuntime, global::System.Guid.Parse("869e6c21-96fe-460f-9b92-1c6d00df784b"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Extensions.dll
         /// </summary>
         public static ReferenceInfo SystemRuntimeExtensions => new ReferenceInfo("System.Runtime.Extensions.dll", Resources.SystemRuntimeExtensions, NetCoreApp31.References.SystemRuntimeExtensions, global::System.Guid.Parse("baf1c499-a2f8-458a-b9bd-7154e51a6dcf"));
@@ -498,11 +478,6 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemRuntimeHandles => new ReferenceInfo("System.Runtime.Handles.dll", Resources.SystemRuntimeHandles, NetCoreApp31.References.SystemRuntimeHandles, global::System.Guid.Parse("bf94f092-822c-49c6-8619-56a0439154d8"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.dll
-        /// </summary>
-        public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices, NetCoreApp31.References.SystemRuntimeInteropServices, global::System.Guid.Parse("ca070483-a1ff-4f0f-858a-80b0b68fdb08"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.RuntimeInformation.dll
         /// </summary>
         public static ReferenceInfo SystemRuntimeInteropServicesRuntimeInformation => new ReferenceInfo("System.Runtime.InteropServices.RuntimeInformation.dll", Resources.SystemRuntimeInteropServicesRuntimeInformation, NetCoreApp31.References.SystemRuntimeInteropServicesRuntimeInformation, global::System.Guid.Parse("545ef8d6-8360-4893-a30c-171507b1e2c7"));
@@ -511,6 +486,11 @@ public static partial class NetCoreApp31
         /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.WindowsRuntime.dll
         /// </summary>
         public static ReferenceInfo SystemRuntimeInteropServicesWindowsRuntime => new ReferenceInfo("System.Runtime.InteropServices.WindowsRuntime.dll", Resources.SystemRuntimeInteropServicesWindowsRuntime, NetCoreApp31.References.SystemRuntimeInteropServicesWindowsRuntime, global::System.Guid.Parse("89cdfbea-37dc-41b4-a93e-0a71d52cdb96"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.dll
+        /// </summary>
+        public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices, NetCoreApp31.References.SystemRuntimeInteropServices, global::System.Guid.Parse("ca070483-a1ff-4f0f-858a-80b0b68fdb08"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Intrinsics.dll
@@ -526,11 +506,6 @@ public static partial class NetCoreApp31
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Numerics.dll
         /// </summary>
         public static ReferenceInfo SystemRuntimeNumerics => new ReferenceInfo("System.Runtime.Numerics.dll", Resources.SystemRuntimeNumerics, NetCoreApp31.References.SystemRuntimeNumerics, global::System.Guid.Parse("8896733e-b989-4b4e-ae8c-d1cd3a4e05ee"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.dll
-        /// </summary>
-        public static ReferenceInfo SystemRuntimeSerialization => new ReferenceInfo("System.Runtime.Serialization.dll", Resources.SystemRuntimeSerialization, NetCoreApp31.References.SystemRuntimeSerialization, global::System.Guid.Parse("7469f97a-cad3-4fc8-8db5-f04fa4ada513"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Formatters.dll
@@ -551,6 +526,16 @@ public static partial class NetCoreApp31
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Xml.dll
         /// </summary>
         public static ReferenceInfo SystemRuntimeSerializationXml => new ReferenceInfo("System.Runtime.Serialization.Xml.dll", Resources.SystemRuntimeSerializationXml, NetCoreApp31.References.SystemRuntimeSerializationXml, global::System.Guid.Parse("8e539313-762f-41f8-9f20-9836027e9747"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.dll
+        /// </summary>
+        public static ReferenceInfo SystemRuntimeSerialization => new ReferenceInfo("System.Runtime.Serialization.dll", Resources.SystemRuntimeSerialization, NetCoreApp31.References.SystemRuntimeSerialization, global::System.Guid.Parse("7469f97a-cad3-4fc8-8db5-f04fa4ada513"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Runtime.dll
+        /// </summary>
+        public static ReferenceInfo SystemRuntime => new ReferenceInfo("System.Runtime.dll", Resources.SystemRuntime, NetCoreApp31.References.SystemRuntime, global::System.Guid.Parse("869e6c21-96fe-460f-9b92-1c6d00df784b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Claims.dll
@@ -583,11 +568,6 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemSecurityCryptographyX509Certificates => new ReferenceInfo("System.Security.Cryptography.X509Certificates.dll", Resources.SystemSecurityCryptographyX509Certificates, NetCoreApp31.References.SystemSecurityCryptographyX509Certificates, global::System.Guid.Parse("e6130f86-8511-4a3b-bff8-c8db8c56d94a"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Security.dll
-        /// </summary>
-        public static ReferenceInfo SystemSecurity => new ReferenceInfo("System.Security.dll", Resources.SystemSecurity, NetCoreApp31.References.SystemSecurity, global::System.Guid.Parse("e14a6d46-004a-4bd6-b0b2-f18fe1269e7c"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.Principal.dll
         /// </summary>
         public static ReferenceInfo SystemSecurityPrincipal => new ReferenceInfo("System.Security.Principal.dll", Resources.SystemSecurityPrincipal, NetCoreApp31.References.SystemSecurityPrincipal, global::System.Guid.Parse("55e83b69-389d-4ab8-8673-fdcfa8fb59b7"));
@@ -596,6 +576,11 @@ public static partial class NetCoreApp31
         /// The <see cref="ReferenceInfo"/> for System.Security.SecureString.dll
         /// </summary>
         public static ReferenceInfo SystemSecuritySecureString => new ReferenceInfo("System.Security.SecureString.dll", Resources.SystemSecuritySecureString, NetCoreApp31.References.SystemSecuritySecureString, global::System.Guid.Parse("229302de-df9a-44ff-b527-4a1faa34d5ef"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Security.dll
+        /// </summary>
+        public static ReferenceInfo SystemSecurity => new ReferenceInfo("System.Security.dll", Resources.SystemSecurity, NetCoreApp31.References.SystemSecurity, global::System.Guid.Parse("e14a6d46-004a-4bd6-b0b2-f18fe1269e7c"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ServiceModel.Web.dll
@@ -613,14 +598,14 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemTextEncodingCodePages => new ReferenceInfo("System.Text.Encoding.CodePages.dll", Resources.SystemTextEncodingCodePages, NetCoreApp31.References.SystemTextEncodingCodePages, global::System.Guid.Parse("62cff8a4-bff8-4c89-995d-50e000970f65"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.dll
-        /// </summary>
-        public static ReferenceInfo SystemTextEncoding => new ReferenceInfo("System.Text.Encoding.dll", Resources.SystemTextEncoding, NetCoreApp31.References.SystemTextEncoding, global::System.Guid.Parse("0c1f1f1e-5db6-42b6-b72e-106da44c49b7"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.Extensions.dll
         /// </summary>
         public static ReferenceInfo SystemTextEncodingExtensions => new ReferenceInfo("System.Text.Encoding.Extensions.dll", Resources.SystemTextEncodingExtensions, NetCoreApp31.References.SystemTextEncodingExtensions, global::System.Guid.Parse("4fad8d4f-b30f-4383-abc9-3868af86d10e"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.dll
+        /// </summary>
+        public static ReferenceInfo SystemTextEncoding => new ReferenceInfo("System.Text.Encoding.dll", Resources.SystemTextEncoding, NetCoreApp31.References.SystemTextEncoding, global::System.Guid.Parse("0c1f1f1e-5db6-42b6-b72e-106da44c49b7"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Text.Encodings.Web.dll
@@ -643,11 +628,6 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemThreadingChannels => new ReferenceInfo("System.Threading.Channels.dll", Resources.SystemThreadingChannels, NetCoreApp31.References.SystemThreadingChannels, global::System.Guid.Parse("c765c8c1-cff1-439e-8e7a-5da40fe5f67b"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Threading.dll
-        /// </summary>
-        public static ReferenceInfo SystemThreading => new ReferenceInfo("System.Threading.dll", Resources.SystemThreading, NetCoreApp31.References.SystemThreading, global::System.Guid.Parse("42351f39-3805-45fc-aef8-57ef85333b89"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Overlapped.dll
         /// </summary>
         public static ReferenceInfo SystemThreadingOverlapped => new ReferenceInfo("System.Threading.Overlapped.dll", Resources.SystemThreadingOverlapped, NetCoreApp31.References.SystemThreadingOverlapped, global::System.Guid.Parse("82316cc0-6664-427a-b40b-f1c91d38f7b7"));
@@ -658,11 +638,6 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemThreadingTasksDataflow => new ReferenceInfo("System.Threading.Tasks.Dataflow.dll", Resources.SystemThreadingTasksDataflow, NetCoreApp31.References.SystemThreadingTasksDataflow, global::System.Guid.Parse("aeaa3106-e377-4a2f-90c2-e2aaceeb2ebd"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.dll
-        /// </summary>
-        public static ReferenceInfo SystemThreadingTasks => new ReferenceInfo("System.Threading.Tasks.dll", Resources.SystemThreadingTasks, NetCoreApp31.References.SystemThreadingTasks, global::System.Guid.Parse("19f6e191-c870-4e51-934d-283fad908c97"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Extensions.dll
         /// </summary>
         public static ReferenceInfo SystemThreadingTasksExtensions => new ReferenceInfo("System.Threading.Tasks.Extensions.dll", Resources.SystemThreadingTasksExtensions, NetCoreApp31.References.SystemThreadingTasksExtensions, global::System.Guid.Parse("9b7bd34b-870e-4682-9179-4486beb805ca"));
@@ -671,6 +646,11 @@ public static partial class NetCoreApp31
         /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Parallel.dll
         /// </summary>
         public static ReferenceInfo SystemThreadingTasksParallel => new ReferenceInfo("System.Threading.Tasks.Parallel.dll", Resources.SystemThreadingTasksParallel, NetCoreApp31.References.SystemThreadingTasksParallel, global::System.Guid.Parse("46872872-9592-47df-a2ab-a37f32f3b9c2"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.dll
+        /// </summary>
+        public static ReferenceInfo SystemThreadingTasks => new ReferenceInfo("System.Threading.Tasks.dll", Resources.SystemThreadingTasks, NetCoreApp31.References.SystemThreadingTasks, global::System.Guid.Parse("19f6e191-c870-4e51-934d-283fad908c97"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Thread.dll
@@ -688,9 +668,9 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemThreadingTimer => new ReferenceInfo("System.Threading.Timer.dll", Resources.SystemThreadingTimer, NetCoreApp31.References.SystemThreadingTimer, global::System.Guid.Parse("5d61f44e-7fd6-4111-9029-a78bd3c76cad"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Transactions.dll
+        /// The <see cref="ReferenceInfo"/> for System.Threading.dll
         /// </summary>
-        public static ReferenceInfo SystemTransactions => new ReferenceInfo("System.Transactions.dll", Resources.SystemTransactions, NetCoreApp31.References.SystemTransactions, global::System.Guid.Parse("01024e66-8f63-4d6a-85c3-0b9d653075eb"));
+        public static ReferenceInfo SystemThreading => new ReferenceInfo("System.Threading.dll", Resources.SystemThreading, NetCoreApp31.References.SystemThreading, global::System.Guid.Parse("42351f39-3805-45fc-aef8-57ef85333b89"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Transactions.Local.dll
@@ -698,14 +678,14 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemTransactionsLocal => new ReferenceInfo("System.Transactions.Local.dll", Resources.SystemTransactionsLocal, NetCoreApp31.References.SystemTransactionsLocal, global::System.Guid.Parse("be6d6a9d-5615-46fb-bbf9-5bc23247a979"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Transactions.dll
+        /// </summary>
+        public static ReferenceInfo SystemTransactions => new ReferenceInfo("System.Transactions.dll", Resources.SystemTransactions, NetCoreApp31.References.SystemTransactions, global::System.Guid.Parse("01024e66-8f63-4d6a-85c3-0b9d653075eb"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ValueTuple.dll
         /// </summary>
         public static ReferenceInfo SystemValueTuple => new ReferenceInfo("System.ValueTuple.dll", Resources.SystemValueTuple, NetCoreApp31.References.SystemValueTuple, global::System.Guid.Parse("a9141bf9-2838-4ad2-a629-91db1c4c36a6"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Web.dll
-        /// </summary>
-        public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, NetCoreApp31.References.SystemWeb, global::System.Guid.Parse("b768fff6-ecf3-42fb-acc1-7094b6fe5e70"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Web.HttpUtility.dll
@@ -713,14 +693,14 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemWebHttpUtility => new ReferenceInfo("System.Web.HttpUtility.dll", Resources.SystemWebHttpUtility, NetCoreApp31.References.SystemWebHttpUtility, global::System.Guid.Parse("b0aebc2d-80b7-41c1-8c7c-fe5bcd8292db"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Web.dll
+        /// </summary>
+        public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, NetCoreApp31.References.SystemWeb, global::System.Guid.Parse("b768fff6-ecf3-42fb-acc1-7094b6fe5e70"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Windows.dll
         /// </summary>
         public static ReferenceInfo SystemWindows => new ReferenceInfo("System.Windows.dll", Resources.SystemWindows, NetCoreApp31.References.SystemWindows, global::System.Guid.Parse("281ebb39-c7c8-4a1b-96be-d6732e7c1b17"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Xml.dll
-        /// </summary>
-        public static ReferenceInfo SystemXml => new ReferenceInfo("System.Xml.dll", Resources.SystemXml, NetCoreApp31.References.SystemXml, global::System.Guid.Parse("9d601302-9e98-4301-8951-d10fdba24a3b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.Linq.dll
@@ -743,6 +723,16 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemXmlXDocument => new ReferenceInfo("System.Xml.XDocument.dll", Resources.SystemXmlXDocument, NetCoreApp31.References.SystemXmlXDocument, global::System.Guid.Parse("8890e347-87f8-4abc-8682-8300ffacbdad"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.XDocument.dll
+        /// </summary>
+        public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, NetCoreApp31.References.SystemXmlXPathXDocument, global::System.Guid.Parse("2be71ee5-0c24-499d-bc18-70479489bfdb"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.dll
+        /// </summary>
+        public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, NetCoreApp31.References.SystemXmlXPath, global::System.Guid.Parse("3699be6e-aecb-45ad-a5ce-7184a0f2c9b3"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XmlDocument.dll
         /// </summary>
         public static ReferenceInfo SystemXmlXmlDocument => new ReferenceInfo("System.Xml.XmlDocument.dll", Resources.SystemXmlXmlDocument, NetCoreApp31.References.SystemXmlXmlDocument, global::System.Guid.Parse("d1208aea-b51b-4ee6-8847-59907bc83b46"));
@@ -753,19 +743,29 @@ public static partial class NetCoreApp31
         public static ReferenceInfo SystemXmlXmlSerializer => new ReferenceInfo("System.Xml.XmlSerializer.dll", Resources.SystemXmlXmlSerializer, NetCoreApp31.References.SystemXmlXmlSerializer, global::System.Guid.Parse("ba8a1592-6049-440a-99ba-b79b55f3bc07"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.dll
+        /// The <see cref="ReferenceInfo"/> for System.Xml.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXPath => new ReferenceInfo("System.Xml.XPath.dll", Resources.SystemXmlXPath, NetCoreApp31.References.SystemXmlXPath, global::System.Guid.Parse("3699be6e-aecb-45ad-a5ce-7184a0f2c9b3"));
+        public static ReferenceInfo SystemXml => new ReferenceInfo("System.Xml.dll", Resources.SystemXml, NetCoreApp31.References.SystemXml, global::System.Guid.Parse("9d601302-9e98-4301-8951-d10fdba24a3b"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Xml.XPath.XDocument.dll
+        /// The <see cref="ReferenceInfo"/> for System.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlXPathXDocument => new ReferenceInfo("System.Xml.XPath.XDocument.dll", Resources.SystemXmlXPathXDocument, NetCoreApp31.References.SystemXmlXPathXDocument, global::System.Guid.Parse("2be71ee5-0c24-499d-bc18-70479489bfdb"));
+        public static ReferenceInfo System => new ReferenceInfo("System.dll", Resources.System, NetCoreApp31.References.System, global::System.Guid.Parse("820b8e78-5b12-475d-a6b5-8d555c72249f"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for WindowsBase.dll
         /// </summary>
         public static ReferenceInfo WindowsBase => new ReferenceInfo("WindowsBase.dll", Resources.WindowsBase, NetCoreApp31.References.WindowsBase, global::System.Guid.Parse("78536aaf-355e-4c4c-beb2-d5e3bb6768f6"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for mscorlib.dll
+        /// </summary>
+        public static ReferenceInfo mscorlib => new ReferenceInfo("mscorlib.dll", Resources.mscorlib, NetCoreApp31.References.mscorlib, global::System.Guid.Parse("04c625d2-7b3b-4dfc-9ed8-666de09d068a"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for netstandard.dll
+        /// </summary>
+        public static ReferenceInfo netstandard => new ReferenceInfo("netstandard.dll", Resources.netstandard, NetCoreApp31.References.netstandard, global::System.Guid.Parse("f5657313-4617-421e-b939-be06b8737d9c"));
         private static ImmutableArray<ReferenceInfo> _all;
         public static ImmutableArray<ReferenceInfo> All
         {
@@ -779,21 +779,19 @@ public static partial class NetCoreApp31
                         MicrosoftVisualBasicCore,
                         MicrosoftVisualBasic,
                         MicrosoftWin32Primitives,
-                        mscorlib,
-                        netstandard,
                         SystemAppContext,
                         SystemBuffers,
                         SystemCollectionsConcurrent,
-                        SystemCollections,
                         SystemCollectionsImmutable,
                         SystemCollectionsNonGeneric,
                         SystemCollectionsSpecialized,
+                        SystemCollections,
                         SystemComponentModelAnnotations,
                         SystemComponentModelDataAnnotations,
-                        SystemComponentModel,
                         SystemComponentModelEventBasedAsync,
                         SystemComponentModelPrimitives,
                         SystemComponentModelTypeConverter,
+                        SystemComponentModel,
                         SystemConfiguration,
                         SystemConsole,
                         SystemCore,
@@ -810,32 +808,30 @@ public static partial class NetCoreApp31
                         SystemDiagnosticsTools,
                         SystemDiagnosticsTraceSource,
                         SystemDiagnosticsTracing,
-                        System,
-                        SystemDrawing,
                         SystemDrawingPrimitives,
+                        SystemDrawing,
                         SystemDynamicRuntime,
                         SystemGlobalizationCalendars,
-                        SystemGlobalization,
                         SystemGlobalizationExtensions,
+                        SystemGlobalization,
                         SystemIOCompressionBrotli,
-                        SystemIOCompression,
                         SystemIOCompressionFileSystem,
                         SystemIOCompressionZipFile,
-                        SystemIO,
-                        SystemIOFileSystem,
+                        SystemIOCompression,
                         SystemIOFileSystemDriveInfo,
                         SystemIOFileSystemPrimitives,
                         SystemIOFileSystemWatcher,
+                        SystemIOFileSystem,
                         SystemIOIsolatedStorage,
                         SystemIOMemoryMappedFiles,
                         SystemIOPipes,
                         SystemIOUnmanagedMemoryStream,
-                        SystemLinq,
+                        SystemIO,
                         SystemLinqExpressions,
                         SystemLinqParallel,
                         SystemLinqQueryable,
+                        SystemLinq,
                         SystemMemory,
-                        SystemNet,
                         SystemNetHttp,
                         SystemNetHttpListener,
                         SystemNetMail,
@@ -852,80 +848,84 @@ public static partial class NetCoreApp31
                         SystemNetWebProxy,
                         SystemNetWebSocketsClient,
                         SystemNetWebSockets,
-                        SystemNumerics,
+                        SystemNet,
                         SystemNumericsVectors,
+                        SystemNumerics,
                         SystemObjectModel,
                         SystemReflectionDispatchProxy,
-                        SystemReflection,
-                        SystemReflectionEmit,
                         SystemReflectionEmitILGeneration,
                         SystemReflectionEmitLightweight,
+                        SystemReflectionEmit,
                         SystemReflectionExtensions,
                         SystemReflectionMetadata,
                         SystemReflectionPrimitives,
                         SystemReflectionTypeExtensions,
+                        SystemReflection,
                         SystemResourcesReader,
                         SystemResourcesResourceManager,
                         SystemResourcesWriter,
                         SystemRuntimeCompilerServicesUnsafe,
                         SystemRuntimeCompilerServicesVisualC,
-                        SystemRuntime,
                         SystemRuntimeExtensions,
                         SystemRuntimeHandles,
-                        SystemRuntimeInteropServices,
                         SystemRuntimeInteropServicesRuntimeInformation,
                         SystemRuntimeInteropServicesWindowsRuntime,
+                        SystemRuntimeInteropServices,
                         SystemRuntimeIntrinsics,
                         SystemRuntimeLoader,
                         SystemRuntimeNumerics,
-                        SystemRuntimeSerialization,
                         SystemRuntimeSerializationFormatters,
                         SystemRuntimeSerializationJson,
                         SystemRuntimeSerializationPrimitives,
                         SystemRuntimeSerializationXml,
+                        SystemRuntimeSerialization,
+                        SystemRuntime,
                         SystemSecurityClaims,
                         SystemSecurityCryptographyAlgorithms,
                         SystemSecurityCryptographyCsp,
                         SystemSecurityCryptographyEncoding,
                         SystemSecurityCryptographyPrimitives,
                         SystemSecurityCryptographyX509Certificates,
-                        SystemSecurity,
                         SystemSecurityPrincipal,
                         SystemSecuritySecureString,
+                        SystemSecurity,
                         SystemServiceModelWeb,
                         SystemServiceProcess,
                         SystemTextEncodingCodePages,
-                        SystemTextEncoding,
                         SystemTextEncodingExtensions,
+                        SystemTextEncoding,
                         SystemTextEncodingsWeb,
                         SystemTextJson,
                         SystemTextRegularExpressions,
                         SystemThreadingChannels,
-                        SystemThreading,
                         SystemThreadingOverlapped,
                         SystemThreadingTasksDataflow,
-                        SystemThreadingTasks,
                         SystemThreadingTasksExtensions,
                         SystemThreadingTasksParallel,
+                        SystemThreadingTasks,
                         SystemThreadingThread,
                         SystemThreadingThreadPool,
                         SystemThreadingTimer,
-                        SystemTransactions,
+                        SystemThreading,
                         SystemTransactionsLocal,
+                        SystemTransactions,
                         SystemValueTuple,
-                        SystemWeb,
                         SystemWebHttpUtility,
+                        SystemWeb,
                         SystemWindows,
-                        SystemXml,
                         SystemXmlLinq,
                         SystemXmlReaderWriter,
                         SystemXmlSerialization,
                         SystemXmlXDocument,
+                        SystemXmlXPathXDocument,
+                        SystemXmlXPath,
                         SystemXmlXmlDocument,
                         SystemXmlXmlSerializer,
-                        SystemXmlXPath,
-                        SystemXmlXPathXDocument,
+                        SystemXml,
+                        System,
                         WindowsBase,
+                        mscorlib,
+                        netstandard,
                     ];
                 }
                 return _all;
@@ -1008,40 +1008,6 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _mscorlib;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for mscorlib.dll
-        /// </summary>
-        public static PortableExecutableReference mscorlib
-        {
-            get
-            {
-                if (_mscorlib is null)
-                {
-                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (netcoreapp31)");
-                }
-                return _mscorlib;
-            }
-        }
-
-        private static PortableExecutableReference? _netstandard;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for netstandard.dll
-        /// </summary>
-        public static PortableExecutableReference netstandard
-        {
-            get
-            {
-                if (_netstandard is null)
-                {
-                    _netstandard = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.netstandard")).GetReference(filePath: "netstandard.dll", display: "netstandard (netcoreapp31)");
-                }
-                return _netstandard;
-            }
-        }
-
         private static PortableExecutableReference? _SystemAppContext;
 
         /// <summary>
@@ -1090,23 +1056,6 @@ public static partial class NetCoreApp31
                     _SystemCollectionsConcurrent = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Collections.Concurrent")).GetReference(filePath: "System.Collections.Concurrent.dll", display: "System.Collections.Concurrent (netcoreapp31)");
                 }
                 return _SystemCollectionsConcurrent;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemCollections;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Collections.dll
-        /// </summary>
-        public static PortableExecutableReference SystemCollections
-        {
-            get
-            {
-                if (_SystemCollections is null)
-                {
-                    _SystemCollections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Collections")).GetReference(filePath: "System.Collections.dll", display: "System.Collections (netcoreapp31)");
-                }
-                return _SystemCollections;
             }
         }
 
@@ -1161,6 +1110,23 @@ public static partial class NetCoreApp31
             }
         }
 
+        private static PortableExecutableReference? _SystemCollections;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Collections.dll
+        /// </summary>
+        public static PortableExecutableReference SystemCollections
+        {
+            get
+            {
+                if (_SystemCollections is null)
+                {
+                    _SystemCollections = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Collections")).GetReference(filePath: "System.Collections.dll", display: "System.Collections (netcoreapp31)");
+                }
+                return _SystemCollections;
+            }
+        }
+
         private static PortableExecutableReference? _SystemComponentModelAnnotations;
 
         /// <summary>
@@ -1192,23 +1158,6 @@ public static partial class NetCoreApp31
                     _SystemComponentModelDataAnnotations = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.ComponentModel.DataAnnotations")).GetReference(filePath: "System.ComponentModel.DataAnnotations.dll", display: "System.ComponentModel.DataAnnotations (netcoreapp31)");
                 }
                 return _SystemComponentModelDataAnnotations;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemComponentModel;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.ComponentModel.dll
-        /// </summary>
-        public static PortableExecutableReference SystemComponentModel
-        {
-            get
-            {
-                if (_SystemComponentModel is null)
-                {
-                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.ComponentModel")).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (netcoreapp31)");
-                }
-                return _SystemComponentModel;
             }
         }
 
@@ -1260,6 +1209,23 @@ public static partial class NetCoreApp31
                     _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.ComponentModel.TypeConverter")).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (netcoreapp31)");
                 }
                 return _SystemComponentModelTypeConverter;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemComponentModel;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.ComponentModel.dll
+        /// </summary>
+        public static PortableExecutableReference SystemComponentModel
+        {
+            get
+            {
+                if (_SystemComponentModel is null)
+                {
+                    _SystemComponentModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.ComponentModel")).GetReference(filePath: "System.ComponentModel.dll", display: "System.ComponentModel (netcoreapp31)");
+                }
+                return _SystemComponentModel;
             }
         }
 
@@ -1535,20 +1501,20 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _System;
+        private static PortableExecutableReference? _SystemDrawingPrimitives;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Drawing.Primitives.dll
         /// </summary>
-        public static PortableExecutableReference System
+        public static PortableExecutableReference SystemDrawingPrimitives
         {
             get
             {
-                if (_System is null)
+                if (_SystemDrawingPrimitives is null)
                 {
-                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System")).GetReference(filePath: "System.dll", display: "System (netcoreapp31)");
+                    _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Drawing.Primitives")).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (netcoreapp31)");
                 }
-                return _System;
+                return _SystemDrawingPrimitives;
             }
         }
 
@@ -1566,23 +1532,6 @@ public static partial class NetCoreApp31
                     _SystemDrawing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Drawing")).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (netcoreapp31)");
                 }
                 return _SystemDrawing;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemDrawingPrimitives;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Drawing.Primitives.dll
-        /// </summary>
-        public static PortableExecutableReference SystemDrawingPrimitives
-        {
-            get
-            {
-                if (_SystemDrawingPrimitives is null)
-                {
-                    _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Drawing.Primitives")).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (netcoreapp31)");
-                }
-                return _SystemDrawingPrimitives;
             }
         }
 
@@ -1620,23 +1569,6 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _SystemGlobalization;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Globalization.dll
-        /// </summary>
-        public static PortableExecutableReference SystemGlobalization
-        {
-            get
-            {
-                if (_SystemGlobalization is null)
-                {
-                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Globalization")).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (netcoreapp31)");
-                }
-                return _SystemGlobalization;
-            }
-        }
-
         private static PortableExecutableReference? _SystemGlobalizationExtensions;
 
         /// <summary>
@@ -1654,6 +1586,23 @@ public static partial class NetCoreApp31
             }
         }
 
+        private static PortableExecutableReference? _SystemGlobalization;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Globalization.dll
+        /// </summary>
+        public static PortableExecutableReference SystemGlobalization
+        {
+            get
+            {
+                if (_SystemGlobalization is null)
+                {
+                    _SystemGlobalization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Globalization")).GetReference(filePath: "System.Globalization.dll", display: "System.Globalization (netcoreapp31)");
+                }
+                return _SystemGlobalization;
+            }
+        }
+
         private static PortableExecutableReference? _SystemIOCompressionBrotli;
 
         /// <summary>
@@ -1668,23 +1617,6 @@ public static partial class NetCoreApp31
                     _SystemIOCompressionBrotli = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.IO.Compression.Brotli")).GetReference(filePath: "System.IO.Compression.Brotli.dll", display: "System.IO.Compression.Brotli (netcoreapp31)");
                 }
                 return _SystemIOCompressionBrotli;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemIOCompression;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.Compression.dll
-        /// </summary>
-        public static PortableExecutableReference SystemIOCompression
-        {
-            get
-            {
-                if (_SystemIOCompression is null)
-                {
-                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (netcoreapp31)");
-                }
-                return _SystemIOCompression;
             }
         }
 
@@ -1722,37 +1654,20 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _SystemIO;
+        private static PortableExecutableReference? _SystemIOCompression;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.dll
+        /// The <see cref="PortableExecutableReference"/> for System.IO.Compression.dll
         /// </summary>
-        public static PortableExecutableReference SystemIO
+        public static PortableExecutableReference SystemIOCompression
         {
             get
             {
-                if (_SystemIO is null)
+                if (_SystemIOCompression is null)
                 {
-                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (netcoreapp31)");
+                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (netcoreapp31)");
                 }
-                return _SystemIO;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemIOFileSystem;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.FileSystem.dll
-        /// </summary>
-        public static PortableExecutableReference SystemIOFileSystem
-        {
-            get
-            {
-                if (_SystemIOFileSystem is null)
-                {
-                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.IO.FileSystem")).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (netcoreapp31)");
-                }
-                return _SystemIOFileSystem;
+                return _SystemIOCompression;
             }
         }
 
@@ -1804,6 +1719,23 @@ public static partial class NetCoreApp31
                     _SystemIOFileSystemWatcher = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.IO.FileSystem.Watcher")).GetReference(filePath: "System.IO.FileSystem.Watcher.dll", display: "System.IO.FileSystem.Watcher (netcoreapp31)");
                 }
                 return _SystemIOFileSystemWatcher;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemIOFileSystem;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.IO.FileSystem.dll
+        /// </summary>
+        public static PortableExecutableReference SystemIOFileSystem
+        {
+            get
+            {
+                if (_SystemIOFileSystem is null)
+                {
+                    _SystemIOFileSystem = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.IO.FileSystem")).GetReference(filePath: "System.IO.FileSystem.dll", display: "System.IO.FileSystem (netcoreapp31)");
+                }
+                return _SystemIOFileSystem;
             }
         }
 
@@ -1875,20 +1807,20 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _SystemLinq;
+        private static PortableExecutableReference? _SystemIO;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Linq.dll
+        /// The <see cref="PortableExecutableReference"/> for System.IO.dll
         /// </summary>
-        public static PortableExecutableReference SystemLinq
+        public static PortableExecutableReference SystemIO
         {
             get
             {
-                if (_SystemLinq is null)
+                if (_SystemIO is null)
                 {
-                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (netcoreapp31)");
+                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (netcoreapp31)");
                 }
-                return _SystemLinq;
+                return _SystemIO;
             }
         }
 
@@ -1943,6 +1875,23 @@ public static partial class NetCoreApp31
             }
         }
 
+        private static PortableExecutableReference? _SystemLinq;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Linq.dll
+        /// </summary>
+        public static PortableExecutableReference SystemLinq
+        {
+            get
+            {
+                if (_SystemLinq is null)
+                {
+                    _SystemLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Linq")).GetReference(filePath: "System.Linq.dll", display: "System.Linq (netcoreapp31)");
+                }
+                return _SystemLinq;
+            }
+        }
+
         private static PortableExecutableReference? _SystemMemory;
 
         /// <summary>
@@ -1957,23 +1906,6 @@ public static partial class NetCoreApp31
                     _SystemMemory = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Memory")).GetReference(filePath: "System.Memory.dll", display: "System.Memory (netcoreapp31)");
                 }
                 return _SystemMemory;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemNet;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Net.dll
-        /// </summary>
-        public static PortableExecutableReference SystemNet
-        {
-            get
-            {
-                if (_SystemNet is null)
-                {
-                    _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (netcoreapp31)");
-                }
-                return _SystemNet;
             }
         }
 
@@ -2249,20 +2181,20 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _SystemNumerics;
+        private static PortableExecutableReference? _SystemNet;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Numerics.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Net.dll
         /// </summary>
-        public static PortableExecutableReference SystemNumerics
+        public static PortableExecutableReference SystemNet
         {
             get
             {
-                if (_SystemNumerics is null)
+                if (_SystemNet is null)
                 {
-                    _SystemNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Numerics")).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (netcoreapp31)");
+                    _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (netcoreapp31)");
                 }
-                return _SystemNumerics;
+                return _SystemNet;
             }
         }
 
@@ -2280,6 +2212,23 @@ public static partial class NetCoreApp31
                     _SystemNumericsVectors = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Numerics.Vectors")).GetReference(filePath: "System.Numerics.Vectors.dll", display: "System.Numerics.Vectors (netcoreapp31)");
                 }
                 return _SystemNumericsVectors;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemNumerics;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Numerics.dll
+        /// </summary>
+        public static PortableExecutableReference SystemNumerics
+        {
+            get
+            {
+                if (_SystemNumerics is null)
+                {
+                    _SystemNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Numerics")).GetReference(filePath: "System.Numerics.dll", display: "System.Numerics (netcoreapp31)");
+                }
+                return _SystemNumerics;
             }
         }
 
@@ -2317,40 +2266,6 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _SystemReflection;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Reflection.dll
-        /// </summary>
-        public static PortableExecutableReference SystemReflection
-        {
-            get
-            {
-                if (_SystemReflection is null)
-                {
-                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (netcoreapp31)");
-                }
-                return _SystemReflection;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemReflectionEmit;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Reflection.Emit.dll
-        /// </summary>
-        public static PortableExecutableReference SystemReflectionEmit
-        {
-            get
-            {
-                if (_SystemReflectionEmit is null)
-                {
-                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Reflection.Emit")).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (netcoreapp31)");
-                }
-                return _SystemReflectionEmit;
-            }
-        }
-
         private static PortableExecutableReference? _SystemReflectionEmitILGeneration;
 
         /// <summary>
@@ -2382,6 +2297,23 @@ public static partial class NetCoreApp31
                     _SystemReflectionEmitLightweight = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Reflection.Emit.Lightweight")).GetReference(filePath: "System.Reflection.Emit.Lightweight.dll", display: "System.Reflection.Emit.Lightweight (netcoreapp31)");
                 }
                 return _SystemReflectionEmitLightweight;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemReflectionEmit;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Reflection.Emit.dll
+        /// </summary>
+        public static PortableExecutableReference SystemReflectionEmit
+        {
+            get
+            {
+                if (_SystemReflectionEmit is null)
+                {
+                    _SystemReflectionEmit = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Reflection.Emit")).GetReference(filePath: "System.Reflection.Emit.dll", display: "System.Reflection.Emit (netcoreapp31)");
+                }
+                return _SystemReflectionEmit;
             }
         }
 
@@ -2450,6 +2382,23 @@ public static partial class NetCoreApp31
                     _SystemReflectionTypeExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Reflection.TypeExtensions")).GetReference(filePath: "System.Reflection.TypeExtensions.dll", display: "System.Reflection.TypeExtensions (netcoreapp31)");
                 }
                 return _SystemReflectionTypeExtensions;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemReflection;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Reflection.dll
+        /// </summary>
+        public static PortableExecutableReference SystemReflection
+        {
+            get
+            {
+                if (_SystemReflection is null)
+                {
+                    _SystemReflection = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Reflection")).GetReference(filePath: "System.Reflection.dll", display: "System.Reflection (netcoreapp31)");
+                }
+                return _SystemReflection;
             }
         }
 
@@ -2538,23 +2487,6 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _SystemRuntime;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.dll
-        /// </summary>
-        public static PortableExecutableReference SystemRuntime
-        {
-            get
-            {
-                if (_SystemRuntime is null)
-                {
-                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (netcoreapp31)");
-                }
-                return _SystemRuntime;
-            }
-        }
-
         private static PortableExecutableReference? _SystemRuntimeExtensions;
 
         /// <summary>
@@ -2589,23 +2521,6 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _SystemRuntimeInteropServices;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.InteropServices.dll
-        /// </summary>
-        public static PortableExecutableReference SystemRuntimeInteropServices
-        {
-            get
-            {
-                if (_SystemRuntimeInteropServices is null)
-                {
-                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (netcoreapp31)");
-                }
-                return _SystemRuntimeInteropServices;
-            }
-        }
-
         private static PortableExecutableReference? _SystemRuntimeInteropServicesRuntimeInformation;
 
         /// <summary>
@@ -2637,6 +2552,23 @@ public static partial class NetCoreApp31
                     _SystemRuntimeInteropServicesWindowsRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Runtime.InteropServices.WindowsRuntime")).GetReference(filePath: "System.Runtime.InteropServices.WindowsRuntime.dll", display: "System.Runtime.InteropServices.WindowsRuntime (netcoreapp31)");
                 }
                 return _SystemRuntimeInteropServicesWindowsRuntime;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemRuntimeInteropServices;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.InteropServices.dll
+        /// </summary>
+        public static PortableExecutableReference SystemRuntimeInteropServices
+        {
+            get
+            {
+                if (_SystemRuntimeInteropServices is null)
+                {
+                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (netcoreapp31)");
+                }
+                return _SystemRuntimeInteropServices;
             }
         }
 
@@ -2688,23 +2620,6 @@ public static partial class NetCoreApp31
                     _SystemRuntimeNumerics = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Runtime.Numerics")).GetReference(filePath: "System.Runtime.Numerics.dll", display: "System.Runtime.Numerics (netcoreapp31)");
                 }
                 return _SystemRuntimeNumerics;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemRuntimeSerialization;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.Serialization.dll
-        /// </summary>
-        public static PortableExecutableReference SystemRuntimeSerialization
-        {
-            get
-            {
-                if (_SystemRuntimeSerialization is null)
-                {
-                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (netcoreapp31)");
-                }
-                return _SystemRuntimeSerialization;
             }
         }
 
@@ -2773,6 +2688,40 @@ public static partial class NetCoreApp31
                     _SystemRuntimeSerializationXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Runtime.Serialization.Xml")).GetReference(filePath: "System.Runtime.Serialization.Xml.dll", display: "System.Runtime.Serialization.Xml (netcoreapp31)");
                 }
                 return _SystemRuntimeSerializationXml;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemRuntimeSerialization;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.Serialization.dll
+        /// </summary>
+        public static PortableExecutableReference SystemRuntimeSerialization
+        {
+            get
+            {
+                if (_SystemRuntimeSerialization is null)
+                {
+                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (netcoreapp31)");
+                }
+                return _SystemRuntimeSerialization;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemRuntime;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.dll
+        /// </summary>
+        public static PortableExecutableReference SystemRuntime
+        {
+            get
+            {
+                if (_SystemRuntime is null)
+                {
+                    _SystemRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Runtime")).GetReference(filePath: "System.Runtime.dll", display: "System.Runtime (netcoreapp31)");
+                }
+                return _SystemRuntime;
             }
         }
 
@@ -2878,23 +2827,6 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _SystemSecurity;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Security.dll
-        /// </summary>
-        public static PortableExecutableReference SystemSecurity
-        {
-            get
-            {
-                if (_SystemSecurity is null)
-                {
-                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (netcoreapp31)");
-                }
-                return _SystemSecurity;
-            }
-        }
-
         private static PortableExecutableReference? _SystemSecurityPrincipal;
 
         /// <summary>
@@ -2926,6 +2858,23 @@ public static partial class NetCoreApp31
                     _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Security.SecureString")).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (netcoreapp31)");
                 }
                 return _SystemSecuritySecureString;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemSecurity;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Security.dll
+        /// </summary>
+        public static PortableExecutableReference SystemSecurity
+        {
+            get
+            {
+                if (_SystemSecurity is null)
+                {
+                    _SystemSecurity = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Security")).GetReference(filePath: "System.Security.dll", display: "System.Security (netcoreapp31)");
+                }
+                return _SystemSecurity;
             }
         }
 
@@ -2980,23 +2929,6 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _SystemTextEncoding;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Text.Encoding.dll
-        /// </summary>
-        public static PortableExecutableReference SystemTextEncoding
-        {
-            get
-            {
-                if (_SystemTextEncoding is null)
-                {
-                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Text.Encoding")).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (netcoreapp31)");
-                }
-                return _SystemTextEncoding;
-            }
-        }
-
         private static PortableExecutableReference? _SystemTextEncodingExtensions;
 
         /// <summary>
@@ -3011,6 +2943,23 @@ public static partial class NetCoreApp31
                     _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Text.Encoding.Extensions")).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (netcoreapp31)");
                 }
                 return _SystemTextEncodingExtensions;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemTextEncoding;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Text.Encoding.dll
+        /// </summary>
+        public static PortableExecutableReference SystemTextEncoding
+        {
+            get
+            {
+                if (_SystemTextEncoding is null)
+                {
+                    _SystemTextEncoding = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Text.Encoding")).GetReference(filePath: "System.Text.Encoding.dll", display: "System.Text.Encoding (netcoreapp31)");
+                }
+                return _SystemTextEncoding;
             }
         }
 
@@ -3082,23 +3031,6 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _SystemThreading;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Threading.dll
-        /// </summary>
-        public static PortableExecutableReference SystemThreading
-        {
-            get
-            {
-                if (_SystemThreading is null)
-                {
-                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (netcoreapp31)");
-                }
-                return _SystemThreading;
-            }
-        }
-
         private static PortableExecutableReference? _SystemThreadingOverlapped;
 
         /// <summary>
@@ -3133,23 +3065,6 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _SystemThreadingTasks;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Threading.Tasks.dll
-        /// </summary>
-        public static PortableExecutableReference SystemThreadingTasks
-        {
-            get
-            {
-                if (_SystemThreadingTasks is null)
-                {
-                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Threading.Tasks")).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (netcoreapp31)");
-                }
-                return _SystemThreadingTasks;
-            }
-        }
-
         private static PortableExecutableReference? _SystemThreadingTasksExtensions;
 
         /// <summary>
@@ -3181,6 +3096,23 @@ public static partial class NetCoreApp31
                     _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Threading.Tasks.Parallel")).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (netcoreapp31)");
                 }
                 return _SystemThreadingTasksParallel;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemThreadingTasks;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Threading.Tasks.dll
+        /// </summary>
+        public static PortableExecutableReference SystemThreadingTasks
+        {
+            get
+            {
+                if (_SystemThreadingTasks is null)
+                {
+                    _SystemThreadingTasks = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Threading.Tasks")).GetReference(filePath: "System.Threading.Tasks.dll", display: "System.Threading.Tasks (netcoreapp31)");
+                }
+                return _SystemThreadingTasks;
             }
         }
 
@@ -3235,20 +3167,20 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _SystemTransactions;
+        private static PortableExecutableReference? _SystemThreading;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Transactions.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Threading.dll
         /// </summary>
-        public static PortableExecutableReference SystemTransactions
+        public static PortableExecutableReference SystemThreading
         {
             get
             {
-                if (_SystemTransactions is null)
+                if (_SystemThreading is null)
                 {
-                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (netcoreapp31)");
+                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (netcoreapp31)");
                 }
-                return _SystemTransactions;
+                return _SystemThreading;
             }
         }
 
@@ -3269,6 +3201,23 @@ public static partial class NetCoreApp31
             }
         }
 
+        private static PortableExecutableReference? _SystemTransactions;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Transactions.dll
+        /// </summary>
+        public static PortableExecutableReference SystemTransactions
+        {
+            get
+            {
+                if (_SystemTransactions is null)
+                {
+                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (netcoreapp31)");
+                }
+                return _SystemTransactions;
+            }
+        }
+
         private static PortableExecutableReference? _SystemValueTuple;
 
         /// <summary>
@@ -3283,23 +3232,6 @@ public static partial class NetCoreApp31
                     _SystemValueTuple = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.ValueTuple")).GetReference(filePath: "System.ValueTuple.dll", display: "System.ValueTuple (netcoreapp31)");
                 }
                 return _SystemValueTuple;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemWeb;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Web.dll
-        /// </summary>
-        public static PortableExecutableReference SystemWeb
-        {
-            get
-            {
-                if (_SystemWeb is null)
-                {
-                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (netcoreapp31)");
-                }
-                return _SystemWeb;
             }
         }
 
@@ -3320,6 +3252,23 @@ public static partial class NetCoreApp31
             }
         }
 
+        private static PortableExecutableReference? _SystemWeb;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Web.dll
+        /// </summary>
+        public static PortableExecutableReference SystemWeb
+        {
+            get
+            {
+                if (_SystemWeb is null)
+                {
+                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (netcoreapp31)");
+                }
+                return _SystemWeb;
+            }
+        }
+
         private static PortableExecutableReference? _SystemWindows;
 
         /// <summary>
@@ -3334,23 +3283,6 @@ public static partial class NetCoreApp31
                     _SystemWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Windows")).GetReference(filePath: "System.Windows.dll", display: "System.Windows (netcoreapp31)");
                 }
                 return _SystemWindows;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemXml;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Xml.dll
-        /// </summary>
-        public static PortableExecutableReference SystemXml
-        {
-            get
-            {
-                if (_SystemXml is null)
-                {
-                    _SystemXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Xml")).GetReference(filePath: "System.Xml.dll", display: "System.Xml (netcoreapp31)");
-                }
-                return _SystemXml;
             }
         }
 
@@ -3422,6 +3354,40 @@ public static partial class NetCoreApp31
             }
         }
 
+        private static PortableExecutableReference? _SystemXmlXPathXDocument;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.XDocument.dll
+        /// </summary>
+        public static PortableExecutableReference SystemXmlXPathXDocument
+        {
+            get
+            {
+                if (_SystemXmlXPathXDocument is null)
+                {
+                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (netcoreapp31)");
+                }
+                return _SystemXmlXPathXDocument;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemXmlXPath;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.dll
+        /// </summary>
+        public static PortableExecutableReference SystemXmlXPath
+        {
+            get
+            {
+                if (_SystemXmlXPath is null)
+                {
+                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Xml.XPath")).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (netcoreapp31)");
+                }
+                return _SystemXmlXPath;
+            }
+        }
+
         private static PortableExecutableReference? _SystemXmlXmlDocument;
 
         /// <summary>
@@ -3456,37 +3422,37 @@ public static partial class NetCoreApp31
             }
         }
 
-        private static PortableExecutableReference? _SystemXmlXPath;
+        private static PortableExecutableReference? _SystemXml;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.dll
         /// </summary>
-        public static PortableExecutableReference SystemXmlXPath
+        public static PortableExecutableReference SystemXml
         {
             get
             {
-                if (_SystemXmlXPath is null)
+                if (_SystemXml is null)
                 {
-                    _SystemXmlXPath = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Xml.XPath")).GetReference(filePath: "System.Xml.XPath.dll", display: "System.Xml.XPath (netcoreapp31)");
+                    _SystemXml = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Xml")).GetReference(filePath: "System.Xml.dll", display: "System.Xml (netcoreapp31)");
                 }
-                return _SystemXmlXPath;
+                return _SystemXml;
             }
         }
 
-        private static PortableExecutableReference? _SystemXmlXPathXDocument;
+        private static PortableExecutableReference? _System;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Xml.XPath.XDocument.dll
+        /// The <see cref="PortableExecutableReference"/> for System.dll
         /// </summary>
-        public static PortableExecutableReference SystemXmlXPathXDocument
+        public static PortableExecutableReference System
         {
             get
             {
-                if (_SystemXmlXPathXDocument is null)
+                if (_System is null)
                 {
-                    _SystemXmlXPathXDocument = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System.Xml.XPath.XDocument")).GetReference(filePath: "System.Xml.XPath.XDocument.dll", display: "System.Xml.XPath.XDocument (netcoreapp31)");
+                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.System")).GetReference(filePath: "System.dll", display: "System (netcoreapp31)");
                 }
-                return _SystemXmlXPathXDocument;
+                return _System;
             }
         }
 
@@ -3507,6 +3473,40 @@ public static partial class NetCoreApp31
             }
         }
 
+        private static PortableExecutableReference? _mscorlib;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for mscorlib.dll
+        /// </summary>
+        public static PortableExecutableReference mscorlib
+        {
+            get
+            {
+                if (_mscorlib is null)
+                {
+                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (netcoreapp31)");
+                }
+                return _mscorlib;
+            }
+        }
+
+        private static PortableExecutableReference? _netstandard;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for netstandard.dll
+        /// </summary>
+        public static PortableExecutableReference netstandard
+        {
+            get
+            {
+                if (_netstandard is null)
+                {
+                    _netstandard = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netcoreapp31.netstandard")).GetReference(filePath: "netstandard.dll", display: "netstandard (netcoreapp31)");
+                }
+                return _netstandard;
+            }
+        }
+
         private static ImmutableArray<PortableExecutableReference> _all;
         public static ImmutableArray<PortableExecutableReference> All
         {
@@ -3520,21 +3520,19 @@ public static partial class NetCoreApp31
                         MicrosoftVisualBasicCore,
                         MicrosoftVisualBasic,
                         MicrosoftWin32Primitives,
-                        mscorlib,
-                        netstandard,
                         SystemAppContext,
                         SystemBuffers,
                         SystemCollectionsConcurrent,
-                        SystemCollections,
                         SystemCollectionsImmutable,
                         SystemCollectionsNonGeneric,
                         SystemCollectionsSpecialized,
+                        SystemCollections,
                         SystemComponentModelAnnotations,
                         SystemComponentModelDataAnnotations,
-                        SystemComponentModel,
                         SystemComponentModelEventBasedAsync,
                         SystemComponentModelPrimitives,
                         SystemComponentModelTypeConverter,
+                        SystemComponentModel,
                         SystemConfiguration,
                         SystemConsole,
                         SystemCore,
@@ -3551,32 +3549,30 @@ public static partial class NetCoreApp31
                         SystemDiagnosticsTools,
                         SystemDiagnosticsTraceSource,
                         SystemDiagnosticsTracing,
-                        System,
-                        SystemDrawing,
                         SystemDrawingPrimitives,
+                        SystemDrawing,
                         SystemDynamicRuntime,
                         SystemGlobalizationCalendars,
-                        SystemGlobalization,
                         SystemGlobalizationExtensions,
+                        SystemGlobalization,
                         SystemIOCompressionBrotli,
-                        SystemIOCompression,
                         SystemIOCompressionFileSystem,
                         SystemIOCompressionZipFile,
-                        SystemIO,
-                        SystemIOFileSystem,
+                        SystemIOCompression,
                         SystemIOFileSystemDriveInfo,
                         SystemIOFileSystemPrimitives,
                         SystemIOFileSystemWatcher,
+                        SystemIOFileSystem,
                         SystemIOIsolatedStorage,
                         SystemIOMemoryMappedFiles,
                         SystemIOPipes,
                         SystemIOUnmanagedMemoryStream,
-                        SystemLinq,
+                        SystemIO,
                         SystemLinqExpressions,
                         SystemLinqParallel,
                         SystemLinqQueryable,
+                        SystemLinq,
                         SystemMemory,
-                        SystemNet,
                         SystemNetHttp,
                         SystemNetHttpListener,
                         SystemNetMail,
@@ -3593,80 +3589,84 @@ public static partial class NetCoreApp31
                         SystemNetWebProxy,
                         SystemNetWebSocketsClient,
                         SystemNetWebSockets,
-                        SystemNumerics,
+                        SystemNet,
                         SystemNumericsVectors,
+                        SystemNumerics,
                         SystemObjectModel,
                         SystemReflectionDispatchProxy,
-                        SystemReflection,
-                        SystemReflectionEmit,
                         SystemReflectionEmitILGeneration,
                         SystemReflectionEmitLightweight,
+                        SystemReflectionEmit,
                         SystemReflectionExtensions,
                         SystemReflectionMetadata,
                         SystemReflectionPrimitives,
                         SystemReflectionTypeExtensions,
+                        SystemReflection,
                         SystemResourcesReader,
                         SystemResourcesResourceManager,
                         SystemResourcesWriter,
                         SystemRuntimeCompilerServicesUnsafe,
                         SystemRuntimeCompilerServicesVisualC,
-                        SystemRuntime,
                         SystemRuntimeExtensions,
                         SystemRuntimeHandles,
-                        SystemRuntimeInteropServices,
                         SystemRuntimeInteropServicesRuntimeInformation,
                         SystemRuntimeInteropServicesWindowsRuntime,
+                        SystemRuntimeInteropServices,
                         SystemRuntimeIntrinsics,
                         SystemRuntimeLoader,
                         SystemRuntimeNumerics,
-                        SystemRuntimeSerialization,
                         SystemRuntimeSerializationFormatters,
                         SystemRuntimeSerializationJson,
                         SystemRuntimeSerializationPrimitives,
                         SystemRuntimeSerializationXml,
+                        SystemRuntimeSerialization,
+                        SystemRuntime,
                         SystemSecurityClaims,
                         SystemSecurityCryptographyAlgorithms,
                         SystemSecurityCryptographyCsp,
                         SystemSecurityCryptographyEncoding,
                         SystemSecurityCryptographyPrimitives,
                         SystemSecurityCryptographyX509Certificates,
-                        SystemSecurity,
                         SystemSecurityPrincipal,
                         SystemSecuritySecureString,
+                        SystemSecurity,
                         SystemServiceModelWeb,
                         SystemServiceProcess,
                         SystemTextEncodingCodePages,
-                        SystemTextEncoding,
                         SystemTextEncodingExtensions,
+                        SystemTextEncoding,
                         SystemTextEncodingsWeb,
                         SystemTextJson,
                         SystemTextRegularExpressions,
                         SystemThreadingChannels,
-                        SystemThreading,
                         SystemThreadingOverlapped,
                         SystemThreadingTasksDataflow,
-                        SystemThreadingTasks,
                         SystemThreadingTasksExtensions,
                         SystemThreadingTasksParallel,
+                        SystemThreadingTasks,
                         SystemThreadingThread,
                         SystemThreadingThreadPool,
                         SystemThreadingTimer,
-                        SystemTransactions,
+                        SystemThreading,
                         SystemTransactionsLocal,
+                        SystemTransactions,
                         SystemValueTuple,
-                        SystemWeb,
                         SystemWebHttpUtility,
+                        SystemWeb,
                         SystemWindows,
-                        SystemXml,
                         SystemXmlLinq,
                         SystemXmlReaderWriter,
                         SystemXmlSerialization,
                         SystemXmlXDocument,
+                        SystemXmlXPathXDocument,
+                        SystemXmlXPath,
                         SystemXmlXmlDocument,
                         SystemXmlXmlSerializer,
-                        SystemXmlXPath,
-                        SystemXmlXPathXDocument,
+                        SystemXml,
+                        System,
                         WindowsBase,
+                        mscorlib,
+                        netstandard,
                     ];
                 }
                 return _all;
@@ -3704,18 +3704,6 @@ public static partial class NetCoreApp31
         private static byte[]? _MicrosoftWin32Primitives;
 
         /// <summary>
-        /// The image bytes for mscorlib.dll
-        /// </summary>
-        public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "netcoreapp31.mscorlib");
-        private static byte[]? _mscorlib;
-
-        /// <summary>
-        /// The image bytes for netstandard.dll
-        /// </summary>
-        public static byte[] netstandard => ResourceLoader.GetOrCreateResource(ref _netstandard, "netcoreapp31.netstandard");
-        private static byte[]? _netstandard;
-
-        /// <summary>
         /// The image bytes for System.AppContext.dll
         /// </summary>
         public static byte[] SystemAppContext => ResourceLoader.GetOrCreateResource(ref _SystemAppContext, "netcoreapp31.System.AppContext");
@@ -3732,12 +3720,6 @@ public static partial class NetCoreApp31
         /// </summary>
         public static byte[] SystemCollectionsConcurrent => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsConcurrent, "netcoreapp31.System.Collections.Concurrent");
         private static byte[]? _SystemCollectionsConcurrent;
-
-        /// <summary>
-        /// The image bytes for System.Collections.dll
-        /// </summary>
-        public static byte[] SystemCollections => ResourceLoader.GetOrCreateResource(ref _SystemCollections, "netcoreapp31.System.Collections");
-        private static byte[]? _SystemCollections;
 
         /// <summary>
         /// The image bytes for System.Collections.Immutable.dll
@@ -3758,6 +3740,12 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemCollectionsSpecialized;
 
         /// <summary>
+        /// The image bytes for System.Collections.dll
+        /// </summary>
+        public static byte[] SystemCollections => ResourceLoader.GetOrCreateResource(ref _SystemCollections, "netcoreapp31.System.Collections");
+        private static byte[]? _SystemCollections;
+
+        /// <summary>
         /// The image bytes for System.ComponentModel.Annotations.dll
         /// </summary>
         public static byte[] SystemComponentModelAnnotations => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelAnnotations, "netcoreapp31.System.ComponentModel.Annotations");
@@ -3768,12 +3756,6 @@ public static partial class NetCoreApp31
         /// </summary>
         public static byte[] SystemComponentModelDataAnnotations => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelDataAnnotations, "netcoreapp31.System.ComponentModel.DataAnnotations");
         private static byte[]? _SystemComponentModelDataAnnotations;
-
-        /// <summary>
-        /// The image bytes for System.ComponentModel.dll
-        /// </summary>
-        public static byte[] SystemComponentModel => ResourceLoader.GetOrCreateResource(ref _SystemComponentModel, "netcoreapp31.System.ComponentModel");
-        private static byte[]? _SystemComponentModel;
 
         /// <summary>
         /// The image bytes for System.ComponentModel.EventBasedAsync.dll
@@ -3792,6 +3774,12 @@ public static partial class NetCoreApp31
         /// </summary>
         public static byte[] SystemComponentModelTypeConverter => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelTypeConverter, "netcoreapp31.System.ComponentModel.TypeConverter");
         private static byte[]? _SystemComponentModelTypeConverter;
+
+        /// <summary>
+        /// The image bytes for System.ComponentModel.dll
+        /// </summary>
+        public static byte[] SystemComponentModel => ResourceLoader.GetOrCreateResource(ref _SystemComponentModel, "netcoreapp31.System.ComponentModel");
+        private static byte[]? _SystemComponentModel;
 
         /// <summary>
         /// The image bytes for System.Configuration.dll
@@ -3890,22 +3878,16 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemDiagnosticsTracing;
 
         /// <summary>
-        /// The image bytes for System.dll
+        /// The image bytes for System.Drawing.Primitives.dll
         /// </summary>
-        public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "netcoreapp31.System");
-        private static byte[]? _System;
+        public static byte[] SystemDrawingPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemDrawingPrimitives, "netcoreapp31.System.Drawing.Primitives");
+        private static byte[]? _SystemDrawingPrimitives;
 
         /// <summary>
         /// The image bytes for System.Drawing.dll
         /// </summary>
         public static byte[] SystemDrawing => ResourceLoader.GetOrCreateResource(ref _SystemDrawing, "netcoreapp31.System.Drawing");
         private static byte[]? _SystemDrawing;
-
-        /// <summary>
-        /// The image bytes for System.Drawing.Primitives.dll
-        /// </summary>
-        public static byte[] SystemDrawingPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemDrawingPrimitives, "netcoreapp31.System.Drawing.Primitives");
-        private static byte[]? _SystemDrawingPrimitives;
 
         /// <summary>
         /// The image bytes for System.Dynamic.Runtime.dll
@@ -3920,28 +3902,22 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemGlobalizationCalendars;
 
         /// <summary>
-        /// The image bytes for System.Globalization.dll
-        /// </summary>
-        public static byte[] SystemGlobalization => ResourceLoader.GetOrCreateResource(ref _SystemGlobalization, "netcoreapp31.System.Globalization");
-        private static byte[]? _SystemGlobalization;
-
-        /// <summary>
         /// The image bytes for System.Globalization.Extensions.dll
         /// </summary>
         public static byte[] SystemGlobalizationExtensions => ResourceLoader.GetOrCreateResource(ref _SystemGlobalizationExtensions, "netcoreapp31.System.Globalization.Extensions");
         private static byte[]? _SystemGlobalizationExtensions;
 
         /// <summary>
+        /// The image bytes for System.Globalization.dll
+        /// </summary>
+        public static byte[] SystemGlobalization => ResourceLoader.GetOrCreateResource(ref _SystemGlobalization, "netcoreapp31.System.Globalization");
+        private static byte[]? _SystemGlobalization;
+
+        /// <summary>
         /// The image bytes for System.IO.Compression.Brotli.dll
         /// </summary>
         public static byte[] SystemIOCompressionBrotli => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionBrotli, "netcoreapp31.System.IO.Compression.Brotli");
         private static byte[]? _SystemIOCompressionBrotli;
-
-        /// <summary>
-        /// The image bytes for System.IO.Compression.dll
-        /// </summary>
-        public static byte[] SystemIOCompression => ResourceLoader.GetOrCreateResource(ref _SystemIOCompression, "netcoreapp31.System.IO.Compression");
-        private static byte[]? _SystemIOCompression;
 
         /// <summary>
         /// The image bytes for System.IO.Compression.FileSystem.dll
@@ -3956,16 +3932,10 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemIOCompressionZipFile;
 
         /// <summary>
-        /// The image bytes for System.IO.dll
+        /// The image bytes for System.IO.Compression.dll
         /// </summary>
-        public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "netcoreapp31.System.IO");
-        private static byte[]? _SystemIO;
-
-        /// <summary>
-        /// The image bytes for System.IO.FileSystem.dll
-        /// </summary>
-        public static byte[] SystemIOFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystem, "netcoreapp31.System.IO.FileSystem");
-        private static byte[]? _SystemIOFileSystem;
+        public static byte[] SystemIOCompression => ResourceLoader.GetOrCreateResource(ref _SystemIOCompression, "netcoreapp31.System.IO.Compression");
+        private static byte[]? _SystemIOCompression;
 
         /// <summary>
         /// The image bytes for System.IO.FileSystem.DriveInfo.dll
@@ -3984,6 +3954,12 @@ public static partial class NetCoreApp31
         /// </summary>
         public static byte[] SystemIOFileSystemWatcher => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystemWatcher, "netcoreapp31.System.IO.FileSystem.Watcher");
         private static byte[]? _SystemIOFileSystemWatcher;
+
+        /// <summary>
+        /// The image bytes for System.IO.FileSystem.dll
+        /// </summary>
+        public static byte[] SystemIOFileSystem => ResourceLoader.GetOrCreateResource(ref _SystemIOFileSystem, "netcoreapp31.System.IO.FileSystem");
+        private static byte[]? _SystemIOFileSystem;
 
         /// <summary>
         /// The image bytes for System.IO.IsolatedStorage.dll
@@ -4010,10 +3986,10 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemIOUnmanagedMemoryStream;
 
         /// <summary>
-        /// The image bytes for System.Linq.dll
+        /// The image bytes for System.IO.dll
         /// </summary>
-        public static byte[] SystemLinq => ResourceLoader.GetOrCreateResource(ref _SystemLinq, "netcoreapp31.System.Linq");
-        private static byte[]? _SystemLinq;
+        public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "netcoreapp31.System.IO");
+        private static byte[]? _SystemIO;
 
         /// <summary>
         /// The image bytes for System.Linq.Expressions.dll
@@ -4034,16 +4010,16 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemLinqQueryable;
 
         /// <summary>
+        /// The image bytes for System.Linq.dll
+        /// </summary>
+        public static byte[] SystemLinq => ResourceLoader.GetOrCreateResource(ref _SystemLinq, "netcoreapp31.System.Linq");
+        private static byte[]? _SystemLinq;
+
+        /// <summary>
         /// The image bytes for System.Memory.dll
         /// </summary>
         public static byte[] SystemMemory => ResourceLoader.GetOrCreateResource(ref _SystemMemory, "netcoreapp31.System.Memory");
         private static byte[]? _SystemMemory;
-
-        /// <summary>
-        /// The image bytes for System.Net.dll
-        /// </summary>
-        public static byte[] SystemNet => ResourceLoader.GetOrCreateResource(ref _SystemNet, "netcoreapp31.System.Net");
-        private static byte[]? _SystemNet;
 
         /// <summary>
         /// The image bytes for System.Net.Http.dll
@@ -4142,16 +4118,22 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemNetWebSockets;
 
         /// <summary>
-        /// The image bytes for System.Numerics.dll
+        /// The image bytes for System.Net.dll
         /// </summary>
-        public static byte[] SystemNumerics => ResourceLoader.GetOrCreateResource(ref _SystemNumerics, "netcoreapp31.System.Numerics");
-        private static byte[]? _SystemNumerics;
+        public static byte[] SystemNet => ResourceLoader.GetOrCreateResource(ref _SystemNet, "netcoreapp31.System.Net");
+        private static byte[]? _SystemNet;
 
         /// <summary>
         /// The image bytes for System.Numerics.Vectors.dll
         /// </summary>
         public static byte[] SystemNumericsVectors => ResourceLoader.GetOrCreateResource(ref _SystemNumericsVectors, "netcoreapp31.System.Numerics.Vectors");
         private static byte[]? _SystemNumericsVectors;
+
+        /// <summary>
+        /// The image bytes for System.Numerics.dll
+        /// </summary>
+        public static byte[] SystemNumerics => ResourceLoader.GetOrCreateResource(ref _SystemNumerics, "netcoreapp31.System.Numerics");
+        private static byte[]? _SystemNumerics;
 
         /// <summary>
         /// The image bytes for System.ObjectModel.dll
@@ -4166,18 +4148,6 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemReflectionDispatchProxy;
 
         /// <summary>
-        /// The image bytes for System.Reflection.dll
-        /// </summary>
-        public static byte[] SystemReflection => ResourceLoader.GetOrCreateResource(ref _SystemReflection, "netcoreapp31.System.Reflection");
-        private static byte[]? _SystemReflection;
-
-        /// <summary>
-        /// The image bytes for System.Reflection.Emit.dll
-        /// </summary>
-        public static byte[] SystemReflectionEmit => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmit, "netcoreapp31.System.Reflection.Emit");
-        private static byte[]? _SystemReflectionEmit;
-
-        /// <summary>
         /// The image bytes for System.Reflection.Emit.ILGeneration.dll
         /// </summary>
         public static byte[] SystemReflectionEmitILGeneration => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmitILGeneration, "netcoreapp31.System.Reflection.Emit.ILGeneration");
@@ -4188,6 +4158,12 @@ public static partial class NetCoreApp31
         /// </summary>
         public static byte[] SystemReflectionEmitLightweight => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmitLightweight, "netcoreapp31.System.Reflection.Emit.Lightweight");
         private static byte[]? _SystemReflectionEmitLightweight;
+
+        /// <summary>
+        /// The image bytes for System.Reflection.Emit.dll
+        /// </summary>
+        public static byte[] SystemReflectionEmit => ResourceLoader.GetOrCreateResource(ref _SystemReflectionEmit, "netcoreapp31.System.Reflection.Emit");
+        private static byte[]? _SystemReflectionEmit;
 
         /// <summary>
         /// The image bytes for System.Reflection.Extensions.dll
@@ -4212,6 +4188,12 @@ public static partial class NetCoreApp31
         /// </summary>
         public static byte[] SystemReflectionTypeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionTypeExtensions, "netcoreapp31.System.Reflection.TypeExtensions");
         private static byte[]? _SystemReflectionTypeExtensions;
+
+        /// <summary>
+        /// The image bytes for System.Reflection.dll
+        /// </summary>
+        public static byte[] SystemReflection => ResourceLoader.GetOrCreateResource(ref _SystemReflection, "netcoreapp31.System.Reflection");
+        private static byte[]? _SystemReflection;
 
         /// <summary>
         /// The image bytes for System.Resources.Reader.dll
@@ -4244,12 +4226,6 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemRuntimeCompilerServicesVisualC;
 
         /// <summary>
-        /// The image bytes for System.Runtime.dll
-        /// </summary>
-        public static byte[] SystemRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntime, "netcoreapp31.System.Runtime");
-        private static byte[]? _SystemRuntime;
-
-        /// <summary>
         /// The image bytes for System.Runtime.Extensions.dll
         /// </summary>
         public static byte[] SystemRuntimeExtensions => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeExtensions, "netcoreapp31.System.Runtime.Extensions");
@@ -4262,12 +4238,6 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemRuntimeHandles;
 
         /// <summary>
-        /// The image bytes for System.Runtime.InteropServices.dll
-        /// </summary>
-        public static byte[] SystemRuntimeInteropServices => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServices, "netcoreapp31.System.Runtime.InteropServices");
-        private static byte[]? _SystemRuntimeInteropServices;
-
-        /// <summary>
         /// The image bytes for System.Runtime.InteropServices.RuntimeInformation.dll
         /// </summary>
         public static byte[] SystemRuntimeInteropServicesRuntimeInformation => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesRuntimeInformation, "netcoreapp31.System.Runtime.InteropServices.RuntimeInformation");
@@ -4278,6 +4248,12 @@ public static partial class NetCoreApp31
         /// </summary>
         public static byte[] SystemRuntimeInteropServicesWindowsRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesWindowsRuntime, "netcoreapp31.System.Runtime.InteropServices.WindowsRuntime");
         private static byte[]? _SystemRuntimeInteropServicesWindowsRuntime;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.InteropServices.dll
+        /// </summary>
+        public static byte[] SystemRuntimeInteropServices => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServices, "netcoreapp31.System.Runtime.InteropServices");
+        private static byte[]? _SystemRuntimeInteropServices;
 
         /// <summary>
         /// The image bytes for System.Runtime.Intrinsics.dll
@@ -4296,12 +4272,6 @@ public static partial class NetCoreApp31
         /// </summary>
         public static byte[] SystemRuntimeNumerics => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeNumerics, "netcoreapp31.System.Runtime.Numerics");
         private static byte[]? _SystemRuntimeNumerics;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.Serialization.dll
-        /// </summary>
-        public static byte[] SystemRuntimeSerialization => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerialization, "netcoreapp31.System.Runtime.Serialization");
-        private static byte[]? _SystemRuntimeSerialization;
 
         /// <summary>
         /// The image bytes for System.Runtime.Serialization.Formatters.dll
@@ -4326,6 +4296,18 @@ public static partial class NetCoreApp31
         /// </summary>
         public static byte[] SystemRuntimeSerializationXml => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationXml, "netcoreapp31.System.Runtime.Serialization.Xml");
         private static byte[]? _SystemRuntimeSerializationXml;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.Serialization.dll
+        /// </summary>
+        public static byte[] SystemRuntimeSerialization => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerialization, "netcoreapp31.System.Runtime.Serialization");
+        private static byte[]? _SystemRuntimeSerialization;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.dll
+        /// </summary>
+        public static byte[] SystemRuntime => ResourceLoader.GetOrCreateResource(ref _SystemRuntime, "netcoreapp31.System.Runtime");
+        private static byte[]? _SystemRuntime;
 
         /// <summary>
         /// The image bytes for System.Security.Claims.dll
@@ -4364,12 +4346,6 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemSecurityCryptographyX509Certificates;
 
         /// <summary>
-        /// The image bytes for System.Security.dll
-        /// </summary>
-        public static byte[] SystemSecurity => ResourceLoader.GetOrCreateResource(ref _SystemSecurity, "netcoreapp31.System.Security");
-        private static byte[]? _SystemSecurity;
-
-        /// <summary>
         /// The image bytes for System.Security.Principal.dll
         /// </summary>
         public static byte[] SystemSecurityPrincipal => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipal, "netcoreapp31.System.Security.Principal");
@@ -4380,6 +4356,12 @@ public static partial class NetCoreApp31
         /// </summary>
         public static byte[] SystemSecuritySecureString => ResourceLoader.GetOrCreateResource(ref _SystemSecuritySecureString, "netcoreapp31.System.Security.SecureString");
         private static byte[]? _SystemSecuritySecureString;
+
+        /// <summary>
+        /// The image bytes for System.Security.dll
+        /// </summary>
+        public static byte[] SystemSecurity => ResourceLoader.GetOrCreateResource(ref _SystemSecurity, "netcoreapp31.System.Security");
+        private static byte[]? _SystemSecurity;
 
         /// <summary>
         /// The image bytes for System.ServiceModel.Web.dll
@@ -4400,16 +4382,16 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemTextEncodingCodePages;
 
         /// <summary>
-        /// The image bytes for System.Text.Encoding.dll
-        /// </summary>
-        public static byte[] SystemTextEncoding => ResourceLoader.GetOrCreateResource(ref _SystemTextEncoding, "netcoreapp31.System.Text.Encoding");
-        private static byte[]? _SystemTextEncoding;
-
-        /// <summary>
         /// The image bytes for System.Text.Encoding.Extensions.dll
         /// </summary>
         public static byte[] SystemTextEncodingExtensions => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingExtensions, "netcoreapp31.System.Text.Encoding.Extensions");
         private static byte[]? _SystemTextEncodingExtensions;
+
+        /// <summary>
+        /// The image bytes for System.Text.Encoding.dll
+        /// </summary>
+        public static byte[] SystemTextEncoding => ResourceLoader.GetOrCreateResource(ref _SystemTextEncoding, "netcoreapp31.System.Text.Encoding");
+        private static byte[]? _SystemTextEncoding;
 
         /// <summary>
         /// The image bytes for System.Text.Encodings.Web.dll
@@ -4436,12 +4418,6 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemThreadingChannels;
 
         /// <summary>
-        /// The image bytes for System.Threading.dll
-        /// </summary>
-        public static byte[] SystemThreading => ResourceLoader.GetOrCreateResource(ref _SystemThreading, "netcoreapp31.System.Threading");
-        private static byte[]? _SystemThreading;
-
-        /// <summary>
         /// The image bytes for System.Threading.Overlapped.dll
         /// </summary>
         public static byte[] SystemThreadingOverlapped => ResourceLoader.GetOrCreateResource(ref _SystemThreadingOverlapped, "netcoreapp31.System.Threading.Overlapped");
@@ -4454,12 +4430,6 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemThreadingTasksDataflow;
 
         /// <summary>
-        /// The image bytes for System.Threading.Tasks.dll
-        /// </summary>
-        public static byte[] SystemThreadingTasks => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasks, "netcoreapp31.System.Threading.Tasks");
-        private static byte[]? _SystemThreadingTasks;
-
-        /// <summary>
         /// The image bytes for System.Threading.Tasks.Extensions.dll
         /// </summary>
         public static byte[] SystemThreadingTasksExtensions => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksExtensions, "netcoreapp31.System.Threading.Tasks.Extensions");
@@ -4470,6 +4440,12 @@ public static partial class NetCoreApp31
         /// </summary>
         public static byte[] SystemThreadingTasksParallel => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksParallel, "netcoreapp31.System.Threading.Tasks.Parallel");
         private static byte[]? _SystemThreadingTasksParallel;
+
+        /// <summary>
+        /// The image bytes for System.Threading.Tasks.dll
+        /// </summary>
+        public static byte[] SystemThreadingTasks => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasks, "netcoreapp31.System.Threading.Tasks");
+        private static byte[]? _SystemThreadingTasks;
 
         /// <summary>
         /// The image bytes for System.Threading.Thread.dll
@@ -4490,10 +4466,10 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemThreadingTimer;
 
         /// <summary>
-        /// The image bytes for System.Transactions.dll
+        /// The image bytes for System.Threading.dll
         /// </summary>
-        public static byte[] SystemTransactions => ResourceLoader.GetOrCreateResource(ref _SystemTransactions, "netcoreapp31.System.Transactions");
-        private static byte[]? _SystemTransactions;
+        public static byte[] SystemThreading => ResourceLoader.GetOrCreateResource(ref _SystemThreading, "netcoreapp31.System.Threading");
+        private static byte[]? _SystemThreading;
 
         /// <summary>
         /// The image bytes for System.Transactions.Local.dll
@@ -4502,16 +4478,16 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemTransactionsLocal;
 
         /// <summary>
+        /// The image bytes for System.Transactions.dll
+        /// </summary>
+        public static byte[] SystemTransactions => ResourceLoader.GetOrCreateResource(ref _SystemTransactions, "netcoreapp31.System.Transactions");
+        private static byte[]? _SystemTransactions;
+
+        /// <summary>
         /// The image bytes for System.ValueTuple.dll
         /// </summary>
         public static byte[] SystemValueTuple => ResourceLoader.GetOrCreateResource(ref _SystemValueTuple, "netcoreapp31.System.ValueTuple");
         private static byte[]? _SystemValueTuple;
-
-        /// <summary>
-        /// The image bytes for System.Web.dll
-        /// </summary>
-        public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "netcoreapp31.System.Web");
-        private static byte[]? _SystemWeb;
 
         /// <summary>
         /// The image bytes for System.Web.HttpUtility.dll
@@ -4520,16 +4496,16 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemWebHttpUtility;
 
         /// <summary>
+        /// The image bytes for System.Web.dll
+        /// </summary>
+        public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "netcoreapp31.System.Web");
+        private static byte[]? _SystemWeb;
+
+        /// <summary>
         /// The image bytes for System.Windows.dll
         /// </summary>
         public static byte[] SystemWindows => ResourceLoader.GetOrCreateResource(ref _SystemWindows, "netcoreapp31.System.Windows");
         private static byte[]? _SystemWindows;
-
-        /// <summary>
-        /// The image bytes for System.Xml.dll
-        /// </summary>
-        public static byte[] SystemXml => ResourceLoader.GetOrCreateResource(ref _SystemXml, "netcoreapp31.System.Xml");
-        private static byte[]? _SystemXml;
 
         /// <summary>
         /// The image bytes for System.Xml.Linq.dll
@@ -4556,6 +4532,18 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemXmlXDocument;
 
         /// <summary>
+        /// The image bytes for System.Xml.XPath.XDocument.dll
+        /// </summary>
+        public static byte[] SystemXmlXPathXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPathXDocument, "netcoreapp31.System.Xml.XPath.XDocument");
+        private static byte[]? _SystemXmlXPathXDocument;
+
+        /// <summary>
+        /// The image bytes for System.Xml.XPath.dll
+        /// </summary>
+        public static byte[] SystemXmlXPath => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPath, "netcoreapp31.System.Xml.XPath");
+        private static byte[]? _SystemXmlXPath;
+
+        /// <summary>
         /// The image bytes for System.Xml.XmlDocument.dll
         /// </summary>
         public static byte[] SystemXmlXmlDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXmlDocument, "netcoreapp31.System.Xml.XmlDocument");
@@ -4568,22 +4556,34 @@ public static partial class NetCoreApp31
         private static byte[]? _SystemXmlXmlSerializer;
 
         /// <summary>
-        /// The image bytes for System.Xml.XPath.dll
+        /// The image bytes for System.Xml.dll
         /// </summary>
-        public static byte[] SystemXmlXPath => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPath, "netcoreapp31.System.Xml.XPath");
-        private static byte[]? _SystemXmlXPath;
+        public static byte[] SystemXml => ResourceLoader.GetOrCreateResource(ref _SystemXml, "netcoreapp31.System.Xml");
+        private static byte[]? _SystemXml;
 
         /// <summary>
-        /// The image bytes for System.Xml.XPath.XDocument.dll
+        /// The image bytes for System.dll
         /// </summary>
-        public static byte[] SystemXmlXPathXDocument => ResourceLoader.GetOrCreateResource(ref _SystemXmlXPathXDocument, "netcoreapp31.System.Xml.XPath.XDocument");
-        private static byte[]? _SystemXmlXPathXDocument;
+        public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "netcoreapp31.System");
+        private static byte[]? _System;
 
         /// <summary>
         /// The image bytes for WindowsBase.dll
         /// </summary>
         public static byte[] WindowsBase => ResourceLoader.GetOrCreateResource(ref _WindowsBase, "netcoreapp31.WindowsBase");
         private static byte[]? _WindowsBase;
+
+        /// <summary>
+        /// The image bytes for mscorlib.dll
+        /// </summary>
+        public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "netcoreapp31.mscorlib");
+        private static byte[]? _mscorlib;
+
+        /// <summary>
+        /// The image bytes for netstandard.dll
+        /// </summary>
+        public static byte[] netstandard => ResourceLoader.GetOrCreateResource(ref _netstandard, "netcoreapp31.netstandard");
+        private static byte[]? _netstandard;
 
 
     }

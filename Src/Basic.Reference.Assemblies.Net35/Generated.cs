@@ -23,11 +23,6 @@ public static partial class Net35
         public static ReferenceInfo AspNetMMCExt => new ReferenceInfo("AspNetMMCExt.dll", Resources.AspNetMMCExt, Net35.References.AspNetMMCExt, global::System.Guid.Parse("02516558-dd3b-4d52-8044-932c92249709"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for cscompmgd.dll
-        /// </summary>
-        public static ReferenceInfo cscompmgd => new ReferenceInfo("cscompmgd.dll", Resources.cscompmgd, Net35.References.cscompmgd, global::System.Guid.Parse("dea8ed4d-de6a-4e0d-b2ca-d4ca55b60f59"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for CustomMarshalers.dll
         /// </summary>
         public static ReferenceInfo CustomMarshalers => new ReferenceInfo("CustomMarshalers.dll", Resources.CustomMarshalers, Net35.References.CustomMarshalers, global::System.Guid.Parse("a0dd71d8-45fa-4ac7-8ee9-078588faa29c"));
@@ -98,19 +93,14 @@ public static partial class Net35
         public static ReferenceInfo MicrosoftVisualBasicCompatibility => new ReferenceInfo("Microsoft.VisualBasic.Compatibility.dll", Resources.MicrosoftVisualBasicCompatibility, Net35.References.MicrosoftVisualBasicCompatibility, global::System.Guid.Parse("b22a5c10-3d52-4029-9bb7-c0f69849eea0"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.dll
-        /// </summary>
-        public static ReferenceInfo MicrosoftVisualBasic => new ReferenceInfo("Microsoft.VisualBasic.dll", Resources.MicrosoftVisualBasic, Net35.References.MicrosoftVisualBasic, global::System.Guid.Parse("ef293da8-f2e5-468d-ad40-816c38465e72"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.Vsa.dll
         /// </summary>
         public static ReferenceInfo MicrosoftVisualBasicVsa => new ReferenceInfo("Microsoft.VisualBasic.Vsa.dll", Resources.MicrosoftVisualBasicVsa, Net35.References.MicrosoftVisualBasicVsa, global::System.Guid.Parse("0f074f2d-7043-4932-b7e7-11ff61216ed5"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for Microsoft.VisualC.dll
+        /// The <see cref="ReferenceInfo"/> for Microsoft.VisualBasic.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftVisualC => new ReferenceInfo("Microsoft.VisualC.dll", Resources.MicrosoftVisualC, Net35.References.MicrosoftVisualC, global::System.Guid.Parse("ab850ffe-3ee4-4b05-b7eb-787402c89e2b"));
+        public static ReferenceInfo MicrosoftVisualBasic => new ReferenceInfo("Microsoft.VisualBasic.dll", Resources.MicrosoftVisualBasic, Net35.References.MicrosoftVisualBasic, global::System.Guid.Parse("ef293da8-f2e5-468d-ad40-816c38465e72"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.VisualC.STLCLR.dll
@@ -118,9 +108,9 @@ public static partial class Net35
         public static ReferenceInfo MicrosoftVisualCSTLCLR => new ReferenceInfo("Microsoft.VisualC.STLCLR.dll", Resources.MicrosoftVisualCSTLCLR, Net35.References.MicrosoftVisualCSTLCLR, global::System.Guid.Parse("8da08f9a-d302-481b-8988-3aa2faf28452"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for Microsoft.Vsa.dll
+        /// The <see cref="ReferenceInfo"/> for Microsoft.VisualC.dll
         /// </summary>
-        public static ReferenceInfo MicrosoftVsa => new ReferenceInfo("Microsoft.Vsa.dll", Resources.MicrosoftVsa, Net35.References.MicrosoftVsa, global::System.Guid.Parse("ea65db04-742c-43b0-aec1-3e14c1e1b1f2"));
+        public static ReferenceInfo MicrosoftVisualC => new ReferenceInfo("Microsoft.VisualC.dll", Resources.MicrosoftVisualC, Net35.References.MicrosoftVisualC, global::System.Guid.Parse("ab850ffe-3ee4-4b05-b7eb-787402c89e2b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft.Vsa.Vb.CodeDOMProcessor.dll
@@ -128,14 +118,14 @@ public static partial class Net35
         public static ReferenceInfo MicrosoftVsaVbCodeDOMProcessor => new ReferenceInfo("Microsoft.Vsa.Vb.CodeDOMProcessor.dll", Resources.MicrosoftVsaVbCodeDOMProcessor, Net35.References.MicrosoftVsaVbCodeDOMProcessor, global::System.Guid.Parse("24ce8589-bea4-4635-b20f-e559b6bb42dd"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for Microsoft.Vsa.dll
+        /// </summary>
+        public static ReferenceInfo MicrosoftVsa => new ReferenceInfo("Microsoft.Vsa.dll", Resources.MicrosoftVsa, Net35.References.MicrosoftVsa, global::System.Guid.Parse("ea65db04-742c-43b0-aec1-3e14c1e1b1f2"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for Microsoft_VsaVb.dll
         /// </summary>
         public static ReferenceInfo Microsoft_VsaVb => new ReferenceInfo("Microsoft_VsaVb.dll", Resources.Microsoft_VsaVb, Net35.References.Microsoft_VsaVb, global::System.Guid.Parse("edcead0d-f6ec-48cb-9dbf-e1de2b0f3911"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for mscorlib.dll
-        /// </summary>
-        public static ReferenceInfo mscorlib => new ReferenceInfo("mscorlib.dll", Resources.mscorlib, Net35.References.mscorlib, global::System.Guid.Parse("c28a86ac-9899-4084-a29d-1009e48b7ad8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for PresentationBuildTasks.dll
@@ -158,11 +148,6 @@ public static partial class Net35
         public static ReferenceInfo PresentationFrameworkClassic => new ReferenceInfo("PresentationFramework.Classic.dll", Resources.PresentationFrameworkClassic, Net35.References.PresentationFrameworkClassic, global::System.Guid.Parse("4293ac26-ecb6-418b-9b42-b945c74ecb17"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for PresentationFramework.dll
-        /// </summary>
-        public static ReferenceInfo PresentationFramework => new ReferenceInfo("PresentationFramework.dll", Resources.PresentationFramework, Net35.References.PresentationFramework, global::System.Guid.Parse("1d43c0ba-2ab6-4ef5-b263-a3f7174edfd1"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for PresentationFramework.Luna.dll
         /// </summary>
         public static ReferenceInfo PresentationFrameworkLuna => new ReferenceInfo("PresentationFramework.Luna.dll", Resources.PresentationFrameworkLuna, Net35.References.PresentationFrameworkLuna, global::System.Guid.Parse("b5363575-6318-47ab-97e7-a8746ad2f3a4"));
@@ -173,14 +158,14 @@ public static partial class Net35
         public static ReferenceInfo PresentationFrameworkRoyale => new ReferenceInfo("PresentationFramework.Royale.dll", Resources.PresentationFrameworkRoyale, Net35.References.PresentationFrameworkRoyale, global::System.Guid.Parse("97c52d7a-d92f-40e8-8db0-a03cf423f41f"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for PresentationFramework.dll
+        /// </summary>
+        public static ReferenceInfo PresentationFramework => new ReferenceInfo("PresentationFramework.dll", Resources.PresentationFramework, Net35.References.PresentationFramework, global::System.Guid.Parse("1d43c0ba-2ab6-4ef5-b263-a3f7174edfd1"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for ReachFramework.dll
         /// </summary>
         public static ReferenceInfo ReachFramework => new ReferenceInfo("ReachFramework.dll", Resources.ReachFramework, Net35.References.ReachFramework, global::System.Guid.Parse("4561e5d1-1276-4ac1-9340-cd0b8ee96d73"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for sysglobl.dll
-        /// </summary>
-        public static ReferenceInfo sysglobl => new ReferenceInfo("sysglobl.dll", Resources.sysglobl, Net35.References.sysglobl, global::System.Guid.Parse("b42493d9-0943-46d3-9f2e-35820ab0dda4"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.AddIn.Contract.dll
@@ -198,14 +183,14 @@ public static partial class Net35
         public static ReferenceInfo SystemComponentModelDataAnnotations => new ReferenceInfo("System.ComponentModel.DataAnnotations.dll", Resources.SystemComponentModelDataAnnotations, Net35.References.SystemComponentModelDataAnnotations, global::System.Guid.Parse("88a57291-36f2-4bb6-97e7-a74c3652e3c6"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Configuration.dll
-        /// </summary>
-        public static ReferenceInfo SystemConfiguration => new ReferenceInfo("System.Configuration.dll", Resources.SystemConfiguration, Net35.References.SystemConfiguration, global::System.Guid.Parse("dc65cb6e-6c21-4a2e-ab41-b45e830b07b2"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Configuration.Install.dll
         /// </summary>
         public static ReferenceInfo SystemConfigurationInstall => new ReferenceInfo("System.Configuration.Install.dll", Resources.SystemConfigurationInstall, Net35.References.SystemConfigurationInstall, global::System.Guid.Parse("bf98b925-89bf-4880-acec-a09c2dc49207"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Configuration.dll
+        /// </summary>
+        public static ReferenceInfo SystemConfiguration => new ReferenceInfo("System.Configuration.dll", Resources.SystemConfiguration, Net35.References.SystemConfiguration, global::System.Guid.Parse("dc65cb6e-6c21-4a2e-ab41-b45e830b07b2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Core.dll
@@ -216,11 +201,6 @@ public static partial class Net35
         /// The <see cref="ReferenceInfo"/> for System.Data.DataSetExtensions.dll
         /// </summary>
         public static ReferenceInfo SystemDataDataSetExtensions => new ReferenceInfo("System.Data.DataSetExtensions.dll", Resources.SystemDataDataSetExtensions, Net35.References.SystemDataDataSetExtensions, global::System.Guid.Parse("9b389b5c-da2c-4724-a4fa-fbe7c0101191"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Data.dll
-        /// </summary>
-        public static ReferenceInfo SystemData => new ReferenceInfo("System.Data.dll", Resources.SystemData, Net35.References.SystemData, global::System.Guid.Parse("71c83da2-b121-45f8-bc99-4fdc019a2af2"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Data.Entity.Design.dll
@@ -263,6 +243,11 @@ public static partial class Net35
         public static ReferenceInfo SystemDataSqlXml => new ReferenceInfo("System.Data.SqlXml.dll", Resources.SystemDataSqlXml, Net35.References.SystemDataSqlXml, global::System.Guid.Parse("a5889030-e4fd-4920-bc75-054c588ca9cd"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Data.dll
+        /// </summary>
+        public static ReferenceInfo SystemData => new ReferenceInfo("System.Data.dll", Resources.SystemData, Net35.References.SystemData, global::System.Guid.Parse("71c83da2-b121-45f8-bc99-4fdc019a2af2"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Deployment.dll
         /// </summary>
         public static ReferenceInfo SystemDeployment => new ReferenceInfo("System.Deployment.dll", Resources.SystemDeployment, Net35.References.SystemDeployment, global::System.Guid.Parse("2679849b-1094-4c61-8ff4-c7c409f381da"));
@@ -278,19 +263,14 @@ public static partial class Net35
         public static ReferenceInfo SystemDirectoryServicesAccountManagement => new ReferenceInfo("System.DirectoryServices.AccountManagement.dll", Resources.SystemDirectoryServicesAccountManagement, Net35.References.SystemDirectoryServicesAccountManagement, global::System.Guid.Parse("5360ff29-42b3-45a6-b321-2c72fd8852e3"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.DirectoryServices.dll
-        /// </summary>
-        public static ReferenceInfo SystemDirectoryServices => new ReferenceInfo("System.DirectoryServices.dll", Resources.SystemDirectoryServices, Net35.References.SystemDirectoryServices, global::System.Guid.Parse("45f02b40-074a-4c3a-8be2-395b6b6c8ddb"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.DirectoryServices.Protocols.dll
         /// </summary>
         public static ReferenceInfo SystemDirectoryServicesProtocols => new ReferenceInfo("System.DirectoryServices.Protocols.dll", Resources.SystemDirectoryServicesProtocols, Net35.References.SystemDirectoryServicesProtocols, global::System.Guid.Parse("1ce43ead-cae9-487d-b2ad-7e5d11e54d75"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.dll
+        /// The <see cref="ReferenceInfo"/> for System.DirectoryServices.dll
         /// </summary>
-        public static ReferenceInfo System => new ReferenceInfo("System.dll", Resources.System, Net35.References.System, global::System.Guid.Parse("ae0ee58d-2eb9-4874-9124-adc3b456c262"));
+        public static ReferenceInfo SystemDirectoryServices => new ReferenceInfo("System.DirectoryServices.dll", Resources.SystemDirectoryServices, Net35.References.SystemDirectoryServices, global::System.Guid.Parse("45f02b40-074a-4c3a-8be2-395b6b6c8ddb"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Drawing.Design.dll
@@ -308,9 +288,9 @@ public static partial class Net35
         public static ReferenceInfo SystemEnterpriseServices => new ReferenceInfo("System.EnterpriseServices.dll", Resources.SystemEnterpriseServices, Net35.References.SystemEnterpriseServices, global::System.Guid.Parse("7a462087-7be0-46d1-b6ab-b5c74d8b9000"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IdentityModel.dll
+        /// The <see cref="ReferenceInfo"/> for System.IO.Log.dll
         /// </summary>
-        public static ReferenceInfo SystemIdentityModel => new ReferenceInfo("System.IdentityModel.dll", Resources.SystemIdentityModel, Net35.References.SystemIdentityModel, global::System.Guid.Parse("3a4ebf5d-4cbb-4d49-98c8-fc6c4c0b9c1b"));
+        public static ReferenceInfo SystemIOLog => new ReferenceInfo("System.IO.Log.dll", Resources.SystemIOLog, Net35.References.SystemIOLog, global::System.Guid.Parse("dfe40461-3882-4db9-9b3d-8156a44e1611"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.IdentityModel.Selectors.dll
@@ -318,19 +298,19 @@ public static partial class Net35
         public static ReferenceInfo SystemIdentityModelSelectors => new ReferenceInfo("System.IdentityModel.Selectors.dll", Resources.SystemIdentityModelSelectors, Net35.References.SystemIdentityModelSelectors, global::System.Guid.Parse("037ad437-90cf-4fa0-84ee-b7b3140e375e"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.Log.dll
+        /// The <see cref="ReferenceInfo"/> for System.IdentityModel.dll
         /// </summary>
-        public static ReferenceInfo SystemIOLog => new ReferenceInfo("System.IO.Log.dll", Resources.SystemIOLog, Net35.References.SystemIOLog, global::System.Guid.Parse("dfe40461-3882-4db9-9b3d-8156a44e1611"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Management.dll
-        /// </summary>
-        public static ReferenceInfo SystemManagement => new ReferenceInfo("System.Management.dll", Resources.SystemManagement, Net35.References.SystemManagement, global::System.Guid.Parse("87c7a545-4dd4-4371-b04a-d94fa5b787a9"));
+        public static ReferenceInfo SystemIdentityModel => new ReferenceInfo("System.IdentityModel.dll", Resources.SystemIdentityModel, Net35.References.SystemIdentityModel, global::System.Guid.Parse("3a4ebf5d-4cbb-4d49-98c8-fc6c4c0b9c1b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Management.Instrumentation.dll
         /// </summary>
         public static ReferenceInfo SystemManagementInstrumentation => new ReferenceInfo("System.Management.Instrumentation.dll", Resources.SystemManagementInstrumentation, Net35.References.SystemManagementInstrumentation, global::System.Guid.Parse("8af849ec-370a-4546-9e7b-32089911451e"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Management.dll
+        /// </summary>
+        public static ReferenceInfo SystemManagement => new ReferenceInfo("System.Management.dll", Resources.SystemManagement, Net35.References.SystemManagement, global::System.Guid.Parse("87c7a545-4dd4-4371-b04a-d94fa5b787a9"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Messaging.dll
@@ -353,14 +333,14 @@ public static partial class Net35
         public static ReferenceInfo SystemRuntimeRemoting => new ReferenceInfo("System.Runtime.Remoting.dll", Resources.SystemRuntimeRemoting, Net35.References.SystemRuntimeRemoting, global::System.Guid.Parse("1c46448d-8f5e-47a8-9a43-bc51cf644907"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.dll
-        /// </summary>
-        public static ReferenceInfo SystemRuntimeSerialization => new ReferenceInfo("System.Runtime.Serialization.dll", Resources.SystemRuntimeSerialization, Net35.References.SystemRuntimeSerialization, global::System.Guid.Parse("f87060cd-5d0f-49aa-be3b-39e68627825a"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Formatters.Soap.dll
         /// </summary>
         public static ReferenceInfo SystemRuntimeSerializationFormattersSoap => new ReferenceInfo("System.Runtime.Serialization.Formatters.Soap.dll", Resources.SystemRuntimeSerializationFormattersSoap, Net35.References.SystemRuntimeSerializationFormattersSoap, global::System.Guid.Parse("1fefa0cb-4333-4e85-b6a9-e07b213ac91d"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.dll
+        /// </summary>
+        public static ReferenceInfo SystemRuntimeSerialization => new ReferenceInfo("System.Runtime.Serialization.dll", Resources.SystemRuntimeSerialization, Net35.References.SystemRuntimeSerialization, global::System.Guid.Parse("f87060cd-5d0f-49aa-be3b-39e68627825a"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Security.dll
@@ -368,14 +348,14 @@ public static partial class Net35
         public static ReferenceInfo SystemSecurity => new ReferenceInfo("System.Security.dll", Resources.SystemSecurity, Net35.References.SystemSecurity, global::System.Guid.Parse("e71be16e-c183-4898-b1c0-0ddc08351739"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.ServiceModel.dll
-        /// </summary>
-        public static ReferenceInfo SystemServiceModel => new ReferenceInfo("System.ServiceModel.dll", Resources.SystemServiceModel, Net35.References.SystemServiceModel, global::System.Guid.Parse("fe9d3308-afbe-4c26-b18d-de799ac830c8"));
-
-        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ServiceModel.Web.dll
         /// </summary>
         public static ReferenceInfo SystemServiceModelWeb => new ReferenceInfo("System.ServiceModel.Web.dll", Resources.SystemServiceModelWeb, Net35.References.SystemServiceModelWeb, global::System.Guid.Parse("58b5d74b-3759-4c4b-8f30-908a3b4a971c"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.ServiceModel.dll
+        /// </summary>
+        public static ReferenceInfo SystemServiceModel => new ReferenceInfo("System.ServiceModel.dll", Resources.SystemServiceModel, Net35.References.SystemServiceModel, global::System.Guid.Parse("fe9d3308-afbe-4c26-b18d-de799ac830c8"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ServiceProcess.dll
@@ -396,11 +376,6 @@ public static partial class Net35
         /// The <see cref="ReferenceInfo"/> for System.Web.Abstractions.dll
         /// </summary>
         public static ReferenceInfo SystemWebAbstractions => new ReferenceInfo("System.Web.Abstractions.dll", Resources.SystemWebAbstractions, Net35.References.SystemWebAbstractions, global::System.Guid.Parse("40028a53-8768-425b-a289-fc2c7e586f09"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Web.dll
-        /// </summary>
-        public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, Net35.References.SystemWeb, global::System.Guid.Parse("5c9bf923-1bf1-4965-a83e-39497a0aa550"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Web.DynamicData.Design.dll
@@ -453,6 +428,11 @@ public static partial class Net35
         public static ReferenceInfo SystemWebServices => new ReferenceInfo("System.Web.Services.dll", Resources.SystemWebServices, Net35.References.SystemWebServices, global::System.Guid.Parse("b8ca874d-9236-4c8f-854d-d5bdb186ce69"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Web.dll
+        /// </summary>
+        public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, Net35.References.SystemWeb, global::System.Guid.Parse("5c9bf923-1bf1-4965-a83e-39497a0aa550"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Windows.Forms.dll
         /// </summary>
         public static ReferenceInfo SystemWindowsForms => new ReferenceInfo("System.Windows.Forms.dll", Resources.SystemWindowsForms, Net35.References.SystemWindowsForms, global::System.Guid.Parse("6f35ac57-7eb4-469d-992c-df19f25598fa"));
@@ -483,14 +463,19 @@ public static partial class Net35
         public static ReferenceInfo SystemWorkflowServices => new ReferenceInfo("System.WorkflowServices.dll", Resources.SystemWorkflowServices, Net35.References.SystemWorkflowServices, global::System.Guid.Parse("648c9bc4-661b-4065-b594-b266a67facca"));
 
         /// <summary>
+        /// The <see cref="ReferenceInfo"/> for System.Xml.Linq.dll
+        /// </summary>
+        public static ReferenceInfo SystemXmlLinq => new ReferenceInfo("System.Xml.Linq.dll", Resources.SystemXmlLinq, Net35.References.SystemXmlLinq, global::System.Guid.Parse("904fe4bb-0ca8-44f7-ba21-ee9f913d4fe0"));
+
+        /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.dll
         /// </summary>
         public static ReferenceInfo SystemXml => new ReferenceInfo("System.Xml.dll", Resources.SystemXml, Net35.References.SystemXml, global::System.Guid.Parse("6ff059a9-08a8-4aa4-97c4-d0f6845b508a"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Xml.Linq.dll
+        /// The <see cref="ReferenceInfo"/> for System.dll
         /// </summary>
-        public static ReferenceInfo SystemXmlLinq => new ReferenceInfo("System.Xml.Linq.dll", Resources.SystemXmlLinq, Net35.References.SystemXmlLinq, global::System.Guid.Parse("904fe4bb-0ca8-44f7-ba21-ee9f913d4fe0"));
+        public static ReferenceInfo System => new ReferenceInfo("System.dll", Resources.System, Net35.References.System, global::System.Guid.Parse("ae0ee58d-2eb9-4874-9124-adc3b456c262"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for UIAutomationClient.dll
@@ -521,6 +506,21 @@ public static partial class Net35
         /// The <see cref="ReferenceInfo"/> for WindowsFormsIntegration.dll
         /// </summary>
         public static ReferenceInfo WindowsFormsIntegration => new ReferenceInfo("WindowsFormsIntegration.dll", Resources.WindowsFormsIntegration, Net35.References.WindowsFormsIntegration, global::System.Guid.Parse("e8527c3e-671e-4d16-b92d-45bf422f5a23"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for cscompmgd.dll
+        /// </summary>
+        public static ReferenceInfo cscompmgd => new ReferenceInfo("cscompmgd.dll", Resources.cscompmgd, Net35.References.cscompmgd, global::System.Guid.Parse("dea8ed4d-de6a-4e0d-b2ca-d4ca55b60f59"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for mscorlib.dll
+        /// </summary>
+        public static ReferenceInfo mscorlib => new ReferenceInfo("mscorlib.dll", Resources.mscorlib, Net35.References.mscorlib, global::System.Guid.Parse("c28a86ac-9899-4084-a29d-1009e48b7ad8"));
+
+        /// <summary>
+        /// The <see cref="ReferenceInfo"/> for sysglobl.dll
+        /// </summary>
+        public static ReferenceInfo sysglobl => new ReferenceInfo("sysglobl.dll", Resources.sysglobl, Net35.References.sysglobl, global::System.Guid.Parse("b42493d9-0943-46d3-9f2e-35820ab0dda4"));
         private static ImmutableArray<ReferenceInfo> _all;
         public static ImmutableArray<ReferenceInfo> All
         {
@@ -532,7 +532,6 @@ public static partial class Net35
                     [
                         Accessibility,
                         AspNetMMCExt,
-                        cscompmgd,
                         CustomMarshalers,
                         IEExecRemote,
                         IEHost,
@@ -547,31 +546,28 @@ public static partial class Net35
                         MicrosoftJScript,
                         MicrosoftVisualBasicCompatibilityData,
                         MicrosoftVisualBasicCompatibility,
-                        MicrosoftVisualBasic,
                         MicrosoftVisualBasicVsa,
-                        MicrosoftVisualC,
+                        MicrosoftVisualBasic,
                         MicrosoftVisualCSTLCLR,
-                        MicrosoftVsa,
+                        MicrosoftVisualC,
                         MicrosoftVsaVbCodeDOMProcessor,
+                        MicrosoftVsa,
                         Microsoft_VsaVb,
-                        mscorlib,
                         PresentationBuildTasks,
                         PresentationCore,
                         PresentationFrameworkAero,
                         PresentationFrameworkClassic,
-                        PresentationFramework,
                         PresentationFrameworkLuna,
                         PresentationFrameworkRoyale,
+                        PresentationFramework,
                         ReachFramework,
-                        sysglobl,
                         SystemAddInContract,
                         SystemAddIn,
                         SystemComponentModelDataAnnotations,
-                        SystemConfiguration,
                         SystemConfigurationInstall,
+                        SystemConfiguration,
                         SystemCore,
                         SystemDataDataSetExtensions,
-                        SystemData,
                         SystemDataEntityDesign,
                         SystemDataEntity,
                         SystemDataLinq,
@@ -580,34 +576,33 @@ public static partial class Net35
                         SystemDataServicesDesign,
                         SystemDataServices,
                         SystemDataSqlXml,
+                        SystemData,
                         SystemDeployment,
                         SystemDesign,
                         SystemDirectoryServicesAccountManagement,
-                        SystemDirectoryServices,
                         SystemDirectoryServicesProtocols,
-                        System,
+                        SystemDirectoryServices,
                         SystemDrawingDesign,
                         SystemDrawing,
                         SystemEnterpriseServices,
-                        SystemIdentityModel,
-                        SystemIdentityModelSelectors,
                         SystemIOLog,
-                        SystemManagement,
+                        SystemIdentityModelSelectors,
+                        SystemIdentityModel,
                         SystemManagementInstrumentation,
+                        SystemManagement,
                         SystemMessaging,
                         SystemNet,
                         SystemPrinting,
                         SystemRuntimeRemoting,
-                        SystemRuntimeSerialization,
                         SystemRuntimeSerializationFormattersSoap,
+                        SystemRuntimeSerialization,
                         SystemSecurity,
-                        SystemServiceModel,
                         SystemServiceModelWeb,
+                        SystemServiceModel,
                         SystemServiceProcess,
                         SystemSpeech,
                         SystemTransactions,
                         SystemWebAbstractions,
-                        SystemWeb,
                         SystemWebDynamicDataDesign,
                         SystemWebDynamicData,
                         SystemWebEntityDesign,
@@ -618,20 +613,25 @@ public static partial class Net35
                         SystemWebRegularExpressions,
                         SystemWebRouting,
                         SystemWebServices,
+                        SystemWeb,
                         SystemWindowsForms,
                         SystemWindowsPresentation,
                         SystemWorkflowActivities,
                         SystemWorkflowComponentModel,
                         SystemWorkflowRuntime,
                         SystemWorkflowServices,
-                        SystemXml,
                         SystemXmlLinq,
+                        SystemXml,
+                        System,
                         UIAutomationClient,
                         UIAutomationClientsideProviders,
                         UIAutomationProvider,
                         UIAutomationTypes,
                         WindowsBase,
                         WindowsFormsIntegration,
+                        cscompmgd,
+                        mscorlib,
+                        sysglobl,
                     ];
                 }
                 return _all;
@@ -677,23 +677,6 @@ public static partial class Net35
                     _AspNetMMCExt = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.AspNetMMCExt")).GetReference(filePath: "AspNetMMCExt.dll", display: "AspNetMMCExt (net35)");
                 }
                 return _AspNetMMCExt;
-            }
-        }
-
-        private static PortableExecutableReference? _cscompmgd;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for cscompmgd.dll
-        /// </summary>
-        public static PortableExecutableReference cscompmgd
-        {
-            get
-            {
-                if (_cscompmgd is null)
-                {
-                    _cscompmgd = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.cscompmgd")).GetReference(filePath: "cscompmgd.dll", display: "cscompmgd (net35)");
-                }
-                return _cscompmgd;
             }
         }
 
@@ -935,23 +918,6 @@ public static partial class Net35
             }
         }
 
-        private static PortableExecutableReference? _MicrosoftVisualBasic;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for Microsoft.VisualBasic.dll
-        /// </summary>
-        public static PortableExecutableReference MicrosoftVisualBasic
-        {
-            get
-            {
-                if (_MicrosoftVisualBasic is null)
-                {
-                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net35)");
-                }
-                return _MicrosoftVisualBasic;
-            }
-        }
-
         private static PortableExecutableReference? _MicrosoftVisualBasicVsa;
 
         /// <summary>
@@ -969,20 +935,20 @@ public static partial class Net35
             }
         }
 
-        private static PortableExecutableReference? _MicrosoftVisualC;
+        private static PortableExecutableReference? _MicrosoftVisualBasic;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for Microsoft.VisualC.dll
+        /// The <see cref="PortableExecutableReference"/> for Microsoft.VisualBasic.dll
         /// </summary>
-        public static PortableExecutableReference MicrosoftVisualC
+        public static PortableExecutableReference MicrosoftVisualBasic
         {
             get
             {
-                if (_MicrosoftVisualC is null)
+                if (_MicrosoftVisualBasic is null)
                 {
-                    _MicrosoftVisualC = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.VisualC")).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net35)");
+                    _MicrosoftVisualBasic = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.VisualBasic")).GetReference(filePath: "Microsoft.VisualBasic.dll", display: "Microsoft.VisualBasic (net35)");
                 }
-                return _MicrosoftVisualC;
+                return _MicrosoftVisualBasic;
             }
         }
 
@@ -1003,20 +969,20 @@ public static partial class Net35
             }
         }
 
-        private static PortableExecutableReference? _MicrosoftVsa;
+        private static PortableExecutableReference? _MicrosoftVisualC;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for Microsoft.Vsa.dll
+        /// The <see cref="PortableExecutableReference"/> for Microsoft.VisualC.dll
         /// </summary>
-        public static PortableExecutableReference MicrosoftVsa
+        public static PortableExecutableReference MicrosoftVisualC
         {
             get
             {
-                if (_MicrosoftVsa is null)
+                if (_MicrosoftVisualC is null)
                 {
-                    _MicrosoftVsa = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.Vsa")).GetReference(filePath: "Microsoft.Vsa.dll", display: "Microsoft.Vsa (net35)");
+                    _MicrosoftVisualC = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.VisualC")).GetReference(filePath: "Microsoft.VisualC.dll", display: "Microsoft.VisualC (net35)");
                 }
-                return _MicrosoftVsa;
+                return _MicrosoftVisualC;
             }
         }
 
@@ -1037,6 +1003,23 @@ public static partial class Net35
             }
         }
 
+        private static PortableExecutableReference? _MicrosoftVsa;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for Microsoft.Vsa.dll
+        /// </summary>
+        public static PortableExecutableReference MicrosoftVsa
+        {
+            get
+            {
+                if (_MicrosoftVsa is null)
+                {
+                    _MicrosoftVsa = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft.Vsa")).GetReference(filePath: "Microsoft.Vsa.dll", display: "Microsoft.Vsa (net35)");
+                }
+                return _MicrosoftVsa;
+            }
+        }
+
         private static PortableExecutableReference? _Microsoft_VsaVb;
 
         /// <summary>
@@ -1051,23 +1034,6 @@ public static partial class Net35
                     _Microsoft_VsaVb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.Microsoft_VsaVb")).GetReference(filePath: "Microsoft_VsaVb.dll", display: "Microsoft_VsaVb (net35)");
                 }
                 return _Microsoft_VsaVb;
-            }
-        }
-
-        private static PortableExecutableReference? _mscorlib;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for mscorlib.dll
-        /// </summary>
-        public static PortableExecutableReference mscorlib
-        {
-            get
-            {
-                if (_mscorlib is null)
-                {
-                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net35)");
-                }
-                return _mscorlib;
             }
         }
 
@@ -1139,23 +1105,6 @@ public static partial class Net35
             }
         }
 
-        private static PortableExecutableReference? _PresentationFramework;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for PresentationFramework.dll
-        /// </summary>
-        public static PortableExecutableReference PresentationFramework
-        {
-            get
-            {
-                if (_PresentationFramework is null)
-                {
-                    _PresentationFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.PresentationFramework")).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net35)");
-                }
-                return _PresentationFramework;
-            }
-        }
-
         private static PortableExecutableReference? _PresentationFrameworkLuna;
 
         /// <summary>
@@ -1190,6 +1139,23 @@ public static partial class Net35
             }
         }
 
+        private static PortableExecutableReference? _PresentationFramework;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for PresentationFramework.dll
+        /// </summary>
+        public static PortableExecutableReference PresentationFramework
+        {
+            get
+            {
+                if (_PresentationFramework is null)
+                {
+                    _PresentationFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.PresentationFramework")).GetReference(filePath: "PresentationFramework.dll", display: "PresentationFramework (net35)");
+                }
+                return _PresentationFramework;
+            }
+        }
+
         private static PortableExecutableReference? _ReachFramework;
 
         /// <summary>
@@ -1204,23 +1170,6 @@ public static partial class Net35
                     _ReachFramework = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.ReachFramework")).GetReference(filePath: "ReachFramework.dll", display: "ReachFramework (net35)");
                 }
                 return _ReachFramework;
-            }
-        }
-
-        private static PortableExecutableReference? _sysglobl;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for sysglobl.dll
-        /// </summary>
-        public static PortableExecutableReference sysglobl
-        {
-            get
-            {
-                if (_sysglobl is null)
-                {
-                    _sysglobl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.sysglobl")).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net35)");
-                }
-                return _sysglobl;
             }
         }
 
@@ -1275,23 +1224,6 @@ public static partial class Net35
             }
         }
 
-        private static PortableExecutableReference? _SystemConfiguration;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Configuration.dll
-        /// </summary>
-        public static PortableExecutableReference SystemConfiguration
-        {
-            get
-            {
-                if (_SystemConfiguration is null)
-                {
-                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Configuration")).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net35)");
-                }
-                return _SystemConfiguration;
-            }
-        }
-
         private static PortableExecutableReference? _SystemConfigurationInstall;
 
         /// <summary>
@@ -1306,6 +1238,23 @@ public static partial class Net35
                     _SystemConfigurationInstall = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Configuration.Install")).GetReference(filePath: "System.Configuration.Install.dll", display: "System.Configuration.Install (net35)");
                 }
                 return _SystemConfigurationInstall;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemConfiguration;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Configuration.dll
+        /// </summary>
+        public static PortableExecutableReference SystemConfiguration
+        {
+            get
+            {
+                if (_SystemConfiguration is null)
+                {
+                    _SystemConfiguration = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Configuration")).GetReference(filePath: "System.Configuration.dll", display: "System.Configuration (net35)");
+                }
+                return _SystemConfiguration;
             }
         }
 
@@ -1340,23 +1289,6 @@ public static partial class Net35
                     _SystemDataDataSetExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Data.DataSetExtensions")).GetReference(filePath: "System.Data.DataSetExtensions.dll", display: "System.Data.DataSetExtensions (net35)");
                 }
                 return _SystemDataDataSetExtensions;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemData;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Data.dll
-        /// </summary>
-        public static PortableExecutableReference SystemData
-        {
-            get
-            {
-                if (_SystemData is null)
-                {
-                    _SystemData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Data")).GetReference(filePath: "System.Data.dll", display: "System.Data (net35)");
-                }
-                return _SystemData;
             }
         }
 
@@ -1496,6 +1428,23 @@ public static partial class Net35
             }
         }
 
+        private static PortableExecutableReference? _SystemData;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Data.dll
+        /// </summary>
+        public static PortableExecutableReference SystemData
+        {
+            get
+            {
+                if (_SystemData is null)
+                {
+                    _SystemData = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Data")).GetReference(filePath: "System.Data.dll", display: "System.Data (net35)");
+                }
+                return _SystemData;
+            }
+        }
+
         private static PortableExecutableReference? _SystemDeployment;
 
         /// <summary>
@@ -1547,23 +1496,6 @@ public static partial class Net35
             }
         }
 
-        private static PortableExecutableReference? _SystemDirectoryServices;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.DirectoryServices.dll
-        /// </summary>
-        public static PortableExecutableReference SystemDirectoryServices
-        {
-            get
-            {
-                if (_SystemDirectoryServices is null)
-                {
-                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.DirectoryServices")).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net35)");
-                }
-                return _SystemDirectoryServices;
-            }
-        }
-
         private static PortableExecutableReference? _SystemDirectoryServicesProtocols;
 
         /// <summary>
@@ -1581,20 +1513,20 @@ public static partial class Net35
             }
         }
 
-        private static PortableExecutableReference? _System;
+        private static PortableExecutableReference? _SystemDirectoryServices;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.dll
+        /// The <see cref="PortableExecutableReference"/> for System.DirectoryServices.dll
         /// </summary>
-        public static PortableExecutableReference System
+        public static PortableExecutableReference SystemDirectoryServices
         {
             get
             {
-                if (_System is null)
+                if (_SystemDirectoryServices is null)
                 {
-                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System")).GetReference(filePath: "System.dll", display: "System (net35)");
+                    _SystemDirectoryServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.DirectoryServices")).GetReference(filePath: "System.DirectoryServices.dll", display: "System.DirectoryServices (net35)");
                 }
-                return _System;
+                return _SystemDirectoryServices;
             }
         }
 
@@ -1649,20 +1581,20 @@ public static partial class Net35
             }
         }
 
-        private static PortableExecutableReference? _SystemIdentityModel;
+        private static PortableExecutableReference? _SystemIOLog;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IdentityModel.dll
+        /// The <see cref="PortableExecutableReference"/> for System.IO.Log.dll
         /// </summary>
-        public static PortableExecutableReference SystemIdentityModel
+        public static PortableExecutableReference SystemIOLog
         {
             get
             {
-                if (_SystemIdentityModel is null)
+                if (_SystemIOLog is null)
                 {
-                    _SystemIdentityModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.IdentityModel")).GetReference(filePath: "System.IdentityModel.dll", display: "System.IdentityModel (net35)");
+                    _SystemIOLog = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.IO.Log")).GetReference(filePath: "System.IO.Log.dll", display: "System.IO.Log (net35)");
                 }
-                return _SystemIdentityModel;
+                return _SystemIOLog;
             }
         }
 
@@ -1683,37 +1615,20 @@ public static partial class Net35
             }
         }
 
-        private static PortableExecutableReference? _SystemIOLog;
+        private static PortableExecutableReference? _SystemIdentityModel;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.Log.dll
+        /// The <see cref="PortableExecutableReference"/> for System.IdentityModel.dll
         /// </summary>
-        public static PortableExecutableReference SystemIOLog
+        public static PortableExecutableReference SystemIdentityModel
         {
             get
             {
-                if (_SystemIOLog is null)
+                if (_SystemIdentityModel is null)
                 {
-                    _SystemIOLog = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.IO.Log")).GetReference(filePath: "System.IO.Log.dll", display: "System.IO.Log (net35)");
+                    _SystemIdentityModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.IdentityModel")).GetReference(filePath: "System.IdentityModel.dll", display: "System.IdentityModel (net35)");
                 }
-                return _SystemIOLog;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemManagement;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Management.dll
-        /// </summary>
-        public static PortableExecutableReference SystemManagement
-        {
-            get
-            {
-                if (_SystemManagement is null)
-                {
-                    _SystemManagement = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Management")).GetReference(filePath: "System.Management.dll", display: "System.Management (net35)");
-                }
-                return _SystemManagement;
+                return _SystemIdentityModel;
             }
         }
 
@@ -1731,6 +1646,23 @@ public static partial class Net35
                     _SystemManagementInstrumentation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Management.Instrumentation")).GetReference(filePath: "System.Management.Instrumentation.dll", display: "System.Management.Instrumentation (net35)");
                 }
                 return _SystemManagementInstrumentation;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemManagement;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Management.dll
+        /// </summary>
+        public static PortableExecutableReference SystemManagement
+        {
+            get
+            {
+                if (_SystemManagement is null)
+                {
+                    _SystemManagement = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Management")).GetReference(filePath: "System.Management.dll", display: "System.Management (net35)");
+                }
+                return _SystemManagement;
             }
         }
 
@@ -1802,23 +1734,6 @@ public static partial class Net35
             }
         }
 
-        private static PortableExecutableReference? _SystemRuntimeSerialization;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.Serialization.dll
-        /// </summary>
-        public static PortableExecutableReference SystemRuntimeSerialization
-        {
-            get
-            {
-                if (_SystemRuntimeSerialization is null)
-                {
-                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net35)");
-                }
-                return _SystemRuntimeSerialization;
-            }
-        }
-
         private static PortableExecutableReference? _SystemRuntimeSerializationFormattersSoap;
 
         /// <summary>
@@ -1833,6 +1748,23 @@ public static partial class Net35
                     _SystemRuntimeSerializationFormattersSoap = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Runtime.Serialization.Formatters.Soap")).GetReference(filePath: "System.Runtime.Serialization.Formatters.Soap.dll", display: "System.Runtime.Serialization.Formatters.Soap (net35)");
                 }
                 return _SystemRuntimeSerializationFormattersSoap;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemRuntimeSerialization;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Runtime.Serialization.dll
+        /// </summary>
+        public static PortableExecutableReference SystemRuntimeSerialization
+        {
+            get
+            {
+                if (_SystemRuntimeSerialization is null)
+                {
+                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (net35)");
+                }
+                return _SystemRuntimeSerialization;
             }
         }
 
@@ -1853,23 +1785,6 @@ public static partial class Net35
             }
         }
 
-        private static PortableExecutableReference? _SystemServiceModel;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.ServiceModel.dll
-        /// </summary>
-        public static PortableExecutableReference SystemServiceModel
-        {
-            get
-            {
-                if (_SystemServiceModel is null)
-                {
-                    _SystemServiceModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.ServiceModel")).GetReference(filePath: "System.ServiceModel.dll", display: "System.ServiceModel (net35)");
-                }
-                return _SystemServiceModel;
-            }
-        }
-
         private static PortableExecutableReference? _SystemServiceModelWeb;
 
         /// <summary>
@@ -1884,6 +1799,23 @@ public static partial class Net35
                     _SystemServiceModelWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.ServiceModel.Web")).GetReference(filePath: "System.ServiceModel.Web.dll", display: "System.ServiceModel.Web (net35)");
                 }
                 return _SystemServiceModelWeb;
+            }
+        }
+
+        private static PortableExecutableReference? _SystemServiceModel;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.ServiceModel.dll
+        /// </summary>
+        public static PortableExecutableReference SystemServiceModel
+        {
+            get
+            {
+                if (_SystemServiceModel is null)
+                {
+                    _SystemServiceModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.ServiceModel")).GetReference(filePath: "System.ServiceModel.dll", display: "System.ServiceModel (net35)");
+                }
+                return _SystemServiceModel;
             }
         }
 
@@ -1952,23 +1884,6 @@ public static partial class Net35
                     _SystemWebAbstractions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web.Abstractions")).GetReference(filePath: "System.Web.Abstractions.dll", display: "System.Web.Abstractions (net35)");
                 }
                 return _SystemWebAbstractions;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemWeb;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Web.dll
-        /// </summary>
-        public static PortableExecutableReference SystemWeb
-        {
-            get
-            {
-                if (_SystemWeb is null)
-                {
-                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (net35)");
-                }
-                return _SystemWeb;
             }
         }
 
@@ -2142,6 +2057,23 @@ public static partial class Net35
             }
         }
 
+        private static PortableExecutableReference? _SystemWeb;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Web.dll
+        /// </summary>
+        public static PortableExecutableReference SystemWeb
+        {
+            get
+            {
+                if (_SystemWeb is null)
+                {
+                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (net35)");
+                }
+                return _SystemWeb;
+            }
+        }
+
         private static PortableExecutableReference? _SystemWindowsForms;
 
         /// <summary>
@@ -2244,6 +2176,23 @@ public static partial class Net35
             }
         }
 
+        private static PortableExecutableReference? _SystemXmlLinq;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.Linq.dll
+        /// </summary>
+        public static PortableExecutableReference SystemXmlLinq
+        {
+            get
+            {
+                if (_SystemXmlLinq is null)
+                {
+                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Xml.Linq")).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net35)");
+                }
+                return _SystemXmlLinq;
+            }
+        }
+
         private static PortableExecutableReference? _SystemXml;
 
         /// <summary>
@@ -2261,20 +2210,20 @@ public static partial class Net35
             }
         }
 
-        private static PortableExecutableReference? _SystemXmlLinq;
+        private static PortableExecutableReference? _System;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Xml.Linq.dll
+        /// The <see cref="PortableExecutableReference"/> for System.dll
         /// </summary>
-        public static PortableExecutableReference SystemXmlLinq
+        public static PortableExecutableReference System
         {
             get
             {
-                if (_SystemXmlLinq is null)
+                if (_System is null)
                 {
-                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System.Xml.Linq")).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (net35)");
+                    _System = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.System")).GetReference(filePath: "System.dll", display: "System (net35)");
                 }
-                return _SystemXmlLinq;
+                return _System;
             }
         }
 
@@ -2380,6 +2329,57 @@ public static partial class Net35
             }
         }
 
+        private static PortableExecutableReference? _cscompmgd;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for cscompmgd.dll
+        /// </summary>
+        public static PortableExecutableReference cscompmgd
+        {
+            get
+            {
+                if (_cscompmgd is null)
+                {
+                    _cscompmgd = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.cscompmgd")).GetReference(filePath: "cscompmgd.dll", display: "cscompmgd (net35)");
+                }
+                return _cscompmgd;
+            }
+        }
+
+        private static PortableExecutableReference? _mscorlib;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for mscorlib.dll
+        /// </summary>
+        public static PortableExecutableReference mscorlib
+        {
+            get
+            {
+                if (_mscorlib is null)
+                {
+                    _mscorlib = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.mscorlib")).GetReference(filePath: "mscorlib.dll", display: "mscorlib (net35)");
+                }
+                return _mscorlib;
+            }
+        }
+
+        private static PortableExecutableReference? _sysglobl;
+
+        /// <summary>
+        /// The <see cref="PortableExecutableReference"/> for sysglobl.dll
+        /// </summary>
+        public static PortableExecutableReference sysglobl
+        {
+            get
+            {
+                if (_sysglobl is null)
+                {
+                    _sysglobl = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("net35.sysglobl")).GetReference(filePath: "sysglobl.dll", display: "sysglobl (net35)");
+                }
+                return _sysglobl;
+            }
+        }
+
         private static ImmutableArray<PortableExecutableReference> _all;
         public static ImmutableArray<PortableExecutableReference> All
         {
@@ -2391,7 +2391,6 @@ public static partial class Net35
                     [
                         Accessibility,
                         AspNetMMCExt,
-                        cscompmgd,
                         CustomMarshalers,
                         IEExecRemote,
                         IEHost,
@@ -2406,31 +2405,28 @@ public static partial class Net35
                         MicrosoftJScript,
                         MicrosoftVisualBasicCompatibilityData,
                         MicrosoftVisualBasicCompatibility,
-                        MicrosoftVisualBasic,
                         MicrosoftVisualBasicVsa,
-                        MicrosoftVisualC,
+                        MicrosoftVisualBasic,
                         MicrosoftVisualCSTLCLR,
-                        MicrosoftVsa,
+                        MicrosoftVisualC,
                         MicrosoftVsaVbCodeDOMProcessor,
+                        MicrosoftVsa,
                         Microsoft_VsaVb,
-                        mscorlib,
                         PresentationBuildTasks,
                         PresentationCore,
                         PresentationFrameworkAero,
                         PresentationFrameworkClassic,
-                        PresentationFramework,
                         PresentationFrameworkLuna,
                         PresentationFrameworkRoyale,
+                        PresentationFramework,
                         ReachFramework,
-                        sysglobl,
                         SystemAddInContract,
                         SystemAddIn,
                         SystemComponentModelDataAnnotations,
-                        SystemConfiguration,
                         SystemConfigurationInstall,
+                        SystemConfiguration,
                         SystemCore,
                         SystemDataDataSetExtensions,
-                        SystemData,
                         SystemDataEntityDesign,
                         SystemDataEntity,
                         SystemDataLinq,
@@ -2439,34 +2435,33 @@ public static partial class Net35
                         SystemDataServicesDesign,
                         SystemDataServices,
                         SystemDataSqlXml,
+                        SystemData,
                         SystemDeployment,
                         SystemDesign,
                         SystemDirectoryServicesAccountManagement,
-                        SystemDirectoryServices,
                         SystemDirectoryServicesProtocols,
-                        System,
+                        SystemDirectoryServices,
                         SystemDrawingDesign,
                         SystemDrawing,
                         SystemEnterpriseServices,
-                        SystemIdentityModel,
-                        SystemIdentityModelSelectors,
                         SystemIOLog,
-                        SystemManagement,
+                        SystemIdentityModelSelectors,
+                        SystemIdentityModel,
                         SystemManagementInstrumentation,
+                        SystemManagement,
                         SystemMessaging,
                         SystemNet,
                         SystemPrinting,
                         SystemRuntimeRemoting,
-                        SystemRuntimeSerialization,
                         SystemRuntimeSerializationFormattersSoap,
+                        SystemRuntimeSerialization,
                         SystemSecurity,
-                        SystemServiceModel,
                         SystemServiceModelWeb,
+                        SystemServiceModel,
                         SystemServiceProcess,
                         SystemSpeech,
                         SystemTransactions,
                         SystemWebAbstractions,
-                        SystemWeb,
                         SystemWebDynamicDataDesign,
                         SystemWebDynamicData,
                         SystemWebEntityDesign,
@@ -2477,20 +2472,25 @@ public static partial class Net35
                         SystemWebRegularExpressions,
                         SystemWebRouting,
                         SystemWebServices,
+                        SystemWeb,
                         SystemWindowsForms,
                         SystemWindowsPresentation,
                         SystemWorkflowActivities,
                         SystemWorkflowComponentModel,
                         SystemWorkflowRuntime,
                         SystemWorkflowServices,
-                        SystemXml,
                         SystemXmlLinq,
+                        SystemXml,
+                        System,
                         UIAutomationClient,
                         UIAutomationClientsideProviders,
                         UIAutomationProvider,
                         UIAutomationTypes,
                         WindowsBase,
                         WindowsFormsIntegration,
+                        cscompmgd,
+                        mscorlib,
+                        sysglobl,
                     ];
                 }
                 return _all;
@@ -2514,12 +2514,6 @@ public static partial class Net35
         /// </summary>
         public static byte[] AspNetMMCExt => ResourceLoader.GetOrCreateResource(ref _AspNetMMCExt, "net35.AspNetMMCExt");
         private static byte[]? _AspNetMMCExt;
-
-        /// <summary>
-        /// The image bytes for cscompmgd.dll
-        /// </summary>
-        public static byte[] cscompmgd => ResourceLoader.GetOrCreateResource(ref _cscompmgd, "net35.cscompmgd");
-        private static byte[]? _cscompmgd;
 
         /// <summary>
         /// The image bytes for CustomMarshalers.dll
@@ -2606,22 +2600,16 @@ public static partial class Net35
         private static byte[]? _MicrosoftVisualBasicCompatibility;
 
         /// <summary>
-        /// The image bytes for Microsoft.VisualBasic.dll
-        /// </summary>
-        public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "net35.Microsoft.VisualBasic");
-        private static byte[]? _MicrosoftVisualBasic;
-
-        /// <summary>
         /// The image bytes for Microsoft.VisualBasic.Vsa.dll
         /// </summary>
         public static byte[] MicrosoftVisualBasicVsa => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasicVsa, "net35.Microsoft.VisualBasic.Vsa");
         private static byte[]? _MicrosoftVisualBasicVsa;
 
         /// <summary>
-        /// The image bytes for Microsoft.VisualC.dll
+        /// The image bytes for Microsoft.VisualBasic.dll
         /// </summary>
-        public static byte[] MicrosoftVisualC => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualC, "net35.Microsoft.VisualC");
-        private static byte[]? _MicrosoftVisualC;
+        public static byte[] MicrosoftVisualBasic => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualBasic, "net35.Microsoft.VisualBasic");
+        private static byte[]? _MicrosoftVisualBasic;
 
         /// <summary>
         /// The image bytes for Microsoft.VisualC.STLCLR.dll
@@ -2630,10 +2618,10 @@ public static partial class Net35
         private static byte[]? _MicrosoftVisualCSTLCLR;
 
         /// <summary>
-        /// The image bytes for Microsoft.Vsa.dll
+        /// The image bytes for Microsoft.VisualC.dll
         /// </summary>
-        public static byte[] MicrosoftVsa => ResourceLoader.GetOrCreateResource(ref _MicrosoftVsa, "net35.Microsoft.Vsa");
-        private static byte[]? _MicrosoftVsa;
+        public static byte[] MicrosoftVisualC => ResourceLoader.GetOrCreateResource(ref _MicrosoftVisualC, "net35.Microsoft.VisualC");
+        private static byte[]? _MicrosoftVisualC;
 
         /// <summary>
         /// The image bytes for Microsoft.Vsa.Vb.CodeDOMProcessor.dll
@@ -2642,16 +2630,16 @@ public static partial class Net35
         private static byte[]? _MicrosoftVsaVbCodeDOMProcessor;
 
         /// <summary>
+        /// The image bytes for Microsoft.Vsa.dll
+        /// </summary>
+        public static byte[] MicrosoftVsa => ResourceLoader.GetOrCreateResource(ref _MicrosoftVsa, "net35.Microsoft.Vsa");
+        private static byte[]? _MicrosoftVsa;
+
+        /// <summary>
         /// The image bytes for Microsoft_VsaVb.dll
         /// </summary>
         public static byte[] Microsoft_VsaVb => ResourceLoader.GetOrCreateResource(ref _Microsoft_VsaVb, "net35.Microsoft_VsaVb");
         private static byte[]? _Microsoft_VsaVb;
-
-        /// <summary>
-        /// The image bytes for mscorlib.dll
-        /// </summary>
-        public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "net35.mscorlib");
-        private static byte[]? _mscorlib;
 
         /// <summary>
         /// The image bytes for PresentationBuildTasks.dll
@@ -2678,12 +2666,6 @@ public static partial class Net35
         private static byte[]? _PresentationFrameworkClassic;
 
         /// <summary>
-        /// The image bytes for PresentationFramework.dll
-        /// </summary>
-        public static byte[] PresentationFramework => ResourceLoader.GetOrCreateResource(ref _PresentationFramework, "net35.PresentationFramework");
-        private static byte[]? _PresentationFramework;
-
-        /// <summary>
         /// The image bytes for PresentationFramework.Luna.dll
         /// </summary>
         public static byte[] PresentationFrameworkLuna => ResourceLoader.GetOrCreateResource(ref _PresentationFrameworkLuna, "net35.PresentationFramework.Luna");
@@ -2696,16 +2678,16 @@ public static partial class Net35
         private static byte[]? _PresentationFrameworkRoyale;
 
         /// <summary>
+        /// The image bytes for PresentationFramework.dll
+        /// </summary>
+        public static byte[] PresentationFramework => ResourceLoader.GetOrCreateResource(ref _PresentationFramework, "net35.PresentationFramework");
+        private static byte[]? _PresentationFramework;
+
+        /// <summary>
         /// The image bytes for ReachFramework.dll
         /// </summary>
         public static byte[] ReachFramework => ResourceLoader.GetOrCreateResource(ref _ReachFramework, "net35.ReachFramework");
         private static byte[]? _ReachFramework;
-
-        /// <summary>
-        /// The image bytes for sysglobl.dll
-        /// </summary>
-        public static byte[] sysglobl => ResourceLoader.GetOrCreateResource(ref _sysglobl, "net35.sysglobl");
-        private static byte[]? _sysglobl;
 
         /// <summary>
         /// The image bytes for System.AddIn.Contract.dll
@@ -2726,16 +2708,16 @@ public static partial class Net35
         private static byte[]? _SystemComponentModelDataAnnotations;
 
         /// <summary>
-        /// The image bytes for System.Configuration.dll
-        /// </summary>
-        public static byte[] SystemConfiguration => ResourceLoader.GetOrCreateResource(ref _SystemConfiguration, "net35.System.Configuration");
-        private static byte[]? _SystemConfiguration;
-
-        /// <summary>
         /// The image bytes for System.Configuration.Install.dll
         /// </summary>
         public static byte[] SystemConfigurationInstall => ResourceLoader.GetOrCreateResource(ref _SystemConfigurationInstall, "net35.System.Configuration.Install");
         private static byte[]? _SystemConfigurationInstall;
+
+        /// <summary>
+        /// The image bytes for System.Configuration.dll
+        /// </summary>
+        public static byte[] SystemConfiguration => ResourceLoader.GetOrCreateResource(ref _SystemConfiguration, "net35.System.Configuration");
+        private static byte[]? _SystemConfiguration;
 
         /// <summary>
         /// The image bytes for System.Core.dll
@@ -2748,12 +2730,6 @@ public static partial class Net35
         /// </summary>
         public static byte[] SystemDataDataSetExtensions => ResourceLoader.GetOrCreateResource(ref _SystemDataDataSetExtensions, "net35.System.Data.DataSetExtensions");
         private static byte[]? _SystemDataDataSetExtensions;
-
-        /// <summary>
-        /// The image bytes for System.Data.dll
-        /// </summary>
-        public static byte[] SystemData => ResourceLoader.GetOrCreateResource(ref _SystemData, "net35.System.Data");
-        private static byte[]? _SystemData;
 
         /// <summary>
         /// The image bytes for System.Data.Entity.Design.dll
@@ -2804,6 +2780,12 @@ public static partial class Net35
         private static byte[]? _SystemDataSqlXml;
 
         /// <summary>
+        /// The image bytes for System.Data.dll
+        /// </summary>
+        public static byte[] SystemData => ResourceLoader.GetOrCreateResource(ref _SystemData, "net35.System.Data");
+        private static byte[]? _SystemData;
+
+        /// <summary>
         /// The image bytes for System.Deployment.dll
         /// </summary>
         public static byte[] SystemDeployment => ResourceLoader.GetOrCreateResource(ref _SystemDeployment, "net35.System.Deployment");
@@ -2822,22 +2804,16 @@ public static partial class Net35
         private static byte[]? _SystemDirectoryServicesAccountManagement;
 
         /// <summary>
-        /// The image bytes for System.DirectoryServices.dll
-        /// </summary>
-        public static byte[] SystemDirectoryServices => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServices, "net35.System.DirectoryServices");
-        private static byte[]? _SystemDirectoryServices;
-
-        /// <summary>
         /// The image bytes for System.DirectoryServices.Protocols.dll
         /// </summary>
         public static byte[] SystemDirectoryServicesProtocols => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServicesProtocols, "net35.System.DirectoryServices.Protocols");
         private static byte[]? _SystemDirectoryServicesProtocols;
 
         /// <summary>
-        /// The image bytes for System.dll
+        /// The image bytes for System.DirectoryServices.dll
         /// </summary>
-        public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "net35.System");
-        private static byte[]? _System;
+        public static byte[] SystemDirectoryServices => ResourceLoader.GetOrCreateResource(ref _SystemDirectoryServices, "net35.System.DirectoryServices");
+        private static byte[]? _SystemDirectoryServices;
 
         /// <summary>
         /// The image bytes for System.Drawing.Design.dll
@@ -2858,10 +2834,10 @@ public static partial class Net35
         private static byte[]? _SystemEnterpriseServices;
 
         /// <summary>
-        /// The image bytes for System.IdentityModel.dll
+        /// The image bytes for System.IO.Log.dll
         /// </summary>
-        public static byte[] SystemIdentityModel => ResourceLoader.GetOrCreateResource(ref _SystemIdentityModel, "net35.System.IdentityModel");
-        private static byte[]? _SystemIdentityModel;
+        public static byte[] SystemIOLog => ResourceLoader.GetOrCreateResource(ref _SystemIOLog, "net35.System.IO.Log");
+        private static byte[]? _SystemIOLog;
 
         /// <summary>
         /// The image bytes for System.IdentityModel.Selectors.dll
@@ -2870,22 +2846,22 @@ public static partial class Net35
         private static byte[]? _SystemIdentityModelSelectors;
 
         /// <summary>
-        /// The image bytes for System.IO.Log.dll
+        /// The image bytes for System.IdentityModel.dll
         /// </summary>
-        public static byte[] SystemIOLog => ResourceLoader.GetOrCreateResource(ref _SystemIOLog, "net35.System.IO.Log");
-        private static byte[]? _SystemIOLog;
-
-        /// <summary>
-        /// The image bytes for System.Management.dll
-        /// </summary>
-        public static byte[] SystemManagement => ResourceLoader.GetOrCreateResource(ref _SystemManagement, "net35.System.Management");
-        private static byte[]? _SystemManagement;
+        public static byte[] SystemIdentityModel => ResourceLoader.GetOrCreateResource(ref _SystemIdentityModel, "net35.System.IdentityModel");
+        private static byte[]? _SystemIdentityModel;
 
         /// <summary>
         /// The image bytes for System.Management.Instrumentation.dll
         /// </summary>
         public static byte[] SystemManagementInstrumentation => ResourceLoader.GetOrCreateResource(ref _SystemManagementInstrumentation, "net35.System.Management.Instrumentation");
         private static byte[]? _SystemManagementInstrumentation;
+
+        /// <summary>
+        /// The image bytes for System.Management.dll
+        /// </summary>
+        public static byte[] SystemManagement => ResourceLoader.GetOrCreateResource(ref _SystemManagement, "net35.System.Management");
+        private static byte[]? _SystemManagement;
 
         /// <summary>
         /// The image bytes for System.Messaging.dll
@@ -2912,16 +2888,16 @@ public static partial class Net35
         private static byte[]? _SystemRuntimeRemoting;
 
         /// <summary>
-        /// The image bytes for System.Runtime.Serialization.dll
-        /// </summary>
-        public static byte[] SystemRuntimeSerialization => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerialization, "net35.System.Runtime.Serialization");
-        private static byte[]? _SystemRuntimeSerialization;
-
-        /// <summary>
         /// The image bytes for System.Runtime.Serialization.Formatters.Soap.dll
         /// </summary>
         public static byte[] SystemRuntimeSerializationFormattersSoap => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationFormattersSoap, "net35.System.Runtime.Serialization.Formatters.Soap");
         private static byte[]? _SystemRuntimeSerializationFormattersSoap;
+
+        /// <summary>
+        /// The image bytes for System.Runtime.Serialization.dll
+        /// </summary>
+        public static byte[] SystemRuntimeSerialization => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerialization, "net35.System.Runtime.Serialization");
+        private static byte[]? _SystemRuntimeSerialization;
 
         /// <summary>
         /// The image bytes for System.Security.dll
@@ -2930,16 +2906,16 @@ public static partial class Net35
         private static byte[]? _SystemSecurity;
 
         /// <summary>
-        /// The image bytes for System.ServiceModel.dll
-        /// </summary>
-        public static byte[] SystemServiceModel => ResourceLoader.GetOrCreateResource(ref _SystemServiceModel, "net35.System.ServiceModel");
-        private static byte[]? _SystemServiceModel;
-
-        /// <summary>
         /// The image bytes for System.ServiceModel.Web.dll
         /// </summary>
         public static byte[] SystemServiceModelWeb => ResourceLoader.GetOrCreateResource(ref _SystemServiceModelWeb, "net35.System.ServiceModel.Web");
         private static byte[]? _SystemServiceModelWeb;
+
+        /// <summary>
+        /// The image bytes for System.ServiceModel.dll
+        /// </summary>
+        public static byte[] SystemServiceModel => ResourceLoader.GetOrCreateResource(ref _SystemServiceModel, "net35.System.ServiceModel");
+        private static byte[]? _SystemServiceModel;
 
         /// <summary>
         /// The image bytes for System.ServiceProcess.dll
@@ -2964,12 +2940,6 @@ public static partial class Net35
         /// </summary>
         public static byte[] SystemWebAbstractions => ResourceLoader.GetOrCreateResource(ref _SystemWebAbstractions, "net35.System.Web.Abstractions");
         private static byte[]? _SystemWebAbstractions;
-
-        /// <summary>
-        /// The image bytes for System.Web.dll
-        /// </summary>
-        public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "net35.System.Web");
-        private static byte[]? _SystemWeb;
 
         /// <summary>
         /// The image bytes for System.Web.DynamicData.Design.dll
@@ -3032,6 +3002,12 @@ public static partial class Net35
         private static byte[]? _SystemWebServices;
 
         /// <summary>
+        /// The image bytes for System.Web.dll
+        /// </summary>
+        public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "net35.System.Web");
+        private static byte[]? _SystemWeb;
+
+        /// <summary>
         /// The image bytes for System.Windows.Forms.dll
         /// </summary>
         public static byte[] SystemWindowsForms => ResourceLoader.GetOrCreateResource(ref _SystemWindowsForms, "net35.System.Windows.Forms");
@@ -3068,16 +3044,22 @@ public static partial class Net35
         private static byte[]? _SystemWorkflowServices;
 
         /// <summary>
+        /// The image bytes for System.Xml.Linq.dll
+        /// </summary>
+        public static byte[] SystemXmlLinq => ResourceLoader.GetOrCreateResource(ref _SystemXmlLinq, "net35.System.Xml.Linq");
+        private static byte[]? _SystemXmlLinq;
+
+        /// <summary>
         /// The image bytes for System.Xml.dll
         /// </summary>
         public static byte[] SystemXml => ResourceLoader.GetOrCreateResource(ref _SystemXml, "net35.System.Xml");
         private static byte[]? _SystemXml;
 
         /// <summary>
-        /// The image bytes for System.Xml.Linq.dll
+        /// The image bytes for System.dll
         /// </summary>
-        public static byte[] SystemXmlLinq => ResourceLoader.GetOrCreateResource(ref _SystemXmlLinq, "net35.System.Xml.Linq");
-        private static byte[]? _SystemXmlLinq;
+        public static byte[] System => ResourceLoader.GetOrCreateResource(ref _System, "net35.System");
+        private static byte[]? _System;
 
         /// <summary>
         /// The image bytes for UIAutomationClient.dll
@@ -3114,6 +3096,24 @@ public static partial class Net35
         /// </summary>
         public static byte[] WindowsFormsIntegration => ResourceLoader.GetOrCreateResource(ref _WindowsFormsIntegration, "net35.WindowsFormsIntegration");
         private static byte[]? _WindowsFormsIntegration;
+
+        /// <summary>
+        /// The image bytes for cscompmgd.dll
+        /// </summary>
+        public static byte[] cscompmgd => ResourceLoader.GetOrCreateResource(ref _cscompmgd, "net35.cscompmgd");
+        private static byte[]? _cscompmgd;
+
+        /// <summary>
+        /// The image bytes for mscorlib.dll
+        /// </summary>
+        public static byte[] mscorlib => ResourceLoader.GetOrCreateResource(ref _mscorlib, "net35.mscorlib");
+        private static byte[]? _mscorlib;
+
+        /// <summary>
+        /// The image bytes for sysglobl.dll
+        /// </summary>
+        public static byte[] sysglobl => ResourceLoader.GetOrCreateResource(ref _sysglobl, "net35.sysglobl");
+        private static byte[]? _sysglobl;
 
 
     }
