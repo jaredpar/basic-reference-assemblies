@@ -483,79 +483,9 @@ public static partial class NetStandard20
         public static ReferenceInfo SystemThreadingThread => new ReferenceInfo("System.Threading.Thread.dll", Resources.SystemThreadingThread, NetStandard20.References.SystemThreadingThread, global::System.Guid.Parse("68078a5c-5ab4-47be-b14b-e13c6623d821"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Contracts.dll
+        /// The <see cref="ReferenceInfo"/> for System.Threading.ThreadPool.dll
         /// </summary>
-        public static ReferenceInfo SystemDiagnosticsContracts => new ReferenceInfo("System.Diagnostics.Contracts.dll", Resources.SystemDiagnosticsContracts, NetStandard20.References.SystemDiagnosticsContracts, global::System.Guid.Parse("30a01407-740f-4237-b354-49b8ae79399b"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.ComponentModel.TypeConverter.dll
-        /// </summary>
-        public static ReferenceInfo SystemComponentModelTypeConverter => new ReferenceInfo("System.ComponentModel.TypeConverter.dll", Resources.SystemComponentModelTypeConverter, NetStandard20.References.SystemComponentModelTypeConverter, global::System.Guid.Parse("c7eac0fc-1738-4883-811e-e62665243eb6"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Primitives.dll
-        /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyPrimitives => new ReferenceInfo("System.Security.Cryptography.Primitives.dll", Resources.SystemSecurityCryptographyPrimitives, NetStandard20.References.SystemSecurityCryptographyPrimitives, global::System.Guid.Parse("b652ef6b-a6a8-46b2-a588-b08ef3ba0358"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for Microsoft.Win32.Primitives.dll
-        /// </summary>
-        public static ReferenceInfo MicrosoftWin32Primitives => new ReferenceInfo("Microsoft.Win32.Primitives.dll", Resources.MicrosoftWin32Primitives, NetStandard20.References.MicrosoftWin32Primitives, global::System.Guid.Parse("ef0f8705-999f-47b0-9bff-1ee1eb8433e0"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Drawing.Primitives.dll
-        /// </summary>
-        public static ReferenceInfo SystemDrawingPrimitives => new ReferenceInfo("System.Drawing.Primitives.dll", Resources.SystemDrawingPrimitives, NetStandard20.References.SystemDrawingPrimitives, global::System.Guid.Parse("eb1b0fcc-cab8-490f-b427-8c111b33b8f2"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.MemoryMappedFiles.dll
-        /// </summary>
-        public static ReferenceInfo SystemIOMemoryMappedFiles => new ReferenceInfo("System.IO.MemoryMappedFiles.dll", Resources.SystemIOMemoryMappedFiles, NetStandard20.References.SystemIOMemoryMappedFiles, global::System.Guid.Parse("ce3bba0d-3b61-431d-b80f-c3738123e9f4"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Core.dll
-        /// </summary>
-        public static ReferenceInfo SystemCore => new ReferenceInfo("System.Core.dll", Resources.SystemCore, NetStandard20.References.SystemCore, global::System.Guid.Parse("906a86c8-c762-416c-ada6-2a91b392bba0"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Formatters.dll
-        /// </summary>
-        public static ReferenceInfo SystemRuntimeSerializationFormatters => new ReferenceInfo("System.Runtime.Serialization.Formatters.dll", Resources.SystemRuntimeSerializationFormatters, NetStandard20.References.SystemRuntimeSerializationFormatters, global::System.Guid.Parse("b6e44dc3-6b4a-4e8b-9043-c5d1417a591f"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Resources.ResourceManager.dll
-        /// </summary>
-        public static ReferenceInfo SystemResourcesResourceManager => new ReferenceInfo("System.Resources.ResourceManager.dll", Resources.SystemResourcesResourceManager, NetStandard20.References.SystemResourcesResourceManager, global::System.Guid.Parse("43610aa7-8b31-4652-8f9c-8176637b248f"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Threading.Overlapped.dll
-        /// </summary>
-        public static ReferenceInfo SystemThreadingOverlapped => new ReferenceInfo("System.Threading.Overlapped.dll", Resources.SystemThreadingOverlapped, NetStandard20.References.SystemThreadingOverlapped, global::System.Guid.Parse("fdd92a12-8c43-4cff-93a4-cff4f05beca8"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Net.dll
-        /// </summary>
-        public static ReferenceInfo SystemNet => new ReferenceInfo("System.Net.dll", Resources.SystemNet, NetStandard20.References.SystemNet, global::System.Guid.Parse("03b25722-587f-4ac6-bc9b-990ab080a796"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.ObjectModel.dll
-        /// </summary>
-        public static ReferenceInfo SystemObjectModel => new ReferenceInfo("System.ObjectModel.dll", Resources.SystemObjectModel, NetStandard20.References.SystemObjectModel, global::System.Guid.Parse("9e95c71c-76d5-49dc-abb6-42539bcad76b"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Diagnostics.TextWriterTraceListener.dll
-        /// </summary>
-        public static ReferenceInfo SystemDiagnosticsTextWriterTraceListener => new ReferenceInfo("System.Diagnostics.TextWriterTraceListener.dll", Resources.SystemDiagnosticsTextWriterTraceListener, NetStandard20.References.SystemDiagnosticsTextWriterTraceListener, global::System.Guid.Parse("dc3bcb14-3c90-466c-a0d1-4f4e0fbaf7f1"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Csp.dll
-        /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyCsp => new ReferenceInfo("System.Security.Cryptography.Csp.dll", Resources.SystemSecurityCryptographyCsp, NetStandard20.References.SystemSecurityCryptographyCsp, global::System.Guid.Parse("d2bc56e2-8c89-4dfc-9b3c-4f156604453c"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Net.WebSockets.Client.dll
-        /// </summary>
-        public static ReferenceInfo SystemNetWebSocketsClient => new ReferenceInfo("System.Net.WebSockets.Client.dll", Resources.SystemNetWebSocketsClient, NetStandard20.References.SystemNetWebSocketsClient, global::System.Guid.Parse("e85872bf-f407-45a0-9b5f-b68df79d67ca"));
+        public static ReferenceInfo SystemThreadingThreadPool => new ReferenceInfo("System.Threading.ThreadPool.dll", Resources.SystemThreadingThreadPool, NetStandard20.References.SystemThreadingThreadPool, global::System.Guid.Parse("1d902f2e-db97-4b87-a0e8-6daf56ab644b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Threading.Timer.dll
@@ -570,62 +500,7 @@ public static partial class NetStandard20
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Transactions.dll
         /// </summary>
-        public static ReferenceInfo SystemDynamicRuntime => new ReferenceInfo("System.Dynamic.Runtime.dll", Resources.SystemDynamicRuntime, NetStandard20.References.SystemDynamicRuntime, global::System.Guid.Parse("8ebb9848-2539-4eac-97f1-b67d9f9a1784"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.Algorithms.dll
-        /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyAlgorithms => new ReferenceInfo("System.Security.Cryptography.Algorithms.dll", Resources.SystemSecurityCryptographyAlgorithms, NetStandard20.References.SystemSecurityCryptographyAlgorithms, global::System.Guid.Parse("aeaa8653-4363-4328-a71a-35e7e7744022"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Tools.dll
-        /// </summary>
-        public static ReferenceInfo SystemDiagnosticsTools => new ReferenceInfo("System.Diagnostics.Tools.dll", Resources.SystemDiagnosticsTools, NetStandard20.References.SystemDiagnosticsTools, global::System.Guid.Parse("89a9a21c-faf8-4b63-9758-997b7af8f96e"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Drawing.dll
-        /// </summary>
-        public static ReferenceInfo SystemDrawing => new ReferenceInfo("System.Drawing.dll", Resources.SystemDrawing, NetStandard20.References.SystemDrawing, global::System.Guid.Parse("4395da3d-aaec-43a0-87c3-4201e65b1667"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Xml.Linq.dll
-        /// </summary>
-        public static ReferenceInfo SystemNetWebSockets => new ReferenceInfo("System.Net.WebSockets.dll", Resources.SystemNetWebSockets, NetStandard20.References.SystemNetWebSockets, global::System.Guid.Parse("d0d141cd-fdb3-48b6-a40c-ec8fbdb22212"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Diagnostics.TraceSource.dll
-        /// </summary>
-        public static ReferenceInfo SystemDiagnosticsTraceSource => new ReferenceInfo("System.Diagnostics.TraceSource.dll", Resources.SystemDiagnosticsTraceSource, NetStandard20.References.SystemDiagnosticsTraceSource, global::System.Guid.Parse("4585cf1a-8a30-4cd2-b2fc-722f069ea6ac"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Xml.Serialization.dll
-        /// </summary>
-        public static ReferenceInfo SystemXmlSerialization => new ReferenceInfo("System.Xml.Serialization.dll", Resources.SystemXmlSerialization, NetStandard20.References.SystemXmlSerialization, global::System.Guid.Parse("f80e10ac-164f-4dfd-8f61-d4a723b1f4c1"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.dll
-        /// </summary>
-        public static ReferenceInfo SystemIO => new ReferenceInfo("System.IO.dll", Resources.SystemIO, NetStandard20.References.SystemIO, global::System.Guid.Parse("130de927-6b0b-4fbc-a27f-1504efaf28e9"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Diagnostics.FileVersionInfo.dll
-        /// </summary>
-        public static ReferenceInfo SystemDiagnosticsFileVersionInfo => new ReferenceInfo("System.Diagnostics.FileVersionInfo.dll", Resources.SystemDiagnosticsFileVersionInfo, NetStandard20.References.SystemDiagnosticsFileVersionInfo, global::System.Guid.Parse("12950f87-2e39-4c97-92f2-1d60c137525e"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.dll
-        /// </summary>
-        public static ReferenceInfo SystemRuntimeInteropServices => new ReferenceInfo("System.Runtime.InteropServices.dll", Resources.SystemRuntimeInteropServices, NetStandard20.References.SystemRuntimeInteropServices, global::System.Guid.Parse("b0156c63-daa5-42f3-8a6f-b62237390df4"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Threading.Tasks.Parallel.dll
-        /// </summary>
-        public static ReferenceInfo SystemThreadingTasksParallel => new ReferenceInfo("System.Threading.Tasks.Parallel.dll", Resources.SystemThreadingTasksParallel, NetStandard20.References.SystemThreadingTasksParallel, global::System.Guid.Parse("6128a3c1-cb91-40fa-a85a-b67288e9259f"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Net.Sockets.dll
-        /// </summary>
-        public static ReferenceInfo SystemNetSockets => new ReferenceInfo("System.Net.Sockets.dll", Resources.SystemNetSockets, NetStandard20.References.SystemNetSockets, global::System.Guid.Parse("8aca7941-1a14-4352-9b0a-eb2a662df386"));
+        public static ReferenceInfo SystemTransactions => new ReferenceInfo("System.Transactions.dll", Resources.SystemTransactions, NetStandard20.References.SystemTransactions, global::System.Guid.Parse("4cc2dcb5-2e9c-4d24-9f48-ed48d748ee1b"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.ValueTuple.dll
@@ -633,69 +508,19 @@ public static partial class NetStandard20
         public static ReferenceInfo SystemValueTuple => new ReferenceInfo("System.ValueTuple.dll", Resources.SystemValueTuple, NetStandard20.References.SystemValueTuple, global::System.Guid.Parse("d26b5aca-918b-498e-9a93-ee11a5417f3a"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.InteropServices.RuntimeInformation.dll
+        /// The <see cref="ReferenceInfo"/> for System.Web.dll
         /// </summary>
-        public static ReferenceInfo SystemRuntimeInteropServicesRuntimeInformation => new ReferenceInfo("System.Runtime.InteropServices.RuntimeInformation.dll", Resources.SystemRuntimeInteropServicesRuntimeInformation, NetStandard20.References.SystemRuntimeInteropServicesRuntimeInformation, global::System.Guid.Parse("c451e154-cfd1-4b6e-b999-1f208d072aec"));
+        public static ReferenceInfo SystemWeb => new ReferenceInfo("System.Web.dll", Resources.SystemWeb, NetStandard20.References.SystemWeb, global::System.Guid.Parse("b768b2e1-2c37-4143-b467-de8d85a53db4"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Security.Cryptography.X509Certificates.dll
+        /// The <see cref="ReferenceInfo"/> for System.Windows.dll
         /// </summary>
-        public static ReferenceInfo SystemSecurityCryptographyX509Certificates => new ReferenceInfo("System.Security.Cryptography.X509Certificates.dll", Resources.SystemSecurityCryptographyX509Certificates, NetStandard20.References.SystemSecurityCryptographyX509Certificates, global::System.Guid.Parse("d87d1f61-03a2-4cb9-90be-def6f0a37630"));
+        public static ReferenceInfo SystemWindows => new ReferenceInfo("System.Windows.dll", Resources.SystemWindows, NetStandard20.References.SystemWindows, global::System.Guid.Parse("cc2f586f-2cad-4b49-9e71-6413e614ffd0"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.Compression.dll
+        /// The <see cref="ReferenceInfo"/> for System.Xml.Linq.dll
         /// </summary>
-        public static ReferenceInfo SystemIOCompression => new ReferenceInfo("System.IO.Compression.dll", Resources.SystemIOCompression, NetStandard20.References.SystemIOCompression, global::System.Guid.Parse("71a6e267-93f1-49bb-8eed-dc2cef063971"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Reflection.Extensions.dll
-        /// </summary>
-        public static ReferenceInfo SystemReflectionExtensions => new ReferenceInfo("System.Reflection.Extensions.dll", Resources.SystemReflectionExtensions, NetStandard20.References.SystemReflectionExtensions, global::System.Guid.Parse("5b438317-bc02-478b-b4a6-e58cd9c5886d"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.dll
-        /// </summary>
-        public static ReferenceInfo SystemRuntimeSerialization => new ReferenceInfo("System.Runtime.Serialization.dll", Resources.SystemRuntimeSerialization, NetStandard20.References.SystemRuntimeSerialization, global::System.Guid.Parse("06cc3fcb-70f1-4ca1-9f88-e346222a7d1d"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Net.NetworkInformation.dll
-        /// </summary>
-        public static ReferenceInfo SystemNetNetworkInformation => new ReferenceInfo("System.Net.NetworkInformation.dll", Resources.SystemNetNetworkInformation, NetStandard20.References.SystemNetNetworkInformation, global::System.Guid.Parse("6de0a65b-a0ff-402c-9357-285f5fff9453"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Process.dll
-        /// </summary>
-        public static ReferenceInfo SystemDiagnosticsProcess => new ReferenceInfo("System.Diagnostics.Process.dll", Resources.SystemDiagnosticsProcess, NetStandard20.References.SystemDiagnosticsProcess, global::System.Guid.Parse("45b73c34-14e8-4a20-8f25-cdaee05dddc2"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.ComponentModel.Primitives.dll
-        /// </summary>
-        public static ReferenceInfo SystemComponentModelPrimitives => new ReferenceInfo("System.ComponentModel.Primitives.dll", Resources.SystemComponentModelPrimitives, NetStandard20.References.SystemComponentModelPrimitives, global::System.Guid.Parse("1b6028a5-0fb0-4382-9ccc-063f5932157c"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.CompilerServices.VisualC.dll
-        /// </summary>
-        public static ReferenceInfo SystemRuntimeCompilerServicesVisualC => new ReferenceInfo("System.Runtime.CompilerServices.VisualC.dll", Resources.SystemRuntimeCompilerServicesVisualC, NetStandard20.References.SystemRuntimeCompilerServicesVisualC, global::System.Guid.Parse("d006d627-2174-4738-b6ab-b319bc371761"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Diagnostics.Debug.dll
-        /// </summary>
-        public static ReferenceInfo SystemDiagnosticsDebug => new ReferenceInfo("System.Diagnostics.Debug.dll", Resources.SystemDiagnosticsDebug, NetStandard20.References.SystemDiagnosticsDebug, global::System.Guid.Parse("ba328045-3535-4614-b017-cea4aa4a751f"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Collections.NonGeneric.dll
-        /// </summary>
-        public static ReferenceInfo SystemCollectionsNonGeneric => new ReferenceInfo("System.Collections.NonGeneric.dll", Resources.SystemCollectionsNonGeneric, NetStandard20.References.SystemCollectionsNonGeneric, global::System.Guid.Parse("334d1c39-5c06-460e-8f4b-88f1b9e08c94"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Threading.dll
-        /// </summary>
-        public static ReferenceInfo SystemThreading => new ReferenceInfo("System.Threading.dll", Resources.SystemThreading, NetStandard20.References.SystemThreading, global::System.Guid.Parse("a5b2646b-c705-4e62-958a-c57f173d816b"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.IO.Compression.ZipFile.dll
-        /// </summary>
-        public static ReferenceInfo SystemIOCompressionZipFile => new ReferenceInfo("System.IO.Compression.ZipFile.dll", Resources.SystemIOCompressionZipFile, NetStandard20.References.SystemIOCompressionZipFile, global::System.Guid.Parse("6b3a44ab-2d51-443b-abc2-01aee73b82a1"));
+        public static ReferenceInfo SystemXmlLinq => new ReferenceInfo("System.Xml.Linq.dll", Resources.SystemXmlLinq, NetStandard20.References.SystemXmlLinq, global::System.Guid.Parse("11699873-b29a-4337-9876-8900fdadd2df"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.ReaderWriter.dll
@@ -703,59 +528,9 @@ public static partial class NetStandard20
         public static ReferenceInfo SystemXmlReaderWriter => new ReferenceInfo("System.Xml.ReaderWriter.dll", Resources.SystemXmlReaderWriter, NetStandard20.References.SystemXmlReaderWriter, global::System.Guid.Parse("5bacc974-91a3-4e11-9a03-31717ddfd525"));
 
         /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Text.RegularExpressions.dll
+        /// The <see cref="ReferenceInfo"/> for System.Xml.Serialization.dll
         /// </summary>
-        public static ReferenceInfo SystemTextRegularExpressions => new ReferenceInfo("System.Text.RegularExpressions.dll", Resources.SystemTextRegularExpressions, NetStandard20.References.SystemTextRegularExpressions, global::System.Guid.Parse("93d69975-856b-46eb-8852-5ba51378cc8e"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Net.Requests.dll
-        /// </summary>
-        public static ReferenceInfo SystemNetRequests => new ReferenceInfo("System.Net.Requests.dll", Resources.SystemNetRequests, NetStandard20.References.SystemNetRequests, global::System.Guid.Parse("c08be717-b602-4e97-ba04-df88234e4cd1"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Globalization.Calendars.dll
-        /// </summary>
-        public static ReferenceInfo SystemGlobalizationCalendars => new ReferenceInfo("System.Globalization.Calendars.dll", Resources.SystemGlobalizationCalendars, NetStandard20.References.SystemGlobalizationCalendars, global::System.Guid.Parse("d5041a8d-1147-4c6f-af68-6828fe374b3a"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Runtime.Serialization.Primitives.dll
-        /// </summary>
-        public static ReferenceInfo SystemRuntimeSerializationPrimitives => new ReferenceInfo("System.Runtime.Serialization.Primitives.dll", Resources.SystemRuntimeSerializationPrimitives, NetStandard20.References.SystemRuntimeSerializationPrimitives, global::System.Guid.Parse("e1ad87b9-dc4d-48f1-8e69-357084d09b5e"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Text.Encoding.Extensions.dll
-        /// </summary>
-        public static ReferenceInfo SystemTextEncodingExtensions => new ReferenceInfo("System.Text.Encoding.Extensions.dll", Resources.SystemTextEncodingExtensions, NetStandard20.References.SystemTextEncodingExtensions, global::System.Guid.Parse("3cf4acfc-a0a3-4b6c-97df-33dc6758ac30"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Diagnostics.StackTrace.dll
-        /// </summary>
-        public static ReferenceInfo SystemDiagnosticsStackTrace => new ReferenceInfo("System.Diagnostics.StackTrace.dll", Resources.SystemDiagnosticsStackTrace, NetStandard20.References.SystemDiagnosticsStackTrace, global::System.Guid.Parse("a585abfd-6ee0-4983-a16a-11f8189a9892"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.ComponentModel.Composition.dll
-        /// </summary>
-        public static ReferenceInfo SystemComponentModelComposition => new ReferenceInfo("System.ComponentModel.Composition.dll", Resources.SystemComponentModelComposition, NetStandard20.References.SystemComponentModelComposition, global::System.Guid.Parse("efa9b4d8-6c50-4c84-a8c1-16c478b1e108"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Net.Primitives.dll
-        /// </summary>
-        public static ReferenceInfo SystemNetPrimitives => new ReferenceInfo("System.Net.Primitives.dll", Resources.SystemNetPrimitives, NetStandard20.References.SystemNetPrimitives, global::System.Guid.Parse("1c2f9f91-8799-4a65-b7cb-713154250e73"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Security.SecureString.dll
-        /// </summary>
-        public static ReferenceInfo SystemSecuritySecureString => new ReferenceInfo("System.Security.SecureString.dll", Resources.SystemSecuritySecureString, NetStandard20.References.SystemSecuritySecureString, global::System.Guid.Parse("fe85f4c8-d55e-41eb-995f-89cfc9770cfe"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Security.Principal.dll
-        /// </summary>
-        public static ReferenceInfo SystemSecurityPrincipal => new ReferenceInfo("System.Security.Principal.dll", Resources.SystemSecurityPrincipal, NetStandard20.References.SystemSecurityPrincipal, global::System.Guid.Parse("a965a0b3-946f-4227-89d4-ab82163b3a66"));
-
-        /// <summary>
-        /// The <see cref="ReferenceInfo"/> for System.Linq.Queryable.dll
-        /// </summary>
-        public static ReferenceInfo SystemLinqQueryable => new ReferenceInfo("System.Linq.Queryable.dll", Resources.SystemLinqQueryable, NetStandard20.References.SystemLinqQueryable, global::System.Guid.Parse("f4f38f1c-dee7-49cd-aa7e-5d142fb264b3"));
+        public static ReferenceInfo SystemXmlSerialization => new ReferenceInfo("System.Xml.Serialization.dll", Resources.SystemXmlSerialization, NetStandard20.References.SystemXmlSerialization, global::System.Guid.Parse("f80e10ac-164f-4dfd-8f61-d4a723b1f4c1"));
 
         /// <summary>
         /// The <see cref="ReferenceInfo"/> for System.Xml.XDocument.dll
@@ -904,21 +679,7 @@ public static partial class NetStandard20
                         SystemThreadingTasksParallel,
                         SystemThreadingTasks,
                         SystemThreadingThread,
-                        SystemDiagnosticsContracts,
-                        SystemComponentModelTypeConverter,
-                        SystemSecurityCryptographyPrimitives,
-                        MicrosoftWin32Primitives,
-                        SystemDrawingPrimitives,
-                        SystemIOMemoryMappedFiles,
-                        SystemCore,
-                        SystemRuntimeSerializationFormatters,
-                        SystemResourcesResourceManager,
-                        SystemThreadingOverlapped,
-                        SystemNet,
-                        SystemObjectModel,
-                        SystemDiagnosticsTextWriterTraceListener,
-                        SystemSecurityCryptographyCsp,
-                        SystemNetWebSocketsClient,
+                        SystemThreadingThreadPool,
                         SystemThreadingTimer,
                         SystemThreading,
                         SystemTransactions,
@@ -928,37 +689,6 @@ public static partial class NetStandard20
                         SystemXmlLinq,
                         SystemXmlReaderWriter,
                         SystemXmlSerialization,
-                        SystemIO,
-                        SystemDiagnosticsFileVersionInfo,
-                        SystemRuntimeInteropServices,
-                        SystemThreadingTasksParallel,
-                        SystemNetSockets,
-                        SystemValueTuple,
-                        SystemRuntimeInteropServicesRuntimeInformation,
-                        SystemSecurityCryptographyX509Certificates,
-                        SystemIOCompression,
-                        SystemReflectionExtensions,
-                        SystemRuntimeSerialization,
-                        SystemNetNetworkInformation,
-                        SystemDiagnosticsProcess,
-                        SystemComponentModelPrimitives,
-                        SystemRuntimeCompilerServicesVisualC,
-                        SystemDiagnosticsDebug,
-                        SystemCollectionsNonGeneric,
-                        SystemThreading,
-                        SystemIOCompressionZipFile,
-                        SystemXmlReaderWriter,
-                        SystemTextRegularExpressions,
-                        SystemNetRequests,
-                        SystemGlobalizationCalendars,
-                        SystemRuntimeSerializationPrimitives,
-                        SystemTextEncodingExtensions,
-                        SystemDiagnosticsStackTrace,
-                        SystemComponentModelComposition,
-                        SystemNetPrimitives,
-                        SystemSecuritySecureString,
-                        SystemSecurityPrincipal,
-                        SystemLinqQueryable,
                         SystemXmlXDocument,
                         SystemXmlXPathXDocument,
                         SystemXmlXPath,
@@ -2580,258 +2310,20 @@ public static partial class NetStandard20
             }
         }
 
-        private static PortableExecutableReference? _SystemDiagnosticsContracts;
+        private static PortableExecutableReference? _SystemThreadingThreadPool;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Diagnostics.Contracts.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Threading.ThreadPool.dll
         /// </summary>
-        public static PortableExecutableReference SystemDiagnosticsContracts
+        public static PortableExecutableReference SystemThreadingThreadPool
         {
             get
             {
-                if (_SystemDiagnosticsContracts is null)
+                if (_SystemThreadingThreadPool is null)
                 {
-                    _SystemDiagnosticsContracts = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Diagnostics.Contracts")).GetReference(filePath: "System.Diagnostics.Contracts.dll", display: "System.Diagnostics.Contracts (netstandard20)");
+                    _SystemThreadingThreadPool = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Threading.ThreadPool")).GetReference(filePath: "System.Threading.ThreadPool.dll", display: "System.Threading.ThreadPool (netstandard20)");
                 }
-                return _SystemDiagnosticsContracts;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemComponentModelTypeConverter;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.ComponentModel.TypeConverter.dll
-        /// </summary>
-        public static PortableExecutableReference SystemComponentModelTypeConverter
-        {
-            get
-            {
-                if (_SystemComponentModelTypeConverter is null)
-                {
-                    _SystemComponentModelTypeConverter = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.ComponentModel.TypeConverter")).GetReference(filePath: "System.ComponentModel.TypeConverter.dll", display: "System.ComponentModel.TypeConverter (netstandard20)");
-                }
-                return _SystemComponentModelTypeConverter;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemSecurityCryptographyPrimitives;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Security.Cryptography.Primitives.dll
-        /// </summary>
-        public static PortableExecutableReference SystemSecurityCryptographyPrimitives
-        {
-            get
-            {
-                if (_SystemSecurityCryptographyPrimitives is null)
-                {
-                    _SystemSecurityCryptographyPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Security.Cryptography.Primitives")).GetReference(filePath: "System.Security.Cryptography.Primitives.dll", display: "System.Security.Cryptography.Primitives (netstandard20)");
-                }
-                return _SystemSecurityCryptographyPrimitives;
-            }
-        }
-
-        private static PortableExecutableReference? _MicrosoftWin32Primitives;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for Microsoft.Win32.Primitives.dll
-        /// </summary>
-        public static PortableExecutableReference MicrosoftWin32Primitives
-        {
-            get
-            {
-                if (_MicrosoftWin32Primitives is null)
-                {
-                    _MicrosoftWin32Primitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.Microsoft.Win32.Primitives")).GetReference(filePath: "Microsoft.Win32.Primitives.dll", display: "Microsoft.Win32.Primitives (netstandard20)");
-                }
-                return _MicrosoftWin32Primitives;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemDrawingPrimitives;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Drawing.Primitives.dll
-        /// </summary>
-        public static PortableExecutableReference SystemDrawingPrimitives
-        {
-            get
-            {
-                if (_SystemDrawingPrimitives is null)
-                {
-                    _SystemDrawingPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Drawing.Primitives")).GetReference(filePath: "System.Drawing.Primitives.dll", display: "System.Drawing.Primitives (netstandard20)");
-                }
-                return _SystemDrawingPrimitives;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemIOMemoryMappedFiles;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.MemoryMappedFiles.dll
-        /// </summary>
-        public static PortableExecutableReference SystemIOMemoryMappedFiles
-        {
-            get
-            {
-                if (_SystemIOMemoryMappedFiles is null)
-                {
-                    _SystemIOMemoryMappedFiles = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.IO.MemoryMappedFiles")).GetReference(filePath: "System.IO.MemoryMappedFiles.dll", display: "System.IO.MemoryMappedFiles (netstandard20)");
-                }
-                return _SystemIOMemoryMappedFiles;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemCore;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Core.dll
-        /// </summary>
-        public static PortableExecutableReference SystemCore
-        {
-            get
-            {
-                if (_SystemCore is null)
-                {
-                    _SystemCore = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Core")).GetReference(filePath: "System.Core.dll", display: "System.Core (netstandard20)");
-                }
-                return _SystemCore;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemRuntimeSerializationFormatters;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.Serialization.Formatters.dll
-        /// </summary>
-        public static PortableExecutableReference SystemRuntimeSerializationFormatters
-        {
-            get
-            {
-                if (_SystemRuntimeSerializationFormatters is null)
-                {
-                    _SystemRuntimeSerializationFormatters = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Runtime.Serialization.Formatters")).GetReference(filePath: "System.Runtime.Serialization.Formatters.dll", display: "System.Runtime.Serialization.Formatters (netstandard20)");
-                }
-                return _SystemRuntimeSerializationFormatters;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemResourcesResourceManager;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Resources.ResourceManager.dll
-        /// </summary>
-        public static PortableExecutableReference SystemResourcesResourceManager
-        {
-            get
-            {
-                if (_SystemResourcesResourceManager is null)
-                {
-                    _SystemResourcesResourceManager = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Resources.ResourceManager")).GetReference(filePath: "System.Resources.ResourceManager.dll", display: "System.Resources.ResourceManager (netstandard20)");
-                }
-                return _SystemResourcesResourceManager;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemThreadingOverlapped;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Threading.Overlapped.dll
-        /// </summary>
-        public static PortableExecutableReference SystemThreadingOverlapped
-        {
-            get
-            {
-                if (_SystemThreadingOverlapped is null)
-                {
-                    _SystemThreadingOverlapped = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Threading.Overlapped")).GetReference(filePath: "System.Threading.Overlapped.dll", display: "System.Threading.Overlapped (netstandard20)");
-                }
-                return _SystemThreadingOverlapped;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemNet;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Net.dll
-        /// </summary>
-        public static PortableExecutableReference SystemNet
-        {
-            get
-            {
-                if (_SystemNet is null)
-                {
-                    _SystemNet = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Net")).GetReference(filePath: "System.Net.dll", display: "System.Net (netstandard20)");
-                }
-                return _SystemNet;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemObjectModel;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.ObjectModel.dll
-        /// </summary>
-        public static PortableExecutableReference SystemObjectModel
-        {
-            get
-            {
-                if (_SystemObjectModel is null)
-                {
-                    _SystemObjectModel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.ObjectModel")).GetReference(filePath: "System.ObjectModel.dll", display: "System.ObjectModel (netstandard20)");
-                }
-                return _SystemObjectModel;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemDiagnosticsTextWriterTraceListener;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Diagnostics.TextWriterTraceListener.dll
-        /// </summary>
-        public static PortableExecutableReference SystemDiagnosticsTextWriterTraceListener
-        {
-            get
-            {
-                if (_SystemDiagnosticsTextWriterTraceListener is null)
-                {
-                    _SystemDiagnosticsTextWriterTraceListener = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Diagnostics.TextWriterTraceListener")).GetReference(filePath: "System.Diagnostics.TextWriterTraceListener.dll", display: "System.Diagnostics.TextWriterTraceListener (netstandard20)");
-                }
-                return _SystemDiagnosticsTextWriterTraceListener;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemSecurityCryptographyCsp;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Security.Cryptography.Csp.dll
-        /// </summary>
-        public static PortableExecutableReference SystemSecurityCryptographyCsp
-        {
-            get
-            {
-                if (_SystemSecurityCryptographyCsp is null)
-                {
-                    _SystemSecurityCryptographyCsp = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Security.Cryptography.Csp")).GetReference(filePath: "System.Security.Cryptography.Csp.dll", display: "System.Security.Cryptography.Csp (netstandard20)");
-                }
-                return _SystemSecurityCryptographyCsp;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemNetWebSocketsClient;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Net.WebSockets.Client.dll
-        /// </summary>
-        public static PortableExecutableReference SystemNetWebSocketsClient
-        {
-            get
-            {
-                if (_SystemNetWebSocketsClient is null)
-                {
-                    _SystemNetWebSocketsClient = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Net.WebSockets.Client")).GetReference(filePath: "System.Net.WebSockets.Client.dll", display: "System.Net.WebSockets.Client (netstandard20)");
-                }
-                return _SystemNetWebSocketsClient;
+                return _SystemThreadingThreadPool;
             }
         }
 
@@ -2872,204 +2364,17 @@ public static partial class NetStandard20
         private static PortableExecutableReference? _SystemTransactions;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Dynamic.Runtime.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Transactions.dll
         /// </summary>
-        public static PortableExecutableReference SystemDynamicRuntime
+        public static PortableExecutableReference SystemTransactions
         {
             get
             {
-                if (_SystemDynamicRuntime is null)
+                if (_SystemTransactions is null)
                 {
-                    _SystemDynamicRuntime = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Dynamic.Runtime")).GetReference(filePath: "System.Dynamic.Runtime.dll", display: "System.Dynamic.Runtime (netstandard20)");
+                    _SystemTransactions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Transactions")).GetReference(filePath: "System.Transactions.dll", display: "System.Transactions (netstandard20)");
                 }
-                return _SystemDynamicRuntime;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemSecurityCryptographyAlgorithms;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Security.Cryptography.Algorithms.dll
-        /// </summary>
-        public static PortableExecutableReference SystemSecurityCryptographyAlgorithms
-        {
-            get
-            {
-                if (_SystemSecurityCryptographyAlgorithms is null)
-                {
-                    _SystemSecurityCryptographyAlgorithms = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Security.Cryptography.Algorithms")).GetReference(filePath: "System.Security.Cryptography.Algorithms.dll", display: "System.Security.Cryptography.Algorithms (netstandard20)");
-                }
-                return _SystemSecurityCryptographyAlgorithms;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemDiagnosticsTools;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Diagnostics.Tools.dll
-        /// </summary>
-        public static PortableExecutableReference SystemDiagnosticsTools
-        {
-            get
-            {
-                if (_SystemDiagnosticsTools is null)
-                {
-                    _SystemDiagnosticsTools = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Diagnostics.Tools")).GetReference(filePath: "System.Diagnostics.Tools.dll", display: "System.Diagnostics.Tools (netstandard20)");
-                }
-                return _SystemDiagnosticsTools;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemDrawing;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Drawing.dll
-        /// </summary>
-        public static PortableExecutableReference SystemDrawing
-        {
-            get
-            {
-                if (_SystemDrawing is null)
-                {
-                    _SystemDrawing = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Drawing")).GetReference(filePath: "System.Drawing.dll", display: "System.Drawing (netstandard20)");
-                }
-                return _SystemDrawing;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemXmlLinq;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Net.WebSockets.dll
-        /// </summary>
-        public static PortableExecutableReference SystemNetWebSockets
-        {
-            get
-            {
-                if (_SystemNetWebSockets is null)
-                {
-                    _SystemNetWebSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Net.WebSockets")).GetReference(filePath: "System.Net.WebSockets.dll", display: "System.Net.WebSockets (netstandard20)");
-                }
-                return _SystemNetWebSockets;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemDiagnosticsTraceSource;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Diagnostics.TraceSource.dll
-        /// </summary>
-        public static PortableExecutableReference SystemDiagnosticsTraceSource
-        {
-            get
-            {
-                if (_SystemDiagnosticsTraceSource is null)
-                {
-                    _SystemDiagnosticsTraceSource = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Diagnostics.TraceSource")).GetReference(filePath: "System.Diagnostics.TraceSource.dll", display: "System.Diagnostics.TraceSource (netstandard20)");
-                }
-                return _SystemDiagnosticsTraceSource;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemXmlSerialization;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Xml.Serialization.dll
-        /// </summary>
-        public static PortableExecutableReference SystemXmlSerialization
-        {
-            get
-            {
-                if (_SystemXmlSerialization is null)
-                {
-                    _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Xml.Serialization")).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (netstandard20)");
-                }
-                return _SystemXmlSerialization;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemIO;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.dll
-        /// </summary>
-        public static PortableExecutableReference SystemIO
-        {
-            get
-            {
-                if (_SystemIO is null)
-                {
-                    _SystemIO = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.IO")).GetReference(filePath: "System.IO.dll", display: "System.IO (netstandard20)");
-                }
-                return _SystemIO;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemDiagnosticsFileVersionInfo;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Diagnostics.FileVersionInfo.dll
-        /// </summary>
-        public static PortableExecutableReference SystemDiagnosticsFileVersionInfo
-        {
-            get
-            {
-                if (_SystemDiagnosticsFileVersionInfo is null)
-                {
-                    _SystemDiagnosticsFileVersionInfo = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Diagnostics.FileVersionInfo")).GetReference(filePath: "System.Diagnostics.FileVersionInfo.dll", display: "System.Diagnostics.FileVersionInfo (netstandard20)");
-                }
-                return _SystemDiagnosticsFileVersionInfo;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemRuntimeInteropServices;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.InteropServices.dll
-        /// </summary>
-        public static PortableExecutableReference SystemRuntimeInteropServices
-        {
-            get
-            {
-                if (_SystemRuntimeInteropServices is null)
-                {
-                    _SystemRuntimeInteropServices = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Runtime.InteropServices")).GetReference(filePath: "System.Runtime.InteropServices.dll", display: "System.Runtime.InteropServices (netstandard20)");
-                }
-                return _SystemRuntimeInteropServices;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemThreadingTasksParallel;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Threading.Tasks.Parallel.dll
-        /// </summary>
-        public static PortableExecutableReference SystemThreadingTasksParallel
-        {
-            get
-            {
-                if (_SystemThreadingTasksParallel is null)
-                {
-                    _SystemThreadingTasksParallel = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Threading.Tasks.Parallel")).GetReference(filePath: "System.Threading.Tasks.Parallel.dll", display: "System.Threading.Tasks.Parallel (netstandard20)");
-                }
-                return _SystemThreadingTasksParallel;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemNetSockets;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Net.Sockets.dll
-        /// </summary>
-        public static PortableExecutableReference SystemNetSockets
-        {
-            get
-            {
-                if (_SystemNetSockets is null)
-                {
-                    _SystemNetSockets = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Net.Sockets")).GetReference(filePath: "System.Net.Sockets.dll", display: "System.Net.Sockets (netstandard20)");
-                }
-                return _SystemNetSockets;
+                return _SystemTransactions;
             }
         }
 
@@ -3090,224 +2395,54 @@ public static partial class NetStandard20
             }
         }
 
-        private static PortableExecutableReference? _SystemRuntimeInteropServicesRuntimeInformation;
+        private static PortableExecutableReference? _SystemWeb;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.InteropServices.RuntimeInformation.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Web.dll
         /// </summary>
-        public static PortableExecutableReference SystemRuntimeInteropServicesRuntimeInformation
+        public static PortableExecutableReference SystemWeb
         {
             get
             {
-                if (_SystemRuntimeInteropServicesRuntimeInformation is null)
+                if (_SystemWeb is null)
                 {
-                    _SystemRuntimeInteropServicesRuntimeInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Runtime.InteropServices.RuntimeInformation")).GetReference(filePath: "System.Runtime.InteropServices.RuntimeInformation.dll", display: "System.Runtime.InteropServices.RuntimeInformation (netstandard20)");
+                    _SystemWeb = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Web")).GetReference(filePath: "System.Web.dll", display: "System.Web (netstandard20)");
                 }
-                return _SystemRuntimeInteropServicesRuntimeInformation;
+                return _SystemWeb;
             }
         }
 
-        private static PortableExecutableReference? _SystemSecurityCryptographyX509Certificates;
+        private static PortableExecutableReference? _SystemWindows;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Security.Cryptography.X509Certificates.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Windows.dll
         /// </summary>
-        public static PortableExecutableReference SystemSecurityCryptographyX509Certificates
+        public static PortableExecutableReference SystemWindows
         {
             get
             {
-                if (_SystemSecurityCryptographyX509Certificates is null)
+                if (_SystemWindows is null)
                 {
-                    _SystemSecurityCryptographyX509Certificates = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Security.Cryptography.X509Certificates")).GetReference(filePath: "System.Security.Cryptography.X509Certificates.dll", display: "System.Security.Cryptography.X509Certificates (netstandard20)");
+                    _SystemWindows = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Windows")).GetReference(filePath: "System.Windows.dll", display: "System.Windows (netstandard20)");
                 }
-                return _SystemSecurityCryptographyX509Certificates;
+                return _SystemWindows;
             }
         }
 
-        private static PortableExecutableReference? _SystemIOCompression;
+        private static PortableExecutableReference? _SystemXmlLinq;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.Compression.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.Linq.dll
         /// </summary>
-        public static PortableExecutableReference SystemIOCompression
+        public static PortableExecutableReference SystemXmlLinq
         {
             get
             {
-                if (_SystemIOCompression is null)
+                if (_SystemXmlLinq is null)
                 {
-                    _SystemIOCompression = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.IO.Compression")).GetReference(filePath: "System.IO.Compression.dll", display: "System.IO.Compression (netstandard20)");
+                    _SystemXmlLinq = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Xml.Linq")).GetReference(filePath: "System.Xml.Linq.dll", display: "System.Xml.Linq (netstandard20)");
                 }
-                return _SystemIOCompression;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemReflectionExtensions;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Reflection.Extensions.dll
-        /// </summary>
-        public static PortableExecutableReference SystemReflectionExtensions
-        {
-            get
-            {
-                if (_SystemReflectionExtensions is null)
-                {
-                    _SystemReflectionExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Reflection.Extensions")).GetReference(filePath: "System.Reflection.Extensions.dll", display: "System.Reflection.Extensions (netstandard20)");
-                }
-                return _SystemReflectionExtensions;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemRuntimeSerialization;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.Serialization.dll
-        /// </summary>
-        public static PortableExecutableReference SystemRuntimeSerialization
-        {
-            get
-            {
-                if (_SystemRuntimeSerialization is null)
-                {
-                    _SystemRuntimeSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Runtime.Serialization")).GetReference(filePath: "System.Runtime.Serialization.dll", display: "System.Runtime.Serialization (netstandard20)");
-                }
-                return _SystemRuntimeSerialization;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemNetNetworkInformation;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Net.NetworkInformation.dll
-        /// </summary>
-        public static PortableExecutableReference SystemNetNetworkInformation
-        {
-            get
-            {
-                if (_SystemNetNetworkInformation is null)
-                {
-                    _SystemNetNetworkInformation = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Net.NetworkInformation")).GetReference(filePath: "System.Net.NetworkInformation.dll", display: "System.Net.NetworkInformation (netstandard20)");
-                }
-                return _SystemNetNetworkInformation;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemDiagnosticsProcess;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Diagnostics.Process.dll
-        /// </summary>
-        public static PortableExecutableReference SystemDiagnosticsProcess
-        {
-            get
-            {
-                if (_SystemDiagnosticsProcess is null)
-                {
-                    _SystemDiagnosticsProcess = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Diagnostics.Process")).GetReference(filePath: "System.Diagnostics.Process.dll", display: "System.Diagnostics.Process (netstandard20)");
-                }
-                return _SystemDiagnosticsProcess;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemComponentModelPrimitives;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.ComponentModel.Primitives.dll
-        /// </summary>
-        public static PortableExecutableReference SystemComponentModelPrimitives
-        {
-            get
-            {
-                if (_SystemComponentModelPrimitives is null)
-                {
-                    _SystemComponentModelPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.ComponentModel.Primitives")).GetReference(filePath: "System.ComponentModel.Primitives.dll", display: "System.ComponentModel.Primitives (netstandard20)");
-                }
-                return _SystemComponentModelPrimitives;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemRuntimeCompilerServicesVisualC;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.CompilerServices.VisualC.dll
-        /// </summary>
-        public static PortableExecutableReference SystemRuntimeCompilerServicesVisualC
-        {
-            get
-            {
-                if (_SystemRuntimeCompilerServicesVisualC is null)
-                {
-                    _SystemRuntimeCompilerServicesVisualC = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Runtime.CompilerServices.VisualC")).GetReference(filePath: "System.Runtime.CompilerServices.VisualC.dll", display: "System.Runtime.CompilerServices.VisualC (netstandard20)");
-                }
-                return _SystemRuntimeCompilerServicesVisualC;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemDiagnosticsDebug;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Diagnostics.Debug.dll
-        /// </summary>
-        public static PortableExecutableReference SystemDiagnosticsDebug
-        {
-            get
-            {
-                if (_SystemDiagnosticsDebug is null)
-                {
-                    _SystemDiagnosticsDebug = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Diagnostics.Debug")).GetReference(filePath: "System.Diagnostics.Debug.dll", display: "System.Diagnostics.Debug (netstandard20)");
-                }
-                return _SystemDiagnosticsDebug;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemCollectionsNonGeneric;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Collections.NonGeneric.dll
-        /// </summary>
-        public static PortableExecutableReference SystemCollectionsNonGeneric
-        {
-            get
-            {
-                if (_SystemCollectionsNonGeneric is null)
-                {
-                    _SystemCollectionsNonGeneric = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Collections.NonGeneric")).GetReference(filePath: "System.Collections.NonGeneric.dll", display: "System.Collections.NonGeneric (netstandard20)");
-                }
-                return _SystemCollectionsNonGeneric;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemThreading;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Threading.dll
-        /// </summary>
-        public static PortableExecutableReference SystemThreading
-        {
-            get
-            {
-                if (_SystemThreading is null)
-                {
-                    _SystemThreading = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Threading")).GetReference(filePath: "System.Threading.dll", display: "System.Threading (netstandard20)");
-                }
-                return _SystemThreading;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemIOCompressionZipFile;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.IO.Compression.ZipFile.dll
-        /// </summary>
-        public static PortableExecutableReference SystemIOCompressionZipFile
-        {
-            get
-            {
-                if (_SystemIOCompressionZipFile is null)
-                {
-                    _SystemIOCompressionZipFile = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.IO.Compression.ZipFile")).GetReference(filePath: "System.IO.Compression.ZipFile.dll", display: "System.IO.Compression.ZipFile (netstandard20)");
-                }
-                return _SystemIOCompressionZipFile;
+                return _SystemXmlLinq;
             }
         }
 
@@ -3328,190 +2463,20 @@ public static partial class NetStandard20
             }
         }
 
-        private static PortableExecutableReference? _SystemTextRegularExpressions;
+        private static PortableExecutableReference? _SystemXmlSerialization;
 
         /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Text.RegularExpressions.dll
+        /// The <see cref="PortableExecutableReference"/> for System.Xml.Serialization.dll
         /// </summary>
-        public static PortableExecutableReference SystemTextRegularExpressions
+        public static PortableExecutableReference SystemXmlSerialization
         {
             get
             {
-                if (_SystemTextRegularExpressions is null)
+                if (_SystemXmlSerialization is null)
                 {
-                    _SystemTextRegularExpressions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Text.RegularExpressions")).GetReference(filePath: "System.Text.RegularExpressions.dll", display: "System.Text.RegularExpressions (netstandard20)");
+                    _SystemXmlSerialization = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Xml.Serialization")).GetReference(filePath: "System.Xml.Serialization.dll", display: "System.Xml.Serialization (netstandard20)");
                 }
-                return _SystemTextRegularExpressions;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemNetRequests;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Net.Requests.dll
-        /// </summary>
-        public static PortableExecutableReference SystemNetRequests
-        {
-            get
-            {
-                if (_SystemNetRequests is null)
-                {
-                    _SystemNetRequests = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Net.Requests")).GetReference(filePath: "System.Net.Requests.dll", display: "System.Net.Requests (netstandard20)");
-                }
-                return _SystemNetRequests;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemGlobalizationCalendars;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Globalization.Calendars.dll
-        /// </summary>
-        public static PortableExecutableReference SystemGlobalizationCalendars
-        {
-            get
-            {
-                if (_SystemGlobalizationCalendars is null)
-                {
-                    _SystemGlobalizationCalendars = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Globalization.Calendars")).GetReference(filePath: "System.Globalization.Calendars.dll", display: "System.Globalization.Calendars (netstandard20)");
-                }
-                return _SystemGlobalizationCalendars;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemRuntimeSerializationPrimitives;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Runtime.Serialization.Primitives.dll
-        /// </summary>
-        public static PortableExecutableReference SystemRuntimeSerializationPrimitives
-        {
-            get
-            {
-                if (_SystemRuntimeSerializationPrimitives is null)
-                {
-                    _SystemRuntimeSerializationPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Runtime.Serialization.Primitives")).GetReference(filePath: "System.Runtime.Serialization.Primitives.dll", display: "System.Runtime.Serialization.Primitives (netstandard20)");
-                }
-                return _SystemRuntimeSerializationPrimitives;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemTextEncodingExtensions;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Text.Encoding.Extensions.dll
-        /// </summary>
-        public static PortableExecutableReference SystemTextEncodingExtensions
-        {
-            get
-            {
-                if (_SystemTextEncodingExtensions is null)
-                {
-                    _SystemTextEncodingExtensions = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Text.Encoding.Extensions")).GetReference(filePath: "System.Text.Encoding.Extensions.dll", display: "System.Text.Encoding.Extensions (netstandard20)");
-                }
-                return _SystemTextEncodingExtensions;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemDiagnosticsStackTrace;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Diagnostics.StackTrace.dll
-        /// </summary>
-        public static PortableExecutableReference SystemDiagnosticsStackTrace
-        {
-            get
-            {
-                if (_SystemDiagnosticsStackTrace is null)
-                {
-                    _SystemDiagnosticsStackTrace = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Diagnostics.StackTrace")).GetReference(filePath: "System.Diagnostics.StackTrace.dll", display: "System.Diagnostics.StackTrace (netstandard20)");
-                }
-                return _SystemDiagnosticsStackTrace;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemComponentModelComposition;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.ComponentModel.Composition.dll
-        /// </summary>
-        public static PortableExecutableReference SystemComponentModelComposition
-        {
-            get
-            {
-                if (_SystemComponentModelComposition is null)
-                {
-                    _SystemComponentModelComposition = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.ComponentModel.Composition")).GetReference(filePath: "System.ComponentModel.Composition.dll", display: "System.ComponentModel.Composition (netstandard20)");
-                }
-                return _SystemComponentModelComposition;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemNetPrimitives;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Net.Primitives.dll
-        /// </summary>
-        public static PortableExecutableReference SystemNetPrimitives
-        {
-            get
-            {
-                if (_SystemNetPrimitives is null)
-                {
-                    _SystemNetPrimitives = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Net.Primitives")).GetReference(filePath: "System.Net.Primitives.dll", display: "System.Net.Primitives (netstandard20)");
-                }
-                return _SystemNetPrimitives;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemSecuritySecureString;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Security.SecureString.dll
-        /// </summary>
-        public static PortableExecutableReference SystemSecuritySecureString
-        {
-            get
-            {
-                if (_SystemSecuritySecureString is null)
-                {
-                    _SystemSecuritySecureString = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Security.SecureString")).GetReference(filePath: "System.Security.SecureString.dll", display: "System.Security.SecureString (netstandard20)");
-                }
-                return _SystemSecuritySecureString;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemSecurityPrincipal;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Security.Principal.dll
-        /// </summary>
-        public static PortableExecutableReference SystemSecurityPrincipal
-        {
-            get
-            {
-                if (_SystemSecurityPrincipal is null)
-                {
-                    _SystemSecurityPrincipal = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Security.Principal")).GetReference(filePath: "System.Security.Principal.dll", display: "System.Security.Principal (netstandard20)");
-                }
-                return _SystemSecurityPrincipal;
-            }
-        }
-
-        private static PortableExecutableReference? _SystemLinqQueryable;
-
-        /// <summary>
-        /// The <see cref="PortableExecutableReference"/> for System.Linq.Queryable.dll
-        /// </summary>
-        public static PortableExecutableReference SystemLinqQueryable
-        {
-            get
-            {
-                if (_SystemLinqQueryable is null)
-                {
-                    _SystemLinqQueryable = AssemblyMetadata.CreateFromImage(ResourceLoader.GetResourceBlobAsImmutable("netstandard20.System.Linq.Queryable")).GetReference(filePath: "System.Linq.Queryable.dll", display: "System.Linq.Queryable (netstandard20)");
-                }
-                return _SystemLinqQueryable;
+                return _SystemXmlSerialization;
             }
         }
 
@@ -3771,21 +2736,7 @@ public static partial class NetStandard20
                         SystemThreadingTasksParallel,
                         SystemThreadingTasks,
                         SystemThreadingThread,
-                        SystemDiagnosticsContracts,
-                        SystemComponentModelTypeConverter,
-                        SystemSecurityCryptographyPrimitives,
-                        MicrosoftWin32Primitives,
-                        SystemDrawingPrimitives,
-                        SystemIOMemoryMappedFiles,
-                        SystemCore,
-                        SystemRuntimeSerializationFormatters,
-                        SystemResourcesResourceManager,
-                        SystemThreadingOverlapped,
-                        SystemNet,
-                        SystemObjectModel,
-                        SystemDiagnosticsTextWriterTraceListener,
-                        SystemSecurityCryptographyCsp,
-                        SystemNetWebSocketsClient,
+                        SystemThreadingThreadPool,
                         SystemThreadingTimer,
                         SystemThreading,
                         SystemTransactions,
@@ -3795,37 +2746,6 @@ public static partial class NetStandard20
                         SystemXmlLinq,
                         SystemXmlReaderWriter,
                         SystemXmlSerialization,
-                        SystemIO,
-                        SystemDiagnosticsFileVersionInfo,
-                        SystemRuntimeInteropServices,
-                        SystemThreadingTasksParallel,
-                        SystemNetSockets,
-                        SystemValueTuple,
-                        SystemRuntimeInteropServicesRuntimeInformation,
-                        SystemSecurityCryptographyX509Certificates,
-                        SystemIOCompression,
-                        SystemReflectionExtensions,
-                        SystemRuntimeSerialization,
-                        SystemNetNetworkInformation,
-                        SystemDiagnosticsProcess,
-                        SystemComponentModelPrimitives,
-                        SystemRuntimeCompilerServicesVisualC,
-                        SystemDiagnosticsDebug,
-                        SystemCollectionsNonGeneric,
-                        SystemThreading,
-                        SystemIOCompressionZipFile,
-                        SystemXmlReaderWriter,
-                        SystemTextRegularExpressions,
-                        SystemNetRequests,
-                        SystemGlobalizationCalendars,
-                        SystemRuntimeSerializationPrimitives,
-                        SystemTextEncodingExtensions,
-                        SystemDiagnosticsStackTrace,
-                        SystemComponentModelComposition,
-                        SystemNetPrimitives,
-                        SystemSecuritySecureString,
-                        SystemSecurityPrincipal,
-                        SystemLinqQueryable,
                         SystemXmlXDocument,
                         SystemXmlXPathXDocument,
                         SystemXmlXPath,
@@ -4528,94 +3448,10 @@ public static partial class NetStandard20
         private static byte[]? _SystemThreadingThread;
 
         /// <summary>
-        /// The image bytes for System.Diagnostics.Contracts.dll
+        /// The image bytes for System.Threading.ThreadPool.dll
         /// </summary>
-        public static byte[] SystemDiagnosticsContracts => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsContracts, "netstandard20.System.Diagnostics.Contracts");
-        private static byte[]? _SystemDiagnosticsContracts;
-
-        /// <summary>
-        /// The image bytes for System.ComponentModel.TypeConverter.dll
-        /// </summary>
-        public static byte[] SystemComponentModelTypeConverter => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelTypeConverter, "netstandard20.System.ComponentModel.TypeConverter");
-        private static byte[]? _SystemComponentModelTypeConverter;
-
-        /// <summary>
-        /// The image bytes for System.Security.Cryptography.Primitives.dll
-        /// </summary>
-        public static byte[] SystemSecurityCryptographyPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyPrimitives, "netstandard20.System.Security.Cryptography.Primitives");
-        private static byte[]? _SystemSecurityCryptographyPrimitives;
-
-        /// <summary>
-        /// The image bytes for Microsoft.Win32.Primitives.dll
-        /// </summary>
-        public static byte[] MicrosoftWin32Primitives => ResourceLoader.GetOrCreateResource(ref _MicrosoftWin32Primitives, "netstandard20.Microsoft.Win32.Primitives");
-        private static byte[]? _MicrosoftWin32Primitives;
-
-        /// <summary>
-        /// The image bytes for System.Drawing.Primitives.dll
-        /// </summary>
-        public static byte[] SystemDrawingPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemDrawingPrimitives, "netstandard20.System.Drawing.Primitives");
-        private static byte[]? _SystemDrawingPrimitives;
-
-        /// <summary>
-        /// The image bytes for System.IO.MemoryMappedFiles.dll
-        /// </summary>
-        public static byte[] SystemIOMemoryMappedFiles => ResourceLoader.GetOrCreateResource(ref _SystemIOMemoryMappedFiles, "netstandard20.System.IO.MemoryMappedFiles");
-        private static byte[]? _SystemIOMemoryMappedFiles;
-
-        /// <summary>
-        /// The image bytes for System.Core.dll
-        /// </summary>
-        public static byte[] SystemCore => ResourceLoader.GetOrCreateResource(ref _SystemCore, "netstandard20.System.Core");
-        private static byte[]? _SystemCore;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.Serialization.Formatters.dll
-        /// </summary>
-        public static byte[] SystemRuntimeSerializationFormatters => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationFormatters, "netstandard20.System.Runtime.Serialization.Formatters");
-        private static byte[]? _SystemRuntimeSerializationFormatters;
-
-        /// <summary>
-        /// The image bytes for System.Resources.ResourceManager.dll
-        /// </summary>
-        public static byte[] SystemResourcesResourceManager => ResourceLoader.GetOrCreateResource(ref _SystemResourcesResourceManager, "netstandard20.System.Resources.ResourceManager");
-        private static byte[]? _SystemResourcesResourceManager;
-
-        /// <summary>
-        /// The image bytes for System.Threading.Overlapped.dll
-        /// </summary>
-        public static byte[] SystemThreadingOverlapped => ResourceLoader.GetOrCreateResource(ref _SystemThreadingOverlapped, "netstandard20.System.Threading.Overlapped");
-        private static byte[]? _SystemThreadingOverlapped;
-
-        /// <summary>
-        /// The image bytes for System.Net.dll
-        /// </summary>
-        public static byte[] SystemNet => ResourceLoader.GetOrCreateResource(ref _SystemNet, "netstandard20.System.Net");
-        private static byte[]? _SystemNet;
-
-        /// <summary>
-        /// The image bytes for System.ObjectModel.dll
-        /// </summary>
-        public static byte[] SystemObjectModel => ResourceLoader.GetOrCreateResource(ref _SystemObjectModel, "netstandard20.System.ObjectModel");
-        private static byte[]? _SystemObjectModel;
-
-        /// <summary>
-        /// The image bytes for System.Diagnostics.TextWriterTraceListener.dll
-        /// </summary>
-        public static byte[] SystemDiagnosticsTextWriterTraceListener => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTextWriterTraceListener, "netstandard20.System.Diagnostics.TextWriterTraceListener");
-        private static byte[]? _SystemDiagnosticsTextWriterTraceListener;
-
-        /// <summary>
-        /// The image bytes for System.Security.Cryptography.Csp.dll
-        /// </summary>
-        public static byte[] SystemSecurityCryptographyCsp => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyCsp, "netstandard20.System.Security.Cryptography.Csp");
-        private static byte[]? _SystemSecurityCryptographyCsp;
-
-        /// <summary>
-        /// The image bytes for System.Net.WebSockets.Client.dll
-        /// </summary>
-        public static byte[] SystemNetWebSocketsClient => ResourceLoader.GetOrCreateResource(ref _SystemNetWebSocketsClient, "netstandard20.System.Net.WebSockets.Client");
-        private static byte[]? _SystemNetWebSocketsClient;
+        public static byte[] SystemThreadingThreadPool => ResourceLoader.GetOrCreateResource(ref _SystemThreadingThreadPool, "netstandard20.System.Threading.ThreadPool");
+        private static byte[]? _SystemThreadingThreadPool;
 
         /// <summary>
         /// The image bytes for System.Threading.Timer.dll
@@ -4632,74 +3468,8 @@ public static partial class NetStandard20
         /// <summary>
         /// The image bytes for System.Transactions.dll
         /// </summary>
-        public static byte[] SystemDynamicRuntime => ResourceLoader.GetOrCreateResource(ref _SystemDynamicRuntime, "netstandard20.System.Dynamic.Runtime");
-        private static byte[]? _SystemDynamicRuntime;
-
-        /// <summary>
-        /// The image bytes for System.Security.Cryptography.Algorithms.dll
-        /// </summary>
-        public static byte[] SystemSecurityCryptographyAlgorithms => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyAlgorithms, "netstandard20.System.Security.Cryptography.Algorithms");
-        private static byte[]? _SystemSecurityCryptographyAlgorithms;
-
-        /// <summary>
-        /// The image bytes for System.Diagnostics.Tools.dll
-        /// </summary>
-        public static byte[] SystemDiagnosticsTools => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTools, "netstandard20.System.Diagnostics.Tools");
-        private static byte[]? _SystemDiagnosticsTools;
-
-        /// <summary>
-        /// The image bytes for System.Drawing.dll
-        /// </summary>
-        public static byte[] SystemDrawing => ResourceLoader.GetOrCreateResource(ref _SystemDrawing, "netstandard20.System.Drawing");
-        private static byte[]? _SystemDrawing;
-
-        /// <summary>
-        /// The image bytes for System.Xml.Linq.dll
-        /// </summary>
-        public static byte[] SystemNetWebSockets => ResourceLoader.GetOrCreateResource(ref _SystemNetWebSockets, "netstandard20.System.Net.WebSockets");
-        private static byte[]? _SystemNetWebSockets;
-
-        /// <summary>
-        /// The image bytes for System.Diagnostics.TraceSource.dll
-        /// </summary>
-        public static byte[] SystemDiagnosticsTraceSource => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsTraceSource, "netstandard20.System.Diagnostics.TraceSource");
-        private static byte[]? _SystemDiagnosticsTraceSource;
-
-        /// <summary>
-        /// The image bytes for System.Xml.Serialization.dll
-        /// </summary>
-        public static byte[] SystemXmlSerialization => ResourceLoader.GetOrCreateResource(ref _SystemXmlSerialization, "netstandard20.System.Xml.Serialization");
-        private static byte[]? _SystemXmlSerialization;
-
-        /// <summary>
-        /// The image bytes for System.IO.dll
-        /// </summary>
-        public static byte[] SystemIO => ResourceLoader.GetOrCreateResource(ref _SystemIO, "netstandard20.System.IO");
-        private static byte[]? _SystemIO;
-
-        /// <summary>
-        /// The image bytes for System.Diagnostics.FileVersionInfo.dll
-        /// </summary>
-        public static byte[] SystemDiagnosticsFileVersionInfo => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsFileVersionInfo, "netstandard20.System.Diagnostics.FileVersionInfo");
-        private static byte[]? _SystemDiagnosticsFileVersionInfo;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.InteropServices.dll
-        /// </summary>
-        public static byte[] SystemRuntimeInteropServices => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServices, "netstandard20.System.Runtime.InteropServices");
-        private static byte[]? _SystemRuntimeInteropServices;
-
-        /// <summary>
-        /// The image bytes for System.Threading.Tasks.Parallel.dll
-        /// </summary>
-        public static byte[] SystemThreadingTasksParallel => ResourceLoader.GetOrCreateResource(ref _SystemThreadingTasksParallel, "netstandard20.System.Threading.Tasks.Parallel");
-        private static byte[]? _SystemThreadingTasksParallel;
-
-        /// <summary>
-        /// The image bytes for System.Net.Sockets.dll
-        /// </summary>
-        public static byte[] SystemNetSockets => ResourceLoader.GetOrCreateResource(ref _SystemNetSockets, "netstandard20.System.Net.Sockets");
-        private static byte[]? _SystemNetSockets;
+        public static byte[] SystemTransactions => ResourceLoader.GetOrCreateResource(ref _SystemTransactions, "netstandard20.System.Transactions");
+        private static byte[]? _SystemTransactions;
 
         /// <summary>
         /// The image bytes for System.ValueTuple.dll
@@ -4708,82 +3478,22 @@ public static partial class NetStandard20
         private static byte[]? _SystemValueTuple;
 
         /// <summary>
-        /// The image bytes for System.Runtime.InteropServices.RuntimeInformation.dll
+        /// The image bytes for System.Web.dll
         /// </summary>
-        public static byte[] SystemRuntimeInteropServicesRuntimeInformation => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeInteropServicesRuntimeInformation, "netstandard20.System.Runtime.InteropServices.RuntimeInformation");
-        private static byte[]? _SystemRuntimeInteropServicesRuntimeInformation;
+        public static byte[] SystemWeb => ResourceLoader.GetOrCreateResource(ref _SystemWeb, "netstandard20.System.Web");
+        private static byte[]? _SystemWeb;
 
         /// <summary>
-        /// The image bytes for System.Security.Cryptography.X509Certificates.dll
+        /// The image bytes for System.Windows.dll
         /// </summary>
-        public static byte[] SystemSecurityCryptographyX509Certificates => ResourceLoader.GetOrCreateResource(ref _SystemSecurityCryptographyX509Certificates, "netstandard20.System.Security.Cryptography.X509Certificates");
-        private static byte[]? _SystemSecurityCryptographyX509Certificates;
+        public static byte[] SystemWindows => ResourceLoader.GetOrCreateResource(ref _SystemWindows, "netstandard20.System.Windows");
+        private static byte[]? _SystemWindows;
 
         /// <summary>
-        /// The image bytes for System.IO.Compression.dll
+        /// The image bytes for System.Xml.Linq.dll
         /// </summary>
-        public static byte[] SystemIOCompression => ResourceLoader.GetOrCreateResource(ref _SystemIOCompression, "netstandard20.System.IO.Compression");
-        private static byte[]? _SystemIOCompression;
-
-        /// <summary>
-        /// The image bytes for System.Reflection.Extensions.dll
-        /// </summary>
-        public static byte[] SystemReflectionExtensions => ResourceLoader.GetOrCreateResource(ref _SystemReflectionExtensions, "netstandard20.System.Reflection.Extensions");
-        private static byte[]? _SystemReflectionExtensions;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.Serialization.dll
-        /// </summary>
-        public static byte[] SystemRuntimeSerialization => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerialization, "netstandard20.System.Runtime.Serialization");
-        private static byte[]? _SystemRuntimeSerialization;
-
-        /// <summary>
-        /// The image bytes for System.Net.NetworkInformation.dll
-        /// </summary>
-        public static byte[] SystemNetNetworkInformation => ResourceLoader.GetOrCreateResource(ref _SystemNetNetworkInformation, "netstandard20.System.Net.NetworkInformation");
-        private static byte[]? _SystemNetNetworkInformation;
-
-        /// <summary>
-        /// The image bytes for System.Diagnostics.Process.dll
-        /// </summary>
-        public static byte[] SystemDiagnosticsProcess => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsProcess, "netstandard20.System.Diagnostics.Process");
-        private static byte[]? _SystemDiagnosticsProcess;
-
-        /// <summary>
-        /// The image bytes for System.ComponentModel.Primitives.dll
-        /// </summary>
-        public static byte[] SystemComponentModelPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelPrimitives, "netstandard20.System.ComponentModel.Primitives");
-        private static byte[]? _SystemComponentModelPrimitives;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.CompilerServices.VisualC.dll
-        /// </summary>
-        public static byte[] SystemRuntimeCompilerServicesVisualC => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeCompilerServicesVisualC, "netstandard20.System.Runtime.CompilerServices.VisualC");
-        private static byte[]? _SystemRuntimeCompilerServicesVisualC;
-
-        /// <summary>
-        /// The image bytes for System.Diagnostics.Debug.dll
-        /// </summary>
-        public static byte[] SystemDiagnosticsDebug => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsDebug, "netstandard20.System.Diagnostics.Debug");
-        private static byte[]? _SystemDiagnosticsDebug;
-
-        /// <summary>
-        /// The image bytes for System.Collections.NonGeneric.dll
-        /// </summary>
-        public static byte[] SystemCollectionsNonGeneric => ResourceLoader.GetOrCreateResource(ref _SystemCollectionsNonGeneric, "netstandard20.System.Collections.NonGeneric");
-        private static byte[]? _SystemCollectionsNonGeneric;
-
-        /// <summary>
-        /// The image bytes for System.Threading.dll
-        /// </summary>
-        public static byte[] SystemThreading => ResourceLoader.GetOrCreateResource(ref _SystemThreading, "netstandard20.System.Threading");
-        private static byte[]? _SystemThreading;
-
-        /// <summary>
-        /// The image bytes for System.IO.Compression.ZipFile.dll
-        /// </summary>
-        public static byte[] SystemIOCompressionZipFile => ResourceLoader.GetOrCreateResource(ref _SystemIOCompressionZipFile, "netstandard20.System.IO.Compression.ZipFile");
-        private static byte[]? _SystemIOCompressionZipFile;
+        public static byte[] SystemXmlLinq => ResourceLoader.GetOrCreateResource(ref _SystemXmlLinq, "netstandard20.System.Xml.Linq");
+        private static byte[]? _SystemXmlLinq;
 
         /// <summary>
         /// The image bytes for System.Xml.ReaderWriter.dll
@@ -4792,70 +3502,10 @@ public static partial class NetStandard20
         private static byte[]? _SystemXmlReaderWriter;
 
         /// <summary>
-        /// The image bytes for System.Text.RegularExpressions.dll
+        /// The image bytes for System.Xml.Serialization.dll
         /// </summary>
-        public static byte[] SystemTextRegularExpressions => ResourceLoader.GetOrCreateResource(ref _SystemTextRegularExpressions, "netstandard20.System.Text.RegularExpressions");
-        private static byte[]? _SystemTextRegularExpressions;
-
-        /// <summary>
-        /// The image bytes for System.Net.Requests.dll
-        /// </summary>
-        public static byte[] SystemNetRequests => ResourceLoader.GetOrCreateResource(ref _SystemNetRequests, "netstandard20.System.Net.Requests");
-        private static byte[]? _SystemNetRequests;
-
-        /// <summary>
-        /// The image bytes for System.Globalization.Calendars.dll
-        /// </summary>
-        public static byte[] SystemGlobalizationCalendars => ResourceLoader.GetOrCreateResource(ref _SystemGlobalizationCalendars, "netstandard20.System.Globalization.Calendars");
-        private static byte[]? _SystemGlobalizationCalendars;
-
-        /// <summary>
-        /// The image bytes for System.Runtime.Serialization.Primitives.dll
-        /// </summary>
-        public static byte[] SystemRuntimeSerializationPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemRuntimeSerializationPrimitives, "netstandard20.System.Runtime.Serialization.Primitives");
-        private static byte[]? _SystemRuntimeSerializationPrimitives;
-
-        /// <summary>
-        /// The image bytes for System.Text.Encoding.Extensions.dll
-        /// </summary>
-        public static byte[] SystemTextEncodingExtensions => ResourceLoader.GetOrCreateResource(ref _SystemTextEncodingExtensions, "netstandard20.System.Text.Encoding.Extensions");
-        private static byte[]? _SystemTextEncodingExtensions;
-
-        /// <summary>
-        /// The image bytes for System.Diagnostics.StackTrace.dll
-        /// </summary>
-        public static byte[] SystemDiagnosticsStackTrace => ResourceLoader.GetOrCreateResource(ref _SystemDiagnosticsStackTrace, "netstandard20.System.Diagnostics.StackTrace");
-        private static byte[]? _SystemDiagnosticsStackTrace;
-
-        /// <summary>
-        /// The image bytes for System.ComponentModel.Composition.dll
-        /// </summary>
-        public static byte[] SystemComponentModelComposition => ResourceLoader.GetOrCreateResource(ref _SystemComponentModelComposition, "netstandard20.System.ComponentModel.Composition");
-        private static byte[]? _SystemComponentModelComposition;
-
-        /// <summary>
-        /// The image bytes for System.Net.Primitives.dll
-        /// </summary>
-        public static byte[] SystemNetPrimitives => ResourceLoader.GetOrCreateResource(ref _SystemNetPrimitives, "netstandard20.System.Net.Primitives");
-        private static byte[]? _SystemNetPrimitives;
-
-        /// <summary>
-        /// The image bytes for System.Security.SecureString.dll
-        /// </summary>
-        public static byte[] SystemSecuritySecureString => ResourceLoader.GetOrCreateResource(ref _SystemSecuritySecureString, "netstandard20.System.Security.SecureString");
-        private static byte[]? _SystemSecuritySecureString;
-
-        /// <summary>
-        /// The image bytes for System.Security.Principal.dll
-        /// </summary>
-        public static byte[] SystemSecurityPrincipal => ResourceLoader.GetOrCreateResource(ref _SystemSecurityPrincipal, "netstandard20.System.Security.Principal");
-        private static byte[]? _SystemSecurityPrincipal;
-
-        /// <summary>
-        /// The image bytes for System.Linq.Queryable.dll
-        /// </summary>
-        public static byte[] SystemLinqQueryable => ResourceLoader.GetOrCreateResource(ref _SystemLinqQueryable, "netstandard20.System.Linq.Queryable");
-        private static byte[]? _SystemLinqQueryable;
+        public static byte[] SystemXmlSerialization => ResourceLoader.GetOrCreateResource(ref _SystemXmlSerialization, "netstandard20.System.Xml.Serialization");
+        private static byte[]? _SystemXmlSerialization;
 
         /// <summary>
         /// The image bytes for System.Xml.XDocument.dll
