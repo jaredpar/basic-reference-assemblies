@@ -56,12 +56,13 @@ jobs:
         run: dotnet pack -p:PackageOutputPath="${GITHUB_WORKSPACE}/packages" -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ steps.version.outputs.version }}" -c Release 
 
       - name: NuGet login (OIDC)
+        id: nuget-login
         uses: NuGet/login@v1
         with:
           user: jaredpar
 
       - name: Publish NuPkg Files
-        run: dotnet nuget push "$GITHUB_WORKSPACE/packages/*.nupkg" -s https://api.nuget.org/v3/index.json --skip-duplicate
+        run: dotnet nuget push "$GITHUB_WORKSPACE/packages/*.nupkg" --api-key ${{ steps.nuget-login.outputs.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
 
       - name: Create Tag and Release
         env:
