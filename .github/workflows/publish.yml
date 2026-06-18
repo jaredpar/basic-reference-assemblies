@@ -15,6 +15,9 @@ jobs:
   publish:
     name: Publish NuGet 
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: write
     if: >-
       github.event_name == 'workflow_dispatch' ||
       (github.event_name == 'workflow_run' && 
@@ -52,8 +55,13 @@ jobs:
       - name: Pack Solution
         run: dotnet pack -p:PackageOutputPath="${GITHUB_WORKSPACE}/packages" -p:IncludeSymbols=false -p:RepositoryCommit=${GITHUB_SHA} -p:PackageVersion="${{ steps.version.outputs.version }}" -c Release 
 
+      - name: NuGet login (OIDC)
+        uses: NuGet/login@v1
+        with:
+          user: jaredpar
+
       - name: Publish NuPkg Files
-        run: dotnet nuget push "$GITHUB_WORKSPACE/packages/*.nupkg" -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json 
+        run: dotnet nuget push "$GITHUB_WORKSPACE/packages/*.nupkg" -s https://api.nuget.org/v3/index.json --skip-duplicate
 
       - name: Create Tag and Release
         env:
