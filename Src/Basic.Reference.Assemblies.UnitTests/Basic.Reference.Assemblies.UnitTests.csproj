@@ -33,6 +33,7 @@
     <ProjectReference Include="..\Basic.Reference.Assemblies.NetStandard13\Basic.Reference.Assemblies.NetStandard13.csproj" />
     <ProjectReference Include="..\Basic.Reference.Assemblies.NetStandard20\Basic.Reference.Assemblies.NetStandard20.csproj" />
     <ProjectReference Include="..\Basic.Reference.Assemblies.Net472\Basic.Reference.Assemblies.Net472.csproj" />
+    <ProjectReference Include="..\Basic.Reference.Assemblies.Net481\Basic.Reference.Assemblies.Net481.csproj" />
     <ProjectReference Include="..\Basic.Reference.Assemblies.Net461\Basic.Reference.Assemblies.Net461.csproj" />
     <ProjectReference Include="..\Basic.Reference.Assemblies\Basic.Reference.Assemblies.csproj">
         <Aliases>Combined</Aliases>

@@ -57,6 +57,7 @@ Developers who only need a single target framework and are extremely size consci
 
 - [Basic.Reference.Assemblies.Net80](https://www.nuget.org/packages/Basic.Reference.Assemblies.Net80/)
 - [Basic.Reference.Assemblies.NetStandard20](https://www.nuget.org/packages/Basic.Reference.Assemblies.NetStandard20/)
+- [Basic.Reference.Assemblies.Net481](https://www.nuget.org/packages/Basic.Reference.Assemblies.Net481/)
 - [Basic.Reference.Assemblies.Net472](https://www.nuget.org/packages/Basic.Reference.Assemblies.Net472/)
 
 Packages for older target frameworks are also available:
