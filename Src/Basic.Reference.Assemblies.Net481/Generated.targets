@@ -1,0 +1,944 @@
+<Project>
+    <ItemGroup>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Accessibility.dll" WithCulture="false">
+            <LogicalName>net481.Accessibility</LogicalName>
+            <Link>Resources\net481\Accessibility.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/CustomMarshalers.dll" WithCulture="false">
+            <LogicalName>net481.CustomMarshalers</LogicalName>
+            <Link>Resources\net481\CustomMarshalers.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/Microsoft.Win32.Primitives.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.Win32.Primitives</LogicalName>
+            <Link>Resources\net481\Microsoft.Win32.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.AppContext.dll" WithCulture="false">
+            <LogicalName>net481.System.AppContext</LogicalName>
+            <Link>Resources\net481\System.AppContext.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Collections.Concurrent.dll" WithCulture="false">
+            <LogicalName>net481.System.Collections.Concurrent</LogicalName>
+            <Link>Resources\net481\System.Collections.Concurrent.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Collections.NonGeneric.dll" WithCulture="false">
+            <LogicalName>net481.System.Collections.NonGeneric</LogicalName>
+            <Link>Resources\net481\System.Collections.NonGeneric.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Collections.Specialized.dll" WithCulture="false">
+            <LogicalName>net481.System.Collections.Specialized</LogicalName>
+            <Link>Resources\net481\System.Collections.Specialized.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Collections.dll" WithCulture="false">
+            <LogicalName>net481.System.Collections</LogicalName>
+            <Link>Resources\net481\System.Collections.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.ComponentModel.Annotations.dll" WithCulture="false">
+            <LogicalName>net481.System.ComponentModel.Annotations</LogicalName>
+            <Link>Resources\net481\System.ComponentModel.Annotations.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.ComponentModel.EventBasedAsync.dll" WithCulture="false">
+            <LogicalName>net481.System.ComponentModel.EventBasedAsync</LogicalName>
+            <Link>Resources\net481\System.ComponentModel.EventBasedAsync.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.ComponentModel.Primitives.dll" WithCulture="false">
+            <LogicalName>net481.System.ComponentModel.Primitives</LogicalName>
+            <Link>Resources\net481\System.ComponentModel.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.ComponentModel.TypeConverter.dll" WithCulture="false">
+            <LogicalName>net481.System.ComponentModel.TypeConverter</LogicalName>
+            <Link>Resources\net481\System.ComponentModel.TypeConverter.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.ComponentModel.dll" WithCulture="false">
+            <LogicalName>net481.System.ComponentModel</LogicalName>
+            <Link>Resources\net481\System.ComponentModel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Console.dll" WithCulture="false">
+            <LogicalName>net481.System.Console</LogicalName>
+            <Link>Resources\net481\System.Console.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Data.Common.dll" WithCulture="false">
+            <LogicalName>net481.System.Data.Common</LogicalName>
+            <Link>Resources\net481\System.Data.Common.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Diagnostics.Contracts.dll" WithCulture="false">
+            <LogicalName>net481.System.Diagnostics.Contracts</LogicalName>
+            <Link>Resources\net481\System.Diagnostics.Contracts.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Diagnostics.Debug.dll" WithCulture="false">
+            <LogicalName>net481.System.Diagnostics.Debug</LogicalName>
+            <Link>Resources\net481\System.Diagnostics.Debug.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Diagnostics.FileVersionInfo.dll" WithCulture="false">
+            <LogicalName>net481.System.Diagnostics.FileVersionInfo</LogicalName>
+            <Link>Resources\net481\System.Diagnostics.FileVersionInfo.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Diagnostics.Process.dll" WithCulture="false">
+            <LogicalName>net481.System.Diagnostics.Process</LogicalName>
+            <Link>Resources\net481\System.Diagnostics.Process.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Diagnostics.StackTrace.dll" WithCulture="false">
+            <LogicalName>net481.System.Diagnostics.StackTrace</LogicalName>
+            <Link>Resources\net481\System.Diagnostics.StackTrace.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Diagnostics.TextWriterTraceListener.dll" WithCulture="false">
+            <LogicalName>net481.System.Diagnostics.TextWriterTraceListener</LogicalName>
+            <Link>Resources\net481\System.Diagnostics.TextWriterTraceListener.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Diagnostics.Tools.dll" WithCulture="false">
+            <LogicalName>net481.System.Diagnostics.Tools</LogicalName>
+            <Link>Resources\net481\System.Diagnostics.Tools.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Diagnostics.TraceSource.dll" WithCulture="false">
+            <LogicalName>net481.System.Diagnostics.TraceSource</LogicalName>
+            <Link>Resources\net481\System.Diagnostics.TraceSource.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Drawing.Primitives.dll" WithCulture="false">
+            <LogicalName>net481.System.Drawing.Primitives</LogicalName>
+            <Link>Resources\net481\System.Drawing.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Dynamic.Runtime.dll" WithCulture="false">
+            <LogicalName>net481.System.Dynamic.Runtime</LogicalName>
+            <Link>Resources\net481\System.Dynamic.Runtime.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Globalization.Calendars.dll" WithCulture="false">
+            <LogicalName>net481.System.Globalization.Calendars</LogicalName>
+            <Link>Resources\net481\System.Globalization.Calendars.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Globalization.Extensions.dll" WithCulture="false">
+            <LogicalName>net481.System.Globalization.Extensions</LogicalName>
+            <Link>Resources\net481\System.Globalization.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Globalization.dll" WithCulture="false">
+            <LogicalName>net481.System.Globalization</LogicalName>
+            <Link>Resources\net481\System.Globalization.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.IO.Compression.ZipFile.dll" WithCulture="false">
+            <LogicalName>net481.System.IO.Compression.ZipFile</LogicalName>
+            <Link>Resources\net481\System.IO.Compression.ZipFile.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.IO.FileSystem.DriveInfo.dll" WithCulture="false">
+            <LogicalName>net481.System.IO.FileSystem.DriveInfo</LogicalName>
+            <Link>Resources\net481\System.IO.FileSystem.DriveInfo.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.IO.FileSystem.Primitives.dll" WithCulture="false">
+            <LogicalName>net481.System.IO.FileSystem.Primitives</LogicalName>
+            <Link>Resources\net481\System.IO.FileSystem.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.IO.FileSystem.Watcher.dll" WithCulture="false">
+            <LogicalName>net481.System.IO.FileSystem.Watcher</LogicalName>
+            <Link>Resources\net481\System.IO.FileSystem.Watcher.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.IO.FileSystem.dll" WithCulture="false">
+            <LogicalName>net481.System.IO.FileSystem</LogicalName>
+            <Link>Resources\net481\System.IO.FileSystem.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.IO.IsolatedStorage.dll" WithCulture="false">
+            <LogicalName>net481.System.IO.IsolatedStorage</LogicalName>
+            <Link>Resources\net481\System.IO.IsolatedStorage.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.IO.MemoryMappedFiles.dll" WithCulture="false">
+            <LogicalName>net481.System.IO.MemoryMappedFiles</LogicalName>
+            <Link>Resources\net481\System.IO.MemoryMappedFiles.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.IO.Pipes.dll" WithCulture="false">
+            <LogicalName>net481.System.IO.Pipes</LogicalName>
+            <Link>Resources\net481\System.IO.Pipes.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.IO.UnmanagedMemoryStream.dll" WithCulture="false">
+            <LogicalName>net481.System.IO.UnmanagedMemoryStream</LogicalName>
+            <Link>Resources\net481\System.IO.UnmanagedMemoryStream.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.IO.dll" WithCulture="false">
+            <LogicalName>net481.System.IO</LogicalName>
+            <Link>Resources\net481\System.IO.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Linq.Expressions.dll" WithCulture="false">
+            <LogicalName>net481.System.Linq.Expressions</LogicalName>
+            <Link>Resources\net481\System.Linq.Expressions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Linq.Parallel.dll" WithCulture="false">
+            <LogicalName>net481.System.Linq.Parallel</LogicalName>
+            <Link>Resources\net481\System.Linq.Parallel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Linq.Queryable.dll" WithCulture="false">
+            <LogicalName>net481.System.Linq.Queryable</LogicalName>
+            <Link>Resources\net481\System.Linq.Queryable.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Linq.dll" WithCulture="false">
+            <LogicalName>net481.System.Linq</LogicalName>
+            <Link>Resources\net481\System.Linq.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Net.Http.Rtc.dll" WithCulture="false">
+            <LogicalName>net481.System.Net.Http.Rtc</LogicalName>
+            <Link>Resources\net481\System.Net.Http.Rtc.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Net.NameResolution.dll" WithCulture="false">
+            <LogicalName>net481.System.Net.NameResolution</LogicalName>
+            <Link>Resources\net481\System.Net.NameResolution.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Net.NetworkInformation.dll" WithCulture="false">
+            <LogicalName>net481.System.Net.NetworkInformation</LogicalName>
+            <Link>Resources\net481\System.Net.NetworkInformation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Net.Ping.dll" WithCulture="false">
+            <LogicalName>net481.System.Net.Ping</LogicalName>
+            <Link>Resources\net481\System.Net.Ping.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Net.Primitives.dll" WithCulture="false">
+            <LogicalName>net481.System.Net.Primitives</LogicalName>
+            <Link>Resources\net481\System.Net.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Net.Requests.dll" WithCulture="false">
+            <LogicalName>net481.System.Net.Requests</LogicalName>
+            <Link>Resources\net481\System.Net.Requests.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Net.Security.dll" WithCulture="false">
+            <LogicalName>net481.System.Net.Security</LogicalName>
+            <Link>Resources\net481\System.Net.Security.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Net.Sockets.dll" WithCulture="false">
+            <LogicalName>net481.System.Net.Sockets</LogicalName>
+            <Link>Resources\net481\System.Net.Sockets.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Net.WebHeaderCollection.dll" WithCulture="false">
+            <LogicalName>net481.System.Net.WebHeaderCollection</LogicalName>
+            <Link>Resources\net481\System.Net.WebHeaderCollection.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Net.WebSockets.Client.dll" WithCulture="false">
+            <LogicalName>net481.System.Net.WebSockets.Client</LogicalName>
+            <Link>Resources\net481\System.Net.WebSockets.Client.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Net.WebSockets.dll" WithCulture="false">
+            <LogicalName>net481.System.Net.WebSockets</LogicalName>
+            <Link>Resources\net481\System.Net.WebSockets.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.ObjectModel.dll" WithCulture="false">
+            <LogicalName>net481.System.ObjectModel</LogicalName>
+            <Link>Resources\net481\System.ObjectModel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Reflection.Emit.ILGeneration.dll" WithCulture="false">
+            <LogicalName>net481.System.Reflection.Emit.ILGeneration</LogicalName>
+            <Link>Resources\net481\System.Reflection.Emit.ILGeneration.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Reflection.Emit.Lightweight.dll" WithCulture="false">
+            <LogicalName>net481.System.Reflection.Emit.Lightweight</LogicalName>
+            <Link>Resources\net481\System.Reflection.Emit.Lightweight.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Reflection.Emit.dll" WithCulture="false">
+            <LogicalName>net481.System.Reflection.Emit</LogicalName>
+            <Link>Resources\net481\System.Reflection.Emit.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Reflection.Extensions.dll" WithCulture="false">
+            <LogicalName>net481.System.Reflection.Extensions</LogicalName>
+            <Link>Resources\net481\System.Reflection.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Reflection.Primitives.dll" WithCulture="false">
+            <LogicalName>net481.System.Reflection.Primitives</LogicalName>
+            <Link>Resources\net481\System.Reflection.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Reflection.dll" WithCulture="false">
+            <LogicalName>net481.System.Reflection</LogicalName>
+            <Link>Resources\net481\System.Reflection.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Resources.Reader.dll" WithCulture="false">
+            <LogicalName>net481.System.Resources.Reader</LogicalName>
+            <Link>Resources\net481\System.Resources.Reader.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Resources.ResourceManager.dll" WithCulture="false">
+            <LogicalName>net481.System.Resources.ResourceManager</LogicalName>
+            <Link>Resources\net481\System.Resources.ResourceManager.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Resources.Writer.dll" WithCulture="false">
+            <LogicalName>net481.System.Resources.Writer</LogicalName>
+            <Link>Resources\net481\System.Resources.Writer.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Runtime.CompilerServices.VisualC.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.CompilerServices.VisualC</LogicalName>
+            <Link>Resources\net481\System.Runtime.CompilerServices.VisualC.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Runtime.Extensions.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.Extensions</LogicalName>
+            <Link>Resources\net481\System.Runtime.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Runtime.Handles.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.Handles</LogicalName>
+            <Link>Resources\net481\System.Runtime.Handles.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Runtime.InteropServices.RuntimeInformation.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.InteropServices.RuntimeInformation</LogicalName>
+            <Link>Resources\net481\System.Runtime.InteropServices.RuntimeInformation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Runtime.InteropServices.WindowsRuntime.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.InteropServices.WindowsRuntime</LogicalName>
+            <Link>Resources\net481\System.Runtime.InteropServices.WindowsRuntime.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Runtime.InteropServices.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.InteropServices</LogicalName>
+            <Link>Resources\net481\System.Runtime.InteropServices.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Runtime.Numerics.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.Numerics</LogicalName>
+            <Link>Resources\net481\System.Runtime.Numerics.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Runtime.Serialization.Formatters.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.Serialization.Formatters</LogicalName>
+            <Link>Resources\net481\System.Runtime.Serialization.Formatters.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Runtime.Serialization.Json.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.Serialization.Json</LogicalName>
+            <Link>Resources\net481\System.Runtime.Serialization.Json.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Runtime.Serialization.Primitives.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.Serialization.Primitives</LogicalName>
+            <Link>Resources\net481\System.Runtime.Serialization.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Runtime.Serialization.Xml.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.Serialization.Xml</LogicalName>
+            <Link>Resources\net481\System.Runtime.Serialization.Xml.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Runtime.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime</LogicalName>
+            <Link>Resources\net481\System.Runtime.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Security.Claims.dll" WithCulture="false">
+            <LogicalName>net481.System.Security.Claims</LogicalName>
+            <Link>Resources\net481\System.Security.Claims.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Security.Cryptography.Algorithms.dll" WithCulture="false">
+            <LogicalName>net481.System.Security.Cryptography.Algorithms</LogicalName>
+            <Link>Resources\net481\System.Security.Cryptography.Algorithms.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Security.Cryptography.Csp.dll" WithCulture="false">
+            <LogicalName>net481.System.Security.Cryptography.Csp</LogicalName>
+            <Link>Resources\net481\System.Security.Cryptography.Csp.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Security.Cryptography.Encoding.dll" WithCulture="false">
+            <LogicalName>net481.System.Security.Cryptography.Encoding</LogicalName>
+            <Link>Resources\net481\System.Security.Cryptography.Encoding.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Security.Cryptography.Primitives.dll" WithCulture="false">
+            <LogicalName>net481.System.Security.Cryptography.Primitives</LogicalName>
+            <Link>Resources\net481\System.Security.Cryptography.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Security.Cryptography.X509Certificates.dll" WithCulture="false">
+            <LogicalName>net481.System.Security.Cryptography.X509Certificates</LogicalName>
+            <Link>Resources\net481\System.Security.Cryptography.X509Certificates.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Security.Principal.dll" WithCulture="false">
+            <LogicalName>net481.System.Security.Principal</LogicalName>
+            <Link>Resources\net481\System.Security.Principal.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Security.SecureString.dll" WithCulture="false">
+            <LogicalName>net481.System.Security.SecureString</LogicalName>
+            <Link>Resources\net481\System.Security.SecureString.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.ServiceModel.Duplex.dll" WithCulture="false">
+            <LogicalName>net481.System.ServiceModel.Duplex</LogicalName>
+            <Link>Resources\net481\System.ServiceModel.Duplex.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.ServiceModel.Http.dll" WithCulture="false">
+            <LogicalName>net481.System.ServiceModel.Http</LogicalName>
+            <Link>Resources\net481\System.ServiceModel.Http.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.ServiceModel.NetTcp.dll" WithCulture="false">
+            <LogicalName>net481.System.ServiceModel.NetTcp</LogicalName>
+            <Link>Resources\net481\System.ServiceModel.NetTcp.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.ServiceModel.Primitives.dll" WithCulture="false">
+            <LogicalName>net481.System.ServiceModel.Primitives</LogicalName>
+            <Link>Resources\net481\System.ServiceModel.Primitives.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.ServiceModel.Security.dll" WithCulture="false">
+            <LogicalName>net481.System.ServiceModel.Security</LogicalName>
+            <Link>Resources\net481\System.ServiceModel.Security.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Text.Encoding.Extensions.dll" WithCulture="false">
+            <LogicalName>net481.System.Text.Encoding.Extensions</LogicalName>
+            <Link>Resources\net481\System.Text.Encoding.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Text.Encoding.dll" WithCulture="false">
+            <LogicalName>net481.System.Text.Encoding</LogicalName>
+            <Link>Resources\net481\System.Text.Encoding.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Text.RegularExpressions.dll" WithCulture="false">
+            <LogicalName>net481.System.Text.RegularExpressions</LogicalName>
+            <Link>Resources\net481\System.Text.RegularExpressions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Threading.Overlapped.dll" WithCulture="false">
+            <LogicalName>net481.System.Threading.Overlapped</LogicalName>
+            <Link>Resources\net481\System.Threading.Overlapped.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Threading.Tasks.Parallel.dll" WithCulture="false">
+            <LogicalName>net481.System.Threading.Tasks.Parallel</LogicalName>
+            <Link>Resources\net481\System.Threading.Tasks.Parallel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Threading.Tasks.dll" WithCulture="false">
+            <LogicalName>net481.System.Threading.Tasks</LogicalName>
+            <Link>Resources\net481\System.Threading.Tasks.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Threading.Thread.dll" WithCulture="false">
+            <LogicalName>net481.System.Threading.Thread</LogicalName>
+            <Link>Resources\net481\System.Threading.Thread.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Threading.ThreadPool.dll" WithCulture="false">
+            <LogicalName>net481.System.Threading.ThreadPool</LogicalName>
+            <Link>Resources\net481\System.Threading.ThreadPool.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Threading.Timer.dll" WithCulture="false">
+            <LogicalName>net481.System.Threading.Timer</LogicalName>
+            <Link>Resources\net481\System.Threading.Timer.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Threading.dll" WithCulture="false">
+            <LogicalName>net481.System.Threading</LogicalName>
+            <Link>Resources\net481\System.Threading.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.ValueTuple.dll" WithCulture="false">
+            <LogicalName>net481.System.ValueTuple</LogicalName>
+            <Link>Resources\net481\System.ValueTuple.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Xml.ReaderWriter.dll" WithCulture="false">
+            <LogicalName>net481.System.Xml.ReaderWriter</LogicalName>
+            <Link>Resources\net481\System.Xml.ReaderWriter.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Xml.XDocument.dll" WithCulture="false">
+            <LogicalName>net481.System.Xml.XDocument</LogicalName>
+            <Link>Resources\net481\System.Xml.XDocument.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Xml.XPath.XDocument.dll" WithCulture="false">
+            <LogicalName>net481.System.Xml.XPath.XDocument</LogicalName>
+            <Link>Resources\net481\System.Xml.XPath.XDocument.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Xml.XPath.dll" WithCulture="false">
+            <LogicalName>net481.System.Xml.XPath</LogicalName>
+            <Link>Resources\net481\System.Xml.XPath.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Xml.XmlDocument.dll" WithCulture="false">
+            <LogicalName>net481.System.Xml.XmlDocument</LogicalName>
+            <Link>Resources\net481\System.Xml.XmlDocument.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/System.Xml.XmlSerializer.dll" WithCulture="false">
+            <LogicalName>net481.System.Xml.XmlSerializer</LogicalName>
+            <Link>Resources\net481\System.Xml.XmlSerializer.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Facades/netstandard.dll" WithCulture="false">
+            <LogicalName>net481.netstandard</LogicalName>
+            <Link>Resources\net481\netstandard.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/ISymWrapper.dll" WithCulture="false">
+            <LogicalName>net481.ISymWrapper</LogicalName>
+            <Link>Resources\net481\ISymWrapper.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Microsoft.Activities.Build.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.Activities.Build</LogicalName>
+            <Link>Resources\net481\Microsoft.Activities.Build.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Microsoft.Build.Conversion.v4.0.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.Build.Conversion.v4.0</LogicalName>
+            <Link>Resources\net481\Microsoft.Build.Conversion.v4.0.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Microsoft.Build.Engine.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.Build.Engine</LogicalName>
+            <Link>Resources\net481\Microsoft.Build.Engine.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Microsoft.Build.Framework.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.Build.Framework</LogicalName>
+            <Link>Resources\net481\Microsoft.Build.Framework.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Microsoft.Build.Tasks.v4.0.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.Build.Tasks.v4.0</LogicalName>
+            <Link>Resources\net481\Microsoft.Build.Tasks.v4.0.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Microsoft.Build.Utilities.v4.0.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.Build.Utilities.v4.0</LogicalName>
+            <Link>Resources\net481\Microsoft.Build.Utilities.v4.0.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Microsoft.Build.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.Build</LogicalName>
+            <Link>Resources\net481\Microsoft.Build.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Microsoft.CSharp.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.CSharp</LogicalName>
+            <Link>Resources\net481\Microsoft.CSharp.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Microsoft.JScript.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.JScript</LogicalName>
+            <Link>Resources\net481\Microsoft.JScript.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Microsoft.VisualBasic.Compatibility.Data.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.VisualBasic.Compatibility.Data</LogicalName>
+            <Link>Resources\net481\Microsoft.VisualBasic.Compatibility.Data.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Microsoft.VisualBasic.Compatibility.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.VisualBasic.Compatibility</LogicalName>
+            <Link>Resources\net481\Microsoft.VisualBasic.Compatibility.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Microsoft.VisualBasic.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.VisualBasic</LogicalName>
+            <Link>Resources\net481\Microsoft.VisualBasic.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Microsoft.VisualC.STLCLR.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.VisualC.STLCLR</LogicalName>
+            <Link>Resources\net481\Microsoft.VisualC.STLCLR.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/Microsoft.VisualC.dll" WithCulture="false">
+            <LogicalName>net481.Microsoft.VisualC</LogicalName>
+            <Link>Resources\net481\Microsoft.VisualC.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/PresentationBuildTasks.dll" WithCulture="false">
+            <LogicalName>net481.PresentationBuildTasks</LogicalName>
+            <Link>Resources\net481\PresentationBuildTasks.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/PresentationCore.dll" WithCulture="false">
+            <LogicalName>net481.PresentationCore</LogicalName>
+            <Link>Resources\net481\PresentationCore.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/PresentationFramework.Aero.dll" WithCulture="false">
+            <LogicalName>net481.PresentationFramework.Aero</LogicalName>
+            <Link>Resources\net481\PresentationFramework.Aero.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/PresentationFramework.Aero2.dll" WithCulture="false">
+            <LogicalName>net481.PresentationFramework.Aero2</LogicalName>
+            <Link>Resources\net481\PresentationFramework.Aero2.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/PresentationFramework.AeroLite.dll" WithCulture="false">
+            <LogicalName>net481.PresentationFramework.AeroLite</LogicalName>
+            <Link>Resources\net481\PresentationFramework.AeroLite.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/PresentationFramework.Classic.dll" WithCulture="false">
+            <LogicalName>net481.PresentationFramework.Classic</LogicalName>
+            <Link>Resources\net481\PresentationFramework.Classic.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/PresentationFramework.Luna.dll" WithCulture="false">
+            <LogicalName>net481.PresentationFramework.Luna</LogicalName>
+            <Link>Resources\net481\PresentationFramework.Luna.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/PresentationFramework.Royale.dll" WithCulture="false">
+            <LogicalName>net481.PresentationFramework.Royale</LogicalName>
+            <Link>Resources\net481\PresentationFramework.Royale.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/PresentationFramework.dll" WithCulture="false">
+            <LogicalName>net481.PresentationFramework</LogicalName>
+            <Link>Resources\net481\PresentationFramework.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/ReachFramework.dll" WithCulture="false">
+            <LogicalName>net481.ReachFramework</LogicalName>
+            <Link>Resources\net481\ReachFramework.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Activities.Core.Presentation.dll" WithCulture="false">
+            <LogicalName>net481.System.Activities.Core.Presentation</LogicalName>
+            <Link>Resources\net481\System.Activities.Core.Presentation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Activities.DurableInstancing.dll" WithCulture="false">
+            <LogicalName>net481.System.Activities.DurableInstancing</LogicalName>
+            <Link>Resources\net481\System.Activities.DurableInstancing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Activities.Presentation.dll" WithCulture="false">
+            <LogicalName>net481.System.Activities.Presentation</LogicalName>
+            <Link>Resources\net481\System.Activities.Presentation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Activities.dll" WithCulture="false">
+            <LogicalName>net481.System.Activities</LogicalName>
+            <Link>Resources\net481\System.Activities.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.AddIn.Contract.dll" WithCulture="false">
+            <LogicalName>net481.System.AddIn.Contract</LogicalName>
+            <Link>Resources\net481\System.AddIn.Contract.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.AddIn.dll" WithCulture="false">
+            <LogicalName>net481.System.AddIn</LogicalName>
+            <Link>Resources\net481\System.AddIn.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.ComponentModel.Composition.Registration.dll" WithCulture="false">
+            <LogicalName>net481.System.ComponentModel.Composition.Registration</LogicalName>
+            <Link>Resources\net481\System.ComponentModel.Composition.Registration.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.ComponentModel.Composition.dll" WithCulture="false">
+            <LogicalName>net481.System.ComponentModel.Composition</LogicalName>
+            <Link>Resources\net481\System.ComponentModel.Composition.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.ComponentModel.DataAnnotations.dll" WithCulture="false">
+            <LogicalName>net481.System.ComponentModel.DataAnnotations</LogicalName>
+            <Link>Resources\net481\System.ComponentModel.DataAnnotations.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Configuration.Install.dll" WithCulture="false">
+            <LogicalName>net481.System.Configuration.Install</LogicalName>
+            <Link>Resources\net481\System.Configuration.Install.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Configuration.dll" WithCulture="false">
+            <LogicalName>net481.System.Configuration</LogicalName>
+            <Link>Resources\net481\System.Configuration.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Core.dll" WithCulture="false">
+            <LogicalName>net481.System.Core</LogicalName>
+            <Link>Resources\net481\System.Core.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Data.DataSetExtensions.dll" WithCulture="false">
+            <LogicalName>net481.System.Data.DataSetExtensions</LogicalName>
+            <Link>Resources\net481\System.Data.DataSetExtensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Data.Entity.Design.dll" WithCulture="false">
+            <LogicalName>net481.System.Data.Entity.Design</LogicalName>
+            <Link>Resources\net481\System.Data.Entity.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Data.Entity.dll" WithCulture="false">
+            <LogicalName>net481.System.Data.Entity</LogicalName>
+            <Link>Resources\net481\System.Data.Entity.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Data.Linq.dll" WithCulture="false">
+            <LogicalName>net481.System.Data.Linq</LogicalName>
+            <Link>Resources\net481\System.Data.Linq.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Data.OracleClient.dll" WithCulture="false">
+            <LogicalName>net481.System.Data.OracleClient</LogicalName>
+            <Link>Resources\net481\System.Data.OracleClient.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Data.Services.Client.dll" WithCulture="false">
+            <LogicalName>net481.System.Data.Services.Client</LogicalName>
+            <Link>Resources\net481\System.Data.Services.Client.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Data.Services.Design.dll" WithCulture="false">
+            <LogicalName>net481.System.Data.Services.Design</LogicalName>
+            <Link>Resources\net481\System.Data.Services.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Data.Services.dll" WithCulture="false">
+            <LogicalName>net481.System.Data.Services</LogicalName>
+            <Link>Resources\net481\System.Data.Services.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Data.SqlXml.dll" WithCulture="false">
+            <LogicalName>net481.System.Data.SqlXml</LogicalName>
+            <Link>Resources\net481\System.Data.SqlXml.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Data.dll" WithCulture="false">
+            <LogicalName>net481.System.Data</LogicalName>
+            <Link>Resources\net481\System.Data.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Deployment.dll" WithCulture="false">
+            <LogicalName>net481.System.Deployment</LogicalName>
+            <Link>Resources\net481\System.Deployment.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Design.dll" WithCulture="false">
+            <LogicalName>net481.System.Design</LogicalName>
+            <Link>Resources\net481\System.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Device.dll" WithCulture="false">
+            <LogicalName>net481.System.Device</LogicalName>
+            <Link>Resources\net481\System.Device.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Diagnostics.Tracing.dll" WithCulture="false">
+            <LogicalName>net481.System.Diagnostics.Tracing</LogicalName>
+            <Link>Resources\net481\System.Diagnostics.Tracing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.DirectoryServices.AccountManagement.dll" WithCulture="false">
+            <LogicalName>net481.System.DirectoryServices.AccountManagement</LogicalName>
+            <Link>Resources\net481\System.DirectoryServices.AccountManagement.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.DirectoryServices.Protocols.dll" WithCulture="false">
+            <LogicalName>net481.System.DirectoryServices.Protocols</LogicalName>
+            <Link>Resources\net481\System.DirectoryServices.Protocols.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.DirectoryServices.dll" WithCulture="false">
+            <LogicalName>net481.System.DirectoryServices</LogicalName>
+            <Link>Resources\net481\System.DirectoryServices.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Drawing.Design.dll" WithCulture="false">
+            <LogicalName>net481.System.Drawing.Design</LogicalName>
+            <Link>Resources\net481\System.Drawing.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Drawing.dll" WithCulture="false">
+            <LogicalName>net481.System.Drawing</LogicalName>
+            <Link>Resources\net481\System.Drawing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Dynamic.dll" WithCulture="false">
+            <LogicalName>net481.System.Dynamic</LogicalName>
+            <Link>Resources\net481\System.Dynamic.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.EnterpriseServices.dll" WithCulture="false">
+            <LogicalName>net481.System.EnterpriseServices</LogicalName>
+            <Link>Resources\net481\System.EnterpriseServices.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.IO.Compression.FileSystem.dll" WithCulture="false">
+            <LogicalName>net481.System.IO.Compression.FileSystem</LogicalName>
+            <Link>Resources\net481\System.IO.Compression.FileSystem.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.IO.Compression.dll" WithCulture="false">
+            <LogicalName>net481.System.IO.Compression</LogicalName>
+            <Link>Resources\net481\System.IO.Compression.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.IO.Log.dll" WithCulture="false">
+            <LogicalName>net481.System.IO.Log</LogicalName>
+            <Link>Resources\net481\System.IO.Log.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.IdentityModel.Selectors.dll" WithCulture="false">
+            <LogicalName>net481.System.IdentityModel.Selectors</LogicalName>
+            <Link>Resources\net481\System.IdentityModel.Selectors.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.IdentityModel.Services.dll" WithCulture="false">
+            <LogicalName>net481.System.IdentityModel.Services</LogicalName>
+            <Link>Resources\net481\System.IdentityModel.Services.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.IdentityModel.dll" WithCulture="false">
+            <LogicalName>net481.System.IdentityModel</LogicalName>
+            <Link>Resources\net481\System.IdentityModel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Management.Instrumentation.dll" WithCulture="false">
+            <LogicalName>net481.System.Management.Instrumentation</LogicalName>
+            <Link>Resources\net481\System.Management.Instrumentation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Management.dll" WithCulture="false">
+            <LogicalName>net481.System.Management</LogicalName>
+            <Link>Resources\net481\System.Management.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Messaging.dll" WithCulture="false">
+            <LogicalName>net481.System.Messaging</LogicalName>
+            <Link>Resources\net481\System.Messaging.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Net.Http.WebRequest.dll" WithCulture="false">
+            <LogicalName>net481.System.Net.Http.WebRequest</LogicalName>
+            <Link>Resources\net481\System.Net.Http.WebRequest.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Net.Http.dll" WithCulture="false">
+            <LogicalName>net481.System.Net.Http</LogicalName>
+            <Link>Resources\net481\System.Net.Http.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Net.dll" WithCulture="false">
+            <LogicalName>net481.System.Net</LogicalName>
+            <Link>Resources\net481\System.Net.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Numerics.dll" WithCulture="false">
+            <LogicalName>net481.System.Numerics</LogicalName>
+            <Link>Resources\net481\System.Numerics.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Printing.dll" WithCulture="false">
+            <LogicalName>net481.System.Printing</LogicalName>
+            <Link>Resources\net481\System.Printing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Reflection.Context.dll" WithCulture="false">
+            <LogicalName>net481.System.Reflection.Context</LogicalName>
+            <Link>Resources\net481\System.Reflection.Context.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Runtime.Caching.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.Caching</LogicalName>
+            <Link>Resources\net481\System.Runtime.Caching.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Runtime.DurableInstancing.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.DurableInstancing</LogicalName>
+            <Link>Resources\net481\System.Runtime.DurableInstancing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Runtime.Remoting.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.Remoting</LogicalName>
+            <Link>Resources\net481\System.Runtime.Remoting.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Runtime.Serialization.Formatters.Soap.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.Serialization.Formatters.Soap</LogicalName>
+            <Link>Resources\net481\System.Runtime.Serialization.Formatters.Soap.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Runtime.Serialization.dll" WithCulture="false">
+            <LogicalName>net481.System.Runtime.Serialization</LogicalName>
+            <Link>Resources\net481\System.Runtime.Serialization.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Security.dll" WithCulture="false">
+            <LogicalName>net481.System.Security</LogicalName>
+            <Link>Resources\net481\System.Security.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.ServiceModel.Activation.dll" WithCulture="false">
+            <LogicalName>net481.System.ServiceModel.Activation</LogicalName>
+            <Link>Resources\net481\System.ServiceModel.Activation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.ServiceModel.Activities.dll" WithCulture="false">
+            <LogicalName>net481.System.ServiceModel.Activities</LogicalName>
+            <Link>Resources\net481\System.ServiceModel.Activities.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.ServiceModel.Channels.dll" WithCulture="false">
+            <LogicalName>net481.System.ServiceModel.Channels</LogicalName>
+            <Link>Resources\net481\System.ServiceModel.Channels.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.ServiceModel.Discovery.dll" WithCulture="false">
+            <LogicalName>net481.System.ServiceModel.Discovery</LogicalName>
+            <Link>Resources\net481\System.ServiceModel.Discovery.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.ServiceModel.Routing.dll" WithCulture="false">
+            <LogicalName>net481.System.ServiceModel.Routing</LogicalName>
+            <Link>Resources\net481\System.ServiceModel.Routing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.ServiceModel.Web.dll" WithCulture="false">
+            <LogicalName>net481.System.ServiceModel.Web</LogicalName>
+            <Link>Resources\net481\System.ServiceModel.Web.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.ServiceModel.dll" WithCulture="false">
+            <LogicalName>net481.System.ServiceModel</LogicalName>
+            <Link>Resources\net481\System.ServiceModel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.ServiceProcess.dll" WithCulture="false">
+            <LogicalName>net481.System.ServiceProcess</LogicalName>
+            <Link>Resources\net481\System.ServiceProcess.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Speech.dll" WithCulture="false">
+            <LogicalName>net481.System.Speech</LogicalName>
+            <Link>Resources\net481\System.Speech.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Transactions.dll" WithCulture="false">
+            <LogicalName>net481.System.Transactions</LogicalName>
+            <Link>Resources\net481\System.Transactions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.Abstractions.dll" WithCulture="false">
+            <LogicalName>net481.System.Web.Abstractions</LogicalName>
+            <Link>Resources\net481\System.Web.Abstractions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.ApplicationServices.dll" WithCulture="false">
+            <LogicalName>net481.System.Web.ApplicationServices</LogicalName>
+            <Link>Resources\net481\System.Web.ApplicationServices.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.DataVisualization.Design.dll" WithCulture="false">
+            <LogicalName>net481.System.Web.DataVisualization.Design</LogicalName>
+            <Link>Resources\net481\System.Web.DataVisualization.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.DataVisualization.dll" WithCulture="false">
+            <LogicalName>net481.System.Web.DataVisualization</LogicalName>
+            <Link>Resources\net481\System.Web.DataVisualization.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.DynamicData.Design.dll" WithCulture="false">
+            <LogicalName>net481.System.Web.DynamicData.Design</LogicalName>
+            <Link>Resources\net481\System.Web.DynamicData.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.DynamicData.dll" WithCulture="false">
+            <LogicalName>net481.System.Web.DynamicData</LogicalName>
+            <Link>Resources\net481\System.Web.DynamicData.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.Entity.Design.dll" WithCulture="false">
+            <LogicalName>net481.System.Web.Entity.Design</LogicalName>
+            <Link>Resources\net481\System.Web.Entity.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.Entity.dll" WithCulture="false">
+            <LogicalName>net481.System.Web.Entity</LogicalName>
+            <Link>Resources\net481\System.Web.Entity.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.Extensions.Design.dll" WithCulture="false">
+            <LogicalName>net481.System.Web.Extensions.Design</LogicalName>
+            <Link>Resources\net481\System.Web.Extensions.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.Extensions.dll" WithCulture="false">
+            <LogicalName>net481.System.Web.Extensions</LogicalName>
+            <Link>Resources\net481\System.Web.Extensions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.Mobile.dll" WithCulture="false">
+            <LogicalName>net481.System.Web.Mobile</LogicalName>
+            <Link>Resources\net481\System.Web.Mobile.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.RegularExpressions.dll" WithCulture="false">
+            <LogicalName>net481.System.Web.RegularExpressions</LogicalName>
+            <Link>Resources\net481\System.Web.RegularExpressions.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.Routing.dll" WithCulture="false">
+            <LogicalName>net481.System.Web.Routing</LogicalName>
+            <Link>Resources\net481\System.Web.Routing.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.Services.dll" WithCulture="false">
+            <LogicalName>net481.System.Web.Services</LogicalName>
+            <Link>Resources\net481\System.Web.Services.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Web.dll" WithCulture="false">
+            <LogicalName>net481.System.Web</LogicalName>
+            <Link>Resources\net481\System.Web.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Windows.Controls.Ribbon.dll" WithCulture="false">
+            <LogicalName>net481.System.Windows.Controls.Ribbon</LogicalName>
+            <Link>Resources\net481\System.Windows.Controls.Ribbon.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Windows.Forms.DataVisualization.Design.dll" WithCulture="false">
+            <LogicalName>net481.System.Windows.Forms.DataVisualization.Design</LogicalName>
+            <Link>Resources\net481\System.Windows.Forms.DataVisualization.Design.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Windows.Forms.DataVisualization.dll" WithCulture="false">
+            <LogicalName>net481.System.Windows.Forms.DataVisualization</LogicalName>
+            <Link>Resources\net481\System.Windows.Forms.DataVisualization.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Windows.Forms.dll" WithCulture="false">
+            <LogicalName>net481.System.Windows.Forms</LogicalName>
+            <Link>Resources\net481\System.Windows.Forms.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Windows.Input.Manipulations.dll" WithCulture="false">
+            <LogicalName>net481.System.Windows.Input.Manipulations</LogicalName>
+            <Link>Resources\net481\System.Windows.Input.Manipulations.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Windows.Presentation.dll" WithCulture="false">
+            <LogicalName>net481.System.Windows.Presentation</LogicalName>
+            <Link>Resources\net481\System.Windows.Presentation.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Windows.dll" WithCulture="false">
+            <LogicalName>net481.System.Windows</LogicalName>
+            <Link>Resources\net481\System.Windows.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Workflow.Activities.dll" WithCulture="false">
+            <LogicalName>net481.System.Workflow.Activities</LogicalName>
+            <Link>Resources\net481\System.Workflow.Activities.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Workflow.ComponentModel.dll" WithCulture="false">
+            <LogicalName>net481.System.Workflow.ComponentModel</LogicalName>
+            <Link>Resources\net481\System.Workflow.ComponentModel.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Workflow.Runtime.dll" WithCulture="false">
+            <LogicalName>net481.System.Workflow.Runtime</LogicalName>
+            <Link>Resources\net481\System.Workflow.Runtime.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.WorkflowServices.dll" WithCulture="false">
+            <LogicalName>net481.System.WorkflowServices</LogicalName>
+            <Link>Resources\net481\System.WorkflowServices.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Xaml.dll" WithCulture="false">
+            <LogicalName>net481.System.Xaml</LogicalName>
+            <Link>Resources\net481\System.Xaml.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Xml.Linq.dll" WithCulture="false">
+            <LogicalName>net481.System.Xml.Linq</LogicalName>
+            <Link>Resources\net481\System.Xml.Linq.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Xml.Serialization.dll" WithCulture="false">
+            <LogicalName>net481.System.Xml.Serialization</LogicalName>
+            <Link>Resources\net481\System.Xml.Serialization.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.Xml.dll" WithCulture="false">
+            <LogicalName>net481.System.Xml</LogicalName>
+            <Link>Resources\net481\System.Xml.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/System.dll" WithCulture="false">
+            <LogicalName>net481.System</LogicalName>
+            <Link>Resources\net481\System.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/UIAutomationClient.dll" WithCulture="false">
+            <LogicalName>net481.UIAutomationClient</LogicalName>
+            <Link>Resources\net481\UIAutomationClient.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/UIAutomationClientsideProviders.dll" WithCulture="false">
+            <LogicalName>net481.UIAutomationClientsideProviders</LogicalName>
+            <Link>Resources\net481\UIAutomationClientsideProviders.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/UIAutomationProvider.dll" WithCulture="false">
+            <LogicalName>net481.UIAutomationProvider</LogicalName>
+            <Link>Resources\net481\UIAutomationProvider.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/UIAutomationTypes.dll" WithCulture="false">
+            <LogicalName>net481.UIAutomationTypes</LogicalName>
+            <Link>Resources\net481\UIAutomationTypes.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/WindowsBase.dll" WithCulture="false">
+            <LogicalName>net481.WindowsBase</LogicalName>
+            <Link>Resources\net481\WindowsBase.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/WindowsFormsIntegration.dll" WithCulture="false">
+            <LogicalName>net481.WindowsFormsIntegration</LogicalName>
+            <Link>Resources\net481\WindowsFormsIntegration.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/XamlBuildTask.dll" WithCulture="false">
+            <LogicalName>net481.XamlBuildTask</LogicalName>
+            <Link>Resources\net481\XamlBuildTask.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/mscorlib.dll" WithCulture="false">
+            <LogicalName>net481.mscorlib</LogicalName>
+            <Link>Resources\net481\mscorlib.dll</Link>
+        </EmbeddedResource>
+        <EmbeddedResource Include="$(NuGetPackageRoot)/microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1/sysglobl.dll" WithCulture="false">
+            <LogicalName>net481.sysglobl</LogicalName>
+            <Link>Resources\net481\sysglobl.dll</Link>
+        </EmbeddedResource>
+    </ItemGroup>
+</Project>

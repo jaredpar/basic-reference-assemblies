@@ -125,6 +125,7 @@ static void Main()
         Assert.NotEmpty(NetStandard13.References.All);
         Assert.NotEmpty(Net461.References.All);
         Assert.NotEmpty(Net472.References.All);
+        Assert.NotEmpty(Net481.References.All);
         Assert.NotEmpty(Net100WasmAssembly.References.All);
     }
 

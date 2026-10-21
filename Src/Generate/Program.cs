@@ -31,6 +31,7 @@ Net35();
 Net40();
 Net461();
 Net472();
+Net481();
 CombinedReferenceInfo();
 
 void NetCoreApp31()
@@ -245,6 +246,14 @@ void Net472()
     File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
     File.WriteAllText(Path.Combine(combinedDir, "Generated.Net472.cs"), content.CodeContent, encoding);
     File.WriteAllText(Path.Combine(combinedDir, "Generated.Net472.targets"), content.TargetsContent, encoding);
+}
+
+void Net481()
+{
+    var content = GetGeneratedContent("Net481", [@"microsoft.netframework.referenceassemblies.net481/1.0.3/build/.NETFramework/v4.8.1"]);
+    var targetDir = Path.Combine(srcPath, "Basic.Reference.Assemblies.Net481");
+    File.WriteAllText(Path.Combine(targetDir, "Generated.cs"), content.CodeContent, encoding);
+    File.WriteAllText(Path.Combine(targetDir, "Generated.targets"), content.TargetsContent, encoding);
 }
 
 const string referenceInfo = """

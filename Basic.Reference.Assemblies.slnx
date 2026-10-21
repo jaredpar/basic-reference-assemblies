@@ -16,6 +16,7 @@
   <Project Path="Src/Basic.Reference.Assemblies.Net40/Basic.Reference.Assemblies.Net40.csproj" />
   <Project Path="Src/Basic.Reference.Assemblies.Net461/Basic.Reference.Assemblies.Net461.csproj" />
   <Project Path="Src/Basic.Reference.Assemblies.Net472/Basic.Reference.Assemblies.Net472.csproj" />
+  <Project Path="Src/Basic.Reference.Assemblies.Net481/Basic.Reference.Assemblies.Net481.csproj" />
   <Project Path="Src/Basic.Reference.Assemblies.Net50/Basic.Reference.Assemblies.Net50.csproj" />
   <Project Path="Src/Basic.Reference.Assemblies.Net60/Basic.Reference.Assemblies.Net60.csproj" />
   <Project Path="Src/Basic.Reference.Assemblies.Net60Windows/Basic.Reference.Assemblies.Net60Windows.csproj" />
